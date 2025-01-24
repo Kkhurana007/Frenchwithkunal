@@ -1,0 +1,56 @@
+{
+  "about.qmd": {
+    "about.html": "05b251ba"
+  },
+  "contact.qmd": {
+    "contact.html": "51be30c5"
+  },
+  "ethics.qmd": {
+    "ethics.html": "5b92cb06"
+  },
+  "terms.qmd": {
+    "terms.html": "86b456f9"
+  },
+  "index.qmd": {
+    "index.html": "08d6d416"
+  },
+  "posts/adjectives.qmd": {
+    "adjectives.html": "9098abef"
+  },
+  "posts/adverbs.qmd": {
+    "adverbs.html": "1efda165"
+  },
+  "posts/articles.qmd": {
+    "articles.html": "ee36f595"
+  },
+  "posts/future+conditional.qmd": {
+    "future+conditional.html": "031f4fe3"
+  },
+  "posts/Interrogatives.qmd": {
+    "Interrogatives.html": "9a76be9e"
+  },
+  "posts/nouns.qmd": {
+    "nouns.html": "f092a030"
+  },
+  "posts/Passecompose.qmd": {
+    "Passecompose.html": "8cdbc2b0"
+  },
+  "posts/prepositions.qmd": {
+    "prepositions.html": "0bc2a875"
+  },
+  "posts/pronouns.qmd": {
+    "pronouns.html": "bd507395"
+  },
+  "posts/pronunciation.qmd": {
+    "pronunciation.html": "5562829f"
+  },
+  "posts/subjunctive.qmd": {
+    "subjunctive.html": "ed2be76a"
+  },
+  "posts/verbs.qmd": {
+    "verbs.html": "a2388630"
+  },
+  "policy.qmd": {
+    "policy.html": "10417aa8"
+  }
+}

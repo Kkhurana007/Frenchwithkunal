@@ -1,0 +1,60 @@
+::: {.content-visible when-profile="english"}
+
+# Code of Ethics
+
+At French with Kunal, we are dedicated to maintaining the highest ethical standards in our teaching and interactions. Our commitment to integrity, respect, and professionalism shapes every aspect of our work.
+
+## 1. Respect and Integrity
+
+We ensure respectful communication with all learners, fostering an environment where trust and honesty are key. We are committed to providing accurate and meaningful language education.
+
+## 2. Quality Education
+
+We are dedicated to delivering high-quality content that empowers our students to learn French effectively, using proven methodologies and up-to-date resources.
+
+## 3. Confidentiality
+
+We respect the privacy of our students and handle all personal information with the utmost confidentiality, in compliance with data protection laws.
+
+## 4. Equal Opportunity
+
+We provide an inclusive and welcoming environment for learners of all backgrounds, ensuring that everyone has equal access to learning opportunities.
+
+## 5. Transparency
+
+We value transparency in all our interactions. We strive to be clear and honest in our communication, from course descriptions to pricing.
+
+## 6. Professionalism
+
+Our educators and staff maintain a high level of professionalism, adhering to ethical standards in all aspects of our work and providing a positive, supportive learning experience.
+
+:::
+
+::: {.content-visible when-profile="french"}
+
+# Code d'Éthique
+Chez French with Kunal, nous nous engageons à maintenir les plus hauts standards éthiques dans notre enseignement et nos interactions. Notre engagement envers l'intégrité, le respect et le professionnalisme façonne tous les aspects de notre travail.
+
+## 1. Respect et Intégrité
+Nous veillons à une communication respectueuse avec tous les apprenants, en favorisant un environnement où la confiance et l'honnêteté sont essentielles. Nous nous engageons à fournir un enseignement linguistique précis et significatif.
+
+## 2. Éducation de Qualité
+Nous nous engageons à offrir du contenu de haute qualité qui permet à nos étudiants d'apprendre le français efficacement, en utilisant des méthodologies éprouvées et des ressources à jour.
+
+## 3. Confidentialité
+Nous respectons la vie privée de nos étudiants et traitons toutes les informations personnelles avec la plus grande confidentialité, conformément aux lois sur la protection des données.
+
+## 4. Égalité des Chances
+Nous offrons un environnement inclusif et accueillant pour les apprenants de tous horizons, garantissant à chacun un accès égal aux opportunités d'apprentissage.
+
+## 5. Transparence
+Nous attachons de l'importance à la transparence dans toutes nos interactions. Nous nous efforçons d'être clairs et honnêtes dans notre communication, des descriptions de cours aux tarifs.
+
+## 6. Professionnalisme
+Nos éducateurs et notre personnel maintiennent un haut niveau de professionnalisme, en respectant les normes éthiques dans tous les aspects de notre travail et en offrant une expérience d'apprentissage positive et soutenante.
+
+:::
+
+
+
+

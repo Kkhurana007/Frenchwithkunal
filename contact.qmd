@@ -1,0 +1,35 @@
+---
+#title: "Contact Us"
+---
+
+::: {.content-visible when-profile="english"}
+# Contact Us
+
+We'd love to hear from you! Whether you have a question about our services, feedback, or need support, our team is here to help.
+
+## Get in Touch
+
+**Email:** [info@frenchwithkunal.ca](mailto:info@frenchwithkunal.ca)
+
+## Enrollment Form
+Fill out this [form](https://forms.gle/UGptE4egRewexaSK7) to join our online learning classes.
+
+
+
+:::
+
+::: {.content-visible when-profile="french"}
+
+# Contactez-nous
+
+Nous serions ravis de vous entendre! Que vous ayez une question sur nos services, des commentaires, ou besoin de soutien, notre équipe est là pour vous aider.
+
+## Nous contacter
+
+**Courriel:** [info@frenchwithkunal.ca](mailto:info@frenchwithkunal.ca)
+
+## Formulaire d'inscription
+Remplissez [ce formulaire](https://forms.gle/UGptE4egRewexaSK7) pour rejoindre nos cours en ligne.
+
+
+:::

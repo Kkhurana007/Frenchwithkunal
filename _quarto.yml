@@ -1,0 +1,18 @@
+project:
+  type: website
+  post-render: _post-render.py
+  preview:
+    port: 4200
+
+
+profile:
+  default: english
+  group: 
+    - [english, french]
+
+#metadata-files: 
+  #- _quarto-french.yml
+  #- _quarto-english.yml
+
+editor: visual
+

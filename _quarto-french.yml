@@ -1,0 +1,53 @@
+lang: fr
+
+project: 
+  title: "Français avec Kunal"
+  type: website
+  output-dir: docs/fr
+
+website:
+  favicon: images\logo.jpg
+  page-navigation: true
+  title: "Français avec Kunal"
+  site-url: "https://sustainable-future.ca/"
+  page-footer:
+    left: 
+      - text: Éthique
+        href: ethics.qmd
+      - text: Politique de confidentialité
+        href: policy.qmd
+      - text: Conditions de service
+        href: terms.qmd
+
+    right:
+      - text: English
+        href: https://sustainable-future.ca/index.html
+      - text: Français
+        href: https://sustainable-future.ca/fr/index.html
+      - icon: envelope
+        href: mailto:info@sustainable-future.ca
+    
+    center: |
+      @2025 Français avec Kunal <br>
+       Tous droits reservés. <br>
+       
+  navbar:
+    left:
+      - text: "À propos"
+        href: about.qmd
+      - text: "Nous Contacter"
+        href: contact.qmd
+    right:
+      - href: https://frenchwithkunal/index.html
+        text: English
+      - href: /fr/index.html
+        text: Français 
+format:
+  html:
+    theme: 
+      light: cerulean
+      dark: cyborg
+    fontsize: 1.1em
+    linestretch: 1.7
+    css: styles.css
+    toc: true
