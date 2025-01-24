@@ -25,8 +25,8 @@ website:
         href: https://frenchwithkunal/index.html
       - text: Français
         href: https://frenchwithkunal/fr/index.html
-      #- icon: envelope
-      #  href: mailto:info@sustainable-future.ca
+      - icon: envelope
+        href: mailto:info@frenchwithkunal.ca
     
     center: |
       @2025 French with Kunal <br>

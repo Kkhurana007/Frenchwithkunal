@@ -9,7 +9,7 @@ website:
   favicon: images\logo.jpg
   page-navigation: true
   title: "Français avec Kunal"
-  site-url: "https://sustainable-future.ca/"
+  site-url: "https://frenchwithkunal.ca/"
   page-footer:
     left: 
       - text: Éthique
@@ -21,11 +21,11 @@ website:
 
     right:
       - text: English
-        href: https://sustainable-future.ca/index.html
+        href: https://frenchwithkunal/index.html
       - text: Français
-        href: https://sustainable-future.ca/fr/index.html
+        href: https://frenchwithkunal/fr/index.html
       - icon: envelope
-        href: mailto:info@sustainable-future.ca
+        href: mailto:info@frenchwithkunal.ca
     
     center: |
       @2025 Français avec Kunal <br>
