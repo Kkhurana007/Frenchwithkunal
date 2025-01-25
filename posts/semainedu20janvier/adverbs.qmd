@@ -1,7 +1,10 @@
 ---
-title: "Adjectives"
+title: "Adverbs"
 author: "Kunal Khurana"
 date: "2025-24-01"
 categories: [A1/A2, adverbs, French]
-image: "ai_water_saving.png"
 ---
+
+The verb aller (to go) is commonly used in French to describe the present or the near future without conjugating other verbs. To do this, conjugate aller in the present tense (e.g., je vais, tu vas, il/elle va, nous allons, vous allez, ils/elles vont) followed by the infinitive form of the main verb. For example, je vais manger means "I am going to eat," and nous allons voyager means "we are going to travel." This structure helps you express actions happening soon without needing to conjugate the main verb. Here are some examples:-
+
+![](posts/semainedu20janvier/verbes_1-images-0.jpg){.nolightbox fig-align="center" style="margin-top: 0 px;"}

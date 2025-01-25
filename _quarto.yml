@@ -9,6 +9,10 @@ profile:
   default: english
   group: 
     - [english, french]
+    
+format:
+  pdf: 
+    documentclass: scrreprt
 
 #metadata-files: 
   #- _quarto-french.yml

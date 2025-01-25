@@ -5,6 +5,18 @@
       "posts/**/*/**.ipynb",
       "introgit.ipynb",
       "exogit.ipynb"
+    ],
+    "posts\\fr.qmd": [
+      "introgit.ipynb",
+      "exogit.ipynb"
+    ],
+    "posts\\index.qmd": [
+      "**/*/**.qmd",
+      "**/*/**.ipynb"
+    ],
+    "posts\\en.qmd": [
+      "**/*/**.qmd",
+      "**/*/**.ipynb"
     ]
   }
 }

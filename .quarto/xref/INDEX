@@ -1,9 +1,11 @@
 {
   "about.qmd": {
-    "about.html": "05b251ba"
+    "about.html": "05b251ba",
+    "about.tex": "95b12a90"
   },
   "contact.qmd": {
-    "contact.html": "51be30c5"
+    "contact.html": "51be30c5",
+    "contact.tex": "044f5863"
   },
   "ethics.qmd": {
     "ethics.html": "5b92cb06"
@@ -12,7 +14,8 @@
     "terms.html": "86b456f9"
   },
   "index.qmd": {
-    "index.html": "08d6d416"
+    "index.html": "08d6d416",
+    "index.tex": "dcd79850"
   },
   "posts/adjectives.qmd": {
     "adjectives.html": "9098abef"
@@ -52,5 +55,64 @@
   },
   "policy.qmd": {
     "policy.html": "10417aa8"
+  },
+  "posts/en.qmd": {
+    "en.html": "18b50128",
+    "en.tex": "2ee33e5e"
+  },
+  "posts/fr.qmd": {
+    "fr.html": "1a8b5030"
+  },
+  "posts/index.qmd": {
+    "index.html": "ee0361b5",
+    "index.tex": "8d14bc95"
+  },
+  "posts/semainedu20janvier/adjectives.qmd": {
+    "adjectives.html": "f064f5a7",
+    "adjectives.tex": "799ca961"
+  },
+  "posts/semainedu20janvier/adverbs.qmd": {
+    "adverbs.html": "ee67d10e",
+    "adverbs.tex": "d7faef01"
+  },
+  "posts/semainedu20janvier/articles.qmd": {
+    "articles.html": "13271836",
+    "articles.tex": "ca8f6461"
+  },
+  "posts/semainedu20janvier/future+conditional.qmd": {
+    "future+conditional.html": "0d79d0d8",
+    "future+conditional.tex": "93e6be12"
+  },
+  "posts/semainedu20janvier/Interrogatives.qmd": {
+    "Interrogatives.html": "25c4701b",
+    "Interrogatives.tex": "20b1be12"
+  },
+  "posts/semainedu20janvier/nouns.qmd": {
+    "nouns.html": "5ffe99cf",
+    "nouns.tex": "f1d70332"
+  },
+  "posts/semainedu20janvier/Passecompose.qmd": {
+    "Passecompose.html": "ec9e25f6",
+    "Passecompose.tex": "4325eb8d"
+  },
+  "posts/semainedu20janvier/prepositions.qmd": {
+    "prepositions.html": "484e6dfa",
+    "prepositions.tex": "015574e4"
+  },
+  "posts/semainedu20janvier/pronouns.qmd": {
+    "pronouns.html": "82159334",
+    "pronouns.tex": "1cb44d86"
+  },
+  "posts/semainedu20janvier/pronunciation.qmd": {
+    "pronunciation.html": "5bdb46ae",
+    "pronunciation.tex": "3c7b5db3"
+  },
+  "posts/semainedu20janvier/subjunctive.qmd": {
+    "subjunctive.html": "869854e3",
+    "subjunctive.tex": "88320715"
+  },
+  "posts/semainedu20janvier/verbs.qmd": {
+    "verbs.html": "dccbf73f",
+    "verbs.tex": "8525c5c2"
   }
 }

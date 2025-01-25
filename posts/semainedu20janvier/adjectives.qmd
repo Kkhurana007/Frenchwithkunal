@@ -6,27 +6,23 @@ categories: [A1/A2, Adjectives, French]
 image: "ai_water_saving.png"
 ---
 
-
 ::: {.content-visible when-profile="english"}
-
 Useful Websites for practice for A1/A2 students-
 
-1. Bonjour de France - Qualifying Adjectives: This site offers interactive exercises to learn how to use qualifying adjectives in French. 
+1.  Bonjour de France - Qualifying Adjectives: This site offers interactive exercises to learn how to use qualifying adjectives in French.
 
-2. Français Facile - Exercises on Adjectives: A dedicated section for adjectives with various exercises to help students understand and correctly use adjectives in French. The exercises are categorized by difficulty level. Français Facile
+2.  Français Facile - Exercises on Adjectives: A dedicated section for adjectives with various exercises to help students understand and correctly use adjectives in French. The exercises are categorized by difficulty level. Français Facile
 
-3. TV5MONDE - Adjectives in French: TV5MONDE offers interactive exercises to learn adjectives in French. The activities are suitable for beginners and allow practice of adjective agreement in gender and number. TV5MONDE
+3.  TV5MONDE - Adjectives in French: TV5MONDE offers interactive exercises to learn adjectives in French. The activities are suitable for beginners and allow practice of adjective agreement in gender and number. TV5MONDE
 
-4. Le Point du FLE - Qualifying Adjectives: This site gathers exercises and activities to learn qualifying adjectives in French. The resources are varied and suitable for A1 level students. Le Point du FLE.
-
+4.  Le Point du FLE - Qualifying Adjectives: This site gathers exercises and activities to learn qualifying adjectives in French. The resources are varied and suitable for A1 level students. Le Point du FLE.
 :::
 
 ::: {.content-hidden when-profile="french"}
 
-1. Bonjour de France - Les adjectifs qualificatifs : Bonjour de France
-2. Français Facile - Exercices sur les adjectifs : Français Facile
-3. TV5MONDE - Les adjectifs en français : TV5MONDE
-4. Le Point du FLE - Adjectifs qualificatifs : [Le Point du FLE(https://www.lepointdufle.net/p/adjectifs.htm)]
+1.  Bonjour de France - Les adjectifs qualificatifs : Bonjour de France
+2.  Français Facile - Exercices sur les adjectifs : Français Facile
+3.  TV5MONDE - Les adjectifs en français : TV5MONDE
+4.  Le Point du FLE - Adjectifs qualificatifs : \[Le Point du FLE(https://www.lepointdufle.net/p/adjectifs.htm)\]
 
-
----
+------------------------------------------------------------------------
