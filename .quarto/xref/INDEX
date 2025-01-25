@@ -8,10 +8,12 @@
     "contact.tex": "044f5863"
   },
   "ethics.qmd": {
-    "ethics.html": "5b92cb06"
+    "ethics.html": "5b92cb06",
+    "ethics.tex": "33d5952f"
   },
   "terms.qmd": {
-    "terms.html": "86b456f9"
+    "terms.html": "86b456f9",
+    "terms.tex": "997ab4b3"
   },
   "index.qmd": {
     "index.html": "08d6d416",
@@ -54,14 +56,16 @@
     "verbs.html": "a2388630"
   },
   "policy.qmd": {
-    "policy.html": "10417aa8"
+    "policy.html": "10417aa8",
+    "policy.tex": "6ad812ac"
   },
   "posts/en.qmd": {
     "en.html": "18b50128",
     "en.tex": "2ee33e5e"
   },
   "posts/fr.qmd": {
-    "fr.html": "1a8b5030"
+    "fr.html": "1a8b5030",
+    "fr.tex": "de0f4b95"
   },
   "posts/index.qmd": {
     "index.html": "ee0361b5",
