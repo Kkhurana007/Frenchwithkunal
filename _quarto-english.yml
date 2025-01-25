@@ -7,7 +7,7 @@ project:
 
 
 website:
-  favicon: images\logo.jpg
+  favicon: images\logo.png
   page-navigation: true
   title: "French with Kunal"
   site-url: "https://frenchwithkunal.ca"

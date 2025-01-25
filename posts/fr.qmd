@@ -1,0 +1,23 @@
+---
+title: "Posts en français"
+listing:
+  - id: posts-fr
+    contents: 
+    - "introgit.ipynb"
+    - "exogit.ipynb"
+    type: grid
+    fields: [image, date, title, subtitle, categories, author, reading-time]  
+    sort: "date desc"
+    categories: cloud
+    sort-ui: true
+    filter-ui: true
+    page-size: 12
+page-layout: full
+title-block-banner: false
+comments: false
+---
+
+## Posts en Français
+
+::: {#posts-fr}
+:::

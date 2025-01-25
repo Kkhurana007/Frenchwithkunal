@@ -6,7 +6,7 @@ project:
   output-dir: docs/fr
 
 website:
-  favicon: images\logo.jpg
+  favicon: images\logo.png
   page-navigation: true
   title: "Français avec Kunal"
   site-url: "https://frenchwithkunal.ca/"
@@ -38,7 +38,7 @@ website:
       - text: "Nous Contacter"
         href: contact.qmd
     right:
-      - href: https://frenchwithkunal/index.html
+      - href: https://Frenchwithkunal/index.html
         text: English
       - href: /fr/index.html
         text: Français 
