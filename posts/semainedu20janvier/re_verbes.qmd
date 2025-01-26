@@ -1,0 +1,36 @@
+---
+title: "re_category-present_tense"
+author: "Kunal Khurana"
+date: "2025-24-01"
+categories: [A1/A2, re_verbes, present tense]
+image: "re_category.png"
+---
+
+::: { .content-visible when-profile="english"}
+
+In French, -re verbs are another group of regular verbs that follow their own conjugation pattern. To conjugate an -re verb in the present tense, you remove the -re ending from the infinitive, leaving the stem, and then add the following endings: -s, -s, -, -ons, -ez, -ent. For example, with the verb "vendre" (to sell):
+
+je vends (I sell) tu vends (you sell, informal) il/elle vend (he/she sells) nous vendons (we sell) vous vendez (you sell, formal/plural) ils/elles vendent (they sell)
+
+Most -re verbs, like attendre (to wait) or perdre (to lose), follow this regular conjugation pattern, making them predictable and relatively easy to conjugate in various tenses. However, similar to other verb categories, there are some irregular -re verbs that don’t follow these rules.
+
+For details, you may look at [this pdf](https://drive.google.com/file/d/1PizCfomf28UFpEyQjwFZ0hcOT-etdyuX/view?usp=drive_link).
+
+:::
+
+
+::: { .content-visible when-profile="french"}
+
+En français, les verbes en -re forment un autre groupe de verbes réguliers qui suivent leur propre modèle de conjugaison. Pour conjuguer un verbe en -re au présent de l'indicatif, on enlève la terminaison -re de l'infinitif, ce qui laisse le radical, puis on ajoute les terminaisons suivantes : -s, -s, -, -ons, -ez, -ent. Par exemple, avec le verbe "vendre" (vendre) :
+
+je vends (je vends)
+tu vends (tu vends, informel)
+il/elle vend (il/elle vend)
+nous vendons (nous vendons)
+vous vendez (vous vendez, formel/pluriel)
+ils/elles vendent (ils/elles vendent)
+La plupart des verbes en -re, comme attendre (attendre) ou perdre (perdre), suivent ce modèle de conjugaison régulier, ce qui les rend prévisibles et relativement faciles à conjuguer dans différents temps. Cependant, comme pour d'autres catégories de verbes, certains verbes en -re sont irréguliers et ne suivent pas ces règles.
+
+Pour plus de détails, tu peux consulter [ce pdf](https://drive.google.com/file/d/1PizCfomf28UFpEyQjwFZ0hcOT-etdyuX/view?usp=drive_link).
+
+:::

@@ -134,5 +134,9 @@
   "posts/semainedu20janvier/ir_verbes.qmd": {
     "ir_verbes.html": "6eff960d",
     "ir_verbes.tex": "8f0371b4"
+  },
+  "posts/semainedu20janvier/re_verbes.qmd": {
+    "re_verbes.html": "bd14691d",
+    "re_verbes.tex": "58ca9cb5"
   }
 }
