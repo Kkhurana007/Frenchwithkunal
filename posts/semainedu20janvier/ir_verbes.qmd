@@ -1,0 +1,22 @@
+---
+title: "ir_category-present_tense"
+author: "Kunal Khurana"
+date: "2025-24-01"
+categories: [A1/A2, ir_verbes, present tense]
+image: "ir_category.png"
+---
+
+
+In French, -ir verbs are another category of regular verbs, and they follow a distinct conjugation pattern. To conjugate an -ir verb in the present tense, you remove the -ir ending from the infinitive, leaving the stem, and then add the appropriate endings: -s, -s, -t, -ssons, -ssez, -ssent. For example, with the verb "finir" (to finish):
+
+je finis (I finish)
+tu finis (you finish, informal)
+il/elle finit (he/she finishes)
+nous finissons (we finish)
+vous finissez (you finish, formal/plural)
+ils/elles finissent (they finish)
+
+Most -ir verbs, like choisir (to choose) or réussir (to succeed), follow this regular conjugation pattern, making them easier to learn compared to irregular verbs.
+
+You can look into detalied explanation [throught this pdf](https://drive.google.com/file/d/18y12oScOdZN7-oh21EtfY7D9PW4G1rby/view?usp=drive_link). 
+---

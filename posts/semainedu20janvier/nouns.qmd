@@ -1,7 +1,0 @@
----
-title: "Adjectives"
-author: "Kunal Khurana"
-date: "2025-24-01"
-categories: [A1/A2, Nouns, French]
-image: "ai_water_saving.png"
----

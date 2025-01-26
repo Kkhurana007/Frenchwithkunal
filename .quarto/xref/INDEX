@@ -118,5 +118,21 @@
   "posts/semainedu20janvier/verbs.qmd": {
     "verbs.html": "dccbf73f",
     "verbs.tex": "8525c5c2"
+  },
+  "posts/semainedu20janvier/resources.qmd": {
+    "resources.html": "1021b4f1",
+    "resources.tex": "7164b230"
+  },
+  "posts/semainedu20janvier/numbers.qmd": {
+    "numbers.html": "20e23869",
+    "numbers.tex": "198c4c8e"
+  },
+  "posts/semainedu20janvier/er_verbes.qmd": {
+    "er_verbes.html": "79a85a85",
+    "er_verbes.tex": "e32cd2fe"
+  },
+  "posts/semainedu20janvier/ir_verbes.qmd": {
+    "ir_verbes.html": "6eff960d",
+    "ir_verbes.tex": "8f0371b4"
   }
 }
