@@ -6,10 +6,32 @@ categories: [A1/A2, ir_verbes, present tense]
 image: "ir_category.png"
 ---
 
-In French, -ir verbs are another category of regular verbs, and they follow a distinct conjugation pattern. To conjugate an -ir verb in the present tense, you remove the -ir ending from the infinitive, leaving the stem, and then add the appropriate endings: -s, -s, -t, -ssons, -ssez, -ssent. For example, with the verb "finir" (to finish):
+::: { .content-visible when-profile="english"}
+
+In French, -ir verbs are another category of regular verbs, and they follow a distinct conjugation pattern. To conjugate an -ir verb in the present tense, you remove the -ir ending from the infinitive, leaving the stem, and then add the appropriate endings: -is, -is, -it, -issons, -issez, -issent. For example, with the verb "finir" (to finish):
 
 je finis (I finish) tu finis (you finish, informal) il/elle finit (he/she finishes) nous finissons (we finish) vous finissez (you finish, formal/plural) ils/elles finissent (they finish)
 
 Most -ir verbs, like choisir (to choose) or réussir (to succeed), follow this regular conjugation pattern, making them easier to learn compared to irregular verbs.
 
 You can look into detalied explanation [throught this pdf](https://drive.google.com/file/d/18y12oScOdZN7-oh21EtfY7D9PW4G1rby/view?usp=drive_link).
+
+:::
+
+
+::: { .content-visible when-profile="french"}
+
+En français, les verbes en -ir constituent une autre catégorie de verbes réguliers, et ils suivent un modèle de conjugaison distinct. Pour conjuguer un verbe en -ir au présent de l'indicatif, on enlève la terminaison -ir de l'infinitif, ce qui laisse le radical, puis on ajoute les terminaisons appropriées : -is, -is, -it, -issons, -issez, -issent. Par exemple, avec le verbe "finir" (finir) :
+
+je finis (je finis)
+tu finis (tu finis, informel)
+il/elle finit (il/elle finit)
+nous finissons (nous finissons)
+vous finissez (vous finissez, formel/pluriel)
+ils/elles finissent (ils/elles finissent)
+
+La plupart des verbes en -ir, comme choisir (choisir) ou réussir (réussir), suivent ce modèle de conjugaison régulier, ce qui les rend plus faciles à apprendre par rapport aux verbes irréguliers.
+
+Vous pouvez consulter une explication détaillée à [travers ce pdf](https://drive.google.com/file/d/18y12oScOdZN7-oh21EtfY7D9PW4G1rby/view?usp=drive_link).
+
+:::

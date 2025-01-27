@@ -20,12 +20,16 @@ website:
         href: terms.qmd
 
     right:
-      - text: English
-        href: https://frenchwithkunal/index.html
-      - text: Français
-        href: https://frenchwithkunal/fr/index.html
-      - icon: envelope
-        href: mailto:info@frenchwithkunal.ca
+      - text: Posts
+        menu:
+          - text: All posts
+            href: posts/index.qmd
+          - text: English
+            href: posts/en.qmd
+          - text: Français
+            href: posts/fr.qmd         
+      - icon: youtube
+        href: https://www.youtube.com/@kunalkhurana7822
     
     center: |
       @2025 Français avec Kunal <br>
@@ -38,9 +42,9 @@ website:
       - text: "Nous Contacter"
         href: contact.qmd
     right:
-      - href: https://Frenchwithkunal/index.html
+      - href: docs/index.html
         text: English
-      - href: /fr/index.html
+      - href: docs/fr/index.html
         text: Français 
 format:
   html:

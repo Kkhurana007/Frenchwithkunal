@@ -138,5 +138,9 @@
   "posts/semainedu20janvier/re_verbes.qmd": {
     "re_verbes.html": "bd14691d",
     "re_verbes.tex": "58ca9cb5"
+  },
+  "404.qmd": {
+    "404.html": "d7c26d23",
+    "404.tex": "74de94ed"
   }
 }

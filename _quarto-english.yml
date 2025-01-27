@@ -22,9 +22,9 @@ website:
 
     right:
       - text: English
-        href: https://frenchwithkunal/index.html
+        href: docs/index.html
       - text: Français
-        href: https://frenchwithkunal/fr/index.html
+        href: docs/fr/index.html
       - icon: envelope
         href: mailto:info@frenchwithkunal.ca
     
@@ -46,10 +46,16 @@ website:
       - text: "Contact Us"
         href: contact.qmd
     right:
-      - href: https://frenchwithkunal/index.html
-        text: English
-      - href: /fr/index.html
-        text: Français 
+      - text: Posts
+        menu:
+          - text: All posts
+            href: posts/index.qmd
+          - text: English
+            href: posts/en.qmd
+          - text: Français
+            href: posts/fr.qmd         
+      - icon: youtube
+        href: https://www.youtube.com/@kunalkhurana7822
 
 format:
   html:

@@ -3,8 +3,8 @@ title: "Posts en français"
 listing:
   - id: posts-fr
     contents: 
-    - "introgit.ipynb"
-    - "exogit.ipynb"
+    - "**/*/**.qmd"
+    - "**/*/**.ipynb"
     type: grid
     fields: [image, date, title, subtitle, categories, author, reading-time]  
     sort: "date desc"

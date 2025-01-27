@@ -2,17 +2,15 @@
   "listingMap": {
     "index.qmd": [
       "posts/**/*/**.qmd",
-      "posts/**/*/**.ipynb",
-      "introgit.ipynb",
-      "exogit.ipynb"
+      "posts/**/*/**.ipynb"
     ],
     "posts\\en.qmd": [
       "**/*/**.qmd",
       "**/*/**.ipynb"
     ],
     "posts\\fr.qmd": [
-      "introgit.ipynb",
-      "exogit.ipynb"
+      "**/*/**.qmd",
+      "**/*/**.ipynb"
     ],
     "posts\\index.qmd": [
       "**/*/**.qmd",

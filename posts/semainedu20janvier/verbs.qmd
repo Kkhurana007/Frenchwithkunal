@@ -6,9 +6,24 @@ categories: [A1/A2, verbs, French]
 image: "verbs.png"
 ---
 
+::: { .content-visible when-profile="english"}
+
 The verb aller (to go) is commonly used in French to describe the present or the near future without conjugating other verbs. To do this, conjugate aller in the present tense (e.g., je vais, tu vas, il/elle va, nous allons, vous allez, ils/elles vont) followed by the infinitive form of the main verb. For example, je vais manger means "I am going to eat," and nous allons voyager means "we are going to travel." This structure helps you express actions happening soon without needing to conjugate the main verb.
 
 Here are some examples:
 
-1. [Example-1](https://drive.google.com/file/d/1CPzcCDoKlz-lXpc6_OWU66hhKpLIV3kl/view?usp=drive_link)
-2. [Example-2](https://drive.google.com/file/d/1qeVtIk-MSwEwhey2RUZBXe8GGJyzzCXK/view?usp=drive_link)
+1.  [Example-1](https://drive.google.com/file/d/1CPzcCDoKlz-lXpc6_OWU66hhKpLIV3kl/view?usp=drive_link)
+2.  [Example-2](https://drive.google.com/file/d/1qeVtIk-MSwEwhey2RUZBXe8GGJyzzCXK/view?usp=drive_link)
+
+:::
+
+::: { .content-visible when-profile="french"}
+
+Le verbe aller (aller) est couramment utilisé en français pour décrire le présent ou le futur proche sans conjuguer d’autres verbes. Pour cela, conjuguez aller au présent de l’indicatif (par exemple, je vais, tu vas, il/elle va, nous allons, vous allez, ils/elles vont), suivi de l'infinitif du verbe principal. Par exemple, je vais manger signifie "je vais manger" et nous allons voyager signifie "nous allons voyager". Cette structure vous permet d’exprimer des actions qui se produiront bientôt sans avoir besoin de conjuguer le verbe principal.
+
+Voici quelques exemples :
+
+[Exemple-1](https://drive.google.com/file/d/1CPzcCDoKlz-lXpc6_OWU66hhKpLIV3kl/view?usp=drive_link)
+[Exemple-2](https://drive.google.com/file/d/1qeVtIk-MSwEwhey2RUZBXe8GGJyzzCXK/view?usp=drive_link)
+
+:::
