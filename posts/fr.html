@@ -76,7 +76,7 @@ ul.task-list li input[type="checkbox"] {
     const options = {
       valueNames: ['listing-image','listing-date','listing-title','listing-subtitle','listing-categories','listing-author','listing-reading-time',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-categories"],
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -127,13 +127,29 @@ ul.task-list li input[type="checkbox"] {
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item">
-    <a class="nav-link" href="https://frenchwithkunal.ca" rel="" target="">
- <span class="menu-text">English</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-posts" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
+ <span class="menu-text">Posts</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-posts">    
+        <li>
+    <a class="dropdown-item" href="../posts/index.html" rel="" target="">
+ <span class="dropdown-text">All posts</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../docs.html" rel="" target="">
- <span class="menu-text">Français</span></a>
+        <li>
+    <a class="dropdown-item" href="../posts/en.html" rel="" target="">
+ <span class="dropdown-text">English</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../posts/fr.html" rel="" target="">
+ <span class="dropdown-text">Français</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item compact">
+    <a class="nav-link" href="../www.youtube.com/@kunalkhurana7822" rel="" target=""><i class="bi bi-youtube" role="img">
+</i> 
+ <span class="menu-text"></span></a>
   </li>  
 </ul>
             <div class="quarto-navbar-tools">
@@ -155,7 +171,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#posts-en-français" id="toc-posts-en-français" class="nav-link active" data-scroll-target="#posts-en-français">Posts en Français</a></li>
   </ul>
 <div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="fr.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></nav>
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-cloud"></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-cloud"><div class="category" data-category="A1/A2"><span class="quarto-category-count category-cloud-10">A1/A2</span></div><div class="category" data-category="Counting"><span class="quarto-category-count category-cloud-2">Counting</span></div><div class="category" data-category="French"><span class="quarto-category-count category-cloud-3">French</span></div><div class="category" data-category="Numbers"><span class="quarto-category-count category-cloud-2">Numbers</span></div><div class="category" data-category="Pronunciation"><span class="quarto-category-count category-cloud-2">Pronunciation</span></div><div class="category" data-category="Resouces"><span class="quarto-category-count category-cloud-2">Resouces</span></div><div class="category" data-category="er_verbes"><span class="quarto-category-count category-cloud-2">er_verbes</span></div><div class="category" data-category="ir_verbes"><span class="quarto-category-count category-cloud-2">ir_verbes</span></div><div class="category" data-category="learn French"><span class="quarto-category-count category-cloud-2">learn French</span></div><div class="category" data-category="present tense"><span class="quarto-category-count category-cloud-5">present tense</span></div><div class="category" data-category="re_verbes"><span class="quarto-category-count category-cloud-2">re_verbes</span></div><div class="category" data-category="verbs"><span class="quarto-category-count category-cloud-2">verbs</span></div></div></div>
 <!-- main -->
 <main class="content column-page-left" id="quarto-document-content">
 
@@ -205,7 +221,258 @@ ul.task-list li input[type="checkbox"] {
     </div>
 </div>
 <div class="list grid quarto-listing-cols-3">
-
+<div class="g-col-1" data-index="0" data-categories="A1/A2,verbs,French" data-listing-date-sort="1798779600000" data-listing-file-modified-sort="1738005371718" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<a href="../posts/semainedu20janvier/verbs.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../posts/semainedu20janvier/verbs.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Sujet+aller+verbe
+</h5>
+<div class="listing-reading-time card-text text-muted">
+1 min
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('A1/A2'); return false;">
+A1/A2
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('verbs'); return false;">
+verbs
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('French'); return false;">
+French
+</div>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Kunal Khurana
+</div>
+<div class="listing-date">
+Jan 1, 2027
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="A1/A2,er_verbes,present tense" data-listing-date-sort="1796101200000" data-listing-file-modified-sort="1738005193963" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<a href="../posts/semainedu20janvier/er_verbes.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../posts/semainedu20janvier/er_category.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+er_category-present_tense
+</h5>
+<div class="listing-reading-time card-text text-muted">
+2 min
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('A1/A2'); return false;">
+A1/A2
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('er_verbes'); return false;">
+er_verbes
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('present tense'); return false;">
+present tense
+</div>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Kunal Khurana
+</div>
+<div class="listing-date">
+Dec 1, 2026
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="A1/A2,ir_verbes,present tense" data-listing-date-sort="1796101200000" data-listing-file-modified-sort="1738005506801" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<a href="../posts/semainedu20janvier/ir_verbes.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../posts/semainedu20janvier/ir_category.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+ir_category-present_tense
+</h5>
+<div class="listing-reading-time card-text text-muted">
+2 min
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('A1/A2'); return false;">
+A1/A2
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('ir_verbes'); return false;">
+ir_verbes
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('present tense'); return false;">
+present tense
+</div>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Kunal Khurana
+</div>
+<div class="listing-date">
+Dec 1, 2026
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="3" data-categories="A1/A2,Numbers,Counting" data-listing-date-sort="1796101200000" data-listing-file-modified-sort="1737917534986" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<a href="../posts/semainedu20janvier/numbers.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../posts/semainedu20janvier/numbers.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Numbers
+</h5>
+<div class="listing-reading-time card-text text-muted">
+2 min
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('A1/A2'); return false;">
+A1/A2
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Numbers'); return false;">
+Numbers
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Counting'); return false;">
+Counting
+</div>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Kunal Khurana
+</div>
+<div class="listing-date">
+Dec 1, 2026
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="4" data-categories="A1/A2,Pronunciation,French" data-listing-date-sort="1796101200000" data-listing-file-modified-sort="1738003906145" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<a href="../posts/semainedu20janvier/pronunciation.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../posts/semainedu20janvier/pronunciation.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Pronunciation
+</h5>
+<div class="listing-reading-time card-text text-muted">
+2 min
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('A1/A2'); return false;">
+A1/A2
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Pronunciation'); return false;">
+Pronunciation
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('French'); return false;">
+French
+</div>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Kunal Khurana
+</div>
+<div class="listing-date">
+Dec 1, 2026
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="5" data-categories="A1/A2,re_verbes,present tense" data-listing-date-sort="1796101200000" data-listing-file-modified-sort="1737917853357" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<a href="../posts/semainedu20janvier/re_verbes.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../posts/semainedu20janvier/re_category.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+re_category-present_tense
+</h5>
+<div class="listing-reading-time card-text text-muted">
+2 min
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('A1/A2'); return false;">
+A1/A2
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('re_verbes'); return false;">
+re_verbes
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('present tense'); return false;">
+present tense
+</div>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Kunal Khurana
+</div>
+<div class="listing-date">
+Dec 1, 2026
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="6" data-categories="A1/A2,Resouces,learn French" data-listing-date-sort="1796101200000" data-listing-file-modified-sort="1737918055433" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<a href="../posts/semainedu20janvier/resources.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../posts/semainedu20janvier/resources.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Useful resouces
+</h5>
+<div class="listing-reading-time card-text text-muted">
+2 min
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('A1/A2'); return false;">
+A1/A2
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Resouces'); return false;">
+Resouces
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('learn French'); return false;">
+learn French
+</div>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Kunal Khurana
+</div>
+<div class="listing-date">
+Dec 1, 2026
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
 </div>
 <div class="listing-no-matching d-none">
 No matching items
