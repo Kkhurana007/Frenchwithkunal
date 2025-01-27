@@ -14,6 +14,9 @@ format:
   pdf: 
     documentclass: scrreprt
 
+execute: 
+  freeze: true
+
 #metadata-files: 
   #- _quarto-french.yml
   #- _quarto-english.yml

@@ -9,7 +9,6 @@ website:
   favicon: images\logo.png
   page-navigation: true
   title: "Français avec Kunal"
-  site-url: "https://frenchwithkunal.ca/"
   page-footer:
     left: 
       - text: Éthique
@@ -42,9 +41,9 @@ website:
       - text: "Nous Contacter"
         href: contact.qmd
     right:
-      - href: docs/index.html
+      - href: https://frenchwithkunal.ca/
         text: English
-      - href: docs/fr/index.html
+      - href: docs\fr\index.html
         text: Français 
 format:
   html:
