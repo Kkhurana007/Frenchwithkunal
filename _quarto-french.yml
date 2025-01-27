@@ -19,14 +19,12 @@ website:
         href: terms.qmd
 
     right:
-      - text: Posts
-        menu:
-          - text: All posts
-            href: posts/index.qmd
-          - text: English
-            href: posts/en.qmd
-          - text: Français
-            href: posts/fr.qmd         
+      - text: English
+        href: C:\\Users\\khura\\OneDrive\\OneDrive - Université Laval\\Desktop\\frenchwithkunal.ca\\docs\\index.html
+      - text: Français
+        href: C:\\Users\\khura\\OneDrive\\OneDrive - Université Laval\\Desktop\\frenchwithkunal.ca\\docs\\fr\\index.html
+      - icon: envelope
+        href: mailto:info@frenchwithkunal.ca       
       - icon: youtube
         href: https://www.youtube.com/@kunalkhurana7822
     
@@ -41,10 +39,16 @@ website:
       - text: "Nous Contacter"
         href: contact.qmd
     right:
-      - href: https://frenchwithkunal.ca/
-        text: English
-      - href: docs\fr\index.html
-        text: Français 
+      - text: Posts
+        menu:
+          - text: All posts
+            href: posts/index.qmd
+          - text: English
+            href: posts/en.qmd
+          - text: Français
+            href: posts/fr.qmd         
+      - icon: youtube
+        href: https://www.youtube.com/@kunalkhurana7822
 format:
   html:
     theme: 
@@ -54,3 +58,7 @@ format:
     linestretch: 1.7
     css: styles.css
     toc: true
+
+execute:
+  freeze: true
+  increment: true

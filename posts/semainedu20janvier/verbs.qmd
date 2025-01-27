@@ -1,7 +1,7 @@
 ---
 title: "Sujet+aller+verbe"
 author: "Kunal Khurana"
-date: "2025-25-01"
+date: "01-25-2025"
 categories: [A1/A2, verbs, French]
 image: "verbs.png"
 ---

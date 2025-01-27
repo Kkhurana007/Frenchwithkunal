@@ -1,7 +1,7 @@
 ---
 title: "Pronunciation"
 author: "Kunal Khurana"
-date: "2025-24-01"
+date: "01-24-25"
 categories: [A1/A2, Pronunciation, French]
 image: "pronunciation.png"
 ---

@@ -27,6 +27,8 @@ website:
         href: docs/fr/index.html
       - icon: envelope
         href: mailto:info@frenchwithkunal.ca
+      - icon: youtube
+        href: https://www.youtube.com/@kunalkhurana7822 
     
     center: |
       @2025 French with Kunal <br>
@@ -51,9 +53,9 @@ website:
           - text: All posts
             href: posts/index.qmd
           - text: English
-            href: posts/en.qmd
+            href: C:\Users\khura\OneDrive\OneDrive - Université Laval\Desktop\frenchwithkunal.ca\docs\index.html
           - text: Français
-            href: posts/fr.qmd         
+            href: C:\Users\khura\OneDrive\OneDrive - Université Laval\Desktop\frenchwithkunal.ca\docs\fr        
       - icon: youtube
         href: https://www.youtube.com/@kunalkhurana7822
 
@@ -72,4 +74,4 @@ editor: visual
 
 execute:
   freeze: true
-  #increment: true
+  increment: true

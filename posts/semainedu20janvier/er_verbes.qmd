@@ -1,7 +1,7 @@
 ---
 title: "er_category-present_tense"
 author: "Kunal Khurana"
-date: "2025-24-01"
+date: "01-27-2025"
 categories: [A1/A2, er_verbes, present tense]
 image: "er_category.png"
 ---

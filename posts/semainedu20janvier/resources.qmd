@@ -1,7 +1,7 @@
 ---
 title: "Useful resouces"
 author: "Kunal Khurana"
-date: "2025-24-01"
+date: "01-27-2025"
 categories: [A1/A2, Resouces, learn French]
 image: "resources.png"
 ---
