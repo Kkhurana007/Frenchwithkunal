@@ -142,5 +142,17 @@
   "404.qmd": {
     "404.html": "d7c26d23",
     "404.tex": "74de94ed"
+  },
+  "posts/test_en.qmd": {
+    "test_en.html": "2fe9564d",
+    "test_en.tex": "347fb75c"
+  },
+  "posts/test_fr.qmd": {
+    "test_fr.html": "b6ae3257",
+    "test_fr.tex": "0cb9cf96"
+  },
+  "posts/test_index.qmd": {
+    "test_index.html": "27bc6f9c",
+    "test_index.tex": "fa657368"
   }
 }

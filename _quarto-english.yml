@@ -22,9 +22,9 @@ website:
 
     right:
       - text: English
-        href: docs/index.html
-      - text: Français
-        href: docs/fr/index.html
+        href: https://frenchwithkunal.ca/index.html
+      - text: French
+        href: https://frenchwithkunal.ca/fr/index.html
       - icon: envelope
         href: mailto:info@frenchwithkunal.ca
       - icon: youtube
@@ -48,14 +48,12 @@ website:
       - text: "Contact Us"
         href: contact.qmd
     right:
-      - text: Posts
+      - text: Language
         menu:
-          - text: All posts
-            href: posts/index.qmd
           - text: English
-            href: C:\Users\khura\OneDrive\OneDrive - Université Laval\Desktop\frenchwithkunal.ca\docs\index.html
+            href: https://frenchwithkunal.ca/index.html
           - text: Français
-            href: C:\Users\khura\OneDrive\OneDrive - Université Laval\Desktop\frenchwithkunal.ca\docs\fr        
+            href: https://frenchwithkunal.ca/fr/index.html      
       - icon: youtube
         href: https://www.youtube.com/@kunalkhurana7822
 
@@ -75,3 +73,4 @@ editor: visual
 execute:
   freeze: true
   increment: true
+  cache: true

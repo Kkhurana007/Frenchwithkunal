@@ -3,18 +3,6 @@
     "index.qmd": [
       "posts/**/*/**.qmd",
       "posts/**/*/**.ipynb"
-    ],
-    "posts\\en.qmd": [
-      "**/*/**.qmd",
-      "**/*/**.ipynb"
-    ],
-    "posts\\fr.qmd": [
-      "**/*/**.qmd",
-      "**/*/**.ipynb"
-    ],
-    "posts\\index.qmd": [
-      "**/*/**.qmd",
-      "**/*/**.ipynb"
     ]
   }
 }

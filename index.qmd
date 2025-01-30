@@ -1,7 +1,6 @@
 ---
 title: "Kunal Khurana"
 listing:
-  - id: posts-en
     contents: 
     - "posts/**/*/**.qmd"
     - "posts/**/*/**.ipynb"
@@ -12,36 +11,31 @@ listing:
     sort-ui: false
     filter-ui: false
     page-size: 6         
-  - id: posts-fr
-    contents: 
-    - "posts/**/*/**.qmd"
-    - "posts/**/*/**.ipynb"
-    type: grid
-    fields: [image, date, title, subtitle, categories, author, reading-time]
-    sort: "date desc"
-    categories: cloud
-    sort-ui: false
-    filter-ui: false
-    page-size: 6   
+
 page-layout: full
 title-block-banner: false
 comments: false
 toc: true
 ---
+
+::: {.content-visible when-profile="english"}
+
 ## Posts in English
 
-::: {#posts-en}
-:::
 
 <a href="../posts/en.html"> <button type="button" class="btn btn-primary float-end btn-sm">See all posts in English</button></a>
 
 <br>
 
+:::
+
+::: {.content-visible when-profile="french"}
+
 ## Posts en français
 
-::: {#posts-fr}
-:::
 
 <a href="../posts/fr.html"> <button type="button" class="btn btn-primary float-end btn-sm">Voir les postes en français</button></a>
 
 <br>
+
+:::
