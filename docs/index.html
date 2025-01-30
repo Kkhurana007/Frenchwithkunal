@@ -74,7 +74,7 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-posts-en .list');
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
@@ -88,36 +88,7 @@ ul.task-list li input[type="checkbox"] {
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-posts-en'] = new List('listing-posts-en', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-posts-fr .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-image','listing-date','listing-title','listing-subtitle','listing-categories','listing-author','listing-reading-time',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      page: 6,
-    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-posts-fr'] = new List('listing-posts-fr', options);
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -192,20 +163,16 @@ window.Quarto = {
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-posts" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Posts</span>
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-language" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Language</span>
     </a>
-    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-posts">    
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-language">    
         <li>
-    <a class="dropdown-item" href="./posts/index.html">
- <span class="dropdown-text">All posts</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="C:- Université Laval.ca.html">
+    <a class="dropdown-item" href="https://frenchwithkunal.ca/index.html">
  <span class="dropdown-text">English</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="C:- Université Laval.ca">
+    <a class="dropdown-item" href="https://frenchwithkunal.ca/fr/index.html">
  <span class="dropdown-text">Français</span></a>
   </li>  
     </ul>
@@ -233,7 +200,6 @@ window.Quarto = {
    
   <ul>
   <li><a href="#posts-in-english" id="toc-posts-in-english" class="nav-link active" data-scroll-target="#posts-in-english">Posts in English</a></li>
-  <li><a href="#posts-en-français" id="toc-posts-en-français" class="nav-link" data-scroll-target="#posts-en-français">Posts en français</a></li>
   </ul>
 <div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="index.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></nav>
     <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-cloud"><div class="category" data-category="QTElMkZBMg=="><span class="quarto-category-count category-cloud-10">A1/A2</span></div><div class="category" data-category="Q291bnRpbmc="><span class="quarto-category-count category-cloud-2">Counting</span></div><div class="category" data-category="RnJlbmNo"><span class="quarto-category-count category-cloud-3">French</span></div><div class="category" data-category="TnVtYmVycw=="><span class="quarto-category-count category-cloud-2">Numbers</span></div><div class="category" data-category="UHJvbnVuY2lhdGlvbg=="><span class="quarto-category-count category-cloud-2">Pronunciation</span></div><div class="category" data-category="UmVzb3VjZXM="><span class="quarto-category-count category-cloud-2">Resouces</span></div><div class="category" data-category="ZXJfdmVyYmVz"><span class="quarto-category-count category-cloud-2">er_verbes</span></div><div class="category" data-category="aXJfdmVyYmVz"><span class="quarto-category-count category-cloud-2">ir_verbes</span></div><div class="category" data-category="bGVhcm4lMjBGcmVuY2g="><span class="quarto-category-count category-cloud-2">learn French</span></div><div class="category" data-category="cHJlc2VudCUyMHRlbnNl"><span class="quarto-category-count category-cloud-5">present tense</span></div><div class="category" data-category="cmVfdmVyYmVz"><span class="quarto-category-count category-cloud-2">re_verbes</span></div><div class="category" data-category="dmVyYnM="><span class="quarto-category-count category-cloud-2">verbs</span></div></div></div>
@@ -261,274 +227,14 @@ window.Quarto = {
 
 <section id="posts-in-english" class="level2">
 <h2 class="anchored" data-anchor-id="posts-in-english">Posts in English</h2>
-<div id="listing-posts-en" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="QTElMkZBMiUyQ2VyX3ZlcmJlcyUyQ3ByZXNlbnQlMjB0ZW5zZQ==" data-listing-date-sort="1737954000000" data-listing-file-modified-sort="1738017369198" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="267">
-<a href="./posts/semainedu20janvier/er_verbes.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./posts/semainedu20janvier/er_category.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-er_category-present_tense
-</h5>
-<div class="listing-reading-time card-text text-muted">
-2 min
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('QTElMkZBMg=='); return false;">
-A1/A2
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('ZXJfdmVyYmVz'); return false;">
-er_verbes
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('cHJlc2VudCUyMHRlbnNl'); return false;">
-present tense
-</div>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Kunal Khurana
-</div>
-<div class="listing-date">
-Jan 27, 2025
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="QTElMkZBMiUyQ1Jlc291Y2VzJTJDbGVhcm4lMjBGcmVuY2g=" data-listing-date-sort="1737954000000" data-listing-file-modified-sort="1738017462713" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="302">
-<a href="./posts/semainedu20janvier/resources.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./posts/semainedu20janvier/resources.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Useful resouces
-</h5>
-<div class="listing-reading-time card-text text-muted">
-2 min
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('QTElMkZBMg=='); return false;">
-A1/A2
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('UmVzb3VjZXM='); return false;">
-Resouces
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('bGVhcm4lMjBGcmVuY2g='); return false;">
-learn French
-</div>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Kunal Khurana
-</div>
-<div class="listing-date">
-Jan 27, 2025
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="QTElMkZBMiUyQ051bWJlcnMlMkNDb3VudGluZw==" data-listing-date-sort="1737781200000" data-listing-file-modified-sort="1738017405313" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="306">
-<a href="./posts/semainedu20janvier/numbers.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./posts/semainedu20janvier/numbers.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Numbers
-</h5>
-<div class="listing-reading-time card-text text-muted">
-2 min
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('QTElMkZBMg=='); return false;">
-A1/A2
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('TnVtYmVycw=='); return false;">
-Numbers
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Q291bnRpbmc='); return false;">
-Counting
-</div>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Kunal Khurana
-</div>
-<div class="listing-date">
-Jan 25, 2025
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="3" data-categories="QTElMkZBMiUyQ3ZlcmJzJTJDRnJlbmNo" data-listing-date-sort="1737781200000" data-listing-file-modified-sort="1738017475475" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="189">
-<a href="./posts/semainedu20janvier/verbs.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./posts/semainedu20janvier/verbs.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Sujet+aller+verbe
-</h5>
-<div class="listing-reading-time card-text text-muted">
-1 min
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('QTElMkZBMg=='); return false;">
-A1/A2
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('dmVyYnM='); return false;">
-verbs
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('RnJlbmNo'); return false;">
-French
-</div>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Kunal Khurana
-</div>
-<div class="listing-date">
-Jan 25, 2025
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="4" data-categories="QTElMkZBMiUyQ2lyX3ZlcmJlcyUyQ3ByZXNlbnQlMjB0ZW5zZQ==" data-listing-date-sort="1737694800000" data-listing-file-modified-sort="1738017390293" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="242">
-<a href="./posts/semainedu20janvier/ir_verbes.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./posts/semainedu20janvier/ir_category.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-ir_category-present_tense
-</h5>
-<div class="listing-reading-time card-text text-muted">
-2 min
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('QTElMkZBMg=='); return false;">
-A1/A2
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('aXJfdmVyYmVz'); return false;">
-ir_verbes
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('cHJlc2VudCUyMHRlbnNl'); return false;">
-present tense
-</div>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Kunal Khurana
-</div>
-<div class="listing-date">
-Jan 24, 2025
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="5" data-categories="QTElMkZBMiUyQ1Byb251bmNpYXRpb24lMkNGcmVuY2g=" data-listing-date-sort="1737694800000" data-listing-file-modified-sort="1738017420047" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="266">
-<a href="./posts/semainedu20janvier/pronunciation.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./posts/semainedu20janvier/pronunciation.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Pronunciation
-</h5>
-<div class="listing-reading-time card-text text-muted">
-2 min
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('QTElMkZBMg=='); return false;">
-A1/A2
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('UHJvbnVuY2lhdGlvbg=='); return false;">
-Pronunciation
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('RnJlbmNo'); return false;">
-French
-</div>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Kunal Khurana
-</div>
-<div class="listing-date">
-Jan 24, 2025
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="6" data-categories="QTElMkZBMiUyQ3JlX3ZlcmJlcyUyQ3ByZXNlbnQlMjB0ZW5zZQ==" data-listing-date-sort="1737694800000" data-listing-file-modified-sort="1738017440008" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="280">
-<a href="./posts/semainedu20janvier/re_verbes.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" data-src="./posts/semainedu20janvier/re_category.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-re_category-present_tense
-</h5>
-<div class="listing-reading-time card-text text-muted">
-2 min
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('QTElMkZBMg=='); return false;">
-A1/A2
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('cmVfdmVyYmVz'); return false;">
-re_verbes
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('cHJlc2VudCUyMHRlbnNl'); return false;">
-present tense
-</div>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Kunal Khurana
-</div>
-<div class="listing-date">
-Jan 24, 2025
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-<nav id="posts-en-pagination" class="listing-pagination" aria-label="Page Navigation">
-  <ul class="pagination"></ul>
-</nav>
-</div>
 <p><a href="../posts/en.html"> <button type="button" class="btn btn-primary float-end btn-sm">See all posts in English</button></a></p>
 <p><br></p>
+
+
+
 </section>
-<section id="posts-en-français" class="level2">
-<h2 class="anchored" data-anchor-id="posts-en-français">Posts en français</h2>
-<div id="listing-posts-fr" class="quarto-listing quarto-listing-container-grid">
+
+<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
 <div class="list grid quarto-listing-cols-3">
 <div class="g-col-1" data-index="0" data-categories="QTElMkZBMiUyQ2VyX3ZlcmJlcyUyQ3ByZXNlbnQlMjB0ZW5zZQ==" data-listing-date-sort="1737954000000" data-listing-file-modified-sort="1738017369198" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="267">
 <a href="./posts/semainedu20janvier/er_verbes.html" class="quarto-grid-link">
@@ -786,18 +492,10 @@ Jan 24, 2025
 <div class="listing-no-matching d-none">
 No matching items
 </div>
-<nav id="posts-fr-pagination" class="listing-pagination" aria-label="Page Navigation">
+<nav id="listing-pagination" class="listing-pagination" aria-label="Page Navigation">
   <ul class="pagination"></ul>
 </nav>
-</div>
-<p><a href="../posts/fr.html"> <button type="button" class="btn btn-primary float-end btn-sm">Voir les postes en français</button></a></p>
-<p><br></p>
-
-
-
-</section>
-
-</main> <!-- /main -->
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -1393,7 +1091,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   </li>  
     <li class="nav-item">
     <a class="nav-link" href="./docs/fr/index.html">
-<p>Français</p>
+<p>French</p>
 </a>
   </li>  
     <li class="nav-item compact">
