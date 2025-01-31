@@ -17,8 +17,6 @@ website:
         href: policy.qmd
       - text: Conditions de service
         href: terms.qmd
-      - text: "Login"
-        href: login.qmd
 
     right:
       - text: English

@@ -47,8 +47,6 @@ website:
         href: about.qmd      
       - text: "Contact Us"
         href: contact.qmd
-      - text: "Login"
-        href: login.qmd
     right:
       - text: Language
         menu:
