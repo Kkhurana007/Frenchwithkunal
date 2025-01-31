@@ -17,25 +17,3 @@ title-block-banner: false
 comments: false
 toc: true
 ---
-
-::: {.content-visible when-profile="english"}
-
-## Posts in English
-
-
-<a href="../posts/en.html"> <button type="button" class="btn btn-primary float-end btn-sm">See all posts in English</button></a>
-
-<br>
-
-:::
-
-::: {.content-visible when-profile="french"}
-
-## Posts en français
-
-
-<a href="../posts/fr.html"> <button type="button" class="btn btn-primary float-end btn-sm">Voir les postes en français</button></a>
-
-<br>
-
-:::
