@@ -154,5 +154,16 @@
   "posts/test_index.qmd": {
     "test_index.html": "27bc6f9c",
     "test_index.tex": "fa657368"
+  },
+  "login.qmd": {
+    "login.html": "df04c96e",
+    "login.tex": "1a57cb25"
+  },
+  "backend_authentication.ipynb": {
+    "backend_authentication.html": "755f1229"
+  },
+  "posts/semainedu27janvier/greetings.qmd": {
+    "greetings.html": "a5f084d6",
+    "greetings.tex": "76493360"
   }
 }

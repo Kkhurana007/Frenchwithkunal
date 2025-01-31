@@ -1,0 +1,20 @@
+---
+title: "greetings/salutations"
+author: "Kunal Khurana"
+date: "01-31-2025"
+categories: [A1/A2, greetings, household items ]
+image: "greetings.png"
+---
+
+::: {.content-visible when-profile="english"}
+
+
+In today's [lecture](https://drive.google.com/file/d/1KJoeOHzNfLssg1yMZ70zjLV0ReWNs9bG/view?usp=drive_link), we’ve explored the richness of the French language, from its cultural nuances to practical everyday use. We discussed greetings like "Bonjour" for daytime and "Bonsoir" for evenings, as well as the formal use of "Madame" (for women) and "Monsieur" (for men). We also covered daily conversations, such as asking "Comment ça va?" (How are you?) or "Où est la boulangerie?" (Where is the bakery?). Additionally, we went over basic household items like "la table" (the table), "le lit" (the bed), and "le frigo" (the fridge) to help you navigate French-speaking environments with ease. Whether you're a language enthusiast or just starting out, these essentials are a great foundation for building your French skills!
+
+:::
+
+::: { .content-visible when-profile="french"}
+
+Dans cette [rencontre](https://drive.google.com/file/d/1KJoeOHzNfLssg1yMZ70zjLV0ReWNs9bG/view?usp=drive_link), nous avons exploré la richesse de la langue française, de ses nuances culturelles à son utilisation pratique au quotidien. Nous avons discuté des salutations comme "Bonjour" pour la journée et "Bonsoir" pour le soir, ainsi que de l'utilisation formelle de "Madame" (pour les femmes) et "Monsieur" (pour les hommes). Nous avons également abordé des conversations quotidiennes, comme demander "Comment ça va ?" ou "Où est la boulangerie ?". De plus, nous avons passé en revue des objets de base de la maison, tels que "la table", "le lit" et "le frigo", pour vous aider à naviguer facilement dans un environnement francophone. Que vous soyez passionné de langues ou simplement débutant, ces éléments essentiels constituent une excellente base pour développer vos compétences en français!
+
+:::
