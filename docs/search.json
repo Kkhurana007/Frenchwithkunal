@@ -7,6 +7,13 @@
     "text": "Terms of Service\nBy using French with Kunal’s services, you agree to these Terms:-\n\nOur services include French lessons, materials, and tutoring for personal learning.\nKeep your account secure and notify us of unauthorized access.\nPayments are non-refundable unless stated otherwise, and cancellations require 3 days notice.\nDo not use our services for illegal activities or share content without permission.\nYour data will be managed according to our Privacy Policy.\nWe are not liable for indirect damages, with our liability limited to payments made in the past 3 months.\nWe may terminate access for violations of these Terms.\nWe reserve the right to update these Terms; continued use means acceptance of changes.\nFor questions, contact us at info@frenchwithkunal.ca"
   },
   {
+    "objectID": "posts/semainedu27janvier/clothes.html",
+    "href": "posts/semainedu27janvier/clothes.html",
+    "title": "vêtements/clothes",
+    "section": "",
+    "text": "In one of my recent lessons, I taught my students how to ask for clothes in French, a practical skill for any language learner. For example, you can say: “Hello, I’m looking for a [sweater/dress/shirt] in size [M, L, etc.]. Do you have this model in [color]?” Or: “Do you have these jeans in another size?”\nThese simple phrases make it easy to navigate a store or shop online in French. I also explained the importance of using polite terms like “please” (s’il vous plaît) and “thank you” (merci). My students loved practicing these expressions, and some even created dialogues to practice!\nWhat about you? Have you ever tried shopping for clothes in French? Share your experiences in the comments!"
+  },
+  {
     "objectID": "posts/semainedu20janvier/re_verbes.html",
     "href": "posts/semainedu20janvier/re_verbes.html",
     "title": "re_category-present_tense",
@@ -142,16 +149,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Kunal Khurana",
+    "title": "Posts",
     "section": "",
-    "text": "See all posts in English"
-  },
-  {
-    "objectID": "index.html#posts-in-english",
-    "href": "index.html#posts-in-english",
-    "title": "Kunal Khurana",
-    "section": "",
-    "text": "See all posts in English"
+    "text": "vêtements/clothes\n\n\n2 min\n\n\n\nA1/A2\n\n\nvêtements\n\n\nclothes\n\n\n\n\nKunal Khurana\n\n\nJan 31, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ngreetings/salutations\n\n\n2 min\n\n\n\nA1/A2\n\n\ngreetings\n\n\nhousehold items\n\n\n\n\nKunal Khurana\n\n\nJan 31, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ner_category-present_tense\n\n\n2 min\n\n\n\nA1/A2\n\n\ner_verbes\n\n\npresent tense\n\n\n\n\nKunal Khurana\n\n\nJan 27, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUseful resouces\n\n\n2 min\n\n\n\nA1/A2\n\n\nResouces\n\n\nlearn French\n\n\n\n\nKunal Khurana\n\n\nJan 27, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNumbers\n\n\n2 min\n\n\n\nA1/A2\n\n\nNumbers\n\n\nCounting\n\n\n\n\nKunal Khurana\n\n\nJan 25, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSujet+aller+verbe\n\n\n1 min\n\n\n\nA1/A2\n\n\nverbs\n\n\nFrench\n\n\n\n\nKunal Khurana\n\n\nJan 25, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nir_category-present_tense\n\n\n2 min\n\n\n\nA1/A2\n\n\nir_verbes\n\n\npresent tense\n\n\n\n\nKunal Khurana\n\n\nJan 24, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPronunciation\n\n\n2 min\n\n\n\nA1/A2\n\n\nPronunciation\n\n\nFrench\n\n\n\n\nKunal Khurana\n\n\nJan 24, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nre_category-present_tense\n\n\n2 min\n\n\n\nA1/A2\n\n\nre_verbes\n\n\npresent tense\n\n\n\n\nKunal Khurana\n\n\nJan 24, 2025\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/semainedu20janvier/er_verbes.html",
@@ -180,20 +180,6 @@
     "title": "Sujet+aller+verbe",
     "section": "",
     "text": "The verb aller (to go) is commonly used in French to describe the present or the near future without conjugating other verbs. To do this, conjugate aller in the present tense (e.g., je vais, tu vas, il/elle va, nous allons, vous allez, ils/elles vont) followed by the infinitive form of the main verb. For example, je vais manger means “I am going to eat,” and nous allons voyager means “we are going to travel.” This structure helps you express actions happening soon without needing to conjugate the main verb.\nHere are some examples:\n\nExample-1\nExample-2"
-  },
-  {
-    "objectID": "login.html",
-    "href": "login.html",
-    "title": "Login",
-    "section": "",
-    "text": "Welcome to French with Kunal\nPlease log in to access your account.\n\n\n&lt;label for=\"username\"&gt;Username:&lt;/label&gt;\n&lt;input type=\"text\" id=\"username\" name=\"username\" required&gt;\n\n\n&lt;label for=\"password\"&gt;Password:&lt;/label&gt;\n&lt;input type=\"password\" id=\"password\" name=\"password\" required&gt;\n\n\n&lt;button type=\"submit\"&gt;Login&lt;/button&gt;\n\n\n\nDon’t have an account? Sign up here.\n\n```"
-  },
-  {
-    "objectID": "backend_authentication.html",
-    "href": "backend_authentication.html",
-    "title": "French with Kunal",
-    "section": "",
-    "text": "!pip install flask flask-login flask-sqlalchemy\n\nRequirement already satisfied: flask in c:\\users\\khura\\anaconda3\\lib\\site-packages (2.2.2)\nCollecting flask-login\n  Downloading Flask_Login-0.6.3-py3-none-any.whl.metadata (5.8 kB)\nCollecting flask-sqlalchemy\n  Downloading flask_sqlalchemy-3.1.1-py3-none-any.whl.metadata (3.4 kB)\nRequirement already satisfied: Werkzeug&gt;=2.2.2 in c:\\users\\khura\\anaconda3\\lib\\site-packages (from flask) (2.2.3)\nRequirement already satisfied: Jinja2&gt;=3.0 in c:\\users\\khura\\anaconda3\\lib\\site-packages (from flask) (3.1.2)\nRequirement already satisfied: itsdangerous&gt;=2.0 in c:\\users\\khura\\anaconda3\\lib\\site-packages (from flask) (2.0.1)\nRequirement already satisfied: click&gt;=8.0 in c:\\users\\khura\\anaconda3\\lib\\site-packages (from flask) (8.0.4)\nCollecting flask\n  Downloading flask-3.1.0-py3-none-any.whl.metadata (2.7 kB)\nCollecting sqlalchemy&gt;=2.0.16 (from flask-sqlalchemy)\n  Downloading SQLAlchemy-2.0.37-cp311-cp311-win_amd64.whl.metadata (9.9 kB)\nCollecting Werkzeug&gt;=1.0.1 (from flask-login)\n  Downloading werkzeug-3.1.3-py3-none-any.whl.metadata (3.7 kB)\nCollecting itsdangerous&gt;=2.2 (from flask)\n  Downloading itsdangerous-2.2.0-py3-none-any.whl.metadata (1.9 kB)\nCollecting click&gt;=8.1.3 (from flask)\n  Downloading click-8.1.8-py3-none-any.whl.metadata (2.3 kB)\nCollecting blinker&gt;=1.9 (from flask)\n  Downloading blinker-1.9.0-py3-none-any.whl.metadata (1.6 kB)\nRequirement already satisfied: colorama in c:\\users\\khura\\anaconda3\\lib\\site-packages (from click&gt;=8.1.3-&gt;flask) (0.4.6)\nRequirement already satisfied: MarkupSafe&gt;=2.0 in c:\\users\\khura\\anaconda3\\lib\\site-packages (from Jinja2&gt;=3.0-&gt;flask) (2.1.1)\nRequirement already satisfied: greenlet!=0.4.17 in c:\\users\\khura\\anaconda3\\lib\\site-packages (from sqlalchemy&gt;=2.0.16-&gt;flask-sqlalchemy) (2.0.1)\nRequirement already satisfied: typing-extensions&gt;=4.6.0 in c:\\users\\khura\\anaconda3\\lib\\site-packages (from sqlalchemy&gt;=2.0.16-&gt;flask-sqlalchemy) (4.12.2)\nDownloading Flask_Login-0.6.3-py3-none-any.whl (17 kB)\nDownloading flask_sqlalchemy-3.1.1-py3-none-any.whl (25 kB)\nDownloading flask-3.1.0-py3-none-any.whl (102 kB)\nDownloading blinker-1.9.0-py3-none-any.whl (8.5 kB)\nDownloading click-8.1.8-py3-none-any.whl (98 kB)\nDownloading itsdangerous-2.2.0-py3-none-any.whl (16 kB)\nDownloading SQLAlchemy-2.0.37-cp311-cp311-win_amd64.whl (2.1 MB)\n   ---------------------------------------- 0.0/2.1 MB ? eta -:--:--\n   ---------------------------------------- 2.1/2.1 MB 39.1 MB/s eta 0:00:00\nDownloading werkzeug-3.1.3-py3-none-any.whl (224 kB)\nInstalling collected packages: Werkzeug, sqlalchemy, itsdangerous, click, blinker, flask, flask-sqlalchemy, flask-login\n  Attempting uninstall: Werkzeug\n    Found existing installation: Werkzeug 2.2.3\n    Uninstalling Werkzeug-2.2.3:\n      Successfully uninstalled Werkzeug-2.2.3\n  Attempting uninstall: sqlalchemy\n    Found existing installation: SQLAlchemy 1.4.39\n    Uninstalling SQLAlchemy-1.4.39:\n      Successfully uninstalled SQLAlchemy-1.4.39\n  Attempting uninstall: itsdangerous\n    Found existing installation: itsdangerous 2.0.1\n    Uninstalling itsdangerous-2.0.1:\n      Successfully uninstalled itsdangerous-2.0.1\n  Attempting uninstall: click\n    Found existing installation: click 8.0.4\n    Uninstalling click-8.0.4:\n      Successfully uninstalled click-8.0.4\n  Attempting uninstall: flask\n    Found existing installation: Flask 2.2.2\n    Uninstalling Flask-2.2.2:\n      Successfully uninstalled Flask-2.2.2\nSuccessfully installed Werkzeug-3.1.3 blinker-1.9.0 click-8.1.8 flask-3.1.0 flask-login-0.6.3 flask-sqlalchemy-3.1.1 itsdangerous-2.2.0 sqlalchemy-2.0.37\n\n\nERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\npython-lsp-black 1.2.1 requires black&gt;=22.3.0, but you have black 0.0 which is incompatible.\n\n[notice] A new release of pip is available: 24.3.1 -&gt; 25.0\n[notice] To update, run: python.exe -m pip install --upgrade pip\n\n\n\n! pip install --upgrade pip\n\nRequirement already satisfied: pip in c:\\users\\khura\\anaconda3\\lib\\site-packages (24.3.1)\nCollecting pip\n  Downloading pip-25.0-py3-none-any.whl.metadata (3.7 kB)\nDownloading pip-25.0-py3-none-any.whl (1.8 MB)\n   ---------------------------------------- 0.0/1.8 MB ? eta -:--:--\n   ---------------------------------------- 1.8/1.8 MB 49.4 MB/s eta 0:00:00\n\n\n\n[notice] A new release of pip is available: 24.3.1 -&gt; 25.0\n[notice] To update, run: python.exe -m pip install --upgrade pip\nERROR: To modify pip, please run the following command:\nC:\\Users\\khura\\anaconda3\\python.exe -m pip install --upgrade pip"
   },
   {
     "objectID": "posts/semainedu27janvier/greetings.html",

@@ -165,5 +165,9 @@
   "posts/semainedu27janvier/greetings.qmd": {
     "greetings.html": "a5f084d6",
     "greetings.tex": "76493360"
+  },
+  "posts/semainedu27janvier/clothes.qmd": {
+    "clothes.html": "67776ee4",
+    "clothes.tex": "a7357852"
   }
 }
