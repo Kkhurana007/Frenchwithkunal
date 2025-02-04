@@ -17,6 +17,8 @@ website:
         href: policy.qmd
       - text: Conditions de service
         href: terms.qmd
+      - text: Abonnement
+        href: payment.qmd       
 
     right:
       - text: English

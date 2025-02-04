@@ -1,0 +1,394 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
+%
+\documentclass[
+  letterpaper,
+  DIV=11,
+  numbers=noendperiod]{scrreprt}
+
+\usepackage{amsmath,amssymb}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else  
+    % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+% Make \paragraph and \subparagraph free-standing
+\makeatletter
+\ifx\paragraph\undefined\else
+  \let\oldparagraph\paragraph
+  \renewcommand{\paragraph}{
+    \@ifstar
+      \xxxParagraphStar
+      \xxxParagraphNoStar
+  }
+  \newcommand{\xxxParagraphStar}[1]{\oldparagraph*{#1}\mbox{}}
+  \newcommand{\xxxParagraphNoStar}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+  \let\oldsubparagraph\subparagraph
+  \renewcommand{\subparagraph}{
+    \@ifstar
+      \xxxSubParagraphStar
+      \xxxSubParagraphNoStar
+  }
+  \newcommand{\xxxSubParagraphStar}[1]{\oldsubparagraph*{#1}\mbox{}}
+  \newcommand{\xxxSubParagraphNoStar}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+\makeatother
+
+\usepackage{color}
+\usepackage{fancyvrb}
+\newcommand{\VerbBar}{|}
+\newcommand{\VERB}{\Verb[commandchars=\\\{\}]}
+\DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
+% Add ',fontsize=\small' for more characters per line
+\usepackage{framed}
+\definecolor{shadecolor}{RGB}{241,243,245}
+\newenvironment{Shaded}{\begin{snugshade}}{\end{snugshade}}
+\newcommand{\AlertTok}[1]{\textcolor[rgb]{0.68,0.00,0.00}{#1}}
+\newcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.37,0.37,0.37}{#1}}
+\newcommand{\AttributeTok}[1]{\textcolor[rgb]{0.40,0.45,0.13}{#1}}
+\newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.68,0.00,0.00}{#1}}
+\newcommand{\BuiltInTok}[1]{\textcolor[rgb]{0.00,0.23,0.31}{#1}}
+\newcommand{\CharTok}[1]{\textcolor[rgb]{0.13,0.47,0.30}{#1}}
+\newcommand{\CommentTok}[1]{\textcolor[rgb]{0.37,0.37,0.37}{#1}}
+\newcommand{\CommentVarTok}[1]{\textcolor[rgb]{0.37,0.37,0.37}{\textit{#1}}}
+\newcommand{\ConstantTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{#1}}
+\newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.00,0.23,0.31}{\textbf{#1}}}
+\newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.68,0.00,0.00}{#1}}
+\newcommand{\DecValTok}[1]{\textcolor[rgb]{0.68,0.00,0.00}{#1}}
+\newcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.37,0.37,0.37}{\textit{#1}}}
+\newcommand{\ErrorTok}[1]{\textcolor[rgb]{0.68,0.00,0.00}{#1}}
+\newcommand{\ExtensionTok}[1]{\textcolor[rgb]{0.00,0.23,0.31}{#1}}
+\newcommand{\FloatTok}[1]{\textcolor[rgb]{0.68,0.00,0.00}{#1}}
+\newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.28,0.35,0.67}{#1}}
+\newcommand{\ImportTok}[1]{\textcolor[rgb]{0.00,0.46,0.62}{#1}}
+\newcommand{\InformationTok}[1]{\textcolor[rgb]{0.37,0.37,0.37}{#1}}
+\newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.00,0.23,0.31}{\textbf{#1}}}
+\newcommand{\NormalTok}[1]{\textcolor[rgb]{0.00,0.23,0.31}{#1}}
+\newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.37,0.37,0.37}{#1}}
+\newcommand{\OtherTok}[1]{\textcolor[rgb]{0.00,0.23,0.31}{#1}}
+\newcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.68,0.00,0.00}{#1}}
+\newcommand{\RegionMarkerTok}[1]{\textcolor[rgb]{0.00,0.23,0.31}{#1}}
+\newcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.37,0.37,0.37}{#1}}
+\newcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.13,0.47,0.30}{#1}}
+\newcommand{\StringTok}[1]{\textcolor[rgb]{0.13,0.47,0.30}{#1}}
+\newcommand{\VariableTok}[1]{\textcolor[rgb]{0.07,0.07,0.07}{#1}}
+\newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.13,0.47,0.30}{#1}}
+\newcommand{\WarningTok}[1]{\textcolor[rgb]{0.37,0.37,0.37}{\textit{#1}}}
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\newsavebox\pandoc@box
+\newcommand*\pandocbounded[1]{% scales image to fit in text height/width
+  \sbox\pandoc@box{#1}%
+  \Gscale@div\@tempa{\textheight}{\dimexpr\ht\pandoc@box+\dp\pandoc@box\relax}%
+  \Gscale@div\@tempb{\linewidth}{\wd\pandoc@box}%
+  \ifdim\@tempb\p@<\@tempa\p@\let\@tempa\@tempb\fi% select the smaller of both
+  \ifdim\@tempa\p@<\p@\scalebox{\@tempa}{\usebox\pandoc@box}%
+  \else\usebox{\pandoc@box}%
+  \fi%
+}
+% Set default figure placement to htbp
+\def\fps@figure{htbp}
+\makeatother
+
+\KOMAoption{captions}{tableheading}
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\AtBeginDocument{%
+\ifdefined\contentsname
+  \renewcommand*\contentsname{Table of contents}
+\else
+  \newcommand\contentsname{Table of contents}
+\fi
+\ifdefined\listfigurename
+  \renewcommand*\listfigurename{List of Figures}
+\else
+  \newcommand\listfigurename{List of Figures}
+\fi
+\ifdefined\listtablename
+  \renewcommand*\listtablename{List of Tables}
+\else
+  \newcommand\listtablename{List of Tables}
+\fi
+\ifdefined\figurename
+  \renewcommand*\figurename{Figure}
+\else
+  \newcommand\figurename{Figure}
+\fi
+\ifdefined\tablename
+  \renewcommand*\tablename{Table}
+\else
+  \newcommand\tablename{Table}
+\fi
+}
+\@ifpackageloaded{float}{}{\usepackage{float}}
+\floatstyle{ruled}
+\@ifundefined{c@chapter}{\newfloat{codelisting}{h}{lop}}{\newfloat{codelisting}{h}{lop}[chapter]}
+\floatname{codelisting}{Listing}
+\newcommand*\listoflistings{\listof{codelisting}{List of Listings}}
+\makeatother
+\makeatletter
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\@ifpackageloaded{subcaption}{}{\usepackage{subcaption}}
+\makeatother
+\makeatletter
+\definecolor{QuartoInternalColor8}{rgb}{0.00,0.00,0.40}
+\definecolor{QuartoInternalColor1}{rgb}{0.91,0.36,0.35}
+\definecolor{QuartoInternalColor4}{rgb}{0.00,0.45,0.15}
+\definecolor{QuartoInternalColor6}{rgb}{0.00,0.00,1.00}
+\definecolor{QuartoInternalColor9}{rgb}{0.60,0.00,0.00}
+\definecolor{QuartoInternalColor11}{rgb}{0.60,0.00,1.00}
+\definecolor{QuartoInternalColor7}{rgb}{0.38,0.38,0.38}
+\definecolor{QuartoInternalColor10}{rgb}{0.20,0.40,0.40}
+\definecolor{QuartoInternalColor3}{rgb}{0.00,0.64,0.31}
+\definecolor{QuartoInternalColor5}{rgb}{0.00,0.40,0.00}
+\definecolor{QuartoInternalColor2}{rgb}{0,0,0}
+\makeatother
+
+\ifLuaTeX
+\usepackage[bidi=basic]{babel}
+\else
+\usepackage[bidi=default]{babel}
+\fi
+\babelprovide[main,import]{english}
+% get rid of language-specific shorthands (see #6817):
+\let\LanguageShortHands\languageshorthands
+\def\languageshorthands#1{}
+\ifLuaTeX
+  \usepackage[english]{selnolig} % disable illegal ligatures
+\fi
+\usepackage{bookmark}
+
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same} % disable monospaced font for URLs
+\hypersetup{
+  pdflang={en},
+  colorlinks=true,
+  linkcolor={blue},
+  filecolor={Maroon},
+  citecolor={Blue},
+  urlcolor={Blue},
+  pdfcreator={LaTeX via pandoc}}
+
+
+\author{}
+\date{}
+
+\begin{document}
+
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\OperatorTok{!}\NormalTok{ pip install stripe}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+Requirement already satisfied: stripe in c:\users\khura\anaconda3\lib\site-packages (11.5.0)
+Requirement already satisfied: requests>=2.20 in c:\users\khura\anaconda3\lib\site-packages (from stripe) (2.31.0)
+Requirement already satisfied: typing-extensions>=4.5.0 in c:\users\khura\anaconda3\lib\site-packages (from stripe) (4.12.2)
+Requirement already satisfied: charset-normalizer<4,>=2 in c:\users\khura\anaconda3\lib\site-packages (from requests>=2.20->stripe) (2.0.4)
+Requirement already satisfied: idna<4,>=2.5 in c:\users\khura\anaconda3\lib\site-packages (from requests>=2.20->stripe) (3.4)
+Requirement already satisfied: urllib3<3,>=1.21.1 in c:\users\khura\anaconda3\lib\site-packages (from requests>=2.20->stripe) (1.26.16)
+Requirement already satisfied: certifi>=2017.4.17 in c:\users\khura\anaconda3\lib\site-packages (from requests>=2.20->stripe) (2023.11.17)
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\ImportTok{import}\NormalTok{ os}
+\ImportTok{import}\NormalTok{ stripe}
+
+\NormalTok{app }\OperatorTok{=}\NormalTok{ Flask(}\VariableTok{\_\_name\_\_}\NormalTok{)}
+\NormalTok{app.secret\_key }\OperatorTok{=} \StringTok{\textquotesingle{}your\_flask\_secret\_key\textquotesingle{}}
+
+\CommentTok{\# Stripe configuration}
+\NormalTok{stripe.api\_key }\OperatorTok{=}\NormalTok{ os.getenv(}\StringTok{\textquotesingle{}STRIPE\_SECRET\_KEY\textquotesingle{}}\NormalTok{)  }\CommentTok{\# Load from environment variables}
+\NormalTok{stripe\_publishable\_key }\OperatorTok{=}\NormalTok{ os.getenv(}\StringTok{\textquotesingle{}STRIPE\_PUBLISHABLE\_KEY\textquotesingle{}}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{Highlighting}
+\textcolor{black}{NameError: name 'Flask' is not defined}
+\textcolor{black}{}\textcolor{QuartoInternalColor1}{---------------------------------------------------------------------------}\textcolor{QuartoInternalColor2}{}
+\textcolor{QuartoInternalColor2}{}\textcolor{QuartoInternalColor1}{NameError}\textcolor{QuartoInternalColor2}{                                 Traceback (most recent call last)}
+\textcolor{QuartoInternalColor2}{Cell }\textcolor{QuartoInternalColor3}{In[3], line 4}\textcolor{QuartoInternalColor2}{}
+\textcolor{QuartoInternalColor2}{}\textcolor{QuartoInternalColor4}{      1}\textcolor{QuartoInternalColor2}{ }\textcolor{QuartoInternalColor5}{import}\textcolor{QuartoInternalColor2}{ }\textcolor{QuartoInternalColor6}{os}\textcolor{QuartoInternalColor2}{}
+\textcolor{QuartoInternalColor2}{}\textcolor{QuartoInternalColor4}{      2}\textcolor{QuartoInternalColor2}{ }\textcolor{QuartoInternalColor5}{import}\textcolor{QuartoInternalColor2}{ }\textcolor{QuartoInternalColor6}{stripe}\textcolor{QuartoInternalColor2}{}
+\textcolor{QuartoInternalColor2}{}\textcolor{QuartoInternalColor3}{----> 4}\textcolor{QuartoInternalColor2}{ app }\textcolor{QuartoInternalColor7}{=}\textcolor{QuartoInternalColor2}{ Flask(}\textcolor{QuartoInternalColor8}{__name__}\textcolor{QuartoInternalColor2}{)}
+\textcolor{QuartoInternalColor2}{}\textcolor{QuartoInternalColor4}{      5}\textcolor{QuartoInternalColor2}{ app}\textcolor{QuartoInternalColor7}{.}\textcolor{QuartoInternalColor2}{secret_key }\textcolor{QuartoInternalColor7}{=}\textcolor{QuartoInternalColor2}{ }\textcolor{QuartoInternalColor9}{'}\textcolor{QuartoInternalColor2}{}\textcolor{QuartoInternalColor9}{your_flask_secret_key}\textcolor{QuartoInternalColor2}{}\textcolor{QuartoInternalColor9}{'}\textcolor{QuartoInternalColor2}{}
+\textcolor{QuartoInternalColor2}{}\textcolor{QuartoInternalColor4}{      7}\textcolor{QuartoInternalColor2}{ }\textcolor{QuartoInternalColor10}{# Stripe configuration}\textcolor{QuartoInternalColor2}{}
+\textcolor{QuartoInternalColor2}{}\textcolor{QuartoInternalColor1}{NameError}\textcolor{QuartoInternalColor2}{: name 'Flask' is not defined}
+\end{Highlighting}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\ImportTok{from}\NormalTok{ flask }\ImportTok{import}\NormalTok{ jsonify}
+
+\AttributeTok{@app.route}\NormalTok{(}\StringTok{\textquotesingle{}/create{-}checkout{-}session\textquotesingle{}}\NormalTok{, methods}\OperatorTok{=}\NormalTok{[}\StringTok{\textquotesingle{}POST\textquotesingle{}}\NormalTok{])}
+\KeywordTok{def}\NormalTok{ create\_checkout\_session():}
+    \ControlFlowTok{try}\NormalTok{:}
+\NormalTok{        checkout\_session }\OperatorTok{=}\NormalTok{ stripe.checkout.Session.create(}
+\NormalTok{            payment\_method\_types}\OperatorTok{=}\NormalTok{[}\StringTok{\textquotesingle{}card\textquotesingle{}}\NormalTok{],}
+\NormalTok{            line\_items}\OperatorTok{=}\NormalTok{[\{}
+                \StringTok{\textquotesingle{}price\_data\textquotesingle{}}\NormalTok{: \{}
+                    \StringTok{\textquotesingle{}currency\textquotesingle{}}\NormalTok{: }\StringTok{\textquotesingle{}usd\textquotesingle{}}\NormalTok{,}
+                    \StringTok{\textquotesingle{}product\_data\textquotesingle{}}\NormalTok{: \{}
+                        \StringTok{\textquotesingle{}name\textquotesingle{}}\NormalTok{: }\StringTok{\textquotesingle{}French Course Subscription\textquotesingle{}}\NormalTok{,}
+\NormalTok{                    \},}
+                    \StringTok{\textquotesingle{}unit\_amount\textquotesingle{}}\NormalTok{: }\DecValTok{2000}\NormalTok{,  }\CommentTok{\# $20.00 (in cents)}
+\NormalTok{                \},}
+                \StringTok{\textquotesingle{}quantity\textquotesingle{}}\NormalTok{: }\DecValTok{1}\NormalTok{,}
+\NormalTok{            \}],}
+\NormalTok{            mode}\OperatorTok{=}\StringTok{\textquotesingle{}payment\textquotesingle{}}\NormalTok{,}
+\NormalTok{            success\_url}\OperatorTok{=}\NormalTok{url\_for(}\StringTok{\textquotesingle{}success\textquotesingle{}}\NormalTok{, \_external}\OperatorTok{=}\VariableTok{True}\NormalTok{),}
+\NormalTok{            cancel\_url}\OperatorTok{=}\NormalTok{url\_for(}\StringTok{\textquotesingle{}cancel\textquotesingle{}}\NormalTok{, \_external}\OperatorTok{=}\VariableTok{True}\NormalTok{),}
+\NormalTok{        )}
+        \ControlFlowTok{return}\NormalTok{ jsonify(\{}\StringTok{\textquotesingle{}id\textquotesingle{}}\NormalTok{: checkout\_session.}\BuiltInTok{id}\NormalTok{\})}
+    \ControlFlowTok{except} \PreprocessorTok{Exception} \ImportTok{as}\NormalTok{ e:}
+        \ControlFlowTok{return} \BuiltInTok{str}\NormalTok{(e), }\DecValTok{400}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{Highlighting}
+\textcolor{black}{NameError: name 'app' is not defined}
+\textcolor{black}{}\textcolor{QuartoInternalColor1}{---------------------------------------------------------------------------}\textcolor{QuartoInternalColor2}{}
+\textcolor{QuartoInternalColor2}{}\textcolor{QuartoInternalColor1}{NameError}\textcolor{QuartoInternalColor2}{                                 Traceback (most recent call last)}
+\textcolor{QuartoInternalColor2}{Cell }\textcolor{QuartoInternalColor3}{In[4], line 3}\textcolor{QuartoInternalColor2}{}
+\textcolor{QuartoInternalColor2}{}\textcolor{QuartoInternalColor4}{      1}\textcolor{QuartoInternalColor2}{ }\textcolor{QuartoInternalColor5}{from}\textcolor{QuartoInternalColor2}{ }\textcolor{QuartoInternalColor6}{flask}\textcolor{QuartoInternalColor2}{ }\textcolor{QuartoInternalColor5}{import}\textcolor{QuartoInternalColor2}{ jsonify}
+\textcolor{QuartoInternalColor2}{}\textcolor{QuartoInternalColor3}{----> 3}\textcolor{QuartoInternalColor2}{ }\textcolor{QuartoInternalColor11}{@app}\textcolor{QuartoInternalColor2}{}\textcolor{QuartoInternalColor7}{.}\textcolor{QuartoInternalColor2}{route(}\textcolor{QuartoInternalColor9}{'}\textcolor{QuartoInternalColor2}{}\textcolor{QuartoInternalColor9}{/create-checkout-session}\textcolor{QuartoInternalColor2}{}\textcolor{QuartoInternalColor9}{'}\textcolor{QuartoInternalColor2}{, methods}\textcolor{QuartoInternalColor7}{=}\textcolor{QuartoInternalColor2}{[}\textcolor{QuartoInternalColor9}{'}\textcolor{QuartoInternalColor2}{}\textcolor{QuartoInternalColor9}{POST}\textcolor{QuartoInternalColor2}{}\textcolor{QuartoInternalColor9}{'}\textcolor{QuartoInternalColor2}{])}
+\textcolor{QuartoInternalColor2}{}\textcolor{QuartoInternalColor4}{      4}\textcolor{QuartoInternalColor2}{ }\textcolor{QuartoInternalColor5}{def}\textcolor{QuartoInternalColor2}{ }\textcolor{QuartoInternalColor6}{create_checkout_session}\textcolor{QuartoInternalColor2}{():}
+\textcolor{QuartoInternalColor2}{}\textcolor{QuartoInternalColor4}{      5}\textcolor{QuartoInternalColor2}{     }\textcolor{QuartoInternalColor5}{try}\textcolor{QuartoInternalColor2}{:}
+\textcolor{QuartoInternalColor2}{}\textcolor{QuartoInternalColor4}{      6}\textcolor{QuartoInternalColor2}{         checkout_session }\textcolor{QuartoInternalColor7}{=}\textcolor{QuartoInternalColor2}{ stripe}\textcolor{QuartoInternalColor7}{.}\textcolor{QuartoInternalColor2}{checkout}\textcolor{QuartoInternalColor7}{.}\textcolor{QuartoInternalColor2}{Session}\textcolor{QuartoInternalColor7}{.}\textcolor{QuartoInternalColor2}{create(}
+\textcolor{QuartoInternalColor2}{}\textcolor{QuartoInternalColor4}{      7}\textcolor{QuartoInternalColor2}{             payment_method_types}\textcolor{QuartoInternalColor7}{=}\textcolor{QuartoInternalColor2}{[}\textcolor{QuartoInternalColor9}{'}\textcolor{QuartoInternalColor2}{}\textcolor{QuartoInternalColor9}{card}\textcolor{QuartoInternalColor2}{}\textcolor{QuartoInternalColor9}{'}\textcolor{QuartoInternalColor2}{],}
+\textcolor{QuartoInternalColor2}{}\textcolor{QuartoInternalColor4}{      8}\textcolor{QuartoInternalColor2}{             line_items}\textcolor{QuartoInternalColor7}{=}\textcolor{QuartoInternalColor2}{[{}
+\textcolor{QuartoInternalColor2}{}\textcolor{QuartoInternalColor3}{   (...)}\textcolor{QuartoInternalColor2}{}
+\textcolor{QuartoInternalColor2}{}\textcolor{QuartoInternalColor4}{     20}\textcolor{QuartoInternalColor2}{             cancel_url}\textcolor{QuartoInternalColor7}{=}\textcolor{QuartoInternalColor2}{url_for(}\textcolor{QuartoInternalColor9}{'}\textcolor{QuartoInternalColor2}{}\textcolor{QuartoInternalColor9}{cancel}\textcolor{QuartoInternalColor2}{}\textcolor{QuartoInternalColor9}{'}\textcolor{QuartoInternalColor2}{, _external}\textcolor{QuartoInternalColor7}{=}\textcolor{QuartoInternalColor2}{}\textcolor{QuartoInternalColor5}{True}\textcolor{QuartoInternalColor2}{),}
+\textcolor{QuartoInternalColor2}{}\textcolor{QuartoInternalColor4}{     21}\textcolor{QuartoInternalColor2}{         )}
+\textcolor{QuartoInternalColor2}{}\textcolor{QuartoInternalColor1}{NameError}\textcolor{QuartoInternalColor2}{: name 'app' is not defined}
+\end{Highlighting}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\ImportTok{from}\NormalTok{ flask }\ImportTok{import}\NormalTok{ Flask, render\_template, request, jsonify, url\_for}
+\ImportTok{import}\NormalTok{ stripe}
+\ImportTok{import}\NormalTok{ os}
+
+\NormalTok{app }\OperatorTok{=}\NormalTok{ Flask(}\VariableTok{\_\_name\_\_}\NormalTok{)}
+\NormalTok{app.secret\_key }\OperatorTok{=} \StringTok{\textquotesingle{}your\_flask\_secret\_key\textquotesingle{}}
+
+\CommentTok{\# Stripe configuration}
+\NormalTok{stripe.api\_key }\OperatorTok{=}\NormalTok{ os.getenv(}\StringTok{\textquotesingle{}STRIPE\_SECRET\_KEY\textquotesingle{}}\NormalTok{)}
+\NormalTok{stripe\_publishable\_key }\OperatorTok{=}\NormalTok{ os.getenv(}\StringTok{\textquotesingle{}STRIPE\_PUBLISHABLE\_KEY\textquotesingle{}}\NormalTok{)}
+
+\AttributeTok{@app.route}\NormalTok{(}\StringTok{\textquotesingle{}/\textquotesingle{}}\NormalTok{)}
+\KeywordTok{def}\NormalTok{ home():}
+    \ControlFlowTok{return}\NormalTok{ render\_template(}\StringTok{\textquotesingle{}index.html\textquotesingle{}}\NormalTok{, stripe\_publishable\_key}\OperatorTok{=}\NormalTok{stripe\_publishable\_key)}
+
+\AttributeTok{@app.route}\NormalTok{(}\StringTok{\textquotesingle{}/create{-}checkout{-}session\textquotesingle{}}\NormalTok{, methods}\OperatorTok{=}\NormalTok{[}\StringTok{\textquotesingle{}POST\textquotesingle{}}\NormalTok{])}
+\KeywordTok{def}\NormalTok{ create\_checkout\_session():}
+    \ControlFlowTok{try}\NormalTok{:}
+\NormalTok{        checkout\_session }\OperatorTok{=}\NormalTok{ stripe.checkout.Session.create(}
+\NormalTok{            payment\_method\_types}\OperatorTok{=}\NormalTok{[}\StringTok{\textquotesingle{}card\textquotesingle{}}\NormalTok{],}
+\NormalTok{            line\_items}\OperatorTok{=}\NormalTok{[\{}
+                \StringTok{\textquotesingle{}price\_data\textquotesingle{}}\NormalTok{: \{}
+                    \StringTok{\textquotesingle{}currency\textquotesingle{}}\NormalTok{: }\StringTok{\textquotesingle{}cad\textquotesingle{}}\NormalTok{,}
+                    \StringTok{\textquotesingle{}product\_data\textquotesingle{}}\NormalTok{: \{}
+                        \StringTok{\textquotesingle{}name\textquotesingle{}}\NormalTok{: }\StringTok{\textquotesingle{}French Course Subscription\textquotesingle{}}\NormalTok{,}
+\NormalTok{                    \},}
+                    \StringTok{\textquotesingle{}unit\_amount\textquotesingle{}}\NormalTok{: }\DecValTok{2000}\NormalTok{,  }\CommentTok{\# $20.00 (in cents)}
+\NormalTok{                \},}
+                \StringTok{\textquotesingle{}quantity\textquotesingle{}}\NormalTok{: }\DecValTok{1}\NormalTok{,}
+\NormalTok{            \}],}
+\NormalTok{            mode}\OperatorTok{=}\StringTok{\textquotesingle{}payment\textquotesingle{}}\NormalTok{,}
+\NormalTok{            success\_url}\OperatorTok{=}\NormalTok{url\_for(}\StringTok{\textquotesingle{}success\textquotesingle{}}\NormalTok{, \_external}\OperatorTok{=}\VariableTok{True}\NormalTok{),}
+\NormalTok{            cancel\_url}\OperatorTok{=}\NormalTok{url\_for(}\StringTok{\textquotesingle{}cancel\textquotesingle{}}\NormalTok{, \_external}\OperatorTok{=}\VariableTok{True}\NormalTok{),}
+\NormalTok{        )}
+        \ControlFlowTok{return}\NormalTok{ jsonify(\{}\StringTok{\textquotesingle{}id\textquotesingle{}}\NormalTok{: checkout\_session.}\BuiltInTok{id}\NormalTok{\})}
+    \ControlFlowTok{except} \PreprocessorTok{Exception} \ImportTok{as}\NormalTok{ e:}
+        \ControlFlowTok{return} \BuiltInTok{str}\NormalTok{(e), }\DecValTok{400}
+
+\AttributeTok{@app.route}\NormalTok{(}\StringTok{\textquotesingle{}/success\textquotesingle{}}\NormalTok{)}
+\KeywordTok{def}\NormalTok{ success():}
+    \ControlFlowTok{return} \StringTok{"Payment successful! Thank you for subscribing."}
+
+\AttributeTok{@app.route}\NormalTok{(}\StringTok{\textquotesingle{}/cancel\textquotesingle{}}\NormalTok{)}
+\KeywordTok{def}\NormalTok{ cancel():}
+    \ControlFlowTok{return} \StringTok{"Payment canceled. Please try again."}
+
+\ControlFlowTok{if} \VariableTok{\_\_name\_\_} \OperatorTok{==} \StringTok{\textquotesingle{}\_\_main\_\_\textquotesingle{}}\NormalTok{:}
+\NormalTok{    app.run(debug}\OperatorTok{=}\VariableTok{True}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+ * Serving Flask app '__main__'
+ * Debug mode: on
+\end{verbatim}
+
+\begin{verbatim}
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+ * Restarting with watchdog (windowsapi)
+\end{verbatim}
+
+\begin{Highlighting}
+\textcolor{black}{SystemExit: 1}
+\textcolor{black}{An exception has occurred, use %tb to see the full traceback.}
+\textcolor{black}{}\textcolor{QuartoInternalColor1}{SystemExit}\textcolor{QuartoInternalColor2}{}\textcolor{QuartoInternalColor1}{:}\textcolor{QuartoInternalColor2}{ 1}
+\end{Highlighting}
+
+\begin{verbatim}
+C:\Users\khura\anaconda3\Lib\site-packages\IPython\core\interactiveshell.py:3534: UserWarning: To exit: use 'exit', 'quit', or Ctrl-D.
+  warn("To exit: use 'exit', 'quit', or Ctrl-D.", stacklevel=1)
+\end{verbatim}
+
+
+
+
+\end{document}

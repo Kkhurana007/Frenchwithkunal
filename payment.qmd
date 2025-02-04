@@ -1,0 +1,83 @@
+---
+#title: "Subscribe to French Course"
+format: html
+---
+::: {.content-visible when-profile="english"}
+
+# Subscribe to French Course
+
+Choose a plan that works best for you:
+
+::: {.pricing-container}
+::: {.pricing-card}
+## Monthly Plan
+**$50/month**
+
+- Access to all lessons
+- New content every week
+- Cancel anytime
+
+<button id="monthly-button" class="btn btn-primary">Subscribe Now</button>
+:::
+
+::: {.pricing-card}
+## Yearly Plan
+**$450/year**
+
+<span class="discount">Save 25% (Originally $600)</span>
+
+- Access to all lessons
+- New content every week
+- 3 months free compared to monthly
+
+<button id="yearly-button" class="btn btn-primary">Subscribe Now</button>
+:::
+
+::: {.pricing-card}
+## Coaching with Mentor
+**$300/month**
+
+- Personalized one-on-one coaching
+- Tailored lesson plans
+- Weekly progress reviews
+- Direct feedback and support
+
+<a href="https://forms.gle/cUqsy2YCYPk5X6hE9" class="btn btn-primary">Subscribe Now</a>
+:::
+:::
+
+:::
+
+
+::: {.content-visible when-profile="french"}
+
+
+# Abonnez-vous au cours de français
+
+Choisissez un plan qui vous convient le mieux :
+
+::: {.pricing-container}
+::: {.pricing-card}
+## Plan Mensuel
+**50 $/mois**
+
+- Accès à toutes les leçons
+- Nouveau contenu chaque semaine
+- Annulation à tout moment
+
+<button id="monthly-button" class="btn btn-primary">S'abonner maintenant</button>
+:::
+
+::: {.pricing-card}
+## Plan Annuel
+**450 $/an**
+
+<span class="discount">Économisez 25 % (600 $ à l'origine)</span>
+
+- Accès à toutes les leçons
+- Nouveau contenu chaque semaine
+- 2 mois gratuits par rapport au plan mensuel
+
+<button id="yearly-button" class="btn btn-primary">S'abonner maintenant</button>
+:::
+:::

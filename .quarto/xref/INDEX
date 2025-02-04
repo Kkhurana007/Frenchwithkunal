@@ -169,5 +169,17 @@
   "posts/semainedu27janvier/clothes.qmd": {
     "clothes.html": "67776ee4",
     "clothes.tex": "a7357852"
+  },
+  "new_user_login.ipynb": {
+    "new_user_login.html": "3ab5154b",
+    "new_user_login.tex": "e13c222c"
+  },
+  "payment.qmd": {
+    "payment.html": "edfe0440",
+    "payment.tex": "ed26ec3c"
+  },
+  "payment_gateway.ipynb": {
+    "payment_gateway.html": "65bb1561",
+    "payment_gateway.tex": "cb18de78"
   }
 }
