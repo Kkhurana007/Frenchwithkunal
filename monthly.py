@@ -9,7 +9,7 @@ app = Flask(__name__)
 CORS(app)  # Enable CORS for all routes
 
 # Set your secret key
-stripe.api_key = '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'
+stripe.api_key = '___'
 
 @app.route('/create-checkout-session-monthly', methods=['POST'])
 def create_checkout_session_monthly():
