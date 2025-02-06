@@ -46,52 +46,14 @@ Choose a plan that works best for you:
 :::
 :::
 
-<!-- Add Stripe Checkout Script -->
-<script src="https://js.stripe.com/v3/"></script>
-<script>
-  // Initialize Stripe with your publishable key
-  const stripe = Stripe('pk_live_51OVgS8KoApplm6wZeLZNXNznTBTsu1oArI7OVynmo7k4I4V18gcjpWurGy2oKphzGxFhqHRmciStv2F1lMdt9RJZ00alfydkwz');
-
-// Monthly Plan Button
-document.getElementById('monthly-button').addEventListener('click', async () => {
-    const response = await fetch('/create-checkout-session-monthly', {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json',
-        },
-    });
-    const session = await response.json();
-    const result = await stripe.redirectToCheckout({ sessionId: session.id });
-    if (result.error) {
-        alert(result.error.message);
-    }
-});
-
-// Yearly Plan Button
-document.getElementById('yearly-button').addEventListener('click', async () => {
-    const response = await fetch('/create-checkout-session-yearly', {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json',
-        },
-    });
-    const session = await response.json();
-    const result = await stripe.redirectToCheckout({ sessionId: session.id });
-    if (result.error) {
-        alert(result.error.message);
-    }
-});
-</script>
-
 :::
 
 
 ::: {.content-visible when-profile="french"}
 
-
 # Abonnez-vous au cours de français
 
-Choisissez un plan qui vous convient le mieux :
+Choisissez le plan qui vous convient le mieux :
 
 ::: {.pricing-container}
 ::: {.pricing-card}
@@ -109,7 +71,7 @@ Choisissez un plan qui vous convient le mieux :
 ## Plan Annuel
 **450 $/an**
 
-<span class="discount">Économisez 25 % (600 $ à l'origine)</span>
+<span class="discount">Économisez 25 % (Originalement 600 $)</span>
 
 - Accès à toutes les leçons
 - Nouveau contenu chaque semaine
@@ -117,4 +79,18 @@ Choisissez un plan qui vous convient le mieux :
 
 <button id="yearly-button" class="btn btn-primary">S'abonner maintenant</button>
 :::
+
+::: {.pricing-card}
+## Coaching avec mentor
+**300 $/mois**
+
+- Coaching personnalisé en tête-à-tête
+- Plans de leçons sur mesure
+- Révisions hebdomadaires des progrès
+- Retour d'information et soutien direct
+
+<a href="https://forms.gle/cUqsy2YCYPk5X6hE9" class="btn btn-primary">S'abonner maintenant</a>
+:::
+:::
+
 :::

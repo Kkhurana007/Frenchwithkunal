@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.11)  3 FEB 2025 19:27
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.11)  4 FEB 2025 17:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -477,9 +477,9 @@ Language: nil 2023/12/10 v3.99 Nil language
 \l@nil=\language7
 ))
 \everypar=\toks30
-(c:/Users/khura/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/babel/locale/fr/babel-french.tex)
-Package babel Info: Importing data for french
-(babel)             from babel-fr.ini. Reported on input line 203.
+(c:/Users/khura/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/babel/locale/en/babel-english.tex)
+Package babel Info: Importing data for english
+(babel)             from babel-en.ini. Reported on input line 203.
 (c:/Users/khura/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/bookmark/bookmark.sty
 Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
 (c:/Users/khura/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/hyperref.sty
@@ -592,44 +592,55 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 File: bkm-dvipdfm.def 2023-12-10 v1.31 bookmark driver for dvipdfm (HO)
 \BKM@id=\count328
 ))
-Package hyperref Info: Option `colorlinks' set `true' on input line 218.
+Package hyperref Info: Option `colorlinks' set `true' on input line 221.
 No file new_user_login.aux.
 \openout1 = `new_user_login.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 224.
-LaTeX Font Info:    ... okay on input line 224.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 224.
-LaTeX Font Info:    ... okay on input line 224.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 224.
-LaTeX Font Info:    ... okay on input line 224.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 224.
-LaTeX Font Info:    ... okay on input line 224.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 224.
-LaTeX Font Info:    ... okay on input line 224.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 224.
-LaTeX Font Info:    ... okay on input line 224.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 224.
-LaTeX Font Info:    ... okay on input line 224.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 224.
-LaTeX Font Info:    ... okay on input line 224.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 224.
-LaTeX Font Info:    ... okay on input line 224.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 224.
-LaTeX Font Info:    ... okay on input line 224.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 227.
+LaTeX Font Info:    ... okay on input line 227.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 227.
+LaTeX Font Info:    ... okay on input line 227.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 227.
+LaTeX Font Info:    ... okay on input line 227.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 227.
+LaTeX Font Info:    ... okay on input line 227.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 227.
+LaTeX Font Info:    ... okay on input line 227.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 227.
+LaTeX Font Info:    ... okay on input line 227.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 227.
+LaTeX Font Info:    ... okay on input line 227.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 227.
+LaTeX Font Info:    ... okay on input line 227.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 227.
+LaTeX Font Info:    ... okay on input line 227.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 227.
+LaTeX Font Info:    ... okay on input line 227.
+Package scrbase Info: activating english \abstractname on input line 227.
+Package scrbase Info: activating english \partname on input line 227.
+Package scrbase Info: activating english \chaptername on input line 227.
+Package scrbase Info: activating english \appendixname on input line 227.
+Package scrbase Info: activating english \figurename on input line 227.
+Package scrbase Info: activating english \tablename on input line 227.
+Package scrbase Info: activating english \contentsname on input line 227.
+Package scrbase Info: activating english \listfigurename on input line 227.
+Package scrbase Info: activating english \listtablename on input line 227.
+Package scrbase Info: activating english \bibname on input line 227.
+Package scrbase Info: activating english \indexname on input line 227.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/lmr/m/n --> TU/lmr/m/n on input line 224.
+(Font)                  OT1/lmr/m/n --> TU/lmr/m/n on input line 227.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/lmr/m/it --> TU/lmr/m/it on input line 224.
+(Font)                  OT1/lmr/m/it --> TU/lmr/m/it on input line 227.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/lmr/bx/n --> TU/lmr/bx/n on input line 224.
+(Font)                  OT1/lmr/bx/n --> TU/lmr/bx/n on input line 227.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/lmss/m/n --> TU/lmss/m/n on input line 224.
+(Font)                  OT1/lmss/m/n --> TU/lmss/m/n on input line 227.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/lmss/bx/n --> TU/lmss/bx/n on input line 224.
+(Font)                  OT1/lmss/bx/n --> TU/lmss/bx/n on input line 227.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/lmtt/m/n --> TU/lmtt/m/n on input line 224.
+(Font)                  OT1/lmtt/m/n --> TU/lmtt/m/n on input line 227.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/lmtt/m/n --> TU/lmtt/bx/n on input line 224.
+(Font)                  OT1/lmtt/m/n --> TU/lmtt/bx/n on input line 227.
 
 Package fontspec Info: latinmodern-math scale = 0.9999967668407183.
 
@@ -655,7 +666,7 @@ Package fontspec Info: Font family 'latinmodern-math.otf(0)' created for font
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
 
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(0)/m/n' will be
-(Font)              scaled to size 10.95pt on input line 224.
+(Font)              scaled to size 10.95pt on input line 227.
 
 Package fontspec Info: latinmodern-math scale = 0.9999967668407183.
 
@@ -687,15 +698,15 @@ Package fontspec Info: Font family 'latinmodern-math.otf(1)' created for font
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
 
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 10.95pt on input line 224.
+(Font)              scaled to size 10.95pt on input line 227.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 224.
+(Font)              `operators' in the math version `normal' on input line 227.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/lmr/m/n --> TU/latinmodern-math.otf(1)/m/n on input line 224.
+(Font)                  OT1/lmr/m/n --> TU/latinmodern-math.otf(1)/m/n on input line 227.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 224.
+(Font)              `operators' in the math version `bold' on input line 227.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/lmr/bx/n --> TU/latinmodern-math.otf(1)/b/n on input line 224.
+(Font)                  OT1/lmr/bx/n --> TU/latinmodern-math.otf(1)/b/n on input line 227.
 
 Package fontspec Info: latinmodern-math scale = 0.9999967668407183.
 
@@ -774,13 +785,13 @@ Package fontspec Info: Font family 'latinmodern-math.otf(2)' created for font
 (fontspec)             =0pt\relax \fontdimen 21\font =0pt\relax 
 
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `normal' on input line 224.
+(Font)              `symbols' in the math version `normal' on input line 227.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
-(Font)                  OMS/lmsy/m/n --> TU/latinmodern-math.otf(2)/m/n on input line 224.
+(Font)                  OMS/lmsy/m/n --> TU/latinmodern-math.otf(2)/m/n on input line 227.
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `bold' on input line 224.
+(Font)              `symbols' in the math version `bold' on input line 227.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
-(Font)                  OMS/lmsy/b/n --> TU/latinmodern-math.otf(2)/b/n on input line 224.
+(Font)                  OMS/lmsy/b/n --> TU/latinmodern-math.otf(2)/b/n on input line 227.
 
 Package fontspec Info: latinmodern-math scale = 0.9999967668407183.
 
@@ -841,19 +852,19 @@ Package fontspec Info: Font family 'latinmodern-math.otf(3)' created for font
 (fontspec)             =6.56999pt\relax \fontdimen 13\font =0pt\relax 
 
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
-(Font)              `largesymbols' in the math version `normal' on input line 224.
+(Font)              `largesymbols' in the math version `normal' on input line 227.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
-(Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/m/n on input line 224.
+(Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/m/n on input line 227.
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
-(Font)              `largesymbols' in the math version `bold' on input line 224.
+(Font)              `largesymbols' in the math version `bold' on input line 227.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
-(Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/b/n on input line 224.
-LaTeX Info: Redefining \microtypecontext on input line 224.
-Package microtype Info: Applying patch `item' on input line 224.
-Package microtype Info: Applying patch `toc' on input line 224.
-Package microtype Info: Applying patch `eqnum' on input line 224.
-Package microtype Info: Applying patch `footnote' on input line 224.
-Package microtype Info: Applying patch `verbatim' on input line 224.
+(Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/b/n on input line 227.
+LaTeX Info: Redefining \microtypecontext on input line 227.
+Package microtype Info: Applying patch `item' on input line 227.
+Package microtype Info: Applying patch `toc' on input line 227.
+Package microtype Info: Applying patch `eqnum' on input line 227.
+Package microtype Info: Applying patch `footnote' on input line 227.
+Package microtype Info: Applying patch `verbatim' on input line 227.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using protrusion set `basicmath'.
 Package microtype Info: No adjustment of tracking.
@@ -866,132 +877,132 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring ON on input line 224.
+Package hyperref Info: Link coloring ON on input line 227.
 
 Package hyperref Warning: Rerun to get /PageLabels entry.
 
 
-Overfull \hbox (70.62735pt too wide) in paragraph at lines 247--247
+Overfull \hbox (70.62735pt too wide) in paragraph at lines 250--250
 []\TU/lmtt/m/n/10.95 Requirement already satisfied: flask in c:\users\khura\anaconda3\lib\site-packages (3.1.0)[] 
  []
 
 
-Overfull \hbox (105.11984pt too wide) in paragraph at lines 247--247
+Overfull \hbox (105.11984pt too wide) in paragraph at lines 250--250
 []\TU/lmtt/m/n/10.95 Requirement already satisfied: flask-login in c:\users\khura\anaconda3\lib\site-packages (0.6.3)[] 
  []
 
 
-Overfull \hbox (133.86359pt too wide) in paragraph at lines 247--247
+Overfull \hbox (133.86359pt too wide) in paragraph at lines 250--250
 []\TU/lmtt/m/n/10.95 Requirement already satisfied: flask-sqlalchemy in c:\users\khura\anaconda3\lib\site-packages (3.1.1)[] 
  []
 
 
-Overfull \hbox (191.35107pt too wide) in paragraph at lines 247--247
+Overfull \hbox (191.35107pt too wide) in paragraph at lines 250--250
 []\TU/lmtt/m/n/10.95 Requirement already satisfied: Werkzeug>=3.1 in c:\users\khura\anaconda3\lib\site-packages (from flask) (3.1.3)[] 
  []
 
 
-Overfull \hbox (191.35107pt too wide) in paragraph at lines 247--247
+Overfull \hbox (191.35107pt too wide) in paragraph at lines 250--250
 []\TU/lmtt/m/n/10.95 Requirement already satisfied: Jinja2>=3.1.2 in c:\users\khura\anaconda3\lib\site-packages (from flask) (3.1.2)[] 
  []
 
 
-Overfull \hbox (214.34607pt too wide) in paragraph at lines 247--247
+Overfull \hbox (214.34607pt too wide) in paragraph at lines 250--250
 []\TU/lmtt/m/n/10.95 Requirement already satisfied: itsdangerous>=2.2 in c:\users\khura\anaconda3\lib\site-packages (from flask) (2.2.0)[] 
  []
 
 
-Overfull \hbox (185.60233pt too wide) in paragraph at lines 247--247
+Overfull \hbox (185.60233pt too wide) in paragraph at lines 250--250
 []\TU/lmtt/m/n/10.95 Requirement already satisfied: click>=8.1.3 in c:\users\khura\anaconda3\lib\site-packages (from flask) (8.1.8)[] 
  []
 
 
-Overfull \hbox (185.60233pt too wide) in paragraph at lines 247--247
+Overfull \hbox (185.60233pt too wide) in paragraph at lines 250--250
 []\TU/lmtt/m/n/10.95 Requirement already satisfied: blinker>=1.9 in c:\users\khura\anaconda3\lib\site-packages (from flask) (1.9.0)[] 
  []
 
 
-Overfull \hbox (289.0798pt too wide) in paragraph at lines 247--247
+Overfull \hbox (289.0798pt too wide) in paragraph at lines 250--250
 []\TU/lmtt/m/n/10.95 Requirement already satisfied: sqlalchemy>=2.0.16 in c:\users\khura\anaconda3\lib\site-packages (from flask-sqlalchemy) (2.0.37)[] 
  []
 
 
-Overfull \hbox (243.08981pt too wide) in paragraph at lines 247--247
+Overfull \hbox (243.08981pt too wide) in paragraph at lines 250--250
 []\TU/lmtt/m/n/10.95 Requirement already satisfied: colorama in c:\users\khura\anaconda3\lib\site-packages (from click>=8.1.3->flask) (0.4.6)[] 
  []
 
 
-Overfull \hbox (289.0798pt too wide) in paragraph at lines 247--247
+Overfull \hbox (289.0798pt too wide) in paragraph at lines 250--250
 []\TU/lmtt/m/n/10.95 Requirement already satisfied: MarkupSafe>=2.0 in c:\users\khura\anaconda3\lib\site-packages (from Jinja2>=3.1.2->flask) (2.1.1)[] 
  []
 
 
-Overfull \hbox (386.80853pt too wide) in paragraph at lines 247--247
+Overfull \hbox (386.80853pt too wide) in paragraph at lines 250--250
 []\TU/lmtt/m/n/10.95 Requirement already satisfied: greenlet!=0.4.17 in c:\users\khura\anaconda3\lib\site-packages (from sqlalchemy>=2.0.16->flask-sqlalchemy) (2.0.1)[] 
  []
 
 
-Overfull \hbox (438.54727pt too wide) in paragraph at lines 247--247
+Overfull \hbox (438.54727pt too wide) in paragraph at lines 250--250
 []\TU/lmtt/m/n/10.95 Requirement already satisfied: typing-extensions>=4.6.0 in c:\users\khura\anaconda3\lib\site-packages (from sqlalchemy>=2.0.16->flask-sqlalchemy) (4.12.2)[] 
  []
 
 
-Overfull \hbox (185.60233pt too wide) in paragraph at lines 279--279
+Overfull \hbox (185.60233pt too wide) in paragraph at lines 282--282
 []\TU/lmtt/m/n/10.95 Requirement already satisfied: Flask in c:\users\khura\anaconda3\lib\site-packages (from flask_bcrypt) (3.1.0)[] 
  []
 
 
-Overfull \hbox (231.59232pt too wide) in paragraph at lines 279--279
+Overfull \hbox (231.59232pt too wide) in paragraph at lines 282--282
 []\TU/lmtt/m/n/10.95 Requirement already satisfied: bcrypt>=3.1.1 in c:\users\khura\anaconda3\lib\site-packages (from flask_bcrypt) (3.2.0)[] 
  []
 
 
-Overfull \hbox (300.5773pt too wide) in paragraph at lines 279--279
+Overfull \hbox (300.5773pt too wide) in paragraph at lines 282--282
 []\TU/lmtt/m/n/10.95 Requirement already satisfied: cffi>=1.1 in c:\users\khura\anaconda3\lib\site-packages (from bcrypt>=3.1.1->flask_bcrypt) (1.15.1)[] 
  []
 
 
-Overfull \hbox (306.32605pt too wide) in paragraph at lines 279--279
+Overfull \hbox (306.32605pt too wide) in paragraph at lines 282--282
 []\TU/lmtt/m/n/10.95 Requirement already satisfied: six>=1.4.1 in c:\users\khura\anaconda3\lib\site-packages (from bcrypt>=3.1.1->flask_bcrypt) (1.16.0)[] 
  []
 
 
-Overfull \hbox (271.83356pt too wide) in paragraph at lines 279--279
+Overfull \hbox (271.83356pt too wide) in paragraph at lines 282--282
 []\TU/lmtt/m/n/10.95 Requirement already satisfied: Werkzeug>=3.1 in c:\users\khura\anaconda3\lib\site-packages (from Flask->flask_bcrypt) (3.1.3)[] 
  []
 
 
-Overfull \hbox (271.83356pt too wide) in paragraph at lines 279--279
+Overfull \hbox (271.83356pt too wide) in paragraph at lines 282--282
 []\TU/lmtt/m/n/10.95 Requirement already satisfied: Jinja2>=3.1.2 in c:\users\khura\anaconda3\lib\site-packages (from Flask->flask_bcrypt) (3.1.2)[] 
  []
 
 
-Overfull \hbox (294.82855pt too wide) in paragraph at lines 279--279
+Overfull \hbox (294.82855pt too wide) in paragraph at lines 282--282
 []\TU/lmtt/m/n/10.95 Requirement already satisfied: itsdangerous>=2.2 in c:\users\khura\anaconda3\lib\site-packages (from Flask->flask_bcrypt) (2.2.0)[] 
  []
 
 
-Overfull \hbox (266.08481pt too wide) in paragraph at lines 279--279
+Overfull \hbox (266.08481pt too wide) in paragraph at lines 282--282
 []\TU/lmtt/m/n/10.95 Requirement already satisfied: click>=8.1.3 in c:\users\khura\anaconda3\lib\site-packages (from Flask->flask_bcrypt) (8.1.8)[] 
  []
 
 
-Overfull \hbox (266.08481pt too wide) in paragraph at lines 279--279
+Overfull \hbox (266.08481pt too wide) in paragraph at lines 282--282
 []\TU/lmtt/m/n/10.95 Requirement already satisfied: blinker>=1.9 in c:\users\khura\anaconda3\lib\site-packages (from Flask->flask_bcrypt) (1.9.0)[] 
  []
 
 
-Overfull \hbox (352.31604pt too wide) in paragraph at lines 279--279
+Overfull \hbox (352.31604pt too wide) in paragraph at lines 282--282
 []\TU/lmtt/m/n/10.95 Requirement already satisfied: pycparser in c:\users\khura\anaconda3\lib\site-packages (from cffi>=1.1->bcrypt>=3.1.1->flask_bcrypt) (2.21)[] 
  []
 
 
-Overfull \hbox (323.5723pt too wide) in paragraph at lines 279--279
+Overfull \hbox (323.5723pt too wide) in paragraph at lines 282--282
 []\TU/lmtt/m/n/10.95 Requirement already satisfied: colorama in c:\users\khura\anaconda3\lib\site-packages (from click>=8.1.3->Flask->flask_bcrypt) (0.4.6)[] 
  []
 
 
-Overfull \hbox (369.56229pt too wide) in paragraph at lines 279--279
+Overfull \hbox (369.56229pt too wide) in paragraph at lines 282--282
 []\TU/lmtt/m/n/10.95 Requirement already satisfied: MarkupSafe>=2.0 in c:\users\khura\anaconda3\lib\site-packages (from Jinja2>=3.1.2->Flask->flask_bcrypt) (2.1.1)[] 
  []
 
@@ -999,34 +1010,34 @@ Overfull \hbox (369.56229pt too wide) in paragraph at lines 279--279
 
 ]
 LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <10.95> not available
-(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 339.
+(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 342.
 [2]
-Underfull \vbox (badness 10000) detected at line 455
+Underfull \vbox (badness 10000) detected at line 458
  []
 
 
-Underfull \vbox (badness 10000) detected at line 455
+Underfull \vbox (badness 10000) detected at line 458
  []
 
 [3]
-Underfull \vbox (badness 10000) detected at line 455
+Underfull \vbox (badness 10000) detected at line 458
  []
 
 
-Underfull \vbox (badness 10000) detected at line 455
+Underfull \vbox (badness 10000) detected at line 458
  []
 
 [4]
 ! Undefined control sequence.
 <argument> ~\anaconda 
                       3\Lib \site -packages\sqlalchemy \engine \base .py:146
-l.462 ...begin)}\textcolor{QuartoInternalColor2}{}
+l.465 ...begin)}\textcolor{QuartoInternalColor2}{}
                                                    
 Here is how much of TeX's memory you used:
- 24829 strings out of 476806
- 476533 string characters out of 5801896
+ 24825 strings out of 476806
+ 476513 string characters out of 5801896
  1940122 words of memory out of 5000000
- 46553 multiletter control sequences out of 15000+600000
+ 46549 multiletter control sequences out of 15000+600000
  558721 words of font info for 45 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  108i,7n,120p,10909b,535s stack positions out of 10000i,1000n,20000p,200000b,200000s

@@ -193,42 +193,8 @@ Subscribe Now
 <p><a href="https://forms.gle/cUqsy2YCYPk5X6hE9" class="btn btn-primary">Subscribe Now</a></p>
 </section>
 </div>
-<!-- Add Stripe Checkout Script -->
-<script src="https://js.stripe.com/v3/"></script>
-<script>
-  // Initialize Stripe with your publishable key
-  const stripe = Stripe('pk_live_51OVgS8KoApplm6wZeLZNXNznTBTsu1oArI7OVynmo7k4I4V18gcjpWurGy2oKphzGxFhqHRmciStv2F1lMdt9RJZ00alfydkwz');
 
-  // Monthly Plan Button
-  document.getElementById('monthly-button').addEventListener('click', async () => {
-    const response = await fetch('/create-checkout-session-monthly', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-    });
-    const session = await response.json();
-    const result = await stripe.redirectToCheckout({ sessionId: session.id });
-    if (result.error) {
-      alert(result.error.message);
-    }
-  });
 
-  // Yearly Plan Button
-  document.getElementById('yearly-button').addEventListener('click', async () => {
-    const response = await fetch('/create-checkout-session-yearly', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-    });
-    const session = await response.json();
-    const result = await stripe.redirectToCheckout({ sessionId: session.id });
-    if (result.error) {
-      alert(result.error.message);
-    }
-  });
-</script>
 </section>
 
 </main> <!-- /main -->
@@ -800,37 +766,35 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
     <a class="nav-link" href="./ethics.html">
- Ethics
-    </a>
+<p>Ethics</p>
+</a>
   </li>  
     <li class="nav-item">
     <a class="nav-link" href="./policy.html">
- Privacy policy
-    </a>
+<p>Privacy policy</p>
+</a>
   </li>  
     <li class="nav-item">
     <a class="nav-link" href="./terms.html">
- Terms of Service
-    </a>
+<p>Terms of Service</p>
+</a>
   </li>  
 </ul>
     </div>   
     <div class="nav-footer-center">
-      <div class="footer-contents">@2025 French with Kunal <br>
- All rights reserved. <br>
-</div>  
-    </div>
+<p><span class="citation" data-cites="2025">@2025</span> French with Kunal <br> All rights reserved. <br></p>
+</div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
     <a class="nav-link" href="https://frenchwithkunal.ca/index.html">
- English
-    </a>
+<p>English</p>
+</a>
   </li>  
     <li class="nav-item">
     <a class="nav-link" href="https://frenchwithkunal.ca/fr/index.html">
- French
-    </a>
+<p>French</p>
+</a>
   </li>  
     <li class="nav-item compact">
     <a class="nav-link" href="mailto:info@frenchwithkunal.ca">
