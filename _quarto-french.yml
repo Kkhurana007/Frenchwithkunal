@@ -16,9 +16,7 @@ website:
       - text: Politique de confidentialité
         href: policy.qmd
       - text: Conditions de service
-        href: terms.qmd
-      - text: Abonnement
-        href: payment.qmd       
+        href: terms.qmd   
 
     right:
       - text: English
@@ -40,6 +38,8 @@ website:
         href: about.qmd
       - text: "Nous Contacter"
         href: contact.qmd
+      - text: Abonnement
+        href: payment.qmd    
     right:
       - text: Langue
         menu:

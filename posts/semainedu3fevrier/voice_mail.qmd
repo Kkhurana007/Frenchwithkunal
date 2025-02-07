@@ -1,0 +1,63 @@
+---
+title: "Voice_mail/Message_Vocaux"
+author: "Kunal Khurana"
+date: "02-07-2025"
+categories: [A1/A2, Voice_mail, Message_Vocaux, accents ]
+image: "voice_mail.png"
+---
+
+::: {.content-visible when-profile="english"}
+In today’s [lecture](https://drive.google.com/file/d/16o6vg4fWQ34HUQzGA1GAGLKCMo1U3x1A/view?usp=drive_link), we covered two very useful topics: basic telephone conversations and how to leave a voice message, as well as a brief introduction to French accents.
+
+### Telephone Conversations and Voice Messages
+
+Learning how to communicate over the phone in French is essential, whether for professional or personal calls. We went over some key phrases to start a conversation, such as:\
+- **« Allô, bonjour ! »** (to answer the phone)\
+- **« Est-ce que je pourrais parler à \[name\] ? »** (to ask to speak to someone)\
+- **« Puis-je laisser un message ? »** (if the person isn’t available)
+
+For voice messages, we learned how to structure a clear and polite message. For example:\
+1. **Introduce yourself**: « Bonjour, c’est \[your name\]. »\
+2. **Explain the reason for your call**: « Je vous appelle pour \[reason\]. »\
+3. **Provide contact details**: « Vous pouvez me rappeler au \[phone number\]. »\
+4. **End politely**: « Merci et à bientôt ! »
+
+These basics are essential for navigating phone conversations in French with confidence.
+
+### French Accents
+
+Next, we briefly touched on the topic of French accents. Accents play a crucial role in pronunciation and meaning. For example:\
+- **The acute accent (é)**: found in words like « étudié ».\
+- **The grave accent (è)**: as in « très ».\
+- **The circumflex accent (ê)**: found in words like « fête ».
+
+Although we didn’t go into depth on this topic today, understanding accents is essential for improving pronunciation and avoiding misunderstandings.
+:::
+
+::: {.content-visible when-profile="french"}
+Dans [le cours d’aujourd’hui](https://drive.google.com/file/d/16o6vg4fWQ34HUQzGA1GAGLKCMo1U3x1A/view?usp=drive_link), nous avons abordé deux sujets très utiles : les conversations téléphoniques de base et la manière de laisser un message vocal, ainsi qu’une brève introduction aux accents en français.
+
+### Conversations Téléphoniques et Messages Vocaux
+
+Apprendre à communiquer au téléphone en français est essentiel, que ce soit pour passer un appel professionnel ou personnel. Nous avons vu quelques phrases clés pour démarrer une conversation, comme :\
+- **« Allô, bonjour ! »** (pour répondre au téléphone)\
+- **« Est-ce que je pourrais parler à \[nom\] ? »** (pour demander à parler à quelqu’un)\
+- **« Puis-je laisser un message ? »** (si la personne n’est pas disponible)
+
+Pour les messages vocaux, nous avons appris à structurer un message clair et poli. Par exemple :\
+1. **Se présenter** : « Bonjour, c’est \[votre nom\]. »\
+2. **Expliquer la raison de l’appel** : « Je vous appelle pour \[raison\]. »\
+3. **Donner des coordonnées** : « Vous pouvez me rappeler au \[numéro de téléphone\]. »\
+4. **Conclure poliment** : « Merci et à bientôt ! »
+
+Ces bases sont indispensables pour naviguer les échanges téléphoniques en français avec confiance.
+
+### Les Accents en Français
+
+Ensuite, nous avons effleuré le sujet des accents en français. Les accents jouent un rôle crucial dans la prononciation et le sens des mots. Par exemple :\
+- **L’accent aigu (é)** : présent dans des mots comme « étudié ».\
+- **L’accent grave (è)** : comme dans « très ».\
+- **L’accent circonflexe (ê)** : présent dans des mots comme « fête ».
+
+Bien que nous n’ayons pas approfondi ce sujet aujourd’hui, comprendre les accents est essentiel pour améliorer sa prononciation et éviter les malentendus.
+:::

@@ -181,5 +181,24 @@
   "payment_gateway.ipynb": {
     "payment_gateway.html": "65bb1561",
     "payment_gateway.tex": "cb18de78"
+  },
+  "posts/semainedu3février/venir_être_aller.qmd": {
+    "venir_être_aller.html": "3bdd71f8",
+    "venir_être_aller.tex": "156c0c1a"
+  },
+  "posts/semainedu3février/voice_mail.qmd": {
+    "voice_mail.html": "a2d4acd5"
+  },
+  "posts/semainedu3fevrier/venir_etre_aller.qmd": {
+    "venir_etre_aller.html": "bf581399",
+    "venir_etre_aller.tex": "e64ca57e"
+  },
+  "posts/semainedu3fevrier/voice_mail.qmd": {
+    "voice_mail.html": "6914c587",
+    "voice_mail.tex": "1c3efee6"
+  },
+  "posts/semainedu3fevrier/Brasserie+articles.qmd": {
+    "Brasserie+articles.html": "cd382d40",
+    "Brasserie+articles.tex": "17f8fc1e"
   }
 }
