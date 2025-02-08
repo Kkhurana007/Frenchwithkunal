@@ -6,6 +6,15 @@ categories: [A1/A2, Voice_mail, Message_Vocaux, accents ]
 image: "voice_mail.png"
 ---
 
+
+<div style="text-align: left; padding: 10px;">
+  <a href="mailto:info@frenchwithkunal.ca" target="_blank" style="margin: 0 10px; color: #000;"><i class="fas fa-envelope fa-lg"></i></a>
+  <a href="https://www.instagram.com/kunal.khurana7" target="_blank" style="margin: 0 10px; color: #E1306C;"><i class="fab fa-instagram fa-lg"></i></a>
+  <a href="https://frenchwithkunal.ca" target="_blank" style="margin: 0 10px; color: #0077b5;"><i class="fas fa-globe fa-lg"></i></a>
+  <a href="https://whatsapp.com/channel/0029Vb57n2e7dmegpjYpyi3V" target="_blank" style="margin: 0 10px; color: #25D366;"><i class="fab fa-whatsapp fa-lg"></i></a>
+</div>
+
+
 ::: {.content-visible when-profile="english"}
 In today’s [lecture](https://drive.google.com/file/d/16o6vg4fWQ34HUQzGA1GAGLKCMo1U3x1A/view?usp=drive_link), we covered two very useful topics: basic telephone conversations and how to leave a voice message, as well as a brief introduction to French accents.
 

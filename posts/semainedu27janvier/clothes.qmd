@@ -6,25 +6,25 @@ categories: [A1/A2, vêtements, clothes ]
 image: "vetements.png"
 ---
 
+
+<div style="text-align: left; padding: 10px;">
+  <a href="mailto:info@frenchwithkunal.ca" target="_blank" style="margin: 0 10px; color: #000;"><i class="fas fa-envelope fa-lg"></i></a>
+  <a href="https://www.instagram.com/kunal.khurana7" target="_blank" style="margin: 0 10px; color: #E1306C;"><i class="fab fa-instagram fa-lg"></i></a>
+  <a href="https://frenchwithkunal.ca" target="_blank" style="margin: 0 10px; color: #0077b5;"><i class="fas fa-globe fa-lg"></i></a>
+  <a href="https://whatsapp.com/channel/0029Vb57n2e7dmegpjYpyi3V" target="_blank" style="margin: 0 10px; color: #25D366;"><i class="fab fa-whatsapp fa-lg"></i></a>
+</div>
+
+
 ::: {.content-visible when-profile="english"}
-In one of my [recent lessons](https://drive.google.com/file/d/1vqKMtqE6OtIyDmkKraVv77rR2gZF_pdk/view?usp=drive_link), I taught my students how to ask for [clothes](https://drive.google.com/file/d/1vqKMtqE6OtIyDmkKraVv77rR2gZF_pdk/view?usp=drive_link) in French, a practical skill for any language learner. For example, you can say:
-"Hello, I'm looking for a [sweater/dress/shirt] in size [M, L, etc.]. Do you have this model in [color]?"
-Or:
-"Do you have these jeans in another size?"
+In one of my [recent lessons](https://drive.google.com/file/d/1vqKMtqE6OtIyDmkKraVv77rR2gZF_pdk/view?usp=drive_link), I taught my students how to ask for [clothes](https://drive.google.com/file/d/1vqKMtqE6OtIyDmkKraVv77rR2gZF_pdk/view?usp=drive_link) in French, a practical skill for any language learner. For example, you can say: "Hello, I'm looking for a \[sweater/dress/shirt\] in size \[M, L, etc.\]. Do you have this model in \[color\]?" Or: "Do you have these jeans in another size?"
 
 These simple phrases make it easy to navigate a store or shop online in French. I also explained the importance of using polite terms like "please" (s'il vous plaît) and "thank you" (merci). My students loved practicing these expressions, and some even created dialogues to practice!
 
 What about you? Have you ever tried shopping for clothes in French? Share your experiences in the comments!
-
 :::
 
 ::: {.content-visible when-profile="french"}
-
-Dans une de mes [leçons récentes](https://drive.google.com/file/d/1vqKMtqE6OtIyDmkKraVv77rR2gZF_pdk/view?usp=drive_link), j'ai enseigné à mes élèves comment demander des [vêtements](https://drive.google.com/file/d/1vqKMtqE6OtIyDmkKraVv77rR2gZF_pdk/view?usp=drive_link) en français, une compétence pratique pour tout apprenant de la langue. Par exemple, on peut dire :
-"Bonjour, je cherche un [pull/robe/chemise] en taille [M, L, etc.]. Avez-vous ce modèle en [couleur] ?"
-Ou encore :
-"Est-ce que vous avez ce jean dans une autre taille?"
+Dans une de mes [leçons récentes](https://drive.google.com/file/d/1vqKMtqE6OtIyDmkKraVv77rR2gZF_pdk/view?usp=drive_link), j'ai enseigné à mes élèves comment demander des [vêtements](https://drive.google.com/file/d/1vqKMtqE6OtIyDmkKraVv77rR2gZF_pdk/view?usp=drive_link) en français, une compétence pratique pour tout apprenant de la langue. Par exemple, on peut dire : "Bonjour, je cherche un \[pull/robe/chemise\] en taille \[M, L, etc.\]. Avez-vous ce modèle en \[couleur\] ?" Ou encore : "Est-ce que vous avez ce jean dans une autre taille?"
 
 Ces phrases simples permettent de naviguer dans un magasin ou de faire des achats en ligne en français. J'ai aussi expliqué l'importance d'utiliser des termes comme "s'il vous plaît" et "merci" pour rester poli. Mes élèves ont adoré pratiquer ces expressions, et certains ont même imaginé des dialogues pour s'entraîner!
-
 :::

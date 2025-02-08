@@ -6,6 +6,14 @@ categories: [A1/A2, Resouces, learn French]
 image: "resources.png"
 ---
 
+<div style="text-align: left; padding: 10px;">
+  <a href="mailto:info@frenchwithkunal.ca" target="_blank" style="margin: 0 10px; color: #000;"><i class="fas fa-envelope fa-lg"></i></a>
+  <a href="https://www.instagram.com/kunal.khurana7" target="_blank" style="margin: 0 10px; color: #E1306C;"><i class="fab fa-instagram fa-lg"></i></a>
+  <a href="https://frenchwithkunal.ca" target="_blank" style="margin: 0 10px; color: #0077b5;"><i class="fas fa-globe fa-lg"></i></a>
+  <a href="https://whatsapp.com/channel/0029Vb57n2e7dmegpjYpyi3V" target="_blank" style="margin: 0 10px; color: #25D366;"><i class="fab fa-whatsapp fa-lg"></i></a>
+</div>
+
+
 ::: { .content-visible when-profile="english"}
 
 In this [video](https://www.youtube.com/watch?v=_mYxA82FvAs&t=13s), a variety of helpful resources for learning French are shared, perfect for beginners and advanced learners alike. For those starting with French, Cliff Notes offers a structured guide to help grasp the basics of French I. French learners can also immerse themselves in the language with French news channels, such as those listed on Regard sur le Français, which provides a comprehensive list of Francophone news outlets. For those preparing for the TEF exam, Prep My Future offers tailored practice and resources to help boost your readiness. To master French grammar, the Par ici workbook is an excellent resource, available on Amazon, offering exercises that cater to different levels. Whether you're looking to practice daily or prepare for exams, these resources cover all aspects of French language learning, from vocabulary and grammar to real-world news and exam prep.
