@@ -180,8 +180,24 @@ ul.task-list li input[type="checkbox"] {
 
 
 <div style="text-align: left; padding: 10px;">
-<p><a href="mailto:info@frenchwithkunal.ca" target="_blank" style="margin: 0 10px; color: #000;"><i class="fas fa-envelope fa-lg"></i></a> <a href="https://www.instagram.com/kunal.khurana7" target="_blank" style="margin: 0 10px; color: #E1306C;"><i class="fab fa-instagram fa-lg"></i></a> <a href="https://frenchwithkunal.ca" target="_blank" style="margin: 0 10px; color: #0077b5;"><i class="fas fa-globe fa-lg"></i></a> <a href="https://whatsapp.com/channel/0029Vb57n2e7dmegpjYpyi3V" target="_blank" style="margin: 0 10px; color: #25D366;"><i class="fab fa-whatsapp fa-lg"></i></a></p>
+<p><a href="mailto:info@frenchwithkunal.ca" target="_blank" style="margin: 0 10px; color: #000;"><i class="fas fa-envelope fa-lg"></i></a> <a href="https://www.instagram.com/kunal.khurana7" target="_blank" style="margin: 0 10px; color: #E1306C;"><i class="fab fa-instagram fa-lg"></i></a> <a href="https://frenchwithkunal.ca" target="_blank" style="margin: 0 10px; color: #0077b5;"><i class="fas fa-globe fa-lg"></i></a> <a href="https://whatsapp.com/channel/0029Vb57n2e7dmegpjYpyi3V" target="_blank" style="margin: 0 10px; color: #25D366;"><i class="fab fa-whatsapp fa-lg"></i></a> <button onclick="copyLink()" style="background-color: #0077b5; color: white; padding: 8px 16px; border: none; border-radius: 4px; cursor: pointer; margin-left: 10px;"> <i class="fas fa-copy"></i> </button> <span id="copy-message" style="margin-left: 10px; color: green; display: none;">Link copied!</span></p>
 </div>
+<script>
+  function copyLink() {
+    // Get the current page URL
+    const url = window.location.href;
+    
+    // Copy the URL to the clipboard
+    navigator.clipboard.writeText(url).then(() => {
+      // Show a confirmation message
+      const message = document.getElementById("copy-message");
+      message.style.display = "inline";
+      setTimeout(() => {
+        message.style.display = "none";
+      }, 2000); // Hide the message after 2 seconds
+    });
+  }
+</script>
 <p>In French, pronunciation of vowels and consonants can be quite distinct compared to English. The French vowels include sounds like “a” (ah), “e” (uh, as in “le”), “i” (ee), “o” (oh), and “u” (ew, like “une”). Additionally, French has nasal vowels (e.g., “an,” “on,” “un”), where air is directed through the nose. Consonants in French are mostly similar to English, but some have slight differences. For instance, “r” is pronounced with a guttural sound from the back of the throat, while “h” is always silent. The French “c” is soft (like “s”) before “e” or “i” and hard (like “k”) otherwise. For better understanding and practice, you can find an educational resource for pronunciation at this <a href="https://drive.google.com/file/d/1l4Z3HInYe2pWZWpbw6IgcG8p8oN_D8da/view?usp=drive_link">link</a> and by watching this <a href="https://www.youtube.com/watch?v=ehkNm7zyqKE&amp;t=4s">video</a>.</p>
 
 
