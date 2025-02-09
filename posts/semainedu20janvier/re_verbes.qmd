@@ -6,17 +6,6 @@ categories: [A1/A2, re_verbes, present tense]
 image: "re_category.png"
 ---
 
-::: {.content-visible when-profile="english"}
-In French, -re verbs are another group of regular verbs that follow their own conjugation pattern. To conjugate an -re verb in the present tense, you remove the -re ending from the infinitive, leaving the stem, and then add the following endings: -s, -s, -, -ons, -ez, -ent. For example, with the verb "vendre" (to sell):
-
-je vends (I sell) tu vends (you sell, informal) il/elle vend (he/she sells) nous vendons (we sell) vous vendez (you sell, formal/plural) ils/elles vendent (they sell)
-
-Most -re verbs, like attendre (to wait) or perdre (to lose), follow this regular conjugation pattern, making them predictable and relatively easy to conjugate in various tenses. However, similar to other verb categories, there are some irregular -re verbs that don’t follow these rules.
-
-For details, you may look at [this pdf](https://drive.google.com/file/d/1PizCfomf28UFpEyQjwFZ0hcOT-etdyuX/view?usp=drive_link).
-:::
-
-
 <div style="text-align: left; padding: 10px;">
   <a href="mailto:info@frenchwithkunal.ca" target="_blank" style="margin: 0 10px; color: #000;"><i class="fas fa-envelope fa-lg"></i></a>
   <a href="https://www.instagram.com/kunal.khurana7" target="_blank" style="margin: 0 10px; color: #E1306C;"><i class="fab fa-instagram fa-lg"></i></a>
@@ -44,6 +33,19 @@ For details, you may look at [this pdf](https://drive.google.com/file/d/1PizCfom
     });
   }
 </script>
+
+
+::: {.content-visible when-profile="english"}
+In French, -re verbs are another group of regular verbs that follow their own conjugation pattern. To conjugate an -re verb in the present tense, you remove the -re ending from the infinitive, leaving the stem, and then add the following endings: -s, -s, -, -ons, -ez, -ent. For example, with the verb "vendre" (to sell):
+
+je vends (I sell) tu vends (you sell, informal) il/elle vend (he/she sells) nous vendons (we sell) vous vendez (you sell, formal/plural) ils/elles vendent (they sell)
+
+Most -re verbs, like attendre (to wait) or perdre (to lose), follow this regular conjugation pattern, making them predictable and relatively easy to conjugate in various tenses. However, similar to other verb categories, there are some irregular -re verbs that don’t follow these rules.
+
+For details, you may look at [this pdf](https://drive.google.com/file/d/1PizCfomf28UFpEyQjwFZ0hcOT-etdyuX/view?usp=drive_link).
+:::
+
+
 
 
 
