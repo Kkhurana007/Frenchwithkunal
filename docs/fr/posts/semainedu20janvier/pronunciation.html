@@ -179,8 +179,24 @@ ul.task-list li input[type="checkbox"] {
 
 
 <div style="text-align: left; padding: 10px;">
-<p><a href="mailto:info@frenchwithkunal.ca" target="_blank" style="margin: 0 10px; color: #000;"><i class="fas fa-envelope fa-lg"></i></a> <a href="https://www.instagram.com/kunal.khurana7" target="_blank" style="margin: 0 10px; color: #E1306C;"><i class="fab fa-instagram fa-lg"></i></a> <a href="https://frenchwithkunal.ca" target="_blank" style="margin: 0 10px; color: #0077b5;"><i class="fas fa-globe fa-lg"></i></a> <a href="https://whatsapp.com/channel/0029Vb57n2e7dmegpjYpyi3V" target="_blank" style="margin: 0 10px; color: #25D366;"><i class="fab fa-whatsapp fa-lg"></i></a></p>
+<p><a href="mailto:info@frenchwithkunal.ca" target="_blank" style="margin: 0 10px; color: #000;"><i class="fas fa-envelope fa-lg"></i></a> <a href="https://www.instagram.com/kunal.khurana7" target="_blank" style="margin: 0 10px; color: #E1306C;"><i class="fab fa-instagram fa-lg"></i></a> <a href="https://frenchwithkunal.ca" target="_blank" style="margin: 0 10px; color: #0077b5;"><i class="fas fa-globe fa-lg"></i></a> <a href="https://whatsapp.com/channel/0029Vb57n2e7dmegpjYpyi3V" target="_blank" style="margin: 0 10px; color: #25D366;"><i class="fab fa-whatsapp fa-lg"></i></a> <button onclick="copyLink()" style="background-color: #0077b5; color: white; padding: 8px 16px; border: none; border-radius: 4px; cursor: pointer; margin-left: 10px;"> <i class="fas fa-copy"></i> </button> <span id="copy-message" style="margin-left: 10px; color: green; display: none;">Link copied!</span></p>
 </div>
+<script>
+  function copyLink() {
+    // Get the current page URL
+    const url = window.location.href;
+    
+    // Copy the URL to the clipboard
+    navigator.clipboard.writeText(url).then(() => {
+      // Show a confirmation message
+      const message = document.getElementById("copy-message");
+      message.style.display = "inline";
+      setTimeout(() => {
+        message.style.display = "none";
+      }, 2000); // Hide the message after 2 seconds
+    });
+  }
+</script>
 <p>En français, la prononciation des voyelles et des consonnes peut être assez différente de l’anglais. Les voyelles françaises comprennent des sons comme “a” (ah), “e” (euh, comme dans “le”), “i” (ee), “o” (oh) et “u” (eu, comme dans “une”). De plus, le français a des voyelles nasales (par exemple, “an”, “on”, “un”), où l’air est dirigé par le nez. Les consonnes en français sont généralement similaires à l’anglais, mais certaines présentent des différences subtiles. Par exemple, le “r” se prononce avec un son guttural venant de l’arrière de la gorge, tandis que le “h” est toujours muet. Le “c” en français est doux (comme “s”) avant un “e” ou un “i”, et dur (comme “k”) dans les autres cas. Pour mieux comprendre et pratiquer, tu peux trouver une ressource éducative pour la prononciation à <a href="https://drive.google.com/file/d/1l4Z3HInYe2pWZWpbw6IgcG8p8oN_D8da/view?usp=drive_link">ce lien</a> et en regardant <a href="https://www.youtube.com/watch?v=ehkNm7zyqKE&amp;t=4s">cette vidéo</a>.</p>
 
 

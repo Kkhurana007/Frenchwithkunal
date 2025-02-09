@@ -179,8 +179,24 @@ ul.task-list li input[type="checkbox"] {
 
 
 <div style="text-align: left; padding: 10px;">
-<p><a href="mailto:info@frenchwithkunal.ca" target="_blank" style="margin: 0 10px; color: #000;"><i class="fas fa-envelope fa-lg"></i></a> <a href="https://www.instagram.com/kunal.khurana7" target="_blank" style="margin: 0 10px; color: #E1306C;"><i class="fab fa-instagram fa-lg"></i></a> <a href="https://frenchwithkunal.ca" target="_blank" style="margin: 0 10px; color: #0077b5;"><i class="fas fa-globe fa-lg"></i></a> <a href="https://whatsapp.com/channel/0029Vb57n2e7dmegpjYpyi3V" target="_blank" style="margin: 0 10px; color: #25D366;"><i class="fab fa-whatsapp fa-lg"></i></a></p>
+<p><a href="mailto:info@frenchwithkunal.ca" target="_blank" style="margin: 0 10px; color: #000;"><i class="fas fa-envelope fa-lg"></i></a> <a href="https://www.instagram.com/kunal.khurana7" target="_blank" style="margin: 0 10px; color: #E1306C;"><i class="fab fa-instagram fa-lg"></i></a> <a href="https://frenchwithkunal.ca" target="_blank" style="margin: 0 10px; color: #0077b5;"><i class="fas fa-globe fa-lg"></i></a> <a href="https://whatsapp.com/channel/0029Vb57n2e7dmegpjYpyi3V" target="_blank" style="margin: 0 10px; color: #25D366;"><i class="fab fa-whatsapp fa-lg"></i></a> <button onclick="copyLink()" style="background-color: #0077b5; color: white; padding: 8px 16px; border: none; border-radius: 4px; cursor: pointer; margin-left: 10px;"> <i class="fas fa-copy"></i> </button> <span id="copy-message" style="margin-left: 10px; color: green; display: none;">Link copied!</span></p>
 </div>
+<script>
+  function copyLink() {
+    // Get the current page URL
+    const url = window.location.href;
+    
+    // Copy the URL to the clipboard
+    navigator.clipboard.writeText(url).then(() => {
+      // Show a confirmation message
+      const message = document.getElementById("copy-message");
+      message.style.display = "inline";
+      setTimeout(() => {
+        message.style.display = "none";
+      }, 2000); // Hide the message after 2 seconds
+    });
+  }
+</script>
 <p>En français, les verbes en -er sont les plus courants et sont considérés comme des verbes réguliers. Ces verbes suivent un modèle de conjugaison standard dans différents temps, ce qui les rend relativement faciles à apprendre. Pour conjuguer un verbe en -er au présent de l’indicatif, on commence par retirer la terminaison -er de l’infinitif, ce qui laisse le radical. Ensuite, on ajoute les terminaisons appropriées selon le pronom sujet. Par exemple, avec le verbe “parler” (parler) :</p>
 <p>je parle (je parle) tu parles (tu parles, informel) il/elle parle (il/elle parle) nous parlons (nous parlons) vous parlez (vous parlez, formel/pluriel) ils/elles parlent (ils/elles parlent) Les terminaisons pour le présent de l’indicatif sont : -e, -es, -e, -ons, -ez, -ent. Celles-ci sont appliquées à tous les verbes réguliers en -er.</p>
 <p>Tu peux consulter <a href="https://drive.google.com/file/d/1QWKTDci-CCVcfR7ca7QxQC4QnOdSYb2S/view?usp=drive_link">ce pdf</a> pour des explications détaillées.</p>
