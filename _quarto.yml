@@ -12,7 +12,7 @@ profile:
     
 format:
   pdf: 
-    documentclass: scrreprt
+    fontsize: 16pt
   html:
     include-in-header:
       - text: |

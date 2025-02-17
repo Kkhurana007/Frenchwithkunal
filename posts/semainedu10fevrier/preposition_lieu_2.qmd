@@ -1,0 +1,141 @@
+---
+title: "Prépositions+phrases"
+author: "Kunal Khurana"
+date: "02-15-2025"
+categories: [A1/A2, prepositions, phrases]
+image: "preposition_lieu_2.png"
+---
+
+<div style="text-align: left; padding: 10px;">
+  <a href="mailto:info@frenchwithkunal.ca" target="_blank" style="margin: 0 10px; color: #000;"><i class="fas fa-envelope fa-lg"></i></a>
+  <a href="https://www.instagram.com/kunal.khurana7" target="_blank" style="margin: 0 10px; color: #E1306C;"><i class="fab fa-instagram fa-lg"></i></a>
+  <a href="https://frenchwithkunal.ca" target="_blank" style="margin: 0 10px; color: #0077b5;"><i class="fas fa-globe fa-lg"></i></a>
+  <a href="https://whatsapp.com/channel/0029Vb57n2e7dmegpjYpyi3V" target="_blank" style="margin: 0 10px; color: #25D366;"><i class="fab fa-whatsapp fa-lg"></i></a>
+  <button onclick="copyLink()" style="background-color: #0077b5; color: white; padding: 8px 16px; border: none; border-radius: 4px; cursor: pointer; margin-left: 10px;">
+    <i class="fas fa-copy"></i> 
+  </button>
+  <span id="copy-message" style="margin-left: 10px; color: green; display: none;">Link copied!</span>
+</div>
+
+<script>
+  function copyLink() {
+    // Get the current page URL
+    const url = window.location.href;
+    
+    // Copy the URL to the clipboard
+    navigator.clipboard.writeText(url).then(() => {
+      // Show a confirmation message
+      const message = document.getElementById("copy-message");
+      message.style.display = "inline";
+      setTimeout(() => {
+        message.style.display = "none";
+      }, 2000); // Hide the message after 2 seconds
+    });
+  }
+</script>
+
+
+::: {.content-visible when-profile="english"}
+
+## Prepositions
+
+In our [latest French lesson](https://drive.google.com/file/d/15HZnbw8eRvIHwWXLaO3hN8gxIGSDzx7z/view?usp=drive_link), we continued our journey into the world of prepositions. Prepositions are small but mighty words that connect elements in a sentence, and mastering them is key to speaking and writing French accurately. Alongside practicing prepositions, we also constructed sentences using the vocabulary we’ve already learned. This approach not only reinforces our understanding of prepositions but also helps us develop grammatically correct sentences.
+
+Why Are Prepositions Important?
+
+Prepositions like à (to, at), de (of, from), dans (in), sur (on), and sous (under) are essential for expressing relationships between words. For example:
+
+Je vais à l'école (I go to school).
+
+Le livre est sur la table (The book is on the table).
+
+Without the correct preposition, the meaning of a sentence can change entirely or become unclear. That’s why practicing them is so important!
+
+Constructing Sentences with Prepositions
+
+To solidify our understanding, we created sentences using prepositions and familiar vocabulary. Here are a few examples:
+
+Elle habite près de la gare. (She lives near the train station.)
+
+Nous allons au parc avec nos amis. (We are going to the park with our friends.)
+
+Le chat est sous la chaise. (The cat is under the chair.)
+
+## Classic French construction
+
+We also practiced a classic French construction: avant de + infinitive. This structure is used to indicate that one action happens before another. For example:
+
+Je vais manger avant de partir. (I am going to eat before leaving.)
+
+Elle lit un livre avant de dormir. (She reads a book before sleeping.)
+
+In these sentences, the action after avant de (partir, dormir) happens after the first action (manger, lire). This is a natural and common way to express sequences of actions in French.
+
+By combining prepositions with the vocabulary we’ve already learned, we’re able to form meaningful sentences without grammatical errors. This practice not only builds confidence but also enhances our ability to communicate effectively in French.
+
+Tips for Practicing Prepositions:-
+
+Use Flashcards: Write prepositions on one side and example sentences on the other.
+
+Practice Daily: Incorporate prepositions into your daily French conversations or journaling.
+
+Read and Listen: Pay attention to how prepositions are used in French books, articles, and podcasts.
+
+Keep practicing, and soon, using prepositions will feel like second nature. Bonne continuation!
+
+:::
+
+
+::: {.content-visible when-profile="french"}
+
+## Les prépositions
+
+Lors de notre [dernier cours de français](https://drive.google.com/file/d/15HZnbw8eRvIHwWXLaO3hN8gxIGSDzx7z/view?usp=drive_link), nous avons poursuivi notre exploration des prépositions. Les prépositions sont de petits mots puissants qui relient les éléments d’une phrase, et les maîtriser est essentiel pour parler et écrire le français avec précision. En plus de pratiquer les prépositions, nous avons également construit des phrases en utilisant le vocabulaire que nous avons déjà appris. Cette méthode renforce non seulement notre compréhension des prépositions, mais nous aide également à développer des phrases grammaticalement correctes.
+
+Pourquoi les Prépositions Sont-Elles Importantes ?
+
+Les prépositions comme à, de, dans, sur et sous sont indispensables pour exprimer les relations entre les mots. Par exemple :
+
+Je vais à l'école.
+
+Le livre est sur la table.
+
+Sans la bonne préposition, le sens d’une phrase peut changer complètement ou devenir flou. C’est pourquoi il est si important de les pratiquer!
+
+
+## Construire des Phrases à l'aide des prépositions
+
+Construire des Phrases avec des Prépositions
+
+Pour consolider notre compréhension, nous avons créé des phrases en utilisant des prépositions et du vocabulaire déjà acquis. Voici quelques exemples :
+
+Elle habite près de la gare.
+
+Nous allons au parc avec nos amis.
+
+Le chat est sous la chaise.
+
+Nous avons également pratiqué une construction classique en français : avant de + infinitif. Cette structure est utilisée pour indiquer qu’une action se produit avant une autre. Par exemple :
+
+Je vais manger avant de partir.
+
+Elle lit un livre avant de dormir.
+
+Dans ces phrases, l’action après avant de (partir, dormir) se produit après la première action (manger, lire). C’est une manière naturelle et courante d’exprimer des séquences d’actions en français.
+
+En combinant les prépositions avec le vocabulaire que nous connaissons déjà, nous pouvons former des phrases significatives sans erreurs grammaticales. Cette pratique renforce notre confiance et améliore notre capacité à communiquer efficacement en français.
+
+## Les conseils
+
+Conseils pour Pratiquer les Prépositions
+
+Utilisez des Flashcards : Écrivez les prépositions d’un côté et des exemples de phrases de l’autre.
+
+Pratiquez Quotidiennement : Intégrez les prépositions dans vos conversations ou votre journal en français.
+
+Lisez et Écoutez : Portez attention à l’utilisation des prépositions dans les livres, articles et podcasts en français.
+
+Continuez à pratiquer, et bientôt, l’utilisation des prépositions deviendra une seconde nature. Bonne continuation!
+
+:::
+

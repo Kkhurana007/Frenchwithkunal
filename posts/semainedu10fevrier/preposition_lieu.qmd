@@ -1,0 +1,153 @@
+---
+title: "Prépositions+metiers"
+author: "Kunal Khurana"
+date: "02-15-2025"
+categories: [A1/A2, prepositions, metiers, vocabulary ]
+image: "preposition_lieu.png"
+---
+
+<div style="text-align: left; padding: 10px;">
+  <a href="mailto:info@frenchwithkunal.ca" target="_blank" style="margin: 0 10px; color: #000;"><i class="fas fa-envelope fa-lg"></i></a>
+  <a href="https://www.instagram.com/kunal.khurana7" target="_blank" style="margin: 0 10px; color: #E1306C;"><i class="fab fa-instagram fa-lg"></i></a>
+  <a href="https://frenchwithkunal.ca" target="_blank" style="margin: 0 10px; color: #0077b5;"><i class="fas fa-globe fa-lg"></i></a>
+  <a href="https://whatsapp.com/channel/0029Vb57n2e7dmegpjYpyi3V" target="_blank" style="margin: 0 10px; color: #25D366;"><i class="fab fa-whatsapp fa-lg"></i></a>
+  <button onclick="copyLink()" style="background-color: #0077b5; color: white; padding: 8px 16px; border: none; border-radius: 4px; cursor: pointer; margin-left: 10px;">
+    <i class="fas fa-copy"></i> 
+  </button>
+  <span id="copy-message" style="margin-left: 10px; color: green; display: none;">Link copied!</span>
+</div>
+
+<script>
+  function copyLink() {
+    // Get the current page URL
+    const url = window.location.href;
+    
+    // Copy the URL to the clipboard
+    navigator.clipboard.writeText(url).then(() => {
+      // Show a confirmation message
+      const message = document.getElementById("copy-message");
+      message.style.display = "inline";
+      setTimeout(() => {
+        message.style.display = "none";
+      }, 2000); // Hide the message after 2 seconds
+    });
+  }
+</script>
+
+
+::: {.content-visible when-profile="english"}
+
+In our [recent discussions](https://drive.google.com/file/d/1feQg370lFfmcIdDkX0ZIFmTq329mUJSO/view?usp=drive_link), we explored some fundamental prepositions in French and their English equivalents. Prepositions are crucial in any language as they help us describe relationships between objects, places, and people. Here’s a quick recap of what we covered:
+
+Sous - Under: Indicates something is below or beneath another object.
+
+Example: Le chat est sous la table. (The cat is under the table.)
+
+Sur - On: Refers to something being on top of another object.
+
+Example: Le livre est sur la table. (The book is on the table.)
+
+Dans - In: Describes something inside another object or space.
+
+Example: Les clés sont dans le tiroir. (The keys are in the drawer.)
+
+Devant - Before/In front of: Indicates something is ahead or in front of another object.
+
+Example: La voiture est devant la maison. (The car is in front of the house.)
+
+Derrière - Behind: Refers to something being at the back of another object.
+
+Example: Le jardin est derrière la maison. (The garden is behind the house.)
+
+Entre - Between: Describes something situated in the middle of two objects.
+
+Example: Le chien est entre les deux arbres. (The dog is between the two trees.)
+
+Ici - Here: Indicates a location close to the speaker.
+
+Example: Je suis ici. (I am here.)
+
+Là-bas - At a distance/Over there: Refers to a location far from the speaker.
+
+Example: Le parc est là-bas. (The park is over there.)
+
+In addition to prepositions, we also discussed some important professions vocabulary. Here are a few key terms:
+
+Médecin (Doctor): A medical professional who diagnoses and treats illnesses.
+
+Enseignant (Teacher): Someone who educates students in schools or universities.
+
+Ingénieur (Engineer): A professional who designs and builds complex systems or structures.
+
+Avocat (Lawyer): A legal expert who represents clients in court.
+
+Infirmier/Infirmière (Nurse): A healthcare worker who assists doctors and cares for patients.
+
+Artisan (Craftsman): A skilled worker who creates handmade items.
+
+Pompier (Firefighter): A first responder who extinguishes fires and rescues people.
+
+Journaliste (Journalist): A professional who reports news and writes articles.
+
+Understanding these prepositions and professions vocabulary will greatly enhance your ability to communicate effectively in French. Keep practicing, and soon you’ll master these essential language tools!
+
+:::
+
+::: {.content-visible when-profile="french"}
+
+Lors de [nos récentes discussions](https://drive.google.com/file/d/1feQg370lFfmcIdDkX0ZIFmTq329mUJSO/view?usp=drive_link), nous avons exploré quelques prépositions fondamentales en français et leurs équivalents en anglais. Les prépositions sont essentielles dans toute langue car elles nous aident à décrire les relations entre les objets, les lieux et les personnes. Voici un rapide récapitulatif de ce que nous avons abordé :
+
+Sous - Under : Indique que quelque chose est en dessous d’un autre objet.
+
+Exemple : Le chat est sous la table. (The cat is under the table.)
+
+Sur - On : Se réfère à quelque chose qui se trouve au-dessus d’un autre objet.
+
+Exemple : Le livre est sur la table. (The book is on the table.)
+
+Dans - In : Décrit quelque chose à l’intérieur d’un autre objet ou espace.
+
+Exemple : Les clés sont dans le tiroir. (The keys are in the drawer.)
+
+Devant - Before/In front of : Indique que quelque chose est devant un autre objet.
+
+Exemple : La voiture est devant la maison. (The car is in front of the house.)
+
+Derrière - Behind : Se réfère à quelque chose qui se trouve à l’arrière d’un autre objet.
+
+Exemple : Le jardin est derrière la maison. (The garden is behind the house.)
+
+Entre - Between : Décrit quelque chose situé au milieu de deux objets.
+
+Exemple : Le chien est entre les deux arbres. (The dog is between the two trees.)
+
+Ici - Here : Indique un endroit proche de la personne qui parle.
+
+Exemple : Je suis ici. (I am here.)
+
+Là-bas - At a distance/Over there : Se réfère à un endroit éloigné de la personne qui parle.
+
+Exemple : Le parc est là-bas. (The park is over there.)
+
+En plus des prépositions, nous avons également discuté du vocabulaire des professions importantes. Voici quelques termes clés :
+
+Médecin (Doctor) : Un professionnel de la santé qui diagnostique et traite les maladies.
+
+Enseignant (Teacher) : Une personne qui éduque les élèves dans les écoles ou les universités.
+
+Ingénieur (Engineer) : Un professionnel qui conçoit et construit des systèmes ou des structures complexes.
+
+Avocat (Lawyer) : Un expert juridique qui représente des clients en justice.
+
+Infirmier/Infirmière (Nurse) : Un travailleur de la santé qui assiste les médecins et prend soin des patients.
+
+Artisan (Craftsman) : Un travailleur qualifié qui crée des objets faits à la main.
+
+Pompier (Firefighter) : Un premier intervenant qui éteint les incendies et sauve des personnes.
+
+Journaliste (Journalist) : Un professionnel qui rapporte des nouvelles et écrit des articles.
+
+Comprendre ces prépositions et ce vocabulaire des professions vous permettra de communiquer plus efficacement en français. Continuez à pratiquer, et vous maîtriserez bientôt ces outils linguistiques essentiels !
+
+:::
+

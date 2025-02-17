@@ -1,3 +1,4 @@
-/.quarto/
-# .gitignore
-.env
+
+
+*.pyc
+__pycache__
