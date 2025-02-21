@@ -1,5 +1,5 @@
 ---
-title: "nasal_sounds+idioms+inpératif"
+title: "nasal_sounds+idioms+impératif"
 author: "Kunal Khurana"
 date: "02-15-2025"
 categories: [A1/A2, nasal sounds, idioms, impératif]

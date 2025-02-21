@@ -204,5 +204,17 @@
   "posts/semainedu10fevrier/preposition_lieu.qmd": {
     "preposition_lieu.html": "659bb85d",
     "preposition_lieu.tex": "ed189c85"
+  },
+  "posts/semainedu10fevrier/nasal_sounds+idioms.qmd": {
+    "nasal_sounds+idioms.html": "b2b5ff64",
+    "nasal_sounds+idioms.tex": "fc77b48c"
+  },
+  "posts/semainedu10fevrier/preposition_lieu_2.qmd": {
+    "preposition_lieu_2.html": "3a83d761",
+    "preposition_lieu_2.tex": "f618f579"
+  },
+  "signup.qmd": {
+    "signup.html": "00b86c3b",
+    "signup.tex": "f3b4fd53"
   }
 }
