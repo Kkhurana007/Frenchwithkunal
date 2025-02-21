@@ -24,7 +24,7 @@ title: "Sign Up"
     const password = document.getElementById('password').value;
 
     try {
-      const response = await fetch('https://your-backend-url.com/signup', {
+      const response = await fetch('https://frenchwithkunal.ca/signup', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
