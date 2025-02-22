@@ -21,13 +21,26 @@ format:
     include-in-header:
       - text: |
           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    include-after-body:
-      - text: |
-          <footer style="text-align: center; padding: 20px; background-color: #f8f9fa; margin-top: 40px;">
-            <a href="mailto:info@frenchwithkunal.ca" target="_blank" style="margin: 0 10px; color: #000;"><i class="fas fa-envelope fa-2x"></i></a>
-            <a href="https://www.instagram.com/kunal.khurana7" target="_blank" style="margin: 0 10px; color: #E1306C;"><i class="fab fa-instagram fa-2x"></i></a>
-            <a href="https://frenchwithkunal.ca/" target="_blank" style="margin: 0 10px; color: #0077b5;"><i class="fas fa-globe fa-2x"></i></a>
-            <a href="https://wa.me/+15813989477" target="_blank" style="margin: 0 10px; color: #25D366;"><i class="fab fa-whatsapp fa-2x"></i></a>
-          </footer>
+          <script src="https://unpkg.com/react@17/umd/react.production.min.js"></script>
+          <script src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"></script>
+          <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
 ---
 
+```{=html}
+<div id="react-root"></div>
+
+<script type="text/babel">
+  // Define your React components
+  const App = () => {
+    return (
+      <div className="container">
+        <h2>Welcome </h2>
+      </div>
+    );
+  };
+
+  ReactDOM.render(
+    <App />,
+    document.getElementById('react-root')
+  );
+</script>
