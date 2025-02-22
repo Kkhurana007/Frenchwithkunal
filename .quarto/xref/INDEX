@@ -216,5 +216,17 @@
   "signup.qmd": {
     "signup.html": "00b86c3b",
     "signup.tex": "f3b4fd53"
+  },
+  "test_payment.qmd": {
+    "test_payment.html": "5157467c",
+    "test_payment.tex": "90eeaa1e"
+  },
+  "posts/semainedu17fevrier/nasal_sounds.qmd": {
+    "nasal_sounds.html": "970d91f1",
+    "nasal_sounds.tex": "d438813c"
+  },
+  "posts/semainedu17fevrier/irregular_verbs.qmd": {
+    "irregular_verbs.html": "0bcf60d1",
+    "irregular_verbs.tex": "20ea5fe7"
   }
 }

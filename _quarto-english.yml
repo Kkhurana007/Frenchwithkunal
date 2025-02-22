@@ -21,6 +21,10 @@ website:
         href: terms.qmd
 
     right:
+      - text: Login
+        href: login.qmd
+      - text: Sign Up
+        href: signup.qmd
       - text: English
         href: https://frenchwithkunal.ca/index.html
       - text: French
@@ -29,10 +33,7 @@ website:
         href: mailto:info@frenchwithkunal.ca
       - icon: youtube
         href: https://www.youtube.com/@kunalkhurana7822 
-      - text: Login
-        href: login.qmd
-      - text: Sign Up
-        href: signup.qmd
+
       
     
     center: |
