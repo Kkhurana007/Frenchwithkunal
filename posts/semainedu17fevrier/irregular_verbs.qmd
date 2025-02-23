@@ -6,17 +6,11 @@ categories: [A1/A2, B1, irregular verbs]
 image: "irregular_verbs.png"
 ---
 
-<div style="text-align: left; padding: 10px;">
-  <a href="mailto:info@frenchwithkunal.ca" target="_blank" style="margin: 0 10px; color: #000;"><i class="fas fa-envelope fa-lg"></i></a>
-  <a href="https://www.instagram.com/kunal.khurana7" target="_blank" style="margin: 0 10px; color: #E1306C;"><i class="fab fa-instagram fa-lg"></i></a>
-  <a href="https://frenchwithkunal.ca" target="_blank" style="margin: 0 10px; color: #0077b5;"><i class="fas fa-globe fa-lg"></i></a>
-  <a href="https://whatsapp.com/channel/0029Vb57n2e7dmegpjYpyi3V" target="_blank" style="margin: 0 10px; color: #25D366;"><i class="fab fa-whatsapp fa-lg"></i></a>
-  <button onclick="copyLink()" style="background-color: #0077b5; color: white; padding: 8px 16px; border: none; border-radius: 4px; cursor: pointer; margin-left: 10px;">
-    <i class="fas fa-copy"></i> 
-  </button>
-  <span id="copy-message" style="margin-left: 10px; color: green; display: none;">Link copied!</span>
-</div>
+::: {style="text-align: left; padding: 10px;"}
+<a href="mailto:info@frenchwithkunal.ca" target="_blank" style="margin: 0 10px; color: #000;"><i class="fas fa-envelope fa-lg"></i></a> <a href="https://www.instagram.com/kunal.khurana7" target="_blank" style="margin: 0 10px; color: #E1306C;"><i class="fab fa-instagram fa-lg"></i></a> <a href="https://frenchwithkunal.ca" target="_blank" style="margin: 0 10px; color: #0077b5;"><i class="fas fa-globe fa-lg"></i></a> <a href="https://whatsapp.com/channel/0029Vb57n2e7dmegpjYpyi3V" target="_blank" style="margin: 0 10px; color: #25D366;"><i class="fab fa-whatsapp fa-lg"></i></a> <button onclick="copyLink()" style="background-color: #0077b5; color: white; padding: 8px 16px; border: none; border-radius: 4px; cursor: pointer; margin-left: 10px;"> <i class="fas fa-copy"></i> </button> [Link copied!]{#copy-message style="margin-left: 10px; color: green; display: none;"}
+:::
 
+```{=html}
 <script>
   function copyLink() {
     // Get the current page URL
@@ -33,8 +27,7 @@ image: "irregular_verbs.png"
     });
   }
 </script>
-
-
+```
 
 ::: {.content-visible when-profile="english"}
 
@@ -47,4 +40,3 @@ In [this lecture](https://drive.google.com/file/d/1wzFi9yntIYWFREKJPtqHzOm753uu1
 Dans [ce cours](https://drive.google.com/file/d/1wzFi9yntIYWFREKJPtqHzOm753uu1Dj_/view?usp=drive_link), nous avons étudié les verbes irréguliers au présent et leur utilité. Nous avons également discuté de l'importance de mémoriser leurs conjugaisons par cœur. Nous avons remarqué que ces verbes sont différents des verbes réguliers, et il est absolument essentiel de les apprendre à fond. De plus, nous avons jeté un coup d'œil aux expressions idiomatiques et à leur importance pour une communication efficace, rendant les conversations plus fluides et naturelles.
 
 :::
-
