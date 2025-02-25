@@ -25,22 +25,3 @@ format:
           <script src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"></script>
           <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
 ---
-
-```{=html}
-<div id="react-root"></div>
-
-<script type="text/babel">
-  // Define your React components
-  const App = () => {
-    return (
-      <div className="container">
-        <h2>Welcome </h2>
-      </div>
-    );
-  };
-
-  ReactDOM.render(
-    <App />,
-    document.getElementById('react-root')
-  );
-</script>

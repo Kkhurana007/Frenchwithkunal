@@ -1,96 +1,67 @@
 ---
-#title: "Subscribe to French Course"
+title: "Subscribe to French Course"
 format: html
 ---
+
+<script>
+    const plans = [
+        {
+            name: "Monthly Plan",
+            price: "$50/month",
+            link: "https://buy.stripe.com/test_5kAbJwbVA0IXd0IfYY",
+            features: ["Access to all lessons", "New content every week", "Cancel anytime"]
+        },
+        {
+            name: "Yearly Plan",
+            price: "$450/year",
+            link: "https://buy.stripe.com/test_5kAbJwbVA0IXd0IfYY",
+            features: ["Access to all lessons", "New content every week", "3 months free compared to monthly"]
+        },
+        {
+            name: "Coaching with Mentor",
+            price: "$300/month",
+            link: "https://buy.stripe.com/test_5kAbJwbVA0IXd0IfYY",
+            features: ["Personalized coaching", "Tailored lesson plans", "Weekly progress reviews", "Direct feedback and support"]
+        }
+    ];
+
+    function renderPlans(containerId) {
+        const container = document.getElementById(containerId);
+        if (!container) return;
+
+        let html = "";
+        plans.forEach(plan => {
+            html += `
+                <div class="pricing-card">
+                    <h2>${plan.name}</h2>
+                    <p><strong>${plan.price}</strong></p>
+                    <ul>
+                        ${plan.features.map(feature => `<li> ${feature}</li>`).join("")}
+                    </ul>
+                    <a href="${plan.link}" class="btn btn-primary" target="_blank">
+                        Subscribe Now
+                    </a>
+                </div>
+            `;
+        });
+
+        container.innerHTML = html;
+    }
+
+    document.addEventListener("DOMContentLoaded", function () {
+        renderPlans("pricing-container-en");
+        renderPlans("pricing-container-fr");
+    });
+</script>
+
 ::: {.content-visible when-profile="english"}
 
-# Subscribe to French Course
-
 Choose a plan that works best for you:
-
-::: {.pricing-container}
-::: {.pricing-card}
-## Monthly Plan
-**$50/month**
-
-- Access to all lessons
-- New content every week
-- Cancel anytime
-
-<button id="monthly-button" class="btn btn-primary">Subscribe Now</button>
+<div id="pricing-container-en" class="pricing-container"></div>
 :::
-
-::: {.pricing-card}
-## Yearly Plan
-**$450/year**
-
-<span class="discount">Save 25% (Originally $600)</span>
-
-- Access to all lessons
-- New content every week
-- 3 months free compared to monthly
-
-<button id="yearly-button" class="btn btn-primary">Subscribe Now</button>
-:::
-
-::: {.pricing-card}
-## Coaching with Mentor
-**$300/month**
-
-- Personalized coaching
-- Tailored lesson plans
-- Weekly progress reviews
-- Direct feedback and support
-
-<a href="https://forms.gle/cUqsy2YCYPk5X6hE9" class="btn btn-primary">Subscribe Now</a>
-:::
-:::
-
-:::
-
 
 ::: {.content-visible when-profile="french"}
 
-# Abonnez-vous au cours de français
-
 Choisissez le plan qui vous convient le mieux :
-
-::: {.pricing-container}
-::: {.pricing-card}
-## Plan Mensuel
-**50 $/mois**
-
-- Accès à toutes les leçons
-- Nouveau contenu chaque semaine
-- Annulation à tout moment
-
-<button id="monthly-button" class="btn btn-primary">S'abonner maintenant</button>
-:::
-
-::: {.pricing-card}
-## Plan Annuel
-**450 $/an**
-
-<span class="discount">Économisez 25 % (Originalement 600 $)</span>
-
-- Accès à toutes les leçons
-- Nouveau contenu chaque semaine
-- 3 mois gratuits par rapport au plan mensuel
-
-<button id="yearly-button" class="btn btn-primary">S'abonner maintenant</button>
-:::
-
-::: {.pricing-card}
-## Coaching avec mentor
-**300 $/mois**
-
-- Coaching personnalisé
-- Plans de leçons sur mesure
-- Révisions hebdomadaires des progrès
-- Retour d'information et soutien direct
-
-<a href="https://forms.gle/cUqsy2YCYPk5X6hE9" class="btn btn-primary">S'abonner maintenant</a>
-:::
-:::
-
+<div id="pricing-container-fr" class="pricing-container"></div>
 :::

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>payment – French with Kunal</title>
+<title>Subscribe to French Course – French with Kunal</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -135,65 +135,87 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#subscribe-to-french-course" id="toc-subscribe-to-french-course" class="nav-link active" data-scroll-target="#subscribe-to-french-course">Subscribe to French Course</a></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content" id="quarto-document-content">
 
-
-
-
-<section id="subscribe-to-french-course" class="level1">
-<h1>Subscribe to French Course</h1>
-<p>Choose a plan that works best for you:</p>
-<div class="pricing-container">
-<section id="monthly-plan" class="level2 pricing-card">
-<h2 class="anchored" data-anchor-id="monthly-plan">Monthly Plan</h2>
-<p><strong>$50/month</strong></p>
-<ul>
-<li>Access to all lessons</li>
-<li>New content every week</li>
-<li>Cancel anytime</li>
-</ul>
-<button id="monthly-button" class="btn btn-primary">
-Subscribe Now
-</button>
-</section>
-<section id="yearly-plan" class="level2 pricing-card">
-<h2 class="anchored" data-anchor-id="yearly-plan">Yearly Plan</h2>
-<p><strong>$450/year</strong></p>
-<p><span class="discount">Save 25% (Originally $600)</span></p>
-<ul>
-<li>Access to all lessons</li>
-<li>New content every week</li>
-<li>3 months free compared to monthly</li>
-</ul>
-<button id="yearly-button" class="btn btn-primary">
-Subscribe Now
-</button>
-</section>
-<section id="coaching-with-mentor" class="level2 pricing-card">
-<h2 class="anchored" data-anchor-id="coaching-with-mentor">Coaching with Mentor</h2>
-<p><strong>$300/month</strong></p>
-<ul>
-<li>Personalized coaching</li>
-<li>Tailored lesson plans</li>
-<li>Weekly progress reviews</li>
-<li>Direct feedback and support</li>
-</ul>
-<p><a href="https://forms.gle/cUqsy2YCYPk5X6hE9" class="btn btn-primary">Subscribe Now</a></p>
-</section>
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Subscribe to French Course</h1>
 </div>
 
 
-</section>
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<script>
+    const plans = [
+        {
+            name: "Monthly Plan",
+            price: "$50/month",
+            link: "https://buy.stripe.com/test_5kAbJwbVA0IXd0IfYY",
+            features: ["Access to all lessons", "New content every week", "Cancel anytime"]
+        },
+        {
+            name: "Yearly Plan",
+            price: "$450/year",
+            link: "https://buy.stripe.com/test_5kAbJwbVA0IXd0IfYY",
+            features: ["Access to all lessons", "New content every week", "3 months free compared to monthly"]
+        },
+        {
+            name: "Coaching with Mentor",
+            price: "$300/month",
+            link: "https://buy.stripe.com/test_5kAbJwbVA0IXd0IfYY",
+            features: ["Personalized coaching", "Tailored lesson plans", "Weekly progress reviews", "Direct feedback and support"]
+        }
+    ];
+
+    function renderPlans(containerId) {
+        const container = document.getElementById(containerId);
+        if (!container) return;
+
+        let html = "";
+        plans.forEach(plan => {
+            html += `
+                <div class="pricing-card">
+                    <h2>${plan.name}</h2>
+                    <p><strong>${plan.price}</strong></p>
+                    <ul>
+                        ${plan.features.map(feature => `<li> ${feature}</li>`).join("")}
+                    </ul>
+                    <a href="${plan.link}" class="btn btn-primary" target="_blank">
+                        Subscribe Now
+                    </a>
+                </div>
+            `;
+        });
+
+        container.innerHTML = html;
+    }
+
+    document.addEventListener("DOMContentLoaded", function () {
+        renderPlans("pricing-container-en");
+        renderPlans("pricing-container-fr");
+    });
+</script>
+Choose a plan that works best for you:
+<div id="pricing-container-en" class="pricing-container">
+
+</div>
+
+
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
