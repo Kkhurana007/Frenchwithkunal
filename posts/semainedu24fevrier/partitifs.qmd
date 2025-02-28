@@ -1,0 +1,148 @@
+---
+title: "Les Partitifs + TEF- Production Écrite"
+author: "Kunal Khurana"
+date: "02-28-2025"
+categories: [B1/B2, partitifs, négation, adverbes, quantities]
+image: "partitifs.png"
+---
+
+::: {style="text-align: left; padding: 10px;"}
+<a href="mailto:info@frenchwithkunal.ca" target="_blank" style="margin: 0 10px; color: #000;"><i class="fas fa-envelope fa-lg"></i></a> <a href="https://www.instagram.com/kunal.khurana7" target="_blank" style="margin: 0 10px; color: #E1306C;"><i class="fab fa-instagram fa-lg"></i></a> <a href="https://frenchwithkunal.ca" target="_blank" style="margin: 0 10px; color: #0077b5;"><i class="fas fa-globe fa-lg"></i></a> <a href="https://whatsapp.com/channel/0029Vb57n2e7dmegpjYpyi3V" target="_blank" style="margin: 0 10px; color: #25D366;"><i class="fab fa-whatsapp fa-lg"></i></a> <button onclick="copyLink()" style="background-color: #0077b5; color: white; padding: 8px 16px; border: none; border-radius: 4px; cursor: pointer; margin-left: 10px;"> <i class="fas fa-copy"></i> </button> [Link copied!]{#copy-message style="margin-left: 10px; color: green; display: none;"}
+:::
+
+```{=html}
+<script>
+  function copyLink() {
+    // Get the current page URL
+    const url = window.location.href;
+    
+    // Copy the URL to the clipboard
+    navigator.clipboard.writeText(url).then(() => {
+      // Show a confirmation message
+      const message = document.getElementById("copy-message");
+      message.style.display = "inline";
+      setTimeout(() => {
+        message.style.display = "none";
+      }, 2000); // Hide the message after 2 seconds
+    });
+  }
+</script>
+```
+
+::: {.content-visible when-profile="english"}
+
+[In today’s lecture](https://drive.google.com/file/d/1pmXE4InVTA4GYXucCMEuXqqUrPkjtUQv/view?usp=drive_link), we explored the concept of **partitive articles** in French. Partitives are used to express an unspecified quantity of something, often paired with verbs related to eating, drinking, or buying. However, their usage changes in specific contexts, such as negatives, adverbs, and quantities. Let’s dive deeper into this topic with clear examples to help you understand how partitives work and when they change.
+
+#### What Are Partitive Articles?
+
+Partitive articles in French are used to refer to an indefinite or uncountable quantity of something. They are:\
+- **du** (masculine singular),\
+- **de la** (feminine singular),\
+- **des** (plural).
+
+These articles are typically used with verbs of quantity, such as *manger* (to eat), *boire* (to drink), or *acheter* (to buy).
+
+#### When Do Partitives Change?
+
+Partitive articles change in three specific contexts: **negatives**, **adverbs**, and **quantities**. Let’s look at examples for each case.
+
+##### 1. **With Negatives**
+
+In negative sentences, the partitive article changes to **de** or **d’** (before a vowel or silent *h*).
+
+-   *Je mange du pain.* (I eat bread.)\
+    → *Je ne mange pas de pain.* (I don’t eat bread.)
+
+-   *Je bois de la limonade.* (I drink lemonade.)\
+    → *Je ne bois pas de limonade.* (I don’t drink lemonade.)
+
+-   *J’achète des pâtes.* (I buy pasta.)\
+    → *Je n’achète pas de pâtes.* (I don’t buy pasta.)
+
+##### 2. **With Adverbs**
+
+When adverbs of quantity (like *peu*, *beaucoup*, *assez*, *plus*, *moins*) are used, the partitive article changes to **de** or **d’**.
+
+-   *Je mange du pain.*\
+    → *Je mange peu de pain.* (I eat little bread.)
+
+-   *Je bois de la limonade.*\
+    → *Je bois beaucoup de limonade.* (I drink a lot of lemonade.)
+
+-   *J’achète des pâtes.*\
+    → *J’achète assez de pâtes.* (I buy enough pasta.)
+
+##### 3. **With Quantities**
+
+When expressing specific quantities, the partitive article is replaced by **de** or **d’**.
+
+-   *Je mange du pain.*\
+    → *Je mange une tranche de pain.* (I eat a slice of bread.)
+
+-   *Je bois de la limonade.*\
+    → *Je bois deux verres de limonade.* (I drink two glasses of lemonade.)
+
+-   *J’achète des pâtes.*\
+    → *J’achète une assiette de pâtes.* (I buy a plate of pasta.)
+
+:::
+
+::: {.content-visible when-profile="french"}
+
+[Dans le cours d’aujourd’hui](https://drive.google.com/file/d/1pmXE4InVTA4GYXucCMEuXqqUrPkjtUQv/view?usp=drive_link), nous avons exploré le concept des **articles partitifs** en français. Les partitifs sont utilisés pour exprimer une quantité indéfinie ou non comptable de quelque chose, souvent associés à des verbes liés à la nourriture, à la boisson ou à l’achat. Cependant, leur utilisation change dans des contextes spécifiques, tels que les négations, les adverbes et les quantités. Plongeons plus profondément dans ce sujet avec des exemples clairs pour vous aider à comprendre comment fonctionnent les partitifs et quand ils changent.
+
+#### Que Sont les Articles Partitifs ?
+
+Les articles partitifs en français sont utilisés pour désigner une quantité indéfinie ou non comptable de quelque chose. Ils sont :\
+- **du** (masculin singulier),\
+- **de la** (féminin singulier),\
+- **des** (pluriel).
+
+Ces articles sont généralement utilisés avec des verbes de quantité, comme *manger*, *boire* ou *acheter*.
+
+#### Quand les Partitifs Changent-ils?
+
+Les articles partitifs changent dans trois contextes spécifiques : **les négations**, **les adverbes** et **les quantités**. Examinons des exemples pour chaque cas.
+
+##### 1. **Avec les Négations**
+
+Dans les phrases négatives, l’article partitif change en **de** ou **d’** (devant une voyelle ou un *h* muet).
+
+-   *Je mange du pain.*\
+    → *Je ne mange pas de pain.*
+
+-   *Je bois de la limonade.*\
+    → *Je ne bois pas de limonade.*
+
+-   *J’achète des pâtes.*\
+    → *Je n’achète pas de pâtes.*
+
+##### 2. **Avec les Adverbes**
+
+Lorsque des adverbes de quantité (comme *peu*, *beaucoup*, *assez*, *plus*, *moins*) sont utilisés, l’article partitif change en **de** ou **d’**.
+
+-   *Je mange du pain.*\
+    → *Je mange peu de pain.*
+
+-   *Je bois de la limonade.*\
+    → *Je bois beaucoup de limonade.*
+
+-   *J’achète des pâtes.*\
+    → *J’achète assez de pâtes.*
+
+##### 3. **Avec les Quantités**
+
+Lorsqu’on exprime des quantités spécifiques, l’article partitif est remplacé par **de** ou **d’**.
+
+-   *Je mange du pain.*\
+    → *Je mange une tranche de pain.*
+
+-   *Je bois de la limonade.*\
+    → *Je bois deux verres de limonade.*
+
+-   *J’achète des pâtes.*\
+    → *J’achète une assiette de pâtes.*
+
+En comprenant ces règles, vous serez capable d’utiliser correctement les articles partitifs dans différents contextes. Pratiquez ces exemples, et bientôt vous maîtriserez les nuances des partitifs en français!
+
+:::

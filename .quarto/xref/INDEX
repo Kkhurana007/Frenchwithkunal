@@ -228,5 +228,28 @@
   "posts/semainedu17fevrier/irregular_verbs.qmd": {
     "irregular_verbs.html": "0bcf60d1",
     "irregular_verbs.tex": "20ea5fe7"
+  },
+  "posts/semainedu17fevrier/etre_avoir_faire.qmd": {
+    "etre_avoir_faire.html": "65b2f59c",
+    "etre_avoir_faire.tex": "18fe7b01"
+  },
+  "register.qmd": {
+    "register.html": "788839f6"
+  },
+  "posts/semainedu24fevrier/tempsdeverbes.qmd": {
+    "tempsdeverbes.html": "14d708be",
+    "tempsdeverbes.tex": "f9a4b54a"
+  },
+  "posts/semainedu24fevrier/partitifs+TEF_PE.qmd": {
+    "partitifs+TEF_PE.html": "2e3d39e3",
+    "partitifs+TEF_PE.tex": "cb31dd05"
+  },
+  "posts/semainedu24fevrier/verbes_irregulier.qmd": {
+    "verbes_irregulier.html": "e431acb6",
+    "verbes_irregulier.tex": "c05b5b1c"
+  },
+  "posts/semainedu24fevrier/partitifs.qmd": {
+    "partitifs.html": "ffb740cb",
+    "partitifs.tex": "271329e6"
   }
 }
