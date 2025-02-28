@@ -6,17 +6,11 @@ categories: [A1/A2, nasal sounds]
 image: "sounds.png"
 ---
 
-<div style="text-align: left; padding: 10px;">
-  <a href="mailto:info@frenchwithkunal.ca" target="_blank" style="margin: 0 10px; color: #000;"><i class="fas fa-envelope fa-lg"></i></a>
-  <a href="https://www.instagram.com/kunal.khurana7" target="_blank" style="margin: 0 10px; color: #E1306C;"><i class="fab fa-instagram fa-lg"></i></a>
-  <a href="https://frenchwithkunal.ca" target="_blank" style="margin: 0 10px; color: #0077b5;"><i class="fas fa-globe fa-lg"></i></a>
-  <a href="https://whatsapp.com/channel/0029Vb57n2e7dmegpjYpyi3V" target="_blank" style="margin: 0 10px; color: #25D366;"><i class="fab fa-whatsapp fa-lg"></i></a>
-  <button onclick="copyLink()" style="background-color: #0077b5; color: white; padding: 8px 16px; border: none; border-radius: 4px; cursor: pointer; margin-left: 10px;">
-    <i class="fas fa-copy"></i> 
-  </button>
-  <span id="copy-message" style="margin-left: 10px; color: green; display: none;">Link copied!</span>
-</div>
+::: {style="text-align: left; padding: 10px;"}
+<a href="mailto:info@frenchwithkunal.ca" target="_blank" style="margin: 0 10px; color: #000;"><i class="fas fa-envelope fa-lg"></i></a> <a href="https://www.instagram.com/kunal.khurana7" target="_blank" style="margin: 0 10px; color: #E1306C;"><i class="fab fa-instagram fa-lg"></i></a> <a href="https://frenchwithkunal.ca" target="_blank" style="margin: 0 10px; color: #0077b5;"><i class="fas fa-globe fa-lg"></i></a> <a href="https://whatsapp.com/channel/0029Vb57n2e7dmegpjYpyi3V" target="_blank" style="margin: 0 10px; color: #25D366;"><i class="fab fa-whatsapp fa-lg"></i></a> <button onclick="copyLink()" style="background-color: #0077b5; color: white; padding: 8px 16px; border: none; border-radius: 4px; cursor: pointer; margin-left: 10px;"> <i class="fas fa-copy"></i> </button> [Link copied!]{#copy-message style="margin-left: 10px; color: green; display: none;"}
+:::
 
+```{=html}
 <script>
   function copyLink() {
     // Get the current page URL
@@ -33,21 +27,12 @@ image: "sounds.png"
     });
   }
 </script>
-
-
+```
 
 ::: {.content-visible when-profile="english"}
-
 Today, [we continued learning](https://drive.google.com/file/d/1iULBhP4sRiqoVaRNAN-gJ7Yw2Xlrzk3C/view?usp=drive_link) the three main sounds in French: an, in, and on. We also noted that if the sound is followed by a b or p, the spelling of n changes to m. We studied this using examples, and most of the examples followed this rule. However, as there are exceptions in French, some words like bonbon do not follow this rule.
-
-
 :::
-
 
 ::: {.content-visible when-profile="french"}
-
 Aujourd’hui, [on a continué à apprendre](https://drive.google.com/file/d/1iULBhP4sRiqoVaRNAN-gJ7Yw2Xlrzk3C/view?usp=drive_link) les trois sons principaux en français : an, in et on. On a également noté que si le son est suivi d’un b ou p, l’écriture du n change en m. Donc, on a étudié cela à l’aide d’exemples. La plupart des exemples suivaient cette règle. Mais, comme il y a des exceptions en français, des mots comme bonbon ne suivent pas cette règle.
-
-
 :::
-
