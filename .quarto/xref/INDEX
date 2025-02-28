@@ -215,5 +215,8 @@
   },
   "register.qmd": {
     "register.html": "aec30214"
+  },
+  "reset-password.qmd": {
+    "reset-password.html": "3ed550f0"
   }
 }

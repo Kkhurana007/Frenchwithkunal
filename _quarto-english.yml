@@ -22,9 +22,9 @@ website:
 
     right:
       - text: English
-        href: https://frenchwithkunal.ca/index.html
+        href: http://locahost:4200/index.html
       - text: French
-        href: https://frenchwithkunal.ca/fr/index.html
+        href: http://locahost:4200/fr/index.html
       - icon: envelope
         href: mailto:info@frenchwithkunal.ca
       - icon: youtube
@@ -53,9 +53,9 @@ website:
       - text: Language
         menu:
           - text: English
-            href: https://frenchwithkunal.ca/index.html
+            href: http://locahost:4200/index.html
           - text: Français
-            href: https://frenchwithkunal.ca/fr/index.html      
+            href: http://locahost:4200/fr/index.html      
       - icon: youtube
         href: https://www.youtube.com/@kunalkhurana7822
 

@@ -14,7 +14,7 @@ format: html
         {
             name: "Yearly Plan",
             price: "$450/year",
-            link: "https://buy.stripe.com/test_5kAbJwbVA0IXd0IfYY",
+            link: "https://buy.stripe.com/test_4gw7tg7FkajxbWE4gh",
             features: ["Access to all lessons", "New content every week", "3 months free compared to monthly"]
         },
         {
