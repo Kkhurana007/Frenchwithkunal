@@ -47,6 +47,7 @@ website:
     right:
       - text: Se connecter
         href: login.qmd
+      - text: Langue
         menu:
           - text: Anglais
             href: https://frenchwithkunal.ca/index.html
