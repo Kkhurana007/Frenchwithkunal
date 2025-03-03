@@ -32,7 +32,7 @@ image: "tempsdeverbes.png"
 ::: {.content-visible when-profile="english"}
 
 
-French verb tenses can seem daunting at first, but once you understand their structure and usage, they become a powerful tool for expressing yourself clearly. [In today’s lecture](https://drive.google.com/file/d/1d6abMu8t_2GCdx7MO77UrMFxtPRV6q3-/view?usp=drive_link), we explored the most commonly used French verb tenses - **nine** out of the fifteen. Let’s break them down one by one with examples to help you master them.  
+French verb tenses can seem daunting at first, but once you understand their structure and usage, they become a powerful tool for expressing yourself clearly. [In today’s lecture](https://drive.google.com/file/d/1d6abMu8t_2GCdx7MO77UrMFxtPRV6q3-/view?usp=drive_link), we explored the most commonly used French verb tenses - **eight** out of the fifteen. Let’s break them down one by one with examples to help you master them.  
 
 ---
 
@@ -46,7 +46,7 @@ In French, the present tense is primarily expressed through:
 - **Impératif**: This is used to give commands or make requests, often without a subject.  
   *Example*: *Mange ta pomme !* (Eat your apple!)  
 
-- **Être en train de**: This construction is the equivalent of the English "-ing" form, used to emphasize an ongoing action.  
+- **Être en train de***: This construction is the equivalent of the English "-ing" form, used to emphasize an ongoing action.  
   *Example*: *Je suis en train de manger.* (I am eating.)  
 
 ---
@@ -84,7 +84,7 @@ The future tense in French includes:
 ::: {.content-visible when-profile="french"}
 
 
-Les temps verbaux en français peuvent sembler complexes au premier abord, mais une fois que vous en comprenez la structure et l’utilisation, ils deviennent un outil puissant pour vous exprimer clairement. [Dans le cours d’aujourd’hui](https://drive.google.com/file/d/1d6abMu8t_2GCdx7MO77UrMFxtPRV6q3-/view?usp=drive_link), nous avons exploré les temps verbaux les plus couramment utilisés en français—neuf sur les quinze existants. Décomposons-les un par un avec des exemples pour vous aider à les maîtriser.  
+Les temps verbaux en français peuvent sembler complexes au premier abord, mais une fois que vous en comprenez la structure et l’utilisation, ils deviennent un outil puissant pour vous exprimer clairement. [Dans le cours d’aujourd’hui](https://drive.google.com/file/d/1d6abMu8t_2GCdx7MO77UrMFxtPRV6q3-/view?usp=drive_link), nous avons exploré les temps verbaux les plus couramment utilisés en français - **huit** sur les quinze existants. Décomposons-les un par un avec des exemples pour vous aider à les maîtriser.  
 
 ---
 
@@ -98,7 +98,7 @@ En français, le présent s’exprime principalement à travers :
 - **L’impératif** : Ce temps est utilisé pour donner des ordres ou faire des demandes, souvent sans sujet.  
   *Exemple* : *Mange ta pomme !*  
 
-- **Être en train de** : Cette construction équivaut à la forme "-ing" en anglais et met l’accent sur une action en cours.  
+- **Être en train de*** : Cette construction équivaut à la forme "-ing" en anglais et met l’accent sur une action en cours.  
   *Exemple* : *Je suis en train de manger.*  
 
 ---

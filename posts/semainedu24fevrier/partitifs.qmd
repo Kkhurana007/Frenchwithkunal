@@ -1,5 +1,5 @@
 ---
-title: "Les Partitifs + TEF- Production Écrite"
+title: "Les Partitifs"
 author: "Kunal Khurana"
 date: "02-28-2025"
 categories: [B1/B2, partitifs, négation, adverbes, quantities]
