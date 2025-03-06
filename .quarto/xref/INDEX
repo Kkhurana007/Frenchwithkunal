@@ -251,5 +251,22 @@
   "posts/semainedu24fevrier/partitifs.qmd": {
     "partitifs.html": "ffb740cb",
     "partitifs.tex": "271329e6"
+  },
+  "posts/semainedu3mars/new.qmd": {
+    "new.html": "b9563b53",
+    "new.tex": "db20c658"
+  },
+  "posts/semainedu3mars/kahoot.qmd": {
+    "kahoot.html": "7df73536",
+    "kahoot.tex": "d9aff77a"
+  },
+  "posts/semainedu3mars/demonstratifs.qmd": {
+    "demonstratifs.html": "3988ffb2"
+  },
+  "posts/semainedu3mars/masculin_ou_feminin.qmd": {
+    "masculin_ou_feminin.html": "57c5a739"
+  },
+  "posts/semainedu3mars/pluralofnouns.qmd": {
+    "pluralofnouns.html": "14467cf7"
   }
 }

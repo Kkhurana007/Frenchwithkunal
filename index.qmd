@@ -9,7 +9,7 @@ listing:
     categories: cloud
     sort-ui: false
     filter-ui: false
-    page-size: 6         
+    page-size: 9         
 
 page-layout: full
 title-block-banner: false
@@ -30,4 +30,3 @@ format:
             <a href="https://wa.me/+15813989477" target="_blank" style="margin: 0 10px; color: #25D366;"><i class="fab fa-whatsapp fa-2x"></i></a>
           </footer>
 ---
-

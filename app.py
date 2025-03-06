@@ -1,46 +1,64 @@
 from flask import Flask, request, jsonify
-from flask_sqlalchemy import SQLAlchemy
-from werkzeug.security import generate_password_hash, check_password_hash
+from pymongo import MongoClient
+from flask_cors import CORS
+import os
+from dotenv import load_dotenv
+
+load_dotenv()  # Load environment variables from .env file
 
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///users.db'
-app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
-db = SQLAlchemy(app)
+CORS(app)  # Enable CORS for frontend-backend communication
 
-class User(db.Model):
-    id = db.Column(db.Integer, primary_key=True)
-    email = db.Column(db.String(120), unique=True, nullable=False)
-    password = db.Column(db.String(120), nullable=False)
+# MongoDB connection
+mongo_uri = os.getenv("MONGO_URI")
+client = MongoClient(mongo_uri)
+db = client["french_course"]
+users_collection = db["users"]
 
-@app.route('/login', methods=['POST'])
+# User Registration
+@app.route("/register", methods=["POST"])
+def register():
+    data = request.json
+    email = data.get("email")
+    password = data.get("password")  # In production, hash passwords using bcrypt
+    plan = data.get("plan")
+
+    if users_collection.find_one({"email": email}):
+        return jsonify({"error": "User already exists"}), 400
+
+    user = {
+        "email": email,
+        "password": password,
+        "plan": plan,
+        "subscription_status": "active"
+    }
+    users_collection.insert_one(user)
+    return jsonify({"message": "User registered successfully"}), 201
+
+# User Login
+@app.route("/login", methods=["POST"])
 def login():
-    data = request.get_json()
-    email = data.get('email')
-    password = data.get('password')
+    data = request.json
+    email = data.get("email")
+    password = data.get("password")
 
-    user = User.query.filter_by(email=email).first()
-    if user and check_password_hash(user.password, password):
-        return jsonify({"message": "Login successful", "user": {"email": user.email}}), 200
+    user = users_collection.find_one({"email": email, "password": password})
+    if user:
+        return jsonify({"message": "Login successful", "plan": user["plan"]}), 200
     else:
-        return jsonify({"message": "Invalid email or password"}), 401
+        return jsonify({"error": "Invalid credentials"}), 401
 
-@app.route('/signup', methods=['POST'])
-def signup():
-    data = request.get_json()
-    email = data.get('email')
-    password = data.get('password')
+# Check Subscription Status
+@app.route("/check-subscription", methods=["POST"])
+def check_subscription():
+    data = request.json
+    email = data.get("email")
 
-    if User.query.filter_by(email=email).first():
-        return jsonify({"message": "Email already exists"}), 400
+    user = users_collection.find_one({"email": email})
+    if user and user["subscription_status"] == "active":
+        return jsonify({"message": "Subscription active", "plan": user["plan"]}), 200
+    else:
+        return jsonify({"error": "Subscription inactive or user not found"}), 404
 
-    hashed_password = generate_password_hash(password, method='sha256')
-    new_user = User(email=email, password=hashed_password)
-    db.session.add(new_user)
-    db.session.commit()
-
-    return jsonify({"message": "User created", "user": {"email": email}}), 201
-
-if __name__ == '__main__':
-    with app.app_context():
-        db.create_all()
+if __name__ == "__main__":
     app.run(debug=True)
