@@ -53,7 +53,7 @@ const handleSubmit = async (e: React.FormEvent) => {
        localStorage.setItem("accessToken", data.data.accessToken);
         localStorage.setItem("refreshToken", data.data.refreshToken);
       alert(data.message);
-      window.location.href = "http://localhost:4200"
+      window.location.href = "https://frenchwithkunal.ca"
     }
     
   } catch (error) {

@@ -1,0 +1,169 @@
+---
+title: "Être vs Avoir vs Faire pour la température"
+author: "Kunal Khurana"
+date: "02-22-2025"
+categories: [A1/A2, temperature, être, avoir, faire, idioms]
+image: "avoir_être_faire.png"
+---
+
+::: {style="text-align: left; padding: 10px;"}
+<a href="mailto:info@frenchwithkunal.ca" target="_blank" style="margin: 0 10px; color: #000;"><i class="fas fa-envelope fa-lg"></i></a> <a href="https://www.instagram.com/kunal.khurana7" target="_blank" style="margin: 0 10px; color: #E1306C;"><i class="fab fa-instagram fa-lg"></i></a> <a href="https://frenchwithkunal.ca" target="_blank" style="margin: 0 10px; color: #0077b5;"><i class="fas fa-globe fa-lg"></i></a> <a href="https://whatsapp.com/channel/0029Vb57n2e7dmegpjYpyi3V" target="_blank" style="margin: 0 10px; color: #25D366;"><i class="fab fa-whatsapp fa-lg"></i></a> <button onclick="copyLink()" style="background-color: #0077b5; color: white; padding: 8px 16px; border: none; border-radius: 4px; cursor: pointer; margin-left: 10px;"> <i class="fas fa-copy"></i> </button> [Link copied!]{#copy-message style="margin-left: 10px; color: green; display: none;"}
+:::
+
+```{=html}
+<script>
+  function copyLink() {
+    // Get the current page URL
+    const url = window.location.href;
+    
+    // Copy the URL to the clipboard
+    navigator.clipboard.writeText(url).then(() => {
+      // Show a confirmation message
+      const message = document.getElementById("copy-message");
+      message.style.display = "inline";
+      setTimeout(() => {
+        message.style.display = "none";
+      }, 2000); // Hide the message after 2 seconds
+    });
+  }
+</script>
+```
+
+::: {.content-visible when-profile="english"}
+
+When learning French, one of the trickiest aspects is understanding which auxiliary verb to use in different contexts. This is especially true when talking about temperature, whether it’s about how you feel, the weather, or the state of an object. Let’s break it down with examples to make it easier. 
+
+## 1. Using "Avoir" for Personal Sensations (Body Temperature)
+In French, when you want to express how you feel in terms of temperature, you use the verb "avoir" (to have). This is because you’re describing a personal sensation, not the external environment.
+
+J’ai chaud. → I feel hot.
+
+J’ai froid. → I feel cold.
+
+For example:
+
+J’ai chaud aujourd’hui, je vais boire de l’eau. (I feel hot today, I’m going to drink some water.)
+
+J’ai froid, je vais mettre un manteau. (I feel cold, I’m going to put on a coat.)
+
+## 2. Using "Faire" for the Weather
+When talking about the weather in general, French uses the verb "faire" (to make/do). This is because you’re describing the external environment, not a personal feeling.
+
+Il fait chaud. → It’s hot (outside).
+
+Il fait froid. → It’s cold (outside).
+
+For example:
+
+Il fait chaud aujourd’hui, je vais à la plage. (It’s hot today, I’m going to the beach.)
+
+Il fait froid ce matin, je porte un pull. (It’s cold this morning, I’m wearing a sweater.)
+
+## 3. Using "Être" for Objects
+When describing the temperature of an object, you use the verb "être" (to be). This is because you’re talking about the state of the object itself.
+
+Le thé est chaud. → The tea is hot.
+
+Le thé est tiède. → The tea is warm.
+
+Le thé est froid. → The tea is cold.
+
+For example:
+
+Le café est trop chaud, je vais attendre. (The coffee is too hot, I’ll wait.)
+
+L’eau est froide, je ne vais pas nager. (The water is cold, I’m not going to swim.)
+
+### Practice Sentences
+Let’s put it all together with some simple sentences:
+
+J’ai chaud, mais il fait froid dehors. → I feel hot, but it’s cold outside.
+
+Le lait est tiède, pas chaud. → The milk is warm, not hot.
+
+Il fait beau aujourd’hui, mais j’ai froid. → It’s nice today, but I feel cold.
+
+La soupe est trop chaude, attends un peu. → The soup is too hot, wait a bit.
+
+En hiver, il fait froid et j’ai toujours froid. → In winter, it’s cold outside, and I always feel cold.
+
+### Key Takeaway
+
+Avoir → For personal sensations (how you feel).
+
+Faire → For the weather (external temperature).
+
+Être → For objects (their state or temperature).
+
+For details, please refer to [this pdf](https://drive.google.com/file/d/114v5AgZ1CS4t7J8w5yhMabszFKL1XOvS/view?usp=drive_link).
+
+:::
+
+::: {.content-visible when-profile="french"}
+
+Lorsqu’on apprend le français, l’un des aspects les plus délicats est de comprendre quel auxiliaire utiliser dans différents contextes. Cela est particulièrement vrai lorsqu’on parle de la température, que ce soit pour exprimer une sensation personnelle, la météo ou l’état d’un objet. On va essayer de le comprendre avec les exemples.
+
+## 1. Utiliser "Avoir" pour les Sensations Personnelles (Température du Corps)
+En français, lorsque vous voulez exprimer une sensation de température, vous utilisez le verbe "avoir". En effet, vous décrivez une sensation personnelle, et non l’environnement extérieur.
+
+J’ai chaud. → I feel hot.
+
+J’ai froid. → I feel cold.
+
+Par exemple :
+
+J’ai chaud aujourd’hui, je vais boire de l’eau. (I feel hot today, I’m going to drink some water.)
+
+J’ai froid, je vais mettre un manteau. (I feel cold, I’m going to put on a coat.)
+
+## 2. Utiliser "Faire" pour la Météo
+Quand on parle de la météo en général, on utilise le verbe "faire". Cela permet de décrire l’environnement extérieur, et non une sensation personnelle.
+
+Il fait chaud. → It’s hot (outside).
+
+Il fait froid. → It’s cold (outside).
+
+Par exemple :
+
+Il fait chaud aujourd’hui, je vais à la plage. (It’s hot today, I’m going to the beach.)
+
+Il fait froid ce matin, je porte un pull. (It’s cold this morning, I’m wearing a sweater.)
+
+## 3. Utiliser "Être" pour les Objets
+Pour décrire la température d’un objet, on utilise le verbe "être". Cela permet de parler de l’état de l’objet lui-même.
+
+Le thé est chaud. → The tea is hot.
+
+Le thé est tiède. → The tea is warm.
+
+Le thé est froid. → The tea is cold.
+
+Par exemple :
+
+Le café est trop chaud, je vais attendre. (The coffee is too hot, I’ll wait.)
+
+L’eau est froide, je ne vais pas nager. (The water is cold, I’m not going to swim.)
+
+### Phrases d’Entraînement
+
+Mettons tout cela en pratique avec quelques phrases simples :
+
+J’ai chaud, mais il fait froid dehors. → I feel hot, but it’s cold outside.
+
+Le lait est tiède, pas chaud. → The milk is warm, not hot.
+
+Il fait beau aujourd’hui, mais j’ai froid. → It’s nice today, but I feel cold.
+
+La soupe est trop chaude, attends un peu. → The soup is too hot, wait a bit.
+
+En hiver, il fait froid et j’ai toujours froid. → In winter, it’s cold outside, and I always feel cold.
+
+### À Retenir
+
+Avoir → Pour les sensations personnelles (comment vous vous sentez).
+
+Faire → Pour la météo (température extérieure).
+
+Être → Pour les objets (leur état ou température).
+
+Veuillez jeter un coup d'œil [à ce PDF](https://drive.google.com/file/d/114v5AgZ1CS4t7J8w5yhMabszFKL1XOvS/view?usp=drive_link) pour plus de détails.

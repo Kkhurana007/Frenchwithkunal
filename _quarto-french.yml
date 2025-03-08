@@ -20,9 +20,9 @@ website:
 
     right:
       - text: English
-        href: http://localhost:4200/index.html
+        href: https://frenchwithkunal.ca/index.html
       - text: Français
-        href: http://localhost:4200/fr/index.html
+        href: https://frenchwithkunal.ca/fr/index.html
       - icon: envelope
         href: mailto:info@frenchwithkunal.ca       
       - icon: youtube
@@ -44,9 +44,9 @@ website:
       - text: Langue
         menu:
           - text: Anglais
-            href: http://localhost:4200/index.html
+            href: https://frenchwithkunal.ca/index.html
           - text: Français
-            href: http://localhost:4200/fr/index.html        
+            href: https://frenchwithkunal.ca/fr/index.html        
       - icon: youtube
         href: https://www.youtube.com/@kunalkhurana7822
 format:

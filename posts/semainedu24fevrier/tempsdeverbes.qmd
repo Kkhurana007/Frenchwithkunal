@@ -1,0 +1,137 @@
+---
+title: "Les temps de verbes / Understanding verb tenses"
+author: "Kunal Khurana"
+date: "02-28-2025"
+categories: [B1/B2, passé, present, futur, conjugation]
+image: "tempsdeverbes.png"
+---
+
+::: {style="text-align: left; padding: 10px;"}
+<a href="mailto:info@frenchwithkunal.ca" target="_blank" style="margin: 0 10px; color: #000;"><i class="fas fa-envelope fa-lg"></i></a> <a href="https://www.instagram.com/kunal.khurana7" target="_blank" style="margin: 0 10px; color: #E1306C;"><i class="fab fa-instagram fa-lg"></i></a> <a href="https://frenchwithkunal.ca" target="_blank" style="margin: 0 10px; color: #0077b5;"><i class="fas fa-globe fa-lg"></i></a> <a href="https://whatsapp.com/channel/0029Vb57n2e7dmegpjYpyi3V" target="_blank" style="margin: 0 10px; color: #25D366;"><i class="fab fa-whatsapp fa-lg"></i></a> <button onclick="copyLink()" style="background-color: #0077b5; color: white; padding: 8px 16px; border: none; border-radius: 4px; cursor: pointer; margin-left: 10px;"> <i class="fas fa-copy"></i> </button> [Link copied!]{#copy-message style="margin-left: 10px; color: green; display: none;"}
+:::
+
+```{=html}
+<script>
+  function copyLink() {
+    // Get the current page URL
+    const url = window.location.href;
+    
+    // Copy the URL to the clipboard
+    navigator.clipboard.writeText(url).then(() => {
+      // Show a confirmation message
+      const message = document.getElementById("copy-message");
+      message.style.display = "inline";
+      setTimeout(() => {
+        message.style.display = "none";
+      }, 2000); // Hide the message after 2 seconds
+    });
+  }
+</script>
+```
+
+::: {.content-visible when-profile="english"}
+
+
+French verb tenses can seem daunting at first, but once you understand their structure and usage, they become a powerful tool for expressing yourself clearly. [In today’s lecture](https://drive.google.com/file/d/1d6abMu8t_2GCdx7MO77UrMFxtPRV6q3-/view?usp=drive_link), we explored the most commonly used French verb tenses - **eight** out of the fifteen. Let’s break them down one by one with examples to help you master them.  
+
+---
+
+#### 1. **Present Tense**  
+
+In French, the present tense is primarily expressed through:  
+
+- **Présent de l’indicatif**: This is the simple present tense, used to describe actions happening now or general truths.  
+  *Example*: *Je mange une pomme.* (I eat an apple.)  
+
+- **Impératif**: This is used to give commands or make requests, often without a subject.  
+  *Example*: *Mange ta pomme !* (Eat your apple!)  
+
+- **Être en train de***: This construction is the equivalent of the English "-ing" form, used to emphasize an ongoing action.  
+  *Example*: *Je suis en train de manger.* (I am eating.)  
+
+---
+
+#### 2. **Past Tense**  
+
+The past tense in French is divided into three main forms:  
+
+- **Passé composé**: This is the most common past tense, formed with the auxiliary verbs *avoir* (for most verbs) or *être* (for 16 specific verbs, like *aller* or *venir*), followed by the past participle.  
+  *Example*: *J’ai mangé une pomme.* (I ate an apple.)  
+
+- **Imparfait**: This tense describes ongoing or habitual actions in the past. It sets the scene or provides background information.  
+  *Example*: *Quand j’étais enfant, je mangeais des pommes tous les jours.* (When I was a child, I ate apples every day.)  
+
+- **Plus-que-parfait**: This tense is used to describe an action that occurred before another past action. It is formed with the imperfect tense of *avoir* or *être* and the past participle.  
+  *Example*: *J’avais déjà mangé une pomme quand tu es arrivé.* (I had already eaten an apple when you arrived.)  
+
+---
+
+#### 3. **Future Tense**  
+
+The future tense in French includes:  
+
+- **Futur proche**: This is used for near future actions and is formed with *aller* + infinitive.  
+  *Example*: *Je vais manger une pomme.* (I am going to eat an apple.)  
+
+- **Futur simple**: This is used for definite future actions. The endings (*-ai, -as, -a, -ons, -ez, -ent*) are added to the infinitive form of the verb.  
+  *Example*: *Je mangerai une pomme.* (I will eat an apple.)  
+
+- **Futur antérieur**: This tense describes an action that will be completed before another future action. It is formed with the future tense of *avoir* or *être* and the past participle.  
+  *Example*: *J’aurai mangé une pomme avant que tu arrives.* (I will have eaten an apple before you arrive.)  
+
+:::
+
+::: {.content-visible when-profile="french"}
+
+
+Les temps verbaux en français peuvent sembler complexes au premier abord, mais une fois que vous en comprenez la structure et l’utilisation, ils deviennent un outil puissant pour vous exprimer clairement. [Dans le cours d’aujourd’hui](https://drive.google.com/file/d/1d6abMu8t_2GCdx7MO77UrMFxtPRV6q3-/view?usp=drive_link), nous avons exploré les temps verbaux les plus couramment utilisés en français - **huit** sur les quinze existants. Décomposons-les un par un avec des exemples pour vous aider à les maîtriser.  
+
+---
+
+#### 1. **Le Présent**  
+
+En français, le présent s’exprime principalement à travers : 
+
+- **Le présent de l’indicatif** : C’est le temps du présent simple, utilisé pour décrire des actions qui se déroulent maintenant ou des vérités générales.  
+  *Exemple* : *Je mange une pomme.*  
+
+- **L’impératif** : Ce temps est utilisé pour donner des ordres ou faire des demandes, souvent sans sujet.  
+  *Exemple* : *Mange ta pomme !*  
+
+- **Être en train de*** : Cette construction équivaut à la forme "-ing" en anglais et met l’accent sur une action en cours.  
+  *Exemple* : *Je suis en train de manger.*  
+
+---
+
+#### 2. **Le Passé**  
+
+Le passé en français se divise en trois formes principales :  
+
+- **Le passé composé** : C’est le temps du passé le plus courant, formé avec les auxiliaires *avoir* (pour la majorité des verbes) ou *être* (pour 16 verbes spécifiques, comme *aller* ou *venir*), suivi du participe passé.  
+  *Exemple* : *J’ai mangé une pomme.*  
+
+- **L’imparfait** : Ce temps décrit des actions continues ou habituelles dans le passé. Il sert à planter le décor ou à fournir des informations contextuelles.  
+  *Exemple* : *Quand j’étais enfant, je mangeais des pommes tous les jours.*  
+
+- **Le plus-que-parfait** : Ce temps est utilisé pour décrire une action qui s’est produite avant une autre action passée. Il est formé avec l’imparfait de *avoir* ou *être* et le participe passé.  
+  *Exemple* : *J’avais déjà mangé une pomme quand tu es arrivé.*  
+
+---
+
+#### 3. **Le Futur**  
+
+Le futur en français comprend :
+
+- **Le futur proche** : Ce temps est utilisé pour des actions futures proches et est formé avec *aller* + infinitif.  
+  *Exemple* : *Je vais manger une pomme.*  
+
+- **Le futur simple** : Ce temps est utilisé pour des actions futures certaines. Les terminaisons (*-ai, -as, -a, -ons, -ez, -ent*) sont ajoutées à l’infinitif du verbe.  
+  *Exemple* : *Je mangerai une pomme.*  
+
+- **Le futur antérieur** : Ce temps décrit une action qui sera terminée avant une autre action future. Il est formé avec le futur simple de *avoir* ou *être* et le participe passé.  
+  *Exemple* : *J’aurai mangé une pomme avant que tu arrives.*  
+
+ 
+:::
+
+

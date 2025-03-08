@@ -224,5 +224,49 @@
   },
   "forget-password.qmd": {
     "forget-password.html": "92b20f8d"
+  },
+  "posts/semainedu24fevrier/tempsdeverbes.qmd": {
+    "tempsdeverbes.html": "2f3f0acf",
+    "tempsdeverbes.tex": "ce49524a"
+  },
+  "posts/semainedu24fevrier/partitifs.qmd": {
+    "partitifs.html": "7475a244",
+    "partitifs.tex": "bde2c721"
+  },
+  "posts/semainedu24fevrier/verbes_irregulier.qmd": {
+    "verbes_irregulier.html": "a2962552",
+    "verbes_irregulier.tex": "262eba0e"
+  },
+  "posts/semainedu17fevrier/nasal_sounds.qmd": {
+    "nasal_sounds.html": "eac66cce",
+    "nasal_sounds.tex": "3f4aa675"
+  },
+  "posts/semainedu17fevrier/irregular_verbs.qmd": {
+    "irregular_verbs.html": "df015548",
+    "irregular_verbs.tex": "40a25207"
+  },
+  "posts/semainedu17fevrier/etre_avoir_faire.qmd": {
+    "etre_avoir_faire.html": "935c78e8",
+    "etre_avoir_faire.tex": "dbcdb887"
+  },
+  "posts/semainedu3mars/pluralofnouns.qmd": {
+    "pluralofnouns.html": "eb2c4e84",
+    "pluralofnouns.tex": "f70db770"
+  },
+  "posts/semainedu3mars/masculin_ou_feminin.qmd": {
+    "masculin_ou_feminin.html": "0efce111",
+    "masculin_ou_feminin.tex": "1697f71c"
+  },
+  "posts/semainedu3mars/demonstratifs.qmd": {
+    "demonstratifs.html": "434cc3eb",
+    "demonstratifs.tex": "85ee9c45"
+  },
+  "posts/semainedu3mars/kahoot.qmd": {
+    "kahoot.html": "52ea78f2",
+    "kahoot.tex": "7f7d360e"
+  },
+  "posts/semainedu3mars/new.qmd": {
+    "new.html": "7a792ad2",
+    "new.tex": "3fdd0044"
   }
 }
