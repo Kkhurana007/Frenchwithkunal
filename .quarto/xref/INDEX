@@ -261,12 +261,15 @@
     "kahoot.tex": "d9aff77a"
   },
   "posts/semainedu3mars/demonstratifs.qmd": {
-    "demonstratifs.html": "3988ffb2"
+    "demonstratifs.html": "3988ffb2",
+    "demonstratifs.tex": "9e2c041b"
   },
   "posts/semainedu3mars/masculin_ou_feminin.qmd": {
-    "masculin_ou_feminin.html": "57c5a739"
+    "masculin_ou_feminin.html": "57c5a739",
+    "masculin_ou_feminin.tex": "c6b9a5c1"
   },
   "posts/semainedu3mars/pluralofnouns.qmd": {
-    "pluralofnouns.html": "14467cf7"
+    "pluralofnouns.html": "14467cf7",
+    "pluralofnouns.tex": "68ac9f73"
   }
 }

@@ -2,8 +2,8 @@
 title: "Learn French while playing games"
 author: "Kunal Khurana"
 date: "03-03-2025"
-categories: [A1/A2, Kahoot, body parts, er-verbs, introductory phrases, seasons]
-image: "test.png"
+categories: [A1/A2, kahoot, body parts, er-verbs, introductory phrases, seasons]
+image: "kahoot.png"
 ---
 
 ::: {style="text-align: left; padding: 10px;"}
@@ -28,6 +28,8 @@ image: "test.png"
   }
 </script>
 ```
+
+```{=html}
 <script>
 const password = "your_password"; // Set your password here
 const userInput = prompt("Enter your email to view this post:");
@@ -37,7 +39,148 @@ if (userInput !== password) {
     window.location.href = "/"; // Redirect to homepage or another page
 }
 </script>
+```
 
 ::: {.content-visible when-profile="english"}
+Learning French can be both fun and effective when you incorporate interactive tools like **Kahoot** into your practice. Whether you're a beginner or looking to polish your skills, these Kahoot games are perfect for mastering essential French vocabulary, grammar, and expressions. Below is a list of curated Kahoot games to help you practice **French numbers**, **prepositions**, **body parts**, **-er verbs**, **feelings**, **introductory phrases**, and **seasons**. Let’s dive in!
 
-# Adverbs of past tense
+------------------------------------------------------------------------
+
+#### **1. French Numbers**
+
+**Link:** [French Numbers Kahoot](https://create.kahoot.it/details/aa2078fc-c61b-48b9-8f9d-013fb09e817d)\
+Practice counting, spelling, and recognizing French numbers from 1 to 100 and beyond. This game is perfect for beginners who want to build a strong foundation in French numeracy.
+
+------------------------------------------------------------------------
+
+#### **2. French Prepositions**
+
+**Link:** [French Prepositions Kahoot](https://create.kahoot.it/details/117cbaeb-9ca4-4a62-9a81-6421396c537e)\
+Master the use of prepositions like **à**, **de**, **dans**, **sur**, and **sous** in context. This game will help you understand how to describe locations and relationships between objects.
+
+------------------------------------------------------------------------
+
+#### **3. Body Parts in French**
+
+**Link:** [Body Parts Kahoot](https://create.kahoot.it/details/a7c811e1-570b-46f5-97f1-e3be8cdb3ea9)\
+Learn the names of body parts in French, from **la tête** (head) to **les pieds** (feet). This game is great for expanding your vocabulary and practicing pronunciation.
+
+------------------------------------------------------------------------
+
+#### **4. -ER Verbs in French**
+
+**Link:** [-ER Verbs Kahoot](https://create.kahoot.it/details/ab6c59ac-8600-47d2-9fa5-9c99167ef1c4)\
+Practice conjugating regular -ER verbs like **parler**, **aimer**, and **manger**. This game is ideal for mastering one of the most common verb groups in French.
+
+------------------------------------------------------------------------
+
+#### **5. Feelings in French**
+
+**Link:** [Feelings Kahoot](https://create.kahoot.it/details/57704bcb-2acd-4380-87f1-c4459cc52ca2)\
+Learn how to express emotions like **heureux/heureuse** (happy), **triste** (sad), and **en colère** (angry). This game will help you describe how you or others are feeling.
+
+------------------------------------------------------------------------
+
+#### **6. -ER Verbs with Photos**
+
+**Link:** [-ER Verbs Photos Kahoot](https://create.kahoot.it/details/cf0b5188-64ac-4447-8306-093e04935877)\
+This visual Kahoot game uses images to help you associate -ER verbs with their meanings. It’s a fun way to reinforce your vocabulary and comprehension.
+
+------------------------------------------------------------------------
+
+#### **7. Introductory Phrases in French**
+
+**Link:** [Introductory Phrases Kahoot](https://create.kahoot.it/details/b077b34c-2525-46fd-93e5-a8b042fcf434)\
+Practice common introductory phrases like **Comment ça va ?** (How are you?) and **Je m’appelle…** (My name is…). This game is perfect for beginners learning to navigate basic conversations.
+
+------------------------------------------------------------------------
+
+#### **8. Les Saisons en Français (Seasons in French)**
+
+**Link:** [Seasons Kahoot](https://create.kahoot.it/details/b20d29ba-4e5f-40c6-885b-9ed2de059f32)\
+Learn the names of the seasons (**le printemps**, **l’été**, **l’automne**, **l’hiver**) and related vocabulary. This game is great for understanding how to talk about weather and time.
+
+---
+### **Why Use Kahoot for Learning French?**
+Kahoot is an engaging and interactive way to practice French. It allows you to:
+- Test your knowledge in a fun, game-like environment.
+- Compete with friends or classmates to stay motivated.
+- Reinforce vocabulary, grammar, and pronunciation through repetition.
+---
+
+### **Ready to Play?**
+
+Click on the links above to start playing these Kahoot games. Whether you're practicing alone or with friends, these games will make learning French more enjoyable and effective. Bonne chance! (Good luck!)
+:::
+
+::: {.content-visible when-profile="french"}
+Apprendre le français peut être à la fois amusant et efficace lorsque vous utilisez des outils interactifs comme **Kahoot** pour vous entraîner. Que vous soyez débutant ou que vous souhaitiez perfectionner vos compétences, ces jeux Kahoot sont parfaits pour maîtriser le vocabulaire, la grammaire et les expressions essentielles en français. Voici une liste de jeux Kahoot pour vous aider à pratiquer les **nombres**, les **prépositions**, les **parties du corps**, les **verbes en -ER**, les **émotions**, les **phrases d’introduction** et les **saisons**. C’est parti!
+
+------------------------------------------------------------------------
+
+#### **1. Les Nombres en Français**
+
+**Lien :** [Kahoot sur les Nombres](https://create.kahoot.it/details/aa2078fc-c61b-48b9-8f9d-013fb09e817d)\
+Pratiquez les nombres de 1 à 100 et au-delà. Ce jeu est idéal pour les débutants qui souhaitent maîtriser les bases des nombres en français.
+
+------------------------------------------------------------------------
+
+#### **2. Les Prépositions en Français**
+
+**Lien :** [Kahoot sur les Prépositions](https://create.kahoot.it/details/117cbaeb-9ca4-4a62-9a81-6421396c537e)\
+Maîtrisez l’utilisation des prépositions comme **à**, **de**, **dans**, **sur** et **sous** en contexte. Ce jeu vous aidera à décrire des lieux et des relations entre objets.
+
+------------------------------------------------------------------------
+
+#### **3. Les Parties du Corps**
+
+**Lien :** [Kahoot sur les Parties du Corps](https://create.kahoot.it/details/a7c811e1-570b-46f5-97f1-e3be8cdb3ea9)\
+Apprenez les noms des parties du corps, de **la tête** aux **pieds**. Ce jeu est parfait pour enrichir votre vocabulaire et pratiquer la prononciation.
+
+------------------------------------------------------------------------
+
+#### **4. Les Verbes en -ER**
+
+**Lien :** [Kahoot sur les Verbes en -ER](https://create.kahoot.it/details/ab6c59ac-8600-47d2-9fa5-9c99167ef1c4)\
+Pratiquez la conjugaison des verbes réguliers en -ER comme **parler**, **aimer** et **manger**. Ce jeu est idéal pour maîtriser l’un des groupes de verbes les plus courants en français.
+
+------------------------------------------------------------------------
+
+#### **5. Les Émotions en Français**
+
+**Lien :** [Kahoot sur les Émotions](https://create.kahoot.it/details/57704bcb-2acd-4380-87f1-c4459cc52ca2)\
+Apprenez à exprimer des émotions comme **heureux/heureuse** (happy), **triste** (sad) et **en colère** (angry). Ce jeu vous aidera à décrire vos sentiments ou ceux des autres.
+
+------------------------------------------------------------------------
+
+#### **6. Les Verbes en -ER avec Photos**
+
+**Lien :** [Kahoot sur les Verbes en -ER avec Photos](https://create.kahoot.it/details/cf0b5188-64ac-4447-8306-093e04935877)\
+Ce jeu visuel utilise des images pour vous aider à associer les verbes en -ER à leur signification. C’est une façon amusante de renforcer votre vocabulaire et votre compréhension.
+
+------------------------------------------------------------------------
+
+#### **7. Les Phrases d’Introduction**
+
+**Lien :** [Kahoot sur les Phrases d’Introduction](https://create.kahoot.it/details/b077b34c-2525-46fd-93e5-a8b042fcf434)\
+Pratiquez des phrases courantes comme **Comment ça va ?** et **Je m’appelle…**. Ce jeu est parfait pour les débutants qui apprennent à naviguer dans des conversations simples.
+
+------------------------------------------------------------------------
+
+#### **8. Les Saisons en Français**
+
+**Lien :** [Kahoot sur les Saisons](https://create.kahoot.it/details/b20d29ba-4e5f-40c6-885b-9ed2de059f32)\
+Apprenez les noms des saisons (**le printemps**, **l’été**, **l’automne**, **l’hiver**) et le vocabulaire associé. Ce jeu est idéal pour parler de la météo et du temps.
+
+------------------------------------------------------------------------
+
+### **Pourquoi utiliser Kahoot pour apprendre le français ?**
+
+Kahoot est une façon interactive et engageante de pratiquer le français. Cela vous permet de : - Tester vos connaissances dans un environnement ludique. - Rivaliser avec des amis ou des camarades pour rester motivé. - Renforcer votre vocabulaire, votre grammaire et votre prononciation grâce à la répétition.
+
+------------------------------------------------------------------------
+
+### **Prêt à jouer?**
+
+Cliquez sur les liens ci-dessus pour commencer à jouer à ces jeux Kahoot. Que vous pratiquiez seul ou avec des amis, ces jeux rendront l’apprentissage du français plus agréable et efficace. Bonne chance!
+:::
