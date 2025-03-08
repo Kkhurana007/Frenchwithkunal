@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>payment – Français avec Kunal</title>
+<title>Subscribe to French Course – Français avec Kunal</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -103,10 +103,6 @@ ul.task-list li input[type="checkbox"] {
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item">
-    <a class="nav-link" href="./login.html"> 
-<span class="menu-text">Se connecter</span></a>
-  </li>  
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-langue" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Langue</span>
@@ -139,65 +135,92 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Sur cette page</h2>
-   
-  <ul>
-  <li><a href="#abonnez-vous-au-cours-de-français" id="toc-abonnez-vous-au-cours-de-français" class="nav-link active" data-scroll-target="#abonnez-vous-au-cours-de-français">Abonnez-vous au cours de français</a></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content" id="quarto-document-content">
 
-
-
-
-<section id="abonnez-vous-au-cours-de-français" class="level1">
-<h1>Abonnez-vous au cours de français</h1>
-<p>Choisissez le plan qui vous convient le mieux :</p>
-<div class="pricing-container">
-<section id="plan-mensuel" class="level2 pricing-card">
-<h2 class="anchored" data-anchor-id="plan-mensuel">Plan Mensuel</h2>
-<p><strong>50 $/mois</strong></p>
-<ul>
-<li>Accès à toutes les leçons</li>
-<li>Nouveau contenu chaque semaine</li>
-<li>Annulation à tout moment</li>
-</ul>
-<button id="monthly-button" class="btn btn-primary">
-S’abonner maintenant
-</button>
-</section>
-<section id="plan-annuel" class="level2 pricing-card">
-<h2 class="anchored" data-anchor-id="plan-annuel">Plan Annuel</h2>
-<p><strong>450 $/an</strong></p>
-<p><span class="discount">Économisez 25 % (Originalement 600 $)</span></p>
-<ul>
-<li>Accès à toutes les leçons</li>
-<li>Nouveau contenu chaque semaine</li>
-<li>3 mois gratuits par rapport au plan mensuel</li>
-</ul>
-<button id="yearly-button" class="btn btn-primary">
-S’abonner maintenant
-</button>
-</section>
-<section id="coaching-avec-mentor" class="level2 pricing-card">
-<h2 class="anchored" data-anchor-id="coaching-avec-mentor">Coaching avec mentor</h2>
-<p><strong>300 $/mois</strong></p>
-<ul>
-<li>Plus de <strong>24 heures</strong> de formaiton personnalisée par mois</li>
-<li>Plans de cours sur mesure</li>
-<li>Révisions hebdomadaires des progrès</li>
-<li>Retour d’information et soutien direct</li>
-</ul>
-<p><a href="https://forms.gle/cUqsy2YCYPk5X6hE9" class="btn btn-primary">S’abonner maintenant</a></p>
-</section>
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Subscribe to French Course</h1>
 </div>
 
 
-</section>
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<script>
+
+
+
+
+
+    const plans = [
+        {
+            name: "Monthly Plan",
+            price: "$50/month",
+            link: "https://buy.stripe.com/test_5kAbJwbVA0IXd0IfYY",
+            features: ["Access to all lessons", "New content every week", "Cancel anytime"]
+        },
+        {
+            name: "Yearly Plan",
+            price: "$450/year",
+            link: "https://buy.stripe.com/test_4gw7tg7FkajxbWE4gh",
+            features: ["Access to all lessons", "New content every week", "3 months free compared to monthly"]
+        },
+        {
+            name: "Coaching with Mentor",
+            price: "$300/month",
+            link: "https://buy.stripe.com/test_5kAbJwbVA0IXd0IfYY",
+            features: ["Personalized coaching", "Tailored lesson plans", "Weekly progress reviews", "Direct feedback and support"]
+        }
+    ];
+
+    function renderPlans(containerId) {
+        const container = document.getElementById(containerId);
+        if (!container) return;
+
+        let html = "";
+        plans.forEach(plan => {
+            html += `
+                <div class="pricing-card">
+                    <h2>${plan.name}</h2>
+                    <p><strong>${plan.price}</strong></p>
+                    <ul>
+                        ${plan.features.map(feature => `<li> ${feature}</li>`).join("")}
+                    </ul>
+                    <a href="${plan.link}" class="btn btn-primary" target="_blank">
+                        Subscribe Now
+                    </a>
+                </div>
+            `;
+        });
+
+        container.innerHTML = html;
+    }
+
+    document.addEventListener("DOMContentLoaded", function () {
+        renderPlans("pricing-container-en");
+        renderPlans("pricing-container-fr");
+    });
+</script>
+Choisissez le plan qui vous convient le mieux :
+<div id="pricing-container-fr" class="pricing-container">
+
+</div>
+
+
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -788,16 +811,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
-    <li class="nav-item">
-    <a class="nav-link" href="./login.html">
-<p>Se connecter</p>
-</a>
-  </li>  
-    <li class="nav-item">
-    <a class="nav-link" href="./signup.html">
-<p>S’inscrire</p>
-</a>
-  </li>  
     <li class="nav-item">
     <a class="nav-link" href="https://frenchwithkunal.ca/index.html">
 <p>English</p>
