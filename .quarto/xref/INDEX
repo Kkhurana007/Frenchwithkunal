@@ -218,5 +218,11 @@
   },
   "reset-password.qmd": {
     "reset-password.html": "3ed550f0"
+  },
+  "profile.qmd": {
+    "profile.html": "8afe9515"
+  },
+  "forget-password.qmd": {
+    "forget-password.html": "92b20f8d"
   }
 }

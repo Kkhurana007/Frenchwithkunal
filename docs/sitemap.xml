@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://frenchwithkunal.ca/reset-password.html</loc>
-    <lastmod>2025-02-27T11:42:01.162Z</lastmod>
+    <loc>https://frenchwithkunal.ca/profile.html</loc>
+    <lastmod>2025-03-08T10:19:39.513Z</lastmod>
+  </url>
+  <url>
+    <loc>https://frenchwithkunal.ca/forget-password.html</loc>
+    <lastmod>2025-03-05T20:09:26.809Z</lastmod>
   </url>
   <url>
     <loc>https://frenchwithkunal.ca/index.html</loc>
-    <lastmod>2025-02-25T04:51:21.851Z</lastmod>
+    <lastmod>2025-03-05T19:51:10.391Z</lastmod>
   </url>
   <url>
     <loc>https://frenchwithkunal.ca/policy.html</loc>
@@ -14,11 +18,11 @@
   </url>
   <url>
     <loc>https://frenchwithkunal.ca/login.html</loc>
-    <lastmod>2025-02-27T11:46:41.007Z</lastmod>
+    <lastmod>2025-03-05T20:08:32.823Z</lastmod>
   </url>
   <url>
     <loc>https://frenchwithkunal.ca/payment.html</loc>
-    <lastmod>2025-02-26T15:13:35.483Z</lastmod>
+    <lastmod>2025-03-05T20:22:52.851Z</lastmod>
   </url>
   <url>
     <loc>https://frenchwithkunal.ca/posts/semainedu3fevrier/Brasserie+articles.html</loc>
@@ -99,5 +103,9 @@
   <url>
     <loc>https://frenchwithkunal.ca/about.html</loc>
     <lastmod>2025-02-19T14:58:40.086Z</lastmod>
+  </url>
+  <url>
+    <loc>https://frenchwithkunal.ca/reset-password.html</loc>
+    <lastmod>2025-03-05T07:49:57.356Z</lastmod>
   </url>
 </urlset>

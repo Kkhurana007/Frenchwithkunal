@@ -176,11 +176,11 @@ window.Quarto = {
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-language">    
         <li>
-    <a class="dropdown-item" href="http://locahost:4200/index.html">
+    <a class="dropdown-item" href="http://localhost:4200/index.html">
  <span class="dropdown-text">English</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="http://locahost:4200/fr/index.html">
+    <a class="dropdown-item" href="http://localhost:4200/fr/index.html">
  <span class="dropdown-text">Français</span></a>
   </li>  
     </ul>
@@ -227,6 +227,112 @@ window.Quarto = {
 </header>
 
 
+<div id="react-root">
+
+</div>
+<script type="text/babel">
+
+const { useState } = React;
+ 
+
+const App = () => {
+
+const storedUser = localStorage.getItem('accessToken');
+    const { useState,useEffect } = React;
+console.log(storedUser,"storedUser")
+
+  const [user, setUser] = useState(null);
+ const [isLoading, setIsLoading] = useState(true);
+
+
+  useEffect(() => {
+    const storedToken = localStorage.getItem('accessToken');
+  const userNavElement = document.querySelector('.me-auto');
+
+    if (storedToken) {
+      fetch('https://frenchwithkunal-cdf6ea3f88ce.herokuapp.com/api/v1/auth/me', {
+        method: 'POST',
+        headers: {
+          'Authorization': `Bearer ${storedToken}`,
+          'Content-Type': 'application/json'
+        }
+      })
+      .then(response => response.json())
+      .then(data => {
+        console.log("User Data:", data);
+        setUser(data);
+        updateNavbar(data);
+          setIsLoading(false);
+      })
+      .catch(error => {
+        setIsLoading(false);
+        console.error("Error fetching user data:", error)
+        
+        });
+    }else{
+  const loginNavItem = document.createElement('li');
+ loginNavItem.classList.add('nav-item', 'user-nav-item');
+      loginNavItem.innerHTML = `
+        <a class="nav-link" href="/login.html">Login</a>
+      `;
+      userNavElement.appendChild(loginNavItem);
+    
+    } 
+
+  }, []);
+
+
+const updateNavbar = (userData) => {
+  const userNavElement = document.querySelector('.me-auto');
+
+    
+    if (userData) {
+      // Create a new list item for user navigation
+      const userNavItem = document.createElement('li');
+      userNavItem.classList.add('nav-item', 'dropdown', 'user-nav-item');
+      
+      userNavItem.innerHTML = `
+        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
+          ${userData.name || 'User Profile'}
+        </a>
+        <ul class="dropdown-menu dropdown-menu-end">
+          <li><a class="dropdown-item" href="/profile.html">Profile</a></li>
+          <li><hr class="dropdown-divider"></li>
+          <li><a class="dropdown-item" href="#" id="logout-btn">Logout</a></li>
+        </ul>
+      `;
+      
+      // Add logout functionality
+      userNavItem.querySelector('#logout-btn').addEventListener('click', (e) => {
+        e.preventDefault();
+        localStorage.removeItem('accessToken');
+        localStorage.removeItem('refreshToken');
+        setUser(null);
+        updateNavbar(null);
+        window.location.href = '/login.html'; // Redirect to login page
+      });
+      
+      // Append the new user navigation item
+      userNavElement.appendChild(userNavItem);
+    } 
+  
+         
+  
+};
+
+
+
+  return (
+   <div></div>
+  );
+};
+
+
+  ReactDOM.render(
+    <App />,
+    document.getElementById('react-root')
+  );
+</script>
 
 
 
@@ -1394,12 +1500,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
-    <a class="nav-link" href="http://locahost:4200/index.html">
+    <a class="nav-link" href="http://localhost:4200/index.html">
 <p>English</p>
 </a>
   </li>  
     <li class="nav-item">
-    <a class="nav-link" href="http://locahost:4200/fr/index.html">
+    <a class="nav-link" href="http://localhost:4200/fr/index.html">
 <p>French</p>
 </a>
   </li>  

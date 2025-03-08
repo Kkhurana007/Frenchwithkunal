@@ -4,6 +4,11 @@ format: html
 ---
 
 <script>
+
+
+
+
+
     const plans = [
         {
             name: "Monthly Plan",
