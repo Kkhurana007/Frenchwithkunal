@@ -1,41 +1,94 @@
 ---
-title: "Subscribe to French Course"
+#title: "Subscribe to French Course"
 format: html
 ---
 
+::: {.content-visible when-profile="english"}
+
+# Subscribe to French Course
+
+Choose a plan that works best for you:
+
+<div id="pricing-container-en" class="pricing-container"></div>
+
+:::
+
+::: {.content-visible when-profile="french"}
+
+# Abonnez-vous au cours de français
+
+Choisissez le plan qui vous convient le mieux :
+
+<div id="pricing-container-fr" class="pricing-container"></div>
+
+
+
+:::
+
+
+
+
 <script>
 
+    const plans = {
+        en: [
+            {
+                name: "Monthly Plan",
+                price: "C$50/month",
+                link: "https://buy.stripe.com/test_6kA9JwbVA0IXd0IfYY",
+                features: ["Access to all lessons", "New content every week", "Cancel anytime"]
+            },
+            {
+                name: "Yearly Plan",
+                price: "C$450/year",
+                link: "https://buy.stripe.com/test_4gw7tg7FkajxbWE4gh",
+                features: ["Access to all lessons", "New content every week", "3 months free compared to monthly"]
+            },
+            {
+                name: "Coaching with Mentor",
+                price: "C$300/month",
+                link: "https://buy.stripe.com/test_5kAbJwbVA0IXd0IfYY",
+                features: ["Personalized coaching", "Tailored lesson plans", "Weekly progress reviews", "Direct feedback and support"]
+            }
+        ],
+        
+        fr: [
+            {
+                name: "Plan Mensuel",
+                price: "50 C$/mois",
+                link: "https://buy.stripe.com/test_5kAbJwbVA0IXd0IfYY",
+                features: ["Accès à toutes les leçons", "Nouveau contenu chaque semaine", "Annulez à tout moment"]
+            },
+            {
+                name: "Plan Annuel",
+                price: "450 C$/an",
+                link: "https://buy.stripe.com/test_4gw7tg7FkajxbWE4gh",
+                features: ["Accès à toutes les leçons", "Nouveau contenu chaque semaine", "3 mois gratuits par rapport au mensuel"]
+            },
+            {
+                name: "Coaching avec Mentor",
+                price: "300 C$/mois",
+                link: "https://buy.stripe.com/test_5kAbJwbVA0IXd0IfYY",
+                features: ["Coaching personnalisé", "Plans de cours sur mesure", "Revue de progrès hebdomadaire", "Retour d'information et soutien directs"]
+            }
+        ]
+    };
+
+</script>
 
 
 
 
-    const plans = [
-        {
-            name: "Monthly Plan",
-            price: "$50/month",
-            link: "https://buy.stripe.com/test_5kAbJwbVA0IXd0IfYY",
-            features: ["Access to all lessons", "New content every week", "Cancel anytime"]
-        },
-        {
-            name: "Yearly Plan",
-            price: "$450/year",
-            link: "https://buy.stripe.com/test_4gw7tg7FkajxbWE4gh",
-            features: ["Access to all lessons", "New content every week", "3 months free compared to monthly"]
-        },
-        {
-            name: "Coaching with Mentor",
-            price: "$300/month",
-            link: "https://buy.stripe.com/test_5kAbJwbVA0IXd0IfYY",
-            features: ["Personalized coaching", "Tailored lesson plans", "Weekly progress reviews", "Direct feedback and support"]
-        }
-    ];
 
-    function renderPlans(containerId) {
+
+<script>
+
+    function renderPlans(containerId, language) {
         const container = document.getElementById(containerId);
         if (!container) return;
 
         let html = "";
-        plans.forEach(plan => {
+        plans[language].forEach(plan => {
             html += `
                 <div class="pricing-card">
                     <h2>${plan.name}</h2>
@@ -54,19 +107,12 @@ format: html
     }
 
     document.addEventListener("DOMContentLoaded", function () {
-        renderPlans("pricing-container-en");
-        renderPlans("pricing-container-fr");
+        renderPlans("pricing-container-en", "en");
+        renderPlans("pricing-container-fr", "fr")
     });
+
 </script>
 
-::: {.content-visible when-profile="english"}
 
-Choose a plan that works best for you:
-<div id="pricing-container-en" class="pricing-container"></div>
-:::
 
-::: {.content-visible when-profile="french"}
 
-Choisissez le plan qui vous convient le mieux :
-<div id="pricing-container-fr" class="pricing-container"></div>
-:::

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Subscribe to French Course – Français avec Kunal</title>
+<title>payment – Français avec Kunal</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -40,8 +40,8 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-8ea72dc5fed832574809a9c94082fbbb.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-819b13a543cde266f17dcf72614eb761.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-58c80b831d6b1bf250cc78491602bf02.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-4a99180f46f31fbf6e72317e3af0463c.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-c10d254adf1993520e01d496853de50c.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -101,6 +101,10 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link active" href="./payment.html" aria-current="page"> 
 <span class="menu-text">Abonnement</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./login2.html"> 
+<span class="menu-text">Se connecter</span></a>
+  </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item dropdown ">
@@ -135,64 +139,82 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Sur cette page</h2>
+   
+  <ul>
+  <li><a href="#abonnez-vous-au-cours-de-français" id="toc-abonnez-vous-au-cours-de-français" class="nav-link active" data-scroll-target="#abonnez-vous-au-cours-de-français">Abonnez-vous au cours de français</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Subscribe to French Course</h1>
+
+
+
+<section id="abonnez-vous-au-cours-de-français" class="level1">
+<h1>Abonnez-vous au cours de français</h1>
+<p>Choisissez le plan qui vous convient le mieux :</p>
+<div id="pricing-container-fr" class="pricing-container">
+
 </div>
-
-
-
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
-
-
 <script>
 
+    const plans = {
+        en: [
+            {
+                name: "Monthly Plan",
+                price: "C$50/month",
+                link: "https://buy.stripe.com/test_6kA9JwbVA0IXd0IfYY",
+                features: ["Access to all lessons", "New content every week", "Cancel anytime"]
+            },
+            {
+                name: "Yearly Plan",
+                price: "C$450/year",
+                link: "https://buy.stripe.com/test_4gw7tg7FkajxbWE4gh",
+                features: ["Access to all lessons", "New content every week", "3 months free compared to monthly"]
+            },
+            {
+                name: "Coaching with Mentor",
+                price: "C$300/month",
+                link: "https://buy.stripe.com/test_5kAbJwbVA0IXd0IfYY",
+                features: ["Personalized coaching", "Tailored lesson plans", "Weekly progress reviews", "Direct feedback and support"]
+            }
+        ],
+        
+        fr: [
+            {
+                name: "Plan Mensuel",
+                price: "50 C$/mois",
+                link: "https://buy.stripe.com/test_5kAbJwbVA0IXd0IfYY",
+                features: ["Accès à toutes les leçons", "Nouveau contenu chaque semaine", "Annulez à tout moment"]
+            },
+            {
+                name: "Plan Annuel",
+                price: "450 C$/an",
+                link: "https://buy.stripe.com/test_4gw7tg7FkajxbWE4gh",
+                features: ["Accès à toutes les leçons", "Nouveau contenu chaque semaine", "3 mois gratuits par rapport au mensuel"]
+            },
+            {
+                name: "Coaching avec Mentor",
+                price: "300 C$/mois",
+                link: "https://buy.stripe.com/test_5kAbJwbVA0IXd0IfYY",
+                features: ["Coaching personnalisé", "Plans de cours sur mesure", "Revue de progrès hebdomadaire", "Retour d'information et soutien directs"]
+            }
+        ]
+    };
 
+</script>
+<script>
 
-
-
-    const plans = [
-        {
-            name: "Monthly Plan",
-            price: "$50/month",
-            link: "https://buy.stripe.com/test_5kAbJwbVA0IXd0IfYY",
-            features: ["Access to all lessons", "New content every week", "Cancel anytime"]
-        },
-        {
-            name: "Yearly Plan",
-            price: "$450/year",
-            link: "https://buy.stripe.com/test_4gw7tg7FkajxbWE4gh",
-            features: ["Access to all lessons", "New content every week", "3 months free compared to monthly"]
-        },
-        {
-            name: "Coaching with Mentor",
-            price: "$300/month",
-            link: "https://buy.stripe.com/test_5kAbJwbVA0IXd0IfYY",
-            features: ["Personalized coaching", "Tailored lesson plans", "Weekly progress reviews", "Direct feedback and support"]
-        }
-    ];
-
-    function renderPlans(containerId) {
+    function renderPlans(containerId, language) {
         const container = document.getElementById(containerId);
         if (!container) return;
 
         let html = "";
-        plans.forEach(plan => {
+        plans[language].forEach(plan => {
             html += `
                 <div class="pricing-card">
                     <h2>${plan.name}</h2>
@@ -211,16 +233,14 @@ ul.task-list li input[type="checkbox"] {
     }
 
     document.addEventListener("DOMContentLoaded", function () {
-        renderPlans("pricing-container-en");
-        renderPlans("pricing-container-fr");
+        renderPlans("pricing-container-en", "en");
+        renderPlans("pricing-container-fr", "fr")
     });
+
 </script>
-Choisissez le plan qui vous convient le mieux :
-<div id="pricing-container-fr" class="pricing-container">
-
-</div>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

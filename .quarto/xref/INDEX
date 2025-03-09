@@ -268,5 +268,9 @@
   "posts/semainedu3mars/new.qmd": {
     "new.html": "7a792ad2",
     "new.tex": "3fdd0044"
+  },
+  "login2.qmd": {
+    "login2.html": "e1319646",
+    "login2.tex": "6dbe1018"
   }
 }

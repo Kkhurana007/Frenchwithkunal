@@ -39,7 +39,9 @@ website:
       - text: "Nous Contacter"
         href: contact.qmd
       - text: Abonnement
-        href: payment.qmd    
+        href: payment.qmd
+      - text: "Se connecter" 
+        href: login2.qmd    
     right:
       - text: Langue
         menu:
