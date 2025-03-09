@@ -29,12 +29,12 @@ image: "pluralofnouns.png"
 </script>
 ```
 <script>
-const password = "your_password"; // Set your password here
+const usersDatabase = ["user1@example.com", "user2@example.com"]; // Add your authorized users here
 const userInput = prompt("Enter your email to view this post:");
 
-if (userInput !== password) {
-    alert("Incorrect password. You do not have access to this post.");
-    window.location.href = "/"; // Redirect to homepage or another page
+if (!usersDatabase.includes(userInput)) {
+  alert("You do not have access to this post. Please subscribe to gain access.");
+  window.location.href = "https://frenchwithkunal.ca/payment.html"; // Redirect to the subscription/payment page
 }
 </script>
 

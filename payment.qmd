@@ -35,19 +35,19 @@ Choisissez le plan qui vous convient le mieux :
             {
                 name: "Monthly Plan",
                 price: "C$50/month",
-                link: "https://buy.stripe.com/test_6kA9JwbVA0IXd0IfYY",
+                link: "https://buy.stripe.com/8wMeWB7Gs9mX0NyaEG",
                 features: ["Access to all lessons", "New content every week", "Cancel anytime"]
             },
             {
                 name: "Yearly Plan",
                 price: "C$450/year",
-                link: "https://buy.stripe.com/test_4gw7tg7FkajxbWE4gh",
+                link: "https://buy.stripe.com/dR6cOt7Gsbv5gMw7st",
                 features: ["Access to all lessons", "New content every week", "3 months free compared to monthly"]
             },
             {
                 name: "Coaching with Mentor",
                 price: "C$300/month",
-                link: "https://buy.stripe.com/test_5kAbJwbVA0IXd0IfYY",
+                link: "https://buy.stripe.com/bIYg0F6CoeHhcwgbII",
                 features: ["Personalized coaching", "Tailored lesson plans", "Weekly progress reviews", "Direct feedback and support"]
             }
         ],
@@ -56,19 +56,19 @@ Choisissez le plan qui vous convient le mieux :
             {
                 name: "Plan Mensuel",
                 price: "50 C$/mois",
-                link: "https://buy.stripe.com/test_5kAbJwbVA0IXd0IfYY",
+                link: "https://buy.stripe.com/8wMeWB7Gs9mX0NyaEG",
                 features: ["Accès à toutes les leçons", "Nouveau contenu chaque semaine", "Annulez à tout moment"]
             },
             {
                 name: "Plan Annuel",
                 price: "450 C$/an",
-                link: "https://buy.stripe.com/test_4gw7tg7FkajxbWE4gh",
+                link: "https://buy.stripe.com/dR6cOt7Gsbv5gMw7st",
                 features: ["Accès à toutes les leçons", "Nouveau contenu chaque semaine", "3 mois gratuits par rapport au mensuel"]
             },
             {
                 name: "Coaching avec Mentor",
                 price: "300 C$/mois",
-                link: "https://buy.stripe.com/test_5kAbJwbVA0IXd0IfYY",
+                link: "https://buy.stripe.com/bIYg0F6CoeHhcwgbII",
                 features: ["Coaching personnalisé", "Plans de cours sur mesure", "Revue de progrès hebdomadaire", "Retour d'information et soutien directs"]
             }
         ]

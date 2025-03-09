@@ -103,6 +103,10 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="../../payment.html"> 
 <span class="menu-text">Subscription</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../login2.html"> 
+<span class="menu-text">Login</span></a>
+  </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item dropdown ">
@@ -210,12 +214,12 @@ ul.task-list li input[type="checkbox"] {
   }
 </script>
 <script>
-const password = "your_password"; // Set your password here
+const usersDatabase = ["user1@example.com", "user2@example.com"]; // Add your authorized users here
 const userInput = prompt("Enter your email to view this post:");
 
-if (userInput !== password) {
-    alert("Incorrect password. You do not have access to this post.");
-    window.location.href = "/"; // Redirect to homepage or another page
+if (!usersDatabase.includes(userInput)) {
+  alert("You do not have access to this post. Please subscribe to gain access.");
+  window.location.href = "https://frenchwithkunal.ca/payment.html"; // Redirect to the subscription/payment page
 }
 </script>
 <p>In French, the words <strong>Ce</strong>, <strong>Cet</strong>, <strong>Ça</strong>, <strong>Ceci</strong>, and <strong>Cela</strong> are equivalents of <strong>this/that</strong> in English for singular nouns. The main difference lies in their usage: some are used in singular contexts, while others can be used in more varied contexts. Additionally, the word <strong>Ces</strong> is the equivalent of <strong>these/those</strong> in English for plural nouns.</p>
