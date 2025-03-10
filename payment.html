@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Subscribe to French Course – French with Kunal</title>
+<title>payment – French with Kunal</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -101,8 +101,16 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link active" href="./payment.html" aria-current="page"> 
 <span class="menu-text">Subscription</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./login.html"> 
+<span class="menu-text">Login</span></a>
+  </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./faq.html"> 
+<span class="menu-text">FAQ’S</span></a>
+  </li>  
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-language" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Language</span>
@@ -135,64 +143,82 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#subscribe-to-french-course" id="toc-subscribe-to-french-course" class="nav-link active" data-scroll-target="#subscribe-to-french-course">Subscribe to French Course</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Subscribe to French Course</h1>
+
+
+
+<section id="subscribe-to-french-course" class="level1">
+<h1>Subscribe to French Course</h1>
+<p>Choose a plan that works best for you:</p>
+<div id="pricing-container-en" class="pricing-container">
+
 </div>
-
-
-
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
-
-
 <script>
 
+    const plans = {
+        en: [
+            {
+                name: "Monthly Plan",
+                price: "C$50/month",
+                link: "https://buy.stripe.com/8wMeWB7Gs9mX0NyaEG",
+                features: ["Access to all lessons", "New content every week", "Cancel anytime"]
+            },
+            {
+                name: "Yearly Plan",
+                price: "C$450/year",
+                link: "https://buy.stripe.com/dR6cOt7Gsbv5gMw7st",
+                features: ["Access to all lessons", "New content every week", "3 months free compared to monthly"]
+            },
+            {
+                name: "Coaching with Mentor",
+                price: "C$300/month",
+                link: "https://buy.stripe.com/test_3cs9Eq9Yzg6KbUA7st",
+                features: ["Personalized coaching", "Tailored lesson plans", "Weekly progress reviews", "Direct feedback and support"]
+            }
+        ],
+        
+        fr: [
+            {
+                name: "Plan Mensuel",
+                price: "50 C$/mois",
+                link: "https://buy.stripe.com/8wMeWB7Gs9mX0NyaEG",
+                features: ["Accès à toutes les leçons", "Nouveau contenu chaque semaine", "Annulez à tout moment"]
+            },
+            {
+                name: "Plan Annuel",
+                price: "450 C$/an",
+                link: "https://buy.stripe.com/dR6cOt7Gsbv5gMw7st",
+                features: ["Accès à toutes les leçons", "Nouveau contenu chaque semaine", "3 mois gratuits par rapport au mensuel"]
+            },
+            {
+                name: "Coaching avec Mentor",
+                price: "300 C$/mois",
+                link: "https://buy.stripe.com/bIYg0F6CoeHhcwgbII",
+                features: ["Coaching personnalisé", "Plans de cours sur mesure", "Revue de progrès hebdomadaire", "Retour d'information et soutien directs"]
+            }
+        ]
+    };
 
+</script>
+<script>
 
-
-
-    const plans = [
-        {
-            name: "Monthly Plan",
-            price: "$50/month",
-            link: "https://buy.stripe.com/test_5kAbJwbVA0IXd0IfYY",
-            features: ["Access to all lessons", "New content every week", "Cancel anytime"]
-        },
-        {
-            name: "Yearly Plan",
-            price: "$450/year",
-            link: "https://buy.stripe.com/test_4gw7tg7FkajxbWE4gh",
-            features: ["Access to all lessons", "New content every week", "3 months free compared to monthly"]
-        },
-        {
-            name: "Coaching with Mentor",
-            price: "$300/month",
-            link: "https://buy.stripe.com/test_5kAbJwbVA0IXd0IfYY",
-            features: ["Personalized coaching", "Tailored lesson plans", "Weekly progress reviews", "Direct feedback and support"]
-        }
-    ];
-
-    function renderPlans(containerId) {
+    function renderPlans(containerId, language) {
         const container = document.getElementById(containerId);
         if (!container) return;
 
         let html = "";
-        plans.forEach(plan => {
+        plans[language].forEach(plan => {
             html += `
                 <div class="pricing-card">
                     <h2>${plan.name}</h2>
@@ -211,16 +237,14 @@ ul.task-list li input[type="checkbox"] {
     }
 
     document.addEventListener("DOMContentLoaded", function () {
-        renderPlans("pricing-container-en");
-        renderPlans("pricing-container-fr");
+        renderPlans("pricing-container-en", "en");
+        renderPlans("pricing-container-fr", "fr")
     });
+
 </script>
-Choose a plan that works best for you:
-<div id="pricing-container-en" class="pricing-container">
-
-</div>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -811,6 +835,16 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="./login.html">
+<p>Login</p>
+</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="./signup.html">
+<p>Sign Up</p>
+</a>
+  </li>  
     <li class="nav-item">
     <a class="nav-link" href="https://frenchwithkunal.ca/index.html">
 <p>English</p>

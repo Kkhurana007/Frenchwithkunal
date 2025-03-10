@@ -1,20 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://frenchwithkunal.ca/terms.html</loc>
-    <lastmod>2025-01-24T18:08:16.430Z</lastmod>
+    <loc>https://frenchwithkunal.ca/test_payment.html</loc>
+    <lastmod>2025-03-10T19:24:12.241Z</lastmod>
+  </url>
+  <url>
+    <loc>https://frenchwithkunal.ca/signup.html</loc>
+    <lastmod>2025-03-10T19:24:12.234Z</lastmod>
   </url>
   <url>
     <loc>https://frenchwithkunal.ca/register.html</loc>
-    <lastmod>2025-03-08T16:49:30.139Z</lastmod>
+    <lastmod>2025-03-08T16:49:30.000Z</lastmod>
   </url>
   <url>
     <loc>https://frenchwithkunal.ca/posts/semainedu3mars/pluralofnouns.html</loc>
-    <lastmod>2025-03-08T16:48:54.349Z</lastmod>
+    <lastmod>2025-03-10T19:24:12.232Z</lastmod>
   </url>
   <url>
     <loc>https://frenchwithkunal.ca/posts/semainedu3mars/kahoot.html</loc>
-    <lastmod>2025-03-08T16:48:54.328Z</lastmod>
+    <lastmod>2025-03-10T19:24:12.229Z</lastmod>
   </url>
   <url>
     <loc>https://frenchwithkunal.ca/posts/semainedu3fevrier/voice_mail.html</loc>
@@ -46,7 +50,7 @@
   </url>
   <url>
     <loc>https://frenchwithkunal.ca/posts/semainedu20janvier/er_verbes.html</loc>
-    <lastmod>2025-03-08T16:48:54.179Z</lastmod>
+    <lastmod>2025-03-10T19:24:12.224Z</lastmod>
   </url>
   <url>
     <loc>https://frenchwithkunal.ca/posts/semainedu17fevrier/irregular_verbs.html</loc>
@@ -62,11 +66,15 @@
   </url>
   <url>
     <loc>https://frenchwithkunal.ca/payment.html</loc>
-    <lastmod>2025-03-08T16:49:30.111Z</lastmod>
+    <lastmod>2025-03-10T19:36:47.349Z</lastmod>
   </url>
   <url>
-    <loc>https://frenchwithkunal.ca/index.html</loc>
-    <lastmod>2025-03-08T16:49:29.269Z</lastmod>
+    <loc>https://frenchwithkunal.ca/login.html</loc>
+    <lastmod>2025-03-10T19:36:47.347Z</lastmod>
+  </url>
+  <url>
+    <loc>https://frenchwithkunal.ca/forget-password.html</loc>
+    <lastmod>2025-03-08T16:49:29.000Z</lastmod>
   </url>
   <url>
     <loc>https://frenchwithkunal.ca/ethics.html</loc>
@@ -74,19 +82,23 @@
   </url>
   <url>
     <loc>https://frenchwithkunal.ca/about.html</loc>
-    <lastmod>2025-03-08T16:48:51.090Z</lastmod>
+    <lastmod>2025-03-10T19:24:10.714Z</lastmod>
   </url>
   <url>
     <loc>https://frenchwithkunal.ca/contact.html</loc>
     <lastmod>2025-01-24T18:08:16.375Z</lastmod>
   </url>
   <url>
-    <loc>https://frenchwithkunal.ca/forget-password.html</loc>
-    <lastmod>2025-03-08T16:49:29.268Z</lastmod>
+    <loc>https://frenchwithkunal.ca/faq.html</loc>
+    <lastmod>2025-03-10T19:49:10.905Z</lastmod>
   </url>
   <url>
-    <loc>https://frenchwithkunal.ca/login.html</loc>
-    <lastmod>2025-03-08T16:49:29.271Z</lastmod>
+    <loc>https://frenchwithkunal.ca/index.html</loc>
+    <lastmod>2025-03-10T19:24:11.021Z</lastmod>
+  </url>
+  <url>
+    <loc>https://frenchwithkunal.ca/login2.html</loc>
+    <lastmod>2025-03-09T17:35:18.000Z</lastmod>
   </url>
   <url>
     <loc>https://frenchwithkunal.ca/policy.html</loc>
@@ -134,18 +146,22 @@
   </url>
   <url>
     <loc>https://frenchwithkunal.ca/posts/semainedu3mars/demonstratifs.html</loc>
-    <lastmod>2025-03-08T16:48:54.313Z</lastmod>
+    <lastmod>2025-03-10T19:24:12.226Z</lastmod>
   </url>
   <url>
     <loc>https://frenchwithkunal.ca/posts/semainedu3mars/masculin_ou_feminin.html</loc>
-    <lastmod>2025-03-08T16:48:54.335Z</lastmod>
+    <lastmod>2025-03-10T19:24:12.230Z</lastmod>
   </url>
   <url>
     <loc>https://frenchwithkunal.ca/profile.html</loc>
-    <lastmod>2025-03-08T16:49:30.137Z</lastmod>
+    <lastmod>2025-03-08T16:49:30.000Z</lastmod>
   </url>
   <url>
     <loc>https://frenchwithkunal.ca/reset-password.html</loc>
-    <lastmod>2025-03-08T16:49:30.140Z</lastmod>
+    <lastmod>2025-03-08T16:49:30.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://frenchwithkunal.ca/terms.html</loc>
+    <lastmod>2025-03-10T19:24:12.237Z</lastmod>
   </url>
 </urlset>
