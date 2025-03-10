@@ -1,0 +1,128 @@
+---
+#title: FAQs
+---
+
+::: {.content-visible when-profile="english"}
+
+## Frequently Asked Questions (FAQ)
+
+#### General Questions:
+1. **What is the schedule for classes and office hours?**
+   - Classes are held every [Mon to Thursday] from 10:00 to 11: 30 AM ET and from 8:00 to 9:30 PM ET. 
+
+2. **How can I contact you outside of class hours?**
+   - You can contact us at [info\@frenchwithkunal.ca](mailto:info@frenchwithkunal.ca). We'll get back to you as soon as possible.
+
+#### Vocabulary:
+
+3. **How can I expand my French vocabulary effectively?**
+    - Regular practice, using flashcards, reading French texts, and engaging in conversations with native speakers are effective ways to expand your vocabulary.
+
+
+#### Pronunciation:
+4. **How do I correctly pronounce French nasal sounds?**
+    - French nasal sounds include “an,” “en,” “on,” and “un.” These sounds are produced by allowing air to escape through the nose. Practice by listening to native speakers and repeating after them.
+
+5. **What is the best way to improve my French accent?**
+    - Listen to native speakers, mimic their pronunciation, and practice regularly. Record yourself while you speak can be of great help!
+
+
+#### Listening and Speaking:
+6. **How can I improve my French listening skills?**
+    - Listen to French podcasts, watch French movies or TV shows, and try to immerse yourself in the language as much as possible.
+
+7. **What are some effective ways to practice speaking French?**
+    - Practice speaking with native speakers, join a language exchange group, or use language learning apps that focus on speaking.
+
+8. **Are there any podcasts or videos you recommend for learning French?**
+    - Some popular podcasts include “Coffee Break French,” “InnerFrench,” and “FrenchPod101.” For videos, YouTube channels like “Learn French with Alexa” and “Français Authentique” are great resources.
+
+#### Reading and Writing:
+9. **How can I improve my French reading comprehension?**
+    - Start with simple texts and gradually move to more complex ones. Read French books, newspapers, and articles, and try to understand the context.
+
+10. **What are some good French books or articles for beginners?**
+    - Some good options include “Le Petit Prince” by Antoine de Saint-Exupéry, “Le Petit Nicolas” series by René Goscinny, and simple French news websites like “Le Monde des ados.”
+
+11. **What are some strategies for writing essays in French?**
+    - Plan your essay structure, use a variety of sentence structures, and practice writing regularly. Focus on clarity and coherence, and proofread your work for grammar and vocabulary.
+
+#### Cultural Insights:
+12. **What are some cultural tips for interacting with French speakers?**
+    - Be polite, use formal titles (Monsieur, Madame) when appropriate, and learn some basic etiquette, such as greeting with a handshake or cheek kiss.
+
+13. **Can you recommend any French movies or TV shows to watch?**
+    - Some popular French movies include “Amélie,” “La Haine,” and “Intouchables.” For TV shows, “Call My Agent!” and “Lupin” are highly recommended.
+
+#### Resources and Tools:
+
+14. **What dictionaries or reference books should I use?**
+    - “Le Petit Robert” and “Larousse” are highly regarded French dictionaries. For reference books, “[501 French Verbs](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://bpb-us-e1.wpmucdn.com/blogs.uoregon.edu/dist/f/8175/files/2014/06/Kendris_501_French_Verbs_Barrons-13u1653.pdf)” by Christopher Kendris is a great tool for verb conjugations.
+
+#### Learning Duration:
+15. **How long does it take to learn French?**
+    - With proper guidance and practice (for about 3 hours daily), it typically takes around 6 months to reach an intermediate level (B2/CLB5) in French. Consistent effort and immersion in the language can significantly accelerate the learning process.
+
+:::
+
+
+::: {.content-visible when-profile="french"}
+
+
+## Questions fréquemment posées (FAQ) 
+
+### Questions générales :
+1. **Quel est l'emploi du temps des cours et les heures de bureau ?**
+   - Les cours ont lieu tous les [lundi au jeudi] de 10h00 à 11h30 HNE et de 20h00 à 21h30 HNE.
+
+2. **Comment puis-je vous contacter en dehors des heures de cours ?**
+   - Vous pouvez nous contacter à [info\@frenchwithkunal.ca](mailto:info@frenchwithkunal.ca) et on vous répondra dès que possible.
+
+### Vocabulaire :
+
+3. **Comment puis-je développer efficacement mon vocabulaire en français ?**
+    - La pratique régulière, l'utilisation de cartes mémoire, la lecture de textes en français et la participation à des conversations avec des locuteurs natifs sont des moyens efficaces pour développer votre vocabulaire.
+
+### Prononciation :
+4. **Comment prononcer correctement les sons nasaux en français ?**
+    - Les sons nasaux en français incluent “an,” “en,” “on,” et “un.” Ces sons sont produits en laissant l'air s'échapper par le nez. Pratiquez en écoutant des locuteurs natifs et en les imitant.
+
+5. **Quel est le meilleur moyen d'améliorer mon accent français ?**
+    - Écoutez des locuteurs natifs, imitez leur prononciation et pratiquez régulièrement. S'enregistrer en parlant peut être d'une grande aide !
+
+### Écoute et expression orale :
+6. **Comment puis-je améliorer mes compétences de compréhension orale en français ?**
+    - Écoutez des podcasts en français, regardez des films ou des émissions de télévision en français, et essayez de vous immerger autant que possible dans la langue.
+
+7. **Quels sont des moyens efficaces pour pratiquer la langue parlée en français ?**
+    - Pratiquez en parlant avec des locuteurs natifs, rejoignez un groupe d'échange linguistique, ou utilisez des applications d'apprentissage des langues qui se concentrent sur l'expression orale.
+
+8. **Y a-t-il des podcasts ou des vidéos que vous recommandez pour apprendre le français ?**
+    - Quelques podcasts populaires incluent “Coffee Break French,” “InnerFrench,” et “FrenchPod101.” Pour les vidéos, les chaînes YouTube comme “Learn French with Alexa” et “Francais Authentique” sont d'excellentes ressources.
+
+### Lecture et écriture :
+9. **Comment puis-je améliorer ma compréhension de lecture en français ?**
+    - Commencez par des textes simples et passez progressivement à des textes plus complexes. Lisez des livres, des journaux et des articles en français, et essayez de comprendre le contexte.
+
+10. **Quels sont des bons livres ou articles en français pour les débutants ?**
+    - Quelques bonnes options incluent “Le Petit Prince” d'Antoine de Saint-Exupéry, la série “Le Petit Nicolas” de René Goscinny, et des sites de nouvelles en français simples comme “Le Monde des ados.”
+
+11. **Quelles sont des stratégies pour écrire des essais en français ?**
+    - Planifiez la structure de votre essai, utilisez une variété de structures de phrases et pratiquez régulièrement l'écriture. Concentrez-vous sur la clarté et la cohérence, et relisez votre travail pour vérifier la grammaire et le vocabulaire.
+
+### Aperçus culturels :
+12. **Quels sont des conseils culturels pour interagir avec des locuteurs français ?**
+    - Soyez poli, utilisez des titres formels (Monsieur, Madame) lorsque c'est approprié, et apprenez quelques bases de l'étiquette, comme le salut par poignée de main ou par bise.
+
+13. **Pouvez-vous recommander des films ou des émissions de télévision en français à regarder ?**
+    - Quelques films français populaires incluent “Amélie,” “La Haine,” et “Intouchables.” Pour les émissions de télévision, “Call My Agent!” et “Lupin” sont vivement recommandés.
+
+### Ressources et outils :
+14. **Quels dictionnaires ou livres de référence devrais-je utiliser ?**
+    - “Le Petit Robert” et “Larousse” sont des dictionnaires français très réputés. Pour les livres de référence, “[501 French Verbs](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://bpb-us-e1.wpmucdn.com/blogs.uoregon.edu/dist/f/8175/files/2014/06/Kendris_501_French_Verbs_Barrons-13u1653.pdf)” de Christopher Kendris est un excellent outil pour les conjugaisons de verbes.
+
+### Durée d'apprentissage :
+15. **Combien de temps faut-il pour apprendre le français ?**
+    - Avec une guidance adéquate et de la pratique (environ 3 heures par jour), il faut généralement environ 6 mois pour atteindre un niveau intermédiaire (B2/CLB5) en français. Un effort constant et une immersion dans la langue peuvent accélérer considérablement le processus d'apprentissage.
+
+:::
