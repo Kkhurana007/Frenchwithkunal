@@ -55,6 +55,8 @@ website:
         href: login2.qmd
         
     right:
+      - text: "FAQ'S"
+        href: faq.qmd
       - text: Language
         menu:
           - text: English

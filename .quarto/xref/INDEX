@@ -272,5 +272,9 @@
   "login2.qmd": {
     "login2.html": "e1319646",
     "login2.tex": "6dbe1018"
+  },
+  "faq.qmd": {
+    "faq.html": "c82f7a1a",
+    "faq.tex": "eb842510"
   }
 }

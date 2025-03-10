@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>login – Français avec Kunal</title>
+<title>faq – Français avec Kunal</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -70,12 +70,6 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" <link="">
-<script src="https://unpkg.com/react@17/umd/react.production.min.js"></script>
-<script src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"></script>
-<script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
-
-
-<link rel="stylesheet" href="styles.css">
 </head>
 
 <body class="nav-fixed">
@@ -114,7 +108,7 @@ ul.task-list li input[type="checkbox"] {
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./faq.html"> 
+    <a class="nav-link active" href="./faq.html" aria-current="page"> 
 <span class="menu-text">FAQ’S</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -149,8 +143,24 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Sur cette page</h2>
+   
+  <ul>
+  <li><a href="#questions-fréquemment-posées-faq" id="toc-questions-fréquemment-posées-faq" class="nav-link active" data-scroll-target="#questions-fréquemment-posées-faq">Questions fréquemment posées (FAQ)</a>
+  <ul class="collapse">
+  <li><a href="#questions-générales" id="toc-questions-générales" class="nav-link" data-scroll-target="#questions-générales">Questions générales :</a></li>
+  <li><a href="#vocabulaire" id="toc-vocabulaire" class="nav-link" data-scroll-target="#vocabulaire">Vocabulaire :</a></li>
+  <li><a href="#prononciation" id="toc-prononciation" class="nav-link" data-scroll-target="#prononciation">Prononciation :</a></li>
+  <li><a href="#écoute-et-expression-orale" id="toc-écoute-et-expression-orale" class="nav-link" data-scroll-target="#écoute-et-expression-orale">Écoute et expression orale :</a></li>
+  <li><a href="#lecture-et-écriture" id="toc-lecture-et-écriture" class="nav-link" data-scroll-target="#lecture-et-écriture">Lecture et écriture :</a></li>
+  <li><a href="#aperçus-culturels" id="toc-aperçus-culturels" class="nav-link" data-scroll-target="#aperçus-culturels">Aperçus culturels :</a></li>
+  <li><a href="#ressources-et-outils" id="toc-ressources-et-outils" class="nav-link" data-scroll-target="#ressources-et-outils">Ressources et outils :</a></li>
+  <li><a href="#durée-dapprentissage" id="toc-durée-dapprentissage" class="nav-link" data-scroll-target="#durée-dapprentissage">Durée d’apprentissage :</a></li>
+  </ul></li>
+  </ul>
+<div class="quarto-alternate-formats"><h2>Autres formats</h2><ul><li><a href="faq.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
@@ -158,298 +168,111 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>```{=html}</p>
-<div id="react-root">
-
-</div>
-<script type="text/babel">
-  function LoginForm() {
-
-
-    const { useState } = React;
-
-  const [isLoading, setIsLoading] = useState(false)
-  const [formData, setFormData] = useState({
-    email: "",
-    password: "",
-  })
-
-
-const handleSubmit = async (e: React.FormEvent) => {
-  e.preventDefault();
-  setIsLoading(true);
-
-  try {
-    const response = await fetch("https://frenchwithkunal-cdf6ea3f88ce.herokuapp.com/api/v1/auth/signin", {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify(formData),
-    });
-
-
-
-    const data = await response.json();
-
-    if(!data.success){
-
-        alert(data.message)
-    }
-    if(data.success){
-       localStorage.setItem("accessToken", data.data.accessToken);
-        localStorage.setItem("refreshToken", data.data.refreshToken);
-      alert(data.message);
-      window.location.href = "https://frenchwithkunal.ca"
-    }
-    
-  } catch (error) {
-    console.error('Error during sign-in:', error.message); // Display error message to the user
-  } finally {
-    setIsLoading(false);
-  }
-};
-
-  return (
-    <div
-      style={{
-    height: "100vh",
-    width: "100vw",
-    display: "flex",
-    alignItems: "center",
-    justifyContent: "center",
-    background: "linear-gradient(45deg, #FF6B6B, #4ECDC4)",
-    fontFamily: "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif",
-    margin: 0,
-    padding: 0,
-    position: "fixed",
-    top: 0,
-    left: 0,
-  }}
-    >
-      <div
-        style={{
-          width: "100%",
-          maxWidth: "400px",
-          margin: "20px",
-          padding: "40px",
-          borderRadius: "20px",
-          backgroundColor: "rgba(255, 255, 255, 0.9)",
-          backdropFilter: "blur(10px)",
-          boxShadow: "0 8px 32px 0 rgba(31, 38, 135, 0.37)",
-          border: "1px solid rgba(255, 255, 255, 0.18)",
-        }}
-      >
-        <h1
-          style={{
-            margin: "0 0 24px 0",
-            fontSize: "32px",
-            fontWeight: "700",
-            color: "#1a1a1a",
-            textAlign: "center",
-            background: "linear-gradient(45deg, #FF6B6B, #4ECDC4)",
-            WebkitBackgroundClip: "text",
-            WebkitTextFillColor: "transparent",
-          }}
-        >
-          Welcome Back
-        </h1>
-
-        <form onSubmit={handleSubmit} style={{ width: "100%" }}>
-          <div style={{ marginBottom: "20px" }}>
-            <label
-              htmlFor="email"
-              style={{
-                display: "block",
-                marginBottom: "8px",
-                fontSize: "14px",
-                color: "#666",
-                fontWeight: "500",
-              }}
-            >
-              Email
-            </label>
-            <input
-              id="email"
-              type="email"
-              value={formData.email}
-              onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-              required
-              placeholder="Enter your email"
-              style={{
-                width: "100%",
-                padding: "12px 16px",
-                border: "2px solid #e1e1e1",
-                borderRadius: "12px",
-                fontSize: "16px",
-                outline: "none",
-                transition: "all 0.3s ease",
-                backgroundColor: "rgba(255, 255, 255, 0.9)",
-              }}
-              onFocus={(e) => {
-                e.target.style.borderColor = "#4ECDC4"
-                e.target.style.boxShadow = "0 0 0 4px rgba(78, 205, 196, 0.1)"
-              }}
-              onBlur={(e) => {
-                e.target.style.borderColor = "#e1e1e1"
-                e.target.style.boxShadow = "none"
-              }}
-            />
-          </div>
-
-          <div style={{ marginBottom: "20px" }}>
-            <div
-              style={{
-                display: "flex",
-                justifyContent: "space-between",
-                alignItems: "center",
-                marginBottom: "8px",
-              }}
-            >
-              <label
-                htmlFor="password"
-                style={{
-                  fontSize: "14px",
-                  color: "#666",
-                  fontWeight: "500",
-                }}
-              >
-                Password
-              </label>
-              <button
-                type="button"
-                style={{
-                  background: "none",
-                  border: "none",
-                  color: "#4ECDC4",
-                  fontSize: "14px",
-                  cursor: "pointer",
-                  padding: "0",
-                  textDecoration: "underline",
-                }}
-                onClick={()=> window.location.href= "/forget-password.html"}
-                onMouseOver={(e) => (e.currentTarget.style.color = "#FF6B6B")}
-                onMouseOut={(e) => (e.currentTarget.style.color = "#4ECDC4")}
-              >
-                Forgot password?
-              </button>
-            </div>
-            <input
-              id="password"
-              type="password"
-              value={formData.password}
-              onChange={(e) => setFormData({ ...formData, password: e.target.value })}
-              required
-              placeholder="Enter your password"
-              style={{
-                width: "100%",
-                padding: "12px 16px",
-                border: "2px solid #e1e1e1",
-                borderRadius: "12px",
-                fontSize: "16px",
-                outline: "none",
-                transition: "all 0.3s ease",
-                backgroundColor: "rgba(255, 255, 255, 0.9)",
-              }}
-              onFocus={(e) => {
-                e.target.style.borderColor = "#4ECDC4"
-                e.target.style.boxShadow = "0 0 0 4px rgba(78, 205, 196, 0.1)"
-              }}
-              onBlur={(e) => {
-                e.target.style.borderColor = "#e1e1e1"
-                e.target.style.boxShadow = "none"
-              }}
-            />
-          </div>
-
-          <button
-            type="submit"
-            disabled={isLoading}
-            style={{
-              width: "100%",
-              padding: "14px",
-              backgroundColor: "#4ECDC4",
-              color: "white",
-              border: "none",
-              borderRadius: "12px",
-              fontSize: "16px",
-              fontWeight: "600",
-              cursor: "pointer",
-              transition: "all 0.3s ease",
-              position: "relative",
-              overflow: "hidden",
-            }}
-            onMouseOver={(e) => {
-              e.currentTarget.style.backgroundColor = "#FF6B6B"
-              e.currentTarget.style.transform = "translateY(-2px)"
-            }}
-            onMouseOut={(e) => {
-              e.currentTarget.style.backgroundColor = "#4ECDC4"
-              e.currentTarget.style.transform = "translateY(0)"
-            }}
-          >
-            {isLoading ? (
-              <div
-                style={{
-                  display: "inline-block",
-                  width: "20px",
-                  height: "20px",
-                  border: "3px solid rgba(255,255,255,0.3)",
-                  borderRadius: "50%",
-                  borderTopColor: "white",
-                  animation: "spin 1s ease-in-out infinite",
-                  style: {
-                    "@keyframes spin": {
-                      to: { transform: "rotate(360deg)" },
-                    },
-                  },
-                }}
-              />
-            ) : (
-              "Sign In"
-            )}
-          </button>
-
-          <div
-            style={{
-              textAlign: "center",
-              marginTop: "20px",
-              fontSize: "14px",
-              color: "#666",
-            }}
-          >
-            Don&apos;t have an account?{" "}
-            <button
-              type="button"
-              style={{
-                background: "none",
-                border: "none",
-                color: "#4ECDC4",
-                cursor: "pointer",
-                padding: "0",
-                textDecoration: "underline",
-                fontSize: "14px",
-              }}
-              onMouseOver={(e) => (e.currentTarget.style.color = "#FF6B6B")}
-              onMouseOut={(e) => (e.currentTarget.style.color = "#4ECDC4")}
-            >
-              Sign up
-            </button>
-          </div>
-        </form>
-      </div>
-    </div>
-  )
-}
+<section id="questions-fréquemment-posées-faq" class="level2">
+<h2 class="anchored" data-anchor-id="questions-fréquemment-posées-faq">Questions fréquemment posées (FAQ)</h2>
+<section id="questions-générales" class="level3">
+<h3 class="anchored" data-anchor-id="questions-générales">Questions générales :</h3>
+<ol type="1">
+<li><strong>Quel est l’emploi du temps des cours et les heures de bureau ?</strong>
+<ul>
+<li>Les cours ont lieu tous les [lundi au jeudi] de 10h00 à 11h30 HNE et de 20h00 à 21h30 HNE.</li>
+</ul></li>
+<li><strong>Comment puis-je vous contacter en dehors des heures de cours ?</strong>
+<ul>
+<li>Vous pouvez nous contacter à <a href="mailto:info@frenchwithkunal.ca">info@frenchwithkunal.ca</a> et on vous répondra dès que possible.</li>
+</ul></li>
+</ol>
+</section>
+<section id="vocabulaire" class="level3">
+<h3 class="anchored" data-anchor-id="vocabulaire">Vocabulaire :</h3>
+<ol start="3" type="1">
+<li><strong>Comment puis-je développer efficacement mon vocabulaire en français ?</strong>
+<ul>
+<li>La pratique régulière, l’utilisation de cartes mémoire, la lecture de textes en français et la participation à des conversations avec des locuteurs natifs sont des moyens efficaces pour développer votre vocabulaire.</li>
+</ul></li>
+</ol>
+</section>
+<section id="prononciation" class="level3">
+<h3 class="anchored" data-anchor-id="prononciation">Prononciation :</h3>
+<ol start="4" type="1">
+<li><strong>Comment prononcer correctement les sons nasaux en français ?</strong>
+<ul>
+<li>Les sons nasaux en français incluent “an,” “en,” “on,” et “un.” Ces sons sont produits en laissant l’air s’échapper par le nez. Pratiquez en écoutant des locuteurs natifs et en les imitant.</li>
+</ul></li>
+<li><strong>Quel est le meilleur moyen d’améliorer mon accent français ?</strong>
+<ul>
+<li>Écoutez des locuteurs natifs, imitez leur prononciation et pratiquez régulièrement. S’enregistrer en parlant peut être d’une grande aide !</li>
+</ul></li>
+</ol>
+</section>
+<section id="écoute-et-expression-orale" class="level3">
+<h3 class="anchored" data-anchor-id="écoute-et-expression-orale">Écoute et expression orale :</h3>
+<ol start="6" type="1">
+<li><strong>Comment puis-je améliorer mes compétences de compréhension orale en français ?</strong>
+<ul>
+<li>Écoutez des podcasts en français, regardez des films ou des émissions de télévision en français, et essayez de vous immerger autant que possible dans la langue.</li>
+</ul></li>
+<li><strong>Quels sont des moyens efficaces pour pratiquer la langue parlée en français ?</strong>
+<ul>
+<li>Pratiquez en parlant avec des locuteurs natifs, rejoignez un groupe d’échange linguistique, ou utilisez des applications d’apprentissage des langues qui se concentrent sur l’expression orale.</li>
+</ul></li>
+<li><strong>Y a-t-il des podcasts ou des vidéos que vous recommandez pour apprendre le français ?</strong>
+<ul>
+<li>Quelques podcasts populaires incluent “Coffee Break French,” “InnerFrench,” et “FrenchPod101.” Pour les vidéos, les chaînes YouTube comme “Learn French with Alexa” et “Francais Authentique” sont d’excellentes ressources.</li>
+</ul></li>
+</ol>
+</section>
+<section id="lecture-et-écriture" class="level3">
+<h3 class="anchored" data-anchor-id="lecture-et-écriture">Lecture et écriture :</h3>
+<ol start="9" type="1">
+<li><strong>Comment puis-je améliorer ma compréhension de lecture en français ?</strong>
+<ul>
+<li>Commencez par des textes simples et passez progressivement à des textes plus complexes. Lisez des livres, des journaux et des articles en français, et essayez de comprendre le contexte.</li>
+</ul></li>
+<li><strong>Quels sont des bons livres ou articles en français pour les débutants ?</strong>
+<ul>
+<li>Quelques bonnes options incluent “Le Petit Prince” d’Antoine de Saint-Exupéry, la série “Le Petit Nicolas” de René Goscinny, et des sites de nouvelles en français simples comme “Le Monde des ados.”</li>
+</ul></li>
+<li><strong>Quelles sont des stratégies pour écrire des essais en français ?</strong>
+<ul>
+<li>Planifiez la structure de votre essai, utilisez une variété de structures de phrases et pratiquez régulièrement l’écriture. Concentrez-vous sur la clarté et la cohérence, et relisez votre travail pour vérifier la grammaire et le vocabulaire.</li>
+</ul></li>
+</ol>
+</section>
+<section id="aperçus-culturels" class="level3">
+<h3 class="anchored" data-anchor-id="aperçus-culturels">Aperçus culturels :</h3>
+<ol start="12" type="1">
+<li><strong>Quels sont des conseils culturels pour interagir avec des locuteurs français ?</strong>
+<ul>
+<li>Soyez poli, utilisez des titres formels (Monsieur, Madame) lorsque c’est approprié, et apprenez quelques bases de l’étiquette, comme le salut par poignée de main ou par bise.</li>
+</ul></li>
+<li><strong>Pouvez-vous recommander des films ou des émissions de télévision en français à regarder ?</strong>
+<ul>
+<li>Quelques films français populaires incluent “Amélie,” “La Haine,” et “Intouchables.” Pour les émissions de télévision, “Call My Agent!” et “Lupin” sont vivement recommandés.</li>
+</ul></li>
+</ol>
+</section>
+<section id="ressources-et-outils" class="level3">
+<h3 class="anchored" data-anchor-id="ressources-et-outils">Ressources et outils :</h3>
+<ol start="14" type="1">
+<li><strong>Quels dictionnaires ou livres de référence devrais-je utiliser ?</strong>
+<ul>
+<li>“Le Petit Robert” et “Larousse” sont des dictionnaires français très réputés. Pour les livres de référence, “<a href="chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://bpb-us-e1.wpmucdn.com/blogs.uoregon.edu/dist/f/8175/files/2014/06/Kendris_501_French_Verbs_Barrons-13u1653.pdf">501 French Verbs</a>” de Christopher Kendris est un excellent outil pour les conjugaisons de verbes.</li>
+</ul></li>
+</ol>
+</section>
+<section id="durée-dapprentissage" class="level3">
+<h3 class="anchored" data-anchor-id="durée-dapprentissage">Durée d’apprentissage :</h3>
+<ol start="15" type="1">
+<li><strong>Combien de temps faut-il pour apprendre le français ?</strong>
+<ul>
+<li>Avec une guidance adéquate et de la pratique (environ 3 heures par jour), il faut généralement environ 6 mois pour atteindre un niveau intermédiaire (B2/CLB5) en français. Un effort constant et une immersion dans la langue peuvent accélérer considérablement le processus d’apprentissage.</li>
+</ul></li>
+</ol>
 
 
-  ReactDOM.render(
-    <LoginForm />,
-    document.getElementById('react-root')
-  );
-</script>
-
-
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

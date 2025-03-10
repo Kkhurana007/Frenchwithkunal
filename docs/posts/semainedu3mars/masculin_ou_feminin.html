@@ -109,6 +109,10 @@ ul.task-list li input[type="checkbox"] {
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../faq.html"> 
+<span class="menu-text">FAQ’S</span></a>
+  </li>  
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-language" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Language</span>
@@ -216,12 +220,12 @@ ul.task-list li input[type="checkbox"] {
   }
 </script>
 <script>
-const password = "your_password"; // Set your password here
+const usersDatabase = ["user1@example.com", "user2@example.com"]; // Add your authorized users here
 const userInput = prompt("Enter your email to view this post:");
 
-if (userInput !== password) {
-    alert("Incorrect password. You do not have access to this post.");
-    window.location.href = "/"; // Redirect to homepage or another page
+if (!usersDatabase.includes(userInput)) {
+  alert("You do not have access to this post. Please subscribe to gain access.");
+  window.location.href = "https://frenchwithkunal.ca/payment.html"; // Redirect to the subscription/payment page
 }
 </script>
 <p>In French, nouns have a gender: they are either masculine or feminine. The endings of words can often give us clues about their gender. For example, feminine words often end in <strong>-e</strong>, while masculine words have various endings. Additionally, we often use <strong>-e</strong> to transform a masculine word into a feminine one.</p>

@@ -43,6 +43,8 @@ website:
       - text: "Se connecter" 
         href: login2.qmd    
     right:
+      - text: "FAQ'S"
+        href: faq.qmd
       - text: Langue
         menu:
           - text: Anglais
