@@ -58,6 +58,8 @@ website:
       - text: Login
         href: login.qmd
     right:
+      - text: "FAQ'S"
+        href: faq.qmd
       - text: Language
         menu:
           - text: English
