@@ -3,31 +3,25 @@
 format: html
 ---
 
-::: {.content-visible when-profile="english"}
-
+:::: {.content-visible when-profile="english"}
 # Subscribe to French Course
 
 Choose a plan that works best for you:
 
-<div id="pricing-container-en" class="pricing-container"></div>
-
+::: {#pricing-container-en .pricing-container}
 :::
+::::
 
-::: {.content-visible when-profile="french"}
-
+:::: {.content-visible when-profile="french"}
 # Abonnez-vous au cours de français
 
 Choisissez le plan qui vous convient le mieux :
 
-<div id="pricing-container-fr" class="pricing-container"></div>
-
-
-
+::: {#pricing-container-fr .pricing-container}
 :::
+::::
 
-
-
-
+```{=html}
 <script>
 
     const plans = {
@@ -47,7 +41,7 @@ Choisissez le plan qui vous convient le mieux :
             {
                 name: "Coaching with Mentor",
                 price: "C$300/month",
-                link: "https://buy.stripe.com/test_3cs9Eq9Yzg6KbUA7st",
+                link: "https://buy.stripe.com/bIYg0F6CoeHhcwgbII",
                 features: ["Personalized coaching", "Tailored lesson plans", "Weekly progress reviews", "Direct feedback and support"]
             }
         ],
@@ -75,12 +69,9 @@ Choisissez le plan qui vous convient le mieux :
     };
 
 </script>
+```
 
-
-
-
-
-
+```{=html}
 <script>
 
     function renderPlans(containerId, language) {
@@ -112,3 +103,4 @@ Choisissez le plan qui vous convient le mieux :
     });
 
 </script>
+```

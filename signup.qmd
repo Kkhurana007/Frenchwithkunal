@@ -5,17 +5,16 @@ title: "Sign Up"
 ### Create a New Account
 
 <form id="signup-form">
-  <label for="email">Email:</label>
-  <input type="email" id="email" required>
-  <br>
-  <label for="password">Password:</label>
-  <input type="password" id="password" required>
-  <br>
-  <button type="submit">Sign Up</button>
+
+<label for="email">Email:</label> <input type="email" id="email" required> <br> <label for="password">Password:</label> <input type="password" id="password" required> <br> <button type="submit">Sign Up</button>
+
 </form>
 
-<p id="signup-message"></p>
+<p id="signup-message">
 
+</p>
+
+```{=html}
 <script>
   const signupForm = document.getElementById('signup-form');
   signupForm.addEventListener('submit', async (e) => {
@@ -44,3 +43,4 @@ title: "Sign Up"
     }
   });
 </script>
+```

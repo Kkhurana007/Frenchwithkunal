@@ -271,5 +271,22 @@
   "posts/semainedu3mars/pluralofnouns.qmd": {
     "pluralofnouns.html": "14467cf7",
     "pluralofnouns.tex": "68ac9f73"
+  },
+  "faq.qmd": {
+    "faq.html": "a53b42c9",
+    "faq.tex": "5b198d13"
+  },
+  "forget-password.qmd": {
+    "forget-password.html": "484a2efb"
+  },
+  "login2.qmd": {
+    "login2.html": "b349b2b2",
+    "login2.tex": "44e7f999"
+  },
+  "profile.qmd": {
+    "profile.html": "2ba66b37"
+  },
+  "reset-password.qmd": {
+    "reset-password.html": "aa607a65"
   }
 }
