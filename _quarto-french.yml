@@ -43,10 +43,12 @@ website:
       - text: "Nous Contacter"
         href: contact.qmd
       - text: Abonnement
-        href: payment.qmd    
-    right:
+        href: payment.qmd
       - text: Se connecter
         href: login.qmd
+    right:
+      - text: "FAQ'S"
+        href: faq.qmd
       - text: Langue
         menu:
           - text: Anglais
