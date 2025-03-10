@@ -55,9 +55,11 @@ website:
         href: contact.qmd
       - text: Subscription
         href: payment.qmd
-    right:
       - text: Login
         href: login.qmd
+    right:
+      - text: "FAQ'S"
+        href: faq.qmd
       - text: Language
         menu:
           - text: English

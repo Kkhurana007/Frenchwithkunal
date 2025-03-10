@@ -44,9 +44,9 @@ website:
         href: contact.qmd
       - text: Abonnement
         href: payment.qmd
+        href: payment.qmd
       - text: Se connecter
-        href: login.qmd    
-    right:
+        href: login.qmd
       - text: Langue
         menu:
           - text: Anglais
