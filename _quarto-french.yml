@@ -40,8 +40,7 @@ website:
         href: contact.qmd
       - text: Abonnement
         href: payment.qmd
-      - text: "Se connecter" 
-        href: login2.qmd    
+
     right:
       - text: "FAQ'S"
         href: faq.qmd

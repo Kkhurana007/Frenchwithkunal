@@ -47,7 +47,7 @@ Choisissez le plan qui vous convient le mieux :
             {
                 name: "Coaching with Mentor",
                 price: "C$300/month",
-                link: "https://buy.stripe.com/bIYg0F6CoeHhcwgbII",
+                link: "https://buy.stripe.com/test_3cs9Eq9Yzg6KbUA7st",
                 features: ["Personalized coaching", "Tailored lesson plans", "Weekly progress reviews", "Direct feedback and support"]
             }
         ],

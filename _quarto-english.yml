@@ -51,8 +51,6 @@ website:
         href: contact.qmd
       - text: Subscription
         href: payment.qmd
-      - text: "Login" 
-        href: login2.qmd
         
     right:
       - text: "FAQ'S"
