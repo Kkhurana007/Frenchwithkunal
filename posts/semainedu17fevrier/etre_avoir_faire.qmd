@@ -34,6 +34,7 @@ image: "avoir_être_faire.png"
 When learning French, one of the trickiest aspects is understanding which auxiliary verb to use in different contexts. This is especially true when talking about temperature, whether it’s about how you feel, the weather, or the state of an object. Let’s break it down with examples to make it easier. 
 
 ## 1. Using "Avoir" for Personal Sensations (Body Temperature)
+q
 In French, when you want to express how you feel in terms of temperature, you use the verb "avoir" (to have). This is because you’re describing a personal sensation, not the external environment.
 
 J’ai chaud. → I feel hot.
@@ -47,6 +48,7 @@ J’ai chaud aujourd’hui, je vais boire de l’eau. (I feel hot today, I’m g
 J’ai froid, je vais mettre un manteau. (I feel cold, I’m going to put on a coat.)
 
 ## 2. Using "Faire" for the Weather
+
 When talking about the weather in general, French uses the verb "faire" (to make/do). This is because you’re describing the external environment, not a personal feeling.
 
 Il fait chaud. → It’s hot (outside).
@@ -60,6 +62,7 @@ Il fait chaud aujourd’hui, je vais à la plage. (It’s hot today, I’m going
 Il fait froid ce matin, je porte un pull. (It’s cold this morning, I’m wearing a sweater.)
 
 ## 3. Using "Être" for Objects
+
 When describing the temperature of an object, you use the verb "être" (to be). This is because you’re talking about the state of the object itself.
 
 Le thé est chaud. → The tea is hot.
@@ -75,6 +78,7 @@ Le café est trop chaud, je vais attendre. (The coffee is too hot, I’ll wait.)
 L’eau est froide, je ne vais pas nager. (The water is cold, I’m not going to swim.)
 
 ### Practice Sentences
+
 Let’s put it all together with some simple sentences:
 
 J’ai chaud, mais il fait froid dehors. → I feel hot, but it’s cold outside.
@@ -104,6 +108,7 @@ For details, please refer to [this pdf](https://drive.google.com/file/d/114v5AgZ
 Lorsqu’on apprend le français, l’un des aspects les plus délicats est de comprendre quel auxiliaire utiliser dans différents contextes. Cela est particulièrement vrai lorsqu’on parle de la température, que ce soit pour exprimer une sensation personnelle, la météo ou l’état d’un objet. On va essayer de le comprendre avec les exemples.
 
 ## 1. Utiliser "Avoir" pour les Sensations Personnelles (Température du Corps)
+
 En français, lorsque vous voulez exprimer une sensation de température, vous utilisez le verbe "avoir". En effet, vous décrivez une sensation personnelle, et non l’environnement extérieur.
 
 J’ai chaud. → I feel hot.
@@ -117,6 +122,7 @@ J’ai chaud aujourd’hui, je vais boire de l’eau. (I feel hot today, I’m g
 J’ai froid, je vais mettre un manteau. (I feel cold, I’m going to put on a coat.)
 
 ## 2. Utiliser "Faire" pour la Météo
+
 Quand on parle de la météo en général, on utilise le verbe "faire". Cela permet de décrire l’environnement extérieur, et non une sensation personnelle.
 
 Il fait chaud. → It’s hot (outside).
@@ -130,6 +136,7 @@ Il fait chaud aujourd’hui, je vais à la plage. (It’s hot today, I’m going
 Il fait froid ce matin, je porte un pull. (It’s cold this morning, I’m wearing a sweater.)
 
 ## 3. Utiliser "Être" pour les Objets
+
 Pour décrire la température d’un objet, on utilise le verbe "être". Cela permet de parler de l’état de l’objet lui-même.
 
 Le thé est chaud. → The tea is hot.

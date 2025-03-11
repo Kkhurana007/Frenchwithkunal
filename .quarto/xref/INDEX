@@ -276,5 +276,12 @@
   "faq.qmd": {
     "faq.html": "c82f7a1a",
     "faq.tex": "eb842510"
+  },
+  "signup.qmd": {
+    "signup.html": "b61aab7a",
+    "signup.tex": "e8d5a17b"
+  },
+  "test_payment.qmd": {
+    "test_payment.html": "322302ff"
   }
 }
