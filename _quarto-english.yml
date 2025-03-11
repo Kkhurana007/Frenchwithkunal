@@ -11,6 +11,8 @@ website:
   page-navigation: true
   title: "French with Kunal"
   site-url: "https://frenchwithkunal.ca"
+  
+  
   page-footer:
     left:
       - text: Ethics
@@ -55,9 +57,10 @@ website:
         href: contact.qmd
       - text: Subscription
         href: payment.qmd
-      - text: Login
-        href: login.qmd
+        
     right:
+      - text: "Billing"
+        href: https://billing.stripe.com/p/login/test_eVa29O23Wbwjb6gfYY
       - text: "FAQ'S"
         href: faq.qmd
       - text: Language

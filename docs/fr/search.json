@@ -144,6 +144,7 @@
     "href": "login.html",
     "title": "Français avec Kunal",
     "section": "",
+<<<<<<< HEAD
     "text": "Connexion à votre compte\n\nAdresse e-mail :   Mot de passe :   Se connecter\n\n\n\n\n\nVous n’avez pas de compte ? Abonnez-vous"
   },
   {
@@ -151,6 +152,8 @@
     "href": "forget-password.html",
     "title": "Français avec Kunal",
     "section": "",
+=======
+>>>>>>> 08253428020c3f9efb5231bca3119e1316445eba
     "text": "```{=html}"
   },
   {
@@ -404,6 +407,7 @@
     "title": "Masculin ou Féminin nom / Male or Female gender",
     "section": "",
     "text": "Link copied!\n\n\n\nEn français, les noms ont un genre : ils sont soit masculins, soit féminins. Les terminaisons des mots peuvent souvent nous donner des indices sur leur genre. Par exemple, les mots féminins se terminent souvent par un -e, tandis que les mots masculins ont des terminaisons variées. De plus, on utilise souvent le -e pour transformer un mot masculin en féminin.\nNous avons également appris que les saisons, les jours de la semaine, les langues, les fruits et les légumes sont généralement masculins. De même, les magasins, les émotions et les disciplines scientifiques sont généralement féminins, sauf ceux qui se terminent déjà par un -e.\nDans le cours d’aujourd’hui, nous avons exploré ces règles plus en détail et nous avons examiné des exemples concrets pour mieux comprendre le genre des noms en français.\n\n\nLes terminaisons masculines courantes\nVoici quelques terminaisons courantes pour les noms masculins, accompagnées d’exemples et de leurs traductions en anglais :\n\n-acle :\n\nUn obstacle (an obstacle)\nUn spectacle (a show)\n\n-age :\n\nUn voyage (a trip)\nUn message (a message)\n\n-isme :\n\nLe socialisme (socialism)\nLe tourisme (tourism)\n\n-al :\n\nUn journal (a newspaper)\nUn animal (an animal)\n\n-eau :\n\nUn cadeau (a gift)\nUn bateau (a boat)\n\n-et :\n\nUn secret (a secret)\nUn bouquet (a bouquet)\n\n-ier :\n\nUn pommier (an apple tree)\nUn cahier (a notebook)\n\n-ment :\n\nUn monument (a monument)\nUn bâtiment (a building)\n\n\n\n\n\nLes terminaisons féminines courantes\nVoici quelques terminaisons courantes pour les noms féminins, accompagnées d’exemples et de leurs traductions en anglais :\n\n-ade :\n\nUne promenade (a walk)\nUne limonade (lemonade)\n\n-ale :\n\nUne finale (a final)\nUne spirale (a spiral)\n\n-ance :\n\nUne importance (importance)\nUne chance (luck)\n\n-ence :\n\nUne différence (a difference)\nUne expérience (an experience)\n\n-ette :\n\nUne baguette (a baguette)\nUne fillette (a little girl)\n\n-ie :\n\nUne partie (a part)\nUne vie (a life)\n\n-ique :\n\nUne technique (a technique)\nUne musique (music)\n\n-oire :\n\nUne histoire (a story)\nUne victoire (a victory)\n\n-sion :\n\nUne décision (a decision)\nUne mission (a mission)\n\n-tion :\n\nUne nation (a nation)\nUne question (a question)\nUne natation (swimming)\n\n\n\n\n\nLes noms binaires (masculin ou féminin)\nCertains noms peuvent être soit masculins, soit féminins, selon le contexte. On les appelle des noms binaires. Voici quelques exemples :\n\nUn/une artiste (an artist)\nUn/une camarade (a friend/classmate)\nUn/une collègue (a colleague)\nUn/une concierge (a concierge)\nUn/une élève (a student)\nUn/une enfant (a child)\nUn/une malade (a sick person)\nUn/une secrétaire (a secretary)\nUn/une touriste (a tourist)\n\n\n\n\nLes noms qui ne changent pas\nCertains noms ont la même forme au masculin et au féminin. Voici une liste de ces mots avec leurs traductions en anglais :\n\nMasculin :\n\nUn agent de police (a police officer)\nUn bébé (a baby)\nUn mannequin (a model)\nUn médecin (a doctor)\nUn chef (a chef/leader)\nUn professeur (a teacher)\nUn dentiste (a dentist)\nUn écrivain (a writer)\nUn ingénieur (an engineer)\n\n\n\nFéminin :\n\nUne star (a star)\nUne victime (a victim)\nUne connaissance (an acquaintance)\n\n\n\n\n\nConclusion\nComprendre le genre des noms en français peut sembler difficile au début, mais en apprenant les terminaisons courantes et en pratiquant avec des exemples, cela devient plus facile. N’oubliez pas que certaines exceptions existent, mais avec le temps, vous les mémoriserez naturellement."
+<<<<<<< HEAD
   },
   {
     "objectID": "terms.html",
@@ -411,5 +415,7 @@
     "title": "Conditions d’Utilization",
     "section": "",
     "text": "Conditions d’Utilization\nEn utilisant les services de French with Kunal, vous acceptez ces conditions:\n\nNos services incluent des cours de français, des matériaux pédagogiques et des séances de tutorat pour un apprentissage personnel.\nGardez votre compte sécurisé et informez-nous en cas d’accès non autorisé.\nLes paiements sont non remboursables, sauf indication contraire, et les annulations nécessitent un préavis de 3 jours.\nNe pas utiliser nos services pour des activités illégales ni partager du contenu sans permission.\nVos données seront gérées conformément à notre Politique de Confidentialité.\nNous ne sommes pas responsables des dommages indirects, notre responsabilité étant limitée aux paiements effectués au cours des 3 derniers mois.\nNous pouvons mettre fin à l’accès en cas de violation de ces conditions.\nNous nous réservons le droit de mettre à jour ces conditions ; l’utilisation continue signifie l’acceptation des modifications.\nPour toute question, contactez-nous à info@frenchwithkunal.ca"
+=======
+>>>>>>> 08253428020c3f9efb5231bca3119e1316445eba
   }
 ]

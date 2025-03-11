@@ -205,88 +205,76 @@
     "preposition_lieu.html": "659bb85d",
     "preposition_lieu.tex": "ed189c85"
   },
-  "posts/semainedu10fevrier/nasal_sounds+idioms.qmd": {
-    "nasal_sounds+idioms.html": "b2b5ff64",
-    "nasal_sounds+idioms.tex": "fc77b48c"
-  },
   "posts/semainedu10fevrier/preposition_lieu_2.qmd": {
-    "preposition_lieu_2.html": "3a83d761",
-    "preposition_lieu_2.tex": "f618f579"
+    "preposition_lieu_2.html": "33669b48",
+    "preposition_lieu_2.tex": "ec597817"
   },
-  "signup.qmd": {
-    "signup.html": "00b86c3b",
-    "signup.tex": "f3b4fd53"
-  },
-  "test_payment.qmd": {
-    "test_payment.html": "5157467c",
-    "test_payment.tex": "90eeaa1e"
-  },
-  "posts/semainedu17fevrier/nasal_sounds.qmd": {
-    "nasal_sounds.html": "970d91f1",
-    "nasal_sounds.tex": "d438813c"
-  },
-  "posts/semainedu17fevrier/irregular_verbs.qmd": {
-    "irregular_verbs.html": "0bcf60d1",
-    "irregular_verbs.tex": "20ea5fe7"
-  },
-  "posts/semainedu17fevrier/etre_avoir_faire.qmd": {
-    "etre_avoir_faire.html": "65b2f59c",
-    "etre_avoir_faire.tex": "18fe7b01"
+  "posts/semainedu10fevrier/nasal_sounds+idioms.qmd": {
+    "nasal_sounds+idioms.html": "e8382e6e",
+    "nasal_sounds+idioms.tex": "bf950ad0"
   },
   "register.qmd": {
-    "register.html": "788839f6"
-  },
-  "posts/semainedu24fevrier/tempsdeverbes.qmd": {
-    "tempsdeverbes.html": "14d708be",
-    "tempsdeverbes.tex": "f9a4b54a"
-  },
-  "posts/semainedu24fevrier/partitifs+TEF_PE.qmd": {
-    "partitifs+TEF_PE.html": "2e3d39e3",
-    "partitifs+TEF_PE.tex": "cb31dd05"
-  },
-  "posts/semainedu24fevrier/verbes_irregulier.qmd": {
-    "verbes_irregulier.html": "e431acb6",
-    "verbes_irregulier.tex": "c05b5b1c"
-  },
-  "posts/semainedu24fevrier/partitifs.qmd": {
-    "partitifs.html": "ffb740cb",
-    "partitifs.tex": "271329e6"
-  },
-  "posts/semainedu3mars/new.qmd": {
-    "new.html": "b9563b53",
-    "new.tex": "db20c658"
-  },
-  "posts/semainedu3mars/kahoot.qmd": {
-    "kahoot.html": "7df73536",
-    "kahoot.tex": "d9aff77a"
-  },
-  "posts/semainedu3mars/demonstratifs.qmd": {
-    "demonstratifs.html": "3988ffb2",
-    "demonstratifs.tex": "9e2c041b"
-  },
-  "posts/semainedu3mars/masculin_ou_feminin.qmd": {
-    "masculin_ou_feminin.html": "57c5a739",
-    "masculin_ou_feminin.tex": "c6b9a5c1"
-  },
-  "posts/semainedu3mars/pluralofnouns.qmd": {
-    "pluralofnouns.html": "14467cf7",
-    "pluralofnouns.tex": "68ac9f73"
-  },
-  "faq.qmd": {
-    "faq.html": "a53b42c9",
-    "faq.tex": "5b198d13"
-  },
-  "forget-password.qmd": {
-    "forget-password.html": "484a2efb"
-  },
-  "login2.qmd": {
-    "login2.html": "b349b2b2",
-    "login2.tex": "44e7f999"
-  },
-  "profile.qmd": {
-    "profile.html": "2ba66b37"
+    "register.html": "aec30214"
   },
   "reset-password.qmd": {
-    "reset-password.html": "aa607a65"
+    "reset-password.html": "3ed550f0"
+  },
+  "profile.qmd": {
+    "profile.html": "8afe9515"
+  },
+  "forget-password.qmd": {
+    "forget-password.html": "92b20f8d"
+  },
+  "posts/semainedu24fevrier/tempsdeverbes.qmd": {
+    "tempsdeverbes.html": "2f3f0acf",
+    "tempsdeverbes.tex": "ce49524a"
+  },
+  "posts/semainedu24fevrier/partitifs.qmd": {
+    "partitifs.html": "7475a244",
+    "partitifs.tex": "bde2c721"
+  },
+  "posts/semainedu24fevrier/verbes_irregulier.qmd": {
+    "verbes_irregulier.html": "a2962552",
+    "verbes_irregulier.tex": "262eba0e"
+  },
+  "posts/semainedu17fevrier/nasal_sounds.qmd": {
+    "nasal_sounds.html": "eac66cce",
+    "nasal_sounds.tex": "3f4aa675"
+  },
+  "posts/semainedu17fevrier/irregular_verbs.qmd": {
+    "irregular_verbs.html": "df015548",
+    "irregular_verbs.tex": "40a25207"
+  },
+  "posts/semainedu17fevrier/etre_avoir_faire.qmd": {
+    "etre_avoir_faire.html": "935c78e8",
+    "etre_avoir_faire.tex": "dbcdb887"
+  },
+  "posts/semainedu3mars/pluralofnouns.qmd": {
+    "pluralofnouns.html": "eb2c4e84",
+    "pluralofnouns.tex": "f70db770"
+  },
+  "posts/semainedu3mars/masculin_ou_feminin.qmd": {
+    "masculin_ou_feminin.html": "0efce111",
+    "masculin_ou_feminin.tex": "1697f71c"
+  },
+  "posts/semainedu3mars/demonstratifs.qmd": {
+    "demonstratifs.html": "434cc3eb",
+    "demonstratifs.tex": "85ee9c45"
+  },
+  "posts/semainedu3mars/kahoot.qmd": {
+    "kahoot.html": "52ea78f2",
+    "kahoot.tex": "7f7d360e"
+  },
+  "posts/semainedu3mars/new.qmd": {
+    "new.html": "7a792ad2",
+    "new.tex": "3fdd0044"
+  },
+  "login2.qmd": {
+    "login2.html": "e1319646",
+    "login2.tex": "6dbe1018"
+  },
+  "faq.qmd": {
+    "faq.html": "c82f7a1a",
+    "faq.tex": "eb842510"
   }
 }

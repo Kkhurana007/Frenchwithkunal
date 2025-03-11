@@ -42,8 +42,8 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-8ea72dc5fed832574809a9c94082fbbb.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-2f6844b3748638c5738d4cf93630e566.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-8aa8884591a9136173b71f6048871fae.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-a78bc22c21c5275f96438b53095d57b2.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-7f2ec24aee834e62cd2de1bda3d4642b.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -102,6 +102,9 @@ ul.task-list li input[type="checkbox"] {
   })
   </script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" <link="">
+<script src="https://unpkg.com/react@17/umd/react.production.min.js"></script>
+<script src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"></script>
+<script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
@@ -172,6 +175,13 @@ window.Quarto = {
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
+<<<<<<< HEAD
+=======
+    <a class="nav-link" href="https://billing.stripe.com/p/login/test_eVa29O23Wbwjb6gfYY"> 
+<span class="menu-text">Billing</span></a>
+  </li>  
+  <li class="nav-item">
+>>>>>>> 08253428020c3f9efb5231bca3119e1316445eba
     <a class="nav-link" href="./faq.html"> 
 <span class="menu-text">FAQ’S</span></a>
   </li>  
@@ -232,13 +242,123 @@ window.Quarto = {
 </header>
 
 
+<div id="react-root">
+
+</div>
+<script type="text/babel">
+
+const { useState } = React;
+ 
+
+const App = () => {
+
+const storedUser = localStorage.getItem('accessToken');
+    const { useState,useEffect } = React;
+console.log(storedUser,"storedUser")
+
+  const [user, setUser] = useState(null);
+ const [isLoading, setIsLoading] = useState(true);
+
+
+  useEffect(() => {
+    const storedToken = localStorage.getItem('accessToken');
+  const userNavElement = document.querySelector('.me-auto');
+
+    if (storedToken) {
+      fetch('https://frenchwithkunal-cdf6ea3f88ce.herokuapp.com/api/v1/auth/me', {
+        method: 'POST',
+        headers: {
+          'Authorization': `Bearer ${storedToken}`,
+          'Content-Type': 'application/json'
+        }
+      })
+      .then(response => response.json())
+      .then(data => {
+        console.log("User Data:", data);
+        setUser(data);
+        updateNavbar(data);
+          setIsLoading(false);
+      })
+      .catch(error => {
+        setIsLoading(false);
+        console.error("Error fetching user data:", error)
+        
+        });
+    }else{
+  const loginNavItem = document.createElement('li');
+ loginNavItem.classList.add('nav-item', 'user-nav-item');
+      loginNavItem.innerHTML = `
+        <a class="nav-link" href="/login.html">Login</a>
+      `;
+      userNavElement.appendChild(loginNavItem);
+    
+    } 
+
+  }, []);
+
+
+const updateNavbar = (userData) => {
+  const userNavElement = document.querySelector('.me-auto');
+
+    
+    if (userData) {
+      // Create a new list item for user navigation
+      const userNavItem = document.createElement('li');
+      userNavItem.classList.add('nav-item', 'dropdown', 'user-nav-item');
+      
+      userNavItem.innerHTML = `
+        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
+          ${userData.name || 'User Profile'}
+        </a>
+        <ul class="dropdown-menu dropdown-menu-end">
+          <li><a class="dropdown-item" href="/profile.html">Profile</a></li>
+          <li><hr class="dropdown-divider"></li>
+          <li><a class="dropdown-item" href="#" id="logout-btn">Logout</a></li>
+        </ul>
+      `;
+      
+      // Add logout functionality
+      userNavItem.querySelector('#logout-btn').addEventListener('click', (e) => {
+        e.preventDefault();
+        localStorage.removeItem('accessToken');
+        localStorage.removeItem('refreshToken');
+        setUser(null);
+        updateNavbar(null);
+        window.location.href = '/login.html'; // Redirect to login page
+      });
+      
+      // Append the new user navigation item
+      userNavElement.appendChild(userNavItem);
+    } 
+  
+         
+  
+};
+
+
+
+  return (
+   <div></div>
+  );
+};
+
+
+  ReactDOM.render(
+    <App />,
+    document.getElementById('react-root')
+  );
+</script>
 
 
 
 
 <div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
 <div class="list grid quarto-listing-cols-3">
+<<<<<<< HEAD
 <div class="g-col-1" data-index="0" data-categories="QTElMkZBMiUyQ0IxJTJDZGVtb25zdHJhdGlmcyUyQ2FydGljbGVz" data-listing-date-sort="1740978000000" data-listing-file-modified-sort="1741634652226" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1255">
+=======
+<div class="g-col-1" data-index="0" data-categories="QTElMkZBMiUyQ0IxJTJDZGVtb25zdHJhdGlmcyUyQ2FydGljbGVz" data-listing-date-sort="1740938400000" data-listing-file-modified-sort="1741682040382" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1253">
+>>>>>>> 08253428020c3f9efb5231bca3119e1316445eba
 <a href="./posts/semainedu3mars/demonstratifs.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -277,7 +397,11 @@ Mar 3, 2025
 </div>
 </a>
 </div>
+<<<<<<< HEAD
 <div class="g-col-1" data-index="1" data-categories="QTElMkZBMiUyQ2thaG9vdCUyQ2JvZHklMjBwYXJ0cyUyQ2VyLXZlcmJzJTJDaW50cm9kdWN0b3J5JTIwcGhyYXNlcyUyQ3NlYXNvbnM=" data-listing-date-sort="1740978000000" data-listing-file-modified-sort="1741634652229" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1108">
+=======
+<div class="g-col-1" data-index="1" data-categories="QTElMkZBMiUyQ2thaG9vdCUyQ2JvZHklMjBwYXJ0cyUyQ2VyLXZlcmJzJTJDaW50cm9kdWN0b3J5JTIwcGhyYXNlcyUyQ3NlYXNvbnM=" data-listing-date-sort="1740938400000" data-listing-file-modified-sort="1741682040382" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1106">
+>>>>>>> 08253428020c3f9efb5231bca3119e1316445eba
 <a href="./posts/semainedu3mars/kahoot.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -322,7 +446,11 @@ Mar 3, 2025
 </div>
 </a>
 </div>
+<<<<<<< HEAD
 <div class="g-col-1" data-index="2" data-categories="QTElMkZBMiUyQ21hc2N1bGluJTJDZiVDMyVBOW1pbmluJTJDZW5kaW5ncyUyQ2JpbmFyeSUyQ25vdW5z" data-listing-date-sort="1740978000000" data-listing-file-modified-sort="1741634652230" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1386">
+=======
+<div class="g-col-1" data-index="2" data-categories="QTElMkZBMiUyQ21hc2N1bGluJTJDZiVDMyVBOW1pbmluJTJDZW5kaW5ncyUyQ2JpbmFyeSUyQ25vdW5z" data-listing-date-sort="1740938400000" data-listing-file-modified-sort="1741682040382" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1384">
+>>>>>>> 08253428020c3f9efb5231bca3119e1316445eba
 <a href="./posts/semainedu3mars/masculin_ou_feminin.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -367,7 +495,11 @@ Mar 3, 2025
 </div>
 </a>
 </div>
+<<<<<<< HEAD
 <div class="g-col-1" data-index="3" data-categories="QTElMkZBMiUyQ25vdW5zJTJDcGx1cmFscw==" data-listing-date-sort="1740978000000" data-listing-file-modified-sort="1741634652232" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10" data-listing-word-count-sort="1894">
+=======
+<div class="g-col-1" data-index="3" data-categories="QTElMkZBMiUyQ25vdW5zJTJDcGx1cmFscw==" data-listing-date-sort="1740938400000" data-listing-file-modified-sort="1741682040382" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10" data-listing-word-count-sort="1892">
+>>>>>>> 08253428020c3f9efb5231bca3119e1316445eba
 <a href="./posts/semainedu3mars/pluralofnouns.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -403,7 +535,11 @@ Mar 3, 2025
 </div>
 </a>
 </div>
+<<<<<<< HEAD
 <div class="g-col-1" data-index="4" data-categories="QjElMkZCMiUyQ3BhcnRpdGlmcyUyQ24lQzMlQTlnYXRpb24lMkNhZHZlcmJlcyUyQ3F1YW50aXRpZXM=" data-listing-date-sort="1740718800000" data-listing-file-modified-sort="1741452534236" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="946">
+=======
+<div class="g-col-1" data-index="4" data-categories="QjElMkZCMiUyQ3BhcnRpdGlmcyUyQ24lQzMlQTlnYXRpb24lMkNhZHZlcmJlcyUyQ3F1YW50aXRpZXM=" data-listing-date-sort="1740679200000" data-listing-file-modified-sort="1741450826618" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="946">
+>>>>>>> 08253428020c3f9efb5231bca3119e1316445eba
 <a href="./posts/semainedu24fevrier/partitifs.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -445,7 +581,11 @@ Feb 28, 2025
 </div>
 </a>
 </div>
+<<<<<<< HEAD
 <div class="g-col-1" data-index="5" data-categories="QjElMkZCMiUyQ3Bhc3MlQzMlQTklMkNwcmVzZW50JTJDZnV0dXIlMkNjb25qdWdhdGlvbg==" data-listing-date-sort="1740718800000" data-listing-file-modified-sort="1741452534246" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1112">
+=======
+<div class="g-col-1" data-index="5" data-categories="QjElMkZCMiUyQ3Bhc3MlQzMlQTklMkNwcmVzZW50JTJDZnV0dXIlMkNjb25qdWdhdGlvbg==" data-listing-date-sort="1740679200000" data-listing-file-modified-sort="1741450826619" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1112">
+>>>>>>> 08253428020c3f9efb5231bca3119e1316445eba
 <a href="./posts/semainedu24fevrier/tempsdeverbes.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -487,11 +627,19 @@ Feb 28, 2025
 </div>
 </a>
 </div>
+<<<<<<< HEAD
 <div class="g-col-1" data-index="6" data-categories="QTElMkZBMiUyQ2lycmVndWxhciUyMHZlcmJzJTJDcHJhY3RpY2UlMkNrYWhvb3Q=" data-listing-date-sort="1740718800000" data-listing-file-modified-sort="1741452534250" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1116">
 <a href="./posts/semainedu24fevrier/verbes_irregulier.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
 <img loading="lazy" src="./posts/semainedu24fevrier/irregular_verbs.png" class="thumbnail-image card-img" style="height: 150px;">
+=======
+<div class="g-col-1" data-index="6" data-categories="QTElMkZBMiUyQ2lycmVndWxhciUyMHZlcmJzJTJDcHJhY3RpY2UlMkNrYWhvb3Q=" data-listing-date-sort="1740679200000" data-listing-file-modified-sort="1741450826619" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1116">
+<a href="./posts/semainedu24fevrier/verbes_irregulier.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="./posts/semainedu24fevrier/irregular_verbs.png" class="thumbnail-image card-img" style="height: 150px;">
+>>>>>>> 08253428020c3f9efb5231bca3119e1316445eba
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -526,11 +674,19 @@ Feb 28, 2025
 </div>
 </a>
 </div>
+<<<<<<< HEAD
 <div class="g-col-1" data-index="7" data-categories="QTElMkZBMiUyQ3RlbXBlcmF0dXJlJTJDJUMzJUFBdHJlJTJDYXZvaXIlMkNmYWlyZSUyQ2lkaW9tcw==" data-listing-date-sort="1740200400000" data-listing-file-modified-sort="1741452534138" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="994">
 <a href="./posts/semainedu17fevrier/etre_avoir_faire.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
 <img loading="lazy" src="./posts/semainedu17fevrier/avoir_être_faire.png" class="thumbnail-image card-img" style="height: 150px;">
+=======
+<div class="g-col-1" data-index="7" data-categories="QTElMkZBMiUyQ3RlbXBlcmF0dXJlJTJDJUMzJUFBdHJlJTJDYXZvaXIlMkNmYWlyZSUyQ2lkaW9tcw==" data-listing-date-sort="1740160800000" data-listing-file-modified-sort="1741450826589" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="994">
+<a href="./posts/semainedu17fevrier/etre_avoir_faire.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="./posts/semainedu17fevrier/avoir_être_faire.png" class="thumbnail-image card-img" style="height: 150px;">
+>>>>>>> 08253428020c3f9efb5231bca3119e1316445eba
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -571,11 +727,19 @@ Feb 22, 2025
 </div>
 </a>
 </div>
+<<<<<<< HEAD
 <div class="g-col-1" data-index="8" data-categories="QTElMkZBMiUyQ0IxJTJDaXJyZWd1bGFyJTIwdmVyYnM=" data-listing-date-sort="1740200400000" data-listing-file-modified-sort="1741452534147" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="325">
 <a href="./posts/semainedu17fevrier/irregular_verbs.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
 <img loading="lazy" src="./posts/semainedu17fevrier/irregular_verbs.png" class="thumbnail-image card-img" style="height: 150px;">
+=======
+<div class="g-col-1" data-index="8" data-categories="QTElMkZBMiUyQ0IxJTJDaXJyZWd1bGFyJTIwdmVyYnM=" data-listing-date-sort="1740160800000" data-listing-file-modified-sort="1741450826590" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="325">
+<a href="./posts/semainedu17fevrier/irregular_verbs.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="./posts/semainedu17fevrier/irregular_verbs.png" class="thumbnail-image card-img" style="height: 150px;">
+>>>>>>> 08253428020c3f9efb5231bca3119e1316445eba
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -607,7 +771,11 @@ Feb 22, 2025
 </div>
 </a>
 </div>
+<<<<<<< HEAD
 <div class="g-col-1" data-index="9" data-categories="QTElMkZBMiUyQ25hc2FsJTIwc291bmRz" data-listing-date-sort="1740200400000" data-listing-file-modified-sort="1741452534150" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="331">
+=======
+<div class="g-col-1" data-index="9" data-categories="QTElMkZBMiUyQ25hc2FsJTIwc291bmRz" data-listing-date-sort="1740160800000" data-listing-file-modified-sort="1741450826590" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="331">
+>>>>>>> 08253428020c3f9efb5231bca3119e1316445eba
 <a href="./posts/semainedu17fevrier/nasal_sounds.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -640,7 +808,11 @@ Feb 22, 2025
 </div>
 </a>
 </div>
+<<<<<<< HEAD
 <div class="g-col-1" data-index="10" data-categories="QTElMkZBMiUyQ25hc2FsJTIwc291bmRzJTJDaWRpb21zJTJDaW1wJUMzJUE5cmF0aWY=" data-listing-date-sort="1739595600000" data-listing-file-modified-sort="1741452534113" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="941">
+=======
+<div class="g-col-1" data-index="10" data-categories="QTElMkZBMiUyQ25hc2FsJTIwc291bmRzJTJDaWRpb21zJTJDaW1wJUMzJUE5cmF0aWY=" data-listing-date-sort="1739556000000" data-listing-file-modified-sort="1741450826584" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="941">
+>>>>>>> 08253428020c3f9efb5231bca3119e1316445eba
 <a href="./posts/semainedu10fevrier/nasal_sounds+idioms.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -679,7 +851,11 @@ Feb 15, 2025
 </div>
 </a>
 </div>
+<<<<<<< HEAD
 <div class="g-col-1" data-index="11" data-categories="QTElMkZBMiUyQ3ByZXBvc2l0aW9ucyUyQ21ldGllcnMlMkN2b2NhYnVsYXJ5" data-listing-date-sort="1739595600000" data-listing-file-modified-sort="1741452534123" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="947">
+=======
+<div class="g-col-1" data-index="11" data-categories="QTElMkZBMiUyQ3ByZXBvc2l0aW9ucyUyQ21ldGllcnMlMkN2b2NhYnVsYXJ5" data-listing-date-sort="1739556000000" data-listing-file-modified-sort="1741450826586" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="947">
+>>>>>>> 08253428020c3f9efb5231bca3119e1316445eba
 <a href="./posts/semainedu10fevrier/preposition_lieu.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -718,7 +894,11 @@ Feb 15, 2025
 </div>
 </a>
 </div>
+<<<<<<< HEAD
 <div class="g-col-1" data-index="12" data-categories="QTElMkZBMiUyQ3ByZXBvc2l0aW9ucyUyQ3BocmFzZXM=" data-listing-date-sort="1739595600000" data-listing-file-modified-sort="1741452534128" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="902">
+=======
+<div class="g-col-1" data-index="12" data-categories="QTElMkZBMiUyQ3ByZXBvc2l0aW9ucyUyQ3BocmFzZXM=" data-listing-date-sort="1739556000000" data-listing-file-modified-sort="1741450826586" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="902">
+>>>>>>> 08253428020c3f9efb5231bca3119e1316445eba
 <a href="./posts/semainedu10fevrier/preposition_lieu_2.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -754,7 +934,11 @@ Feb 15, 2025
 </div>
 </a>
 </div>
+<<<<<<< HEAD
 <div class="g-col-1" data-index="13" data-categories="QTElMkZBMiUyQ2NvbW1hbmRlciUyQ2JyYXNzZXJpZSUyQ2FydGljbGVz" data-listing-date-sort="1738904400000" data-listing-file-modified-sort="1741452534270" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1062">
+=======
+<div class="g-col-1" data-index="13" data-categories="QTElMkZBMiUyQ2NvbW1hbmRlciUyQ2JyYXNzZXJpZSUyQ2FydGljbGVz" data-listing-date-sort="1738864800000" data-listing-file-modified-sort="1741450826622" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1062">
+>>>>>>> 08253428020c3f9efb5231bca3119e1316445eba
 <a href="./posts/semainedu3fevrier/Brasserie+articles.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -793,7 +977,11 @@ Feb 7, 2025
 </div>
 </a>
 </div>
+<<<<<<< HEAD
 <div class="g-col-1" data-index="14" data-categories="QTElMkZBMiUyQ3ZlbmlyJTJDJUMzJUFBdHJlJTJDYWxsZXIlMkNwYXN0JTJDcHJlc2VudCUyQ2Z1dHVyZQ==" data-listing-date-sort="1738904400000" data-listing-file-modified-sort="1741452534285" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="498">
+=======
+<div class="g-col-1" data-index="14" data-categories="QTElMkZBMiUyQ3ZlbmlyJTJDJUMzJUFBdHJlJTJDYWxsZXIlMkNwYXN0JTJDcHJlc2VudCUyQ2Z1dHVyZQ==" data-listing-date-sort="1738864800000" data-listing-file-modified-sort="1741450826623" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="498">
+>>>>>>> 08253428020c3f9efb5231bca3119e1316445eba
 <a href="./posts/semainedu3fevrier/venir_etre_aller.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -841,7 +1029,11 @@ Feb 7, 2025
 </div>
 </a>
 </div>
+<<<<<<< HEAD
 <div class="g-col-1" data-index="15" data-categories="QTElMkZBMiUyQ1ZvaWNlX21haWwlMkNNZXNzYWdlX1ZvY2F1eCUyQ2FjY2VudHM=" data-listing-date-sort="1738904400000" data-listing-file-modified-sort="1741452534291" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="693">
+=======
+<div class="g-col-1" data-index="15" data-categories="QTElMkZBMiUyQ1ZvaWNlX21haWwlMkNNZXNzYWdlX1ZvY2F1eCUyQ2FjY2VudHM=" data-listing-date-sort="1738864800000" data-listing-file-modified-sort="1741450826625" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="693">
+>>>>>>> 08253428020c3f9efb5231bca3119e1316445eba
 <a href="./posts/semainedu3fevrier/voice_mail.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -880,7 +1072,11 @@ Feb 7, 2025
 </div>
 </a>
 </div>
+<<<<<<< HEAD
 <div class="g-col-1" data-index="16" data-categories="QTElMkZBMiUyQ3YlQzMlQUF0ZW1lbnRzJTJDY2xvdGhlcw==" data-listing-date-sort="1738299600000" data-listing-file-modified-sort="1741452534253" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="425">
+=======
+<div class="g-col-1" data-index="16" data-categories="QTElMkZBMiUyQ3YlQzMlQUF0ZW1lbnRzJTJDY2xvdGhlcw==" data-listing-date-sort="1738260000000" data-listing-file-modified-sort="1741450826620" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="425">
+>>>>>>> 08253428020c3f9efb5231bca3119e1316445eba
 <a href="./posts/semainedu27janvier/clothes.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -916,7 +1112,11 @@ Jan 31, 2025
 </div>
 </a>
 </div>
+<<<<<<< HEAD
 <div class="g-col-1" data-index="17" data-categories="QTElMkZBMiUyQ2dyZWV0aW5ncyUyQ2hvdXNlaG9sZCUyMGl0ZW1z" data-listing-date-sort="1738299600000" data-listing-file-modified-sort="1741452534255" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="439">
+=======
+<div class="g-col-1" data-index="17" data-categories="QTElMkZBMiUyQ2dyZWV0aW5ncyUyQ2hvdXNlaG9sZCUyMGl0ZW1z" data-listing-date-sort="1738260000000" data-listing-file-modified-sort="1741450826621" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="439">
+>>>>>>> 08253428020c3f9efb5231bca3119e1316445eba
 <a href="./posts/semainedu27janvier/greetings.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -952,7 +1152,11 @@ Jan 31, 2025
 </div>
 </a>
 </div>
+<<<<<<< HEAD
 <div class="g-col-1" data-index="18" data-categories="QTElMkZBMiUyQ2VyX3ZlcmJlcyUyQ3ByZXNlbnQlMjB0ZW5zZQ==" data-listing-date-sort="1737954000000" data-listing-file-modified-sort="1741634652224" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="461">
+=======
+<div class="g-col-1" data-index="18" data-categories="QTElMkZBMiUyQ2VyX3ZlcmJlcyUyQ3ByZXNlbnQlMjB0ZW5zZQ==" data-listing-date-sort="1737914400000" data-listing-file-modified-sort="1741682040381" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="448">
+>>>>>>> 08253428020c3f9efb5231bca3119e1316445eba
 <a href="./posts/semainedu20janvier/er_verbes.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -988,7 +1192,11 @@ Jan 27, 2025
 </div>
 </a>
 </div>
+<<<<<<< HEAD
 <div class="g-col-1" data-index="19" data-categories="QTElMkZBMiUyQ1Jlc291Y2VzJTJDbGVhcm4lMjBGcmVuY2g=" data-listing-date-sort="1737954000000" data-listing-file-modified-sort="1741452534210" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="496">
+=======
+<div class="g-col-1" data-index="19" data-categories="QTElMkZBMiUyQ1Jlc291Y2VzJTJDbGVhcm4lMjBGcmVuY2g=" data-listing-date-sort="1737914400000" data-listing-file-modified-sort="1741450826607" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="496">
+>>>>>>> 08253428020c3f9efb5231bca3119e1316445eba
 <a href="./posts/semainedu20janvier/resources.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -1024,7 +1232,11 @@ Jan 27, 2025
 </div>
 </a>
 </div>
+<<<<<<< HEAD
 <div class="g-col-1" data-index="20" data-categories="QTElMkZBMiUyQ051bWJlcnMlMkNDb3VudGluZw==" data-listing-date-sort="1737781200000" data-listing-file-modified-sort="1741452534188" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="500">
+=======
+<div class="g-col-1" data-index="20" data-categories="QTElMkZBMiUyQ051bWJlcnMlMkNDb3VudGluZw==" data-listing-date-sort="1737741600000" data-listing-file-modified-sort="1741450826601" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="500">
+>>>>>>> 08253428020c3f9efb5231bca3119e1316445eba
 <a href="./posts/semainedu20janvier/numbers.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -1060,7 +1272,11 @@ Jan 25, 2025
 </div>
 </a>
 </div>
+<<<<<<< HEAD
 <div class="g-col-1" data-index="21" data-categories="QTElMkZBMiUyQ3ZlcmJzJTJDRnJlbmNo" data-listing-date-sort="1737781200000" data-listing-file-modified-sort="1741452534216" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="383">
+=======
+<div class="g-col-1" data-index="21" data-categories="QTElMkZBMiUyQ3ZlcmJzJTJDRnJlbmNo" data-listing-date-sort="1737741600000" data-listing-file-modified-sort="1741450826615" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="383">
+>>>>>>> 08253428020c3f9efb5231bca3119e1316445eba
 <a href="./posts/semainedu20janvier/verbs.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -1096,7 +1312,11 @@ Jan 25, 2025
 </div>
 </a>
 </div>
+<<<<<<< HEAD
 <div class="g-col-1" data-index="22" data-categories="QTElMkZBMiUyQ2lyX3ZlcmJlcyUyQ3ByZXNlbnQlMjB0ZW5zZQ==" data-listing-date-sort="1737694800000" data-listing-file-modified-sort="1741452534183" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="436">
+=======
+<div class="g-col-1" data-index="22" data-categories="QTElMkZBMiUyQ2lyX3ZlcmJlcyUyQ3ByZXNlbnQlMjB0ZW5zZQ==" data-listing-date-sort="1737655200000" data-listing-file-modified-sort="1741450826599" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="436">
+>>>>>>> 08253428020c3f9efb5231bca3119e1316445eba
 <a href="./posts/semainedu20janvier/ir_verbes.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -1132,7 +1352,11 @@ Jan 24, 2025
 </div>
 </a>
 </div>
+<<<<<<< HEAD
 <div class="g-col-1" data-index="23" data-categories="QTElMkZBMiUyQ1Byb251bmNpYXRpb24lMkNGcmVuY2g=" data-listing-date-sort="1737694800000" data-listing-file-modified-sort="1741452534194" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="460">
+=======
+<div class="g-col-1" data-index="23" data-categories="QTElMkZBMiUyQ1Byb251bmNpYXRpb24lMkNGcmVuY2g=" data-listing-date-sort="1737655200000" data-listing-file-modified-sort="1741450826604" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="460">
+>>>>>>> 08253428020c3f9efb5231bca3119e1316445eba
 <a href="./posts/semainedu20janvier/pronunciation.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -1168,7 +1392,11 @@ Jan 24, 2025
 </div>
 </a>
 </div>
+<<<<<<< HEAD
 <div class="g-col-1" data-index="24" data-categories="QTElMkZBMiUyQ3JlX3ZlcmJlcyUyQ3ByZXNlbnQlMjB0ZW5zZQ==" data-listing-date-sort="1737694800000" data-listing-file-modified-sort="1741452534204" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="474">
+=======
+<div class="g-col-1" data-index="24" data-categories="QTElMkZBMiUyQ3JlX3ZlcmJlcyUyQ3ByZXNlbnQlMjB0ZW5zZQ==" data-listing-date-sort="1737655200000" data-listing-file-modified-sort="1741450826605" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="474">
+>>>>>>> 08253428020c3f9efb5231bca3119e1316445eba
 <a href="./posts/semainedu20janvier/re_verbes.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -1835,12 +2063,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </ul>
     </div>
   </div>
-</footer>
-<footer style="text-align: center; padding: 20px; background-color: #f8f9fa; margin-top: 40px;">
-  <a href="mailto:info@frenchwithkunal.ca" target="_blank" style="margin: 0 10px; color: #000;"><i class="fas fa-envelope fa-2x"></i></a>
-  <a href="https://www.instagram.com/kunal.khurana7" target="_blank" style="margin: 0 10px; color: #E1306C;"><i class="fab fa-instagram fa-2x"></i></a>
-  <a href="https://frenchwithkunal.ca/" target="_blank" style="margin: 0 10px; color: #0077b5;"><i class="fas fa-globe fa-2x"></i></a>
-  <a href="https://wa.me/+15813989477" target="_blank" style="margin: 0 10px; color: #25D366;"><i class="fab fa-whatsapp fa-2x"></i></a>
 </footer>
 
 

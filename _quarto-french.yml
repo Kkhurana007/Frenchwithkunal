@@ -44,10 +44,11 @@ website:
         href: contact.qmd
       - text: Abonnement
         href: payment.qmd
-      - text: Se connecter
-        href: login.qmd
+
     right:
-      - text: FAQ's
+      - text: "Facturation"
+        href: https://billing.stripe.com/p/login/test_eVa29O23Wbwjb6gfYY
+      - text: "FAQ's"
         href: faq.qmd
       - text: Langue
         menu:

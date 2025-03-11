@@ -40,8 +40,13 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-8ea72dc5fed832574809a9c94082fbbb.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<<<<<<< HEAD
 <link href="site_libs/bootstrap/bootstrap-2f6844b3748638c5738d4cf93630e566.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
 <link href="site_libs/bootstrap/bootstrap-dark-8aa8884591a9136173b71f6048871fae.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+=======
+<link href="site_libs/bootstrap/bootstrap-a78bc22c21c5275f96438b53095d57b2.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-7f2ec24aee834e62cd2de1bda3d4642b.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+>>>>>>> 08253428020c3f9efb5231bca3119e1316445eba
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -107,6 +112,7 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="./payment.html"> 
 <span class="menu-text">Subscription</span></a>
   </li>  
+<<<<<<< HEAD
   <li class="nav-item">
     <a class="nav-link" href="./login.html"> 
 <span class="menu-text">Login</span></a>
@@ -114,6 +120,15 @@ ul.task-list li input[type="checkbox"] {
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
+=======
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="https://billing.stripe.com/p/login/test_eVa29O23Wbwjb6gfYY"> 
+<span class="menu-text">Billing</span></a>
+  </li>  
+  <li class="nav-item">
+>>>>>>> 08253428020c3f9efb5231bca3119e1316445eba
     <a class="nav-link" href="./faq.html"> 
 <span class="menu-text">FAQ’S</span></a>
   </li>  
@@ -168,6 +183,10 @@ const ProfilePage = () => {
 
 
      const { useState,useEffect } = React;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 08253428020c3f9efb5231bca3119e1316445eba
      
   const [userData, setUserData] = useState(null);
   const [isLoading, setIsLoading] = useState(true);
@@ -180,6 +199,87 @@ const ProfilePage = () => {
 
 
 
+<<<<<<< HEAD
+=======
+const refreshToken = async () => {
+  const storedRefreshToken = localStorage.getItem("refreshToken");
+  console.log("refreshToken", storedRefreshToken)
+  if (!storedRefreshToken) {
+    console.log("No refresh token found. Redirecting to login.");
+    window.location.href = "/login.html";
+    return null;
+  }
+
+  try {
+    const response = await fetch("https://frenchwithkunal-cdf6ea3f88ce.herokuapp.com/api/v1/auth/refresh-token", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({ refreshToken: storedRefreshToken }),
+    });
+
+    console.log(response,"response")
+
+    if (!response.ok) {
+      console.error("Refresh token failed. Redirecting to login.");
+      localStorage.removeItem("accessToken");
+      localStorage.removeItem("refreshToken");
+      window.location.href = "/login.html";
+      return null;
+    }
+
+    const data = await response.json();
+    console.log("refreshed")
+    // Save new access token
+    localStorage.setItem("accessToken", data.accessToken);
+    return data.accessToken;
+  } catch (error) {
+    console.error("Error refreshing token:", error);
+    localStorage.removeItem("accessToken");
+    localStorage.removeItem("refreshToken");
+    window.location.href = "/login.html";
+    return null;
+  }
+};
+
+
+
+
+
+const fetchWithAuth = async (url, options = {}) => {
+  let accessToken = localStorage.getItem("accessToken");
+
+  options.headers = {
+    ...options.headers,
+    Authorization: `Bearer ${accessToken}`,
+    "Content-Type": "application/json",
+  };
+
+  let response = await fetch(url, options);
+
+  if (response.status === 401) {
+    console.log("Access token expired, attempting to refresh...");
+
+    // Refresh token
+    accessToken = await refreshToken();
+
+    if (!accessToken) return null;
+
+    options.headers.Authorization = `Bearer ${accessToken}`;
+    response = await fetch(url, options);
+  }
+
+  return response.json();
+};
+
+
+
+
+
+
+
+>>>>>>> 08253428020c3f9efb5231bca3119e1316445eba
 const storedUser = localStorage.getItem('accessToken');
    
 console.log(storedUser,"storedUser")
@@ -187,12 +287,16 @@ console.log(storedUser,"storedUser")
   const [user, setUser] = useState(null);
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 08253428020c3f9efb5231bca3119e1316445eba
   useEffect(() => {
     const storedToken = localStorage.getItem('accessToken');
   const userNavElement = document.querySelector('.me-auto');
 
     if (storedToken) {
+<<<<<<< HEAD
       fetch('https://frenchwithkunal-cdf6ea3f88ce.herokuapp.com/api/v1/auth/me', {
         method: 'POST',
         headers: {
@@ -212,6 +316,30 @@ console.log(storedUser,"storedUser")
         console.error("Error fetching user data:", error)
         
         });
+=======
+      
+      const fetchData = async()=>{
+const data = await fetchWithAuth("https://frenchwithkunal-cdf6ea3f88ce.herokuapp.com/api/v1/auth/me", {
+      method: "POST",
+    });
+
+    if (data) {
+      setUserData(data.data);
+      updateNavbar(data)
+      setIsLoading(false);
+    } else {
+      setError("Failed to load profile. Please log in again.");
+      setIsLoading(false);
+    }
+
+
+      }
+fetchData();
+
+
+
+
+>>>>>>> 08253428020c3f9efb5231bca3119e1316445eba
     }else{
   const loginNavItem = document.createElement('li');
  loginNavItem.classList.add('nav-item', 'user-nav-item');
@@ -271,12 +399,15 @@ const updateNavbar = (userData) => {
 
 
 
+<<<<<<< HEAD
 
 
 
 
 
 
+=======
+>>>>>>> 08253428020c3f9efb5231bca3119e1316445eba
   useEffect(() => {
     const fetchUserProfile = async () => {
       const storedToken = localStorage.getItem('accessToken');
@@ -288,6 +419,7 @@ const updateNavbar = (userData) => {
       }
 
       try {
+<<<<<<< HEAD
         const response = await fetch('https://frenchwithkunal-cdf6ea3f88ce.herokuapp.com/api/v1/auth/me', {
           method: 'POST',
           headers: {
@@ -306,6 +438,20 @@ console.log(data)
 
         setUserData(data.data);
         setIsLoading(false);
+=======
+     const data = await fetchWithAuth("https://frenchwithkunal-cdf6ea3f88ce.herokuapp.com/api/v1/auth/me", {
+      method: "POST",
+    });
+
+    if (data) {
+      setUserData(data.data);
+      setIsLoading(false);
+    } else {
+      setError("Failed to load profile. Please log in again.");
+      setIsLoading(false);
+    }
+
+>>>>>>> 08253428020c3f9efb5231bca3119e1316445eba
       } catch (err) {
         setError(err.message);
         setIsLoading(false);
@@ -350,8 +496,12 @@ console.log(data)
                   <i className="fas fa-user-circle fa-5x mb-3 text-muted"></i>
                 </div>
                 <div className="col-md-8">
+<<<<<<< HEAD
                   <h3>{userData.name | ""}</h3>
                   <hr />
+=======
+                
+>>>>>>> 08253428020c3f9efb5231bca3119e1316445eba
                   <div className="profile-details">
                     <p><strong>Email:</strong> {userData.email}</p>
                     <p><strong>Customer ID:</strong> {userData.customerId}</p>
@@ -977,6 +1127,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
+<<<<<<< HEAD
     <a class="nav-link" href="./login.html">
 <p>Login</p>
 </a>
@@ -987,6 +1138,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </a>
   </li>  
     <li class="nav-item">
+=======
+>>>>>>> 08253428020c3f9efb5231bca3119e1316445eba
     <a class="nav-link" href="https://frenchwithkunal.ca/index.html">
 <p>English</p>
 </a>
