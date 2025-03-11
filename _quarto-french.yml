@@ -44,6 +44,8 @@ website:
         href: contact.qmd
       - text: Abonnement
         href: payment.qmd
+      - text: Se connecter
+        href: login.qmd
 
     right:
       - text: "Facturation"

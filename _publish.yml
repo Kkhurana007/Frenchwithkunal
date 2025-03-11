@@ -1,0 +1,4 @@
+- source: project
+  netlify:
+    - id: 26917b80-3c3f-4dfa-9ea8-598d186fc66f
+      url: https://zesty-cassata-574ecf.netlify.app
