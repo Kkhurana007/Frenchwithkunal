@@ -35,7 +35,7 @@ Choisissez le plan qui vous convient le mieux :
             {
                 name: "Monthly Plan",
                 price: "C$50/month",
-                link: "https://buy.stripe.com/8wMeWB7Gs9mX0NyaEG",
+                link: "https://buy.stripe.com/test_5kAbJwbVA0IXd0IfYY",
                 features: ["Access to all lessons", "New content every week", "Cancel anytime"]
             },
             {

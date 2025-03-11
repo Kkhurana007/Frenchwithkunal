@@ -40,8 +40,8 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-8ea72dc5fed832574809a9c94082fbbb.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-2f6844b3748638c5738d4cf93630e566.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-8aa8884591a9136173b71f6048871fae.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-a78bc22c21c5275f96438b53095d57b2.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-7f2ec24aee834e62cd2de1bda3d4642b.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -164,11 +164,88 @@ const ProfilePage = () => {
 
 
      const { useState,useEffect } = React;
+
      
   const [userData, setUserData] = useState(null);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState(null);
 
+
+
+
+
+
+
+
+const refreshToken = async () => {
+  const storedRefreshToken = localStorage.getItem("refreshToken");
+  
+  if (!storedRefreshToken) {
+    console.log("No refresh token found. Redirecting to login.");
+    window.location.href = "/login.html";
+    return null;
+  }
+
+  try {
+    const response = await fetch("https://frenchwithkunal-cdf6ea3f88ce.herokuapp.com/api/v1/auth/refresh-token", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({ refreshToken: storedRefreshToken }),
+    });
+
+    if (!response.ok) {
+      console.error("Refresh token failed. Redirecting to login.");
+      localStorage.removeItem("accessToken");
+      localStorage.removeItem("refreshToken");
+      window.location.href = "/login.html";
+      return null;
+    }
+
+    const data = await response.json();
+    
+    // Save new access token
+    localStorage.setItem("accessToken", data.accessToken);
+    return data.accessToken;
+  } catch (error) {
+    console.error("Error refreshing token:", error);
+    localStorage.removeItem("accessToken");
+    localStorage.removeItem("refreshToken");
+    window.location.href = "/login.html";
+    return null;
+  }
+};
+
+
+
+
+
+const fetchWithAuth = async (url, options = {}) => {
+  let accessToken = localStorage.getItem("accessToken");
+
+  options.headers = {
+    ...options.headers,
+    Authorization: `Bearer ${accessToken}`,
+    "Content-Type": "application/json",
+  };
+
+  let response = await fetch(url, options);
+
+  if (response.status === 401) {
+    console.log("Access token expired, attempting to refresh...");
+
+    // Refresh token
+    accessToken = await refreshToken();
+
+    if (!accessToken) return null;
+
+    options.headers.Authorization = `Bearer ${accessToken}`;
+    response = await fetch(url, options);
+  }
+
+  return response.json();
+};
 
 
 
@@ -189,25 +266,28 @@ console.log(storedUser,"storedUser")
   const userNavElement = document.querySelector('.me-auto');
 
     if (storedToken) {
-      fetch('https://frenchwithkunal-cdf6ea3f88ce.herokuapp.com/api/v1/auth/me', {
-        method: 'POST',
-        headers: {
-          'Authorization': `Bearer ${storedToken}`,
-          'Content-Type': 'application/json'
-        }
-      })
-      .then(response => response.json())
-      .then(data => {
-        console.log("User Data:", data);
-        setUser(data.data);
-        updateNavbar(data);
-          setIsLoading(false);
-      })
-      .catch(error => {
-        setIsLoading(false);
-        console.error("Error fetching user data:", error)
-        
-        });
+      
+      const fetchData = async()=>{
+const data = await fetchWithAuth("https://frenchwithkunal-cdf6ea3f88ce.herokuapp.com/api/v1/auth/me", {
+      method: "POST",
+    });
+
+    if (data) {
+      setUserData(data.data);
+      updateNavbar(data)
+      setIsLoading(false);
+    } else {
+      setError("Failed to load profile. Please log in again.");
+      setIsLoading(false);
+    }
+
+
+      }
+fetchData();
+
+
+
+
     }else{
   const loginNavItem = document.createElement('li');
  loginNavItem.classList.add('nav-item', 'user-nav-item');
@@ -267,12 +347,6 @@ const updateNavbar = (userData) => {
 
 
 
-
-
-
-
-
-
   useEffect(() => {
     const fetchUserProfile = async () => {
       const storedToken = localStorage.getItem('accessToken');
@@ -284,24 +358,18 @@ const updateNavbar = (userData) => {
       }
 
       try {
-        const response = await fetch('https://frenchwithkunal-cdf6ea3f88ce.herokuapp.com/api/v1/auth/me', {
-          method: 'POST',
-          headers: {
-            'Authorization': `Bearer ${storedToken}`,
-            'Content-Type': 'application/json'
-          }
-        });
+     const data = await fetchWithAuth("https://frenchwithkunal-cdf6ea3f88ce.herokuapp.com/api/v1/auth/me", {
+      method: "POST",
+    });
 
-        if (!response.ok) {
-          throw new Error('Failed to fetch user profile');
-        }
+    if (data) {
+      setUserData(data.data);
+      setIsLoading(false);
+    } else {
+      setError("Failed to load profile. Please log in again.");
+      setIsLoading(false);
+    }
 
-        const data = await response.json();
-console.log(data)
-
-
-        setUserData(data.data);
-        setIsLoading(false);
       } catch (err) {
         setError(err.message);
         setIsLoading(false);
@@ -346,8 +414,7 @@ console.log(data)
                   <i className="fas fa-user-circle fa-5x mb-3 text-muted"></i>
                 </div>
                 <div className="col-md-8">
-                  <h3>{userData.name | ""}</h3>
-                  <hr />
+                
                   <div className="profile-details">
                     <p><strong>Email:</strong> {userData.email}</p>
                     <p><strong>Customer ID:</strong> {userData.customerId}</p>
