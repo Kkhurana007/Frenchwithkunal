@@ -110,6 +110,10 @@ ul.task-list li input[type="checkbox"] {
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
+    <a class="nav-link" href="https://billing.stripe.com/p/login/test_eVa29O23Wbwjb6gfYY"> 
+<span class="menu-text">Billing</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="./faq.html"> 
 <span class="menu-text">FAQ’S</span></a>
   </li>  
@@ -179,7 +183,7 @@ const ProfilePage = () => {
 
 const refreshToken = async () => {
   const storedRefreshToken = localStorage.getItem("refreshToken");
-  
+  console.log("refreshToken", storedRefreshToken)
   if (!storedRefreshToken) {
     console.log("No refresh token found. Redirecting to login.");
     window.location.href = "/login.html";
@@ -195,6 +199,8 @@ const refreshToken = async () => {
       body: JSON.stringify({ refreshToken: storedRefreshToken }),
     });
 
+    console.log(response,"response")
+
     if (!response.ok) {
       console.error("Refresh token failed. Redirecting to login.");
       localStorage.removeItem("accessToken");
@@ -204,7 +210,7 @@ const refreshToken = async () => {
     }
 
     const data = await response.json();
-    
+    console.log("refreshed")
     // Save new access token
     localStorage.setItem("accessToken", data.accessToken);
     return data.accessToken;
@@ -258,7 +264,6 @@ const storedUser = localStorage.getItem('accessToken');
 console.log(storedUser,"storedUser")
 
   const [user, setUser] = useState(null);
-
 
 
   useEffect(() => {

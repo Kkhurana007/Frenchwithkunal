@@ -53,6 +53,8 @@ website:
         href: payment.qmd
         
     right:
+      - text: "Billing"
+        href: https://billing.stripe.com/p/login/test_eVa29O23Wbwjb6gfYY
       - text: "FAQ'S"
         href: faq.qmd
       - text: Language

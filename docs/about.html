@@ -104,6 +104,10 @@ ul.task-list li input[type="checkbox"] {
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
+    <a class="nav-link" href="https://billing.stripe.com/p/login/test_eVa29O23Wbwjb6gfYY"> 
+<span class="menu-text">Billing</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="./faq.html"> 
 <span class="menu-text">FAQ’S</span></a>
   </li>  
@@ -187,35 +191,6 @@ ul.task-list li input[type="checkbox"] {
 <li>Passion: We are passionate about French and committed to helping you achieve your language goals. <br></li>
 </ol>
 <p>Join us today and start your journey to mastering French with French with Kunal. We can’t wait to help you succeed!</p>
-<div id="react-root">
-
-</div>
-<script type="text/babel">
-  function AboutComponent() {
-    const [language, setLanguage] = React.useState("english");
-
-    return (
-      <div>
-        <button onClick={() => setLanguage("english")}>🇬🇧 English</button>
-        <button onClick={() => setLanguage("french")}>🇫🇷 Français</button>
-
-        {language === "english" ? (
-          <div>
-            <h1>About us</h1>
-            <p>Welcome to our website, your go-to destination for learning French in a fun, engaging, and effective way.</p>
-          </div>
-        ) : (
-          <div>
-            <h1>À propos de nous</h1>
-            <p>Bienvenue sur notre site, votre destination incontournable pour apprendre le français.</p>
-          </div>
-        )}
-      </div>
-    );
-  }
-
-  ReactDOM.createRoot(document.getElementById('react-root')).render(<AboutComponent />);
-</script>
 
 
 </section>
