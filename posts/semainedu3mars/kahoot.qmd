@@ -38,6 +38,19 @@ if (!usersDatabase.includes(userInput)) {
   alert("You do not have access to this post. Please subscribe to gain access.");
   window.location.href = "https://frenchwithkunal.ca/payment.html"; // Redirect to the subscription/payment page
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 </script>
 ```
 

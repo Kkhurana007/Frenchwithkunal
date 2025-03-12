@@ -33,7 +33,6 @@ const ProfilePage = () => {
 
 
 
-
 const refreshToken = async () => {
   const storedRefreshToken = localStorage.getItem("refreshToken");
   console.log("refreshToken", storedRefreshToken)
@@ -78,8 +77,6 @@ const refreshToken = async () => {
 
 
 
-
-
 const fetchWithAuth = async (url, options = {}) => {
   let accessToken = localStorage.getItem("accessToken");
 
@@ -114,7 +111,6 @@ const fetchWithAuth = async (url, options = {}) => {
 
 const storedUser = localStorage.getItem('accessToken');
    
-console.log(storedUser,"storedUser")
 
   const [user, setUser] = useState(null);
 
@@ -193,16 +189,7 @@ const updateNavbar = (userData) => {
       userNavElement.appendChild(userNavItem);
     } 
   
-         
-  
 };
-
-
-
-
-
-
-
 
 
   useEffect(() => {
@@ -246,6 +233,7 @@ const updateNavbar = (userData) => {
       </div>
     );
   }
+
 
   if (error) {
     return (
