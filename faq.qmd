@@ -52,7 +52,7 @@
 #### Resources and Tools:
 
 14. **What dictionaries or reference books should I use?**
-    - “Le Petit Robert” and “Larousse” are highly regarded French dictionaries. For reference books, “[501 French Verbs](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://bpb-us-e1.wpmucdn.com/blogs.uoregon.edu/dist/f/8175/files/2014/06/Kendris_501_French_Verbs_Barrons-13u1653.pdf)” by Christopher Kendris is a great tool for verb conjugations.
+    - “Le Petit Robert” and “Larousse” are highly regarded French dictionaries. For reference books, “[501 French Verbs](https://bpb-us-e1.wpmucdn.com/blogs.uoregon.edu/dist/f/8175/files/2014/06/Kendris_501_French_Verbs_Barrons-13u1653.pdf)” by Christopher Kendris is a great tool for verb conjugations.
 
 #### Learning Duration:
 15. **How long does it take to learn French?**
@@ -114,7 +114,7 @@
 
 ### Ressources et outils :
 14. **Quels dictionnaires ou livres de référence devrais-je utiliser ?**
-    - “Le Petit Robert” et “Larousse” sont des dictionnaires français très réputés. Pour les livres de référence, “[501 French Verbs](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://bpb-us-e1.wpmucdn.com/blogs.uoregon.edu/dist/f/8175/files/2014/06/Kendris_501_French_Verbs_Barrons-13u1653.pdf)” de Christopher Kendris est un excellent outil pour les conjugaisons de verbes.
+    - “Le Petit Robert” et “Larousse” sont des dictionnaires français très réputés. Pour les livres de référence, “[501 French Verbs](https://bpb-us-e1.wpmucdn.com/blogs.uoregon.edu/dist/f/8175/files/2014/06/Kendris_501_French_Verbs_Barrons-13u1653.pdf)” de Christopher Kendris est un excellent outil pour les conjugaisons de verbes.
 
 ### Durée d'apprentissage :
 15. **Combien de temps faut-il pour apprendre le français ?**
