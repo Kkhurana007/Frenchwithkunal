@@ -15,8 +15,12 @@ format:
           <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
 ---
 
+\`\`\`{=html}
+
+::: {#react-root}
+:::
+
 ```{=html}
-<div id="react-root"></div>
 <script type="text/babel">
 
 
@@ -142,14 +146,13 @@ ReactDOM.render(
   document.getElementById('react-root')
 );
 </script>
+```
 
----
+------------------------------------------------------------------------
 
 ::: {style="text-align: left; padding: 10px;"}
 <a href="mailto:info@frenchwithkunal.ca" target="_blank" style="margin: 0 10px; color: #000;"><i class="fas fa-envelope fa-lg"></i></a> <a href="https://www.instagram.com/kunal.khurana7" target="_blank" style="margin: 0 10px; color: #E1306C;"><i class="fab fa-instagram fa-lg"></i></a> <a href="https://frenchwithkunal.ca" target="_blank" style="margin: 0 10px; color: #0077b5;"><i class="fas fa-globe fa-lg"></i></a> <a href="https://whatsapp.com/channel/0029Vb57n2e7dmegpjYpyi3V" target="_blank" style="margin: 0 10px; color: #25D366;"><i class="fab fa-whatsapp fa-lg"></i></a> <button onclick="copyLink()" style="background-color: #0077b5; color: white; padding: 8px 16px; border: none; border-radius: 4px; cursor: pointer; margin-left: 10px;"> <i class="fas fa-copy"></i> </button> [Link copied!]{#copy-message style="margin-left: 10px; color: green; display: none;"}
 :::
-
-
 
 ::: {.content-visible when-profile="english"}
 
@@ -159,71 +162,70 @@ We also learned that with the verb **être** (to be) and the relative pronoun **
 
 [In today's lecture](https://drive.google.com/file/d/1lIve3DEfQ1Rzy9JRp3ZHre6QM-HUZb42/view?usp=drive_link), we explored these demonstratives in detail, providing examples and explanations to better understand their usage.
 
----
+------------------------------------------------------------------------
 
 ### **1. Ce, Cet, Ça, Ceci, Cela (This/That)**
+
 These words are used to refer to something specific in the singular. Their choice depends on the gender and the initial letter of the noun they accompany.
 
-- **Ce** is used before masculine singular nouns starting with a consonant.
-  - Example: **Ce livre** (this/that book)
-  - Example: **Ce garçon** (this/that boy)
+-   **Ce** is used before masculine singular nouns starting with a consonant.
+    -   Example: **Ce livre** (this/that book)
+    -   Example: **Ce garçon** (this/that boy)
+-   **Cet** is used before masculine singular nouns starting with a vowel or a silent **h**.
+    -   Example: **Cet arbre** (this/that tree)
+    -   Example: **Cet homme** (this/that man)
+-   **Ça** is a contracted form of **Cela** and is used informally to refer to something general.
+    -   Example: **Ça va ?** (How’s it going?)
+    -   Example: **Ça m’énerve** (That annoys me)
+-   **Ceci** and **Cela** are used to refer to something more specific or distant.
+    -   **Ceci** (this) is used for something close or immediate.
+        -   Example: **Ceci est important** (This is important)
+    -   **Cela** (that) is used for something more distant or less immediate.
+        -   Example: **Cela me plaît** (That pleases me)
 
-- **Cet** is used before masculine singular nouns starting with a vowel or a silent **h**.
-  - Example: **Cet arbre** (this/that tree)
-  - Example: **Cet homme** (this/that man)
-
-- **Ça** is a contracted form of **Cela** and is used informally to refer to something general.
-  - Example: **Ça va ?** (How’s it going?)
-  - Example: **Ça m’énerve** (That annoys me)
-
-- **Ceci** and **Cela** are used to refer to something more specific or distant.
-  - **Ceci** (this) is used for something close or immediate.
-    - Example: **Ceci est important** (This is important)
-  - **Cela** (that) is used for something more distant or less immediate.
-    - Example: **Cela me plaît** (That pleases me)
-
----
+------------------------------------------------------------------------
 
 ### **2. Ces (These/Those)**
+
 The word **Ces** is used to refer to plural nouns, whether masculine or feminine.
 
-- Example: **Ces livres** (these/those books)
-- Example: **Ces filles** (these/those girls)
-- Example: **Ces arbres** (these/those trees)
+-   Example: **Ces livres** (these/those books)
+-   Example: **Ces filles** (these/those girls)
+-   Example: **Ces arbres** (these/those trees)
 
----
+------------------------------------------------------------------------
 
 ### **3. Using Ce with the Verb Être and the Relative Pronoun Que**
+
 With the verb **être** and the relative pronoun **que**, we always use **Ce** and not **Ça**.
 
-- Example: **C’est Kunal** (It is Kunal)  
-  (We never say **Ça Kunal**)
+-   Example: **C’est Kunal** (It is Kunal)\
+    (We never say **Ça Kunal**)
 
-- Example: **Est-ce que vous comprenez tout ce que je vous dis ?**  
-  (Do you understand everything that I’m telling you?)
+-   Example: **Est-ce que vous comprenez tout ce que je vous dis ?**\
+    (Do you understand everything that I’m telling you?)
 
----
+------------------------------------------------------------------------
 
 ### **Additional Examples**
+
 Here are some additional examples to illustrate the use of these demonstratives:
 
-1. **Ce chat est mignon.** (This/That cat is cute.)
-2. **Cet avion est rapide.** (This/That plane is fast.)
-3. **Ça semble difficile.** (That seems difficult.)
-4. **Ceci est mon livre préféré.** (This is my favorite book.)
-5. **Cela ne me concerne pas.** (That doesn’t concern me.)
-6. **Ces fleurs sont belles.** (These/Those flowers are beautiful.)
+1.  **Ce chat est mignon.** (This/That cat is cute.)
+2.  **Cet avion est rapide.** (This/That plane is fast.)
+3.  **Ça semble difficile.** (That seems difficult.)
+4.  **Ceci est mon livre préféré.** (This is my favorite book.)
+5.  **Cela ne me concerne pas.** (That doesn’t concern me.)
+6.  **Ces fleurs sont belles.** (These/Those flowers are beautiful.)
 
----
+------------------------------------------------------------------------
 
 ### **Conclusion**
-Demonstratives in French, such as **Ce**, **Cet**, **Ça**, **Ceci**, **Cela**, and **Ces**, are essential for referring to objects, people, or ideas precisely. By understanding their usage rules and practicing with examples, you can master them more easily.
 
+Demonstratives in French, such as **Ce**, **Cet**, **Ça**, **Ceci**, **Cela**, and **Ces**, are essential for referring to objects, people, or ideas precisely. By understanding their usage rules and practicing with examples, you can master them more easily.
 :::
 
 ::: {.content-visible when-profile="french"}
-
-
 ### **Les démonstratifs en français : Ce, Cet, Ça, Ceci, Cela, et Ces**
 
 En français, les mots **Ce**, **Cet**, **Ça**, **Ceci**, et **Cela** sont des équivalents de **this/that** en anglais pour les noms au singulier. La principale différence réside dans leur utilisation : certains sont utilisés dans des contextes singuliers, tandis que d’autres peuvent être utilisés dans des contextes plus variés. De plus, le mot **Ces** est l’équivalent de **these/those** en anglais pour les noms au pluriel.
@@ -232,64 +234,65 @@ Nous avons également appris qu’avec le verbe **être** et le pronom relatif *
 
 [Dans le cours d'aujoud'hui](https://drive.google.com/file/d/1lIve3DEfQ1Rzy9JRp3ZHre6QM-HUZb42/view?usp=drive_link), nous avons exploré ces démonstratifs en détail, en fournissant des exemples et des explications pour mieux comprendre leur utilisation.
 
----
+------------------------------------------------------------------------
 
 ### **1. Ce, Cet, Ça, Ceci, Cela (This/That)**
+
 Ces mots sont utilisés pour désigner quelque chose de spécifique au singulier. Leur choix dépend du genre et de la lettre initiale du nom qu’ils accompagnent.
 
-- **Ce** est utilisé devant les noms masculins singuliers commençant par une consonne.
-  - Exemple : **Ce livre** (this/that book)
-  - Exemple : **Ce garçon** (this/that boy)
+-   **Ce** est utilisé devant les noms masculins singuliers commençant par une consonne.
+    -   Exemple : **Ce livre** (this/that book)
+    -   Exemple : **Ce garçon** (this/that boy)
+-   **Cet** est utilisé devant les noms masculins singuliers commençant par une voyelle ou un **h** muet.
+    -   Exemple : **Cet arbre** (this/that tree)
+    -   Exemple : **Cet homme** (this/that man)
+-   **Ça** est une forme contractée de **Cela** et est utilisé de manière informelle pour désigner quelque chose de général.
+    -   Exemple : **Ça va ?** (How’s it going?)
+    -   Exemple : **Ça m’énerve** (That annoys me)
+-   **Ceci** et **Cela** sont utilisés pour désigner quelque chose de plus spécifique ou de plus éloigné.
+    -   **Ceci** (this) est utilisé pour quelque chose de proche ou de plus immédiat.
+        -   Exemple : **Ceci est important** (This is important)
+    -   **Cela** (that) est utilisé pour quelque chose de plus éloigné ou de moins immédiat.
+        -   Exemple : **Cela me plaît** (That pleases me)
 
-- **Cet** est utilisé devant les noms masculins singuliers commençant par une voyelle ou un **h** muet.
-  - Exemple : **Cet arbre** (this/that tree)
-  - Exemple : **Cet homme** (this/that man)
-
-- **Ça** est une forme contractée de **Cela** et est utilisé de manière informelle pour désigner quelque chose de général.
-  - Exemple : **Ça va ?** (How’s it going?)
-  - Exemple : **Ça m’énerve** (That annoys me)
-
-- **Ceci** et **Cela** sont utilisés pour désigner quelque chose de plus spécifique ou de plus éloigné.
-  - **Ceci** (this) est utilisé pour quelque chose de proche ou de plus immédiat.
-    - Exemple : **Ceci est important** (This is important)
-  - **Cela** (that) est utilisé pour quelque chose de plus éloigné ou de moins immédiat.
-    - Exemple : **Cela me plaît** (That pleases me)
-
----
+------------------------------------------------------------------------
 
 ### **2. Ces (These/Those)**
+
 Le mot **Ces** est utilisé pour désigner des noms au pluriel, qu’ils soient masculins ou féminins.
 
-- Exemple : **Ces livres** (these/those books)
-- Exemple : **Ces filles** (these/those girls)
-- Exemple : **Ces arbres** (these/those trees)
+-   Exemple : **Ces livres** (these/those books)
+-   Exemple : **Ces filles** (these/those girls)
+-   Exemple : **Ces arbres** (these/those trees)
 
----
+------------------------------------------------------------------------
 
 ### **3. Utilisation de Ce avec le verbe être et le pronom relatif que**
+
 Avec le verbe **être** et le pronom relatif **que**, on utilise toujours **Ce** et non **Ça**.
 
-- Exemple : **C’est Kunal** (It is Kunal)  
-  (On ne dit jamais **Ça Kunal**)
+-   Exemple : **C’est Kunal** (It is Kunal)\
+    (On ne dit jamais **Ça Kunal**)
 
-- Exemple : **Est-ce que vous comprenez tout ce que je vous dis ?**  
-  (Do you understand everything that I’m telling you?)
+-   Exemple : **Est-ce que vous comprenez tout ce que je vous dis ?**\
+    (Do you understand everything that I’m telling you?)
 
----
+------------------------------------------------------------------------
 
 ### **Exemples supplémentaires**
+
 Voici quelques exemples supplémentaires pour illustrer l’utilisation de ces démonstratifs :
 
-1. **Ce chat est mignon.** (This/That cat is cute.)
-2. **Cet avion est rapide.** (This/That plane is fast.)
-3. **Ça semble difficile.** (That seems difficult.)
-4. **Ceci est mon livre préféré.** (This is my favorite book.)
-5. **Cela ne me concerne pas.** (That doesn’t concern me.)
-6. **Ces fleurs sont belles.** (These/Those flowers are beautiful.)
+1.  **Ce chat est mignon.** (This/That cat is cute.)
+2.  **Cet avion est rapide.** (This/That plane is fast.)
+3.  **Ça semble difficile.** (That seems difficult.)
+4.  **Ceci est mon livre préféré.** (This is my favorite book.)
+5.  **Cela ne me concerne pas.** (That doesn’t concern me.)
+6.  **Ces fleurs sont belles.** (These/Those flowers are beautiful.)
 
----
+------------------------------------------------------------------------
 
 ### **Conclusion**
-Les démonstratifs en français, comme **Ce**, **Cet**, **Ça**, **Ceci**, **Cela**, et **Ces**, sont essentiels pour désigner des objets, des personnes ou des idées de manière précise. En comprenant leurs règles d’utilisation et en pratiquant avec des exemples, vous pourrez les maîtriser plus facilement.
 
+Les démonstratifs en français, comme **Ce**, **Cet**, **Ça**, **Ceci**, **Cela**, et **Ces**, sont essentiels pour désigner des objets, des personnes ou des idées de manière précise. En comprenant leurs règles d’utilisation et en pratiquant avec des exemples, vous pourrez les maîtriser plus facilement.
 :::

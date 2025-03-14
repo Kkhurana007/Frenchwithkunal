@@ -1,0 +1,243 @@
+---
+title: "Mastering Possessive Adjectives/ Maîtriser les Adjectifs Possessifs"
+author: "Kunal Khurana"
+date: "10-03-2025"
+categories: [possessives, adjectives]
+image: "test.png"
+
+format:
+  html:
+    include-in-header:
+      - text: |
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+          <script src="https://unpkg.com/react@17/umd/react.production.min.js"></script>
+          <script src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"></script>
+          <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+---
+
+\`\`\`{=html}
+
+::: {#react-root}
+:::
+
+```{=html}
+<script type="text/babel">
+
+
+const ProfilePage = () => {
+
+  const { useState,useEffect } = React;
+
+
+
+const refreshToken = async () => {
+  const storedRefreshToken = localStorage.getItem("refreshToken");
+
+  if (!storedRefreshToken) {
+    window.location.href = "/login.html";
+    return null;
+  }
+
+  try {
+    const response = await fetch("https://frenchwithkunal-cdf6ea3f88ce.herokuapp.com/api/v1/auth/refresh-token", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({ refreshToken: storedRefreshToken }),
+    });
+
+
+    if (!response.ok) {
+      localStorage.removeItem("accessToken");
+      localStorage.removeItem("refreshToken");
+      window.location.href = "/login.html";
+      return null;
+    }
+
+    const data = await response.json();
+    localStorage.setItem("accessToken", data.accessToken);
+    return data.accessToken;
+  } catch (error) {
+    localStorage.removeItem("accessToken");
+    localStorage.removeItem("refreshToken");
+    window.location.href = "/login.html";
+    return null;
+  }
+};
+
+
+
+const fetchWithAuth = async (url, options = {}) => {
+  let accessToken = localStorage.getItem("accessToken");
+
+  options.headers = {
+    ...options.headers,
+    Authorization: `Bearer ${accessToken}`,
+    "Content-Type": "application/json",
+  };
+
+  let response = await fetch(url, options);
+
+  if (response.status === 401) {
+    console.log("Access token expired, attempting to refresh...");
+
+    // Refresh token
+    accessToken = await refreshToken();
+
+    if (!accessToken) return null;
+
+    options.headers.Authorization = `Bearer ${accessToken}`;
+    response = await fetch(url, options);
+  }
+
+  return response.json();
+};
+
+
+
+  useEffect(() => {
+    const storedToken = localStorage.getItem('accessToken');
+
+    if(!storedToken){
+        showNoAccessMessage();
+      }
+    if (storedToken) {
+      const fetchData = async()=>{
+      const data = await fetchWithAuth("https://frenchwithkunal-cdf6ea3f88ce.herokuapp.com/api/v1/auth/me", {
+      method: "POST",
+    });
+
+    if (data.data.hasAccess) {
+      console.log(data);
+   
+    } else {
+         showNoAccessMessage();
+    }
+
+      }
+fetchData();
+
+
+    }
+
+  }, []);
+
+
+
+function showNoAccessMessage() {
+      const noAccessMessage = `
+        <div style="text-align: center; padding: 20px;">
+          <h2>You don't have access to this page.</h2>
+          <p>Please <a href="https://frenchwithkunal.ca/payment.html">subscribe</a> to gain access.</p>
+        </div>
+      `;
+      document.body.innerHTML = noAccessMessage;
+    }
+
+
+  return (
+    <div></div>
+  );
+};
+
+ReactDOM.render(
+  <ProfilePage />,
+  document.getElementById('react-root')
+);
+</script>
+```
+
+------------------------------------------------------------------------
+
+::: {style="text-align: left; padding: 10px;"}
+<a href="mailto:info@frenchwithkunal.ca" target="_blank" style="margin: 0 10px; color: #000;"><i class="fas fa-envelope fa-lg"></i></a> <a href="https://www.instagram.com/kunal.khurana7" target="_blank" style="margin: 0 10px; color: #E1306C;"><i class="fab fa-instagram fa-lg"></i></a> <a href="https://frenchwithkunal.ca" target="_blank" style="margin: 0 10px; color: #0077b5;"><i class="fas fa-globe fa-lg"></i></a> <a href="https://whatsapp.com/channel/0029Vb57n2e7dmegpjYpyi3V" target="_blank" style="margin: 0 10px; color: #25D366;"><i class="fab fa-whatsapp fa-lg"></i></a> <button onclick="copyLink()" style="background-color: #0077b5; color: white; padding: 8px 16px; border: none; border-radius: 4px; cursor: pointer; margin-left: 10px;"> <i class="fas fa-copy"></i> </button> [Link copied!]{#copy-message style="margin-left: 10px; color: green; display: none;"}
+:::
+
+::: {.content-visible when-profile="english"}
+
+In French, possessive adjectives are the equivalents of *my*, *your*, and *his* in English. They are used extensively to indicate both the possessor and the possession. When dealing with singular subjects (*je*, *tu*, and *il*), it’s important to pay attention to gender, as these adjectives change accordingly. Let’s explore this with some examples:
+
+**Singular Possessive Adjectives:**
+
+- **Mon** – My (masculine) / **Ma** – My (feminine) / **Mes** – My (plural)
+  - *Mon livre* (My book) – masculine
+  - *Ma maison* (My house) – feminine
+  - *Mes amis* (My friends) – plural
+
+- **Ton** – Your (masculine) / **Ta** – Your (feminine) / **Tes** – Your (plural)
+  - *Ton chat* (Your cat) – masculine
+  - *Ta voiture* (Your car) – feminine
+  - *Tes idées* (Your ideas) – plural
+
+- **Son** – His/Her (masculine) / **Sa** – His/Her (feminine) / **Ses** – His/Her (plural)
+  - *Son chien* (His/Her dog) – masculine
+  - *Sa robe* (His/Her dress) – feminine
+  - *Ses livres* (His/Her books) – plural
+
+**Important Note**: When a feminine noun starts with a vowel or a silent *h*, we use *mon*, *ton*, or *son* instead of *ma*, *ta*, or *sa* to avoid awkward pronunciation. 
+
+For example:
+- *Mon amie* (My friend – feminine)
+- *Ton école* (Your school – feminine)
+- *Son histoire* (His/Her story – feminine)
+
+When talking about plural subjects (*nous*, *vous*, and *ils*), the possessive adjectives are conjugated in the masculine or plural form. This rule also applies to plural demonstrative adjectives like *ces* (these/those), where gender and singular forms are not considered.
+
+**Reflexive Verbs for Memorization**:
+
+Reflexive verbs can also help you memorize possessive adjectives. For example, let’s take the verb *se laver* (to wash oneself):
+- Je **me** lave (I wash myself)
+- Tu **te** laves (You wash yourself)
+- Il/Elle **se** lave (He/She washes himself/herself)
+- Nous **nous** lavons (We wash ourselves)
+- Vous **vous** lavez (You wash yourselves)
+- Ils/Elles **se** lavent (They wash themselves)
+
+By practicing these structures, you’ll gain a better understanding of how possessive adjectives and reflexive verbs work in French. For more detailed explanations and examples, you can refer to the attached PDF.
+
+:::
+
+::: {.content-visible when-profile="french"}
+
+En français, les adjectifs possessifs sont les équivalents de *my*, *your* et *his* en anglais. Ils sont largement utilisés pour indiquer à la fois le possesseur et la possession. Lorsqu’on parle de sujets singuliers (*je*, *tu* et *il*), il est important de faire attention au genre, car ces adjectifs changent en conséquence. Explorons cela avec quelques exemples :
+
+**Adjectifs Possessifs au Singulier :**
+
+- **Mon** – My (masculin) / **Ma** – My (féminin) / **Mes** – My (pluriel)
+  - *Mon livre* (My book) – masculin
+  - *Ma maison* (My house) – féminin
+  - *Mes amis* (My friends) – pluriel
+
+- **Ton** – Your (masculin) / **Ta** – Your (féminin) / **Tes** – Your (pluriel)
+  - *Ton chat* (Your cat) – masculin
+  - *Ta voiture* (Your car) – féminin
+  - *Tes idées* (Your ideas) – pluriel
+
+- **Son** – His/Her (masculin) / **Sa** – His/Her (féminin) / **Ses** – His/Her (pluriel)
+  - *Son chien* (His/Her dog) – masculin
+  - *Sa robe* (His/Her dress) – féminin
+  - *Ses livres* (His/Her books) – pluriel
+
+**Remarque importante** : Lorsqu’un nom féminin commence par une voyelle ou un *h* muet, on utilise *mon*, *ton* ou *son* au lieu de *ma*, *ta* ou *sa* pour éviter une prononciation maladroite. 
+
+Par exemple :
+- *Mon amie* (My friend – féminin)
+- *Ton école* (Your school – féminin)
+- *Son histoire* (His/Her story – féminin)
+
+Lorsqu’on parle de sujets pluriels (*nous*, *vous* et *ils*), les adjectifs possessifs sont conjugués au masculin ou au pluriel. Cette règle s’applique également aux adjectifs démonstratifs pluriels comme *ces* (these/those), où le genre et le singulier ne sont pas pris en compte.
+
+**Verbes Réfléchis pour la Mémorisation** :
+
+Les verbes réfléchis peuvent également vous aider à mémoriser les adjectifs possessifs. Par exemple, prenons le verbe *se laver* (to wash oneself) :
+- Je **me** lave (I wash myself)
+- Tu **te** laves (You wash yourself)
+- Il/Elle **se** lave (He/She washes himself/herself)
+- Nous **nous** lavons (We wash ourselves)
+- Vous **vous** lavez (You wash yourselves)
+- Ils/Elles **se** lavent (They wash themselves)
+
+En pratiquant ces structures, vous comprendrez mieux le fonctionnement des adjectifs possessifs et des verbes réfléchis en français. Pour des explications et des exemples plus détaillés, vous pouvez consulter le PDF ci-joint.
+
+:::

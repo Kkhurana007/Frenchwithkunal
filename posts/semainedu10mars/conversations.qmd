@@ -1,0 +1,199 @@
+---
+# title: "Demonstratifs"
+author: "Kunal Khurana"
+date: "10-03-2025"
+categories: [everyday conversations, talks, A1/A2]
+image: "test.png"
+
+format:
+  html:
+    include-in-header:
+      - text: |
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+          <script src="https://unpkg.com/react@17/umd/react.production.min.js"></script>
+          <script src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"></script>
+          <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+---
+
+\`\`\`{=html}
+
+::: {#react-root}
+:::
+
+```{=html}
+<script type="text/babel">
+
+
+const ProfilePage = () => {
+
+  const { useState,useEffect } = React;
+
+
+
+const refreshToken = async () => {
+  const storedRefreshToken = localStorage.getItem("refreshToken");
+
+  if (!storedRefreshToken) {
+    window.location.href = "/login.html";
+    return null;
+  }
+
+  try {
+    const response = await fetch("https://frenchwithkunal-cdf6ea3f88ce.herokuapp.com/api/v1/auth/refresh-token", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({ refreshToken: storedRefreshToken }),
+    });
+
+
+    if (!response.ok) {
+      localStorage.removeItem("accessToken");
+      localStorage.removeItem("refreshToken");
+      window.location.href = "/login.html";
+      return null;
+    }
+
+    const data = await response.json();
+    localStorage.setItem("accessToken", data.accessToken);
+    return data.accessToken;
+  } catch (error) {
+    localStorage.removeItem("accessToken");
+    localStorage.removeItem("refreshToken");
+    window.location.href = "/login.html";
+    return null;
+  }
+};
+
+
+
+const fetchWithAuth = async (url, options = {}) => {
+  let accessToken = localStorage.getItem("accessToken");
+
+  options.headers = {
+    ...options.headers,
+    Authorization: `Bearer ${accessToken}`,
+    "Content-Type": "application/json",
+  };
+
+  let response = await fetch(url, options);
+
+  if (response.status === 401) {
+    console.log("Access token expired, attempting to refresh...");
+
+    // Refresh token
+    accessToken = await refreshToken();
+
+    if (!accessToken) return null;
+
+    options.headers.Authorization = `Bearer ${accessToken}`;
+    response = await fetch(url, options);
+  }
+
+  return response.json();
+};
+
+
+
+  useEffect(() => {
+    const storedToken = localStorage.getItem('accessToken');
+
+    if(!storedToken){
+        showNoAccessMessage();
+      }
+    if (storedToken) {
+      const fetchData = async()=>{
+      const data = await fetchWithAuth("https://frenchwithkunal-cdf6ea3f88ce.herokuapp.com/api/v1/auth/me", {
+      method: "POST",
+    });
+
+    if (data.data.hasAccess) {
+      console.log(data);
+   
+    } else {
+         showNoAccessMessage();
+    }
+
+      }
+fetchData();
+
+
+    }
+
+  }, []);
+
+
+
+function showNoAccessMessage() {
+      const noAccessMessage = `
+        <div style="text-align: center; padding: 20px;">
+          <h2>You don't have access to this page.</h2>
+          <p>Please <a href="https://frenchwithkunal.ca/payment.html">subscribe</a> to gain access.</p>
+        </div>
+      `;
+      document.body.innerHTML = noAccessMessage;
+    }
+
+
+  return (
+    <div></div>
+  );
+};
+
+ReactDOM.render(
+  <ProfilePage />,
+  document.getElementById('react-root')
+);
+</script>
+```
+
+------------------------------------------------------------------------
+
+::: {style="text-align: left; padding: 10px;"}
+<a href="mailto:info@frenchwithkunal.ca" target="_blank" style="margin: 0 10px; color: #000;"><i class="fas fa-envelope fa-lg"></i></a> <a href="https://www.instagram.com/kunal.khurana7" target="_blank" style="margin: 0 10px; color: #E1306C;"><i class="fab fa-instagram fa-lg"></i></a> <a href="https://frenchwithkunal.ca" target="_blank" style="margin: 0 10px; color: #0077b5;"><i class="fas fa-globe fa-lg"></i></a> <a href="https://whatsapp.com/channel/0029Vb57n2e7dmegpjYpyi3V" target="_blank" style="margin: 0 10px; color: #25D366;"><i class="fab fa-whatsapp fa-lg"></i></a> <button onclick="copyLink()" style="background-color: #0077b5; color: white; padding: 8px 16px; border: none; border-radius: 4px; cursor: pointer; margin-left: 10px;"> <i class="fas fa-copy"></i> </button> [Link copied!]{#copy-message style="margin-left: 10px; color: green; display: none;"}
+:::
+
+::: {.content-visible when-profile="english"}
+
+# Starting Small: The Key to Learning French Effectively
+
+When you begin learning French, it’s natural to feel overwhelmed by the complexity of the language. You might doubt your ability to form complete sentences or hold a conversation. However, the key to success lies in starting small. By focusing on simple phrases and practical conversations, you can gradually build your confidence and fluency.
+
+One effective approach is to practice conversations that are relevant to everyday situations. For example, we started by practicing dialogues that would help us navigate common scenarios such as being at a railway station, working in an office, shopping at a market, or ordering a coffee at a café. These conversations not only introduce you to essential vocabulary but also help you understand how to use the language in real-life contexts.
+
+By breaking down the language into manageable chunks, you can cover a wide range of topics and gradually increase your grip on French. This method allows you to practice the language in various academic and social settings, making it easier to adapt to different situations.
+
+To support your learning journey, we’ve compiled a series of PDFs that cover the conversations we’ve practiced. These resources will help you master the pronunciation and usage of key phrases. Below, you’ll find links to the topics we’ve studied:
+
+- [Conversation at the Railway Station](#)
+- [Conversation at the Office](#)
+- [Conversation at the Market](#)
+- [Conversation at the Café](#)
+
+Remember, learning a new language is a journey, and every small step counts. Start with these simple conversations, and soon you’ll find yourself speaking French with confidence!
+
+---
+
+:::
+
+::: {.content-visible when-profile="french"}
+
+# Commencer petit : La clé pour apprendre le français efficacement
+
+Lorsque vous commencez à apprendre le français, il est naturel de se sentir submergé par la complexité de la langue. Vous pourriez douter de votre capacité à former des phrases complètes ou à tenir une conversation. Cependant, la clé du succès réside dans le fait de commencer petit. En vous concentrant sur des phrases simples et des conversations pratiques, vous pouvez progressivement gagner en confiance et en fluidité.
+
+Une approche efficace consiste à pratiquer des conversations qui sont pertinentes pour des situations de la vie quotidienne. Par exemple, nous avons commencé par pratiquer des dialogues qui nous aideraient à naviguer dans des scénarios courants tels que : être à la gare, travailler dans un bureau, faire des courses au marché ou commander un café au café. Ces conversations vous introduisent non seulement à un vocabulaire essentiel, mais vous aident également à comprendre comment utiliser la langue dans des contextes réels.
+
+En décomposant la langue en morceaux gérables, vous pouvez couvrir un large éventail de sujets et augmenter progressivement votre maîtrise du français. Cette méthode vous permet de pratiquer la langue dans divers contextes académiques et sociaux, ce qui facilite l’adaptation à différentes situations.
+
+Pour soutenir votre parcours d’apprentissage, nous avons compilé une série de PDFs qui couvrent les conversations que nous avons pratiquées. Ces ressources vous aideront à maîtriser la prononciation et l’utilisation des phrases clés. Ci-dessous, vous trouverez des liens vers les sujets que nous avons étudiés :
+
+- [Conversation à la gare](#)
+- [Conversation au bureau](#)
+- [Conversation au marché](#)
+- [Conversation au café](#)
+
+N’oubliez pas qu’apprendre une nouvelle langue est un voyage, et chaque petit pas compte. Commencez par ces conversations simples, et bientôt vous vous surprendrez à parler français avec confiance!
+
+:::

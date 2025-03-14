@@ -283,5 +283,17 @@
   },
   "test_payment.qmd": {
     "test_payment.html": "322302ff"
+  },
+  "posts/semainedu10mars/adverbs_of_time.qmd": {
+    "adverbs_of_time.html": "7c1cc626"
+  },
+  "posts/semainedu10mars/conversations.qmd": {
+    "conversations.html": "a289ce57"
+  },
+  "posts/semainedu10mars/demonstratives.qmd": {
+    "demonstratives.html": "e83c726a"
+  },
+  "posts/semainedu10mars/possessive_adjectives.qmd": {
+    "possessive_adjectives.html": "5c06769a"
   }
 }
