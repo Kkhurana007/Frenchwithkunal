@@ -9,6 +9,7 @@ website:
   favicon: images\logo.png
   page-navigation: true
   title: "Français avec Kunal"
+ 
   page-footer:
     left: 
       - text: Éthique
@@ -60,13 +61,14 @@ website:
             href: https://frenchwithkunal.ca/fr/index.html        
       - icon: youtube
         href: https://www.youtube.com/@kunalkhurana7822
+
 format:
   html:
     theme: 
       light: cerulean
       dark: cyborg
-    fontsize: 1.1em
-    linestretch: 1.7
+    #fontsize: 1.1em
+    #linestretch: 1.7
     css: styles.css
     toc: true
 
