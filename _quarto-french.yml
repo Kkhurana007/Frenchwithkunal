@@ -50,7 +50,7 @@ website:
 
     right:
       - text: "Facturation"
-        href: https://billing.stripe.com/p/login/test_eVa29O23Wbwjb6gfYY
+        href: https://billing.stripe.com/p/login/14k8xo9FteB0dr26oo
       - text: "FAQ's"
         href: faq.qmd
       - text: Langue
