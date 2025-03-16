@@ -9,7 +9,7 @@
 <meta name="author" content="Kunal Khurana">
 <meta name="dcterms.date" content="2025-10-03">
 
-<title>Converssations – French with Kunal</title>
+<title>Conversations in French – French with Kunal</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -169,7 +169,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Converssations</h1>
+<h1 class="title">Conversations in French</h1>
   <div class="quarto-categories">
     <div class="quarto-category">everyday conversations</div>
     <div class="quarto-category">talks</div>
@@ -203,124 +203,116 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>```{=html}</p>
 <div id="react-root">
 
 </div>
 <script type="text/babel">
 
-
 const ProfilePage = () => {
 
-  const { useState,useEffect } = React;
+  const { useState, useEffect } = React;
 
+  const refreshToken = async () => {
+    const storedRefreshToken = localStorage.getItem("refreshToken");
 
+    if (!storedRefreshToken) {
+      window.location.href = "/login.html";
+      return null;
+    }
 
-const refreshToken = async () => {
-  const storedRefreshToken = localStorage.getItem("refreshToken");
+    try {
+      const response = await fetch("https://frenchwithkunal-cdf6ea3f88ce.herokuapp.com/api/v1/auth/refresh-token", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ refreshToken: storedRefreshToken }),
+      });
 
-  if (!storedRefreshToken) {
-    window.location.href = "/login.html";
-    return null;
-  }
+      if (!response.ok) {
+        localStorage.removeItem("accessToken");
+        localStorage.removeItem("refreshToken");
+        window.location.href = "/login.html";
+        return null;
+      }
 
-  try {
-    const response = await fetch("https://frenchwithkunal-cdf6ea3f88ce.herokuapp.com/api/v1/auth/refresh-token", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({ refreshToken: storedRefreshToken }),
-    });
-
-
-    if (!response.ok) {
+      const data = await response.json();
+      localStorage.setItem("accessToken", data.accessToken);
+      return data.accessToken;
+    } catch (error) {
       localStorage.removeItem("accessToken");
       localStorage.removeItem("refreshToken");
       window.location.href = "/login.html";
       return null;
     }
-
-    const data = await response.json();
-    localStorage.setItem("accessToken", data.accessToken);
-    return data.accessToken;
-  } catch (error) {
-    localStorage.removeItem("accessToken");
-    localStorage.removeItem("refreshToken");
-    window.location.href = "/login.html";
-    return null;
-  }
-};
-
-
-
-const fetchWithAuth = async (url, options = {}) => {
-  let accessToken = localStorage.getItem("accessToken");
-
-  options.headers = {
-    ...options.headers,
-    Authorization: `Bearer ${accessToken}`,
-    "Content-Type": "application/json",
   };
 
-  let response = await fetch(url, options);
+  const fetchWithAuth = async (url, options = {}) => {
+    let accessToken = localStorage.getItem("accessToken");
 
-  if (response.status === 401) {
-    console.log("Access token expired, attempting to refresh...");
+    options.headers = {
+      ...options.headers,
+      Authorization: `Bearer ${accessToken}`,
+      "Content-Type": "application/json",
+    };
 
-    // Refresh token
-    accessToken = await refreshToken();
+    let response = await fetch(url, options);
 
-    if (!accessToken) return null;
+    if (response.status === 401) {
+      console.log("Access token expired, attempting to refresh...");
 
-    options.headers.Authorization = `Bearer ${accessToken}`;
-    response = await fetch(url, options);
-  }
+      // Refresh token
+      accessToken = await refreshToken();
 
-  return response.json();
-};
+      if (!accessToken) return null;
 
+      options.headers.Authorization = `Bearer ${accessToken}`;
+      response = await fetch(url, options);
+    }
 
+    return response.json();
+  };
 
   useEffect(() => {
     const storedToken = localStorage.getItem('accessToken');
 
-    if(!storedToken){
-        showNoAccessMessage();
-      }
-    if (storedToken) {
-      const fetchData = async()=>{
-      const data = await fetchWithAuth("https://frenchwithkunal-cdf6ea3f88ce.herokuapp.com/api/v1/auth/me", {
-      method: "POST",
-    });
-
-    if (data.data.hasAccess) {
-      console.log(data);
-   
-    } else {
-         showNoAccessMessage();
+    if (!storedToken) {
+      showNoAccessMessage();
     }
+    if (storedToken) {
+      const fetchData = async () => {
+        const data = await fetchWithAuth("https://frenchwithkunal-cdf6ea3f88ce.herokuapp.com/api/v1/auth/me", {
+          method: "POST",
+        });
+
+        if (data.data.hasAccess) {
+          console.log(data);
+
+        } else {
+          showNoAccessMessage();
+        }
 
       }
-fetchData();
-
-
+      fetchData();
     }
 
   }, []);
 
-
-
-function showNoAccessMessage() {
-      const noAccessMessage = `
-        <div style="text-align: center; padding: 20px;">
-          <h2>You don't have access to this page.</h2>
-          <p>Please <a href="https://frenchwithkunal.ca/payment.html">subscribe</a> to gain access.</p>
-        </div>
-      `;
-      document.body.innerHTML = noAccessMessage;
-    }
-
+  function showNoAccessMessage() {
+    const profileLanguage = document.documentElement.lang || "en";
+    const noAccessMessage = profileLanguage === "fr" ? `
+      <div style="text-align: center; padding: 20px;">
+        <h2>Vous n'avez pas accès à cette page.</h2>
+        <p>Veuillez <a href="https://frenchwithkunal.ca/fr/payment.html">vous abonner</a> pour obtenir l'accès.</p>
+      </div>
+    ` : `
+      <div style="text-align: center; padding: 20px;">
+        <h2>You don't have access to this page.</h2>
+        <p>Please <a href="https://frenchwithkunal.ca/payment.html">subscribe</a> to gain access.</p>
+      </div>
+    `;
+    document.body.innerHTML = noAccessMessage;
+  }
 
   return (
     <div></div>
