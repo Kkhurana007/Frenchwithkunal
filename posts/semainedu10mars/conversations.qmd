@@ -1,9 +1,9 @@
 ---
-# title: "Demonstratifs"
+title: "Converssations"
 author: "Kunal Khurana"
 date: "10-03-2025"
 categories: [everyday conversations, talks, A1/A2]
-image: "test.png"
+image: "conversations.png"
 
 format:
   html:
@@ -166,10 +166,10 @@ By breaking down the language into manageable chunks, you can cover a wide range
 
 To support your learning journey, we’ve compiled a series of PDFs that cover the conversations we’ve practiced. These resources will help you master the pronunciation and usage of key phrases. Below, you’ll find links to the topics we’ve studied:
 
-- [Conversation at the Railway Station](#)
-- [Conversation at the Office](#)
-- [Conversation at the Market](#)
-- [Conversation at the Café](#)
+- [Conversation at the Railway Station](https://drive.google.com/file/d/1ja6Hyx_J1UHpJ_-y37RqokYFNKyIkA9D/view?usp=drive_link)
+- [Conversation at the Office](https://drive.google.com/file/d/1XJTniAnyBzKZ6k44QxegP93etZiPvys4/view?usp=drive_link)
+- [Conversation at the Market](https://drive.google.com/file/d/12llMn_u5tgSveAdkHcdosM-iPo6d2dBo/view?usp=drive_link)
+- [Conversation at the Café](https://drive.google.com/file/d/11hQYq0pI2Cf_BE073GL8tDZdsw1glq0X/view?usp=drive_link)
 
 Remember, learning a new language is a journey, and every small step counts. Start with these simple conversations, and soon you’ll find yourself speaking French with confidence!
 
@@ -189,10 +189,10 @@ En décomposant la langue en morceaux gérables, vous pouvez couvrir un large é
 
 Pour soutenir votre parcours d’apprentissage, nous avons compilé une série de PDFs qui couvrent les conversations que nous avons pratiquées. Ces ressources vous aideront à maîtriser la prononciation et l’utilisation des phrases clés. Ci-dessous, vous trouverez des liens vers les sujets que nous avons étudiés :
 
-- [Conversation à la gare](#)
-- [Conversation au bureau](#)
-- [Conversation au marché](#)
-- [Conversation au café](#)
+- [Conversation à la gare](https://drive.google.com/file/d/1ja6Hyx_J1UHpJ_-y37RqokYFNKyIkA9D/view?usp=drive_link)
+- [Conversation au bureau](https://drive.google.com/file/d/1XJTniAnyBzKZ6k44QxegP93etZiPvys4/view?usp=drive_link)
+- [Conversation au marché](https://drive.google.com/file/d/12llMn_u5tgSveAdkHcdosM-iPo6d2dBo/view?usp=drive_link)
+- [Conversation au café](https://drive.google.com/file/d/11hQYq0pI2Cf_BE073GL8tDZdsw1glq0X/view?usp=drive_link)
 
 N’oubliez pas qu’apprendre une nouvelle langue est un voyage, et chaque petit pas compte. Commencez par ces conversations simples, et bientôt vous vous surprendrez à parler français avec confiance!
 

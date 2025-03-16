@@ -3,7 +3,7 @@ title: "Demonstratifs / les démonstratifs"
 author: "Kunal Khurana"
 date: "10-03-2025"
 categories: [démonstratifs, ce, cet, cette]
-image: "test.png"
+image: "demonstratifs.png"
 
 format:
   html:
@@ -178,9 +178,9 @@ Let’s look at some examples to see how demonstratives are used in practice:
 4. **Ces fleurs sont jolies.** (These flowers are pretty.)  
    - *Ces* is used for plural nouns, regardless of gender.
 
-Demonstratives are incredibly useful for specifying which noun you’re referring to, especially in conversations or written texts where clarity is key. To dive deeper into this topic, you can refer to the attached PDF for more detailed explanations and examples.
+Demonstratives are incredibly useful for specifying which noun you’re referring to, especially in conversations or written texts where clarity is key. To dive deeper into this topic, you can refer to the [attached PDF for more detailed explanations and examples](https://drive.google.com/file/d/1ngdA8VMsN101wkfLRurtkPGtdRN3KGhB/view?usp=drive_link).
 
----
+
 
 :::
 
@@ -209,7 +209,7 @@ Regardons quelques exemples pour voir comment les adjectifs démonstratifs sont 
 4. **Ces fleurs sont jolies.** (These flowers are pretty.)  
    - *Ces* est utilisé pour les noms au pluriel, quel que soit leur genre.
 
-Les adjectifs démonstratifs sont incroyablement utiles pour préciser de quel nom on parle, surtout dans les conversations ou les textes écrits où la clarté est essentielle. Pour approfondir ce sujet, vous pouvez consulter le PDF ci-joint pour des explications et des exemples plus détaillés.
+Les adjectifs démonstratifs sont incroyablement utiles pour préciser de quel nom on parle, surtout dans les conversations ou les textes écrits où la clarté est essentielle. Pour approfondir ce sujet, vous pouvez consulter [le PDF ci-joint pour des explications et des exemples plus détaillés](https://drive.google.com/file/d/1ngdA8VMsN101wkfLRurtkPGtdRN3KGhB/view?usp=drive_link).
 
 
 :::

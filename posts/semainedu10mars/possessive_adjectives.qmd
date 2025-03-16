@@ -3,7 +3,7 @@ title: "Mastering Possessive Adjectives/ Maîtriser les Adjectifs Possessifs"
 author: "Kunal Khurana"
 date: "10-03-2025"
 categories: [possessives, adjectives]
-image: "test.png"
+image: "possessive_adjectives.png"
 
 format:
   html:
@@ -194,7 +194,7 @@ Reflexive verbs can also help you memorize possessive adjectives. For example, l
 - Vous **vous** lavez (You wash yourselves)
 - Ils/Elles **se** lavent (They wash themselves)
 
-By practicing these structures, you’ll gain a better understanding of how possessive adjectives and reflexive verbs work in French. For more detailed explanations and examples, you can refer to the attached PDF.
+By practicing these structures, you’ll gain a better understanding of how possessive adjectives and reflexive verbs work in French. For more detailed explanations and examples, you can [refer to the attached PDF](https://drive.google.com/file/d/1z7DGxCmaYg8zWWcOhfUM9YDF7jaqy6l2/view?usp=drive_link).
 
 :::
 
@@ -238,6 +238,6 @@ Les verbes réfléchis peuvent également vous aider à mémoriser les adjectifs
 - Vous **vous** lavez (You wash yourselves)
 - Ils/Elles **se** lavent (They wash themselves)
 
-En pratiquant ces structures, vous comprendrez mieux le fonctionnement des adjectifs possessifs et des verbes réfléchis en français. Pour des explications et des exemples plus détaillés, vous pouvez consulter le PDF ci-joint.
+En pratiquant ces structures, vous comprendrez mieux le fonctionnement des adjectifs possessifs et des verbes réfléchis en français. Pour des explications et des exemples plus détaillés, [vous pouvez consulter le PDF ci-joint](https://drive.google.com/file/d/1z7DGxCmaYg8zWWcOhfUM9YDF7jaqy6l2/view?usp=drive_link).
 
 :::

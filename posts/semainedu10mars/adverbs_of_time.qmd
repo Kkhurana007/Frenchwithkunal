@@ -3,7 +3,7 @@ title: "Mastering Adverbs in French"
 author: "Kunal Khurana"
 date: "10-03-2025"
 categories: [adverbs, verb endings]
-image: "test.png"
+image: "adverbs_of_time.png"
 
 format:
   html:
@@ -158,7 +158,7 @@ ReactDOM.render(
 
 
 
-Adverbs play a crucial role in language as they help describe verbs, adding depth and clarity to our sentences. In French, adverbs can be categorized into three main types: adverbs of time, adverbs of manner, and adverbs of place. Additionally, there are some irregular adverbs that don’t follow the standard rules. In today’s lesson, we focused on **adverbs of time** and practiced constructing simple sentences in the past, present, and future tenses using them.
+Adverbs play a crucial role in language as they help describe verbs, adding depth and clarity to our sentences. In French, adverbs can be categorized into three main types: adverbs of time, adverbs of manner, and adverbs of place. Additionally, there are some irregular adverbs that don’t follow the standard rules. [In today’s lesson](https://drive.google.com/file/d/1HTWslCP1jMCUZp_6T_TkQVFAk_3AQg09/view?usp=drive_link), we focused on **adverbs of time** and practiced constructing simple sentences in the past, present, and future tenses using them.
 
 Adverbs of time, such as *hier* (yesterday), *aujourd’hui* (today), and *demain* (tomorrow), help us specify when an action takes place. For example:
 
@@ -190,7 +190,7 @@ By combining adverbs of time with properly conjugated verbs, we can create clear
 
 # Maîtriser les Adverbes et les Conjugaisons de Verbes en Français
 
-Les adverbes jouent un rôle crucial dans la langue car ils permettent de décrire les verbes, ajoutant ainsi de la profondeur et de la clarté à nos phrases. En français, les adverbes peuvent être classés en trois catégories principales : les adverbes de temps, les adverbes de manière et les adverbes de lieu. De plus, il existe certains adverbes irréguliers qui ne suivent pas les règles standards. Dans le cours d’aujourd’hui, nous nous sommes concentrés sur **les adverbes de temps** et avons pratiqué la construction de phrases simples au passé, au présent et au futur en les utilisant.
+Les adverbes jouent un rôle crucial dans la langue car ils permettent de décrire les verbes, ajoutant ainsi de la profondeur et de la clarté à nos phrases. En français, les adverbes peuvent être classés en trois catégories principales : les adverbes de temps, les adverbes de manière et les adverbes de lieu. De plus, il existe certains adverbes irréguliers qui ne suivent pas les règles standards. [Dans le cours d’aujourd’hui](https://drive.google.com/file/d/1HTWslCP1jMCUZp_6T_TkQVFAk_3AQg09/view?usp=drive_link), nous nous sommes concentrés sur **les adverbes de temps** et avons pratiqué la construction de phrases simples au passé, au présent et au futur en les utilisant.
 
 Les adverbes de temps, tels que *hier* (yesterday), *aujourd’hui* (today) et *demain* (tomorrow), nous aident à préciser quand une action a lieu. Par exemple:
 
