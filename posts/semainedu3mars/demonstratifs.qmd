@@ -15,138 +15,116 @@ format:
           <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
 ---
 
-\`\`\`{=html}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Access</title>
+</head>
+<body>
+    <div id="react-root"></div>
 
-::: {#react-root}
-:::
+    <script type="text/babel">
+        const { useState, useEffect } = React;
 
-```{=html}
-<script type="text/babel">
+        // Function to refresh the access token
+        const refreshToken = async () => {
+            const storedRefreshToken = localStorage.getItem("refreshToken");
+            if (!storedRefreshToken) window.location.href = "/login.html";
 
+            try {
+                const response = await fetch("https://frenchwithkunal-cdf6ea3f88ce.herokuapp.com/api/v1/auth/refresh-token", {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({ refreshToken: storedRefreshToken }),
+                });
 
-const ProfilePage = () => {
+                if (!response.ok) {
+                    localStorage.removeItem("accessToken");
+                    localStorage.removeItem("refreshToken");
+                    window.location.href = "/login.html";
+                }
 
-  const { useState,useEffect } = React;
+                const data = await response.json();
+                localStorage.setItem("accessToken", data.accessToken);
+                return data.accessToken;
+            } catch (error) {
+                localStorage.removeItem("accessToken");
+                localStorage.removeItem("refreshToken");
+                window.location.href = "/login.html";
+            }
+        };
 
+        // Function to fetch data with authentication
+        const fetchWithAuth = async (url, options = {}) => {
+            let accessToken = localStorage.getItem("accessToken");
+            options.headers = { ...options.headers, Authorization: `Bearer ${accessToken}`, "Content-Type": "application/json" };
 
+            let response = await fetch(url, options);
+            if (response.status === 401) {
+                accessToken = await refreshToken();
+                if (!accessToken) return null;
+                options.headers.Authorization = `Bearer ${accessToken}`;
+                response = await fetch(url, options);
+            }
+            return response.json();
+        };
 
-const refreshToken = async () => {
-  const storedRefreshToken = localStorage.getItem("refreshToken");
+        // Function to show no access message based on language
+        const showNoAccessMessage = (language) => {
+            const messages = {
+                en: {
+                    title: "You don't have access to this page.",
+                    message: "Please <a href='https://frenchwithkunal.ca/payment.html'>subscribe</a> to gain access.",
+                },
+                fr: {
+                    title: "Vous n'avez pas accès à cette page.",
+                    message: "Veuillez <a href='https://frenchwithkunal.ca/payment.html'>vous abonner</a> pour obtenir l'accès.",
+                },
+            };
 
-  if (!storedRefreshToken) {
-    window.location.href = "/login.html";
-    return null;
-  }
+            const { title, message } = messages[language] || messages.en; // Default to English if language is not recognized
 
-  try {
-    const response = await fetch("https://frenchwithkunal-cdf6ea3f88ce.herokuapp.com/api/v1/auth/refresh-token", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({ refreshToken: storedRefreshToken }),
-    });
+            document.body.innerHTML = `
+                <div style="text-align: center; padding: 20px;">
+                    <h2>${title}</h2>
+                    <p>${message}</p>
+                </div>
+            `;
+        };
 
+        // Main ProfilePage component
+        const ProfilePage = () => {
+            const [language, setLanguage] = useState("en"); // Default to English
 
-    if (!response.ok) {
-      localStorage.removeItem("accessToken");
-      localStorage.removeItem("refreshToken");
-      window.location.href = "/login.html";
-      return null;
-    }
+            useEffect(() => {
+                // Detect language from URL or query parameter
+                const urlParams = new URLSearchParams(window.location.search);
+                const lang = urlParams.get("lang") || "en"; // Default to English if no language is specified
+                setLanguage(lang);
 
-    const data = await response.json();
-    localStorage.setItem("accessToken", data.accessToken);
-    return data.accessToken;
-  } catch (error) {
-    localStorage.removeItem("accessToken");
-    localStorage.removeItem("refreshToken");
-    window.location.href = "/login.html";
-    return null;
-  }
-};
+                const storedToken = localStorage.getItem('accessToken');
+                if (!storedToken) showNoAccessMessage(lang);
 
+                const fetchData = async () => {
+                    const data = await fetchWithAuth("https://frenchwithkunal-cdf6ea3f88ce.herokuapp.com/api/v1/auth/me", { method: "POST" });
+                    if (!data.data.hasAccess) showNoAccessMessage(lang);
+                };
 
+                if (storedToken) fetchData();
+            }, []);
 
-const fetchWithAuth = async (url, options = {}) => {
-  let accessToken = localStorage.getItem("accessToken");
+            return <div></div>;
+        };
 
-  options.headers = {
-    ...options.headers,
-    Authorization: `Bearer ${accessToken}`,
-    "Content-Type": "application/json",
-  };
-
-  let response = await fetch(url, options);
-
-  if (response.status === 401) {
-    console.log("Access token expired, attempting to refresh...");
-
-    // Refresh token
-    accessToken = await refreshToken();
-
-    if (!accessToken) return null;
-
-    options.headers.Authorization = `Bearer ${accessToken}`;
-    response = await fetch(url, options);
-  }
-
-  return response.json();
-};
-
-
-
-  useEffect(() => {
-    const storedToken = localStorage.getItem('accessToken');
-
-    if(!storedToken){
-        showNoAccessMessage();
-      }
-    if (storedToken) {
-      const fetchData = async()=>{
-      const data = await fetchWithAuth("https://frenchwithkunal-cdf6ea3f88ce.herokuapp.com/api/v1/auth/me", {
-      method: "POST",
-    });
-
-    if (data.data.hasAccess) {
-      console.log(data);
-   
-    } else {
-         showNoAccessMessage();
-    }
-
-      }
-fetchData();
-
-
-    }
-
-  }, []);
-
-
-
-function showNoAccessMessage() {
-      const noAccessMessage = `
-        <div style="text-align: center; padding: 20px;">
-          <h2>You don't have access to this page.</h2>
-          <p>Please <a href="https://frenchwithkunal.ca/payment.html">subscribe</a> to gain access.</p>
-        </div>
-      `;
-      document.body.innerHTML = noAccessMessage;
-    }
-
-
-  return (
-    <div></div>
-  );
-};
-
-ReactDOM.render(
-  <ProfilePage />,
-  document.getElementById('react-root')
-);
-</script>
-```
+        ReactDOM.render(<ProfilePage />, document.getElementById('react-root'));
+    </script>
+    <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</body>
+</html>
 
 ------------------------------------------------------------------------
 
@@ -223,9 +201,11 @@ Here are some additional examples to illustrate the use of these demonstratives:
 ### **Conclusion**
 
 Demonstratives in French, such as **Ce**, **Cet**, **Ça**, **Ceci**, **Cela**, and **Ces**, are essential for referring to objects, people, or ideas precisely. By understanding their usage rules and practicing with examples, you can master them more easily.
+
 :::
 
 ::: {.content-visible when-profile="french"}
+
 ### **Les démonstratifs en français : Ce, Cet, Ça, Ceci, Cela, et Ces**
 
 En français, les mots **Ce**, **Cet**, **Ça**, **Ceci**, et **Cela** sont des équivalents de **this/that** en anglais pour les noms au singulier. La principale différence réside dans leur utilisation : certains sont utilisés dans des contextes singuliers, tandis que d’autres peuvent être utilisés dans des contextes plus variés. De plus, le mot **Ces** est l’équivalent de **these/those** en anglais pour les noms au pluriel.

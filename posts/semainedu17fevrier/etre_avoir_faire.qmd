@@ -30,12 +30,11 @@ image: "avoir_être_faire.png"
 ```
 
 ::: {.content-visible when-profile="english"}
-
-When learning French, one of the trickiest aspects is understanding which auxiliary verb to use in different contexts. This is especially true when talking about temperature, whether it’s about how you feel, the weather, or the state of an object. Let’s break it down with examples to make it easier. 
+When learning French, one of the trickiest aspects is understanding which auxiliary verb to use in different contexts. This is especially true when talking about temperature, whether it’s about how you feel, the weather, or the state of an object. Let’s break it down with examples to make it easier.
 
 ## 1. Using "Avoir" for Personal Sensations (Body Temperature)
-q
-In French, when you want to express how you feel in terms of temperature, you use the verb "avoir" (to have). This is because you’re describing a personal sensation, not the external environment.
+
+q In French, when you want to express how you feel in terms of temperature, you use the verb "avoir" (to have). This is because you’re describing a personal sensation, not the external environment.
 
 J’ai chaud. → I feel hot.
 
@@ -174,3 +173,4 @@ Faire → Pour la météo (température extérieure).
 Être → Pour les objets (leur état ou température).
 
 Veuillez jeter un coup d'œil [à ce PDF](https://drive.google.com/file/d/114v5AgZ1CS4t7J8w5yhMabszFKL1XOvS/view?usp=drive_link) pour plus de détails.
+:::
