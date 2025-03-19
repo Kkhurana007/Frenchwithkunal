@@ -15,12 +15,11 @@ format:
           <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
 ---
 
-\`\`\`{=html}
+```{=html}
 
 ::: {#react-root}
 :::
 
-```{=html}
 <script type="text/babel">
 
 const ProfilePage = () => {
