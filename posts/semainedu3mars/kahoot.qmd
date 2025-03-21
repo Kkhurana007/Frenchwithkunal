@@ -30,24 +30,17 @@ image: "kahoot.png"
 ```
 
 ```{=html}
+
+
 <script>
-const usersDatabase = ["user1@example.com", "user2@example.com"]; // Add your authorized users here
+
+const usersDatabase = ["khuranasoilpau@gmail.com", "rumeetwala@gmail.com", "test", "gargikhurana2003@gmail.com", "bharat0311@hotmail.com";] // Add your authorized users here
 const userInput = prompt("Enter your email to view this post:");
 
 if (!usersDatabase.includes(userInput)) {
   alert("You do not have access to this post. Please subscribe to gain access.");
   window.location.href = "https://frenchwithkunal.ca/payment.html"; // Redirect to the subscription/payment page
 }
-
-
-
-
-
-
-
-
-
-
 
 
 
