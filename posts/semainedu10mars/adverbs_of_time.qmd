@@ -15,6 +15,11 @@ format:
           <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
 ---
 
+::: {style="text-align: left; padding: 10px;"}
+<a href="mailto:info@frenchwithkunal.ca" target="_blank" style="margin: 0 10px; color: #000;"><i class="fas fa-envelope fa-lg"></i></a> <a href="https://www.instagram.com/kunal.khurana7" target="_blank" style="margin: 0 10px; color: #E1306C;"><i class="fab fa-instagram fa-lg"></i></a> <a href="https://frenchwithkunal.ca" target="_blank" style="margin: 0 10px; color: #0077b5;"><i class="fas fa-globe fa-lg"></i></a> <a href="https://whatsapp.com/channel/0029Vb57n2e7dmegpjYpyi3V" target="_blank" style="margin: 0 10px; color: #25D366;"><i class="fab fa-whatsapp fa-lg"></i></a> <button onclick="copyLink()" style="background-color: #0077b5; color: white; padding: 8px 16px; border: none; border-radius: 4px; cursor: pointer; margin-left: 10px;"> <i class="fas fa-copy"></i> </button> [Link copied!]{#copy-message style="margin-left: 10px; color: green; display: none;"}
+:::
+
+
 
 ```{=html}
 <script>
@@ -89,7 +94,6 @@ By combining adverbs of time with properly conjugated verbs, we can create clear
 
 ::: {.content-visible when-profile="french"}
 
-# Maîtriser les Adverbes et les Conjugaisons de Verbes en Français
 
 Les adverbes jouent un rôle crucial dans la langue car ils permettent de décrire les verbes, ajoutant ainsi de la profondeur et de la clarté à nos phrases. En français, les adverbes peuvent être classés en trois catégories principales : les adverbes de temps, les adverbes de manière et les adverbes de lieu. De plus, il existe certains adverbes irréguliers qui ne suivent pas les règles standards. [Dans le cours d’aujourd’hui](https://drive.google.com/file/d/1HTWslCP1jMCUZp_6T_TkQVFAk_3AQg09/view?usp=drive_link), nous nous sommes concentrés sur **les adverbes de temps** et avons pratiqué la construction de phrases simples au passé, au présent et au futur en les utilisant.
 
