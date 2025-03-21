@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Kunal Khurana">
-<meta name="dcterms.date" content="2025-10-03">
+<meta name="dcterms.date" content="2025-03-10">
 
 <title>Demonstratifs / les démonstratifs – French with Kunal</title>
 <style>
@@ -186,7 +186,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">October 3, 2025</p>
+      <p class="date">March 10, 2025</p>
     </div>
   </div>
   
@@ -198,126 +198,46 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div id="react-root">
-
+<div style="text-align: left; padding: 10px;">
+<p><a href="mailto:info@frenchwithkunal.ca" target="_blank" style="margin: 0 10px; color: #000;"><i class="fas fa-envelope fa-lg"></i></a> <a href="https://www.instagram.com/kunal.khurana7" target="_blank" style="margin: 0 10px; color: #E1306C;"><i class="fab fa-instagram fa-lg"></i></a> <a href="https://frenchwithkunal.ca" target="_blank" style="margin: 0 10px; color: #0077b5;"><i class="fas fa-globe fa-lg"></i></a> <a href="https://whatsapp.com/channel/0029Vb57n2e7dmegpjYpyi3V" target="_blank" style="margin: 0 10px; color: #25D366;"><i class="fab fa-whatsapp fa-lg"></i></a> <button onclick="copyLink()" style="background-color: #0077b5; color: white; padding: 8px 16px; border: none; border-radius: 4px; cursor: pointer; margin-left: 10px;"> <i class="fas fa-copy"></i> </button> <span id="copy-message" style="margin-left: 10px; color: green; display: none;">Link copied!</span></p>
 </div>
-<script type="text/babel">
-
-const ProfilePage = () => {
-
-  const { useState, useEffect } = React;
-
-  const refreshToken = async () => {
-    const storedRefreshToken = localStorage.getItem("refreshToken");
-
-    if (!storedRefreshToken) {
-      window.location.href = "/login.html";
-      return null;
-    }
-
-    try {
-      const response = await fetch("https://frenchwithkunal-cdf6ea3f88ce.herokuapp.com/api/v1/auth/refresh-token", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({ refreshToken: storedRefreshToken }),
-      });
-
-      if (!response.ok) {
-        localStorage.removeItem("accessToken");
-        localStorage.removeItem("refreshToken");
-        window.location.href = "/login.html";
-        return null;
-      }
-
-      const data = await response.json();
-      localStorage.setItem("accessToken", data.accessToken);
-      return data.accessToken;
-    } catch (error) {
-      localStorage.removeItem("accessToken");
-      localStorage.removeItem("refreshToken");
-      window.location.href = "/login.html";
-      return null;
-    }
-  };
-
-  const fetchWithAuth = async (url, options = {}) => {
-    let accessToken = localStorage.getItem("accessToken");
-
-    options.headers = {
-      ...options.headers,
-      Authorization: `Bearer ${accessToken}`,
-      "Content-Type": "application/json",
-    };
-
-    let response = await fetch(url, options);
-
-    if (response.status === 401) {
-      console.log("Access token expired, attempting to refresh...");
-
-      // Refresh token
-      accessToken = await refreshToken();
-
-      if (!accessToken) return null;
-
-      options.headers.Authorization = `Bearer ${accessToken}`;
-      response = await fetch(url, options);
-    }
-
-    return response.json();
-  };
-
-  useEffect(() => {
-    const storedToken = localStorage.getItem('accessToken');
-
-    if (!storedToken) {
-      showNoAccessMessage();
-    }
-    if (storedToken) {
-      const fetchData = async () => {
-        const data = await fetchWithAuth("https://frenchwithkunal-cdf6ea3f88ce.herokuapp.com/api/v1/auth/me", {
-          method: "POST",
-        });
-
-        if (data.data.hasAccess) {
-          console.log(data);
-
-        } else {
-          showNoAccessMessage();
-        }
-
-      }
-      fetchData();
-    }
-
-  }, []);
-
-  function showNoAccessMessage() {
-    const profileLanguage = document.documentElement.lang || "en";
-    const noAccessMessage = profileLanguage === "fr" ? `
-      <div style="text-align: center; padding: 20px;">
-        <h2>Vous n'avez pas accès à cette page.</h2>
-        <p>Veuillez <a href="https://frenchwithkunal.ca/fr/payment.html">vous abonner</a> pour obtenir l'accès.</p>
-      </div>
-    ` : `
-      <div style="text-align: center; padding: 20px;">
-        <h2>You don't have access to this page.</h2>
-        <p>Please <a href="https://frenchwithkunal.ca/payment.html">subscribe</a> to gain access.</p>
-      </div>
-    `;
-    document.body.innerHTML = noAccessMessage;
+<script>
+  function copyLink() {
+    // Get the current page URL
+    const url = window.location.href;
+    
+    // Copy the URL to the clipboard
+    navigator.clipboard.writeText(url).then(() => {
+      // Show a confirmation message
+      const message = document.getElementById("copy-message");
+      message.style.display = "inline";
+      setTimeout(() => {
+        message.style.display = "none";
+      }, 2000); // Hide the message after 2 seconds
+    });
   }
-
-  return (
-    <div></div>
-  );
-};
-
-ReactDOM.render(
-  <ProfilePage />,
-  document.getElementById('react-root')
+</script>
+<script>
+const usersDatabase = ["khuranasoilpau@gmail.com", "rumeetwala@gmail.com", "test", "gargikhurana2003@gmail.com", "bharat0311@hotmail.com"]; // Add your authorized users here
+const userInput = prompt(
+  document.documentElement.lang === "fr"
+    ? "Entrez votre email pour voir cet article :"
+    : "Enter your email to view this post:"
 );
+
+if (!usersDatabase.includes(userInput)) {
+  alert(
+    document.documentElement.lang === "fr"
+      ? "Vous n'avez pas accès à cet article. Veuillez vous abonner pour y accéder."
+      : "You do not have access to this post. Please subscribe to gain access."
+  );
+  window.location.href =
+    document.documentElement.lang === "fr"
+      ? "https://frenchwithkunal.ca/fr/payment.html"
+      : "https://frenchwithkunal.ca/payment.html"; // Redirect to the subscription/payment page
+}
+
+
 </script>
 <hr>
 <div style="text-align: left; padding: 10px;">
@@ -974,11 +894,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <li class="nav-item">
     <a class="nav-link" href="../../login.html">
 <p>Login</p>
-</a>
-  </li>  
-    <li class="nav-item">
-    <a class="nav-link" href="../../signup.html">
-<p>Sign Up</p>
 </a>
   </li>  
     <li class="nav-item">

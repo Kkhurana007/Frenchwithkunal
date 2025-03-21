@@ -223,13 +223,26 @@ ul.task-list li input[type="checkbox"] {
   }
 </script>
 <script>
-const usersDatabase = ["user1@example.com", "user2@example.com"]; // Add your authorized users here
-const userInput = prompt("Enter your email to view this post:");
+const usersDatabase = ["khuranasoilpau@gmail.com", "rumeetwala@gmail.com", "test", "gargikhurana2003@gmail.com", "bharat0311@hotmail.com"]; // Add your authorized users here
+const userInput = prompt(
+  document.documentElement.lang === "fr"
+    ? "Entrez votre email pour voir cet article :"
+    : "Enter your email to view this post:"
+);
 
 if (!usersDatabase.includes(userInput)) {
-  alert("You do not have access to this post. Please subscribe to gain access.");
-  window.location.href = "https://frenchwithkunal.ca/payment.html"; // Redirect to the subscription/payment page
+  alert(
+    document.documentElement.lang === "fr"
+      ? "Vous n'avez pas accès à cet article. Veuillez vous abonner pour y accéder."
+      : "You do not have access to this post. Please subscribe to gain access."
+  );
+  window.location.href =
+    document.documentElement.lang === "fr"
+      ? "https://frenchwithkunal.ca/fr/payment.html"
+      : "https://frenchwithkunal.ca/payment.html"; // Redirect to the subscription/payment page
 }
+
+
 </script>
 <p>En français, les noms ont un genre : ils sont soit masculins, soit féminins. Les terminaisons des mots peuvent souvent nous donner des indices sur leur genre. Par exemple, les mots féminins se terminent souvent par un <strong>-e</strong>, tandis que les mots masculins ont des terminaisons variées. De plus, on utilise souvent le <strong>-e</strong> pour transformer un mot masculin en féminin.</p>
 <p>Nous avons également appris que les saisons, les jours de la semaine, les langues, les fruits et les légumes sont généralement <strong>masculins</strong>. De même, les magasins, les émotions et les disciplines scientifiques sont généralement <strong>féminins</strong>, sauf ceux qui se terminent déjà par un <strong>-e</strong>.</p>
@@ -982,11 +995,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <li class="nav-item">
     <a class="nav-link" href="../../login.html">
 <p>Se connecter</p>
-</a>
-  </li>  
-    <li class="nav-item">
-    <a class="nav-link" href="../../signup.html">
-<p>S’inscrire</p>
 </a>
   </li>  
     <li class="nav-item">

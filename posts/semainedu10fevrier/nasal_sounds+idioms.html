@@ -222,6 +222,128 @@ ul.task-list li input[type="checkbox"] {
     });
   }
 </script>
+<div id="react-root">
+
+</div>
+<script type="text/babel">
+
+const ProfilePage = () => {
+
+  const { useState, useEffect } = React;
+
+  const refreshToken = async () => {
+    const storedRefreshToken = localStorage.getItem("refreshToken");
+
+    if (!storedRefreshToken) {
+      window.location.href = "/login.html";
+      return null;
+    }
+
+    try {
+      const response = await fetch("https://frenchwithkunal-cdf6ea3f88ce.herokuapp.com/api/v1/auth/refresh-token", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ refreshToken: storedRefreshToken }),
+      });
+
+      if (!response.ok) {
+        localStorage.removeItem("accessToken");
+        localStorage.removeItem("refreshToken");
+        window.location.href = "/login.html";
+        return null;
+      }
+
+      const data = await response.json();
+      localStorage.setItem("accessToken", data.accessToken);
+      return data.accessToken;
+    } catch (error) {
+      localStorage.removeItem("accessToken");
+      localStorage.removeItem("refreshToken");
+      window.location.href = "/login.html";
+      return null;
+    }
+  };
+
+  const fetchWithAuth = async (url, options = {}) => {
+    let accessToken = localStorage.getItem("accessToken");
+
+    options.headers = {
+      ...options.headers,
+      Authorization: `Bearer ${accessToken}`,
+      "Content-Type": "application/json",
+    };
+
+    let response = await fetch(url, options);
+
+    if (response.status === 401) {
+      console.log("Access token expired, attempting to refresh...");
+
+      // Refresh token
+      accessToken = await refreshToken();
+
+      if (!accessToken) return null;
+
+      options.headers.Authorization = `Bearer ${accessToken}`;
+      response = await fetch(url, options);
+    }
+
+    return response.json();
+  };
+
+  useEffect(() => {
+    const storedToken = localStorage.getItem('accessToken');
+
+    if (!storedToken) {
+      showNoAccessMessage();
+    }
+    if (storedToken) {
+      const fetchData = async () => {
+        const data = await fetchWithAuth("https://frenchwithkunal-cdf6ea3f88ce.herokuapp.com/api/v1/auth/me", {
+          method: "POST",
+        });
+
+        if (data.data.hasAccess) {
+          console.log(data);
+
+        } else {
+          showNoAccessMessage();
+        }
+
+      }
+      fetchData();
+    }
+
+  }, []);
+
+  function showNoAccessMessage() {
+    const profileLanguage = document.documentElement.lang || "en";
+    const noAccessMessage = profileLanguage === "fr" ? `
+      <div style="text-align: center; padding: 20px;">
+        <h2>Vous n'avez pas accès à cette page.</h2>
+        <p>Veuillez <a href="https://frenchwithkunal.ca/fr/payment.html">vous abonner</a> pour obtenir l'accès.</p>
+      </div>
+    ` : `
+      <div style="text-align: center; padding: 20px;">
+        <h2>You don't have access to this page.</h2>
+        <p>Please <a href="https://frenchwithkunal.ca/payment.html">subscribe</a> to gain access.</p>
+      </div>
+    `;
+    document.body.innerHTML = noAccessMessage;
+  }
+
+  return (
+    <div></div>
+  );
+};
+
+ReactDOM.render(
+  <ProfilePage />,
+  document.getElementById('react-root')
+);
+</script>
+<hr>
 <p>In our <a href="https://drive.google.com/file/d/1UD3_-TVeg8Kbqp3WwYykWKA69q3Ka6re/view?usp=drive_link">latest French lesson</a>, we delved into two fascinating aspects of the language: nasal sounds and the impératif du présent (present imperative). These topics are essential for mastering pronunciation and everyday communication in French.</p>
 <section id="nasal-sounds" class="level2">
 <h2 class="anchored" data-anchor-id="nasal-sounds">Nasal sounds</h2>
@@ -871,11 +993,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <li class="nav-item">
     <a class="nav-link" href="../../login.html">
 <p>Login</p>
-</a>
-  </li>  
-    <li class="nav-item">
-    <a class="nav-link" href="../../signup.html">
-<p>Sign Up</p>
 </a>
   </li>  
     <li class="nav-item">
