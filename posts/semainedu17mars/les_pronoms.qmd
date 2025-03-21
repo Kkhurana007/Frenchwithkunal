@@ -1,0 +1,127 @@
+---
+title: "Pronouns / Les pronoms"
+author: "Kunal Khurana"
+date: "03-17-2025"
+categories: [A1/A2, pronouns , les pronoms]
+image: "pronoms.png"
+
+format:
+  html:
+    include-in-header:
+      - text: |
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+          <script src="https://unpkg.com/react@17/umd/react.production.min.js"></script>
+          <script src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"></script>
+          <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+---
+
+
+```{=html}
+<script>
+  function copyLink() {
+    // Get the current page URL
+    const url = window.location.href;
+    
+    // Copy the URL to the clipboard
+    navigator.clipboard.writeText(url).then(() => {
+      // Show a confirmation message
+      const message = document.getElementById("copy-message");
+      message.style.display = "inline";
+      setTimeout(() => {
+        message.style.display = "none";
+      }, 2000); // Hide the message after 2 seconds
+    });
+  }
+</script>
+```
+
+<script>
+const usersDatabase = ["khuranasoilpau@gmail.com", "rumeetwala@gmail.com", "test", "gargikhurana2003@gmail.com", "bharat0311@hotmail.com"]; // Add your authorized users here
+const userInput = prompt(
+  document.documentElement.lang === "fr"
+    ? "Entrez votre email pour voir cet article :"
+    : "Enter your email to view this post:"
+);
+
+if (!usersDatabase.includes(userInput)) {
+  alert(
+    document.documentElement.lang === "fr"
+      ? "Vous n'avez pas accès à cet article. Veuillez vous abonner pour y accéder."
+      : "You do not have access to this post. Please subscribe to gain access."
+  );
+  window.location.href =
+    document.documentElement.lang === "fr"
+      ? "https://frenchwithkunal.ca/fr/payment.html"
+      : "https://frenchwithkunal.ca/payment.html"; // Redirect to the subscription/payment page
+}
+
+
+</script>
+
+---
+
+::: {.content-visible when-profile="english"}
+
+In today’s lecture, [we studied pronouns](https://drive.google.com/file/d/1wkGiO7_6KizQjrJjI59cdT4wMDsJu6F9/view?usp=drive_link). They are essential in language as they replace nouns to avoid repetition and make sentences flow more naturally. They are categorized into three main groups: first person, second person, and third person.  
+
+1. **First Person**: These pronouns refer to the speaker or a group including the speaker. Examples include *I* (je) and *we* (nous). For instance, "I am going to the store" (*Je vais au magasin*) or "We are studying French" (*Nous étudions le français*).  
+
+2. **Second Person**: These pronouns address the listener directly. Examples are *you* (tu or vous). For example, "You are my friend" (*Tu es mon ami*) or "You all are invited" (*Vous êtes tous invités*).  
+
+3. **Third Person**: These pronouns refer to someone or something being discussed. Examples include *he* (il), *she* (elle), *they* (ils, elles). For instance, "He is reading a book" (*Il lit un livre*) or "They are playing outside" (*Elles jouent dehors*).  
+
+Using pronouns effectively avoids redundancy, making communication clearer and more concise.  
+
+**Independent Pronouns** are used in specific contexts to add emphasis or clarity. Here are some examples:  
+- **To stress the subject**: "Me, I'm really independent" (*Moi, je suis vraiment indépendant*).  
+- **When the pronoun has no verb**: "Who wants to leave?" (*Qui veut partir?*) "Me" (*Moi*).  
+- **After prepositions**: "Let's go to her house" (*Allons chez elle*).  
+- **After *c'est***: "It's me who's leaving" (*C'est moi qui pars*).  
+- **After certain verbs**:  
+  - *Avoir affaire à* (to have dealings with): "I have dealings with him" (*J'ai affaire à lui*).  
+  - *Être à* (to belong to): "It belongs to me" (*C'est à moi*).  
+  - *Faire attention à* (to pay attention to): "I pay attention to her" (*Je fais attention à elle*).  
+  - *Penser à* (to think about): "I think about you" (*Je pense à toi*).  
+  - *Se fier à* (to trust): "I trust you" (*Je me fie à toi*).  
+  - *S'intéresser à* (to be interested in): "I am interested in her" (*Je m'intéresse à elle*).  
+- **In compound subjects**: "He and I are going to the restaurant" (*Lui et moi allons au restaurant*) or "Sylvia and you are dining at Marie's" (*Sylvie et toi dînez chez Marie*).  
+
+Independent pronouns add nuance and precision to sentences, making them more expressive and contextually appropriate.  
+
+---
+
+
+
+:::
+
+
+::: {.content-visible when-profile="french"}
+
+Dans le cours d’aujourd’hui, [on a étudié les pronoms](https://drive.google.com/file/d/1wkGiO7_6KizQjrJjI59cdT4wMDsJu6F9/view?usp=drive_link). Ils sont essentiels en langue car ils remplacent les noms pour éviter les répétitions et fluidifier les phrases. Ils sont classés en trois catégories principales : première personne, deuxième personne et troisième personne.  
+
+1. **Première Personne** : Ces pronoms désignent le locuteur ou un groupe incluant le locuteur. Exemples : *je* et *nous*. Par exemple, « Je vais au magasin » ou « Nous étudions le français ».  
+
+2. **Deuxième Personne** : Ces pronoms s’adressent directement à l’interlocuteur. Exemples : *tu* ou *vous*. Par exemple, « Tu es mon ami » ou « Vous êtes tous invités ».  
+
+3. **Troisième Personne** : Ces pronoms désignent une personne ou une chose dont on parle. Exemples : *il*, *elle*, *ils*, *elles*. Par exemple, « Il lit un livre » ou « Elles jouent dehors ».  
+
+Utiliser les pronoms efficacement évite les répétitions, rendant la communication plus claire et concise.  
+
+**Les Pronoms Indépendants** sont utilisés dans des contextes spécifiques pour ajouter de l'emphase ou de la clarté. Voici quelques exemples :  
+- **Pour insister sur le sujet** : « Moi, je suis vraiment indépendant ».  
+- **Quand le pronom n'a pas de verbe** : « Qui veut partir ? » « Moi ».  
+- **Après les prépositions** : « Allons chez elle ».  
+- **Après *c'est*** : « C'est moi qui pars ».  
+- **Après certains verbes** :  
+  - *Avoir affaire à* : « J'ai affaire à lui ».  
+  - *Être à* : « C'est à moi ».  
+  - *Faire attention à* : « Je fais attention à elle ».  
+  - *Penser à* : « Je pense à toi ».  
+  - *Se fier à* : « Je me fie à toi ».  
+  - *S'intéresser à* : « Je m'intéresse à elle ».  
+- **Dans des sujets composés** : « Lui et moi allons au restaurant » ou « Sylvie et toi dînez chez Marie ».  
+
+Les pronoms indépendants ajoutent de la nuance et de la précision aux phrases, les rendant plus expressives et adaptées au contexte.
+---
+
+:::

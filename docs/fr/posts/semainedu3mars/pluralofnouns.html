@@ -224,18 +224,26 @@ ul.task-list li input[type="checkbox"] {
   }
 </script>
 <script>
-const usersDatabase = ["Khuranasoilpau@gmail.com", "user2@example.com"]; // Add your authorized users here
-const userInput = prompt("Enter your email to view this post:");
+const usersDatabase = ["khuranasoilpau@gmail.com", "rumeetwala@gmail.com", "test", "gargikhurana2003@gmail.com", "bharat0311@hotmail.com"]; // Add your authorized users here
+const userInput = prompt(
+  document.documentElement.lang === "fr"
+    ? "Entrez votre email pour voir cet article :"
+    : "Enter your email to view this post:"
+);
 
 if (!usersDatabase.includes(userInput)) {
-  const language = document.documentElement.lang; // Detect the language of the page
-  if (language === "fr") {
-    alert("Vous n'avez pas accès à cet article. Veuillez vous abonner pour y accéder.");
-  } else {
-    alert("You do not have access to this post. Please subscribe to gain access.");
-  }
-  window.location.href = "https://frenchwithkunal.ca/payment.html"; // Redirect to the subscription/payment page
+  alert(
+    document.documentElement.lang === "fr"
+      ? "Vous n'avez pas accès à cet article. Veuillez vous abonner pour y accéder."
+      : "You do not have access to this post. Please subscribe to gain access."
+  );
+  window.location.href =
+    document.documentElement.lang === "fr"
+      ? "https://frenchwithkunal.ca/fr/payment.html"
+      : "https://frenchwithkunal.ca/payment.html"; // Redirect to the subscription/payment page
 }
+
+
 </script>
 <p>Le pluriel en français peut sembler complexe à première vue, mais une fois que l’on comprend les règles de base et les exceptions, cela devient beaucoup plus facile à maîtriser. Dans cet article, nous allons explorer les différentes règles qui régissent la formation du pluriel des noms en français, en fournissant de nombreux exemples pour vous aider à mieux comprendre. Veuillez jeter un coup d’œil à <a href="https://drive.google.com/file/d/1hWQLtbPM9u7g2FpQpA1zBklX3HBwthlP/view?usp=drive_link">ce pdf</a> pour plus des détails.</p>
 <hr>
@@ -969,11 +977,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <li class="nav-item">
     <a class="nav-link" href="../../login.html">
 <p>Se connecter</p>
-</a>
-  </li>  
-    <li class="nav-item">
-    <a class="nav-link" href="../../signup.html">
-<p>S’inscrire</p>
 </a>
   </li>  
     <li class="nav-item">

@@ -224,13 +224,26 @@ ul.task-list li input[type="checkbox"] {
   }
 </script>
 <script>
-const usersDatabase = ["user1@example.com", "user2@example.com"]; // Add your authorized users here
-const userInput = prompt("Enter your email to view this post:");
+const usersDatabase = ["khuranasoilpau@gmail.com", "rumeetwala@gmail.com", "test", "gargikhurana2003@gmail.com", "bharat0311@hotmail.com"]; // Add your authorized users here
+const userInput = prompt(
+  document.documentElement.lang === "fr"
+    ? "Entrez votre email pour voir cet article :"
+    : "Enter your email to view this post:"
+);
 
 if (!usersDatabase.includes(userInput)) {
-  alert("You do not have access to this post. Please subscribe to gain access.");
-  window.location.href = "https://frenchwithkunal.ca/payment.html"; // Redirect to the subscription/payment page
+  alert(
+    document.documentElement.lang === "fr"
+      ? "Vous n'avez pas accès à cet article. Veuillez vous abonner pour y accéder."
+      : "You do not have access to this post. Please subscribe to gain access."
+  );
+  window.location.href =
+    document.documentElement.lang === "fr"
+      ? "https://frenchwithkunal.ca/fr/payment.html"
+      : "https://frenchwithkunal.ca/payment.html"; // Redirect to the subscription/payment page
 }
+
+
 </script>
 <p>In French, nouns have a gender: they are either masculine or feminine. The endings of words can often give us clues about their gender. For example, feminine words often end in <strong>-e</strong>, while masculine words have various endings. Additionally, we often use <strong>-e</strong> to transform a masculine word into a feminine one.</p>
 <p>We also learned that seasons, days of the week, languages, fruits, and vegetables are generally <strong>masculine</strong>. Similarly, stores, emotions, and scientific disciplines are generally <strong>feminine</strong>, except for those already ending in <strong>-e</strong>.</p>

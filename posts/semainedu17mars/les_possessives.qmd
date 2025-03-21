@@ -1,0 +1,192 @@
+---
+title: "Possessifs / Les possessives"
+author: "Kunal Khurana"
+date: "03-17-2025"
+categories: [adverbs, verb endings]
+image: "possessives.png"
+
+format:
+  html:
+    include-in-header:
+      - text: |
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+          <script src="https://unpkg.com/react@17/umd/react.production.min.js"></script>
+          <script src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"></script>
+          <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+---
+
+
+```{=html}
+<script>
+  function copyLink() {
+    // Get the current page URL
+    const url = window.location.href;
+    
+    // Copy the URL to the clipboard
+    navigator.clipboard.writeText(url).then(() => {
+      // Show a confirmation message
+      const message = document.getElementById("copy-message");
+      message.style.display = "inline";
+      setTimeout(() => {
+        message.style.display = "none";
+      }, 2000); // Hide the message after 2 seconds
+    });
+  }
+</script>
+```
+
+<script>
+const usersDatabase = ["khuranasoilpau@gmail.com", "rumeetwala@gmail.com", "test", "gargikhurana2003@gmail.com", "bharat0311@hotmail.com"]; // Add your authorized users here
+const userInput = prompt(
+  document.documentElement.lang === "fr"
+    ? "Entrez votre email pour voir cet article :"
+    : "Enter your email to view this post:"
+);
+
+if (!usersDatabase.includes(userInput)) {
+  alert(
+    document.documentElement.lang === "fr"
+      ? "Vous n'avez pas accès à cet article. Veuillez vous abonner pour y accéder."
+      : "You do not have access to this post. Please subscribe to gain access."
+  );
+  window.location.href =
+    document.documentElement.lang === "fr"
+      ? "https://frenchwithkunal.ca/fr/payment.html"
+      : "https://frenchwithkunal.ca/payment.html"; // Redirect to the subscription/payment page
+}
+
+
+</script>
+
+---
+
+
+::: {.content-visible when-profile="english"}
+
+When learning French, one of the key grammar concepts to master is **possessives** and [that is what we studied today](https://drive.google.com/file/d/1gScHEm-N_yJjVM-1GLr9fLXZIQHbkn9O/view?usp=drive_link). These are words used to show ownership or possession, like "my," "your," "his," "her," etc. In French, possessives change depending on the **gender (masculine/feminine)** and **number (singular/plural)** of the noun they describe. Let’s break it down:
+
+---
+
+#### **1. Singular Possessives**
+
+For singular nouns, the possessive changes based on the **gender** of the noun being possessed. Here’s how it works:
+
+- **Masculine Nouns**:  
+  - **Mon** (my) – *Mon livre* (My book)  
+  - **Ton** (your) – *Ton sac* (Your bag)  
+  - **Son** (his/her) – *Son chien* (His/Her dog)  
+
+- **Feminine Nouns**:  
+  - **Ma** (my) – *Ma maison* (My house)  
+  - **Ta** (your) – *Ta voiture* (Your car)  
+  - **Sa** (his/her) – *Sa robe* (His/Her dress)  
+
+**Note**: If a feminine noun starts with a vowel or silent "h," use the masculine form for smoother pronunciation:  
+- *Mon amie* (My friend – feminine)  
+- *Ton école* (Your school – feminine)  
+
+---
+
+#### **2. Plural Possessives**
+
+For plural nouns, the possessive does **not** change based on gender. It only agrees with the **number** of the noun:
+
+- **Mes** (my) – *Mes livres* (My books)  
+- **Tes** (your) – *Tes sacs* (Your bags)  
+- **Ses** (his/her) – *Ses chiens* (His/Her dogs)  
+
+---
+
+#### **3. Examples in Context**
+
+Let’s see some examples to make it clearer:
+
+1. **Mon frère** (My brother – masculine singular)  
+2. **Ma sœur** (My sister – feminine singular)  
+3. **Mes parents** (My parents – plural)  
+4. **Ton stylo** (Your pen – masculine singular)  
+5. **Ta table** (Your table – feminine singular)  
+6. **Tes cahiers** (Your notebooks – plural)  
+7. **Son chat** (His/Her cat – masculine singular)  
+8. **Sa chaise** (His/Her chair – feminine singular)  
+9. **Ses amis** (His/Her friends – plural)  
+
+---
+
+#### **Key Takeaway**
+
+- Singular possessives change based on gender: **mon/ma**, **ton/ta**, **son/sa**.  
+- Plural possessives are the same for both genders: **mes**, **tes**, **ses**.  
+- Always match the possessive to the **noun’s gender and number**, not the owner’s gender.  
+
+---
+
+
+:::
+
+
+::: {.content-visible when-profile="french"}
+
+Lorsqu’on apprend le français, l’un des concepts grammaticaux clés à maîtriser est celui des **adjectifs possessifs**. [Cliquez ici pour accéder au document](https://drive.google.com/file/d/1gScHEm-N_yJjVM-1GLr9fLXZIQHbkn9O/view?usp=drive_link). Ces mots sont utilisés pour exprimer la possession, comme "mon," "ton," "son," etc. En français, les possessifs changent en fonction du **genre (masculin/féminin)** et du **nombre (singulier/pluriel)** du nom qu’ils décrivent. Voici une explication détaillée :
+
+---
+
+#### **1. Les Possessifs au Singulier**
+
+Pour les noms au singulier, le possessif change selon le **genre** du nom possédé. Voici comment cela fonctionne :
+
+- **Noms Masculins** :  
+
+  - **Mon** (my) – *Mon livre* (Mon livre)  
+  - **Ton** (your) – *Ton sac* (Ton sac)  
+  - **Son** (his/her) – *Son chien* (Son chien)  
+
+- **Noms Féminins** :  
+
+  - **Ma** (my) – *Ma maison* (Ma maison)  
+  - **Ta** (your) – *Ta voiture* (Ta voiture)  
+  - **Sa** (his/her) – *Sa robe* (Sa robe)  
+
+**Remarque** : 
+
+Si un nom féminin commence par une voyelle ou un "h" muet, on utilise la forme masculine pour une meilleure prononciation :  
+- *Mon amie* (Mon amie – féminin)  
+- *Ton école* (Ton école – féminin)  
+
+---
+
+#### **2. Les Possessifs au Pluriel**
+
+Pour les noms au pluriel, le possessif ne change pas selon le genre. Il s’accorde uniquement avec le **nombre** du nom :
+
+- **Mes** (my) – *Mes livres* (Mes livres)  
+- **Tes** (your) – *Tes sacs* (Tes sacs)  
+- **Ses** (his/her) – *Ses chiens* (Ses chiens)  
+
+---
+
+#### **3. Exemples en Contexte**
+
+Voici quelques exemples pour illustrer :
+
+1. **Mon frère** (Mon frère – masculin singulier)  
+2. **Ma sœur** (Ma sœur – féminin singulier)  
+3. **Mes parents** (Mes parents – pluriel)  
+4. **Ton stylo** (Ton stylo – masculin singulier)  
+5. **Ta table** (Ta table – féminin singulier)  
+6. **Tes cahiers** (Tes cahiers – pluriel)  
+7. **Son chat** (Son chat – masculin singulier)  
+8. **Sa chaise** (Sa chaise – féminin singulier)  
+9. **Ses amis** (Ses amis – pluriel)  
+
+---
+
+#### **À Retenir**
+
+- Les possessifs au singulier changent selon le genre : **mon/ma**, **ton/ta**, **son/sa**.  
+- Les possessifs au pluriel sont identiques pour les deux genres : **mes**, **tes**, **ses**.  
+- Accordez toujours le possessif avec le **genre et le nombre du nom**, et non avec le genre du possesseur.  
+
+---
+
+:::

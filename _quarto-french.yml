@@ -22,8 +22,6 @@ website:
     right:
       - text: Se connecter
         href: login.qmd
-      - text: S'inscrire
-        href: signup.qmd
       - text: English
         href: https://frenchwithkunal.ca/index.html
       - text: Français

@@ -219,17 +219,26 @@ ul.task-list li input[type="checkbox"] {
     });
   }
 </script>
-
-
 <script>
-  
-const usersDatabase = ["khuranasoilpau@gmail.com", "rumeetwala@gmail.com", "test", "gargikhurana2003@gmail.com", "bharat0311@hotmail.com";] // Add your authorized users here
-const userInput = prompt("Enter your email to view this post:");
+const usersDatabase = ["khuranasoilpau@gmail.com", "rumeetwala@gmail.com", "test", "gargikhurana2003@gmail.com", "bharat0311@hotmail.com"]; // Add your authorized users here
+const userInput = prompt(
+  document.documentElement.lang === "fr"
+    ? "Entrez votre email pour voir cet article :"
+    : "Enter your email to view this post:"
+);
 
 if (!usersDatabase.includes(userInput)) {
-  alert("You do not have access to this post. Please subscribe to gain access.");
-  window.location.href = "https://frenchwithkunal.ca/payment.html"; // Redirect to the subscription/payment page
+  alert(
+    document.documentElement.lang === "fr"
+      ? "Vous n'avez pas accès à cet article. Veuillez vous abonner pour y accéder."
+      : "You do not have access to this post. Please subscribe to gain access."
+  );
+  window.location.href =
+    document.documentElement.lang === "fr"
+      ? "https://frenchwithkunal.ca/fr/payment.html"
+      : "https://frenchwithkunal.ca/payment.html"; // Redirect to the subscription/payment page
 }
+
 
 </script>
 <p>Learning French can be both fun and effective when you incorporate interactive tools like <strong>Kahoot</strong> into your practice. Whether you’re a beginner or looking to polish your skills, these Kahoot games are perfect for mastering essential French vocabulary, grammar, and expressions. Below is a list of curated Kahoot games to help you practice <strong>French numbers</strong>, <strong>prepositions</strong>, <strong>body parts</strong>, <strong>-er verbs</strong>, <strong>feelings</strong>, <strong>introductory phrases</strong>, and <strong>seasons</strong>. Let’s dive in!</p>
