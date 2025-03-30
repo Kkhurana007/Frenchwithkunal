@@ -25,7 +25,7 @@ format:
       - text: |
           <footer style="text-align: center; padding: 20px; background-color: #f8f9fa; margin-top: 40px;">
             <a href="mailto:info@frenchwithkunal.ca" target="_blank" style="margin: 0 10px; color: #000;"><i class="fas fa-envelope fa-2x"></i></a>
-            <a href="https://www.instagram.com/kunal.khurana7" target="_blank" style="margin: 0 10px; color: #E1306C;"><i class="fab fa-instagram fa-2x"></i></a>
+            <a href="https://www.instagram.com/frenchwithkunal" target="_blank" style="margin: 0 10px; color: #E1306C;"><i class="fab fa-instagram fa-2x"></i></a>
             <a href="https://frenchwithkunal.ca/" target="_blank" style="margin: 0 10px; color: #0077b5;"><i class="fas fa-globe fa-2x"></i></a>
             <a href="https://wa.me/+15813989477" target="_blank" style="margin: 0 10px; color: #25D366;"><i class="fab fa-whatsapp fa-2x"></i></a>
           </footer>

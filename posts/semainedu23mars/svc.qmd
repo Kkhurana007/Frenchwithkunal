@@ -1,0 +1,160 @@
+---
+title: "Understanding Subject+Verb+Complement"
+author: "Kunal Khurana"
+date: "03-24-2025"
+categories: [subject, verb, complement]
+image: "svc.png"
+
+format:
+  html:
+    include-in-header:
+      - text: |
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+          <script src="https://unpkg.com/react@17/umd/react.production.min.js"></script>
+          <script src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"></script>
+          <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+---
+
+::: {style="text-align: left; padding: 10px;"}
+<a href="mailto:info@frenchwithkunal.ca" target="_blank" style="margin: 0 10px; color: #000;"><i class="fas fa-envelope fa-lg"></i></a> <a href="https://www.instagram.com/frenchwithkunal" target="_blank" style="margin: 0 10px; color: #E1306C;"><i class="fab fa-instagram fa-lg"></i></a> <a href="https://frenchwithkunal.ca" target="_blank" style="margin: 0 10px; color: #0077b5;"><i class="fas fa-globe fa-lg"></i></a> <a href="https://whatsapp.com/channel/0029Vb57n2e7dmegpjYpyi3V" target="_blank" style="margin: 0 10px; color: #25D366;"><i class="fab fa-whatsapp fa-lg"></i></a> <button onclick="copyLink()" style="background-color: #0077b5; color: white; padding: 8px 16px; border: none; border-radius: 4px; cursor: pointer; margin-left: 10px;"> <i class="fas fa-copy"></i> </button> [Link copied!]{#copy-message style="margin-left: 10px; color: green; display: none;"}
+:::
+
+```{=html}
+<script>
+  function copyLink() {
+    // Get the current page URL
+    const url = window.location.href;
+    
+    // Copy the URL to the clipboard
+    navigator.clipboard.writeText(url).then(() => {
+      // Show a confirmation message
+      const message = document.getElementById("copy-message");
+      message.style.display = "inline";
+      setTimeout(() => {
+        message.style.display = "none";
+      }, 2000); // Hide the message after 2 seconds
+    });
+  }
+</script>
+```
+
+```{=html}
+<script>
+const usersDatabase = ["khuranasoilpau@gmail.com", "rumeetwala@gmail.com", "test", "gargikhurana2003@gmail.com", "bharat0311@hotmail.com"]; // Add your authorized users here
+const userInput = prompt(
+  document.documentElement.lang === "fr"
+    ? "Entrez votre email pour voir cet article :"
+    : "Enter your email to view this post:"
+);
+
+if (!usersDatabase.includes(userInput)) {
+  alert(
+    document.documentElement.lang === "fr"
+      ? "Vous n'avez pas accès à cet article. Veuillez vous abonner pour y accéder."
+      : "You do not have access to this post. Please subscribe to gain access."
+  );
+  window.location.href =
+    document.documentElement.lang === "fr"
+      ? "https://frenchwithkunal.ca/fr/payment.html"
+      : "https://frenchwithkunal.ca/payment.html"; // Redirect to the subscription/payment page
+}
+
+
+</script>
+```
+
+------------------------------------------------------------------------
+
+::: {.content-visible when-profile="english"}
+When learning a language, mastering the basic **Subject + Verb + Object (SVO)** structure is essential for forming correct sentences. Whether in English or French, this structure is the foundation of communication. In this article, we’ll break down each element and see how to identify them easily. You can refer to this pdf for more details.
+
+------------------------------------------------------------------------
+
+## **1. The Subject: Who Performs the Action?**
+
+The **subject** is the element that performs the action in the sentence. It can be:\
+- **A noun** (Kunal, Mary)\
+- **A pronoun** (he, she, we, they)\
+- **An infinitive verb** ("To eat is important.")\
+- **A clause** ("What he said surprised me.")
+
+### **How to Find the Subject?**
+
+Ask yourself: **“Who?”** or **“What?”**\
+- *Example:* **"Kunal teaches French classes."**\
+→ **Who teaches French classes?** → **Kunal** (subject).
+
+------------------------------------------------------------------------
+
+## **2. The Verb: The Action or State**
+
+The **verb** expresses the **action** performed by the subject or its **state**. To identify it:\
+- Look for the word that changes with tense (I **eat**, he **ate**).\
+- In a complex sentence, ignore relative clauses (*who, which, that*) and focus on the main clause.
+
+*Example:*\
+**"Kunal, who is from India, teaches French classes."**\
+→ If we remove **"who is from India"**, the core sentence is: **"Kunal teaches French classes."**\
+→ The main verb is **"teaches"**.
+
+------------------------------------------------------------------------
+
+## **3. The Object: What Completes the Sentence**
+
+Everything that is **not the subject or verb** is an **object**. It can be:\
+- **Direct Object (DO)** – Answers **“What?” / “Whom?”**\
+→ *"He eats **an apple**."* (eats what? → an apple)\
+- **Indirect Object (IO)** – Answers **“To whom?” / “For what?”**\
+→ *"He speaks **to his friend**."* (speaks to whom? → to his friend)\
+- **Adverbial (Place/Time)** – Adds details.\
+→ *"He leaves **tomorrow**."* (when? → tomorrow)
+
+------------------------------------------------------------------------
+:::
+
+::: {.content-visible when-profile="french"}
+Lorsqu’on apprend une langue, maîtriser la structure de base **Sujet + Verbe + Complément (SVC)** est essentiel pour construire des phrases correctes. Que ce soit en anglais ou en français, cette structure est la fondation de la communication. Dans cet article, nous allons décomposer chaque élément et voir comment les identifier facilement.
+
+------------------------------------------------------------------------
+
+## **1. Le Sujet : Qui fait l’action ?**
+
+Le **sujet** est l’élément qui réalise l’action dans la phrase. Il peut être :\
+- **Un nom** (Kunal, Marie)\
+- **Un pronom** (il, elle, nous, ils)\
+- **Un verbe à l’infinitif** (Manger est important.)\
+- **Une proposition** (Ce qu’il a dit m’a surpris.)
+
+### **Comment trouver le sujet ?**
+
+Posez-vous la question : **« Qui est-ce qui ? »** ou **« Qu’est-ce qui ? »**\
+- *Exemple :* **"Kunal donne des cours de français."**\
+→ **Qui est-ce qui donne des cours ?** → **Kunal** (sujet).
+
+------------------------------------------------------------------------
+
+## **2. Le Verbe : L’Action ou l’État**
+
+Le **verbe** exprime **l’action** faite par le sujet ou **son état**. Pour l’identifier :\
+- Cherchez le mot qui change selon le temps (je **mange**, il **a mangé**).\
+- Dans une phrase complexe, ignorez les propositions relatives (*qui, que, dont*) et concentrez-vous sur la phrase principale.
+
+*Exemple :*\
+**"Kunal, qui vient d’Inde, donne des cours de français."**\
+→ Si on enlève **"qui vient d’Inde"**, la phrase de base est : **"Kunal donne des cours de français."**\
+→ Le verbe principal est **"donne"**.
+
+------------------------------------------------------------------------
+
+## **3. Le Complément : Ce Qui Complete la Phrase**
+
+Tout ce qui n’est **ni sujet ni verbe** est un **complément**. Il peut être :\
+- **Direct** (COD) : Répond à **"Quoi ? / Qui ?"**\
+→ *"Il mange **une pomme**."* (mange quoi ? → une pomme)\
+- **Indirect** (COI) : Répond à **"À qui ? / De quoi ?"**\
+→ *"Il parle **à son ami**."* (parle à qui ? → à son ami)\
+- **De lieu / temps** : Donne des précisions.\
+→ *"Il part **demain**."* (quand ? → demain)
+
+------------------------------------------------------------------------
+:::
