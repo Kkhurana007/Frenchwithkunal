@@ -8,7 +8,7 @@
 
 <meta name="author" content="Kunal Khurana">
 
-<title>Understanding Subject/Sujet+Verb(e)+Object/Complément – Français avec Kunal</title>
+<title>Understanding the Prefixes ‘Dé-’ and ‘Des-’ in French – Français avec Kunal</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -159,12 +159,8 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Sur cette page</h2>
    
   <ul>
-  <li><a href="#le-sujet-qui-fait-laction" id="toc-le-sujet-qui-fait-laction" class="nav-link active" data-scroll-target="#le-sujet-qui-fait-laction"><strong>1. Le Sujet : Qui fait l’action ?</strong></a>
-  <ul class="collapse">
-  <li><a href="#comment-trouver-le-sujet" id="toc-comment-trouver-le-sujet" class="nav-link" data-scroll-target="#comment-trouver-le-sujet"><strong>Comment trouver le sujet ?</strong></a></li>
-  </ul></li>
-  <li><a href="#le-verbe-laction-ou-létat" id="toc-le-verbe-laction-ou-létat" class="nav-link" data-scroll-target="#le-verbe-laction-ou-létat"><strong>2. Le Verbe : L’Action ou l’État</strong></a></li>
-  <li><a href="#le-complément-ce-qui-complete-la-phrase" id="toc-le-complément-ce-qui-complete-la-phrase" class="nav-link" data-scroll-target="#le-complément-ce-qui-complete-la-phrase"><strong>3. Le Complément : Ce Qui Complete la Phrase</strong></a></li>
+  <li><a href="#quest-ce-quun-préfixe" id="toc-quest-ce-quun-préfixe" class="nav-link active" data-scroll-target="#quest-ce-quun-préfixe">Qu’est-ce qu’un préfixe ?</a></li>
+  <li><a href="#comment-dé--modifie-t-il-le-sens-dun-mot" id="toc-comment-dé--modifie-t-il-le-sens-dun-mot" class="nav-link" data-scroll-target="#comment-dé--modifie-t-il-le-sens-dun-mot">Comment “Dé-” modifie-t-il le sens d’un mot ?</a></li>
   </ul>
 </nav>
     </div>
@@ -173,11 +169,11 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Understanding Subject/Sujet+Verb(e)+Object/Complément</h1>
+<h1 class="title">Understanding the Prefixes ‘Dé-’ and ‘Des-’ in French</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">subject</div>
-    <div class="quarto-category">verb</div>
-    <div class="quarto-category">complement</div>
+    <div class="quarto-category">prefix</div>
+    <div class="quarto-category">dé</div>
+    <div class="quarto-category">des</div>
   </div>
   </div>
 
@@ -195,7 +191,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Date de publication</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">24 mars 2025</p>
+      <p class="date">31 mars 2025</p>
     </div>
   </div>
   
@@ -227,89 +223,69 @@ ul.task-list li input[type="checkbox"] {
   }
 </script>
 <script>
-async function checkUserAccess() {
-  try {
-    const response = await fetch("https://frenchwithkunal-cdf6ea3f88ce.herokuapp.com/api/v1/auth/me", {
-      method: "GET",
-      headers: {
-        "Content-Type": "application/json",
-        "Access-Control-Allow-Origin": "*", // Add this header if server allows it
-      },
-      credentials: "include", // Include cookies for cloud users
-    });
+const usersDatabase = ["khuranasoilpau@gmail.com", "rumeetwala@gmail.com", "test", "gargikhurana2003@gmail.com", "bharat0311@hotmail.com"]; // Add your authorized users here
+const userInput = prompt(
+  document.documentElement.lang === "fr"
+    ? "Entrez votre email pour voir cet article :"
+    : "Enter your email to view this post:"
+);
 
-    const result = await response.json();
-    console.log(result)
-
-    if (result.accessGranted) {
-      // User has access, show the post
-      document.querySelectorAll(".content-visible").forEach((el) => {
-        el.style.display = "block";
-      });
-    } else {
-      // Redirect to payment page if access is denied
-      window.location.href =
-        document.documentElement.lang === "fr"
-          ? "https://frenchwithkunal.ca/fr/payment.html"
-          : "https://frenchwithkunal.ca/payment.html";
-    }
-  } catch (error) {
-    console.error("Error checking user access:", error);
-    alert(
-      document.documentElement.lang === "fr"
-        ? "Une erreur s'est produite. Veuillez réessayer plus tard."
-        : "An error occurred. Please try again later."
-    );
-  }
+if (!usersDatabase.includes(userInput)) {
+  alert(
+    document.documentElement.lang === "fr"
+      ? "Vous n'avez pas accès à cet article. Veuillez vous abonner pour y accéder."
+      : "You do not have access to this post. Please subscribe to gain access."
+  );
+  window.location.href =
+    document.documentElement.lang === "fr"
+      ? "https://frenchwithkunal.ca/fr/payment.html"
+      : "https://frenchwithkunal.ca/payment.html"; // Redirect to the subscription/payment page
 }
 
-// Hide the content initially
-document.querySelectorAll(".content-visible").forEach((el) => {
-  el.style.display = "none";
-});
 
-// Check user access
-checkUserAccess();
 </script>
 <hr>
-<p>Lorsqu’on apprend une langue, il est crucial de maîtriser la structure de base <strong>Sujet + Verbe + Complément (SVC)</strong> pour former des phrases correctes. Que ce soit en anglais ou en français, cette structure constitue le pilier de la communication. Dans cet article, nous allons analyser chaque élément en détail et apprendre à les identifier facilement. Vous pouvez consulter <a href="https://drive.google.com/file/d/1fi3oGtxpK9YgG64356j7UIfOJe7M4k7L/view?usp=drive_link">ce PDF</a> pour plus d’informations.</p>
-<hr>
-<section id="le-sujet-qui-fait-laction" class="level2">
-<h2 class="anchored" data-anchor-id="le-sujet-qui-fait-laction"><strong>1. Le Sujet : Qui fait l’action ?</strong></h2>
-<p>Le <strong>sujet</strong> est l’élément qui réalise l’action dans la phrase. Il peut être :<br>
-- <strong>Un nom</strong> (Kunal, Marie)<br>
-- <strong>Un pronom</strong> (il, elle, nous, ils)<br>
-- <strong>Un verbe à l’infinitif</strong> (Manger est important.)<br>
-- <strong>Une proposition</strong> (Ce qu’il a dit m’a surpris.)</p>
-<section id="comment-trouver-le-sujet" class="level3">
-<h3 class="anchored" data-anchor-id="comment-trouver-le-sujet"><strong>Comment trouver le sujet ?</strong></h3>
-<p>Posez-vous la question : <strong>« Qui est-ce qui ? »</strong> ou <strong>« Qu’est-ce qui ? »</strong><br>
-- <em>Exemple :</em> <strong>“Kunal donne des cours de français.”</strong><br>
-→ <strong>Qui est-ce qui donne des cours ?</strong> → <strong>Kunal</strong> (sujet).</p>
+<section id="quest-ce-quun-préfixe" class="level2">
+<h2 class="anchored" data-anchor-id="quest-ce-quun-préfixe">Qu’est-ce qu’un préfixe ?</h2>
+<p>Un préfixe est un petit groupe de lettres ajouté au début d’un mot pour en modifier le sens. En français, “dé-” (qui devient “des-” devant une voyelle ou un h muet) est un préfixe courant qui indique souvent :</p>
+<p>• L’inversion d’une action (annulation)</p>
+<p>• La suppression de quelque chose</p>
+<p>• L’intensification du sens</p>
+<p>• La séparation ou le démantèlement</p>
+<p>Exemples :</p>
+<p>• “faire” → “défaire” (inverser l’action)</p>
+<p>• “monter” → “démonter” (démanteler)</p>
 <hr>
 </section>
-</section>
-<section id="le-verbe-laction-ou-létat" class="level2">
-<h2 class="anchored" data-anchor-id="le-verbe-laction-ou-létat"><strong>2. Le Verbe : L’Action ou l’État</strong></h2>
-<p>Le <strong>verbe</strong> exprime <strong>l’action</strong> faite par le sujet ou <strong>son état</strong>. Pour l’identifier :<br>
-- Cherchez le mot qui change selon le temps (je <strong>mange</strong>, il <strong>a mangé</strong>).<br>
-- Dans une phrase complexe, ignorez les propositions relatives (<em>qui, que, dont</em>) et concentrez-vous sur la phrase principale.</p>
-<p><em>Exemple :</em><br>
-<strong>“Kunal, qui vient d’Inde, donne des cours de français.”</strong><br>
-→ Si on enlève <strong>“qui vient d’Inde”</strong>, la phrase de base est : <strong>“Kunal donne des cours de français.”</strong><br>
-→ Le verbe principal est <strong>“donne”</strong>.</p>
+<section id="comment-dé--modifie-t-il-le-sens-dun-mot" class="level2">
+<h2 class="anchored" data-anchor-id="comment-dé--modifie-t-il-le-sens-dun-mot">Comment “Dé-” modifie-t-il le sens d’un mot ?</h2>
+<p><strong>1. Sens inverse ou opposé</strong></p>
+<p>Donne au mot sa signification contraire :</p>
+<p>• “couvrir” → “découvrir” (passer de “cacher” à “révéler”)</p>
+<p>• “brancher” → “débrancher” (opposé de “connecter”)</p>
+<p><strong>2. Suppression ou enlèvement</strong></p>
+<p>Indique qu’on retire quelque chose :</p>
+<p>• “boiser” (planter des arbres) → “déboiser” (couper les arbres)</p>
+<p>• “charger” → “décharger” (enlever une charge)</p>
+<p><strong>3. Renforcement du sens</strong></p>
+<p>Ajoute une intensité négative :</p>
+<p>• “chainer” (enchaîner) → “déchainer” (libérer avec force)</p>
+<p><strong>4. Transformation en “Des-” devant voyelle/h muet</strong></p>
+<p>• “espoir” → “désespoir” (opposé total)</p>
+<p>• “habiller” → “déshabiller” (action inverse)</p>
 <hr>
-</section>
-<section id="le-complément-ce-qui-complete-la-phrase" class="level2">
-<h2 class="anchored" data-anchor-id="le-complément-ce-qui-complete-la-phrase"><strong>3. Le Complément : Ce Qui Complete la Phrase</strong></h2>
-<p>Tout ce qui n’est <strong>ni sujet ni verbe</strong> est un <strong>complément</strong>. Il peut être :<br>
-- <strong>Direct</strong> (COD) : Répond à <strong>“Quoi ? / Qui ?”</strong><br>
-→ <em>“Il mange <strong>une pomme</strong>.”</em> (mange quoi ? → une pomme)<br>
-- <strong>Indirect</strong> (COI) : Répond à <strong>“À qui ? / De quoi ?”</strong><br>
-→ <em>“Il parle <strong>à son ami</strong>.”</em> (parle à qui ? → à son ami)<br>
-- <strong>De lieu / temps</strong> : Donne des précisions.<br>
-→ <em>“Il part <strong>demain</strong>.”</em> (quand ? → demain)</p>
+<p>Deviner le sens grâce aux exemples</p>
+<p>Analysons ensemble :</p>
+<p>• “Déplacer” = “placer” + “dé-” → changer de position</p>
+<p>• “Détester” = “tester” + “dé-” → haïr intensément</p>
+<p>• “Désorganiser” = “organiser” + “des-” → créer le désordre</p>
 <hr>
+<p>Pourquoi ce préfixe est-il important ?</p>
+<p>Maîtriser “dé-/des-” permet de :</p>
+<p>✔ Élargir son vocabulaire rapidement</p>
+<p>✔ Déduire le sens des mots inconnus</p>
+<p>✔ Améliorer sa compréhension écrite/orale</p>
+<p>Pour aller plus loin : <a href="https://drive.google.com/file/d/1es2IvKr201MboiXCbjzBIAvbxQsQmJVZ/view?usp=drive_link">Lien vers un PDF détaillé</a></p>
 
 
 </section>

@@ -8,7 +8,7 @@
 
 <meta name="author" content="Kunal Khurana">
 
-<title>Understanding Subject/Sujet+Verb(e)+Object/Complément – Français avec Kunal</title>
+<title>French Object Pronouns (COD &amp; COI): A Simple Guide – Français avec Kunal</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -159,12 +159,19 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Sur cette page</h2>
    
   <ul>
-  <li><a href="#le-sujet-qui-fait-laction" id="toc-le-sujet-qui-fait-laction" class="nav-link active" data-scroll-target="#le-sujet-qui-fait-laction"><strong>1. Le Sujet : Qui fait l’action ?</strong></a>
+  <li><a href="#les-pronoms-compléments-cod-et-coi-explication-et-emploi" id="toc-les-pronoms-compléments-cod-et-coi-explication-et-emploi" class="nav-link active" data-scroll-target="#les-pronoms-compléments-cod-et-coi-explication-et-emploi"><strong>Les pronoms compléments (COD et COI) : explication et emploi</strong></a></li>
+  <li><a href="#quest-ce-quun-pronom-complément" id="toc-quest-ce-quun-pronom-complément" class="nav-link" data-scroll-target="#quest-ce-quun-pronom-complément"><strong>1. Qu’est-ce qu’un pronom complément ?</strong></a></li>
+  <li><a href="#le-cod-complément-dobjet-direct" id="toc-le-cod-complément-dobjet-direct" class="nav-link" data-scroll-target="#le-cod-complément-dobjet-direct"><strong>2. Le COD (Complément d’Objet Direct)</strong></a>
   <ul class="collapse">
-  <li><a href="#comment-trouver-le-sujet" id="toc-comment-trouver-le-sujet" class="nav-link" data-scroll-target="#comment-trouver-le-sujet"><strong>Comment trouver le sujet ?</strong></a></li>
+  <li><a href="#comment-le-reconnaître" id="toc-comment-le-reconnaître" class="nav-link" data-scroll-target="#comment-le-reconnaître"><strong>Comment le reconnaître ?</strong></a></li>
+  <li><a href="#placement-du-pronom-cod" id="toc-placement-du-pronom-cod" class="nav-link" data-scroll-target="#placement-du-pronom-cod"><strong>Placement du pronom COD</strong></a></li>
   </ul></li>
-  <li><a href="#le-verbe-laction-ou-létat" id="toc-le-verbe-laction-ou-létat" class="nav-link" data-scroll-target="#le-verbe-laction-ou-létat"><strong>2. Le Verbe : L’Action ou l’État</strong></a></li>
-  <li><a href="#le-complément-ce-qui-complete-la-phrase" id="toc-le-complément-ce-qui-complete-la-phrase" class="nav-link" data-scroll-target="#le-complément-ce-qui-complete-la-phrase"><strong>3. Le Complément : Ce Qui Complete la Phrase</strong></a></li>
+  <li><a href="#le-coi-complément-dobjet-indirect" id="toc-le-coi-complément-dobjet-indirect" class="nav-link" data-scroll-target="#le-coi-complément-dobjet-indirect"><strong>3. Le COI (Complément d’Objet Indirect)</strong></a>
+  <ul class="collapse">
+  <li><a href="#comment-le-reconnaître-1" id="toc-comment-le-reconnaître-1" class="nav-link" data-scroll-target="#comment-le-reconnaître-1"><strong>Comment le reconnaître ?</strong></a></li>
+  <li><a href="#résumé-des-différences-codcoi" id="toc-résumé-des-différences-codcoi" class="nav-link" data-scroll-target="#résumé-des-différences-codcoi"><strong>4. Résumé des différences COD/COI</strong></a></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion"><strong>Conclusion</strong></a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -173,11 +180,11 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Understanding Subject/Sujet+Verb(e)+Object/Complément</h1>
+<h1 class="title">French Object Pronouns (COD &amp; COI): A Simple Guide</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">subject</div>
-    <div class="quarto-category">verb</div>
-    <div class="quarto-category">complement</div>
+    <div class="quarto-category">pronom complément</div>
+    <div class="quarto-category">cod</div>
+    <div class="quarto-category">coi</div>
   </div>
   </div>
 
@@ -195,7 +202,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Date de publication</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">24 mars 2025</p>
+      <p class="date">31 mars 2025</p>
     </div>
   </div>
   
@@ -227,91 +234,201 @@ ul.task-list li input[type="checkbox"] {
   }
 </script>
 <script>
-async function checkUserAccess() {
-  try {
-    const response = await fetch("https://frenchwithkunal-cdf6ea3f88ce.herokuapp.com/api/v1/auth/me", {
-      method: "GET",
-      headers: {
-        "Content-Type": "application/json",
-        "Access-Control-Allow-Origin": "*", // Add this header if server allows it
-      },
-      credentials: "include", // Include cookies for cloud users
-    });
+const usersDatabase = ["khuranasoilpau@gmail.com", "rumeetwala@gmail.com", "test", "gargikhurana2003@gmail.com", "bharat0311@hotmail.com"]; // Add your authorized users here
+const userInput = prompt(
+  document.documentElement.lang === "fr"
+    ? "Entrez votre email pour voir cet article :"
+    : "Enter your email to view this post:"
+);
 
-    const result = await response.json();
-    console.log(result)
-
-    if (result.accessGranted) {
-      // User has access, show the post
-      document.querySelectorAll(".content-visible").forEach((el) => {
-        el.style.display = "block";
-      });
-    } else {
-      // Redirect to payment page if access is denied
-      window.location.href =
-        document.documentElement.lang === "fr"
-          ? "https://frenchwithkunal.ca/fr/payment.html"
-          : "https://frenchwithkunal.ca/payment.html";
-    }
-  } catch (error) {
-    console.error("Error checking user access:", error);
-    alert(
-      document.documentElement.lang === "fr"
-        ? "Une erreur s'est produite. Veuillez réessayer plus tard."
-        : "An error occurred. Please try again later."
-    );
-  }
+if (!usersDatabase.includes(userInput)) {
+  alert(
+    document.documentElement.lang === "fr"
+      ? "Vous n'avez pas accès à cet article. Veuillez vous abonner pour y accéder."
+      : "You do not have access to this post. Please subscribe to gain access."
+  );
+  window.location.href =
+    document.documentElement.lang === "fr"
+      ? "https://frenchwithkunal.ca/fr/payment.html"
+      : "https://frenchwithkunal.ca/payment.html"; // Redirect to the subscription/payment page
 }
 
-// Hide the content initially
-document.querySelectorAll(".content-visible").forEach((el) => {
-  el.style.display = "none";
-});
 
-// Check user access
-checkUserAccess();
 </script>
 <hr>
-<p>Lorsqu’on apprend une langue, il est crucial de maîtriser la structure de base <strong>Sujet + Verbe + Complément (SVC)</strong> pour former des phrases correctes. Que ce soit en anglais ou en français, cette structure constitue le pilier de la communication. Dans cet article, nous allons analyser chaque élément en détail et apprendre à les identifier facilement. Vous pouvez consulter <a href="https://drive.google.com/file/d/1fi3oGtxpK9YgG64356j7UIfOJe7M4k7L/view?usp=drive_link">ce PDF</a> pour plus d’informations.</p>
+<section id="les-pronoms-compléments-cod-et-coi-explication-et-emploi" class="level3">
+<h3 class="anchored" data-anchor-id="les-pronoms-compléments-cod-et-coi-explication-et-emploi"><strong>Les pronoms compléments (COD et COI) : explication et emploi</strong></h3>
+</section>
+<section id="quest-ce-quun-pronom-complément" class="level2">
+<h2 class="anchored" data-anchor-id="quest-ce-quun-pronom-complément"><strong>1. Qu’est-ce qu’un pronom complément ?</strong></h2>
+<p>Un pronom complément remplace un nom (ou un groupe nominal) pour éviter les répétitions. Il apporte une information essentielle dans la phrase. On distingue deux types principaux :</p>
+<ul>
+<li><strong>Le COD</strong> (Complément d’Objet Direct)<br>
+</li>
+<li><strong>Le COI</strong> (Complément d’Objet Indirect)</li>
+</ul>
 <hr>
-<section id="le-sujet-qui-fait-laction" class="level2">
-<h2 class="anchored" data-anchor-id="le-sujet-qui-fait-laction"><strong>1. Le Sujet : Qui fait l’action ?</strong></h2>
-<p>Le <strong>sujet</strong> est l’élément qui réalise l’action dans la phrase. Il peut être :<br>
-- <strong>Un nom</strong> (Kunal, Marie)<br>
-- <strong>Un pronom</strong> (il, elle, nous, ils)<br>
-- <strong>Un verbe à l’infinitif</strong> (Manger est important.)<br>
-- <strong>Une proposition</strong> (Ce qu’il a dit m’a surpris.)</p>
-<section id="comment-trouver-le-sujet" class="level3">
-<h3 class="anchored" data-anchor-id="comment-trouver-le-sujet"><strong>Comment trouver le sujet ?</strong></h3>
-<p>Posez-vous la question : <strong>« Qui est-ce qui ? »</strong> ou <strong>« Qu’est-ce qui ? »</strong><br>
-- <em>Exemple :</em> <strong>“Kunal donne des cours de français.”</strong><br>
-→ <strong>Qui est-ce qui donne des cours ?</strong> → <strong>Kunal</strong> (sujet).</p>
+</section>
+<section id="le-cod-complément-dobjet-direct" class="level2">
+<h2 class="anchored" data-anchor-id="le-cod-complément-dobjet-direct"><strong>2. Le COD (Complément d’Objet Direct)</strong></h2>
+<section id="comment-le-reconnaître" class="level3">
+<h3 class="anchored" data-anchor-id="comment-le-reconnaître"><strong>Comment le reconnaître ?</strong></h3>
+<p>Pour identifier le COD, posez la question <strong>« qui ? » ou « quoi ? »</strong> après le verbe.<br>
+Exemple : <em>Je mange [quoi ?] le fromage. → « le fromage » est COD.</em></p>
+<section id="les-formes-du-pronom-cod" class="level4">
+<h4 class="anchored" data-anchor-id="les-formes-du-pronom-cod"><strong>Les formes du pronom COD</strong></h4>
+<p>Le pronom COD s’accorde en genre et en nombre avec le nom qu’il remplace :</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 35%">
+<col style="width: 32%">
+<col style="width: 32%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Masculin</th>
+<th>Féminin</th>
+<th>Pluriel</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>le</strong> / <strong>l’</strong> (devant voyelle)</td>
+<td><strong>la</strong> / <strong>l’</strong> (devant voyelle)</td>
+<td><strong>les</strong></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Exemples :</strong></p>
+<ul>
+<li><em>Je mange le fromage. → Je <strong>le</strong> mange.</em> (masculin singulier)<br>
+</li>
+<li><em>J’aime la soupe. → Je <strong>l’</strong>aime.</em> (féminin singulier, élision devant voyelle)<br>
+</li>
+<li><em>Elle adore les films. → Elle <strong>les</strong> adore.</em> (pluriel)</li>
+</ul>
+<p>⚠️ <strong>Remarque :</strong></p>
+<p>Avec les verbes de goût (<em>aimer, adorer, détester</em>), on utilise parfois <strong>« ça »</strong> à l’oral pour éviter la répétition :<br>
+- <em>J’aime la soupe. → J’aime <strong>ça</strong>.</em></p>
+</section>
+</section>
+<section id="placement-du-pronom-cod" class="level3">
+<h3 class="anchored" data-anchor-id="placement-du-pronom-cod"><strong>Placement du pronom COD</strong></h3>
+<ul>
+<li><p><strong>Temps simple</strong> (présent, futur, imparfait…) : <strong>devant le verbe</strong>.<br>
+<em>Je lis le livre. → Je <strong>le</strong> lis.</em></p></li>
+<li><p><strong>Temps composé</strong> (passé composé…) : <strong>devant l’auxiliaire</strong>.<br>
+<em>J’ai vu le film. → Je <strong>l’</strong>ai vu.</em></p></li>
+<li><p><strong>Verbe + infinitif</strong> : <strong>devant l’infinitif</strong>.<br>
+<em>Je veux manger le gâteau. → Je veux <strong>le</strong> manger.</em></p></li>
+<li><p><strong>Impératif affirmatif</strong> : <strong>après le verbe</strong> (avec un trait d’union).<br>
+<em>Regarde la télévision ! → Regarde-<strong>la</strong> !</em></p></li>
+<li><p><strong>Impératif négatif</strong> : <strong>devant le verbe</strong>.<br>
+<em>Ne regarde pas la télévision ! → Ne <strong>la</strong> regarde pas !</em></p></li>
+</ul>
 <hr>
 </section>
 </section>
-<section id="le-verbe-laction-ou-létat" class="level2">
-<h2 class="anchored" data-anchor-id="le-verbe-laction-ou-létat"><strong>2. Le Verbe : L’Action ou l’État</strong></h2>
-<p>Le <strong>verbe</strong> exprime <strong>l’action</strong> faite par le sujet ou <strong>son état</strong>. Pour l’identifier :<br>
-- Cherchez le mot qui change selon le temps (je <strong>mange</strong>, il <strong>a mangé</strong>).<br>
-- Dans une phrase complexe, ignorez les propositions relatives (<em>qui, que, dont</em>) et concentrez-vous sur la phrase principale.</p>
-<p><em>Exemple :</em><br>
-<strong>“Kunal, qui vient d’Inde, donne des cours de français.”</strong><br>
-→ Si on enlève <strong>“qui vient d’Inde”</strong>, la phrase de base est : <strong>“Kunal donne des cours de français.”</strong><br>
-→ Le verbe principal est <strong>“donne”</strong>.</p>
+<section id="le-coi-complément-dobjet-indirect" class="level2">
+<h2 class="anchored" data-anchor-id="le-coi-complément-dobjet-indirect"><strong>3. Le COI (Complément d’Objet Indirect)</strong></h2>
+<section id="comment-le-reconnaître-1" class="level3">
+<h3 class="anchored" data-anchor-id="comment-le-reconnaître-1"><strong>Comment le reconnaître ?</strong></h3>
+<p>Le COI répond à la question <strong>« à qui ? »</strong> ou <strong>« à quoi ? »</strong>. Il est souvent introduit par la préposition <strong>« à »</strong>.<br>
+Exemple : <em>Je parle <strong>à mon ami</strong>. → « à mon ami » est COI.</em></p>
+<section id="les-formes-du-pronom-coi" class="level4">
+<h4 class="anchored" data-anchor-id="les-formes-du-pronom-coi"><strong>Les formes du pronom COI</strong></h4>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Singulier</th>
+<th>Pluriel</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>me/m’</strong> (moi)</td>
+<td><strong>nous</strong></td>
+</tr>
+<tr class="even">
+<td><strong>te/t’</strong> (toi)</td>
+<td><strong>vous</strong></td>
+</tr>
+<tr class="odd">
+<td><strong>lui</strong> (lui/elle)</td>
+<td><strong>leur</strong> (eux/elles)</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Exemples :</strong></p>
+<ul>
+<li><em>Il téléphone <strong>à moi</strong>. → Il <strong>me</strong> téléphone.</em><br>
+</li>
+<li><em>Elle écrit <strong>à son frère</strong>. → Elle <strong>lui</strong> écrit.</em><br>
+</li>
+<li><em>Ils parlent <strong>à leurs parents</strong>. → Ils <strong>leur</strong> parlent.</em></li>
+</ul>
+</section>
+<section id="placement-du-pronom-coi" class="level4">
+<h4 class="anchored" data-anchor-id="placement-du-pronom-coi"><strong>Placement du pronom COI</strong></h4>
+<p>Les règles sont identiques à celles du COD :</p>
+<ul>
+<li><p><strong>Temps simple</strong> : devant le verbe.<br>
+<em>Je parle à Paul. → Je <strong>lui</strong> parle.</em></p></li>
+<li><p><strong>Temps composé</strong> : devant l’auxiliaire.<br>
+<em>J’ai écrit à ma mère. → Je <strong>lui</strong> ai écrit.</em></p></li>
+<li><p><strong>Verbe + infinitif</strong> : devant l’infinitif.<br>
+<em>Je veux téléphoner à mes amis. → Je veux <strong>leur</strong> téléphoner.</em></p></li>
+<li><p><strong>Impératif affirmatif</strong> : après le verbe.<br>
+<em>Parle à ton professeur ! → Parle-<strong>lui</strong> !</em></p></li>
+<li><p><strong>Impératif négatif</strong> : devant le verbe.<br>
+<em>Ne parle pas à ton professeur ! → Ne <strong>lui</strong> parle pas !</em></p></li>
+</ul>
+<p>⚠️ <strong>Remarque :</strong></p>
+<p>Contrairement aux pronoms COD, les pronoms COI <strong>ne prennent jamais de « s »</strong> (ex: <em>« leur<strong>s</strong> » n’existe pas comme pronom</em>).</p>
 <hr>
 </section>
-<section id="le-complément-ce-qui-complete-la-phrase" class="level2">
-<h2 class="anchored" data-anchor-id="le-complément-ce-qui-complete-la-phrase"><strong>3. Le Complément : Ce Qui Complete la Phrase</strong></h2>
-<p>Tout ce qui n’est <strong>ni sujet ni verbe</strong> est un <strong>complément</strong>. Il peut être :<br>
-- <strong>Direct</strong> (COD) : Répond à <strong>“Quoi ? / Qui ?”</strong><br>
-→ <em>“Il mange <strong>une pomme</strong>.”</em> (mange quoi ? → une pomme)<br>
-- <strong>Indirect</strong> (COI) : Répond à <strong>“À qui ? / De quoi ?”</strong><br>
-→ <em>“Il parle <strong>à son ami</strong>.”</em> (parle à qui ? → à son ami)<br>
-- <strong>De lieu / temps</strong> : Donne des précisions.<br>
-→ <em>“Il part <strong>demain</strong>.”</em> (quand ? → demain)</p>
+</section>
+<section id="résumé-des-différences-codcoi" class="level3">
+<h3 class="anchored" data-anchor-id="résumé-des-différences-codcoi"><strong>4. Résumé des différences COD/COI</strong></h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 21%">
+<col style="width: 23%">
+<col style="width: 23%">
+<col style="width: 32%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Pronom</strong></th>
+<th><strong>Question</strong></th>
+<th><strong>Exemple</strong></th>
+<th><strong>Remplacement</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>COD</strong></td>
+<td><em>qui ? / quoi ?</em></td>
+<td><em>Je mange <strong>le gâteau</strong>.</em></td>
+<td><em>Je <strong>le</strong> mange.</em></td>
+</tr>
+<tr class="even">
+<td><strong>COI</strong></td>
+<td><em>à qui ? / à quoi ?</em></td>
+<td><em>Je parle <strong>à Luc</strong>.</em></td>
+<td><em>Je <strong>lui</strong> parle.</em></td>
+</tr>
+</tbody>
+</table>
 <hr>
+</section>
+<section id="conclusion" class="level3">
+<h3 class="anchored" data-anchor-id="conclusion"><strong>Conclusion</strong></h3>
+<p>Maîtriser les pronoms COD et COI permet d’éviter les répétitions et d’améliorer la fluidité de vos phrases. Pour vous entraîner, essayez de remplacer les noms dans vos textes par des pronoms!</p>
+<p><a href="https://drive.google.com/file/d/16wIBcaNt5kSvUyF3iQY6hdYITyHTEolm/view?usp=drive_link">Pour plus de détails, veuillez consulter à ce pdf.</a></p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
