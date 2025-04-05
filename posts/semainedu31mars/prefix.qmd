@@ -1,0 +1,254 @@
+---
+title: "Understanding the Prefixes 'Dé-' and 'Des-' in French"
+author: "Kunal Khurana"
+date: "03-31-2025"
+categories: [prefix, dé, des]
+image: "prefix_de.png"
+
+format:
+  html:
+    include-in-header:
+      - text: |
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+          <script src="https://unpkg.com/react@17/umd/react.production.min.js"></script>
+          <script src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"></script>
+          <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+---
+
+::: {style="text-align: left; padding: 10px;"}
+<a href="mailto:info@frenchwithkunal.ca" target="_blank" style="margin: 0 10px; color: #000;"><i class="fas fa-envelope fa-lg"></i></a> <a href="https://www.instagram.com/frenchwithkunal" target="_blank" style="margin: 0 10px; color: #E1306C;"><i class="fab fa-instagram fa-lg"></i></a> <a href="https://frenchwithkunal.ca" target="_blank" style="margin: 0 10px; color: #0077b5;"><i class="fas fa-globe fa-lg"></i></a> <a href="https://whatsapp.com/channel/0029Vb57n2e7dmegpjYpyi3V" target="_blank" style="margin: 0 10px; color: #25D366;"><i class="fab fa-whatsapp fa-lg"></i></a> <button onclick="copyLink()" style="background-color: #0077b5; color: white; padding: 8px 16px; border: none; border-radius: 4px; cursor: pointer; margin-left: 10px;"> <i class="fas fa-copy"></i> </button> [Link copied!]{#copy-message style="margin-left: 10px; color: green; display: none;"}
+:::
+
+
+
+```{=html}
+<script>
+  function copyLink() {
+    // Get the current page URL
+    const url = window.location.href;
+    
+    // Copy the URL to the clipboard
+    navigator.clipboard.writeText(url).then(() => {
+      // Show a confirmation message
+      const message = document.getElementById("copy-message");
+      message.style.display = "inline";
+      setTimeout(() => {
+        message.style.display = "none";
+      }, 2000); // Hide the message after 2 seconds
+    });
+  }
+</script>
+```
+
+<script>
+const usersDatabase = ["khuranasoilpau@gmail.com", "rumeetwala@gmail.com", "test", "gargikhurana2003@gmail.com", "bharat0311@hotmail.com"]; // Add your authorized users here
+const userInput = prompt(
+  document.documentElement.lang === "fr"
+    ? "Entrez votre email pour voir cet article :"
+    : "Enter your email to view this post:"
+);
+
+if (!usersDatabase.includes(userInput)) {
+  alert(
+    document.documentElement.lang === "fr"
+      ? "Vous n'avez pas accès à cet article. Veuillez vous abonner pour y accéder."
+      : "You do not have access to this post. Please subscribe to gain access."
+  );
+  window.location.href =
+    document.documentElement.lang === "fr"
+      ? "https://frenchwithkunal.ca/fr/payment.html"
+      : "https://frenchwithkunal.ca/payment.html"; // Redirect to the subscription/payment page
+}
+
+
+</script>
+
+---
+
+
+::: {.content-visible when-profile="english"}
+
+
+## What Is a Prefix? (Qu'est-ce qu'un préfixe?)
+
+A prefix is a small group of letters added at the beginning of a word to modify its meaning. In French, "dé-" (which becomes "des-" before a vowel or a silent h) is a common prefix that often indicates:
+
+•	Reversal (annulation)
+
+•	Removal (suppression)
+
+•	Intensification (renforcement)
+
+•	Separation (séparation)
+
+For example:
+
+•	"faire" (to do) → "défaire" (to undo)
+
+•	"monter" (to climb) → "démonter" (to disassemble)
+
+---
+
+
+## How Does "Dé-" Change a Word’s Meaning?
+
+(Comment "Dé-" change-t-il le sens d'un mot ?)
+
+The prefix "dé-" / "des-" alters the original word in different ways:
+
+**1. Reversal or Opposite Meaning**
+
+(Sens inverse ou opposé)
+
+•	"couvrir" (to cover) → "découvrir" (to uncover, discover)
+
+•	"brancher" (to plug in) → "débrancher" (to unplug)
+
+**2. Removal or Separation**
+
+(Suppression ou séparation)
+
+•	"boiser" (to plant trees) → "déboiser" (to deforest)
+
+•	"charger" (to load) → "décharger" (to unload)
+
+**3. Intensification**
+
+(Renforcement du sens)
+
+•	"chainer" (to chain) → "déchainer" (to unleash, intensify)
+
+
+**4. Transformation into "Des-" Before Vowels/Silent H**
+
+(Transformation en "Des-" devant une voyelle ou un h muet)
+
+•	"espoir" (hope) → "désespoir" (despair)
+
+•	"habiller" (to dress) → "déshabiller" (to undress)
+
+---
+
+
+Guessing the Meaning with Examples
+
+(Deviner le sens à l'aide d'exemples)
+
+Let’s analyze some words to understand how "dé-" / "des-" works:
+
+1.	"Déplacer" = "placer" (to place) + "dé-" → to move (change position)
+
+2.	"Détester" = "tester" (to test) + "dé-" → to hate (strong negative feeling)
+
+3.	"Désorganiser" = "organiser" (to organize) + "des-" → to disorganize
+
+---
+
+
+Why Is This Prefix Important?
+
+(Pourquoi ce préfixe est-il important ?)
+
+
+Understanding "dé-" / "des-" helps in:
+
+✔ Expanding vocabulary by recognizing word patterns.
+
+✔ Guessing meanings of unfamiliar words.
+
+✔ Improving comprehension in reading and listening.
+
+For more details, [check out this PDF guide on prefixes](https://drive.google.com/file/d/1es2IvKr201MboiXCbjzBIAvbxQsQmJVZ/view?usp=drive_link).
+
+
+---
+
+
+:::
+
+
+
+::: {.content-visible when-profile="french"}
+
+
+
+## Qu'est-ce qu'un préfixe ?
+
+Un préfixe est un petit groupe de lettres ajouté au début d'un mot pour en modifier le sens. En français, "dé-" (qui devient "des-" devant une voyelle ou un h muet) est un préfixe courant qui indique souvent :
+
+•	L'inversion d'une action (annulation)
+
+•	La suppression de quelque chose
+
+•	L'intensification du sens
+
+•	La séparation ou le démantèlement
+
+Exemples :
+
+•	"faire" → "défaire" (inverser l'action)
+
+•	"monter" → "démonter" (démanteler)
+
+---
+
+## Comment "Dé-" modifie-t-il le sens d'un mot ?
+
+**1. Sens inverse ou opposé**
+
+Donne au mot sa signification contraire :
+
+•	"couvrir" → "découvrir" (passer de "cacher" à "révéler")
+
+•	"brancher" → "débrancher" (opposé de "connecter")
+
+
+**2. Suppression ou enlèvement**
+
+Indique qu'on retire quelque chose :
+
+•	"boiser" (planter des arbres) → "déboiser" (couper les arbres)
+
+•	"charger" → "décharger" (enlever une charge)
+
+**3. Renforcement du sens**
+
+Ajoute une intensité négative :
+
+•	"chainer" (enchaîner) → "déchainer" (libérer avec force)
+
+
+**4. Transformation en "Des-" devant voyelle/h muet**
+
+•	"espoir" → "désespoir" (opposé total)
+
+•	"habiller" → "déshabiller" (action inverse)
+
+---
+
+Deviner le sens grâce aux exemples
+
+Analysons ensemble :
+
+•	"Déplacer" = "placer" + "dé-" → changer de position
+
+•	"Détester" = "tester" + "dé-" → haïr intensément
+
+•	"Désorganiser" = "organiser" + "des-" → créer le désordre
+
+---
+
+Pourquoi ce préfixe est-il important ?
+
+Maîtriser "dé-/des-" permet de :
+
+✔ Élargir son vocabulaire rapidement
+
+✔ Déduire le sens des mots inconnus
+
+✔ Améliorer sa compréhension écrite/orale
+
+Pour aller plus loin : [Lien vers un PDF détaillé](https://drive.google.com/file/d/1es2IvKr201MboiXCbjzBIAvbxQsQmJVZ/view?usp=drive_link)
+
+
+:::

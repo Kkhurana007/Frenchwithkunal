@@ -30,7 +30,6 @@ image: "partitifs.png"
 ```
 
 ::: {.content-visible when-profile="english"}
-
 [In today’s lecture](https://drive.google.com/file/d/1pmXE4InVTA4GYXucCMEuXqqUrPkjtUQv/view?usp=drive_link), we explored the concept of **partitive articles** in French. Partitives are used to express an unspecified quantity of something, often paired with verbs related to eating, drinking, or buying. However, their usage changes in specific contexts, such as negatives, adverbs, and quantities. Let’s dive deeper into this topic with clear examples to help you understand how partitives work and when they change.
 
 #### What Are Partitive Articles?
@@ -84,11 +83,9 @@ When expressing specific quantities, the partitive article is replaced by **de**
 
 -   *J’achète des pâtes.*\
     → *J’achète une assiette de pâtes.* (I buy a plate of pasta.)
-
 :::
 
 ::: {.content-visible when-profile="french"}
-
 [Dans le cours d’aujourd’hui](https://drive.google.com/file/d/1pmXE4InVTA4GYXucCMEuXqqUrPkjtUQv/view?usp=drive_link), nous avons exploré le concept des **articles partitifs** en français. Les partitifs sont utilisés pour exprimer une quantité indéfinie ou non comptable de quelque chose, souvent associés à des verbes liés à la nourriture, à la boisson ou à l’achat. Cependant, leur utilisation change dans des contextes spécifiques, tels que les négations, les adverbes et les quantités. Plongeons plus profondément dans ce sujet avec des exemples clairs pour vous aider à comprendre comment fonctionnent les partitifs et quand ils changent.
 
 #### Que Sont les Articles Partitifs ?
@@ -144,5 +141,4 @@ Lorsqu’on exprime des quantités spécifiques, l’article partitif est rempla
     → *J’achète une assiette de pâtes.*
 
 En comprenant ces règles, vous serez capable d’utiliser correctement les articles partitifs dans différents contextes. Pratiquez ces exemples, et bientôt vous maîtriserez les nuances des partitifs en français!
-
 :::
