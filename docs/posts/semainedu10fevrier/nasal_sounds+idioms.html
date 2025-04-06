@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.6.43">
+<meta name="generator" content="quarto-1.6.40">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -38,12 +38,12 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-d4d76bf8491c20bad77d141916dc28e1.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-4379b0ccadffce622b03caf4c46266b3.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-8ea72dc5fed832574809a9c94082fbbb.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-a78bc22c21c5275f96438b53095d57b2.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/bootstrap/bootstrap-dark-7f2ec24aee834e62cd2de1bda3d4642b.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../site_libs/bootstrap/bootstrap-2f6844b3748638c5738d4cf93630e566.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-8aa8884591a9136173b71f6048871fae.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -72,6 +72,12 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" <link="">
+<script src="https://unpkg.com/react@17/umd/react.production.min.js"></script>
+<script src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"></script>
+<script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+
+
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-fixed">
@@ -161,7 +167,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#irregular-verbs" id="toc-irregular-verbs" class="nav-link" data-scroll-target="#irregular-verbs">Irregular Verbs</a></li>
   </ul></li>
   </ul>
-<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="nasal_sounds+idioms.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></nav>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -206,30 +212,28 @@ ul.task-list li input[type="checkbox"] {
 <div style="text-align: left; padding: 10px;">
 <p><a href="mailto:info@frenchwithkunal.ca" target="_blank" style="margin: 0 10px; color: #000;"><i class="fas fa-envelope fa-lg"></i></a> <a href="https://www.instagram.com/frenchwithkunal" target="_blank" style="margin: 0 10px; color: #E1306C;"><i class="fab fa-instagram fa-lg"></i></a> <a href="https://frenchwithkunal.ca" target="_blank" style="margin: 0 10px; color: #0077b5;"><i class="fas fa-globe fa-lg"></i></a> <a href="https://whatsapp.com/channel/0029Vb57n2e7dmegpjYpyi3V" target="_blank" style="margin: 0 10px; color: #25D366;"><i class="fab fa-whatsapp fa-lg"></i></a> <button onclick="copyLink()" style="background-color: #0077b5; color: white; padding: 8px 16px; border: none; border-radius: 4px; cursor: pointer; margin-left: 10px;"> <i class="fas fa-copy"></i> </button> <span id="copy-message" style="margin-left: 10px; color: green; display: none;">Link copied!</span></p>
 </div>
-<script>
-  function copyLink() {
-    // Get the current page URL
-    const url = window.location.href;
-    
-    // Copy the URL to the clipboard
-    navigator.clipboard.writeText(url).then(() => {
-      // Show a confirmation message
-      const message = document.getElementById("copy-message");
-      message.style.display = "inline";
-      setTimeout(() => {
-        message.style.display = "none";
-      }, 2000); // Hide the message after 2 seconds
-    });
-  }
-</script>
 <div id="react-root">
 
 </div>
 <script type="text/babel">
-
-const ProfilePage = () => {
-
+ const ProfilePage = () => {
   const { useState, useEffect } = React;
+  const [redirectCounter, setRedirectCounter] = useState(4);
+  const [isRedirecting, setIsRedirecting] = useState(false);
+
+  const isFrench = document.documentElement.lang === "fr";
+
+  const translations = {
+    noAccess: isFrench 
+      ? "Vous n'avez pas accès à cette page."
+      : "You don't have access to this page.",
+    subscribe: isFrench
+      ? "Veuillez vous abonner pour obtenir l'accès."
+      : "Please subscribe to gain access.",
+    redirecting: isFrench
+      ? `Redirection vers la page d'abonnement dans ${redirectCounter} secondes...`
+      : `Redirecting to subscription page in ${redirectCounter} seconds...`
+  };
 
   const refreshToken = async () => {
     const storedRefreshToken = localStorage.getItem("refreshToken");
@@ -292,46 +296,60 @@ const ProfilePage = () => {
     return response.json();
   };
 
+  const showNoAccessMessage = () => {
+    setIsRedirecting(true);
+    
+    const noAccessMessage = `
+      <div style="text-align: center; padding: 20px;">
+        <h2>${translations.noAccess}</h2>
+        <p>${translations.subscribe}</p>
+        <p>${translations.redirecting}</p>
+      </div>
+    `;
+    document.body.innerHTML = noAccessMessage;
+    
+    // Start countdown and redirect
+    const redirectInterval = setInterval(() => {
+      setRedirectCounter((prev) => {
+        const newCounter = prev - 1;
+        if (newCounter <= 0) {
+          clearInterval(redirectInterval);
+          window.location.href = "https://frenchwithkunal.ca/payment.html";
+        }
+        
+        // Update the countdown text
+        const countdownElement = document.querySelector('p:last-child');
+        if (countdownElement) {
+          countdownElement.textContent = isFrench
+            ? `Redirection vers la page d'abonnement dans ${newCounter} secondes...`
+            : `Redirecting to subscription page in ${newCounter} seconds...`;
+        }
+        
+        return newCounter;
+      });
+    }, 1000);
+  };
+
   useEffect(() => {
     const storedToken = localStorage.getItem('accessToken');
 
-    if (!storedToken) {
+    if(!storedToken) {
       showNoAccessMessage();
-    }
-    if (storedToken) {
-      const fetchData = async () => {
+    } else {
+      const fetchData = async() => {
         const data = await fetchWithAuth("https://frenchwithkunal-cdf6ea3f88ce.herokuapp.com/api/v1/auth/me", {
           method: "POST",
         });
 
-        if (data.data.hasAccess) {
+        if (data && data.data && data.data.hasAccess) {
           console.log(data);
-
         } else {
           showNoAccessMessage();
         }
-
-      }
+      };
       fetchData();
     }
-
   }, []);
-
-  function showNoAccessMessage() {
-    const profileLanguage = document.documentElement.lang || "en";
-    const noAccessMessage = profileLanguage === "fr" ? `
-      <div style="text-align: center; padding: 20px;">
-        <h2>Vous n'avez pas accès à cette page.</h2>
-        <p>Veuillez <a href="https://frenchwithkunal.ca/fr/payment.html">vous abonner</a> pour obtenir l'accès.</p>
-      </div>
-    ` : `
-      <div style="text-align: center; padding: 20px;">
-        <h2>You don't have access to this page.</h2>
-        <p>Please <a href="https://frenchwithkunal.ca/payment.html">subscribe</a> to gain access.</p>
-      </div>
-    `;
-    document.body.innerHTML = noAccessMessage;
-  }
 
   return (
     <div></div>
@@ -342,8 +360,7 @@ ReactDOM.render(
   <ProfilePage />,
   document.getElementById('react-root')
 );
-</script>
-<hr>
+ </script>
 <p>In our <a href="https://drive.google.com/file/d/1UD3_-TVeg8Kbqp3WwYykWKA69q3Ka6re/view?usp=drive_link">latest French lesson</a>, we delved into two fascinating aspects of the language: nasal sounds and the impératif du présent (present imperative). These topics are essential for mastering pronunciation and everyday communication in French.</p>
 <section id="nasal-sounds" class="level2">
 <h2 class="anchored" data-anchor-id="nasal-sounds">Nasal sounds</h2>

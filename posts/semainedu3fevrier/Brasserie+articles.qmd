@@ -4,106 +4,240 @@ author: "Kunal Khurana"
 date: "02-07-2025"
 categories: [A1/A2, commander, brasserie, articles ]
 image: "Brasserie+articles.png"
+
+format:
+  html:
+    include-in-header:
+      - text: |
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+          <script src="https://unpkg.com/react@17/umd/react.production.min.js"></script>
+          <script src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"></script>
+          <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
 ---
 
-<div style="text-align: left; padding: 10px;">
-  <a href="mailto:info@frenchwithkunal.ca" target="_blank" style="margin: 0 10px; color: #000;"><i class="fas fa-envelope fa-lg"></i></a>
-  <a href="https://www.instagram.com/frenchwithkunal" target="_blank" style="margin: 0 10px; color: #E1306C;"><i class="fab fa-instagram fa-lg"></i></a>
-  <a href="https://frenchwithkunal.ca" target="_blank" style="margin: 0 10px; color: #0077b5;"><i class="fas fa-globe fa-lg"></i></a>
-  <a href="https://whatsapp.com/channel/0029Vb57n2e7dmegpjYpyi3V" target="_blank" style="margin: 0 10px; color: #25D366;"><i class="fab fa-whatsapp fa-lg"></i></a>
-  <button onclick="copyLink()" style="background-color: #0077b5; color: white; padding: 8px 16px; border: none; border-radius: 4px; cursor: pointer; margin-left: 10px;">
-    <i class="fas fa-copy"></i> 
-  </button>
-  <span id="copy-message" style="margin-left: 10px; color: green; display: none;">Link copied!</span>
-</div>
+::: {style="text-align: left; padding: 10px;"}
+<a href="mailto:info@frenchwithkunal.ca" target="_blank" style="margin: 0 10px; color: #000;"><i class="fas fa-envelope fa-lg"></i></a> <a href="https://www.instagram.com/frenchwithkunal" target="_blank" style="margin: 0 10px; color: #E1306C;"><i class="fab fa-instagram fa-lg"></i></a> <a href="https://frenchwithkunal.ca" target="_blank" style="margin: 0 10px; color: #0077b5;"><i class="fas fa-globe fa-lg"></i></a> <a href="https://whatsapp.com/channel/0029Vb57n2e7dmegpjYpyi3V" target="_blank" style="margin: 0 10px; color: #25D366;"><i class="fab fa-whatsapp fa-lg"></i></a> <button onclick="copyLink()" style="background-color: #0077b5; color: white; padding: 8px 16px; border: none; border-radius: 4px; cursor: pointer; margin-left: 10px;"> <i class="fas fa-copy"></i> </button> [Link copied!]{#copy-message style="margin-left: 10px; color: green; display: none;"}
+:::
 
-<script>
-  function copyLink() {
-    // Get the current page URL
-    const url = window.location.href;
+
+<div id="react-root"></div>
+ <script type="text/babel">
+ const ProfilePage = () => {
+  const { useState, useEffect } = React;
+  const [redirectCounter, setRedirectCounter] = useState(4);
+  const [isRedirecting, setIsRedirecting] = useState(false);
+
+  const isFrench = document.documentElement.lang === "fr";
+
+  const translations = {
+    noAccess: isFrench 
+      ? "Vous n'avez pas accès à cette page."
+      : "You don't have access to this page.",
+    subscribe: isFrench
+      ? "Veuillez vous abonner pour obtenir l'accès."
+      : "Please subscribe to gain access.",
+    redirecting: isFrench
+      ? `Redirection vers la page d'abonnement dans ${redirectCounter} secondes...`
+      : `Redirecting to subscription page in ${redirectCounter} seconds...`
+  };
+
+  const refreshToken = async () => {
+    const storedRefreshToken = localStorage.getItem("refreshToken");
+
+    if (!storedRefreshToken) {
+      window.location.href = "/login.html";
+      return null;
+    }
+
+    try {
+      const response = await fetch("https://frenchwithkunal-cdf6ea3f88ce.herokuapp.com/api/v1/auth/refresh-token", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ refreshToken: storedRefreshToken }),
+      });
+
+      if (!response.ok) {
+        localStorage.removeItem("accessToken");
+        localStorage.removeItem("refreshToken");
+        window.location.href = "/login.html";
+        return null;
+      }
+
+      const data = await response.json();
+      localStorage.setItem("accessToken", data.accessToken);
+      return data.accessToken;
+    } catch (error) {
+      localStorage.removeItem("accessToken");
+      localStorage.removeItem("refreshToken");
+      window.location.href = "/login.html";
+      return null;
+    }
+  };
+
+  const fetchWithAuth = async (url, options = {}) => {
+    let accessToken = localStorage.getItem("accessToken");
+
+    options.headers = {
+      ...options.headers,
+      Authorization: `Bearer ${accessToken}`,
+      "Content-Type": "application/json",
+    };
+
+    let response = await fetch(url, options);
+
+    if (response.status === 401) {
+      console.log("Access token expired, attempting to refresh...");
+
+      // Refresh token
+      accessToken = await refreshToken();
+
+      if (!accessToken) return null;
+
+      options.headers.Authorization = `Bearer ${accessToken}`;
+      response = await fetch(url, options);
+    }
+
+    return response.json();
+  };
+
+  const showNoAccessMessage = () => {
+    setIsRedirecting(true);
     
-    // Copy the URL to the clipboard
-    navigator.clipboard.writeText(url).then(() => {
-      // Show a confirmation message
-      const message = document.getElementById("copy-message");
-      message.style.display = "inline";
-      setTimeout(() => {
-        message.style.display = "none";
-      }, 2000); // Hide the message after 2 seconds
-    });
-  }
-</script>
+    const noAccessMessage = `
+      <div style="text-align: center; padding: 20px;">
+        <h2>${translations.noAccess}</h2>
+        <p>${translations.subscribe}</p>
+        <p>${translations.redirecting}</p>
+      </div>
+    `;
+    document.body.innerHTML = noAccessMessage;
+    
+    // Start countdown and redirect
+    const redirectInterval = setInterval(() => {
+      setRedirectCounter((prev) => {
+        const newCounter = prev - 1;
+        if (newCounter <= 0) {
+          clearInterval(redirectInterval);
+          window.location.href = "https://frenchwithkunal.ca/payment.html";
+        }
+        
+        // Update the countdown text
+        const countdownElement = document.querySelector('p:last-child');
+        if (countdownElement) {
+          countdownElement.textContent = isFrench
+            ? `Redirection vers la page d'abonnement dans ${newCounter} secondes...`
+            : `Redirecting to subscription page in ${newCounter} seconds...`;
+        }
+        
+        return newCounter;
+      });
+    }, 1000);
+  };
 
+  useEffect(() => {
+    const storedToken = localStorage.getItem('accessToken');
+
+    if(!storedToken) {
+      showNoAccessMessage();
+    } else {
+      const fetchData = async() => {
+        const data = await fetchWithAuth("https://frenchwithkunal-cdf6ea3f88ce.herokuapp.com/api/v1/auth/me", {
+          method: "POST",
+        });
+
+        if (data && data.data && data.data.hasAccess) {
+          console.log(data);
+        } else {
+          showNoAccessMessage();
+        }
+      };
+      fetchData();
+    }
+  }, []);
+
+  return (
+    <div></div>
+  );
+};
+
+ReactDOM.render(
+  <ProfilePage />,
+  document.getElementById('react-root')
+);
+ </script>
 
 ::: {.content-visible when-profile="english"}
+In today’s [lecture](https://drive.google.com/file/d/1ESQ5L5H1BAVH96tB-sZq4b_lJrkGgsdO/view?usp=drive_link), we focused on some practical and everyday scenarios that are super helpful for navigating life in France: **ordering drinks in a café** and **buying refreshments in a brasserie**. We also touched on the use of **articles** (like *le, la, les, un, une, des*) in French, which are essential for constructing sentences correctly.
 
-In today’s [lecture](https://drive.google.com/file/d/1ESQ5L5H1BAVH96tB-sZq4b_lJrkGgsdO/view?usp=drive_link), we focused on some practical and everyday scenarios that are super helpful for navigating life in France: **ordering drinks in a café** and **buying refreshments in a brasserie**. We also touched on the use of **articles** (like *le, la, les, un, une, des*) in French, which are essential for constructing sentences correctly.  
+### Ordering Drinks in a Café
 
-### Ordering Drinks in a Café  
-Ordering in a café is a quintessential French experience, and we learned how to do it confidently. For example:  
-- **« Je voudrais un café, s’il vous plaît. »** (I would like a coffee, please.)  
-- **« Un thé vert, s’il vous plaît. »** (A green tea, please.)  
-- **« L’addition, s’il vous plaît. »** (The bill, please.)  
+Ordering in a café is a quintessential French experience, and we learned how to do it confidently. For example:\
+- **« Je voudrais un café, s’il vous plaît. »** (I would like a coffee, please.)\
+- **« Un thé vert, s’il vous plaît. »** (A green tea, please.)\
+- **« L’addition, s’il vous plaît. »** (The bill, please.)
 
-These simple phrases can make your café visits smooth and enjoyable.  
+These simple phrases can make your café visits smooth and enjoyable.
 
-### Buying Refreshments in a Brasserie  
-A brasserie is a great place to grab a quick snack or drink, and we practiced how to order there too. For instance:  
-- **« Je prends une bouteille d’eau, s’il vous plaît. »** (I’ll take a bottle of water, please.)  
-- **« Une limonade, s’il vous plaît. »** (A lemonade, please.)  
-- **« Combien ça coûte ? »** (How much does it cost?)  
+### Buying Refreshments in a Brasserie
 
-These phrases are perfect for when you’re out and about and need a quick refreshment.  
+A brasserie is a great place to grab a quick snack or drink, and we practiced how to order there too. For instance:\
+- **« Je prends une bouteille d’eau, s’il vous plaît. »** (I’ll take a bottle of water, please.)\
+- **« Une limonade, s’il vous plaît. »** (A lemonade, please.)\
+- **« Combien ça coûte ? »** (How much does it cost?)
 
-### Articles in French  
-We also discussed **articles** (*le, la, les, un, une, des*), which are small but mighty words that define nouns. For example:  
-- **« Le café »** (the coffee) vs. **« Un café »** (a coffee).  
-- **« La limonade »** (the lemonade) vs. **« Une limonade »** (a lemonade).  
+These phrases are perfect for when you’re out and about and need a quick refreshment.
 
-One helpful tip we learned is that **definite articles (le, la, les)** are not used after certain prepositions and verbs, such as **parler, de, and en**. For example:  
-- **« Je parle français. »** (I speak French.) – No article after *parler*.  
-- **« J’ai besoin de café. »** (I need coffee.) – No article after *de*.  
-- **« C’est en anglais. »** (It’s in English.) – No article after *en*.  
+### Articles in French
 
-This rule simplifies learning because it reduces the need to memorize articles in these specific contexts.  
+We also discussed **articles** (*le, la, les, un, une, des*), which are small but mighty words that define nouns. For example:\
+- **« Le café »** (the coffee) vs. **« Un café »** (a coffee).\
+- **« La limonade »** (the lemonade) vs. **« Une limonade »** (a lemonade).
+
+One helpful tip we learned is that **definite articles (le, la, les)** are not used after certain prepositions and verbs, such as **parler, de, and en**. For example:\
+- **« Je parle français. »** (I speak French.) – No article after *parler*.\
+- **« J’ai besoin de café. »** (I need coffee.) – No article after *de*.\
+- **« C’est en anglais. »** (It’s in English.) – No article after *en*.
+
+This rule simplifies learning because it reduces the need to memorize articles in these specific contexts.
 
 This lecture was packed with practical tips that are perfect for anyone looking to feel more confident in French-speaking environments. Whether you’re sipping coffee at a café or grabbing a drink at a brasserie, these phrases will definitely come in handy. À bientôt !
-
-
 :::
 
 ::: {.content-visible when-profile="french"}
+Dans le [cours](https://drive.google.com/file/d/1ESQ5L5H1BAVH96tB-sZq4b_lJrkGgsdO/view?usp=drive_link) d’aujourd’hui, nous nous sommes concentrés sur des situations pratiques et quotidiennes qui sont extrêmement utiles pour naviguer en France : **commander des boissons dans un café** et **acheter des rafraîchissements dans une brasserie**. Nous avons également abordé l’utilisation des **articles** (comme *le, la, les, un, une, des*) en français, qui sont essentiels pour construire des phrases correctement.
 
-Dans le [cours](https://drive.google.com/file/d/1ESQ5L5H1BAVH96tB-sZq4b_lJrkGgsdO/view?usp=drive_link) d’aujourd’hui, nous nous sommes concentrés sur des situations pratiques et quotidiennes qui sont extrêmement utiles pour naviguer en France : **commander des boissons dans un café** et **acheter des rafraîchissements dans une brasserie**. Nous avons également abordé l’utilisation des **articles** (comme *le, la, les, un, une, des*) en français, qui sont essentiels pour construire des phrases correctement.  
+### Commander des Boissons dans un Café
 
-### Commander des Boissons dans un Café  
-Commander dans un café est une expérience typiquement française, et nous avons appris à le faire en toute confiance. Par exemple :  
-- **« Je voudrais un café, s’il vous plaît. »** (Je voudrais un café, s’il vous plaît.)  
-- **« Un thé vert, s’il vous plaît. »** (Un thé vert, s’il vous plaît.)  
-- **« L’addition, s’il vous plaît. »** (L’addition, s’il vous plaît.)  
+Commander dans un café est une expérience typiquement française, et nous avons appris à le faire en toute confiance. Par exemple :\
+- **« Je voudrais un café, s’il vous plaît. »** (Je voudrais un café, s’il vous plaît.)\
+- **« Un thé vert, s’il vous plaît. »** (Un thé vert, s’il vous plaît.)\
+- **« L’addition, s’il vous plaît. »** (L’addition, s’il vous plaît.)
 
-Ces phrases simples rendront vos visites au café fluides et agréables.  
+Ces phrases simples rendront vos visites au café fluides et agréables.
 
-### Acheter des Rafraîchissements dans une Brasserie  
-Une brasserie est un endroit idéal pour prendre un en-cas ou une boisson, et nous avons également pratiqué comment y commander. Par exemple :  
-- **« Je prends une bouteille d’eau, s’il vous plaît. »** (Je prends une bouteille d’eau, s’il vous plaît.)  
-- **« Une limonade, s’il vous plaît. »** (Une limonade, s’il vous plaît.)  
-- **« Combien ça coûte ? »** (Combien ça coûte ?)  
+### Acheter des Rafraîchissements dans une Brasserie
 
-Ces expressions sont parfaites pour quand vous êtes en déplacement et avez besoin d’un rafraîchissement rapide.  
+Une brasserie est un endroit idéal pour prendre un en-cas ou une boisson, et nous avons également pratiqué comment y commander. Par exemple :\
+- **« Je prends une bouteille d’eau, s’il vous plaît. »** (Je prends une bouteille d’eau, s’il vous plaît.)\
+- **« Une limonade, s’il vous plaît. »** (Une limonade, s’il vous plaît.)\
+- **« Combien ça coûte ? »** (Combien ça coûte ?)
 
-### Les Articles en Français  
-Nous avons également discuté des **articles** (*le, la, les, un, une, des*), ces petits mots puissants qui définissent les noms. Par exemple :  
-- **« Le café »** (le café) vs. **« Un café »** (un café).  
-- **« La limonade »** (la limonade) vs. **« Une limonade »** (une limonade).  
+Ces expressions sont parfaites pour quand vous êtes en déplacement et avez besoin d’un rafraîchissement rapide.
 
-Une astuce utile que nous avons apprise est que **les articles définis (le, la, les)** ne sont pas utilisés après certaines prépositions et verbes, comme **parler, de, et en**. Par exemple :  
-- **« Je parle français. »** (Je parle français.) – Pas d’article après *parler*.  
-- **« J’ai besoin de café. »** (J’ai besoin de café.) – Pas d’article après *de*.  
-- **« C’est en anglais. »** (C’est en anglais.) – Pas d’article après *en*.  
+### Les Articles en Français
 
-Cette règle simplifie l’apprentissage, car elle réduit le besoin de mémoriser les articles dans ces contextes spécifiques.  
+Nous avons également discuté des **articles** (*le, la, les, un, une, des*), ces petits mots puissants qui définissent les noms. Par exemple :\
+- **« Le café »** (le café) vs. **« Un café »** (un café).\
+- **« La limonade »** (la limonade) vs. **« Une limonade »** (une limonade).
+
+Une astuce utile que nous avons apprise est que **les articles définis (le, la, les)** ne sont pas utilisés après certaines prépositions et verbes, comme **parler, de, et en**. Par exemple :\
+- **« Je parle français. »** (Je parle français.) – Pas d’article après *parler*.\
+- **« J’ai besoin de café. »** (J’ai besoin de café.) – Pas d’article après *de*.\
+- **« C’est en anglais. »** (C’est en anglais.) – Pas d’article après *en*.
+
+Cette règle simplifie l’apprentissage, car elle réduit le besoin de mémoriser les articles dans ces contextes spécifiques.
 
 Ce cours était rempli de conseils pratiques, parfaits pour ceux qui souhaitent se sentir plus à l’aise dans des environnements francophones. Que vous sirotiez un café dans un café ou que vous preniez une boisson dans une brasserie, ces phrases vous seront certainement utiles. À bientôt !
-
 :::

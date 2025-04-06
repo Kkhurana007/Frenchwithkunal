@@ -4,140 +4,271 @@ author: "Kunal Khurana"
 date: "02-28-2025"
 categories: [A1/A2, irregular verbs, practice, kahoot]
 image: "irregular_verbs.png"
+format:
+  html:
+    include-in-header:
+      - text: |
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+          <script src="https://unpkg.com/react@17/umd/react.production.min.js"></script>
+          <script src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"></script>
+          <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
 ---
 
 ::: {style="text-align: left; padding: 10px;"}
 <a href="mailto:info@frenchwithkunal.ca" target="_blank" style="margin: 0 10px; color: #000;"><i class="fas fa-envelope fa-lg"></i></a> <a href="https://www.instagram.com/frenchwithkunal" target="_blank" style="margin: 0 10px; color: #E1306C;"><i class="fab fa-instagram fa-lg"></i></a> <a href="https://frenchwithkunal.ca" target="_blank" style="margin: 0 10px; color: #0077b5;"><i class="fas fa-globe fa-lg"></i></a> <a href="https://whatsapp.com/channel/0029Vb57n2e7dmegpjYpyi3V" target="_blank" style="margin: 0 10px; color: #25D366;"><i class="fab fa-whatsapp fa-lg"></i></a> <button onclick="copyLink()" style="background-color: #0077b5; color: white; padding: 8px 16px; border: none; border-radius: 4px; cursor: pointer; margin-left: 10px;"> <i class="fas fa-copy"></i> </button> [Link copied!]{#copy-message style="margin-left: 10px; color: green; display: none;"}
 :::
 
-```{=html}
-<script>
-  function copyLink() {
-    // Get the current page URL
-    const url = window.location.href;
+
+
+
+
+<div id="react-root"></div>
+ <script type="text/babel">
+ const ProfilePage = () => {
+  const { useState, useEffect } = React;
+  const [redirectCounter, setRedirectCounter] = useState(4);
+  const [isRedirecting, setIsRedirecting] = useState(false);
+
+  const isFrench = document.documentElement.lang === "fr";
+
+  const translations = {
+    noAccess: isFrench 
+      ? "Vous n'avez pas accès à cette page."
+      : "You don't have access to this page.",
+    subscribe: isFrench
+      ? "Veuillez vous abonner pour obtenir l'accès."
+      : "Please subscribe to gain access.",
+    redirecting: isFrench
+      ? `Redirection vers la page d'abonnement dans ${redirectCounter} secondes...`
+      : `Redirecting to subscription page in ${redirectCounter} seconds...`
+  };
+
+  const refreshToken = async () => {
+    const storedRefreshToken = localStorage.getItem("refreshToken");
+
+    if (!storedRefreshToken) {
+      window.location.href = "/login.html";
+      return null;
+    }
+
+    try {
+      const response = await fetch("https://frenchwithkunal-cdf6ea3f88ce.herokuapp.com/api/v1/auth/refresh-token", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ refreshToken: storedRefreshToken }),
+      });
+
+      if (!response.ok) {
+        localStorage.removeItem("accessToken");
+        localStorage.removeItem("refreshToken");
+        window.location.href = "/login.html";
+        return null;
+      }
+
+      const data = await response.json();
+      localStorage.setItem("accessToken", data.accessToken);
+      return data.accessToken;
+    } catch (error) {
+      localStorage.removeItem("accessToken");
+      localStorage.removeItem("refreshToken");
+      window.location.href = "/login.html";
+      return null;
+    }
+  };
+
+  const fetchWithAuth = async (url, options = {}) => {
+    let accessToken = localStorage.getItem("accessToken");
+
+    options.headers = {
+      ...options.headers,
+      Authorization: `Bearer ${accessToken}`,
+      "Content-Type": "application/json",
+    };
+
+    let response = await fetch(url, options);
+
+    if (response.status === 401) {
+      console.log("Access token expired, attempting to refresh...");
+
+      // Refresh token
+      accessToken = await refreshToken();
+
+      if (!accessToken) return null;
+
+      options.headers.Authorization = `Bearer ${accessToken}`;
+      response = await fetch(url, options);
+    }
+
+    return response.json();
+  };
+
+  const showNoAccessMessage = () => {
+    setIsRedirecting(true);
     
-    // Copy the URL to the clipboard
-    navigator.clipboard.writeText(url).then(() => {
-      // Show a confirmation message
-      const message = document.getElementById("copy-message");
-      message.style.display = "inline";
-      setTimeout(() => {
-        message.style.display = "none";
-      }, 2000); // Hide the message after 2 seconds
-    });
-  }
-</script>
-```
+    const noAccessMessage = `
+      <div style="text-align: center; padding: 20px;">
+        <h2>${translations.noAccess}</h2>
+        <p>${translations.subscribe}</p>
+        <p>${translations.redirecting}</p>
+      </div>
+    `;
+    document.body.innerHTML = noAccessMessage;
+    
+    // Start countdown and redirect
+    const redirectInterval = setInterval(() => {
+      setRedirectCounter((prev) => {
+        const newCounter = prev - 1;
+        if (newCounter <= 0) {
+          clearInterval(redirectInterval);
+          window.location.href = "https://frenchwithkunal.ca/payment.html";
+        }
+        
+        // Update the countdown text
+        const countdownElement = document.querySelector('p:last-child');
+        if (countdownElement) {
+          countdownElement.textContent = isFrench
+            ? `Redirection vers la page d'abonnement dans ${newCounter} secondes...`
+            : `Redirecting to subscription page in ${newCounter} seconds...`;
+        }
+        
+        return newCounter;
+      });
+    }, 1000);
+  };
+
+  useEffect(() => {
+    const storedToken = localStorage.getItem('accessToken');
+
+    if(!storedToken) {
+      showNoAccessMessage();
+    } else {
+      const fetchData = async() => {
+        const data = await fetchWithAuth("https://frenchwithkunal-cdf6ea3f88ce.herokuapp.com/api/v1/auth/me", {
+          method: "POST",
+        });
+
+        if (data && data.data && data.data.hasAccess) {
+          console.log(data);
+        } else {
+          showNoAccessMessage();
+        }
+      };
+      fetchData();
+    }
+  }, []);
+
+  return (
+    <div></div>
+  );
+};
+
+ReactDOM.render(
+  <ProfilePage />,
+  document.getElementById('react-root')
+);
+ </script>
 
 ::: {.content-visible when-profile="english"}
+[In today’s lecture](https://drive.google.com/file/d/1CX-20kAafIZtichqqzvPD-zptGNKh39N/view?usp=drive_link), we had an engaging and productive session that combined learning, technology, and fun! We practiced **10 irregular verbs**, installed **French keyboards** to simplify typing special characters, and played a lively game of **Kahoot** to reinforce our knowledge. Additionally, we discussed a crucial tip for mastering French verbs: understanding whether a verb is singular or plural before conjugating it. Let’s break down everything we covered in detail.
 
+------------------------------------------------------------------------
 
-[In today’s lecture](https://drive.google.com/file/d/1CX-20kAafIZtichqqzvPD-zptGNKh39N/view?usp=drive_link), we had an engaging and productive session that combined learning, technology, and fun! We practiced **10 irregular verbs**, installed **French keyboards** to simplify typing special characters, and played a lively game of **Kahoot** to reinforce our knowledge. Additionally, we discussed a crucial tip for mastering French verbs: understanding whether a verb is singular or plural before conjugating it. Let’s break down everything we covered in detail.  
+#### 1. **Practicing Irregular Verbs**
 
----
+Irregular verbs are a cornerstone of French grammar, and today we focused on 10 of them. Here are a few examples:
 
-#### 1. **Practicing Irregular Verbs**  
+-   *Être* (to be): *Je suis, tu es, il/elle est, nous sommes, vous êtes, ils/elles sont.*\
+-   *Avoir* (to have): *J’ai, tu as, il/elle a, nous avons, vous avez, ils/elles ont.*\
+-   *Aller* (to go): *Je vais, tu vas, il/elle va, nous allons, vous allez, ils/elles vont.*
 
-Irregular verbs are a cornerstone of French grammar, and today we focused on 10 of them. Here are a few examples:  
+We practiced these verbs in sentences to understand their usage better. For example:
 
-- *Être* (to be): *Je suis, tu es, il/elle est, nous sommes, vous êtes, ils/elles sont.*  
-- *Avoir* (to have): *J’ai, tu as, il/elle a, nous avons, vous avez, ils/elles ont.*  
-- *Aller* (to go): *Je vais, tu vas, il/elle va, nous allons, vous allez, ils/elles vont.*  
+-   *Je suis étudiant.* (I am a student.)\
+-   *Tu as un livre.* (You have a book.)\
+-   *Nous allons à l’école.* (We are going to school.)
 
-We practiced these verbs in sentences to understand their usage better. For example: 
+------------------------------------------------------------------------
 
-- *Je suis étudiant.* (I am a student.)  
-- *Tu as un livre.* (You have a book.)  
-- *Nous allons à l’école.* (We are going to school.)  
+#### 2. **Installing French Keyboards**
 
----
+Typing in French can be challenging due to special characters like *é, à, ç,* and *œ*. To make this easier, we installed **French keyboards** on our devices. This tool is incredibly helpful for writing accents and other diacritical marks correctly, ensuring our written French is accurate and polished.
 
-#### 2. **Installing French Keyboards**  
+------------------------------------------------------------------------
 
-Typing in French can be challenging due to special characters like *é, à, ç,* and *œ*. To make this easier, we installed **French keyboards** on our devices. This tool is incredibly helpful for writing accents and other diacritical marks correctly, ensuring our written French is accurate and polished.  
+#### 3. **Playing Kahoot**
 
----
+To make learning more interactive, we played a **Kahoot quiz**. This game was not only amusing but also a great way to consolidate what we’ve learned in the past. My students loved the competitive yet fun atmosphere, and it helped reinforce their understanding of French grammar and vocabulary.
 
-#### 3. **Playing Kahoot**  
+------------------------------------------------------------------------
 
-To make learning more interactive, we played a **Kahoot quiz**. This game was not only amusing but also a great way to consolidate what we’ve learned in the past. My students loved the competitive yet fun atmosphere, and it helped reinforce their understanding of French grammar and vocabulary.  
-
----
-
-#### 4. **A Crucial Tip for Verb Conjugation** 
+#### 4. **A Crucial Tip for Verb Conjugation**
 
 One of the most important aspects of mastering French verbs is determining whether a verb is **singular or plural** before conjugating it. Here’s why:
 
-- Over **99% of verbs** conjugated with *tu* end with an **-s**. The only exception is *pouvoir* (e.g., *tu peux*). 
+-   Over **99% of verbs** conjugated with *tu* end with an **-s**. The only exception is *pouvoir* (e.g., *tu peux*).
 
-- By asking ourselves whether the verb is singular or plural, we can minimize errors in conjugation.  
+-   By asking ourselves whether the verb is singular or plural, we can minimize errors in conjugation.
 
-For example:  
+For example:
 
-- *Tu manges une pomme.* (You eat an apple.) – Here, *manges* ends with an *-s* because the subject is singular. 
+-   *Tu manges une pomme.* (You eat an apple.) – Here, *manges* ends with an *-s* because the subject is singular.
 
-- *Vous mangez des pommes.* (You eat apples.) – Here, *mangez* does not end with an *-s* because the subject is plural.  
+-   *Vous mangez des pommes.* (You eat apples.) – Here, *mangez* does not end with an *-s* because the subject is plural.
 
----
+------------------------------------------------------------------------
 
-By combining grammar practice, technology, and fun activities like Kahoot, we’re making French learning both effective and enjoyable. Keep practicing these tips, and you’ll see significant progress in your French skills!  
+By combining grammar practice, technology, and fun activities like Kahoot, we’re making French learning both effective and enjoyable. Keep practicing these tips, and you’ll see significant progress in your French skills!
 
----
-
+------------------------------------------------------------------------
 :::
 
 ::: {.content-visible when-profile="french"}
+[Dans le cours d’aujourd’hui](https://drive.google.com/file/d/1CX-20kAafIZtichqqzvPD-zptGNKh39N/view?usp=drive_link), nous avons eu une séance engageante et productive qui a combiné apprentissage, technologie et amusement ! Nous avons pratiqué **10 verbes irréguliers**, installé des **claviers français** pour faciliter la saisie des caractères spéciaux, et joué à un jeu de **Kahoot** pour renforcer nos connaissances. De plus, nous avons discuté d’une astuce cruciale pour maîtriser les verbes français : comprendre si un verbe est au singulier ou au pluriel avant de le conjuguer. Décortiquons tout ce que nous avons abordé en détail.
 
-
-
-[Dans le cours d’aujourd’hui](https://drive.google.com/file/d/1CX-20kAafIZtichqqzvPD-zptGNKh39N/view?usp=drive_link), nous avons eu une séance engageante et productive qui a combiné apprentissage, technologie et amusement ! Nous avons pratiqué **10 verbes irréguliers**, installé des **claviers français** pour faciliter la saisie des caractères spéciaux, et joué à un jeu de **Kahoot** pour renforcer nos connaissances. De plus, nous avons discuté d’une astuce cruciale pour maîtriser les verbes français : comprendre si un verbe est au singulier ou au pluriel avant de le conjuguer. Décortiquons tout ce que nous avons abordé en détail.  
-
----
+------------------------------------------------------------------------
 
 #### 1. **Pratiquer les Verbes Irréguliers**
 
-Les verbes irréguliers sont une pierre angulaire de la grammaire française, et aujourd’hui, nous nous sommes concentrés sur 10 d’entre eux. Voici quelques exemples:  
+Les verbes irréguliers sont une pierre angulaire de la grammaire française, et aujourd’hui, nous nous sommes concentrés sur 10 d’entre eux. Voici quelques exemples:
 
-- *Être* : *Je suis, tu es, il/elle est, nous sommes, vous êtes, ils/elles sont.*  
-- *Avoir* : *J’ai, tu as, il/elle a, nous avons, vous avez, ils/elles ont.*  
-- *Aller* : *Je vais, tu vas, il/elle va, nous allons, vous allez, ils/elles vont.*  
+-   *Être* : *Je suis, tu es, il/elle est, nous sommes, vous êtes, ils/elles sont.*\
+-   *Avoir* : *J’ai, tu as, il/elle a, nous avons, vous avez, ils/elles ont.*\
+-   *Aller* : *Je vais, tu vas, il/elle va, nous allons, vous allez, ils/elles vont.*
 
-Nous avons pratiqué ces verbes dans des phrases pour mieux comprendre leur utilisation. Par exemple :  
-- *Je suis étudiant.*  
-- *Tu as un livre.*  
-- *Nous allons à l’école.*  
+Nous avons pratiqué ces verbes dans des phrases pour mieux comprendre leur utilisation. Par exemple :\
+- *Je suis étudiant.*\
+- *Tu as un livre.*\
+- *Nous allons à l’école.*
 
----
+------------------------------------------------------------------------
 
-#### 2. **Installer des Claviers Français**  
+#### 2. **Installer des Claviers Français**
 
-Écrire en français peut être difficile à cause des caractères spéciaux comme *é, à, ç,* et *œ*. Pour faciliter cela, nous avons installé des **claviers français** sur nos appareils. Cet outil est incroyablement utile pour écrire correctement les accents et autres signes diacritiques, garantissant que notre français écrit soit précis et soigné.  
+Écrire en français peut être difficile à cause des caractères spéciaux comme *é, à, ç,* et *œ*. Pour faciliter cela, nous avons installé des **claviers français** sur nos appareils. Cet outil est incroyablement utile pour écrire correctement les accents et autres signes diacritiques, garantissant que notre français écrit soit précis et soigné.
 
----
+------------------------------------------------------------------------
 
-#### 3. **Jouer à Kahoot** 
+#### 3. **Jouer à Kahoot**
 
-Pour rendre l’apprentissage plus interactif, nous avons joué à un **quiz Kahoot**. Ce jeu était non seulement amusant, mais aussi un excellent moyen de consolider ce que nous avons appris dans le passé. Mes élèves ont adoré l’atmosphère compétitive mais ludique, et cela a renforcé leur compréhension de la grammaire et du vocabulaire français.  
+Pour rendre l’apprentissage plus interactif, nous avons joué à un **quiz Kahoot**. Ce jeu était non seulement amusant, mais aussi un excellent moyen de consolider ce que nous avons appris dans le passé. Mes élèves ont adoré l’atmosphère compétitive mais ludique, et cela a renforcé leur compréhension de la grammaire et du vocabulaire français.
 
----
+------------------------------------------------------------------------
 
-#### 4. **Une Astuce Cruciale pour la Conjugaison des Verbes**  
+#### 4. **Une Astuce Cruciale pour la Conjugaison des Verbes**
 
-L’un des aspects les plus importants pour maîtriser les verbes français est de déterminer si un verbe est au **singulier ou au pluriel** avant de le conjuguer. Voici pourquoi :  
-- Plus de **99 % des verbes** conjugués avec *tu* se terminent par un **-s**. La seule exception est *pouvoir* (par exemple, *tu peux*).  
-- En nous demandant si le verbe est au singulier ou au pluriel, nous pouvons minimiser les erreurs de conjugaison.  
+L’un des aspects les plus importants pour maîtriser les verbes français est de déterminer si un verbe est au **singulier ou au pluriel** avant de le conjuguer. Voici pourquoi :\
+- Plus de **99 % des verbes** conjugués avec *tu* se terminent par un **-s**. La seule exception est *pouvoir* (par exemple, *tu peux*).\
+- En nous demandant si le verbe est au singulier ou au pluriel, nous pouvons minimiser les erreurs de conjugaison.
 
 Par exemple :
 
-- *Tu manges une pomme.* – Ici, *manges* se termine par un *-s* car le sujet est au singulier.
+-   *Tu manges une pomme.* – Ici, *manges* se termine par un *-s* car le sujet est au singulier.
 
-- *Vous mangez des pommes.* – Ici, *mangez* ne se termine pas par un *-s* car le sujet est au pluriel.  
+-   *Vous mangez des pommes.* – Ici, *mangez* ne se termine pas par un *-s* car le sujet est au pluriel.
 
----
+------------------------------------------------------------------------
 
 En combinant la pratique de la grammaire, la technologie et des activités ludiques comme Kahoot, nous rendons l’apprentissage du français à la fois efficace et agréable. Continuez à pratiquer ces astuces, et vous verrez des progrès significatifs dans vos compétences en français!
-
 :::
-
-
-
