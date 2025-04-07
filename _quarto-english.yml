@@ -32,7 +32,7 @@ website:
       - icon: envelope
         href: mailto:info@frenchwithkunal.ca
       - icon: youtube
-        href: https://www.youtube.com/@kunalkhurana7822 
+        href: https://www.youtube.com/@frenchwithkunal 
 
       
     
@@ -70,7 +70,7 @@ website:
           - text: Français
             href: https://frenchwithkunal.ca/fr/index.html      
       - icon: youtube
-        href: https://www.youtube.com/@kunalkhurana7822
+        href: https://www.youtube.com/@frenchwithkunal
 
 format:
   html:
