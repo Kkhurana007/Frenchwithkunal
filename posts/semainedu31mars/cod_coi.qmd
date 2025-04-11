@@ -19,12 +19,11 @@ format:
 <a href="mailto:info@frenchwithkunal.ca" target="_blank" style="margin: 0 10px; color: #000;"><i class="fas fa-envelope fa-lg"></i></a> <a href="https://www.instagram.com/frenchwithkunal" target="_blank" style="margin: 0 10px; color: #E1306C;"><i class="fab fa-instagram fa-lg"></i></a> <a href="https://frenchwithkunal.ca" target="_blank" style="margin: 0 10px; color: #0077b5;"><i class="fas fa-globe fa-lg"></i></a> <a href="https://whatsapp.com/channel/0029Vb57n2e7dmegpjYpyi3V" target="_blank" style="margin: 0 10px; color: #25D366;"><i class="fab fa-whatsapp fa-lg"></i></a> <button onclick="copyLink()" style="background-color: #0077b5; color: white; padding: 8px 16px; border: none; border-radius: 4px; cursor: pointer; margin-left: 10px;"> <i class="fas fa-copy"></i> </button> [Link copied!]{#copy-message style="margin-left: 10px; color: green; display: none;"}
 :::
 
+::: {#react-root}
+:::
 
-
-
-
-<div id="react-root"></div>
- <script type="text/babel">
+```{=html}
+<script type="text/babel">
  const ProfilePage = () => {
   const { useState, useEffect } = React;
   const [redirectCounter, setRedirectCounter] = useState(4);
@@ -170,263 +169,250 @@ ReactDOM.render(
   document.getElementById('react-root')
 );
  </script>
-
-
+```
 
 ::: {.content-visible when-profile="english"}
+## **1. What is an Object Pronoun?**
 
+An object pronoun replaces a noun to avoid repetition. In French, there are two main types:
 
-## **1. What is an Object Pronoun?**  
+-   **Direct Object Pronouns (COD)**\
+-   **Indirect Object Pronouns (COI)**
 
-An object pronoun replaces a noun to avoid repetition. In French, there are two main types:  
+------------------------------------------------------------------------
 
-- **Direct Object Pronouns (COD)**  
-- **Indirect Object Pronouns (COI)**  
+## **2. Direct Object Pronouns (COD)**
 
----
+## **How to Recognize Them**
 
-## **2. Direct Object Pronouns (COD)**  
+Ask **“who?” or “what?”** after the verb to find the COD.\
+Example: *I eat \[what?\] the cheese. → “the cheese” is the COD.*
 
+#### **Pronoun Forms**
 
-## **How to Recognize Them**  
+The pronoun agrees in gender/number with the noun it replaces:
 
-Ask **“who?” or “what?”** after the verb to find the COD.  
-Example: *I eat [what?] the cheese. → “the cheese” is the COD.*  
+| Masculine                      | Feminine                       | Plural  |
+|--------------------------------|--------------------------------|---------|
+| **le** / **l’** (before vowel) | **la** / **l’** (before vowel) | **les** |
 
-#### **Pronoun Forms**  
+**Examples:**
 
-The pronoun agrees in gender/number with the noun it replaces:  
+-   *I eat the cheese. → Je **le** mange.* (masculine singular)\
+-   *I love the soup. → Je **l’**aime.* (feminine singular, elision before vowel)\
+-   *She adores movies. → Elle **les** adore.* (plural)
 
-| Masculine | Feminine | Plural |
-|-----------|----------|--------|
-| **le** / **l’** (before vowel) | **la** / **l’** (before vowel) | **les** |  
+⚠️ **Note:**
 
+With verbs like *aimer* (to love), *adorer* (to adore), or *détester* (to hate), we often use **“ça”** in spoken French:\
+- *J’aime la soupe. → J’aime **ça**.*
 
-**Examples:**  
+#### **Placement Rules**
 
-- *I eat the cheese. → Je **le** mange.* (masculine singular)  
-- *I love the soup. → Je **l’**aime.* (feminine singular, elision before vowel)  
-- *She adores movies. → Elle **les** adore.* (plural)  
+-   **Simple tenses** (present, future…): **before the verb**.
 
-⚠️ **Note:**  
+    *I read the book. → Je **le** lis.*
 
-With verbs like *aimer* (to love), *adorer* (to adore), or *détester* (to hate), we often use **“ça”** in spoken French:  
-- *J’aime la soupe. → J’aime **ça**.*  
+-   **Compound tenses** (passé composé…): **before the auxiliary verb**.
 
-#### **Placement Rules**  
+    *I saw the film. → Je **l’**ai vu.*
 
+-   **Verb + infinitive**: **before the infinitive**.
 
-- **Simple tenses** (present, future…): **before the verb**.  
+    *I want to eat the cake. → Je veux **le** manger.*
 
-  *I read the book. → Je **le** lis.*  
+-   **Affirmative imperative**: **after the verb** (with a hyphen).
 
-- **Compound tenses** (passé composé…): **before the auxiliary verb**.  
+    *Watch TV! → Regarde-**la** !*
 
-  *I saw the film. → Je **l’**ai vu.*  
+-   **Negative imperative**: **before the verb**.
 
-- **Verb + infinitive**: **before the infinitive**.  
+    *Don’t watch TV! → Ne **la** regarde pas !*
 
-  *I want to eat the cake. → Je veux **le** manger.*  
+------------------------------------------------------------------------
 
-- **Affirmative imperative**: **after the verb** (with a hyphen).  
+## **3. Indirect Object Pronouns (COI)**
 
-  *Watch TV! → Regarde-**la** !*  
+#### **How to Recognize Them**
 
-- **Negative imperative**: **before the verb**.  
+Ask **“to whom?” or “to what?”**. COIs are often introduced by **“à”**.\
+Example: *I talk **to my friend**. → “to my friend” is the COI.*
 
-  *Don’t watch TV! → Ne **la** regarde pas !*  
+#### **Pronoun Forms**
 
----
+| Singular          | Plural          |
+|-------------------|-----------------|
+| **me/m’** (me)    | **nous** (us)   |
+| **te/t’** (you)   | **vous** (you)  |
+| **lui** (him/her) | **leur** (them) |
 
-## **3. Indirect Object Pronouns (COI)**  
+**Examples:**
 
-#### **How to Recognize Them**  
+-   *He calls **me**. → Il **me** téléphone.*\
+-   *She writes **to her brother**. → Elle **lui** écrit.*\
+-   *They speak **to their parents**. → Ils **leur** parlent.*
 
-Ask **“to whom?” or “to what?”**. COIs are often introduced by **“à”**.  
-Example: *I talk **to my friend**. → “to my friend” is the COI.*  
+#### **Placement Rules**
 
-#### **Pronoun Forms**  
+Same as COD pronouns:
 
-| Singular | Plural |
-|----------|--------|
-| **me/m’** (me) | **nous** (us) |  
-| **te/t’** (you) | **vous** (you) |  
-| **lui** (him/her) | **leur** (them) |  
+-   **Simple tenses**: before the verb.\
+    *I talk to Paul. → Je **lui** parle.*
 
-**Examples:**  
+-   **Compound tenses**: before the auxiliary.\
+    *I wrote to my mom. → Je **lui** ai écrit.*
 
-- *He calls **me**. → Il **me** téléphone.*  
-- *She writes **to her brother**. → Elle **lui** écrit.*  
-- *They speak **to their parents**. → Ils **leur** parlent.*  
+-   **Verb + infinitive**: before the infinitive.\
+    *I want to call my friends. → Je veux **leur** téléphoner.*
 
-#### **Placement Rules**  
+-   **Affirmative imperative**: after the verb.\
+    *Talk to your teacher! → Parle-**lui** !*
 
-Same as COD pronouns:  
+-   **Negative imperative**: before the verb.\
+    *Don’t talk to your teacher! → Ne **lui** parle pas !*
 
-- **Simple tenses**: before the verb.  
-  *I talk to Paul. → Je **lui** parle.*
+⚠️ **Key Difference:**\
+COI pronouns **never take an “s”** (e.g., *“leur”* is always *leur*, even for plural).
 
-- **Compound tenses**: before the auxiliary.  
-  *I wrote to my mom. → Je **lui** ai écrit.*  
+------------------------------------------------------------------------
 
-- **Verb + infinitive**: before the infinitive.  
-  *I want to call my friends. → Je veux **leur** téléphoner.*  
-
-- **Affirmative imperative**: after the verb.  
-  *Talk to your teacher! → Parle-**lui** !*  
-
-- **Negative imperative**: before the verb.  
-  *Don’t talk to your teacher! → Ne **lui** parle pas !*  
-
-⚠️ **Key Difference:**  
-COI pronouns **never take an “s”** (e.g., *“leur”* is always *leur*, even for plural).  
-
----
-
-### **4. COD vs. COI Summary**  
+### **4. COD vs. COI Summary**
 
 | **Pronoun** | **Question** | **Example** | **Replacement** |
-|-------------|-------------|-------------|------------------|
-| **COD** | *who? / what?* | *Je mange **le gâteau**.* | *Je **le** mange.* |  
-| **COI** | *to whom? / to what?* | *Je parle **à Luc**.* | *Je **lui** parle.* |  
+|-----------------|-----------------|-----------------|---------------------|
+| **COD** | *who? / what?* | *Je mange **le gâteau**.* | *Je **le** mange.* |
+| **COI** | *to whom? / to what?* | *Je parle **à Luc**.* | *Je **lui** parle.* |
 
----
+------------------------------------------------------------------------
 
-### **5. Final Tips**  
+### **5. Final Tips**
 
-- **Practice**: Replace nouns in sentences with pronouns.  
-- **Listen**: Pay attention to pronouns in French conversations or media.  
+-   **Practice**: Replace nouns in sentences with pronouns.\
+-   **Listen**: Pay attention to pronouns in French conversations or media.
 
-**Corrected Example:**  
+**Corrected Example:**
 
-- *“I’m going to the market to eat the cheese. It tastes good, and everyone loves **it**.”*  
-  → *Je vais au marché pour manger le fromage. Il est bon, et tout le monde **l’**aime.*  
-
+-   *“I’m going to the market to eat the cheese. It tastes good, and everyone loves **it**.”*\
+    → *Je vais au marché pour manger le fromage. Il est bon, et tout le monde **l’**aime.*
 
 For details, you may refer to [this pdf.](https://drive.google.com/file/d/16wIBcaNt5kSvUyF3iQY6hdYITyHTEolm/view?usp=drive_link)
 :::
 
-
-
 ::: {.content-visible when-profile="french"}
+### **Les pronoms compléments (COD et COI) : explication et emploi**
 
+## **1. Qu’est-ce qu’un pronom complément ?**
 
-### **Les pronoms compléments (COD et COI) : explication et emploi**  
+Un pronom complément remplace un nom (ou un groupe nominal) pour éviter les répétitions. Il apporte une information essentielle dans la phrase. On distingue deux types principaux :
 
-## **1. Qu’est-ce qu’un pronom complément ?**  
+-   **Le COD** (Complément d’Objet Direct)\
+-   **Le COI** (Complément d’Objet Indirect)
 
-Un pronom complément remplace un nom (ou un groupe nominal) pour éviter les répétitions. Il apporte une information essentielle dans la phrase. On distingue deux types principaux :  
+------------------------------------------------------------------------
 
-- **Le COD** (Complément d’Objet Direct)  
-- **Le COI** (Complément d’Objet Indirect)  
+## **2. Le COD (Complément d’Objet Direct)**
 
----
+### **Comment le reconnaître ?**
 
-## **2. Le COD (Complément d’Objet Direct)**  
+Pour identifier le COD, posez la question **« qui ? » ou « quoi ? »** après le verbe.\
+Exemple : *Je mange \[quoi ?\] le fromage. → « le fromage » est COD.*
 
+#### **Les formes du pronom COD**
 
-### **Comment le reconnaître ?**  
+Le pronom COD s’accorde en genre et en nombre avec le nom qu’il remplace :
 
-Pour identifier le COD, posez la question **« qui ? » ou « quoi ? »** après le verbe.  
-Exemple : *Je mange [quoi ?] le fromage. → « le fromage » est COD.*  
+| Masculin                         | Féminin                          | Pluriel |
+|--------------------------|-----------------------|-----------------------|
+| **le** / **l’** (devant voyelle) | **la** / **l’** (devant voyelle) | **les** |
 
+**Exemples :**
 
-#### **Les formes du pronom COD**  
+-   *Je mange le fromage. → Je **le** mange.* (masculin singulier)\
+-   *J’aime la soupe. → Je **l’**aime.* (féminin singulier, élision devant voyelle)\
+-   *Elle adore les films. → Elle **les** adore.* (pluriel)
 
-Le pronom COD s’accorde en genre et en nombre avec le nom qu’il remplace :  
+⚠️ **Remarque :**
 
-| Masculin | Féminin | Pluriel |
-|----------|---------|---------|
-| **le** / **l’** (devant voyelle) | **la** / **l’** (devant voyelle) | **les** |  
+Avec les verbes de goût (*aimer, adorer, détester*), on utilise parfois **« ça »** à l’oral pour éviter la répétition :\
+- *J’aime la soupe. → J’aime **ça**.*
 
-**Exemples :**  
+### **Placement du pronom COD**
 
-- *Je mange le fromage. → Je **le** mange.* (masculin singulier)  
-- *J’aime la soupe. → Je **l’**aime.* (féminin singulier, élision devant voyelle)  
-- *Elle adore les films. → Elle **les** adore.* (pluriel)  
+-   **Temps simple** (présent, futur, imparfait…) : **devant le verbe**.\
+    *Je lis le livre. → Je **le** lis.*
 
-⚠️ **Remarque :**  
+-   **Temps composé** (passé composé…) : **devant l’auxiliaire**.\
+    *J’ai vu le film. → Je **l’**ai vu.*
 
-Avec les verbes de goût (*aimer, adorer, détester*), on utilise parfois **« ça »** à l’oral pour éviter la répétition :  
-- *J’aime la soupe. → J’aime **ça**.*  
+-   **Verbe + infinitif** : **devant l’infinitif**.\
+    *Je veux manger le gâteau. → Je veux **le** manger.*
 
-### **Placement du pronom COD**  
+-   **Impératif affirmatif** : **après le verbe** (avec un trait d’union).\
+    *Regarde la télévision ! → Regarde-**la** !*
 
-- **Temps simple** (présent, futur, imparfait…) : **devant le verbe**.  
-  *Je lis le livre. → Je **le** lis.*  
+-   **Impératif négatif** : **devant le verbe**.\
+    *Ne regarde pas la télévision ! → Ne **la** regarde pas !*
 
-- **Temps composé** (passé composé…) : **devant l’auxiliaire**.  
-  *J’ai vu le film. → Je **l’**ai vu.*  
+------------------------------------------------------------------------
 
-- **Verbe + infinitif** : **devant l’infinitif**.  
-  *Je veux manger le gâteau. → Je veux **le** manger.*  
+## **3. Le COI (Complément d’Objet Indirect)**
 
-- **Impératif affirmatif** : **après le verbe** (avec un trait d’union).  
-  *Regarde la télévision ! → Regarde-**la** !*  
+### **Comment le reconnaître ?**
 
-- **Impératif négatif** : **devant le verbe**.  
-  *Ne regarde pas la télévision ! → Ne **la** regarde pas !*  
+Le COI répond à la question **« à qui ? »** ou **« à quoi ? »**. Il est souvent introduit par la préposition **« à »**.\
+Exemple : *Je parle **à mon ami**. → « à mon ami » est COI.*
 
----
+#### **Les formes du pronom COI**
 
-## **3. Le COI (Complément d’Objet Indirect)**  
+| Singulier          | Pluriel              |
+|--------------------|----------------------|
+| **me/m’** (moi)    | **nous**             |
+| **te/t’** (toi)    | **vous**             |
+| **lui** (lui/elle) | **leur** (eux/elles) |
 
-### **Comment le reconnaître ?**  
-Le COI répond à la question **« à qui ? »** ou **« à quoi ? »**. Il est souvent introduit par la préposition **« à »**.  
-Exemple : *Je parle **à mon ami**. → « à mon ami » est COI.*  
+**Exemples :**
 
-#### **Les formes du pronom COI**  
+-   *Il téléphone **à moi**. → Il **me** téléphone.*\
+-   *Elle écrit **à son frère**. → Elle **lui** écrit.*\
+-   *Ils parlent **à leurs parents**. → Ils **leur** parlent.*
 
-| Singulier | Pluriel |
-|-----------|---------|
-| **me/m’** (moi) | **nous** |
-| **te/t’** (toi) | **vous** |
-| **lui** (lui/elle) | **leur** (eux/elles) |  
+#### **Placement du pronom COI**
 
-**Exemples :**  
+Les règles sont identiques à celles du COD :
 
-- *Il téléphone **à moi**. → Il **me** téléphone.*  
-- *Elle écrit **à son frère**. → Elle **lui** écrit.*  
-- *Ils parlent **à leurs parents**. → Ils **leur** parlent.*  
+-   **Temps simple** : devant le verbe.\
+    *Je parle à Paul. → Je **lui** parle.*
 
-#### **Placement du pronom COI**  
+-   **Temps composé** : devant l’auxiliaire.\
+    *J’ai écrit à ma mère. → Je **lui** ai écrit.*
 
-Les règles sont identiques à celles du COD :  
+-   **Verbe + infinitif** : devant l’infinitif.\
+    *Je veux téléphoner à mes amis. → Je veux **leur** téléphoner.*
 
-- **Temps simple** : devant le verbe.  
-  *Je parle à Paul. → Je **lui** parle.*  
+-   **Impératif affirmatif** : après le verbe.\
+    *Parle à ton professeur ! → Parle-**lui** !*
 
-- **Temps composé** : devant l’auxiliaire.  
-  *J’ai écrit à ma mère. → Je **lui** ai écrit.*  
+-   **Impératif négatif** : devant le verbe.\
+    *Ne parle pas à ton professeur ! → Ne **lui** parle pas !*
 
-- **Verbe + infinitif** : devant l’infinitif.  
-  *Je veux téléphoner à mes amis. → Je veux **leur** téléphoner.*  
+⚠️ **Remarque :**
 
-- **Impératif affirmatif** : après le verbe.  
-  *Parle à ton professeur ! → Parle-**lui** !*  
+Contrairement aux pronoms COD, les pronoms COI **ne prennent jamais de « s »** (ex: *« leur**s** » n’existe pas comme pronom*).
 
-- **Impératif négatif** : devant le verbe.  
-  *Ne parle pas à ton professeur ! → Ne **lui** parle pas !*  
+------------------------------------------------------------------------
 
-⚠️ **Remarque :**  
-
-Contrairement aux pronoms COD, les pronoms COI **ne prennent jamais de « s »** (ex: *« leur**s** » n’existe pas comme pronom*).  
-
----
-
-### **4. Résumé des différences COD/COI**  
+### **4. Résumé des différences COD/COI**
 
 | **Pronom** | **Question** | **Exemple** | **Remplacement** |
-|------------|-------------|-------------|------------------|
+|-----------------|-----------------|-----------------|---------------------|
 | **COD** | *qui ? / quoi ?* | *Je mange **le gâteau**.* | *Je **le** mange.* |
 | **COI** | *à qui ? / à quoi ?* | *Je parle **à Luc**.* | *Je **lui** parle.* |
 
----
+------------------------------------------------------------------------
 
-### **Conclusion**  
+### **Conclusion**
+
 Maîtriser les pronoms COD et COI permet d’éviter les répétitions et d’améliorer la fluidité de vos phrases. Pour vous entraîner, essayez de remplacer les noms dans vos textes par des pronoms!
 
 [Pour plus de détails, veuillez consulter à ce pdf.](https://drive.google.com/file/d/16wIBcaNt5kSvUyF3iQY6hdYITyHTEolm/view?usp=drive_link)
-
-
 :::

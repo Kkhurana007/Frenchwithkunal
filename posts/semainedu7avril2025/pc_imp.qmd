@@ -1,0 +1,459 @@
+---
+title: "The Passé Composé and the Imparfait"
+author: "Kunal Khurana"
+date: "04-07-2025"
+categories: [passé composé, imparfait, B1/B2]
+image: "pc_imp.png"
+
+format:
+  html:
+    include-in-header:
+      - text: |
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+          <script src="https://unpkg.com/react@17/umd/react.production.min.js"></script>
+          <script src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"></script>
+          <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+---
+
+::: {style="text-align: left; padding: 10px;"}
+<a href="mailto:info@frenchwithkunal.ca" target="_blank" style="margin: 0 10px; color: #000;"><i class="fas fa-envelope fa-lg"></i></a> <a href="https://www.instagram.com/frenchwithkunal" target="_blank" style="margin: 0 10px; color: #E1306C;"><i class="fab fa-instagram fa-lg"></i></a> <a href="https://frenchwithkunal.ca" target="_blank" style="margin: 0 10px; color: #0077b5;"><i class="fas fa-globe fa-lg"></i></a> <a href="https://whatsapp.com/channel/0029Vb57n2e7dmegpjYpyi3V" target="_blank" style="margin: 0 10px; color: #25D366;"><i class="fab fa-whatsapp fa-lg"></i></a> <button onclick="copyLink()" style="background-color: #0077b5; color: white; padding: 8px 16px; border: none; border-radius: 4px; cursor: pointer; margin-left: 10px;"> <i class="fas fa-copy"></i> </button> [Link copied!]{#copy-message style="margin-left: 10px; color: green; display: none;"}
+
+:::
+
+::: {#react-root}
+:::
+
+```{=html}
+<script type="text/babel">
+ const ProfilePage = () => {
+  const { useState, useEffect } = React;
+  const [redirectCounter, setRedirectCounter] = useState(4);
+  const [isRedirecting, setIsRedirecting] = useState(false);
+
+  const isFrench = document.documentElement.lang === "fr";
+
+  const translations = {
+    noAccess: isFrench 
+      ? "Vous n'avez pas accès à cette page."
+      : "You don't have access to this page.",
+    subscribe: isFrench
+      ? "Veuillez vous abonner pour obtenir l'accès."
+      : "Please subscribe to gain access.",
+    redirecting: isFrench
+      ? `Redirection vers la page d'abonnement dans ${redirectCounter} secondes...`
+      : `Redirecting to subscription page in ${redirectCounter} seconds...`
+  };
+
+  const refreshToken = async () => {
+    const storedRefreshToken = localStorage.getItem("refreshToken");
+
+    if (!storedRefreshToken) {
+      window.location.href = "/login.html";
+      return null;
+    }
+
+    try {
+      const response = await fetch("https://frenchwithkunal-cdf6ea3f88ce.herokuapp.com/api/v1/auth/refresh-token", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ refreshToken: storedRefreshToken }),
+      });
+
+      if (!response.ok) {
+        localStorage.removeItem("accessToken");
+        localStorage.removeItem("refreshToken");
+        window.location.href = "/login.html";
+        return null;
+      }
+
+      const data = await response.json();
+      localStorage.setItem("accessToken", data.accessToken);
+      return data.accessToken;
+    } catch (error) {
+      localStorage.removeItem("accessToken");
+      localStorage.removeItem("refreshToken");
+      window.location.href = "/login.html";
+      return null;
+    }
+  };
+
+  const fetchWithAuth = async (url, options = {}) => {
+    let accessToken = localStorage.getItem("accessToken");
+
+    options.headers = {
+      ...options.headers,
+      Authorization: `Bearer ${accessToken}`,
+      "Content-Type": "application/json",
+    };
+
+    let response = await fetch(url, options);
+
+    if (response.status === 401) {
+      console.log("Access token expired, attempting to refresh...");
+
+      // Refresh token
+      accessToken = await refreshToken();
+
+      if (!accessToken) return null;
+
+      options.headers.Authorization = `Bearer ${accessToken}`;
+      response = await fetch(url, options);
+    }
+
+    return response.json();
+  };
+
+  const showNoAccessMessage = () => {
+    setIsRedirecting(true);
+    
+    const noAccessMessage = `
+      <div style="text-align: center; padding: 20px;">
+        <h2>${translations.noAccess}</h2>
+        <p>${translations.subscribe}</p>
+        <p>${translations.redirecting}</p>
+      </div>
+    `;
+    document.body.innerHTML = noAccessMessage;
+    
+    // Start countdown and redirect
+    const redirectInterval = setInterval(() => {
+      setRedirectCounter((prev) => {
+        const newCounter = prev - 1;
+        if (newCounter <= 0) {
+          clearInterval(redirectInterval);
+          window.location.href = "https://frenchwithkunal.ca/payment.html";
+        }
+        
+        // Update the countdown text
+        const countdownElement = document.querySelector('p:last-child');
+        if (countdownElement) {
+          countdownElement.textContent = isFrench
+            ? `Redirection vers la page d'abonnement dans ${newCounter} secondes...`
+            : `Redirecting to subscription page in ${newCounter} seconds...`;
+        }
+        
+        return newCounter;
+      });
+    }, 1000);
+  };
+
+  useEffect(() => {
+    const storedToken = localStorage.getItem('accessToken');
+
+    if(!storedToken) {
+      showNoAccessMessage();
+    } else {
+      const fetchData = async() => {
+        const data = await fetchWithAuth("https://frenchwithkunal-cdf6ea3f88ce.herokuapp.com/api/v1/auth/me", {
+          method: "POST",
+        });
+
+        if (data && data.data && data.data.hasAccess) {
+          console.log(data);
+        } else {
+          showNoAccessMessage();
+        }
+      };
+      fetchData();
+    }
+  }, []);
+
+  return (
+    <div></div>
+  );
+};
+
+ReactDOM.render(
+  <ProfilePage />,
+  document.getElementById('react-root')
+);
+ </script>
+```
+
+
+
+::: {.content-visible when-profile="english"}
+
+Today, we’re diving into two essential past tenses in French: **the passé composé** and **the imparfait**. I’ll explain how they’re formed, when to use them, and give you concrete examples to master them. You may refer [to this](https://drive.google.com/file/d/10gVJIiFRed1Cs1sQTbXg37zhQ20kJPof/view?usp=drive_link) pdf for more information. 
+
+---
+
+## **1. The Passé Composé**  
+
+### **A. How to Form the Passé Composé**  
+The passé composé is formed with:  
+🔹 **Auxiliary (être or avoir in the present tense)** + **Past participle of the verb**.  
+
+#### **How to Form the Past Participle?**  
+It’s simple—just look at the verb’s infinitive ending:  
+
+| **Infinitive** | **Past Participle** | **Example** |
+|--------------|---------------------|-------------|
+| **-er verbs** | **-é** | Parler → **parlé** (spoken) |
+| **-ir verbs** | **-i** | Finir → **fini** (finished) |
+| **-oir / -re verbs** | Varies | Voir → **vu** (seen) / Prendre → **pris** (taken) |  
+
+---
+
+### **B. Verbs That Use ÊTRE (16 Key Verbs)**  
+There’s a handy trick to remember these verbs:  
+
+📌 **The "Opposites" Method**:  
+- Aller (go) ↔ **Rester** (stay)  
+- Arriver (arrive) ↔ **Partir** (leave)  
+- Entrer (enter) ↔ **Sortir** (exit)  
+- Monter (go up) ↔ **Descendre** (go down)  
+- Mourir (die) ↔ **Naître** (be born)  
+- Passer (pass by) ↔ **Rester** (stay)  
+- Venir (come) ↔ **Devenir** (become)  
+
+Plus: **Tomber (fall), Retourner (return), Rentrer (go back in), Apparaître (appear)**  
+
+#### **Agreement Rules with ÊTRE**  
+The past participle **agrees in gender and number** with the subject.  
+
+✅ **Examples**:  
+- *Kunal est **venu**.* (masculine singular)  
+- *Anne est **venue**.* (feminine singular)  
+- *Mes parents sont **venus**.* (masculine plural)  
+- *Mes sœurs sont **venues**.* (feminine plural)  
+
+⚠ **Exception**: Pronominal verbs (se laver, s’habiller) follow different rules.  
+
+---
+
+### **C. Verbs That Use AVOIR**  
+Most verbs use **avoir**.  
+
+#### **Agreement Rule with AVOIR**  
+The past participle **does not agree** with the subject… **unless the direct object (COD) comes before the verb!**  
+
+✅ **Examples**:  
+1. *Elle a écrit **des lettres**.* → No agreement (COD after)  
+2. *Ces lettres, elle les a **écrites**.* → Agreement (COD before)  
+
+---
+
+### **D. Verbs That Use Both ÊTRE and AVOIR (Different Meanings)**  
+Some verbs change meaning depending on the auxiliary:  
+
+| **Verb** | **With ÊTRE** | **With AVOIR** |
+|-----------|--------------|---------------|
+| **Descendre** | *Elle est descendue par l’escalier.* (She went down the stairs.) | *Elle a descendu les bouteilles.* (She brought down the bottles.) |
+| **Monter** | *Ils sont montés au sommet.* (They went up to the summit.) | *Ils ont monté les bagages.* (They carried up the luggage.) |
+| **Sortir** | *Je suis sorti avec une amie.* (I went out with a friend.) | *J’ai sorti le chien.* (I took the dog out.) |
+
+---
+
+## **2. The Imparfait**  
+
+### **A. When to Use the Imparfait?**  
+
+The imparfait is used for:  
+✔ **Habitual actions** in the past (*Je jouais au foot tous les jours.* – I used to play soccer every day.)  
+✔ **Descriptions** (*Il faisait beau.* – The weather was nice.)  
+✔ **Ongoing actions** (*Elle lisait quand je suis arrivé.* – She was reading when I arrived.)  
+
+---
+
+### **B. How to Form the Imparfait** 
+
+1. Take the **nous** form of the present tense.  
+2. Remove **-ons**.  
+3. Add the endings: **-ais, -ais, -ait, -ions, -iez, -aient**.  
+
+✅ **Example with "Parler" (to speak)**:  
+
+- *Nous parl**ons*** → Stem: **parl-**  
+- Je parl**ais** (I was speaking)  
+- Tu parl**ais**  
+- Il/Elle parl**ait**  
+- Nous parl**ions**  
+- Vous parl**iez**  
+- Ils/Elles parl**aient**  
+
+---
+
+## **Summary**  
+
+### **Passé Composé vs. Imparfait**  
+| **Passé Composé** | **Imparfait** |
+|------------------|--------------|
+| **One-time action** (*J’ai mangé.* – I ate.) | **Repeated/habitual action** (*Je mangeais souvent ici.* – I used to eat here often.) |
+| **Sudden event** (*Il a téléphoné.* – He called.) | **Background context** (*Il faisait nuit.* – It was nighttime.) |
+
+📌 **Quick Tip**:  
+- **Passé composé** = "It happened!"  
+- **Imparfait** = "It was like this before…"  
+
+---
+
+### **Practice Exercise**  
+1. Yesterday, I ___ (watch) TV when you ___ (call).  
+   → *Je **regardais** la télé quand tu **as appelé**.*  
+2. She ___ (be) always smiling when she ___ (work).  
+   → *Elle **était** toujours souriante quand elle **travaillait**.*  
+
+
+:::
+
+
+
+::: {.content-visible when-profile="french"}
+
+
+Aujourd'hui, on va plonger dans deux temps essentiels du passé en français : **le passé composé** et **l'imparfait**. Je vais vous expliquer leur formation, leur utilisation et vous donner des exemples concrets pour bien les maîtriser.  Tu peux aussi regarder [ce PDF](https://drive.google.com/file/d/10gVJIiFRed1Cs1sQTbXg37zhQ20kJPof/view?usp=drive_link) pour plus de détails.
+
+---
+
+## **1. Le Passé Composé**  
+
+
+### **A. Formation du Passé Composé**  
+Le passé composé est formé de :  
+🔹 **Auxiliaire (être ou avoir) au présent** + **Participe passé du verbe**.  
+
+
+#### **Comment former le participe passé ?**  
+C’est simple, il suffit de regarder la terminaison du verbe à l’infinitif :  
+
+
+| **Infinitif** | **Participe passé** | **Exemple** |
+|--------------|---------------------|-------------|
+| Verbes en **-er** | **-é** | Parler → **parlé** |
+| Verbes en **-ir** | **-i** | Finir → **fini** |
+| Verbes en **-oir / -re** | Variable | Voir → **vu** / Prendre → **pris** |  
+
+
+---
+
+
+### **B. Verbes avec l’auxiliaire ÊTRE (16 verbes principaux)**  
+Il existe une astuce pour retenir ces verbes :  
+
+
+
+📌 **Méthode des opposés** :  
+- Aller ↔ **Rester**  
+- Arriver ↔ **Partir**  
+- Entrer ↔ **Sortir**  
+- Monter ↔ **Descendre**  
+- Mourir ↔ **Naître**  
+- Passer ↔ **Rester**  
+- Venir ↔ **Devenir**  
+
+
+
+Et aussi : **Tomber, Retourner, Rentrer, Apparaître**  
+
+
+
+#### **Accord du participe passé avec ÊTRE**  
+Le participe passé **s’accorde en genre et en nombre** avec le sujet.  
+
+
+
+✅ **Exemples** :  
+- *Kunal est **venu**.* (masculin singulier)  
+- *Anne est **venue**.* (féminin singulier)  
+- *Mes parents sont **venus**.* (masculin pluriel)  
+- *Mes sœurs sont **venues**.* (féminin pluriel)  
+
+
+
+⚠ **Exception** : Les verbes pronominaux (se laver, s’habiller) suivent des règles différentes.  
+
+
+---
+
+### **C. Verbes avec l’auxiliaire AVOIR**  
+La plupart des verbes utilisent **avoir**.  
+
+
+
+#### **Règle d’accord avec AVOIR**  
+Le participe passé **ne s’accorde pas** avec le sujet… **sauf si le COD est placé avant le verbe** !  
+
+
+
+✅ **Exemples** :  
+1. *Elle a écrit **des lettres**.* → Pas d’accord (COD après)  
+2. *Ces lettres, elle les a **écrites**.* → Accord (COD avant)  
+
+---
+
+
+
+### **D. Verbes qui utilisent ÊTRE et AVOIR (changement de sens)**  
+Certains verbes changent de sens selon l’auxiliaire :  
+
+
+
+| **Verbe** | **Avec ÊTRE** | **Avec AVOIR** |
+|-----------|--------------|---------------|
+| **Descendre** | *Elle est descendue par l’escalier.* (mouvement) | *Elle a descendu les bouteilles.* (action) |
+| **Monter** | *Ils sont montés au sommet.* (mouvement) | *Ils ont monté les bagages.* (action) |
+| **Sortir** | *Je suis sorti avec une amie.* (mouvement) | *J’ai sorti le chien.* (action) |
+
+
+
+---
+
+
+
+## **2. L’Imparfait**  
+
+
+### **A. Quand utiliser l’imparfait ?**  
+L’imparfait sert à décrire :  
+✔ Une **action habituelle** dans le passé (*Je jouais au foot tous les jours.*)  
+✔ Une **description** (*Il faisait beau.*)  
+✔ Une **action en cours** (*Elle lisait quand je suis arrivé.*)  
+
+---
+
+
+### **B. Formation de l’Imparfait**  
+1. On prend le **nous** du présent.  
+2. On enlève **-ons**.  
+3. On ajoute les terminaisons : **-ais, -ais, -ait, -ions, -iez, -aient**.  
+
+
+
+✅ **Exemple avec "Parler"** :  
+- *Nous parl**ons*** → Radical : **parl-**  
+- Je parl**ais**  
+- Tu parl**ais**  
+- Il/Elle parl**ait**  
+- Nous parl**ions**  
+- Vous parl**iez**  
+- Ils/Elles parl**aient**  
+
+
+---
+
+## **Résumé**  
+
+### **Passé Composé vs Imparfait**  
+| **Passé Composé** | **Imparfait** |
+|------------------|--------------|
+| Action **ponctuelle** (*J’ai mangé.*) | Action **longue/habituelle** (*Je mangeais souvent ici.*) |
+| Changement brutal (*Il a téléphoné.*) | Contexte (*Il faisait nuit.*) |
+
+📌 **Astuce** :  
+- **Passé composé** = "C’est fini !"  
+- **Imparfait** = "C’était comme ça avant…"  
+
+---
+
+### **Exercice d’Application**  
+1. Hier, je ___ (regarder) la télé quand tu ___ (appeler).  
+   → *Je **regardais** la télé quand tu **as appelé**.*  
+2. Elle ___ (être) toujours souriante quand elle ___ (travailler).  
+   → *Elle **était** toujours souriante quand elle **travaillait**.*  
+
+
+:::
+

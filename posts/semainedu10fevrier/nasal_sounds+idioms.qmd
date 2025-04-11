@@ -18,12 +18,11 @@ format:
 <a href="mailto:info@frenchwithkunal.ca" target="_blank" style="margin: 0 10px; color: #000;"><i class="fas fa-envelope fa-lg"></i></a> <a href="https://www.instagram.com/frenchwithkunal" target="_blank" style="margin: 0 10px; color: #E1306C;"><i class="fab fa-instagram fa-lg"></i></a> <a href="https://frenchwithkunal.ca" target="_blank" style="margin: 0 10px; color: #0077b5;"><i class="fas fa-globe fa-lg"></i></a> <a href="https://whatsapp.com/channel/0029Vb57n2e7dmegpjYpyi3V" target="_blank" style="margin: 0 10px; color: #25D366;"><i class="fab fa-whatsapp fa-lg"></i></a> <button onclick="copyLink()" style="background-color: #0077b5; color: white; padding: 8px 16px; border: none; border-radius: 4px; cursor: pointer; margin-left: 10px;"> <i class="fas fa-copy"></i> </button> [Link copied!]{#copy-message style="margin-left: 10px; color: green; display: none;"}
 :::
 
+::: {#react-root}
+:::
 
-
-
-
-<div id="react-root"></div>
- <script type="text/babel">
+```{=html}
+<script type="text/babel">
  const ProfilePage = () => {
   const { useState, useEffect } = React;
   const [redirectCounter, setRedirectCounter] = useState(4);
@@ -169,6 +168,7 @@ ReactDOM.render(
   document.getElementById('react-root')
 );
  </script>
+```
 
 ::: {.content-visible when-profile="english"}
 In our [latest French lesson](https://drive.google.com/file/d/1UD3_-TVeg8Kbqp3WwYykWKA69q3Ka6re/view?usp=drive_link), we delved into two fascinating aspects of the language: nasal sounds and the impératif du présent (present imperative). These topics are essential for mastering pronunciation and everyday communication in French.
