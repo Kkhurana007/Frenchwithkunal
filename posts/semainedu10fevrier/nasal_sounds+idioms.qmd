@@ -353,3 +353,9 @@ Parlez plus fort ! (forme vous)
 
 L’impératif est un outil puissant pour la communication quotidienne, surtout dans des contextes informels ou familiaux. Il est direct, clair et efficace.
 :::
+
+{{< video https://www.youtube.com/watch?v=QdMORya9Z_A
+    title="What is the CERN?"
+    start="116"
+    aspect-ratio="21x9" 
+>}}

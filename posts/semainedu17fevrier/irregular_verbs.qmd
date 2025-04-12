@@ -177,3 +177,9 @@ In [this lecture](https://drive.google.com/file/d/1wzFi9yntIYWFREKJPtqHzOm753uu1
 ::: {.content-visible when-profile="french"}
 Dans [ce cours](https://drive.google.com/file/d/1wzFi9yntIYWFREKJPtqHzOm753uu1Dj_/view?usp=drive_link), nous avons étudié les verbes irréguliers au présent et leur utilité. Nous avons également discuté de l'importance de mémoriser leurs conjugaisons par cœur. Nous avons remarqué que ces verbes sont différents des verbes réguliers, et il est absolument essentiel de les apprendre à fond. De plus, nous avons jeté un coup d'œil aux expressions idiomatiques et à leur importance pour une communication efficace, rendant les conversations plus fluides et naturelles.
 :::
+
+{{< video https://www.youtube.com/watch?v=yT3HASwyLJs&t=579s
+    title="What is the CERN?"
+    start="116"
+    aspect-ratio="21x9" 
+>}}

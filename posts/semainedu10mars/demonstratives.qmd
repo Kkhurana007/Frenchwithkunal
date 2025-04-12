@@ -204,7 +204,6 @@ Demonstratives are incredibly useful for specifying which noun you’re referrin
 
 
 
-
 ::: {.content-visible when-profile="french"}
 
 Les adjectifs démonstratifs sont un élément essentiel de la grammaire française. Techniquement, ce sont des adjectifs utilisés aux côtés des noms et des pronoms pour aider à identifier ou à préciser le nom dont on parle. Par exemple, si vous souhaitez distinguer *ce chat particulier* de *un chat en général*, les adjectifs démonstratifs entrent en jeu. Ils changent selon le genre et le nombre du nom qu’ils modifient, ce qui en fait un outil crucial pour une communication claire.
@@ -233,3 +232,11 @@ Les adjectifs démonstratifs sont incroyablement utiles pour préciser de quel n
 
 
 :::
+
+
+
+{{< video https://www.youtube.com/watch?v=QaVuJI6Mkv0
+    title="Demonstrative adjectives"
+    start="116"
+    aspect-ratio="21x9" 
+>}}

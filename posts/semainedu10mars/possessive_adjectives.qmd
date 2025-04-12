@@ -259,3 +259,10 @@ Les verbes réfléchis peuvent également vous aider à mémoriser les adjectifs
 En pratiquant ces structures, vous comprendrez mieux le fonctionnement des adjectifs possessifs et des verbes réfléchis en français. Pour des explications et des exemples plus détaillés, [vous pouvez consulter le PDF ci-joint](https://drive.google.com/file/d/1z7DGxCmaYg8zWWcOhfUM9YDF7jaqy6l2/view?usp=drive_link).
 
 :::
+
+
+{{< video https://www.youtube.com/watch?v=mikQZVl13VY
+    title="Possessive adjectives"
+    start="116"
+    aspect-ratio="21x9" 
+>}}

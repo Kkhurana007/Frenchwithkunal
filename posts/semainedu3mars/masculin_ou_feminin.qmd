@@ -178,6 +178,12 @@ We also learned that seasons, days of the week, languages, fruits, and vegetable
 
 In [today's leacture](https://drive.google.com/file/d/1b-efh-GNmVM7pVm2lV60AOxdWZE24oVQ/view?usp=drive_link), we explored these rules in more detail and looked at concrete examples to better understand noun genders in French.
 
+{{< video https://www.youtube.com/watch?v=V7AjuIDn4oU
+    title="le ou la?"
+    start="116"
+    aspect-ratio="21x9" 
+>}}
+
 ---
 
 ### **Common Masculine Endings**

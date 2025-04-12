@@ -11,6 +11,10 @@ format:
           <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
 ---
 
+
+::: {#react-root}
+:::
+
 ```{=html}
 <div id="react-root"></div>
 <script type="text/babel">
@@ -157,3 +161,4 @@ format:
     document.getElementById('react-root')
   );
 </script>
+```

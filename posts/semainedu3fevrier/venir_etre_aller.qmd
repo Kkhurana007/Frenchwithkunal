@@ -19,9 +19,11 @@ format:
 <a href="mailto:info@frenchwithkunal.ca" target="_blank" style="margin: 0 10px; color: #000;"><i class="fas fa-envelope fa-lg"></i></a> <a href="https://www.instagram.com/frenchwithkunal" target="_blank" style="margin: 0 10px; color: #E1306C;"><i class="fab fa-instagram fa-lg"></i></a> <a href="https://frenchwithkunal.ca" target="_blank" style="margin: 0 10px; color: #0077b5;"><i class="fas fa-globe fa-lg"></i></a> <a href="https://whatsapp.com/channel/0029Vb57n2e7dmegpjYpyi3V" target="_blank" style="margin: 0 10px; color: #25D366;"><i class="fab fa-whatsapp fa-lg"></i></a> <button onclick="copyLink()" style="background-color: #0077b5; color: white; padding: 8px 16px; border: none; border-radius: 4px; cursor: pointer; margin-left: 10px;"> <i class="fas fa-copy"></i> </button> [Link copied!]{#copy-message style="margin-left: 10px; color: green; display: none;"}
 :::
 
+::: {#react-root}
+:::
 
-<div id="react-root"></div>
- <script type="text/babel">
+```{=html}
+<script type="text/babel">
  const ProfilePage = () => {
   const { useState, useEffect } = React;
   const [redirectCounter, setRedirectCounter] = useState(4);
@@ -167,6 +169,7 @@ ReactDOM.render(
   document.getElementById('react-root')
 );
  </script>
+```
 
 ::: {.content-visible when-profile="english"}
 In today’s [lecture](https://drive.google.com/file/d/1U2fPUfpGtQ562AUyCxQgT_wGu3U-B_tD/view?usp=drive_link), we explored three key verbs - venir, être en train de, and aller - and how they can help us talk about the past, present, and future without having to conjugate the second verb. This is such a game-changer because it simplifies sentence construction and makes navigating French so much easier.

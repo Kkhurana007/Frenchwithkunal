@@ -14,6 +14,7 @@ format:
 ---
 
 ```{=html}
+
 <div id="react-root"></div>
 <script type="text/babel">
 
@@ -293,3 +294,4 @@ ReactDOM.render(
   document.getElementById('react-root')
 );
 </script>
+```

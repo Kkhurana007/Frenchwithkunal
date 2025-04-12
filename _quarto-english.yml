@@ -55,8 +55,12 @@ website:
         href: contact.qmd
       - text: Subscription
         href: payment.qmd
-      - text: Login
-        href: login.qmd
+      - text: "Access"
+        menu:
+          - text: "Login"
+            href: login.qmd
+          - text: "Logout"
+            href: profile.qmd
         
     right:
       - text: "Billing"

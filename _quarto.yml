@@ -11,8 +11,8 @@ profile:
     - [english, french]
     
 format:
-  pdf: 
-    fontsize: 16pt
+  #pdf: 
+    #fontsize: 16pt
   html:
     include-in-header:
       - text: |

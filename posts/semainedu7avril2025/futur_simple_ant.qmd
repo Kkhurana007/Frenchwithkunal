@@ -1,0 +1,318 @@
+---
+title: "Futur simple ou futur antérieur – Qu’est que c’est?"
+author: "Kunal Khurana"
+date: "04-07-2025"
+categories: [futur antérieur, futur simple, B1/B2]
+image: "simple_ant.png"
+
+format:
+  html:
+    include-in-header:
+      - text: |
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+          <script src="https://unpkg.com/react@17/umd/react.production.min.js"</script>
+          <script src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"</script>
+          <script src="https://unpkg.com/babel-standalone@6/babel.min.js"</script>
+---
+
+::: {style="text-align: left; padding: 10px;"}
+<a href="mailto:info@frenchwithkunal.ca" target="_blank" style="margin: 0 10px; color: #000;"><i class="fas fa-envelope fa-lg"></i></a> <a href="https://www.instagram.com/frenchwithkunal" target="_blank" style="margin: 0 10px; color: #E1306C;"><i class="fab fa-instagram fa-lg"></i></a> <a href="https://frenchwithkunal.ca" target="_blank" style="margin: 0 10px; color: #0077b5;"><i class="fas fa-globe fa-lg"></i></a> <a href="https://whatsapp.com/channel/0029Vb57n2e7dmegpjYpyi3V" target="_blank" style="margin: 0 10px; color: #25D366;"><i class="fab fa-whatsapp fa-lg"></i></a> <button onclick="copyLink()" style="background-color: #0077b5; color: white; padding: 8px 16px; border: none; border-radius: 4px; cursor: pointer; margin-left: 10px;"> <i class="fas fa-copy"></i> </button> [Link copied!]{#copy-message style="margin-left: 10px; color: green; display: none;"}
+:::
+
+::: {#react-root}
+:::
+
+```{=html}
+<script type="text/babel">
+ const ProfilePage = () => {
+  const { useState, useEffect } = React;
+  const [redirectCounter, setRedirectCounter] = useState(4);
+  const [isRedirecting, setIsRedirecting] = useState(false);
+
+  const isFrench = document.documentElement.lang === "fr";
+
+  const translations = {
+    noAccess: isFrench 
+      ? "Vous n'avez pas accès à cette page."
+      : "You don't have access to this page.",
+    subscribe: isFrench
+      ? "Veuillez vous abonner pour obtenir l'accès."
+      : "Please subscribe to gain access.",
+    redirecting: isFrench
+      ? `Redirection vers la page d'abonnement dans ${redirectCounter} secondes...`
+      : `Redirecting to subscription page in ${redirectCounter} seconds...`
+  };
+
+  const refreshToken = async () => {
+    const storedRefreshToken = localStorage.getItem("refreshToken");
+
+    if (!storedRefreshToken) {
+      window.location.href = "/login.html";
+      return null;
+    }
+
+    try {
+      const response = await fetch("https://frenchwithkunal-cdf6ea3f88ce.herokuapp.com/api/v1/auth/refresh-token", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ refreshToken: storedRefreshToken }),
+      });
+
+      if (!response.ok) {
+        localStorage.removeItem("accessToken");
+        localStorage.removeItem("refreshToken");
+        window.location.href = "/login.html";
+        return null;
+      }
+
+      const data = await response.json();
+      localStorage.setItem("accessToken", data.accessToken);
+      return data.accessToken;
+    } catch (error) {
+      localStorage.removeItem("accessToken");
+      localStorage.removeItem("refreshToken");
+      window.location.href = "/login.html";
+      return null;
+    }
+  };
+
+  const fetchWithAuth = async (url, options = {}) => {
+    let accessToken = localStorage.getItem("accessToken");
+
+    options.headers = {
+      ...options.headers,
+      Authorization: `Bearer ${accessToken}`,
+      "Content-Type": "application/json",
+    };
+
+    let response = await fetch(url, options);
+
+    if (response.status === 401) {
+      console.log("Access token expired, attempting to refresh...");
+
+      // Refresh token
+      accessToken = await refreshToken();
+
+      if (!accessToken) return null;
+
+      options.headers.Authorization = `Bearer ${accessToken}`;
+      response = await fetch(url, options);
+    }
+
+    return response.json();
+  };
+
+  const showNoAccessMessage = () => {
+    setIsRedirecting(true);
+    
+    const noAccessMessage = `
+      <div style="text-align: center; padding: 20px;">
+        <h2>${translations.noAccess}</h2>
+        <p>${translations.subscribe}</p>
+        <p>${translations.redirecting}</p>
+      </div>
+    `;
+    document.body.innerHTML = noAccessMessage;
+    
+    // Start countdown and redirect
+    const redirectInterval = setInterval(() => {
+      setRedirectCounter((prev) => {
+        const newCounter = prev - 1;
+        if (newCounter <= 0) {
+          clearInterval(redirectInterval);
+          window.location.href = "https://frenchwithkunal.ca/payment.html";
+        }
+        
+        // Update the countdown text
+        const countdownElement = document.querySelector('p:last-child');
+        if (countdownElement) {
+          countdownElement.textContent = isFrench
+            ? `Redirection vers la page d'abonnement dans ${newCounter} secondes...`
+            : `Redirecting to subscription page in ${newCounter} seconds...`;
+        }
+        
+        return newCounter;
+      });
+    }, 1000);
+  };
+
+  useEffect(() => {
+    const storedToken = localStorage.getItem('accessToken');
+
+    if(!storedToken) {
+      showNoAccessMessage();
+    } else {
+      const fetchData = async() => {
+        const data = await fetchWithAuth("https://frenchwithkunal-cdf6ea3f88ce.herokuapp.com/api/v1/auth/me", {
+          method: "POST",
+        });
+
+        if (data && data.data && data.data.hasAccess) {
+          console.log(data);
+        } else {
+          showNoAccessMessage();
+        }
+      };
+      fetchData();
+    }
+  }, []);
+
+  return (
+    <div></div>
+  );
+};
+
+ReactDOM.render(
+  <ProfilePage />,
+  document.getElementById('react-root')
+);
+ </script>
+```
+
+
+::: {.content-visible when-profile="english"}
+
+#### **1. Simple Future (Futur Simple)**
+**When to use:** For actions that will happen in the future.
+
+**Endings:** Same for all verbs:  
+-je: **-ai**  
+-tu: **-as**  
+-il/elle: **-a**  
+-nous: **-ons**  
+-vous: **-ez**  
+-ils/elles: **-ont**
+
+**Examples:**  
+• Regular -er verbs: *I will speak* = **Je parlerai**  
+• Regular -ir verbs: *You will finish* = **Tu finiras**  
+• Irregular *aller*: *She will go* = **Elle ira**
+
+**Special Cases:**  
+• Double consonants: *I will call* = **J'appellerai**  
+• Accent changes: *I will buy* = **J'achèterai**  
+• Stem-changing verbs: *I will see* = **Je verrai**
+
+{{< video https://www.youtube.com/watch?v=ZDw6Mah5An8
+    title="futur antérior"
+    start="116"
+    aspect-ratio="21x9" 
+>}}
+
+#### **2. Future Perfect (Futur Antérieur)**
+**When to use:** For actions that will be completed before another future action.
+
+**Formation:**  
+Future of *avoir/être* + past participle
+
+**Examples:**  
+• With *avoir*: *I will have eaten* = **J'aurai mangé**  
+• With *être*: *She will have left* = **Elle sera partie**  
+• In sentences:  
+*When I will have finished, I'll leave* =  
+**Quand j'aurai fini, je partirai**
+
+#### **3. Key Differences**
+| Situation | Simple Future | Future Perfect |
+|-----------|---------------|----------------|
+| Standalone action | *I will travel* = **Je voyagerai** | - |
+| Sequence of actions | - | *After I will have saved money, I'll travel* = **Après que j'aurai économisé, je voyagerai** |
+
+#### **4. Pro Tips**
+✔️ All future simple endings start with the infinitive  
+✔️ 3rd group irregulars must be memorized (*devoir → je devrai*)  
+✔️ Future perfect always shows completion before something else  
+
+
+:::
+
+::: {.content-visible when-profile="french"}
+
+
+#### **1. Le Futur Simple**  
+Le futur simple permet d’exprimer une action qui **aura lieu** ou **se terminera** dans le futur.  
+
+##### **Les Terminaisons**  
+Tous les verbes (réguliers et irréguliers) partagent les mêmes terminaisons :  
+- **-ai, -as, -a, -ons, -ez, -ont**  
+  *Exemple : Je parlerai, tu finiras, il partira, nous irons, vous serez, ils feront.*  
+
+##### **Règles de Conjugaison**  
+- **Verbes du 1er et 2e groupes** :  
+  On conserve l’infinitif entier.  
+  *Exemples :*  
+  - *Parler* → Je parlerai  
+  - *Finir* → Tu finiras  
+
+- **Verbes du 3e groupe** :  
+  Certains sont irréguliers, mais beaucoup gardent leur radical.  
+  *Exemples :*  
+  - *Vouloir* → Je voudrai  
+  - *Pouvoir* → Je pourrai  
+
+##### **Cas Particuliers**  
+
+- **Verbes en -eler / -eter** :  
+  - Doublent la consonne (*l* ou *t*) : *j’appellerai*, *je jetterai*.  
+  - **Exceptions** : Certains prennent un accent grave (ex: *acheter* → *j’achèterai*).  
+
+- **Verbes en -yer** :  
+  Le *-y* devient *-i* : *employer* → *j’emploierai*.  
+
+- **Verbes comme *courir* / *mourir*** :  
+  Doublent le *r* : *je courrai*, *il mourra*.  
+
+---
+
+{{< video https://www.youtube.com/watch?v=ZDw6Mah5An8
+    title="futur antérior"
+    start="116"
+    aspect-ratio="21x9" 
+>}}
+
+#### **2. Le Futur Antérieur**  
+Le futur antérieur décrit une action **achevée avant une autre action future**. Il se forme avec :  
+**Auxiliaire (être/avoir au futur simple) + participe passé**.  
+
+##### **Quand l’utiliser ?**  
+- Pour une action future **antérieure à une autre** :  
+  *Exemple :*  
+  *"Quand tu **auras fini** (futur antérieur) tes devoirs, tu **pourras** (futur simple) sortir."*  
+
+##### **Conjugaison**  
+- **Avec *avoir*** :  
+  *J’aurai parlé, tu auras mangé, il aura vu...*  
+
+- **Avec *être*** (accord du participe passé) :  
+  *Je serai allé(e), tu seras parti(e), elle sera rentrée...*  
+
+---
+
+#### **3. Résumé : Clé pour Choisir**  
+- **Futur simple** : Action future isolée ou simultanée.  
+  *Ex : Demain, je *partirai* en voyage.*  
+
+- **Futur antérieur** : Action future terminée avant une autre.  
+  *Ex : Dès que je *serai arrivé*, je t’appellerai.*  
+
+---
+
+### **À Retenir**  
+- Les terminaisons du futur simple sont **fixes** (-ai, -as...).  
+- Les verbes irréguliers (3e groupe) méritent une attention particulière.  
+- Le futur antérieur marque **l’antériorité** dans le futur.  
+
+Avec ces règles, vous maîtriserez facilement ces temps pour des récits ou projets futurs. Vous pouvez consulter [ce pdf](https://drive.google.com/file/d/1h3o_wE2rgDlpxYq5JZbvkjnh6XCQ9gXN/view?usp=drive_link) pour plus de détails! 
+
+---
+:::
+
+
+
+{{< video https://youtu.be/sZlXri6Uh70?si=XWGUplYaugzn_m45
+    title="What is the CERN?"
+    start="116"
+    aspect-ratio="21x9" 
+>}}

@@ -43,9 +43,12 @@ website:
         href: contact.qmd
       - text: Abonnement
         href: payment.qmd
-      - text: Se connecter
-        href: login.qmd
-
+      - text: "Accès"
+        menu:
+          - text: "Se connecter"
+            href: login.qmd
+          - text: "Se déconnecter"
+            href: profile.qmd
     right:
       - text: "Facturation"
         href: https://billing.stripe.com/p/login/14k8xo9FteB0dr26oo
