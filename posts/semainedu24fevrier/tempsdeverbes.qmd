@@ -171,11 +171,18 @@ ReactDOM.render(
  </script>
 
 ::: {.content-visible when-profile="english"}
+
 French verb tenses can seem daunting at first, but once you understand their structure and usage, they become a powerful tool for expressing yourself clearly. [In today’s lecture](https://drive.google.com/file/d/1d6abMu8t_2GCdx7MO77UrMFxtPRV6q3-/view?usp=drive_link), we explored the most commonly used French verb tenses - **eight** out of the fifteen. Let’s break them down one by one with examples to help you master them.
 
 ------------------------------------------------------------------------
 
 #### 1. **Present Tense**
+
+{{< video https://www.youtube.com/watch?v=SApp5pEtCB4
+    title="What is the CERN?"
+    start="116"
+    aspect-ratio="21x9" 
+>}}
 
 In French, the present tense is primarily expressed through:
 
@@ -203,7 +210,14 @@ The past tense in French is divided into three main forms:
 -   **Plus-que-parfait**: This tense is used to describe an action that occurred before another past action. It is formed with the imperfect tense of *avoir* or *être* and the past participle.\
     *Example*: *J’avais déjà mangé une pomme quand tu es arrivé.* (I had already eaten an apple when you arrived.)
 
-------------------------------------------------------------------------
+---
+
+{{< video https://www.youtube.com/watch?v=iVEAtqKEYOU&t=3848s
+    title="les temps de verbes"
+    start="116"
+    aspect-ratio="21x9" 
+>}}
+
 
 #### 3. **Future Tense**
 
@@ -222,8 +236,14 @@ The future tense in French includes:
 ::: {.content-visible when-profile="french"}
 Les temps verbaux en français peuvent sembler complexes au premier abord, mais une fois que vous en comprenez la structure et l’utilisation, ils deviennent un outil puissant pour vous exprimer clairement. [Dans le cours d’aujourd’hui](https://drive.google.com/file/d/1d6abMu8t_2GCdx7MO77UrMFxtPRV6q3-/view?usp=drive_link), nous avons exploré les temps verbaux les plus couramment utilisés en français - **huit** sur les quinze existants. Décomposons-les un par un avec des exemples pour vous aider à les maîtriser.
 
-------------------------------------------------------------------------
 
+{{< video https://www.youtube.com/watch?v=iVEAtqKEYOU&t=3848s
+    title="les temps de verbes"
+    start="315"
+    aspect-ratio="21x9" 
+>}}
+
+---
 #### 1. **Le Présent**
 
 En français, le présent s’exprime principalement à travers :
@@ -238,6 +258,13 @@ En français, le présent s’exprime principalement à travers :
     *Exemple* : *Je suis en train de manger.*
 
 ------------------------------------------------------------------------
+
+{{< video https://www.youtube.com/watch?v=SApp5pEtCB4
+    title="What is the CERN?"
+    start="315"
+    aspect-ratio="21x9" 
+>}}
+
 
 #### 2. **Le Passé**
 

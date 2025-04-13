@@ -211,6 +211,12 @@ Independent pronouns add nuance and precision to sentences, making them more exp
 
 Dans le cours d’aujourd’hui, [on a étudié les pronoms](https://drive.google.com/file/d/1wkGiO7_6KizQjrJjI59cdT4wMDsJu6F9/view?usp=drive_link). Ils sont essentiels en langue car ils remplacent les noms pour éviter les répétitions et fluidifier les phrases. Ils sont classés en trois catégories principales : première personne, deuxième personne et troisième personne.  
 
+{{< video https://www.youtube.com/watch?v=pAs6wipv3R4
+    title="What is the CERN?"
+    start="116"
+    aspect-ratio="21x9" 
+>}}
+
 1. **Première Personne** : Ces pronoms désignent le locuteur ou un groupe incluant le locuteur. Exemples : *je* et *nous*. Par exemple, « Je vais au magasin » ou « Nous étudions le français ».  
 
 2. **Deuxième Personne** : Ces pronoms s’adressent directement à l’interlocuteur. Exemples : *tu* ou *vous*. Par exemple, « Tu es mon ami » ou « Vous êtes tous invités ».  
@@ -218,6 +224,13 @@ Dans le cours d’aujourd’hui, [on a étudié les pronoms](https://drive.googl
 3. **Troisième Personne** : Ces pronoms désignent une personne ou une chose dont on parle. Exemples : *il*, *elle*, *ils*, *elles*. Par exemple, « Il lit un livre » ou « Elles jouent dehors ».  
 
 Utiliser les pronoms efficacement évite les répétitions, rendant la communication plus claire et concise.  
+
+{{< video https://www.youtube.com/watch?v=pAs6wipv3R4
+    title="What is the CERN?"
+    start="116"
+    aspect-ratio="21x9" 
+>}}
+
 
 **Les Pronoms Indépendants** sont utilisés dans des contextes spécifiques pour ajouter de l'emphase ou de la clarté. Voici quelques exemples :  
 - **Pour insister sur le sujet** : « Moi, je suis vraiment indépendant ».  

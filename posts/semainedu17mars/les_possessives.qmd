@@ -195,6 +195,11 @@ ReactDOM.render(
 ::: {.content-visible when-profile="english"}
 When learning French, one of the key grammar concepts to master is **possessives** and [that is what we studied today](https://drive.google.com/file/d/1gScHEm-N_yJjVM-1GLr9fLXZIQHbkn9O/view?usp=drive_link). These are words used to show ownership or possession, like "my," "your," "his," "her," etc. In French, possessives change depending on the **gender (masculine/feminine)** and **number (singular/plural)** of the noun they describe. Let’s break it down:
 
+{{< video https://www.youtube.com/watch?v=mikQZVl13VY
+    title="Possessives adjectives?"
+    start="116"
+    aspect-ratio="21x9" 
+>}}
 ------------------------------------------------------------------------
 
 #### **1. Singular Possessives**
@@ -213,6 +218,12 @@ For singular nouns, the possessive changes based on the **gender** of the noun b
 **Note**: If a feminine noun starts with a vowel or silent "h," use the masculine form for smoother pronunciation:\
 - *Mon amie* (My friend – feminine)\
 - *Ton école* (Your school – feminine)
+
+{{< video https://www.youtube.com/watch?v=TFCkx4kl5rc
+    title="Possessives adjectives?"
+    start="116"
+    aspect-ratio="21x9" 
+>}}
 
 ------------------------------------------------------------------------
 
@@ -254,7 +265,14 @@ Let’s see some examples to make it clearer:
 ::: {.content-visible when-profile="french"}
 Lorsqu’on apprend le français, l’un des concepts grammaticaux clés à maîtriser est celui des **adjectifs possessifs**. [Cliquez ici pour accéder au document](https://drive.google.com/file/d/1gScHEm-N_yJjVM-1GLr9fLXZIQHbkn9O/view?usp=drive_link). Ces mots sont utilisés pour exprimer la possession, comme "mon," "ton," "son," etc. En français, les possessifs changent en fonction du **genre (masculin/féminin)** et du **nombre (singulier/pluriel)** du nom qu’ils décrivent. Voici une explication détaillée :
 
-------------------------------------------------------------------------
+------------------------------------------------------------------------.
+
+{{< video https://www.youtube.com/watch?v=79KJQcy76Eo
+    title="les adjectives possessives"
+    start="116"
+    aspect-ratio="21x9" 
+>}}
+
 
 #### **1. Les Possessifs au Singulier**
 
@@ -279,6 +297,13 @@ Si un nom féminin commence par une voyelle ou un "h" muet, on utilise la forme 
 - *Ton école* (Ton école – féminin)
 
 ------------------------------------------------------------------------
+
+{{< video https://www.youtube.com/watch?v=eXoFZeCXfcM
+    title="les adjectives possessives"
+    start="116"
+    aspect-ratio="21x9" 
+>}}
+
 
 #### **2. Les Possessifs au Pluriel**
 

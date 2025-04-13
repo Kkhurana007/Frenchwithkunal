@@ -173,11 +173,23 @@ ReactDOM.render(
 ::: {.content-visible when-profile="english"}
 In French, numbers are pronounced in a structured way that follows specific rules. Numbers 1 through 16 have unique names, such as "un" (1), "deux" (2), and "dix-sept" (17). For numbers between 17 and 69, they are formed by combining the tens and ones, such as "vingt-trois" (23) or "quarante-neuf" (49). For numbers 70 and above, the system changes slightly. In France, 70 is said as "soixante-dix" (literally "sixty-ten"), 71 as "soixante-et-onze" ("sixty-eleven"), and so on, up to 79. Numbers in the 80s are based on "quatre-vingts" (literally "four twenties"), so 82 is "quatre-vingt-deux." For numbers in the 90s, it combines "quatre-vingt" with the numbers from 10 to 19, like "quatre-vingt-dix" (90) or "quatre-vingt-quatorze" (94). Large numbers, like thousands, are pronounced similarly to English, with "mille" for 1,000 or "million" for 1,000,000.
 
+{{< video https://www.youtube.com/watch?v=CEx2fPn-_UE
+    title="What is the CERN?"
+    start="116"
+    aspect-ratio="21x9" 
+>}}
+
 You may look at these pdfs to learn more [numbers1to20](https://drive.google.com/file/d/14DL_fY4rLzKeLhmuSaslfh22EFaEXYPD/view?usp=drive_link), [numbers21to2billion](https://drive.google.com/file/d/17FM66-85U-_d2Y9SxxeRWSi3iglq0LyV/view?usp=drive_link).
 :::
 
 ::: {.content-visible when-profile="french"}
 En français, les nombres sont prononcés de manière structurée, suivant des règles spécifiques. Les nombres de 1 à 16 ont des noms uniques, comme "un" (1), "deux" (2) et "dix-sept" (17). Pour les nombres entre 17 et 69, ils sont formés en combinant les dizaines et les unités, comme "vingt-trois" (23) ou "quarante-neuf" (49). Pour les nombres à partir de 70, le système change légèrement. En France, 70 se dit "soixante-dix" (littéralement "soixante-dix"), 71 se dit "soixante-et-onze" ("soixante-onze"), et ainsi de suite, jusqu'à 79. Les nombres dans les années 80 sont basés sur "quatre-vingts" (littéralement "quatre-vingts"), donc 82 se dit "quatre-vingt-deux". Pour les nombres dans les années 90, on combine "quatre-vingt" avec les nombres de 10 à 19, comme "quatre-vingt-dix" (90) ou "quatre-vingt-quatorze" (94). Les grands nombres, comme les milliers, sont prononcés de manière similaire à l'anglais, avec "mille" pour 1 000 ou "million" pour 1 000 000.
+
+{{< video https://www.youtube.com/watch?v=AvHO3T7cyNI
+    title="What is the CERN?"
+    start="116"
+    aspect-ratio="21x9" 
+>}}
 
 Tu peux consulter ces pdf pour en apprendre davantage : [nombres1to20](https://drive.google.com/file/d/14DL_fY4rLzKeLhmuSaslfh22EFaEXYPD/view?usp=drive_link), [nombres21to2billion](https://drive.google.com/file/d/17FM66-85U-_d2Y9SxxeRWSi3iglq0LyV/view?usp=drive_link).
 :::

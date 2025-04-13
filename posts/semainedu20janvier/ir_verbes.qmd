@@ -175,6 +175,12 @@ In French, -ir verbs are another category of regular verbs, and they follow a di
 
 je finis (I finish) tu finis (you finish, informal) il/elle finit (he/she finishes) nous finissons (we finish) vous finissez (you finish, formal/plural) ils/elles finissent (they finish)
 
+{{< video https://www.youtube.com/watch?v=sGK2RmgHMOw
+    title="ir-verbes au présent""
+    start="116"
+    aspect-ratio="21x9" 
+>}}
+
 Most -ir verbs, like choisir (to choose) or réussir (to succeed), follow this regular conjugation pattern, making them easier to learn compared to irregular verbs.
 
 You can look into detalied explanation [throught this pdf](https://drive.google.com/file/d/18y12oScOdZN7-oh21EtfY7D9PW4G1rby/view?usp=drive_link).
@@ -185,7 +191,14 @@ En français, les verbes en -ir constituent une autre catégorie de verbes régu
 
 je finis (je finis) tu finis (tu finis, informel) il/elle finit (il/elle finit) nous finissons (nous finissons) vous finissez (vous finissez, formel/pluriel) ils/elles finissent (ils/elles finissent)
 
+{{< video https://www.youtube.com/watch?v=kVpeooN2eSo
+    title="ir-verbes au présent""
+    start="116"
+    aspect-ratio="21x9" 
+>}}
+
 La plupart des verbes en -ir, comme choisir (choisir) ou réussir (réussir), suivent ce modèle de conjugaison régulier, ce qui les rend plus faciles à apprendre par rapport aux verbes irréguliers.
 
 Vous pouvez consulter une explication détaillée à [travers ce pdf](https://drive.google.com/file/d/18y12oScOdZN7-oh21EtfY7D9PW4G1rby/view?usp=drive_link).
+
 :::

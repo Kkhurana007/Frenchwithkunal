@@ -176,7 +176,9 @@ ReactDOM.render(
 ::: {.content-visible when-profile="english"}
 When learning a language, mastering the basic **Subject + Verb + Object (SVO)** structure is essential for forming correct sentences. Whether in English or French, this structure is the foundation of communication. In this article, we’ll break down each element and see how to identify them easily. You can refer to [this pdf](https://drive.google.com/file/d/1fi3oGtxpK9YgG64356j7UIfOJe7M4k7L/view?usp=drive_link) for more details.
 
-------------------------------------------------------------------------
+
+
+---
 
 ## **1. The Subject: Who Performs the Action?**
 
@@ -222,6 +224,12 @@ Everything that is **not the subject or verb** is an **object**. It can be:\
 
 ::: {.content-visible when-profile="french"}
 Lorsqu’on apprend une langue, il est crucial de maîtriser la structure de base **Sujet + Verbe + Complément (SVC)** pour former des phrases correctes. Que ce soit en anglais ou en français, cette structure constitue le pilier de la communication. Dans cet article, nous allons analyser chaque élément en détail et apprendre à les identifier facilement. Vous pouvez consulter [ce PDF](https://drive.google.com/file/d/1fi3oGtxpK9YgG64356j7UIfOJe7M4k7L/view?usp=drive_link) pour plus d'informations.
+
+{{< video https://www.youtube.com/watch?v=LkRkoQFw6fg
+    title="le sujet et le complément du nom"
+    start="116"
+    aspect-ratio="21x9" 
+>}}
 
 ------------------------------------------------------------------------
 

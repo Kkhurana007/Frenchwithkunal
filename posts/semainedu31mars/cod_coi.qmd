@@ -183,6 +183,13 @@ An object pronoun replaces a noun to avoid repetition. In French, there are two 
 
 ## **2. Direct Object Pronouns (COD)**
 
+
+{{< video https://www.youtube.com/watch?v=J4gWG5OwJ-s
+    title="COD:le, la, l', les"
+    start="116"
+    aspect-ratio="21x9" 
+>}}
+
 ## **How to Recognize Them**
 
 Ask **“who?” or “what?”** after the verb to find the COD.\
@@ -312,6 +319,13 @@ Un pronom complément remplace un nom (ou un groupe nominal) pour éviter les r�
 
 ## **2. Le COD (Complément d’Objet Direct)**
 
+{{< video https://www.youtube.com/watch?v=frKfwrl_Gko
+    title="COD:le, la, l', les"
+    start="116"
+    aspect-ratio="21x9" 
+>}}
+
+
 ### **Comment le reconnaître ?**
 
 Pour identifier le COD, posez la question **« qui ? » ou « quoi ? »** après le verbe.\
@@ -353,9 +367,24 @@ Avec les verbes de goût (*aimer, adorer, détester*), on utilise parfois **« �
 -   **Impératif négatif** : **devant le verbe**.\
     *Ne regarde pas la télévision ! → Ne **la** regarde pas !*
 
+
+{{< video https://www.youtube.com/watch?v=OjmlKQo7XX8
+    title="COD:le, la, l', les"
+    start="116"
+    aspect-ratio="21x9" 
+>}}
+
+
 ------------------------------------------------------------------------
 
 ## **3. Le COI (Complément d’Objet Indirect)**
+
+{{< video https://www.youtube.com/watch?v=eIEFPVnCibI
+    title="COI:lui,leur"
+    start="116"
+    aspect-ratio="21x9" 
+>}}
+
 
 ### **Comment le reconnaître ?**
 
@@ -416,3 +445,9 @@ Maîtriser les pronoms COD et COI permet d’éviter les répétitions et d’am
 
 [Pour plus de détails, veuillez consulter à ce pdf.](https://drive.google.com/file/d/16wIBcaNt5kSvUyF3iQY6hdYITyHTEolm/view?usp=drive_link)
 :::
+
+{{< video https://www.youtube.com/watch?v=9g-AyUG8rOs&t=11s
+    title="COD:le, la, l', les"
+    start="116"
+    aspect-ratio="21x9" 
+>}}

@@ -173,6 +173,13 @@ ReactDOM.render(
 ::: {.content-visible when-profile="english"}
 [In today’s lecture](https://drive.google.com/file/d/1pmXE4InVTA4GYXucCMEuXqqUrPkjtUQv/view?usp=drive_link), we explored the concept of **partitive articles** in French. Partitives are used to express an unspecified quantity of something, often paired with verbs related to eating, drinking, or buying. However, their usage changes in specific contexts, such as negatives, adverbs, and quantities. Let’s dive deeper into this topic with clear examples to help you understand how partitives work and when they change.
 
+
+{{< video https://www.youtube.com/watch?v=6edld_vN7VA
+    title="Partitifs"
+    start="116"
+    aspect-ratio="21x9" 
+>}}
+
 #### What Are Partitive Articles?
 
 Partitive articles in French are used to refer to an indefinite or uncountable quantity of something. They are:\
@@ -185,6 +192,9 @@ These articles are typically used with verbs of quantity, such as *manger* (to e
 #### When Do Partitives Change?
 
 Partitive articles change in three specific contexts: **negatives**, **adverbs**, and **quantities**. Let’s look at examples for each case.
+
+
+
 
 ##### 1. **With Negatives**
 
@@ -227,7 +237,15 @@ When expressing specific quantities, the partitive article is replaced by **de**
 :::
 
 ::: {.content-visible when-profile="french"}
+
 [Dans le cours d’aujourd’hui](https://drive.google.com/file/d/1pmXE4InVTA4GYXucCMEuXqqUrPkjtUQv/view?usp=drive_link), nous avons exploré le concept des **articles partitifs** en français. Les partitifs sont utilisés pour exprimer une quantité indéfinie ou non comptable de quelque chose, souvent associés à des verbes liés à la nourriture, à la boisson ou à l’achat. Cependant, leur utilisation change dans des contextes spécifiques, tels que les négations, les adverbes et les quantités. Plongeons plus profondément dans ce sujet avec des exemples clairs pour vous aider à comprendre comment fonctionnent les partitifs et quand ils changent.
+
+
+{{< video https://www.youtube.com/watch?v=IXgt1ulNrs0
+    title="Partitifs"
+    start="116"
+    aspect-ratio="21x9" 
+>}}
 
 #### Que Sont les Articles Partitifs ?
 
@@ -241,6 +259,12 @@ Ces articles sont généralement utilisés avec des verbes de quantité, comme *
 #### Quand les Partitifs Changent-ils?
 
 Les articles partitifs changent dans trois contextes spécifiques : **les négations**, **les adverbes** et **les quantités**. Examinons des exemples pour chaque cas.
+
+{{< video https://www.youtube.com/watch?v=uU06DMmqM2g
+    title="Partitifs"
+    start="116"
+    aspect-ratio="21x9" 
+>}}
 
 ##### 1. **Avec les Négations**
 

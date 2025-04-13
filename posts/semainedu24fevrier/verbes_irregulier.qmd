@@ -171,7 +171,15 @@ ReactDOM.render(
  </script>
 
 ::: {.content-visible when-profile="english"}
+
 [In today’s lecture](https://drive.google.com/file/d/1CX-20kAafIZtichqqzvPD-zptGNKh39N/view?usp=drive_link), we had an engaging and productive session that combined learning, technology, and fun! We practiced **10 irregular verbs**, installed **French keyboards** to simplify typing special characters, and played a lively game of **Kahoot** to reinforce our knowledge. Additionally, we discussed a crucial tip for mastering French verbs: understanding whether a verb is singular or plural before conjugating it. Let’s break down everything we covered in detail.
+
+
+{{< video https://www.youtube.com/watch?v=yT3HASwyLJs&t=597s
+    title="les verbes irrégulier"
+    start="116"
+    aspect-ratio="21x9" 
+>}}
 
 ------------------------------------------------------------------------
 
@@ -188,6 +196,12 @@ We practiced these verbs in sentences to understand their usage better. For exam
 -   *Je suis étudiant.* (I am a student.)\
 -   *Tu as un livre.* (You have a book.)\
 -   *Nous allons à l’école.* (We are going to school.)
+
+{{< video https://www.youtube.com/watch?v=fCPur-76iPw&t=1824s
+    title="les verbes irrégulier"
+    start="116"
+    aspect-ratio="21x9" 
+>}}
 
 ------------------------------------------------------------------------
 
@@ -226,6 +240,12 @@ By combining grammar practice, technology, and fun activities like Kahoot, we’
 
 ::: {.content-visible when-profile="french"}
 [Dans le cours d’aujourd’hui](https://drive.google.com/file/d/1CX-20kAafIZtichqqzvPD-zptGNKh39N/view?usp=drive_link), nous avons eu une séance engageante et productive qui a combiné apprentissage, technologie et amusement ! Nous avons pratiqué **10 verbes irréguliers**, installé des **claviers français** pour faciliter la saisie des caractères spéciaux, et joué à un jeu de **Kahoot** pour renforcer nos connaissances. De plus, nous avons discuté d’une astuce cruciale pour maîtriser les verbes français : comprendre si un verbe est au singulier ou au pluriel avant de le conjuguer. Décortiquons tout ce que nous avons abordé en détail.
+
+{{< video https://www.youtube.com/watch?v=fCPur-76iPw&t=1824s
+    title="les verbes irrégulier"
+    start="116"
+    aspect-ratio="21x9" 
+>}}
 
 ------------------------------------------------------------------------
 

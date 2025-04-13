@@ -171,9 +171,16 @@ ReactDOM.render(
  </script>
 
 ::: {.content-visible when-profile="english"}
+
 In French, -er verbs are the most common and are considered regular verbs. These verbs follow a standard conjugation pattern in different tenses, making them relatively easy to learn. To conjugate an -er verb in the present tense, you begin by removing the -er ending from the infinitive form of the verb, leaving the stem. Then, you add the appropriate endings depending on the subject pronoun. For example, with the verb "parler" (to speak):
 
 je parle (I speak) tu parles (you speak, informal) il/elle parle (he/she speaks) nous parlons (we speak) vous parlez (you speak, formal/plural) ils/elles parlent (they speak) The endings for the present tense are: -e, -es, -e, -ons, -ez, -ent. These are applied to all regular -er verbs.
+
+{{< video https://www.youtube.com/watch?v=TAYBSzkmMZ4
+    title="What is the CERN?"
+    start="116"
+    aspect-ratio="21x9" 
+>}}
 
 You can look at [this pdf](https://drive.google.com/file/d/1QWKTDci-CCVcfR7ca7QxQC4QnOdSYb2S/view?usp=drive_link) for detailed explanation.
 :::
@@ -185,3 +192,9 @@ je parle (je parle) tu parles (tu parles, informel) il/elle parle (il/elle parle
 
 Tu peux consulter [ce pdf](https://drive.google.com/file/d/1QWKTDci-CCVcfR7ca7QxQC4QnOdSYb2S/view?usp=drive_link) pour des explications détaillées.
 :::
+
+{{< video https://www.youtube.com/watch?v=taAKHLtMWHw
+    title="What is the CERN?"
+    start="116"
+    aspect-ratio="21x9" 
+>}}
