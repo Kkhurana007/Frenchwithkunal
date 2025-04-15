@@ -176,6 +176,13 @@ ReactDOM.render(
 
 Demonstratives are an essential part of French grammar. Technically, they are adjectives used alongside nouns and pronouns to help identify or specify the noun being discussed. For example, if you want to distinguish between *that particular cat* and *a cat in general*, demonstratives come into play. They change according to the gender and number of the noun they modify, making them a crucial tool for clear communication.
 
+
+{{< video https://www.youtube.com/watch?v=QaVuJI6Mkv0
+    title="Demonstrative adjectives"
+    start="116"
+    aspect-ratio="21x9" 
+>}}
+
 Here’s a quick reference table to help you understand the different forms of demonstratives in French:
 
 - **Ce/Cet** – This/That (Masculine)
@@ -195,6 +202,7 @@ Let’s look at some examples to see how demonstratives are used in practice:
 
 4. **Ces fleurs sont jolies.** (These flowers are pretty.)  
    - *Ces* is used for plural nouns, regardless of gender.
+   
 
 Demonstratives are incredibly useful for specifying which noun you’re referring to, especially in conversations or written texts where clarity is key. To dive deeper into this topic, you can refer to the [attached PDF for more detailed explanations and examples](https://drive.google.com/file/d/1ngdA8VMsN101wkfLRurtkPGtdRN3KGhB/view?usp=drive_link).
 
@@ -207,6 +215,13 @@ Demonstratives are incredibly useful for specifying which noun you’re referrin
 ::: {.content-visible when-profile="french"}
 
 Les adjectifs démonstratifs sont un élément essentiel de la grammaire française. Techniquement, ce sont des adjectifs utilisés aux côtés des noms et des pronoms pour aider à identifier ou à préciser le nom dont on parle. Par exemple, si vous souhaitez distinguer *ce chat particulier* de *un chat en général*, les adjectifs démonstratifs entrent en jeu. Ils changent selon le genre et le nombre du nom qu’ils modifient, ce qui en fait un outil crucial pour une communication claire.
+
+{{< video https://www.youtube.com/watch?v=oNfTB-_xWbY
+    title="Demonstrative adjectives"
+    start="116"
+    aspect-ratio="21x9" 
+>}}
+
 
 Voici un tableau de référence rapide pour comprendre les différentes formes des adjectifs démonstratifs en français :
 
@@ -235,8 +250,3 @@ Les adjectifs démonstratifs sont incroyablement utiles pour préciser de quel n
 
 
 
-{{< video https://www.youtube.com/watch?v=QaVuJI6Mkv0
-    title="Demonstrative adjectives"
-    start="116"
-    aspect-ratio="21x9" 
->}}

@@ -178,6 +178,12 @@ ReactDOM.render(
 
 Adverbs play a crucial role in language as they help describe verbs, adding depth and clarity to our sentences. In French, adverbs can be categorized into three main types: adverbs of time, adverbs of manner, and adverbs of place. Additionally, there are some irregular adverbs that don’t follow the standard rules. [In today’s lesson](https://drive.google.com/file/d/1HTWslCP1jMCUZp_6T_TkQVFAk_3AQg09/view?usp=drive_link), we focused on **adverbs of time** and practiced constructing simple sentences in the past, present, and future tenses using them.
 
+{{< video https://www.youtube.com/watch?v=ELPX1oTKB3k
+    title="Adverbs of time- FR"
+    start="116"
+    aspect-ratio="21x9" 
+>}}
+
 Adverbs of time, such as *hier* (yesterday), *aujourd’hui* (today), and *demain* (tomorrow), help us specify when an action takes place. For example:
 
 -   **Past tense**: *Hier, j’ai mangé une pomme.* (Yesterday, I ate an apple.)
@@ -185,6 +191,19 @@ Adverbs of time, such as *hier* (yesterday), *aujourd’hui* (today), and *demai
 -   **Present tense**: *Aujourd’hui, je vais à l’école.* (Today, I am going to school.)
 
 -   **Future tense**: *Demain, je ferai mes devoirs.* (Tomorrow, I will do my homework.)
+
+{{< video https://www.youtube.com/watch?v=Ukc05X5h8J8
+    title="Adverbs of time- FR"
+    start="116"
+    aspect-ratio="21x9" 
+>}}
+
+
+{{< video https://www.youtube.com/watch?v=kjRdf7PGVIM
+    title="Adverbs of time- FR"
+    start="116"
+    aspect-ratio="21x9" 
+>}}
 
 After exploring adverbs, we revisited the verb endings for the three major groups of French verbs: **-ER**, **-IR**, and **-RE** verbs. We practiced conjugating examples from each group to reinforce our understanding:
 
@@ -205,6 +224,13 @@ By combining adverbs of time with properly conjugated verbs, we can create clear
 
 Les adverbes jouent un rôle crucial dans la langue car ils permettent de décrire les verbes, ajoutant ainsi de la profondeur et de la clarté à nos phrases. En français, les adverbes peuvent être classés en trois catégories principales : les adverbes de temps, les adverbes de manière et les adverbes de lieu. De plus, il existe certains adverbes irréguliers qui ne suivent pas les règles standards. [Dans le cours d’aujourd’hui](https://drive.google.com/file/d/1HTWslCP1jMCUZp_6T_TkQVFAk_3AQg09/view?usp=drive_link), nous nous sommes concentrés sur **les adverbes de temps** et avons pratiqué la construction de phrases simples au passé, au présent et au futur en les utilisant.
 
+{{< video https://www.youtube.com/watch?v=ELPX1oTKB3k
+    title="Adverbs of time- FR"
+    start="116"
+    aspect-ratio="21x9" 
+>}}
+
+
 Les adverbes de temps, tels que *hier* (yesterday), *aujourd’hui* (today) et *demain* (tomorrow), nous aident à préciser quand une action a lieu. Par exemple:
 
 -   **Passé** : *Hier, j’ai mangé une pomme.* (Yesterday, I ate an apple.)
@@ -212,6 +238,19 @@ Les adverbes de temps, tels que *hier* (yesterday), *aujourd’hui* (today) et *
 -   **Présent** : *Aujourd’hui, je vais à l’école.* (Today, I am going to school.)
 
 -   **Futur** : *Demain, je ferai mes devoirs.* (Tomorrow, I will do my homework.)
+
+{{< video https://www.youtube.com/watch?v=Ukc05X5h8J8
+    title="Adverbs of time- FR"
+    start="116"
+    aspect-ratio="21x9" 
+>}}
+
+
+{{< video https://www.youtube.com/watch?v=kjRdf7PGVIM
+    title="Adverbs of time- FR"
+    start="116"
+    aspect-ratio="21x9" 
+>}}
 
 Après avoir exploré les adverbes, nous avons revu les terminaisons des verbes pour les trois groupes principaux de verbes français : les verbes en **-ER**, **-IR** et **-RE**. Nous avons pratiqué la conjugaison d’exemples de chaque groupe pour renforcer notre compréhension:
 

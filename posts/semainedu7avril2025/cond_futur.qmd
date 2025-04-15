@@ -194,6 +194,12 @@ In French, the **future simple** and **conditional present** share the **same ve
 **Pro Tip**: The future tense can also imply a logical conclusion, like:\
 *"You’re yawning—you’ll probably sleep early tonight."* (*Tu bâilles—tu dormiras tôt ce soir.*)
 
+{{< video https://www.youtube.com/watch?v=wYB6uaTRCqA
+    title="le futur simple"
+    start="116"
+    aspect-ratio="21x9" 
+>}}
+
 ------------------------------------------------------------------------
 
 #### **2. Conditional Present**
@@ -265,6 +271,13 @@ En français, le **futur simple** et le **conditionnel présent** partagent les 
     *"Vous écrirez cette lettre dès que possible."*
 
 **Astuce** : Le futur peut aussi exprimer une **supposition logique** (ex. *"Tu as faim ? Tu mangeras en rentrant."*).
+
+
+{{< video https://www.youtube.com/watch?v=wYB6uaTRCqA
+    title="le futur simple"
+    start="116"
+    aspect-ratio="21x9" 
+>}}
 
 ------------------------------------------------------------------------
 

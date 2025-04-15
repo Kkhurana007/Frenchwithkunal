@@ -195,7 +195,7 @@ ReactDOM.render(
 • Accent changes: *I will buy* = **J'achèterai**  
 • Stem-changing verbs: *I will see* = **Je verrai**
 
-{{< video https://www.youtube.com/watch?v=ZDw6Mah5An8
+{{< video https://www.youtube.com/watch?v=wYB6uaTRCqA
     title="futur antérior"
     start="116"
     aspect-ratio="21x9" 
@@ -219,6 +219,12 @@ Future of *avoir/être* + past participle
 |-----------|---------------|----------------|
 | Standalone action | *I will travel* = **Je voyagerai** | - |
 | Sequence of actions | - | *After I will have saved money, I'll travel* = **Après que j'aurai économisé, je voyagerai** |
+
+{{< video https://www.youtube.com/watch?v=hAFRTlJHJr4
+    title="futur antérior"
+    start="116"
+    aspect-ratio="21x9" 
+>}}
 
 #### **4. Pro Tips**
 ✔️ All future simple endings start with the infinitive  
@@ -266,7 +272,7 @@ Tous les verbes (réguliers et irréguliers) partagent les mêmes terminaisons :
 
 ---
 
-{{< video https://www.youtube.com/watch?v=ZDw6Mah5An8
+{{< video https://www.youtube.com/watch?v=wYB6uaTRCqA
     title="futur antérior"
     start="116"
     aspect-ratio="21x9" 
@@ -287,6 +293,12 @@ Le futur antérieur décrit une action **achevée avant une autre action future*
 
 - **Avec *être*** (accord du participe passé) :  
   *Je serai allé(e), tu seras parti(e), elle sera rentrée...*  
+
+  {{< video https://www.youtube.com/watch?v=hAFRTlJHJr4
+    title="futur antérior"
+    start="116"
+    aspect-ratio="21x9" 
+>}}
 
 ---
 

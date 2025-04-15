@@ -176,6 +176,13 @@ ReactDOM.render(
 
 In today’s lecture, [we studied pronouns](https://drive.google.com/file/d/1wkGiO7_6KizQjrJjI59cdT4wMDsJu6F9/view?usp=drive_link). They are essential in language as they replace nouns to avoid repetition and make sentences flow more naturally. They are categorized into three main groups: first person, second person, and third person.  
 
+{{< video https://www.youtube.com/watch?v=xzlyDXNuZ9g
+    title="les pronoms personnels"
+    start="116"
+    aspect-ratio="21x9" 
+>}}
+
+
 1. **First Person**: These pronouns refer to the speaker or a group including the speaker. Examples include *I* (je) and *we* (nous). For instance, "I am going to the store" (*Je vais au magasin*) or "We are studying French" (*Nous étudions le français*).  
 
 2. **Second Person**: These pronouns address the listener directly. Examples are *you* (tu or vous). For example, "You are my friend" (*Tu es mon ami*) or "You all are invited" (*Vous êtes tous invités*).  
@@ -211,8 +218,8 @@ Independent pronouns add nuance and precision to sentences, making them more exp
 
 Dans le cours d’aujourd’hui, [on a étudié les pronoms](https://drive.google.com/file/d/1wkGiO7_6KizQjrJjI59cdT4wMDsJu6F9/view?usp=drive_link). Ils sont essentiels en langue car ils remplacent les noms pour éviter les répétitions et fluidifier les phrases. Ils sont classés en trois catégories principales : première personne, deuxième personne et troisième personne.  
 
-{{< video https://www.youtube.com/watch?v=pAs6wipv3R4
-    title="What is the CERN?"
+{{< video https://www.youtube.com/watch?v=mgO24iuq068
+    title="les pronoms personnels"
     start="116"
     aspect-ratio="21x9" 
 >}}
@@ -226,7 +233,7 @@ Dans le cours d’aujourd’hui, [on a étudié les pronoms](https://drive.googl
 Utiliser les pronoms efficacement évite les répétitions, rendant la communication plus claire et concise.  
 
 {{< video https://www.youtube.com/watch?v=pAs6wipv3R4
-    title="What is the CERN?"
+    title="les pronoms personnels"
     start="116"
     aspect-ratio="21x9" 
 >}}

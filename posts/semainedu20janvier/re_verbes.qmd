@@ -178,6 +178,29 @@ je vends (I sell) tu vends (you sell, informal) il/elle vend (he/she sells) nous
 Most -re verbs, like attendre (to wait) or perdre (to lose), follow this regular conjugation pattern, making them predictable and relatively easy to conjugate in various tenses. However, similar to other verb categories, there are some irregular -re verbs that don’t follow these rules.
 
 For details, you may look at [this pdf](https://drive.google.com/file/d/1PizCfomf28UFpEyQjwFZ0hcOT-etdyuX/view?usp=drive_link).
+
+{{< video https://www.youtube.com/watch?v=GPvdeOAyNew
+    title="present indicatif tense - verbs conjugation"
+    start="116"
+    aspect-ratio="21x9" 
+>}}
+
+
+
+{{< video https://www.youtube.com/watch?v=5noY8tSjmDk
+    title="present indicatif tense - verbs conjugation"
+    start="116"
+    aspect-ratio="21x9" 
+>}}
+
+
+{{< video https://www.youtube.com/watch?v=cPgLhjON8Pg
+    title="present indicatif tense - verbs conjugation"
+    start="116"
+    aspect-ratio="21x9" 
+>}}
+
+
 :::
 
 ::: {.content-visible when-profile="french"}
@@ -186,4 +209,27 @@ En français, les verbes en -re forment un autre groupe de verbes réguliers qui
 je vends (je vends) tu vends (tu vends, informel) il/elle vend (il/elle vend) nous vendons (nous vendons) vous vendez (vous vendez, formel/pluriel) ils/elles vendent (ils/elles vendent) La plupart des verbes en -re, comme attendre (attendre) ou perdre (perdre), suivent ce modèle de conjugaison régulier, ce qui les rend prévisibles et relativement faciles à conjuguer dans différents temps. Cependant, comme pour d'autres catégories de verbes, certains verbes en -re sont irréguliers et ne suivent pas ces règles.
 
 Pour plus de détails, tu peux consulter [ce pdf](https://drive.google.com/file/d/1PizCfomf28UFpEyQjwFZ0hcOT-etdyuX/view?usp=drive_link).
+
+{{< video https://www.youtube.com/watch?v=GPvdeOAyNew
+    title="present indicatif tense - verbs conjugation"
+    start="116"
+    aspect-ratio="21x9" 
+>}}
+
+
+
+{{< video https://www.youtube.com/watch?v=5noY8tSjmDk
+    title="present indicatif tense - verbs conjugation"
+    start="116"
+    aspect-ratio="21x9" 
+>}}
+
+
+{{< video https://www.youtube.com/watch?v=cPgLhjON8Pg
+    title="present indicatif tense - verbs conjugation"
+    start="116"
+    aspect-ratio="21x9" 
+>}}
+
+
 :::

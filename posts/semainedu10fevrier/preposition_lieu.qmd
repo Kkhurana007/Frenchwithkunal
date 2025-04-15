@@ -205,6 +205,20 @@ Là-bas - At a distance/Over there: Refers to a location far from the speaker.
 
 Example: Le parc est là-bas. (The park is over there.)
 
+{{< video https://www.youtube.com/watch?v=vVWrQQ05UpM
+    title="les métiers"
+    start="116"
+    aspect-ratio="21x9" 
+>}}
+
+
+{{< video https://www.youtube.com/watch?v=JOcbYSwGXBA
+    title="les métiers"
+    start="116"
+    aspect-ratio="21x9" 
+>}}
+
+
 In addition to prepositions, we also discussed some important professions vocabulary. Here are a few key terms:
 
 Médecin (Doctor): A medical professional who diagnoses and treats illnesses.
@@ -262,6 +276,19 @@ Là-bas - At a distance/Over there : Se réfère à un endroit éloigné de la p
 Exemple : Le parc est là-bas. (The park is over there.)
 
 En plus des prépositions, nous avons également discuté du vocabulaire des professions importantes. Voici quelques termes clés :
+
+{{< video https://www.youtube.com/watch?v=82DuCsT57kg
+    title="les métiers"
+    start="116"
+    aspect-ratio="21x9" 
+>}}
+
+{{< video https://www.youtube.com/watch?v=hxsExzTI2Ls
+    title="les métiers"
+    start="116"
+    aspect-ratio="21x9" 
+>}}
+
 
 Médecin (Doctor) : Un professionnel de la santé qui diagnostique et traite les maladies.
 

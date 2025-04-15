@@ -274,3 +274,9 @@ Tout ce qui n’est **ni sujet ni verbe** est un **complément**. Il peut être 
 
 ------------------------------------------------------------------------
 :::
+
+{{< video https://www.youtube.com/watch?app=desktop&v=1chrD9OZqkc
+    title="le sujet et le complément du nom"
+    start="116"
+    aspect-ratio="21x9" 
+>}}

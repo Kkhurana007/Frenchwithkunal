@@ -176,6 +176,12 @@ ReactDOM.render(
 
 In French, possessive adjectives are the equivalents of *my*, *your*, and *his* in English. They are used extensively to indicate both the possessor and the possession. When dealing with singular subjects (*je*, *tu*, and *il*), it’s important to pay attention to gender, as these adjectives change accordingly. Let’s explore this with some examples:
 
+{{< video https://www.youtube.com/watch?v=mikQZVl13VY
+    title="Possessive adjectives"
+    start="116"
+    aspect-ratio="21x9" 
+>}}
+
 **Singular Possessive Adjectives:**
 
 - **Mon** – My (masculine) / **Ma** – My (feminine) / **Mes** – My (plural)
@@ -220,6 +226,13 @@ By practicing these structures, you’ll gain a better understanding of how poss
 
 En français, les adjectifs possessifs sont les équivalents de *my*, *your* et *his* en anglais. Ils sont largement utilisés pour indiquer à la fois le possesseur et la possession. Lorsqu’on parle de sujets singuliers (*je*, *tu* et *il*), il est important de faire attention au genre, car ces adjectifs changent en conséquence. Explorons cela avec quelques exemples :
 
+
+{{< video https://www.youtube.com/watch?v=031o_Z9F7H0
+    title="Possessive adjectives"
+    start="116"
+    aspect-ratio="21x9" 
+>}}
+
 **Adjectifs Possessifs au Singulier :**
 
 - **Mon** – My (masculin) / **Ma** – My (féminin) / **Mes** – My (pluriel)
@@ -261,8 +274,3 @@ En pratiquant ces structures, vous comprendrez mieux le fonctionnement des adjec
 :::
 
 
-{{< video https://www.youtube.com/watch?v=mikQZVl13VY
-    title="Possessive adjectives"
-    start="116"
-    aspect-ratio="21x9" 
->}}
