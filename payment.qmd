@@ -37,6 +37,10 @@ Choisissez le plan qui vous convient le mieux :
                 price: "C$50/month",
                 link: "https://buy.stripe.com/aEU6ps4g41wCfFm9AB",
                 features: ["Access to all lessons", "New content every week", "Topic realted imporatant videos", "Cancel anytime"]
+
+            },
+
+            {
                 name: "Yearly Plan",
                 price: "C$450/year",
                 link: "https://buy.stripe.com/8wM15813S7V0gJq6oq",

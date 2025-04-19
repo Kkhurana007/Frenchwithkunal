@@ -1,7 +1,10 @@
 [
   {
-    "listing": "/index.html",
+    "listing": "/posts.html",
     "items": [
+      "/posts/semainedu14avril/avoir_etre.html",
+      "/posts/semainedu14avril/gerant.html",
+      "/posts/semainedu14avril/jobs.html",
       "/posts/semainedu7avril2025/cond_futur.html",
       "/posts/semainedu7avril2025/futur_simple_ant.html",
       "/posts/semainedu7avril2025/pc_imp.html",

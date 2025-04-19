@@ -49,6 +49,8 @@ website:
     
   navbar:
     left:
+      - text: Blog Posts
+        href: posts.qmd
       - text: "About Us"
         href: about.qmd      
       - text: "Contact Us"

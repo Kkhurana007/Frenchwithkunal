@@ -175,7 +175,7 @@ ReactDOM.render(
 
 This week, we practiced French verb agreements - specifically, when and how to make adjectives and past participles agree with their subjects or objects. Understanding these rules is essential for writing fluently and avoiding common mistakes. But before diving into the details, there’s one crucial step: memorizing the conjugations of the two most important auxiliary verbs, être (to be) and avoir (to have).
 
-Why Are "Être" and "Avoir" So Important?
+### Why Are "Être" and "Avoir" So Important?
 
 These auxiliary verbs are used to form compound tenses (like the passé composé) and are at the heart of many French grammar rules. Here’s a quick refresher on their present tense conjugations:
 
@@ -185,7 +185,7 @@ These auxiliary verbs are used to form compound tenses (like the passé composé
 Now, let’s break down the agreement rules!
 ---
 
-1. The Auxiliary "Avoir": When Not to Agree (Most of the Time)
+### 1. The Auxiliary "Avoir": When Not to Agree (Most of the Time)
 With avoir, the past participle generally does not agree with the subject.
 
 Example:
@@ -203,7 +203,7 @@ Examples to illustrate:
 Tip: Ask "WHAT?" after the verb to identify the direct object.
 ---
 
-2. The Auxiliary "Être": Agreement Every Time
+### 2. The Auxiliary "Être": Agreement Every Time
 
 Unlike avoir, the past participle with être always agrees with the subject in gender (masculine/feminine) and number (singular/plural).
 Examples:
@@ -220,18 +220,16 @@ Examples:
 •	Elle s’est lavée. (She washed herself.) → Agreement with "elle" (since "se" is the direct object).
 •	Elle s’est lavé les mains. (She washed her hands.) → No agreement, because "les mains" (the hands) is the direct object and comes after the verb.
 
-Practice Makes Perfect!
+### Practice Makes Perfect!
+
 Theory is great, but practice is what really helps. Take a look at [this PDF](https://drive.google.com/file/d/1L3pKB22wmXcrTeMztQPvS6_dRkjOx_NQ/view?usp=drive_link) for extra exercises:
 
 :::
 
 ::: {.content-visible when-profile="french"}
 
-### **Les démonstratifs en français : Ce, Cet, Ça, Ceci, Cela, et Ces**
+### Pourquoi "être" et "avoir" sont-ils si importants?  
 
-Cette semaine, nous nous sommes penchés sur les règles d’accord en français, notamment avec les auxiliaires *être* et *avoir*. Comprendre quand et comment accorder est essentiel pour écrire de manière fluide et éviter des erreurs courantes. Mais avant de plonger dans les détails, une étape est incontournable : **connaître sur le bout des doigts les conjugaisons de ces deux verbes**.  
-
-### Pourquoi "être" et "avoir" sont-ils si importants ?  
 Ces auxiliaires servent à former les temps composés (comme le passé composé) et sont au cœur de nombreuses règles grammaticales. Voici un rappel de leurs conjugaisons au présent, un bon point de départ :  
 
 - **Être** : Je suis, tu es, il/elle/on est, nous sommes, vous êtes, ils/elles sont.  
@@ -246,6 +244,7 @@ En règle générale, **le participe passé employé avec "avoir" ne s’accorde
 - *Elle a mangé une pomme.* (Pas d’accord avec "elle").  
 
 **MAIS** il y a une exception cruciale :  
+
 👉 **Quand le complément d’objet direct (COD) est placé avant le verbe**, le participe passé s’accorde avec ce COD.  
 
 *Exemples pour illustrer* :  
@@ -257,6 +256,7 @@ En règle générale, **le participe passé employé avec "avoir" ne s’accorde
 ---
 
 ### 2. L’auxiliaire **"être"** : des accords systématiques  
+
 Contrairement à "avoir", **le participe passé avec "être" s’accorde toujours avec le sujet**, en genre (masculin/féminin) et en nombre (singulier/pluriel).  
 
 *Exemples* :  
@@ -274,6 +274,7 @@ Les verbes comme *se laver, s’habiller* utilisent aussi "être" aux temps comp
 
 ### Pour aller plus loin : un peu de pratique !  
 La théorie, c’est bien, mais la pratique, c’est mieux ! Jetez un coup d’œil à [ce PDF](https://drive.google.com/file/d/1L3pKB22wmXcrTeMztQPvS6_dRkjOx_NQ/view?usp=drive_link) rempli d’exercices pour vous entraîner.
+
 :::
 
 {{< video https://youtu.be/P6jeQz-VcKI
