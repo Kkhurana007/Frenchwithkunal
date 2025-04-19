@@ -1,8 +1,8 @@
 ---
-title: "Demonstratifs"
+title: "Adjective Demonstratives"
 author: "Kunal Khurana"
 date: "03-03-2025"
-categories: [A1/A2, B1, demonstratifs, articles]
+categories: [A1/A2, B1, demonstratives, adjectives, articles]
 image: "test.png"
 
 format:
@@ -179,6 +179,12 @@ We also learned that with the verb **être** (to be) and the relative pronoun **
 
 [In today's lecture](https://drive.google.com/file/d/1lIve3DEfQ1Rzy9JRp3ZHre6QM-HUZb42/view?usp=drive_link), we explored these demonstratives in detail, providing examples and explanations to better understand their usage.
 
+{{< video https://www.youtube.com/watch?v=64vBXVkO2_s
+    title="les demonstratifs"
+    start="116"
+    aspect-ratio="21x9" 
+>}}
+
 ------------------------------------------------------------------------
 
 ### **1. Ce, Cet, Ça, Ceci, Cela (This/That)**
@@ -209,6 +215,12 @@ The word **Ces** is used to refer to plural nouns, whether masculine or feminine
 -   Example: **Ces livres** (these/those books)
 -   Example: **Ces filles** (these/those girls)
 -   Example: **Ces arbres** (these/those trees)
+
+{{< video https://www.youtube.com/watch?v=ldKGxxybtAE&t=36s
+    title="les demonstratifs"
+    start="116"
+    aspect-ratio="21x9" 
+>}}
 
 ------------------------------------------------------------------------
 
@@ -274,6 +286,11 @@ Ces mots sont utilisés pour désigner quelque chose de spécifique au singulier
     -   **Cela** (that) est utilisé pour quelque chose de plus éloigné ou de moins immédiat.
         -   Exemple : **Cela me plaît** (That pleases me)
 
+{{< video https://www.youtube.com/watch?v=ldKGxxybtAE&t=36s
+    title="les demonstratifs"
+    start="116"
+    aspect-ratio="21x9" 
+>}}
 ------------------------------------------------------------------------
 
 ### **2. Ces (These/Those)**
