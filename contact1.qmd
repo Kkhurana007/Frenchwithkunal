@@ -1,0 +1,310 @@
+---
+#title: "Contact Us"
+---
+
+::: {.content-visible when-profile="english"}
+# Contact Us
+
+We'd love to hear from you! Whether you have a question about our services, feedback, or need support, our team is here to help.
+
+## Get in Touch
+
+**Email:** [info@frenchwithkunal.ca](mailto:info@frenchwithkunal.ca)
+
+## Enrollment Form
+Fill out this [form](https://forms.gle/UGptE4egRewexaSK7) to join our online learning classes.
+
+
+
+:::
+
+::: {.content-visible when-profile="french"}
+
+# Contactez-nous
+
+Nous serions ravis de vous entendre! Que vous ayez une question sur nos services, des commentaires, ou besoin de soutien, notre équipe est là pour vous aider.
+
+## Nous contacter
+
+**Courriel:** [info@frenchwithkunal.ca](mailto:info@frenchwithkunal.ca)
+
+## Formulaire d'inscription
+Remplissez [ce formulaire](https://forms.gle/UGptE4egRewexaSK7) pour rejoindre nos cours en ligne.
+
+
+:::
+
+::: {.content-visible when-profile="english"}
+
+
+# Enrollment Form
+
+<form id="enrollmentForm">
+  <div class="form-group">
+    <label for="name">Name*</label>
+    <input type="text" id="name" name="name" required>
+  </div>
+
+  <div class="form-group">
+    <label for="email">Email*</label>
+    <input type="email" id="email" name="email" required>
+  </div>
+
+  <div class="form-group">
+    <label for="phone">Phone Number</label>
+    <input type="tel" id="phone" name="phone">
+  </div>
+
+  <div class="form-group">
+    <label for="otherLanguages">Other languages you speak besides French</label>
+    <input type="text" id="otherLanguages" name="otherLanguages" placeholder="English, Spanish, etc.">
+  </div>
+
+  <div class="form-group">
+    <label for="frenchLevel">From 1 to 10, how would you rate your French?</label>
+    <select id="frenchLevel" name="frenchLevel">
+      <option value="">Select your level</option>
+      <option value="1">1 - Beginner</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 - Intermediate</option>
+      <option value="6">6</option>
+      <option value="7">7</option>
+      <option value="8">8 - Advanced</option>
+      <option value="9">9</option>
+      <option value="10">10 - Native speaker</option>
+    </select>
+  </div>
+
+  <div class="form-group">
+    <label>Availability (Toronto Time)*</label>
+    <div class="checkbox-option">
+      <input type="checkbox" id="evening" name="availability" value="8 to 9:30 PM ET (Mon-Thurs)">
+      <label for="evening">8 to 9:30 PM ET - Toronto time (Mon, Tue, Wed, Thurs)</label>
+    </div>
+    <div class="checkbox-option">
+      <input type="checkbox" id="morning" name="availability" value="10 to 11:30 AM ET (Mon-Thurs)">
+      <label for="morning">10 to 11:30 AM ET - Toronto time (Mon, Tue, Wed, Thurs)</label>
+    </div>
+  </div>
+
+  <button type="submit" class="submit-btn">Submit</button>
+</form>
+
+<script>
+  document.getElementById('enrollmentForm').addEventListener('submit', async function(e) {
+    e.preventDefault();
+    
+    const formData = {
+      name: document.getElementById('name').value,
+      email: document.getElementById('email').value,
+      phone: document.getElementById('phone').value,
+      otherLanguages: document.getElementById('otherLanguages').value,
+      frenchLevel: document.getElementById('frenchLevel').value,
+      availability: Array.from(document.querySelectorAll('input[name="availability"]:checked')).map(el => el.value)
+    };
+
+    try {
+      const response = await fetch('YOUR_BACKEND_API_ENDPOINT', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData)
+      });
+
+      if (response.ok) {
+        alert('Thank you for your enrollment! We will contact you soon.');
+        document.getElementById('enrollmentForm').reset();
+      } else {
+        alert('There was an error submitting your form. Please try again.');
+      }
+    } catch (error) {
+      console.error('Error:', error);
+      alert('There was an error submitting your form. Please try again.');
+    }
+  });
+</script>
+
+<style>
+  .form-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  select {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .checkbox-option {
+    margin-bottom: 0.5rem;
+  }
+  
+  .checkbox-option input {
+    margin-right: 0.5rem;
+  }
+  
+  .submit-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .submit-btn:hover {
+    background-color: #45a049;
+  }
+</style>
+:::
+
+::: {.content-visible when-profile="french"}
+# Formulaire d'inscription
+
+<form id="enrollmentFormFr">
+  <div class="form-group">
+    <label for="nameFr">Nom*</label>
+    <input type="text" id="nameFr" name="name" required>
+  </div>
+
+  <div class="form-group">
+    <label for="emailFr">Courriel*</label>
+    <input type="email" id="emailFr" name="email" required>
+  </div>
+
+  <div class="form-group">
+    <label for="phoneFr">Numéro de téléphone</label>
+    <input type="tel" id="phoneFr" name="phone">
+  </div>
+
+  <div class="form-group">
+    <label for="otherLanguagesFr">Autres langues que vous parlez en plus du français</label>
+    <input type="text" id="otherLanguagesFr" name="otherLanguages" placeholder="Anglais, Espagnol, etc.">
+  </div>
+
+  <div class="form-group">
+    <label for="frenchLevelFr">Sur une échelle de 1 à 10, comment évaluez-vous votre niveau de français?</label>
+    <select id="frenchLevelFr" name="frenchLevel">
+      <option value="">Sélectionnez votre niveau</option>
+      <option value="1">1 - Débutant</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 - Intermédiaire</option>
+      <option value="6">6</option>
+      <option value="7">7</option>
+      <option value="8">8 - Avancé</option>
+      <option value="9">9</option>
+      <option value="10">10 - Locuteur natif</option>
+    </select>
+  </div>
+
+  <div class="form-group">
+    <label>Disponibilité (Heure de Toronto)*</label>
+    <div class="checkbox-option">
+      <input type="checkbox" id="eveningFr" name="availability" value="8 à 9h30 HE (Lun-Jeu)">
+      <label for="eveningFr">20h à 21h30 HE - Heure de Toronto (Lun, Mar, Mer, Jeu)</label>
+    </div>
+    <div class="checkbox-option">
+      <input type="checkbox" id="morningFr" name="availability" value="10 à 11h30 HE (Lun-Jeu)">
+      <label for="morningFr">10h à 11h30 HE - Heure de Toronto (Lun, Mar, Mer, Jeu)</label>
+    </div>
+  </div>
+
+  <button type="submit" class="submit-btn">Soumettre</button>
+</form>
+
+<script>
+  document.getElementById('enrollmentFormFr').addEventListener('submit', async function(e) {
+    e.preventDefault();
+    
+    const formData = {
+      name: document.getElementById('nameFr').value,
+      email: document.getElementById('emailFr').value,
+      phone: document.getElementById('phoneFr').value,
+      otherLanguages: document.getElementById('otherLanguagesFr').value,
+      frenchLevel: document.getElementById('frenchLevelFr').value,
+      availability: Array.from(document.querySelectorAll('#enrollmentFormFr input[name="availability"]:checked')).map(el => el.value)
+    };
+
+    try {
+      const response = await fetch('YOUR_BACKEND_API_ENDPOINT', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData)
+      });
+
+      if (response.ok) {
+        alert('Merci pour votre inscription! Nous vous contacterons bientôt.');
+        document.getElementById('enrollmentFormFr').reset();
+      } else {
+        alert('Une erreur s\'est produite lors de l\'envoi du formulaire. Veuillez réessayer.');
+      }
+    } catch (error) {
+      console.error('Erreur:', error);
+      alert('Une erreur s\'est produite lors de l\'envoi du formulaire. Veuillez réessayer.');
+    }
+  });
+</script>
+
+<style>
+  /* Same CSS as English version */
+  .form-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  select {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .checkbox-option {
+    margin-bottom: 0.5rem;
+  }
+  
+  .checkbox-option input {
+    margin-right: 0.5rem;
+  }
+  
+  .submit-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .submit-btn:hover {
+    background-color: #45a049;
+  }
+</style>
+:::
