@@ -54,13 +54,17 @@ format:
 ::: {.content-visible when-profile="english"}
 
 
-## Welcome to French with Kunal {.hero}
+## Welcome to French with Kunal{.hero}
 
-{{< video https://youtu.be/hU07FOM1klQ
+{{< video https://www.youtube.com/embed/hU07FOM1klQ
     title="Website navigation"
+    start="10" 
+    aspect-ratio="16x9" 
 >}}
 
+
 Your premier destination for learning French language and culture. Whether you're a beginner or looking to refine your skills, we offer comprehensive resources to help you achieve fluency.
+
 
 [Explore Our Courses](/payment.html){.btn}
 
@@ -119,11 +123,15 @@ Join our community of French learners today!
 
 ## Bienvenue chez French with Kunal {.hero}
 
-{{< video https://youtu.be/hU07FOM1klQ
+
+{{< video https://www.youtube.com/embed/hU07FOM1klQ
     title="Website navigation"
+    start="10" 
+    aspect-ratio="16x9" 
 >}}
 
 Votre destination privilégiée pour apprendre la langue et la culture françaises. Que vous soyez débutant ou que vous souhaitiez perfectionner vos compétences, nous proposons des ressources complètes pour vous aider à atteindre la maîtrise.
+
 
 [Explorer nos cours](/payment.html){.btn}
 
