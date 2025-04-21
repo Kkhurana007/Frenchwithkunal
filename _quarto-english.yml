@@ -11,36 +11,9 @@ website:
   page-navigation: true
   title: "French with Kunal"
   site-url: "https://frenchwithkunal.ca"
-  
-  
-  page-footer:
-    left:
-      - text: Ethics
-        href: ethics.qmd
-      - text: Privacy policy
-        href: policy.qmd
-      - text: Terms of Service
-        href: terms.qmd
+  body-footer: footer.md
+ 
 
-    right:
-      - text: Login
-        href: login.qmd
-      - text: English
-        href: https://frenchwithkunal.ca/index.html
-      - text: French
-        href: https://frenchwithkunal.ca/fr/index.html
-      - icon: envelope
-        href: mailto:info@frenchwithkunal.ca
-      - icon: youtube
-        href: https://www.youtube.com/@frenchwithkunal 
-
-      
-    
-    center: |
-      @2025 French with Kunal <br>
-       All rights reserved. <br>
-  
-      
 
 
   #search:
