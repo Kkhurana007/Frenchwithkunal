@@ -1,0 +1,46 @@
+---
+title: ""
+
+format:
+  html:
+    include-in-header:
+      - text: |
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+          <script src="https://unpkg.com/react@17/umd/react.production.min.js"></script>
+          <script src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"></script>
+          <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+---
+
+::::::: {.grid .page-footer}
+::: g-col-3
+**LEGAL**\
+[Ethics](ethics.qmd)\
+[Privacy policy](policy.qmd)\
+[Terms of Service](terms.qmd)
+:::
+
+::: g-col-3
+**CONNECT**\
+[Login](login.qmd)\
+[English](https://frenchwithkunal.ca/index.html)\
+[French](https://frenchwithkunal.ca/fr/index.html)\
+[Email](mailto:info@frenchwithkunal.ca)\
+[YouTube](https://www.youtube.com/@frenchwithkunal)
+:::
+
+::: g-col-3
+**FOLLOW US**\
+[YouTube](https://www.youtube.com/@frenchwithkunal)\
+[Instagram](https://www.instagram.com/frenchwithkunal/)\
+[Facebook](https://www.facebook.com/frenchwithkunal)\
+[LinkedIn](https://www.linkedin.com/company/frenchwithkunal/)\
+[Twitter](https://twitter.com/frenchwithkunal)
+:::
+
+::: g-col-3
+**CONTACT**\
+@2025 French with Kunal\
+All rights reserved.\
+[Contact Us](contact.qmd)
+:::
+:::::::
