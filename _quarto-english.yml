@@ -14,7 +14,7 @@ website:
   
   
   page-footer:
-    left:
+    left: 
       - text: Ethics
         href: ethics.qmd
       - text: Privacy policy
