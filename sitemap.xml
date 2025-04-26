@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://frenchwithkunal.ca/test_payment.html</loc>
-    <lastmod>2025-04-12T03:59:33.364Z</lastmod>
+    <loc>https://frenchwithkunal.ca/thankyou.html</loc>
+    <lastmod>2025-04-26T18:03:16.594Z</lastmod>
+  </url>
+  <url>
+    <loc>https://frenchwithkunal.ca/test_footer.html</loc>
+    <lastmod>2025-04-26T18:58:38.515Z</lastmod>
   </url>
   <url>
     <loc>https://frenchwithkunal.ca/reset-password.html</loc>
@@ -78,7 +82,7 @@
   </url>
   <url>
     <loc>https://frenchwithkunal.ca/posts/semainedu14avril/avoir_etre.html</loc>
-    <lastmod>2025-04-19T15:36:23.810Z</lastmod>
+    <lastmod>2025-04-26T18:03:59.736Z</lastmod>
   </url>
   <url>
     <loc>https://frenchwithkunal.ca/posts/semainedu10mars/demonstratives.html</loc>
@@ -105,8 +109,12 @@
     <lastmod>2025-03-12T20:52:46.840Z</lastmod>
   </url>
   <url>
-    <loc>https://frenchwithkunal.ca/ethics.html</loc>
-    <lastmod>2025-03-11T20:13:57.909Z</lastmod>
+    <loc>https://frenchwithkunal.ca/extra.html</loc>
+    <lastmod>2025-04-24T16:34:52.304Z</lastmod>
+  </url>
+  <url>
+    <loc>https://frenchwithkunal.ca/del_footer.html</loc>
+    <lastmod>2025-04-24T16:34:52.305Z</lastmod>
   </url>
   <url>
     <loc>https://frenchwithkunal.ca/about.html</loc>
@@ -114,7 +122,11 @@
   </url>
   <url>
     <loc>https://frenchwithkunal.ca/contact.html</loc>
-    <lastmod>2025-03-11T20:13:57.592Z</lastmod>
+    <lastmod>2025-04-26T18:49:39.470Z</lastmod>
+  </url>
+  <url>
+    <loc>https://frenchwithkunal.ca/ethics.html</loc>
+    <lastmod>2025-03-11T20:13:57.909Z</lastmod>
   </url>
   <url>
     <loc>https://frenchwithkunal.ca/faq.html</loc>
@@ -122,7 +134,7 @@
   </url>
   <url>
     <loc>https://frenchwithkunal.ca/index.html</loc>
-    <lastmod>2025-04-20T14:57:15.141Z</lastmod>
+    <lastmod>2025-04-26T03:24:36.300Z</lastmod>
   </url>
   <url>
     <loc>https://frenchwithkunal.ca/payment.html</loc>
@@ -210,7 +222,7 @@
   </url>
   <url>
     <loc>https://frenchwithkunal.ca/posts.html</loc>
-    <lastmod>2025-03-30T16:19:14.767Z</lastmod>
+    <lastmod>2025-04-26T18:03:43.910Z</lastmod>
   </url>
   <url>
     <loc>https://frenchwithkunal.ca/register.html</loc>
@@ -219,5 +231,9 @@
   <url>
     <loc>https://frenchwithkunal.ca/terms.html</loc>
     <lastmod>2025-03-11T20:13:58.545Z</lastmod>
+  </url>
+  <url>
+    <loc>https://frenchwithkunal.ca/test_payment.html</loc>
+    <lastmod>2025-04-12T03:59:33.364Z</lastmod>
   </url>
 </urlset>

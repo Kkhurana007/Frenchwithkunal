@@ -1,5 +1,19 @@
 [
   {
+    "objectID": "thankyou.html",
+    "href": "thankyou.html",
+    "title": "Français avec Kunal",
+    "section": "",
+    "text": "We sincerely appreciate your message and time. Your submission has been received successfully.\nIf you need immediate assistance, feel free to contact us directly. Otherwise, we’ll respond to your inquiry as soon as possible.\nReturn to Homepage | Contact Us"
+  },
+  {
+    "objectID": "test_footer.html",
+    "href": "test_footer.html",
+    "title": "Français avec Kunal",
+    "section": "",
+    "text": "LÉGAL\nÉthique\nPolitique de confidentialité\nConditions d’utilisation\n\n\nCONNECTEZ-VOUS\nConnexion\nAnglais\nFrançais\nEmail\nYouTube\n\n\nSUIVEZ-NOUS\nYouTube\nInstagram\nFacebook\nLinkedIn\nTwitter\n\n\nCONTACTEZ-NOUS\n@2025 French with Kunal\nTous droits réservés.\nContactez-nous"
+  },
+  {
     "objectID": "reset-password.html",
     "href": "reset-password.html",
     "title": "Français avec Kunal",
@@ -196,6 +210,90 @@
     "text": "```{=html}"
   },
   {
+    "objectID": "extra.html",
+    "href": "extra.html",
+    "title": "Français avec Kunal",
+    "section": "",
+    "text": "Page-footer: left: - text: Ethics href: ethics.qmd - text: Privacy policy href: policy.qmd - text: Terms of Service href: terms.qmd\nright:\n  - text: Login\n    href: login.qmd\n  - text: English\n    href: https://frenchwithkunal.ca/index.html\n  - text: French\n    href: https://frenchwithkunal.ca/fr/index.html\n  - icon: envelope\n    href: mailto:info@frenchwithkunal.ca\n  - icon: youtube\n    href: https://www.youtube.com/@frenchwithkunal \n\ncenter-right:\n  - text: \"Follow Us:\"\n  - icon: youtube\n    href: \"https://www.youtube.com/@frenchwithkunal\"\n  - icon: instagram\n    href: \"https://www.instagram.com/frenchwithkunal/\"\n  - icon: facebook\n    href: \"https://www.facebook.com/frenchwithkunal\"\n  - icon: linkedin\n    href: \"https://www.linkedin.com/company/frenchwithkunal/\"\n  - icon: twitter\n    href: \"https://twitter.com/frenchwithkunal\"\n\n\n\ncenter: |\n  @2025 French with Kunal &lt;br&gt;\n   All rights reserved. &lt;br&gt;"
+  },
+  {
+    "objectID": "del_footer.html",
+    "href": "del_footer.html",
+    "title": "Français avec Kunal",
+    "section": "",
+    "text": "LEGAL\nEthics\nPrivacy policy\nTerms of Service\n\n\nCONNECT\nLogin\nEnglish\nFrench\nEmail\nYouTube\n\n\nFOLLOW US\nYouTube\nInstagram\nFacebook\nLinkedIn\nTwitter\n\n\nCONTACT\n@2025 French with Kunal\nAll rights reserved.\nContact Us"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Français avec Kunal",
+    "section": "",
+    "text": "Bienvenue sur notre site, votre destination incontournable pour apprendre le français de manière amusante, engageante et efficace. Que vous soyez un débutant complet ou que vous cherchiez à perfectionner vos compétences, nous avons quelque chose pour tout le monde."
+  },
+  {
+    "objectID": "about.html#à-propos-de-nous",
+    "href": "about.html#à-propos-de-nous",
+    "title": "Français avec Kunal",
+    "section": "",
+    "text": "Bienvenue sur notre site, votre destination incontournable pour apprendre le français de manière amusante, engageante et efficace. Que vous soyez un débutant complet ou que vous cherchiez à perfectionner vos compétences, nous avons quelque chose pour tout le monde."
+  },
+  {
+    "objectID": "about.html#notre-mission",
+    "href": "about.html#notre-mission",
+    "title": "Français avec Kunal",
+    "section": "Notre mission",
+    "text": "Notre mission\nChez French with Kunal, notre mission est de rendre l’apprentissage du français accessible et agréable pour tous. Nous croyons que l’apprentissage des langues doit être un voyage agréable, et non une tâche ardue. Notre objectif est de vous aider à atteindre la fluidité et la confiance en français grâce à des leçons personnalisées, du contenu interactif et une communauté de soutien."
+  },
+  {
+    "objectID": "about.html#qui-nous-sommes",
+    "href": "about.html#qui-nous-sommes",
+    "title": "Français avec Kunal",
+    "section": "Qui nous sommes",
+    "text": "Qui nous sommes\nFondé par Kunal, un passionné de la langue française et enseignant avec plus de 5 ans d’expérience, French with Kunal est dédié à fournir une éducation de haute qualité en français. Kunal a un amour profond pour la langue et la culture françaises, et s’engage à partager cette passion avec des étudiants du monde entier."
+  },
+  {
+    "objectID": "about.html#ce-que-nous-offrons",
+    "href": "about.html#ce-que-nous-offrons",
+    "title": "Français avec Kunal",
+    "section": "Ce que nous offrons",
+    "text": "Ce que nous offrons\n\nLeçons personnalisées : Adaptées à vos besoins et objectifs individuels, nos leçons sont conçues pour vous aider à progresser à votre propre rythme. \nContenu interactif : Des vidéos et des quiz aux sessions en direct et aux forums, nous offrons une variété de ressources pour vous maintenir engagé et motivé. \nSoutien communautaire : Rejoignez notre communauté dynamique d’apprenants et de locuteurs natifs pour pratiquer, partager des expériences et vous soutenir mutuellement dans ce voyage d’apprentissage des langues."
+  },
+  {
+    "objectID": "about.html#pourquoi-nous-choisir",
+    "href": "about.html#pourquoi-nous-choisir",
+    "title": "Français avec Kunal",
+    "section": "Pourquoi nous choisir?",
+    "text": "Pourquoi nous choisir?\n\nExpertise : Avec des années d’expérience dans l’enseignement, Kunal apporte une richesse de connaissances et un bilan de succès prouvé. \nFlexibilité : Apprenez à votre propre rythme, à tout moment, n’importe où. Notre plateforme en ligne est accessible 24/7, vous permettant d’intégrer l’apprentissage dans votre emploi du temps chargé. \nPassion : Nous sommes passionnés par le français et déterminés à vous aider à atteindre vos objectifs linguistiques.  Rejoignez-nous dès aujourd’hui et commencez votre voyage pour maîtriser le français avec French with Kunal. Nous avons hâte de vous aider à réussir !"
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contactez-Nous",
+    "section": "",
+    "text": "Nous serions ravis d’avoir de vos nouvelles ! Que vous ayez une question sur nos services, des commentaires ou besoin d’assistance, notre équipe est là pour vous aider.\n\n\nCourriel: info@frenchwithkunal.ca\n\n\n\nRemplissez ce formulaire pour rejoindre nos cours en ligne.\n\n\n\n```{=html}\n\n\nNom: \n\n\nCourriel: \n\n\nMessage:\n\n\n\nSoumettre"
+  },
+  {
+    "objectID": "contact.html#contactez-nous-1",
+    "href": "contact.html#contactez-nous-1",
+    "title": "Contactez-Nous",
+    "section": "",
+    "text": "Courriel: info@frenchwithkunal.ca"
+  },
+  {
+    "objectID": "contact.html#formulaire-dinscription",
+    "href": "contact.html#formulaire-dinscription",
+    "title": "Contactez-Nous",
+    "section": "",
+    "text": "Remplissez ce formulaire pour rejoindre nos cours en ligne."
+  },
+  {
+    "objectID": "contact.html#formulaire-de-contact-rapide",
+    "href": "contact.html#formulaire-de-contact-rapide",
+    "title": "Contactez-Nous",
+    "section": "",
+    "text": "```{=html}\n\n\nNom: \n\n\nCourriel: \n\n\nMessage:\n\n\n\nSoumettre"
+  },
+  {
     "objectID": "ethics.html",
     "href": "ethics.html",
     "title": "Code d’Éthique",
@@ -243,69 +341,6 @@
     "title": "Code d’Éthique",
     "section": "",
     "text": "Nos éducateurs et notre personnel maintiennent un haut niveau de professionnalisme, en respectant les normes éthiques dans tous les aspects de notre travail et en offrant une expérience d’apprentissage positive et soutenante."
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "Français avec Kunal",
-    "section": "",
-    "text": "Bienvenue sur notre site, votre destination incontournable pour apprendre le français de manière amusante, engageante et efficace. Que vous soyez un débutant complet ou que vous cherchiez à perfectionner vos compétences, nous avons quelque chose pour tout le monde."
-  },
-  {
-    "objectID": "about.html#à-propos-de-nous",
-    "href": "about.html#à-propos-de-nous",
-    "title": "Français avec Kunal",
-    "section": "",
-    "text": "Bienvenue sur notre site, votre destination incontournable pour apprendre le français de manière amusante, engageante et efficace. Que vous soyez un débutant complet ou que vous cherchiez à perfectionner vos compétences, nous avons quelque chose pour tout le monde."
-  },
-  {
-    "objectID": "about.html#notre-mission",
-    "href": "about.html#notre-mission",
-    "title": "Français avec Kunal",
-    "section": "Notre mission",
-    "text": "Notre mission\nChez French with Kunal, notre mission est de rendre l’apprentissage du français accessible et agréable pour tous. Nous croyons que l’apprentissage des langues doit être un voyage agréable, et non une tâche ardue. Notre objectif est de vous aider à atteindre la fluidité et la confiance en français grâce à des leçons personnalisées, du contenu interactif et une communauté de soutien."
-  },
-  {
-    "objectID": "about.html#qui-nous-sommes",
-    "href": "about.html#qui-nous-sommes",
-    "title": "Français avec Kunal",
-    "section": "Qui nous sommes",
-    "text": "Qui nous sommes\nFondé par Kunal, un passionné de la langue française et enseignant avec plus de 5 ans d’expérience, French with Kunal est dédié à fournir une éducation de haute qualité en français. Kunal a un amour profond pour la langue et la culture françaises, et s’engage à partager cette passion avec des étudiants du monde entier."
-  },
-  {
-    "objectID": "about.html#ce-que-nous-offrons",
-    "href": "about.html#ce-que-nous-offrons",
-    "title": "Français avec Kunal",
-    "section": "Ce que nous offrons",
-    "text": "Ce que nous offrons\n\nLeçons personnalisées : Adaptées à vos besoins et objectifs individuels, nos leçons sont conçues pour vous aider à progresser à votre propre rythme. \nContenu interactif : Des vidéos et des quiz aux sessions en direct et aux forums, nous offrons une variété de ressources pour vous maintenir engagé et motivé. \nSoutien communautaire : Rejoignez notre communauté dynamique d’apprenants et de locuteurs natifs pour pratiquer, partager des expériences et vous soutenir mutuellement dans ce voyage d’apprentissage des langues."
-  },
-  {
-    "objectID": "about.html#pourquoi-nous-choisir",
-    "href": "about.html#pourquoi-nous-choisir",
-    "title": "Français avec Kunal",
-    "section": "Pourquoi nous choisir?",
-    "text": "Pourquoi nous choisir?\n\nExpertise : Avec des années d’expérience dans l’enseignement, Kunal apporte une richesse de connaissances et un bilan de succès prouvé. \nFlexibilité : Apprenez à votre propre rythme, à tout moment, n’importe où. Notre plateforme en ligne est accessible 24/7, vous permettant d’intégrer l’apprentissage dans votre emploi du temps chargé. \nPassion : Nous sommes passionnés par le français et déterminés à vous aider à atteindre vos objectifs linguistiques.  Rejoignez-nous dès aujourd’hui et commencez votre voyage pour maîtriser le français avec French with Kunal. Nous avons hâte de vous aider à réussir !"
-  },
-  {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Contactez-nous",
-    "section": "",
-    "text": "Nous serions ravis de vous entendre! Que vous ayez une question sur nos services, des commentaires, ou besoin de soutien, notre équipe est là pour vous aider.\n\n\nCourriel: info@frenchwithkunal.ca\n\n\n\nRemplissez ce formulaire pour rejoindre nos cours en ligne."
-  },
-  {
-    "objectID": "contact.html#nous-contacter",
-    "href": "contact.html#nous-contacter",
-    "title": "Contactez-nous",
-    "section": "",
-    "text": "Courriel: info@frenchwithkunal.ca"
-  },
-  {
-    "objectID": "contact.html#formulaire-dinscription",
-    "href": "contact.html#formulaire-dinscription",
-    "title": "Contactez-nous",
-    "section": "",
-    "text": "Remplissez ce formulaire pour rejoindre nos cours en ligne."
   },
   {
     "objectID": "faq.html",
