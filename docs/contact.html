@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.6.40">
+<meta name="generator" content="quarto-1.6.43">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>contact – French with Kunal</title>
+<title>Contact Us – French with Kunal</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -36,12 +36,12 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-8ea72dc5fed832574809a9c94082fbbb.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-d4d76bf8491c20bad77d141916dc28e1.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-4379b0ccadffce622b03caf4c46266b3.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-2f6844b3748638c5738d4cf93630e566.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-8aa8884591a9136173b71f6048871fae.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-a78bc22c21c5275f96438b53095d57b2.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-7f2ec24aee834e62cd2de1bda3d4642b.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -70,6 +70,12 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" <link="">
+<script src="https://unpkg.com/react@17/umd/react.production.min.js"></script>
+<script src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"></script>
+<script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+
+
+<link rel="stylesheet" href="styles.css">
 </head>
 
 <body class="nav-fixed">
@@ -167,33 +173,133 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#contact-us" id="toc-contact-us" class="nav-link active" data-scroll-target="#contact-us">Contact Us</a>
-  <ul class="collapse">
-  <li><a href="#get-in-touch" id="toc-get-in-touch" class="nav-link" data-scroll-target="#get-in-touch">Get in Touch</a></li>
-  <li><a href="#enrollment-form" id="toc-enrollment-form" class="nav-link" data-scroll-target="#enrollment-form">Enrollment Form</a></li>
-  </ul></li>
+  <li><a href="#get-in-touch" id="toc-get-in-touch" class="nav-link active" data-scroll-target="#get-in-touch">Get in Touch</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Contact Us</h1>
+</div>
 
 
 
+<div class="quarto-title-meta">
 
-<section id="contact-us" class="level1">
-<h1>Contact Us</h1>
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
 <p>We’d love to hear from you! Whether you have a question about our services, feedback, or need support, our team is here to help.</p>
 <section id="get-in-touch" class="level2">
 <h2 class="anchored" data-anchor-id="get-in-touch">Get in Touch</h2>
 <p><strong>Email:</strong> <a href="mailto:info@frenchwithkunal.ca">info@frenchwithkunal.ca</a></p>
-</section>
-<section id="enrollment-form" class="level2">
-<h2 class="anchored" data-anchor-id="enrollment-form">Enrollment Form</h2>
-<p>Fill out this <a href="https://forms.gle/UGptE4egRewexaSK7">form</a> to join our online learning classes.</p>
+<div id="contact-form-root">
+
+</div>
+<p><!-- React Contact Form Will Render Here --></p>
+<script type="text/babel">
+
+const ContactForm = () => {
+  const { useState } = React;
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [feedback, setFeedback] = useState("");
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setIsSubmitting(true);
+    setFeedback("");
+
+    try {
+      const response = await fetch("https://frenchwithkunal-cdf6ea3f88ce.herokuapp.com/api/v1/responses/create-response", { 
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ name, email, message }),
+      });
+
+      if (!response.ok) {
+        throw new Error("Failed to send message.");
+      }
+
+      setFeedback("Your message has been sent successfully!");
+      setName("");
+      setEmail("");
+      setMessage("");
+    } catch (error) {
+      console.error(error);
+      setFeedback("There was an error sending your message. Please try again later.");
+    } finally {
+      setIsSubmitting(false);
+    }
+  };
+
+  return (
+    <div className="container mt-4">
+      <h3>Send Us a Message</h3>
+      {feedback && <div className="alert alert-info">{feedback}</div>}
+      <form onSubmit={handleSubmit}>
+        <div className="mb-3">
+          <label className="form-label">Name</label>
+          <input 
+            type="text" 
+            className="form-control" 
+            value={name} 
+            onChange={(e) => setName(e.target.value)}
+            required 
+          />
+        </div>
+
+        <div className="mb-3">
+          <label className="form-label">Email</label>
+          <input 
+            type="email" 
+            className="form-control" 
+            value={email} 
+            onChange={(e) => setEmail(e.target.value)}
+            required 
+          />
+        </div>
+
+        <div className="mb-3">
+          <label className="form-label">Message</label>
+          <textarea 
+            className="form-control" 
+            rows="4"
+            value={message}
+            onChange={(e) => setMessage(e.target.value)}
+            required
+          ></textarea>
+        </div>
+
+        <button type="submit" className="btn btn-primary" disabled={isSubmitting}>
+          {isSubmitting ? "Sending..." : "Send Message"}
+        </button>
+      </form>
+    </div>
+  );
+};
+
+ReactDOM.render(
+  <ContactForm />,
+  document.getElementById('contact-form-root')
+);
+</script>
 
 
-</section>
 </section>
 
 <div class="grid page-footer">

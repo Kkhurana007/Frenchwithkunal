@@ -344,7 +344,12 @@
   "footer.md": {
     "footer.html": "4bc0ce2a"
   },
+<<<<<<< HEAD
   "footer.qmd": {
     "footer.html": "2fe13293"
+=======
+  "contact-prev.qmd": {
+    "contact-prev.html": "74f2cbab"
+>>>>>>> 999fee98fefff37c47eecf240aa2b3f5b995867d
   }
 }

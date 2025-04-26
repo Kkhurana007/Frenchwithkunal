@@ -324,16 +324,16 @@
   {
     "objectID": "contact1.html",
     "href": "contact1.html",
-    "title": "Contactez-nous",
+    "title": "Contact Us",
     "section": "",
-    "text": "Nous serions ravis de vous entendre! Que vous ayez une question sur nos services, des commentaires, ou besoin de soutien, notre équipe est là pour vous aider.\n\n\nCourriel: info@frenchwithkunal.ca\n\n\n\nRemplissez ce formulaire pour rejoindre nos cours en ligne."
+    "text": "Nous serions ravis de vous entendre! Que vous ayez une question sur nos services, des commentaires, ou besoin de soutien, notre équipe est là pour vous aider.\n\n\nCourriel: info@frenchwithkunal.ca"
   },
   {
     "objectID": "contact1.html#nous-contacter",
     "href": "contact1.html#nous-contacter",
     "title": "Contactez-nous",
-    "section": "",
-    "text": "Courriel: info@frenchwithkunal.ca"
+    "section": "Nous contacter",
+    "text": "Nous contacter\nCourriel: info@frenchwithkunal.ca"
   },
   {
     "objectID": "contact1.html#formulaire-dinscription",
