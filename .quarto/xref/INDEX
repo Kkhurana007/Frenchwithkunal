@@ -343,5 +343,8 @@
   },
   "footer.md": {
     "footer.html": "4bc0ce2a"
+  },
+  "footer.qmd": {
+    "footer.html": "2fe13293"
   }
 }
