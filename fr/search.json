@@ -270,7 +270,7 @@
     "href": "contact.html",
     "title": "Contactez-Nous",
     "section": "",
-    "text": "Nous serions ravis d’avoir de vos nouvelles ! Que vous ayez une question sur nos services, des commentaires ou besoin d’assistance, notre équipe est là pour vous aider.\n\n\nCourriel: info@frenchwithkunal.ca\n\n\n\nRemplissez ce formulaire pour rejoindre nos cours en ligne.\n\n\n\n```{=html}\n\n\nNom: \n\n\nCourriel: \n\n\nMessage:\n\n\n\nSoumettre"
+    "text": "Nous serions ravis d’avoir de vos nouvelles ! Que vous ayez une question sur nos services, des commentaires ou besoin d’assistance, notre équipe est là pour vous aider.\n\n\nCourriel: info@frenchwithkunal.ca\n\n\n\nRemplissez ce formulaire pour rejoindre nos cours en ligne.\n\n\n\n\n\n\n\n  Nom:\n  \n\n\n\n  Courriel:\n  \n\n\n\n  Message:\n  \n\n\n\n  Soumettre"
   },
   {
     "objectID": "contact.html#contactez-nous-1",
@@ -291,7 +291,7 @@
     "href": "contact.html#formulaire-de-contact-rapide",
     "title": "Contactez-Nous",
     "section": "",
-    "text": "```{=html}\n\n\nNom: \n\n\nCourriel: \n\n\nMessage:\n\n\n\nSoumettre"
+    "text": "Nom:\n  \n\n\n\n  Courriel:\n  \n\n\n\n  Message:\n  \n\n\n\n  Soumettre"
   },
   {
     "objectID": "ethics.html",
@@ -649,5 +649,12 @@
     "title": "Conditions d’Utilization",
     "section": "",
     "text": "Conditions d’Utilization\nEn utilisant les services de French with Kunal, vous acceptez ces conditions:\n\nNos services incluent des cours de français, des matériaux pédagogiques et des séances de tutorat pour un apprentissage personnel.\nGardez votre compte sécurisé et informez-nous en cas d’accès non autorisé.\nLes paiements sont non remboursables, sauf indication contraire, et les annulations nécessitent un préavis de 3 jours.\nNe pas utiliser nos services pour des activités illégales ni partager du contenu sans permission.\nVos données seront gérées conformément à notre Politique de Confidentialité.\nNous ne sommes pas responsables des dommages indirects, notre responsabilité étant limitée aux paiements effectués au cours des 3 derniers mois.\nNous pouvons mettre fin à l’accès en cas de violation de ces conditions.\nNous nous réservons le droit de mettre à jour ces conditions ; l’utilisation continue signifie l’acceptation des modifications.\nPour toute question, contactez-nous à info@frenchwithkunal.ca"
+  },
+  {
+    "objectID": "contact.html#entrer-en-contact",
+    "href": "contact.html#entrer-en-contact",
+    "title": "Contactez-Nous",
+    "section": "",
+    "text": "Courriel: info@frenchwithkunal.ca"
   }
 ]

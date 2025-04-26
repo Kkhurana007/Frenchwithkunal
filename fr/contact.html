@@ -169,7 +169,7 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#contactez-nous" id="toc-contactez-nous" class="nav-link active" data-scroll-target="#contactez-nous">Contactez-Nous</a>
   <ul class="collapse">
-  <li><a href="#contactez-nous-1" id="toc-contactez-nous-1" class="nav-link" data-scroll-target="#contactez-nous-1">Contactez-Nous</a></li>
+  <li><a href="#entrer-en-contact" id="toc-entrer-en-contact" class="nav-link" data-scroll-target="#entrer-en-contact">Entrer en Contact</a></li>
   <li><a href="#formulaire-dinscription" id="toc-formulaire-dinscription" class="nav-link" data-scroll-target="#formulaire-dinscription">Formulaire d’Inscription</a></li>
   <li><a href="#formulaire-de-contact-rapide" id="toc-formulaire-de-contact-rapide" class="nav-link" data-scroll-target="#formulaire-de-contact-rapide">Formulaire de Contact Rapide</a></li>
   </ul></li>
@@ -185,8 +185,8 @@ ul.task-list li input[type="checkbox"] {
 <section id="contactez-nous" class="level1">
 <h1>Contactez-Nous</h1>
 <p>Nous serions ravis d’avoir de vos nouvelles ! Que vous ayez une question sur nos services, des commentaires ou besoin d’assistance, notre équipe est là pour vous aider.</p>
-<section id="contactez-nous-1" class="level2">
-<h2 class="anchored" data-anchor-id="contactez-nous-1">Contactez-Nous</h2>
+<section id="entrer-en-contact" class="level2">
+<h2 class="anchored" data-anchor-id="entrer-en-contact">Entrer en Contact</h2>
 <p><strong>Courriel:</strong> <a href="mailto:info@frenchwithkunal.ca">info@frenchwithkunal.ca</a></p>
 </section>
 <section id="formulaire-dinscription" class="level2">
@@ -195,22 +195,30 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="formulaire-de-contact-rapide" class="level2">
 <h2 class="anchored" data-anchor-id="formulaire-de-contact-rapide">Formulaire de Contact Rapide</h2>
-<p>```{=html}</p>
+
 <form id="contactFormFrench" action="#" method="post">
+
 <div style="margin-bottom: 15px;">
-<p><label for="nameFrench" style="display: block; margin-bottom: 5px;">Nom:</label> <input type="text" id="nameFrench" name="name" required="" style="width: 100%; padding: 8px;"></p>
+  <label for="nameFrench" style="display: block; margin-bottom: 5px;">Nom:</label>
+  <input type="text" id="nameFrench" name="name" required="" style="width: 100%; padding: 8px;">
 </div>
+
 <div style="margin-bottom: 15px;">
-<p><label for="emailFrench" style="display: block; margin-bottom: 5px;">Courriel:</label> <input type="email" id="emailFrench" name="email" required="" style="width: 100%; padding: 8px;"></p>
+  <label for="emailFrench" style="display: block; margin-bottom: 5px;">Courriel:</label>
+  <input type="email" id="emailFrench" name="email" required="" style="width: 100%; padding: 8px;">
 </div>
+
 <div style="margin-bottom: 15px;">
-<p><label for="messageFrench" style="display: block; margin-bottom: 5px;">Message:</label></p>
-<textarea id="messageFrench" name="message" rows="4" required="" style="width: 100%; padding: 8px;"></textarea>
+  <label for="messageFrench" style="display: block; margin-bottom: 5px;">Message:</label>
+  <textarea id="messageFrench" name="message" rows="4" required="" style="width: 100%; padding: 8px;"></textarea>
 </div>
+
 <button type="submit" style="background-color: #4CAF50; color: white; padding: 10px 15px; border: none; cursor: pointer;">
-<p>Soumettre</p>
+  Soumettre
 </button>
+
 </form>
+
 <script>
 document.getElementById('contactFormFrench').addEventListener('submit', async function(e) {
   e.preventDefault();
