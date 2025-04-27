@@ -355,7 +355,7 @@
     "href": "contact.html",
     "title": "Contact Us",
     "section": "",
-    "text": "We’d love to hear from you! Whether you have a question about our services, feedback, or need support, our team is here to help.\n\n\nEmail: info@frenchwithkunal.ca\n\n\n\nFill out this form to join our online learning classes.\n\n\n\n\n\n\n  Name:\n  \n\n\n\n  Email:\n  \n\n\n\n  Message:\n  \n\n\n\n  Submit",
+    "text": "We’d love to hear from you! Whether you have a question about our services, feedback, or need support, our team is here to help.",
     "crumbs": [
       "Blog Posts",
       "Contact"
@@ -365,8 +365,8 @@
     "objectID": "contact.html#get-in-touch",
     "href": "contact.html#get-in-touch",
     "title": "Contact Us",
-    "section": "",
-    "text": "Email: info@frenchwithkunal.ca",
+    "section": "Get in Touch",
+    "text": "Get in Touch\nEmail: info@frenchwithkunal.ca",
     "crumbs": [
       "Blog Posts",
       "Contact"
@@ -376,8 +376,8 @@
     "objectID": "contact.html#enrollment-form",
     "href": "contact.html#enrollment-form",
     "title": "Contact Us",
-    "section": "",
-    "text": "Fill out this form to join our online learning classes.",
+    "section": "Enrollment Form",
+    "text": "Enrollment Form\nFill out this form to join our online learning classes.",
     "crumbs": [
       "Blog Posts",
       "Contact"
@@ -387,8 +387,8 @@
     "objectID": "contact.html#quick-contact-form",
     "href": "contact.html#quick-contact-form",
     "title": "Contact Us",
-    "section": "",
-    "text": "Name:\n  \n\n\n\n  Email:\n  \n\n\n\n  Message:\n  \n\n\n\n  Submit",
+    "section": "Quick Contact Form",
+    "text": "Quick Contact Form\n\n\n\n  Name:\n  \n\n\n\n  Email:\n  \n\n\n\n  Message:\n  \n\n\n\n  Submit",
     "crumbs": [
       "Blog Posts",
       "Contact"
@@ -450,6 +450,27 @@
     ]
   },
   {
+    "objectID": "contact-prev.html",
+    "href": "contact-prev.html",
+    "title": "Contact Us",
+    "section": "",
+    "text": "We’d love to hear from you! Whether you have a question about our services, feedback, or need support, our team is here to help.\n\n\nEmail: info@frenchwithkunal.ca\n\n\n\nFill out this form to join our online learning classes."
+  },
+  {
+    "objectID": "contact-prev.html#get-in-touch",
+    "href": "contact-prev.html#get-in-touch",
+    "title": "Contact Us",
+    "section": "",
+    "text": "Email: info@frenchwithkunal.ca"
+  },
+  {
+    "objectID": "contact-prev.html#enrollment-form",
+    "href": "contact-prev.html#enrollment-form",
+    "title": "Contact Us",
+    "section": "",
+    "text": "Fill out this form to join our online learning classes."
+  },
+  {
     "objectID": "del_footer.html",
     "href": "del_footer.html",
     "title": "French with Kunal",
@@ -461,7 +482,7 @@
     "href": "extra.html",
     "title": "French with Kunal",
     "section": "",
-    "text": "Page-footer: left: - text: Ethics href: ethics.qmd - text: Privacy policy href: policy.qmd - text: Terms of Service href: terms.qmd\nright:\n  - text: Login\n    href: login.qmd\n  - text: English\n    href: https://frenchwithkunal.ca/index.html\n  - text: French\n    href: https://frenchwithkunal.ca/fr/index.html\n  - icon: envelope\n    href: mailto:info@frenchwithkunal.ca\n  - icon: youtube\n    href: https://www.youtube.com/@frenchwithkunal \n\ncenter-right:\n  - text: \"Follow Us:\"\n  - icon: youtube\n    href: \"https://www.youtube.com/@frenchwithkunal\"\n  - icon: instagram\n    href: \"https://www.instagram.com/frenchwithkunal/\"\n  - icon: facebook\n    href: \"https://www.facebook.com/frenchwithkunal\"\n  - icon: linkedin\n    href: \"https://www.linkedin.com/company/frenchwithkunal/\"\n  - icon: twitter\n    href: \"https://twitter.com/frenchwithkunal\"\n\n\n\ncenter: |\n  @2025 French with Kunal &lt;br&gt;\n   All rights reserved. &lt;br&gt;"
+    "text": "Page-footer: left: - text: Ethics href: ethics.qmd - text: Privacy policy href: policy.qmd - text: Terms of Service href: terms.qmd\nright:\n  - text: Login\n    href: login.qmd\n  - text: English\n    href: https://frenchwithkunal.ca/index.html\n  - text: French\n    href: https://frenchwithkunal.ca/fr/index.html\n  - icon: envelope\n    href: mailto:frenchwithkunal@gmail.com\n  - icon: youtube\n    href: https://www.youtube.com/@frenchwithkunal \n\ncenter-right:\n  - text: \"Follow Us:\"\n  - icon: youtube\n    href: \"https://www.youtube.com/@frenchwithkunal\"\n  - icon: instagram\n    href: \"https://www.instagram.com/frenchwithkunal/\"\n  - icon: facebook\n    href: \"https://www.facebook.com/frenchwithkunal\"\n  - icon: linkedin\n    href: \"https://www.linkedin.com/company/frenchwithkunal/\"\n  - icon: twitter\n    href: \"https://twitter.com/frenchwithkunal\"\n\n\n\ncenter: |\n  @2025 French with Kunal &lt;br&gt;\n   All rights reserved. &lt;br&gt;"
   },
   {
     "objectID": "login.html",
