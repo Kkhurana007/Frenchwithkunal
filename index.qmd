@@ -1,6 +1,6 @@
 ---
-#title: "French with Kunal"
-#subtitle: "Learn French Language and Culture"
+#title: "✨ French with Kunal"
+#subtitle: "Parlez français comme un vrai Parisien!"
 page-layout: full
 format:
   html:
@@ -8,179 +8,267 @@ format:
       - text: |
           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
           <style>
+            :root {
+              --primary: #2C3E50;
+              --accent: #E74C3C;
+              --light: #ECF0F1;
+            }
             .hero {
-              background-color: #f8f9fa;
-              padding: 4rem 2rem;
+              background: linear-gradient(135deg, var(--primary) 0%, #3498DB 100%);
+              color: white;
+              padding: 5rem 2rem;
               text-align: center;
-              margin-bottom: 2rem;
+              margin-bottom: 3rem;
+              border-radius: 0 0 20px 20px;
             }
             .card-container {
               display: grid;
-              grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+              grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
               gap: 2rem;
               padding: 2rem 0;
             }
             .card {
-              border: 1px solid #e0e0e0;
-              border-radius: 8px;
-              padding: 1.5rem;
-              transition: transform 0.3s ease;
+              border: none;
+              border-radius: 12px;
+              padding: 2rem;
+              transition: all 0.3s ease;
+              background: white;
+              box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+              position: relative;
+              overflow: hidden;
             }
             .card:hover {
-              transform: translateY(-5px);
-              box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+              transform: translateY(-10px);
+              box-shadow: 0 15px 30px rgba(0,0,0,0.1);
             }
             .card h3 {
               margin-top: 0;
-              color: #0077b5;
+              color: var(--primary);
+              font-size: 1.5rem;
+            }
+            .card h3 i {
+              margin-right: 10px;
+              color: var(--accent);
             }
             .btn {
               display: inline-block;
-              padding: 0.5rem 1rem;
-              background: #0077b5;
+              padding: 12px 24px;
+              background: var(--accent);
               color: white;
               text-decoration: none;
-              border-radius: 4px;
+              border-radius: 50px;
               margin-top: 1rem;
+              font-weight: bold;
+              transition: all 0.3s ease;
+              border: 2px solid var(--accent);
+            }
+            .btn:hover {
+              background: transparent;
+              color: var(--accent);
+            }
+            .btn-outline {
+              background: transparent;
+              color: var(--accent);
+              border: 2px solid white;
             }
             .testimonials {
-              background: #f8f9fa;
-              padding: 2rem;
-              margin: 2rem 0;
+              background: var(--light);
+              padding: 3rem 2rem;
+              margin: 3rem 0;
+              border-radius: 20px;
+            }
+            .quote-icon {
+              color: var(--accent);
+              font-size: 2rem;
+              opacity: 0.3;
+            }
+            .language-switcher {
+              position: absolute;
+              top: 20px;
+              right: 20px;
+            }
+            .language-btn {
+              background: rgba(255,255,255,0.2);
+              border: none;
+              color: white;
+              padding: 5px 10px;
+              border-radius: 5px;
+              cursor: pointer;
+            }
+            .floating-icon {
+              position: absolute;
+              opacity: 0.1;
+              font-size: 5rem;
+              z-index: 0;
+            }
+            .card-content {
+              position: relative;
+              z-index: 1;
             }
           </style>
 ---
 
 ::: {.content-visible when-profile="english"}
 
+<div class="language-switcher">
+  <button class="language-btn" onclick="window.quartoToggleProfile('french')">Français</button>
+</div>
 
-## Welcome to French with Kunal{.hero}
+## 🥖 French with Kunal {.hero}
+
+### Where French Fluency Meets Cultural Savoir-Faire
 
 {{< video https://www.youtube.com/embed/hU07FOM1klQ
-    title="Website navigation"
+    title="Your French Journey Starts Here"
     start="10" 
     aspect-ratio="16x9" 
 >}}
 
+**Bonjour!** I'm Kunal, your guide to mastering French with authentic pronunciation, cultural depth, and Parisian flair. Forget boring textbooks - we learn through stories, music, and real-life conversations.
 
-Your premier destination for learning French language and culture. Whether you're a beginner or looking to refine your skills, we offer comprehensive resources to help you achieve fluency.
+[Start Your Journey →](/payment.html){.btn}
 
-
-[Explore Our Courses](/payment.html){.btn}
-
-## Explore Our Content {#cards-en}
+## 🎯 Your French Learning Toolkit {#cards-en}
 
 :::{.card-container}
 ::: {.card}
-### Blog Posts
-Discover our latest articles on French language tips, cultural insights, and learning strategies.
-
-[View All Posts](/posts.html){.btn}
+<i class="floating-icon fas fa-pen-fancy"></i>
+<div class="card-content">
+### <i class="fas fa-book-open"></i> Immersive Lessons
+Weekly interactive lessons covering grammar, vocabulary, and cultural nuances. Plus get exclusive access to our "French Slang Dictionary".
+</div>
+[Discover →](/posts.html){.btn}
 :::
 
 ::: {.card}
-### About Us
-Learn about our teaching philosophy, methodology, and meet your instructor.
-
-[About Kunal](/about.html){.btn}
+<i class="floating-icon fas fa-chalkboard-teacher"></i>
+<div class="card-content">
+### <i class="fas fa-user-tie"></i> Meet Kunal
+Québec resident with 5+ years of learning and teaching experience. My secret? We focus on what you'll actually use!
+</div>
+[My Story →](/about.html){.btn}
 :::
 
 ::: {.card}
-### Courses & Pricing
-Browse our available courses, private tutoring options, and pricing plans.
-
-[View Pricing](/payment.html){.btn}
+<i class="floating-icon fas fa-euro-sign"></i>
+<div class="card-content">
+### <i class="fas fa-graduation-cap"></i> Smart Pricing
+Choose from flexible plans: C$300/month for group classes or C$50/month for self-learning. All plans include recorded lectures, quizzes, and more to enhance your learning experience.
+</div>
+[View Options →](/payment.html){.btn}
 :::
 
 ::: {.card}
-### Contact Us
-Have questions? Get in touch via email, WhatsApp, or social media.
-
-[Contact Now](/contact.html){.btn}
+<i class="floating-icon fas fa-comments"></i>
+<div class="card-content">
+### <i class="fas fa-headset"></i> 24/7 Support
+Stuck on subjunctive at 2am? Our WhatsApp support has you covered (oui, even on Sundays!).
+</div>
+[Get Help →](/contact.html){.btn}
 :::
 :::
 
-## What Our Students Say {.testimonials}
+## 🗣️ Success Stories {.testimonials}
 
-> "Kunal's teaching method made learning French enjoyable and effective. I've improved my conversational skills dramatically in just a few months!"
+<div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+> "After 3 months with Kunal, I ordered coffee in Paris without switching to English - the barista thought I was local! *C'est incroyable!*"
 > 
-> — Sarah M., Montreal
+> **— Emma R., London**  
+> *Marketing Executive, 32*
 
-> "The cultural insights combined with language lessons make this unlike any other French program I've tried."
+<div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+> "Finally a teacher who explains why French people say things certain ways. The cultural context makes everything click!"
 > 
-> — Michael T., Toronto
+> **— David L., New York**  
+> *Law Student, 25*
 
-## Ready to Start Learning? {.hero}
+## 🚀 Ready for Your French Breakthrough? {.hero}
 
-Join our community of French learners today!
+**Limited spots available** - Join 1,200+ students who've unlocked their French potential!
 
-[Get Started](/payment.html){.btn} [Contact Us](/contact.html){.btn .btn-outline}
+[Enroll Now](/payment.html){.btn} [Free Trial Lesson](/contact.html){.btn}
 
 :::
 
 
 ::: {.content-visible when-profile="french"}
 
-## Bienvenue chez French with Kunal {.hero}
+<div class="language-switcher">
+  <button class="language-btn" onclick="window.quartoToggleProfile('english')">English</button>
+</div>
 
+## 🥐 French with Kunal {.hero}
+
+### Où la maîtrise du français rencontre le savoir-vivre
 
 {{< video https://www.youtube.com/embed/hU07FOM1klQ
-    title="Website navigation"
+    title="Votre aventure française commence ici"
     start="10" 
     aspect-ratio="16x9" 
 >}}
 
-Votre destination privilégiée pour apprendre la langue et la culture françaises. Que vous soyez débutant ou que vous souhaitiez perfectionner vos compétences, nous proposons des ressources complètes pour vous aider à atteindre la maîtrise.
+**Salut !** Je suis Kunal, votre guide pour maîtriser le français avec une prononciation authentique, une profondeur culturelle et l'élégance parisienne. Oubliez les manuels ennuyeux - nous apprenons à travers des histoires, de la musique et des conversations réelles.
 
+[Commencez votre voyage →](/payment.html){.btn}
 
-[Explorer nos cours](/payment.html){.btn}
-
-## Découvrez notre contenu {#cards}
+## 🎯 Votre boîte à outils {#cards}
 
 :::{.card-container}
 ::: {.card}
-### Articles de blog
-Découvrez nos derniers articles sur les astuces linguistiques, les insights culturels et les stratégies d'apprentissage.
-
-[Voir tous les articles](/posts.html){.btn}
+<i class="floating-icon fas fa-pen-fancy"></i>
+<div class="card-content">
+### <i class="fas fa-book-open"></i> Leçons immersives
+Cours interactifs hebdomadaires couvrant grammaire, vocabulaire et nuances culturelles. Accès exclusif à notre "Dictionnaire d'argot français".
+</div>
+[Découvrir →](/posts.html){.btn}
 :::
 
 ::: {.card}
-### À propos
-Apprenez-en plus sur notre philosophie d'enseignement, notre méthodologie et faites connaissance avec votre instructeur.
-
-[À propos de Kunal](/about.html){.btn}
+<i class="floating-icon fas fa-chalkboard-teacher"></i>
+<div class="card-content">
+### <i class="fas fa-user-tie"></i> Rencontrez Kunal
+Résident de  Québec avec 5+ ans d'expérience. Mon secret? Nous nous concentrons sur ce que vous utiliserez vraiment !
+</div>
+[Mon histoire →](/about.html){.btn}
 :::
 
 ::: {.card}
-### Cours & Tarifs
-Parcourez nos cours disponibles, options de tutorat privé et plans tarifaires.
-
-[Voir les tarifs](/payment.html){.btn}
+<i class="floating-icon fas fa-euro-sign"></i>
+<div class="card-content">
+### <i class="fas fa-graduation-cap"></i> Tarifs intelligents
+Choisissez parmi nos formules : 300 CAD/mois pour les cours collectifs ou 50 CAD/mois pour l'auto-apprentissage. Toutes les formules incluent des cours enregistrés, des quiz et bien plus pour améliorer votre apprentissage.
+</div>
+[Voir options →](/payment.html){.btn}
 :::
 
 ::: {.card}
-### Contactez-nous
-Des questions ? Contactez-nous par email, WhatsApp ou via les réseaux sociaux.
-
-[Nous contacter](/contact.html){.btn}
+<i class="floating-icon fas fa-comments"></i>
+<div class="card-content">
+### <i class="fas fa-headset"></i> Support 24/7
+Blocage sur le subjonctif à 2h du matin? Notre support WhatsApp est là pour vous (oui, même le dimanche !).
+</div>
+[Obtenir de l'aide →](/contact.html){.btn}
 :::
 :::
 
-## Témoignages de nos étudiants {.testimonials}
+## 🗣️ Témoignages {.testimonials}
 
-> "La méthode d'enseignement de Kunal a rendu l'apprentissage du français agréable et efficace. J'ai considérablement amélioré mes compétences conversationnelles en quelques mois seulement !"
+<div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+> "Après 3 mois avec Kunal, j'ai commandé un café à Paris sans passer à l'anglais - le serveur m'a pris pour un local! *C'est incroyable !*"
 > 
-> — Sarah M., Montréal
+> **— Emma R., Londres**  
+> *Responsable marketing, 32 ans*
 
-> "Les insights culturels combinés aux leçons de langue rendent ce programme unique par rapport à tout ce que j'ai pu essayer auparavant."
+<div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+> "Enfin un professeur qui explique pourquoi les Français disent les choses d'une certaine manière. Le contexte culturel fait toute la différence!"
 > 
-> — Michael T., Toronto
+> **— David L., New York**  
+> *Étudiant en droit, 25 ans*
 
-## Prêt à commencer votre apprentissage ? {.hero}
+## 🚀 Prêt pour votre révolution française ? {.hero}
 
-Rejoignez notre communauté d'apprenants de français dès aujourd'hui !
+**Places limitées** - Rejoignez 1 200+ étudiants qui ont débloqué leur potentiel en français !
 
-[Commencer](/payment.html){.btn} [Nous contacter](/contact.html){.btn .btn-outline}
+[S'inscrire maintenant](/payment.html){.btn} [Leçon d'essai gratuite](/contact.html){.btn}
 
 :::

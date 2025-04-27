@@ -3,79 +3,128 @@ lang: fr
 project: 
   title: "Français avec Kunal"
   type: website
-  output-dir: docs/fr
+  output-dir: docs
 
 website:
   favicon: images\logo.png
   page-navigation: true
   title: "Français avec Kunal"
- 
+  site-url: "https://frenchwithkunal.ca"
+  open-graph: true
+  twitter-card: true
+  
+  search:
+    location: navbar
+    type: overlay
+    show-item-context: true
+  
   page-footer:
-    left: 
+    left:
       - text: Éthique
         href: ethics.qmd
       - text: Politique de confidentialité
         href: policy.qmd
-      - text: Conditions de service
-        href: terms.qmd   
+      - text: Conditions d'utilisation
+        href: terms.qmd
 
     right:
-      - text: Se connecter
+      - text: Connexion
         href: login.qmd
-      - text: English
+      - text: Anglais
         href: https://frenchwithkunal.ca/index.html
       - text: Français
         href: https://frenchwithkunal.ca/fr/index.html
       - icon: envelope
-        href: mailto:info@frenchwithkunal.ca       
+        href: mailto:info@frenchwithkunal.ca
       - icon: youtube
-        href: https://www.youtube.com/@frenchwithkunal
-    
+        href: https://www.youtube.com/@frenchwithkunal 
+      
     center: |
       @2025 Français avec Kunal <br>
-       Tous droits reservés. <br>
-       
+      Tous droits réservés. <br>
+  
   navbar:
+    background: primary
+    logo: images\logo.png
+    logo-alt: "Français avec Kunal"
+    collapse-below: lg
+    
     left:
-      - text: Articles de blog
+      - text: Articles de Blog
         href: posts.qmd
-      - text: "À propos"
-        href: about.qmd
-      - text: "Nous Contacter"
+      - text: "À Propos"
+        href: about.qmd      
+      - text: "Contactez-nous"
         href: contact.qmd
       - text: Abonnement
         href: payment.qmd
       - text: "Accès"
         menu:
-          - text: "Se connecter"
+          - text: "Connexion"
             href: login.qmd
-          - text: "Se déconnecter"
+            icon: box-arrow-in-right
+          - text: "Déconnexion"
             href: profile.qmd
+            icon: box-arrow-right
+          - text: "Portail de Facturation"
+            href: https://billing.stripe.com/p/login/14k8xo9FteB0dr26oo
+            icon: credit-card
+        
     right:
-      - text: "Facturation"
-        href: https://billing.stripe.com/p/login/14k8xo9FteB0dr26oo
-      - text: "FAQ's"
+      - text: "FAQ"
         href: faq.qmd
+        icon: question-circle
       - text: Langue
         menu:
           - text: Anglais
             href: https://frenchwithkunal.ca/index.html
+            icon: globe
           - text: Français
-            href: https://frenchwithkunal.ca/fr/index.html        
+            href: https://frenchwithkunal.ca/fr/index.html
+            icon: globe
       - icon: youtube
         href: https://www.youtube.com/@frenchwithkunal
+        text: "Chaîne YouTube"
+
+  sidebar:
+    - id: navigation
+      title: "Liens Rapides"
+      style: floating
+      align: left
+      contents:
+        - text: "Articles de Blog"
+          href: posts.qmd
+          icon: file-lines
+        - text: "À Propos"
+          href: about.qmd
+          icon: info-circle
+        - text: "Contact"
+          href: contact.qmd
+          icon: envelope
+        - text: "FAQ"
+          href: faq.qmd
+          icon: question-circle
+        - text: "Abonnement"
+          href: payment.qmd
+          icon: credit-card
 
 format:
   html:
     theme: 
       light: cerulean
       dark: cyborg
-    #fontsize: 1.1em
-    #linestretch: 1.7
-    css: styles.css
-    toc: true
+    page-layout: full
+    grid:
+      sidebar-width: 250px
+      body-width: 900px
+    code-copy: true
+    code-overflow: wrap
+
+editor: visual
 
 execute:
-  freeze: true
-  increment: true
+  freeze: auto
+  echo: false
+  warning: false
   cache: true
+  fig-align: center

@@ -358,5 +358,11 @@
   },
   "test_footer.qmd": {
     "test_footer.html": "19192bd9"
+  },
+  "index2.qmd": {
+    "index2.html": "96ce34ce"
+  },
+  "old-index.qmd": {
+    "old-index.html": "9fdfa769"
   }
 }

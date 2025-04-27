@@ -1,0 +1,186 @@
+---
+#title: "French with Kunal"
+#subtitle: "Learn French Language and Culture"
+page-layout: full
+format:
+  html:
+    include-in-header:
+      - text: |
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+          <style>
+            .hero {
+              background-color: #f8f9fa;
+              padding: 4rem 2rem;
+              text-align: center;
+              margin-bottom: 2rem;
+            }
+            .card-container {
+              display: grid;
+              grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+              gap: 2rem;
+              padding: 2rem 0;
+            }
+            .card {
+              border: 1px solid #e0e0e0;
+              border-radius: 8px;
+              padding: 1.5rem;
+              transition: transform 0.3s ease;
+            }
+            .card:hover {
+              transform: translateY(-5px);
+              box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+            }
+            .card h3 {
+              margin-top: 0;
+              color: #0077b5;
+            }
+            .btn {
+              display: inline-block;
+              padding: 0.5rem 1rem;
+              background: #0077b5;
+              color: white;
+              text-decoration: none;
+              border-radius: 4px;
+              margin-top: 1rem;
+            }
+            .testimonials {
+              background: #f8f9fa;
+              padding: 2rem;
+              margin: 2rem 0;
+            }
+          </style>
+---
+
+::: {.content-visible when-profile="english"}
+
+
+## Welcome to French with Kunal{.hero}
+
+{{< video https://www.youtube.com/embed/hU07FOM1klQ
+    title="Website navigation"
+    start="10" 
+    aspect-ratio="16x9" 
+>}}
+
+
+Your premier destination for learning French language and culture. Whether you're a beginner or looking to refine your skills, we offer comprehensive resources to help you achieve fluency.
+
+
+[Explore Our Courses](/payment.html){.btn}
+
+## Explore Our Content {#cards-en}
+
+:::{.card-container}
+::: {.card}
+### Blog Posts
+Discover our latest articles on French language tips, cultural insights, and learning strategies.
+
+[View All Posts](/posts.html){.btn}
+:::
+
+::: {.card}
+### About Us
+Learn about our teaching philosophy, methodology, and meet your instructor.
+
+[About Kunal](/about.html){.btn}
+:::
+
+::: {.card}
+### Courses & Pricing
+Browse our available courses, private tutoring options, and pricing plans.
+
+[View Pricing](/payment.html){.btn}
+:::
+
+::: {.card}
+### Contact Us
+Have questions? Get in touch via email, WhatsApp, or social media.
+
+[Contact Now](/contact.html){.btn}
+:::
+:::
+
+## What Our Students Say {.testimonials}
+
+> "Kunal's teaching method made learning French enjoyable and effective. I've improved my conversational skills dramatically in just a few months!"
+> 
+> — Sarah M., Montreal
+
+> "The cultural insights combined with language lessons make this unlike any other French program I've tried."
+> 
+> — Michael T., Toronto
+
+## Ready to Start Learning? {.hero}
+
+Join our community of French learners today!
+
+[Get Started](/payment.html){.btn} [Contact Us](/contact.html){.btn .btn-outline}
+
+:::
+
+
+::: {.content-visible when-profile="french"}
+
+## Bienvenue chez French with Kunal {.hero}
+
+
+{{< video https://www.youtube.com/embed/hU07FOM1klQ
+    title="Website navigation"
+    start="10" 
+    aspect-ratio="16x9" 
+>}}
+
+Votre destination privilégiée pour apprendre la langue et la culture françaises. Que vous soyez débutant ou que vous souhaitiez perfectionner vos compétences, nous proposons des ressources complètes pour vous aider à atteindre la maîtrise.
+
+
+[Explorer nos cours](/payment.html){.btn}
+
+## Découvrez notre contenu {#cards}
+
+:::{.card-container}
+::: {.card}
+### Articles de blog
+Découvrez nos derniers articles sur les astuces linguistiques, les insights culturels et les stratégies d'apprentissage.
+
+[Voir tous les articles](/posts.html){.btn}
+:::
+
+::: {.card}
+### À propos
+Apprenez-en plus sur notre philosophie d'enseignement, notre méthodologie et faites connaissance avec votre instructeur.
+
+[À propos de Kunal](/about.html){.btn}
+:::
+
+::: {.card}
+### Cours & Tarifs
+Parcourez nos cours disponibles, options de tutorat privé et plans tarifaires.
+
+[Voir les tarifs](/payment.html){.btn}
+:::
+
+::: {.card}
+### Contactez-nous
+Des questions ? Contactez-nous par email, WhatsApp ou via les réseaux sociaux.
+
+[Nous contacter](/contact.html){.btn}
+:::
+:::
+
+## Témoignages de nos étudiants {.testimonials}
+
+> "La méthode d'enseignement de Kunal a rendu l'apprentissage du français agréable et efficace. J'ai considérablement amélioré mes compétences conversationnelles en quelques mois seulement !"
+> 
+> — Sarah M., Montréal
+
+> "Les insights culturels combinés aux leçons de langue rendent ce programme unique par rapport à tout ce que j'ai pu essayer auparavant."
+> 
+> — Michael T., Toronto
+
+## Prêt à commencer votre apprentissage ? {.hero}
+
+Rejoignez notre communauté d'apprenants de français dès aujourd'hui !
+
+[Commencer](/payment.html){.btn} [Nous contacter](/contact.html){.btn .btn-outline}
+
+:::

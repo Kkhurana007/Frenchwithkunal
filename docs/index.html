@@ -71,45 +71,102 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" <link="">
 <style>
+  :root {
+    --primary: #2C3E50;
+    --accent: #E74C3C;
+    --light: #ECF0F1;
+  }
   .hero {
-    background-color: #f8f9fa;
-    padding: 4rem 2rem;
+    background: linear-gradient(135deg, var(--primary) 0%, #3498DB 100%);
+    color: white;
+    padding: 5rem 2rem;
     text-align: center;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
+    border-radius: 0 0 20px 20px;
   }
   .card-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 2rem;
     padding: 2rem 0;
   }
   .card {
-    border: 1px solid #e0e0e0;
-    border-radius: 8px;
-    padding: 1.5rem;
-    transition: transform 0.3s ease;
+    border: none;
+    border-radius: 12px;
+    padding: 2rem;
+    transition: all 0.3s ease;
+    background: white;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    position: relative;
+    overflow: hidden;
   }
   .card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.1);
   }
   .card h3 {
     margin-top: 0;
-    color: #0077b5;
+    color: var(--primary);
+    font-size: 1.5rem;
+  }
+  .card h3 i {
+    margin-right: 10px;
+    color: var(--accent);
   }
   .btn {
     display: inline-block;
-    padding: 0.5rem 1rem;
-    background: #0077b5;
+    padding: 12px 24px;
+    background: var(--accent);
     color: white;
     text-decoration: none;
-    border-radius: 4px;
+    border-radius: 50px;
     margin-top: 1rem;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    border: 2px solid var(--accent);
+  }
+  .btn:hover {
+    background: transparent;
+    color: var(--accent);
+  }
+  .btn-outline {
+    background: transparent;
+    color: var(--accent);
+    border: 2px solid white;
   }
   .testimonials {
-    background: #f8f9fa;
-    padding: 2rem;
-    margin: 2rem 0;
+    background: var(--light);
+    padding: 3rem 2rem;
+    margin: 3rem 0;
+    border-radius: 20px;
+  }
+  .quote-icon {
+    color: var(--accent);
+    font-size: 2rem;
+    opacity: 0.3;
+  }
+  .language-switcher {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+  .language-btn {
+    background: rgba(255,255,255,0.2);
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .floating-icon {
+    position: absolute;
+    opacity: 0.1;
+    font-size: 5rem;
+    z-index: 0;
+  }
+  .card-content {
+    position: relative;
+    z-index: 1;
   }
 </style>
 
@@ -228,52 +285,78 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="welcome-to-french-with-kunal" class="level2 hero">
-<h2 class="hero anchored" data-anchor-id="welcome-to-french-with-kunal">Welcome to French with Kunal</h2>
-<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/hU07FOM1klQ?start=10" title="Website navigation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
-<p>Your premier destination for learning French language and culture. Whether you’re a beginner or looking to refine your skills, we offer comprehensive resources to help you achieve fluency.</p>
-<p><a href=".\payment.html" class="btn">Explore Our Courses</a></p>
+<div class="language-switcher">
+<p><button class="language-btn" onclick="window.quartoToggleProfile('french')">Français</button></p>
+</div>
+<section id="french-with-kunal" class="level2 hero">
+<h2 class="hero anchored" data-anchor-id="french-with-kunal">🥖 French with Kunal</h2>
+<section id="where-french-fluency-meets-cultural-savoir-faire" class="level3">
+<h3 class="anchored" data-anchor-id="where-french-fluency-meets-cultural-savoir-faire">Where French Fluency Meets Cultural Savoir-Faire</h3>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/hU07FOM1klQ?start=10" title="Your French Journey Starts Here" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<p><strong>Bonjour!</strong> I’m Kunal, your guide to mastering French with authentic pronunciation, cultural depth, and Parisian flair. Forget boring textbooks - we learn through stories, music, and real-life conversations.</p>
+<p><a href=".\payment.html" class="btn">Start Your Journey →</a></p>
+</section>
 </section>
 <section id="cards-en" class="level2">
-<h2 class="anchored" data-anchor-id="cards-en">Explore Our Content</h2>
+<h2 class="anchored" data-anchor-id="cards-en">🎯 Your French Learning Toolkit</h2>
 <div class="card-container">
-<section id="blog-posts" class="level3 card">
-<h3 class="anchored" data-anchor-id="blog-posts">Blog Posts</h3>
-<p>Discover our latest articles on French language tips, cultural insights, and learning strategies.</p>
-<p><a href=".\posts.html" class="btn">View All Posts</a></p>
+<div class="card">
+<i class="floating-icon fas fa-pen-fancy"></i>
+<section id="immersive-lessons" class="level3 card-content">
+<h3 class="anchored" data-anchor-id="immersive-lessons"><i class="fas fa-book-open"></i> Immersive Lessons</h3>
+<p>Weekly interactive lessons covering grammar, vocabulary, and cultural nuances. Plus get exclusive access to our “French Slang Dictionary”.</p>
 </section>
-<section id="about-us" class="level3 card">
-<h3 class="anchored" data-anchor-id="about-us">About Us</h3>
-<p>Learn about our teaching philosophy, methodology, and meet your instructor.</p>
-<p><a href=".\about.html" class="btn">About Kunal</a></p>
+<p><a href=".\posts.html" class="btn">Discover →</a></p>
+</div>
+<div class="card">
+<i class="floating-icon fas fa-chalkboard-teacher"></i>
+<section id="meet-kunal" class="level3 card-content">
+<h3 class="anchored" data-anchor-id="meet-kunal"><i class="fas fa-user-tie"></i> Meet Kunal</h3>
+<p>Québec resident with 5+ years of learning and teaching experience. My secret? We focus on what you’ll actually use!</p>
 </section>
-<section id="courses-pricing" class="level3 card">
-<h3 class="anchored" data-anchor-id="courses-pricing">Courses &amp; Pricing</h3>
-<p>Browse our available courses, private tutoring options, and pricing plans.</p>
-<p><a href=".\payment.html" class="btn">View Pricing</a></p>
+<p><a href=".\about.html" class="btn">My Story →</a></p>
+</div>
+<div class="card">
+<i class="floating-icon fas fa-euro-sign"></i>
+<section id="smart-pricing" class="level3 card-content">
+<h3 class="anchored" data-anchor-id="smart-pricing"><i class="fas fa-graduation-cap"></i> Smart Pricing</h3>
+<p>Choose from flexible plans: C$300/month for group classes or C$50/month for self-learning. All plans include recorded lectures, quizzes, and more to enhance your learning experience.</p>
 </section>
-<section id="contact-us" class="level3 card">
-<h3 class="anchored" data-anchor-id="contact-us">Contact Us</h3>
-<p>Have questions? Get in touch via email, WhatsApp, or social media.</p>
-<p><a href=".\contact.html" class="btn">Contact Now</a></p>
+<p><a href=".\payment.html" class="btn">View Options →</a></p>
+</div>
+<div class="card">
+<i class="floating-icon fas fa-comments"></i>
+<section id="support" class="level3 card-content">
+<h3 class="anchored" data-anchor-id="support"><i class="fas fa-headset"></i> 24/7 Support</h3>
+<p>Stuck on subjunctive at 2am? Our WhatsApp support has you covered (oui, even on Sundays!).</p>
 </section>
+<p><a href=".\contact.html" class="btn">Get Help →</a></p>
+</div>
 </div>
 </section>
-<section id="what-our-students-say" class="level2 testimonials">
-<h2 class="testimonials anchored" data-anchor-id="what-our-students-say">What Our Students Say</h2>
+<section id="success-stories" class="level2 testimonials">
+<h2 class="testimonials anchored" data-anchor-id="success-stories">🗣️ Success Stories</h2>
+<div class="quote-icon">
+<i class="fas fa-quote-left"></i>
+</div>
 <blockquote class="blockquote">
-<p>“Kunal’s teaching method made learning French enjoyable and effective. I’ve improved my conversational skills dramatically in just a few months!”</p>
-<p>— Sarah M., Montreal</p>
+<p>“After 3 months with Kunal, I ordered coffee in Paris without switching to English - the barista thought I was local! <em>C’est incroyable!</em>”</p>
+<p><strong>— Emma R., London</strong><br>
+<em>Marketing Executive, 32</em></p>
 </blockquote>
+<div class="quote-icon">
+<i class="fas fa-quote-left"></i>
+</div>
 <blockquote class="blockquote">
-<p>“The cultural insights combined with language lessons make this unlike any other French program I’ve tried.”</p>
-<p>— Michael T., Toronto</p>
+<p>“Finally a teacher who explains why French people say things certain ways. The cultural context makes everything click!”</p>
+<p><strong>— David L., New York</strong><br>
+<em>Law Student, 25</em></p>
 </blockquote>
 </section>
-<section id="ready-to-start-learning" class="level2 hero">
-<h2 class="hero anchored" data-anchor-id="ready-to-start-learning">Ready to Start Learning?</h2>
-<p>Join our community of French learners today!</p>
-<p><a href=".\payment.html" class="btn">Get Started</a> <a href=".\contact.html" class="btn btn-outline">Contact Us</a></p>
+<section id="ready-for-your-french-breakthrough" class="level2 hero">
+<h2 class="hero anchored" data-anchor-id="ready-for-your-french-breakthrough">🚀 Ready for Your French Breakthrough?</h2>
+<p><strong>Limited spots available</strong> - Join 1,200+ students who’ve unlocked their French potential!</p>
+<p><a href=".\payment.html" class="btn">Enroll Now</a> <a href=".\contact.html" class="btn">Free Trial Lesson</a></p>
 
 
 </section>
