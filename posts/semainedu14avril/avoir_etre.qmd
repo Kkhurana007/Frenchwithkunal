@@ -19,12 +19,11 @@ format:
 <a href="mailto:info@frenchwithkunal.ca" target="_blank" style="margin: 0 10px; color: #000;"><i class="fas fa-envelope fa-lg"></i></a> <a href="https://www.instagram.com/frenchwithkunal" target="_blank" style="margin: 0 10px; color: #E1306C;"><i class="fab fa-instagram fa-lg"></i></a> <a href="https://frenchwithkunal.ca" target="_blank" style="margin: 0 10px; color: #0077b5;"><i class="fas fa-globe fa-lg"></i></a> <a href="https://whatsapp.com/channel/0029Vb57n2e7dmegpjYpyi3V" target="_blank" style="margin: 0 10px; color: #25D366;"><i class="fab fa-whatsapp fa-lg"></i></a> <button onclick="copyLink()" style="background-color: #0077b5; color: white; padding: 8px 16px; border: none; border-radius: 4px; cursor: pointer; margin-left: 10px;"> <i class="fas fa-copy"></i> </button> [Link copied!]{#copy-message style="margin-left: 10px; color: green; display: none;"}
 :::
 
+::: {#react-root}
+:::
 
-
-
-
-<div id="react-root"></div>
- <script type="text/babel">
+```{=html}
+<script type="text/babel">
  const ProfilePage = () => {
   const { useState, useEffect } = React;
   const [redirectCounter, setRedirectCounter] = useState(4);
@@ -170,46 +169,40 @@ ReactDOM.render(
   document.getElementById('react-root')
 );
  </script>
+```
 
 ::: {.content-visible when-profile="english"}
-
 This week, we practiced French verb agreements - specifically, when and how to make adjectives and past participles agree with their subjects or objects. Understanding these rules is essential for writing fluently and avoiding common mistakes. But before diving into the details, there’s one crucial step: memorizing the conjugations of the two most important auxiliary verbs, être (to be) and avoir (to have).
 
 ### Why Are "Être" and "Avoir" So Important?
 
 These auxiliary verbs are used to form compound tenses (like the passé composé) and are at the heart of many French grammar rules. Here’s a quick refresher on their present tense conjugations:
 
-•	Être (to be): Je suis, tu es, il/elle/on est, nous sommes, vous êtes, ils/elles sont.
-•	Avoir (to have): J’ai, tu as, il/elle/on a, nous avons, vous avez, ils/elles ont.
+• Être (to be): Je suis, tu es, il/elle/on est, nous sommes, vous êtes, ils/elles sont. • Avoir (to have): J’ai, tu as, il/elle/on a, nous avons, vous avez, ils/elles ont.
 
-Now, let’s break down the agreement rules!
----
+## Now, let’s break down the agreement rules!
 
 ### 1. The Auxiliary "Avoir": When Not to Agree (Most of the Time)
+
 With avoir, the past participle generally does not agree with the subject.
 
 Example:
 
-•	Elle a mangé une pomme. (She ate an apple.) → No agreement with "elle."
-BUT there’s one key exception:
+• Elle a mangé une pomme. (She ate an apple.) → No agreement with "elle." BUT there’s one key exception:
 
-👉 When the direct object (COD) comes before the verb, the past participle agrees with that object.
-Examples to illustrate:
+👉 When the direct object (COD) comes before the verb, the past participle agrees with that object. Examples to illustrate:
 
-•	Les fleurs que j’ai coupées... (The flowers that I cut...) → "Coupées" agrees with "fleurs" (feminine plural).
+• Les fleurs que j’ai coupées... (The flowers that I cut...) → "Coupées" agrees with "fleurs" (feminine plural).
 
-•	La pomme qu’il a mangée... (The apple that he ate...) → "Mangée" agrees with "pomme" (feminine singular).
+• La pomme qu’il a mangée... (The apple that he ate...) → "Mangée" agrees with "pomme" (feminine singular).
 
-Tip: Ask "WHAT?" after the verb to identify the direct object.
----
+## Tip: Ask "WHAT?" after the verb to identify the direct object.
 
 ### 2. The Auxiliary "Être": Agreement Every Time
 
-Unlike avoir, the past participle with être always agrees with the subject in gender (masculine/feminine) and number (singular/plural).
-Examples:
+Unlike avoir, the past participle with être always agrees with the subject in gender (masculine/feminine) and number (singular/plural). Examples:
 
-•	Elle est partie en voyage. (She left on a trip.) → "Partie" agrees with "elle."
-•	Les oiseaux sont arrivés. (The birds arrived.) → "Arrivés" agrees with "oiseaux" (masculine plural).
+• Elle est partie en voyage. (She left on a trip.) → "Partie" agrees with "elle." • Les oiseaux sont arrivés. (The birds arrived.) → "Arrivés" agrees with "oiseaux" (masculine plural).
 
 Special Case: Pronominal (Reflexive) Verbs
 
@@ -217,68 +210,62 @@ Pronominal verbs like se laver (to wash oneself) or s’habiller (to get dressed
 
 Examples:
 
-•	Elle s’est lavée. (She washed herself.) → Agreement with "elle" (since "se" is the direct object).
-•	Elle s’est lavé les mains. (She washed her hands.) → No agreement, because "les mains" (the hands) is the direct object and comes after the verb.
+• Elle s’est lavée. (She washed herself.) → Agreement with "elle" (since "se" is the direct object). • Elle s’est lavé les mains. (She washed her hands.) → No agreement, because "les mains" (the hands) is the direct object and comes after the verb.
 
 ### Practice Makes Perfect!
 
 Theory is great, but practice is what really helps. Take a look at [this PDF](https://drive.google.com/file/d/1L3pKB22wmXcrTeMztQPvS6_dRkjOx_NQ/view?usp=drive_link) for extra exercises:
-
 :::
 
 ::: {.content-visible when-profile="french"}
+### Pourquoi "être" et "avoir" sont-ils si importants?
 
-### Pourquoi "être" et "avoir" sont-ils si importants?  
+Ces auxiliaires servent à former les temps composés (comme le passé composé) et sont au cœur de nombreuses règles grammaticales. Voici un rappel de leurs conjugaisons au présent, un bon point de départ :
 
-Ces auxiliaires servent à former les temps composés (comme le passé composé) et sont au cœur de nombreuses règles grammaticales. Voici un rappel de leurs conjugaisons au présent, un bon point de départ :  
+-   **Être** : Je suis, tu es, il/elle/on est, nous sommes, vous êtes, ils/elles sont.\
+-   **Avoir** : J’ai, tu as, il/elle/on a, nous avons, vous avez, ils/elles ont.
 
-- **Être** : Je suis, tu es, il/elle/on est, nous sommes, vous êtes, ils/elles sont.  
-- **Avoir** : J’ai, tu as, il/elle/on a, nous avons, vous avez, ils/elles ont.  
+Maintenant, passons aux règles d’accord !
 
-Maintenant, passons aux règles d’accord !  
+------------------------------------------------------------------------
 
----
+### 1. L’auxiliaire **"avoir"** : des accords… presque absents ?
 
-### 1. L’auxiliaire **"avoir"** : des accords… presque absents ?  
-En règle générale, **le participe passé employé avec "avoir" ne s’accorde pas** avec le sujet. *Exemple* :  
-- *Elle a mangé une pomme.* (Pas d’accord avec "elle").  
+En règle générale, **le participe passé employé avec "avoir" ne s’accorde pas** avec le sujet. *Exemple* :\
+- *Elle a mangé une pomme.* (Pas d’accord avec "elle").
 
-**MAIS** il y a une exception cruciale :  
+**MAIS** il y a une exception cruciale :
 
-👉 **Quand le complément d’objet direct (COD) est placé avant le verbe**, le participe passé s’accorde avec ce COD.  
+👉 **Quand le complément d’objet direct (COD) est placé avant le verbe**, le participe passé s’accorde avec ce COD.
 
-*Exemples pour illustrer* :  
-- *Les fleurs que j’ai coupées* → "coupées" s’accorde avec "fleurs" (COD placé avant).  
-- *La pomme qu’il a mangée* → "mangée" s’accorde avec "pomme".  
+*Exemples pour illustrer* :\
+- *Les fleurs que j’ai coupées* → "coupées" s’accorde avec "fleurs" (COD placé avant).\
+- *La pomme qu’il a mangée* → "mangée" s’accorde avec "pomme".
 
-*Astuce* : Posez-vous la question *"QUOI ?"* après le verbe pour identifier le COD.  
+*Astuce* : Posez-vous la question *"QUOI ?"* après le verbe pour identifier le COD.
 
----
+------------------------------------------------------------------------
 
-### 2. L’auxiliaire **"être"** : des accords systématiques  
+### 2. L’auxiliaire **"être"** : des accords systématiques
 
-Contrairement à "avoir", **le participe passé avec "être" s’accorde toujours avec le sujet**, en genre (masculin/féminin) et en nombre (singulier/pluriel).  
+Contrairement à "avoir", **le participe passé avec "être" s’accorde toujours avec le sujet**, en genre (masculin/féminin) et en nombre (singulier/pluriel).
 
-*Exemples* :  
-- *Elle est partie en voyage.* ("partie" accordé avec "elle").  
-- *Les oiseaux sont arrivés.* ("arrivés" accordé avec "oiseaux", masculin pluriel).  
+*Exemples* :\
+- *Elle est partie en voyage.* ("partie" accordé avec "elle").\
+- *Les oiseaux sont arrivés.* ("arrivés" accordé avec "oiseaux", masculin pluriel).
 
-**Cas particulier : les verbes pronominaux**  
-Les verbes comme *se laver, s’habiller* utilisent aussi "être" aux temps composés. Leur participe passé s’accorde généralement avec le sujet… sauf si le verbe est suivi d’un COD !  
+**Cas particulier : les verbes pronominaux**\
+Les verbes comme *se laver, s’habiller* utilisent aussi "être" aux temps composés. Leur participe passé s’accorde généralement avec le sujet… sauf si le verbe est suivi d’un COD !
 
-*Exemples* :  
-- *Elle s’est lavée.* (accord avec "elle", car "se" est COD).  
-- *Elle s’est lavé les mains.* (pas d’accord, car "les mains" est COD placé après).  
+*Exemples* :\
+- *Elle s’est lavée.* (accord avec "elle", car "se" est COD).\
+- *Elle s’est lavé les mains.* (pas d’accord, car "les mains" est COD placé après).
 
----
+------------------------------------------------------------------------
 
-### Pour aller plus loin : un peu de pratique !  
+### Pour aller plus loin : un peu de pratique !
+
 La théorie, c’est bien, mais la pratique, c’est mieux ! Jetez un coup d’œil à [ce PDF](https://drive.google.com/file/d/1L3pKB22wmXcrTeMztQPvS6_dRkjOx_NQ/view?usp=drive_link) rempli d’exercices pour vous entraîner.
-
 :::
 
-{{< video https://youtu.be/P6jeQz-VcKI
-    title="Past tenses with être and avoir"
-    start="116"
-    aspect-ratio="21x9" 
->}}
+{{< video https://youtu.be/P6jeQz-VcKI title="Past tenses with être and avoir" start="116" aspect-ratio="21x9" >}}

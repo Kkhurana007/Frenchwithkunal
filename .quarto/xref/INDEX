@@ -343,5 +343,20 @@
   },
   "footer.md": {
     "footer.html": "4bc0ce2a"
+  },
+  "footer.qmd": {
+    "footer.html": "93d72fd8"
+  },
+  "thankyou.qmd": {
+    "thankyou.html": "746c9a3e"
+  },
+  "contact2.qmd": {
+    "contact2.html": "abdb5a82"
+  },
+  "del_footer.md": {
+    "del_footer.html": "20d88291"
+  },
+  "test_footer.qmd": {
+    "test_footer.html": "19192bd9"
   }
 }

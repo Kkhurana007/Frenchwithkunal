@@ -11,6 +11,7 @@ format:
           <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
 ---
 
+:::::::: {.content-visible when-profile="enlgish"}
 ::::::: {.grid .page-footer}
 ::: g-col-3
 **LEGAL**\
@@ -44,3 +45,40 @@ All rights reserved.\
 [Contact Us](contact.qmd)
 :::
 :::::::
+::::::::
+
+:::::::: {.content-visible when-profile="french"}
+::::::: {.grid .page-footer}
+::: g-col-3
+**LÉGAL**\
+[Éthique](ethics.qmd)\
+[Politique de confidentialité](policy.qmd)\
+[Conditions d'utilisation](terms.qmd)
+:::
+
+::: g-col-3
+**CONNECTEZ-VOUS**\
+[Connexion](login.qmd)\
+[Anglais](https://frenchwithkunal.ca/index.html)\
+[Français](https://frenchwithkunal.ca/fr/index.html)\
+[Email](mailto:info@frenchwithkunal.ca)\
+[YouTube](https://www.youtube.com/@frenchwithkunal)
+:::
+
+::: g-col-3
+**SUIVEZ-NOUS**\
+[YouTube](https://www.youtube.com/@frenchwithkunal)\
+[Instagram](https://www.instagram.com/frenchwithkunal/)\
+[Facebook](https://www.facebook.com/frenchwithkunal)\
+[LinkedIn](https://www.linkedin.com/company/frenchwithkunal/)\
+[Twitter](https://twitter.com/frenchwithkunal)
+:::
+
+::: g-col-3
+**CONTACTEZ-NOUS**\
+@2025 French with Kunal\
+Tous droits réservés.\
+[Contactez-nous](contact.qmd)
+:::
+:::::::
+::::::::

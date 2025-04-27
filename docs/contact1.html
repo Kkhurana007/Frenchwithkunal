@@ -171,8 +171,8 @@ ul.task-list li input[type="checkbox"] {
   <ul class="collapse">
   <li><a href="#get-in-touch" id="toc-get-in-touch" class="nav-link" data-scroll-target="#get-in-touch">Get in Touch</a></li>
   <li><a href="#enrollment-form" id="toc-enrollment-form" class="nav-link" data-scroll-target="#enrollment-form">Enrollment Form</a></li>
+  <li><a href="#contact-form" id="toc-contact-form" class="nav-link" data-scroll-target="#contact-form">Contact form</a></li>
   </ul></li>
-  <li><a href="#enrollment-form-1" id="toc-enrollment-form-1" class="nav-link" data-scroll-target="#enrollment-form-1">Enrollment Form</a></li>
   </ul>
 </nav>
     </div>
@@ -193,29 +193,30 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="enrollment-form">Enrollment Form</h2>
 <p>Fill out this <a href="https://forms.gle/UGptE4egRewexaSK7">form</a> to join our online learning classes.</p>
 </section>
-</section>
-<section id="enrollment-form-1" class="level1">
-<h1>Enrollment Form</h1>
-<form id="enrollmentForm">
+<section id="contact-form" class="level2">
+<h2 class="anchored" data-anchor-id="contact-form">Contact form</h2>
+<div>
+<form id="enrollmentForm" action="https://frenchwithkunal-cdf6ea3f88ce.herokuapp.com/api/v1/responses/create-response" method="POST" onsubmit="return handleFormSubmit(event)">
+<p><input type="hidden" name="_subject" value="New Enrollment Form Submission"> <input type="hidden" name="_next" value="https://frenchwithkunal.ca/thankyou.html"></p>
 <div class="form-group">
 <pre><code>&lt;label for="name"&gt;Name*&lt;/label&gt;
-&lt;input type="text" id="name" name="name" required&gt;</code></pre>
+&lt;input type="text" id="name" name="name" required class="form-control"&gt;</code></pre>
 </div>
 <div class="form-group">
 <pre><code>&lt;label for="email"&gt;Email*&lt;/label&gt;
-&lt;input type="email" id="email" name="email" required&gt;</code></pre>
+&lt;input type="email" id="email" name="email" required class="form-control"&gt;</code></pre>
 </div>
 <div class="form-group">
 <pre><code>&lt;label for="phone"&gt;Phone Number&lt;/label&gt;
-&lt;input type="tel" id="phone" name="phone"&gt;</code></pre>
+&lt;input type="tel" id="phone" name="phone" class="form-control"&gt;</code></pre>
 </div>
 <div class="form-group">
 <pre><code>&lt;label for="otherLanguages"&gt;Other languages you speak besides French&lt;/label&gt;
-&lt;input type="text" id="otherLanguages" name="otherLanguages" placeholder="English, Spanish, etc."&gt;</code></pre>
+&lt;input type="text" id="otherLanguages" name="otherLanguages" placeholder="English, Spanish, etc." class="form-control"&gt;</code></pre>
 </div>
 <div class="form-group">
-<pre><code>&lt;label for="frenchLevel"&gt;From 1 to 10, how would you rate your French?&lt;/label&gt;
-&lt;select id="frenchLevel" name="frenchLevel"&gt;
+<pre><code>&lt;label for="frenchLevel"&gt;From 1 to 10, how would you rate your French?*&lt;/label&gt;
+&lt;select id="frenchLevel" name="frenchLevel" required class="form-control"&gt;
   &lt;option value=""&gt;Select your level&lt;/option&gt;
   &lt;option value="1"&gt;1 - Beginner&lt;/option&gt;
   &lt;option value="2"&gt;2&lt;/option&gt;
@@ -232,11 +233,11 @@ ul.task-list li input[type="checkbox"] {
 <div class="form-group">
 <pre><code>&lt;label&gt;Availability (Toronto Time)*&lt;/label&gt;
 &lt;div class="checkbox-option"&gt;
-  &lt;input type="checkbox" id="evening" name="availability" value="8 to 9:30 PM ET (Mon-Thurs)"&gt;
+  &lt;input type="checkbox" id="evening" name="availability[]" value="8 to 9:30 PM ET (Mon-Thurs)" required&gt;
   &lt;label for="evening"&gt;8 to 9:30 PM ET - Toronto time (Mon, Tue, Wed, Thurs)&lt;/label&gt;
 &lt;/div&gt;
 &lt;div class="checkbox-option"&gt;
-  &lt;input type="checkbox" id="morning" name="availability" value="10 to 11:30 AM ET (Mon-Thurs)"&gt;
+  &lt;input type="checkbox" id="morning" name="availability[]" value="10 to 11:30 AM ET (Mon-Thurs)"&gt;
   &lt;label for="morning"&gt;10 to 11:30 AM ET - Toronto time (Mon, Tue, Wed, Thurs)&lt;/label&gt;
 &lt;/div&gt;</code></pre>
 </div>
@@ -245,116 +246,37 @@ Submit
 </button>
 </form>
 <script>
-  document.getElementById('enrollmentForm').addEventListener('submit', async function(e) {
-    e.preventDefault();
-    
-    const formData = {
-      name: document.getElementById('name').value,
-      email: document.getElementById('email').value,
-      phone: document.getElementById('phone').value,
-      otherLanguages: document.getElementById('otherLanguages').value,
-      frenchLevel: document.getElementById('frenchLevel').value,
-      availability: Array.from(document.querySelectorAll('input[name="availability"]:checked')).map(el => el.value)
-    };
+  async function handleFormSubmit(event) {
+    event.preventDefault();
+    const form = event.target;
+    const formData = new FormData(form);
 
     try {
-      const response = await fetch('YOUR_BACKEND_API_ENDPOINT', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(formData)
+      const response = await fetch(form.action, {
+        method: form.method,
+        body: formData,
       });
 
       if (response.ok) {
-        alert('Thank you for your enrollment! We will contact you soon.');
-        document.getElementById('enrollmentForm').reset();
+        window.location.href = form.querySelector('input[name="_next"]').value;
       } else {
-        alert('There was an error submitting your form. Please try again.');
+        alert('An error occurred while submitting the form. Please try again.');
       }
     } catch (error) {
       console.error('Error:', error);
-      alert('There was an error submitting your form. Please try again.');
+      alert('An error occurred while submitting the form. Please try again.');
     }
-  });
+  }
 </script>
-<style>
-  .form-group {
-    margin-bottom: 1.5rem;
-  }
-  
-  label {
-    display: block;
-    margin-bottom: 0.5rem;
-    font-weight: bold;
-  }
-  
-  input[type="text"],
-  input[type="email"],
-  input[type="tel"],
-  select {
-    width: 100%;
-    padding: 0.5rem;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-  }
-  
-  .checkbox-option {
-    margin-bottom: 0.5rem;
-  }
-  
-  .checkbox-option input {
-    margin-right: 0.5rem;
-  }
-  
-  .submit-btn {
-    background-color: #4CAF50;
-    color: white;
-    padding: 0.75rem 1.5rem;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 1rem;
-  }
-  
-  .submit-btn:hover {
-    background-color: #45a049;
-  }
-</style>
+<p>:::</p>
+<p>:::</p>
 
 
+</div>
+</section>
 </section>
 
-<div class="grid page-footer">
-<div class="g-col-3">
-<p><strong>LEGAL</strong><br>
-<a href="./ethics.html">Ethics</a><br>
-<a href="./policy.html">Privacy policy</a><br>
-<a href="./terms.html">Terms of Service</a></p>
-</div>
-<div class="g-col-3">
-<p><strong>CONNECT</strong><br>
-<a href="./login.html">Login</a><br>
-<a href="https://frenchwithkunal.ca/index.html">English</a><br>
-<a href="https://frenchwithkunal.ca/fr/index.html">French</a><br>
-<a href="mailto:info@frenchwithkunal.ca">Email</a><br>
-<a href="https://www.youtube.com/@frenchwithkunal">YouTube</a></p>
-</div>
-<div class="g-col-3">
-<p><strong>FOLLOW US</strong><br>
-<a href="https://www.youtube.com/@frenchwithkunal">YouTube</a><br>
-<a href="https://www.instagram.com/frenchwithkunal/">Instagram</a><br>
-<a href="https://www.facebook.com/frenchwithkunal">Facebook</a><br>
-<a href="https://www.linkedin.com/company/frenchwithkunal/">LinkedIn</a><br>
-<a href="https://twitter.com/frenchwithkunal">Twitter</a></p>
-</div>
-<div class="g-col-3">
-<p><strong>CONTACT</strong><br>
-<span class="citation" data-cites="2025">@2025</span> French with Kunal<br>
-All rights reserved.<br>
-<a href="./contact.html">Contact Us</a></p>
-</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -917,6 +839,63 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="./ethics.html">
+<p>Ethics</p>
+</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="./policy.html">
+<p>Privacy policy</p>
+</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="./terms.html">
+<p>Terms of Service</p>
+</a>
+  </li>  
+</ul>
+    </div>   
+    <div class="nav-footer-center">
+<p><span class="citation" data-cites="2025">@2025</span> French with Kunal <br> All rights reserved. <br></p>
+</div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="./login.html">
+<p>Login</p>
+</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="https://frenchwithkunal.ca/index.html">
+<p>English</p>
+</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="https://frenchwithkunal.ca/fr/index.html">
+<p>French</p>
+</a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="mailto:info@frenchwithkunal.ca">
+      <i class="bi bi-envelope" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://www.youtube.com/@frenchwithkunal">
+      <i class="bi bi-youtube" role="img">
+</i> 
+    </a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
 
 
 

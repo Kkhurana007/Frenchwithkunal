@@ -1,0 +1,95 @@
+lang: en
+
+project: 
+  title: "French with Kunal"
+  type: website
+  output-dir: docs
+
+
+website:
+  favicon: images\logo.png
+  page-navigation: true
+  title: "French with Kunal"
+  site-url: "https://frenchwithkunal.ca"
+  
+  
+  page-footer:
+    left:
+      - text: Ethics
+        href: ethics.qmd
+      - text: Privacy policy
+        href: policy.qmd
+      - text: Terms of Service
+        href: terms.qmd
+
+    right:
+      - text: Login
+        href: login.qmd
+      - text: English
+        href: https://frenchwithkunal.ca/index.html
+      - text: French
+        href: https://frenchwithkunal.ca/fr/index.html
+      - icon: envelope
+        href: mailto:info@frenchwithkunal.ca
+      - icon: youtube
+        href: https://www.youtube.com/@frenchwithkunal 
+
+      
+    
+    center: |
+      @2025 French with Kunal <br>
+       All rights reserved. <br>
+  
+      
+
+
+  #search:
+    #location: navbar
+    #type: overlay
+    
+  navbar:
+    left:
+      - text: Blog Posts
+        href: posts.qmd
+      - text: "About Us"
+        href: about.qmd      
+      - text: "Contact Us"
+        href: contact.qmd
+      - text: Subscription
+        href: payment.qmd
+      - text: "Access"
+        menu:
+          - text: "Login"
+            href: login.qmd
+          - text: "Logout"
+            href: profile.qmd
+        
+    right:
+      - text: "Billing"
+        href: https://billing.stripe.com/p/login/14k8xo9FteB0dr26oo
+      - text: "FAQ'S"
+        href: faq.qmd
+      - text: Language
+        menu:
+          - text: English
+            href: https://frenchwithkunal.ca/index.html
+          - text: Français
+            href: https://frenchwithkunal.ca/fr/index.html      
+      - icon: youtube
+        href: https://www.youtube.com/@frenchwithkunal
+
+format:
+  html:
+    theme: 
+      light: cerulean
+      dark: cyborg
+    css: [styles.css]
+    toc: true
+
+editor: visual
+
+
+execute:
+  freeze: true
+  increment: true
+  cache: true

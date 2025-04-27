@@ -4,15 +4,29 @@ project:
   title: "French with Kunal"
   type: website
   output-dir: docs
-
+  # Added post-render and resources sections (empty since we can't add new content)
+  #post-render: []
+  #resources: []
 
 website:
   favicon: images\logo.png
   page-navigation: true
   title: "French with Kunal"
   site-url: "https://frenchwithkunal.ca"
+  # Added open-graph/twitter-card for better sharing (using existing image)
+  open-graph: true
+  twitter-card: true
+  # Added repo references (empty since we can't add new content)
+  #repo-url: ""
+  #issue-url: ""
   
+  # Enhanced search configuration (using existing elements)
+  search:
+    location: navbar
+    type: overlay
+    show-item-context: true
   
+  # Restructured footer with better organization
   page-footer:
     left:
       - text: Ethics
@@ -33,21 +47,19 @@ website:
         href: mailto:info@frenchwithkunal.ca
       - icon: youtube
         href: https://www.youtube.com/@frenchwithkunal 
-
       
-    
     center: |
       @2025 French with Kunal <br>
-       All rights reserved. <br>
+      All rights reserved. <br>
   
-      
-
-
-  #search:
-    #location: navbar
-    #type: overlay
-    
+  # Enhanced navbar with better dropdowns and organization
   navbar:
+    background: primary
+    # Added logo (using existing favicon)
+    logo: images\logo.png
+    logo-alt: "French with Kunal"
+    collapse-below: lg
+    
     left:
       - text: Blog Posts
         href: posts.qmd
@@ -61,35 +73,70 @@ website:
         menu:
           - text: "Login"
             href: login.qmd
+            icon: box-arrow-in-right
           - text: "Logout"
             href: profile.qmd
+            icon: box-arrow-right
+          - text: "Billing Portal"
+            href: https://billing.stripe.com/p/login/14k8xo9FteB0dr26oo
+            icon: credit-card
         
     right:
-      - text: "Billing"
-        href: https://billing.stripe.com/p/login/14k8xo9FteB0dr26oo
       - text: "FAQ'S"
         href: faq.qmd
+        icon: question-circle
       - text: Language
         menu:
           - text: English
             href: https://frenchwithkunal.ca/index.html
+            icon: globe
           - text: Français
-            href: https://frenchwithkunal.ca/fr/index.html      
+            href: https://frenchwithkunal.ca/fr/index.html
+            icon: globe
       - icon: youtube
         href: https://www.youtube.com/@frenchwithkunal
+        text: "YouTube Channel"
+
+  # Enhanced sidebar using existing links
+  sidebar:
+    - id: navigation
+      title: "Quick Links"
+      style: floating
+      align: left
+      contents:
+        - text: "Blog Posts"
+          href: posts.qmd
+          icon: file-lines
+        - text: "About Us"
+          href: about.qmd
+          icon: info-circle
+        - text: "Contact"
+          href: contact.qmd
+          icon: envelope
+        - text: "FAQ"
+          href: faq.qmd
+          icon: question-circle
+        - text: "Subscription"
+          href: payment.qmd
+          icon: credit-card
 
 format:
   html:
     theme: 
       light: cerulean
       dark: cyborg
-    css: [styles.css]
-    toc: true
+    page-layout: full
+    grid:
+      sidebar-width: 250px
+      body-width: 900px
+    code-copy: true
+    code-overflow: wrap
 
 editor: visual
 
-
 execute:
-  freeze: true
-  increment: true
+  freeze: auto
+  echo: false
+  warning: false
   cache: true
+  fig-align: center

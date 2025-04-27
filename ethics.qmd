@@ -1,4 +1,7 @@
 ::: {.content-visible when-profile="english"}
+
+Last updated: January 28, 2025
+
 # Code of Ethics
 
 At French with Kunal, we are dedicated to maintaining the highest ethical standards in our teaching and interactions. Our commitment to integrity, respect, and professionalism shapes every aspect of our work.
@@ -29,6 +32,9 @@ Our educators and staff maintain a high level of professionalism, adhering to et
 :::
 
 ::: {.content-visible when-profile="french"}
+
+Dernière mise à jour : 28 janvier 2025
+
 # Code d'Éthique
 
 Chez French with Kunal, nous nous engageons à maintenir les plus hauts standards éthiques dans notre enseignement et nos interactions. Notre engagement envers l'intégrité, le respect et le professionnalisme façonne tous les aspects de notre travail.
