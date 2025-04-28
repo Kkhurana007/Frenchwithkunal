@@ -1,0 +1,211 @@
+---
+title: "Body Parts"
+author: "Kunal Khurana"
+date: "04-21-2025"
+categories: [A1/A2, body parts, human anatomy, vocabulary]
+image: "bodyparts.png"
+
+format:
+  html:
+    include-in-header:
+      - text: |
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+          <script src="https://unpkg.com/react@17/umd/react.production.min.js"></script>
+          <script src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"></script>
+          <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+---
+
+::: {style="text-align: left; padding: 10px;"}
+<a href="mailto:frenchwithkunal@gmail.com" target="_blank" style="margin: 0 10px; color: #000;"><i class="fas fa-envelope fa-lg"></i></a> <a href="https://www.instagram.com/frenchwithkunal" target="_blank" style="margin: 0 10px; color: #E1306C;"><i class="fab fa-instagram fa-lg"></i></a> <a href="https://frenchwithkunal.ca" target="_blank" style="margin: 0 10px; color: #0077b5;"><i class="fas fa-globe fa-lg"></i></a> <a href="https://whatsapp.com/channel/0029Vb57n2e7dmegpjYpyi3V" target="_blank" style="margin: 0 10px; color: #25D366;"><i class="fab fa-whatsapp fa-lg"></i></a> <button onclick="copyLink()" style="background-color: #0077b5; color: white; padding: 8px 16px; border: none; border-radius: 4px; cursor: pointer; margin-left: 10px;"> <i class="fas fa-copy"></i> </button> [Link copied!]{#copy-message style="margin-left: 10px; color: green; display: none;"}
+:::
+
+::: {#react-root}
+:::
+
+```{=html}
+<script type="text/babel">
+ const ProfilePage = () => {
+  const { useState, useEffect } = React;
+  const [redirectCounter, setRedirectCounter] = useState(4);
+  const [isRedirecting, setIsRedirecting] = useState(false);
+
+  const isFrench = document.documentElement.lang === "fr";
+
+  const translations = {
+    noAccess: isFrench 
+      ? "Vous n'avez pas accès à cette page."
+      : "You don't have access to this page.",
+    subscribe: isFrench
+      ? "Veuillez vous abonner pour obtenir l'accès."
+      : "Please subscribe to gain access.",
+    redirecting: isFrench
+      ? `Redirection vers la page d'abonnement dans ${redirectCounter} secondes...`
+      : `Redirecting to subscription page in ${redirectCounter} seconds...`
+  };
+
+  const refreshToken = async () => {
+    const storedRefreshToken = localStorage.getItem("refreshToken");
+
+    if (!storedRefreshToken) {
+      window.location.href = "/login.html";
+      return null;
+    }
+
+    try {
+      const response = await fetch("https://frenchwithkunal-cdf6ea3f88ce.herokuapp.com/api/v1/auth/refresh-token", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ refreshToken: storedRefreshToken }),
+      });
+
+      if (!response.ok) {
+        localStorage.removeItem("accessToken");
+        localStorage.removeItem("refreshToken");
+        window.location.href = "/login.html";
+        return null;
+      }
+
+      const data = await response.json();
+      localStorage.setItem("accessToken", data.accessToken);
+      return data.accessToken;
+    } catch (error) {
+      localStorage.removeItem("accessToken");
+      localStorage.removeItem("refreshToken");
+      window.location.href = "/login.html";
+      return null;
+    }
+  };
+
+  const fetchWithAuth = async (url, options = {}) => {
+    let accessToken = localStorage.getItem("accessToken");
+
+    options.headers = {
+      ...options.headers,
+      Authorization: `Bearer ${accessToken}`,
+      "Content-Type": "application/json",
+    };
+
+    let response = await fetch(url, options);
+
+    if (response.status === 401) {
+      console.log("Access token expired, attempting to refresh...");
+
+      // Refresh token
+      accessToken = await refreshToken();
+
+      if (!accessToken) return null;
+
+      options.headers.Authorization = `Bearer ${accessToken}`;
+      response = await fetch(url, options);
+    }
+
+    return response.json();
+  };
+
+  const showNoAccessMessage = () => {
+    setIsRedirecting(true);
+    
+    const noAccessMessage = `
+      <div style="text-align: center; padding: 20px;">
+        <h2>${translations.noAccess}</h2>
+        <p>${translations.subscribe}</p>
+        <p>${translations.redirecting}</p>
+      </div>
+    `;
+    document.body.innerHTML = noAccessMessage;
+    
+    // Start countdown and redirect
+    const redirectInterval = setInterval(() => {
+      setRedirectCounter((prev) => {
+        const newCounter = prev - 1;
+        if (newCounter <= 0) {
+          clearInterval(redirectInterval);
+          window.location.href = "https://frenchwithkunal.ca/payment.html";
+        }
+        
+        // Update the countdown text
+        const countdownElement = document.querySelector('p:last-child');
+        if (countdownElement) {
+          countdownElement.textContent = isFrench
+            ? `Redirection vers la page d'abonnement dans ${newCounter} secondes...`
+            : `Redirecting to subscription page in ${newCounter} seconds...`;
+        }
+        
+        return newCounter;
+      });
+    }, 1000);
+  };
+
+  useEffect(() => {
+    const storedToken = localStorage.getItem('accessToken');
+
+    if(!storedToken) {
+      showNoAccessMessage();
+    } else {
+      const fetchData = async() => {
+        const data = await fetchWithAuth("https://frenchwithkunal-cdf6ea3f88ce.herokuapp.com/api/v1/auth/me", {
+          method: "POST",
+        });
+
+        if (data && data.data && data.data.hasAccess) {
+          console.log(data);
+        } else {
+          showNoAccessMessage();
+        }
+      };
+      fetchData();
+    }
+  }, []);
+
+  return (
+    <div></div>
+  );
+};
+
+ReactDOM.render(
+  <ProfilePage />,
+  document.getElementById('react-root')
+);
+ </script>
+```
+
+::: {.content-visible when-profile="english"}
+
+The human body has many parts, each with an important function. Here are some key parts:  
+
+- **Head (la tête):** The head contains the brain, eyes, ears, nose, and mouth. We use it to think, see, hear, smell, and eat.  
+- **Eyes (les yeux):** We see with our eyes. They help us recognize colors and shapes.  
+- **Ears (les oreilles):** We hear sounds with our ears. They also help us keep our balance.  
+- **Nose (le nez):** We smell with our nose. It also helps us breathe.  
+- **Mouth (la bouche):** We eat, drink, and speak with our mouth. Inside, we have teeth (les dents) and a tongue (la langue).  
+
+- **Arms (les bras) and Hands (les mains):** We use our arms to carry things. Our hands have fingers (les doigts) to grab objects.  
+- **Legs (les jambes) and Feet (les pieds):** We walk and run with our legs. Our feet help us stand and move.  
+
+- **Heart (le cœur):** The heart pumps blood in the body.  
+- **Lungs (les poumons):** We breathe with our lungs. They take oxygen from the air.  
+
+Taking care of our body is important. We should eat well, exercise, and rest.  
+
+:::
+
+::: {.content-visible when-profile="french"}
+
+Le corps humain a beaucoup de parties, chacune avec une fonction importante. Voici quelques parties principales :  
+
+- **La tête :** La tête contient le cerveau, les yeux, les oreilles, le nez et la bouche. On l’utilise pour penser, voir, entendre, sentir et manger.  
+- **Les yeux :** On voit avec les yeux. Ils aident à reconnaître les couleurs et les formes.  
+- **Les oreilles :** On entend les sons avec les oreilles. Elles aident aussi à garder l’équilibre.  
+- **Le nez :** On sent les odeurs avec le nez. Il aide aussi à respirer.  
+- **La bouche :** On mange, on boit et on parle avec la bouche. À l’intérieur, il y a les dents et la langue.  
+
+- **Les bras et les mains :** On utilise les bras pour porter des choses. Les mains ont des doigts pour attraper des objets.  
+- **Les jambes et les pieds :** On marche et on court avec les jambes. Les pieds aident à se tenir debout et à bouger.  
+
+- **Le cœur :** Le cœur pompe le sang dans le corps.  
+- **Les poumons :** On respire avec les poumons. Ils prennent l’oxygène dans l’air.  
+
+
+:::

@@ -1,0 +1,322 @@
+---
+title: "Expressions with Avoir"
+author: "Kunal Khurana"
+date: "04-21-2025"
+categories: [A1/A2, grammar, avoir, expressions]
+image: "avoir_expressions.png"
+
+format:
+  html:
+    include-in-header:
+      - text: |
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+          <script src="https://unpkg.com/react@17/umd/react.production.min.js"></script>
+          <script src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"></script>
+          <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+---
+
+::: {style="text-align: left; padding: 10px;"}
+<a href="mailto:frenchwithkunal@gmail.com" target="_blank" style="margin: 0 10px; color: #000;"><i class="fas fa-envelope fa-lg"></i></a> <a href="https://www.instagram.com/frenchwithkunal" target="_blank" style="margin: 0 10px; color: #E1306C;"><i class="fab fa-instagram fa-lg"></i></a> <a href="https://frenchwithkunal.ca" target="_blank" style="margin: 0 10px; color: #0077b5;"><i class="fas fa-globe fa-lg"></i></a> <a href="https://whatsapp.com/channel/0029Vb57n2e7dmegpjYpyi3V" target="_blank" style="margin: 0 10px; color: #25D366;"><i class="fab fa-whatsapp fa-lg"></i></a> <button onclick="copyLink()" style="background-color: #0077b5; color: white; padding: 8px 16px; border: none; border-radius: 4px; cursor: pointer; margin-left: 10px;"> <i class="fas fa-copy"></i> </button> [Link copied!]{#copy-message style="margin-left: 10px; color: green; display: none;"}
+:::
+
+::: {#react-root}
+:::
+
+```{=html}
+<script type="text/babel">
+ const ProfilePage = () => {
+  const { useState, useEffect } = React;
+  const [redirectCounter, setRedirectCounter] = useState(4);
+  const [isRedirecting, setIsRedirecting] = useState(false);
+
+  const isFrench = document.documentElement.lang === "fr";
+
+  const translations = {
+    noAccess: isFrench 
+      ? "Vous n'avez pas accès à cette page."
+      : "You don't have access to this page.",
+    subscribe: isFrench
+      ? "Veuillez vous abonner pour obtenir l'accès."
+      : "Please subscribe to gain access.",
+    redirecting: isFrench
+      ? `Redirection vers la page d'abonnement dans ${redirectCounter} secondes...`
+      : `Redirecting to subscription page in ${redirectCounter} seconds...`
+  };
+
+  const refreshToken = async () => {
+    const storedRefreshToken = localStorage.getItem("refreshToken");
+
+    if (!storedRefreshToken) {
+      window.location.href = "/login.html";
+      return null;
+    }
+
+    try {
+      const response = await fetch("https://frenchwithkunal-cdf6ea3f88ce.herokuapp.com/api/v1/auth/refresh-token", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ refreshToken: storedRefreshToken }),
+      });
+
+      if (!response.ok) {
+        localStorage.removeItem("accessToken");
+        localStorage.removeItem("refreshToken");
+        window.location.href = "/login.html";
+        return null;
+      }
+
+      const data = await response.json();
+      localStorage.setItem("accessToken", data.accessToken);
+      return data.accessToken;
+    } catch (error) {
+      localStorage.removeItem("accessToken");
+      localStorage.removeItem("refreshToken");
+      window.location.href = "/login.html";
+      return null;
+    }
+  };
+
+  const fetchWithAuth = async (url, options = {}) => {
+    let accessToken = localStorage.getItem("accessToken");
+
+    options.headers = {
+      ...options.headers,
+      Authorization: `Bearer ${accessToken}`,
+      "Content-Type": "application/json",
+    };
+
+    let response = await fetch(url, options);
+
+    if (response.status === 401) {
+      console.log("Access token expired, attempting to refresh...");
+
+      // Refresh token
+      accessToken = await refreshToken();
+
+      if (!accessToken) return null;
+
+      options.headers.Authorization = `Bearer ${accessToken}`;
+      response = await fetch(url, options);
+    }
+
+    return response.json();
+  };
+
+  const showNoAccessMessage = () => {
+    setIsRedirecting(true);
+    
+    const noAccessMessage = `
+      <div style="text-align: center; padding: 20px;">
+        <h2>${translations.noAccess}</h2>
+        <p>${translations.subscribe}</p>
+        <p>${translations.redirecting}</p>
+      </div>
+    `;
+    document.body.innerHTML = noAccessMessage;
+    
+    // Start countdown and redirect
+    const redirectInterval = setInterval(() => {
+      setRedirectCounter((prev) => {
+        const newCounter = prev - 1;
+        if (newCounter <= 0) {
+          clearInterval(redirectInterval);
+          window.location.href = "https://frenchwithkunal.ca/payment.html";
+        }
+        
+        // Update the countdown text
+        const countdownElement = document.querySelector('p:last-child');
+        if (countdownElement) {
+          countdownElement.textContent = isFrench
+            ? `Redirection vers la page d'abonnement dans ${newCounter} secondes...`
+            : `Redirecting to subscription page in ${newCounter} seconds...`;
+        }
+        
+        return newCounter;
+      });
+    }, 1000);
+  };
+
+  useEffect(() => {
+    const storedToken = localStorage.getItem('accessToken');
+
+    if(!storedToken) {
+      showNoAccessMessage();
+    } else {
+      const fetchData = async() => {
+        const data = await fetchWithAuth("https://frenchwithkunal-cdf6ea3f88ce.herokuapp.com/api/v1/auth/me", {
+          method: "POST",
+        });
+
+        if (data && data.data && data.data.hasAccess) {
+          console.log(data);
+        } else {
+          showNoAccessMessage();
+        }
+      };
+      fetchData();
+    }
+  }, []);
+
+  return (
+    <div></div>
+  );
+};
+
+ReactDOM.render(
+  <ProfilePage />,
+  document.getElementById('react-root')
+);
+ </script>
+```
+
+::: {.content-visible when-profile="english"}
+
+### **Expressions with the Auxiliary Verb "Avoir"**
+
+The auxiliary verb **"avoir"** is essential in French. It is used for:
+
+- Forming compound tenses (**passé composé**, plus-que-parfait).
+
+- Common expressions (**avoir faim, avoir peur**, etc.).
+
+---
+
+#### **1. "Avoir" in the Present Tense**
+
+| Pronoun   | Conjugation | Example (Expression) | Translation       |
+|-----------|-------------|-----------------------|-------------------|
+| I         | **have**    | I am hungry.         | J’ai faim.        |
+| You       | **have**    | You are right.       | Tu as raison.     |
+| He/She    | **has**     | He is scared.        | Il a peur.        |
+| We        | **have**    | We are wrong.        | Nous avons tort.  |
+| You (pl.) | **have**    | You are sleepy.      | Vous avez sommeil.|
+| They      | **have**    | They are 20 years old.| Elles ont 20 ans.|
+
+**Useful Expressions:**
+
+- **To be hot/cold** → Avoir chaud/froid.  
+- **To be thirsty** → Avoir soif.  
+- **To be lucky** → Avoir de la chance.  
+- **To need…** → Avoir besoin de…  
+
+---
+
+#### **2. "Avoir" in the Past Tense (Passé Composé)**
+
+We use **"avoir" + past participle** to talk about the past.
+
+**Examples:**
+
+- **I was scared** yesterday. → J’ai eu peur hier.  
+- **You were right** to leave. → Tu as eu raison de partir.  
+- **She was hungry** after school. → Elle a eu faim après l’école.  
+
+**Structure:**
+
+*Subject + avoir (in present) + past participle (eu, pris, fait…)*
+
+---
+
+#### **3. "Avoir" in the Imperfect Tense**
+
+The imperfect tense describes past habits or states.
+
+**Conjugation:**
+
+- I **had** | You **had** | He/She **had**  
+- We **had** | You (pl.) **had** | They **had**  
+
+**Examples:**
+
+- When I was little, **I was always thirsty.** → Quand j’étais petit, j’avais toujours soif.  
+- **They were scared** of the dark. → Ils avaient peur du noir.  
+
+---
+
+#### **4. Idiomatic Expressions with "Avoir"**
+
+- **To look/seem…** → Avoir l’air + adj. (*She looks tired.* → Elle a l’air fatiguée.)  
+- **To feel like…** → Avoir envie de… (*I feel like sleeping.* → J’ai envie de dormir.)  
+- **To hurt…** → Avoir mal à… (*I have a headache.* → J’ai mal à la tête.)  
+
+---
+
+:::
+
+::: { .content-visible when-profile="french"}
+
+
+### **Les Expressions avec l'Auxiliaire "Avoir"**
+
+
+L’auxiliaire **"avoir"** est essentiel en français. On l’utilise pour :
+
+- Former des temps composés (**passé composé**, plus-que-parfait).
+
+- Des expressions courantes (**avoir faim, avoir peur**, etc.).
+
+---
+
+#### **1. "Avoir" au Présent de l’Indicatif**
+
+| Pronom    | Conjugaison | Exemple (Expression) | Traduction        |
+|-----------|-------------|-----------------------|-------------------|
+| J’        | **ai**      | J’ai faim.           | I am hungry.      |
+| Tu        | **as**      | Tu as raison.        | You are right.    |
+| Il/Elle   | **a**       | Il a peur.           | He is scared.     |
+| Nous      | **avons**   | Nous avons tort.     | We are wrong.     |
+| Vous      | **avez**    | Vous avez sommeil.   | You are sleepy.   |
+| Ils/Elles | **ont**     | Elles ont 20 ans.    | They are 20 years old.|
+
+**Expressions Utiles :**
+
+- **Avoir chaud/froid** → To be hot/cold.  
+- **Avoir soif** → To be thirsty.  
+- **Avoir de la chance** → To be lucky.  
+- **Avoir besoin de…** → To need…  
+
+---
+
+#### **2. "Avoir" au Passé Composé**
+
+On utilise **"avoir" + participe passé** pour parler du passé.
+
+**Exemples :**
+
+- **J’ai eu peur** hier. → I was scared yesterday.  
+- **Tu as eu raison** de partir. → You were right to leave.  
+- **Elle a eu faim** après l’école. → She was hungry after school.  
+
+**Structure :**
+
+*Sujet + avoir (au présent) + participe passé (eu, pris, fait…)*
+
+---
+
+#### **3. "Avoir" à l’Imparfait**
+
+L’imparfait décrit des habitudes ou des états passés.
+
+**Conjugaison :**
+
+- J’**avais** | Tu **avais** | Il/Elle **avait**  
+- Nous **avions** | Vous **aviez** | Ils/Elles **avaient**  
+
+**Exemples :**
+
+- Quand j’étais petit, **j’avais toujours soif.** → When I was little, I was always thirsty.  
+- **Ils avaient peur** du noir. → They were scared of the dark.  
+
+---
+
+#### **4. Expressions Idiomatiques avec "Avoir"**
+
+- **Avoir l’air + adj.** → To look/seem… (*Elle a l’air fatiguée.*)  
+- **Avoir envie de…** → To feel like… (*J’ai envie de dormir.*)  
+- **Avoir mal à…** → To hurt… (*J’ai mal à la tête.*)  
+
+---
+
+:::
