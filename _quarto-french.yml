@@ -3,10 +3,10 @@ lang: fr
 project: 
   title: "Français avec Kunal"
   type: website
-  output-dir: docs
+  output-dir: docs/fr
 
 website:
-  favicon: images\logo.png
+  favicon: images\banner_kk.png
   page-navigation: true
   title: "Français avec Kunal"
   site-url: "https://frenchwithkunal.ca"
@@ -35,7 +35,7 @@ website:
       - text: Français
         href: https://frenchwithkunal.ca/fr/index.html
       - icon: envelope
-        href: mailto:info@frenchwithkunal.ca
+        href: mailto:frenchwithkunal@gmail.com
       - icon: youtube
         href: https://www.youtube.com/@frenchwithkunal 
       
@@ -45,7 +45,7 @@ website:
   
   navbar:
     background: primary
-    logo: images\logo.png
+    logo: images\banner_kk.png
     logo-alt: "Français avec Kunal"
     collapse-below: lg
     

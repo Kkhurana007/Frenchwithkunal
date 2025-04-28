@@ -1,378 +1,188 @@
 {
+  "404.qmd": {
+    "404.html": "400ebe77"
+  },
   "about.qmd": {
-    "about.html": "05b251ba",
-    "about.tex": "95b12a90"
+    "about.html": "d5cdbd38"
+  },
+  "contact-prev.qmd": {
+    "contact-prev.html": "a7a2818e"
   },
   "contact.qmd": {
-    "contact.html": "51be30c5",
-    "contact.tex": "044f5863"
-  },
-  "ethics.qmd": {
-    "ethics.html": "5b92cb06",
-    "ethics.tex": "33d5952f"
-  },
-  "terms.qmd": {
-    "terms.html": "86b456f9",
-    "terms.tex": "997ab4b3"
-  },
-  "index.qmd": {
-    "index.html": "08d6d416",
-    "index.tex": "dcd79850"
-  },
-  "posts/adjectives.qmd": {
-    "adjectives.html": "9098abef"
-  },
-  "posts/adverbs.qmd": {
-    "adverbs.html": "1efda165"
-  },
-  "posts/articles.qmd": {
-    "articles.html": "ee36f595"
-  },
-  "posts/future+conditional.qmd": {
-    "future+conditional.html": "031f4fe3"
-  },
-  "posts/Interrogatives.qmd": {
-    "Interrogatives.html": "9a76be9e"
-  },
-  "posts/nouns.qmd": {
-    "nouns.html": "f092a030"
-  },
-  "posts/Passecompose.qmd": {
-    "Passecompose.html": "8cdbc2b0"
-  },
-  "posts/prepositions.qmd": {
-    "prepositions.html": "0bc2a875"
-  },
-  "posts/pronouns.qmd": {
-    "pronouns.html": "bd507395"
-  },
-  "posts/pronunciation.qmd": {
-    "pronunciation.html": "5562829f"
-  },
-  "posts/subjunctive.qmd": {
-    "subjunctive.html": "ed2be76a"
-  },
-  "posts/verbs.qmd": {
-    "verbs.html": "a2388630"
-  },
-  "policy.qmd": {
-    "policy.html": "10417aa8",
-    "policy.tex": "6ad812ac"
-  },
-  "posts/en.qmd": {
-    "en.html": "18b50128",
-    "en.tex": "2ee33e5e"
-  },
-  "posts/fr.qmd": {
-    "fr.html": "1a8b5030",
-    "fr.tex": "de0f4b95"
-  },
-  "posts/index.qmd": {
-    "index.html": "ee0361b5",
-    "index.tex": "8d14bc95"
-  },
-  "posts/semainedu20janvier/adjectives.qmd": {
-    "adjectives.html": "f064f5a7",
-    "adjectives.tex": "799ca961"
-  },
-  "posts/semainedu20janvier/adverbs.qmd": {
-    "adverbs.html": "ee67d10e",
-    "adverbs.tex": "d7faef01"
-  },
-  "posts/semainedu20janvier/articles.qmd": {
-    "articles.html": "13271836",
-    "articles.tex": "ca8f6461"
-  },
-  "posts/semainedu20janvier/future+conditional.qmd": {
-    "future+conditional.html": "0d79d0d8",
-    "future+conditional.tex": "93e6be12"
-  },
-  "posts/semainedu20janvier/Interrogatives.qmd": {
-    "Interrogatives.html": "25c4701b",
-    "Interrogatives.tex": "20b1be12"
-  },
-  "posts/semainedu20janvier/nouns.qmd": {
-    "nouns.html": "5ffe99cf",
-    "nouns.tex": "f1d70332"
-  },
-  "posts/semainedu20janvier/Passecompose.qmd": {
-    "Passecompose.html": "ec9e25f6",
-    "Passecompose.tex": "4325eb8d"
-  },
-  "posts/semainedu20janvier/prepositions.qmd": {
-    "prepositions.html": "484e6dfa",
-    "prepositions.tex": "015574e4"
-  },
-  "posts/semainedu20janvier/pronouns.qmd": {
-    "pronouns.html": "82159334",
-    "pronouns.tex": "1cb44d86"
-  },
-  "posts/semainedu20janvier/pronunciation.qmd": {
-    "pronunciation.html": "5bdb46ae",
-    "pronunciation.tex": "3c7b5db3"
-  },
-  "posts/semainedu20janvier/subjunctive.qmd": {
-    "subjunctive.html": "869854e3",
-    "subjunctive.tex": "88320715"
-  },
-  "posts/semainedu20janvier/verbs.qmd": {
-    "verbs.html": "dccbf73f",
-    "verbs.tex": "8525c5c2"
-  },
-  "posts/semainedu20janvier/resources.qmd": {
-    "resources.html": "1021b4f1",
-    "resources.tex": "7164b230"
-  },
-  "posts/semainedu20janvier/numbers.qmd": {
-    "numbers.html": "20e23869",
-    "numbers.tex": "198c4c8e"
-  },
-  "posts/semainedu20janvier/er_verbes.qmd": {
-    "er_verbes.html": "79a85a85",
-    "er_verbes.tex": "e32cd2fe"
-  },
-  "posts/semainedu20janvier/ir_verbes.qmd": {
-    "ir_verbes.html": "6eff960d",
-    "ir_verbes.tex": "8f0371b4"
-  },
-  "posts/semainedu20janvier/re_verbes.qmd": {
-    "re_verbes.html": "bd14691d",
-    "re_verbes.tex": "58ca9cb5"
-  },
-  "404.qmd": {
-    "404.html": "d7c26d23",
-    "404.tex": "74de94ed"
-  },
-  "posts/test_en.qmd": {
-    "test_en.html": "2fe9564d",
-    "test_en.tex": "347fb75c"
-  },
-  "posts/test_fr.qmd": {
-    "test_fr.html": "b6ae3257",
-    "test_fr.tex": "0cb9cf96"
-  },
-  "posts/test_index.qmd": {
-    "test_index.html": "27bc6f9c",
-    "test_index.tex": "fa657368"
-  },
-  "login.qmd": {
-    "login.html": "df04c96e",
-    "login.tex": "1a57cb25"
-  },
-  "backend_authentication.ipynb": {
-    "backend_authentication.html": "755f1229"
-  },
-  "posts/semainedu27janvier/greetings.qmd": {
-    "greetings.html": "a5f084d6",
-    "greetings.tex": "76493360"
-  },
-  "posts/semainedu27janvier/clothes.qmd": {
-    "clothes.html": "67776ee4",
-    "clothes.tex": "a7357852"
-  },
-  "new_user_login.ipynb": {
-    "new_user_login.html": "3ab5154b",
-    "new_user_login.tex": "e13c222c"
-  },
-  "payment.qmd": {
-    "payment.html": "edfe0440",
-    "payment.tex": "ed26ec3c"
-  },
-  "payment_gateway.ipynb": {
-    "payment_gateway.html": "65bb1561",
-    "payment_gateway.tex": "cb18de78"
-  },
-  "posts/semainedu3février/venir_être_aller.qmd": {
-    "venir_être_aller.html": "3bdd71f8",
-    "venir_être_aller.tex": "156c0c1a"
-  },
-  "posts/semainedu3février/voice_mail.qmd": {
-    "voice_mail.html": "a2d4acd5"
-  },
-  "posts/semainedu3fevrier/venir_etre_aller.qmd": {
-    "venir_etre_aller.html": "bf581399",
-    "venir_etre_aller.tex": "e64ca57e"
-  },
-  "posts/semainedu3fevrier/voice_mail.qmd": {
-    "voice_mail.html": "6914c587",
-    "voice_mail.tex": "1c3efee6"
-  },
-  "posts/semainedu3fevrier/Brasserie+articles.qmd": {
-    "Brasserie+articles.html": "cd382d40",
-    "Brasserie+articles.tex": "17f8fc1e"
-  },
-  "posts/semainedu10fevrier/preposition_lieu.qmd": {
-    "preposition_lieu.html": "659bb85d",
-    "preposition_lieu.tex": "ed189c85"
-  },
-  "posts/semainedu10fevrier/preposition_lieu_2.qmd": {
-    "preposition_lieu_2.html": "33669b48",
-    "preposition_lieu_2.tex": "ec597817"
-  },
-  "posts/semainedu10fevrier/nasal_sounds+idioms.qmd": {
-    "nasal_sounds+idioms.html": "e8382e6e",
-    "nasal_sounds+idioms.tex": "bf950ad0"
-  },
-  "register.qmd": {
-    "register.html": "aec30214"
-  },
-  "reset-password.qmd": {
-    "reset-password.html": "3ed550f0"
-  },
-  "profile.qmd": {
-    "profile.html": "8afe9515"
-  },
-  "forget-password.qmd": {
-    "forget-password.html": "92b20f8d"
-  },
-  "posts/semainedu24fevrier/tempsdeverbes.qmd": {
-    "tempsdeverbes.html": "2f3f0acf",
-    "tempsdeverbes.tex": "ce49524a"
-  },
-  "posts/semainedu24fevrier/partitifs.qmd": {
-    "partitifs.html": "7475a244",
-    "partitifs.tex": "bde2c721"
-  },
-  "posts/semainedu24fevrier/verbes_irregulier.qmd": {
-    "verbes_irregulier.html": "a2962552",
-    "verbes_irregulier.tex": "262eba0e"
-  },
-  "posts/semainedu17fevrier/nasal_sounds.qmd": {
-    "nasal_sounds.html": "eac66cce",
-    "nasal_sounds.tex": "3f4aa675"
-  },
-  "posts/semainedu17fevrier/irregular_verbs.qmd": {
-    "irregular_verbs.html": "df015548",
-    "irregular_verbs.tex": "40a25207"
-  },
-  "posts/semainedu17fevrier/etre_avoir_faire.qmd": {
-    "etre_avoir_faire.html": "935c78e8",
-    "etre_avoir_faire.tex": "dbcdb887"
-  },
-  "posts/semainedu3mars/pluralofnouns.qmd": {
-    "pluralofnouns.html": "eb2c4e84",
-    "pluralofnouns.tex": "f70db770"
-  },
-  "posts/semainedu3mars/masculin_ou_feminin.qmd": {
-    "masculin_ou_feminin.html": "0efce111",
-    "masculin_ou_feminin.tex": "1697f71c"
-  },
-  "posts/semainedu3mars/demonstratifs.qmd": {
-    "demonstratifs.html": "434cc3eb",
-    "demonstratifs.tex": "85ee9c45"
-  },
-  "posts/semainedu3mars/kahoot.qmd": {
-    "kahoot.html": "52ea78f2",
-    "kahoot.tex": "7f7d360e"
-  },
-  "posts/semainedu3mars/new.qmd": {
-    "new.html": "7a792ad2",
-    "new.tex": "3fdd0044"
-  },
-  "login2.qmd": {
-    "login2.html": "e1319646",
-    "login2.tex": "6dbe1018"
-  },
-  "faq.qmd": {
-    "faq.html": "c82f7a1a",
-    "faq.tex": "eb842510"
-  },
-  "signup.qmd": {
-    "signup.html": "b61aab7a",
-    "signup.tex": "e8d5a17b"
-  },
-  "test_payment.qmd": {
-    "test_payment.html": "322302ff"
-  },
-  "posts/semainedu10mars/adverbs_of_time.qmd": {
-    "adverbs_of_time.html": "7c1cc626"
-  },
-  "posts/semainedu10mars/conversations.qmd": {
-    "conversations.html": "a289ce57"
-  },
-  "posts/semainedu10mars/demonstratives.qmd": {
-    "demonstratives.html": "e83c726a"
-  },
-  "posts/semainedu10mars/possessive_adjectives.qmd": {
-    "possessive_adjectives.html": "5c06769a"
-  },
-  "posts/semainedu17mars/les_possessives.qmd": {
-    "les_possessives.html": "6f92bb7d"
-  },
-  "posts/semainedu17mars/les_pronoms.qmd": {
-    "les_pronoms.html": "34696f87"
-  },
-  "posts/semainedu23mars/svc.qmd": {
-    "svc.html": "ebae5fa3"
-  },
-  "posts/semainedu31mars/prefix.qmd": {
-    "prefix.html": "7dfb2f6f"
-  },
-  "posts/semainedu31mars/cod_coi.qmd": {
-    "cod_coi.html": "443872b5"
-  },
-  "posts/semainedu7avril2025/pc_imp.qmd": {
-    "pc_imp.html": "fccf56cc"
-  },
-  "posts/semainedu7avril2025/futur_simple_ant.qmd": {
-    "futur_simple_ant.html": "05481256"
-  },
-  "posts/semainedu7avril2025/cond_futur.qmd": {
-    "cond_futur.html": "109d155f"
-  },
-  "posts/semainedu14avril/avoir_etre.qmd": {
-    "avoir_etre.html": "99971b01"
-  },
-  "posts/semainedu14avril/gerant.qmd": {
-    "gerant.html": "8f1fa870"
-  },
-  "posts/semainedu14avril/jobs.qmd": {
-    "jobs.html": "d37d3a3d"
-  },
-  "index1.qmd": {
-    "index1.html": "072a3f8f"
-  },
-  "posts.qmd": {
-    "posts.html": "ddcf0b10"
-  },
-  "contact1.qmd": {
-    "contact1.html": "f7546fed"
-  },
-  "extra.md": {
-    "extra.html": "fb5a6d1a"
-  },
-  "footer.md": {
-    "footer.html": "4bc0ce2a"
-  },
-<<<<<<< HEAD
-  "footer.qmd": {
-    "footer.html": "93d72fd8"
-  },
-  "thankyou.qmd": {
-    "thankyou.html": "746c9a3e"
-  },
-  "contact2.qmd": {
-    "contact2.html": "abdb5a82"
+    "contact.html": "f2af34f7"
   },
   "del_footer.md": {
-    "del_footer.html": "20d88291"
+    "del_footer.html": "d13aaef6"
   },
-  "test_footer.qmd": {
-    "test_footer.html": "19192bd9"
+  "ethics.qmd": {
+    "ethics.html": "c2cda6e7"
   },
-  "index2.qmd": {
-    "index2.html": "96ce34ce"
+  "extra.md": {
+    "extra.html": "09211519"
+  },
+  "faq.qmd": {
+    "faq.html": "66a43da7"
+  },
+  "forget-password.qmd": {
+    "forget-password.html": "fbbc758e"
+  },
+  "index.qmd": {
+    "index.html": "80e76f06"
+  },
+  "login.qmd": {
+    "login.html": "08cb656a"
   },
   "old-index.qmd": {
-    "old-index.html": "9fdfa769"
-=======
-<<<<<<< HEAD
-  "footer.qmd": {
-    "footer.html": "2fe13293"
-=======
-  "contact-prev.qmd": {
-    "contact-prev.html": "74f2cbab"
->>>>>>> 999fee98fefff37c47eecf240aa2b3f5b995867d
->>>>>>> main
+    "old-index.html": "78e7eece"
+  },
+  "payment.qmd": {
+    "payment.html": "3eb4562d"
+  },
+  "policy.qmd": {
+    "policy.html": "0f95c177"
+  },
+  "posts/semainedu10fevrier/nasal_sounds+idioms.qmd": {
+    "nasal_sounds+idioms.html": "e4869523"
+  },
+  "posts/semainedu10fevrier/preposition_lieu.qmd": {
+    "preposition_lieu.html": "4245ac40"
+  },
+  "posts/semainedu10fevrier/preposition_lieu_2.qmd": {
+    "preposition_lieu_2.html": "ac067926"
+  },
+  "posts/semainedu10mars/adverbs_of_time.qmd": {
+    "adverbs_of_time.html": "88b3f631"
+  },
+  "posts/semainedu10mars/conversations.qmd": {
+    "conversations.html": "d347e7f3"
+  },
+  "posts/semainedu10mars/demonstratives.qmd": {
+    "demonstratives.html": "eaba0d31"
+  },
+  "posts/semainedu10mars/possessive_adjectives.qmd": {
+    "possessive_adjectives.html": "53e408b7"
+  },
+  "posts/semainedu14avril/avoir_etre.qmd": {
+    "avoir_etre.html": "c745a3c1"
+  },
+  "posts/semainedu14avril/gerant.qmd": {
+    "gerant.html": "439e7900"
+  },
+  "posts/semainedu14avril/jobs.qmd": {
+    "jobs.html": "70d83357"
+  },
+  "posts/semainedu17fevrier/etre_avoir_faire.qmd": {
+    "etre_avoir_faire.html": "321dfa75"
+  },
+  "posts/semainedu17fevrier/irregular_verbs.qmd": {
+    "irregular_verbs.html": "caaa5dc1"
+  },
+  "posts/semainedu17fevrier/nasal_sounds.qmd": {
+    "nasal_sounds.html": "103d8d02"
+  },
+  "posts/semainedu17mars/les_possessives.qmd": {
+    "les_possessives.html": "d364e065"
+  },
+  "posts/semainedu17mars/les_pronoms.qmd": {
+    "les_pronoms.html": "1a2bd49f"
+  },
+  "posts/semainedu20janvier/er_verbes.qmd": {
+    "er_verbes.html": "26a6bf87"
+  },
+  "posts/semainedu20janvier/ir_verbes.qmd": {
+    "ir_verbes.html": "9b658ca0"
+  },
+  "posts/semainedu20janvier/numbers.qmd": {
+    "numbers.html": "4b692801"
+  },
+  "posts/semainedu20janvier/pronunciation.qmd": {
+    "pronunciation.html": "8cdbd714"
+  },
+  "posts/semainedu20janvier/resources.qmd": {
+    "resources.html": "708c321a"
+  },
+  "posts/semainedu20janvier/re_verbes.qmd": {
+    "re_verbes.html": "10066839"
+  },
+  "posts/semainedu20janvier/verbs.qmd": {
+    "verbs.html": "61c8a293"
+  },
+  "posts/semainedu23mars/svc.qmd": {
+    "svc.html": "fe11cdbf"
+  },
+  "posts/semainedu24fevrier/partitifs.qmd": {
+    "partitifs.html": "cba2484e"
+  },
+  "posts/semainedu24fevrier/tempsdeverbes.qmd": {
+    "tempsdeverbes.html": "b5ec62f9"
+  },
+  "posts/semainedu24fevrier/verbes_irregulier.qmd": {
+    "verbes_irregulier.html": "202acb36"
+  },
+  "posts/semainedu27janvier/clothes.qmd": {
+    "clothes.html": "1416a6b2"
+  },
+  "posts/semainedu27janvier/greetings.qmd": {
+    "greetings.html": "b1c7d5cd"
+  },
+  "posts/semainedu31mars/cod_coi.qmd": {
+    "cod_coi.html": "a442d178"
+  },
+  "posts/semainedu31mars/prefix.qmd": {
+    "prefix.html": "a90f9897"
+  },
+  "posts/semainedu3fevrier/Brasserie+articles.qmd": {
+    "Brasserie+articles.html": "135f4204"
+  },
+  "posts/semainedu3fevrier/venir_etre_aller.qmd": {
+    "venir_etre_aller.html": "f910b5c8"
+  },
+  "posts/semainedu3fevrier/voice_mail.qmd": {
+    "voice_mail.html": "64b71934"
+  },
+  "posts/semainedu3mars/demonstratifs.qmd": {
+    "demonstratifs.html": "2f65120e"
+  },
+  "posts/semainedu3mars/kahoot.qmd": {
+    "kahoot.html": "e5d95504"
+  },
+  "posts/semainedu3mars/masculin_ou_feminin.qmd": {
+    "masculin_ou_feminin.html": "5133a594"
+  },
+  "posts/semainedu3mars/pluralofnouns.qmd": {
+    "pluralofnouns.html": "539a7864"
+  },
+  "posts/semainedu7avril2025/cond_futur.qmd": {
+    "cond_futur.html": "0f144f46"
+  },
+  "posts/semainedu7avril2025/futur_simple_ant.qmd": {
+    "futur_simple_ant.html": "59845c4a"
+  },
+  "posts/semainedu7avril2025/pc_imp.qmd": {
+    "pc_imp.html": "6fb64e12"
+  },
+  "posts.qmd": {
+    "posts.html": "24278a54"
+  },
+  "profile.qmd": {
+    "profile.html": "ff5466c5"
+  },
+  "register.qmd": {
+    "register.html": "01a28972"
+  },
+  "reset-password.qmd": {
+    "reset-password.html": "b977d066"
+  },
+  "terms.qmd": {
+    "terms.html": "c339aef8"
+  },
+  "test_footer.qmd": {
+    "test_footer.html": "a270de99"
+  },
+  "test_payment.qmd": {
+    "test_payment.html": "6e045328"
+  },
+  "thankyou.qmd": {
+    "thankyou.html": "ce6c987c"
   }
 }

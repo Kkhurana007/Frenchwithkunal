@@ -9,7 +9,7 @@ project:
   #resources: []
 
 website:
-  favicon: images\logo.png
+  favicon: images\banner_kk.png
   page-navigation: true
   title: "French with Kunal"
   site-url: "https://frenchwithkunal.ca"
@@ -56,7 +56,7 @@ website:
   navbar:
     background: primary
     # Added logo (using existing favicon)
-    logo: images\logo.png
+    logo: images\banner_kk.png
     logo-alt: "French with Kunal"
     collapse-below: lg
     

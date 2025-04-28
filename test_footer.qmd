@@ -25,7 +25,7 @@ format:
 [Login](login.qmd)\
 [English](https://frenchwithkunal.ca/index.html)\
 [French](https://frenchwithkunal.ca/fr/index.html)\
-[Email](mailto:info@frenchwithkunal.ca)\
+[Email](mailto:frenchwithkunal@gmail.com)\
 [YouTube](https://www.youtube.com/@frenchwithkunal)
 :::
 
@@ -61,7 +61,7 @@ All rights reserved.\
 [Connexion](login.qmd)\
 [Anglais](https://frenchwithkunal.ca/index.html)\
 [Français](https://frenchwithkunal.ca/fr/index.html)\
-[Email](mailto:info@frenchwithkunal.ca)\
+[Email](mailto:frenchwithkunal@gmail.com)\
 [YouTube](https://www.youtube.com/@frenchwithkunal)
 :::
 

@@ -12,7 +12,7 @@
 [Login](login.qmd)  
 [English](https://frenchwithkunal.ca/index.html)  
 [French](https://frenchwithkunal.ca/fr/index.html)  
-[Email](mailto:info@frenchwithkunal.ca)  
+[Email](mailto:frenchwithkunal@gmail.com)  
 [YouTube](https://www.youtube.com/@frenchwithkunal)
 :::
 

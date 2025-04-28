@@ -15,7 +15,7 @@ Page-footer:
       - text: French
         href: https://frenchwithkunal.ca/fr/index.html
       - icon: envelope
-        href: mailto:info@frenchwithkunal.ca
+        href: mailto:frenchwithkunal@gmail.com
       - icon: youtube
         href: https://www.youtube.com/@frenchwithkunal 
 
