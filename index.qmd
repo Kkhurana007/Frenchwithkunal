@@ -108,21 +108,16 @@ format:
           </style>
 ---
 
-::: {.content-visible when-profile="english"}
-
-<div class="language-switcher">
-  <button class="language-btn" onclick="window.quartoToggleProfile('french')">Français</button>
-</div>
+::::::::::::::: {.content-visible when-profile="english"}
+::: language-switcher
+<button class="language-btn" onclick="window.quartoToggleProfile('french')">Français</button>
+:::
 
 ## 🥖 French with Kunal {.hero}
 
 ### Where French Fluency Meets Cultural Savoir-Faire
 
-{{< video https://www.youtube.com/embed/hU07FOM1klQ
-    title="Your French Journey Starts Here"
-    start="10" 
-    aspect-ratio="16x9" 
->}}
+{{< video https://www.youtube.com/embed/hU07FOM1klQ title="Your French Journey Starts Here" start="10" aspect-ratio="16x9" >}}
 
 **Bonjour!** I'm Kunal, your guide to mastering French with authentic pronunciation, cultural depth, and Parisian flair. Forget boring textbooks - we learn through stories, music, and real-life conversations.
 
@@ -130,56 +125,74 @@ format:
 
 ## 🎯 Your French Learning Toolkit {#cards-en}
 
-:::{.card-container}
-::: {.card}
+::::::::::: card-container
+:::: card
 <i class="floating-icon fas fa-pen-fancy"></i>
-<div class="card-content">
+
+::: card-content
 ### <i class="fas fa-book-open"></i> Immersive Lessons
+
 Weekly interactive lessons covering grammar, vocabulary, and cultural nuances. Plus get exclusive access to our "French Slang Dictionary".
-</div>
+:::
+
 [Discover →](/posts.html){.btn}
-:::
+::::
 
-::: {.card}
+:::: card
 <i class="floating-icon fas fa-chalkboard-teacher"></i>
-<div class="card-content">
+
+::: card-content
 ### <i class="fas fa-user-tie"></i> Meet Kunal
+
 Québec resident with 5+ years of learning and teaching experience. My secret? We focus on what you'll actually use!
-</div>
+:::
+
 [My Story →](/about.html){.btn}
-:::
+::::
 
-::: {.card}
+:::: card
 <i class="floating-icon fas fa-euro-sign"></i>
-<div class="card-content">
+
+::: card-content
 ### <i class="fas fa-graduation-cap"></i> Smart Pricing
-Choose from flexible plans: C$300/month for group classes or C$50/month for self-learning. All plans include recorded lectures, quizzes, and more to enhance your learning experience.
-</div>
-[View Options →](/payment.html){.btn}
+
+Choose from flexible plans: C\$300/month for group classes or C\$50/month for self-learning. All plans include recorded lectures, quizzes, and more to enhance your learning experience.
 :::
 
-::: {.card}
+[View Options →](/payment.html){.btn}
+::::
+
+:::: card
 <i class="floating-icon fas fa-comments"></i>
-<div class="card-content">
+
+::: card-content
 ### <i class="fas fa-headset"></i> 24/7 Support
+
 Stuck on subjunctive at 2am? Our WhatsApp support has you covered (oui, even on Sundays!).
-</div>
+:::
+
 [Get Help →](/contact.html){.btn}
-:::
-:::
+::::
+:::::::::::
 
 ## 🗣️ Success Stories {.testimonials}
 
-<div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+::: quote-icon
+<i class="fas fa-quote-left"></i>
+:::
+
 > "After 3 months with Kunal, I ordered coffee in Paris without switching to English - the barista thought I was local! *C'est incroyable!*"
-> 
-> **— Emma R., London**  
+>
+> **— Emma R., London**\
 > *Marketing Executive, 32*
 
-<div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+::: quote-icon
+<i class="fas fa-quote-left"></i>
+:::
+
 > "Finally a teacher who explains why French people say things certain ways. The cultural context makes everything click!"
-> 
-> **— David L., New York**  
+>
+> **— David L., New York**\
 > *Law Student, 25*
 
 ## 🚀 Ready for Your French Breakthrough? {.hero}
@@ -187,25 +200,18 @@ Stuck on subjunctive at 2am? Our WhatsApp support has you covered (oui, even on 
 **Limited spots available** - Join 1,200+ students who've unlocked their French potential!
 
 [Enroll Now](/payment.html){.btn} [Free Trial Lesson](/contact.html){.btn}
+:::::::::::::::
 
+::::::::::::::: {.content-visible when-profile="french"}
+::: language-switcher
+<button class="language-btn" onclick="window.quartoToggleProfile('english')">English</button>
 :::
-
-
-::: {.content-visible when-profile="french"}
-
-<div class="language-switcher">
-  <button class="language-btn" onclick="window.quartoToggleProfile('english')">English</button>
-</div>
 
 ## 🥐 French with Kunal {.hero}
 
 ### Où la maîtrise du français rencontre le savoir-vivre
 
-{{< video https://www.youtube.com/embed/hU07FOM1klQ
-    title="Votre aventure française commence ici"
-    start="10" 
-    aspect-ratio="16x9" 
->}}
+{{< video https://www.youtube.com/embed/hU07FOM1klQ title="Votre aventure française commence ici" start="10" aspect-ratio="16x9" >}}
 
 **Salut !** Je suis Kunal, votre guide pour maîtriser le français avec une prononciation authentique, une profondeur culturelle et l'élégance parisienne. Oubliez les manuels ennuyeux - nous apprenons à travers des histoires, de la musique et des conversations réelles.
 
@@ -213,56 +219,74 @@ Stuck on subjunctive at 2am? Our WhatsApp support has you covered (oui, even on 
 
 ## 🎯 Votre boîte à outils {#cards}
 
-:::{.card-container}
-::: {.card}
+::::::::::: card-container
+:::: card
 <i class="floating-icon fas fa-pen-fancy"></i>
-<div class="card-content">
+
+::: card-content
 ### <i class="fas fa-book-open"></i> Leçons immersives
+
 Cours interactifs hebdomadaires couvrant grammaire, vocabulaire et nuances culturelles. Accès exclusif à notre "Dictionnaire d'argot français".
-</div>
+:::
+
 [Découvrir →](/posts.html){.btn}
-:::
+::::
 
-::: {.card}
+:::: card
 <i class="floating-icon fas fa-chalkboard-teacher"></i>
-<div class="card-content">
+
+::: card-content
 ### <i class="fas fa-user-tie"></i> Rencontrez Kunal
-Résident de  Québec avec 5+ ans d'expérience. Mon secret? Nous nous concentrons sur ce que vous utiliserez vraiment !
-</div>
+
+Résident de Québec avec 5+ ans d'expérience. Mon secret? Nous nous concentrons sur ce que vous utiliserez vraiment !
+:::
+
 [Mon histoire →](/about.html){.btn}
-:::
+::::
 
-::: {.card}
+:::: card
 <i class="floating-icon fas fa-euro-sign"></i>
-<div class="card-content">
+
+::: card-content
 ### <i class="fas fa-graduation-cap"></i> Tarifs intelligents
+
 Choisissez parmi nos formules : 300 CAD/mois pour les cours collectifs ou 50 CAD/mois pour l'auto-apprentissage. Toutes les formules incluent des cours enregistrés, des quiz et bien plus pour améliorer votre apprentissage.
-</div>
-[Voir options →](/payment.html){.btn}
 :::
 
-::: {.card}
+[Voir options →](/payment.html){.btn}
+::::
+
+:::: card
 <i class="floating-icon fas fa-comments"></i>
-<div class="card-content">
+
+::: card-content
 ### <i class="fas fa-headset"></i> Support 24/7
+
 Blocage sur le subjonctif à 2h du matin? Notre support WhatsApp est là pour vous (oui, même le dimanche !).
-</div>
+:::
+
 [Obtenir de l'aide →](/contact.html){.btn}
-:::
-:::
+::::
+:::::::::::
 
 ## 🗣️ Témoignages {.testimonials}
 
-<div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+::: quote-icon
+<i class="fas fa-quote-left"></i>
+:::
+
 > "Après 3 mois avec Kunal, j'ai commandé un café à Paris sans passer à l'anglais - le serveur m'a pris pour un local! *C'est incroyable !*"
-> 
-> **— Emma R., Londres**  
+>
+> **— Emma R., Londres**\
 > *Responsable marketing, 32 ans*
 
-<div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+::: quote-icon
+<i class="fas fa-quote-left"></i>
+:::
+
 > "Enfin un professeur qui explique pourquoi les Français disent les choses d'une certaine manière. Le contexte culturel fait toute la différence!"
-> 
-> **— David L., New York**  
+>
+> **— David L., New York**\
 > *Étudiant en droit, 25 ans*
 
 ## 🚀 Prêt pour votre révolution française ? {.hero}
@@ -270,5 +294,4 @@ Blocage sur le subjonctif à 2h du matin? Notre support WhatsApp est là pour vo
 **Places limitées** - Rejoignez 1 200+ étudiants qui ont débloqué leur potentiel en français !
 
 [S'inscrire maintenant](/payment.html){.btn} [Leçon d'essai gratuite](/contact.html){.btn}
-
-:::
+:::::::::::::::

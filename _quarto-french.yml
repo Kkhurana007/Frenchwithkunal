@@ -12,6 +12,8 @@ website:
   site-url: "https://frenchwithkunal.ca"
   open-graph: true
   twitter-card: true
+
+  announcement: "Offre Spéciale : Obtenez 40% de réduction sur vos trois premiers mois d'abonnement, utilisez le code Bonjour40"
   
   search:
     location: navbar

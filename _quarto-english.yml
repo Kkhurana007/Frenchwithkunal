@@ -7,6 +7,8 @@ project:
   # Added post-render and resources sections (empty since we can't add new content)
   #post-render: []
   #resources: []
+  # Announcement bar for special offer
+
 
 website:
   favicon: images\banner_kk.png
@@ -20,6 +22,13 @@ website:
   #repo-url: ""
   #issue-url: ""
   
+  announcement: 
+    icon: info-circle
+    dismissable: true
+    content: "Special Offer: Get 40% off on your first three months of subscription, use code Bonjour40"
+    type: primary
+    position: below-navbar
+
   # Enhanced search configuration (using existing elements)
   search:
     location: navbar
@@ -44,7 +53,7 @@ website:
       - text: French
         href: https://frenchwithkunal.ca/fr/index.html
       - icon: envelope
-        href: mailto:info@frenchwithkunal.ca
+        href: mailto:frenchwithkunal@gmail.com
       - icon: youtube
         href: https://www.youtube.com/@frenchwithkunal 
       
