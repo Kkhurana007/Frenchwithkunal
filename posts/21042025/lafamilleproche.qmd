@@ -172,73 +172,63 @@ ReactDOM.render(
 ```
 
 ::: {.content-visible when-profile="english"}
+Let's talk about immediate family members in French:
 
-Let's talk about immediate family members in French:  
+1.  **Parents**
+    -   *Le père* → Father / Dad\
+    -   *La mère* → Mother / Mom\
+    -   *Les parents* → Parents (or relatives in general)
+2.  **Siblings**
+    -   *Un frère* → Brother\
+    -   *Une sœur* → Sister\
+    -   *Un demi-frère* → Half-brother / Stepbrother\
+    -   *Une demi-sœur* → Half-sister / Stepsister
+3.  **Children**
+    -   *Un fils* → Son\
+    -   *Une fille* → Daughter\
+    -   *Un enfant* → Child (gender-neutral)
+4.  **Other Useful Words**
+    -   *Un grand-père* → Grandfather\
+    -   *Une grand-mère* → Grandmother\
+    -   *Un oncle* → Uncle\
+    -   *Une tante* → Aunt\
+    -   *Un cousin / Une cousine* → Cousin (male/female)
 
-1. **Parents**  
-   - *Le père* → Father / Dad  
-   - *La mère* → Mother / Mom  
-   - *Les parents* → Parents (or relatives in general)  
+**Example Sentences:**\
+- *"I have one brother and two sisters."* → *"J’ai un frère et deux sœurs."*\
+- *"My dad’s name is Jean, and my mom’s name is Marie."* → *"Mon père s’appelle Jean, et ma mère s’appelle Marie."*\
+- *"I don’t have any cousins."* → *"Je n’ai pas de cousins."*
 
-2. **Siblings**  
-   - *Un frère* → Brother  
-   - *Une sœur* → Sister  
-   - *Un demi-frère* → Half-brother / Stepbrother  
-   - *Une demi-sœur* → Half-sister / Stepsister  
-
-3. **Children**  
-   - *Un fils* → Son  
-   - *Une fille* → Daughter  
-   - *Un enfant* → Child (gender-neutral)  
-
-4. **Other Useful Words**  
-   - *Un grand-père* → Grandfather  
-   - *Une grand-mère* → Grandmother  
-   - *Un oncle* → Uncle  
-   - *Une tante* → Aunt  
-   - *Un cousin / Une cousine* → Cousin (male/female)  
-
-**Example Sentences:**  
-- *"I have one brother and two sisters."* → *"J’ai un frère et deux sœurs."*  
-- *"My dad’s name is Jean, and my mom’s name is Marie."* → *"Mon père s’appelle Jean, et ma mère s’appelle Marie."*  
-- *"I don’t have any cousins."* → *"Je n’ai pas de cousins."*  
-
----  
-
+------------------------------------------------------------------------
 :::
 
 ::: {.content-visible when-profile="french"}
+Dans une famille, il y a plusieurs membres. Voici les mots les plus importants :
 
-Dans une famille, il y a plusieurs membres. Voici les mots les plus importants :  
+1.  **Les Parents (Parents)**
+    -   **Le père** → Papa (father/dad)\
+    -   **La mère** → Maman (mother/mom)\
+    -   **Les parents** → Father and mother (or more generally, relatives)
+2.  **Les Frères et Sœurs (Siblings)**
+    -   **Un frère** → Brother\
+    -   **Une sœur** → Sister\
+    -   **Un demi-frère** → Half-brother / Stepbrother\
+    -   **Une demi-sœur** → Half-sister / Stepsister
+3.  **Les Enfants (Children)**
+    -   **Un fils** → Son\
+    -   **Une fille** → Daughter\
+    -   **Un enfant** → Child (can be a boy or girl)
+4.  **Autres Mots Utiles (Other Useful Words)**
+    -   **Un grand-père** → Grandfather\
+    -   **Une grand-mère** → Grandmother\
+    -   **Un oncle** → Uncle\
+    -   **Une tante** → Aunt\
+    -   **Un cousin / Une cousine** → Cousin (male/female)
 
-1. **Les Parents (Parents)**  
-   - **Le père** → Papa (father/dad)  
-   - **La mère** → Maman (mother/mom)  
-   - **Les parents** → Father and mother (or more generally, relatives)  
+**Exemple de Phrases Simples :**\
+- *"J’ai un frère et deux sœurs."* → I have one brother and two sisters.\
+- *"Mon père s’appelle Jean, et ma mère s’appelle Marie."* → My father’s name is Jean, and my mother’s name is Marie.\
+- *"Je n’ai pas de cousins."* → I don’t have any cousins.
 
-2. **Les Frères et Sœurs (Siblings)**  
-   - **Un frère** → Brother  
-   - **Une sœur** → Sister  
-   - **Un demi-frère** → Half-brother / Stepbrother  
-   - **Une demi-sœur** → Half-sister / Stepsister  
-
-3. **Les Enfants (Children)**  
-   - **Un fils** → Son  
-   - **Une fille** → Daughter  
-   - **Un enfant** → Child (can be a boy or girl)  
-
-4. **Autres Mots Utiles (Other Useful Words)**  
-   - **Un grand-père** → Grandfather  
-   - **Une grand-mère** → Grandmother  
-   - **Un oncle** → Uncle  
-   - **Une tante** → Aunt  
-   - **Un cousin / Une cousine** → Cousin (male/female)  
-
-**Exemple de Phrases Simples :**  
-- *"J’ai un frère et deux sœurs."* → I have one brother and two sisters.  
-- *"Mon père s’appelle Jean, et ma mère s’appelle Marie."* → My father’s name is Jean, and my mother’s name is Marie.  
-- *"Je n’ai pas de cousins."* → I don’t have any cousins.  
-
----  
-
+------------------------------------------------------------------------
 :::

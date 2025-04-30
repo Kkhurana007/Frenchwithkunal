@@ -9,7 +9,7 @@
 <meta name="author" content="Kunal Khurana">
 <meta name="dcterms.date" content="2025-04-21">
 
-<title>La Famille Proche – French with Kunal</title>
+<title>Basic French Conversations – French with Kunal</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -76,22 +76,15 @@ ul.task-list li input[type="checkbox"] {
 <script src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"></script>
 <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
 
-
-<meta property="og:title" content="La Famille Proche – French with Kunal">
+<meta property="og:title" content="Basic French Conversations – French with Kunal">
 <meta property="og:description" content="">
-<meta property="og:image" content="https://frenchwithkunal.ca/posts/21042025/lafamilleproche.png">
+<meta property="og:image" content="https://frenchwithkunal.ca/posts/28042025/lafamilleproche.png">
 <meta property="og:site_name" content="French with Kunal">
-<meta property="og:image:height" content="187">
-<meta property="og:image:width" content="272">
-<meta name="twitter:title" content="La Famille Proche – French with Kunal">
+<meta name="twitter:title" content="Basic French Conversations – French with Kunal">
 <meta name="twitter:description" content="">
-<meta name="twitter:image" content="https://frenchwithkunal.ca/posts/21042025/lafamilleproche.png">
-<meta name="twitter:image-height" content="187">
-<meta name="twitter:image-width" content="272">
+<meta name="twitter:image" content="https://frenchwithkunal.ca/posts/28042025/lafamilleproche.png">
 <meta name="twitter:card" content="summary_large_image">
-</head>
-
-<body class="nav-fixed">
+</head><body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -199,9 +192,10 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">La Famille Proche</h1>
+<h1 class="title">Basic French Conversations</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">A1/A2</div>
+    <div class="quarto-category">A1</div>
+    <div class="quarto-category">A2</div>
     <div class="quarto-category">famille</div>
     <div class="quarto-category">français</div>
     <div class="quarto-category">vocabulaire</div>
@@ -237,203 +231,261 @@ ul.task-list li input[type="checkbox"] {
 <div style="text-align: left; padding: 10px;">
 <p><a href="mailto:frenchwithkunal@gmail.com" target="_blank" style="margin: 0 10px; color: #000;"><i class="fas fa-envelope fa-lg"></i></a> <a href="https://www.instagram.com/frenchwithkunal" target="_blank" style="margin: 0 10px; color: #E1306C;"><i class="fab fa-instagram fa-lg"></i></a> <a href="https://frenchwithkunal.ca" target="_blank" style="margin: 0 10px; color: #0077b5;"><i class="fas fa-globe fa-lg"></i></a> <a href="https://whatsapp.com/channel/0029Vb57n2e7dmegpjYpyi3V" target="_blank" style="margin: 0 10px; color: #25D366;"><i class="fab fa-whatsapp fa-lg"></i></a> <button onclick="copyLink()" style="background-color: #0077b5; color: white; padding: 8px 16px; border: none; border-radius: 4px; cursor: pointer; margin-left: 10px;"> <i class="fas fa-copy"></i> </button> <span id="copy-message" style="margin-left: 10px; color: green; display: none;">Link copied!</span></p>
 </div>
-<div id="react-root">
-
-</div>
-<script type="text/babel">
- const ProfilePage = () => {
-  const { useState, useEffect } = React;
-  const [redirectCounter, setRedirectCounter] = useState(4);
-  const [isRedirecting, setIsRedirecting] = useState(false);
-
-  const isFrench = document.documentElement.lang === "fr";
-
-  const translations = {
-    noAccess: isFrench 
-      ? "Vous n'avez pas accès à cette page."
-      : "You don't have access to this page.",
-    subscribe: isFrench
-      ? "Veuillez vous abonner pour obtenir l'accès."
-      : "Please subscribe to gain access.",
-    redirecting: isFrench
-      ? `Redirection vers la page d'abonnement dans ${redirectCounter} secondes...`
-      : `Redirecting to subscription page in ${redirectCounter} seconds...`
-  };
-
-  const refreshToken = async () => {
-    const storedRefreshToken = localStorage.getItem("refreshToken");
-
-    if (!storedRefreshToken) {
-      window.location.href = "/login.html";
-      return null;
-    }
-
-    try {
-      const response = await fetch("https://frenchwithkunal-cdf6ea3f88ce.herokuapp.com/api/v1/auth/refresh-token", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({ refreshToken: storedRefreshToken }),
-      });
-
-      if (!response.ok) {
-        localStorage.removeItem("accessToken");
-        localStorage.removeItem("refreshToken");
-        window.location.href = "/login.html";
-        return null;
-      }
-
-      const data = await response.json();
-      localStorage.setItem("accessToken", data.accessToken);
-      return data.accessToken;
-    } catch (error) {
-      localStorage.removeItem("accessToken");
-      localStorage.removeItem("refreshToken");
-      window.location.href = "/login.html";
-      return null;
-    }
-  };
-
-  const fetchWithAuth = async (url, options = {}) => {
-    let accessToken = localStorage.getItem("accessToken");
-
-    options.headers = {
-      ...options.headers,
-      Authorization: `Bearer ${accessToken}`,
-      "Content-Type": "application/json",
-    };
-
-    let response = await fetch(url, options);
-
-    if (response.status === 401) {
-      console.log("Access token expired, attempting to refresh...");
-
-      // Refresh token
-      accessToken = await refreshToken();
-
-      if (!accessToken) return null;
-
-      options.headers.Authorization = `Bearer ${accessToken}`;
-      response = await fetch(url, options);
-    }
-
-    return response.json();
-  };
-
-  const showNoAccessMessage = () => {
-    setIsRedirecting(true);
-    
-    const noAccessMessage = `
-      <div style="text-align: center; padding: 20px;">
-        <h2>${translations.noAccess}</h2>
-        <p>${translations.subscribe}</p>
-        <p>${translations.redirecting}</p>
-      </div>
-    `;
-    document.body.innerHTML = noAccessMessage;
-    
-    // Start countdown and redirect
-    const redirectInterval = setInterval(() => {
-      setRedirectCounter((prev) => {
-        const newCounter = prev - 1;
-        if (newCounter <= 0) {
-          clearInterval(redirectInterval);
-          window.location.href = "https://frenchwithkunal.ca/payment.html";
-        }
-        
-        // Update the countdown text
-        const countdownElement = document.querySelector('p:last-child');
-        if (countdownElement) {
-          countdownElement.textContent = isFrench
-            ? `Redirection vers la page d'abonnement dans ${newCounter} secondes...`
-            : `Redirecting to subscription page in ${newCounter} seconds...`;
-        }
-        
-        return newCounter;
-      });
-    }, 1000);
-  };
-
-  useEffect(() => {
-    const storedToken = localStorage.getItem('accessToken');
-
-    if(!storedToken) {
-      showNoAccessMessage();
-    } else {
-      const fetchData = async() => {
-        const data = await fetchWithAuth("https://frenchwithkunal-cdf6ea3f88ce.herokuapp.com/api/v1/auth/me", {
-          method: "POST",
-        });
-
-        if (data && data.data && data.data.hasAccess) {
-          console.log(data);
-        } else {
-          showNoAccessMessage();
-        }
-      };
-      fetchData();
-    }
-  }, []);
-
-  return (
-    <div></div>
-  );
-};
-
-ReactDOM.render(
-  <ProfilePage />,
-  document.getElementById('react-root')
-);
- </script>
-<p>Let’s talk about immediate family members in French:</p>
-<ol type="1">
-<li><strong>Parents</strong>
+<p>In this blog, we will cover basic conversations and vocabulary in context, focusing on common scenarios and phrases in French. These examples will help you navigate everyday situations with ease. Let’s dive into some practical topics:</p>
+<section id="conversation-in-the-park" class="level2">
+<h2 class="anchored" data-anchor-id="conversation-in-the-park">1. Conversation in the Park</h2>
+<p>When you’re at the park, you might want to talk about the weather, activities, or simply greet someone. Here are some useful phrases:</p>
 <ul>
-<li><em>Le père</em> → Father / Dad<br>
-</li>
-<li><em>La mère</em> → Mother / Mom<br>
-</li>
-<li><em>Les parents</em> → Parents (or relatives in general)</li>
-</ul></li>
-<li><strong>Siblings</strong>
+<li><strong>Bonjour !</strong> (Hello!)</li>
+<li><strong>Quel beau temps aujourd’hui !</strong> (What beautiful weather today!)</li>
+<li><strong>Est-ce que vous venez souvent ici ?</strong> (Do you come here often?)</li>
+<li><strong>J’aime me promener ici.</strong> (I love walking here.)</li>
+<li><strong>Les enfants jouent au ballon.</strong> (The children are playing ball.)</li>
+</ul>
+<section id="vocabulary" class="level3">
+<h3 class="anchored" data-anchor-id="vocabulary">Vocabulary:</h3>
 <ul>
-<li><em>Un frère</em> → Brother<br>
-</li>
-<li><em>Une sœur</em> → Sister<br>
-</li>
-<li><em>Un demi-frère</em> → Half-brother / Stepbrother<br>
-</li>
-<li><em>Une demi-sœur</em> → Half-sister / Stepsister</li>
-</ul></li>
-<li><strong>Children</strong>
+<li><strong>Le parc</strong> (The park)</li>
+<li><strong>Les arbres</strong> (The trees)</li>
+<li><strong>Une promenade</strong> (A walk)</li>
+<li><strong>Un banc</strong> (A bench)</li>
+<li><strong>Un étang</strong> (A pond)</li>
+</ul>
+</section>
+</section>
+<section id="directions-and-transportation" class="level2">
+<h2 class="anchored" data-anchor-id="directions-and-transportation">2. Directions and Transportation</h2>
+<p>When you’re heading to the park, you might need to ask for directions or talk about transportation. Here are some phrases to help:</p>
+<section id="asking-for-directions" class="level3">
+<h3 class="anchored" data-anchor-id="asking-for-directions">Asking for Directions:</h3>
 <ul>
-<li><em>Un fils</em> → Son<br>
-</li>
-<li><em>Une fille</em> → Daughter<br>
-</li>
-<li><em>Un enfant</em> → Child (gender-neutral)</li>
-</ul></li>
-<li><strong>Other Useful Words</strong>
+<li><strong>Excusez-moi, où se trouve le parc ?</strong> (Excuse me, where is the park?)</li>
+<li><strong>C’est loin d’ici ?</strong> (Is it far from here?)</li>
+<li><strong>Pouvez-vous m’indiquer le chemin ?</strong> (Can you show me the way?)</li>
+</ul>
+</section>
+<section id="taking-a-bus-or-train" class="level3">
+<h3 class="anchored" data-anchor-id="taking-a-bus-or-train">Taking a Bus or Train:</h3>
 <ul>
-<li><em>Un grand-père</em> → Grandfather<br>
-</li>
-<li><em>Une grand-mère</em> → Grandmother<br>
-</li>
-<li><em>Un oncle</em> → Uncle<br>
-</li>
-<li><em>Une tante</em> → Aunt<br>
-</li>
-<li><em>Un cousin / Une cousine</em> → Cousin (male/female)</li>
-</ul></li>
-</ol>
-<p><strong>Example Sentences:</strong><br>
-- <em>“I have one brother and two sisters.”</em> → <em>“J’ai un frère et deux sœurs.”</em><br>
-- <em>“My dad’s name is Jean, and my mom’s name is Marie.”</em> → <em>“Mon père s’appelle Jean, et ma mère s’appelle Marie.”</em><br>
-- <em>“I don’t have any cousins.”</em> → <em>“Je n’ai pas de cousins.”</em></p>
-<hr>
+<li><strong>À quelle heure passe le prochain bus pour le parc ?</strong> (What time does the next bus to the park leave?)</li>
+<li><strong>Je voudrais un billet pour le parc, s’il vous plaît.</strong> (I would like a ticket to the park, please.)</li>
+<li><strong>Est-ce que ce train s’arrête près du parc ?</strong> (Does this train stop near the park?)</li>
+</ul>
+</section>
+<section id="taking-a-taxi" class="level3">
+<h3 class="anchored" data-anchor-id="taking-a-taxi">Taking a Taxi:</h3>
+<ul>
+<li><strong>Pouvez-vous m’emmener au parc, s’il vous plaît ?</strong> (Can you take me to the park, please?)</li>
+<li><strong>Combien cela coûtera-t-il ?</strong> (How much will it cost?)</li>
+<li><strong>Je suis pressé.</strong> (I am in a hurry.)</li>
+</ul>
+</section>
+<section id="vocabulary-1" class="level3">
+<h3 class="anchored" data-anchor-id="vocabulary-1">Vocabulary:</h3>
+<ul>
+<li><strong>Un bus</strong> (A bus)</li>
+<li><strong>Un train</strong> (A train)</li>
+<li><strong>Un taxi</strong> (A taxi)</li>
+<li><strong>Un billet</strong> (A ticket)</li>
+<li><strong>Un arrêt</strong> (A stop)</li>
+</ul>
+</section>
+</section>
+<section id="checking-in-at-a-hotel" class="level2">
+<h2 class="anchored" data-anchor-id="checking-in-at-a-hotel">3. Checking in at a Hotel</h2>
+<p>When you’re checking in at a hotel, there are several useful phrases and vocabulary words to know. These will help you navigate your stay with ease.</p>
+<section id="checking-in" class="level3">
+<h3 class="anchored" data-anchor-id="checking-in">Checking In:</h3>
+<ul>
+<li><strong>Je voudrais m’enregistrer, s’il vous plaît.</strong> (I would like to check in, please.)</li>
+<li><strong>Est-ce que le petit-déjeuner est inclus ?</strong> (Is breakfast included?)</li>
+<li><strong>À quelle heure dois-je libérer la chambre ?</strong> (What time do I need to check out?)</li>
+</ul>
+</section>
+<section id="useful-items-in-a-hotel" class="level3">
+<h3 class="anchored" data-anchor-id="useful-items-in-a-hotel">Useful Items in a Hotel:</h3>
+<ul>
+<li><strong>Le service de chambre</strong> (Room service)</li>
+<li><strong>Un chariot</strong> (A cart)</li>
+<li><strong>La télévision par câble</strong> (Cable television)</li>
+<li><strong>Un radiateur</strong> (A radiator)</li>
+<li><strong>Du savon</strong> (Soap)</li>
+<li><strong>Du shampooing</strong> (Shampoo)</li>
+<li><strong>Une brosse à dents</strong> (A toothbrush)</li>
+<li><strong>Un ascenseur</strong> (An elevator)</li>
+</ul>
+</section>
+<section id="types-of-accommodations" class="level3">
+<h3 class="anchored" data-anchor-id="types-of-accommodations">Types of Accommodations:</h3>
+<ul>
+<li><strong>Une chambre simple</strong> (A single room)</li>
+<li><strong>Une chambre double</strong> (A double room)</li>
+<li><strong>Une suite</strong> (A suite)</li>
+<li><strong>Un hôtel de luxe</strong> (A luxury hotel)</li>
+<li><strong>Une auberge</strong> (An inn)</li>
+</ul>
+</section>
+<section id="common-complaints" class="level3">
+<h3 class="anchored" data-anchor-id="common-complaints">Common Complaints:</h3>
+<p>If something is not right during your stay, here are some phrases to express your concerns: - <strong>Le Wi-Fi ne fonctionne pas.</strong> (The Wi-Fi is not working.) - <strong>L’eau du bain est froide.</strong> (The bathwater is cold.) - <strong>Il n’y a pas de serviettes.</strong> (There are no towels.) - <strong>C’est trop bruyant.</strong> (It’s too noisy.)</p>
+</section>
+<section id="vocabulary-2" class="level3">
+<h3 class="anchored" data-anchor-id="vocabulary-2">Vocabulary:</h3>
+<ul>
+<li><strong>Un lit</strong> (A bed)</li>
+<li><strong>Une clé</strong> (A key)</li>
+<li><strong>Une réception</strong> (A reception desk)</li>
+<li><strong>Un concierge</strong> (A concierge)</li>
+<li><strong>Un minibar</strong> (A minibar)</li>
+</ul>
+</section>
+</section>
+<section id="dining-like-a-champ" class="level2">
+<h2 class="anchored" data-anchor-id="dining-like-a-champ">4. Dining Like a Champ</h2>
+<p>When dining out in French-speaking regions, knowing how to navigate a restaurant setting can make your experience much more enjoyable. Here are some essential phrases and vocabulary to help you dine like a champ.</p>
+<section id="reserving-a-table" class="level3">
+<h3 class="anchored" data-anchor-id="reserving-a-table">Reserving a Table:</h3>
+<ul>
+<li><strong>J’ai une réservation à 21h.</strong> (I have a reservation at 9 PM.)</li>
+<li><strong>Puis-je réserver une table pour deux ?</strong> (Can I reserve a table for two?)</li>
+<li><strong>Excusez-moi.</strong> (Excuse me.)</li>
+</ul>
+</section>
+<section id="top-words-youll-need" class="level3">
+<h3 class="anchored" data-anchor-id="top-words-youll-need">Top Words You’ll Need:</h3>
+<ul>
+<li><strong>Une entrée</strong> (Appetizer)</li>
+<li><strong>Un plat principal</strong> (Main course)</li>
+<li><strong>Un dessert</strong> (Dessert)</li>
+<li><strong>Du poulet</strong> (Chicken)</li>
+<li><strong>Du bœuf</strong> (Beef)</li>
+<li><strong>Du porc</strong> (Pork)</li>
+<li><strong>Une salade</strong> (Salad)</li>
+<li><strong>Des fruits de mer</strong> (Seafood)</li>
+</ul>
+</section>
+<section id="choosing-from-the-best-foods" class="level3">
+<h3 class="anchored" data-anchor-id="choosing-from-the-best-foods">Choosing from the Best Foods:</h3>
+<ul>
+<li><strong>La viande</strong> (Meat)</li>
+<li><strong>Le poisson</strong> (Fish)</li>
+<li><strong>Les légumes</strong> (Vegetables)</li>
+<li><strong>Le beurre</strong> (Butter)</li>
+<li><strong>L’huile d’olive</strong> (Olive oil)</li>
+<li><strong>Un poivron</strong> (Bell pepper)</li>
+<li><strong>Le vin</strong> (Wine)</li>
+<li><strong>Le fromage</strong> (Cheese)</li>
+<li><strong>L’alcool</strong> (Alcohol)</li>
+</ul>
+</section>
+<section id="requesting-table-items" class="level3">
+<h3 class="anchored" data-anchor-id="requesting-table-items">Requesting Table Items:</h3>
+<ul>
+<li><strong>Une cuillère</strong> (A spoon)</li>
+<li><strong>Une fourchette</strong> (A fork)</li>
+<li><strong>Un couteau</strong> (A knife)</li>
+<li><strong>Une serviette</strong> (A napkin)</li>
+<li><strong>Du sel</strong> (Salt)</li>
+<li><strong>Du poivre</strong> (Pepper)</li>
+<li><strong>De l’eau</strong> (Water)</li>
+<li><strong>Une boisson</strong> (A drink)</li>
+<li><strong>Un café</strong> (A coffee)</li>
+<li><strong>Un dessert</strong> (A dessert)</li>
+</ul>
+</section>
+<section id="complimenting-and-criticizing-food" class="level3">
+<h3 class="anchored" data-anchor-id="complimenting-and-criticizing-food">Complimenting and Criticizing Food:</h3>
+<ul>
+<li><strong>C’est délicieux !</strong> (It’s delicious!)</li>
+<li><strong>Ça a l’air savoureux.</strong> (It looks tasty.)</li>
+<li><strong>Ça manque de sel.</strong> (It lacks salt.)</li>
+</ul>
+</section>
+<section id="food-allergies" class="level3">
+<h3 class="anchored" data-anchor-id="food-allergies">Food Allergies:</h3>
+<p>If you have food allergies, it’s important to communicate them clearly: - <strong>La viande</strong> (Meat) - <strong>Les œufs</strong> (Eggs) - <strong>Le lait</strong> (Milk) - <strong>Les cacahuètes</strong> (Peanuts) - <strong>Le blé</strong> (Wheat) - <strong>Le soja</strong> (Soy)</p>
+<p>Dining out in French-speaking regions can be a delightful experience when you’re equipped with the right phrases and vocabulary. Bon appétit!</p>
+</section>
+</section>
+<section id="exploring-geography-and-landscapes" class="level2">
+<h2 class="anchored" data-anchor-id="exploring-geography-and-landscapes">5. Exploring Geography and Landscapes</h2>
+<p>Understanding geography and landscapes is essential when discussing travel or describing places. Here are some key terms and phrases to help you navigate this topic in French.</p>
+<section id="continents-and-regions" class="level3">
+<h3 class="anchored" data-anchor-id="continents-and-regions">Continents and Regions:</h3>
+<ul>
+<li><strong>Amérique du Sud</strong> (South America)</li>
+<li><strong>Amérique Centrale</strong> (Central America)</li>
+<li><strong>Amérique du Nord</strong> (North America)</li>
+<li><strong>Afrique</strong> (Africa)</li>
+<li><strong>Europe</strong> (Europe)</li>
+<li><strong>Asie</strong> (Asia)</li>
+<li><strong>Océan Pacifique</strong> (Pacific Ocean)</li>
+<li><strong>Océanie</strong> (Oceania)</li>
+<li><strong>Antarctique</strong> (Antarctica)</li>
+<li><strong>Océan Indien</strong> (Indian Ocean)</li>
+</ul>
+</section>
+<section id="cardinal-directions-and-related-words" class="level3">
+<h3 class="anchored" data-anchor-id="cardinal-directions-and-related-words">Cardinal Directions and Related Words:</h3>
+<ul>
+<li><strong>Nord</strong> (North)</li>
+<li><strong>Sud</strong> (South)</li>
+<li><strong>Est</strong> (East)</li>
+<li><strong>Ouest</strong> (West)</li>
+<li><strong>Droite</strong> (Right)</li>
+<li><strong>Gauche</strong> (Left)</li>
+<li><strong>Devant</strong> (In front)</li>
+<li><strong>Derrière</strong> (Behind)</li>
+<li><strong>Intérieur</strong> (Inside)</li>
+<li><strong>Dehors</strong> (Outside)</li>
+<li><strong>Au-dessous</strong> (Below)</li>
+<li><strong>En dessous de</strong> (Underneath)</li>
+</ul>
+</section>
+<section id="asking-and-answering-questions" class="level3">
+<h3 class="anchored" data-anchor-id="asking-and-answering-questions">Asking and Answering Questions:</h3>
+<ul>
+<li><strong>Où habitez-vous ?</strong> (Where do you live?)</li>
+<li><strong>Combien de pays avez-vous visités ?</strong> (How many countries have you visited?)</li>
+<li><strong>Où voulez-vous aller ?</strong> (Where do you want to go?)</li>
+</ul>
+<p>Example Answer: - <strong>Je veux vraiment aller à…</strong> (I really want to go to…)</p>
+</section>
+<section id="landscape-related-vocabulary" class="level3">
+<h3 class="anchored" data-anchor-id="landscape-related-vocabulary">Landscape-Related Vocabulary:</h3>
+<ul>
+<li><strong>Un océan</strong> (An ocean)</li>
+<li><strong>Une montagne</strong> (A mountain)</li>
+<li><strong>Une rivière</strong> (A river)</li>
+<li><strong>Un lac</strong> (A lake)</li>
+<li><strong>Le ciel</strong> (The sky)</li>
+<li><strong>Une île</strong> (An island)</li>
+<li><strong>Une colline</strong> (A hill)</li>
+<li><strong>Une plage</strong> (A beach)</li>
+<li><strong>Un étang</strong> (A pond)</li>
+<li><strong>Une pierre</strong> (A stone)</li>
+<li><strong>Au bord de la mer</strong> (By the seaside)</li>
+<li><strong>Un désert</strong> (A desert)</li>
+<li><strong>Le sol</strong> (The ground)</li>
+<li><strong>La terre</strong> (The earth)</li>
+<li><strong>L’herbe</strong> (Grass)</li>
+</ul>
+</section>
+<section id="major-cities-around-the-world" class="level3">
+<h3 class="anchored" data-anchor-id="major-cities-around-the-world">Major Cities Around the World:</h3>
+<ul>
+<li><strong>Tokyo</strong> (Tokyo)</li>
+<li><strong>New York</strong> (New York)</li>
+<li><strong>Londres</strong> (London)</li>
+<li><strong>New Delhi</strong> (New Delhi)</li>
+<li><strong>Pékin</strong> (Beijing)</li>
+<li><strong>Sydney</strong> (Sydney)</li>
+</ul>
+<p>Exploring geography and landscapes in French can enrich your conversations and help you describe the beauty of the world around you. Whether you’re discussing travel plans or describing your favorite places, these phrases and vocabulary will come in handy!</p>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
