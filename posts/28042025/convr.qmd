@@ -1,9 +1,9 @@
 ---
 title: "Basic French Conversations"
 author: "Kunal Khurana"
-date: "04-21-2025"
-categories: [A1, A2, famille, français, vocabulaire]
-image: "lafamilleproche.png"
+date: "04-28-2025"
+categories: [A1/A2, conversations, français, vocabulaire, travel, dining, geography, hotel]
+image: "convr.png"
 
 format:
   html:
@@ -13,7 +13,6 @@ format:
           <script src="https://unpkg.com/react@17/umd/react.production.min.js"></script>
           <script src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"></script>
           <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script
-
 ---
 
 ::: {style="text-align: left; padding: 10px;"}
@@ -21,7 +20,6 @@ format:
 :::
 
 ::: {.content-visible when-profile="english"}
-
 In this blog, we will cover basic conversations and vocabulary in context, focusing on common scenarios and phrases in French. These examples will help you navigate everyday situations with ease. Let's dive into some practical topics:
 
 ## 1. Conversation in the Park
@@ -41,8 +39,6 @@ When you're at the park, you might want to talk about the weather, activities, o
 -   **Une promenade** (A walk)
 -   **Un banc** (A bench)
 -   **Un étang** (A pond)
-
-
 
 ## 2. Directions and Transportation
 
@@ -79,42 +75,45 @@ When you're heading to the park, you might need to ask for directions or talk ab
 When you're checking in at a hotel, there are several useful phrases and vocabulary words to know. These will help you navigate your stay with ease.
 
 ### Checking In:
-- **Je voudrais m'enregistrer, s'il vous plaît.** (I would like to check in, please.)
-- **Est-ce que le petit-déjeuner est inclus ?** (Is breakfast included?)
-- **À quelle heure dois-je libérer la chambre ?** (What time do I need to check out?)
+
+-   **Je voudrais m'enregistrer, s'il vous plaît.** (I would like to check in, please.)
+-   **Est-ce que le petit-déjeuner est inclus ?** (Is breakfast included?)
+-   **À quelle heure dois-je libérer la chambre ?** (What time do I need to check out?)
 
 ### Useful Items in a Hotel:
-- **Le service de chambre** (Room service)
-- **Un chariot** (A cart)
-- **La télévision par câble** (Cable television)
-- **Un radiateur** (A radiator)
-- **Du savon** (Soap)
-- **Du shampooing** (Shampoo)
-- **Une brosse à dents** (A toothbrush)
-- **Un ascenseur** (An elevator)
+
+-   **Le service de chambre** (Room service)
+-   **Un chariot** (A cart)
+-   **La télévision par câble** (Cable television)
+-   **Un radiateur** (A radiator)
+-   **Du savon** (Soap)
+-   **Du shampooing** (Shampoo)
+-   **Une brosse à dents** (A toothbrush)
+-   **Un ascenseur** (An elevator)
 
 ### Types of Accommodations:
-- **Une chambre simple** (A single room)
-- **Une chambre double** (A double room)
-- **Une suite** (A suite)
-- **Un hôtel de luxe** (A luxury hotel)
-- **Une auberge** (An inn)
+
+-   **Une chambre simple** (A single room)
+-   **Une chambre double** (A double room)
+-   **Une suite** (A suite)
+-   **Un hôtel de luxe** (A luxury hotel)
+-   **Une auberge** (An inn)
 
 ### Common Complaints:
 
-If something is not right during your stay, here are some phrases to express your concerns:
-- **Le Wi-Fi ne fonctionne pas.** (The Wi-Fi is not working.)
-- **L'eau du bain est froide.** (The bathwater is cold.)
-- **Il n'y a pas de serviettes.** (There are no towels.)
+If something is not right during your stay, here are some phrases to express your concerns: 
+- **Le Wi-Fi ne fonctionne pas.** (The Wi-Fi is not working.) 
+- **L'eau du bain est froide.** (The bathwater is cold.) 
+- **Il n'y a pas de serviettes.** (There are no towels.) 
 - **C'est trop bruyant.** (It's too noisy.)
 
 ### Vocabulary:
-- **Un lit** (A bed)
-- **Une clé** (A key)
-- **Une réception** (A reception desk)
-- **Un concierge** (A concierge)
-- **Un minibar** (A minibar)
 
+-   **Un lit** (A bed)
+-   **Une clé** (A key)
+-   **Une réception** (A reception desk)
+-   **Un concierge** (A concierge)
+-   **Un minibar** (A minibar)
 
 ## 4. Dining Like a Champ
 
@@ -170,10 +169,15 @@ When dining out in French-speaking regions, knowing how to navigate a restaurant
 
 ### Food Allergies:
 
-If you have food allergies, it's important to communicate them clearly: - **La viande** (Meat) - **Les œufs** (Eggs) - **Le lait** (Milk) - **Les cacahuètes** (Peanuts) - **Le blé** (Wheat) - **Le soja** (Soy)
+If you have food allergies, it's important to communicate them clearly: 
+- **La viande** (Meat) 
+- **Les œufs** (Eggs) 
+- **Le lait** (Milk) 
+- **Les cacahuètes** (Peanuts) 
+- **Le blé** (Wheat) 
+- **Le soja** (Soy)
 
 Dining out in French-speaking regions can be a delightful experience when you're equipped with the right phrases and vocabulary. Bon appétit!
-
 
 ## 5. Exploring Geography and Landscapes
 
@@ -181,76 +185,71 @@ Understanding geography and landscapes is essential when discussing travel or de
 
 ### Continents and Regions:
 
-- **Amérique du Sud** (South America)
-- **Amérique Centrale** (Central America)
-- **Amérique du Nord** (North America)
-- **Afrique** (Africa)
-- **Europe** (Europe)
-- **Asie** (Asia)
-- **Océan Pacifique** (Pacific Ocean)
-- **Océanie** (Oceania)
-- **Antarctique** (Antarctica)
-- **Océan Indien** (Indian Ocean)
+-   **Amérique du Sud** (South America)
+-   **Amérique Centrale** (Central America)
+-   **Amérique du Nord** (North America)
+-   **Afrique** (Africa)
+-   **Europe** (Europe)
+-   **Asie** (Asia)
+-   **Océan Pacifique** (Pacific Ocean)
+-   **Océanie** (Oceania)
+-   **Antarctique** (Antarctica)
+-   **Océan Indien** (Indian Ocean)
 
 ### Cardinal Directions and Related Words:
 
-- **Nord** (North)
-- **Sud** (South)
-- **Est** (East)
-- **Ouest** (West)
-- **Droite** (Right)
-- **Gauche** (Left)
-- **Devant** (In front)
-- **Derrière** (Behind)
-- **Intérieur** (Inside)
-- **Dehors** (Outside)
-- **Au-dessous** (Below)
-- **En dessous de** (Underneath)
+-   **Nord** (North)
+-   **Sud** (South)
+-   **Est** (East)
+-   **Ouest** (West)
+-   **Droite** (Right)
+-   **Gauche** (Left)
+-   **Devant** (In front)
+-   **Derrière** (Behind)
+-   **Intérieur** (Inside)
+-   **Dehors** (Outside)
+-   **Au-dessous** (Below)
+-   **En dessous de** (Underneath)
 
 ### Asking and Answering Questions:
 
-- **Où habitez-vous ?** (Where do you live?)
-- **Combien de pays avez-vous visités ?** (How many countries have you visited?)
-- **Où voulez-vous aller ?** (Where do you want to go?)
+-   **Où habitez-vous ?** (Where do you live?)
+-   **Combien de pays avez-vous visités ?** (How many countries have you visited?)
+-   **Où voulez-vous aller ?** (Where do you want to go?)
 
-Example Answer:
-- **Je veux vraiment aller à...** (I really want to go to...)
+Example Answer: - **Je veux vraiment aller à...** (I really want to go to...)
 
 ### Landscape-Related Vocabulary:
 
-- **Un océan** (An ocean)
-- **Une montagne** (A mountain)
-- **Une rivière** (A river)
-- **Un lac** (A lake)
-- **Le ciel** (The sky)
-- **Une île** (An island)
-- **Une colline** (A hill)
-- **Une plage** (A beach)
-- **Un étang** (A pond)
-- **Une pierre** (A stone)
-- **Au bord de la mer** (By the seaside)
-- **Un désert** (A desert)
-- **Le sol** (The ground)
-- **La terre** (The earth)
-- **L'herbe** (Grass)
+-   **Un océan** (An ocean)
+-   **Une montagne** (A mountain)
+-   **Une rivière** (A river)
+-   **Un lac** (A lake)
+-   **Le ciel** (The sky)
+-   **Une île** (An island)
+-   **Une colline** (A hill)
+-   **Une plage** (A beach)
+-   **Un étang** (A pond)
+-   **Une pierre** (A stone)
+-   **Au bord de la mer** (By the seaside)
+-   **Un désert** (A desert)
+-   **Le sol** (The ground)
+-   **La terre** (The earth)
+-   **L'herbe** (Grass)
 
 ### Major Cities Around the World:
 
-- **Tokyo** (Tokyo)
-- **New York** (New York)
-- **Londres** (London)
-- **New Delhi** (New Delhi)
-- **Pékin** (Beijing)
-- **Sydney** (Sydney)
+-   **Tokyo** (Tokyo)
+-   **New York** (New York)
+-   **Londres** (London)
+-   **New Delhi** (New Delhi)
+-   **Pékin** (Beijing)
+-   **Sydney** (Sydney)
 
 Exploring geography and landscapes in French can enrich your conversations and help you describe the beauty of the world around you. Whether you're discussing travel plans or describing your favorite places, these phrases and vocabulary will come in handy!
-
-
 :::
 
 ::: {.content-visible when-profile="french"}
-
-
 Dans ce blog, nous allons couvrir des conversations de base et du vocabulaire en contexte, en nous concentrant sur des scénarios et des phrases courants en français. Ces exemples vous aideront à naviguer dans des situations quotidiennes avec aisance. Plongeons dans des sujets pratiques :
 
 ## 1. Conversation au parc
@@ -270,8 +269,6 @@ Quand vous êtes au parc, vous pourriez vouloir parler du temps, des activités 
 -   **Une promenade** (A walk)
 -   **Un banc** (A bench)
 -   **Un étang** (A pond)
-
-
 
 ## 2. Directions et transport
 
@@ -308,45 +305,49 @@ Quand vous vous rendez au parc, vous pourriez avoir besoin de demander votre che
 Quand vous arrivez à l'hôtel, il y a plusieurs phrases et mots de vocabulaire utiles à connaître. Ceux-ci vous aideront à naviguer facilement pendant votre séjour.
 
 ### Arriver :
-- **Je voudrais arriver, s'il vous plaît.** (I would like to check in, please.)
-- **Est-ce que le petit-déjeuner est inclus ?** (Is breakfast included?)
-- **À quelle heure dois-je libérer la chambre ?** (What time do I need to check out?)
+
+-   **Je voudrais arriver, s'il vous plaît.** (I would like to check in, please.)
+-   **Est-ce que le petit-déjeuner est inclus ?** (Is breakfast included?)
+-   **À quelle heure dois-je libérer la chambre ?** (What time do I need to check out?)
 
 ### Articles utiles dans un hôtel :
 
-- **Le service de chambre** (Room service)
-- **Un chariot** (A cart)
-- **La télévision par câble** (Cable television)
-- **Un radiateur** (A radiator)
-- **Du savon** (Soap)
-- **Du shampooing** (Shampoo)
-- **Une brosse à dents** (A toothbrush)
-- **Un ascenseur** (An elevator)
-
+-   **Le service de chambre** (Room service)
+-   **Un chariot** (A cart)
+-   **La télévision par câble** (Cable television)
+-   **Un radiateur** (A radiator)
+-   **Du savon** (Soap)
+-   **Du shampooing** (Shampoo)
+-   **Une brosse à dents** (A toothbrush)
+-   **Un ascenseur** (An elevator)
 
 ### Types d'hébergements :
 
-- **Une chambre simple** (A single room)
-- **Une chambre double** (A double room)
-- **Une suite** (A suite)
-- **Un hôtel de luxe** (A luxury hotel)
-- **Une auberge** (An inn)
+-   **Une chambre simple** (A single room)
+-   **Une chambre double** (A double room)
+-   **Une suite** (A suite)
+-   **Un hôtel de luxe** (A luxury hotel)
+-   **Une auberge** (An inn)
 
 ### Plaintes courantes :
 
 Si quelque chose ne va pas pendant votre séjour, voici quelques phrases pour exprimer vos préoccupations :
-- **Le Wi-Fi ne fonctionne pas.** (The Wi-Fi is not working.)
-- **L'eau du bain est froide.** (The bathwater is cold.)
-- **Il n'y a pas de serviettes.** (There are no towels.)
-- **C'est trop bruyant.** (It's too noisy.)
+
+-   **Le Wi-Fi ne fonctionne pas.** (The Wi-Fi is not working.)
+
+-   **L'eau du bain est froide.** (The bathwater is cold.)
+
+-   **Il n'y a pas de serviettes.** (There are no towels.)
+
+-   **C'est trop bruyant.** (It's too noisy.)
 
 ### Vocabulaire :
-- **Un lit** (A bed)
-- **Une clé** (A key)
-- **Une réception** (A reception desk)
-- **Un concierge** (A concierge)
-- **Un minibar** (A minibar)
 
+-   **Un lit** (A bed)
+-   **Une clé** (A key)
+-   **Une réception** (A reception desk)
+-   **Un concierge** (A concierge)
+-   **Un minibar** (A minibar)
 
 ## 4. Manger comme un champion
 
@@ -400,19 +401,11 @@ Lorsque vous mangez dans des régions francophones, savoir naviguer dans un rest
 -   **Ça a l'air savoureux.** (It looks tasty.)
 -   **Ça manque de sel.** (It lacks salt.)
 
-
 ### Allergies alimentaires :
 
-Si vous avez des allergies alimentaires, il est important de les communiquer clairement : 
-- **La viande** (Meat) 
-- **Les œufs** (Eggs) 
-- **Le lait** (Milk) 
-- **Les cacahuètes** (Peanuts) 
-- **Le blé** (Wheat) 
-- **Le soja** (Soy)
+Si vous avez des allergies alimentaires, il est important de les communiquer clairement : - **La viande** (Meat) - **Les œufs** (Eggs) - **Le lait** (Milk) - **Les cacahuètes** (Peanuts) - **Le blé** (Wheat) - **Le soja** (Soy)
 
 Manger dans des régions francophones peut être une expérience délicieuse lorsque vous êtes équipé des bonnes phrases et du vocabulaire. Bon appétit!
-
 
 ## 5. Explorer la géographie et les paysages
 
@@ -420,70 +413,66 @@ Comprendre la géographie et les paysages est essentiel pour discuter de voyages
 
 ### Continents et régions :
 
-- **Amérique du Sud** (South America)
-- **Amérique Centrale** (Central America)
-- **Amérique du Nord** (North America)
-- **Afrique** (Africa)
-- **Europe** (Europe)
-- **Asie** (Asia)
-- **Océan Pacifique** (Pacific Ocean)
-- **Océanie** (Oceania)
-- **Antarctique** (Antarctica)
-- **Océan Indien** (Indian Ocean)
+-   **Amérique du Sud** (South America)
+-   **Amérique Centrale** (Central America)
+-   **Amérique du Nord** (North America)
+-   **Afrique** (Africa)
+-   **Europe** (Europe)
+-   **Asie** (Asia)
+-   **Océan Pacifique** (Pacific Ocean)
+-   **Océanie** (Oceania)
+-   **Antarctique** (Antarctica)
+-   **Océan Indien** (Indian Ocean)
 
 ### Directions cardinales et mots associés :
 
-- **Nord** (North)
-- **Sud** (South)
-- **Est** (East)
-- **Ouest** (West)
-- **Droite** (Right)
-- **Gauche** (Left)
-- **Devant** (In front)
-- **Derrière** (Behind)
-- **Intérieur** (Inside)
-- **Dehors** (Outside)
-- **Au-dessous** (Below)
-- **En dessous de** (Underneath)
+-   **Nord** (North)
+-   **Sud** (South)
+-   **Est** (East)
+-   **Ouest** (West)
+-   **Droite** (Right)
+-   **Gauche** (Left)
+-   **Devant** (In front)
+-   **Derrière** (Behind)
+-   **Intérieur** (Inside)
+-   **Dehors** (Outside)
+-   **Au-dessous** (Below)
+-   **En dessous de** (Underneath)
 
 ### Poser et répondre à des questions :
 
-- **Où habitez-vous ?** (Where do you live?)
-- **Combien de pays avez-vous visités ?** (How many countries have you visited?)
-- **Où voulez-vous aller ?** (Where do you want to go?)
+-   **Où habitez-vous ?** (Where do you live?)
+-   **Combien de pays avez-vous visités ?** (How many countries have you visited?)
+-   **Où voulez-vous aller ?** (Where do you want to go?)
 
-Exemple de réponse :
-- **Je veux vraiment aller à...** (I really want to go to...)
+Exemple de réponse : - **Je veux vraiment aller à...** (I really want to go to...)
 
 ### Vocabulaire lié aux paysages :
 
-- **Un océan** (An ocean)
-- **Une montagne** (A mountain)
-- **Une rivière** (A river)
-- **Un lac** (A lake)
-- **Le ciel** (The sky)
-- **Une île** (An island)
-- **Une colline** (A hill)
-- **Une plage** (A beach)
-- **Un étang** (A pond)
-- **Une pierre** (A stone)
-- **Au bord de la mer** (By the seaside)
-- **Un désert** (A desert)
-- **Le sol** (The ground)
-- **La terre** (The earth)
-- **L'herbe** (Grass)
+-   **Un océan** (An ocean)
+-   **Une montagne** (A mountain)
+-   **Une rivière** (A river)
+-   **Un lac** (A lake)
+-   **Le ciel** (The sky)
+-   **Une île** (An island)
+-   **Une colline** (A hill)
+-   **Une plage** (A beach)
+-   **Un étang** (A pond)
+-   **Une pierre** (A stone)
+-   **Au bord de la mer** (By the seaside)
+-   **Un désert** (A desert)
+-   **Le sol** (The ground)
+-   **La terre** (The earth)
+-   **L'herbe** (Grass)
 
 ### Grandes villes du monde :
 
-- **Tokyo** (Tokyo)
-- **New York** (New York)
-- **Londres** (London)
-- **New Delhi** (New Delhi)
-- **Pékin** (Beijing)
-- **Sydney** (Sydney)
+-   **Tokyo** (Tokyo)
+-   **New York** (New York)
+-   **Londres** (London)
+-   **New Delhi** (New Delhi)
+-   **Pékin** (Beijing)
+-   **Sydney** (Sydney)
 
 Explorer la géographie et les paysages en français peut enrichir vos conversations et vous aider à décrire la beauté du monde qui vous entoure. Que vous discutiez de projets de voyage ou que vous décriviez vos endroits préférés, ces phrases et ce vocabulaire seront utiles !
-
 :::
-
-
