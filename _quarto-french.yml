@@ -69,7 +69,7 @@ website:
             href: profile.qmd
             icon: box-arrow-right
           - text: "Portail de Facturation"
-            href: https://billing.stripe.com/p/login/14k8xo9FteB0dr26oo
+            href: https://billing.stripe.com/p/login/9AQcPg2i52jtaSk4gg
             icon: credit-card
         
     right:
