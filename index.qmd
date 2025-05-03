@@ -110,7 +110,11 @@ format:
 
 ::::::::::::::: {.content-visible when-profile="english"}
 ::: language-switcher
-<button class="language-btn" onclick="window.quartoToggleProfile('french')">Français</button>
+<button class="language-btn" onclick="window.quartoToggleProfile(&#39;french&#39;)">
+
+Français
+
+</button>
 :::
 
 ## 🥖 French with Kunal {.hero}
@@ -204,7 +208,11 @@ Stuck on subjunctive at 2am? Our WhatsApp support has you covered (oui, even on 
 
 ::::::::::::::: {.content-visible when-profile="french"}
 ::: language-switcher
-<button class="language-btn" onclick="window.quartoToggleProfile('english')">English</button>
+<button class="language-btn" onclick="window.quartoToggleProfile(&#39;english&#39;)">
+
+English
+
+</button>
 :::
 
 ## 🥐 French with Kunal {.hero}

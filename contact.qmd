@@ -11,7 +11,7 @@ format:
           <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
 ---
 
-:::: {.content-visible when-profile="english"}
+::: {.content-visible when-profile="english"}
 We'd love to hear from you! Whether you have a question about our services, feedback, or need support, our team is here to help.
 
 ## Get in Touch
@@ -42,7 +42,7 @@ Fill out this [form](https://forms.gle/UGptE4egRewexaSK7) to join our online lea
   <textarea id="message" name="message" rows="4" required style="width: 100%; padding: 8px;"></textarea>
 </div>
 
-<button type="submit" style="background-color: #4CAF50; color: white; padding: 10px 15px; border: none; cursor: pointer;">
+<button type="submit" style="background-color: #FF0000; color: white; padding: 10px 15px; border: none; border-radius: 25px; cursor: pointer;">
   Submit
 </button>
 </form>
@@ -115,7 +115,7 @@ Remplissez ce [formulaire](https://forms.gle/UGptE4egRewexaSK7) pour rejoindre n
   <textarea id="messageFrench" name="message" rows="4" required style="width: 100%; padding: 8px;"></textarea>
 </div>
 
-<button type="submit" style="background-color: #4CAF50; color: white; padding: 10px 15px; border: none; cursor: pointer;">
+<button type="submit" style="background-color: #FF0000; color: white; padding: 10px 15px; border: none; border-radius: 25px; cursor: pointer;">
   Soumettre
 </button>
 
@@ -153,4 +153,4 @@ document.getElementById('contactFormFrench').addEventListener('submit', async fu
 });
 </script>
 ```
-::::::
+:::
