@@ -1,0 +1,226 @@
+---
+title: "Succeeding in the TEF Speaking"
+author: "Kunal Khurana"
+date: "04-28-2025"
+categories: [TEF, français, production orale, conseils, préparation, examen]
+image: "tef-po.png"
+
+format:
+    html:
+        include-in-header:
+            - text: |
+                    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+                    <script src="https://unpkg.com/react@17/umd/react.production.min.js"></script>
+                    <script src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"></script>
+                    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+---
+
+::: {style="text-align: left; padding: 10px;"}
+<a href="mailto:frenchwithkunal@gmail.com" target="_blank" style="margin: 0 10px; color: #000;"><i class="fas fa-envelope fa-lg"></i></a> <a href="https://www.instagram.com/frenchwithkunal" target="_blank" style="margin: 0 10px; color: #E1306C;"><i class="fab fa-instagram fa-lg"></i></a> <a href="https://frenchwithkunal.ca" target="_blank" style="margin: 0 10px; color: #0077b5;"><i class="fas fa-globe fa-lg"></i></a> <a href="https://whatsapp.com/channel/0029Vb57n2e7dmegpjYpyi3V" target="_blank" style="margin: 0 10px; color: #25D366;"><i class="fab fa-whatsapp fa-lg"></i></a> <button onclick="copyLink()" style="background-color: #0077b5; color: white; padding: 8px 16px; border: none; border-radius: 4px; cursor: pointer; margin-left: 10px;"> <i class="fas fa-copy"></i> </button> [Link copied!]{#copy-message style="margin-left: 10px; color: green; display: none;"}
+:::
+
+::: {#react-root}
+:::
+
+```{=html}
+<script type="text/babel">
+ const ProfilePage = () => {
+  const { useState, useEffect } = React;
+  const [redirectCounter, setRedirectCounter] = useState(4);
+  const [isRedirecting, setIsRedirecting] = useState(false);
+
+  const isFrench = document.documentElement.lang === "fr";
+
+  const translations = {
+    noAccess: isFrench 
+      ? "Vous n'avez pas accès à cette page."
+      : "You don't have access to this page.",
+    subscribe: isFrench
+      ? "Veuillez vous abonner pour obtenir l'accès."
+      : "Please subscribe to gain access.",
+    redirecting: isFrench
+      ? `Redirection vers la page d'abonnement dans ${redirectCounter} secondes...`
+      : `Redirecting to subscription page in ${redirectCounter} seconds...`
+  };
+
+  const refreshToken = async () => {
+    const storedRefreshToken = localStorage.getItem("refreshToken");
+
+    if (!storedRefreshToken) {
+      window.location.href = "/login.html";
+      return null;
+    }
+
+    try {
+      const response = await fetch("https://frenchwithkunal-cdf6ea3f88ce.herokuapp.com/api/v1/auth/refresh-token", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ refreshToken: storedRefreshToken }),
+      });
+
+      if (!response.ok) {
+        localStorage.removeItem("accessToken");
+        localStorage.removeItem("refreshToken");
+        window.location.href = "/login.html";
+        return null;
+      }
+
+      const data = await response.json();
+      localStorage.setItem("accessToken", data.accessToken);
+      return data.accessToken;
+    } catch (error) {
+      localStorage.removeItem("accessToken");
+      localStorage.removeItem("refreshToken");
+      window.location.href = "/login.html";
+      return null;
+    }
+  };
+
+  const fetchWithAuth = async (url, options = {}) => {
+    let accessToken = localStorage.getItem("accessToken");
+
+    options.headers = {
+      ...options.headers,
+      Authorization: `Bearer ${accessToken}`,
+      "Content-Type": "application/json",
+    };
+
+    let response = await fetch(url, options);
+
+    if (response.status === 401) {
+      console.log("Access token expired, attempting to refresh...");
+
+      // Refresh token
+      accessToken = await refreshToken();
+
+      if (!accessToken) return null;
+
+      options.headers.Authorization = `Bearer ${accessToken}`;
+      response = await fetch(url, options);
+    }
+
+    return response.json();
+  };
+
+  const showNoAccessMessage = () => {
+    setIsRedirecting(true);
+    
+    const noAccessMessage = `
+      <div style="text-align: center; padding: 20px;">
+        <h2>${translations.noAccess}</h2>
+        <p>${translations.subscribe}</p>
+        <p>${translations.redirecting}</p>
+      </div>
+    `;
+    document.body.innerHTML = noAccessMessage;
+    
+    // Start countdown and redirect
+    const redirectInterval = setInterval(() => {
+      setRedirectCounter((prev) => {
+        const newCounter = prev - 1;
+        if (newCounter <= 0) {
+          clearInterval(redirectInterval);
+          window.location.href = "https://frenchwithkunal.ca/payment.html";
+        }
+        
+        // Update the countdown text
+        const countdownElement = document.querySelector('p:last-child');
+        if (countdownElement) {
+          countdownElement.textContent = isFrench
+            ? `Redirection vers la page d'abonnement dans ${newCounter} secondes...`
+            : `Redirecting to subscription page in ${newCounter} seconds...`;
+        }
+        
+        return newCounter;
+      });
+    }, 1000);
+  };
+
+  useEffect(() => {
+    const storedToken = localStorage.getItem('accessToken');
+
+    if(!storedToken) {
+      showNoAccessMessage();
+    } else {
+      const fetchData = async() => {
+        const data = await fetchWithAuth("https://frenchwithkunal-cdf6ea3f88ce.herokuapp.com/api/v1/auth/me", {
+          method: "POST",
+        });
+
+        if (data && data.data && data.data.hasAccess) {
+          console.log(data);
+        } else {
+          showNoAccessMessage();
+        }
+      };
+      fetchData();
+    }
+  }, []);
+
+  return (
+    <div></div>
+  );
+};
+
+ReactDOM.render(
+  <ProfilePage />,
+  document.getElementById('react-root')
+);
+ </script>
+```
+
+
+::: {.content-visible when-profile="english"}
+
+Let's now discuss the important part of the TEF exam called "Oral Production." This exam lasts a total of 15 minutes: the first part takes about 5 minutes, while the second part extends over 10 minutes.
+
+To succeed in the first part, which involves asking questions to the examiner, it is essential to be creative. Imagine the situation in your mind and progress slowly and methodically.
+
+Here are some tips to help you succeed:
+
+1. **Prepare a list of useful verbs**: While thinking about the given topic, identify verbs that could enrich your sentences.
+2. **Use time-related adverbs**: Clearly express your ideas based on the tense used (present, past, or future). Adverbs like "today," "yesterday," "tomorrow," etc., can help you structure your responses.
+3. **Ask relevant questions**: Rely on your "best friends" to ask questions like: "Why?", "How?", "At what time?", "Since when?", "What else?".
+4. **Be natural and logical**: Use logical connectors and sentence structures to organize your ideas. For example: "first of all," "then," "in conclusion."
+5. **Don't hesitate to ask for clarifications**: If you don't understand a question or topic, rephrase it to ask for clarification from the examiner. This shows your seriousness and willingness to do well.
+
+To practice, you can refer to this brilliant resouce:
+
+{{< video https://www.youtube.com/watch?v=s3qC5oC7uqg
+    title="TEF- production orale partie A"
+    start="5"
+    aspect-ratio="21x9" 
+>}}
+
+By following these steps, you'll be better prepared to succeed in this part of the exam. Good luck!
+
+
+
+:::
+
+
+::: {.content-visible when-profile="french"}
+
+Abordons maintenant la partie importante de l'examen de TEF appelée "Production Orale". Cet examen dure au total 15 minutes : la première partie dure environ 5 minutes, tandis que la deuxième partie s'étend sur 10 minutes.
+
+Pour réussir la première partie, qui consiste à poser des questions à l'examinateur ou à l'examinatrice, il est essentiel d'être créatif. Imaginez la situation dans votre tête et progressez lentement et méthodiquement.
+
+Voici quelques conseils pour bien progresser :
+
+1. **Préparez une liste de verbes utiles** : Pendant que vous réfléchissez au sujet proposé, identifiez les verbes qui pourraient enrichir vos phrases.
+2. **Utilisez des adverbes de temps** : Exprimez clairement vos idées en fonction du temps verbal utilisé (présent, passé ou futur). Les adverbes comme "aujourd'hui", "hier", "demain", etc., peuvent vous aider à structurer vos réponses.
+3. **Posez des questions pertinentes** : Appuyez-vous sur vos "meilleurs amis" pour poser des questions comme : "Pourquoi ?", "Comment ?", "À quel moment ?", "Depuis quand ?", "Quoi d'autre ?".
+4. **Soyez naturel et logique** : Utilisez des connecteurs logiques et des tournures de phrases pour structurer vos idées. Par exemple : "tout d'abord", "ensuite", "en conclusion".
+5. **N'hésitez pas à demander des clarifications** : Si une question ou un sujet vous semble flou, reformulez-le poliment pour demander des précisions à l'examinateur ou à l'examinatrice. Cela démontre non seulement que vous êtes sérieux, mais aussi votre capacité à interagir de manière professionnelle et réfléchie.
+
+{{< video https://www.youtube.com/watch?v=s3qC5oC7uqg
+    title="TEF- production orale partie A"
+    start="5"
+    aspect-ratio="21x9" 
+>}}
+
+En suivant ces étapes, vous serez mieux préparé pour réussir cette partie de l'examen. Bonne chance!
+
+:::
