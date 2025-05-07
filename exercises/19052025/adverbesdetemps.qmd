@@ -1,0 +1,52 @@
+---
+title: "Future Simple vs Futur Antérieur: Exercises"
+author: "Kunal Khurana"
+date: "05-19-2025"
+categories: [A2/B1, grammar, future tenses, exercises]
+image: "adverbes.png"
+---
+
+
+## Présent
+Complétez les phrases avec le bon adverbe de temps pour le présent :
+
+1. J'étudie <input type="text" placeholder="Entrez la réponse ici" oninput="checkAnswer(this, 'maintenant')">.
+2. Elle travaille sur son projet <input type="text" placeholder="Entrez la réponse ici" oninput="checkAnswer(this, 'actuellement')">.
+3. Ils jouent au football <input type="text" placeholder="Entrez la réponse ici" oninput="checkAnswer(this, 'aujourd\'hui')">.
+4. Nous regardons un film <input type="text" placeholder="Entrez la réponse ici" oninput="checkAnswer(this, 'maintenant')">.
+5. Il lit un livre <input type="text" placeholder="Entrez la réponse ici" oninput="checkAnswer(this, 'actuellement')">.
+6. Les enfants apprennent les mathématiques <input type="text" placeholder="Entrez la réponse ici" oninput="checkAnswer(this, 'aujourd\'hui')">.
+
+## Passé
+Remplissez les blancs avec le bon adverbe de temps pour le passé :
+
+1. J'ai rendu visite à mes grands-parents <input type="text" placeholder="Entrez la réponse ici" oninput="checkAnswer(this, 'hier')">.
+2. Il a terminé ses devoirs <input type="text" placeholder="Entrez la réponse ici" oninput="checkAnswer(this, 'la semaine dernière')">.
+3. Nous sommes allés au parc <input type="text" placeholder="Entrez la réponse ici" oninput="checkAnswer(this, 'il y a un an')">.
+4. Elle m'a appelé <input type="text" placeholder="Entrez la réponse ici" oninput="checkAnswer(this, 'hier')">.
+5. Ils ont célébré leur anniversaire <input type="text" placeholder="Entrez la réponse ici" oninput="checkAnswer(this, 'la semaine dernière')">.
+6. J'ai vu un magnifique coucher de soleil <input type="text" placeholder="Entrez la réponse ici" oninput="checkAnswer(this, 'il y a un an')">.
+
+## Futur
+Choisissez le bon adverbe de temps pour le futur :
+
+1. Je voyagerai en France <input type="text" placeholder="Entrez la réponse ici" oninput="checkAnswer(this, 'demain')">.
+2. Elle commencera son nouveau travail <input type="text" placeholder="Entrez la réponse ici" oninput="checkAnswer(this, 'le mois prochain')">.
+3. Ils déménageront dans une nouvelle maison <input type="text" placeholder="Entrez la réponse ici" oninput="checkAnswer(this, 'dans deux jours')">.
+4. Nous aurons une réunion <input type="text" placeholder="Entrez la réponse ici" oninput="checkAnswer(this, 'demain')">.
+5. Il rendra visite à ses amis <input type="text" placeholder="Entrez la réponse ici" oninput="checkAnswer(this, 'le mois prochain')">.
+6. L'équipe jouera un match <input type="text" placeholder="Entrez la réponse ici" oninput="checkAnswer(this, 'dans deux jours')">.
+
+## Temps Mixtes
+Décidez quel temps (présent, passé ou futur) et le bon adverbe de temps pour compléter les phrases :
+
+1. Je vais au marché <input type="text" placeholder="Entrez la réponse ici" oninput="checkAnswer(this, 'maintenant')">.
+2. Elle a terminé son devoir <input type="text" placeholder="Entrez la réponse ici" oninput="checkAnswer(this, 'hier')">.
+3. Ils assisteront à un concert <input type="text" placeholder="Entrez la réponse ici" oninput="checkAnswer(this, 'demain')">.
+4. Nous dînons <input type="text" placeholder="Entrez la réponse ici" oninput="checkAnswer(this, 'actuellement')">.
+5. Il a rendu visite à ses grands-parents <input type="text" placeholder="Entrez la réponse ici" oninput="checkAnswer(this, 'la semaine dernière')">.
+6. Les enfants joueront dans le parc <input type="text" placeholder="Entrez la réponse ici" oninput="checkAnswer(this, 'dans deux jours')">.
+7. Je lis un roman <input type="text" placeholder="Entrez la réponse ici" oninput="checkAnswer(this, 'aujourd\'hui')">.
+8. Elle fera un gâteau <input type="text" placeholder="Entrez la réponse ici" oninput="checkAnswer(this, 'le mois prochain')">.
+9. Ils regardaient un film <input type="text" placeholder="Entrez la réponse ici" oninput="checkAnswer(this, 'hier')">.
+10. Nous irons faire de la randonnée <input type="text" placeholder="Entrez la réponse ici" oninput="checkAnswer(this, 'demain')">.

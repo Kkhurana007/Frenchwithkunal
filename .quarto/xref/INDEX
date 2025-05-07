@@ -259,5 +259,29 @@
   },
   "exercises.qmd": {
     "exercises.html": "59c3013a"
+  },
+  "exercises/19052025/pc_imp.qmd": {
+    "pc_imp.html": "f5bfc74a"
+  },
+  "exercises/19052025/futuranteriror.qmd": {
+    "futuranteriror.html": "a9402787"
+  },
+  "exercises/19052025/plusqueparfait.qmd": {
+    "plusqueparfait.html": "e882f318"
+  },
+  "exercises/19052025/adverbesdetemps.qmd": {
+    "adverbesdetemps.html": "1421e590"
+  },
+  "exercises/19052025/bodyparts.qmd": {
+    "bodyparts.html": "ae4e48a7"
+  },
+  "exercises/19052025/prepositions.qmd": {
+    "prepositions.html": "79b27d41"
+  },
+  "exercises/19052025/family.qmd": {
+    "family.html": "454db5c3"
+  },
+  "exercises/19052025/conjuctions.qmd": {
+    "conjuctions.html": "0b588316"
   }
 }

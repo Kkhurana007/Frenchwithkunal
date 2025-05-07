@@ -1,0 +1,180 @@
+---
+title: "Passé Composé vs Imparfait: Exercises with Faire"
+author: "Kunal Khurana"
+date: "05-12-2025"
+categories: [A1/A2, grammar, faire, exercises]
+image: "pc_imp.png"
+---
+
+::: {.content-visible when-profile="english"}
+# Exercise: Practicing the Verb "Faire"
+
+Here are some exercises to practice conjugating the verb **faire** (to do/make) in French:
+
+1.  Conjugate the verb "faire" in the present tense for the following subjects:
+    -   Je <input type="text" placeholder="Enter answer here" oninput="checkAnswer(this, 'fais')"> un gâteau.
+    -   Tu <input type="text" placeholder="Enter answer here" oninput="checkAnswer(this, 'fais')"> du sport.
+    -   Il/Elle <input type="text" placeholder="Enter answer here" oninput="checkAnswer(this, 'fait')"> ses devoirs.
+    -   Nous <input type="text" placeholder="Enter answer here" oninput="checkAnswer(this, 'faisons')"> une promenade.
+    -   Vous <input type="text" placeholder="Enter answer here" oninput="checkAnswer(this, 'faites')"> un voyage.
+    -   Ils/Elles <input type="text" placeholder="Enter answer here" oninput="checkAnswer(this, 'font')"> du bruit.
+
+<br>
+
+2.  Fill in the blanks with the correct form of "faire" in the past tense (passé composé):
+
+    -   Hier, j' <input type="text" placeholder="Enter answer here" oninput="checkAnswer(this, 'ai fait')"> une tarte.
+    -   La semaine dernière, nous <input type="text" placeholder="Enter answer here" oninput="checkAnswer(this, 'avons fait')"> une randonnée.
+    -   Est-ce que tu <input type="text" placeholder="Enter answer here" oninput="checkAnswer(this, 'as fait')"> tes devoirs ?
+    -   Ils/Elles <input type="text" placeholder="Enter answer here" oninput="checkAnswer(this, 'ont fait')"> une fête.
+    -   Vous <input type="text" placeholder="Enter answer here" oninput="checkAnswer(this, 'avez fait')"> un bon travail.
+    -   Il/Elle <input type="text" placeholder="Enter answer here" oninput="checkAnswer(this, 'a fait')"> une erreur.
+
+<br>
+
+3.  Fill in the blanks with the correct form of "faire" in the plus-que-parfait:
+
+    -   Avant de partir, j' <input type="text" placeholder="Enter answer here" oninput="checkAnswer(this, 'avais fait')"> mes valises.
+    -   Quand nous sommes arrivés, ils <input type="text" placeholder="Enter answer here" oninput="checkAnswer(this, 'avaient fait')"> le ménage.
+    -   Elle <input type="text" placeholder="Enter answer here" oninput="checkAnswer(this, 'avait fait')"> une erreur avant de corriger son travail.
+    -   Vous <input type="text" placeholder="Enter answer here" oninput="checkAnswer(this, 'aviez fait')"> une réservation avant d'arriver à l'hôtel.
+    -   Nous <input type="text" placeholder="Enter answer here" oninput="checkAnswer(this, 'avions fait')"> une promenade avant qu'il ne pleuve.
+    -   Tu <input type="text" placeholder="Enter answer here" oninput="checkAnswer(this, 'avais fait')"> tes devoirs avant de jouer.
+
+<br>
+
+4.  Compare the passé composé and plus-que-parfait forms of "faire" in the following sentences:
+
+    -   Hier, j' <input type="text" placeholder="Enter answer here" oninput="checkAnswer(this, 'ai fait')"> une tarte, mais avant cela, j' <input type="text" placeholder="Enter answer here" oninput="checkAnswer(this, 'avais fait')"> les courses.
+    -   Nous <input type="text" placeholder="Enter answer here" oninput="checkAnswer(this, 'avons fait')"> une randonnée après que nous <input type="text" placeholder="Enter answer here" oninput="checkAnswer(this, 'avions fait')"> un bon petit-déjeuner.
+    -   Elle <input type="text" placeholder="Enter answer here" oninput="checkAnswer(this, 'a fait')"> une erreur, mais elle <input type="text" placeholder="Enter answer here" oninput="checkAnswer(this, 'avait fait')"> de son mieux pour la corriger.
+    -   Vous <input type="text" placeholder="Enter answer here" oninput="checkAnswer(this, 'avez fait')"> un bon travail parce que vous <input type="text" placeholder="Enter answer here" oninput="checkAnswer(this, 'aviez fait')"> beaucoup d'efforts auparavant.
+
+<br>
+
+```{=html}
+<script>
+function checkAnswer(input, correctAnswer) {
+    const userAnswer = input.value.trim().toLowerCase();
+    const feedback = input.nextElementSibling;
+    if (!feedback) {
+        const span = document.createElement('span');
+        span.style.marginLeft = '10px';
+        input.parentNode.appendChild(span);
+    }
+    if (userAnswer === correctAnswer) {
+        input.nextElementSibling.textContent = "Correct! +10 points";
+        input.nextElementSibling.style.color = "green";
+    } else if (userAnswer) {
+        input.nextElementSibling.textContent = "Try again!";
+        input.nextElementSibling.style.color = "red";
+    } else {
+        input.nextElementSibling.textContent = "";
+    }
+}
+
+function checkAllAnswers() {
+    const inputs = document.querySelectorAll('input[type="text"]');
+    inputs.forEach(input => {
+        const correctAnswer = input.getAttribute('oninput').match(/'([^']+)'/)[1];
+        checkAnswer(input, correctAnswer);
+    });
+}
+</script>
+```
+
+5.  Translate the following sentences into French using the verb "faire" in the passé composé:
+
+    -   I made a cake.\
+
+        ```{=html}
+        <textarea placeholder="Enter your translation here" rows="2" cols="50"></textarea>
+        ```
+
+    -   They made noise.\
+
+        ```{=html}
+        <textarea placeholder="Enter your translation here" rows="2" cols="50"></textarea>
+        ```
+
+    -   We made a decision.\
+
+        ```{=html}
+        <textarea placeholder="Enter your translation here" rows="2" cols="50"></textarea>
+        ```
+
+    <button onclick="showAllTranslations()">
+
+    Submit
+
+    </button>
+
+```{=html}
+<script>
+function showAllTranslations() {
+    const translations = [
+        { input: document.querySelectorAll('textarea')[0], correct: 'J\'ai fait un gâteau.' },
+        { input: document.querySelectorAll('textarea')[1], correct: 'Ils/Elles ont fait du bruit.' },
+        { input: document.querySelectorAll('textarea')[2], correct: 'Nous avons pris une décision.' }
+    ];
+
+    translations.forEach(({ input, correct }) => {
+        let feedback = input.nextElementSibling;
+
+        if (!feedback || feedback.tagName !== 'SPAN') {
+            feedback = document.createElement('span');
+            feedback.style.marginLeft = '10px';
+            input.parentNode.appendChild(feedback);
+        }
+
+        const userTranslation = input.value.trim();
+        if (userTranslation.toLowerCase() === correct.toLowerCase()) {
+            feedback.textContent = "Correct! The translation is: " + correct;
+            feedback.style.color = "green";
+        } else {
+            feedback.textContent = "The correct translation is: " + correct;
+            feedback.style.color = "red";
+        }
+    });
+
+    // Ensure the button remains visible after feedback is displayed
+    document.querySelector('button[onclick="showAllTranslations()"]').scrollIntoView({ behavior: 'smooth', block: 'center' });
+}
+</script>
+
+
+6.  Write a short paragraph about what you and your friends have done recently using different forms of "faire."
+
+ ```{=html}
+    <textarea placeholder="Write your paragraph here" rows="5" cols="50"></textarea>
+    ```
+
+    <button onclick="checkParagraphAnswers()">
+
+    Check Paragraph Answer
+
+    </button>
+
+    ```{=html}
+    <script>
+    function checkParagraphAnswers() {
+        const paragraphInput = document.querySelector('textarea');
+        const feedback = paragraphInput.nextElementSibling || document.createElement('span');
+
+        if (!feedback.parentNode) {
+            feedback.style.marginLeft = '10px';
+            paragraphInput.parentNode.appendChild(feedback);
+        }
+
+        const userParagraph = paragraphInput.value.trim();
+        if (userParagraph.toLowerCase().includes('faire')) {
+            feedback.textContent = "Good job! You used the verb 'faire' in your paragraph.";
+            feedback.style.color = "green";
+        } else {
+            feedback.textContent = "Try again! Make sure to include the verb 'faire' in your paragraph.";
+            feedback.style.color = "red";
+        }
+    }
+    </script>
+    ```
+:::

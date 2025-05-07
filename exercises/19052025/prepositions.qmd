@@ -1,0 +1,86 @@
+---
+title: "Prepositions Adventure: À, En, De"
+author: "Kunal Khurana"
+date: "05-12-2025"
+categories: [A1/A2, grammar, prepositions, exercises]
+image: "prepositions.png"
+---
+
+::: {.content-visible when-profile="english"}
+
+# Exercise: Mastering À, En, De
+
+### 1. **Preposition Treasure Hunt**
+
+**Drag the correct preposition into each sentence:** *(Simulated with text input feedback)*
+
+-   Je voyage <input type="text" placeholder="à/en/de" oninput="checkPreposition(this, 'en')"> France.\
+-   Le livre <input type="text" placeholder="à/en/de" oninput="checkPreposition(this, 'de')"> Marie est intéressant.\
+-   Nous allons <input type="text" placeholder="à/en/de" oninput="checkPreposition(this, 'à')"> la plage.\
+-   Elle habite <input type="text" placeholder="à/en/de" oninput="checkPreposition(this, 'en')"> Italie.\
+-   La clé <input type="text" placeholder="à/en/de" oninput="checkPreposition(this, 'de')"> la voiture est perdue.
+
+**Hints:**\
+- `en` = countries (feminine), months/seasons, transportation (*en voiture*)\
+- `à` = cities, specific locations, time (*à midi*)\
+- `de` = possession, origin, material (*fait de bois*)
+
+------------------------------------------------------------------------
+
+### 2. **Sentence Surgery**
+
+**Fix the errors in these sentences by replacing the wrong preposition:**
+
+-   ❌ "Je vais de Paris demain." → <input type="text" placeholder="Corrected sentence" oninput="checkCorrection(this, 'Je vais à Paris demain.')">\
+-   ❌ "Il est à vacances en juillet." → <input type="text" placeholder="Corrected sentence" oninput="checkCorrection(this, 'Il est en vacances en juillet.')">\
+-   ❌ "La réponse à la question est difficile." → *(No error! Type "correct")* <input type="text" placeholder="?" oninput="checkCorrection(this, 'correct')">
+
+------------------------------------------------------------------------
+
+### 3. **Creative Challenge: The Preposition Detective**
+
+**Write a short story (5 sentences) about a detective using each preposition at least once:**\
+*(Example starter: "Mon détective vient **de** New York. Il travaille **en** France...")*
+
+
+```{=html}
+<textarea placeholder="Écrivez ici..." rows="5" cols="50"></textarea>
+```
+
+<button onclick="analyzePrepositions()">
+
+Check My Story
+
+</button>
+<span id="feedback" style="color: green;"></span>
+
+<script>
+// Feedback functions
+function checkPreposition(input, correct) {
+    const feedback = input.nextElementSibling || document.createElement('span');
+    if (!feedback.parentNode) input.parentNode.appendChild(feedback);
+    
+    if (input.value.trim().toLowerCase() === correct) {
+        feedback.textContent = "✓ Correct!";
+        feedback.style.color = "green";
+    } else if (input.value.trim()) {
+        feedback.textContent = "✗ Try again!";
+        feedback.style.color = "red";
+    }
+}
+
+function analyzePrepositions() {
+    const story = document.querySelector("textarea").value.toLowerCase();
+    const feedback = document.getElementById("feedback");
+    const score = ["à", "en", "de"].filter(prep => story.includes(prep)).length;
+    
+    if (score === 3) {
+        feedback.textContent = "Fantastique! You used all three prepositions.";
+    } else {
+        feedback.textContent = `Almost! Missing ${3 - score} preposition(s). Hint: Use à, en, and de.`;
+    }
+}
+</script>
+
+
+:::

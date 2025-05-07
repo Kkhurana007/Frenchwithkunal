@@ -1,0 +1,104 @@
+---
+title: "Future Simple vs Futur Antérieur: Exercises"
+author: "Kunal Khurana"
+date: "05-19-2025"
+categories: [A2/B1, grammar, future tenses, exercises]
+image: "futuranteriror.png"
+---
+
+# Understanding Future Simple and Futur Antérieur
+
+This activity will help you understand the differences between the **Future Simple** and the **Futur Antérieur** in French.
+
+---
+
+## Activity 1: Fill in the blanks
+
+Complete the sentences with the correct form of the verb in **Future Simple** or **Futur Antérieur**.
+
+1. Quand tu (finir) <input type="text" oninput="checkAnswer(this, 'auras fini')" /> tes devoirs, nous (aller) <input type="text" oninput="checkAnswer(this, 'irons')" /> au cinéma.
+2. Elle (partir) <input type="text" oninput="checkAnswer(this, 'sera partie')" /> avant que nous (arriver) <input type="text" oninput="checkAnswer(this, 'arrivions')" />.
+3. Nous (terminer) <input type="text" oninput="checkAnswer(this, 'aurons terminé')" /> le projet avant la fin de la semaine.
+4. Si tu (étudier) <input type="text" oninput="checkAnswer(this, 'étudies')" /> bien, tu (réussir) <input type="text" oninput="checkAnswer(this, 'réussiras')" /> ton examen.
+5. Ils (avoir) <input type="text" oninput="checkAnswer(this, 'auront eu')" /> déjà mangé quand nous (arriver) <input type="text" oninput="checkAnswer(this, 'arriverons')" />.
+
+---
+
+## Activity 2: Match the sentences
+
+Match the sentences in **Future Simple** with their corresponding **Futur Antérieur** equivalents.
+
+1. **Future Simple**: Je travaillerai demain.  
+    **Futur Antérieur**: a) J'aurai travaillé avant de partir.
+
+2. **Future Simple**: Nous voyagerons en Europe l'année prochaine.  
+    **Futur Antérieur**: b) Nous aurons voyagé en Europe avant de commencer un nouveau projet.
+
+3. **Future Simple**: Ils finiront leurs études dans deux ans.  
+    **Futur Antérieur**: c) Ils auront fini leurs études avant de chercher un emploi.
+
+---
+
+## Activity 3: Rewrite the sentences
+
+Rewrite the following sentences in the **Futur Antérieur**.
+
+1. Je mangerai avant de partir.  
+2. Nous finirons nos devoirs avant le dîner.  
+3. Elle arrivera à la gare avant que le train parte.  
+4. Vous comprendrez la leçon après avoir étudié.  
+5. Ils visiteront le musée avant de rentrer.
+
+---
+
+## Activity 4: Choose the correct tense
+
+Choose the correct tense (**Future Simple** or **Futur Antérieur**) for each sentence.
+
+1. Quand il <select onchange="checkAnswer(this, 'sera arrivé')"><option value="">(arrivera / sera arrivé)</option><option value="arrivera">arrivera</option><option value="sera arrivé">sera arrivé</option></select> à la maison, il <select onchange="checkAnswer(this, 'dînera')"><option value="">(dînera / aura dîné)</option><option value="dînera">dînera</option><option value="aura dîné">aura dîné</option></select>.  
+2. Nous <select onchange="checkAnswer(this, 'partirons')"><option value="">(partirons / serons partis)</option><option value="partirons">partirons</option><option value="serons partis">serons partis</option></select> après que vous <select onchange="checkAnswer(this, 'aurez fini')"><option value="">(finirez / aurez fini)</option><option value="finirez">finirez</option><option value="aurez fini">aurez fini</option></select> votre travail.  
+3. Elle <select onchange="checkAnswer(this, 'sera allée')"><option value="">(sera / sera allée)</option><option value="sera">sera</option><option value="sera allée">sera allée</option></select> à Paris avant qu'il <select onchange="checkAnswer(this, 'vienne')"><option value="">(viendra / vienne)</option><option value="viendra">viendra</option><option value="vienne">vienne</option></select>.  
+4. Tu <select onchange="checkAnswer(this, 'auras terminé')"><option value="">(auras / auras terminé)</option><option value="auras">auras</option><option value="auras terminé">auras terminé</option></select> ton livre avant que je <select onchange="checkAnswer(this, 'commence')"><option value="">(commencerai / commence)</option><option value="commencerai">commencerai</option><option value="commence">commence</option></select> le mien.  
+5. Ils <select onchange="checkAnswer(this, 'seront partis')"><option value="">(seront / seront partis)</option><option value="seront">seront</option><option value="seront partis">seront partis</option></select> avant que nous <select onchange="checkAnswer(this, 'arrivions')"><option value="">(arriverons / arrivions)</option><option value="arriverons">arriverons</option><option value="arrivions">arrivions</option></select>.
+
+---
+
+## Activity 5: Create your own sentences
+
+Write 3 sentences using the **Future Simple** and 3 sentences using the **Futur Antérieur**. Share them with a partner and explain why you used each tense.
+
+---
+
+```{=html}
+
+<script>
+function checkAnswer(input, correctAnswer) {
+    const userAnswer = input.value.trim().toLowerCase();
+    const feedback = input.nextElementSibling;
+    if (!feedback) {
+        const span = document.createElement('span');
+        span.style.marginLeft = '10px';
+        input.parentNode.appendChild(span);
+    }
+    if (userAnswer === correctAnswer) {
+        input.nextElementSibling.textContent = "Correct! +10 points";
+        input.nextElementSibling.style.color = "green";
+    } else if (userAnswer) {
+        input.nextElementSibling.textContent = "Try again!";
+        input.nextElementSibling.style.color = "red";
+    } else {
+        input.nextElementSibling.textContent = "";
+    }
+}
+
+function checkAllAnswers() {
+    const inputs = document.querySelectorAll('input[type="text"]');
+    inputs.forEach(input => {
+        const correctAnswer = input.getAttribute('oninput').match(/'([^']+)'/)[1];
+        checkAnswer(input, correctAnswer);
+    });
+}
+</script>
+```
+
+By practicing these activities, you will better understand when to use the **Future Simple** for actions that will happen in the future and the **Futur Antérieur** for actions that will have been completed before another future action.

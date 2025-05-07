@@ -1,0 +1,69 @@
+---
+title: "Passé Composé vs Plus-que-parfait: Exercises"
+author: "Kunal Khurana"
+date: "05-12-2025"
+categories: [A1/A2, grammar, plus-que-parfait, exercises]
+image: "PC_PQP.png"
+---
+
+::: {.content-visible when-profile="english"}
+
+# Plus-que-parfait and Passé Composé Exercises
+
+The **plus-que-parfait** is used to describe actions that had already been completed before another action in the past. The **passé composé**, on the other hand, is used to describe completed actions in the past with a clear time frame.
+
+## When to Use Them
+- **Plus-que-parfait**: To indicate an action that occurred before another past action.
+    - Example: *J'avais fini mes devoirs avant de sortir.* (I had finished my homework before going out.)
+- **Passé Composé**: To describe a specific, completed action in the past.
+    - Example: *J'ai mangé une pomme.* (I ate an apple.)
+
+---
+
+## Exercise 1: Fill in the Blanks
+Complete the sentences with the correct form of the verb in **plus-que-parfait** or **passé composé**.
+
+1. Quand je (arriver) _________ à la gare, le train (partir) _________.
+2. Elle (finir) _________ ses devoirs avant que nous (arriver) _________.
+3. Nous (visiter) _________ Paris l'année dernière.
+4. Ils (manger) _________ avant que le film (commencer) _________.
+5. Tu (oublier) _________ ton parapluie chez moi hier.
+
+---
+
+## Exercise 2: Match the Columns
+Match the sentences in Column A with their corresponding explanations in Column B.
+
+| **Column A**                                      | **Column B**                                      |
+|---------------------------------------------------|--------------------------------------------------|
+| 1. J'avais déjà lu ce livre avant de le revoir.   | a. Plus-que-parfait: Action completed before another past action. |
+| 2. Nous avons vu un film hier soir.               | b. Passé composé: Completed action in the past.  |
+| 3. Elle avait préparé le dîner avant notre arrivée. | c. Plus-que-parfait: Action completed before another past action. |
+| 4. Ils ont acheté une maison l'année dernière.    | d. Passé composé: Completed action in the past.  |
+
+---
+
+## Exercise 3: Rewrite the Sentences
+Rewrite the sentences using the correct tense (**plus-que-parfait** or **passé composé**).
+
+1. Avant de partir, il (prendre) _________ son sac.
+2. Hier, nous (aller) _________ au musée.
+3. Elle (terminer) _________ son travail avant que je (arriver) _________.
+4. Ils (décider) _________ de partir après avoir entendu les nouvelles.
+
+---
+
+## Exercise 4: Identify the Tense
+Read the sentences below and identify whether the verb is in **plus-que-parfait** or **passé composé**.
+
+1. J'avais oublié mes clés à la maison.
+2. Nous avons rencontré nos amis au café.
+3. Elle avait déjà vu ce film avant de le revoir avec nous.
+4. Ils ont fini leurs devoirs avant le dîner.
+
+---
+
+## Answers
+Provide answers to the exercises in a separate section or document for self-assessment.
+
+:::
