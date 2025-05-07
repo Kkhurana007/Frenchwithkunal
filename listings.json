@@ -1,5 +1,14 @@
 [
   {
+    "listing": "/exercises.html",
+    "items": [
+      "/exercises/19052025/aller.html",
+      "/exercises/19052025/avoir.html",
+      "/exercises/19052025/etre.html",
+      "/exercises/19052025/faire.html"
+    ]
+  },
+  {
     "listing": "/posts.html",
     "items": [
       "/posts/28042025/conver2.html",
