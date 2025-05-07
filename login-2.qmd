@@ -148,5 +148,4 @@ const is_french = urlParams.get('lang') === 'fr'; // Default is English unless '
 
   ReactDOM.render(<LoginForm />, document.getElementById('react-root'));
 </script>
-
 ```

@@ -1,0 +1,24 @@
+---
+title: "Exercises"
+listing:
+  contents: 
+  - "exercises/**/*/**.qmd"
+  type: grid
+  fields: [image, date, title, subtitle, categories, author, reading-time]
+  sort: "date desc"
+  #categories: cloud
+  sort-ui: false
+  filter-ui: false
+  page-size: 9         
+
+page-layout: full
+title-block-banner: false
+comments: false
+toc: true
+
+format:
+  html:
+    include-in-header:
+      - text: |
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+---

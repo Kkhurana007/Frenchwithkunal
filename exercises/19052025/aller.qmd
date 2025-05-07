@@ -1,0 +1,134 @@
+---
+title: "Exercises with Aller"
+author: "Kunal Khurana"
+date: "05-12-2025"
+categories: [A1/A2, grammar, aller, exercises]
+image: "aller.png"
+---
+
+::: {.content-visible when-profile="english"}
+# Exercise: Practicing the Verb "Aller"
+
+Here are some exercises to practice conjugating the verb **aller** (to go) in French:
+
+1.  Conjugate the verb "aller" in the present tense for the following subjects:
+    -   Je <input type="text" placeholder="Enter answer here" oninput="checkAnswer(this, 'vais')"> au marché.
+    -   Tu <input type="text" placeholder="Enter answer here" oninput="checkAnswer(this, 'vas')"> à l'école.
+    -   Il/Elle <input type="text" placeholder="Enter answer here" oninput="checkAnswer(this, 'va')"> au cinéma.
+    -   Nous <input type="text" placeholder="Enter answer here" oninput="checkAnswer(this, 'allons')"> à la plage.
+    -   Vous <input type="text" placeholder="Enter answer here" oninput="checkAnswer(this, 'allez')"> au restaurant.
+    -   Ils/Elles <input type="text" placeholder="Enter answer here" oninput="checkAnswer(this, 'vont')"> au parc.
+
+<br>
+
+2.  Fill in the blanks with the correct form of "aller" in the future tense:
+    -   Demain, je <input type="text" placeholder="Enter answer here" oninput="checkAnswer(this, 'irai')"> à Paris.
+    -   La semaine prochaine, nous <input type="text" placeholder="Enter answer here" oninput="checkAnswer(this, 'irons')"> en vacances.
+    -   Est-ce que tu <input type="text" placeholder="Enter answer here" oninput="checkAnswer(this, 'iras')"> au concert ce soir ?
+    -   Ils/Elles <input type="text" placeholder="Enter answer here" oninput="checkAnswer(this, 'iront')"> à la montagne.
+    -   Vous <input type="text" placeholder="Enter answer here" oninput="checkAnswer(this, 'irez')"> au musée demain.
+    -   Il/Elle <input type="text" placeholder="Enter answer here" oninput="checkAnswer(this, 'ira')"> à l'université l'année prochaine.
+
+```{=html}
+<script>
+function checkAnswer(input, correctAnswer) {
+    const userAnswer = input.value.trim().toLowerCase();
+    const feedback = input.nextElementSibling;
+    if (!feedback) {
+        const span = document.createElement('span');
+        span.style.marginLeft = '10px';
+        input.parentNode.appendChild(span);
+    }
+    if (userAnswer === correctAnswer) {
+        input.nextElementSibling.textContent = "Correct! +10 points";
+        input.nextElementSibling.style.color = "green";
+    } else if (userAnswer) {
+        input.nextElementSibling.textContent = "Try again!";
+        input.nextElementSibling.style.color = "red";
+    } else {
+        input.nextElementSibling.textContent = "";
+    }
+}
+
+function checkAllAnswers() {
+    const inputs = document.querySelectorAll('input[type="text"]');
+    inputs.forEach(input => {
+        const correctAnswer = input.getAttribute('oninput').match(/'([^']+)'/)[1];
+        checkAnswer(input, correctAnswer);
+    });
+}
+</script>
+```
+
+3.  Translate the following sentences into French using the verb "aller":
+
+    -   I am going to the store.\
+
+        ```{=html}
+        <textarea placeholder="Enter your translation here" rows="2" cols="50"></textarea>
+        ```
+
+    -   They are going to the museum.\
+
+        ```{=html}
+        <textarea placeholder="Enter your translation here" rows="2" cols="50"></textarea>
+        ```
+
+    -   We are going to the library.\
+
+        ```{=html}
+        <textarea placeholder="Enter your translation here" rows="2" cols="50"></textarea>
+        ```
+
+    <button onclick="showAllTranslations()">
+
+    Submit
+
+    </button>
+
+```{=html}
+<script>
+function showAllTranslations() {
+    const translations = [
+        { input: document.querySelectorAll('textarea')[0], correct: 'Je vais au magasin.' },
+        { input: document.querySelectorAll('textarea')[1], correct: 'Ils/Elles vont au musée.' },
+        { input: document.querySelectorAll('textarea')[2], correct: 'Nous allons à la bibliothèque.' }
+    ];
+
+    translations.forEach(({ input, correct }) => {
+        let feedback = input.nextElementSibling;
+
+        if (!feedback || feedback.tagName !== 'SPAN') {
+            feedback = document.createElement('span');
+            feedback.style.marginLeft = '10px';
+            input.parentNode.appendChild(feedback);
+        }
+
+        const userTranslation = input.value.trim();
+        if (userTranslation.toLowerCase() === correct.toLowerCase()) {
+            feedback.textContent = "Correct! The translation is: " + correct;
+            feedback.style.color = "green";
+        } else {
+            feedback.textContent = "The correct translation is: " + correct;
+            feedback.style.color = "red";
+        }
+    });
+
+    // Ensure the button remains visible after feedback is displayed
+    document.querySelector('button[onclick="showAllTranslations()"]').scrollIntoView({ behavior: 'smooth', block: 'center' });
+}
+</script>
+```
+
+4.  Write a short paragraph about where you and your friends are going this weekend using different forms of "aller."
+
+    ```{=html}
+    <textarea placeholder="Write your paragraph here" rows="5" cols="50"></textarea>
+    ```
+
+    <button onclick="checkAllAnswers()">
+
+    Check All Answers
+
+    </button>
+:::

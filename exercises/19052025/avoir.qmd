@@ -1,0 +1,130 @@
+---
+title: "Exercises with Avoir"
+author: "Kunal Khurana"
+date: "05-12-2025"
+categories: [A1/A2, grammar, aller, exercises]
+image: "avoir.png"
+---
+
+::: {.content-visible when-profile="english"}
+# Exercise: Practicing the Verb "Aller"
+
+Here are some exercises to practice conjugating the verb **aller** (to go) in French:
+
+1.  Conjugate the verb "avoir" in the present tense for the following subjects:
+    -   J' <input type="text" placeholder="Enter answer here" oninput="checkAnswer(this, 'ai')"> un livre.
+    -   Tu <input type="text" placeholder="Enter answer here" oninput="checkAnswer(this, 'as')"> une voiture.
+    -   Il/Elle <input type="text" placeholder="Enter answer here" oninput="checkAnswer(this, 'a')"> un chien.
+    -   Nous <input type="text" placeholder="Enter answer here" oninput="checkAnswer(this, 'avons')"> une maison.
+    -   Vous <input type="text" placeholder="Enter answer here" oninput="checkAnswer(this, 'avez')"> un jardin.
+    -   Ils/Elles <input type="text" placeholder="Enter answer here" oninput="checkAnswer(this, 'ont')"> des amis.
+
+<br>
+
+2.  Fill in the blanks with the correct form of "avoir" in the past tense (passé composé):
+    -   Hier, j' <input type="text" placeholder="Enter answer here" oninput="checkAnswer(this, 'ai eu')"> une idée géniale.
+    -   La semaine dernière, nous <input type="text" placeholder="Enter answer here" oninput="checkAnswer(this, 'avons eu')"> une réunion importante.
+    -   Est-ce que tu <input type="text" placeholder="Enter answer here" oninput="checkAnswer(this, 'as eu')"> des nouvelles de lui ?
+    -   Ils/Elles <input type="text" placeholder="Enter answer here" oninput="checkAnswer(this, 'ont eu')"> un accident.
+    -   Vous <input type="text" placeholder="Enter answer here" oninput="checkAnswer(this, 'avez eu')"> une surprise hier.
+    -   Il/Elle <input type="text" placeholder="Enter answer here" oninput="checkAnswer(this, 'a eu')"> un problème avec son ordinateur.
+
+```{=html}
+<script>
+function checkAnswer(input, correctAnswer) {
+    const userAnswer = input.value.trim().toLowerCase();
+    const feedback = input.nextElementSibling;
+    if (!feedback) {
+        const span = document.createElement('span');
+        span.style.marginLeft = '10px';
+        input.parentNode.appendChild(span);
+    }
+    if (userAnswer === correctAnswer) {
+        input.nextElementSibling.textContent = "Correct! +10 points";
+        input.nextElementSibling.style.color = "green";
+    } else if (userAnswer) {
+        input.nextElementSibling.textContent = "Try again!";
+        input.nextElementSibling.style.color = "red";
+    } else {
+        input.nextElementSibling.textContent = "";
+    }
+}
+
+function checkAllAnswers() {
+    const inputs = document.querySelectorAll('input[type="text"]');
+    inputs.forEach(input => {
+        const correctAnswer = input.getAttribute('oninput').match(/'([^']+)'/)[1];
+        checkAnswer(input, correctAnswer);
+    });
+}
+</script>
+```
+
+3.  Translate the following sentences into French using the verb "avoir":
+
+    -   I have a book.\
+
+        ```{=html}
+        <textarea placeholder="Enter your translation here" rows="2" cols="50"></textarea>
+        ```
+
+    -   They have a dog.\
+
+        ```{=html}
+        <textarea placeholder="Enter your translation here" rows="2" cols="50"></textarea>
+        ```
+
+    -   We have a house.\
+
+        ```{=html}
+        <textarea placeholder="Enter your translation here" rows="2" cols="50"></textarea>
+        ```
+
+    <button onclick="showAllTranslations()">
+    Submit
+    </button>
+
+```{=html}
+<script>
+function showAllTranslations() {
+    const translations = [
+        { input: document.querySelectorAll('textarea')[0], correct: 'J\'ai un livre.' },
+        { input: document.querySelectorAll('textarea')[1], correct: 'Ils/Elles ont un chien.' },
+        { input: document.querySelectorAll('textarea')[2], correct: 'Nous avons une maison.' }
+    ];
+
+    translations.forEach(({ input, correct }) => {
+        let feedback = input.nextElementSibling;
+
+        if (!feedback || feedback.tagName !== 'SPAN') {
+            feedback = document.createElement('span');
+            feedback.style.marginLeft = '10px';
+            input.parentNode.appendChild(feedback);
+        }
+
+        const userTranslation = input.value.trim();
+        if (userTranslation.toLowerCase() === correct.toLowerCase()) {
+            feedback.textContent = "Correct! The translation is: " + correct;
+            feedback.style.color = "green";
+        } else {
+            feedback.textContent = "The correct translation is: " + correct;
+            feedback.style.color = "red";
+        }
+    });
+
+    // Ensure the button remains visible after feedback is displayed
+    document.querySelector('button[onclick="showAllTranslations()"]').scrollIntoView({ behavior: 'smooth', block: 'center' });
+}
+</script>
+```
+
+4.  Write a short paragraph about what you and your friends have done recently using different forms of "avoir."
+
+    ```{=html}
+    <textarea placeholder="Write your paragraph here" rows="5" cols="50"></textarea>
+    ```
+
+    <button onclick="checkAllAnswers()">
+    Check All Answers
+    </button>
+:::

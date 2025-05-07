@@ -226,5 +226,38 @@
   },
   "login-2.qmd": {
     "login-2.html": "a307fa1d"
+  },
+  "posts/12052025/exercises.qmd": {
+    "exercises.html": "ad25e0e0"
+  },
+  "exercises/12052025/exercises.qmd": {
+    "exercises.html": "cdea582c"
+  },
+  "exercises/12052025/19052025/aller.qmd": {
+    "aller.html": "b9d305e7"
+  },
+  "exercises/12052025/19052025/avoir.qmd": {
+    "avoir.html": "ed3204e4"
+  },
+  "exercises/12052025/19052025/etre.qmd": {
+    "etre.html": "0d42942b"
+  },
+  "exercises/12052025/19052025/faire.qmd": {
+    "faire.html": "795d45aa"
+  },
+  "exercises/19052025/aller.qmd": {
+    "aller.html": "abfc4016"
+  },
+  "exercises/19052025/avoir.qmd": {
+    "avoir.html": "8b983fab"
+  },
+  "exercises/19052025/etre.qmd": {
+    "etre.html": "ee12728d"
+  },
+  "exercises/19052025/faire.qmd": {
+    "faire.html": "da63a304"
+  },
+  "exercises.qmd": {
+    "exercises.html": "59c3013a"
   }
 }

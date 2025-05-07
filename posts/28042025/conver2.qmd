@@ -10,9 +10,14 @@ image: conver2.png
 <a href="mailto:frenchwithkunal@gmail.com" target="_blank" style="margin: 0 10px; color: #000;"><i class="fas fa-envelope fa-lg"></i></a> <a href="https://www.instagram.com/frenchwithkunal" target="_blank" style="margin: 0 10px; color: #E1306C;"><i class="fab fa-instagram fa-lg"></i></a> <a href="https://frenchwithkunal.ca" target="_blank" style="margin: 0 10px; color: #0077b5;"><i class="fas fa-globe fa-lg"></i></a> <a href="https://whatsapp.com/channel/0029Vb57n2e7dmegpjYpyi3V" target="_blank" style="margin: 0 10px; color: #25D366;"><i class="fab fa-whatsapp fa-lg"></i></a> <button onclick="copyLink()" style="background-color: #0077b5; color: white; padding: 8px 16px; border: none; border-radius: 4px; cursor: pointer; margin-left: 10px;"> <i class="fas fa-copy"></i> </button> [Link copied!]{#copy-message style="margin-left: 10px; color: green; display: none;"}
 :::
 
+:::: {.content-visible when-profile="english"}
+::: {#elevenlabs-audionative-widget data-height="90" data-width="100%" data-frameborder="no" data-scrolling="no" data-publicuserid="00f593a708d48d2c072236baa8d6e43a38696a6552a1b0970262791c6ca831ff" data-playerurl="https://elevenlabs.io/player/index.html"}
+Loading the <a href="https://elevenlabs.io/text-to-speech" target="_blank" rel="noopener">Elevenlabs Text to Speech</a> AudioNative Player...
+:::
 
-
-::: {.content-visible when-profile="english"}
+```{=html}
+<script src="https://elevenlabs.io/player/audioNativeHelper.js" type="text/javascript"></script>
+```
 
 # 1. Why I Am Learning French
 
@@ -20,61 +25,55 @@ Learning a new language is an exciting journey, and for me, French has always be
 
 ## My Reasons for Learning French
 
-1. **Travel**: French is a beautiful language, and knowing it will make traveling to French-speaking countries much more enjoyable. Whether it's exploring Paris or the countryside, speaking the language adds a personal touch to the experience.
+1.  **Travel**: French is a beautiful language, and knowing it will make traveling to French-speaking countries much more enjoyable. Whether it's exploring Paris or the countryside, speaking the language adds a personal touch to the experience.
 
-2. **Cultural Appreciation**: I adore French culture. From its art and literature to its cuisine and cinema, learning the language allows me to connect more deeply with this rich heritage.
+2.  **Cultural Appreciation**: I adore French culture. From its art and literature to its cuisine and cinema, learning the language allows me to connect more deeply with this rich heritage.
 
-3. **Professional Growth**: French is incredibly useful for my work. It opens up opportunities to collaborate with French-speaking colleagues and clients.
+3.  **Professional Growth**: French is incredibly useful for my work. It opens up opportunities to collaborate with French-speaking colleagues and clients.
 
-4. **Academic Pursuits**: French is part of my university studies, and mastering it is essential for my academic success.
+4.  **Academic Pursuits**: French is part of my university studies, and mastering it is essential for my academic success.
 
-5. **Living in Québec**: Since I live in Québec, learning French is not just practical but also a way to integrate better into the community.
+5.  **Living in Québec**: Since I live in Québec, learning French is not just practical but also a way to integrate better into the community.
 
-6. **Love for Languages**: I simply love learning new languages, and French is no exception. It’s a challenge I enjoy taking on.
+6.  **Love for Languages**: I simply love learning new languages, and French is no exception. It’s a challenge I enjoy taking on.
 
 ## Common French Question Words
 
 As I learn French, I’ve noticed that certain question words are used frequently. Here are some examples:
 
-- **Pourquoi?** (Why?)
-- **Qu'est-ce que?** (What?)
-- **Quand?** (When?)
-- **Où?** (Where?)
-- **Qui?** (Who?)
-- **Combien?** (How much/many?)
-- **Quel/Quelle?** (Which?)
+-   **Pourquoi?** (Why?)
+-   **Qu'est-ce que?** (What?)
+-   **Quand?** (When?)
+-   **Où?** (Where?)
+-   **Qui?** (Who?)
+-   **Combien?** (How much/many?)
+-   **Quel/Quelle?** (Which?)
 
 ## Sentence Practice for Beginners
 
 To build confidence, I practice simple sentences like:
 
-- **Je m'appelle ____.** (My name is ____.)
-- **J'ai ___ ans.** (I am ___ years old.)
-- **J'ai un chat.** (I have a cat.)
-- **Je suis indien.** (I am Indian.)
-- **Où est la gare?** (Where is the train station?)
+-   **Je m'appelle \_\_\_\_.** (My name is \_\_\_\_.)
+-   **J'ai \_\_\_ ans.** (I am \_\_\_ years old.)
+-   **J'ai un chat.** (I have a cat.)
+-   **Je suis indien.** (I am Indian.)
+-   **Où est la gare?** (Where is the train station?)
 
-
-{{< video https://youtu.be/NhlHKOlvk28
-    title="Basic phrases to practice french"
-    start="10"
-    aspect-ratio="21x9" 
->}}
-
+{{< video https://youtu.be/NhlHKOlvk28 title="Basic phrases to practice french" start="10" aspect-ratio="21x9" >}}
 
 ## Learning Grammar
 
 Understanding grammar is key to mastering any language. In French, I focus on:
 
-- **Nouns (nom)**  
-- **Verbs (verbe)**  
-- **Adjectives (adjectif)**  
-- **Adverbs (adverbe)**  
-- **Prepositions (préposition)**  
-- **Conjunctions (conjunction)**  
-- **Pronouns (pronom)**  
-- **Idiomatic Expressions (expression idiomatique)**  
-- **Subjects and Objects (sujet, objet)**  
+-   **Nouns (nom)**\
+-   **Verbs (verbe)**\
+-   **Adjectives (adjectif)**\
+-   **Adverbs (adverbe)**\
+-   **Prepositions (préposition)**\
+-   **Conjunctions (conjunction)**\
+-   **Pronouns (pronom)**\
+-   **Idiomatic Expressions (expression idiomatique)**\
+-   **Subjects and Objects (sujet, objet)**
 
 Learning French is a rewarding experience, and I’m excited to continue this journey. Whether it’s for travel, work, or personal growth, mastering this beautiful language is a goal worth pursuing.
 
@@ -82,57 +81,61 @@ Learning French is a rewarding experience, and I’m excited to continue this jo
 
 As part of my French learning journey, I’ve been exploring vocabulary and phrases related to leisure activities. Here are some common activities and expressions:
 
-### What do you like to do in your free time?  
-**Qu'est-ce que tu aimes faire pendant ton temps libre?**  
+### What do you like to do in your free time?
 
-Some popular activities include:  
-- Jouer aux jeux vidéos (Playing video games)  
-- Prendre des photos (Taking photos)  
-- Surfer sur internet (Surfing the internet)  
-- Peindre (Painting)  
-- Lire (Reading)  
-- Regarder des films (Watching movies)  
-- Jouer d'un instrument (Playing an instrument)  
-- Faire du vélo (Cycling)  
-- Écouter de la musique (Listening to music)  
-- Faire du shopping (Shopping)  
-- Faire du camping (Camping)  
-- Faire du sport (Playing sports)  
+**Qu'est-ce que tu aimes faire pendant ton temps libre?**
 
-### Movie Genres in French  
-When talking about movies, here are some genres to know:  
-- Comédie (Comedy)  
-- Science-fiction (Science fiction)  
-- Romance (Romance)  
-- Thriller (Thriller)  
-- Action (Action)  
-- Fantaisie (Fantasy)  
-- Comédie musicale (Musical comedy)  
-- Horreur (Horror)  
-- Drame (Drama)  
-- Documentaire (Documentary)  
-- Dessin animé (Animated film)  
-- Mystère (Mystery)  
+Some popular activities include:\
+- Jouer aux jeux vidéos (Playing video games)\
+- Prendre des photos (Taking photos)\
+- Surfer sur internet (Surfing the internet)\
+- Peindre (Painting)\
+- Lire (Reading)\
+- Regarder des films (Watching movies)\
+- Jouer d'un instrument (Playing an instrument)\
+- Faire du vélo (Cycling)\
+- Écouter de la musique (Listening to music)\
+- Faire du shopping (Shopping)\
+- Faire du camping (Camping)\
+- Faire du sport (Playing sports)
 
-### What are you doing this weekend?  
-**Qu'est-ce que vous faites ce week-end?**  
+### Movie Genres in French
 
-Here are some common weekend activities:  
-- Aller au cinéma (Going to the cinema)  
-- Aller à un concert (Going to a concert)  
-- Aller à un parc d'attractions (Going to an amusement park)  
-- Aller au karaoké (Going to karaoke)  
-- Rester à la maison (Staying at home)  
-- Regarder la télévision (Watching TV)  
-- Aller au parc (Going to the park)  
-- Aller au théâtre (Going to the theater)  
-- Voyager (Traveling)  
+When talking about movies, here are some genres to know:\
+- Comédie (Comedy)\
+- Science-fiction (Science fiction)\
+- Romance (Romance)\
+- Thriller (Thriller)\
+- Action (Action)\
+- Fantaisie (Fantasy)\
+- Comédie musicale (Musical comedy)\
+- Horreur (Horror)\
+- Drame (Drama)\
+- Documentaire (Documentary)\
+- Dessin animé (Animated film)\
+- Mystère (Mystery)
 
-### French Movies to Watch  
-Watching French movies is a great way to immerse yourself in the language. Here are a couple of recommendations:  
-- **Amélie**  
-- **Au revoir là-haut**  
-- **L'Artiste**  
+### What are you doing this weekend?
+
+**Qu'est-ce que vous faites ce week-end?**
+
+Here are some common weekend activities:\
+- Aller au cinéma (Going to the cinema)\
+- Aller à un concert (Going to a concert)\
+- Aller à un parc d'attractions (Going to an amusement park)\
+- Aller au karaoké (Going to karaoke)\
+- Rester à la maison (Staying at home)\
+- Regarder la télévision (Watching TV)\
+- Aller au parc (Going to the park)\
+- Aller au théâtre (Going to the theater)\
+- Voyager (Traveling)
+
+### French Movies to Watch
+
+Watching French movies is a great way to immerse yourself in the language. Here are a couple of recommendations:\
+- **Amélie**\
+- **Au revoir là-haut**\
+- **L'Artiste**
 
 Exploring leisure activities and entertainment in French not only helps expand your vocabulary but also makes learning the language more enjoyable and relatable.
 
@@ -144,73 +147,83 @@ Cooking is another fantastic way to learn French vocabulary and immerse yourself
 
 In the kitchen, you’ll find:
 
-- Un mixeur (Blender)
+-   Un mixeur (Blender)
 
-- Un bol (Bowl)
-- Une cafetière (Coffee maker)
-- Un évier de cuisine (Kitchen sink)
-- Une planche à découper (Cutting board)
-- Un minuteur (Timer)
-- Un mixeur électrique (Electric mixer)
-- Une casserole (Saucepan)
-- Un four à micro-ondes (Microwave oven)
-- Une cuisinière (Stove)
-- Un grille-pain (Toaster)
-- Un réfrigérateur (Refrigerator)
+-   Un bol (Bowl)
+
+-   Une cafetière (Coffee maker)
+
+-   Un évier de cuisine (Kitchen sink)
+
+-   Une planche à découper (Cutting board)
+
+-   Un minuteur (Timer)
+
+-   Un mixeur électrique (Electric mixer)
+
+-   Une casserole (Saucepan)
+
+-   Un four à micro-ondes (Microwave oven)
+
+-   Une cuisinière (Stove)
+
+-   Un grille-pain (Toaster)
+
+-   Un réfrigérateur (Refrigerator)
 
 ## Ingredients and Measurements
+
 Here are some common ingredients and measurements in French:
 
-- **Une pincée de sel** (A pinch of salt)
+-   **Une pincée de sel** (A pinch of salt)
 
-- **200 ml de lait** (200 ml of milk)
+-   **200 ml de lait** (200 ml of milk)
 
-- **Poivre noir à goûter** (Black pepper to taste)
+-   **Poivre noir à goûter** (Black pepper to taste)
 
-- **Une tasse de farine** (A cup of flour)
+-   **Une tasse de farine** (A cup of flour)
 
-- **3 cuillères à soupe d'huile** (3 tablespoons of oil)
+-   **3 cuillères à soupe d'huile** (3 tablespoons of oil)
 
-- **2 œufs** (2 eggs)
+-   **2 œufs** (2 eggs)
 
-- **1 cuillère à café de beurre** (1 teaspoon of butter)
+-   **1 cuillère à café de beurre** (1 teaspoon of butter)
 
 ## Essential Cooking Verbs
 
 To follow recipes in French, it’s helpful to know these verbs:
 
-- **Remuer** (Stir)
+-   **Remuer** (Stir)
 
-- **Trancher** (Slice)
+-   **Trancher** (Slice)
 
-- **Griller** (Grill)
+-   **Griller** (Grill)
 
-- **Ajouter** (Add)
+-   **Ajouter** (Add)
 
-- **Couper en morceaux** (Chop)
+-   **Couper en morceaux** (Chop)
 
-- **Peler** (Peel)
+-   **Peler** (Peel)
 
-- **Battre** (Beat)
+-   **Battre** (Beat)
 
-- **Mélanger** (Mix)
+-   **Mélanger** (Mix)
 
 ## Reading Recipe Directions
 
 Here are some common phrases you might encounter in French recipes:
 
-- **Émincer les oignons** (Slice the onions)
+-   **Émincer les oignons** (Slice the onions)
 
-- **Battre les blancs d'œufs** (Beat the egg whites)
+-   **Battre les blancs d'œufs** (Beat the egg whites)
 
-- **Préchauffer le four** (Preheat the oven)
+-   **Préchauffer le four** (Preheat the oven)
 
-- **Ajouter le mélange à la crème** (Add the mixture to the cream)
+-   **Ajouter le mélange à la crème** (Add the mixture to the cream)
 
-- **Laisser mijoter à feu doux pendant environ 30 minutes** (Let simmer on low heat for about 30 minutes)
+-   **Laisser mijoter à feu doux pendant environ 30 minutes** (Let simmer on low heat for about 30 minutes)
 
 Cooking in French is a fun and practical way to expand your vocabulary while enjoying delicious meals. Bon appétit!
-
 
 # 4. Shopping for Clothes
 
@@ -218,215 +231,208 @@ Shopping for clothes in French can be a fun and practical way to practice the la
 
 ## Common Phrases in a Clothing Store
 
-- **Comment est-ce que je peux vous aider ?** (How can I help you?)
+-   **Comment est-ce que je peux vous aider ?** (How can I help you?)
 
-- **Je cherche...** (I am looking for...)
+-   **Je cherche...** (I am looking for...)
 
-    - **un pull-over** (a sweater)
+    -   **un pull-over** (a sweater)
 
-    - **une chemise** (a shirt)
+    -   **une chemise** (a shirt)
 
-    - **un T-shirt** (a T-shirt)
+    -   **un T-shirt** (a T-shirt)
 
-    - **un pantalon** (pants)
+    -   **un pantalon** (pants)
 
-    - **un short** (shorts)
+    -   **un short** (shorts)
 
-    - **un sous-vêtement** (underwear)
+    -   **un sous-vêtement** (underwear)
 
-    - **une veste** (a jacket)
+    -   **une veste** (a jacket)
 
-    - **un costume** (a suit)
+    -   **un costume** (a suit)
 
-    - **une jupe** (a skirt)
+    -   **une jupe** (a skirt)
 
-    - **une robe** (a dress)
+    -   **une robe** (a dress)
 
-    - **un chemisier** (a blouse)
+    -   **un chemisier** (a blouse)
 
-    - **un chapeau** (a hat)
+    -   **un chapeau** (a hat)
 
 ## Questions to Use in a Shopping Mall
 
-- **Est-ce que je peux essayer ceci ?** (Can I try this on?)
-- **Où est la cabine d'essayage ?** (Where is the fitting room?)
-- **L'avez-vous dans une taille plus grande ?** (Do you have it in a larger size?)
-- **L'avez-vous dans une autre couleur ?** (Do you have it in another color?)
-- **Acceptez-vous la carte bleue ?** (Do you accept credit cards?)
-- **Puis-je l'échanger ?** (Can I exchange it?)
+-   **Est-ce que je peux essayer ceci ?** (Can I try this on?)
+-   **Où est la cabine d'essayage ?** (Where is the fitting room?)
+-   **L'avez-vous dans une taille plus grande ?** (Do you have it in a larger size?)
+-   **L'avez-vous dans une autre couleur ?** (Do you have it in another color?)
+-   **Acceptez-vous la carte bleue ?** (Do you accept credit cards?)
+-   **Puis-je l'échanger ?** (Can I exchange it?)
 
 ## Must-Know Shopping Words
 
-- **faire des courses** (to go shopping)
-- **acheter** (to buy)
-- **vendre** (to sell)
-- **avoir** (to have)
-- **chercher** (to look for)
-- **associer** (to match)
-- **rendre** (to return)
-- **aimer** (to like)
+-   **faire des courses** (to go shopping)
+-   **acheter** (to buy)
+-   **vendre** (to sell)
+-   **avoir** (to have)
+-   **chercher** (to look for)
+-   **associer** (to match)
+-   **rendre** (to return)
+-   **aimer** (to like)
 
 ## Choosing the Perfect Color
 
-- **blanc** (white)
-- **jaune** (yellow)
-- **vert** (green)
-- **rouge** (red)
-- **gris** (gray)
-- **bleu marine** (navy blue)
-- **bleu** (blue)
-- **noir** (black)
+-   **blanc** (white)
+-   **jaune** (yellow)
+-   **vert** (green)
+-   **rouge** (red)
+-   **gris** (gray)
+-   **bleu marine** (navy blue)
+-   **bleu** (blue)
+-   **noir** (black)
 
 ## Describing Clothes
 
-- **serré** (tight)
-- **ample** (loose)
-- **court** (short)
-- **long** (long)
-- **grand** (big)
-- **petit** (small)
+-   **serré** (tight)
+-   **ample** (loose)
+-   **court** (short)
+-   **long** (long)
+-   **grand** (big)
+-   **petit** (small)
 
 Shopping for clothes in French is a great way to practice vocabulary and interact with native speakers. Bonne chance et bon shopping ! (Good luck and happy shopping!)
+
+{{< video https://www.youtube.com/watch?v=-P1pEfjM96Q title="Basic phrases to practice french" start="10" aspect-ratio="21x9" >}}
 
 # 5. What's in Your Wallet?
 
 When learning French, it’s helpful to know the vocabulary for everyday items you carry with you. Here’s a list of common items:
 
 ## Wallet Items (Dans le portefeuille)
-- **Carte de crédit** (Credit card)
-- **Carte de fidélité** (Loyalty card)
-- **Carte de visite** (Business card)
-- **Carte mutuelle** (Health insurance card)
-- **Espèces** (Cash)
-- **Carte d'identité** (ID card)
-- **Carte de retrait** (ATM card)
-- **Permis de conduire** (Driver’s license)
+
+-   **Carte de crédit** (Credit card)
+-   **Carte de fidélité** (Loyalty card)
+-   **Carte de visite** (Business card)
+-   **Carte mutuelle** (Health insurance card)
+-   **Espèces** (Cash)
+-   **Carte d'identité** (ID card)
+-   **Carte de retrait** (ATM card)
+-   **Permis de conduire** (Driver’s license)
 
 ## Personal Belongings (Objets personnels)
-- **Portefeuille** (Wallet)
-- **Clé** (Key)
-- **Sac à main** (Handbag)
-- **Passeport** (Passport)
-- **Parapluie** (Umbrella)
-- **Téléphone portable** (Mobile phone)
-- **Bracelet-montre** (Wristwatch)
-- **Écouteurs** (Earphones)
-- **Lunettes** (Glasses)
-- **Gants** (Gloves)
-- **Mallette** (Briefcase)
-- **Appareil photo** (Camera)
+
+-   **Portefeuille** (Wallet)
+-   **Clé** (Key)
+-   **Sac à main** (Handbag)
+-   **Passeport** (Passport)
+-   **Parapluie** (Umbrella)
+-   **Téléphone portable** (Mobile phone)
+-   **Bracelet-montre** (Wristwatch)
+-   **Écouteurs** (Earphones)
+-   **Lunettes** (Glasses)
+-   **Gants** (Gloves)
+-   **Mallette** (Briefcase)
+-   **Appareil photo** (Camera)
 
 ## Personal Questions and Answers (Questions et réponses personnelles)
 
 Here are some common personal questions and how to answer them:
 
-- **Quelle est votre adresse email ?** (What is your email address?)
-    - **Mon adresse email est...** (My email address is...)
-
-- **D'où venez-vous ?** (Where are you from?)
-    - **Je viens de...** (I am from...)
-
-
-- **Quel est votre numéro de passeport ?** (What is your passport number?)
-    - **Mon numéro de passeport est...** (My passport number is...)
+-   **Quelle est votre adresse email ?** (What is your email address?)
+    -   **Mon adresse email est...** (My email address is...)
+-   **D'où venez-vous ?** (Where are you from?)
+    -   **Je viens de...** (I am from...)
+-   **Quel est votre numéro de passeport ?** (What is your passport number?)
+    -   **Mon numéro de passeport est...** (My passport number is...)
 
 ## Filling Out Personal Information (Remplir vos informations personnelles)
 
 When filling out forms in French, you might encounter these terms:
 
-- **Prénom** (First name)
+-   **Prénom** (First name)
 
-- **Nom de famille** (Last name)
+-   **Nom de famille** (Last name)
 
-- **Âge** (Age)
+-   **Âge** (Age)
 
-- **Anniversaire** (Birthday)
+-   **Anniversaire** (Birthday)
 
-- **Profession** (Profession)
+-   **Profession** (Profession)
 
-- **Adresse** (Address)
+-   **Adresse** (Address)
 
-- **Pays** (Country)
+-   **Pays** (Country)
 
-- **Nationalité** (Nationality)
+-   **Nationalité** (Nationality)
 
-- **Numéro de téléphone** (Phone number)
+-   **Numéro de téléphone** (Phone number)
 
-- **E-mail** (Email)
+-   **E-mail** (Email)
 
-- **Célibataire** (Single)
+-   **Célibataire** (Single)
 
-- **Marié** (Married)
+-   **Marié** (Married)
 
-- **Divorcé** (Divorced)
+-   **Divorcé** (Divorced)
 
 Knowing these words and phrases will help you navigate everyday situations and fill out forms in French with ease. Bonne chance ! (Good luck!)
-
-:::
-
+::::
 
 ::: {.content-visible when-profile="french"}
-
 # 1. Pourquoi j'apprends le français
 
 Apprendre une nouvelle langue est un voyage passionnant, et pour moi, le français a toujours été une langue fascinante. Voici mes raisons d'apprendre le français :
 
 ## Mes raisons d'apprendre le français
 
-1. **Voyage** : Le français est une belle langue, et le connaître rendra les voyages dans les pays francophones beaucoup plus agréables. Que ce soit pour explorer Paris ou la campagne, parler la langue ajoute une touche personnelle à l'expérience.
+1.  **Voyage** : Le français est une belle langue, et le connaître rendra les voyages dans les pays francophones beaucoup plus agréables. Que ce soit pour explorer Paris ou la campagne, parler la langue ajoute une touche personnelle à l'expérience.
 
-2. **Appréciation culturelle** : J'adore la culture française. De son art et sa littérature à sa cuisine et son cinéma, apprendre la langue me permet de me connecter plus profondément à ce riche patrimoine.
+2.  **Appréciation culturelle** : J'adore la culture française. De son art et sa littérature à sa cuisine et son cinéma, apprendre la langue me permet de me connecter plus profondément à ce riche patrimoine.
 
-3. **Croissance professionnelle** : Le français est incroyablement utile pour mon travail. Il ouvre des opportunités de collaboration avec des collègues et clients francophones.
+3.  **Croissance professionnelle** : Le français est incroyablement utile pour mon travail. Il ouvre des opportunités de collaboration avec des collègues et clients francophones.
 
-4. **Études académiques** : Le français fait partie de mes études universitaires, et le maîtriser est essentiel pour ma réussite académique.
+4.  **Études académiques** : Le français fait partie de mes études universitaires, et le maîtriser est essentiel pour ma réussite académique.
 
-5. **Vivre au Québec** : Puisque je vis au Québec, apprendre le français est non seulement pratique mais aussi une façon de mieux m'intégrer dans la communauté.
+5.  **Vivre au Québec** : Puisque je vis au Québec, apprendre le français est non seulement pratique mais aussi une façon de mieux m'intégrer dans la communauté.
 
-6. **Amour des langues** : J'aime tout simplement apprendre de nouvelles langues, et le français ne fait pas exception. C'est un défi que j'apprécie.
+6.  **Amour des langues** : J'aime tout simplement apprendre de nouvelles langues, et le français ne fait pas exception. C'est un défi que j'apprécie.
 
 ## Mots interrogatifs courants en français
 
 En apprenant le français, j'ai remarqué que certains mots interrogatifs sont fréquemment utilisés. Voici quelques exemples :
 
-- **Pourquoi ?** (Pourquoi ?)
-- **Qu'est-ce que ?** (Quoi ?)
-- **Quand ?** (Quand ?)
-- **Où ?** (Où ?)
-- **Qui ?** (Qui ?)
-- **Combien ?** (Combien ?)
-- **Quel/Quelle ?** (Lequel/Laquelle ?)
+-   **Pourquoi ?** (Pourquoi ?)
+-   **Qu'est-ce que ?** (Quoi ?)
+-   **Quand ?** (Quand ?)
+-   **Où ?** (Où ?)
+-   **Qui ?** (Qui ?)
+-   **Combien ?** (Combien ?)
+-   **Quel/Quelle ?** (Lequel/Laquelle ?)
 
 ## Pratique de phrases pour débutants
 
 Pour gagner en confiance, je pratique des phrases simples comme :
 
-- **Je m'appelle ____.** (My name is ____.)
-- **J'ai ___ ans.** (I am ___ years old.)
-- **J'ai un chat.** (I have a cat.)
-- **Je suis indien.** (I am Indian.)
-- **Où est la gare ?** (Where is the train station?)
+-   **Je m'appelle \_\_\_\_.** (My name is \_\_\_\_.)
+-   **J'ai \_\_\_ ans.** (I am \_\_\_ years old.)
+-   **J'ai un chat.** (I have a cat.)
+-   **Je suis indien.** (I am Indian.)
+-   **Où est la gare ?** (Where is the train station?)
 
-{{< video https://youtu.be/NhlHKOlvk28
-    title="Basic phrases to practice french"
-    start="10"
-    aspect-ratio="21x9" 
->}}
-
+{{< video https://youtu.be/NhlHKOlvk28 title="Basic phrases to practice french" start="10" aspect-ratio="21x9" >}}
 
 ## Apprendre la grammaire
 
 Comprendre la grammaire est essentiel pour maîtriser une langue. En français, je me concentre sur :
 
-- **Noms (nouns)**  
-- **Verbes (verbs)**  
-- **Adjectifs (adjectives)**  
-- **Adverbes (adverbs)**  
-- **Prépositions (prepositions)**  
-- **Conjonctions (conjunctions)**  
-- **Pronoms (pronouns)**  
-- **Expressions idiomatiques (idiomatic expressions)**  
-- **Sujets et objets (subjects and objects)**  
+-   **Noms (nouns)**\
+-   **Verbes (verbs)**\
+-   **Adjectifs (adjectives)**\
+-   **Adverbes (adverbs)**\
+-   **Prépositions (prepositions)**\
+-   **Conjonctions (conjunctions)**\
+-   **Pronoms (pronouns)**\
+-   **Expressions idiomatiques (idiomatic expressions)**\
+-   **Sujets et objets (subjects and objects)**
 
 Apprendre le français est une expérience enrichissante, et je suis ravi de continuer ce voyage. Que ce soit pour voyager, travailler ou grandir personnellement, maîtriser cette belle langue est un objectif qui en vaut la peine.
 
@@ -434,57 +440,59 @@ Apprendre le français est une expérience enrichissante, et je suis ravi de con
 
 Dans le cadre de mon apprentissage du français, j'explore le vocabulaire et les expressions liés aux activités de loisirs. Voici quelques activités et expressions courantes :
 
-### Qu'est-ce que tu aimes faire pendant ton temps libre ?  
- 
+### Qu'est-ce que tu aimes faire pendant ton temps libre ?
 
-Quelques activités populaires incluent :  
-- **Jouer aux jeux vidéos** (Playing video games)  
-- **Prendre des photos** (Taking photos)  
-- **Surfer sur internet** (Surfing the internet)  
-- **Peindre** (Painting)  
-- **Lire** (Reading)  
-- **Regarder des films** (Watching movies)  
-- **Jouer d'un instrument** (Playing an instrument)  
-- **Faire du vélo** (Cycling)  
-- **Écouter de la musique** (Listening to music)  
-- **Faire du shopping** (Shopping)  
-- **Faire du camping** (Camping)  
-- **Faire du sport** (Playing sports)  
+Quelques activités populaires incluent :\
+- **Jouer aux jeux vidéos** (Playing video games)\
+- **Prendre des photos** (Taking photos)\
+- **Surfer sur internet** (Surfing the internet)\
+- **Peindre** (Painting)\
+- **Lire** (Reading)\
+- **Regarder des films** (Watching movies)\
+- **Jouer d'un instrument** (Playing an instrument)\
+- **Faire du vélo** (Cycling)\
+- **Écouter de la musique** (Listening to music)\
+- **Faire du shopping** (Shopping)\
+- **Faire du camping** (Camping)\
+- **Faire du sport** (Playing sports)
 
-### Genres de films en français  
-En parlant de films, voici quelques genres à connaître :  
-- **Comédie** (Comedy)  
-- **Science-fiction** (Science fiction)  
-- **Romance** (Romance)  
-- **Thriller** (Thriller)  
-- **Action** (Action)  
-- **Fantaisie** (Fantasy)  
-- **Comédie musicale** (Musical comedy)  
-- **Horreur** (Horror)  
-- **Drame** (Drama)  
-- **Documentaire** (Documentary)  
-- **Dessin animé** (Animated film)  
-- **Mystère** (Mystery)  
+### Genres de films en français
 
-### Que faites-vous ce week-end ?  
-**Qu'est-ce que vous faites ce week-end ?**  
+En parlant de films, voici quelques genres à connaître :\
+- **Comédie** (Comedy)\
+- **Science-fiction** (Science fiction)\
+- **Romance** (Romance)\
+- **Thriller** (Thriller)\
+- **Action** (Action)\
+- **Fantaisie** (Fantasy)\
+- **Comédie musicale** (Musical comedy)\
+- **Horreur** (Horror)\
+- **Drame** (Drama)\
+- **Documentaire** (Documentary)\
+- **Dessin animé** (Animated film)\
+- **Mystère** (Mystery)
 
-Voici quelques activités de week-end courantes :  
-- **Aller au cinéma** (Go to the cinema)  
-- **Aller à un concert** (Go to a concert)  
-- **Aller à un parc d'attractions** (Go to an amusement park)  
-- **Aller au karaoké** (Go to karaoke)  
-- **Rester à la maison** (Stay at home)  
-- **Regarder la télévision** (Watch television)  
-- **Aller au parc** (Go to the park)  
-- **Aller au théâtre** (Go to the theater)  
-- **Voyager** (Travel)  
+### Que faites-vous ce week-end ?
 
-### Films français à regarder  
-Regarder des films français est un excellent moyen de s'immerger dans la langue. Voici quelques recommandations :  
-- **Amélie**  
-- **Au revoir là-haut**  
-- **L'Artiste**  
+**Qu'est-ce que vous faites ce week-end ?**
+
+Voici quelques activités de week-end courantes :\
+- **Aller au cinéma** (Go to the cinema)\
+- **Aller à un concert** (Go to a concert)\
+- **Aller à un parc d'attractions** (Go to an amusement park)\
+- **Aller au karaoké** (Go to karaoke)\
+- **Rester à la maison** (Stay at home)\
+- **Regarder la télévision** (Watch television)\
+- **Aller au parc** (Go to the park)\
+- **Aller au théâtre** (Go to the theater)\
+- **Voyager** (Travel)
+
+### Films français à regarder
+
+Regarder des films français est un excellent moyen de s'immerger dans la langue. Voici quelques recommandations :\
+- **Amélie**\
+- **Au revoir là-haut**\
+- **L'Artiste**
 
 Explorer les activités de loisirs et le divertissement en français permet non seulement d'élargir votre vocabulaire, mais aussi de rendre l'apprentissage de la langue plus agréable et pertinent.
 
@@ -496,53 +504,53 @@ Cuisiner est une autre façon fantastique d'apprendre le vocabulaire français e
 
 Dans la cuisine, vous trouverez :
 
-- **Un mixeur** (A blender)
-- **Un bol** (A bowl)
-- **Une cafetière** (A coffee maker)
-- **Un évier de cuisine** (A kitchen sink)
-- **Une planche à découper** (A cutting board)
-- **Un minuteur** (A timer)
-- **Un mixeur électrique** (An electric mixer)
-- **Une casserole** (A saucepan)
-- **Un four à micro-ondes** (A microwave oven)
-- **Une cuisinière** (A stove)
-- **Un grille-pain** (A toaster)
-- **Un réfrigérateur** (A refrigerator)
+-   **Un mixeur** (A blender)
+-   **Un bol** (A bowl)
+-   **Une cafetière** (A coffee maker)
+-   **Un évier de cuisine** (A kitchen sink)
+-   **Une planche à découper** (A cutting board)
+-   **Un minuteur** (A timer)
+-   **Un mixeur électrique** (An electric mixer)
+-   **Une casserole** (A saucepan)
+-   **Un four à micro-ondes** (A microwave oven)
+-   **Une cuisinière** (A stove)
+-   **Un grille-pain** (A toaster)
+-   **Un réfrigérateur** (A refrigerator)
 
 ## Ingrédients et mesures
 
 Voici quelques ingrédients et mesures courants en français :
 
-- **Une pincée de sel** (A pinch of salt)
-- **200 ml de lait** (200 ml of milk)
-- **Poivre noir à goûter** (Black pepper to taste)
-- **Une tasse de farine** (A cup of flour)
-- **3 cuillères à soupe d'huile** (3 tablespoons of oil)
-- **2 œufs** (2 eggs)
-- **1 cuillère à café de beurre** (1 teaspoon of butter)
+-   **Une pincée de sel** (A pinch of salt)
+-   **200 ml de lait** (200 ml of milk)
+-   **Poivre noir à goûter** (Black pepper to taste)
+-   **Une tasse de farine** (A cup of flour)
+-   **3 cuillères à soupe d'huile** (3 tablespoons of oil)
+-   **2 œufs** (2 eggs)
+-   **1 cuillère à café de beurre** (1 teaspoon of butter)
 
 ## Verbes essentiels pour cuisiner
 
 Pour suivre des recettes en français, il est utile de connaître ces verbes :
 
-- **Remuer** (Stir)
-- **Trancher** (Slice)
-- **Griller** (Grill)
-- **Ajouter** (Add)
-- **Couper en morceaux** (Chop)
-- **Peler** (Peel)
-- **Battre** (Beat)
-- **Mélanger** (Mix)
+-   **Remuer** (Stir)
+-   **Trancher** (Slice)
+-   **Griller** (Grill)
+-   **Ajouter** (Add)
+-   **Couper en morceaux** (Chop)
+-   **Peler** (Peel)
+-   **Battre** (Beat)
+-   **Mélanger** (Mix)
 
 ## Lire les instructions de recette
 
 Voici quelques phrases courantes que vous pourriez rencontrer dans des recettes françaises :
 
-- **Émincer les oignons** (Slice the onions)
-- **Battre les blancs d'œufs** (Beat the egg whites)
-- **Préchauffer le four** (Preheat the oven)
-- **Ajouter le mélange à la crème** (Add the mixture to the cream)
-- **Laisser mijoter à feu doux pendant environ 30 minutes** (Let simmer on low heat for about 30 minutes)
+-   **Émincer les oignons** (Slice the onions)
+-   **Battre les blancs d'œufs** (Beat the egg whites)
+-   **Préchauffer le four** (Preheat the oven)
+-   **Ajouter le mélange à la crème** (Add the mixture to the cream)
+-   **Laisser mijoter à feu doux pendant environ 30 minutes** (Let simmer on low heat for about 30 minutes)
 
 Cuisiner en français est une façon amusante et pratique d'élargir votre vocabulaire tout en savourant de délicieux repas. Bon appétit!
 
@@ -552,123 +560,125 @@ Faire du shopping pour des vêtements en français peut être une façon amusant
 
 ## Phrases courantes dans un magasin de vêtements
 
-- **Comment est-ce que je peux vous aider ?** (How can i help?)
+-   **Comment est-ce que je peux vous aider ?** (How can i help?)
 
-- **Je cherche...** (I am looking for...)
-    - **un pull-over** (a sweater)
-    - **une chemise** (a shirt)
-    - **un T-shirt** (a T-shirt)
-    - **un pantalon** (pants)
-    - **un short** (shorts)
-    - **un sous-vêtement** (underwear)
-    - **une veste** (a jacket)
-    - **un costume** (a suit)
-    - **une jupe** (a skirt)
-    - **une robe** (a dress)
-    - **un chemisier** (a blouse)
-    - **un chapeau** (a hat)
+-   **Je cherche...** (I am looking for...)
+
+    -   **un pull-over** (a sweater)
+    -   **une chemise** (a shirt)
+    -   **un T-shirt** (a T-shirt)
+    -   **un pantalon** (pants)
+    -   **un short** (shorts)
+    -   **un sous-vêtement** (underwear)
+    -   **une veste** (a jacket)
+    -   **un costume** (a suit)
+    -   **une jupe** (a skirt)
+    -   **une robe** (a dress)
+    -   **un chemisier** (a blouse)
+    -   **un chapeau** (a hat)
 
 ## Questions à poser dans un centre commercial
 
-- **Est-ce que je peux essayer ceci ?** (Can I try this on?)
-- **Où est la cabine d'essayage ?** (Where is the fitting room?)
-- **L'avez-vous dans une taille plus grande ?** (Do you have it in a larger size?)
-- **L'avez-vous dans une autre couleur ?** (Do you have it in another color?)
-- **Acceptez-vous la carte bleue ?** (Do you accept credit cards?)
-- **Puis-je l'échanger ?** (Can I exchange it?)
+-   **Est-ce que je peux essayer ceci ?** (Can I try this on?)
+-   **Où est la cabine d'essayage ?** (Where is the fitting room?)
+-   **L'avez-vous dans une taille plus grande ?** (Do you have it in a larger size?)
+-   **L'avez-vous dans une autre couleur ?** (Do you have it in another color?)
+-   **Acceptez-vous la carte bleue ?** (Do you accept credit cards?)
+-   **Puis-je l'échanger ?** (Can I exchange it?)
 
 ## Mots essentiels pour le shopping
 
-- **faire des courses** (to go shopping)
-- **acheter** (to buy)
-- **vendre** (to sell)
-- **avoir** (to have)
-- **chercher** (to look for)
-- **associer** (to match)
-- **rendre** (to return)
-- **aimer** (to like)
+-   **faire des courses** (to go shopping)
+-   **acheter** (to buy)
+-   **vendre** (to sell)
+-   **avoir** (to have)
+-   **chercher** (to look for)
+-   **associer** (to match)
+-   **rendre** (to return)
+-   **aimer** (to like)
 
 ## Choisir la couleur parfaite
 
-- **blanc** (white)
-- **jaune** (yellow)
-- **vert** (green)
-- **rouge** (red)
-- **gris** (gray)
-- **bleu marine** (navy blue)
-- **bleu** (blue)
-- **noir** (black)
+-   **blanc** (white)
+-   **jaune** (yellow)
+-   **vert** (green)
+-   **rouge** (red)
+-   **gris** (gray)
+-   **bleu marine** (navy blue)
+-   **bleu** (blue)
+-   **noir** (black)
 
 ## Décrire les vêtements (Describing clothes)
 
-- **serré** (tight)
-- **ample** (loose)
-- **court** (short)
-- **long** (long)
-- **grand** (big)
-- **petit** (small)
+-   **serré** (tight)
+-   **ample** (loose)
+-   **court** (short)
+-   **long** (long)
+-   **grand** (big)
+-   **petit** (small)
 
 Faire du shopping pour des vêtements en français est un excellent moyen de pratiquer le vocabulaire et d'interagir avec des locuteurs natifs. Bonne chance et bon shopping ! (Good luck and happy shopping!)
+
+{{< video https://www.youtube.com/watch?v=-P1pEfjM96Q title="Basic phrases to practice french" start="10" aspect-ratio="21x9" >}}
 
 # 5. Qu'y a-t-il dans votre portefeuille ? (What's in your wallet?)
 
 Lorsque vous apprenez le français, il est utile de connaître le vocabulaire des objets du quotidien que vous portez avec vous. Voici une liste d'objets courants : (When learning French, it’s helpful to know the vocabulary for everyday items you carry with you. Here’s a list of common items:)
 
 ## Objets dans le portefeuille (Wallet items)
-- **Carte de crédit** (Credit card)
-- **Carte de fidélité** (Loyalty card)
-- **Carte de visite** (Business card)
-- **Carte mutuelle** (Health insurance card)
-- **Espèces** (Cash)
-- **Carte d'identité** (ID card)
-- **Carte de retrait** (ATM card)
-- **Permis de conduire** (Driver’s license)
+
+-   **Carte de crédit** (Credit card)
+-   **Carte de fidélité** (Loyalty card)
+-   **Carte de visite** (Business card)
+-   **Carte mutuelle** (Health insurance card)
+-   **Espèces** (Cash)
+-   **Carte d'identité** (ID card)
+-   **Carte de retrait** (ATM card)
+-   **Permis de conduire** (Driver’s license)
 
 ## Objets personnels (Personal belongings)
 
-- **Portefeuille** (Wallet)
-- **Clé** (Key)
-- **Sac à main** (Handbag)
-- **Passeport** (Passport)
-- **Parapluie** (Umbrella)
-- **Téléphone portable** (Mobile phone)
-- **Bracelet-montre** (Wristwatch)
-- **Écouteurs** (Earphones)
-- **Lunettes** (Glasses)
-- **Gants** (Gloves)
-- **Mallette** (Briefcase)
-- **Appareil photo** (Camera)
+-   **Portefeuille** (Wallet)
+-   **Clé** (Key)
+-   **Sac à main** (Handbag)
+-   **Passeport** (Passport)
+-   **Parapluie** (Umbrella)
+-   **Téléphone portable** (Mobile phone)
+-   **Bracelet-montre** (Wristwatch)
+-   **Écouteurs** (Earphones)
+-   **Lunettes** (Glasses)
+-   **Gants** (Gloves)
+-   **Mallette** (Briefcase)
+-   **Appareil photo** (Camera)
 
 ## Questions et réponses personnelles (Personal questions and answers)
 
 Voici quelques questions personnelles courantes et comment y répondre : (Here are some common personal questions and how to answer them:)
 
-- **Quelle est votre adresse email ?** (What is your email address?)
-    - **Mon adresse email est...** (My email address is...)
-- **D'où venez-vous ?** (Where are you from?)
-    - **Je viens de...** (I am from...)
-- **Quel est votre numéro de passeport ?** (What is your passport number?)
-    - **Mon numéro de passeport est...** (My passport number is...)
+-   **Quelle est votre adresse email ?** (What is your email address?)
+    -   **Mon adresse email est...** (My email address is...)
+-   **D'où venez-vous ?** (Where are you from?)
+    -   **Je viens de...** (I am from...)
+-   **Quel est votre numéro de passeport ?** (What is your passport number?)
+    -   **Mon numéro de passeport est...** (My passport number is...)
 
 ## Remplir vos informations personnelles (Filling out personal information)
 
 Lorsque vous remplissez des formulaires en français, vous pourriez rencontrer ces termes : (When filling out forms in French, you might encounter these terms:)
 
-- **Prénom** (First name)
-- **Nom de famille** (Last name)
-- **Âge** (Age)
-- **Anniversaire** (Birthday)
-- **Profession** (Profession)
-- **Adresse** (Address)
-- **Pays** (Country)
-- **Nationalité** (Nationality)
-- **Numéro de téléphone** (Phone number)
-- **E-mail** (Email)
-- **Célibataire** (Single)
-- **Marié** (Married)
-- **Divorcé** (Divorced)
+-   **Prénom** (First name)
+-   **Nom de famille** (Last name)
+-   **Âge** (Age)
+-   **Anniversaire** (Birthday)
+-   **Profession** (Profession)
+-   **Adresse** (Address)
+-   **Pays** (Country)
+-   **Nationalité** (Nationality)
+-   **Numéro de téléphone** (Phone number)
+-   **E-mail** (Email)
+-   **Célibataire** (Single)
+-   **Marié** (Married)
+-   **Divorcé** (Divorced)
 
 Connaître ces mots et expressions vous aidera à naviguer dans les situations quotidiennes et à remplir des formulaires en français avec facilité. Bonne chance!
-
 :::
-

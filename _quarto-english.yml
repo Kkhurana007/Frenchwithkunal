@@ -80,6 +80,8 @@ website:
     left:
       - text: Blog Posts
         href: posts.qmd
+      - text: Exercises
+        href: exercises.qmd
       - text: "About Us"
         href: about.qmd      
       - text: "Contact Us"
