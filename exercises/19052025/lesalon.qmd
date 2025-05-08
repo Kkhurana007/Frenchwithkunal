@@ -1,0 +1,177 @@
+---
+title: "French Vocabulary: The Living Room & Dining Room"
+author: "Kunal Khurana"
+date: "05-12-2025"
+categories: [A1/A2, vocabulary, living-room, dining-room, exercises]
+image: "living-room-vocab.png"
+---
+
+```{=html}
+<style>
+  .feedback { margin-left: 10px; }
+  .correct { color: green; }
+  .incorrect { color: red; }
+  mark { background-color: yellow; }
+  textarea { display: block; margin-bottom: 10px; }
+  button { margin-top: 5px; }
+</style>
+```
+
+::: {.content-visible when-profile="english"}
+# Exercise: Mastering Living Room & Dining Room Vocabulary in French
+
+Practice words related to the living room (*le salon*) and dining room (*la salle à manger*).
+
+## 1. Fill in the Blanks
+
+Select the correct word:
+
+-   Je m'assois sur <select class="vocab-select" data-correct="le canapé"> <option value="">--Select--</option> <option value="le canapé">le canapé</option> <option value="la chaise">la chaise</option> <option value="le fauteuil">le fauteuil</option> </select>
+
+-   J'allume <select class="vocab-select" data-correct="la lampe"> <option value="">--Select--</option> <option value="la lampe">la lampe</option> <option value="le lampadaire">le lampadaire</option> <option value="le lustre">le lustre</option> </select> pour lire le soir.
+
+-   Nous regardons un film sur <select class="vocab-select" data-correct="la télévision"> <option value="">--Select--</option> <option value="la télévision">la télévision</option> <option value="le lecteur DVD">le lecteur DVD</option> <option value="la fenêtre">la fenêtre</option> </select>
+
+## 2. Label the Living Room
+
+Match French words to the numbered items:
+
+1.  <input type="text" class="label-input" data-correct="le fauteuil" placeholder="French word...">
+2.  <input type="text" class="label-input" data-correct="la cheminée" placeholder="French word...">
+3.  <input type="text" class="label-input" data-correct="la table basse" placeholder="French word...">
+4.  <input type="text" class="label-input" data-correct="les rideaux" placeholder="French word...">
+
+## 3. Translation Challenge
+
+Translate into French:
+
+-   The **armchair** is next to the **window**.
+
+    ```{=html}
+    <textarea class="translation" data-correct="Le fauteuil est à côté de la fenêtre." placeholder="Le fauteuil..." rows="2" cols="50"></textarea>
+    ```
+
+    <button class="check-translation">
+
+    Check
+
+    </button>
+
+-   I put the **remote control** on the **coffee table**.
+
+    ```{=html}
+    <textarea class="translation" data-correct="Je pose la zapette sur la table basse." placeholder="Je pose..." rows="2" cols="50"></textarea>
+    ```
+
+    <button class="check-translation">
+
+    Check
+
+    </button>
+
+## 4. Dining Room Special
+
+Select the correct dining room items:
+
+-   On mange sur <select class="vocab-select" data-correct="la table"> <option value="">--Select--</option> <option value="la table">la table</option> <option value="le buffet">le buffet</option> <option value="la nappe">la nappe</option> </select>
+
+-   Les assiettes en <select class="vocab-select" data-correct="la porcelaine"> <option value="">--Select--</option> <option value="la porcelaine">la porcelaine</option> <option value="le vase">le vase</option> <option value="la bougie">la bougie</option> </select> sont fragiles.
+
+## 5. Creative Writing
+
+Describe your ideal living room using **at least 10 vocabulary words** from both rooms. Highlight them in yellow.
+
+```{=html}
+<textarea id="creative-writing" placeholder="Mon salon idéal..." rows="5" cols="50"></textarea>
+```
+
+<button id="highlight-btn">
+
+Highlight Vocabulary
+
+</button>
+
+::: {#highlight-output .feedback}
+:::
+
+::\>
+
+```{=html}
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // Fill in the blanks functionality
+  document.querySelectorAll('.vocab-select').forEach(select => {
+    select.addEventListener('change', function() {
+      const feedback = this.nextElementSibling;
+      if (this.value === this.dataset.correct) {
+        feedback.textContent = "✓ Correct!";
+        feedback.className = "feedback correct";
+      } else {
+        feedback.textContent = "✗ Try again.";
+        feedback.className = "feedback incorrect";
+      }
+    });
+  });
+
+  // Label the room functionality
+  document.querySelectorAll('.label-input').forEach(input => {
+    input.addEventListener('change', function() {
+      const feedback = this.nextElementSibling;
+      if (this.value.trim().toLowerCase() === this.dataset.correct.toLowerCase()) {
+        feedback.textContent = "✓ Correct!";
+        feedback.className = "feedback correct";
+      } else {
+        feedback.textContent = "✗ Try again. Correct answer: " + this.dataset.correct;
+        feedback.className = "feedback incorrect";
+      }
+    });
+  });
+
+  // Translation challenge functionality
+  document.querySelectorAll('.check-translation').forEach(button => {
+    button.addEventListener('click', function() {
+      const textarea = this.previousElementSibling;
+      const feedback = this.nextElementSibling;
+      const correctAnswer = textarea.dataset.correct.toLowerCase();
+      
+      if (textarea.value.trim().toLowerCase() === correctAnswer) {
+        feedback.textContent = "✓ Correct!";
+        feedback.className = "feedback correct";
+      } else {
+        feedback.textContent = "✗ Try again. Suggested answer: " + textarea.dataset.correct;
+        feedback.className = "feedback incorrect";
+      }
+    });
+  });
+
+  // Creative writing highlight functionality
+  document.getElementById('highlight-btn').addEventListener('click', function() {
+    const text = document.getElementById('creative-writing').value;
+    const output = document.getElementById('highlight-output');
+    const vocabWords = [
+      // Living room
+      "le salon", "l'abat-jour", "le cadre", "le canapé", "la chaise", 
+      "la cheminée", "le coussin", "l'étagère", "le fauteuil", "la fenêtre", 
+      "la lampe", "le lampadaire", "le lecteur DVD", "la moquette", "le plancher", 
+      "les rideaux", "le sofa", "la table basse", "les tableaux", "le tapis", 
+      "la télévision",
+      // Dining room
+      "la salle à manger", "la bougie", "le buffet", "le lustre", "le vase", 
+      "la zapette", "la nappe", "la porcelaine", "la table"
+    ];
+    
+    const escapedVocab = vocabWords.map(word => word.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'));
+    const regex = new RegExp(`\\b(${escapedVocab.join('|')})\\b`, 'gi');
+    
+    const highlightedText = text.replace(regex, '<mark>$&</mark>');
+    output.innerHTML = highlightedText;
+    
+    const matchCount = (highlightedText.match(/<mark>/g) || []).length;
+    const countDisplay = document.createElement('p');
+    countDisplay.textContent = `Found ${matchCount} vocabulary words.`;
+    output.appendChild(countDisplay);
+  });
+});
+</script>
+```
+:::

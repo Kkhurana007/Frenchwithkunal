@@ -1,0 +1,117 @@
+---
+title: "Exploring the Bathroom: Vocabulary and Daily Routines"
+author: "Your Name"
+date: "05-08-2025"
+categories: [A1/A2, vocabulary, daily routines]
+image: "bathroom.png"
+---
+
+::: {.content-visible when-profile="english"}
+
+La Salle de Bains: Essential Vocabulary and Activities
+Practice bathroom-related vocabulary and verbs to describe daily routines.
+
+### 1. Fill in the Blanks
+Complete the sentences with the correct word from the dropdown menu:
+
+Je me lave les mains dans le <select onchange="checkWord(this, 'lavabo')">
+
+<option value="">--Select--</option> <option value="lavabo">lavabo</option> <option value="miroir">miroir</option> <option value="baignoire">baignoire</option>
+</select>.
+<span class="feedback"></span>
+
+Pour me brosser les dents, j’utilise une <select onchange="checkWord(this, 'brosse à dents')">
+
+<option value="">--Select--</option> <option value="brosse à dents">brosse à dents</option> <option value="brosse à cheveux">brosse à cheveux</option> <option value="serviette">serviette</option>
+</select> et du <select onchange="checkWord(this, 'dentifrice')">
+<option value="">--Select--</option>
+<option value="dentifrice">dentifrice</option>
+<option value="savon">savon</option>
+<option value="shampooing">shampooing</option>
+</select>.
+<span class="feedback"></span>
+
+Après la douche, je me sèche avec une <select onchange="checkWord(this, 'serviette de toilette')">
+
+<option value="">--Select--</option> <option value="serviette de toilette">serviette de toilette</option> <option value="gant de toilette">gant de toilette</option> <option value="tapis de bain">tapis de bain</option>
+</select>.
+<span class="feedback"></span>
+
+Mon père se rase avec un <select onchange="checkWord(this, 'rasoir')">
+
+<option value="">--Select--</option> <option value="rasoir">rasoir</option> <option value="peigne">peigne</option> <option value="séchoir à cheveux">séchoir à cheveux</option>
+</select> et de la <select onchange="checkWord(this, 'mousse à raser')">
+<option value="">--Select--</option>
+<option value="mousse à raser">mousse à raser</option>
+<option value="shampooing">shampooing</option>
+<option value="mousse">mousse</option>
+</select>.
+<span class="feedback"></span>
+
+### 2. Match the Verbs to Their Meanings
+Drag the French verb to the correct English translation.
+
+Prendre un bain → <span class="draggable" draggable="true" ondragstart="drag(event)">To take a bath</span>
+
+Se brosser les dents → <span class="draggable" draggable="true" ondragstart="drag(event)">To brush one’s teeth</span>
+
+Se raser → <span class="draggable" draggable="true" ondragstart="drag(event)">To shave</span>
+
+Se peigner → <span class="draggable" draggable="true" ondragstart="drag(event)">To comb one’s hair</span>
+
+### 3. Describe Your Routine
+Write 5 sentences about your bathroom routine using the vocabulary. Highlight the words you used.
+
+Example:
+Je prends une douche chaude le matin. Ensuite, je me brosse les dents avec du dentifrice. Je me peigne les cheveux devant le miroir. Enfin, je me sèche avec une serviette propre.
+
+<textarea placeholder="Ma routine..." rows="5" cols="50"></textarea>
+<button onclick="highlightWords(this.previousElementSibling)">Highlight Vocabulary</button>
+
+<div class="feedback"></div>
+
+### 4. Listening Exercise (Optional)
+🔊 Listen to the audio and identify the bathroom object being described.
+
+Script: "On l’utilise pour se laver les cheveux." → Answer: <input type="text" placeholder="Your answer...">
+
+Bonus: Adjective Practice
+Describe the bathroom using adjectives:
+
+L’eau est trop <input type="text" placeholder="chaud/froid...">.
+
+Le miroir est <input type="text" placeholder="embué/propre..."> après la douche.
+
+<script>
+// Function to check word selections
+function checkWord(selectElement, correctAnswer) {
+    const userAnswer = selectElement.value.trim();
+    const feedback = selectElement.nextElementSibling;
+    if (userAnswer === correctAnswer) {
+        feedback.textContent = "✓ Correct!";
+        feedback.style.color = "green";
+    } else if (userAnswer) {
+        feedback.textContent = "✗ Try again!";
+        feedback.style.color = "red";
+    }
+}
+
+// Function to highlight vocabulary in user's writing
+function highlightWords(textareaElement) {
+    const vocab = [
+        "baignoire", "bonde", "brosse à cheveux", "brosse à dents", "dentifrice",
+        "douche", "gant de toilette", "glace", "lavabo", "miroir", "mousse à raser",
+        "papier hygiénique", "peigne", "rasoir", "rideau de douche", "robinet",
+        "savon", "séchoir à cheveux", "serviette de toilette", "shampooing",
+        "tapis de bain", "toilettes"
+    ];
+    let userText = textareaElement.value;
+    vocab.forEach(word => {
+        const regex = new RegExp(`\\b${word}\\b`, "gi");
+        userText = userText.replace(regex, `<span style="background-color: lightgreen">${word}</span>`);
+    });
+    const feedback = textareaElement.nextElementSibling.nextElementSibling;
+    feedback.innerHTML = "<strong>Vocabulary used:</strong><br>" + userText;
+}
+</script>
+:::

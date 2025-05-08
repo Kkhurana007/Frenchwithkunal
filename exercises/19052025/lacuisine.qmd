@@ -1,0 +1,154 @@
+---
+title: "French Vocabulary: The Kitchen (La Cuisine)"
+author: "Kunal Khurana"
+date: "05-12-2025"
+categories: [A1/A2, vocabulary, kitchen, food, exercises]
+image: "kitchen-vocab.png"
+---
+
+
+::: {.content-visible when-profile="english"}
+
+Exercise: Mastering Kitchen Vocabulary in French
+Practice words related to the kitchen (la cuisine).
+
+### 1. Fill in the Blanks
+Select the correct word:
+
+Je mange ma soupe dans <select class="vocab-select" data-correct="le bol"> <option value="">--Select--</option> <option value="le bol">le bol</option> <option value="l'assiette">l'assiette</option> <option value="le verre">le verre</option> </select>
+
+Je fais cuire les légumes dans <select class="vocab-select" data-correct="la casserole"> <option value="">--Select--</option> <option value="la casserole">la casserole</option> <option value="le pot">le pot</option> <option value="le saladier">le saladier</option> </select>
+
+Je mets les déchets dans <select class="vocab-select" data-correct="la poubelle"> <option value="">--Select--</option> <option value="la poubelle">la poubelle</option> <option value="le frigo">le frigo</option> <option value="le placard">le placard</option> </select>
+
+### 2. Label the Kitchen
+Match French words to the numbered items:
+
+<input type="text" class="label-input" data-correct="l'évier" placeholder="French word...">
+<input type="text" class="label-input" data-correct="le four" placeholder="French word...">
+<input type="text" class="label-input" data-correct="le réfrigérateur" placeholder="French word...">
+<input type="text" class="label-input" data-correct="la cuisinière" placeholder="French word...">
+
+### 3. Translation Challenge
+Translate into French:
+
+The knife is next to the fork.
+
+```{=html}
+<textarea class="translation" data-correct="Le couteau est à côté de la fourchette." placeholder="Le couteau..." rows="2" cols="50"></textarea>
+<button class="check-translation">
+Check
+
+</button>
+```
+I put the dishes in the dishwasher.
+
+```{=html}
+<textarea class="translation" data-correct="Je mets la vaisselle dans le lave-vaisselle." placeholder="Je mets..." rows="2" cols="50"></textarea>
+<button class="check-translation">
+Check
+
+</button>
+```
+
+### 4. Kitchen Appliances
+Select the correct kitchen items:
+
+Je réchauffe mon café dans <select class="vocab-select" data-correct="le micro-onde"> <option value="">--Select--</option> <option value="le micro-onde">le micro-onde</option> <option value="le four">le four</option> <option value="le grille-pain">le grille-pain</option> </select>
+
+Je range la farine dans <select class="vocab-select" data-correct="le garde-manger"> <option value="">--Select--</option> <option value="le garde-manger">le garde-manger</option> <option value="le placard">le placard</option> <option value="le réfrigérateur">le réfrigérateur</option> </select>
+
+### 5. Creative Writing
+Describe your ideal kitchen using at least 10 vocabulary words from the list. Highlight them in yellow.
+
+{=html}
+<textarea id="creative-writing" placeholder="Ma cuisine idéale..." rows="5" cols="50"></textarea>
+<button id="highlight-btn">
+Highlight Vocabulary
+
+</button>
+::: {#highlight-output .feedback}
+:::
+
+
+
+```{=html}
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // Fill in the blanks functionality
+  document.querySelectorAll('.vocab-select').forEach(select => {
+    select.addEventListener('change', function() {
+      const feedback = this.nextElementSibling;
+      if (this.value === this.dataset.correct) {
+        feedback.textContent = "✓ Correct!";
+        feedback.className = "feedback correct";
+      } else {
+        feedback.textContent = "✗ Try again.";
+        feedback.className = "feedback incorrect";
+      }
+    });
+  });
+
+  // Label the room functionality
+  document.querySelectorAll('.label-input').forEach(input => {
+    input.addEventListener('change', function() {
+      const feedback = this.nextElementSibling;
+      if (this.value.trim().toLowerCase() === this.dataset.correct.toLowerCase()) {
+        feedback.textContent = "✓ Correct!";
+        feedback.className = "feedback correct";
+      } else {
+        feedback.textContent = "✗ Try again. Correct answer: " + this.dataset.correct;
+        feedback.className = "feedback incorrect";
+      }
+    });
+  });
+
+  // Translation challenge functionality
+  document.querySelectorAll('.check-translation').forEach(button => {
+    button.addEventListener('click', function() {
+      const textarea = this.previousElementSibling;
+      const feedback = this.nextElementSibling;
+      const correctAnswer = textarea.dataset.correct.toLowerCase();
+      
+      if (textarea.value.trim().toLowerCase() === correctAnswer) {
+        feedback.textContent = "✓ Correct!";
+        feedback.className = "feedback correct";
+      } else {
+        feedback.textContent = "✗ Try again. Suggested answer: " + textarea.dataset.correct;
+        feedback.className = "feedback incorrect";
+      }
+    });
+  });
+
+  // Creative writing highlight functionality
+  document.getElementById('highlight-btn').addEventListener('click', function() {
+    const text = document.getElementById('creative-writing').value;
+    const output = document.getElementById('highlight-output');
+    const vocabWords = [
+      // Kitchen vocabulary
+      "l'assiette", "la boîte", "le bol", "la cafetière", "la casserole", 
+      "le comptoir", "le congélateur", "le couteau", "la cuillère", "la cuisinière", 
+      "l'évier", "le four", "la fourchette", "le frigo", "la jarre", 
+      "le lave-vaisselle", "le micro-onde", "la nourriture", "le pichet", "le placard", 
+      "le pot", "la poubelle", "le réfrigérateur", "la serviette", "la tasse", 
+      "le torchon", "le verre", "le verre à vin", "le broyeur d'ordures", "la cuillère à café", 
+      "la cuillère à soupe", "le garde-manger", "le grille-pain", "le mixeur", "l'ouvre-boîtes", 
+      "le plateau", "le robinet", "le saladier", "la soucoupe", "la théière"
+    ];
+    
+    const escapedVocab = vocabWords.map(word => word.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'));
+    const regex = new RegExp(`\\b(${escapedVocab.join('|')})\\b`, 'gi');
+    
+    const highlightedText = text.replace(regex, '<mark>$&</mark>');
+    output.innerHTML = highlightedText;
+    
+    const matchCount = (highlightedText.match(/<mark>/g) || []).length;
+    const countDisplay = document.createElement('p');
+    countDisplay.textContent = `Found ${matchCount} vocabulary words.`;
+    output.appendChild(countDisplay);
+  });
+});
+</script>
+```
+
+:::
