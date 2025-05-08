@@ -1,0 +1,195 @@
+---
+title: "Exercises with French -ER Verbs"
+author: "Kunal Khurana"
+date: "05-12-2025"
+categories: [A1/A2, grammar, verbs, exercises]
+image: "er-verbs.png"
+---
+
+::: {.content-visible when-profile="english"}
+
+# Exercise: Conjugating French -ER Verbs
+
+Practice conjugating regular -ER verbs (*parler, manger, aimer, danser, écouter, etc.*) in the present tense.
+
+---
+
+## 1. Fill in the Blanks  
+Conjugate the verb in parentheses for each subject.
+
+1. Je ___ (parler) français.  
+   <select onchange="checkVerb(this, 'parle')">
+     <option value="">--Select--</option>
+     <option value="parle">parle</option>
+     <option value="parles">parles</option>
+     <option value="parlons">parlons</option>
+   </select>  
+   <span class="feedback"></span>
+
+2. Tu ___ (manger) une pomme.  
+   <select onchange="checkVerb(this, 'manges')">
+     <option value="">--Select--</option>
+     <option value="mange">mange</option>
+     <option value="manges">manges</option>
+     <option value="mangez">mangez</option>
+   </select>  
+   <span class="feedback"></span>
+
+3. Il ___ (aimer) la musique.  
+   <select onchange="checkVerb(this, 'aime')">
+     <option value="">--Select--</option>
+     <option value="aime">aime</option>
+     <option value="aimes">aimes</option>
+     <option value="aimons">aimons</option>
+   </select>  
+   <span class="feedback"></span>
+
+4. Nous ___ (danser) tous les soirs.  
+   <select onchange="checkVerb(this, 'dansons')">
+     <option value="">--Select--</option>
+     <option value="danse">danse</option>
+     <option value="danses">danses</option>
+     <option value="dansons">dansons</option>
+   </select>  
+   <span class="feedback"></span>
+
+5. Vous ___ (écouter) la radio.  
+   <select onchange="checkVerb(this, 'écoutez')">
+     <option value="">--Select--</option>
+     <option value="écoute">écoute</option>
+     <option value="écoutes">écoutes</option>
+     <option value="écoutez">écoutez</option>
+   </select>  
+   <span class="feedback"></span>
+
+---
+
+## 2. Match the Subject to the Correct Conjugation  
+Drag the verb to the correct subject.
+
+| Subject | Verb (infinitive) | Conjugation |
+|---------|-------------------|-------------|
+| Je      | chanter           | <span draggable="true" ondragstart="drag(event)" data-answer="chante">chante</span> |
+| Tu      | nager             | <span draggable="true" ondragstart="drag(event)" data-answer="nages">nages</span> |
+| Elle    | regarder          | <span draggable="true" ondragstart="drag(event)" data-answer="regarde">regarde</span> |
+| Nous    | voyager           | <span draggable="true" ondragstart="drag(event)" data-answer="voyageons">voyageons</span> |
+| Vous    | travailler        | <span draggable="true" ondragstart="drag(event)" data-answer="travaillez">travaillez</span> |
+
+Drop here:  
+<div class="dropzone" ondrop="drop(event)" ondragover="allowDrop(event)"></div>  
+<span class="feedback"></span>
+
+---
+
+## 3. Sentence Building  
+Use the given verb to complete the sentence logically.
+
+1. (étudier) → Nous ___ pour l'examen.  
+   <textarea placeholder="Nous..." rows="1" cols="30"></textarea>  
+   <button onclick="checkSentence(this.previousElementSibling, 'étudions')">Check</button>  
+   <span class="feedback"></span>
+
+2. (jouer) → Tu ___ au football.  
+   <textarea placeholder="Tu..." rows="1" cols="30"></textarea>  
+   <button onclick="checkSentence(this.previousElementSibling, 'joues')">Check</button>  
+   <span class="feedback"></span>
+
+---
+
+## 4. Translation Challenge  
+Translate into French using -ER verbs.
+
+1. She eats pizza. → ___  
+   <textarea placeholder="Elle..." rows="1" cols="30"></textarea>  
+   <button onclick="checkTranslation(this.previousElementSibling, 'Elle mange une pizza.')">Check</button>  
+   <span class="feedback"></span>
+
+2. We watch a movie. → ___  
+   <textarea placeholder="Nous..." rows="1" cols="30"></textarea>  
+   <button onclick="checkTranslation(this.previousElementSibling, 'Nous regardons un film.')">Check</button>  
+   <span class="feedback"></span>
+
+---
+
+## 5. Creative Writing  
+Write 5 sentences about your hobbies using at least **3 different -ER verbs without conjugating**. Highlight the verbs.  
+Example: *Je danse le weekend. J'écoute de la musique...*  
+
+<textarea placeholder="Mes loisirs..." rows="5" cols="50"></textarea>  
+<button onclick="highlightVerbs(this.previousElementSibling)">Highlight Verbs</button>  
+<div class="feedback"></div>
+
+<script>
+// Check dropdown answers
+function checkVerb(selectElement, correctAnswer) {
+  // Get the feedback element next to the dropdown
+  const feedback = selectElement.nextElementSibling;
+
+  // Check if the selected value matches the correct answer
+  if (selectElement.value === correctAnswer) {
+    feedback.textContent = "✓ Correct!";
+    feedback.style.color = "green";
+  } 
+  // If the selected value is incorrect but not empty
+  else if (selectElement.value) {
+    feedback.textContent = "✗ Incorrect. Try again!";
+    feedback.style.color = "red";
+  } 
+  // If no option is selected, clear the feedback
+  else {
+    feedback.textContent = ""; // Clear feedback if no option is selected
+  }
+}
+
+// Drag-and-drop functions
+function allowDrop(e) { e.preventDefault(); }
+function drag(e) { e.dataTransfer.setData("text", e.target.dataset.answer); }
+function drop(e) {
+  e.preventDefault();
+  const data = e.dataTransfer.getData("text");
+  const feedback = e.target.nextElementSibling;
+  if (data) {
+    e.target.innerHTML = data;
+    feedback.textContent = "✓ Dropped!";
+    feedback.style.color = "green";
+  }
+}
+
+// Check sentence building
+function checkSentence(textarea, correctVerb) {
+  const feedback = textarea.nextElementSibling.nextElementSibling;
+  if (textarea.value.includes(correctVerb)) {
+    feedback.textContent = "✓ Correct!";
+    feedback.style.color = "green";
+  } else {
+    feedback.textContent = `✗ Use "${correctVerb}".`;
+    feedback.style.color = "red";
+  }
+}
+
+// Check translations
+function checkTranslation(textarea, correctAnswer) {
+  const feedback = textarea.nextElementSibling.nextElementSibling;
+  if (textarea.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
+    feedback.textContent = "✓ Perfect!";
+    feedback.style.color = "green";
+  } else {
+    feedback.textContent = `✓ Suggested: "${correctAnswer}"`;
+    feedback.style.color = "blue";
+  }
+}
+
+// Highlight -ER verbs in creative writing
+function highlightVerbs(textarea) {
+  const commonERVerbs = ["parler", "manger", "aimer", "danser", "écouter", "chanter", "nager", "regarder", "voyager", "travailler", "étudier", "jouer"];
+  let text = textarea.value;
+  commonERVerbs.forEach(verb => {
+    const regex = new RegExp(`\\b${verb}\\b`, "gi");
+    text = text.replace(regex, `<span style="background-color: yellow">${verb}</span>`);
+  });
+  const feedback = textarea.nextElementSibling.nextElementSibling;
+  feedback.innerHTML = "<strong>-ER verbs used:</strong><br>" + text;
+}
+</script>
+
+:::

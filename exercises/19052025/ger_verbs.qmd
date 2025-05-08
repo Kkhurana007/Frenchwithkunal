@@ -1,0 +1,155 @@
+---
+title: "Exercises with French -GER Verbs"
+author: "Kunal Khurana"
+date: "05-12-2025"
+categories: [A1/A2, grammar, verbs, exercises]
+image: "ger-verbs.png"
+---
+
+::: {.content-visible when-profile="english"}
+
+### Exercise: Conjugating -GER Verbs  
+Practice conjugating common -ger verbs (*manger, voyager, nager, changer, ranger, partager, corriger*) in the present tense.  
+**Remember**: The *nous* form keeps the "e" (e.g., *nous mangeons*) to maintain the soft "g" sound.
+
+---
+
+### 1. Fill in the Blanks  
+Conjugate the -ger verb for each subject.
+
+Je (manger) <input type="text" placeholder="Your answer" onblur="checkAnswer(this, 'mange')"> → Je mange une pomme.  
+<span class="feedback"></span>
+
+Tu (voyager) <input type="text" placeholder="Your answer" onblur="checkAnswer(this, 'voyages')"> → Tu voyages en France.  
+<span class="feedback"></span>
+
+Il (nager) <input type="text" placeholder="Your answer" onblur="checkAnswer(this, 'nage')"> → Il nage dans la piscine.  
+<span class="feedback"></span>
+
+Nous (changer) <input type="text" placeholder="Your answer" onblur="checkAnswer(this, 'changeons')"> → Nous changeons d’avis.  
+<span class="feedback"></span>
+
+Vous (ranger) <input type="text" placeholder="Your answer" onblur="checkAnswer(this, 'rangez')"> → Vous rangez la cuisine.  
+<span class="feedback"></span>
+
+Elles (partager) <input type="text" placeholder="Your answer" onblur="checkAnswer(this, 'partagent')"> → Elles partagent un gâteau.  
+<span class="feedback"></span>
+
+---
+
+### 2. Sentence Correction  
+Fix the incorrect conjugations (watch for missing "e" in *nous* forms!).
+
+Nous mangons du pain. → <textarea rows="1" cols="30" placeholder="Corrected sentence..."></textarea>  
+<button onclick="checkCorrection(this.previousElementSibling, 'Nous mangeons du pain.')">Check</button>  
+<span class="feedback"></span>
+
+Vous voyagez souvent ? → <textarea rows="1" cols="30" placeholder="Corrected sentence..."></textarea>  
+<button onclick="checkCorrection(this.previousElementSibling, 'Vous voyagez souvent ?')">Check</button>  
+<span class="feedback"></span>  
+
+*(Note: "Vous voyagez" is correct—no spelling change needed!)*  
+
+---
+
+### 3. Translation Challenge  
+Translate into French using -ger verbs:
+
+We share the dessert. → <textarea rows="1" cols="40" placeholder="French translation..."></textarea>  
+<button onclick="checkTranslation(this.previousElementSibling, 'Nous partageons le dessert.')">Check</button>  
+<span class="feedback"></span>  
+
+I am swimming at the beach. → <textarea rows="1" cols="40" placeholder="French translation..."></textarea>  
+<button onclick="checkTranslation(this.previousElementSibling, 'Je nage à la plage.')">Check</button>  
+<span class="feedback"></span>  
+
+---
+
+### 4. Creative Writing  
+Write 3 sentences about travel or food using at least 2 different -ger verbs. Highlight the verbs.  
+
+<textarea rows="5" cols="50" placeholder="Ex: Je mange des croissants..."></textarea>  
+<button onclick="highlightGerVerbs(this.previousElementSibling)">Highlight -GER Verbs</button>  
+<div class="feedback"></div>  
+
+<script>
+// Same functions as original blog (checkVerb, checkCorrection, checkTranslation), but updated for -ger verbs.
+
+
+function checkAnswer(input, correctAnswer) {
+    const userAnswer = input.value.trim().toLowerCase();
+    const feedback = input.nextElementSibling;
+    if (!feedback) {
+        const span = document.createElement('span');
+        span.style.marginLeft = '10px';
+        input.parentNode.appendChild(span);
+    }
+    if (userAnswer === correctAnswer) {
+        input.nextElementSibling.textContent = "Correct! +10 points";
+        input.nextElementSibling.style.color = "green";
+    } else if (userAnswer) {
+        input.nextElementSibling.textContent = "Try again!";
+        input.nextElementSibling.style.color = "red";
+    } else {
+        input.nextElementSibling.textContent = "";
+    }
+}
+
+function checkAllAnswers() {
+    const inputs = document.querySelectorAll('input[type="text"]');
+    inputs.forEach(input => {
+        const correctAnswer = input.getAttribute('oninput').match(/'([^']+)'/)[1];
+        checkAnswer(input, correctAnswer);
+    });
+}
+
+function checkVerb(inputElement, correctAnswer) {  
+    const userAnswer = inputElement.value.trim().toLowerCase();  
+    const feedback = inputElement.nextElementSibling;  
+    if (userAnswer === correctAnswer) {  
+        feedback.textContent = "✓ Correct!";  
+        feedback.style.color = "green";  
+    } else {  
+        feedback.textContent = `✗ The correct answer is "${correctAnswer}".`;  
+        feedback.style.color = "red";  
+    }  
+}  
+
+function checkCorrection(textareaElement, correctAnswer) {  
+    const userText = textareaElement.value.trim();  
+    const feedback = textareaElement.nextElementSibling.nextElementSibling;  
+    if (userText === correctAnswer) {  
+        feedback.textContent = "✓ Perfect!";  
+        feedback.style.color = "green";  
+    } else {  
+        feedback.textContent = `✓ Suggested answer: "${correctAnswer}"`;  
+        feedback.style.color = "blue";  
+    }  
+}  
+
+// Check translations
+function checkTranslation(textarea, correctAnswer) {
+  const feedback = textarea.nextElementSibling.nextElementSibling;
+  if (textarea.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
+    feedback.textContent = "✓ Perfect!";
+    feedback.style.color = "green";
+  } else {
+    feedback.textContent = `✓ Suggested: "${correctAnswer}"`;
+    feedback.style.color = "blue";
+  }
+}
+
+
+function highlightGerVerbs(textareaElement) {  
+    const gerVerbs = ["manger", "voyager", "nager", "changer", "ranger", "partager", "corriger"];  
+    let text = textareaElement.value;  
+    gerVerbs.forEach(verb => {  
+        const regex = new RegExp(`\\b${verb}\\b`, "gi");  
+        text = text.replace(regex, `<span style="background-color: #FFD700">${verb}</span>`);  
+    });  
+    const feedback = textareaElement.nextElementSibling.nextElementSibling;  
+    feedback.innerHTML = "<strong>-GER Verbs used:</strong><br>" + text;  
+}  
+</script>  
+
+::: 

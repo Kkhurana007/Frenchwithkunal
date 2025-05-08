@@ -1,0 +1,208 @@
+---
+title: "Exercises with French -IR Verbs"
+author: "Kunal Khurana"
+date: "05-12-2025"
+categories: [A1/A2, grammar, verbs, exercises]
+image: "ir-verbs.png"
+---
+
+::::: {.content-visible when-profile="english"}
+# Exercise: Conjugating French -IR Verbs
+
+Practice conjugating regular -IR verbs (*finir, choisir, réussir, grandir, obéir*, etc.) in the present tense.
+
+------------------------------------------------------------------------
+
+## 1. Fill in the Blanks
+
+Conjugate the verb in parentheses for each subject.
+
+1.  Je \_\_\_ (finir) mon travail.\
+    <select onchange="checkVerb(this, 'finis')"> <option value="">--Select--</option> <option value="finis">finis</option> <option value="finit">finit</option> <option value="finissons">finissons</option> </select>\
+
+2.  Tu \_\_\_ (choisir) un livre.\
+    <select onchange="checkVerb(this, 'choisis')"> <option value="">--Select--</option> <option value="choisis">choisis</option> <option value="choisit">choisit</option> <option value="choisissez">choisissez</option> </select>\
+
+3.  Elle \_\_\_ (réussir) à l'examen.\
+    <select onchange="checkVerb(this, 'réussit')"> <option value="">--Select--</option> <option value="réussis">réussis</option> <option value="réussit">réussit</option> <option value="réussissons">réussissons</option> </select>\
+
+4.  Nous \_\_\_ (grandir) vite.\
+    <select onchange="checkVerb(this, 'grandissons')"> <option value="">--Select--</option> <option value="grandis">grandis</option> <option value="grandit">grandit</option> <option value="grandissons">grandissons</option> </select>\
+
+5.  Vous \_\_\_ (obéir) aux règles.\
+    <select onchange="checkVerb(this, 'obéissez')"> <option value="">--Select--</option> <option value="obéis">obéis</option> <option value="obéit">obéit</option> <option value="obéissez">obéissez</option> </select>\
+
+------------------------------------------------------------------------
+
+## 2. Match the Subject to the Correct Conjugation
+
+Drag the verb to the correct subject.
+
+| Subject | Verb (infinitive) | Conjugation |
+|------------------|--------------------------------|----------------------|
+| Je | remplir | [remplis]{draggable="true" ondragstart="drag(event)" data-answer="remplis"} |
+| Tu | maigrir | [maigris]{draggable="true" ondragstart="drag(event)" data-answer="maigris"} |
+| Il | bâtir | [bâtit]{draggable="true" ondragstart="drag(event)" data-answer="bâtit"} |
+| Nous | réfléchir | [réfléchissons]{draggable="true" ondragstart="drag(event)" data-answer="réfléchissons"} |
+| Vous | punir | [punissez]{draggable="true" ondragstart="drag(event)" data-answer="punissez"} |
+
+Drop here:\
+
+::: {.dropzone ondrop="drop(event)" ondragover="allowDrop(event)"}
+:::
+
+------------------------------------------------------------------------
+
+## 3. Sentence Building
+
+Use the given verb to complete the sentence logically.
+
+1.  (agir) → Nous \_\_\_ avec courage.\
+
+    ```{=html}
+    <textarea placeholder="Nous..." rows="1" cols="30"></textarea>
+    ```
+
+    <button onclick="checkSentence(this.previousElementSibling, &#39;agissons&#39;)">
+
+    Check
+
+    </button>
+
+2.  (rougir) → Tu \_\_\_ facilement.\
+
+    ```{=html}
+    <textarea placeholder="Tu..." rows="1" cols="30"></textarea>
+    ```
+
+    <button onclick="checkSentence(this.previousElementSibling, &#39;rougis&#39;)">
+
+    Check
+
+    </button>
+
+------------------------------------------------------------------------
+
+## 4. Translation Challenge
+
+Translate into French using -IR verbs.
+
+1.  She finishes her meal. → \_\_\_\
+
+    ```{=html}
+    <textarea placeholder="Elle..." rows="1" cols="30"></textarea>
+    ```
+
+    <button onclick="checkTranslation(this.previousElementSibling, &#39;Elle finit son repas.&#39;)">
+
+    Check
+
+    </button>
+
+2.  We choose a destination. → \_\_\_\
+
+    ```{=html}
+    <textarea placeholder="Nous..." rows="1" cols="30"></textarea>
+    ```
+
+    <button onclick="checkTranslation(this.previousElementSibling, &#39;Nous choisissons une destination.&#39;)">
+
+    Check
+
+    </button>
+
+------------------------------------------------------------------------
+
+## 5. Creative Writing
+
+Write 5 sentences about daily routines using **3 different -IR verbs**. Highlight the verbs.\
+Example: *Je finis mon café à 8h. Mon fils grandit vite...*
+
+```{=html}
+<textarea placeholder="Ma routine..." rows="5" cols="50"></textarea>
+```
+
+<button onclick="highlightVerbs(this.previousElementSibling)">
+
+Highlight Verbs
+
+</button>
+
+::: feedback
+:::
+
+```{=html}
+<script>
+// Check dropdown answers
+function checkVerb(selectElement, correctAnswer) {
+  // Get the feedback element next to the dropdown
+  const feedback = selectElement.nextElementSibling;
+
+  // Check if the selected value matches the correct answer
+  if (selectElement.value === correctAnswer) {
+    feedback.textContent = "✓ Correct!";
+    feedback.style.color = "green";
+  } 
+  // If the selected value is incorrect but not empty
+  else if (selectElement.value) {
+    feedback.textContent = "✗ Incorrect. Try again!";
+    feedback.style.color = "red";
+  } 
+  // If no option is selected, clear the feedback
+  else {
+    feedback.textContent = ""; // Clear feedback if no option is selected
+  }
+}
+
+// Drag-and-drop functions
+function allowDrop(e) { e.preventDefault(); }
+function drag(e) { e.dataTransfer.setData("text", e.target.dataset.answer); }
+function drop(e) {
+  e.preventDefault();
+  const data = e.dataTransfer.getData("text");
+  const feedback = e.target.nextElementSibling;
+  if (data) {
+    e.target.innerHTML = data;
+    feedback.textContent = "✓ Dropped!";
+    feedback.style.color = "green";
+  }
+}
+
+// Check sentence building
+function checkSentence(textarea, correctVerb) {
+  const feedback = textarea.nextElementSibling.nextElementSibling;
+  if (textarea.value.includes(correctVerb)) {
+    feedback.textContent = "✓ Correct!";
+    feedback.style.color = "green";
+  } else {
+    feedback.textContent = `✗ Use "${correctVerb}".`;
+    feedback.style.color = "red";
+  }
+}
+
+// Check translations
+function checkTranslation(textarea, correctAnswer) {
+  const feedback = textarea.nextElementSibling.nextElementSibling;
+  if (textarea.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
+    feedback.textContent = "✓ Perfect!";
+    feedback.style.color = "green";
+  } else {
+    feedback.textContent = `✓ Suggested: "${correctAnswer}"`;
+    feedback.style.color = "blue";
+  }
+}
+
+// Highlight -ER verbs in creative writing
+function highlightVerbs(textarea) {
+const commonERVerbs = ["finir", "choisir", "réussir", "grandir", "obéir", "agir", "rougir", "remplir", "maigrir", "bâtir", "réfléchir", "punir"];
+  let text = textarea.value;
+  commonERVerbs.forEach(verb => {
+    const regex = new RegExp(`\\b${verb}\\b`, "gi");
+    text = text.replace(regex, `<span style="background-color: yellow">${verb}</span>`);
+  });
+  const feedback = textarea.nextElementSibling.nextElementSibling;
+  feedback.innerHTML = "<strong>-ER verbs used:</strong><br>" + text;
+}
+</script>
+```
+:::::

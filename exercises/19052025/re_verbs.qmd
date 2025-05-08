@@ -1,0 +1,115 @@
+---
+title: "Exercises with French -RE Verbs"
+author: "Kunal Khurana"
+date: "05-12-2025"
+categories: [A1/A2, grammar, verbs, exercises]
+image: "re-verbs.png"
+---
+
+::: {.content-visible when-profile="english"}
+
+Exercise: Conjugating -RE Verbs
+Practice conjugating common -re verbs (attendre, perdre, répondre, vendre, entendre, rendre, descendre, etc.) in present tense.
+
+### 1. Fill in the Blanks
+Conjugate the -re verb in parentheses for each subject.
+
+Je (attendre) <input type="text" placeholder="Your answer" onblur="checkVerb(this, 'attends')"> → J’attends le bus.
+<span class="feedback"></span>
+
+Tu (perdre) <input type="text" placeholder="Your answer" onblur="checkVerb(this, 'perds')"> → Tu perds ton temps.
+<span class="feedback"></span>
+
+Il (répondre) <input type="text" placeholder="Your answer" onblur="checkVerb(this, 'répond')"> → Il répond à la question.
+<span class="feedback"></span>
+
+Nous (vendre) <input type="text" placeholder="Your answer" onblur="checkVerb(this, 'vendons')"> → Nous vendons notre maison.
+<span class="feedback"></span>
+
+Vous (entendre) <input type="text" placeholder="Your answer" onblur="checkVerb(this, 'entendez')"> → Vous entendez la musique ?
+<span class="feedback"></span>
+
+Elles (rendre) <input type="text" placeholder="Your answer" onblur="checkVerb(this, 'rendent')"> → Elles rendent leurs livres.
+<span class="feedback"></span>
+
+### 2. Sentence Correction
+Fix the incorrect verb conjugations.
+
+Il vendre sa voiture. → <textarea rows="1" cols="30" placeholder="Corrected sentence..."></textarea>
+<button onclick="checkCorrection(this.previousElementSibling, 'Il vend sa voiture.')">Check</button>
+<span class="feedback"></span>
+
+Nous répondons pas. → <textarea rows="1" cols="30" placeholder="Corrected sentence..."></textarea>
+<button onclick="checkCorrection(this.previousElementSibling, 'Nous ne répondons pas.')">Check</button>
+<span class="feedback"></span>
+
+### 3. Translation Challenge
+Translate into French using -re verbs:
+
+She loses her keys. → <textarea rows="1" cols="40" placeholder="French translation..."></textarea>
+<button onclick="checkTranslation(this.previousElementSibling, 'Elle perd ses clés.')">Check</button>
+<span class="feedback"></span>
+
+We are waiting for you. → <textarea rows="1" cols="40" placeholder="French translation..."></textarea>
+<button onclick="checkTranslation(this.previousElementSibling, 'Nous t’attendons.')">Check</button>
+<span class="feedback"></span>
+
+### 4. Creative Writing
+Write 4 sentences about your daily routine using at least 3 different -re verbs. Highlight the verbs.
+
+<textarea rows="5" cols="50" placeholder="Ex: Le matin, j’entends mon réveil..."></textarea>
+<button onclick="highlightVerbs(this.previousElementSibling)">Highlight -RE Verbs</button>
+
+<div class="feedback"></div>
+
+<script>
+function checkVerb(inputElement, correctAnswer) {  
+    const userAnswer = inputElement.value.trim().toLowerCase();  
+    const feedback = inputElement.nextElementSibling;  
+    if (userAnswer === correctAnswer) {  
+        feedback.textContent = "✓ Correct!";  
+        feedback.style.color = "green";  
+    } else {  
+        feedback.textContent = `✗ The correct answer is "${correctAnswer}".`;  
+        feedback.style.color = "red";  
+    }  
+}  
+
+function checkCorrection(textareaElement, correctAnswer) {  
+    const userText = textareaElement.value.trim();  
+    const feedback = textareaElement.nextElementSibling.nextElementSibling;  
+    if (userText === correctAnswer) {  
+        feedback.textContent = "✓ Perfect!";  
+        feedback.style.color = "green";  
+    } else {  
+        feedback.textContent = `✓ Suggested answer: "${correctAnswer}"`;  
+        feedback.style.color = "blue";  
+    }  
+}  
+
+// Check translations
+function checkTranslation(textarea, correctAnswer) {
+  const feedback = textarea.nextElementSibling.nextElementSibling;
+  if (textarea.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
+    feedback.textContent = "✓ Perfect!";
+    feedback.style.color = "green";
+  } else {
+    feedback.textContent = `✓ Suggested: "${correctAnswer}"`;
+    feedback.style.color = "blue";
+  }
+}
+
+function highlightVerbs(textareaElement) {  
+    const commonReVerbs = ["attendre", "perdre", "répondre", "vendre", "entendre", "rendre", "descendre"];  
+    let text = textareaElement.value;  
+    commonReVerbs.forEach(verb => {  
+        const regex = new RegExp(`\\b${verb}\\b`, "gi");  
+        text = text.replace(regex, `<span style="background-color: yellow">${verb}</span>`);  
+    });  
+    const feedback = textareaElement.nextElementSibling.nextElementSibling;  
+    feedback.innerHTML = "<strong>-RE Verbs used:</strong><br>" + text;  
+}  
+</script>
+
+:::
+

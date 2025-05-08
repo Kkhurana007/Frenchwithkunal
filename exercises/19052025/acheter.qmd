@@ -1,0 +1,125 @@
+---
+title: "Exercises with French Stem-Changing Verbs (e → è)"
+author: "Kunal Khurana"
+date: "05-12-2025"
+categories: [A1/A2, grammar, verbs, exercises]
+image: "acheter-verbs.png"
+---
+
+::: {.content-visible when-profile="english"}
+
+### Exercise: Conjugating Verbs Like *Acheter*  
+Practice conjugating stem-changing verbs (*acheter, préférer, espérer, répéter, céder*) in the present tense.  
+**Remember**: The "e" changes to "è" in all forms **except** *nous* and *vous* (e.g., *j'achète* but *nous achetons*).
+
+---
+
+### 1. Fill in the Blanks  
+Conjugate the verb for each subject.
+
+Je (acheter) <input type="text" placeholder="Your answer" onblur="checkAnswer(this, 'achète')"> → J'achète un livre.  
+<span class="feedback"></span>
+
+Tu (préférer) <input type="text" placeholder="Your answer" onblur="checkAnswer(this, 'préfères')"> → Tu préfères le café.  
+<span class="feedback"></span>
+
+Il (espérer) <input type="text" placeholder="Your answer" onblur="checkAnswer(this, 'espère')"> → Il espère gagner.  
+<span class="feedback"></span>
+
+Nous (répéter) <input type="text" placeholder="Your answer" onblur="checkAnswer(this, 'répétons')"> → Nous répétons la chanson.  
+<span class="feedback"></span>
+
+Vous (céder) <input type="text" placeholder="Your answer" onblur="checkAnswer(this, 'cédez')"> → Vous cédez la place.  
+<span class="feedback"></span>
+
+Elles (acheter) <input type="text" placeholder="Your answer" onblur="checkAnswer(this, 'achètent')"> → Elles achètent des fleurs.  
+<span class="feedback"></span>
+
+---
+
+### 2. Sentence Correction  
+Fix the incorrect conjugations (watch for missing "è" changes!).
+
+Je prefere le thé. → <textarea rows="1" cols="30" placeholder="Corrected sentence..."></textarea>  
+<button onclick="checkCorrection(this.previousElementSibling, 'Je préfère le thé.')">Check</button>  
+<span class="feedback"></span>
+
+Nous esprons partir. → <textarea rows="1" cols="30" placeholder="Corrected sentence..."></textarea>  
+<button onclick="checkCorrection(this.previousElementSibling, 'Nous espérons partir.')">Check</button>  
+<span class="feedback"></span>  
+
+*(Note: "Nous" form keeps the original "e"!)*  
+
+---
+
+### 3. Translation Challenge  
+Translate into French using stem-changing verbs:
+
+She hopes to travel. → <textarea rows="1" cols="40" placeholder="French translation..."></textarea>  
+<button onclick="checkTranslation(this.previousElementSibling, 'Elle espère voyager.')">Check</button>  
+<span class="feedback"></span>  
+
+We buy a car. → <textarea rows="1" cols="40" placeholder="French translation..."></textarea>  
+<button onclick="checkTranslation(this.previousElementSibling, 'Nous achetons une voiture.')">Check</button>  
+<span class="feedback"></span>  
+
+---
+
+### 4. Creative Writing  
+Write 3 sentences about shopping or preferences using at least 2 different stem-changing verbs. Highlight the verbs.  
+
+<textarea rows="5" cols="100" placeholder="Ex: J'achète des légumes..."></textarea>  
+<button onclick="highlightStemChangeVerbs(this.previousElementSibling)">Highlight Verbs</button>  
+<div class="feedback"></div>  
+
+<script>
+function checkAnswer(input, correctAnswer) {
+    const userAnswer = input.value.trim().toLowerCase();
+    const feedback = input.nextElementSibling;
+    if (userAnswer === correctAnswer) {
+        feedback.textContent = "✓ Correct!";
+        feedback.style.color = "green";
+    } else if (userAnswer) {
+        feedback.textContent = `✗ Try again. Hint: "${correctAnswer}"`;
+        feedback.style.color = "red";
+    } else {
+        feedback.textContent = "";
+    }
+}
+
+function checkCorrection(textareaElement, correctAnswer) {  
+    const userText = textareaElement.value.trim();  
+    const feedback = textareaElement.nextElementSibling.nextElementSibling;  
+    if (userText === correctAnswer) {  
+        feedback.textContent = "✓ Perfect!";  
+        feedback.style.color = "green";  
+    } else {  
+        feedback.textContent = `✓ Suggested: "${correctAnswer}"`;  
+        feedback.style.color = "blue";  
+    }  
+}  
+
+function checkTranslation(textarea, correctAnswer) {
+  const feedback = textarea.nextElementSibling.nextElementSibling;
+  if (textarea.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
+    feedback.textContent = "✓ Perfect!";
+    feedback.style.color = "green";
+  } else {
+    feedback.textContent = `✓ Suggested: "${correctAnswer}"`;
+    feedback.style.color = "blue";
+  }
+}
+
+function highlightStemChangeVerbs(textareaElement) {  
+    const verbs = ["acheter", "préférer", "espérer", "répéter", "céder"];  
+    let text = textareaElement.value;  
+    verbs.forEach(verb => {  
+        const regex = new RegExp(`\\b${verb}\\b`, "gi");  
+        text = text.replace(regex, `<span style="background-color: #FFD700">${verb}</span>`);  
+    });  
+    const feedback = textareaElement.nextElementSibling.nextElementSibling;  
+    feedback.innerHTML = "<strong>Stem-changing verbs used:</strong><br>" + text;  
+}  
+</script>  
+
+:::

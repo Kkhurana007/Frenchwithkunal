@@ -1,0 +1,162 @@
+---
+title: "Exercises with French Double-Consonant Verbs"
+author: "Kunal Khurana"
+date: "05-12-2025"
+categories: [A1/A2, grammar, verbs, exercises]
+image: "double-verbs.png"
+---
+
+:::: {.content-visible when-profile="english"}
+### Exercise: Conjugating Verbs Like *Appeler*
+
+Practice conjugating double-consonant verbs (*appeler, jeter, rappeler, projeter, rejeter*) in the present tense.\
+**Remember**:\
+1. The consonant (**l** or **t**) doubles in the same forms (e.g., *j'appelle* but *nous appelons*).
+
+------------------------------------------------------------------------
+
+### 1. Fill in the Blanks
+
+Conjugate the verb for each subject.
+
+Je (appeler) <input type="text" placeholder="Your answer" onblur="checkAnswer(this, 'appelle')"> → J'appelle mon ami.\
+
+Tu (jeter) <input type="text" placeholder="Your answer" onblur="checkAnswer(this, 'jettes')"> → Tu jettes le papier.\
+
+Il (rappeler) <input type="text" placeholder="Your answer" onblur="checkAnswer(this, 'rappelle')"> → Il rappelle la règle.\
+
+Nous (projeter) <input type="text" placeholder="Your answer" onblur="checkAnswer(this, 'projetons')"> → Nous projetons un film.\
+
+Vous (appeler) <input type="text" placeholder="Your answer" onblur="checkAnswer(this, 'appelez')"> → Vous appelez le médecin.\
+
+Elles (jeter) <input type="text" placeholder="Your answer" onblur="checkAnswer(this, 'jettent')"> → Elles jettent les déchets.\
+
+------------------------------------------------------------------------
+
+### 2. Sentence Correction
+
+Fix the incorrect conjugations (watch for missing double consonants!).
+
+Elle apele sa mère. →
+
+```{=html}
+<textarea rows="1" cols="30" placeholder="Corrected sentence..."></textarea>
+```
+
+<button onclick="checkCorrection(this.previousElementSibling, &#39;Elle appelle sa mère.&#39;)">
+Check
+</button>
+
+Nous jetons la balle. →
+
+```{=html}
+<textarea rows="1" cols="30" placeholder="Corrected sentence..."></textarea>
+```
+
+<button onclick="checkCorrection(this.previousElementSibling, &#39;Nous jetons la balle.&#39;)">
+Check
+</button>
+
+*(Note: "Nous" form is correct—no doubling needed!)*
+
+------------------------------------------------------------------------
+
+### 3. Translation Challenge
+
+Translate into French using double-consonant verbs:
+
+I call my teacher. →
+
+```{=html}
+<textarea rows="1" cols="40" placeholder="French translation..."></textarea>
+```
+
+<button onclick="checkTranslation(this.previousElementSibling, &#39;J\&#39;appelle mon professeur.&#39;)">
+
+Check
+
+</button>
+
+They (fem.) throw the ball. →
+
+```{=html}
+<textarea rows="1" cols="40" placeholder="French translation..."></textarea>
+```
+
+<button onclick="checkTranslation(this.previousElementSibling, &#39;Elles jettent la balle.&#39;)">
+
+Check
+
+</button>
+
+------------------------------------------------------------------------
+
+### 4. Creative Writing
+
+Write 3 sentences about daily routines using at least 2 different double-consonant verbs. Highlight the verbs.
+
+```{=html}
+<textarea rows="5" cols="100" placeholder="Ex: J'appelle mes parents..."></textarea>
+```
+
+<button onclick="highlightDoubleVerbs(this.previousElementSibling)">
+
+Highlight Verbs
+
+</button>
+
+::: feedback
+:::
+
+```{=html}
+<script>
+function checkAnswer(input, correctAnswer) {
+    const userAnswer = input.value.trim().toLowerCase();
+    const feedback = input.nextElementSibling;
+    if (userAnswer === correctAnswer) {
+        feedback.textContent = "✓ Correct!";
+        feedback.style.color = "green";
+    } else if (userAnswer) {
+        feedback.textContent = `✗ Try again. Hint: "${correctAnswer}"`;
+        feedback.style.color = "red";
+    } else {
+        feedback.textContent = "";
+    }
+}
+
+function checkCorrection(textareaElement, correctAnswer) {  
+    const userText = textareaElement.value.trim();  
+    const feedback = textareaElement.nextElementSibling.nextElementSibling;  
+    if (userText === correctAnswer) {  
+        feedback.textContent = "✓ Perfect!";  
+        feedback.style.color = "green";  
+    } else {  
+        feedback.textContent = `✓ Suggested: "${correctAnswer}"`;  
+        feedback.style.color = "blue";  
+    }  
+}  
+
+function checkTranslation(textarea, correctAnswer) {
+  const feedback = textarea.nextElementSibling.nextElementSibling;
+  if (textarea.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
+    feedback.textContent = "✓ Perfect!";
+    feedback.style.color = "green";
+  } else {
+    feedback.textContent = `✓ Suggested: "${correctAnswer}"`;
+    feedback.style.color = "blue";
+  }
+}
+
+function highlightDoubleVerbs(textareaElement) {  
+    const verbs = ["appeler", "jeter", "rappeler", "projeter", "rejeter"];  
+    let text = textareaElement.value;  
+    verbs.forEach(verb => {  
+        const regex = new RegExp(`\\b${verb}\\b`, "gi");  
+        text = text.replace(regex, `<span style="background-color: #FFD700">${verb}</span>`);  
+    });  
+    const feedback = textareaElement.nextElementSibling.nextElementSibling;  
+    feedback.innerHTML = "<strong>Double-consonant verbs used:</strong><br>" + text;  
+}  
+</script>
+```
+::::
