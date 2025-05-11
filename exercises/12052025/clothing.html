@@ -84,11 +84,15 @@ ul.task-list li input[type="checkbox"] {
 
 <meta property="og:title" content="Exercises: Clothing Vocabulary &amp; Gender – French with Kunal">
 <meta property="og:description" content="">
-<meta property="og:image" content="https://frenchwithkunal.ca/exercises/12052025/clothing-nouns.png">
+<meta property="og:image" content="https://frenchwithkunal.ca/exercises/12052025/clothing.png">
 <meta property="og:site_name" content="French with Kunal">
+<meta property="og:image:height" content="332">
+<meta property="og:image:width" content="419">
 <meta name="twitter:title" content="Exercises: Clothing Vocabulary &amp; Gender – French with Kunal">
 <meta name="twitter:description" content="">
-<meta name="twitter:image" content="https://frenchwithkunal.ca/exercises/12052025/clothing-nouns.png">
+<meta name="twitter:image" content="https://frenchwithkunal.ca/exercises/12052025/clothing.png">
+<meta name="twitter:image-height" content="332">
+<meta name="twitter:image-width" content="419">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -271,6 +275,20 @@ ul.task-list li input[type="checkbox"] {
 <p>“La pantalon” → <input type="text" placeholder="Correct phrase" oninput="checkAnswer(this, 'le pantalon')"><span style="margin-left:10px;"></span></p>
 <p>“Un robe” → <input type="text" placeholder="Correct phrase" oninput="checkAnswer(this, 'une robe')"><span style="margin-left:10px;"></span></p>
 <p>“Des chapeau” → <input type="text" placeholder="Correct phrase" oninput="checkAnswer(this, 'des chapeaux')"><span style="margin-left:10px;"></span></p>
+<button onclick="showAnswers()">
+Show All Answers
+</button>
+<script>  
+function showAnswers() {  
+    document.querySelectorAll('input[type="text"]').forEach(input => {  
+        const correct = input.getAttribute('oninput').match(/'([^']+)'/)[1];  
+        input.value = correct;  
+        const feedback = input.nextElementSibling;  
+        feedback.textContent = "✓ Correct!";  
+        feedback.style.color = "green";  
+    });  
+}  
+</script>
 </section>
 <section id="translate-into-french-include-articles" class="level4">
 <h4 class="anchored" data-anchor-id="translate-into-french-include-articles">4. Translate into French (include articles!):</h4>
