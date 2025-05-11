@@ -1,0 +1,144 @@
+---
+title: "Exercises: Food Vocabulary & Gender"  
+author: "Kunal Khurana"  
+date: "05-12-2025"  
+categories: [A1/A2, vocabulary, food, exercises]  
+image: "food.png" 
+---
+
+::: {.content-visible when-profile="english"}  
+
+### Exercise: French Food Nouns and Gender  
+Practice the gender of French food nouns and their articles.  
+
+#### 1. Assign the correct definite article (*le/la/l'*) to each food item:  
+___ café (coffee) ☕ → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'le')"><span style="margin-left:10px;"></span>  
+
+___ glace (ice cream) 🍦 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'la')"><span style="margin-left:10px;"></span>  
+
+___ chocolat (chocolate) 🍫 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'le')"><span style="margin-left:10px;"></span>  
+
+___ salade (salad) 🥗 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'la')"><span style="margin-left:10px;"></span>  
+
+___ riz (rice) 🍚 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'le')"><span style="margin-left:10px;"></span>  
+
+___ soupe (soup) 🍲 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'la')"><span style="margin-left:10px;"></span>  
+
+___ lait (milk) 🥛 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'le')"><span style="margin-left:10px;"></span>  
+
+___ viande (meat) 🥩 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'la')"><span style="margin-left:10px;"></span>  
+
+___ thé (tea) 🫖 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'le')"><span style="margin-left:10px;"></span>  
+
+___ fruit (fruit) 🍎 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'le')"><span style="margin-left:10px;"></span>  
+
+___ légume (vegetable) 🥕 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'le')"><span style="margin-left:10px;"></span>  
+
+___ pain (bread) 🍞 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'le')"><span style="margin-left:10px;"></span>  
+
+___ poisson (fish) 🐟 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'le')"><span style="margin-left:10px;"></span>  
+
+#### 2. Rewrite with the correct indefinite article (*un/une/des*):  
+___ gâteau (cake) 🎂 → <input type="text" placeholder="un/une" oninput="checkAnswer(this, 'un')"><span style="margin-left:10px;"></span>  
+
+___ boisson (drink) 🥤 → <input type="text" placeholder="un/une" oninput="checkAnswer(this, 'une')"><span style="margin-left:10px;"></span>  
+
+___ pâtes (pasta) 🍝 → <input type="text" placeholder="un/une/des" oninput="checkAnswer(this, 'des')"><span style="margin-left:10px;"></span>  
+
+___ bonbon (candy) 🍬 → <input type="text" placeholder="un/une" oninput="checkAnswer(this, 'un')"><span style="margin-left:10px;"></span>  
+
+___ épices (spices) 🌶️ → <input type="text" placeholder="un/une/des" oninput="checkAnswer(this, 'des')"><span style="margin-left:10px;"></span>  
+
+#### 3. Correct the errors in gender/number:  
+"La lait" → <input type="text" placeholder="Correct phrase" oninput="checkAnswer(this, 'le lait')"><span style="margin-left:10px;"></span>  
+
+"Un salade" → <input type="text" placeholder="Correct phrase" oninput="checkAnswer(this, 'une salade')"><span style="margin-left:10px;"></span>  
+
+"Des gâteau" → <input type="text" placeholder="Correct phrase" oninput="checkAnswer(this, 'des gâteaux')"><span style="margin-left:10px;"></span>  
+
+
+<button onclick="showAnswers()">Show All Answers</button>  
+
+<script>  
+function showAnswers() {  
+    document.querySelectorAll('input[type="text"]').forEach(input => {  
+        const correct = input.getAttribute('oninput').match(/'([^']+)'/)[1];  
+        input.value = correct;  
+        const feedback = input.nextElementSibling;  
+        feedback.textContent = "✓ Correct!";  
+        feedback.style.color = "green";  
+    });  
+}  
+</script>  
+
+
+#### 4. Translate into French (include articles!):  
+"I eat bread with cheese."  
+<textarea placeholder="Je mange..." rows="2" cols="50" oninput="checkTranslation(this, 'Je mange du pain avec du fromage')"></textarea><span style="margin-left:10px;"></span>  
+
+"She drinks hot chocolate."  
+<textarea placeholder="Elle boit..." rows="2" cols="50" oninput="checkTranslation(this, 'Elle boit du chocolat chaud')"></textarea><span style="margin-left:10px;"></span>  
+
+<button onclick="checkAllAnswers()">Check Answers</button>  
+
+<script>  
+function checkAllAnswers() {  
+    document.querySelectorAll('input[type="text"]').forEach(input => {  
+        const correct = input.getAttribute('oninput').match(/'([^']+)'/)[1];  
+        checkAnswer(input, correct);  
+    });  
+
+    document.querySelectorAll('textarea').forEach(textarea => {  
+        const correct = textarea.getAttribute('oninput').match(/'([^']+)'/)[1];  
+        checkTranslation(textarea, correct);  
+    });  
+}  
+
+function checkTranslation(textarea, correctAnswer) {  
+    const feedback = textarea.nextElementSibling;  
+    if (textarea.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {  
+        feedback.textContent = "✓ Correct!";  
+        feedback.style.color = "green";  
+    } else if (textarea.value.trim()) {  
+        feedback.textContent = "✗ Try again!";  
+        feedback.style.color = "red";  
+    }  
+}  
+</script>  
+
+<script>  
+function checkAnswer(input, correctAnswer) {  
+    const feedback = input.nextElementSibling;  
+    if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {  
+        feedback.textContent = "✓ Correct!";  
+        feedback.style.color = "green";  
+    } else if (input.value.trim()) {  
+        feedback.textContent = "✗ Try again!";  
+        feedback.style.color = "red";  
+    }  
+}  
+
+function checkAllAnswers() {  
+    document.querySelectorAll('input[type="text"]').forEach(input => {  
+        const correct = input.getAttribute('oninput').match(/'([^']+)'/)[1];  
+        checkAnswer(input, correct);  
+    });  
+
+    document.querySelectorAll('textarea').forEach(textarea => {  
+        const correct = textarea.getAttribute('oninput').match(/'([^']+)'/)[1];  
+        checkTranslation(textarea, correct);  
+    });  
+}  
+
+function checkTranslation(textarea, correctAnswer) {  
+    const feedback = textarea.nextElementSibling;  
+    if (textarea.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {  
+        feedback.textContent = "✓ Correct!";  
+        feedback.style.color = "green";  
+    } else if (textarea.value.trim()) {  
+        feedback.textContent = "✗ Try again!";  
+        feedback.style.color = "red";  
+    }  
+}  
+</script>  
+:::  

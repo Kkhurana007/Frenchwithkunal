@@ -32,8 +32,8 @@ format:
 
   const translations = {
     noAccess: isFrench 
-      ? "Vous n'avez pas accès à cette page."
-      : "You don't have access to this page.",
+      ? "Vous n'avez pas accès à cette page. Si vous pensez que vous avez accès, veuillez <a href='https://frenchwithkunal.ca/login.html'>vous connecter</a>."
+      : "You don't have access to this page. If you think you have, kindly <a href='https://frenchwithkunal.ca/login.html'>login</a>.",
     subscribe: isFrench
       ? "Veuillez vous abonner pour obtenir l'accès."
       : "Please subscribe to gain access.",
@@ -354,8 +354,4 @@ Parlez plus fort ! (forme vous)
 L’impératif est un outil puissant pour la communication quotidienne, surtout dans des contextes informels ou familiaux. Il est direct, clair et efficace.
 :::
 
-{{< video https://www.youtube.com/watch?v=QdMORya9Z_A
-    title="What is the CERN?"
-    start="116"
-    aspect-ratio="21x9" 
->}}
+{{< video https://www.youtube.com/watch?v=QdMORya9Z_A title="What is the CERN?" start="116" aspect-ratio="21x9" >}}

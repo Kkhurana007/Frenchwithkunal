@@ -1,0 +1,123 @@
+---
+title: "Exercises: Fruit Vocabulary & Gender"  
+author: "Kunal Khurana"  
+date: "05-12-2025"  
+categories: [A1/A2, vocabulary, fruits, exercises]  
+image: "fruits.png"  
+---
+
+
+::: {.content-visible when-profile="english"}  
+
+### Exercise: French Fruit Nouns and Gender  
+Practice the gender of French fruit nouns and their articles.  
+
+#### 1. Assign the correct definite article (*le/la/l'*) to each fruit:  
+___ banane (banana) 🍌 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'la')"><span style="margin-left:10px;"></span>  
+
+___ ananas (pineapple) 🍍 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'l\'')"><span style="margin-left:10px;"></span>  
+
+___ fraise (strawberry) 🍓 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'la')"><span style="margin-left:10px;"></span>  
+
+___ citron (lemon) 🍋 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'le')"><span style="margin-left:10px;"></span>  
+
+___ pomme (apple) 🍎 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'la')"><span style="margin-left:10px;"></span>  
+
+___ raisin (grape) 🍇 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'le')"><span style="margin-left:10px;"></span>  
+
+___ orange (orange) 🍊 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'l\'')"><span style="margin-left:10px;"></span>  
+
+___ noix de coco (coconut) 🥥 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'la')"><span style="margin-left:10px;"></span>  
+
+#### 2. Match the French term to its English equivalent:  
+**"la cerise"** → <input type="text" placeholder="English" oninput="checkAnswer(this, 'cherry')"><span style="margin-left:10px;"></span>  
+
+**"le bleuet"** → <input type="text" placeholder="English" oninput="checkAnswer(this, 'blueberry')"><span style="margin-left:10px;"></span>  
+
+**"la mangue"** → <input type="text" placeholder="English" oninput="checkAnswer(this, 'mango')"><span style="margin-left:10px;"></span>  
+
+**"la prune"** → <input type="text" placeholder="English" oninput="checkAnswer(this, 'plum')"><span style="margin-left:10px;"></span>  
+
+#### 3. Fill in the blanks with the correct term:  
+"Je mange ___ (strawberries) avec de la crème." → <input type="text" placeholder="French" oninput="checkAnswer(this, 'des fraises')"><span style="margin-left:10px;"></span>  
+
+"___ (The pomegranate) est rouge." → <input type="text" placeholder="French" oninput="checkAnswer(this, 'la grenade')"><span style="margin-left:10px;"></span>  
+
+"Où sont ___ (the raspberries) ?" → <input type="text" placeholder="French" oninput="checkAnswer(this, 'les framboises')"><span style="margin-left:10px;"></span>  
+
+#### 4. Correct the errors in gender/number:  
+"Un banane" → <input type="text" placeholder="Correct phrase" oninput="checkAnswer(this, 'une banane')"><span style="margin-left:10px;"></span>  
+
+"La citron" → <input type="text" placeholder="Correct phrase" oninput="checkAnswer(this, 'le citron')"><span style="margin-left:10px;"></span>  
+
+"Des pêche" → <input type="text" placeholder="Correct phrase" oninput="checkAnswer(this, 'des pêches')"><span style="margin-left:10px;"></span>  
+
+<button onclick="showAnswers()">Show All Answers</button>
+
+<script>  
+function showAnswers() {  
+    document.querySelectorAll('input[type="text"]').forEach(input => {  
+        const correct = input.getAttribute('oninput').match(/'([^']+)'/)[1];  
+        input.value = correct;  
+        const feedback = input.nextElementSibling;  
+        feedback.textContent = "✓ Correct!";  
+        feedback.style.color = "green";  
+    });  
+}  
+
+function refreshPage() {  
+    location.reload();  
+}  
+</script>  
+
+<button onclick="refreshPage()">Refresh Page</button>
+
+
+
+
+#### 5. Translate into French (include articles!):  
+"I like to eat grapes."  
+<textarea placeholder="J'aime manger..." rows="2" cols="50" oninput="checkTranslation(this, 'J\'aime manger du raisin')"></textarea><span style="margin-left:10px;"></span>  
+
+"The children want apples and pears."  
+<textarea placeholder="Les enfants veulent..." rows="2" cols="50" oninput="checkTranslation(this, 'Les enfants veulent des pommes et des poires')"></textarea><span style="margin-left:10px;"></span>  
+
+<button onclick="checkAllAnswers()">Check Answers</button>  
+
+<script>  
+function checkAnswer(input, correctAnswer) {  
+    const feedback = input.nextElementSibling;  
+    if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {  
+        feedback.textContent = "✓ Correct!";  
+        feedback.style.color = "green";  
+    } else if (input.value.trim()) {  
+        feedback.textContent = "✗ Try again!";  
+        feedback.style.color = "red";  
+    }  
+}  
+
+function checkAllAnswers() {  
+    document.querySelectorAll('input[type="text"]').forEach(input => {  
+        const correct = input.getAttribute('oninput').match(/'([^']+)'/)[1];  
+        checkAnswer(input, correct);  
+    });  
+
+    document.querySelectorAll('textarea').forEach(textarea => {  
+        const correct = textarea.getAttribute('oninput').match(/'([^']+)'/)[1];  
+        checkTranslation(textarea, correct);  
+    });  
+}  
+
+function checkTranslation(textarea, correctAnswer) {  
+    const feedback = textarea.nextElementSibling;  
+    if (textarea.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {  
+        feedback.textContent = "✓ Correct!";  
+        feedback.style.color = "green";  
+    } else if (textarea.value.trim()) {  
+        feedback.textContent = "✗ Try again!";  
+        feedback.style.color = "red";  
+    }  
+}  
+</script>  
+:::  
+

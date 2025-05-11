@@ -18,12 +18,11 @@ format:
 <a href="mailto:frenchwithkunal@gmail.com" target="_blank" style="margin: 0 10px; color: #000;"><i class="fas fa-envelope fa-lg"></i></a> <a href="https://www.instagram.com/frenchwithkunal" target="_blank" style="margin: 0 10px; color: #E1306C;"><i class="fab fa-instagram fa-lg"></i></a> <a href="https://frenchwithkunal.ca" target="_blank" style="margin: 0 10px; color: #0077b5;"><i class="fas fa-globe fa-lg"></i></a> <a href="https://whatsapp.com/channel/0029Vb57n2e7dmegpjYpyi3V" target="_blank" style="margin: 0 10px; color: #25D366;"><i class="fab fa-whatsapp fa-lg"></i></a> <button onclick="copyLink()" style="background-color: #0077b5; color: white; padding: 8px 16px; border: none; border-radius: 4px; cursor: pointer; margin-left: 10px;"> <i class="fas fa-copy"></i> </button> [Link copied!]{#copy-message style="margin-left: 10px; color: green; display: none;"}
 :::
 
+::: {#react-root}
+:::
 
-
-
-
-<div id="react-root"></div>
- <script type="text/babel">
+```{=html}
+<script type="text/babel">
  const ProfilePage = () => {
   const { useState, useEffect } = React;
   const [redirectCounter, setRedirectCounter] = useState(4);
@@ -33,8 +32,8 @@ format:
 
   const translations = {
     noAccess: isFrench 
-      ? "Vous n'avez pas accès à cette page."
-      : "You don't have access to this page.",
+      ? "Vous n'avez pas accès à cette page. Si vous pensez que vous avez accès, veuillez <a href='https://frenchwithkunal.ca/login.html'>vous connecter</a>."
+      : "You don't have access to this page. If you think you have, kindly <a href='https://frenchwithkunal.ca/login.html'>login</a>.",
     subscribe: isFrench
       ? "Veuillez vous abonner pour obtenir l'accès."
       : "Please subscribe to gain access.",
@@ -169,7 +168,7 @@ ReactDOM.render(
   document.getElementById('react-root')
 );
  </script>
-
+```
 
 ::: {.content-visible when-profile="english"}
 Learning French can be both fun and effective when you incorporate interactive tools like **Kahoot** into your practice. Whether you're a beginner or looking to polish your skills, these Kahoot games are perfect for mastering essential French vocabulary, grammar, and expressions. Below is a list of curated Kahoot games to help you practice **French numbers**, **prepositions**, **body parts**, **-er verbs**, **feelings**, **introductory phrases**, and **seasons**. Let’s dive in!

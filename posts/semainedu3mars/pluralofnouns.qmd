@@ -32,8 +32,8 @@ format:
 
   const translations = {
     noAccess: isFrench 
-      ? "Vous n'avez pas accès à cette page."
-      : "You don't have access to this page.",
+      ? "Vous n'avez pas accès à cette page. Si vous pensez que vous avez accès, veuillez <a href='https://frenchwithkunal.ca/login.html'>vous connecter</a>."
+      : "You don't have access to this page. If you think you have, kindly <a href='https://frenchwithkunal.ca/login.html'>login</a>.",
     subscribe: isFrench
       ? "Veuillez vous abonner pour obtenir l'accès."
       : "Please subscribe to gain access.",
@@ -179,11 +179,7 @@ Plural forms in French might seem complicated at first glance, but once you unde
 
 A noun is plural when it refers to more than one person, object, place, idea, etc. For example, *une plante* (a plant) becomes *des plantes* (plants), *un téléphone* (a phone) becomes *des téléphones* (phones), and *une lampe* (a lamp) becomes *des lampes* (lamps). However, the formation of plurals in French often depends on the ending of the singular noun. Let’s break it down.
 
-{{< video https://www.youtube.com/watch?v=2-h2kDjOIEo
-    title="Plurals of nouns and adjectives"
-    start="116"
-    aspect-ratio="21x9" 
->}}
+{{< video https://www.youtube.com/watch?v=2-h2kDjOIEo title="Plurals of nouns and adjectives" start="116" aspect-ratio="21x9" >}}
 
 ------------------------------------------------------------------------
 

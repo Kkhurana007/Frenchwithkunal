@@ -1,0 +1,129 @@
+---
+title: "Exercises: Meat Vocabulary & Gender"  
+author: "Kunal Khurana"  
+date: "05-12-2025"  
+categories: [A1/A2, vocabulary, meat, exercises]  
+image: "viande.png"  
+---
+
+::: {.content-visible when-profile="english"}  
+
+### Exercise: French Meat Nouns and Gender  
+Practice the gender of French meat-related nouns and their articles.  
+
+#### 1. Assign the correct definite article (*le/la/l'*) to each term:  
+___ aile de poulet (chicken wing) 🍗 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'l\'')"><span style="margin-left:10px;"></span>  
+
+___ agneau (lamb) 🐑 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'l\'')"><span style="margin-left:10px;"></span>  
+
+___ bacon 🥓 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'le')"><span style="margin-left:10px;"></span>  
+
+___ blanc de poulet (chicken breast) 🍗 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'le')"><span style="margin-left:10px;"></span>  
+
+___ escargot (snail) 🐌 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'l\'')"><span style="margin-left:10px;"></span>  
+
+___ foie (liver) 🍖 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'le')"><span style="margin-left:10px;"></span>  
+
+___ dinde (turkey) 🦃 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'la')"><span style="margin-left:10px;"></span>  
+
+___ veau (veal) 🐄 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'le')"><span style="margin-left:10px;"></span>  
+
+#### 2. Match the French term to its English equivalent:  
+**"le jambon"** 🍖 → <input type="text" placeholder="English" oninput="checkAnswer(this, 'ham')"><span style="margin-left:10px;"></span>  
+
+**"la saucisse"** 🌭 → <input type="text" placeholder="English" oninput="checkAnswer(this, 'sausage')"><span style="margin-left:10px;"></span>  
+
+**"le jaune d’œuf"** 🥚 → <input type="text" placeholder="English" oninput="checkAnswer(this, 'egg yolk')"><span style="margin-left:10px;"></span>  
+
+**"les viandes maigres"** 🥩 → <input type="text" placeholder="English" oninput="checkAnswer(this, 'lean meats')"><span style="margin-left:10px;"></span>  
+
+#### 3. Fill in the blanks with the correct term:  
+"___ (The beef) est tendre." 🥩 → <input type="text" placeholder="French" oninput="checkAnswer(this, 'le bœuf')"><span style="margin-left:10px;"></span>  
+
+"Je cuisine ___ (duck) à l’orange." 🦆 → <input type="text" placeholder="French" oninput="checkAnswer(this, 'le canard')"><span style="margin-left:10px;"></span>  
+
+"___ (The pork) est populaire en Allemagne." 🐖 → <input type="text" placeholder="French" oninput="checkAnswer(this, 'le porc')"><span style="margin-left:10px;"></span>  
+
+#### 4. Correct the errors in gender/number:  
+"Une hamburger" 🍔 → <input type="text" placeholder="Correct phrase" oninput="checkAnswer(this, 'un hamburger')"><span style="margin-left:10px;"></span>  
+
+"La bœuf" 🥩 → <input type="text" placeholder="Correct phrase" oninput="checkAnswer(this, 'le bœuf')"><span style="margin-left:10px;"></span>  
+
+"Des saucisse" 🌭 → <input type="text" placeholder="Correct phrase" oninput="checkAnswer(this, 'des saucisses')"><span style="margin-left:10px;"></span>  
+
+<button onclick="showAnswers()">Show All Answers</button>  
+
+<script>  
+function showAnswers() {  
+    document.querySelectorAll('input[type="text"]').forEach(input => {  
+        const correct = input.getAttribute('oninput').match(/'([^']+)'/)[1];  
+        input.value = correct;  
+        const feedback = input.nextElementSibling;  
+        feedback.textContent = "✓ Correct!";  
+        feedback.style.color = "green";  
+    });  
+}  
+
+function refreshPage() {  
+    location.reload();  
+}  
+</script>  
+
+<button onclick="refreshPage()">Refresh Page</button>
+
+
+
+#### 5. Translate into French (include articles/partitives!):  
+"I eat chicken with rice."  
+<textarea placeholder="Je mange..." rows="2" cols="50" oninput="checkTranslation(this, 'Je mange du poulet avec du riz')"></textarea><span style="margin-left:10px;"></span>  
+
+"She prefers egg whites for breakfast."  
+<textarea placeholder="Elle préfère..." rows="2" cols="50" oninput="checkTranslation(this, 'Elle préfère les blancs d’œufs pour le petit-déjeuner')"></textarea><span style="margin-left:10px;"></span>  
+
+<button onclick="checkAllAnswers()">Check Answers</button>  
+
+<script>  
+function checkAnswer(input, correctAnswer) {  
+    const feedback = input.nextElementSibling;  
+    if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {  
+        feedback.textContent = "✓ Correct!";  
+        feedback.style.color = "green";  
+    } else if (input.value.trim()) {  
+        feedback.textContent = "✗ Try again!";  
+        feedback.style.color = "red";  
+    }  
+}  
+
+function checkAllAnswers() {  
+    document.querySelectorAll('input[type="text"]').forEach(input => {  
+        const correct = input.getAttribute('oninput').match(/'([^']+)'/)[1];  
+        checkAnswer(input, correct);  
+    });  
+
+    document.querySelectorAll('textarea').forEach(textarea => {  
+        const correct = textarea.getAttribute('oninput').match(/'([^']+)'/)[1];  
+        checkTranslation(textarea, correct);  
+    });  
+}  
+
+function checkTranslation(textarea, correctAnswer) {  
+    const feedback = textarea.nextElementSibling;  
+    if (textarea.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {  
+        feedback.textContent = "✓ Correct!";  
+        feedback.style.color = "green";  
+    } else if (textarea.value.trim()) {  
+        feedback.textContent = "✗ Try again!";  
+        feedback.style.color = "red";  
+    }  
+}  
+</script>  
+
+---
+
+### Notes:  
+- **Gender hints**: Most meat terms are masculine (*le porc, le steak*), but exceptions include *la dinde* (turkey) and *la viande* (meat).  
+- **Partitives**: Use *du/de la/des* for "some" (*du poulet*, *de la dinde*).  
+- **Plural alert**: *Les escargots* (snails) and *les saucisses* (sausages) are plural.  
+
+
+:::  

@@ -33,8 +33,8 @@ format:
 
   const translations = {
     noAccess: isFrench 
-      ? "Vous n'avez pas accès à cette page."
-      : "You don't have access to this page.",
+      ? "Vous n'avez pas accès à cette page. Si vous pensez que vous avez accès, veuillez <a href='https://frenchwithkunal.ca/login.html'>vous connecter</a>."
+      : "You don't have access to this page. If you think you have, kindly <a href='https://frenchwithkunal.ca/login.html'>login</a>.",
     subscribe: isFrench
       ? "Veuillez vous abonner pour obtenir l'accès."
       : "Please subscribe to gain access.",
@@ -248,11 +248,7 @@ Some verbs change meaning depending on the auxiliary:
 | **Monter** | *Ils sont montés au sommet.* (They went up to the summit.) | *Ils ont monté les bagages.* (They carried up the luggage.) |
 | **Sortir** | *Je suis sorti avec une amie.* (I went out with a friend.) | *J’ai sorti le chien.* (I took the dog out.) |
 
-{{< video https://www.youtube.com/watch?v=iNWnr_zd4Pw&t=3s
-    title="l'imparfait?"
-    start="116"
-    aspect-ratio="21x9" 
->}}
+{{< video https://www.youtube.com/watch?v=iNWnr_zd4Pw&t=3s title="l'imparfait?" start="116" aspect-ratio="21x9" >}}
 
 ------------------------------------------------------------------------
 
@@ -283,12 +279,7 @@ The imparfait is used for:\
 -   Vous parl**iez**\
 -   Ils/Elles parl**aient**
 
-
-{{< video https://www.youtube.com/watch?v=oq0JplSWp6Q&t=216s
-    title="l'imparfait?"
-    start="116"
-    aspect-ratio="21x9" 
->}}
+{{< video https://www.youtube.com/watch?v=oq0JplSWp6Q&t=216s title="l'imparfait?" start="116" aspect-ratio="21x9" >}}
 
 ------------------------------------------------------------------------
 
@@ -316,7 +307,6 @@ The imparfait is used for:\
 :::
 
 ::: {.content-visible when-profile="french"}
-
 Aujourd'hui, on va plonger dans deux temps essentiels du passé en français : **le passé composé** et **l'imparfait**. Je vais vous expliquer leur formation, leur utilisation et vous donner des exemples concrets pour bien les maîtriser. Tu peux aussi regarder [ce PDF](https://drive.google.com/file/d/10gVJIiFRed1Cs1sQTbXg37zhQ20kJPof/view?usp=drive_link) pour plus de détails.
 
 ------------------------------------------------------------------------
@@ -393,12 +383,7 @@ Certains verbes changent de sens selon l’auxiliaire :
 | **Monter** | *Ils sont montés au sommet.* (mouvement) | *Ils ont monté les bagages.* (action) |
 | **Sortir** | *Je suis sorti avec une amie.* (mouvement) | *J’ai sorti le chien.* (action) |
 
-
-{{< video https://www.youtube.com/watch?v=iNWnr_zd4Pw&t=3s
-    title="l'imparfait?"
-    start="116"
-    aspect-ratio="21x9" 
->}}
+{{< video https://www.youtube.com/watch?v=iNWnr_zd4Pw&t=3s title="l'imparfait?" start="116" aspect-ratio="21x9" >}}
 
 ------------------------------------------------------------------------
 
@@ -428,11 +413,7 @@ L’imparfait sert à décrire :\
 - Vous parl**iez**\
 - Ils/Elles parl**aient**
 
-{{< video https://www.youtube.com/watch?v=oq0JplSWp6Q&t=216s
-    title="l'imparfait?"
-    start="116"
-    aspect-ratio="21x9" 
->}}
+{{< video https://www.youtube.com/watch?v=oq0JplSWp6Q&t=216s title="l'imparfait?" start="116" aspect-ratio="21x9" >}}
 
 ------------------------------------------------------------------------
 
@@ -458,5 +439,3 @@ L’imparfait sert à décrire :\
 2.  Elle \_\_\_ (être) toujours souriante quand elle \_\_\_ (travailler).\
     → *Elle **était** toujours souriante quand elle **travaillait**.*
 :::
-
-

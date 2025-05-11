@@ -3,7 +3,7 @@ title: "Exploring the Bathroom: Vocabulary and Daily Routines"
 author: "Your Name"
 date: "05-08-2025"
 categories: [A1/A2, vocabulary, daily routines]
-image: "bathroom.png"
+image: "lasalledebain.png"
 ---
 
 ::: {.content-visible when-profile="english"}

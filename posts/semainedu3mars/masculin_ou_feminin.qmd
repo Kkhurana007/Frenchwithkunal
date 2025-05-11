@@ -18,12 +18,11 @@ format:
 <a href="mailto:frenchwithkunal@gmail.com" target="_blank" style="margin: 0 10px; color: #000;"><i class="fas fa-envelope fa-lg"></i></a> <a href="https://www.instagram.com/frenchwithkunal" target="_blank" style="margin: 0 10px; color: #E1306C;"><i class="fab fa-instagram fa-lg"></i></a> <a href="https://frenchwithkunal.ca" target="_blank" style="margin: 0 10px; color: #0077b5;"><i class="fas fa-globe fa-lg"></i></a> <a href="https://whatsapp.com/channel/0029Vb57n2e7dmegpjYpyi3V" target="_blank" style="margin: 0 10px; color: #25D366;"><i class="fab fa-whatsapp fa-lg"></i></a> <button onclick="copyLink()" style="background-color: #0077b5; color: white; padding: 8px 16px; border: none; border-radius: 4px; cursor: pointer; margin-left: 10px;"> <i class="fas fa-copy"></i> </button> [Link copied!]{#copy-message style="margin-left: 10px; color: green; display: none;"}
 :::
 
+::: {#react-root}
+:::
 
-
-
-
-<div id="react-root"></div>
- <script type="text/babel">
+```{=html}
+<script type="text/babel">
  const ProfilePage = () => {
   const { useState, useEffect } = React;
   const [redirectCounter, setRedirectCounter] = useState(4);
@@ -33,8 +32,8 @@ format:
 
   const translations = {
     noAccess: isFrench 
-      ? "Vous n'avez pas accès à cette page."
-      : "You don't have access to this page.",
+      ? "Vous n'avez pas accès à cette page. Si vous pensez que vous avez accès, veuillez <a href='https://frenchwithkunal.ca/login.html'>vous connecter</a>."
+      : "You don't have access to this page. If you think you have, kindly <a href='https://frenchwithkunal.ca/login.html'>login</a>.",
     subscribe: isFrench
       ? "Veuillez vous abonner pour obtenir l'accès."
       : "Please subscribe to gain access.",
@@ -169,280 +168,252 @@ ReactDOM.render(
   document.getElementById('react-root')
 );
  </script>
+```
 
 ::: {.content-visible when-profile="english"}
-
 In French, nouns have a gender: they are either masculine or feminine. The endings of words can often give us clues about their gender. For example, feminine words often end in **-e**, while masculine words have various endings. Additionally, we often use **-e** to transform a masculine word into a feminine one.
 
 We also learned that seasons, days of the week, languages, fruits, and vegetables are generally **masculine**. Similarly, stores, emotions, and scientific disciplines are generally **feminine**, except for those already ending in **-e**.
 
 In [today's leacture](https://drive.google.com/file/d/1b-efh-GNmVM7pVm2lV60AOxdWZE24oVQ/view?usp=drive_link), we explored these rules in more detail and looked at concrete examples to better understand noun genders in French.
 
-{{< video https://www.youtube.com/watch?v=V7AjuIDn4oU
-    title="le ou la?"
-    start="116"
-    aspect-ratio="21x9" 
->}}
+{{< video https://www.youtube.com/watch?v=V7AjuIDn4oU title="le ou la?" start="116" aspect-ratio="21x9" >}}
 
----
+------------------------------------------------------------------------
 
 ### **Common Masculine Endings**
+
 Here are some common endings for masculine nouns, along with examples and their English translations:
 
-- **-acle:**
-  - Un obstacle (an obstacle)
-  - Un spectacle (a show)
+-   **-acle:**
+    -   Un obstacle (an obstacle)
+    -   Un spectacle (a show)
+-   **-age:**
+    -   Un voyage (a trip)
+    -   Un message (a message)
+-   **-isme:**
+    -   Le socialisme (socialism)
+    -   Le tourisme (tourism)
+-   **-al:**
+    -   Un journal (a newspaper)
+    -   Un animal (an animal)
+-   **-eau:**
+    -   Un cadeau (a gift)
+    -   Un bateau (a boat)
+-   **-et:**
+    -   Un secret (a secret)
+    -   Un bouquet (a bouquet)
+-   **-ier:**
+    -   Un pommier (an apple tree)
+    -   Un cahier (a notebook)
+-   **-ment:**
+    -   Un monument (a monument)
+    -   Un bâtiment (a building)
 
-- **-age:**
-  - Un voyage (a trip)
-  - Un message (a message)
-
-- **-isme:**
-  - Le socialisme (socialism)
-  - Le tourisme (tourism)
-
-- **-al:**
-  - Un journal (a newspaper)
-  - Un animal (an animal)
-
-- **-eau:**
-  - Un cadeau (a gift)
-  - Un bateau (a boat)
-
-- **-et:**
-  - Un secret (a secret)
-  - Un bouquet (a bouquet)
-
-- **-ier:**
-  - Un pommier (an apple tree)
-  - Un cahier (a notebook)
-
-- **-ment:**
-  - Un monument (a monument)
-  - Un bâtiment (a building)
-
----
+------------------------------------------------------------------------
 
 ### **Common Feminine Endings**
+
 Here are some common endings for feminine nouns, along with examples and their English translations:
 
-- **-ade:**
-  - Une promenade (a walk)
-  - Une limonade (lemonade)
+-   **-ade:**
+    -   Une promenade (a walk)
+    -   Une limonade (lemonade)
+-   **-ale:**
+    -   Une finale (a final)
+    -   Une spirale (a spiral)
+-   **-ance:**
+    -   Une importance (importance)
+    -   Une chance (luck)
+-   **-ence:**
+    -   Une différence (a difference)
+    -   Une expérience (an experience)
+-   **-ette:**
+    -   Une baguette (a baguette)
+    -   Une fillette (a little girl)
+-   **-ie:**
+    -   Une partie (a part)
+    -   Une vie (a life)
+-   **-ique:**
+    -   Une technique (a technique)
+    -   Une musique (music)
+-   **-oire:**
+    -   Une histoire (a story)
+    -   Une victoire (a victory)
+-   **-sion:**
+    -   Une décision (a decision)
+    -   Une mission (a mission)
+-   **-tion:**
+    -   Une nation (a nation)
+    -   Une question (a question)
+    -   Une natation (swimming)
 
-- **-ale:**
-  - Une finale (a final)
-  - Une spirale (a spiral)
-
-- **-ance:**
-  - Une importance (importance)
-  - Une chance (luck)
-
-- **-ence:**
-  - Une différence (a difference)
-  - Une expérience (an experience)
-
-- **-ette:**
-  - Une baguette (a baguette)
-  - Une fillette (a little girl)
-
-- **-ie:**
-  - Une partie (a part)
-  - Une vie (a life)
-
-- **-ique:**
-  - Une technique (a technique)
-  - Une musique (music)
-
-- **-oire:**
-  - Une histoire (a story)
-  - Une victoire (a victory)
-
-- **-sion:**
-  - Une décision (a decision)
-  - Une mission (a mission)
-
-- **-tion:**
-  - Une nation (a nation)
-  - Une question (a question)
-  - Une natation (swimming)
-
----
+------------------------------------------------------------------------
 
 ### **Binary Nouns (Masculine or Feminine)**
+
 Some nouns can be either masculine or feminine, depending on the context. These are called **binary nouns**. Here are some examples:
 
-- Un/une artiste (an artist)
-- Un/une camarade (a friend/classmate)
-- Un/une collègue (a colleague)
-- Un/une concierge (a concierge)
-- Un/une élève (a student)
-- Un/une enfant (a child)
-- Un/une malade (a sick person)
-- Un/une secrétaire (a secretary)
-- Un/une touriste (a tourist)
+-   Un/une artiste (an artist)
+-   Un/une camarade (a friend/classmate)
+-   Un/une collègue (a colleague)
+-   Un/une concierge (a concierge)
+-   Un/une élève (a student)
+-   Un/une enfant (a child)
+-   Un/une malade (a sick person)
+-   Un/une secrétaire (a secretary)
+-   Un/une touriste (a tourist)
 
----
+------------------------------------------------------------------------
 
 ### **Nouns That Don’t Change**
+
 Some nouns have the same form in both masculine and feminine. Here’s a list of these words with their English translations:
 
 #### **Masculine:**
-- Un agent de police (a police officer)
-- Un bébé (a baby)
-- Un mannequin (a model)
-- Un médecin (a doctor)
-- Un chef (a chef/leader)
-- Un professeur (a teacher)
-- Un dentiste (a dentist)
-- Un écrivain (a writer)
-- Un ingénieur (an engineer)
+
+-   Un agent de police (a police officer)
+-   Un bébé (a baby)
+-   Un mannequin (a model)
+-   Un médecin (a doctor)
+-   Un chef (a chef/leader)
+-   Un professeur (a teacher)
+-   Un dentiste (a dentist)
+-   Un écrivain (a writer)
+-   Un ingénieur (an engineer)
 
 #### **Feminine:**
-- Une star (a star)
-- Une victime (a victim)
-- Une connaissance (an acquaintance)
 
----
+-   Une star (a star)
+-   Une victime (a victim)
+-   Une connaissance (an acquaintance)
+
+------------------------------------------------------------------------
 
 ### **Conclusion**
+
 Understanding noun genders in French might seem challenging at first, but by learning common endings and practicing with examples, it becomes easier. Remember that some exceptions exist, but with time, you’ll memorize them naturally.
-
-
 :::
 
-
 ::: {.content-visible when-profile="french"}
-
 En français, les noms ont un genre : ils sont soit masculins, soit féminins. Les terminaisons des mots peuvent souvent nous donner des indices sur leur genre. Par exemple, les mots féminins se terminent souvent par un **-e**, tandis que les mots masculins ont des terminaisons variées. De plus, on utilise souvent le **-e** pour transformer un mot masculin en féminin.
 
 Nous avons également appris que les saisons, les jours de la semaine, les langues, les fruits et les légumes sont généralement **masculins**. De même, les magasins, les émotions et les disciplines scientifiques sont généralement **féminins**, sauf ceux qui se terminent déjà par un **-e**.
 
 Dans [le cours d'aujourd'hui](https://drive.google.com/file/d/1b-efh-GNmVM7pVm2lV60AOxdWZE24oVQ/view?usp=drive_link), nous avons exploré ces règles plus en détail et nous avons examiné des exemples concrets pour mieux comprendre le genre des noms en français.
 
----
+------------------------------------------------------------------------
 
 ### **Les terminaisons masculines courantes**
+
 Voici quelques terminaisons courantes pour les noms masculins, accompagnées d’exemples et de leurs traductions en anglais :
 
-- **-acle :**
-  - Un obstacle (an obstacle)
-  - Un spectacle (a show)
+-   **-acle :**
+    -   Un obstacle (an obstacle)
+    -   Un spectacle (a show)
+-   **-age :**
+    -   Un voyage (a trip)
+    -   Un message (a message)
+-   **-isme :**
+    -   Le socialisme (socialism)
+    -   Le tourisme (tourism)
+-   **-al :**
+    -   Un journal (a newspaper)
+    -   Un animal (an animal)
+-   **-eau :**
+    -   Un cadeau (a gift)
+    -   Un bateau (a boat)
+-   **-et :**
+    -   Un secret (a secret)
+    -   Un bouquet (a bouquet)
+-   **-ier :**
+    -   Un pommier (an apple tree)
+    -   Un cahier (a notebook)
+-   **-ment :**
+    -   Un monument (a monument)
+    -   Un bâtiment (a building)
 
-- **-age :**
-  - Un voyage (a trip)
-  - Un message (a message)
-
-- **-isme :**
-  - Le socialisme (socialism)
-  - Le tourisme (tourism)
-
-- **-al :**
-  - Un journal (a newspaper)
-  - Un animal (an animal)
-
-- **-eau :**
-  - Un cadeau (a gift)
-  - Un bateau (a boat)
-
-- **-et :**
-  - Un secret (a secret)
-  - Un bouquet (a bouquet)
-
-- **-ier :**
-  - Un pommier (an apple tree)
-  - Un cahier (a notebook)
-
-- **-ment :**
-  - Un monument (a monument)
-  - Un bâtiment (a building)
-
----
+------------------------------------------------------------------------
 
 ### **Les terminaisons féminines courantes**
+
 Voici quelques terminaisons courantes pour les noms féminins, accompagnées d’exemples et de leurs traductions en anglais :
 
-- **-ade :**
-  - Une promenade (a walk)
-  - Une limonade (lemonade)
+-   **-ade :**
+    -   Une promenade (a walk)
+    -   Une limonade (lemonade)
+-   **-ale :**
+    -   Une finale (a final)
+    -   Une spirale (a spiral)
+-   **-ance :**
+    -   Une importance (importance)
+    -   Une chance (luck)
+-   **-ence :**
+    -   Une différence (a difference)
+    -   Une expérience (an experience)
+-   **-ette :**
+    -   Une baguette (a baguette)
+    -   Une fillette (a little girl)
+-   **-ie :**
+    -   Une partie (a part)
+    -   Une vie (a life)
+-   **-ique :**
+    -   Une technique (a technique)
+    -   Une musique (music)
+-   **-oire :**
+    -   Une histoire (a story)
+    -   Une victoire (a victory)
+-   **-sion :**
+    -   Une décision (a decision)
+    -   Une mission (a mission)
+-   **-tion :**
+    -   Une nation (a nation)
+    -   Une question (a question)
+    -   Une natation (swimming)
 
-- **-ale :**
-  - Une finale (a final)
-  - Une spirale (a spiral)
-
-- **-ance :**
-  - Une importance (importance)
-  - Une chance (luck)
-
-- **-ence :**
-  - Une différence (a difference)
-  - Une expérience (an experience)
-
-- **-ette :**
-  - Une baguette (a baguette)
-  - Une fillette (a little girl)
-
-- **-ie :**
-  - Une partie (a part)
-  - Une vie (a life)
-
-- **-ique :**
-  - Une technique (a technique)
-  - Une musique (music)
-
-- **-oire :**
-  - Une histoire (a story)
-  - Une victoire (a victory)
-
-- **-sion :**
-  - Une décision (a decision)
-  - Une mission (a mission)
-
-- **-tion :**
-  - Une nation (a nation)
-  - Une question (a question)
-  - Une natation (swimming)
-
----
+------------------------------------------------------------------------
 
 ### **Les noms binaires (masculin ou féminin)**
+
 Certains noms peuvent être soit masculins, soit féminins, selon le contexte. On les appelle des noms **binaires**. Voici quelques exemples :
 
-- Un/une artiste (an artist)
-- Un/une camarade (a friend/classmate)
-- Un/une collègue (a colleague)
-- Un/une concierge (a concierge)
-- Un/une élève (a student)
-- Un/une enfant (a child)
-- Un/une malade (a sick person)
-- Un/une secrétaire (a secretary)
-- Un/une touriste (a tourist)
+-   Un/une artiste (an artist)
+-   Un/une camarade (a friend/classmate)
+-   Un/une collègue (a colleague)
+-   Un/une concierge (a concierge)
+-   Un/une élève (a student)
+-   Un/une enfant (a child)
+-   Un/une malade (a sick person)
+-   Un/une secrétaire (a secretary)
+-   Un/une touriste (a tourist)
 
----
+------------------------------------------------------------------------
 
 ### **Les noms qui ne changent pas**
+
 Certains noms ont la même forme au masculin et au féminin. Voici une liste de ces mots avec leurs traductions en anglais :
 
 #### **Masculin :**
-- Un agent de police (a police officer)
-- Un bébé (a baby)
-- Un mannequin (a model)
-- Un médecin (a doctor)
-- Un chef (a chef/leader)
-- Un professeur (a teacher)
-- Un dentiste (a dentist)
-- Un écrivain (a writer)
-- Un ingénieur (an engineer)
+
+-   Un agent de police (a police officer)
+-   Un bébé (a baby)
+-   Un mannequin (a model)
+-   Un médecin (a doctor)
+-   Un chef (a chef/leader)
+-   Un professeur (a teacher)
+-   Un dentiste (a dentist)
+-   Un écrivain (a writer)
+-   Un ingénieur (an engineer)
 
 #### **Féminin :**
-- Une star (a star)
-- Une victime (a victim)
-- Une connaissance (an acquaintance)
 
----
+-   Une star (a star)
+-   Une victime (a victim)
+-   Une connaissance (an acquaintance)
+
+------------------------------------------------------------------------
 
 ### **Conclusion**
+
 Comprendre le genre des noms en français peut sembler difficile au début, mais en apprenant les terminaisons courantes et en pratiquant avec des exemples, cela devient plus facile. N’oubliez pas que certaines exceptions existent, mais avec le temps, vous les mémoriserez naturellement.
-
 :::
-

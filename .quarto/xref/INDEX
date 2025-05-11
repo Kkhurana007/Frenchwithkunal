@@ -319,5 +319,59 @@
   },
   "exercises/19052025/appeler.qmd": {
     "appeler.html": "59cf5f18"
+  },
+  "exercises/12052025/gender.qmd": {
+    "gender.html": "d3704517"
+  },
+  "exercises/12052025/clothing.qmd": {
+    "clothing.html": "8a0832fc"
+  },
+  "unsubscribe.qmd": {
+    "unsubscribe.html": "ffe636fc"
+  },
+  "email.qmd": {
+    "email.html": "33fabc93"
+  },
+  "exercises/12052025/expressions.qmd": {
+    "expressions.html": "d331da3e"
+  },
+  "exercises/12052025/storesandplaces.qmd": {
+    "storesandplaces.html": "b02af8c5"
+  },
+  "exercises/12052025/expressions_verbs.qmd": {
+    "expressions_verbs.html": "15911128"
+  },
+  "exercises/12052025/shopping.qmd": {
+    "shopping.html": "eab32dfa"
+  },
+  "exercises/12052025/food.qmd": {
+    "food.html": "bd67913b"
+  },
+  "exercises/12052025/fruits.qmd": {
+    "fruits.html": "25853be0"
+  },
+  "exercises/12052025/legumes.qmd": {
+    "legumes.html": "9d4cdae2"
+  },
+  "exercises/12052025/vainde.qmd": {
+    "vainde.html": "4c14a091"
+  },
+  "exercises/12052025/viande.qmd": {
+    "viande.html": "152c2e49"
+  },
+  "exercises/12052025/dairy.qmd": {
+    "dairy.html": "ee6f1722"
+  },
+  "exercises/12052025/numbers.qmd": {
+    "numbers.html": "edd50192"
+  },
+  "exercises/12052025/ordinal.qmd": {
+    "ordinal.html": "8f6b8383"
+  },
+  "exercises/12052025/adjectives.qmd": {
+    "adjectives.html": "ad3a3ba6"
+  },
+  "exercises/12052025/seafood.qmd": {
+    "seafood.html": "b1dff2a1"
   }
 }

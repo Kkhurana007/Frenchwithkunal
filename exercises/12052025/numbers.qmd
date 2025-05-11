@@ -1,0 +1,131 @@
+---  
+title: "Exercises: French Numbers 0–1,000"  
+author: "Kunal Khurana"  
+date: "05-12-2025"  
+categories: [A1/A2, vocabulary, numbers, exercises]  
+image: "numbers.png"  
+---  
+
+::: {.content-visible when-profile="english"}  
+
+### Exercise: French Numbers Practice  
+Practice writing, recognizing, and pronouncing French numbers.  
+
+#### 1. Spell the Number (Write in French):  
+**"7"** → <input type="text" placeholder="French" oninput="checkAnswer(this, 'sept')"><span style="margin-left:10px;"></span>  
+**"15"** → <input type="text" placeholder="French" oninput="checkAnswer(this, 'quinze')"><span style="margin-left:10px;"></span>  
+**"22"** → <input type="text" placeholder="French" oninput="checkAnswer(this, 'vingt-deux')"><span style="margin-left:10px;"></span>  
+**"31"** → <input type="text" placeholder="French" oninput="checkAnswer(this, 'trente et un')"><span style="margin-left:10px;"></span>  
+**"70"** → <input type="text" placeholder="French" oninput="checkAnswer(this, 'soixante-dix')"><span style="margin-left:10px;"></span>  
+**"81"** → <input type="text" placeholder="French" oninput="checkAnswer(this, 'quatre-vingt-un')"><span style="margin-left:10px;"></span>  
+**"100"** → <input type="text" placeholder="French" oninput="checkAnswer(this, 'cent')"><span style="margin-left:10px;"></span>  
+
+#### 2. Match the French Number to Its Digit:  
+**"quatre-vingt-douze"** → <input type="text" placeholder="Digit" oninput="checkAnswer(this, '92')"><span style="margin-left:10px;"></span>  
+**"soixante-quinze"** → <input type="text" placeholder="Digit" oninput="checkAnswer(this, '75')"><span style="margin-left:10px;"></span>  
+**"cent un"** → <input type="text" placeholder="Digit" oninput="checkAnswer(this, '101')"><span style="margin-left:10px;"></span>  
+**"trente-deux"** → <input type="text" placeholder="Digit" oninput="checkAnswer(this, '32')"><span style="margin-left:10px;"></span>  
+
+#### 3. Correct the Errors (Hyphens/Spelling):  
+**"vingtetun"** → <input type="text" placeholder="Correct form" oninput="checkAnswer(this, 'vingt et un')"><span style="margin-left:10px;"></span>  
+**"quatre vingt dix"** → <input type="text" placeholder="Correct form" oninput="checkAnswer(this, 'quatre-vingt-dix')"><span style="margin-left:10px;"></span>  
+**"soixanteet onze"** → <input type="text" placeholder="Correct form" oninput="checkAnswer(this, 'soixante et onze')"><span style="margin-left:10px;"></span>  
+
+#### 4. Math Problems (Write Answers in French):  
+**"vingt + cinq ="** → <input type="text" placeholder="French" oninput="checkAnswer(this, 'vingt-cinq')"><span style="margin-left:10px;"></span>  
+**"trente-deux - dix ="** → <input type="text" placeholder="French" oninput="checkAnswer(this, 'vingt-deux')"><span style="margin-left:10px;"></span>  
+**"soixante-dix + onze ="** → <input type="text" placeholder="French" oninput="checkAnswer(this, 'quatre-vingt-un')"><span style="margin-left:10px;"></span>
+
+<button onclick="showAnswers()">Show All Answers</button>  
+
+<script>  
+function showAnswers() {  
+    document.querySelectorAll('input[type="text"]').forEach(input => {  
+        const correct = input.getAttribute('oninput').match(/'([^']+)'/)[1];  
+        input.value = correct;  
+        const feedback = input.nextElementSibling;  
+        feedback.textContent = "✓ Correct!";  
+        feedback.style.color = "green";  
+    });  
+}  
+
+function refreshPage() {  
+    location.reload();  
+}  
+</script>  
+
+
+#### 5. Pronounce & Listen (Audio Simulation):  
+🔊 **"Click to hear: 'quatre-vingt-dix-sept' (97)** → <input type="text" placeholder="Repeat aloud" disabled><span style="margin-left:10px;">🎤</span>  
+
+#### 6. Translate into French:  
+**"My apartment has 58 stairs."**  
+<textarea placeholder="Mon appartement..." rows="2" cols="50" oninput="checkTranslation(this, 'Mon appartement a cinquante-huit marches')"></textarea><span style="margin-left:10px;"></span>  
+
+**"I need 200 grams of flour."**  
+<textarea placeholder="J’ai besoin..." rows="2" cols="50" oninput="checkTranslation(this, 'J’ai besoin de deux cents grammes de farine')"></textarea><span style="margin-left:10px;"></span>  
+
+<button onclick="checkAllAnswers()">Check Answers</button>  
+
+<script>  
+function checkTranslation(textarea, correctAnswer) {  
+    const feedback = textarea.nextElementSibling;  
+    if (textarea.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {  
+        feedback.textContent = "✓ Correct!";  
+        feedback.style.color = "green";  
+    } else if (textarea.value.trim()) {  
+        feedback.textContent = "✗ Try again!";  
+        feedback.style.color = "red";  
+    }  
+}  
+</script>
+
+<script>  
+function checkAnswer(input, correctAnswer) {  
+    const feedback = input.nextElementSibling;  
+    if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {  
+        feedback.textContent = "✓ Correct!";  
+        feedback.style.color = "green";  
+    } else if (input.value.trim()) {  
+        feedback.textContent = "✗ Try again!";  
+        feedback.style.color = "red";  
+    }  
+}  
+
+function checkAllAnswers() {  
+    document.querySelectorAll('input[type="text"]').forEach(input => {  
+        const correct = input.getAttribute('oninput').match(/'([^']+)'/)[1];  
+        checkAnswer(input, correct);  
+    });  
+
+    document.querySelectorAll('textarea').forEach(textarea => {  
+        const correct = textarea.getAttribute('oninput').match(/'([^']+)'/)[1];  
+        checkTranslation(textarea, correct);  
+    });  
+}  
+
+function checkTranslation(textarea, correctAnswer) {  
+    const feedback = textarea.nextElementSibling;  
+    if (textarea.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {  
+        feedback.textContent = "✓ Correct!";  
+        feedback.style.color = "green";  
+    } else if (textarea.value.trim()) {  
+        feedback.textContent = "✗ Try again!";  
+        feedback.style.color = "red";  
+    }  
+}  
+</script>  
+
+
+### Notes:  
+- **Hyphen Rules**: Numbers like *vingt-deux* (22) use hyphens, but *vingt et un* (21) does not.  
+- **70s/90s**: Unique structures (*soixante-dix*, *quatre-vingt-dix*).  
+- **"Cent" vs. "Cents"**: *Cent* is invariable in *cent un* (101), but plural in *deux cents* (200).  
+
+
+
+### Bonus: Pronunciation Tips  
+- **"et"**: Only used in *21, 31, 41, 51, 61, 71* (e.g., *trente et un*).  
+- **Liaison**: *Quatre-vingts* (80) drops the "-s" in *quatre-vingt-un* (81).  
+
+:::  

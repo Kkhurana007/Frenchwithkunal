@@ -32,8 +32,8 @@ format:
 
   const translations = {
     noAccess: isFrench 
-      ? "Vous n'avez pas accès à cette page."
-      : "You don't have access to this page.",
+      ? "Vous n'avez pas accès à cette page. Si vous pensez que vous avez accès, veuillez <a href='https://frenchwithkunal.ca/login.html'>vous connecter</a>."
+      : "You don't have access to this page. If you think you have, kindly <a href='https://frenchwithkunal.ca/login.html'>login</a>.",
     subscribe: isFrench
       ? "Veuillez vous abonner pour obtenir l'accès."
       : "Please subscribe to gain access.",
@@ -195,12 +195,7 @@ Nous allons au parc avec nos amis. (We are going to the park with our friends.)
 
 Le chat est sous la chaise. (The cat is under the chair.)
 
-
-{{< video https://www.youtube.com/watch?v=UZrgoZBliaM
-    title="French prepositions"
-    start="116"
-    aspect-ratio="21x9" 
->}}
+{{< video https://www.youtube.com/watch?v=UZrgoZBliaM title="French prepositions" start="116" aspect-ratio="21x9" >}}
 
 ## Classic French construction
 
@@ -262,12 +257,7 @@ Dans ces phrases, l’action après avant de (partir, dormir) se produit après 
 
 En combinant les prépositions avec le vocabulaire que nous connaissons déjà, nous pouvons former des phrases significatives sans erreurs grammaticales. Cette pratique renforce notre confiance et améliore notre capacité à communiquer efficacement en français.
 
-{{< video https://www.youtube.com/watch?v=AY_QxRhJ-Z0
-    title="Prépositions de lieu"
-    start="116"
-    aspect-ratio="21x9" 
->}}
-
+{{< video https://www.youtube.com/watch?v=AY_QxRhJ-Z0 title="Prépositions de lieu" start="116" aspect-ratio="21x9" >}}
 
 ## Les conseils
 
@@ -281,6 +271,3 @@ Lisez et Écoutez : Portez attention à l’utilisation des prépositions dans l
 
 Continuez à pratiquer, et bientôt, l’utilisation des prépositions deviendra une seconde nature. Bonne continuation!
 :::
-
-
-

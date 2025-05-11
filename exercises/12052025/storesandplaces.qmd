@@ -1,0 +1,98 @@
+---  
+title: "Exercises: Stores & Places Vocabulary"  
+author: "Kunal Khurana"  
+date: "05-12-2025"  
+categories: [A1/A2, vocabulary, places, exercises]  
+image: "places.png"  
+---
+
+
+::: {.content-visible when-profile="english"}  
+
+### Exercise: French Places and Their Gender  
+Practice the gender of French place nouns and their articles.  
+
+#### 1. Assign the correct definite article (*le/la/l'*) to each place:  
+___ aéroport (airport) ✈️ → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'l\'')"><span style="margin-left:10px;"></span>  
+
+___ bibliothèque (library) 📚 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'la')"><span style="margin-left:10px;"></span>  
+
+___ hôpital (hospital) 🏥 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'l\'')"><span style="margin-left:10px;"></span>  
+
+___ parc (park) 🌳 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'le')"><span style="margin-left:10px;"></span>  
+
+___ plage (beach) 🏖️ → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'la')"><span style="margin-left:10px;"></span>  
+
+___ université (university) 🎓 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'l\'')"><span style="margin-left:10px;"></span>  
+
+___ centre commercial (mall) 🛍️ → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'le')"><span style="margin-left:10px;"></span>  
+
+___ poste (post office) 📮 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'la')"><span style="margin-left:10px;"></span>  
+
+___ musée (museum) 🖼️ → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'le')"><span style="margin-left:10px;"></span>  
+
+___ piscine (swimming pool) 🏊 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'la')"><span style="margin-left:10px;"></span>  
+
+#### 2. Rewrite with the correct indefinite article (*un/une/des*):  
+___ café (café) ☕ → <input type="text" placeholder="un/une" oninput="checkAnswer(this, 'un')"><span style="margin-left:10px;"></span>  
+
+___ épicerie (grocery store) 🛒 → <input type="text" placeholder="un/une" oninput="checkAnswer(this, 'une')"><span style="margin-left:10px;"></span>  
+
+___ magasins (stores) 🏬 → <input type="text" placeholder="un/une/des" oninput="checkAnswer(this, 'des')"><span style="margin-left:10px;"></span>  
+
+___ boulangerie (bakery) 🥖 → <input type="text" placeholder="un/une" oninput="checkAnswer(this, 'une')"><span style="margin-left:10px;"></span>  
+
+___ stade (stadium) ⚽ → <input type="text" placeholder="un/une" oninput="checkAnswer(this, 'un')"><span style="margin-left:10px;"></span>  
+
+#### 3. Correct the errors in gender/number:  
+"La musée" → <input type="text" placeholder="Correct phrase" oninput="checkAnswer(this, 'le musée')"><span style="margin-left:10px;"></span>  
+
+"Un bibliothèque" → <input type="text" placeholder="Correct phrase" oninput="checkAnswer(this, 'une bibliothèque')"><span style="margin-left:10px;"></span>  
+
+"Des église" → <input type="text" placeholder="Correct phrase" oninput="checkAnswer(this, 'des églises')"><span style="margin-left:10px;"></span>  
+
+#### 4. Translate into French (include articles!):  
+"We go to the train station."  
+<textarea placeholder="Nous allons..." rows="2" cols="50" oninput="checkTranslation(this, 'Nous allons à la gare')"></textarea><span style="margin-left:10px;"></span>  
+
+"He works at a pharmacy."  
+<textarea placeholder="Il travaille..." rows="2" cols="50" oninput="checkTranslation(this, 'Il travaille dans une pharmacie')"></textarea><span style="margin-left:10px;"></span>  
+
+<button onclick="checkAllAnswers()">Check Answers</button>  
+
+<script>  
+function checkAnswer(input, correctAnswer) {  
+    const feedback = input.nextElementSibling;  
+    if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {  
+        feedback.textContent = "✓ Correct!";  
+        feedback.style.color = "green";  
+    } else if (input.value.trim()) {  
+        feedback.textContent = "✗ Try again!";  
+        feedback.style.color = "red";  
+    }  
+}  
+
+function checkAllAnswers() {  
+    document.querySelectorAll('input[type="text"]').forEach(input => {  
+        const correct = input.getAttribute('oninput').match(/'([^']+)'/)[1];  
+        checkAnswer(input, correct);  
+    });  
+
+    document.querySelectorAll('textarea').forEach(textarea => {  
+        const correct = textarea.getAttribute('oninput').match(/'([^']+)'/)[1];  
+        checkTranslation(textarea, correct);  
+    });  
+}  
+
+function checkTranslation(textarea, correctAnswer) {  
+    const feedback = textarea.nextElementSibling;  
+    if (textarea.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {  
+        feedback.textContent = "✓ Correct!";  
+        feedback.style.color = "green";  
+    } else if (textarea.value.trim()) {  
+        feedback.textContent = "✗ Try again!";  
+        feedback.style.color = "red";  
+    }  
+}  
+</script>  
+:::  

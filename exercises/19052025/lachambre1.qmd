@@ -3,7 +3,7 @@ title: "French Vocabulary: The Bedroom"
 author: "Kunal Khurana"
 date: "05-12-2025"
 categories: [A1/A2, vocabulary, bedroom, exercises]
-image: "bedroom-vocab.png"
+image: "lachambre.png"
 ---
 
 <style>

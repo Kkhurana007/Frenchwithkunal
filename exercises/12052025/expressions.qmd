@@ -1,0 +1,87 @@
+---
+title: "Exercises: Common French Thoughts & Expressions"
+author: "Kunal Khurana"
+date: "05-12-2025"
+categories: [A1/A2, vocabulary, expressions, sentence building]
+image: "expressions.png"
+---
+
+
+::: {.contenet-visisble when-profile="english"}
+
+
+### **Exercises: Common French Thoughts & Expressions**  
+**Categories:** A1/A2, vocabulary, expressions, sentence building  
+
+#### **1. Fill in the blanks with the correct word/phrase:**  
+Complete these common French expressions with the missing word.  
+
+- "___-ci" (this one) → <input type="text" placeholder="celui/celle" oninput="checkAnswer(this, 'celui')"> <span style="margin-left:10px;"></span>  
+- "Je ___ fatigué(e)" (I am tired) → <input type="text" placeholder="suis/être" oninput="checkAnswer(this, 'suis')"> <span style="margin-left:10px;"></span>  
+- "___ plaisir" (with pleasure) → <input type="text" placeholder="av.." oninput="checkAnswer(this, 'avec')"> <span style="margin-left:10px;"></span>  
+- "Qu'est-ce que tu ___ ?" (What are you doing?) → <input type="text" placeholder="fa.." oninput="checkAnswer(this, 'fais')"> <span style="margin-left:10px;"></span>  
+- "___ va ?" (How’s it going?) → <input type="text" placeholder="comment" oninput="checkAnswer(this, 'comment ça')"> <span style="margin-left:10px;"></span>  
+
+---
+
+#### **2. Match the French expression to its English equivalent:**  
+Draw a line (or type the letter) to match.  
+
+- "Ça dépend" (It depends) → <input type="text" placeholder="c" oninput="checkAnswer(this, 'c')"> <span style="margin-left:10px;"></span>  
+- "Pas de problème" (No problem) → <input type="text" placeholder="d" oninput="checkAnswer(this, 'd')"> <span style="margin-left:10px;"></span>  
+- "It depends" (Ça dépend) → <input type="text" placeholder="a" oninput="checkAnswer(this, 'a')"> <span style="margin-left:10px;"></span>  
+- "No problem" (Pas de problème) → <input type="text" placeholder="b" oninput="checkAnswer(this, 'b')"> <span style="margin-left:10px;"></span>  
+
+---
+
+#### **3. Translate these common phrases into French:**  
+- "I don’t understand." (Je ne comprends pas) → <input type="text" placeholder="je ne..." oninput="checkAnswer(this, 'je ne comprends pas')"> <span style="margin-left:10px;"></span>  
+- "See you tomorrow!" (À demain!) → <input type="text" placeholder="à de..." oninput="checkAnswer(this, 'à demain')"> <span style="margin-left:10px;"></span>  
+- "What time is it?" (Quelle heure est-il ?) → <input type="text" placeholder="quelle..." oninput="checkAnswer(this, 'quelle heure est-il')"> <span style="margin-left:10px;"></span>  
+
+---
+
+#### **4. Write a sentence using the prompt:**  
+- **Prompt:** Express surprise about the weather.  
+  → <textarea placeholder="Quel temps bizarre !" rows="2" cols="50"></textarea>  
+- **Prompt:** Ask someone’s opinion about a movie.  
+  → <textarea placeholder="Tu as aimé le film ?" rows="2" cols="50"></textarea>  
+
+---
+
+#### **5. Correct the errors in these sentences:**  
+- "Je suis 20 ans." → <input type="text" placeholder="J'ai 20 ans." oninput="checkAnswer(this, 'j\'ai 20 ans')"> <span style="margin-left:10px;"></span>  
+- "Elle va au supermarché demain." (Correct if the speaker is female) → <input type="text" placeholder="Correct as is!" oninput="checkAnswer(this, 'correct as is')"> <span style="margin-left:10px;"></span>  
+
+---
+
+#### **6. Fill in the dialogue:**  
+**Context:** Ordering coffee at a café.  
+- "Bonjour, je voudrais ___ café, s’il vous plaît." → <input type="text" placeholder="un" oninput="checkAnswer(this, 'un')">  
+- "___ sucre ?" (With sugar?) → <input type="text" placeholder="avec" oninput="checkAnswer(this, 'avec')">  
+
+---
+
+<button onclick="checkAllAnswers()">Check Answers</button>  
+
+<script>  
+function checkAnswer(input, correctAnswer) {  
+    const feedback = input.nextElementSibling;  
+    if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {  
+        feedback.textContent = "✓ Correct!";  
+        feedback.style.color = "green";  
+    } else if (input.value.trim()) {  
+        feedback.textContent = "✗ Try again!";  
+        feedback.style.color = "red";  
+    }  
+}  
+
+function checkAllAnswers() {  
+    document.querySelectorAll('input[type="text"]').forEach(input => {  
+        const correct = input.getAttribute('oninput').match(/'([^']+)'/)[1];  
+        checkAnswer(input, correct);  
+    });  
+}  
+</script>  
+
+:::

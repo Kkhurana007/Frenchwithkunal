@@ -3,7 +3,7 @@ title: "Exercises with French Stem-Changing Verbs (e → è)"
 author: "Kunal Khurana"
 date: "05-12-2025"
 categories: [A1/A2, grammar, verbs, exercises]
-image: "acheter-verbs.png"
+image: "acheter.png"
 ---
 
 ::: {.content-visible when-profile="english"}

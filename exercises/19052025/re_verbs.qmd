@@ -3,7 +3,7 @@ title: "Exercises with French -RE Verbs"
 author: "Kunal Khurana"
 date: "05-12-2025"
 categories: [A1/A2, grammar, verbs, exercises]
-image: "re-verbs.png"
+image: "re_verbs.png"
 ---
 
 ::: {.content-visible when-profile="english"}
