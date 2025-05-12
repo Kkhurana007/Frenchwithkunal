@@ -1,5 +1,4 @@
 ::: {.content-visible when-profile="english"}
-
 # Code of Ethics
 
 Last updated: January 28, 2025
@@ -32,7 +31,6 @@ Our educators and staff maintain a high level of professionalism, adhering to et
 :::
 
 ::: {.content-visible when-profile="french"}
-
 Dernière mise à jour : 28 janvier 2025
 
 # Code d'Éthique

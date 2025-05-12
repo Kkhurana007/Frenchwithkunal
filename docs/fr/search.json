@@ -685,7 +685,7 @@
     "href": "index.html#témoignages",
     "title": "Français avec Kunal",
     "section": "🗣️ Témoignages",
-    "text": "🗣️ Témoignages\n\n\n\n\n“Après 3 mois avec Kunal, j’ai commandé un café à Paris sans passer à l’anglais - le serveur m’a pris pour un local! C’est incroyable !”\n— Emma R., Londres\nResponsable marketing, 32 ans\n\n\n\n\n\n“Enfin un professeur qui explique pourquoi les Français disent les choses d’une certaine manière. Le contexte culturel fait toute la différence!”\n— David L., New York\nÉtudiant en droit, 25 ans\n\n\n\n Recevez des pépites françaises chaque semaine !\n\n\nRecevez chaque semaine : 1 astuce culturelle, 1 expression familière, et 1 mini-leçon dans votre boîte mail. En bonus, téléchargez immédiatement un guide PDF de phrases françaises gratuit !\n\n\n  Oui, je le veux !"
+    "text": "🗣️ Témoignages\n\n\n\n\n“Après 3 mois avec Kunal, j’ai commandé un café à Paris sans passer à l’anglais - le serveur m’a pris pour un local! C’est incroyable !”\n— Emma R., Londres\nResponsable marketing, 32 ans\n\n\n\n\n\n“Enfin un professeur qui explique pourquoi les Français disent les choses d’une certaine manière. Le contexte culturel fait toute la différence!”\n— David L., New York\nÉtudiant en droit, 25 ans\n\n\n\n Recevez des pépites françaises chaque semaine !\n\n\nRecevez chaque semaine : 1 astuce culturelle, 1 expression familière, et 1 mini-leçon dans votre boîte mail. En bonus, téléchargez immédiatement un guide PDF de phrases françaises gratuit !\n\n\n  Oui, je le veux!"
   },
   {
     "objectID": "index.html#prêt-pour-votre-révolution-française",
@@ -1054,5 +1054,40 @@
     "title": "Français avec Kunal",
     "section": "",
     "text": "We sincerely appreciate your message and time. Your submission has been received successfully.\nIf you need immediate assistance, feel free to contact us directly. Otherwise, we’ll respond to your inquiry as soon as possible.\nReturn to Homepage | Contact Us"
+  },
+  {
+    "objectID": "index-test.html",
+    "href": "index-test.html",
+    "title": "Français avec Kunal",
+    "section": "",
+    "text": "#title: “✨ French with Kunal” #subtitle: “Parlez français comme un vrai Parisien!” page-layout: full format: html: include-in-header: - text: |\nSubscribe Now"
+  },
+  {
+    "objectID": "index-test.html#french-with-kunal-1",
+    "href": "index-test.html#french-with-kunal-1",
+    "title": "Français avec Kunal",
+    "section": "🥐 French with Kunal",
+    "text": "🥐 French with Kunal\n\nOù la maîtrise du français rencontre le savoir-vivre\n\nSalut ! Je suis Kunal, votre guide pour maîtriser le français avec une prononciation authentique, une profondeur culturelle et l’élégance parisienne. Oubliez les manuels ennuyeux - nous apprenons à travers des histoires, de la musique et des conversations réelles.\nCommencez votre voyage →"
+  },
+  {
+    "objectID": "index-test.html#cards",
+    "href": "index-test.html#cards",
+    "title": "Français avec Kunal",
+    "section": "🎯 Votre boîte à outils",
+    "text": "🎯 Votre boîte à outils\n\n\n\n\n Leçons immersives\nCours interactifs hebdomadaires couvrant grammaire, vocabulaire et nuances culturelles. Accès exclusif à notre “Dictionnaire d’argot français”.\n\nDécouvrir →\n\n\n\n\n Rencontrez Kunal\nRésident de Québec avec 5+ ans d’expérience. Mon secret? Nous nous concentrons sur ce que vous utiliserez vraiment !\n\nMon histoire →\n\n\n\n\n Tarifs intelligents\nChoisissez parmi nos formules : 300 CAD/mois pour les cours collectifs ou 50 CAD/mois pour l’auto-apprentissage. Toutes les formules incluent des cours enregistrés, des quiz et bien plus pour améliorer votre apprentissage.\n\nVoir options →\n\n\n\n\n Support 24/7\nBlocage sur le subjonctif à 2h du matin? Notre support WhatsApp est là pour vous (oui, même le dimanche !).\n\nObtenir de l’aide →"
+  },
+  {
+    "objectID": "index-test.html#témoignages",
+    "href": "index-test.html#témoignages",
+    "title": "Français avec Kunal",
+    "section": "🗣️ Témoignages",
+    "text": "🗣️ Témoignages\n\n\n\n\n“Après 3 mois avec Kunal, j’ai commandé un café à Paris sans passer à l’anglais - le serveur m’a pris pour un local! C’est incroyable !”\n— Emma R., Londres\nResponsable marketing, 32 ans\n\n\n\n\n\n“Enfin un professeur qui explique pourquoi les Français disent les choses d’une certaine manière. Le contexte culturel fait toute la différence!”\n— David L., New York\nÉtudiant en droit, 25 ans\n\n\n\n Recevez des pépites françaises chaque semaine !\n\n\nRecevez chaque semaine : 1 astuce culturelle, 1 expression familière, et 1 mini-leçon dans votre boîte mail. En bonus, téléchargez immédiatement un guide PDF de phrases françaises gratuit !\n\n\n  Oui, je le veux!"
+  },
+  {
+    "objectID": "index-test.html#prêt-pour-votre-révolution-française",
+    "href": "index-test.html#prêt-pour-votre-révolution-française",
+    "title": "Français avec Kunal",
+    "section": "🚀 Prêt pour votre révolution française ?",
+    "text": "🚀 Prêt pour votre révolution française ?\nPlaces limitées - Rejoignez 1 200+ étudiants qui ont débloqué leur potentiel en français !\nS’inscrire maintenant Leçon d’essai gratuite"
   }
 ]

@@ -1,13 +1,7 @@
----
-#title: "✨ French with Kunal"
-#subtitle: "Parlez français comme un vrai Parisien!"
-page-layout: full
-format:
-  html:
-    include-in-header:
-      - text: |
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-          <style>
+#title: "✨ French with Kunal" #subtitle: "Parlez français comme un vrai Parisien!" page-layout: full format: html: include-in-header: - text: \| <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+```{=html}
+<style>
             :root {
               --primary: #2C3E50;
               --accent: #E74C3C;
@@ -105,8 +99,26 @@ format:
               position: relative;
               z-index: 1;
             }
+            .subscribe-btn {
+              position: fixed;
+              bottom: 20px;
+              right: 20px;
+              z-index: 1000;
+              animation: pulse 2s infinite;
+            }
+            @keyframes pulse {
+              0% { transform: scale(1); }
+              50% { transform: scale(1.1); }
+              100% { transform: scale(1); }
+            }
           </style>
----
+```
+
+------------------------------------------------------------------------
+
+<!-- Floating Subscribe Button -->
+
+<a href="#newsletter" class="btn subscribe-btn"> <i class="fas fa-bell"></i> Subscribe Now </a>
 
 :::::::::::::::: {.content-visible when-profile="english"}
 ::: language-switcher

@@ -51,63 +51,59 @@ format:
           </style>
 ---
 
-::: {.content-visible when-profile="english"}
+:::::::: {.content-visible when-profile="english"}
+## Welcome to French with Kunal {.hero}
 
-
-## Welcome to French with Kunal{.hero}
-
-{{< video https://www.youtube.com/embed/hU07FOM1klQ
-    title="Website navigation"
-    start="10" 
-    aspect-ratio="16x9" 
->}}
-
+{{< video https://www.youtube.com/embed/hU07FOM1klQ title="Website navigation" start="10" aspect-ratio="16x9" >}}
 
 Your premier destination for learning French language and culture. Whether you're a beginner or looking to refine your skills, we offer comprehensive resources to help you achieve fluency.
-
 
 [Explore Our Courses](/payment.html){.btn}
 
 ## Explore Our Content {#cards-en}
 
-:::{.card-container}
-::: {.card}
+::::::: card-container
+::: card
 ### Blog Posts
+
 Discover our latest articles on French language tips, cultural insights, and learning strategies.
 
 [View All Posts](/posts.html){.btn}
 :::
 
-::: {.card}
+::: card
 ### About Us
+
 Learn about our teaching philosophy, methodology, and meet your instructor.
 
 [About Kunal](/about.html){.btn}
 :::
 
-::: {.card}
+::: card
 ### Courses & Pricing
+
 Browse our available courses, private tutoring options, and pricing plans.
 
 [View Pricing](/payment.html){.btn}
 :::
 
-::: {.card}
+::: card
 ### Contact Us
+
 Have questions? Get in touch via email, WhatsApp, or social media.
 
 [Contact Now](/contact.html){.btn}
 :::
-:::
+:::::::
 
 ## What Our Students Say {.testimonials}
 
 > "Kunal's teaching method made learning French enjoyable and effective. I've improved my conversational skills dramatically in just a few months!"
-> 
+>
 > — Sarah M., Montreal
 
 > "The cultural insights combined with language lessons make this unlike any other French program I've tried."
-> 
+>
 > — Michael T., Toronto
 
 ## Ready to Start Learning? {.hero}
@@ -115,66 +111,61 @@ Have questions? Get in touch via email, WhatsApp, or social media.
 Join our community of French learners today!
 
 [Get Started](/payment.html){.btn} [Contact Us](/contact.html){.btn .btn-outline}
+::::::::
 
-:::
-
-
-::: {.content-visible when-profile="french"}
-
+:::::::: {.content-visible when-profile="french"}
 ## Bienvenue chez French with Kunal {.hero}
 
-
-{{< video https://www.youtube.com/embed/hU07FOM1klQ
-    title="Website navigation"
-    start="10" 
-    aspect-ratio="16x9" 
->}}
+{{< video https://www.youtube.com/embed/hU07FOM1klQ title="Website navigation" start="10" aspect-ratio="16x9" >}}
 
 Votre destination privilégiée pour apprendre la langue et la culture françaises. Que vous soyez débutant ou que vous souhaitiez perfectionner vos compétences, nous proposons des ressources complètes pour vous aider à atteindre la maîtrise.
-
 
 [Explorer nos cours](/payment.html){.btn}
 
 ## Découvrez notre contenu {#cards}
 
-:::{.card-container}
-::: {.card}
+::::::: card-container
+::: card
 ### Articles de blog
+
 Découvrez nos derniers articles sur les astuces linguistiques, les insights culturels et les stratégies d'apprentissage.
 
 [Voir tous les articles](/posts.html){.btn}
 :::
 
-::: {.card}
+::: card
 ### À propos
+
 Apprenez-en plus sur notre philosophie d'enseignement, notre méthodologie et faites connaissance avec votre instructeur.
 
 [À propos de Kunal](/about.html){.btn}
 :::
 
-::: {.card}
+::: card
 ### Cours & Tarifs
+
 Parcourez nos cours disponibles, options de tutorat privé et plans tarifaires.
 
 [Voir les tarifs](/payment.html){.btn}
 :::
 
-::: {.card}
+::: card
 ### Contactez-nous
+
 Des questions ? Contactez-nous par email, WhatsApp ou via les réseaux sociaux.
 
 [Nous contacter](/contact.html){.btn}
 :::
-:::
+:::::::
 
 ## Témoignages de nos étudiants {.testimonials}
 
 > "La méthode d'enseignement de Kunal a rendu l'apprentissage du français agréable et efficace. J'ai considérablement amélioré mes compétences conversationnelles en quelques mois seulement !"
-> 
+>
 > — Sarah M., Montréal
 
 > "Les insights culturels combinés aux leçons de langue rendent ce programme unique par rapport à tout ce que j'ai pu essayer auparavant."
-> 
+>
 > — Michael T., Toronto
 
 ## Prêt à commencer votre apprentissage ? {.hero}
@@ -182,5 +173,4 @@ Des questions ? Contactez-nous par email, WhatsApp ou via les réseaux sociaux.
 Rejoignez notre communauté d'apprenants de français dès aujourd'hui !
 
 [Commencer](/payment.html){.btn} [Nous contacter](/contact.html){.btn .btn-outline}
-
-:::
+::::::::
