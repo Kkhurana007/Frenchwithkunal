@@ -376,5 +376,26 @@
   },
   "index-test.qmd": {
     "index-test.html": "08d1bdd2"
+  },
+  "exercises/13052025/articles.qmd": {
+    "articles.html": "b9414f05"
+  },
+  "exercises/13052025/articles_du.qmd": {
+    "articles_du.html": "f8e07e85"
+  },
+  "exercises/13052025/adjectives.qmd": {
+    "adjectives.html": "d19ad49b"
+  },
+  "exercises/13052025/adjectifpossessif.qmd": {
+    "adjectifpossessif.html": "fd587bad"
+  },
+  "exercises/13052025/indefiniteadjectives.qmd": {
+    "indefiniteadjectives.html": "83210b61"
+  },
+  "exercises/13052025/interogative_adj.qmd": {
+    "interogative_adj.html": "03252255"
+  },
+  "exercises/13052025/noun_genders.qmd": {
+    "noun_genders.html": "2295ce0b"
   }
 }

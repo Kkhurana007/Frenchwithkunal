@@ -1,0 +1,109 @@
+---
+title: "French Demonstrative Adjectives (ce, cet, cette, ces)"
+author: "Kunal Khurana"
+date: "05-13-2025"
+categories: [A1/A2, grammar, adjectives, exercises]
+image: "demonstratives.png"
+---
+
+::: {.content-visible when-profile="english"}
+
+## Demonstrative Adjectives in French
+
+Used to point out specific things ("this/that/these/those"). They agree in gender/number with the noun:
+
+English	French (Masc.)	French (Fem.)	Plural
+this/that	ce (or cet before vowels)	cette	ces
+
+Examples:
+
+Ce livre (this book) 📖
+
+Cet arbre (this tree) 🌳 (masculine vowel sound)
+
+Cette maison (this house) 🏠
+
+Ces fleurs (these flowers) 💐
+
+## Exercises
+
+### 1. Choose the correct demonstrative adjective:
+Look at ___ bird! (masc.) →
+<input type="text" placeholder="ce/cet/cette/ces" oninput="checkAnswer(this, 'cet')"><span style="margin-left:10px;">🚀 Hint: "oiseau" starts with a vowel sound</span>
+
+I want ___ baguette. (fem.) →
+<input type="text" placeholder="ce/cet/cette/ces" oninput="checkAnswer(this, 'cette')"><span style="margin-left:10px;">🥖</span>
+
+___ chiens sont bruyants! (pl.) →
+<input type="text" placeholder="ce/cet/cette/ces" oninput="checkAnswer(this, 'ces')"><span style="margin-left:10px;">🐕</span>
+
+She loves ___ robe. (fem.) →
+<input type="text" placeholder="ce/cet/cette/ces" oninput="checkAnswer(this, 'cette')"><span style="margin-left:10px;">👗</span>
+
+___ homme est gentil. (masc. vowel) →
+<input type="text" placeholder="ce/cet/cette/ces" oninput="checkAnswer(this, 'cet')"><span style="margin-left:10px;">👨</span>
+
+### 2. Correct the errors:
+"Cette arbre est grand." →
+<input type="text" placeholder="Correct phrase" oninput="checkAnswer(this, 'Cet arbre est grand')"><span style="margin-left:10px;">🌳</span>
+
+"Ces fille est intelligente." →
+<input type="text" placeholder="Correct phrase" oninput="checkAnswer(this, 'Cette fille est intelligente')"><span style="margin-left:10px;">👧</span>
+
+### 3. Translate into French:
+"These cakes are delicious!" →
+
+<textarea placeholder="..." rows="2" cols="50" oninput="checkTranslation(this, 'Ces gâteaux sont délicieux !')"></textarea><span style="margin-left:10px;">🍰</span>
+"That (fem.) car is fast." →
+
+<textarea placeholder="..." rows="2" cols="50" oninput="checkTranslation(this, 'Cette voiture est rapide.')"></textarea><span style="margin-left:10px;">🚗</span>
+<button onclick="showAnswers()">Show Answers</button>
+
+
+<script>  
+function showAnswers() {  
+    document.querySelectorAll('input[type="text"]').forEach(input => {  
+        const correct = input.getAttribute('oninput').match(/'([^']+)'/)[1];  
+        input.value = correct;  
+        const feedback = input.nextElementSibling;  
+        feedback.textContent = "✓ Correct !";  
+        feedback.style.color = "green";  
+    });  
+}  
+
+function checkAllAnswers() {  
+    document.querySelectorAll('input[type="text"]').forEach(input => {  
+        const correct = input.getAttribute('oninput').match(/'([^']+)'/)[1];  
+        checkAnswer(input, correct);  
+    });  
+
+    document.querySelectorAll('textarea').forEach(textarea => {  
+        const correct = textarea.getAttribute('oninput').match(/'([^']+)'/)[1];  
+        checkTranslation(textarea, correct);  
+    });  
+}  
+
+function checkAnswer(input, correctAnswer) {  
+    const feedback = input.nextElementSibling;  
+    if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {  
+        feedback.textContent = "✓ Correct !";  
+        feedback.style.color = "green";  
+    } else if (input.value.trim()) {  
+        feedback.textContent = "✗ Essayez encore !";  
+        feedback.style.color = "red";  
+    }  
+}  
+
+function checkTranslation(textarea, correctAnswer) {  
+    const feedback = textarea.nextElementSibling;  
+    if (textarea.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {  
+        feedback.textContent = "✓ Correct !";  
+        feedback.style.color = "green";  
+    } else if (textarea.value.trim()) {  
+        feedback.textContent = "✗ Essayez encore !";  
+        feedback.style.color = "red";  
+    }  
+}  
+</script>  
+
+:::

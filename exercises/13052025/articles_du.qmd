@@ -1,0 +1,121 @@
+---
+title: "Exercises: Partitive Articles (du, de la, de l', des)"  
+author: "Kunal Khurana"  
+date: "05-13-2025"  
+categories: [A1/A2, grammar, food vocabulary, exercises]  
+image: "partitifs.png"  
+---
+
+::: {.content-visible when-profile="english"}  
+
+### Partitive Articles in French  
+
+Used to express **uncountable quantities** (like "some" or "any" in English):  
+- **du** = masculine singular (*du pain* = some bread)  
+- **de la** = feminine singular (*de la confiture* = some jam)  
+- **de l’** = before vowels/silent *h* (*de l’eau* = some water)  
+- **des** = plural (*des fruits* = some fruits)  
+
+**Exception**: After negatives, use **"de"** (*Je n’ai pas de lait*).  
+
+---
+
+### Exercises  
+
+#### 1. Fill in the blanks with **du, de la, de l’, or des**:  
+1. Je veux ___ croissants 🥐. →  
+   <input type="text" placeholder="du/de la/de l'/des" oninput="checkAnswer(this, 'des')"><span style="margin-left:10px;"></span>  
+
+2. Elle mange ___ fromage 🧀. →  
+   <input type="text" placeholder="du/de la/de l'/des" oninput="checkAnswer(this, 'du')"><span style="margin-left:10px;"></span>  
+
+3. Nous buvons ___ café ☕. →  
+   <input type="text" placeholder="du/de la/de l'/des" oninput="checkAnswer(this, 'du')"><span style="margin-left:10px;"></span>  
+
+4. Tu as ___ épinards 🥬 ? →  
+   <input type="text" placeholder="du/de la/de l'/des" oninput="checkAnswer(this, 'des')"><span style="margin-left:10px;"></span>  
+
+5. Il prend ___ glace 🍦. →  
+   <input type="text" placeholder="du/de la/de l'/des" oninput="checkAnswer(this, 'de la')"><span style="margin-left:10px;"></span>  
+
+#### 2. Correct the mistakes:  
+1. "Je veux de le sucre" →  
+   <input type="text" placeholder="Correct phrase" oninput="checkAnswer(this, 'Je veux du sucre')"><span style="margin-left:10px;"></span>  
+
+2. "Elle a des lait" →  
+   <input type="text" placeholder="Correct phrase" oninput="checkAnswer(this, 'Elle a du lait')"><span style="margin-left:10px;"></span>  
+
+3. "Nous mangeons de la frites" →  
+   <input type="text" placeholder="Correct phrase" oninput="checkAnswer(this, 'Nous mangeons des frites')"><span style="margin-left:10px;"></span>  
+
+#### 3. Translate into French (use partitive articles!):  
+1. "I’d like some tea." →  
+   <textarea placeholder="Je voudrais..." rows="2" cols="50" oninput="checkTranslation(this, 'Je voudrais du thé')"></textarea><span style="margin-left:10px;"></span>  
+
+2. "She doesn’t eat any meat." →  
+   <textarea placeholder="Elle ne mange pas..." rows="2" cols="50" oninput="checkTranslation(this, 'Elle ne mange pas de viande')"></textarea><span style="margin-left:10px;"></span>  
+
+<button onclick="showAnswers()">Show Answers</button>  
+<button onclick="checkAllAnswers()">Check Answers</button>  
+
+
+:::  
+
+---  
+
+### Key Notes:  
+- **Remember**: Use **"de"** after negatives (*pas de, jamais de*).  
+- **Tip**: If you can count it, use **des**; if not, use **du/de la/de l’**.  
+
+**Example**:  
+- *Des pommes* (countable) vs. *Du riz* (uncountable).  
+
+
+
+
+<script>  
+function showAnswers() {  
+    document.querySelectorAll('input[type="text"]').forEach(input => {  
+        const correct = input.getAttribute('oninput').match(/'([^']+)'/)[1];  
+        input.value = correct;  
+        const feedback = input.nextElementSibling;  
+        feedback.textContent = "✓ Correct !";  
+        feedback.style.color = "green";  
+    });  
+}  
+
+function checkAllAnswers() {  
+    document.querySelectorAll('input[type="text"]').forEach(input => {  
+        const correct = input.getAttribute('oninput').match(/'([^']+)'/)[1];  
+        checkAnswer(input, correct);  
+    });  
+
+    document.querySelectorAll('textarea').forEach(textarea => {  
+        const correct = textarea.getAttribute('oninput').match(/'([^']+)'/)[1];  
+        checkTranslation(textarea, correct);  
+    });  
+}  
+
+function checkAnswer(input, correctAnswer) {  
+    const feedback = input.nextElementSibling;  
+    if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {  
+        feedback.textContent = "✓ Correct !";  
+        feedback.style.color = "green";  
+    } else if (input.value.trim()) {  
+        feedback.textContent = "✗ Essayez encore !";  
+        feedback.style.color = "red";  
+    }  
+}  
+
+function checkTranslation(textarea, correctAnswer) {  
+    const feedback = textarea.nextElementSibling;  
+    if (textarea.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {  
+        feedback.textContent = "✓ Correct !";  
+        feedback.style.color = "green";  
+    } else if (textarea.value.trim()) {  
+        feedback.textContent = "✗ Essayez encore !";  
+        feedback.style.color = "red";  
+    }  
+}  
+</script>  
+

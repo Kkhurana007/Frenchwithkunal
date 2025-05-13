@@ -1,0 +1,126 @@
+---
+title: "French Noun Genders: Masculine (-age, -isme) vs. Feminine (-tion, -té, -ure)"  
+author: "Kunal Khurana"  
+date: "05-13-2025"  
+categories: [A1/A2, grammar, noun genders, exercises]  
+image: "gender.png"  
+---
+
+::: {.content-visible when-profile="english"}  
+
+### Explanation:  
+In French, noun genders often follow patterns based on their endings. **Don’t assume a noun is always feminine just because it ends in -e!**  
+
+#### 1. **Masculine Nouns Ending in -e** (Common Endings):  
+   - **-age**: *le voyage* (trip), *le fromage* (cheese)  
+   - **-isme**: *le tourisme* (tourism), *le capitalisme* (capitalism)  
+   - **-ège**: *le collège* (middle school)  
+   - **-é**: *le café* (coffee), *le lycée* (high school)  
+
+   **Exceptions:** *la page* (page), *la plage* (beach)  
+
+#### 2. **Feminine Noun Endings**:  
+   - **-tion/-sion**: *la nation* (nation), *la télévision* (TV)  
+   - **-té**: *la liberté* (freedom), *la santé* (health)  
+   - **-ure**: *la culture* (culture), *la voiture* (car)  
+   - **-ée**: *la journée* (day), *la dictée* (dictation)  
+
+---
+
+### Exercise 1: Masculine or Feminine?  
+Classify these nouns (use **le/la**):  
+
+1. ___ langage (language) →  
+   <input type="text" placeholder="le/la" oninput="checkAnswer(this, 'le')"><span style="margin-left:10px;"></span>  
+
+2. ___ liberté (freedom) →  
+   <input type="text" placeholder="le/la" oninput="checkAnswer(this, 'la')"><span style="margin-left:10px;"></span>  
+
+3. ___ optimisme (optimism) →  
+   <input type="text" placeholder="le/la" oninput="checkAnswer(this, 'le')"><span style="margin-left:10px;"></span>  
+
+4. ___ solution (solution) →  
+   <input type="text" placeholder="le/la" oninput="checkAnswer(this, 'la')"><span style="margin-left:10px;"></span>  
+
+---
+
+
+### Exercise 2: Correct the Errors  
+1. "La fromage est délicieux." →  
+   <input type="text" placeholder="Correct" oninput="checkAnswer(this, 'Le fromage est délicieux.')"><span style="margin-left:10px;"></span>  
+
+2. "Le liberté est importante." →  
+   <input type="text" placeholder="Correct" oninput="checkAnswer(this, 'La liberté est importante.')"><span style="margin-left:10px;"></span>  
+
+---
+
+### Exercise 3: Translate & Identify Gender  
+1. "The culture is rich." →  
+   <textarea placeholder="..." rows="2" cols="50" oninput="checkTranslation(this, 'La culture est riche.')"></textarea> (Feminine/Masculine?) →  
+   <input type="text" placeholder="F/M" oninput="checkAnswer(this, 'F')"><span style="margin-left:10px;"></span>  
+
+2. "The message is clear." →  
+   <textarea placeholder="..." rows="2" cols="50" oninput="checkTranslation(this, 'Le message est clair.')"></textarea> (F/M?) →  
+   <input type="text" placeholder="F/M" oninput="checkAnswer(this, 'M')"><span style="margin-left:10px;"></span>  
+
+---
+
+### Exercise 4: Writing Challenge  
+**List 5 masculine nouns ending in -e** and **5 feminine nouns ending in -tion/-té**.  
+Example:  
+- Masculine: *le musée* (museum), *le problème* (problem)...  
+- Feminine: *la situation*, *la beauté*...  
+<textarea placeholder="Write here..." rows="4" cols="60"></textarea>  
+
+<button onclick="showAnswers()">Show Answers</button>  
+<button onclick="checkAllAnswers()">Check Answers</button>  
+
+<script>  
+
+function showAnswers() {  
+    document.querySelectorAll('input[type="text"]').forEach(input => {  
+        const correct = input.getAttribute('oninput').match(/'([^']+)'/)[1];  
+        input.value = correct;  
+        const feedback = input.nextElementSibling;  
+        feedback.textContent = "✓ Correct !";  
+        feedback.style.color = "green";  
+    });  
+}  
+
+function checkAllAnswers() {  
+    document.querySelectorAll('input[type="text"]').forEach(input => {  
+        const correct = input.getAttribute('oninput').match(/'([^']+)'/)[1];  
+        checkAnswer(input, correct);  
+    });  
+
+    document.querySelectorAll('textarea').forEach(textarea => {  
+        const correct = textarea.getAttribute('oninput').match(/'([^']+)'/)[1];  
+        checkTranslation(textarea, correct);  
+    });  
+}  
+
+function checkAnswer(input, correctAnswer) {  
+    const feedback = input.nextElementSibling;  
+    if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {  
+        feedback.textContent = "✓ Correct !";  
+        feedback.style.color = "green";  
+    } else if (input.value.trim()) {  
+        feedback.textContent = "✗ Essayez encore !";  
+        feedback.style.color = "red";  
+    }  
+}  
+
+function checkTranslation(textarea, correctAnswer) {  
+    const feedback = textarea.nextElementSibling;  
+    if (textarea.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {  
+        feedback.textContent = "✓ Correct !";  
+        feedback.style.color = "green";  
+    } else if (textarea.value.trim()) {  
+        feedback.textContent = "✗ Essayez encore !";  
+        feedback.style.color = "red";  
+    }  
+}
+
+</script>  
+
+:::  

@@ -1,0 +1,153 @@
+---
+title: "French Interrogative & Exclamative Adjectives: Quel, Quelle, Quels, Quelles"  
+author: "Kunal Khurana"  
+date: "05-13-2025"  
+categories: [A1/A2, grammar, interrogative adjectives, exclamative adjectives]  
+image: "interrogative.png"  
+---
+
+::: {.content-visible when-profile="english"}  
+
+### Explanation:  
+Interrogative and exclamative adjectives (**quel/quelle/quels/quelles**) are used **before nouns** to ask questions or express reactions (surprise, admiration). They agree in **gender and number** with the noun they modify.  
+
+#### Forms:  
+|               | Masculine | Feminine |  
+|---------------|-----------|----------|  
+| **Singular**  | quel      | quelle   |  
+| **Plural**    | quels     | quelles  |  
+
+#### Usage:  
+1. **Interrogative** (Questions):  
+   - Direct: *Quel livre lis-tu ?* (Which book are you reading?)  
+   - Indirect: *Je me demande quels films il aime.* (I wonder which movies he likes.)  
+
+2. **Exclamative** (Reactions):  
+   - *Quelle belle journée !* (What a beautiful day!)  
+   - *Quels talents !* (What talents!)  
+
+**Key Notes:**  
+- Always placed **directly before the noun**.  
+- English equivalents:  
+  - Interrogative: *Which? What?*  
+  - Exclamative: *What a...! How...!*  
+
+---
+
+### Exercise 1: Choose the Correct Adjective  
+Complete with **quel/quelle/quels/quelles**.  
+
+1. ___ âge as-tu ? (What age) →  
+   <input type="text" placeholder="quel/quelle" oninput="checkAnswer(this, 'quel')"><span style="margin-left:10px;"></span>  
+
+2. ___ magnifique peinture ! (What a painting) →  
+   <input type="text" placeholder="quel/quelle" oninput="checkAnswer(this, 'quelle')"><span style="margin-left:10px;"></span>  
+
+3. ___ sont tes hobbies préférés ? (Which) →  
+   <input type="text" placeholder="quels/quelles" oninput="checkAnswer(this, 'quels')"><span style="margin-left:10px;"></span>  
+
+4. ___ fleurs sentent bon ! (What flowers) →  
+   <input type="text" placeholder="quels/quelles" oninput="checkAnswer(this, 'quelles')"><span style="margin-left:10px;"></span>  
+
+---
+
+### Exercise 2: Transform into Questions/Exclamations  
+1. (Question) You see a book and ask: *___ livre est-ce ?* →  
+   <input type="text" placeholder="quel/quelle" oninput="checkAnswer(this, 'quel')"><span style="margin-left:10px;"></span>  
+
+2. (Exclamation) You see a big dog: *___ gros chien !* →  
+   <input type="text" placeholder="quel/quelle" oninput="checkAnswer(this, 'quel')"><span style="margin-left:10px;"></span>  
+
+3. (Question) You ask about someone’s plans: *___ projets as-tu ?* →  
+   <input type="text" placeholder="quels/quelles" oninput="checkAnswer(this, 'quels')"><span style="margin-left:10px;"></span>  
+
+---
+
+### Exercise 3: Correct the Errors  
+1. "Quelle est ton nom ?" (Incorrect adjective placement) →  
+   <input type="text" placeholder="Correct" oninput="checkAnswer(this, 'Quel est ton nom ?')"><span style="margin-left:10px;"></span>  
+
+2. "Quels belle voiture !" (Gender agreement) →  
+   <input type="text" placeholder="Correct" oninput="checkAnswer(this, 'Quelle belle voiture !')"><span style="margin-left:10px;"></span>  
+
+---
+
+### Exercise 4: Translate into French  
+1. "Which color do you prefer?" →  
+   <textarea placeholder="..." rows="2" cols="50" oninput="checkTranslation(this, 'Quelle couleur préfères-tu ?')"></textarea><span style="margin-left:10px;"></span>  
+
+2. "What a delicious cake!" →  
+   <textarea placeholder="..." rows="2" cols="50" oninput="checkTranslation(this, 'Quel délicieux gâteau !')"></textarea><span style="margin-left:10px;"></span>  
+
+---
+
+### Exercise 5: Role-Play (Oral/Writing)  
+**Scenario:** You’re at a French bakery. Write 2 questions and 2 exclamations using **quel/quelle/quels/quelles**.  
+Example:  
+- *Quel croissant recommandez-vous ?*  
+- *Quelles délicieuses pâtisseries !*  
+<textarea placeholder="Write here..." rows="4" cols="60"></textarea>  
+
+<button onclick="showAnswers()">Show Answers</button>  
+<button onclick="checkAllAnswers()">Check Answers</button>  
+
+<script>  
+function showAnswers() {  
+    document.querySelectorAll('input[type="text"]').forEach(input => {  
+        const correct = input.getAttribute('oninput').match(/'([^']+)'/)[1];  
+        input.value = correct;  
+        const feedback = input.nextElementSibling;  
+        feedback.textContent = "✓ Correct !";  
+        feedback.style.color = "green";  
+    });  
+}  
+
+function checkAllAnswers() {  
+    document.querySelectorAll('input[type="text"]').forEach(input => {  
+        const correct = input.getAttribute('oninput').match(/'([^']+)'/)[1];  
+        checkAnswer(input, correct);  
+        if (input.value.trim().toLowerCase() !== correct.toLowerCase()) {  
+            input.value = correct;  
+            const feedback = input.nextElementSibling;  
+            feedback.textContent = `✗ Correct answer: ${correct}`;  
+            feedback.style.color = "blue";  
+        }  
+    });  
+
+    document.querySelectorAll('textarea').forEach(textarea => {  
+        const correct = textarea.getAttribute('oninput').match(/'([^']+)'/)[1];  
+        checkTranslation(textarea, correct);  
+        if (textarea.value.trim().toLowerCase() !== correct.toLowerCase()) {  
+            textarea.value = correct;  
+            const feedback = textarea.nextElementSibling;  
+            feedback.textContent = `✗ Correct answer: ${correct}`;  
+            feedback.style.color = "blue";  
+        }  
+    });  
+}  
+
+function checkAnswer(input, correctAnswer) {  
+    const feedback = input.nextElementSibling;  
+    if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {  
+        feedback.textContent = "✓ Correct !";  
+        feedback.style.color = "green";  
+    } else if (input.value.trim()) {  
+        feedback.textContent = "✗ Essayez encore !";  
+        feedback.style.color = "red";  
+    }  
+}  
+
+function checkTranslation(textarea, correctAnswer) {  
+    const feedback = textarea.nextElementSibling;  
+    if (textarea.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {  
+        feedback.textContent = "✓ Correct !";  
+        feedback.style.color = "green";  
+    } else if (textarea.value.trim()) {  
+        feedback.textContent = "✗ Essayez encore !";  
+        feedback.style.color = "red";  
+    }  
+}  
+</script>  
+
+
+:::  
