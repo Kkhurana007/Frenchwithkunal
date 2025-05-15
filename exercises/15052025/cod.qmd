@@ -1,0 +1,146 @@
+---
+title: "Le Complément d'Objet Direct (COD)"  
+author: "Kunal Khurana"  
+date: "05-15-2025"  
+categories: [B1, grammaire, COD, exercices]  
+image: "COD.png"  
+---
+
+::: {.content-visible when-profile="english"}
+
+### Understanding the Direct Object (COD)  
+The **COD** answers the questions **"who?" (qui?)** or **"what?" (quoi?)** after the verb. It replaces **people or things** and can be substituted with pronouns (**le, la, les, l’**).  
+
+**Key rules:**  
+1. **No preposition** before the COD.  
+2. **Pronoun placement**: Before the verb (Je **la** mange).  
+3. **Agreement**: Past participles agree with preceding COD in gender/number.  
+
+---
+
+### Exercises  
+
+#### 1. Find the COD (underline and answer *qui ?* or *quoi ?*):  
+*(Example: "Elle mange [une pomme]. → quoi ?")*  
+
+1. Il lit **un livre**. → <input type="text" placeholder="qui/quoi" oninput="checkAnswer(this, 'quoi')"><span style="margin-left:10px;"></span>  
+2. Nous voyons **Marie**. → <input type="text" placeholder="qui/quoi" oninput="checkAnswer(this, 'qui')"><span style="margin-left:10px;"></span>  
+3. Tu écoutes **la radio**. → <input type="text" placeholder="qui/quoi" oninput="checkAnswer(this, 'quoi')"><span style="margin-left:10px;"></span>  
+
+#### 2. Replace the COD with a pronoun (**le, la, les, l’**):  
+*(Example: "Je mange [la pizza] → Je **la** mange.")*  
+
+1. Elle achète **les fleurs**. → Elle <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'les')"> achète.<span style="margin-left:10px;"></span>  
+2. J’aime **ce film**. → ⚠️ Avec les verbes de goût (aimer, adorer, détester, etc.), on n'utilise généralement pas le pronom COD.
+3. Vous connaissez **Paul**. → Vous <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'le')"> connaissez.<span style="margin-left:10px;"></span>  
+
+> **Note :** Avec les verbes de goût comme *aimer*, *adorer*, *détester*, etc., on préfère remplacer par **ça** plutôt que par un pronom COD (*le, la, les, l’*) pour des objets inanimés dans une phrase simple.
+
+#### 3. Correct the errors:  
+1. "Elle la mange la pomme." → <input type="text" placeholder="Correction" oninput="checkAnswer(this, 'Elle mange la pomme.')"><span style="margin-left:10px;"></span>  
+2. "Nous les voyons les oiseaux." → <input type="text" placeholder="Correction" oninput="checkAnswer(this, 'Nous voyons les oiseaux.')"><span style="margin-left:10px;"></span>  
+
+#### 4. Translate into French:  
+1. "She eats it (the apple)." → <textarea placeholder="Translation" rows="1" oninput="checkTranslation(this, 'Elle la mange.')"></textarea><span style="margin-left:10px;"></span>  
+2. "They know them (the rules)." → <textarea placeholder="Translation" rows="1" oninput="checkTranslation(this, 'Ils les connaissent.')"></textarea><span style="margin-left:10px;"></span>  
+
+<button onclick="showAnswers()">Show answers</button>  
+<button onclick="refreshPage()">Try again</button>  
+
+---
+
+### Notes:  
+- **COD vs. COI**: If the object follows a preposition (**à, de**), it’s *not* a COD.  
+- **Past participle agreement**: "Les fleurs que j’ai **achetées**" (COD before verb).  
+
+:::
+
+---
+
+::: {.content-visible when-profile="french"}  
+
+### Comprendre le COD  
+Le **COD** répond aux questions **« qui ? »** ou **« quoi ? »** après le verbe. Il remplace **des personnes ou des choses** et peut être substitué par **le, la, les, l’**.  
+
+**Règles clés** :  
+1. **Pas de préposition** avant le COD.  
+2. **Place du pronom** : Avant le verbe (Je **la** mange).  
+3. **Accord** : Les participes passés s’accordent avec le COD placé avant.  
+
+---
+
+### Exercices  
+
+#### 1. Trouvez le COD (répondez *qui ?* ou *quoi ?*) :  
+*(Exemple : "Elle mange [une pomme]. → quoi ?")*  
+
+1. Il lit **un livre**. → <input type="text" placeholder="qui/quoi" oninput="checkAnswer(this, 'quoi')"><span style="margin-left:10px;"></span>  
+2. Nous voyons **Marie**. → <input type="text" placeholder="qui/quoi" oninput="checkAnswer(this, 'qui')"><span style="margin-left:10px;"></span>  
+3. Tu écoutes **la radio**. → <input type="text" placeholder="qui/quoi" oninput="checkAnswer(this, 'quoi')"><span style="margin-left:10px;"></span>  
+
+#### 2. Remplacez le COD par un pronom (**le, la, les, l’**) :  
+*(Exemple : "Je mange [la pizza] → Je **la** mange.")*  
+
+1. Elle achète **les fleurs**. → Elle <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'les')"> achète.<span style="margin-left:10px;"></span>  
+2. J’aime **ce film**. → ⚠️ Avec les verbes de goût (aimer, adorer, détester, etc.), on n'utilise généralement pas le pronom COD.
+3. Vous connaissez **Paul**. → Vous <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'le')"> connaissez.<span style="margin-left:10px;"></span>  
+
+> **Note :** Avec les verbes de goût comme *aimer*, *adorer*, *détester*, etc., on préfère remplacer par **ça** plutôt que par un pronom COD (*le, la, les, l’*) pour des objets inanimés dans une phrase simple.
+
+#### 3. Corrigez les erreurs :  
+1. "Elle la mange la pomme." → <input type="text" placeholder="Correction" oninput="checkAnswer(this, 'Elle mange la pomme.')"><span style="margin-left:10px;"></span>  
+2. "Nous les voyons les oiseaux." → <input type="text" placeholder="Correction" oninput="checkAnswer(this, 'Nous voyons les oiseaux.')"><span style="margin-left:10px;"></span>  
+
+#### 4. Traduisez en français :  
+1. "She eats it (the apple)." → <textarea placeholder="Traduction" rows="1" oninput="checkTranslation(this, 'Elle la mange.')"></textarea><span style="margin-left:10px;"></span>  
+2. "They know them (the rules)." → <textarea placeholder="Traduction" rows="1" oninput="checkTranslation(this, 'Ils les connaissent.')"></textarea><span style="margin-left:10px;"></span>  
+
+<button onclick="showAnswers()">Voir les réponses</button>  
+<button onclick="refreshPage()">Nouvel essai</button>  
+
+---
+
+### Notes :  
+- **COD vs COI** : Si l’objet suit une préposition (**à, de**), ce n’est *pas* un COD.  
+- **Accord du participe passé** : "Les fleurs que j’ai **achetées**" (COD avant le verbe).  
+
+:::
+
+<script>
+function checkAnswer(input, correctAnswer) {
+    const span = input.nextElementSibling;
+    if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
+        span.textContent = "✓ Correct";
+        span.style.color = "green";
+    } else {
+        span.textContent = "";
+    }
+}
+
+function checkTranslation(textarea, correctTranslation) {
+    const span = textarea.nextElementSibling;
+    if (textarea.value.trim().toLowerCase() === correctTranslation.toLowerCase()) {
+        span.textContent = "✓ Correct";
+        span.style.color = "green";
+    } else {
+        span.textContent = "";
+    }
+}
+
+function showAnswers() {
+    document.querySelectorAll('input[type="text"], textarea').forEach(el => {
+        const correct = el.getAttribute('oninput')?.match(/'([^']+)'/)?.[1];
+        if (correct) {
+            const span = el.nextElementSibling;
+            span.textContent = `Réponse : ${correct}`;
+            span.style.color = "blue";
+        }
+    });
+}
+
+function refreshPage() {
+    location.reload();
+}
+</script>
+
+--- 

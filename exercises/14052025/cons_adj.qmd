@@ -1,0 +1,155 @@
+---
+title: "Adjective Constructions: à/de + Noun or Infinitive"  
+author: "Kunal Khurana"  
+date: "05-12-2025"  
+categories: [A2/B1, grammar, adjectives, exercises]  
+image: "adj-constructions.png"  
+---
+
+::: {.content-visible when-profile="english"}  
+
+### Understanding Adjective Constructions  
+Some French adjectives require **à** or **de** when followed by a noun or infinitive. The choice depends on the adjective’s inherent meaning.  
+
+#### 1. **à/de + Noun**  
+- **à + noun**: Indicates purpose, function, or characteristic.  
+  - *Un verre **à eau*** (a water glass) → **for** water.  
+  - *Une machine **à laver*** (a washing machine) → **for** washing.  
+- **de + noun**: Indicates material, origin, or possession.  
+  - *Une tasse **de thé*** (a cup **of** tea).  
+  - *Un livre **de français*** (a French book).  
+
+#### 2. **à/de + Infinitive**  
+- **à + infinitive**: Often implies necessity or purpose.  
+  - *C’est facile **à comprendre*** (It’s easy **to understand**).  
+  - *Une décision **à prendre*** (a decision **to make**).  
+- **de + infinitive**: Often implies possibility or consequence.  
+  - *Je suis content **de te voir*** (I’m happy **to see you**).  
+  - *Il est responsable **de terminer*** (He’s responsible **for finishing**).  
+
+---
+
+### Exercises  
+
+#### 1. Choose *à* or *de* for nouns:  
+___ café (tasse) ☕ → <input type="text" placeholder="à/de" oninput="checkAnswer(this, 'de')"><span style="margin-left:10px;"></span>  
+
+___ pieds (chaussettes) 🧦 → <input type="text" placeholder="à/de" oninput="checkAnswer(this, 'de')"><span style="margin-left:10px;"></span>  
+
+___ lettres (boîte) 📬 → <input type="text" placeholder="à/de" oninput="checkAnswer(this, 'aux')"><span style="margin-left:10px;"></span>  
+
+___ musique (instrument) 🎻 → <input type="text" placeholder="à/de" oninput="checkAnswer(this, 'de')"><span style="margin-left:10px;"></span>  
+
+#### 2. Choose *à* or *de* for infinitives:  
+"Elle est prête ___ partir." ✈️ → <input type="text" placeholder="à/de" oninput="checkAnswer(this, 'à')"><span style="margin-left:10px;"></span>  
+
+"Ce texte est difficile ___ traduire." 📝 → <input type="text" placeholder="à/de" oninput="checkAnswer(this, 'à')"><span style="margin-left:10px;"></span>  
+
+"Je suis fier ___ réussir." 🏆 → <input type="text" placeholder="à/de" oninput="checkAnswer(this, 'de')"><span style="margin-left:10px;"></span>  
+
+"Un projet ___ finir." 📅 → <input type="text" placeholder="à/de" oninput="checkAnswer(this, 'à')"><span style="margin-left:10px;"></span>  
+
+#### 3. Correct the preposition errors:  
+"Une fourchette à salade" → <input type="text" placeholder="Correct phrase" oninput="checkAnswer(this, 'une fourchette à salade')"><span style="margin-left:10px;"></span> *(Note: No error! Trick question.)*  
+
+"Un sac de main" 👜 → <input type="text" placeholder="Correct phrase" oninput="checkAnswer(this, 'un sac à main')"><span style="margin-left:10px;"></span>  
+
+"Content à vous aider" → <input type="text" placeholder="Correct phrase" oninput="checkAnswer(this, 'content de vous aider')"><span style="margin-left:10px;"></span>  
+
+#### 4. Translate into French (include prepositions!):  
+"A spoon for soup." → <textarea placeholder="French..." rows="1" cols="30" oninput="checkTranslation(this, 'une cuillère à soupe')"></textarea><span style="margin-left:10px;"></span>  
+
+"Happy to help you." → <textarea placeholder="French..." rows="1" cols="30" oninput="checkTranslation(this, 'heureux de vous aider')"></textarea><span style="margin-left:10px;"></span>  
+
+<button onclick="showAnswers()">Show All Answers</button>  
+<button onclick="refreshPage()">Refresh Exercises</button>  
+
+<script>  
+function showAnswers() {  
+    document.querySelectorAll('input[type="text"]').forEach(input => {  
+        const correct = input.getAttribute('oninput').match(/'([^']+)'/)[1];  
+        input.value = correct;  
+        const feedback = input.nextElementSibling;  
+        feedback.textContent = "✓ Correct!";  
+        feedback.style.color = "green";  
+    });  
+
+    document.querySelectorAll('textarea').forEach(textarea => {  
+        const correct = textarea.getAttribute('oninput').match(/'([^']+)'/)[1];  
+        textarea.value = correct;  
+        const feedback = textarea.nextElementSibling;  
+        feedback.textContent = "✓ Correct!";  
+        feedback.style.color = "green";  
+    });  
+}  
+
+function refreshPage() {  
+    location.reload();  
+}  
+
+function checkAnswer(input, correctAnswer) {  
+    const feedback = input.nextElementSibling;  
+    if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {  
+        feedback.textContent = "✓ Correct!";  
+        feedback.style.color = "green";  
+    } else if (input.value.trim()) {  
+        feedback.textContent = "✗ Try again!";  
+        feedback.style.color = "red";  
+    }  
+}  
+
+function checkAllAnswers() {  
+    document.querySelectorAll('input[type="text"]').forEach(input => {  
+        const correct = input.getAttribute('oninput').match(/'([^']+)'/)[1];  
+        checkAnswer(input, correct);  
+    });  
+
+    document.querySelectorAll('textarea').forEach(textarea => {  
+        const correct = textarea.getAttribute('oninput').match(/'([^']+)'/)[1];  
+        checkTranslation(textarea, correct);  
+    });  
+}  
+
+function checkTranslation(textarea, correctAnswer) {  
+    const feedback = textarea.nextElementSibling;  
+    if (textarea.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {  
+        feedback.textContent = "✓ Correct!";  
+        feedback.style.color = "green";  
+    } else if (textarea.value.trim()) {  
+        feedback.textContent = "✗ Try again!";  
+        feedback.style.color = "red";  
+    }  
+}  
+
+function checkAllAnswers() {  
+    document.querySelectorAll('input[type="text"]').forEach(input => {  
+        const correct = input.getAttribute('oninput').match(/'([^']+)'/)[1];  
+        input.value = correct;  
+        const feedback = input.nextElementSibling;  
+        feedback.textContent = "✓ Correct!";  
+        feedback.style.color = "green";  
+    });  
+
+    document.querySelectorAll('textarea').forEach(textarea => {  
+        const correct = textarea.getAttribute('oninput').match(/'([^']+)'/)[1];  
+        textarea.value = correct;  
+        const feedback = textarea.nextElementSibling;  
+        feedback.textContent = "✓ Correct!";  
+        feedback.style.color = "green";  
+    });  
+}  
+</script>  
+
+---
+
+### Notes:  
+- **Mnemonics**:  
+  - **à** = **action/purpose** (think *à table* = "for eating").  
+  - **de** = **origin/content** (think *de Paris* = "from Paris").  
+- **Common Adjective + Infinitive Pairs**:  
+  - *à*: *facile à, prêt à, lent à*.  
+  - *de*: *content de, responsable de, capable de*.  
+- **Exceptions**:  
+  - *C’est bon à savoir* (It’s good to know) vs. *C’est bon de savoir* (It feels good to know).  
+
+:::  

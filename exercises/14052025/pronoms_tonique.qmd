@@ -1,0 +1,140 @@
+---
+title: "Mastering French Stressed Pronouns (Pronoms Toniques)"  
+author: "Kunal Khurana"  
+date: "05-12-2025"  
+categories: [A2/B1, grammar, pronouns, exercises]  
+image: "tonic-pronouns.png"  
+---
+
+::: {.content-visible when-profile="english"}
+### Understanding Stressed Pronouns
+
+Stressed pronouns (**moi, toi, lui, elle, nous, vous, eux, elles**) are used:
+
+1.  **To emphasize the subject**:
+    -   *Moi, j’adore le cinéma* (Me, I love movies).
+2.  **After prepositions** (à, de, pour, chez, avec, sans, etc.):
+    -   *Ce cadeau est pour toi* (This gift is for you).\
+    -   *Je pense à lui* (I’m thinking about him).
+3.  **After "C’est"**:
+    -   *C’est moi qui ai cuisiné* (I’m the one who cooked).
+4.  **In comparisons**:
+    -   *Elle est plus grande que lui* (She is taller than him).
+5.  **With "-même"** (myself, yourself...):
+    -   *Je l’ai fait moi-même* (I did it myself).
+
+------------------------------------------------------------------------
+
+### Exercises
+
+#### 1. Choose the correct stressed pronoun:
+
+"Ce livre est \_\_\_ (to me)." 📖 →\
+<input type="text" placeholder="moi/toi/lui" oninput="checkAnswer(this, 'pour moi')">
+
+"Nous allons chez \_\_\_ (them, masc.)." 🏠 →\
+<input type="text" placeholder="eux/elles/leur" oninput="checkAnswer(this, 'chez eux')">
+
+"Elle est plus âgée que \_\_\_ (him)." 👴 →\
+<input type="text" placeholder="lui/il/le" oninput="checkAnswer(this, 'que lui')">
+
+#### 2. Replace the underlined words with a stressed pronoun:
+
+"Je parle à Paul et Marie." →\
+<input type="text" placeholder="Je parle à..." oninput="checkAnswer(this, 'Je parle à eux')"> *(Note: "à eux" for mixed group, though "à eux" is more common for masc.)*
+
+"Le chien appartient à ma sœur." 🐕 →\
+<input type="text" placeholder="Le chien appartient à..." oninput="checkAnswer(this, 'Le chien appartient à elle')">
+
+#### 3. Correct the errors:
+
+"C’est toi qui a raison." →\
+<input type="text" placeholder="Correct phrase" oninput="checkAnswer(this, 'C’est toi qui as raison')"> *(Verb agrees with "toi")*
+
+"Je vais avec ils." →\
+<input type="text" placeholder="Correct phrase" oninput="checkAnswer(this, 'Je vais avec eux')">
+
+#### 4. Translate into French:
+
+"This is between you and me." →\
+
+```{=html}
+<textarea placeholder="French..." rows="1" cols="40" oninput="checkTranslation(this, 'C’est entre toi et moi.')"></textarea>
+```
+
+"She did it without them (fem.)." →\
+
+```{=html}
+<textarea placeholder="French..." rows="1" cols="40" oninput="checkTranslation(this, 'Elle l’a fait sans elles.')"></textarea>
+```
+
+#### 5. Create Your Own Sentences:
+
+Write 5 sentences using stressed pronouns. Be creative!\
+
+```{=html}
+<textarea placeholder="Write your sentences here..." rows="5" cols="60"></textarea>
+```
+
+<button onclick="showAnswers()">
+
+Show Answers
+
+</button>
+
+<button onclick="refreshPage()">
+
+Restart
+
+</button>
+
+```{=html}
+<script>
+function checkAnswer(input, correctAnswer) {
+    const span = input.nextElementSibling;
+    if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
+        span.textContent = "✓ Correct";
+        span.style.color = "green";
+    } else {
+        span.textContent = "";
+    }
+}
+
+function checkTranslation(textarea, correctTranslation) {
+    const span = textarea.nextElementSibling;
+    if (textarea.value.trim().toLowerCase() === correctTranslation.toLowerCase()) {
+        span.textContent = "✓ Correct";
+        span.style.color = "green";
+    } else {
+        span.textContent = "";
+    }
+}
+
+function showAnswers() {
+    document.querySelectorAll('input[type="text"], textarea').forEach(input => {
+        const span = input.nextElementSibling;
+        const correctAnswer = input.getAttribute('oninput')?.match(/'([^']+)'/)?.[1];
+        if (correctAnswer) {
+            span.textContent = `Answer: ${correctAnswer}`;
+            span.style.color = "blue";
+        }
+    });
+}
+
+function refreshPage() {
+    location.reload();
+}
+</script>
+```
+
+------------------------------------------------------------------------
+
+### Key Notes:
+
+-   **Prepositions + Stressed Pronouns**:
+    -   *avec moi*, *sans toi*, *pour eux*.\
+-   **Never use subject pronouns** (je, tu, il...) after prepositions!
+    -   Wrong: *pour je* → Correct: *pour moi*.\
+-   **Gender/Numbers**:
+    -   *eux* (masc. plural), *elles* (fem. plural).
+:::

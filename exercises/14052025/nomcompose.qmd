@@ -1,0 +1,124 @@
+---
+title: "French Compound Nouns Practice (3 Types)"
+author: "Kunal Khurana"
+date: "05-15-2025"
+categories: [A1/A2, grammar, nouns, exercises]
+image: "compound_nouns.png"
+---
+
+::: {.content-visible when-profile="english"}
+
+## Introduction
+
+Compound nouns in French are formed by combining two or more words to create a single noun. These combinations often follow specific patterns. In this exercise, we will explore three common types of compound nouns:
+
+- **Type 1**: Noun + Noun / Adj + Noun / Verb + Noun (e.g., toothbrush = brosse à dents)
+- **Type 2**: Noun + de + Noun (e.g., cup of coffee = tasse de café)
+- **Type 3**: Noun + à + Verb (e.g., hairdryer = sèche-cheveux)
+
+Practice identifying, completing, and creating compound nouns in the exercises below.
+
+## Exercise 1: Identify the Type
+
+Classify these compound nouns by their structure (Type 1/2/3):
+
+Porte-monnaie (wallet) → <input type="text" placeholder="Type?">
+<span class="feedback" data-answer="1"></span>
+
+Verre de vin (wine glass) → <input type="text" placeholder="Type?">
+<span class="feedback" data-answer="2"></span>
+
+Fer à repasser (iron) → <input type="text" placeholder="Type?">
+<span class="feedback" data-answer="3"></span>
+
+<button onclick="checkTypes()">Check Answers</button>
+
+## Exercise 2: Fill in the Blanks
+
+Complete with the correct word/preposition:
+
+Un ______ à dents (toothbrush) → <input type="text" placeholder="">
+<span class="feedback" data-answer="brosse"></span>
+
+Une tasse ______ café → <input type="text" placeholder="">
+<span class="feedback" data-answer="de"></span>
+
+Un sèche-______ (hairdryer) → <input type="text" placeholder="">
+<span class="feedback" data-answer="cheveux"></span>
+
+<button onclick="checkFillBlanks()">Check</button>
+
+## Exercise 3: Translation
+
+Translate into French (use compound nouns):
+
+"Bird-watching" → <input type="text" placeholder="">
+<span class="feedback" data-answer="observation des oiseaux"></span>
+
+"Swimming pool" → <input type="text" placeholder=""> (Note: Not compound!)
+<span class="feedback" data-answer="piscine"></span>
+
+<button onclick="checkTranslation()">Verify</button>
+
+## Exercise 4: Create Your Own
+
+Invent 1 compound noun for each type:
+
+Type 1: <input type="text" placeholder="">
+
+Type 2: <input type="text" placeholder="">
+
+Type 3: <input type="text" placeholder="">
+
+<button onclick="giveExamples()">Show Examples</button>
+
+<div id="creative-feedback"></div>
+
+<button onclick="showAllAnswers()">Show All Answers</button>
+
+<script>
+function checkTypes() {  
+    document.querySelectorAll('span[data-answer]').forEach(span => {  
+        const input = span.previousElementSibling;  
+        if (input.value.trim() === span.dataset.answer) {  
+            span.textContent = "✓ Correct";  
+            span.style.color = "green";  
+        } else {  
+            span.textContent = `✗ Type ${span.dataset.answer}`;  
+            span.style.color = "red";  
+        }  
+    });  
+}  
+
+function checkFillBlanks() {  
+    document.querySelectorAll('span[data-answer]').forEach(span => {  
+        const input = span.previousElementSibling;  
+        if (input.value.trim().toLowerCase() === span.dataset.answer) {  
+            span.textContent = "✓ Correct";  
+            span.style.color = "green";  
+        } else {  
+            span.textContent = `✗ Answer: "${span.dataset.answer}"`;  
+            span.style.color = "red";  
+        }  
+    });  
+}  
+
+function giveExamples() {  
+    document.getElementById('creative-feedback').innerHTML = `  
+        <p>Examples:</p>  
+        <ul>  
+            <li><strong>Type 1</strong>: sac-à-dos (backpack)</li>  
+            <li><strong>Type 2</strong>: verre de lait (glass of milk)</li>  
+            <li><strong>Type 3</strong>: machine à écrire (typewriter)</li>  
+        </ul>  
+    `;  
+}  
+
+function showAllAnswers() {
+    document.querySelectorAll('span[data-answer]').forEach(span => {
+        span.textContent = `Answer: ${span.dataset.answer}`;
+        span.style.color = "blue";
+    });
+}
+</script>
+:::

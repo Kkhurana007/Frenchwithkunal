@@ -1,134 +1,125 @@
 ---
-title: "Exercises with Aller"
+title: "Mastering the Verb 'Aller' (Present & Future)"
 author: "Kunal Khurana"
 date: "05-12-2025"
-categories: [A1/A2, grammar, aller, exercises]
+categories: [A1/A2, grammar, verbs, exercises]
 image: "aller.png"
 ---
 
 ::: {.content-visible when-profile="english"}
-# Exercise: Practicing the Verb "Aller"
 
-Here are some exercises to practice conjugating the verb **aller** (to go) in French:
+### Understanding the Verb "Aller"
+**Aller** (to go) is one of the most common and irregular French verbs. It's essential for:
+- Talking about destinations (*Je vais à Paris*)
+- Forming the near future (*Je vais manger* = I'm going to eat)
+- Expressing future plans
 
-1.  Conjugate the verb "aller" in the present tense for the following subjects:
-    -   Je <input type="text" placeholder="Enter answer here" oninput="checkAnswer(this, 'vais')"> au marché.
-    -   Tu <input type="text" placeholder="Enter answer here" oninput="checkAnswer(this, 'vas')"> à l'école.
-    -   Il/Elle <input type="text" placeholder="Enter answer here" oninput="checkAnswer(this, 'va')"> au cinéma.
-    -   Nous <input type="text" placeholder="Enter answer here" oninput="checkAnswer(this, 'allons')"> à la plage.
-    -   Vous <input type="text" placeholder="Enter answer here" oninput="checkAnswer(this, 'allez')"> au restaurant.
-    -   Ils/Elles <input type="text" placeholder="Enter answer here" oninput="checkAnswer(this, 'vont')"> au parc.
+#### Present Tense Conjugation:
+| Pronoun | Conjugation | Example |
+|---------|-------------|---------|
+| Je      | vais        | Je vais au parc |
+| Tu      | vas         | Tu vas à l'école |
+| Il/Elle | va          | Elle va au cinéma |
+| Nous    | allons      | Nous allons en ville |
+| Vous    | allez       | Vous allez au restaurant |
+| Ils/Elles | vont      | Ils vont à la plage |
 
-<br>
+#### Future Tense Conjugation:
+| Pronoun | Conjugation | Example |
+|---------|-------------|---------|
+| Je      | irai        | J'irai en France |
+| Tu      | iras        | Tu iras à la fête |
+| Il/Elle | ira         | Il ira au travail |
+| Nous    | irons       | Nous irons en vacances |
+| Vous    | irez        | Vous irez au marché |
+| Ils/Elles | iront     | Elles iront à l'université |
 
-2.  Fill in the blanks with the correct form of "aller" in the future tense:
-    -   Demain, je <input type="text" placeholder="Enter answer here" oninput="checkAnswer(this, 'irai')"> à Paris.
-    -   La semaine prochaine, nous <input type="text" placeholder="Enter answer here" oninput="checkAnswer(this, 'irons')"> en vacances.
-    -   Est-ce que tu <input type="text" placeholder="Enter answer here" oninput="checkAnswer(this, 'iras')"> au concert ce soir ?
-    -   Ils/Elles <input type="text" placeholder="Enter answer here" oninput="checkAnswer(this, 'iront')"> à la montagne.
-    -   Vous <input type="text" placeholder="Enter answer here" oninput="checkAnswer(this, 'irez')"> au musée demain.
-    -   Il/Elle <input type="text" placeholder="Enter answer here" oninput="checkAnswer(this, 'ira')"> à l'université l'année prochaine.
+---
 
-```{=html}
+### Exercises
+
+#### 1. Conjugate "aller" in present tense:
+"Je ___ (aller) au supermarché." 🛒 →  
+<input type="text" placeholder="vais/vas/va" oninput="checkAnswer(this, 'vais')"><span style="margin-left:10px;"></span>
+
+"Nous ___ (aller) au musée demain." 🖼️ →  
+<input type="text" placeholder="allons/allez/vont" oninput="checkAnswer(this, 'allons')"><span style="margin-left:10px;"></span>
+
+"Elles ___ (aller) à la piscine." 🏊♀️ →  
+<input type="text" placeholder="vont/vas/allez" oninput="checkAnswer(this, 'vont')"><span style="margin-left:10px;"></span>
+
+#### 2. Future tense practice:
+"Demain, tu ___ (aller) chez le médecin." 🏥 →  
+<input type="text" placeholder="iras/ira/irez" oninput="checkAnswer(this, 'iras')"><span style="margin-left:10px;"></span>
+
+"L'année prochaine, je ___ (aller) en Italie." 🇮🇹 →  
+<input type="text" placeholder="irai/irons/ira" oninput="checkAnswer(this, 'irai')"><span style="margin-left:10px;"></span>
+
+#### 3. Translate into French:
+"I am going to the beach." 🏖️ →  
+<textarea placeholder="Je..." rows="1" oninput="checkTranslation(this, 'Je vais à la plage')"></textarea><span style="margin-left:10px;"></span>
+
+"They will go to the concert." 🎤 →  
+<textarea placeholder="Ils..." rows="1" oninput="checkTranslation(this, 'Ils iront au concert')"></textarea><span style="margin-left:10px;"></span>
+
+#### 5. Write a paragraph using "aller" in both present and future tense:
+Write a short paragraph about your plans for today and tomorrow using the verb **aller** in both the present and future tense.  
+<textarea placeholder="Write your paragraph here..." rows="10" cols="80" oninput="checkTranslation(this, 'Aujourd\'hui, je vais au marché. Demain, j\'irai au parc.')"></textarea><span style="margin-left:10px;"></span>
+
+<button onclick="showAnswers()">Show Answers</button>
+<button onclick="refreshPage()">Try Again</button>
+
 <script>
 function checkAnswer(input, correctAnswer) {
-    const userAnswer = input.value.trim().toLowerCase();
     const feedback = input.nextElementSibling;
-    if (!feedback) {
-        const span = document.createElement('span');
-        span.style.marginLeft = '10px';
-        input.parentNode.appendChild(span);
-    }
-    if (userAnswer === correctAnswer) {
-        input.nextElementSibling.textContent = "Correct! +10 points";
-        input.nextElementSibling.style.color = "green";
-    } else if (userAnswer) {
-        input.nextElementSibling.textContent = "Try again!";
-        input.nextElementSibling.style.color = "red";
-    } else {
-        input.nextElementSibling.textContent = "";
+    if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
+        feedback.textContent = "✓ Correct!";
+        feedback.style.color = "green";
+    } else if (input.value.trim()) {
+        feedback.textContent = "✗ Try again!";
+        feedback.style.color = "red";
     }
 }
 
-function checkAllAnswers() {
-    const inputs = document.querySelectorAll('input[type="text"]');
-    inputs.forEach(input => {
-        const correctAnswer = input.getAttribute('oninput').match(/'([^']+)'/)[1];
-        checkAnswer(input, correctAnswer);
+function checkTranslation(textarea, correctTranslation) {
+    const feedback = textarea.nextElementSibling;
+    const userAnswer = textarea.value.trim().toLowerCase();
+    // Accept multiple correct answers
+    const possibleAnswers = correctTranslation.toLowerCase().split('|');
+    
+    if (possibleAnswers.includes(userAnswer)) {
+        feedback.textContent = "✓ Correct!";
+        feedback.style.color = "green";
+    } else if (textarea.value.trim()) {
+        feedback.textContent = `Possible answer: ${correctTranslation}`;
+        feedback.style.color = "blue";
+    }
+}
+
+function showAnswers() {
+    document.querySelectorAll('input[type="text"]').forEach(input => {
+        const correct = input.getAttribute('oninput').match(/'([^']+)'/)[1];
+        input.value = correct;
+        checkAnswer(input, correct);
+    });
+    
+    document.querySelectorAll('textarea').forEach(textarea => {
+        const correct = textarea.getAttribute('oninput').match(/'([^']+)'/)[1];
+        textarea.value = correct.split('|')[0]; // Show first correct option
+        checkTranslation(textarea, correct);
     });
 }
-</script>
-```
 
-3.  Translate the following sentences into French using the verb "aller":
-
-    -   I am going to the store.\
-
-        ```{=html}
-        <textarea placeholder="Enter your translation here" rows="2" cols="50"></textarea>
-        ```
-
-    -   They are going to the museum.\
-
-        ```{=html}
-        <textarea placeholder="Enter your translation here" rows="2" cols="50"></textarea>
-        ```
-
-    -   We are going to the library.\
-
-        ```{=html}
-        <textarea placeholder="Enter your translation here" rows="2" cols="50"></textarea>
-        ```
-
-    <button onclick="showAllTranslations()">
-
-    Submit
-
-    </button>
-
-```{=html}
-<script>
-function showAllTranslations() {
-    const translations = [
-        { input: document.querySelectorAll('textarea')[0], correct: 'Je vais au magasin.' },
-        { input: document.querySelectorAll('textarea')[1], correct: 'Ils/Elles vont au musée.' },
-        { input: document.querySelectorAll('textarea')[2], correct: 'Nous allons à la bibliothèque.' }
-    ];
-
-    translations.forEach(({ input, correct }) => {
-        let feedback = input.nextElementSibling;
-
-        if (!feedback || feedback.tagName !== 'SPAN') {
-            feedback = document.createElement('span');
-            feedback.style.marginLeft = '10px';
-            input.parentNode.appendChild(feedback);
-        }
-
-        const userTranslation = input.value.trim();
-        if (userTranslation.toLowerCase() === correct.toLowerCase()) {
-            feedback.textContent = "Correct! The translation is: " + correct;
-            feedback.style.color = "green";
-        } else {
-            feedback.textContent = "The correct translation is: " + correct;
-            feedback.style.color = "red";
-        }
-    });
-
-    // Ensure the button remains visible after feedback is displayed
-    document.querySelector('button[onclick="showAllTranslations()"]').scrollIntoView({ behavior: 'smooth', block: 'center' });
+function refreshPage() {
+    location.reload();
 }
 </script>
-```
 
-4.  Write a short paragraph about where you and your friends are going this weekend using different forms of "aller."
+---
 
-    ```{=html}
-    <textarea placeholder="Write your paragraph here" rows="5" cols="50"></textarea>
-    ```
+### Tips:
+- **Aller + à**: Use "à" for cities (*à Paris*), "au" for masculine countries (*au Canada*), "aux" for plural countries (*aux États-Unis*)
+- **Near future**: "Aller + infinitive" = "going to..." (*Je vais manger*)
+- **Past**: Use "être allé(e)" as past tense (*Je suis allé au cinéma*)
 
-    <button onclick="checkAllAnswers()">
-
-    Check All Answers
-
-    </button>
 :::

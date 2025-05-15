@@ -1,0 +1,117 @@
+---
+title: "Les Propositions Relatives pour Qualifier le Nom"  
+author: "Kunal Khurana"  
+date: "05-12-2025"  
+categories: [B1, grammaire, relatives, exercices]  
+image: "relatives.png"  
+---
+
+::: {.content-visible when-profile="english"}  
+
+### Comprendre les Propositions Relatives  
+Une proposition relative **qualifie un nom** (elle donne des informations supplémentaires sur ce nom). Elle est introduite par un **pronom relatif** :  
+
+| Pronom | Fonction | Exemple |  
+|--------|----------|---------|  
+| **qui** | Sujet du verbe | *Le film **qui** passe ce soir* (le film = sujet de "passe") |  
+| **que** | COD du verbe | *Le film **que** j'adore* (j'adore le film) |  
+| **où** | Lieu/temps | *Le cinéma **où** nous allons* |  
+| **dont** | Complément (de, du, des...) | *L'acteur **dont** je parle* (je parle **de** l'acteur) |  
+
+**Contraction article + relatif** :  
+- *à + lequel = auquel*  
+- *de + lequel = duquel*  
+
+---
+
+### Exercices  
+
+#### 1. Choisissez le bon pronom relatif :  
+"Le cinéma __ est près de chez moi est fermé." 🎬 →  
+<input type="text" placeholder="qui/que/où/dont" oninput="checkAnswer(this, 'qui')"><span style="margin-left:10px;"></span>  
+
+"Le film __ j’ai vu hier était génial." 🍿 →  
+<input type="text" placeholder="qui/que/où/dont" oninput="checkAnswer(this, 'que')"><span style="margin-left:10px;"></span>  
+
+"L’année __ j’ai vécu à Paris." 🗼 →  
+<input type="text" placeholder="qui/que/où/dont" oninput="checkAnswer(this, 'où')"><span style="margin-left:10px;"></span>  
+
+"La personne __ tu m’as parlé est ici." 👋 →  
+<input type="text" placeholder="qui/que/où/dont" oninput="checkAnswer(this, 'dont')"><span style="margin-left:10px;"></span>  
+
+#### 2. Complétez avec la proposition relative correcte :  
+"Voici le restaurant ___ (nous avons mangé)." 🍽️ →  
+<input type="text" placeholder="où/qui/que/dont" oninput="checkAnswer(this, 'où')"><span style="margin-left:10px;"></span>  
+
+"C’est l’homme ___ (a dirigé ce film)." 🎥 →  
+<input type="text" placeholder="qui/que/dont/où" oninput="checkAnswer(this, 'qui')"><span style="margin-left:10px;"></span>  
+
+"Les livres ___ (tu as besoin) sont là." 📚 →  
+<input type="text" placeholder="dont/que/où/qui" oninput="checkAnswer(this, 'dont')"><span style="margin-left:10px;"></span>  
+
+#### 3. Corrigez les erreurs :  
+"La ville que j’habite est belle." →  
+<input type="text" placeholder="Phrase corrigée" oninput="checkAnswer(this, 'La ville où j’habite est belle.')"><span style="margin-left:10px;"></span>  
+
+"Le gâteau qui j’ai mangé." →  
+<input type="text" placeholder="Phrase corrigée" oninput="checkAnswer(this, 'Le gâteau que j’ai mangé.')"><span style="margin-left:10px;"></span>  
+
+"L’ami dont je connais." →  
+<input type="text" placeholder="Phrase corrigée" oninput="checkAnswer(this, 'L’ami que je connais.')"><span style="margin-left:10px;"></span>  
+
+#### 4. Traduisez en français :  
+"The book that I’m reading." →  
+<textarea placeholder="French..." rows="1" cols="40" oninput="checkTranslation(this, 'Le livre que je lis.')"></textarea><span style="margin-left:10px;"></span>  
+
+"The park where we play." →  
+<textarea placeholder="French..." rows="1" cols="40" oninput="checkTranslation(this, 'Le parc où nous jouons.')"></textarea><span style="margin-left:10px;"></span>  
+
+<button onclick="showAnswers()">Show All Answers</button>  
+<button onclick="refreshPage()">Refresh Exercises</button>  
+
+<script>
+function checkAnswer(input, correctAnswer) {
+    const span = input.nextElementSibling;
+    if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
+        span.textContent = "✓ Correct";
+        span.style.color = "green";
+    } else {
+        span.textContent = "";
+    }
+}
+
+function checkTranslation(textarea, correctTranslation) {
+    const span = textarea.nextElementSibling;
+    if (textarea.value.trim().toLowerCase() === correctTranslation.toLowerCase()) {
+        span.textContent = "✓ Correct";
+        span.style.color = "green";
+    } else {
+        span.textContent = "";
+    }
+}
+
+function showAnswers() {
+    document.querySelectorAll('input[type="text"], textarea').forEach(input => {
+        const span = input.nextElementSibling;
+        const correctAnswer = input.getAttribute('oninput')?.match(/'([^']+)'/)?.[1];
+        if (correctAnswer) {
+            span.textContent = `Answer: ${correctAnswer}`;
+            span.style.color = "blue";
+        }
+    });
+}
+
+function refreshPage() {
+    location.reload();
+}
+</script>
+
+---
+
+### Notes :  
+- **Astuce** : Remplacez mentalement le relatif par "celui/celle + préposition" pour choisir :  
+  - *Le film **que** j’aime* → "J’aime **celui-ci**" (COD → *que*).  
+  - *Le cinéma **où** je vais* → "Je vais **là**" (lieu → *où*).  
+- **Attention** : Pas de contraction avec *dont* (*dont* = déjà "de + lequel").  
+
+:::  

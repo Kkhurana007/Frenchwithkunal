@@ -17,23 +17,37 @@ Practice conjugating stem-changing verbs (*acheter, préférer, espérer, répé
 ### 1. Fill in the Blanks  
 Conjugate the verb for each subject.
 
-Je (acheter) <input type="text" placeholder="Your answer" onblur="checkAnswer(this, 'achète')"> → J'achète un livre.  
+Je (acheter) <input type="text" placeholder="Your answer">  
+<button onclick="revealAnswer(this, 'J\'achète un livre.')">Check</button>  
 <span class="feedback"></span>
 
-Tu (préférer) <input type="text" placeholder="Your answer" onblur="checkAnswer(this, 'préfères')"> → Tu préfères le café.  
+Tu (préférer) <input type="text" placeholder="Your answer">  
+<button onclick="revealAnswer(this, 'Tu préfères le café.')">Check</button>  
 <span class="feedback"></span>
 
-Il (espérer) <input type="text" placeholder="Your answer" onblur="checkAnswer(this, 'espère')"> → Il espère gagner.  
+Il (espérer) <input type="text" placeholder="Your answer">  
+<button onclick="revealAnswer(this, 'Il espère gagner.')">Check</button>  
 <span class="feedback"></span>
 
-Nous (répéter) <input type="text" placeholder="Your answer" onblur="checkAnswer(this, 'répétons')"> → Nous répétons la chanson.  
+Nous (répéter) <input type="text" placeholder="Your answer">  
+<button onclick="revealAnswer(this, 'Nous répétons la chanson.')">Check</button>  
 <span class="feedback"></span>
 
-Vous (céder) <input type="text" placeholder="Your answer" onblur="checkAnswer(this, 'cédez')"> → Vous cédez la place.  
+Vous (céder) <input type="text" placeholder="Your answer">  
+<button onclick="revealAnswer(this, 'Vous cédez la place.')">Check</button>  
 <span class="feedback"></span>
 
-Elles (acheter) <input type="text" placeholder="Your answer" onblur="checkAnswer(this, 'achètent')"> → Elles achètent des fleurs.  
+Elles (acheter) <input type="text" placeholder="Your answer">  
+<button onclick="revealAnswer(this, 'Elles achètent des fleurs.')">Check</button>  
 <span class="feedback"></span>
+
+<script>
+function revealAnswer(button, correctAnswer) {
+    const feedback = button.nextElementSibling.nextElementSibling;
+    feedback.textContent = correctAnswer;
+    feedback.style.color = "blue";
+}
+</script>
 
 ---
 

@@ -1,0 +1,238 @@
+---
+title: "Les Pronoms des Verbes Pronominaux"  
+author: "Kunal Khurana"  
+date: "05-12-2025"  
+categories: [B1, grammaire, pronominaux, exercices]  
+image: "pronominaux.png"  
+---
+
+::: {.content-visible when-profile="english"}
+
+### Understanding Pronominal Verbs
+Pronominal verbs use a **reflexive pronoun** that matches the subject. These pronouns are:
+
+| Pronoun | Example |
+|---------|---------|
+| **me/m'** | Je me lave / Je m'habille (I wash myself / I get dressed) |
+| **te/t'** | Tu te brosses / Tu t'habilles (You brush yourself / You get dressed) |
+| **se/s'** | Il se prépare / Elle s'habille (He gets ready / She gets dressed) |
+| **nous** | Nous nous levons (We get up) |
+| **vous** | Vous vous habillez (You get dressed) |
+| **se/s'** | Ils se réveillent / Elles s'amusent (They wake up / They have fun) |
+
+**Important rules:**
+
+1. Before a vowel or silent "h" → elision (me → m', te → t', se → s')
+2. In the affirmative imperative → hyphen and inversion
+3. In the negative imperative → no hyphen
+
+---
+
+### Exercises
+
+#### 1. Choose the correct reflexive pronoun:
+"Je ___ (me/m')appelle Pierre." →  
+<input type="text" placeholder="me/m'" oninput="checkAnswer(this, 'm\'')"><span style="margin-left:10px;"></span>  
+
+"Vous ___ (vous/te) brossez les dents ?" →  
+<input type="text" placeholder="vous/te" oninput="checkAnswer(this, 'vous')"><span style="margin-left:10px;"></span>  
+
+"Ils ___ (se/s')habillent rapidement." →  
+<input type="text" placeholder="se/s'" oninput="checkAnswer(this, 's\'')"><span style="margin-left:10px;"></span>  
+
+#### 2. Put in the imperative:
+"(Se lever) → ___ ! (tu)" →  
+<input type="text" placeholder="Imperative" oninput="checkAnswer(this, 'Lève-toi')"><span style="margin-left:10px;"></span>  
+
+"(S'habiller) → ___ vite ! (nous)" →  
+<input type="text" placeholder="Imperative" oninput="checkAnswer(this, 'Habillons-nous')"><span style="margin-left:10px;"></span>  
+
+"(Ne pas se coucher) → ___ tard ! (vous)" →  
+<input type="text" placeholder="Imperative" oninput="checkAnswer(this, 'Ne vous couchez pas')"><span style="margin-left:10px;"></span>  
+
+#### 3. Correct the errors:
+"Tu te habilles." →  
+<input type="text" placeholder="Correction" oninput="checkAnswer(this, 'Tu t\'habilles.')"><span style="margin-left:10px;"></span>  
+
+"Lave toi les mains." →  
+<input type="text" placeholder="Correction" oninput="checkAnswer(this, 'Lave-toi les mains.')"><span style="margin-left:10px;"></span>  
+
+"Ne nous asseyons pas." →  
+<input type="text" placeholder="Correction" oninput="checkAnswer(this, 'Ne nous asseyons pas.')"><span style="margin-left:10px;"></span> *(Correct!)*  
+
+#### 4. Translate into French:
+"Wake up! (tu)" →  
+<textarea placeholder="Translation" rows="1" oninput="checkTranslation(this, 'Réveille-toi !')"></textarea><span style="margin-left:10px;"></span>  
+
+"They are getting ready." →  
+<textarea placeholder="Translation" rows="1" oninput="checkTranslation(this, 'Ils se préparent.')"></textarea><span style="margin-left:10px;"></span>  
+
+<button onclick="showAnswers()">Show answers</button>  
+<button onclick="refreshPage()">Try again</button>  
+
+<script>
+function checkAnswer(input, correctAnswer) {
+    const span = input.nextElementSibling;
+    if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
+        span.textContent = "✓ Correct";
+        span.style.color = "green";
+    } else {
+        span.textContent = "";
+    }
+}
+
+function checkTranslation(textarea, correctTranslation) {
+    const span = textarea.nextElementSibling;
+    if (textarea.value.trim().toLowerCase() === correctTranslation.toLowerCase()) {
+        span.textContent = "✓ Correct";
+        span.style.color = "green";
+    } else {
+        span.textContent = "";
+    }
+}
+
+function showAnswers() {
+    document.querySelectorAll('input[type="text"], textarea').forEach(el => {
+        const correct = el.getAttribute('oninput')?.match(/'([^']+)'/)?.[1];
+        if (correct) {
+            const span = el.nextElementSibling;
+            span.textContent = `Réponse : ${correct}`;
+            span.style.color = "blue";
+        }
+    });
+}
+
+function refreshPage() {
+    location.reload();
+}
+</script>
+---
+
+### Notes:
+- **In the imperative**:  
+    - Positive: verb + hyphen + pronoun (Lève-toi)
+    - Negative: pronoun before verb (Ne te lève pas)
+- **Mandatory elision** before vowel/silent h:  
+    "Je m'habille" (not "Je me habille")
+
+:::
+
+
+
+
+
+::: {.content-visible when-profile="french"}  
+
+### Comprendre les Verbes Pronominaux  
+Les verbes pronominaux utilisent un **pronom réfléchi** qui correspond au sujet. Ces pronoms sont :
+
+| Pronom | Exemple |
+|--------|---------|
+| **me/m'** | Je me lave / Je m'habille |
+| **te/t'** | Tu te brosses / Tu t'habilles |
+| **se/s'** | Il se prépare / Elle s'habille |
+| **nous** | Nous nous levons |
+| **vous** | Vous vous habillez |
+| **se/s'** | Ils se réveillent / Elles s'amusent |
+
+**Règles importantes** :
+
+1. Devant voyelle ou "h" muet → élision (me → m', te → t', se → s')
+
+2. À l'impératif affirmatif → trait d'union et inversion
+
+3. À l'impératif négatif → pas de trait d'union
+
+---
+
+### Exercices  
+
+#### 1. Choisissez le bon pronom réfléchi :
+"Je ___ (me/m')appelle Pierre." →  
+<input type="text" placeholder="me/m'" oninput="checkAnswer(this, 'm\'')"><span style="margin-left:10px;"></span>  
+
+"Vous ___ (vous/te) brossez les dents ?" →  
+<input type="text" placeholder="vous/te" oninput="checkAnswer(this, 'vous')"><span style="margin-left:10px;"></span>  
+
+"Ils ___ (se/s')habillent rapidement." →  
+<input type="text" placeholder="se/s'" oninput="checkAnswer(this, 's\'')"><span style="margin-left:10px;"></span>  
+
+#### 2. Mettez à l'impératif :
+"(Se lever) → ___ ! (tu)" →  
+<input type="text" placeholder="Impératif" oninput="checkAnswer(this, 'Lève-toi')"><span style="margin-left:10px;"></span>  
+
+"(S'habiller) → ___ vite ! (nous)" →  
+<input type="text" placeholder="Impératif" oninput="checkAnswer(this, 'Habillons-nous')"><span style="margin-left:10px;"></span>  
+
+"(Ne pas se coucher) → ___ tard ! (vous)" →  
+<input type="text" placeholder="Impératif" oninput="checkAnswer(this, 'Ne vous couchez pas')"><span style="margin-left:10px;"></span>  
+
+#### 3. Corrigez les erreurs :
+"Tu te habilles." →  
+<input type="text" placeholder="Correction" oninput="checkAnswer(this, 'Tu t\'habilles.')"><span style="margin-left:10px;"></span>  
+
+"Lave toi les mains." →  
+<input type="text" placeholder="Correction" oninput="checkAnswer(this, 'Lave-toi les mains.')"><span style="margin-left:10px;"></span>  
+
+"Ne nous asseyons pas." →  
+<input type="text" placeholder="Correction" oninput="checkAnswer(this, 'Ne nous asseyons pas.')"><span style="margin-left:10px;"></span> *(Correct !)*  
+
+#### 4. Traduisez en français :
+"Wake up! (tu)" →  
+<textarea placeholder="Traduction" rows="1" oninput="checkTranslation(this, 'Réveille-toi !')"></textarea><span style="margin-left:10px;"></span>  
+
+"They are getting ready." →  
+<textarea placeholder="Traduction" rows="1" oninput="checkTranslation(this, 'Ils se préparent.')"></textarea><span style="margin-left:10px;"></span>  
+
+<button onclick="showAnswers()">Voir les réponses</button>  
+<button onclick="refreshPage()">Nouvel essai</button>  
+
+<script>
+function checkAnswer(input, correctAnswer) {
+    const span = input.nextElementSibling;
+    if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
+        span.textContent = "✓ Correct";
+        span.style.color = "green";
+    } else {
+        span.textContent = "";
+    }
+}
+
+function checkTranslation(textarea, correctTranslation) {
+    const span = textarea.nextElementSibling;
+    if (textarea.value.trim().toLowerCase() === correctTranslation.toLowerCase()) {
+        span.textContent = "✓ Correct";
+        span.style.color = "green";
+    } else {
+        span.textContent = "";
+    }
+}
+
+function showAnswers() {
+    document.querySelectorAll('input[type="text"], textarea').forEach(el => {
+        const correct = el.getAttribute('oninput')?.match(/'([^']+)'/)?.[1];
+        if (correct) {
+            const span = el.nextElementSibling;
+            span.textContent = `Réponse : ${correct}`;
+            span.style.color = "blue";
+        }
+    });
+}
+
+function refreshPage() {
+    location.reload();
+}
+</script>
+
+---
+
+### Notes :
+- **À l'impératif** :  
+  - Positif : verbe + trait d'union + pronom (Lève-toi)
+  - Négatif : pronom avant verbe (Ne te lève pas)
+- **Élision obligatoire** devant voyelle/h muet :  
+  "Je m'habille" (pas "Je me habille")
+
+:::
+
+---

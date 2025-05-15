@@ -397,5 +397,35 @@
   },
   "exercises/13052025/noun_genders.qmd": {
     "noun_genders.html": "2295ce0b"
+  },
+  "exercises/14052025/nomcompose.qmd": {
+    "nomcompose.html": "bc64dd7e"
+  },
+  "exercises/14052025/adjectives.qmd": {
+    "adjectives.html": "6c2f561f"
+  },
+  "exercises/14052025/cons_adj.qmd": {
+    "cons_adj.html": "0b94791d"
+  },
+  "exercises/14052025/noun_complements.qmd": {
+    "noun_complements.html": "01f79a1f"
+  },
+  "exercises/14052025/adjectives_proposition.qmd": {
+    "adjectives_proposition.html": "5731d76e"
+  },
+  "exercises/14052025/pronoms.qmd": {
+    "pronoms.html": "6869e418"
+  },
+  "exercises/14052025/pronoms_tonique.qmd": {
+    "pronoms_tonique.html": "eebe7eb1"
+  },
+  "exercises/14052025/pronoms_verbespronominaux.qmd": {
+    "pronoms_verbespronominaux.html": "28773023"
+  },
+  "exercises/15052025/cod.qmd": {
+    "cod.html": "c3e1bb0d"
+  },
+  "exercises/15052025/cod_placement.qmd": {
+    "cod_placement.html": "4339f884"
   }
 }

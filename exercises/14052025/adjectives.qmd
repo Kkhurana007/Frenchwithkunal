@@ -1,0 +1,161 @@
+---
+title: "Exercises: Qualitative Adjectives in French"  
+author: "Kunal Khurana"  
+date: "05-12-2025"  
+categories: [A1/A2, grammar, adjectives, exercises]  
+image: "adjectives.png"  
+---
+
+::: {.content-visible when-profile="english"}  
+
+### Understanding Qualitative Adjectives  
+Qualitative adjectives describe qualities (e.g., size, color, personality) and **agree in gender (masculine/feminine) and number** with the noun they modify.  
+
+#### Key Rules:  
+1. **Masculine vs. Feminine**:  
+   - Most adjectives add **-e** for feminine (*petit → petite*).  
+   - Some change endings:  
+     - *-el → -elle* (naturel → naturelle)  
+     - *-er → -ère* (cher → chère)  
+     - *-x → -se* (heureux → heureuse).  
+   - Invariable adjectives (e.g., *marron, sympa*) stay the same.  
+
+2. **Placement**:  
+   - Usually **after** the noun (*une fille gentille*).  
+   - Short/common adjectives often come **before** (*un petit chat, une jolie robe*).  
+
+3. **Examples**:  
+   - Masculine: *Un livre intéressant* (An interesting book).  
+   - Feminine: *Une histoire intéressante* (An interesting story).  
+   - Plural: *Des enfants amusants* (Funny children).  
+
+---
+
+### Exercises  
+
+#### 1. Assign the correct adjective form (masculine/feminine/plural):  
+___ chien (noir) 🐕 → <input type="text" placeholder="noir/noire/noirs" oninput="checkAnswer(this, 'noir')"><span style="margin-left:10px;"></span>  
+
+___ maison (blanc) 🏠 → <input type="text" placeholder="blanc/blanche/blancs" oninput="checkAnswer(this, 'blanche')"><span style="margin-left:10px;"></span>  
+
+___ robes (beau) 👗 → <input type="text" placeholder="beau/belle/beaux" oninput="checkAnswer(this, 'belles')"><span style="margin-left:10px;"></span>  
+
+___ arbre (vert) 🌳 → <input type="text" placeholder="vert/verte/verts" oninput="checkAnswer(this, 'vert')"><span style="margin-left:10px;"></span>  
+
+___ enfants (heureux) 🧒 → <input type="text" placeholder="heureux/heureuse/heureux" oninput="checkAnswer(this, 'heureux')"><span style="margin-left:10px;"></span>  
+
+#### 2. Correct the errors in adjective agreement:  
+"Une homme grand" → <input type="text" placeholder="Correct phrase" oninput="checkAnswer(this, 'un homme grand')"><span style="margin-left:10px;"></span>  
+
+"Des fleurs blancs" 🌸 → <input type="text" placeholder="Correct phrase" oninput="checkAnswer(this, 'des fleurs blanches')"><span style="margin-left:10px;"></span>  
+
+"La pizza délicieux" 🍕 → <input type="text" placeholder="Correct phrase" oninput="checkAnswer(this, 'la pizza délicieuse')"><span style="margin-left:10px;"></span>  
+
+#### 3. Translate into French (include adjectives!):  
+"A smart woman." → <textarea placeholder="French..." rows="1" cols="30" oninput="checkTranslation(this, 'une femme intelligente')"></textarea><span style="margin-left:10px;"></span>  
+
+"Two funny little dogs." → <textarea placeholder="French..." rows="1" cols="30" oninput="checkTranslation(this, 'deux petits chiens amusants')"></textarea><span style="margin-left:10px;"></span>  
+
+#### 4. Fill in the blanks with the correct adjective form:  
+"Il a acheté une ___ (nouveau) voiture." 🚗 → <input type="text" placeholder="nouveau/nouvelle" oninput="checkAnswer(this, 'nouvelle')"><span style="margin-left:10px;"></span>  
+
+"Les ___ (vieux) livres sont précieux." 📚 → <input type="text" placeholder="vieux/vieille/vieilles" oninput="checkAnswer(this, 'vieux')"><span style="margin-left:10px;"></span>  
+
+<button onclick="showAnswers()">Show All Answers</button>  
+<button onclick="refreshPage()">Refresh Exercises</button>  
+
+
+---
+
+### Notes:  
+- **BANGS adjectives** (*Beauty, Age, Number, Goodness, Size*) often come **before** the noun (*un beau jardin*).  
+- **Irregulars**:  
+  - *Vieux → vieille* (but *vieil* before vowel: *un vieil homme*).  
+  - *Doux → douce*, *faux → fausse*.  
+- **Compound adjectives**: Only the second word agrees (*des sourds-muets*).  
+
+
+
+<script>  
+function showAnswers() {  
+    document.querySelectorAll('input[type="text"]').forEach(input => {  
+        const correct = input.getAttribute('oninput').match(/'([^']+)'/)[1];  
+        input.value = correct;  
+        const feedback = input.nextElementSibling;  
+        feedback.textContent = "✓ Correct!";  
+        feedback.style.color = "green";  
+    });  
+}  
+
+function refreshPage() {  
+    location.reload();  
+}  
+</script>  
+
+
+
+
+#### 5. Translate into French (include articles/partitives!):  
+"I eat chicken with rice."  
+<textarea placeholder="Je mange..." rows="2" cols="50" oninput="checkTranslation(this, 'Je mange du poulet avec du riz')"></textarea><span style="margin-left:10px;"></span>  
+
+"She prefers egg whites for breakfast."  
+<textarea placeholder="Elle préfère..." rows="2" cols="50" oninput="checkTranslation(this, 'Elle préfère les blancs d’œufs pour le petit-déjeuner')"></textarea><span style="margin-left:10px;"></span>  
+
+<button onclick="checkAllAnswers()">Check Answers</button>  
+
+<script>  
+function checkAnswer(input, correctAnswer) {  
+    const feedback = input.nextElementSibling;  
+    if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {  
+        feedback.textContent = "✓ Correct!";  
+        feedback.style.color = "green";  
+    } else if (input.value.trim()) {  
+        feedback.textContent = "✗ Try again!";  
+        feedback.style.color = "red";  
+    }  
+}  
+
+function checkAllAnswers() {  
+    document.querySelectorAll('input[type="text"]').forEach(input => {  
+        const correct = input.getAttribute('oninput').match(/'([^']+)'/)[1];  
+        checkAnswer(input, correct);  
+    });  
+
+    document.querySelectorAll('textarea').forEach(textarea => {  
+        const correct = textarea.getAttribute('oninput').match(/'([^']+)'/)[1];  
+        checkTranslation(textarea, correct);  
+    });  
+}  
+
+function checkTranslation(textarea, correctAnswer) {  
+    const feedback = textarea.nextElementSibling;  
+    if (textarea.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {  
+        feedback.textContent = "✓ Correct!";  
+        feedback.style.color = "green";  
+    } else if (textarea.value.trim()) {  
+        feedback.textContent = "✗ Try again!";  
+        feedback.style.color = "red";  
+    }  
+}  
+
+function checkAllAnswers() {  
+    document.querySelectorAll('input[type="text"]').forEach(input => {  
+        const correct = input.getAttribute('oninput').match(/'([^']+)'/)[1];  
+        input.value = correct;  
+        const feedback = input.nextElementSibling;  
+        feedback.textContent = "✓ Correct!";  
+        feedback.style.color = "green";  
+    });  
+
+    document.querySelectorAll('textarea').forEach(textarea => {  
+        const correct = textarea.getAttribute('oninput').match(/'([^']+)'/)[1];  
+        textarea.value = correct;  
+        const feedback = textarea.nextElementSibling;  
+        feedback.textContent = "✓ Correct!";  
+        feedback.style.color = "green";  
+    });  
+}  
+</script>  
+
+:::
