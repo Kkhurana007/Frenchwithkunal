@@ -84,11 +84,11 @@ ul.task-list li input[type="checkbox"] {
 
 <meta property="og:title" content="Mastering French Stressed Pronouns (Pronoms Toniques) – French with Kunal">
 <meta property="og:description" content="">
-<meta property="og:image" content="https://frenchwithkunal.ca/exercises/14052025/tonic-pronouns.png">
+<meta property="og:image" content="https://tranquil-tiramisu-18a73a.netlify.app/exercises/14052025/tonic-pronouns.png">
 <meta property="og:site_name" content="French with Kunal">
 <meta name="twitter:title" content="Mastering French Stressed Pronouns (Pronoms Toniques) – French with Kunal">
 <meta name="twitter:description" content="">
-<meta name="twitter:image" content="https://frenchwithkunal.ca/exercises/14052025/tonic-pronouns.png">
+<meta name="twitter:image" content="https://tranquil-tiramisu-18a73a.netlify.app/exercises/14052025/tonic-pronouns.png">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -112,14 +112,23 @@ ul.task-list li input[type="checkbox"] {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
-  <li class="nav-item">
-    <a class="nav-link" href="../../posts.html"> 
-<span class="menu-text">Blog Posts</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-resources" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Resources</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-resources">    
+        <li>
+    <a class="dropdown-item" href="../../posts.html"><i class="bi bi-file" role="img">
+</i> 
+ <span class="dropdown-text">Blog Posts</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../../exercises.html"> 
-<span class="menu-text">Exercises</span></a>
+        <li>
+    <a class="dropdown-item" href="../../exercises.html"><i class="bi bi-clipboard-check" role="img">
+</i> 
+ <span class="dropdown-text">Exercises</span></a>
   </li>  
+    </ul>
+  </li>
   <li class="nav-item">
     <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">About Us</span></a>
@@ -273,48 +282,45 @@ ul.task-list li input[type="checkbox"] {
 <section id="choose-the-correct-stressed-pronoun" class="level4">
 <h4 class="anchored" data-anchor-id="choose-the-correct-stressed-pronoun">1. Choose the correct stressed pronoun:</h4>
 <p>“Ce livre est ___ (to me).” 📖 →<br>
-<input type="text" placeholder="moi/toi/lui" oninput="checkAnswer(this, 'pour moi')"><span style="margin-left:10px;"></span></p>
+<input type="text" placeholder="moi/toi/lui" oninput="checkAnswer(this, 'pour moi')"></p>
 <p>“Nous allons chez ___ (them, masc.).” 🏠 →<br>
-<input type="text" placeholder="eux/elles/leur" oninput="checkAnswer(this, 'chez eux')"><span style="margin-left:10px;"></span></p>
+<input type="text" placeholder="eux/elles/leur" oninput="checkAnswer(this, 'chez eux')"></p>
 <p>“Elle est plus âgée que ___ (him).” 👴 →<br>
-<input type="text" placeholder="lui/il/le" oninput="checkAnswer(this, 'que lui')"><span style="margin-left:10px;"></span></p>
+<input type="text" placeholder="lui/il/le" oninput="checkAnswer(this, 'que lui')"></p>
 </section>
 <section id="replace-the-underlined-words-with-a-stressed-pronoun" class="level4">
 <h4 class="anchored" data-anchor-id="replace-the-underlined-words-with-a-stressed-pronoun">2. Replace the underlined words with a stressed pronoun:</h4>
 <p>“Je parle à Paul et Marie.” →<br>
-<input type="text" placeholder="Je parle à..." oninput="checkAnswer(this, 'Je parle à eux')"><span style="margin-left:10px;"></span> <em>(Note: “à eux” for mixed group, though “à eux” is more common for masc.)</em></p>
+<input type="text" placeholder="Je parle à..." oninput="checkAnswer(this, 'Je parle à eux')"> <em>(Note: “à eux” for mixed group, though “à eux” is more common for masc.)</em></p>
 <p>“Le chien appartient à ma sœur.” 🐕 →<br>
-<input type="text" placeholder="Le chien appartient à..." oninput="checkAnswer(this, 'Le chien appartient à elle')"><span style="margin-left:10px;"></span></p>
+<input type="text" placeholder="Le chien appartient à..." oninput="checkAnswer(this, 'Le chien appartient à elle')"></p>
 </section>
 <section id="correct-the-errors" class="level4">
 <h4 class="anchored" data-anchor-id="correct-the-errors">3. Correct the errors:</h4>
 <p>“C’est toi qui a raison.” →<br>
-<input type="text" placeholder="Correct phrase" oninput="checkAnswer(this, 'C’est toi qui as raison')"><span style="margin-left:10px;"></span> <em>(Verb agrees with “toi”)</em></p>
+<input type="text" placeholder="Correct phrase" oninput="checkAnswer(this, 'C’est toi qui as raison')"> <em>(Verb agrees with “toi”)</em></p>
 <p>“Je vais avec ils.” →<br>
-<input type="text" placeholder="Correct phrase" oninput="checkAnswer(this, 'Je vais avec eux')"><span style="margin-left:10px;"></span></p>
+<input type="text" placeholder="Correct phrase" oninput="checkAnswer(this, 'Je vais avec eux')"></p>
 </section>
 <section id="translate-into-french" class="level4">
 <h4 class="anchored" data-anchor-id="translate-into-french">4. Translate into French:</h4>
-“This is between you and me.” →<br>
-
+<p>“This is between you and me.” →<br>
+</p>
 <textarea placeholder="French..." rows="1" cols="40" oninput="checkTranslation(this, 'C’est entre toi et moi.')"></textarea>
-<p><span style="margin-left:10px;"></span></p>
-“She did it without them (fem.).” →<br>
-
+<p>“She did it without them (fem.).” →<br>
+</p>
 <textarea placeholder="French..." rows="1" cols="40" oninput="checkTranslation(this, 'Elle l’a fait sans elles.')"></textarea>
-<p><span style="margin-left:10px;"></span></p>
 </section>
 <section id="create-your-own-sentences" class="level4">
 <h4 class="anchored" data-anchor-id="create-your-own-sentences">5. Create Your Own Sentences:</h4>
-Write 5 sentences using stressed pronouns. Be creative!<br>
-
+<p>Write 5 sentences using stressed pronouns. Be creative!<br>
+</p>
 <textarea placeholder="Write your sentences here..." rows="5" cols="60"></textarea>
-<p><span style="margin-left:10px;"></span></p>
 <button onclick="showAnswers()">
-Show Answers
+<p>Show Answers</p>
 </button>
 <button onclick="refreshPage()">
-Restart
+<p>Restart</p>
 </button>
 <script>
 function checkAnswer(input, correctAnswer) {
@@ -612,7 +618,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/frenchwithkunal\.ca");
+      var filterRegex = new RegExp("https:\/\/tranquil-tiramisu-18a73a\.netlify\.app");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

@@ -208,14 +208,23 @@ ul.task-list li input[type="checkbox"] {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
-  <li class="nav-item">
-    <a class="nav-link" href="./posts.html"> 
-<span class="menu-text">Blog Posts</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-resources" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Resources</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-resources">    
+        <li>
+    <a class="dropdown-item" href="./posts.html"><i class="bi bi-file" role="img">
+</i> 
+ <span class="dropdown-text">Blog Posts</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./exercises.html"> 
-<span class="menu-text">Exercises</span></a>
+        <li>
+    <a class="dropdown-item" href="./exercises.html"><i class="bi bi-clipboard-check" role="img">
+</i> 
+ <span class="dropdown-text">Exercises</span></a>
   </li>  
+    </ul>
+  </li>
   <li class="nav-item">
     <a class="nav-link" href="./about.html"> 
 <span class="menu-text">About Us</span></a>
@@ -354,22 +363,11 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="success-stories" class="level2 testimonials">
 <h2 class="testimonials anchored" data-anchor-id="success-stories">🗣️ Success Stories</h2>
-<div class="quote-icon">
-<p><i class="fas fa-quote-left"></i></p>
+<div class="sk-ww-google-reviews" data-embed-id="25557829">
+
 </div>
-<blockquote class="blockquote">
-<p>“After 3 months with Kunal, I ordered coffee in Paris without switching to English - the barista thought I was local! <em>C’est incroyable!</em>”</p>
-<p><strong>— Emma R., London</strong><br>
-<em>Marketing Executive, 32</em></p>
-</blockquote>
-<div class="quote-icon">
-<p><i class="fas fa-quote-left"></i></p>
-</div>
-<blockquote class="blockquote">
-<p>“Finally a teacher who explains why French people say things certain ways. The cultural context makes everything click!”</p>
-<p><strong>— David L., New York</strong><br>
-<em>Law Student, 25</em></p>
-</blockquote>
+<script src="https://widgets.sociablekit.com/google-reviews/widget.js" defer=""></script>
+<!-- Google Reviews Widget End -->
 <div id="newsletter" class="card" style="text-align: center; background: var(--light); border: 2px dashed var(--accent);">
 <h3 class="anchored">
 <i class="fas fa-envelope-open-text"></i> Get Weekly French Goodies!
@@ -652,7 +650,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/frenchwithkunal\.ca");
+      var filterRegex = new RegExp("https:\/\/tranquil-tiramisu-18a73a\.netlify\.app");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

@@ -84,13 +84,13 @@ ul.task-list li input[type="checkbox"] {
 
 <meta property="og:title" content="Exercises: Clothing Vocabulary &amp; Gender – French with Kunal">
 <meta property="og:description" content="">
-<meta property="og:image" content="https://frenchwithkunal.ca/exercises/12052025/clothing.png">
+<meta property="og:image" content="https://tranquil-tiramisu-18a73a.netlify.app/exercises/12052025/clothing.png">
 <meta property="og:site_name" content="French with Kunal">
 <meta property="og:image:height" content="332">
 <meta property="og:image:width" content="419">
 <meta name="twitter:title" content="Exercises: Clothing Vocabulary &amp; Gender – French with Kunal">
 <meta name="twitter:description" content="">
-<meta name="twitter:image" content="https://frenchwithkunal.ca/exercises/12052025/clothing.png">
+<meta name="twitter:image" content="https://tranquil-tiramisu-18a73a.netlify.app/exercises/12052025/clothing.png">
 <meta name="twitter:image-height" content="332">
 <meta name="twitter:image-width" content="419">
 <meta name="twitter:card" content="summary_large_image">
@@ -116,14 +116,23 @@ ul.task-list li input[type="checkbox"] {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
-  <li class="nav-item">
-    <a class="nav-link" href="../../posts.html"> 
-<span class="menu-text">Blog Posts</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-resources" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Resources</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-resources">    
+        <li>
+    <a class="dropdown-item" href="../../posts.html"><i class="bi bi-file" role="img">
+</i> 
+ <span class="dropdown-text">Blog Posts</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../../exercises.html"> 
-<span class="menu-text">Exercises</span></a>
+        <li>
+    <a class="dropdown-item" href="../../exercises.html"><i class="bi bi-clipboard-check" role="img">
+</i> 
+ <span class="dropdown-text">Exercises</span></a>
   </li>  
+    </ul>
+  </li>
   <li class="nav-item">
     <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">About Us</span></a>
@@ -578,7 +587,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/frenchwithkunal\.ca");
+      var filterRegex = new RegExp("https:\/\/tranquil-tiramisu-18a73a\.netlify\.app");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

@@ -439,5 +439,20 @@
   },
   "exercises/15052025/y.qmd": {
     "y.html": "2174edac"
+  },
+  "exercises/16052025/pronom_demon.qmd": {
+    "pronom_demon.html": "a5b7a76a"
+  },
+  "exercises/16052025/ce_pronom.qmd": {
+    "ce_pronom.html": "c06c0b3b"
+  },
+  "exercises/16052025/ca_pronom.qmd": {
+    "ca_pronom.html": "68263369"
+  },
+  "exercises/16052025/pronom_possess.qmd": {
+    "pronom_possess.html": "1a85a2fc"
+  },
+  "exercises/16052025/pronon_indef.qmd": {
+    "pronon_indef.html": "d8fc2dce"
   }
 }

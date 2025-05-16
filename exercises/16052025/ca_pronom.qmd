@@ -1,0 +1,132 @@
+---
+title: "Ça : Le Pronom Démonstratif Neutre"
+author: "Kunal Khurana"
+date: "05-15-2025"
+categories: [B1, grammaire, pronom démonstratif, exercices]
+image: "pronom_ca.png"
+---
+
+::: {.content-visible when-profile="english"}
+
+### Understanding "Ça": The Neutral Demonstrative Pronoun
+
+The pronoun **"ça"** is an informal, spoken equivalent of "cela" and is widely used in everyday French. It means "this," "that," or "it" and refers to something previously mentioned, something obvious from context, or something general. "Ça" is very common in conversation and often replaces "ce" or "cela" in informal speech.
+
+**Key uses:**
+- To refer to something just mentioned or obvious:  
+    - *Tu as vu ça ?* (Did you see that?)
+- To talk about general situations or feelings:  
+    - *Ça va ?* (How are you?/Is it going?)
+    - *Ça m'énerve.* (That annoys me.)
+- In expressions and idioms:  
+    - *Ça marche !* (That works!/OK!)
+    - *Ça dépend.* (It depends.)
+
+---
+
+### Exercises
+
+#### 1. Complete the sentences with "ça"
+
+1. ______ va ? <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'Ça')"><span></span>  
+2. J'aime ______. <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'ça')"><span></span>  
+3. ______ ne me plaît pas. <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'Ça')"><span></span>  
+4. Tu as vu ______ ? <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'ça')"><span></span>  
+5. ______ marche ! <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'Ça')"><span></span>  
+
+#### 2. Translate into French using "ça"
+
+1. That annoys me. <input type="text" placeholder="French answer" oninput="checkAnswer(this, 'Ça m\'énerve')"><span></span>  
+2. Did you see that? <input type="text" placeholder="French answer" oninput="checkAnswer(this, 'Tu as vu ça')"><span></span>  
+3. It works! <input type="text" placeholder="French answer" oninput="checkAnswer(this, 'Ça marche')"><span></span>  
+4. I like that. <input type="text" placeholder="French answer" oninput="checkAnswer(this, 'J\'aime ça')"><span></span>  
+5. It depends. <input type="text" placeholder="French answer" oninput="checkAnswer(this, 'Ça dépend')"><span></span>  
+
+<button onclick="showAnswers()">Show answers</button>
+<button onclick="refreshPage()">Try again</button>
+
+
+### Note
+
+- "Ça" is informal and mostly used in speech or casual writing.
+- In formal writing, prefer "cela" or "ce."
+- "Ça" is often used with verbs like "être," "aller," "faire," "aimer," etc.
+
+:::
+
+::: {.content-visible when-profile="french"}
+
+### Comprendre "Ça" : Le Pronom Démonstratif Neutre
+
+Le pronom **"ça"** est l’équivalent informel et oral de "cela" et il est très utilisé dans le français courant. Il signifie "ceci", "cela" ou "ça" et fait référence à quelque chose déjà mentionné, évident dans le contexte ou de manière générale. "Ça" est très fréquent à l’oral et remplace souvent "ce" ou "cela" dans la langue familière.
+
+**Principaux usages :**
+- Pour parler de quelque chose de déjà mentionné ou évident :  
+    - *Tu as vu ça ?*
+- Pour évoquer des situations ou des sentiments généraux :  
+    - *Ça va ?*
+    - *Ça m'énerve.*
+- Dans des expressions et des idiomes :  
+    - *Ça marche !*
+    - *Ça dépend.*
+
+---
+
+### Exercices
+
+#### 1. Complétez les phrases avec "ça"
+
+1. ______ va ? <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'Ça')"><span></span>  
+2. J'aime ______. <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'ça')"><span></span>  
+3. ______ ne me plaît pas. <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'Ça')"><span></span>  
+4. Tu as vu ______ ? <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'ça')"><span></span>  
+5. ______ marche ! <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'Ça')"><span></span>  
+
+#### 2. Traduisez en français en utilisant "ça"
+
+1. That annoys me. <input type="text" placeholder="Réponse en français" oninput="checkAnswer(this, 'Ça m\'énerve')"><span></span>  
+2. Did you see that? <input type="text" placeholder="Réponse en français" oninput="checkAnswer(this, 'Tu as vu ça')"><span></span>  
+3. It works! <input type="text" placeholder="Réponse en français" oninput="checkAnswer(this, 'Ça marche')"><span></span>  
+4. I like that. <input type="text" placeholder="Réponse en français" oninput="checkAnswer(this, 'J\'aime ça')"><span></span>  
+5. It depends. <input type="text" placeholder="Réponse en français" oninput="checkAnswer(this, 'Ça dépend')"><span></span>  
+
+<button onclick="showAnswers()">Afficher les réponses</button>
+<button onclick="refreshPage()">Réessayer</button>
+
+### Remarque
+
+- "Ça" est informel et s’utilise surtout à l’oral ou dans des écrits familiers.
+- À l’écrit formel, privilégiez "cela" ou "ce".
+- "Ça" s’utilise souvent avec des verbes comme "être", "aller", "faire", "aimer", etc.
+
+
+:::
+
+
+
+<script>
+function checkAnswer(input, correctAnswer) {
+    const span = input.nextElementSibling;
+    if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
+        span.textContent = "✓ Correct";
+        span.style.color = "green";
+    } else {
+        span.textContent = "";
+    }
+}
+
+function showAnswers() {
+    document.querySelectorAll('input[type="text"]').forEach(el => {
+        const correct = el.getAttribute('oninput')?.match(/'([^']+)'/)?.[1];
+        if (correct) {
+            const span = el.nextElementSibling;
+            span.textContent = `Réponse : ${correct}`;
+            span.style.color = "blue";
+        }
+    });
+}
+
+function refreshPage() {
+    location.reload();
+}
+</script>

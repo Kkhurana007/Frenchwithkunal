@@ -1,0 +1,271 @@
+---
+title: "Les Pronoms Indéfinis"
+author: "Kunal Khurana"
+date: "05-16-2025"
+categories: [B1, grammaire, pronom indéfini, exercices]
+image: "pronom_indefini.png"
+---
+
+::: {.content-visible when-profile="english"}
+
+### Understanding Indefinite Pronouns
+
+**Indefinite pronouns** replace a noun in a general, non-specific way. They can express absence (none, nobody, nothing), singularity (someone, something, anyone, each), plurality (others, several), totality (all, everyone, everything), or resemblance (the same, another, etc.).
+
+**Key categories:**  
+
+1. **Zero quantity:**  
+    - *Aucun* (none), *personne* (nobody), *rien* (nothing)  
+    - Example: *Aucun élève n'est absent.* (*No student is absent.*)
+
+2. **Singularity:**  
+    - *Quelqu'un* (someone), *quelque chose* (something), *n'importe qui* (anyone), *chacun* (each)  
+    - Example: *Quelqu'un frappe à la porte.* (*Someone is knocking at the door.*)
+
+3. **Plurality:**  
+    - *D'autres* (others), *plusieurs* (several)  
+    - Example: *Plusieurs sont venus.* (*Several came.*)
+
+4. **Totality:**  
+    - *Tout* (everything), *tout le monde* (everyone), *tous*, *toutes* (all)  
+    - Example: *Tout le monde est prêt.* (*Everyone is ready.*)
+
+5. **Resemblance:**  
+    - *Le même*, *la même*, *les mêmes* (the same), *un autre* (another)  
+    - Example: *Ils ont la même idée.* (*They have the same idea.*)
+
+---
+
+### Exercises
+
+#### 1. Zero Quantity  
+Choose the correct indefinite pronoun:  
+1. ________ n'est venu à la réunion. → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'Personne')">.<span style="margin-left:10px;"></span>  
+2. Il n'y a ________ sur la table. → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'rien')">.<span style="margin-left:10px;"></span>  
+3. ________ élève n'a compris la question. → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'Aucun')"> élève.<span style="margin-left:10px;"></span>  
+4. Je n'ai vu ________. → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'personne')">.<span style="margin-left:10px;"></span>  
+5. Il ne reste ________ gâteau. → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'aucun')"> gâteau.<span style="margin-left:10px;"></span>  
+6. ________ ne fonctionne ici. → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'Rien')">.<span style="margin-left:10px;"></span>  
+7. ________ n'a répondu à la question. → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'Personne')">.<span style="margin-left:10px;"></span>  
+8. Il n'y a ________ problème. → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'aucun')"> problème.<span style="margin-left:10px;"></span>  
+9. Je n'ai trouvé ________ dans la boîte. → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'rien')">.<span style="margin-left:10px;"></span>  
+10. ________ ne l'intéresse. → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'Rien')">.<span style="margin-left:10px;"></span>  
+
+#### 2. Singularity  
+Fill in with the appropriate pronoun:  
+1. ________ a frappé à la porte. → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'Quelqu\'un')">.<span style="margin-left:10px;"></span>  
+2. ________ est tombé par terre. → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'Quelque chose')">.<span style="margin-left:10px;"></span>  
+3. ________ peut répondre à cette question. (anyone) → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'N\'importe qui')">.<span style="margin-left:10px;"></span>  
+4. ________ des élèves a un stylo bleu. (each) → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'Chacun')">.<span style="margin-left:10px;"></span>  
+5. ________ peut réussir s'il travaille. (anyone) → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'N\'importe qui')">.<span style="margin-left:10px;"></span>  
+6. ________ a laissé un message. → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'Quelqu\'un')">.<span style="margin-left:10px;"></span>  
+7. ________ a besoin d'aide ? (anyone) → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'N\'importe qui')"> ?<span style="margin-left:10px;"></span>  
+8. ________ a oublié son cahier. → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'Chacun')">.<span style="margin-left:10px;"></span>  
+9. ________ est possible si tu essaies. → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'Quelque chose')">.<span style="margin-left:10px;"></span>  
+10. ________ doit faire attention. (each) → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'Chacun')">.<span style="margin-left:10px;"></span>  
+
+#### 3. Plurality  
+Choose the correct pronoun:  
+1. ________ sont partis avant la fin. (several) → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'Plusieurs')">.<span style="margin-left:10px;"></span>  
+2. J'ai vu Paul et ________. (others) → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'd\'autres')">.<span style="margin-left:10px;"></span>  
+3. ________ ont répondu correctement. (some others) → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'D\'autres')">.<span style="margin-left:10px;"></span>  
+4. ________ élèves sont absents. (several) → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'Plusieurs')"> élèves.<span style="margin-left:10px;"></span>  
+5. Il y a ________ solutions à ce problème. (several) → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'plusieurs')"> solutions.<span style="margin-left:10px;"></span>  
+6. ________ sont venus en avance. (others) → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'D\'autres')">.<span style="margin-left:10px;"></span>  
+7. ________ ont choisi une autre option. (several) → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'Plusieurs')">.<span style="margin-left:10px;"></span>  
+8. ________ ont oublié leurs devoirs. (others) → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'D\'autres')">.<span style="margin-left:10px;"></span>  
+9. ________ personnes sont parties. (several) → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'Plusieurs')"> personnes.<span style="margin-left:10px;"></span>  
+10. ________ sont restés après la classe. (others) → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'D\'autres')">.<span style="margin-left:10px;"></span>  
+
+#### 4. Totality  
+Fill in with the correct pronoun:  
+1. ________ est prêt. (everyone) → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'Tout le monde')">.<span style="margin-left:10px;"></span>  
+2. ________ est possible. (everything) → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'Tout')">.<span style="margin-left:10px;"></span>  
+3. ________ les élèves sont là. (all) → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'Tous')"> les élèves.<span style="margin-left:10px;"></span>  
+4. ________ les filles participent. (all) → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'Toutes')"> les filles.<span style="margin-left:10px;"></span>  
+5. ________ est terminé. (everything) → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'Tout')">.<span style="margin-left:10px;"></span>  
+6. ________ le monde a compris. → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'Tout le monde')">.<span style="margin-left:10px;"></span>  
+7. ________ est possible avec du travail. → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'Tout')">.<span style="margin-left:10px;"></span>  
+8. ________ les garçons jouent au foot. → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'Tous')"> les garçons.<span style="margin-left:10px;"></span>  
+9. ________ les étudiantes sont présentes. → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'Toutes')"> les étudiantes.<span style="margin-left:10px;"></span>  
+10. ________ est fini pour aujourd'hui. → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'Tout')">.<span style="margin-left:10px;"></span>  
+
+#### 5. Resemblance  
+Complete with the correct pronoun:  
+1. Ils ont ________ idée. (the same) → Ils ont <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'la même')"> idée.<span style="margin-left:10px;"></span>  
+2. Je veux ________ chose. (the same thing) → Je veux <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'la même')"> chose.<span style="margin-left:10px;"></span>  
+3. Tu veux ________ ? (another) → Tu veux <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'un autre')"> ?<span style="margin-left:10px;"></span>  
+4. Elles portent ________ robes. (the same) → Elles portent <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'les mêmes')"> robes.<span style="margin-left:10px;"></span>  
+5. Il a choisi ________ livre. (another) → Il a choisi <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'un autre')"> livre.<span style="margin-left:10px;"></span>  
+6. Nous avons ________ problème. (the same) → Nous avons <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'le même')"> problème.<span style="margin-left:10px;"></span>  
+7. Elle veut ________ stylo. (another) → Elle veut <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'un autre')"> stylo.<span style="margin-left:10px;"></span>  
+8. Ils ont acheté ________ chaussures. (the same) → Ils ont acheté <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'les mêmes')"> chaussures.<span style="margin-left:10px;"></span>  
+9. Tu veux ________ dessert ? (another) → Tu veux <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'un autre')"> dessert ?<span style="margin-left:10px;"></span>  
+10. Nous avons vu ________ film. (the same) → Nous avons vu <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'le même')"> film.<span style="margin-left:10px;"></span>  
+
+---
+
+### To consolidate your learning
+
+Write a short paragraph (3-5 sentences) explaining what you have learned about the use of indefinite pronouns in French. Use your own words and, if possible, give an example.  
+<textarea rows="5" style="width:100%;" placeholder="Write here what you have learned..."></textarea>
+
+<button onclick="showAnswers()">Show answers</button>
+<button onclick="refreshPage()">Try again</button>
+
+---
+
+### Notes:
+- **Zero quantity:** *aucun, personne, rien* express absence.
+- **Singularity:** *quelqu'un, quelque chose, chacun, n'importe qui* refer to one or any person/thing.
+- **Plurality:** *d'autres, plusieurs* refer to more than one.
+- **Totality:** *tout, tout le monde, tous, toutes* refer to all or everything.
+- **Resemblance:** *le même, la même, les mêmes, un autre* express similarity or difference.
+
+:::
+
+
+::: {.content-visible when-profile="french"}
+
+### Comprendre les pronoms indéfinis
+
+Les **pronoms indéfinis** remplacent un nom de manière générale, non spécifique. Ils peuvent exprimer l'absence (aucun, personne, rien), la singularité (quelqu'un, quelque chose, n'importe qui, chacun), la pluralité (d'autres, plusieurs), la totalité (tout, tout le monde, tous, toutes), ou la ressemblance (le même, un autre, etc.).
+
+**Catégories principales :**  
+
+1. **Quantité nulle :**  
+    - *Aucun* (aucun), *personne* (personne), *rien* (rien)  
+    - Exemple : *Aucun élève n'est absent.*
+
+2. **Singularité :**  
+    - *Quelqu'un* (quelqu'un), *quelque chose* (quelque chose), *n'importe qui* (n'importe qui), *chacun* (chacun)  
+    - Exemple : *Quelqu'un frappe à la porte.*
+
+3. **Pluralité :**  
+    - *D'autres* (d'autres), *plusieurs* (plusieurs)  
+    - Exemple : *Plusieurs sont venus.*
+
+4. **Totalité :**  
+    - *Tout* (tout), *tout le monde* (tout le monde), *tous*, *toutes* (tous, toutes)  
+    - Exemple : *Tout le monde est prêt.*
+
+5. **Ressemblance :**  
+    - *Le même*, *la même*, *les mêmes* (le même, la même, les mêmes), *un autre* (un autre)  
+    - Exemple : *Ils ont la même idée.*
+
+---
+
+### Exercices
+
+#### 1. Quantité nulle  
+Choisissez le pronom indéfini correct :  
+1. ________ n'est venu à la réunion. → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'Personne')">.<span style="margin-left:10px;"></span>  
+2. Il n'y a ________ sur la table. → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'rien')">.<span style="margin-left:10px;"></span>  
+3. ________ élève n'a compris la question. → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'Aucun')"> élève.<span style="margin-left:10px;"></span>  
+4. Je n'ai vu ________. → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'personne')">.<span style="margin-left:10px;"></span>  
+5. Il ne reste ________ gâteau. → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'aucun')"> gâteau.<span style="margin-left:10px;"></span>  
+6. ________ ne fonctionne ici. → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'Rien')">.<span style="margin-left:10px;"></span>  
+7. ________ n'a répondu à la question. → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'Personne')">.<span style="margin-left:10px;"></span>  
+8. Il n'y a ________ problème. → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'aucun')"> problème.<span style="margin-left:10px;"></span>  
+9. Je n'ai trouvé ________ dans la boîte. → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'rien')">.<span style="margin-left:10px;"></span>  
+10. ________ ne l'intéresse. → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'Rien')">.<span style="margin-left:10px;"></span>  
+
+#### 2. Singularité  
+Complétez avec le pronom approprié :  
+1. ________ a frappé à la porte. → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'Quelqu\'un')">.<span style="margin-left:10px;"></span>  
+2. ________ est tombé par terre. → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'Quelque chose')">.<span style="margin-left:10px;"></span>  
+3. ________ peut répondre à cette question. (n'importe qui) → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'N\'importe qui')">.<span style="margin-left:10px;"></span>  
+4. ________ des élèves a un stylo bleu. (chacun) → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'Chacun')">.<span style="margin-left:10px;"></span>  
+5. ________ peut réussir s'il travaille. (n'importe qui) → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'N\'importe qui')">.<span style="margin-left:10px;"></span>  
+6. ________ a laissé un message. → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'Quelqu\'un')">.<span style="margin-left:10px;"></span>  
+7. ________ a besoin d'aide ? (n'importe qui) → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'N\'importe qui')"> ?<span style="margin-left:10px;"></span>  
+8. ________ a oublié son cahier. → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'Chacun')">.<span style="margin-left:10px;"></span>  
+9. ________ est possible si tu essaies. → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'Quelque chose')">.<span style="margin-left:10px;"></span>  
+10. ________ doit faire attention. (chacun) → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'Chacun')">.<span style="margin-left:10px;"></span>  
+
+#### 3. Pluralité  
+Choisissez le pronom correct :  
+1. ________ sont partis avant la fin. (plusieurs) → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'Plusieurs')">.<span style="margin-left:10px;"></span>  
+2. J'ai vu Paul et ________. (d'autres) → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'd\'autres')">.<span style="margin-left:10px;"></span>  
+3. ________ ont répondu correctement. (d'autres) → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'D\'autres')">.<span style="margin-left:10px;"></span>  
+4. ________ élèves sont absents. (plusieurs) → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'Plusieurs')"> élèves.<span style="margin-left:10px;"></span>  
+5. Il y a ________ solutions à ce problème. (plusieurs) → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'plusieurs')"> solutions.<span style="margin-left:10px;"></span>  
+6. ________ sont venus en avance. (d'autres) → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'D\'autres')">.<span style="margin-left:10px;"></span>  
+7. ________ ont choisi une autre option. (plusieurs) → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'Plusieurs')">.<span style="margin-left:10px;"></span>  
+8. ________ ont oublié leurs devoirs. (d'autres) → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'D\'autres')">.<span style="margin-left:10px;"></span>  
+9. ________ personnes sont parties. (plusieurs) → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'Plusieurs')"> personnes.<span style="margin-left:10px;"></span>  
+10. ________ sont restés après la classe. (d'autres) → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'D\'autres')">.<span style="margin-left:10px;"></span>  
+
+#### 4. Totalité  
+Complétez avec le pronom correct :  
+1. ________ est prêt. (tout le monde) → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'Tout le monde')">.<span style="margin-left:10px;"></span>  
+2. ________ est possible. (tout) → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'Tout')">.<span style="margin-left:10px;"></span>  
+3. ________ les élèves sont là. (tous) → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'Tous')"> les élèves.<span style="margin-left:10px;"></span>  
+4. ________ les filles participent. (toutes) → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'Toutes')"> les filles.<span style="margin-left:10px;"></span>  
+5. ________ est terminé. (tout) → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'Tout')">.<span style="margin-left:10px;"></span>  
+6. ________ le monde a compris. → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'Tout le monde')">.<span style="margin-left:10px;"></span>  
+7. ________ est possible avec du travail. → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'Tout')">.<span style="margin-left:10px;"></span>  
+8. ________ les garçons jouent au foot. → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'Tous')"> les garçons.<span style="margin-left:10px;"></span>  
+9. ________ les étudiantes sont présentes. → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'Toutes')"> les étudiantes.<span style="margin-left:10px;"></span>  
+10. ________ est fini pour aujourd'hui. → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'Tout')">.<span style="margin-left:10px;"></span>  
+
+#### 5. Ressemblance  
+Complétez avec le pronom correct :  
+1. Ils ont ________ idée. (la même) → Ils ont <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'la même')"> idée.<span style="margin-left:10px;"></span>  
+2. Je veux ________ chose. (la même chose) → Je veux <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'la même')"> chose.<span style="margin-left:10px;"></span>  
+3. Tu veux ________ ? (un autre) → Tu veux <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'un autre')"> ?<span style="margin-left:10px;"></span>  
+4. Elles portent ________ robes. (les mêmes) → Elles portent <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'les mêmes')"> robes.<span style="margin-left:10px;"></span>  
+5. Il a choisi ________ livre. (un autre) → Il a choisi <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'un autre')"> livre.<span style="margin-left:10px;"></span>  
+6. Nous avons ________ problème. (le même) → Nous avons <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'le même')"> problème.<span style="margin-left:10px;"></span>  
+7. Elle veut ________ stylo. (un autre) → Elle veut <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'un autre')"> stylo.<span style="margin-left:10px;"></span>  
+8. Ils ont acheté ________ chaussures. (les mêmes) → Ils ont acheté <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'les mêmes')"> chaussures.<span style="margin-left:10px;"></span>  
+9. Tu veux ________ dessert ? (un autre) → Tu veux <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'un autre')"> dessert ?<span style="margin-left:10px;"></span>  
+10. Nous avons vu ________ film. (le même) → Nous avons vu <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'le même')"> film.<span style="margin-left:10px;"></span>  
+
+---
+
+### Pour consolider vos apprentissages
+
+Écrivez un court paragraphe (3 à 5 phrases) expliquant ce que vous avez appris sur l'utilisation des pronoms indéfinis en français. Utilisez vos propres mots et, si possible, donnez un exemple.  
+<textarea rows="5" style="width:100%;" placeholder="Écrivez ici ce que vous avez appris..."></textarea>
+
+<button onclick="showAnswers()">Afficher les réponses</button>
+<button onclick="refreshPage()">Réessayer</button>
+
+---
+
+### Notes :
+- **Quantité nulle :** *aucun, personne, rien* expriment l'absence.
+- **Singularité :** *quelqu'un, quelque chose, chacun, n'importe qui* désignent une personne ou une chose.
+- **Pluralité :** *d'autres, plusieurs* désignent plus d'une personne ou chose.
+- **Totalité :** *tout, tout le monde, tous, toutes* désignent la totalité.
+- **Ressemblance :** *le même, la même, les mêmes, un autre* expriment la similarité ou la différence.
+
+:::
+
+<script>
+function checkAnswer(input, correctAnswer) {
+    const span = input.nextElementSibling;
+    if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
+        span.textContent = "✓ Correct";
+        span.style.color = "green";
+    } else {
+        span.textContent = "";
+    }
+}
+
+function showAnswers() {
+    document.querySelectorAll('input[type="text"]').forEach(el => {
+        const correct = el.getAttribute('oninput')?.match(/'([^']+)'/)?.[1];
+        if (correct) {
+            const span = el.nextElementSibling;
+            span.textContent = `Réponse : ${correct}`;
+            span.style.color = "blue";
+        }
+    });
+}
+
+function refreshPage() {
+    location.reload();
+}
+</script>

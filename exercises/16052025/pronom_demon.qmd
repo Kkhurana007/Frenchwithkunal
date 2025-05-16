@@ -1,0 +1,218 @@
+---
+title: "Les Pronoms Démonstratifs"
+author: "Kunal Khurana"
+date: "05-15-2025"
+categories: [B1, grammaire, pronom démonstratif, exercices]
+image: "pronom_demonstratif.png"
+---
+
+::: {.content-visible when-profile="english"}
+
+### Understanding Demonstrative Pronouns
+
+**Demonstrative pronouns** (celui, celle, ceux, celles) replace a noun and its demonstrative adjective (ce, cette, ces) to avoid repetition.  
+They agree in gender and number with the noun they replace.
+
+**Key rules:**  
+1. **Simple replacement:**  
+    - *J'aime cette robe. Celle-ci est belle.*  
+2. **With "de":**  
+    - *Le livre de Paul et celui de Marie* (Paul's book and Marie's).  
+3. **With "-ci" and "-là":**  
+    - *Celui-ci* (this one), *celle-là* (that one).  
+4. **Accompanied by a relative clause:**  
+    - *Ceux qui parlent sont mes amis.*  
+
+---
+
+### Exercises
+
+#### 1. Simple Replacement  
+Replace the group (adjective + noun) with the correct demonstrative pronoun:  
+1. J'aime **ce livre** → J'aime <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'celui')">.<span style="margin-left:10px;"></span>  
+2. Tu préfères **cette voiture** → Tu préfères <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'celle')">.<span style="margin-left:10px;"></span>  
+3. Il regarde **ces films** → Il regarde <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'ceux')">.<span style="margin-left:10px;"></span>  
+4. Nous choisissons **ces robes** → Nous choisissons <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'celles')">.<span style="margin-left:10px;"></span>  
+5. Elle aime **ce gâteau** → Elle aime <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'celui')">.<span style="margin-left:10px;"></span>  
+6. Il porte **ce manteau** → Il porte <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'celui')">.<span style="margin-left:10px;"></span>  
+7. Nous lisons **ces journaux** → Nous lisons <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'ceux')">.<span style="margin-left:10px;"></span>  
+8. Tu regardes **cette émission** → Tu regardes <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'celle')">.<span style="margin-left:10px;"></span>  
+9. J’achète **ces pommes** → J’achète <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'celles')">.<span style="margin-left:10px;"></span>  
+10. Elle préfère **ce film** → Elle préfère <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'celui')">.<span style="margin-left:10px;"></span>  
+
+#### 2. With "de"  
+Replace the group and use "de" to show possession or relation:  
+1. La voiture de Paul et **la voiture de Marie** → La voiture de Paul et <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'celle de Marie')">.<span style="margin-left:10px;"></span>  
+2. Le stylo de Jean et **le stylo de Pierre** → Le stylo de Jean et <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'celui de Pierre')">.<span style="margin-left:10px;"></span>  
+3. Les enfants de Sophie et **les enfants de Luc** → Les enfants de Sophie et <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'ceux de Luc')">.<span style="margin-left:10px;"></span>  
+4. Les idées de Marie et **les idées de Julie** → Les idées de Marie et <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'celles de Julie')">.<span style="margin-left:10px;"></span>  
+5. Le sac de Paul ou **le sac de Julie** ? → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'celui de Julie')"> ?<span style="margin-left:10px;"></span>  
+6. La maison de Pierre et **la maison de Sophie** → La maison de Pierre et <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'celle de Sophie')">.<span style="margin-left:10px;"></span>  
+7. Les stylos de Marc et **les stylos de Luc** → Les stylos de Marc et <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'ceux de Luc')">.<span style="margin-left:10px;"></span>  
+8. Le livre de Julie ou **le livre de Paul** ? → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'celui de Paul')"> ?<span style="margin-left:10px;"></span>  
+9. Les chaussures de Marie et **les chaussures de Sophie** → Les chaussures de Marie et <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'celles de Sophie')">.<span style="margin-left:10px;"></span>  
+10. La robe de Claire ou **la robe de Julie** ? → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'celle de Julie')"> ?<span style="margin-left:10px;"></span>  
+
+#### 3. With "-ci" and "-là"  
+Choose the correct pronoun with "-ci" (here/this) or "-là" (there/that):  
+1. Tu veux **ce livre** ou **ce livre** ? (this one or that one) → Tu veux <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'celui-ci')"> ou <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'celui-là')"> ?<span style="margin-left:10px;"></span>  
+2. J’aime **cette robe** (here) → J’aime <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'celle-ci')">.<span style="margin-left:10px;"></span>  
+3. Il préfère **ces chaussures** (there) → Il préfère <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'celles-là')">.<span style="margin-left:10px;"></span>  
+4. Nous choisissons **ces films** (here) → Nous choisissons <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'ceux-ci')">.<span style="margin-left:10px;"></span>  
+5. Elle regarde **ce tableau** (there) → Elle regarde <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'celui-là')">.<span style="margin-left:10px;"></span>  
+6. Tu prends **cette chaise** (here) ou **cette chaise** (there) ? → Tu prends <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'celle-ci')"> ou <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'celle-là')"> ?<span style="margin-left:10px;"></span>  
+7. J’achète **ces pommes** (here) → J’achète <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'celles-ci')">.<span style="margin-left:10px;"></span>  
+8. Il préfère **ce manteau** (there) → Il préfère <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'celui-là')">.<span style="margin-left:10px;"></span>  
+9. Nous choisissons **ces stylos** (here) → Nous choisissons <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'ceux-ci')">.<span style="margin-left:10px;"></span>  
+10. Elle aime **cette jupe** (there) → Elle aime <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'celle-là')">.<span style="margin-left:10px;"></span>  
+
+#### 4. With a Relative Clause  
+Complete with the correct demonstrative pronoun:  
+1. **(Ceux) qui parlent sont mes amis.** → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'Ceux qui')"> parlent sont mes amis.<span style="margin-left:10px;"></span>  
+2. **(Celui) que tu préfères est cher.** → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'Celui que')"> tu préfères est cher.<span style="margin-left:10px;"></span>  
+3. **(Celles) que j’aime sont ici.** → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'Celles que')"> j’aime sont ici.<span style="margin-left:10px;"></span>  
+4. **(Celui) qui arrive le premier gagne.** → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'Celui qui')"> arrive le premier gagne.<span style="margin-left:10px;"></span>  
+5. **(Ceux) que tu vois sont mes cousins.** → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'Ceux que')"> tu vois sont mes cousins.<span style="margin-left:10px;"></span>  
+6. **(Celui) qui chante est mon frère.** → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'Celui qui')"> chante est mon frère.<span style="margin-left:10px;"></span>  
+7. **(Ceux) que nous avons invités sont ici.** → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'Ceux que')"> nous avons invités sont ici.<span style="margin-left:10px;"></span>  
+8. **(Celui) que tu as vu est mon ami.** → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'Celui que')"> tu as vu est mon ami.<span style="margin-left:10px;"></span>  
+9. **(Ceux) qui travaillent dur réussissent.** → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'Ceux qui')"> travaillent dur réussissent.<span style="margin-left:10px;"></span>  
+10. **(Celles) qu’elle aime sont ici.** → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'Celles qu\'')">elle aime sont ici.<span style="margin-left:10px;"></span>  
+
+---
+
+### To consolidate your learning
+
+Write a short paragraph (3-5 sentences) explaining what you have learned about the use of demonstrative pronouns in French. Use your own words and, if possible, give an example.  
+<textarea rows="5" style="width:100%;" placeholder="Write here what you have learned..."></textarea>
+
+<button onclick="showAnswers()">Show answers</button>
+<button onclick="refreshPage()">Try again</button>
+
+---
+
+### Notes:
+- **Agreement:** Demonstrative pronouns agree in gender and number with the noun they replace (*celui, celle, ceux, celles*).
+- **With "de":** Used to show possession or relation (*celui de Paul*).
+- **With "-ci/-là":** To distinguish between "this/these" and "that/those" (*celui-ci, celle-là*).
+
+:::
+
+::: {.content-visible when-profile="french"}
+
+### Comprendre les pronoms démonstratifs
+
+Les **pronoms démonstratifs** (celui, celle, ceux, celles) remplacent un nom et son adjectif démonstratif (ce, cette, ces) pour éviter la répétition.  
+Ils s'accordent en genre et en nombre avec le nom qu'ils remplacent.
+
+**Règles clés :**  
+1. **Remplacement simple :**  
+    - *J'aime cette robe. Celle-ci est belle.*  
+2. **Avec "de" :**  
+    - *Le livre de Paul et celui de Marie* (le livre de Paul et celui de Marie).  
+3. **Avec "-ci" et "-là" :**  
+    - *Celui-ci* (celui-ci), *celle-là* (celle-là).  
+4. **Accompagné d'une proposition relative :**  
+    - *Ceux qui parlent sont mes amis.*  
+
+---
+
+### Exercices
+
+#### 1. Remplacement simple  
+Remplacez le groupe (adjectif + nom) par le pronom démonstratif correct :  
+1. J'aime **ce livre** → J'aime <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'celui')">.<span style="margin-left:10px;"></span>  
+2. Tu préfères **cette voiture** → Tu préfères <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'celle')">.<span style="margin-left:10px;"></span>  
+3. Il regarde **ces films** → Il regarde <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'ceux')">.<span style="margin-left:10px;"></span>  
+4. Nous choisissons **ces robes** → Nous choisissons <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'celles')">.<span style="margin-left:10px;"></span>  
+5. Elle aime **ce gâteau** → Elle aime <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'celui')">.<span style="margin-left:10px;"></span>  
+6. Il porte **ce manteau** → Il porte <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'celui')">.<span style="margin-left:10px;"></span>  
+7. Nous lisons **ces journaux** → Nous lisons <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'ceux')">.<span style="margin-left:10px;"></span>  
+8. Tu regardes **cette émission** → Tu regardes <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'celle')">.<span style="margin-left:10px;"></span>  
+9. J’achète **ces pommes** → J’achète <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'celles')">.<span style="margin-left:10px;"></span>  
+10. Elle préfère **ce film** → Elle préfère <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'celui')">.<span style="margin-left:10px;"></span>  
+
+#### 2. Avec "de"  
+Remplacez le groupe et utilisez "de" pour montrer la possession ou la relation :  
+1. La voiture de Paul et **la voiture de Marie** → La voiture de Paul et <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'celle de Marie')">.<span style="margin-left:10px;"></span>  
+2. Le stylo de Jean et **le stylo de Pierre** → Le stylo de Jean et <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'celui de Pierre')">.<span style="margin-left:10px;"></span>  
+3. Les enfants de Sophie et **les enfants de Luc** → Les enfants de Sophie et <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'ceux de Luc')">.<span style="margin-left:10px;"></span>  
+4. Les idées de Marie et **les idées de Julie** → Les idées de Marie et <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'celles de Julie')">.<span style="margin-left:10px;"></span>  
+5. Le sac de Paul ou **le sac de Julie** ? → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'celui de Julie')"> ?<span style="margin-left:10px;"></span>  
+6. La maison de Pierre et **la maison de Sophie** → La maison de Pierre et <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'celle de Sophie')">.<span style="margin-left:10px;"></span>  
+7. Les stylos de Marc et **les stylos de Luc** → Les stylos de Marc et <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'ceux de Luc')">.<span style="margin-left:10px;"></span>  
+8. Le livre de Julie ou **le livre de Paul** ? → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'celui de Paul')"> ?<span style="margin-left:10px;"></span>  
+9. Les chaussures de Marie et **les chaussures de Sophie** → Les chaussures de Marie et <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'celles de Sophie')">.<span style="margin-left:10px;"></span>  
+10. La robe de Claire ou **la robe de Julie** ? → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'celle de Julie')"> ?<span style="margin-left:10px;"></span>  
+
+#### 3. Avec "-ci" et "-là"  
+Choisissez le bon pronom avec "-ci" (ici/celui-ci) ou "-là" (là/celui-là) :  
+1. Tu veux **ce livre** ou **ce livre** ? (celui-ci ou celui-là) → Tu veux <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'celui-ci')"> ou <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'celui-là')"> ?<span style="margin-left:10px;"></span>  
+2. J’aime **cette robe** (ici) → J’aime <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'celle-ci')">.<span style="margin-left:10px;"></span>  
+3. Il préfère **ces chaussures** (là) → Il préfère <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'celles-là')">.<span style="margin-left:10px;"></span>  
+4. Nous choisissons **ces films** (ici) → Nous choisissons <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'ceux-ci')">.<span style="margin-left:10px;"></span>  
+5. Elle regarde **ce tableau** (là) → Elle regarde <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'celui-là')">.<span style="margin-left:10px;"></span>  
+6. Tu prends **cette chaise** (ici) ou **cette chaise** (là) ? → Tu prends <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'celle-ci')"> ou <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'celle-là')"> ?<span style="margin-left:10px;"></span>  
+7. J’achète **ces pommes** (ici) → J’achète <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'celles-ci')">.<span style="margin-left:10px;"></span>  
+8. Il préfère **ce manteau** (là) → Il préfère <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'celui-là')">.<span style="margin-left:10px;"></span>  
+9. Nous choisissons **ces stylos** (ici) → Nous choisissons <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'ceux-ci')">.<span style="margin-left:10px;"></span>  
+10. Elle aime **cette jupe** (là) → Elle aime <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'celle-là')">.<span style="margin-left:10px;"></span>  
+
+#### 4. Avec une proposition relative  
+Complétez avec le pronom démonstratif correct :  
+1. **(Ceux) qui parlent sont mes amis.** → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'Ceux qui')"> parlent sont mes amis.<span style="margin-left:10px;"></span>  
+2. **(Celui) que tu préfères est cher.** → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'Celui que')"> tu préfères est cher.<span style="margin-left:10px;"></span>  
+3. **(Celles) que j’aime sont ici.** → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'Celles que')"> j’aime sont ici.<span style="margin-left:10px;"></span>  
+4. **(Celui) qui arrive le premier gagne.** → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'Celui qui')"> arrive le premier gagne.<span style="margin-left:10px;"></span>  
+5. **(Ceux) que tu vois sont mes cousins.** → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'Ceux que')"> tu vois sont mes cousins.<span style="margin-left:10px;"></span>  
+6. **(Celui) qui chante est mon frère.** → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'Celui qui')"> chante est mon frère.<span style="margin-left:10px;"></span>  
+7. **(Ceux) que nous avons invités sont ici.** → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'Ceux que')"> nous avons invités sont ici.<span style="margin-left:10px;"></span>  
+8. **(Celui) que tu as vu est mon ami.** → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'Celui que')"> tu as vu est mon ami.<span style="margin-left:10px;"></span>  
+9. **(Ceux) qui travaillent dur réussissent.** → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'Ceux qui')"> travaillent dur réussissent.<span style="margin-left:10px;"></span>  
+10. **(Celles) qu’elle aime sont ici.** → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'Celles qu\'')">elle aime sont ici.<span style="margin-left:10px;"></span>  
+
+---
+
+### Pour consolider vos acquis
+
+Écrivez un court paragraphe (3 à 5 phrases) expliquant ce que vous avez appris sur l’utilisation des pronoms démonstratifs en français. Utilisez vos propres mots et, si possible, donnez un exemple.  
+<textarea rows="5" style="width:100%;" placeholder="Écrivez ici ce que vous avez appris..."></textarea>
+
+<button onclick="showAnswers()">Afficher les réponses</button>
+<button onclick="refreshPage()">Réessayer</button>
+
+---
+
+### Notes :
+- **Accord :** Les pronoms démonstratifs s’accordent en genre et en nombre avec le nom qu’ils remplacent (*celui, celle, ceux, celles*).
+- **Avec "de" :** Utilisé pour montrer la possession ou la relation (*celui de Paul*).
+- **Avec "-ci/-là" :** Pour distinguer « ceci/celles-ci » et « cela/celles-là » (*celui-ci, celle-là*).
+
+:::
+
+<script>
+function checkAnswer(input, correctAnswer) {
+    const span = input.nextElementSibling;
+    if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
+        span.textContent = "✓ Correct";
+        span.style.color = "green";
+    } else {
+        span.textContent = "";
+    }
+}
+
+function showAnswers() {
+    document.querySelectorAll('input[type="text"]').forEach(el => {
+        const correct = el.getAttribute('oninput')?.match(/'([^']+)'/)?.[1];
+        if (correct) {
+            const span = el.nextElementSibling;
+            span.textContent = `Réponse : ${correct}`;
+            span.style.color = "blue";
+        }
+    });
+}
+
+function refreshPage() {
+    location.reload();
+}
+</script>

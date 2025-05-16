@@ -181,23 +181,14 @@ Stuck on subjunctive at 2am? Our WhatsApp support has you covered (oui, even on 
 
 ## 🗣️ Success Stories {.testimonials}
 
-::: quote-icon
-<i class="fas fa-quote-left"></i>
-:::
+<div class='sk-ww-google-reviews' data-embed-id='25557829'></div>
+<script src='https://widgets.sociablekit.com/google-reviews/widget.js' defer></script>
 
-> "After 3 months with Kunal, I ordered coffee in Paris without switching to English - the barista thought I was local! *C'est incroyable!*"
->
-> **— Emma R., London**\
-> *Marketing Executive, 32*
 
-::: quote-icon
-<i class="fas fa-quote-left"></i>
-:::
+<!-- Google Reviews Widget End -->
 
-> "Finally a teacher who explains why French people say things certain ways. The cultural context makes everything click!"
->
-> **— David L., New York**\
-> *Law Student, 25*
+
+
 
 ::: {#newsletter .card style="text-align: center; background: var(--light); border: 2px dashed var(--accent);"}
 <h3><i class="fas fa-envelope-open-text"></i> Get Weekly French Goodies!</h3>
@@ -321,23 +312,9 @@ Blocage sur le subjonctif à 2h du matin? Notre support WhatsApp est là pour vo
 
 ## 🗣️ Témoignages {.testimonials}
 
-::: quote-icon
-<i class="fas fa-quote-left"></i>
-:::
+<div class='sk-ww-google-reviews' data-embed-id='25557829'></div>
+<script src='https://widgets.sociablekit.com/google-reviews/widget.js' defer></script>
 
-> "Après 3 mois avec Kunal, j'ai commandé un café à Paris sans passer à l'anglais - le serveur m'a pris pour un local! *C'est incroyable !*"
->
-> **— Emma R., Londres**\
-> *Responsable marketing, 32 ans*
-
-::: quote-icon
-<i class="fas fa-quote-left"></i>
-:::
-
-> "Enfin un professeur qui explique pourquoi les Français disent les choses d'une certaine manière. Le contexte culturel fait toute la différence!"
->
-> **— David L., New York**\
-> *Étudiant en droit, 25 ans*
 
 ::: {#newsletter-fr .card style="text-align: center; background: var(--light); border: 2px dashed var(--accent);"}
 <h3><i class="fas fa-envelope-open-text"></i> Recevez des pépites françaises chaque semaine !</h3>

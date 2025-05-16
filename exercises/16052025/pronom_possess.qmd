@@ -1,0 +1,200 @@
+---
+title: "Les Pronoms Possessifs"
+author: "Kunal Khurana"
+date: "05-15-2025"
+categories: [B1, grammaire, pronom possessif, exercices]
+image: "pronom_possessif.png"
+---
+
+::: {.content-visible when-profile="english"}
+
+### Understanding Possessive Pronouns
+
+**Possessive pronouns** (le mien, la mienne, les miens, les miennes, le tien, etc.) replace a noun and its possessive adjective (mon, ma, mes, ton, ta, tes, etc.) to avoid repetition.  
+They agree in gender and number with the noun they replace.
+
+**Key rules:**  
+1. **Simple replacement:**  
+    - *C'est mon livre. Où est le tien ?*  
+    - *Voici ma voiture. La sienne est rouge.*  
+2. **With "à" or "de":**  
+    - *Ce stylo est à Paul. Celui-ci est le mien.*  
+    - *Cette maison est la leur.*  
+3. **Agreement:**  
+    - *mes amis → les miens*  
+    - *tes idées → les tiennes*  
+
+---
+
+### Exercises
+
+#### 1. Simple Replacement  
+Replace the group (possessive adjective + noun) with the correct possessive pronoun:  
+1. C'est **mon livre** → C'est <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'le mien')">.<span style="margin-left:10px;"></span>  
+2. Voici **ta voiture** → Voici <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'la tienne')">.<span style="margin-left:10px;"></span>  
+3. Ce sont **ses stylos** → Ce sont <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'les siens')">.<span style="margin-left:10px;"></span>  
+4. Voilà **nos maisons** → Voilà <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'les nôtres')">.<span style="margin-left:10px;"></span>  
+5. Ce sont **vos idées** → Ce sont <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'les vôtres')">.<span style="margin-left:10px;"></span>  
+6. C'est **leur chat** → C'est <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'le leur')">.<span style="margin-left:10px;"></span>  
+7. Voici **mes photos** → Voici <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'les miennes')">.<span style="margin-left:10px;"></span>  
+8. Voilà **tes chaussures** → Voilà <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'les tiennes')">.<span style="margin-left:10px;"></span>  
+9. Ce sont **ses robes** → Ce sont <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'les siennes')">.<span style="margin-left:10px;"></span>  
+10. Voici **notre idée** → Voici <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'la nôtre')">.<span style="margin-left:10px;"></span>  
+
+#### 2. With "à" or "de"  
+Replace the group and use the possessive pronoun to show possession or relation:  
+1. La voiture de Paul et **la voiture de Marie** → La voiture de Paul et <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'la sienne')">.<span style="margin-left:10px;"></span>  
+2. Le stylo de Jean et **le stylo de Pierre** → Le stylo de Jean et <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'le sien')">.<span style="margin-left:10px;"></span>  
+3. Les enfants de Sophie et **les enfants de Luc** → Les enfants de Sophie et <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'les siens')">.<span style="margin-left:10px;"></span>  
+4. Les idées de Marie et **les idées de Julie** → Les idées de Marie et <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'les siennes')">.<span style="margin-left:10px;"></span>  
+5. Le sac de Paul ou **le sac de Julie** ? → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'le sien')"> ?<span style="margin-left:10px;"></span>  
+6. La maison de Pierre et **la maison de Sophie** → La maison de Pierre et <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'la sienne')">.<span style="margin-left:10px;"></span>  
+7. Les stylos de Marc et **les stylos de Luc** → Les stylos de Marc et <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'les siens')">.<span style="margin-left:10px;"></span>  
+8. Le livre de Julie ou **le livre de Paul** ? → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'le sien')"> ?<span style="margin-left:10px;"></span>  
+9. Les chaussures de Marie et **les chaussures de Sophie** → Les chaussures de Marie et <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'les siennes')">.<span style="margin-left:10px;"></span>  
+10. La robe de Claire ou **la robe de Julie** ? → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'la sienne')"> ?<span style="margin-left:10px;"></span>  
+
+#### 3. Agreement Practice  
+Choose the correct possessive pronoun according to gender and number:  
+1. J'ai **mes livres**. Tu as <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'les tiens')">.<span style="margin-left:10px;"></span>  
+2. Elle a **sa robe**. Il a <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'la sienne')">.<span style="margin-left:10px;"></span>  
+3. Nous avons **notre maison**. Vous avez <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'la vôtre')">.<span style="margin-left:10px;"></span>  
+4. Ils ont **leurs enfants**. Nous avons <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'les nôtres')">.<span style="margin-left:10px;"></span>  
+5. Tu as **tes idées**. Elle a <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'les siennes')">.<span style="margin-left:10px;"></span>  
+
+#### 4. In Context  
+Complete with the correct possessive pronoun:  
+1. Ce n'est pas ma chaise, c'est <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'la tienne')">.<span style="margin-left:10px;"></span>  
+2. Ce sont nos clés, pas <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'les leurs')">.<span style="margin-left:10px;"></span>  
+3. Voici mon stylo et voilà <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'le tien')">.<span style="margin-left:10px;"></span>  
+4. Ce sont ses photos, pas <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'les miennes')">.<span style="margin-left:10px;"></span>  
+5. C'est notre idée, pas <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'la vôtre')">.<span style="margin-left:10px;"></span>  
+
+---
+
+### To consolidate your learning
+
+Write a short paragraph (3-5 sentences) explaining what you have learned about the use of possessive pronouns in French. Use your own words and, if possible, give an example.  
+<textarea rows="5" style="width:100%;" placeholder="Write here what you have learned..."></textarea>
+
+<button onclick="showAnswers()">Show answers</button>
+<button onclick="refreshPage()">Try again</button>
+
+---
+
+### Notes:
+- **Agreement:** Possessive pronouns agree in gender and number with the noun they replace (*le mien, la mienne, les miens, les miennes*, etc.).
+- **With "à" or "de":** Used to show possession or relation (*le mien, la tienne*).
+- **Replacement:** They replace a possessive adjective + noun group (*mon livre → le mien*).
+
+:::
+
+::: {.content-visible when-profile="french"}
+
+### Comprendre les pronoms possessifs
+
+Les **pronoms possessifs** (le mien, la mienne, les miens, les miennes, le tien, etc.) remplacent un nom accompagné de son adjectif possessif (mon, ma, mes, ton, ta, tes, etc.) pour éviter la répétition.  
+Ils s’accordent en genre et en nombre avec le nom qu’ils remplacent.
+
+**Règles clés :**  
+1. **Remplacement simple :**  
+    - *C'est mon livre. Où est le tien ?*  
+    - *Voici ma voiture. La sienne est rouge.*  
+2. **Avec "à" ou "de" :**  
+    - *Ce stylo est à Paul. Celui-ci est le mien.*  
+    - *Cette maison est la leur.*  
+3. **Accord :**  
+    - *mes amis → les miens*  
+    - *tes idées → les tiennes*  
+
+---
+
+### Exercices
+
+#### 1. Remplacement simple  
+Remplacez le groupe (adjectif possessif + nom) par le pronom possessif correct :  
+1. C'est **mon livre** → C'est <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'le mien')">.<span style="margin-left:10px;"></span>  
+2. Voici **ta voiture** → Voici <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'la tienne')">.<span style="margin-left:10px;"></span>  
+3. Ce sont **ses stylos** → Ce sont <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'les siens')">.<span style="margin-left:10px;"></span>  
+4. Voilà **nos maisons** → Voilà <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'les nôtres')">.<span style="margin-left:10px;"></span>  
+5. Ce sont **vos idées** → Ce sont <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'les vôtres')">.<span style="margin-left:10px;"></span>  
+6. C'est **leur chat** → C'est <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'le leur')">.<span style="margin-left:10px;"></span>  
+7. Voici **mes photos** → Voici <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'les miennes')">.<span style="margin-left:10px;"></span>  
+8. Voilà **tes chaussures** → Voilà <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'les tiennes')">.<span style="margin-left:10px;"></span>  
+9. Ce sont **ses robes** → Ce sont <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'les siennes')">.<span style="margin-left:10px;"></span>  
+10. Voici **notre idée** → Voici <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'la nôtre')">.<span style="margin-left:10px;"></span>  
+
+#### 2. Avec "à" ou "de"  
+Remplacez le groupe et utilisez le pronom possessif pour montrer la possession ou la relation :  
+1. La voiture de Paul et **la voiture de Marie** → La voiture de Paul et <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'la sienne')">.<span style="margin-left:10px;"></span>  
+2. Le stylo de Jean et **le stylo de Pierre** → Le stylo de Jean et <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'le sien')">.<span style="margin-left:10px;"></span>  
+3. Les enfants de Sophie et **les enfants de Luc** → Les enfants de Sophie et <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'les siens')">.<span style="margin-left:10px;"></span>  
+4. Les idées de Marie et **les idées de Julie** → Les idées de Marie et <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'les siennes')">.<span style="margin-left:10px;"></span>  
+5. Le sac de Paul ou **le sac de Julie** ? → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'le sien')"> ?<span style="margin-left:10px;"></span>  
+6. La maison de Pierre et **la maison de Sophie** → La maison de Pierre et <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'la sienne')">.<span style="margin-left:10px;"></span>  
+7. Les stylos de Marc et **les stylos de Luc** → Les stylos de Marc et <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'les siens')">.<span style="margin-left:10px;"></span>  
+8. Le livre de Julie ou **le livre de Paul** ? → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'le sien')"> ?<span style="margin-left:10px;"></span>  
+9. Les chaussures de Marie et **les chaussures de Sophie** → Les chaussures de Marie et <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'les siennes')">.<span style="margin-left:10px;"></span>  
+10. La robe de Claire ou **la robe de Julie** ? → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'la sienne')"> ?<span style="margin-left:10px;"></span>  
+
+#### 3. Pratique de l’accord  
+Choisissez le pronom possessif correct selon le genre et le nombre :  
+1. J'ai **mes livres**. Tu as <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'les tiens')">.<span style="margin-left:10px;"></span>  
+2. Elle a **sa robe**. Il a <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'la sienne')">.<span style="margin-left:10px;"></span>  
+3. Nous avons **notre maison**. Vous avez <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'la vôtre')">.<span style="margin-left:10px;"></span>  
+4. Ils ont **leurs enfants**. Nous avons <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'les nôtres')">.<span style="margin-left:10px;"></span>  
+5. Tu as **tes idées**. Elle a <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'les siennes')">.<span style="margin-left:10px;"></span>  
+
+#### 4. En contexte  
+Complétez avec le pronom possessif correct :  
+1. Ce n'est pas ma chaise, c'est <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'la tienne')">.<span style="margin-left:10px;"></span>  
+2. Ce sont nos clés, pas <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'les leurs')">.<span style="margin-left:10px;"></span>  
+3. Voici mon stylo et voilà <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'le tien')">.<span style="margin-left:10px;"></span>  
+4. Ce sont ses photos, pas <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'les miennes')">.<span style="margin-left:10px;"></span>  
+5. C'est notre idée, pas <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'la vôtre')">.<span style="margin-left:10px;"></span>  
+
+---
+
+### Pour consolider vos acquis
+
+Rédigez un court paragraphe (3 à 5 phrases) expliquant ce que vous avez appris sur l’utilisation des pronoms possessifs en français. Utilisez vos propres mots et, si possible, donnez un exemple.  
+<textarea rows="5" style="width:100%;" placeholder="Écrivez ici ce que vous avez appris..."></textarea>
+
+<button onclick="showAnswers()">Afficher les réponses</button>
+<button onclick="refreshPage()">Réessayer</button>
+
+---
+
+### Notes :
+- **Accord :** Les pronoms possessifs s’accordent en genre et en nombre avec le nom qu’ils remplacent (*le mien, la mienne, les miens, les miennes*, etc.).
+- **Avec "à" ou "de" :** Utilisés pour montrer la possession ou la relation (*le mien, la tienne*).
+- **Remplacement :** Ils remplacent un groupe adjectif possessif + nom (*mon livre → le mien*).
+
+:::
+
+<script>
+function checkAnswer(input, correctAnswer) {
+    const span = input.nextElementSibling;
+    if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
+        span.textContent = "✓ Correct";
+        span.style.color = "green";
+    } else {
+        span.textContent = "";
+    }
+}
+
+function showAnswers() {
+    document.querySelectorAll('input[type="text"]').forEach(el => {
+        const correct = el.getAttribute('oninput')?.match(/'([^']+)'/)?.[1];
+        if (correct) {
+            const span = el.nextElementSibling;
+            span.textContent = `Réponse : ${correct}`;
+            span.style.color = "blue";
+        }
+    });
+}
+
+function refreshPage() {
+    location.reload();
+}
+</script>

@@ -1,0 +1,225 @@
+---
+title: "Ce ou C' : Le Pronom Démonstratif Neutre"
+author: "Kunal Khurana"
+date: "05-15-2025"
+categories: [B1, grammaire, pronom démonstratif, exercices]
+image: "pronom_ce.png"
+---
+
+::: {.content-visible when-profile="english"}
+
+### Understanding "Ce" or "C'": The Neutral Demonstrative Pronoun
+
+The pronoun **"ce"** (or **"c'"** before a vowel or mute h) is a neutral demonstrative pronoun. It is used to refer to a situation, an idea, or something previously mentioned or about to be explained. It can replace one or several things.
+
+**Key uses:**
+1. **With the verb "être":**  
+    - *C'est le chocolat de Suisse.* (It's Swiss chocolate.)  
+    - *C'est magnifique !* (It's wonderful!)
+2. **Before a name, pronoun, infinitive, or circumstance (place/time):**  
+    - *C'est Paul.* (It's Paul.)  
+    - *C'est moi.* (It's me.)  
+    - *C'est partir qui est difficile.* (Leaving is what's hard.)  
+    - *C'est à Paris.* (It's in Paris.)  
+    - *C'est lundi.* (It's Monday.)
+3. **With a relative pronoun:**  
+    - *C'est ce que j'aime.* (That's what I like.)  
+    - *C'est ce dont j'ai besoin.* (That's what I need.)
+
+---
+
+### Exercises
+
+#### 1. Complete with "ce" or "c'"
+
+1. ____ est incroyable ! <input type="text" placeholder="ce/c'" oninput="checkAnswer(this, 'C\'')"><span></span>  
+2. ____ est mon livre préféré. <input type="text" placeholder="ce/c'" oninput="checkAnswer(this, 'C\'')"><span></span>  
+3. ____ est Marie ? Oui, ____ est elle. <input type="text" placeholder="ce/c'" oninput="checkAnswer(this, 'C\'')"><span></span> ? Oui, <input type="text" placeholder="ce/c'" oninput="checkAnswer(this, 'c\'')"><span></span>  
+4. ____ est difficile de comprendre. <input type="text" placeholder="ce/c'" oninput="checkAnswer(this, 'C\'')"><span></span>  
+5. ____ sont mes amis. <input type="text" placeholder="ce/c\'/ce sont" oninput="checkAnswer(this, 'Ce sont')"><span></span>  
+6. ____ est à Lyon que j'habite. <input type="text" placeholder="ce/c'" oninput="checkAnswer(this, 'C\'')"><span></span>  
+7. ____ est ce que je veux. <input type="text" placeholder="ce/c'" oninput="checkAnswer(this, 'C\'')"><span></span>  
+8. ____ est lundi aujourd'hui. <input type="text" placeholder="ce/c'" oninput="checkAnswer(this, 'C\'')"><span></span>  
+9. ____ n'est pas facile. <input type="text" placeholder="ce/c'" oninput="checkAnswer(this, 'Ce')"><span></span>  
+10. ____ est ce dont j'ai besoin. <input type="text" placeholder="ce/c'" oninput="checkAnswer(this, 'C\'')"><span></span>  
+
+#### 2. Transform the sentences using "ce" or "c'"
+1. Paul est professeur. → ____ est professeur. <input type="text" placeholder="ce/c'" oninput="checkAnswer(this, 'C\'')"><span></span>  
+2. Aujourd'hui, lundi. → ____ est lundi. <input type="text" placeholder="ce/c'" oninput="checkAnswer(this, 'C\'')"><span></span>  
+3. Magnifique ! → ____ est magnifique ! <input type="text" placeholder="ce/c'" oninput="checkAnswer(this, 'C\'')"><span></span>  
+4. J'aime ça. → ____ est ce que j'aime. <input type="text" placeholder="ce/c'" oninput="checkAnswer(this, 'C\'')"><span></span>  
+5. Mes parents sont là. → ____ sont mes parents. <input type="text" placeholder="ce/c\'/ce sont" oninput="checkAnswer(this, 'Ce sont')"><span></span>  
+6. Marie est à la porte. → ____ est Marie. <input type="text" placeholder="ce/c'" oninput="checkAnswer(this, 'C\'')"><span></span>  
+7. Difficile de répondre. → ____ est difficile de répondre. <input type="text" placeholder="ce/c'" oninput="checkAnswer(this, 'C\'')"><span></span>  
+8. Voilà mon livre préféré. → ____ est mon livre préféré. <input type="text" placeholder="ce/c'" oninput="checkAnswer(this, 'C\'')"><span></span>  
+9. Paris est une belle ville. → ____ est une belle ville. <input type="text" placeholder="ce/c'" oninput="checkAnswer(this, 'C\'')"><span></span>  
+10. Ce dont j'ai besoin. → ____ est ce dont j'ai besoin. <input type="text" placeholder="ce/c'" oninput="checkAnswer(this, 'C\'')"><span></span>  
+
+---
+
+#### 3. Translate into French using "ce" or "c'"
+
+1. This is my friend. <input type="text" placeholder="French answer" oninput="checkAnswer(this, 'C\'est mon ami')"><span></span>  
+2. It’s wonderful! <input type="text" placeholder="French answer" oninput="checkAnswer(this, 'C\'est magnifique')"><span></span>  
+3. That’s what I want. <input type="text" placeholder="French answer" oninput="checkAnswer(this, 'C\'est ce que je veux')"><span></span>  
+4. It’s in Paris. <input type="text" placeholder="French answer" oninput="checkAnswer(this, 'C\'est à Paris')"><span></span>  
+5. These are my books. <input type="text" placeholder="French answer" oninput="checkAnswer(this, 'Ce sont mes livres')"><span></span>  
+
+---
+
+#### 4. Make complete sentences with "ce" or "c'" and the given prompts
+
+1. (être / difficile / comprendre)  
+    <input type="text" placeholder="Your sentence" oninput="checkAnswer(this, 'C\'est difficile de comprendre')"><span></span>  
+2. (être / lundi / aujourd’hui)  
+    <input type="text" placeholder="Your sentence" oninput="checkAnswer(this, 'C\'est lundi aujourd\'hui')"><span></span>  
+3. (être / Paul / à la porte)  
+    <input type="text" placeholder="Your sentence" oninput="checkAnswer(this, 'C\'est Paul à la porte')"><span></span>  
+4. (être / ce que / j’aime)  
+    <input type="text" placeholder="Your sentence" oninput="checkAnswer(this, 'C\'est ce que j\'aime')"><span></span>  
+5. (être / mes amis)  
+    <input type="text" placeholder="Your sentence" oninput="checkAnswer(this, 'Ce sont mes amis')"><span></span>  
+
+---
+
+### To consolidate your learning
+
+Write a short paragraph (3-5 sentences) explaining how and when to use "ce" or "c'" in French. Use your own words and, if possible, give an example.  
+<textarea rows="5" style="width:100%;" placeholder="Write here what you have learned..."></textarea>
+
+<button onclick="showAnswers()">Show answers</button>
+<button onclick="refreshPage()">Try again</button>
+
+---
+
+### Notes:
+- **"Ce"** becomes **"c'"** before a vowel or mute h (*C'est, C'était, C'est incroyable*).
+- Used with "être" to introduce or identify people, things, or situations.
+- Used with relative pronouns (*ce que, ce dont, ce qui*) to refer to ideas or things.
+- For plural, use **"ce sont"** (*Ce sont mes amis*).
+
+:::
+
+::: {.content-visible when-profile="french"}
+
+### Comprendre "Ce" ou "C'" : Le Pronom Démonstratif Neutre
+
+Le pronom **"ce"** (ou **"c'"** devant une voyelle ou un h muet) est un pronom démonstratif neutre. Il sert à désigner une situation, une idée, ou quelque chose déjà mentionné ou sur le point d’être expliqué. Il peut remplacer une ou plusieurs choses.
+
+**Principaux usages :**
+1. **Avec le verbe "être" :**  
+    - *C'est le chocolat de Suisse.*  
+    - *C'est magnifique !*
+2. **Devant un nom, un pronom, un infinitif ou une circonstance (lieu/temps) :**  
+    - *C'est Paul.*  
+    - *C'est moi.*  
+    - *C'est partir qui est difficile.*  
+    - *C'est à Paris.*  
+    - *C'est lundi.*
+3. **Avec un pronom relatif :**  
+    - *C'est ce que j'aime.*  
+    - *C'est ce dont j'ai besoin.*
+
+---
+
+### Exercices
+
+#### 1. Complétez avec "ce" ou "c'"
+
+1. ____ est incroyable ! <input type="text" placeholder="ce/c'" oninput="checkAnswer(this, 'C\'')"><span></span>  
+2. ____ est mon livre préféré. <input type="text" placeholder="ce/c'" oninput="checkAnswer(this, 'C\'')"><span></span>  
+3. ____ est Marie ? Oui, ____ est elle. <input type="text" placeholder="ce/c'" oninput="checkAnswer(this, 'C\'')"><span></span> ? Oui, <input type="text" placeholder="ce/c'" oninput="checkAnswer(this, 'c\'')"><span></span>  
+4. ____ est difficile de comprendre. <input type="text" placeholder="ce/c'" oninput="checkAnswer(this, 'C\'')"><span></span>  
+5. ____ sont mes amis. <input type="text" placeholder="ce/c\'/ce sont" oninput="checkAnswer(this, 'Ce sont')"><span></span>  
+6. ____ est à Lyon que j'habite. <input type="text" placeholder="ce/c'" oninput="checkAnswer(this, 'C\'')"><span></span>  
+7. ____ est ce que je veux. <input type="text" placeholder="ce/c'" oninput="checkAnswer(this, 'C\'')"><span></span>  
+8. ____ est lundi aujourd'hui. <input type="text" placeholder="ce/c'" oninput="checkAnswer(this, 'C\'')"><span></span>  
+9. ____ n'est pas facile. <input type="text" placeholder="ce/c'" oninput="checkAnswer(this, 'Ce')"><span></span>  
+10. ____ est ce dont j'ai besoin. <input type="text" placeholder="ce/c'" oninput="checkAnswer(this, 'C\'')"><span></span>  
+
+#### 2. Transformez les phrases en utilisant "ce" ou "c'"
+
+1. Paul est professeur. → ____ est professeur. <input type="text" placeholder="ce/c'" oninput="checkAnswer(this, 'C\'')"><span></span>  
+2. Aujourd'hui, lundi. → ____ est lundi. <input type="text" placeholder="ce/c'" oninput="checkAnswer(this, 'C\'')"><span></span>  
+3. Magnifique ! → ____ est magnifique ! <input type="text" placeholder="ce/c'" oninput="checkAnswer(this, 'C\'')"><span></span>  
+4. J'aime ça. → ____ est ce que j'aime. <input type="text" placeholder="ce/c'" oninput="checkAnswer(this, 'C\'')"><span></span>  
+5. Mes parents sont là. → ____ sont mes parents. <input type="text" placeholder="ce/c\'/ce sont" oninput="checkAnswer(this, 'Ce sont')"><span></span>  
+6. Marie est à la porte. → ____ est Marie. <input type="text" placeholder="ce/c'" oninput="checkAnswer(this, 'C\'')"><span></span>  
+7. Difficile de répondre. → ____ est difficile de répondre. <input type="text" placeholder="ce/c'" oninput="checkAnswer(this, 'C\'')"><span></span>  
+8. Voilà mon livre préféré. → ____ est mon livre préféré. <input type="text" placeholder="ce/c'" oninput="checkAnswer(this, 'C\'')"><span></span>  
+9. Paris est une belle ville. → ____ est une belle ville. <input type="text" placeholder="ce/c'" oninput="checkAnswer(this, 'C\'')"><span></span>  
+10. Ce dont j'ai besoin. → ____ est ce dont j'ai besoin. <input type="text" placeholder="ce/c'" oninput="checkAnswer(this, 'C\'')"><span></span>  
+
+---
+
+#### 3. Traduisez en français en utilisant "ce" ou "c'"
+
+1. C'est mon ami. <input type="text" placeholder="Réponse en français" oninput="checkAnswer(this, 'C\'est mon ami')"><span></span>  
+2. C'est magnifique ! <input type="text" placeholder="Réponse en français" oninput="checkAnswer(this, 'C\'est magnifique')"><span></span>  
+3. C'est ce que je veux. <input type="text" placeholder="Réponse en français" oninput="checkAnswer(this, 'C\'est ce que je veux')"><span></span>  
+4. C'est à Paris. <input type="text" placeholder="Réponse en français" oninput="checkAnswer(this, 'C\'est à Paris')"><span></span>  
+5. Ce sont mes livres. <input type="text" placeholder="Réponse en français" oninput="checkAnswer(this, 'Ce sont mes livres')"><span></span>  
+
+---
+
+#### 4. Faites des phrases complètes avec "ce" ou "c'" et les éléments donnés
+
+1. (être / difficile / comprendre)  
+    <input type="text" placeholder="Votre phrase" oninput="checkAnswer(this, 'C\'est difficile de comprendre')"><span></span>  
+2. (être / lundi / aujourd’hui)  
+    <input type="text" placeholder="Votre phrase" oninput="checkAnswer(this, 'C\'est lundi aujourd\'hui')"><span></span>  
+3. (être / Paul / à la porte)  
+    <input type="text" placeholder="Votre phrase" oninput="checkAnswer(this, 'C\'est Paul à la porte')"><span></span>  
+4. (être / ce que / j’aime)  
+    <input type="text" placeholder="Votre phrase" oninput="checkAnswer(this, 'C\'est ce que j\'aime')"><span></span>  
+5. (être / mes amis)  
+    <input type="text" placeholder="Votre phrase" oninput="checkAnswer(this, 'Ce sont mes amis')"><span></span>  
+
+---
+
+### Pour consolider votre apprentissage
+
+Écrivez un court paragraphe (3 à 5 phrases) expliquant comment et quand utiliser "ce" ou "c'" en français. Utilisez vos propres mots et, si possible, donnez un exemple.  
+<textarea rows="5" style="width:100%;" placeholder="Écrivez ici ce que vous avez appris..."></textarea>
+
+<button onclick="showAnswers()">Afficher les réponses</button>
+<button onclick="refreshPage()">Réessayer</button>
+
+---
+
+### Notes :
+- **"Ce"** devient **"c'"** devant une voyelle ou un h muet (*C'est, C'était, C'est incroyable*).
+- Utilisé avec "être" pour présenter ou identifier des personnes, des choses ou des situations.
+- Utilisé avec les pronoms relatifs (*ce que, ce dont, ce qui*) pour parler d'idées ou de choses.
+- Au pluriel, on utilise **"ce sont"** (*Ce sont mes amis*).
+
+:::
+
+
+
+<script>
+function checkAnswer(input, correctAnswer) {
+    const span = input.nextElementSibling;
+    if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
+        span.textContent = "✓ Correct";
+        span.style.color = "green";
+    } else {
+        span.textContent = "";
+    }
+}
+
+function showAnswers() {
+    document.querySelectorAll('input[type="text"]').forEach(el => {
+        const correct = el.getAttribute('oninput')?.match(/'([^']+)'/)?.[1];
+        if (correct) {
+            const span = el.nextElementSibling;
+            span.textContent = `Réponse : ${correct}`;
+            span.style.color = "blue";
+        }
+    });
+}
+
+function refreshPage() {
+    location.reload();
+}
+</script>
