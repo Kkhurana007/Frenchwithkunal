@@ -116,14 +116,23 @@ ul.task-list li input[type="checkbox"] {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
-  <li class="nav-item">
-    <a class="nav-link" href="../../posts.html"> 
-<span class="menu-text">Blog Posts</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-resources" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Resources</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-resources">    
+        <li>
+    <a class="dropdown-item" href="../../posts.html"><i class="bi bi-file" role="img">
+</i> 
+ <span class="dropdown-text">Blog Posts</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../../exercises.html"> 
-<span class="menu-text">Exercises</span></a>
+        <li>
+    <a class="dropdown-item" href="../../exercises.html"><i class="bi bi-clipboard-check" role="img">
+</i> 
+ <span class="dropdown-text">Exercises</span></a>
   </li>  
+    </ul>
+  </li>
   <li class="nav-item">
     <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">About Us</span></a>
@@ -252,18 +261,31 @@ ul.task-list li input[type="checkbox"] {
 <section id="fill-in-the-blanks" class="level3">
 <h3 class="anchored" data-anchor-id="fill-in-the-blanks">1. Fill in the Blanks</h3>
 <p>Conjugate the verb for each subject.</p>
-<p>Je (acheter) <input type="text" placeholder="Your answer" onblur="checkAnswer(this, 'achète')"> → J’achète un livre.<br>
+<p>Je (acheter) <input type="text" placeholder="Your answer"><br>
+<button onclick="revealAnswer(this, 'J\'achète un livre.')">Check</button><br>
 <span class="feedback"></span></p>
-<p>Tu (préférer) <input type="text" placeholder="Your answer" onblur="checkAnswer(this, 'préfères')"> → Tu préfères le café.<br>
+<p>Tu (préférer) <input type="text" placeholder="Your answer"><br>
+<button onclick="revealAnswer(this, 'Tu préfères le café.')">Check</button><br>
 <span class="feedback"></span></p>
-<p>Il (espérer) <input type="text" placeholder="Your answer" onblur="checkAnswer(this, 'espère')"> → Il espère gagner.<br>
+<p>Il (espérer) <input type="text" placeholder="Your answer"><br>
+<button onclick="revealAnswer(this, 'Il espère gagner.')">Check</button><br>
 <span class="feedback"></span></p>
-<p>Nous (répéter) <input type="text" placeholder="Your answer" onblur="checkAnswer(this, 'répétons')"> → Nous répétons la chanson.<br>
+<p>Nous (répéter) <input type="text" placeholder="Your answer"><br>
+<button onclick="revealAnswer(this, 'Nous répétons la chanson.')">Check</button><br>
 <span class="feedback"></span></p>
-<p>Vous (céder) <input type="text" placeholder="Your answer" onblur="checkAnswer(this, 'cédez')"> → Vous cédez la place.<br>
+<p>Vous (céder) <input type="text" placeholder="Your answer"><br>
+<button onclick="revealAnswer(this, 'Vous cédez la place.')">Check</button><br>
 <span class="feedback"></span></p>
-<p>Elles (acheter) <input type="text" placeholder="Your answer" onblur="checkAnswer(this, 'achètent')"> → Elles achètent des fleurs.<br>
+<p>Elles (acheter) <input type="text" placeholder="Your answer"><br>
+<button onclick="revealAnswer(this, 'Elles achètent des fleurs.')">Check</button><br>
 <span class="feedback"></span></p>
+<script>
+function revealAnswer(button, correctAnswer) {
+    const feedback = button.nextElementSibling.nextElementSibling;
+    feedback.textContent = correctAnswer;
+    feedback.style.color = "blue";
+}
+</script>
 <hr>
 </section>
 <section id="sentence-correction" class="level3">

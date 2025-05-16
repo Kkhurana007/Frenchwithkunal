@@ -208,10 +208,23 @@ ul.task-list li input[type="checkbox"] {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
-  <li class="nav-item">
-    <a class="nav-link" href="./posts.html"> 
-<span class="menu-text">Articles de Blog</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-ressources" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Ressources</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-ressources">    
+        <li>
+    <a class="dropdown-item" href="./posts.html"><i class="bi bi-file" role="img">
+</i> 
+ <span class="dropdown-text">Articles de Blog</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="./exercises.html"><i class="bi bi-clipboard-check" role="img">
+</i> 
+ <span class="dropdown-text">Exercices</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
     <a class="nav-link" href="./about.html"> 
 <span class="menu-text">À Propos</span></a>
@@ -355,22 +368,10 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="témoignages" class="level2 testimonials">
 <h2 class="testimonials anchored" data-anchor-id="témoignages">🗣️ Témoignages</h2>
-<div class="quote-icon">
-<p><i class="fas fa-quote-left"></i></p>
+<div class="sk-ww-google-reviews" data-embed-id="25557829">
+
 </div>
-<blockquote class="blockquote">
-<p>“Après 3 mois avec Kunal, j’ai commandé un café à Paris sans passer à l’anglais - le serveur m’a pris pour un local! <em>C’est incroyable !</em>”</p>
-<p><strong>— Emma R., Londres</strong><br>
-<em>Responsable marketing, 32 ans</em></p>
-</blockquote>
-<div class="quote-icon">
-<p><i class="fas fa-quote-left"></i></p>
-</div>
-<blockquote class="blockquote">
-<p>“Enfin un professeur qui explique pourquoi les Français disent les choses d’une certaine manière. Le contexte culturel fait toute la différence!”</p>
-<p><strong>— David L., New York</strong><br>
-<em>Étudiant en droit, 25 ans</em></p>
-</blockquote>
+<script src="https://widgets.sociablekit.com/google-reviews/widget.js" defer=""></script>
 <div id="newsletter-fr" class="card" style="text-align: center; background: var(--light); border: 2px dashed var(--accent);">
 <h3 class="anchored">
 <i class="fas fa-envelope-open-text"></i> Recevez des pépites françaises chaque semaine !
@@ -381,6 +382,37 @@ Recevez chaque semaine : 1 astuce culturelle, 1 expression familière, et 1 mini
 <form id="subscribeFormFr" style="margin-top: 1rem;">
 <p><input type="email" id="subscriberEmailFr" name="email" placeholder="Entrez votre e-mail" required="" style="padding: 10px; border-radius: 5px; border: 1px solid #ccc; width: 80%; max-width: 300px;"> <br> <button type="submit" class="btn" style="margin-top: 1rem;">Oui, je le veux!</button></p>
 </form>
+<section id="témoignages-1" class="level2 testimonials">
+<h2 class="testimonials anchored" data-anchor-id="témoignages-1">🗣️ Témoignages</h2>
+<div class="sk-ww-google-reviews" data-embed-id="25557829">
+
+</div>
+<script src="https://widgets.sociablekit.com/google-reviews/widget.js" defer=""></script>
+<style>
+  .sk-ww-google-reviews {
+    max-height: 400px;
+    overflow-y: auto;
+  }
+  .sk-ww-google-reviews .sk-review {
+    margin-bottom: 1.5rem;
+  }
+</style>
+<script>
+  // Auto-refresh the reviews widget every 60 seconds
+  setInterval(function() {
+    var widget = document.querySelector('.sk-ww-google-reviews');
+    if(widget) {
+      var src = "https://widgets.sociablekit.com/google-reviews/widget.js";
+      var oldScript = document.querySelector('script[src="' + src + '"]');
+      if(oldScript) oldScript.remove();
+      var script = document.createElement('script');
+      script.src = src;
+      script.defer = true;
+      document.body.appendChild(script);
+    }
+  }, 60000);
+</script>
+</section>
 </div>
 <script>
 document.getElementById('subscribeFormFr').addEventListener('submit', async function(e) {
