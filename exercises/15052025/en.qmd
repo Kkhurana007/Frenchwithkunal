@@ -1,0 +1,230 @@
+---
+title: "Le Pronom Complément 'en' – Emploi et Exercices"
+author: "Kunal Khurana"
+date: "05-15-2025"
+categories: [B1, grammaire, pronom, en, exercices]
+image: "en.png"
+---
+
+::: {.content-visible when-profile="english"}
+
+### Understanding the Pronoun 'en'
+
+The pronoun **'en'** replaces a noun introduced by **'de'** (of, from, some, any) or a quantity.  
+It answers **"of what?"**, **"of whom?"**, **"how many?"** after the verb.
+
+**Key rules:**
+
+1. **'en' replaces**: nouns with **'de'** (du, de la, des, de l’, de, d’), or a quantity.
+
+2. **Placement**: Before the verb (J’**en** parle).
+
+3. **With quantities**: Keep the number/quantity after the verb (J’**en** prends **deux**).
+
+4. **Never use 'en' for people**: Use 'de lui/d’elle/d’eux/d’elles' for people.
+
+---
+
+### Exercises
+
+#### 1. Find what 'en' replaces (underline and answer *de quoi ?* or *combien ?*):
+*(Example: "Je parle de mon projet. → de quoi ?")*
+
+1. Il revient **de Paris**. → <input type="text" placeholder="de quoi, de qui" oninput="checkAnswer(this, 'de quoi')"><span style="margin-left:10px;"></span>
+2. Nous achetons **du pain**. → <input type="text" placeholder="de quoi, combien, de quoi/combien" oninput="checkAnswer(this, 'de quoi')"><span style="margin-left:10px;"></span>
+3. Tu bois **trois cafés**. → <input type="text" placeholder="combien, de quoi, quantité" oninput="checkAnswer(this, 'combien')"><span style="margin-left:10px;"></span>
+4. Elle parle **de son travail**. → <input type="text" placeholder="de quoi, de qui" oninput="checkAnswer(this, 'de quoi')"><span style="margin-left:10px;"></span>
+5. Nous avons besoin **de repos**. → <input type="text" placeholder="de quoi, de quoi/combien" oninput="checkAnswer(this, 'de quoi')"><span style="margin-left:10px;"></span>
+6. Il mange **des fruits**. → <input type="text" placeholder="de quoi, combien, de quoi/combien" oninput="checkAnswer(this, 'de quoi')"><span style="margin-left:10px;"></span>
+7. Vous prenez **deux billets**. → <input type="text" placeholder="combien, de quoi, quantité" oninput="checkAnswer(this, 'combien')"><span style="margin-left:10px;"></span>
+8. Je rêve **de vacances**. → <input type="text" placeholder="de quoi, de qui" oninput="checkAnswer(this, 'de quoi')"><span style="margin-left:10px;"></span>
+9. Ils parlent **de leurs projets**. → <input type="text" placeholder="de quoi, de qui" oninput="checkAnswer(this, 'de quoi')"><span style="margin-left:10px;"></span>
+10. Tu veux **trois morceaux**. → <input type="text" placeholder="combien, de quoi, quantité" oninput="checkAnswer(this, 'combien')"><span style="margin-left:10px;"></span>
+
+#### 2. Replace the underlined part with 'en':
+
+1. Elle parle **de ses vacances**. → Elle <input type="text" placeholder="..."> parle.<span style="margin-left:10px;"></span>
+2. J’achète **du fromage**. → J’<input type="text" placeholder="..."> achète.<span style="margin-left:10px;"></span>
+3. Nous voulons **trois kilos de pommes**. → Nous <input type="text" placeholder="..."> voulons **trois kilos**.<span style="margin-left:10px;"></span>
+4. Il a besoin **de repos**. → Il <input type="text" placeholder="..."> a besoin.<span style="margin-left:10px;"></span>
+5. Tu bois **de l’eau**. → Tu <input type="text" placeholder="..."> bois.<span style="margin-left:10px;"></span>
+6. Nous mangeons **des légumes**. → Nous <input type="text" placeholder="..."> mangeons.<span style="margin-left:10px;"></span>
+7. Je prends **deux tranches**. → J’<input type="text" placeholder="..."> prends **deux**.<span style="margin-left:10px;"></span>
+8. Vous parlez **de ce film**. → Vous <input type="text" placeholder="..."> parlez.<span style="margin-left:10px;"></span>
+9. Ils achètent **des cadeaux**. → Ils <input type="text" placeholder="..."> achètent.<span style="margin-left:10px;"></span>
+10. Elle veut **trois pommes**. → Elle <input type="text" placeholder="..."> veut **trois**.<span style="margin-left:10px;"></span>
+
+#### 3. Correct the errors:
+
+1. "J’en mange des pommes." → <input type="text" placeholder="Correction" oninput="checkAnswer(this, 'J’en mange.')"><span style="margin-left:10px;"></span>
+2. "Elle en parle de son frère." → <input type="text" placeholder="Correction" oninput="checkAnswer(this, 'Elle en parle.')"><span style="margin-left:10px;"></span>
+3. "Nous en voulons trois pommes." → <input type="text" placeholder="Correction" oninput="checkAnswer(this, 'Nous en voulons trois.')"><span style="margin-left:10px;"></span>
+4. "Tu en bois de l’eau." → <input type="text" placeholder="Correction" oninput="checkAnswer(this, 'Tu en bois.')"><span style="margin-left:10px;"></span>
+5. "Il en rêve de vacances." → <input type="text" placeholder="Correction" oninput="checkAnswer(this, 'Il en rêve.')"><span style="margin-left:10px;"></span>
+6. "Vous en prenez deux billets." → <input type="text" placeholder="Correction" oninput="checkAnswer(this, 'Vous en prenez deux.')"><span style="margin-left:10px;"></span>
+7. "Je en parle de mon projet." → <input type="text" placeholder="Correction" oninput="checkAnswer(this, 'J’en parle.')"><span style="margin-left:10px;"></span>
+8. "Ils en achètent des cadeaux." → <input type="text" placeholder="Correction" oninput="checkAnswer(this, 'Ils en achètent.')"><span style="margin-left:10px;"></span>
+9. "Elle en veut trois pommes." → <input type="text" placeholder="Correction" oninput="checkAnswer(this, 'Elle en veut trois.')"><span style="margin-left:10px;"></span>
+10. "Nous en mangeons des légumes." → <input type="text" placeholder="Correction" oninput="checkAnswer(this, 'Nous en mangeons.')"><span style="margin-left:10px;"></span>
+
+#### 4. Translate into French:
+
+1. "He is talking about it (the problem)." → <textarea placeholder="Translation" rows="1" oninput="checkTranslation(this, 'Il en parle.')"></textarea><span style="margin-left:10px;"></span>
+2. "We are buying some (bread)." → <textarea placeholder="Translation" rows="1" oninput="checkTranslation(this, 'Nous en achetons.')"></textarea><span style="margin-left:10px;"></span>
+3. "She dreams about it (her trip)." → <textarea placeholder="Translation" rows="1" oninput="checkTranslation(this, 'Elle en rêve.')"></textarea><span style="margin-left:10px;"></span>
+4. "They want three (pieces)." → <textarea placeholder="Translation" rows="1" oninput="checkTranslation(this, 'Ils en veulent trois.')"></textarea><span style="margin-left:10px;"></span>
+5. "I am eating some (cheese)." → <textarea placeholder="Translation" rows="1" oninput="checkTranslation(this, 'J’en mange.')"></textarea><span style="margin-left:10px;"></span>
+6. "You are talking about it (the movie)." → <textarea placeholder="Translation" rows="1" oninput="checkTranslation(this, 'Tu en parles.')"></textarea><span style="margin-left:10px;"></span>
+7. "We are taking two (tickets)." → <textarea placeholder="Translation" rows="1" oninput="checkTranslation(this, 'Nous en prenons deux.')"></textarea><span style="margin-left:10px;"></span>
+8. "He is buying some (gifts)." → <textarea placeholder="Translation" rows="1" oninput="checkTranslation(this, 'Il en achète.')"></textarea><span style="margin-left:10px;"></span>
+9. "You want three (apples)." → <textarea placeholder="Translation" rows="1" oninput="checkTranslation(this, 'Tu en veux trois.')"></textarea><span style="margin-left:10px;"></span>
+10. "She is eating some (vegetables)." → <textarea placeholder="Translation" rows="1" oninput="checkTranslation(this, 'Elle en mange.')"></textarea><span style="margin-left:10px;"></span>
+
+<button onclick="showAnswers()">Show answers</button>
+<button onclick="refreshPage()">Try again</button>
+
+<p>
+Now, write 5 sentences in French using the pronoun <strong>'en'</strong> correctly. Try to use different verbs and quantities if possible. Type your sentences below:
+</p>
+<textarea rows="4" style="width:100%;" placeholder="Your sentences..."></textarea>
+
+
+
+---
+
+### Notes:
+- **'en' and quantities**: Always keep the number/quantity after the verb (J’en prends **trois**).
+- **Not for people**: For people, use 'de lui/d’elle/d’eux/d’elles', not 'en'.
+
+:::
+
+---
+
+::: {.content-visible when-profile="french"}
+
+### Comprendre le pronom 'en'
+
+Le pronom **'en'** remplace un nom introduit par **'de'** (du, de la, des, de l’, de, d’), ou une quantité.  
+Il répond à **« de quoi ? »**, **« de qui ? »**, **« combien ? »** après le verbe.
+
+**Règles clés :**
+
+1. **'en' remplace** : un nom précédé de **'de'** ou une quantité.
+
+2. **Place** : Avant le verbe (J’**en** parle).
+
+3. **Avec quantité** : On garde le nombre après le verbe (J’**en** prends **deux**).
+
+4. **Pas pour les personnes** : On utilise 'de lui/d’elle/d’eux/d’elles' pour les personnes.
+
+---
+
+### Exercices
+
+#### 1. Que remplace 'en' ? (répondez *de quoi ?* ou *combien ?*) :
+*(Exemple : "Je parle de mon projet. → de quoi ?")*
+
+1. Il revient **de Paris**. → <input type="text" placeholder="de quoi/qui" oninput="checkAnswer(this, 'de quoi')"><span style="margin-left:10px;"></span>
+2. Nous achetons **du pain**. → <input type="text" placeholder="de quoi/combien" oninput="checkAnswer(this, 'de quoi')"><span style="margin-left:10px;"></span>
+3. Tu bois **trois cafés**. → <input type="text" placeholder="combien" oninput="checkAnswer(this, 'combien')"><span style="margin-left:10px;"></span>
+4. Elle parle **de son travail**. → <input type="text" placeholder="de quoi" oninput="checkAnswer(this, 'de quoi')"><span style="margin-left:10px;"></span>
+5. Nous avons besoin **de repos**. → <input type="text" placeholder="de quoi" oninput="checkAnswer(this, 'de quoi')"><span style="margin-left:10px;"></span>
+6. Il mange **des fruits**. → <input type="text" placeholder="de quoi" oninput="checkAnswer(this, 'de quoi')"><span style="margin-left:10px;"></span>
+7. Vous prenez **deux billets**. → <input type="text" placeholder="combien" oninput="checkAnswer(this, 'combien')"><span style="margin-left:10px;"></span>
+8. Je rêve **de vacances**. → <input type="text" placeholder="de quoi" oninput="checkAnswer(this, 'de quoi')"><span style="margin-left:10px;"></span>
+9. Ils parlent **de leurs projets**. → <input type="text" placeholder="de quoi" oninput="checkAnswer(this, 'de quoi')"><span style="margin-left:10px;"></span>
+10. Tu veux **trois morceaux**. → <input type="text" placeholder="combien" oninput="checkAnswer(this, 'combien')"><span style="margin-left:10px;"></span>
+
+#### 2. Remplacez la partie soulignée par 'en' :
+
+1. Elle parle **de ses vacances**. → Elle <input type="text" placeholder="en" oninput="checkAnswer(this, 'en')"> parle.<span style="margin-left:10px;"></span>
+2. J’achète **du fromage**. → J’<input type="text" placeholder="en" oninput="checkAnswer(this, 'en')"> achète.<span style="margin-left:10px;"></span>
+3. Nous voulons **trois kilos de pommes**. → Nous <input type="text" placeholder="en" oninput="checkAnswer(this, 'en')"> voulons **trois kilos**.<span style="margin-left:10px;"></span>
+4. Il a besoin **de repos**. → Il <input type="text" placeholder="en" oninput="checkAnswer(this, 'en')"> a besoin.<span style="margin-left:10px;"></span>
+5. Tu bois **de l’eau**. → Tu <input type="text" placeholder="en" oninput="checkAnswer(this, 'en')"> bois.<span style="margin-left:10px;"></span>
+6. Nous mangeons **des légumes**. → Nous <input type="text" placeholder="en" oninput="checkAnswer(this, 'en')"> mangeons.<span style="margin-left:10px;"></span>
+7. Je prends **deux tranches**. → J’<input type="text" placeholder="en" oninput="checkAnswer(this, 'en')"> prends **deux**.<span style="margin-left:10px;"></span>
+8. Vous parlez **de ce film**. → Vous <input type="text" placeholder="en" oninput="checkAnswer(this, 'en')"> parlez.<span style="margin-left:10px;"></span>
+9. Ils achètent **des cadeaux**. → Ils <input type="text" placeholder="en" oninput="checkAnswer(this, 'en')"> achètent.<span style="margin-left:10px;"></span>
+10. Elle veut **trois pommes**. → Elle <input type="text" placeholder="en" oninput="checkAnswer(this, 'en')"> veut **trois**.<span style="margin-left:10px;"></span>
+
+#### 3. Corrigez les erreurs :
+
+1. "J’en mange des pommes." → <input type="text" placeholder="Correction" oninput="checkAnswer(this, 'J’en mange.')"><span style="margin-left:10px;"></span>
+2. "Elle en parle de son frère." → <input type="text" placeholder="Correction" oninput="checkAnswer(this, 'Elle en parle.')"><span style="margin-left:10px;"></span>
+3. "Nous en voulons trois pommes." → <input type="text" placeholder="Correction" oninput="checkAnswer(this, 'Nous en voulons trois.')"><span style="margin-left:10px;"></span>
+4. "Tu en bois de l’eau." → <input type="text" placeholder="Correction" oninput="checkAnswer(this, 'Tu en bois.')"><span style="margin-left:10px;"></span>
+5. "Il en rêve de vacances." → <input type="text" placeholder="Correction" oninput="checkAnswer(this, 'Il en rêve.')"><span style="margin-left:10px;"></span>
+6. "Vous en prenez deux billets." → <input type="text" placeholder="Correction" oninput="checkAnswer(this, 'Vous en prenez deux.')"><span style="margin-left:10px;"></span>
+7. "Je en parle de mon projet." → <input type="text" placeholder="Correction" oninput="checkAnswer(this, 'J’en parle.')"><span style="margin-left:10px;"></span>
+8. "Ils en achètent des cadeaux." → <input type="text" placeholder="Correction" oninput="checkAnswer(this, 'Ils en achètent.')"><span style="margin-left:10px;"></span>
+9. "Elle en veut trois pommes." → <input type="text" placeholder="Correction" oninput="checkAnswer(this, 'Elle en veut trois.')"><span style="margin-left:10px;"></span>
+10. "Nous en mangeons des légumes." → <input type="text" placeholder="Correction" oninput="checkAnswer(this, 'Nous en mangeons.')"><span style="margin-left:10px;"></span>
+
+#### 4. Traduisez en français :
+
+1. "He is talking about it (the problem)." → <textarea placeholder="Traduction" rows="1" oninput="checkTranslation(this, 'Il en parle.')"></textarea><span style="margin-left:10px;"></span>
+2. "We are buying some (bread)." → <textarea placeholder="Traduction" rows="1" oninput="checkTranslation(this, 'Nous en achetons.')"></textarea><span style="margin-left:10px;"></span>
+3. "She dreams about it (her trip)." → <textarea placeholder="Traduction" rows="1" oninput="checkTranslation(this, 'Elle en rêve.')"></textarea><span style="margin-left:10px;"></span>
+4. "They want three (pieces)." → <textarea placeholder="Traduction" rows="1" oninput="checkTranslation(this, 'Ils en veulent trois.')"></textarea><span style="margin-left:10px;"></span>
+5. "I am eating some (cheese)." → <textarea placeholder="Traduction" rows="1" oninput="checkTranslation(this, 'J’en mange.')"></textarea><span style="margin-left:10px;"></span>
+6. "You are talking about it (the movie)." → <textarea placeholder="Traduction" rows="1" oninput="checkTranslation(this, 'Tu en parles.')"></textarea><span style="margin-left:10px;"></span>
+7. "We are taking two (tickets)." → <textarea placeholder="Traduction" rows="1" oninput="checkTranslation(this, 'Nous en prenons deux.')"></textarea><span style="margin-left:10px;"></span>
+8. "He is buying some (gifts)." → <textarea placeholder="Traduction" rows="1" oninput="checkTranslation(this, 'Il en achète.')"></textarea><span style="margin-left:10px;"></span>
+9. "You want three (apples)." → <textarea placeholder="Traduction" rows="1" oninput="checkTranslation(this, 'Tu en veux trois.')"></textarea><span style="margin-left:10px;"></span>
+10. "She is eating some (vegetables)." → <textarea placeholder="Traduction" rows="1" oninput="checkTranslation(this, 'Elle en mange.')"></textarea><span style="margin-left:10px;"></span>
+
+<button onclick="showAnswers()">Voir les réponses</button>
+
+<p>
+Écrivez maintenant 5 phrases en français en utilisant correctement le pronom <strong>'en'</strong>. Essayez d’utiliser différents verbes et quantités si possible. Tapez vos phrases ci-dessous :
+</p>
+<textarea rows="4" style="width:100%;" placeholder="Vos phrases..."></textarea>
+<button onclick="refreshPage()">Nouvel essai</button>
+
+---
+
+### Notes :
+- **'en' et quantité** : Toujours garder le nombre après le verbe (J’en prends **trois**).
+- **Pas pour les personnes** : Pour les personnes, on utilise 'de lui/d’elle/d’eux/d’elles', pas 'en'.
+
+:::
+
+<script>
+function checkAnswer(input, correctAnswer) {
+    const span = input.nextElementSibling;
+    if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
+        span.textContent = "✓ Correct";
+        span.style.color = "green";
+    } else {
+        span.textContent = "";
+    }
+}
+
+function checkTranslation(textarea, correctTranslation) {
+    const span = textarea.nextElementSibling;
+    if (textarea.value.trim().toLowerCase() === correctTranslation.toLowerCase()) {
+        span.textContent = "✓ Correct";
+        span.style.color = "green";
+    } else {
+        span.textContent = "";
+    }
+}
+
+function showAnswers() {
+    document.querySelectorAll('input[type="text"], textarea').forEach(el => {
+        const correct = el.getAttribute('oninput')?.match(/'([^']+)'/)?.[1];
+        if (correct) {
+            const span = el.nextElementSibling;
+            span.textContent = `Réponse : ${correct}`;
+            span.style.color = "blue";
+        }
+    });
+}
+
+function refreshPage() {
+    location.reload();
+}
+</script>
+
+---

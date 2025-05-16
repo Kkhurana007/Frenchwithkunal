@@ -64,8 +64,14 @@ website:
     collapse-below: lg
     
     left:
-      - text: Articles de Blog
-        href: posts.qmd
+      - text: "Ressources"
+        menu: 
+          - text: "Articles de Blog"
+            href: posts.qmd
+            icon: file
+          - text: "Exercices"
+            href: exercises.qmd
+            icon: clipboard-check
       - text: "À Propos"
         href: about.qmd      
       - text: "Contactez-nous"

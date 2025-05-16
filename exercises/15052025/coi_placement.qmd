@@ -1,0 +1,207 @@
+---
+title: "Le Complément d'Objet Indirect (COI)"  
+author: "Kunal Khurana"  
+date: "05-15-2025"  
+categories: [B1, grammaire, COI, exercices]  
+image: "COI.png"  
+---
+
+::: {.content-visible when-profile="english"}
+
+### Understanding the Indirect Object (COI)  
+The **COI** answers **"to whom?" (à qui?)** or **"for whom?" (pour qui?)** after the verb. Pronouns (**lui, leur**) replace it.
+
+**Key rules:**  
+1. **Simple tenses:** Pronoun before verb (*Je **lui** parle*).  
+2. **Compound tenses:** Pronoun before auxiliary, no agreement (*Je **lui** ai parlé*).  
+3. **Two verbs:** Pronoun before first verb (*Je veux **lui** parler*).  
+4. **Imperative:**  
+    - Affirmative: After verb (*Parle-**lui***).  
+    - Negative: Before verb (*Ne **lui** parle pas*).  
+
+---
+
+### Exercises  
+
+#### 1. Simple Tenses (Present/Future/Imperfect)  
+Replace the COI with a pronoun:  
+1. Je parle [à Marie] (présent) → Je <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'lui')"> parle.<span style="margin-left:10px;"></span>  
+2. Nous écrivons [à nos amis] (présent) → Nous <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'leur')"> écrivons.<span style="margin-left:10px;"></span>  
+3. Tu téléphoneras [à ta mère] (futur) → Tu <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'lui')"> téléphoneras.<span style="margin-left:10px;"></span>  
+4. Elle répondait [à son frère] (imparfait) → Elle <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'lui')"> répondait.<span style="margin-left:10px;"></span>  
+5. Vous offrirez [à vos collègues] (futur) → Vous <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'leur')"> offrirez.<span style="margin-left:10px;"></span>  
+6. Ils expliquent [à l’enfant] (présent) → Ils <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'lui')"> expliquent.<span style="margin-left:10px;"></span>  
+7. Nous écrivions [à nos parents] (imparfait) → Nous <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'leur')"> écrivions.<span style="margin-left:10px;"></span>  
+8. Elle dira [à son professeur] (futur) → Elle <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'lui')"> dira.<span style="margin-left:10px;"></span>  
+9. Tu demandes [à Paul] (présent) → Tu <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'lui')"> demandes.<span style="margin-left:10px;"></span>  
+10. Ils répondaient [à leurs amis] (imparfait) → Ils <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'leur')"> répondaient.<span style="margin-left:10px;"></span>  
+
+#### 2. Compound Tenses (Passé Composé)  
+Replace with the correct pronoun:  
+1. J’ai parlé [à Lucie] → Je <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'lui ai')"> parlé.<span style="margin-left:10px;"></span>  
+2. Ils ont écrit [à leurs parents] → Ils <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'leur ont')"> écrit.<span style="margin-left:10px;"></span>  
+3. Tu as répondu [à ton ami] → Tu <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'lui as')"> répondu.<span style="margin-left:10px;"></span>  
+4. Nous avons téléphoné [à Sophie] → Nous <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'lui avons')"> téléphoné.<span style="margin-left:10px;"></span>  
+5. Elle a offert [à ses enfants] → Elle <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'leur a')"> offert.<span style="margin-left:10px;"></span>  
+6. Vous avez expliqué [à l’élève] → Vous <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'lui avez')"> expliqué.<span style="margin-left:10px;"></span>  
+7. Il a demandé [à son père] → Il <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'lui a')"> demandé.<span style="margin-left:10px;"></span>  
+8. Elles ont écrit [à leurs cousines] → Elles <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'leur ont')"> écrit.<span style="margin-left:10px;"></span>  
+9. J’ai offert [à mon frère] → Je <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'lui ai')"> offert.<span style="margin-left:10px;"></span>  
+10. Nous avons répondu [à nos amis] → Nous <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'leur avons')"> répondu.<span style="margin-left:10px;"></span>  
+
+#### 3. Two Verbs (Verb + Infinitive)  
+Place the pronoun correctly:  
+1. Je veux parler [à mon professeur] → Je <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'veux lui')"> parler.<span style="margin-left:10px;"></span>  
+2. Elle peut écrire [à ses parents] → Elle <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'peut leur')"> écrire.<span style="margin-left:10px;"></span>  
+3. Nous allons répondre [à l’enfant] → Nous <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'allons lui')"> répondre.<span style="margin-left:10px;"></span>  
+4. Tu dois expliquer [à ta sœur] → Tu <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'dois lui')"> expliquer.<span style="margin-left:10px;"></span>  
+5. Ils veulent offrir [à leurs amis] → Ils <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'veulent leur')"> offrir.<span style="margin-left:10px;"></span>  
+6. Vous pouvez téléphoner [à votre mère] → Vous <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'pouvez lui')"> téléphoner.<span style="margin-left:10px;"></span>  
+7. Je vais écrire [à Luc] → Je <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'vais lui')"> écrire.<span style="margin-left:10px;"></span>  
+8. Elle souhaite répondre [à son frère] → Elle <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'souhaite lui')"> répondre.<span style="margin-left:10px;"></span>  
+9. Nous préférons parler [à nos grands-parents] → Nous <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'préférons leur')"> parler.<span style="margin-left:10px;"></span>  
+10. Ils aiment expliquer [à leurs enfants] → Ils <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'aiment leur')"> expliquer.<span style="margin-left:10px;"></span>  
+
+#### 4. Imperative (Affirmative/Negative)  
+Transform into commands:  
+1. Parler [à Paul] ! (affirmative) → <input type="text" placeholder="Impératif" oninput="checkAnswer(this, 'Parle-lui')"> !<span style="margin-left:10px;"></span>  
+2. Ne pas répondre [à tes amis] ! (negative) → <input type="text" placeholder="Impératif" oninput="checkAnswer(this, 'Ne leur réponds pas')"> !<span style="margin-left:10px;"></span>  
+3. Écrire [à ta mère] ! (affirmative) → <input type="text" placeholder="Impératif" oninput="checkAnswer(this, 'Écris-lui')"> !<span style="margin-left:10px;"></span>  
+4. Ne pas téléphoner [à Lucie] ! (negative) → <input type="text" placeholder="Impératif" oninput="checkAnswer(this, 'Ne lui téléphone pas')"> !<span style="margin-left:10px;"></span>  
+5. Offrir [à vos collègues] ! (affirmative) → <input type="text" placeholder="Impératif" oninput="checkAnswer(this, 'Offre-leur')"> !<span style="margin-left:10px;"></span>  
+6. Ne pas expliquer [à l’enfant] ! (negative) → <input type="text" placeholder="Impératif" oninput="checkAnswer(this, 'Ne lui explique pas')"> !<span style="margin-left:10px;"></span>  
+7. Répondre [à la professeure] ! (affirmative) → <input type="text" placeholder="Impératif" oninput="checkAnswer(this, 'Réponds-lui')"> !<span style="margin-left:10px;"></span>  
+8. Ne pas offrir [à tes amis] ! (negative) → <input type="text" placeholder="Impératif" oninput="checkAnswer(this, 'Ne leur offre pas')"> !<span style="margin-left:10px;"></span>  
+9. Téléphoner [à ta sœur] ! (affirmative) → <input type="text" placeholder="Impératif" oninput="checkAnswer(this, 'Téléphone-lui')"> !<span style="margin-left:10px;"></span>  
+10. Ne pas parler [à vos voisins] ! (negative) → <input type="text" placeholder="Impératif" oninput="checkAnswer(this, 'Ne leur parle pas')"> !<span style="margin-left:10px;"></span>  
+
+---
+
+### To consolidate your learning
+
+Write a short paragraph (3-5 sentences) explaining what you have learned about the placement of the indirect object (COI) in French. Use your own words and, if possible, give an example.  
+<textarea rows="5" style="width:100%;" placeholder="Write here what you have learned..."></textarea>
+
+<button onclick="showAnswers()">Show answers</button>  
+<button onclick="refreshPage()">Try again</button>  
+
+---
+
+### Notes:  
+- **No agreement:** Past participles do not agree with preceding COI (*"Je lui ai parlé"*).  
+- **Imperative hyphen:** Affirmative only (*Parle-lui* vs. *Ne lui parle pas*).  
+
+:::
+
+---
+
+::: {.content-visible when-profile="french"}  
+
+### Règles de Placement du COI  
+1. **Temps simples :** Pronom avant le verbe (*Je **lui** parle*).  
+2. **Temps composés :** Pronom avant l’auxiliaire, pas d’accord (*Je **lui** ai parlé*).  
+3. **Deux verbes :** Pronom avant le premier verbe (*Je veux **lui** parler*).  
+4. **Impératif :**  
+    - Affirmatif : Après le verbe avec trait d’union (*Parle-**lui***).  
+    - Négatif : Avant le verbe (*Ne **lui** parle pas*).  
+
+---
+
+### Exercices  
+
+#### 1. Temps Simples (Présent/Futur/Imparfait)  
+Remplacez par un pronom :  
+1. Je parle [à Marie] → Je <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'lui')"> parle.<span style="margin-left:10px;"></span>  
+2. Nous écrivons [à nos amis] → Nous <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'leur')"> écrivons.<span style="margin-left:10px;"></span>  
+3. Tu téléphoneras [à ta mère] → Tu <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'lui')"> téléphoneras.<span style="margin-left:10px;"></span>  
+4. Elle répondait [à son frère] → Elle <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'lui')"> répondait.<span style="margin-left:10px;"></span>  
+5. Vous offrirez [à vos collègues] → Vous <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'leur')"> offrirez.<span style="margin-left:10px;"></span>  
+6. Ils expliquent [à l’enfant] → Ils <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'lui')"> expliquent.<span style="margin-left:10px;"></span>  
+7. Nous écrivions [à nos parents] → Nous <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'leur')"> écrivions.<span style="margin-left:10px;"></span>  
+8. Elle dira [à son professeur] → Elle <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'lui')"> dira.<span style="margin-left:10px;"></span>  
+9. Tu demandes [à Paul] → Tu <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'lui')"> demandes.<span style="margin-left:10px;"></span>  
+10. Ils répondaient [à leurs amis] → Ils <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'leur')"> répondaient.<span style="margin-left:10px;"></span>  
+
+#### 2. Temps Composés (Passé Composé)  
+Remplacez par le pronom :  
+1. J’ai parlé [à Lucie] → Je <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'lui ai')"> parlé.<span style="margin-left:10px;"></span>  
+2. Ils ont écrit [à leurs parents] → Ils <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'leur ont')"> écrit.<span style="margin-left:10px;"></span>  
+3. Tu as répondu [à ton ami] → Tu <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'lui as')"> répondu.<span style="margin-left:10px;"></span>  
+4. Nous avons téléphoné [à Sophie] → Nous <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'lui avons')"> téléphoné.<span style="margin-left:10px;"></span>  
+5. Elle a offert [à ses enfants] → Elle <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'leur a')"> offert.<span style="margin-left:10px;"></span>  
+6. Vous avez expliqué [à l’élève] → Vous <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'lui avez')"> expliqué.<span style="margin-left:10px;"></span>  
+7. Il a demandé [à son père] → Il <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'lui a')"> demandé.<span style="margin-left:10px;"></span>  
+8. Elles ont écrit [à leurs cousines] → Elles <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'leur ont')"> écrit.<span style="margin-left:10px;"></span>  
+9. J’ai offert [à mon frère] → Je <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'lui ai')"> offert.<span style="margin-left:10px;"></span>  
+10. Nous avons répondu [à nos amis] → Nous <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'leur avons')"> répondu.<span style="margin-left:10px;"></span>  
+
+#### 3. Deux Verbes (Verbe + Infinitif)  
+Remplacez par le pronom seulement :  
+1. Je veux parler [à mon professeur] → Je veux <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'lui')"> parler.<span style="margin-left:10px;"></span>  
+2. Elle peut écrire [à ses parents] → Elle peut <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'leur')"> écrire.<span style="margin-left:10px;"></span>  
+3. Nous allons répondre [à l’enfant] → Nous allons <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'lui')"> répondre.<span style="margin-left:10px;"></span>  
+4. Tu dois expliquer [à ta sœur] → Tu dois <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'lui')"> expliquer.<span style="margin-left:10px;"></span>  
+5. Ils veulent offrir [à leurs amis] → Ils veulent <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'leur')"> offrir.<span style="margin-left:10px;"></span>  
+6. Vous pouvez téléphoner [à votre mère] → Vous pouvez <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'lui')"> téléphoner.<span style="margin-left:10px;"></span>  
+7. Je vais écrire [à Luc] → Je vais <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'lui')"> écrire.<span style="margin-left:10px;"></span>  
+8. Elle souhaite répondre [à son frère] → Elle souhaite <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'lui')"> répondre.<span style="margin-left:10px;"></span>  
+9. Nous préférons parler [à nos grands-parents] → Nous préférons <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'leur')"> parler.<span style="margin-left:10px;"></span>  
+10. Ils aiment expliquer [à leurs enfants] → Ils aiment <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'leur')"> expliquer.<span style="margin-left:10px;"></span>  
+
+#### 4. Impératif  
+Transformez :  
+1. Parler [à Paul] ! → <input type="text" placeholder="Impératif" oninput="checkAnswer(this, 'Parle-lui')"> !<span style="margin-left:10px;"></span>  
+2. Ne pas répondre [à tes amis] ! → <input type="text" placeholder="Impératif" oninput="checkAnswer(this, 'Ne leur réponds pas')"> !<span style="margin-left:10px;"></span>  
+3. Écrire [à ta mère] ! → <input type="text" placeholder="Impératif" oninput="checkAnswer(this, 'Écris-lui')"> !<span style="margin-left:10px;"></span>  
+4. Ne pas téléphoner [à Lucie] ! → <input type="text" placeholder="Impératif" oninput="checkAnswer(this, 'Ne lui téléphone pas')"> !<span style="margin-left:10px;"></span>  
+5. Offrir [à vos collègues] ! → <input type="text" placeholder="Impératif" oninput="checkAnswer(this, 'Offre-leur')"> !<span style="margin-left:10px;"></span>  
+6. Ne pas expliquer [à l’enfant] ! → <input type="text" placeholder="Impératif" oninput="checkAnswer(this, 'Ne lui explique pas')"> !<span style="margin-left:10px;"></span>  
+7. Répondre [à la professeure] ! → <input type="text" placeholder="Impératif" oninput="checkAnswer(this, 'Réponds-lui')"> !<span style="margin-left:10px;"></span>  
+8. Ne pas offrir [à tes amis] ! → <input type="text" placeholder="Impératif" oninput="checkAnswer(this, 'Ne leur offre pas')"> !<span style="margin-left:10px;"></span>  
+9. Téléphoner [à ta sœur] ! → <input type="text" placeholder="Impératif" oninput="checkAnswer(this, 'Téléphone-lui')"> !<span style="margin-left:10px;"></span>  
+10. Ne pas parler [à vos voisins] ! → <input type="text" placeholder="Impératif" oninput="checkAnswer(this, 'Ne leur parle pas')"> !<span style="margin-left:10px;"></span>  
+
+---
+
+### Pour consolider votre apprentissage
+
+Rédigez un court paragraphe (3-5 phrases) expliquant ce que vous avez retenu sur le placement du COI en français. Utilisez vos propres mots et, si possible, donnez un exemple.  
+<textarea rows="5" style="width:100%;" placeholder="Écrivez ici ce que vous avez appris..."></textarea>
+
+<button onclick="showAnswers()">Voir les réponses</button>  
+<button onclick="refreshPage()">Nouvel essai</button>  
+
+---
+
+### Notes :  
+- **Pas d’accord :** Le participe passé ne s’accorde pas avec le COI (*"Je lui ai parlé"*).  
+- **Impératif :** Trait d’union à l’affirmatif seulement.  
+
+:::
+
+<script>
+function checkAnswer(input, correctAnswer) {
+     const span = input.nextElementSibling;
+     if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
+          span.textContent = "✓ Correct";
+          span.style.color = "green";
+     } else {
+          span.textContent = "";
+     }
+}
+
+function showAnswers() {
+     document.querySelectorAll('input[type="text"]').forEach(el => {
+          const correct = el.getAttribute('oninput')?.match(/'([^']+)'/)?.[1];
+          if (correct) {
+                const span = el.nextElementSibling;
+                span.textContent = `Réponse : ${correct}`;
+                span.style.color = "blue";
+          }
+     });
+}
+
+function refreshPage() {
+     location.reload();
+}
+</script>

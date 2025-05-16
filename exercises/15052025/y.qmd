@@ -1,0 +1,212 @@
+---
+title: "Le Pronom Complément 'y' – Emploi et Exercices"
+author: "Kunal Khurana"
+date: "05-15-2025"
+categories: [B1, grammaire, pronom, y, exercices]
+image: "y.png"
+---
+
+::: {.content-visible when-profile="english"}
+
+### Understanding the Pronoun 'y'
+
+The pronoun **'y'** replaces a place or a thing introduced by **'à'** (to, at, in), or other prepositions of place.  
+It answers **"where?"** or **"to what?"** after the verb.
+
+**Key rules:**
+
+1. **'y' replaces**: a place or a thing introduced by **'à'**, or a preposition of place (chez, dans, sur, en, etc.).
+
+2. **Placement**: Before the verb (J’**y** vais).
+
+3. **Never use 'y' for people**: Use 'à lui/elle/eux/elles' for people.
+
+---
+
+### Exercises
+
+#### 1. Find what 'y' replaces (underline and answer *où ?* or *à quoi ?*):
+*(Example: "Je vais à l'école. → où ?")*
+
+1. Il va **à Paris**. → <input type="text" placeholder="où, à quoi" oninput="checkAnswer(this, 'où')"><span style="margin-left:10px;"></span>
+2. Nous pensons **à notre avenir**. → <input type="text" placeholder="à quoi, où" oninput="checkAnswer(this, 'à quoi')"><span style="margin-left:10px;"></span>
+3. Tu restes **chez tes amis**. → <input type="text" placeholder="où" oninput="checkAnswer(this, 'où')"><span style="margin-left:10px;"></span>
+4. Elle répond **à la question**. → <input type="text" placeholder="à quoi" oninput="checkAnswer(this, 'à quoi')"><span style="margin-left:10px;"></span>
+5. Nous entrons **dans la salle**. → <input type="text" placeholder="où" oninput="checkAnswer(this, 'où')"><span style="margin-left:10px;"></span>
+6. Il participe **à un concours**. → <input type="text" placeholder="à quoi" oninput="checkAnswer(this, 'à quoi')"><span style="margin-left:10px;"></span>
+7. Vous retournez **en France**. → <input type="text" placeholder="où" oninput="checkAnswer(this, 'où')"><span style="margin-left:10px;"></span>
+8. Je pense **à mon travail**. → <input type="text" placeholder="à quoi" oninput="checkAnswer(this, 'à quoi')"><span style="margin-left:10px;"></span>
+9. Ils montent **sur la scène**. → <input type="text" placeholder="où" oninput="checkAnswer(this, 'où')"><span style="margin-left:10px;"></span>
+10. Tu assistes **à la réunion**. → <input type="text" placeholder="à quoi" oninput="checkAnswer(this, 'à quoi')"><span style="margin-left:10px;"></span>
+
+#### 2. Replace the underlined part with 'y':
+
+1. Elle va **à la bibliothèque**. → Elle <input type="text" placeholder="..." oninput="checkAnswer(this, 'y')"> va.<span style="margin-left:10px;"></span>
+2. J’entre **dans la maison**. → J’<input type="text" placeholder="..." oninput="checkAnswer(this, 'y')"> entre.<span style="margin-left:10px;"></span>
+3. Nous pensons **à notre projet**. → Nous <input type="text" placeholder="..." oninput="checkAnswer(this, 'y')"> pensons.<span style="margin-left:10px;"></span>
+4. Il participe **à la compétition**. → Il <input type="text" placeholder="..." oninput="checkAnswer(this, 'y')"> participe.<span style="margin-left:10px;"></span>
+5. Tu restes **chez Paul**. → Tu <input type="text" placeholder="..." oninput="checkAnswer(this, 'y')"> restes.<span style="margin-left:10px;"></span>
+6. Nous allons **en Italie**. → Nous <input type="text" placeholder="..." oninput="checkAnswer(this, 'y')"> allons.<span style="margin-left:10px;"></span>
+7. Je réponds **à la question**. → J’<input type="text" placeholder="..." oninput="checkAnswer(this, 'y')"> réponds.<span style="margin-left:10px;"></span>
+8. Vous retournez **à l’école**. → Vous <input type="text" placeholder="..." oninput="checkAnswer(this, 'y')"> retournez.<span style="margin-left:10px;"></span>
+9. Ils montent **sur la montagne**. → Ils <input type="text" placeholder="..." oninput="checkAnswer(this, 'y')"> montent.<span style="margin-left:10px;"></span>
+10. Elle pense **à son avenir**. → Elle <input type="text" placeholder="..." oninput="checkAnswer(this, 'y')"> pense.<span style="margin-left:10px;"></span>
+
+#### 3. Correct the errors:
+
+1. "J’y vais à Paris." → <input type="text" placeholder="Correction" oninput="checkAnswer(this, 'J’y vais.')"><span style="margin-left:10px;"></span>
+2. "Elle y pense à son travail." → <input type="text" placeholder="Correction" oninput="checkAnswer(this, 'Elle y pense.')"><span style="margin-left:10px;"></span>
+3. "Nous y entrons dans la salle." → <input type="text" placeholder="Correction" oninput="checkAnswer(this, 'Nous y entrons.')"><span style="margin-left:10px;"></span>
+4. "Tu y restes chez tes amis." → <input type="text" placeholder="Correction" oninput="checkAnswer(this, 'Tu y restes.')"><span style="margin-left:10px;"></span>
+5. "Il y participe à un concours." → <input type="text" placeholder="Correction" oninput="checkAnswer(this, 'Il y participe.')"><span style="margin-left:10px;"></span>
+6. "Vous y retournez en France." → <input type="text" placeholder="Correction" oninput="checkAnswer(this, 'Vous y retournez.')"><span style="margin-left:10px;"></span>
+7. "Je y pense à mon projet." → <input type="text" placeholder="Correction" oninput="checkAnswer(this, 'J’y pense.')"><span style="margin-left:10px;"></span>
+8. "Ils y montent sur la scène." → <input type="text" placeholder="Correction" oninput="checkAnswer(this, 'Ils y montent.')"><span style="margin-left:10px;"></span>
+9. "Elle y répond à la question." → <input type="text" placeholder="Correction" oninput="checkAnswer(this, 'Elle y répond.')"><span style="margin-left:10px;"></span>
+10. "Nous y allons en Italie." → <input type="text" placeholder="Correction" oninput="checkAnswer(this, 'Nous y allons.')"><span style="margin-left:10px;"></span>
+
+#### 4. Translate into French:
+
+1. "He is going there (to Paris)." → <textarea placeholder="Translation" rows="1" oninput="checkTranslation(this, 'Il y va.')"></textarea><span style="margin-left:10px;"></span>
+2. "We are thinking about it (the project)." → <textarea placeholder="Translation" rows="1" oninput="checkTranslation(this, 'Nous y pensons.')"></textarea><span style="margin-left:10px;"></span>
+3. "She is entering (the room)." → <textarea placeholder="Translation" rows="1" oninput="checkTranslation(this, 'Elle y entre.')"></textarea><span style="margin-left:10px;"></span>
+4. "They are participating (in the contest)." → <textarea placeholder="Translation" rows="1" oninput="checkTranslation(this, 'Ils y participent.')"></textarea><span style="margin-left:10px;"></span>
+5. "I am staying there (at Paul’s)." → <textarea placeholder="Translation" rows="1" oninput="checkTranslation(this, 'J’y reste.')"></textarea><span style="margin-left:10px;"></span>
+6. "You are going there (to Italy)." → <textarea placeholder="Translation" rows="1" oninput="checkTranslation(this, 'Tu y vas.')"></textarea><span style="margin-left:10px;"></span>
+7. "We are returning there (to school)." → <textarea placeholder="Translation" rows="1" oninput="checkTranslation(this, 'Nous y retournons.')"></textarea><span style="margin-left:10px;"></span>
+8. "He is thinking about it (his future)." → <textarea placeholder="Translation" rows="1" oninput="checkTranslation(this, 'Il y pense.')"></textarea><span style="margin-left:10px;"></span>
+9. "You are answering it (the question)." → <textarea placeholder="Translation" rows="1" oninput="checkTranslation(this, 'Tu y réponds.')"></textarea><span style="margin-left:10px;"></span>
+10. "She is going there (to the library)." → <textarea placeholder="Translation" rows="1" oninput="checkTranslation(this, 'Elle y va.')"></textarea><span style="margin-left:10px;"></span>
+
+<button onclick="showAnswers()">Show answers</button>
+<button onclick="refreshPage()">Try again</button>
+
+<p>
+Now, write 5 sentences in French using the pronoun <strong>'y'</strong> correctly. Try to use different verbs and places or things if possible. Type your sentences below:
+</p>
+<textarea rows="4" style="width:100%;" placeholder="Your sentences..."></textarea>
+
+
+:::
+
+::: {.content-visible when-profile="french"}
+
+### Comprendre le pronom 'y'
+
+Le pronom **'y'** remplace un lieu ou une chose introduite par **'à'** (à, au, à la, à l’, aux), ou une préposition de lieu (chez, dans, sur, en, etc.).  
+Il répond à **« où ? »** ou **« à quoi ? »** après le verbe.
+
+**Règles clés :**
+
+1. **'y' remplace** : un lieu ou une chose introduite par **'à'**, ou une préposition de lieu (chez, dans, sur, en, etc.).
+
+2. **Place** : Avant le verbe (J’**y** vais).
+
+3. **Jamais pour les personnes** : On utilise 'à lui/elle/eux/elles' pour les personnes.
+
+---
+
+### Exercices
+
+#### 1. Que remplace 'y' ? (répondez *où ?* ou *à quoi ?*) :
+*(Exemple : "Je vais à l'école. → où ?")*
+
+1. Il va **à Paris**. → <input type="text" placeholder="où/à quoi" oninput="checkAnswer(this, 'où')"><span style="margin-left:10px;"></span>
+2. Nous pensons **à notre avenir**. → <input type="text" placeholder="à quoi/où" oninput="checkAnswer(this, 'à quoi')"><span style="margin-left:10px;"></span>
+3. Tu restes **chez tes amis**. → <input type="text" placeholder="où" oninput="checkAnswer(this, 'où')"><span style="margin-left:10px;"></span>
+4. Elle répond **à la question**. → <input type="text" placeholder="à quoi" oninput="checkAnswer(this, 'à quoi')"><span style="margin-left:10px;"></span>
+5. Nous entrons **dans la salle**. → <input type="text" placeholder="où" oninput="checkAnswer(this, 'où')"><span style="margin-left:10px;"></span>
+6. Il participe **à un concours**. → <input type="text" placeholder="à quoi" oninput="checkAnswer(this, 'à quoi')"><span style="margin-left:10px;"></span>
+7. Vous retournez **en France**. → <input type="text" placeholder="où" oninput="checkAnswer(this, 'où')"><span style="margin-left:10px;"></span>
+8. Je pense **à mon travail**. → <input type="text" placeholder="à quoi" oninput="checkAnswer(this, 'à quoi')"><span style="margin-left:10px;"></span>
+9. Ils montent **sur la scène**. → <input type="text" placeholder="où" oninput="checkAnswer(this, 'où')"><span style="margin-left:10px;"></span>
+10. Tu assistes **à la réunion**. → <input type="text" placeholder="à quoi" oninput="checkAnswer(this, 'à quoi')"><span style="margin-left:10px;"></span>
+
+#### 2. Remplacez la partie soulignée par 'y' :
+
+1. Elle va **à la bibliothèque**. → Elle <input type="text" placeholder="y" oninput="checkAnswer(this, 'y')"> va.<span style="margin-left:10px;"></span>
+2. J’entre **dans la maison**. → J’<input type="text" placeholder="y" oninput="checkAnswer(this, 'y')"> entre.<span style="margin-left:10px;"></span>
+3. Nous pensons **à notre projet**. → Nous <input type="text" placeholder="y" oninput="checkAnswer(this, 'y')"> pensons.<span style="margin-left:10px;"></span>
+4. Il participe **à la compétition**. → Il <input type="text" placeholder="y" oninput="checkAnswer(this, 'y')"> participe.<span style="margin-left:10px;"></span>
+5. Tu restes **chez Paul**. → Tu <input type="text" placeholder="y" oninput="checkAnswer(this, 'y')"> restes.<span style="margin-left:10px;"></span>
+6. Nous allons **en Italie**. → Nous <input type="text" placeholder="y" oninput="checkAnswer(this, 'y')"> allons.<span style="margin-left:10px;"></span>
+7. Je réponds **à la question**. → J’<input type="text" placeholder="y" oninput="checkAnswer(this, 'y')"> réponds.<span style="margin-left:10px;"></span>
+8. Vous retournez **à l’école**. → Vous <input type="text" placeholder="y" oninput="checkAnswer(this, 'y')"> retournez.<span style="margin-left:10px;"></span>
+9. Ils montent **sur la montagne**. → Ils <input type="text" placeholder="y" oninput="checkAnswer(this, 'y')"> montent.<span style="margin-left:10px;"></span>
+10. Elle pense **à son avenir**. → Elle <input type="text" placeholder="y" oninput="checkAnswer(this, 'y')"> pense.<span style="margin-left:10px;"></span>
+
+#### 3. Corrigez les erreurs :
+
+1. "J’y vais à Paris." → <input type="text" placeholder="Correction" oninput="checkAnswer(this, 'J’y vais.')"><span style="margin-left:10px;"></span>
+2. "Elle y pense à son travail." → <input type="text" placeholder="Correction" oninput="checkAnswer(this, 'Elle y pense.')"><span style="margin-left:10px;"></span>
+3. "Nous y entrons dans la salle." → <input type="text" placeholder="Correction" oninput="checkAnswer(this, 'Nous y entrons.')"><span style="margin-left:10px;"></span>
+4. "Tu y restes chez tes amis." → <input type="text" placeholder="Correction" oninput="checkAnswer(this, 'Tu y restes.')"><span style="margin-left:10px;"></span>
+5. "Il y participe à un concours." → <input type="text" placeholder="Correction" oninput="checkAnswer(this, 'Il y participe.')"><span style="margin-left:10px;"></span>
+6. "Vous y retournez en France." → <input type="text" placeholder="Correction" oninput="checkAnswer(this, 'Vous y retournez.')"><span style="margin-left:10px;"></span>
+7. "Je y pense à mon projet." → <input type="text" placeholder="Correction" oninput="checkAnswer(this, 'J’y pense.')"><span style="margin-left:10px;"></span>
+8. "Ils y montent sur la scène." → <input type="text" placeholder="Correction" oninput="checkAnswer(this, 'Ils y montent.')"><span style="margin-left:10px;"></span>
+9. "Elle y répond à la question." → <input type="text" placeholder="Correction" oninput="checkAnswer(this, 'Elle y répond.')"><span style="margin-left:10px;"></span>
+10. "Nous y allons en Italie." → <input type="text" placeholder="Correction" oninput="checkAnswer(this, 'Nous y allons.')"><span style="margin-left:10px;"></span>
+
+#### 4. Traduisez en français :
+
+1. "He is going there (to Paris)." → <textarea placeholder="Traduction" rows="1" oninput="checkTranslation(this, 'Il y va.')"></textarea><span style="margin-left:10px;"></span>
+2. "We are thinking about it (the project)." → <textarea placeholder="Traduction" rows="1" oninput="checkTranslation(this, 'Nous y pensons.')"></textarea><span style="margin-left:10px;"></span>
+3. "She is entering (the room)." → <textarea placeholder="Traduction" rows="1" oninput="checkTranslation(this, 'Elle y entre.')"></textarea><span style="margin-left:10px;"></span>
+4. "They are participating (in the contest)." → <textarea placeholder="Traduction" rows="1" oninput="checkTranslation(this, 'Ils y participent.')"></textarea><span style="margin-left:10px;"></span>
+5. "I am staying there (at Paul’s)." → <textarea placeholder="Traduction" rows="1" oninput="checkTranslation(this, 'J’y reste.')"></textarea><span style="margin-left:10px;"></span>
+6. "You are going there (to Italy)." → <textarea placeholder="Traduction" rows="1" oninput="checkTranslation(this, 'Tu y vas.')"></textarea><span style="margin-left:10px;"></span>
+7. "We are returning there (to school)." → <textarea placeholder="Traduction" rows="1" oninput="checkTranslation(this, 'Nous y retournons.')"></textarea><span style="margin-left:10px;"></span>
+8. "He is thinking about it (his future)." → <textarea placeholder="Traduction" rows="1" oninput="checkTranslation(this, 'Il y pense.')"></textarea><span style="margin-left:10px;"></span>
+9. "You are answering it (the question)." → <textarea placeholder="Traduction" rows="1" oninput="checkTranslation(this, 'Tu y réponds.')"></textarea><span style="margin-left:10px;"></span>
+10. "She is going there (to the library)." → <textarea placeholder="Traduction" rows="1" oninput="checkTranslation(this, 'Elle y va.')"></textarea><span style="margin-left:10px;"></span>
+
+<button onclick="showAnswers()">Voir les réponses</button>
+
+<p>
+Écrivez maintenant 5 phrases en français en utilisant correctement le pronom <strong>'y'</strong>. Essayez d’utiliser différents verbes et lieux ou choses si possible. Tapez vos phrases ci-dessous :
+</p>
+<textarea rows="4" style="width:100%;" placeholder="Vos phrases..."></textarea>
+<button onclick="refreshPage()">Nouvel essai</button>
+
+
+:::
+
+<script>
+function checkAnswer(input, correctAnswer) {
+    const span = input.nextElementSibling;
+    if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
+        span.textContent = "✓ Correct";
+        span.style.color = "green";
+    } else {
+        span.textContent = "";
+    }
+}
+
+function checkTranslation(textarea, correctTranslation) {
+    const span = textarea.nextElementSibling;
+    if (textarea.value.trim().toLowerCase() === correctTranslation.toLowerCase()) {
+        span.textContent = "✓ Correct";
+        span.style.color = "green";
+    } else {
+        span.textContent = "";
+    }
+}
+
+function showAnswers() {
+    document.querySelectorAll('input[type="text"], textarea').forEach(el => {
+        const correct = el.getAttribute('oninput')?.match(/'([^']+)'/)?.[1];
+        if (correct) {
+            const span = el.nextElementSibling;
+            span.textContent = `Réponse : ${correct}`;
+            span.style.color = "blue";
+        }
+    });
+}
+
+function refreshPage() {
+    location.reload();
+}
+</script>
+
+---
