@@ -254,8 +254,84 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<section id="exercice-les-parties-du-corps" class="level1">
+<h1>Exercice : Les Parties du Corps</h1>
+<section id="nommez-les-parties-du-corps" class="level3">
+<h3 class="anchored" data-anchor-id="nommez-les-parties-du-corps">1. Nommez les parties du corps</h3>
+<p><strong>Glissez les mots français sur la bonne partie du corps dans l’image :</strong><br>
+<em>(Glisser-déposer simulé avec retour visuel)</em></p>
+<ul>
+<li><strong>Banque de mots :</strong><br>
+<code>la tête</code> | <code>les yeux</code> | <code>le nez</code> | <code>la bouche</code> | <code>l'oreille</code> (f) | <code>la main</code> | <code>le pied</code> | <code>le bras</code> | <code>la jambe</code></li>
+</ul>
+<p><strong>Instructions :</strong><br>
+Associez chaque mot à son numéro sur l’image ci-dessous :<br>
+1. <input type="text" placeholder="Mot français" oninput="verifierPartieCorps(this, 'la tête')"> (tête)<br>
+2. <input type="text" placeholder="Mot français" oninput="verifierPartieCorps(this, 'les yeux')"> (yeux)<br>
+3. <input type="text" placeholder="Mot français" oninput="verifierPartieCorps(this, 'le nez')"> (nez)<br>
+… <em>(ajoutez-en d’autres si besoin)</em></p>
+<p><em>(Remarque : dans une vraie activité, vous ajouteriez une image avec les parties numérotées.)</em></p>
+<hr>
+</section>
+<section id="complétez-les-phrases" class="level3">
+<h3 class="anchored" data-anchor-id="complétez-les-phrases">2. Complétez les phrases</h3>
+<p>Complétez avec la bonne partie du corps en français :<br>
+- Je vois avec <strong><input type="text" placeholder="?" oninput="verifierReponse(this, 'les yeux')"></strong>.<br>
+- J’écoute avec <strong><input type="text" placeholder="?" oninput="verifierReponse(this, 'les oreilles')"></strong>.<br>
+- Je marche avec <strong><input type="text" placeholder="?" oninput="verifierReponse(this, 'les pieds')"></strong>.</p>
+<hr>
+</section>
+<section id="singulier-ou-pluriel" class="level3">
+<h3 class="anchored" data-anchor-id="singulier-ou-pluriel">3. Singulier ou pluriel ?</h3>
+<p>Écrivez le pluriel de ces parties du corps (la plupart vont par deux !) :<br>
+- <em>la main</em> → <input type="text" placeholder="?" oninput="verifierReponse(this, 'les mains')"><br>
+- <em>le pied</em> → <input type="text" placeholder="?" oninput="verifierReponse(this, 'les pieds')"><br>
+- <em>l’œil</em> → <input type="text" placeholder="?" oninput="verifierReponse(this, 'les yeux')"> <em>(irrégulier !)</em></p>
+<hr>
+</section>
+<section id="défi-créatif" class="level3">
+<h3 class="anchored" data-anchor-id="défi-créatif">4. Défi créatif ✍️</h3>
+<p><strong>Décrivez un monstre en français !</strong> Utilisez au moins 5 parties du corps et des adjectifs :<br>
+Exemple : <em>« Mon monstre a trois yeux, une grande bouche et de longues jambes. »</em></p>
+<textarea placeholder="Écrivez ici..." rows="4" cols="50"></textarea>
+<button onclick="donnerRetour()">
+Vérifier
+</button>
+<p><span id="retour" style="color: green;"></span></p>
+<script>
+function verifierPartieCorps(input, bonneReponse) {
+  if (input.value.trim().toLowerCase() === bonneReponse) {
+    input.style.backgroundColor = "#e6ffe6";
+  } else {
+    input.style.backgroundColor = "#ffe6e6";
+  }
+}
+
+function verifierReponse(input, bonneReponse) {
+  if (input.value.trim().toLowerCase() === bonneReponse) {
+    input.style.backgroundColor = "#e6ffe6";
+  } else {
+    input.style.backgroundColor = "#ffe6e6";
+  }
+}
+
+function donnerRetour() {
+  const texte = document.querySelector("textarea").value;
+  const retour = document.getElementById("retour");
+  const parties = ["tête", "yeux", "nez", "bouche", "main", "pied", "bras", "jambe", "oreille"];
+  const nb = parties.filter(partie => texte.toLowerCase().includes(partie)).length;
+  
+  if (nb >= 5) {
+    retour.textContent = `Excellent ! Vous avez utilisé ${nb} parties du corps.`;
+  } else {
+    retour.textContent = `Presque ! Ajoutez encore ${5 - nb} parties du corps.`;
+  }
+}
+</script>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

@@ -82,11 +82,13 @@ ul.task-list li input[type="checkbox"] {
 
 
 <meta property="og:title" content="Exercises with Avoir – Français avec Kunal">
+<meta property="og:description" content="">
 <meta property="og:image" content="https://frenchwithkunal.ca/exercises/19052025/avoir.png">
 <meta property="og:site_name" content="Français avec Kunal">
 <meta property="og:image:height" content="354">
 <meta property="og:image:width" content="502">
 <meta name="twitter:title" content="Exercises with Avoir – Français avec Kunal">
+<meta name="twitter:description" content="">
 <meta name="twitter:image" content="https://frenchwithkunal.ca/exercises/19052025/avoir.png">
 <meta name="twitter:image-height" content="354">
 <meta name="twitter:image-width" content="502">
@@ -254,8 +256,115 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<section id="exercice-pratiquer-le-verbe-avoir" class="level1">
+<h1>Exercice : Pratiquer le verbe “Avoir”</h1>
+<p>Voici quelques exercices pour pratiquer la conjugaison du verbe <strong>avoir</strong> en français&nbsp;:</p>
+<ol type="1">
+<li>Conjuguez le verbe “avoir” au présent pour les sujets suivants&nbsp;:
+<ul>
+<li>J’ <input type="text" placeholder="Entrez la réponse ici" oninput="verifierReponse(this, 'ai')"> un livre.</li>
+<li>Tu <input type="text" placeholder="Entrez la réponse ici" oninput="verifierReponse(this, 'as')"> une voiture.</li>
+<li>Il/Elle <input type="text" placeholder="Entrez la réponse ici" oninput="verifierReponse(this, 'a')"> un chien.</li>
+<li>Nous <input type="text" placeholder="Entrez la réponse ici" oninput="verifierReponse(this, 'avons')"> une maison.</li>
+<li>Vous <input type="text" placeholder="Entrez la réponse ici" oninput="verifierReponse(this, 'avez')"> un jardin.</li>
+<li>Ils/Elles <input type="text" placeholder="Entrez la réponse ici" oninput="verifierReponse(this, 'ont')"> des amis.</li>
+</ul></li>
+</ol>
+<p><br></p>
+<ol start="2" type="1">
+<li>Complétez avec la bonne forme de “avoir” au passé composé&nbsp;:
+<ul>
+<li>Hier, j’ <input type="text" placeholder="Entrez la réponse ici" oninput="verifierReponse(this, 'ai eu')"> une idée géniale.</li>
+<li>La semaine dernière, nous <input type="text" placeholder="Entrez la réponse ici" oninput="verifierReponse(this, 'avons eu')"> une réunion importante.</li>
+<li>Est-ce que tu <input type="text" placeholder="Entrez la réponse ici" oninput="verifierReponse(this, 'as eu')"> des nouvelles de lui ?</li>
+<li>Ils/Elles <input type="text" placeholder="Entrez la réponse ici" oninput="verifierReponse(this, 'ont eu')"> un accident.</li>
+<li>Vous <input type="text" placeholder="Entrez la réponse ici" oninput="verifierReponse(this, 'avez eu')"> une surprise hier.</li>
+<li>Il/Elle <input type="text" placeholder="Entrez la réponse ici" oninput="verifierReponse(this, 'a eu')"> un problème avec son ordinateur.</li>
+</ul></li>
+</ol>
+<script>
+function verifierReponse(input, bonneReponse) {
+    const reponseUtilisateur = input.value.trim().toLowerCase();
+    let feedback = input.nextElementSibling;
+    if (!feedback) {
+        feedback = document.createElement('span');
+        feedback.style.marginLeft = '10px';
+        input.parentNode.appendChild(feedback);
+    }
+    if (reponseUtilisateur === bonneReponse) {
+        feedback.textContent = "Correct ! +10 points";
+        feedback.style.color = "green";
+    } else if (reponseUtilisateur) {
+        feedback.textContent = "Essayez encore !";
+        feedback.style.color = "red";
+    } else {
+        feedback.textContent = "";
+    }
+}
+
+function verifierToutesReponses() {
+    const inputs = document.querySelectorAll('input[type="text"]');
+    inputs.forEach(input => {
+        const bonneReponse = input.getAttribute('oninput').match(/'([^']+)'/)[1];
+        verifierReponse(input, bonneReponse);
+    });
+}
+</script>
+<ol start="3" type="1">
+<li><p>Traduisez les phrases suivantes en français en utilisant le verbe “avoir”&nbsp;:</p>
+<ul>
+<li>J’ai un livre.<br>
+
+<textarea placeholder="Écrivez votre traduction ici" rows="2" cols="50"></textarea></li>
+<li>Ils/Elles ont un chien.<br>
+
+<textarea placeholder="Écrivez votre traduction ici" rows="2" cols="50"></textarea></li>
+<li>Nous avons une maison.<br>
+
+<textarea placeholder="Écrivez votre traduction ici" rows="2" cols="50"></textarea></li>
+</ul>
+<button onclick="afficherToutesTraductions()">
+<p>Valider</p>
+</button></li>
+</ol>
+<script>
+function afficherToutesTraductions() {
+    const traductions = [
+        { input: document.querySelectorAll('textarea')[0], correct: "J'ai un livre." },
+        { input: document.querySelectorAll('textarea')[1], correct: "Ils/Elles ont un chien." },
+        { input: document.querySelectorAll('textarea')[2], correct: "Nous avons une maison." }
+    ];
+
+    traductions.forEach(({ input, correct }) => {
+        let feedback = input.nextElementSibling;
+        if (!feedback || feedback.tagName !== 'SPAN') {
+            feedback = document.createElement('span');
+            feedback.style.marginLeft = '10px';
+            input.parentNode.appendChild(feedback);
+        }
+        const userTranslation = input.value.trim();
+        if (userTranslation.toLowerCase() === correct.toLowerCase()) {
+            feedback.textContent = "Correct ! La traduction est : " + correct;
+            feedback.style.color = "green";
+        } else {
+            feedback.textContent = "La bonne traduction est : " + correct;
+            feedback.style.color = "red";
+        }
+    });
+
+    document.querySelector('button[onclick="afficherToutesTraductions()"]').scrollIntoView({ behavior: 'smooth', block: 'center' });
+}
+</script>
+<ol start="4" type="1">
+<li>Écrivez un court paragraphe sur ce que vous et vos amis avez fait récemment en utilisant différentes formes du verbe “avoir”.
+<textarea placeholder="Écrivez votre paragraphe ici" rows="5" cols="50"></textarea>
+<button onclick="verifierToutesReponses()">
+Vérifier toutes les réponses
+</button></li>
+</ol>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

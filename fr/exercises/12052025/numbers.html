@@ -82,11 +82,13 @@ ul.task-list li input[type="checkbox"] {
 
 
 <meta property="og:title" content="Exercises: French Numbers 0–1,000 – Français avec Kunal">
+<meta property="og:description" content="">
 <meta property="og:image" content="https://frenchwithkunal.ca/exercises/12052025/numbers.png">
 <meta property="og:site_name" content="Français avec Kunal">
 <meta property="og:image:height" content="556">
 <meta property="og:image:width" content="569">
 <meta name="twitter:title" content="Exercises: French Numbers 0–1,000 – Français avec Kunal">
+<meta name="twitter:description" content="">
 <meta name="twitter:image" content="https://frenchwithkunal.ca/exercises/12052025/numbers.png">
 <meta name="twitter:image-height" content="556">
 <meta name="twitter:image-width" content="569">
@@ -254,8 +256,123 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<section id="exercice-pratique-des-nombres-en-français" class="level3">
+<h3 class="anchored" data-anchor-id="exercice-pratique-des-nombres-en-français">Exercice : Pratique des nombres en français</h3>
+<p>Entraînez-vous à écrire, reconnaître et prononcer les nombres en français.</p>
+<section id="écrivez-le-nombre-en-lettres" class="level4">
+<h4 class="anchored" data-anchor-id="écrivez-le-nombre-en-lettres">1. Écrivez le nombre en lettres :</h4>
+<p><strong>“7”</strong> → <input type="text" placeholder="Français" oninput="checkAnswer(this, 'sept')"><span style="margin-left:10px;"></span> <strong>“15”</strong> → <input type="text" placeholder="Français" oninput="checkAnswer(this, 'quinze')"><span style="margin-left:10px;"></span> <strong>“22”</strong> → <input type="text" placeholder="Français" oninput="checkAnswer(this, 'vingt-deux')"><span style="margin-left:10px;"></span> <strong>“31”</strong> → <input type="text" placeholder="Français" oninput="checkAnswer(this, 'trente et un')"><span style="margin-left:10px;"></span> <strong>“70”</strong> → <input type="text" placeholder="Français" oninput="checkAnswer(this, 'soixante-dix')"><span style="margin-left:10px;"></span> <strong>“81”</strong> → <input type="text" placeholder="Français" oninput="checkAnswer(this, 'quatre-vingt-un')"><span style="margin-left:10px;"></span> <strong>“100”</strong> → <input type="text" placeholder="Français" oninput="checkAnswer(this, 'cent')"><span style="margin-left:10px;"></span></p>
+</section>
+<section id="associez-le-nombre-écrit-à-son-chiffre" class="level4">
+<h4 class="anchored" data-anchor-id="associez-le-nombre-écrit-à-son-chiffre">2. Associez le nombre écrit à son chiffre :</h4>
+<p><strong>“quatre-vingt-douze”</strong> → <input type="text" placeholder="Chiffre" oninput="checkAnswer(this, '92')"><span style="margin-left:10px;"></span> <strong>“soixante-quinze”</strong> → <input type="text" placeholder="Chiffre" oninput="checkAnswer(this, '75')"><span style="margin-left:10px;"></span> <strong>“cent un”</strong> → <input type="text" placeholder="Chiffre" oninput="checkAnswer(this, '101')"><span style="margin-left:10px;"></span> <strong>“trente-deux”</strong> → <input type="text" placeholder="Chiffre" oninput="checkAnswer(this, '32')"><span style="margin-left:10px;"></span></p>
+</section>
+<section id="corrigez-les-erreurs-tiretsorthographe" class="level4">
+<h4 class="anchored" data-anchor-id="corrigez-les-erreurs-tiretsorthographe">3. Corrigez les erreurs (tirets/orthographe) :</h4>
+<p><strong>“vingtetun”</strong> → <input type="text" placeholder="Forme correcte" oninput="checkAnswer(this, 'vingt et un')"><span style="margin-left:10px;"></span> <strong>“quatre vingt dix”</strong> → <input type="text" placeholder="Forme correcte" oninput="checkAnswer(this, 'quatre-vingt-dix')"><span style="margin-left:10px;"></span> <strong>“soixanteet onze”</strong> → <input type="text" placeholder="Forme correcte" oninput="checkAnswer(this, 'soixante et onze')"><span style="margin-left:10px;"></span></p>
+</section>
+<section id="problèmes-de-maths-écrivez-la-réponse-en-lettres" class="level4">
+<h4 class="anchored" data-anchor-id="problèmes-de-maths-écrivez-la-réponse-en-lettres">4. Problèmes de maths (écrivez la réponse en lettres) :</h4>
+<p><strong>“vingt + cinq =”</strong> → <input type="text" placeholder="Français" oninput="checkAnswer(this, 'vingt-cinq')"><span style="margin-left:10px;"></span> <strong>“trente-deux - dix =”</strong> → <input type="text" placeholder="Français" oninput="checkAnswer(this, 'vingt-deux')"><span style="margin-left:10px;"></span> <strong>“soixante-dix + onze =”</strong> → <input type="text" placeholder="Français" oninput="checkAnswer(this, 'quatre-vingt-un')"><span style="margin-left:10px;"></span></p>
+<button onclick="showAnswers()">
+Afficher toutes les réponses
+</button>
+<script>
+function showAnswers() {
+    document.querySelectorAll('input[type="text"]').forEach(input => {
+        const correct = input.getAttribute('oninput').match(/'([^']+)'/)[1];
+        input.value = correct;
+        const feedback = input.nextElementSibling;
+        feedback.textContent = "✓ Correct !";
+        feedback.style.color = "green";
+    });
+}
+function refreshPage() {
+    location.reload();
+}
+</script>
+</section>
+<section id="prononcez-et-écoutez-simulation-audio" class="level4">
+<h4 class="anchored" data-anchor-id="prononcez-et-écoutez-simulation-audio">5. Prononcez et écoutez (simulation audio) :</h4>
+<p>🔊 <strong>“Cliquez pour écouter : ‘quatre-vingt-dix-sept’ (97)”</strong> → <input type="text" placeholder="Répétez à voix haute" disabled=""><span style="margin-left:10px;">🎤</span></p>
+</section>
+<section id="traduisez-en-français" class="level4">
+<h4 class="anchored" data-anchor-id="traduisez-en-français">6. Traduisez en français :</h4>
+<strong>“Mon appartement a 58 marches.”</strong>
+<textarea placeholder="Mon appartement..." rows="2" cols="50" oninput="checkTranslation(this, 'Mon appartement a cinquante-huit marches')"></textarea>
+<p><span style="margin-left:10px;"></span></p>
+<strong>“J’ai besoin de 200 grammes de farine.”</strong>
+<textarea placeholder="J’ai besoin..." rows="2" cols="50" oninput="checkTranslation(this, 'J’ai besoin de deux cents grammes de farine')"></textarea>
+<p><span style="margin-left:10px;"></span></p>
+<button onclick="checkAllAnswers()">
+Vérifier les réponses
+</button>
+<script>
+function checkTranslation(textarea, correctAnswer) {
+    const feedback = textarea.nextElementSibling;
+    if (textarea.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
+        feedback.textContent = "✓ Correct !";
+        feedback.style.color = "green";
+    } else if (textarea.value.trim()) {
+        feedback.textContent = "✗ Réessayez !";
+        feedback.style.color = "red";
+    }
+}
+</script>
+<script>
+function checkAnswer(input, correctAnswer) {
+    const feedback = input.nextElementSibling;
+    if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
+        feedback.textContent = "✓ Correct !";
+        feedback.style.color = "green";
+    } else if (input.value.trim()) {
+        feedback.textContent = "✗ Réessayez !";
+        feedback.style.color = "red";
+    }
+}
+
+function checkAllAnswers() {
+    document.querySelectorAll('input[type="text"]').forEach(input => {
+        const correct = input.getAttribute('oninput').match(/'([^']+)'/)[1];
+        checkAnswer(input, correct);
+    });
+
+    document.querySelectorAll('textarea').forEach(textarea => {
+        const correct = textarea.getAttribute('oninput').match(/'([^']+)'/)[1];
+        checkTranslation(textarea, correct);
+    });
+}
+
+function checkTranslation(textarea, correctAnswer) {
+    const feedback = textarea.nextElementSibling;
+    if (textarea.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
+        feedback.textContent = "✓ Correct !";
+        feedback.style.color = "green";
+    } else if (textarea.value.trim()) {
+        feedback.textContent = "✗ Réessayez !";
+        feedback.style.color = "red";
+    }
+}
+</script>
+</section>
+</section>
+<section id="notes-1" class="level3">
+<h3 class="anchored" data-anchor-id="notes-1">Notes :</h3>
+<ul>
+<li><strong>Règles des tirets</strong> : Les nombres comme <em>vingt-deux</em> (22) prennent un tiret, mais <em>vingt et un</em> (21) non.</li>
+<li><strong>70/90</strong> : Structures particulières (<em>soixante-dix</em>, <em>quatre-vingt-dix</em>).</li>
+<li><strong>“Cent” vs.&nbsp;“Cents”</strong> : <em>Cent</em> est invariable dans <em>cent un</em> (101), mais prend un “s” au pluriel (<em>deux cents</em>).</li>
+</ul>
+</section>
+<section id="bonus-conseils-de-prononciation" class="level3">
+<h3 class="anchored" data-anchor-id="bonus-conseils-de-prononciation">Bonus : Conseils de prononciation</h3>
+<ul>
+<li><strong>“et”</strong> : Utilisé seulement pour <em>21, 31, 41, 51, 61, 71</em> (ex. <em>trente et un</em>).</li>
+<li><strong>Liaison</strong> : <em>Quatre-vingts</em> (80) perd le “-s” dans <em>quatre-vingt-un</em> (81).</li>
+</ul>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

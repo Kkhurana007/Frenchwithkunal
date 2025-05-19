@@ -82,11 +82,13 @@ ul.task-list li input[type="checkbox"] {
 
 
 <meta property="og:title" content="Exercises: Shopping Vocabulary &amp; Transactions – Français avec Kunal">
+<meta property="og:description" content="">
 <meta property="og:image" content="https://frenchwithkunal.ca/exercises/12052025/shopping.png">
 <meta property="og:site_name" content="Français avec Kunal">
 <meta property="og:image:height" content="684">
 <meta property="og:image:width" content="475">
 <meta name="twitter:title" content="Exercises: Shopping Vocabulary &amp; Transactions – Français avec Kunal">
+<meta name="twitter:description" content="">
 <meta name="twitter:image" content="https://frenchwithkunal.ca/exercises/12052025/shopping.png">
 <meta name="twitter:image-height" content="684">
 <meta name="twitter:image-width" content="475">
@@ -254,8 +256,103 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<section id="exercice-noms-liés-aux-achats-et-leur-genre" class="level3">
+<h3 class="anchored" data-anchor-id="exercice-noms-liés-aux-achats-et-leur-genre">Exercice : Noms liés aux achats et leur genre</h3>
+<p>Entraînez-vous avec le vocabulaire du shopping en français, le genre des mots et des situations réelles.</p>
+<section id="attribuez-le-bon-article-défini-lelal-à-chaque-mot" class="level4">
+<h4 class="anchored" data-anchor-id="attribuez-le-bon-article-défini-lelal-à-chaque-mot">1. Attribuez le bon article défini (<em>le/la/l’</em>) à chaque mot :</h4>
+<p>___ argent (money) 💰 → <input type="text" placeholder="le/la/l'" oninput="verifierReponse(this, 'l\'')"><span style="margin-left:10px;"></span></p>
+<p>___ caisse (caisse enregistreuse) 🏧 → <input type="text" placeholder="le/la/l'" oninput="verifierReponse(this, 'la')"><span style="margin-left:10px;"></span></p>
+<p>___ chariot (caddie) 🛒 → <input type="text" placeholder="le/la/l'" oninput="verifierReponse(this, 'le')"><span style="margin-left:10px;"></span></p>
+<p>___ reçu (ticket de caisse) 🧾 → <input type="text" placeholder="le/la/l'" oninput="verifierReponse(this, 'le')"><span style="margin-left:10px;"></span></p>
+<p>___ allée (rayon) 🛍️ → <input type="text" placeholder="le/la/l'" oninput="verifierReponse(this, 'l\'')"><span style="margin-left:10px;"></span></p>
+<p>___ soldes (promotions) 🏷️ → <input type="text" placeholder="le/la/les" oninput="verifierReponse(this, 'les')"><span style="margin-left:10px;"></span></p>
+</section>
+<section id="associez-le-terme-français-à-son-équivalent-anglais" class="level4">
+<h4 class="anchored" data-anchor-id="associez-le-terme-français-à-son-équivalent-anglais">2. Associez le terme français à son équivalent anglais :</h4>
+<p>“la carte de crédit” 💳 → <input type="text" placeholder="Anglais" oninput="verifierReponse(this, 'credit card')"><span style="margin-left:10px;"></span></p>
+<p>“le coupon” 🎟️ → <input type="text" placeholder="Anglais" oninput="verifierReponse(this, 'coupon')"><span style="margin-left:10px;"></span></p>
+<p>“les espèces” 💵 → <input type="text" placeholder="Anglais" oninput="verifierReponse(this, 'cash')"><span style="margin-left:10px;"></span></p>
+<p>“le rayon” 🛒 → <input type="text" placeholder="Anglais" oninput="verifierReponse(this, 'department')"><span style="margin-left:10px;"></span></p>
+</section>
+<section id="complétez-avec-le-bon-terme" class="level4">
+<h4 class="anchored" data-anchor-id="complétez-avec-le-bon-terme">3. Complétez avec le bon terme :</h4>
+<p>“Je paie avec ___ (carte de crédit).” → <input type="text" placeholder="quoi ?" oninput="verifierReponse(this, 'la carte de crédit')"><span style="margin-left:10px;"></span></p>
+<p>“La ___ (caissière) scanne les articles.” → <input type="text" placeholder="quoi ?" oninput="verifierReponse(this, 'caissière')"><span style="margin-left:10px;"></span></p>
+<p>“Où est ___ (panier) ?” → <input type="text" placeholder="quoi ?" oninput="verifierReponse(this, 'le panier')"><span style="margin-left:10px;"></span></p>
+</section>
+<section id="corrigez-les-erreurs-de-genrenombre" class="level4">
+<h4 class="anchored" data-anchor-id="corrigez-les-erreurs-de-genrenombre">4. Corrigez les erreurs de genre/nombre :</h4>
+<p>“Un caisse” → <input type="text" placeholder="Phrase correcte" oninput="verifierReponse(this, 'une caisse')"><span style="margin-left:10px;"></span></p>
+<p>“Les coupon” → <input type="text" placeholder="Phrase correcte" oninput="verifierReponse(this, 'les coupons')"><span style="margin-left:10px;"></span></p>
+<p>“La reçu” → <input type="text" placeholder="Phrase correcte" oninput="verifierReponse(this, 'le reçu')"><span style="margin-left:10px;"></span></p>
+<button onclick="afficherReponses()">
+Afficher les réponses
+</button>
+<script>
+function afficherReponses() {
+    document.querySelectorAll('input[type="text"]').forEach(input => {
+        const correct = input.getAttribute('oninput').match(/'([^']+)'/)[1];
+        input.value = correct;
+        const feedback = input.nextElementSibling;
+        feedback.textContent = "✓ Correct !";
+        feedback.style.color = "green";
+    });
+}
+</script>
+</section>
+<section id="traduisez-en-français-avec-les-articles" class="level4">
+<h4 class="anchored" data-anchor-id="traduisez-en-français-avec-les-articles">5. Traduisez en français (avec les articles !) :</h4>
+“Je paie avec des espèces.”
+<textarea placeholder="Je paie..." rows="2" cols="50" oninput="verifierTraduction(this, 'Je paie en espèces')"></textarea>
+<p><span style="margin-left:10px;"></span></p>
+“Le gérant est dans l’allée 3.”
+<textarea placeholder="Le gérant..." rows="2" cols="50" oninput="verifierTraduction(this, 'Le gérant est dans l\'allée 3')"></textarea>
+<p><span style="margin-left:10px;"></span></p>
+<button onclick="verifierToutesReponses()">
+Vérifier les réponses
+</button>
+<script>
+function verifierReponse(input, bonneReponse) {
+    const feedback = input.nextElementSibling;
+    if (input.value.trim().toLowerCase() === bonneReponse.trim().toLowerCase()) {
+        feedback.textContent = "✓ Correct !";
+        feedback.style.color = "green";
+    } else if (input.value.trim()) {
+        feedback.textContent = "✗ Essayez encore !";
+        feedback.style.color = "red";
+    } else {
+        feedback.textContent = "";
+    }
+}
+
+function verifierToutesReponses() {
+    document.querySelectorAll('input[type="text"]').forEach(input => {
+        const correct = input.getAttribute('oninput').match(/'([^']+)'/)[1];
+        verifierReponse(input, correct);
+    });
+
+    document.querySelectorAll('textarea').forEach(textarea => {
+        const correct = textarea.getAttribute('oninput').match(/'([^']+)'/)[1];
+        verifierTraduction(textarea, correct);
+    });
+}
+
+function verifierTraduction(textarea, bonneReponse) {
+    const feedback = textarea.nextElementSibling;
+    if (textarea.value.trim().toLowerCase() === bonneReponse.toLowerCase()) {
+        feedback.textContent = "✓ Correct !";
+        feedback.style.color = "green";
+    } else if (textarea.value.trim()) {
+        feedback.textContent = "✗ Essayez encore !";
+        feedback.style.color = "red";
+    }
+}
+</script>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

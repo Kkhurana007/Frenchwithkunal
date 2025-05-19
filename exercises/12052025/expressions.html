@@ -252,7 +252,7 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="exercises-common-french-thoughts-expressions" class="level3 contenet-visisble" data-when-profile="english">
+<section id="exercises-common-french-thoughts-expressions" class="level3">
 <h3 class="anchored" data-anchor-id="exercises-common-french-thoughts-expressions"><strong>Exercises: Common French Thoughts &amp; Expressions</strong></h3>
 <p><strong>Categories:</strong> A1/A2, vocabulary, expressions, sentence building</p>
 <section id="fill-in-the-blanks-with-the-correct-wordphrase" class="level4">
@@ -326,6 +326,9 @@ ul.task-list li input[type="checkbox"] {
 <button onclick="checkAllAnswers()">
 Check Answers
 </button>
+<button onclick="showAllAnswers()">
+Show All Answers
+</button>
 <script>  
 function checkAnswer(input, correctAnswer) {  
     const feedback = input.nextElementSibling;  
@@ -344,11 +347,22 @@ function checkAllAnswers() {
         checkAnswer(input, correct);  
     });  
 }  
+
+function showAllAnswers() {  
+    document.querySelectorAll('input[type="text"]').forEach(input => {  
+        const correct = input.getAttribute('oninput').match(/'([^']+)'/)[1];  
+        input.value = correct;  
+        const feedback = input.nextElementSibling;  
+        feedback.textContent = "✓ Correct!";  
+        feedback.style.color = "green";  
+    });  
+}  
+
 </script>
-</section>
-</section>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

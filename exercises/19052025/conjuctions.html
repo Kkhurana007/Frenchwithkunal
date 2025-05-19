@@ -333,65 +333,6 @@ Highlight Conjunctions
 <div class="feedback">
 
 </div>
-<script>
-// Function to check dropdown answers
-function checkConjunction(selectElement, correctAnswer) {
-  const userAnswer = selectElement.value.trim();
-  const feedback = selectElement.nextElementSibling;
-  if (userAnswer === correctAnswer) {
-    feedback.textContent = "✓ Correct!";
-    feedback.style.color = "green";
-  } else if (userAnswer) {
-    feedback.textContent = "✗ Try again!";
-    feedback.style.color = "red";
-  }
-}
-
-// Function to check combined sentences
-function checkCombination(textareaElement, requiredConjunction) {
-  const userText = textareaElement.value.trim().toLowerCase();
-  const feedback = textareaElement.nextElementSibling.nextElementSibling;
-  if (userText.includes(requiredConjunction)) {
-    feedback.textContent = "✓ Good job!";
-    feedback.style.color = "green";
-  } else {
-    feedback.textContent = `✗ Use the conjunction "${requiredConjunction}" to connect the ideas.`;
-    feedback.style.color = "red";
-  }
-}
-
-// Function to check translations
-function checkTranslation(textareaElement, correctAnswer) {
-  const userText = textareaElement.value.trim().toLowerCase();
-  const feedback = textareaElement.nextElementSibling.nextElementSibling;
-  if (userText === correctAnswer.toLowerCase()) {
-    feedback.textContent = "✓ Perfect!";
-    feedback.style.color = "green";
-  } else {
-    feedback.textContent = `✓ Suggested answer: "${correctAnswer}"`;
-    feedback.style.color = "blue";
-  }
-}
-
-// Function to highlight conjunctions in creative writing
-function highlightConjunctions(textareaElement) {
-const conjunctions = [
-    "et", "mais", "ou", "donc", "car", "parce que", "quand", "si", 
-    "alors", "puisque", "comme", "tandis que", "bien que", "quoique", 
-    "afin que", "pour que", "avant que", "après que", "lorsque", 
-    "dès que", "tant que", "à condition que", "à moins que", 
-    "en attendant que", "jusqu'à ce que", "sans que", "malgré que"
-];
-  const userText = textareaElement.value;
-  let highlightedText = userText;
-  conjunctions.forEach(conj => {
-    const regex = new RegExp(`\\b${conj}\\b`, "gi");
-    highlightedText = highlightedText.replace(regex, `<span style="background-color: yellow">${conj}</span>`);
-  });
-  const feedback = textareaElement.nextElementSibling.nextElementSibling;
-  feedback.innerHTML = "<strong>Conjunctions used:</strong><br>" + highlightedText;
-}
-</script>
 
 
 </section>

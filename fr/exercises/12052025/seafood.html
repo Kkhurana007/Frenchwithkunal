@@ -82,11 +82,13 @@ ul.task-list li input[type="checkbox"] {
 
 
 <meta property="og:title" content="Exercises: French Seafood Vocabulary (Les Fruits de Mer) – Français avec Kunal">
+<meta property="og:description" content="">
 <meta property="og:image" content="https://frenchwithkunal.ca/exercises/12052025/seafood.png">
 <meta property="og:site_name" content="Français avec Kunal">
 <meta property="og:image:height" content="470">
 <meta property="og:image:width" content="725">
 <meta name="twitter:title" content="Exercises: French Seafood Vocabulary (Les Fruits de Mer) – Français avec Kunal">
+<meta name="twitter:description" content="">
 <meta name="twitter:image" content="https://frenchwithkunal.ca/exercises/12052025/seafood.png">
 <meta name="twitter:image-height" content="470">
 <meta name="twitter:image-width" content="725">
@@ -254,8 +256,116 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<section id="exercice-vocabulaire-des-fruits-de-mer" class="level3">
+<h3 class="anchored" data-anchor-id="exercice-vocabulaire-des-fruits-de-mer">Exercice : Vocabulaire des fruits de mer</h3>
+<p>Pratiquez l’identification et l’utilisation du vocabulaire des fruits de mer en français.</p>
+<section id="écrivez-le-mot-français" class="level4">
+<h4 class="anchored" data-anchor-id="écrivez-le-mot-français">1. Écrivez le mot français&nbsp;:</h4>
+<p><strong>«&nbsp;crab&nbsp;»</strong> → <input type="text" placeholder="Français" oninput="verifierReponse(this, 'le crabe')"><span style="margin-left:10px;"></span></p>
+<p><strong>«&nbsp;shrimp&nbsp;»</strong> → <input type="text" placeholder="Français" oninput="verifierReponse(this, 'la crevette')"><span style="margin-left:10px;"></span></p>
+<p><strong>«&nbsp;salmon&nbsp;»</strong> → <input type="text" placeholder="Français" oninput="verifierReponse(this, 'le saumon')"><span style="margin-left:10px;"></span></p>
+<p><strong>«&nbsp;oyster&nbsp;»</strong> → <input type="text" placeholder="Français" oninput="verifierReponse(this, 'l’huître')"><span style="margin-left:10px;"></span></p>
+<p><strong>«&nbsp;tuna&nbsp;»</strong> → <input type="text" placeholder="Français" oninput="verifierReponse(this, 'le thon')"><span style="margin-left:10px;"></span></p>
+</section>
+<section id="associez-le-fruit-de-mer-à-sa-description" class="level4">
+<h4 class="anchored" data-anchor-id="associez-le-fruit-de-mer-à-sa-description">2. Associez le fruit de mer à sa description&nbsp;:</h4>
+<p><strong>«&nbsp;Un poisson gras souvent utilisé en sushi&nbsp;»</strong> → <input type="text" placeholder="Français" oninput="verifierReponse(this, 'le saumon')"><span style="margin-left:10px;"></span></p>
+<p><strong>«&nbsp;Un crustacé avec des pinces&nbsp;»</strong> → <input type="text" placeholder="Français" oninput="verifierReponse(this, 'le homard')"><span style="margin-left:10px;"></span></p>
+<p><strong>«&nbsp;Petit poisson souvent en conserve&nbsp;»</strong> → <input type="text" placeholder="Français" oninput="verifierReponse(this, 'la sardine')"><span style="margin-left:10px;"></span></p>
+</section>
+<section id="corrigez-les-erreurs-orthographegenre" class="level4">
+<h4 class="anchored" data-anchor-id="corrigez-les-erreurs-orthographegenre">3. Corrigez les erreurs (orthographe/genre)&nbsp;:</h4>
+<p><strong>«&nbsp;la crabe&nbsp;»</strong> → <input type="text" placeholder="Forme correcte" oninput="verifierReponse(this, 'le crabe')"><span style="margin-left:10px;"></span></p>
+<p><strong>«&nbsp;le huitre&nbsp;»</strong> → <input type="text" placeholder="Forme correcte" oninput="verifierReponse(this, 'l’huître')"><span style="margin-left:10px;"></span></p>
+<p><strong>«&nbsp;la thon&nbsp;»</strong> → <input type="text" placeholder="Forme correcte" oninput="verifierReponse(this, 'le thon')"><span style="margin-left:10px;"></span></p>
+</section>
+<section id="complétez-avec-les-mots-des-fruits-de-mer" class="level4">
+<h4 class="anchored" data-anchor-id="complétez-avec-les-mots-des-fruits-de-mer">4. Complétez avec les mots des fruits de mer&nbsp;:</h4>
+<p>«&nbsp;J’ai commandé ___ (homard) grillé pour le dîner.&nbsp;» → <input type="text" placeholder="Français" oninput="verifierReponse(this, 'le homard')"><span style="margin-left:10px;"></span></p>
+<p>«&nbsp;Les ___ (palourdes) sont délicieuses avec du beurre à l’ail.&nbsp;» → <input type="text" placeholder="Français" oninput="verifierReponse(this, 'les palourdes')"><span style="margin-left:10px;"></span></p>
+<p>«&nbsp;Ce restaurant sert un excellent ___ (filet) de bar.&nbsp;» → <input type="text" placeholder="Français" oninput="verifierReponse(this, 'filet')"><span style="margin-left:10px;"></span></p>
+<button onclick="afficherReponses()">
+Afficher toutes les réponses
+</button>
+<script>
+function afficherReponses() {
+    document.querySelectorAll('input[type="text"]').forEach(input => {
+        const correct = input.getAttribute('oninput').match(/'([^']+)'/)[1];
+        input.value = correct;
+        const feedback = input.nextElementSibling;
+        feedback.textContent = "✓ Correct !";
+        feedback.style.color = "green";
+    });
+}
+
+function rafraichirPage() {
+    location.reload();
+}
+</script>
+<button onclick="rafraichirPage()">
+Rafraîchir la page
+</button>
+</section>
+<section id="traduisez-en-français" class="level4">
+<h4 class="anchored" data-anchor-id="traduisez-en-français">5. Traduisez en français&nbsp;:</h4>
+<strong>«&nbsp;I love shrimp and oysters.&nbsp;»</strong><br>
+
+<textarea placeholder="J’adore..." rows="2" cols="50" oninput="verifierTraduction(this, 'J’adore les crevettes et les huîtres')"></textarea>
+<p><span style="margin-left:10px;"></span></p>
+<strong>«&nbsp;We ate grilled salmon yesterday.&nbsp;»</strong><br>
+
+<textarea placeholder="Nous avons mangé..." rows="2" cols="50" oninput="verifierTraduction(this, 'Nous avons mangé du saumon grillé hier')"></textarea>
+<p><span style="margin-left:10px;"></span></p>
+<button onclick="verifierToutesReponses()">
+Vérifier les réponses
+</button>
+<script>
+function verifierReponse(input, bonneReponse) {
+    const feedback = input.nextElementSibling;
+    if (input.value.trim().toLowerCase() === bonneReponse.toLowerCase()) {
+        feedback.textContent = "✓ Correct !";
+        feedback.style.color = "green";
+    } else if (input.value.trim()) {
+        feedback.textContent = "✗ Essayez encore !";
+        feedback.style.color = "red";
+    }
+}
+
+function verifierToutesReponses() {
+    document.querySelectorAll('input[type="text"]').forEach(input => {
+        const correct = input.getAttribute('oninput').match(/'([^']+)'/)[1];
+        verifierReponse(input, correct);
+    });
+
+    document.querySelectorAll('textarea').forEach(textarea => {
+        const correct = textarea.getAttribute('oninput').match(/'([^']+)'/)[1];
+        verifierTraduction(textarea, correct);
+    });
+}
+
+function verifierTraduction(textarea, bonneReponse) {
+    const feedback = textarea.nextElementSibling;
+    if (textarea.value.trim().toLowerCase() === bonneReponse.toLowerCase()) {
+        feedback.textContent = "✓ Correct !";
+        feedback.style.color = "green";
+    } else if (textarea.value.trim()) {
+        feedback.textContent = "✗ Essayez encore !";
+        feedback.style.color = "red";
+    }
+}
+</script>
+</section>
+</section>
+<section id="notes-1" class="level3">
+<h3 class="anchored" data-anchor-id="notes-1">Notes&nbsp;:</h3>
+<ul>
+<li><strong>Le genre compte</strong>&nbsp;: <em>Le homard</em> (masc.) mais <em>la crevette</em> (fém.).</li>
+<li><strong>Contractions</strong>&nbsp;: <em>L’huître</em> (et non «&nbsp;la huître&nbsp;») à cause du h muet.</li>
+<li><strong>Pluriels</strong>&nbsp;: On ajoute généralement <em>-s</em> (<em>les crevettes</em>, <em>les sardines</em>).</li>
+</ul>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

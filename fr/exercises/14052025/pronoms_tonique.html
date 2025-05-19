@@ -82,11 +82,13 @@ ul.task-list li input[type="checkbox"] {
 
 
 <meta property="og:title" content="Mastering French Stressed Pronouns (Pronoms Toniques) – Français avec Kunal">
+<meta property="og:description" content="">
 <meta property="og:image" content="https://frenchwithkunal.ca/exercises/14052025/tonic.png">
 <meta property="og:site_name" content="Français avec Kunal">
 <meta property="og:image:height" content="333">
 <meta property="og:image:width" content="492">
 <meta name="twitter:title" content="Mastering French Stressed Pronouns (Pronoms Toniques) – Français avec Kunal">
+<meta name="twitter:description" content="">
 <meta name="twitter:image" content="https://frenchwithkunal.ca/exercises/14052025/tonic.png">
 <meta name="twitter:image-height" content="333">
 <meta name="twitter:image-width" content="492">
@@ -254,8 +256,138 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<section id="comprendre-les-pronoms-toniques" class="level3">
+<h3 class="anchored" data-anchor-id="comprendre-les-pronoms-toniques">Comprendre les pronoms toniques</h3>
+<p>Les pronoms toniques (<strong>moi, toi, lui, elle, nous, vous, eux, elles</strong>) s’utilisent&nbsp;:</p>
+<ol type="1">
+<li><strong>Pour insister sur le sujet</strong>&nbsp;:
+<ul>
+<li><em>Moi, j’adore le cinéma.</em></li>
+</ul></li>
+<li><strong>Après une préposition</strong> (à, de, pour, chez, avec, sans, etc.)&nbsp;:
+<ul>
+<li><em>Ce cadeau est pour toi.</em></li>
+<li><em>Je pense à lui.</em></li>
+</ul></li>
+<li><strong>Après «&nbsp;C’est&nbsp;»</strong>&nbsp;:
+<ul>
+<li><em>C’est moi qui ai cuisiné.</em></li>
+</ul></li>
+<li><strong>Dans les comparaisons</strong>&nbsp;:
+<ul>
+<li><em>Elle est plus grande que lui.</em></li>
+</ul></li>
+<li><strong>Avec «&nbsp;-même&nbsp;»</strong> (moi-même, toi-même…)&nbsp;:
+<ul>
+<li><em>Je l’ai fait moi-même.</em></li>
+</ul></li>
+</ol>
+<hr>
+</section>
+<section id="exercices" class="level3">
+<h3 class="anchored" data-anchor-id="exercices">Exercices</h3>
+<section id="choisissez-le-bon-pronom-tonique" class="level4">
+<h4 class="anchored" data-anchor-id="choisissez-le-bon-pronom-tonique">1. Choisissez le bon pronom tonique&nbsp;:</h4>
+<p>«&nbsp;Ce livre est ___ (pour moi).&nbsp;» 📖 →<br>
+<input type="text" placeholder="moi/toi/lui" oninput="verifierReponse(this, 'pour moi')"><span></span></p>
+<p>«&nbsp;Nous allons chez ___ (eux, masc.).&nbsp;» 🏠 →<br>
+<input type="text" placeholder="eux/elles/leur" oninput="verifierReponse(this, 'chez eux')"><span></span></p>
+<p>«&nbsp;Elle est plus âgée que ___ (lui).&nbsp;» 👴 →<br>
+<input type="text" placeholder="lui/il/le" oninput="verifierReponse(this, 'que lui')"><span></span></p>
+</section>
+<section id="remplacez-les-mots-soulignés-par-un-pronom-tonique" class="level4">
+<h4 class="anchored" data-anchor-id="remplacez-les-mots-soulignés-par-un-pronom-tonique">2. Remplacez les mots soulignés par un pronom tonique&nbsp;:</h4>
+<p>«&nbsp;Je parle à Paul et Marie.&nbsp;» →<br>
+<input type="text" placeholder="Je parle à..." oninput="verifierReponse(this, 'Je parle à eux')"><span></span> <em>(Remarque&nbsp;: «&nbsp;à eux&nbsp;» pour un groupe mixte ou masculin.)</em></p>
+<p>«&nbsp;Le chien appartient à ma sœur.&nbsp;» 🐕 →<br>
+<input type="text" placeholder="Le chien appartient à..." oninput="verifierReponse(this, 'Le chien appartient à elle')"><span></span></p>
+</section>
+<section id="corrigez-les-erreurs" class="level4">
+<h4 class="anchored" data-anchor-id="corrigez-les-erreurs">3. Corrigez les erreurs&nbsp;:</h4>
+<p>«&nbsp;C’est toi qui a raison.&nbsp;» →<br>
+<input type="text" placeholder="Phrase correcte" oninput="verifierReponse(this, 'C’est toi qui as raison')"><span></span> <em>(Le verbe s’accorde avec «&nbsp;toi&nbsp;»)</em></p>
+<p>«&nbsp;Je vais avec ils.&nbsp;» →<br>
+<input type="text" placeholder="Phrase correcte" oninput="verifierReponse(this, 'Je vais avec eux')"><span></span></p>
+</section>
+<section id="traduisez-en-français" class="level4">
+<h4 class="anchored" data-anchor-id="traduisez-en-français">4. Traduisez en français&nbsp;:</h4>
+<p>«&nbsp;C’est entre toi et moi.&nbsp;» →<br>
+</p>
+<textarea placeholder="Français..." rows="1" cols="40" oninput="verifierTraduction(this, 'C’est entre toi et moi.')"></textarea>
+<p><span></span></p>
+<p>«&nbsp;Elle l’a fait sans elles.&nbsp;» →<br>
+</p>
+<textarea placeholder="Français..." rows="1" cols="40" oninput="verifierTraduction(this, 'Elle l’a fait sans elles.')"></textarea>
+<p><span></span></p>
+</section>
+<section id="créez-vos-propres-phrases" class="level4">
+<h4 class="anchored" data-anchor-id="créez-vos-propres-phrases">5. Créez vos propres phrases&nbsp;:</h4>
+<p>Écrivez 5 phrases avec des pronoms toniques. Soyez créatif&nbsp;!</p>
+<textarea placeholder="Écrivez vos phrases ici..." rows="5" cols="60"></textarea>
+<button onclick="afficherReponses()">
+Afficher les réponses
+</button>
+<button onclick="rafraichirPage()">
+Recommencer
+</button>
+<script>
+function verifierReponse(input, bonneReponse) {
+    const span = input.nextElementSibling;
+    if (input.value.trim().toLowerCase() === bonneReponse.toLowerCase()) {
+        span.textContent = "✓ Correct";
+        span.style.color = "green";
+    } else {
+        span.textContent = "";
+    }
+}
+
+function verifierTraduction(textarea, bonneTraduction) {
+    const span = textarea.nextElementSibling;
+    if (textarea.value.trim().toLowerCase() === bonneTraduction.toLowerCase()) {
+        span.textContent = "✓ Correct";
+        span.style.color = "green";
+    } else {
+        span.textContent = "";
+    }
+}
+
+function afficherReponses() {
+    document.querySelectorAll('input[type="text"], textarea').forEach(input => {
+        const span = input.nextElementSibling;
+        const bonneReponse = input.getAttribute('oninput')?.match(/'([^']+)'/)?.[1];
+        if (bonneReponse) {
+            span.textContent = `Réponse : ${bonneReponse}`;
+            span.style.color = "blue";
+        }
+    });
+}
+
+function rafraichirPage() {
+    location.reload();
+}
+</script>
+<hr>
+</section>
+</section>
+<section id="à-retenir" class="level3">
+<h3 class="anchored" data-anchor-id="à-retenir">À retenir&nbsp;:</h3>
+<ul>
+<li><strong>Prépositions + pronoms toniques</strong>&nbsp;:
+<ul>
+<li><em>avec moi</em>, <em>sans toi</em>, <em>pour eux</em>.</li>
+</ul></li>
+<li><strong>Ne jamais utiliser les pronoms sujets</strong> (je, tu, il…) après une préposition&nbsp;!
+<ul>
+<li>Faux&nbsp;: <em>pour je</em> → Correct&nbsp;: <em>pour moi</em>.</li>
+</ul></li>
+<li><strong>Genre et nombre&nbsp;:</strong>
+<ul>
+<li><em>eux</em> (masculin pluriel), <em>elles</em> (féminin pluriel).</li>
+</ul></li>
+</ul>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

@@ -312,30 +312,9 @@ function showAnswers() {
 <button onclick="checkAllAnswers()">
 Check Answers
 </button>
-<script>  
-function checkAllAnswers() {  
-    document.querySelectorAll('input[type="text"]').forEach(input => {  
-        const correct = input.getAttribute('oninput').match(/'([^']+)'/)[1];  
-        checkAnswer(input, correct);  
-    });  
-
-    document.querySelectorAll('textarea').forEach(textarea => {  
-        const correct = textarea.getAttribute('oninput').match(/'([^']+)'/)[1];  
-        checkTranslation(textarea, correct);  
-    });  
-}  
-
-function checkTranslation(textarea, correctAnswer) {  
-    const feedback = textarea.nextElementSibling;  
-    if (textarea.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {  
-        feedback.textContent = "✓ Correct!";  
-        feedback.style.color = "green";  
-    } else if (textarea.value.trim()) {  
-        feedback.textContent = "✗ Try again!";  
-        feedback.style.color = "red";  
-    }  
-}  
-</script>
+<button onclick="showAllAnswers()">
+Show Answers
+</button>
 <script>  
 function checkAnswer(input, correctAnswer) {  
     const feedback = input.nextElementSibling;  
@@ -353,22 +332,16 @@ function checkAllAnswers() {
         const correct = input.getAttribute('oninput').match(/'([^']+)'/)[1];  
         checkAnswer(input, correct);  
     });  
-
-    document.querySelectorAll('textarea').forEach(textarea => {  
-        const correct = textarea.getAttribute('oninput').match(/'([^']+)'/)[1];  
-        checkTranslation(textarea, correct);  
-    });  
 }  
 
-function checkTranslation(textarea, correctAnswer) {  
-    const feedback = textarea.nextElementSibling;  
-    if (textarea.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {  
+function showAllAnswers() {  
+    document.querySelectorAll('input[type="text"]').forEach(input => {  
+        const correct = input.getAttribute('oninput').match(/'([^']+)'/)[1];  
+        input.value = correct;  
+        const feedback = input.nextElementSibling;  
         feedback.textContent = "✓ Correct!";  
         feedback.style.color = "green";  
-    } else if (textarea.value.trim()) {  
-        feedback.textContent = "✗ Try again!";  
-        feedback.style.color = "red";  
-    }  
+    });  
 }  
 </script>
 
