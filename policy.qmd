@@ -10,7 +10,7 @@ We do not share your data without your consent, except for legal obligations or 
 
 Your data is protected and retained only as long as necessary. You may request access, correction, or deletion of your information.
 
-For any questions, contact us at [frenchwithkunal\@gmail.com(mailto:frenchwithkunal@gmail.com).
+For any questions, contact us at [frenchwithkunal\@gmail.com](mailto:frenchwithkunal@gmail.com).
 :::
 
 ::: {.content-visible when-profile="french"}
@@ -24,5 +24,5 @@ Nous ne partageons pas vos données sans votre consentement, sauf pour des oblig
 
 Vos données sont protégées et conservées aussi longtemps que nécessaire. Vous pouvez demander l’accès, la correction ou la suppression de vos informations.
 
-Pour toute question, contactez-nous à [frenchwithkunal\@gmail.com(mailto:frenchwithkunal@gmail.com).
+Pour toute question, contactez-nous à [frenchwithkunal\@gmail.com](mailto:frenchwithkunal@gmail.com).
 :::

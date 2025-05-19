@@ -82,11 +82,13 @@ ul.task-list li input[type="checkbox"] {
 
 
 <meta property="og:title" content="Exercises with Faire – Français avec Kunal">
+<meta property="og:description" content="">
 <meta property="og:image" content="https://frenchwithkunal.ca/exercises/19052025/faire.png">
 <meta property="og:site_name" content="Français avec Kunal">
 <meta property="og:image:height" content="373">
 <meta property="og:image:width" content="520">
 <meta name="twitter:title" content="Exercises with Faire – Français avec Kunal">
+<meta name="twitter:description" content="">
 <meta name="twitter:image" content="https://frenchwithkunal.ca/exercises/19052025/faire.png">
 <meta name="twitter:image-height" content="373">
 <meta name="twitter:image-width" content="520">
@@ -254,8 +256,119 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<section id="exercice-pratiquer-le-verbe-faire" class="level1">
+<h1>Exercice : Pratiquer le verbe “Faire”</h1>
+<p>Voici quelques exercices pour pratiquer la conjugaison du verbe <strong>faire</strong> en français :</p>
+<ol type="1">
+<li>Conjuguez le verbe “faire” au présent pour les sujets suivants :
+<ul>
+<li>Je <input type="text" placeholder="Réponse ici" oninput="verifierReponse(this, 'fais')"> un gâteau.</li>
+<li>Tu <input type="text" placeholder="Réponse ici" oninput="verifierReponse(this, 'fais')"> du sport.</li>
+<li>Il/Elle <input type="text" placeholder="Réponse ici" oninput="verifierReponse(this, 'fait')"> ses devoirs.</li>
+<li>Nous <input type="text" placeholder="Réponse ici" oninput="verifierReponse(this, 'faisons')"> une promenade.</li>
+<li>Vous <input type="text" placeholder="Réponse ici" oninput="verifierReponse(this, 'faites')"> un voyage.</li>
+<li>Ils/Elles <input type="text" placeholder="Réponse ici" oninput="verifierReponse(this, 'font')"> du bruit.</li>
+</ul></li>
+</ol>
+<p><br></p>
+<ol start="2" type="1">
+<li><p>Complétez avec la bonne forme de “faire” au passé composé :</p>
+<ul>
+<li>Hier, j’ <input type="text" placeholder="Réponse ici" oninput="verifierReponse(this, 'ai fait')"> une tarte.</li>
+<li>La semaine dernière, nous <input type="text" placeholder="Réponse ici" oninput="verifierReponse(this, 'avons fait')"> une randonnée.</li>
+<li>Est-ce que tu <input type="text" placeholder="Réponse ici" oninput="verifierReponse(this, 'as fait')"> tes devoirs ?</li>
+<li>Ils/Elles <input type="text" placeholder="Réponse ici" oninput="verifierReponse(this, 'ont fait')"> une fête.</li>
+<li>Vous <input type="text" placeholder="Réponse ici" oninput="verifierReponse(this, 'avez fait')"> un bon travail.</li>
+<li>Il/Elle <input type="text" placeholder="Réponse ici" oninput="verifierReponse(this, 'a fait')"> une erreur.</li>
+</ul></li>
+</ol>
+<p><br></p>
+<ol start="3" type="1">
+<li><p>Traduisez les phrases suivantes en anglais en utilisant le verbe “faire” :</p>
+<ul>
+<li><p>Je fais un gâteau.</p>
+<textarea placeholder="Écrivez votre traduction ici" rows="2" cols="50"></textarea></li>
+<li><p>Ils/Elles font du bruit.</p>
+<textarea placeholder="Écrivez votre traduction ici" rows="2" cols="50"></textarea></li>
+<li><p>Nous faisons une promenade.</p>
+<textarea placeholder="Écrivez votre traduction ici" rows="2" cols="50"></textarea></li>
+</ul>
+<button onclick="afficherToutesLesTraductions()">
+<p>Soumettre</p>
+</button></li>
+<li><p>Écrivez un court paragraphe sur ce que vous et vos amis avez fait récemment en utilisant différentes formes du verbe “faire”.</p>
+<textarea placeholder="Écrivez votre paragraphe ici" rows="5" cols="50"></textarea>
+<button onclick="verifierToutesLesReponses()">
+<p>Vérifier toutes les réponses</p>
+</button></li>
+</ol>
+<script>
+function verifierReponse(input, bonneReponse) {
+    const reponseUtilisateur = input.value.trim().toLowerCase();
+    let feedback = input.nextElementSibling;
+    if (!feedback) {
+        feedback = document.createElement('span');
+        feedback.style.marginLeft = '10px';
+        input.parentNode.appendChild(feedback);
+    }
+    if (reponseUtilisateur === bonneReponse) {
+        feedback.textContent = "Correct ! +10 points";
+        feedback.style.color = "green";
+    } else if (reponseUtilisateur) {
+        feedback.textContent = "Essayez encore !";
+        feedback.style.color = "red";
+    } else {
+        feedback.textContent = "";
+    }
+}
+
+function afficherToutesLesTraductions() {
+    const traductions = [
+        { input: document.querySelectorAll('textarea')[0], correct: 'I make a cake.' },
+        { input: document.querySelectorAll('textarea')[1], correct: 'They make noise.' },
+        { input: document.querySelectorAll('textarea')[2], correct: 'We go for a walk.' }
+    ];
+
+    traductions.forEach(({ input, correct }) => {
+        let feedback = input.nextElementSibling;
+        if (!feedback || feedback.tagName !== 'SPAN') {
+            feedback = document.createElement('span');
+            feedback.style.marginLeft = '10px';
+            input.parentNode.appendChild(feedback);
+        }
+        const userTranslation = input.value.trim();
+        if (userTranslation.toLowerCase() === correct.toLowerCase()) {
+            feedback.textContent = "Correct ! La traduction est : " + correct;
+            feedback.style.color = "green";
+        } else {
+            feedback.textContent = "La bonne traduction est : " + correct;
+            feedback.style.color = "red";
+        }
+    });
+    document.querySelector('button[onclick="afficherToutesLesTraductions()"]').scrollIntoView({ behavior: 'smooth', block: 'center' });
+}
+
+function verifierToutesLesReponses() {
+    const paragraphInput = document.querySelectorAll('textarea')[3];
+    let feedback = paragraphInput.nextElementSibling;
+    if (!feedback) {
+        feedback = document.createElement('span');
+        feedback.style.marginLeft = '10px';
+        paragraphInput.parentNode.appendChild(feedback);
+    }
+    const userParagraph = paragraphInput.value.trim();
+    if (userParagraph.toLowerCase().includes('faire')) {
+        feedback.textContent = "Bravo ! Vous avez utilisé le verbe 'faire' dans votre paragraphe.";
+        feedback.style.color = "green";
+    } else {
+        feedback.textContent = "Essayez encore ! Assurez-vous d'utiliser le verbe 'faire' dans votre paragraphe.";
+        feedback.style.color = "red";
+    }
+}
+</script>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
