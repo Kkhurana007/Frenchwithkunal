@@ -3,7 +3,7 @@ title: "Mastering French Stressed Pronouns (Pronoms Toniques)"
 author: "Kunal Khurana"  
 date: "05-12-2025"  
 categories: [A2/B1, grammar, pronouns, exercises]  
-image: "tonic-pronouns.png"  
+image: "tonic.png"  
 ---
 
 ::: {.content-visible when-profile="english"}
@@ -58,23 +58,19 @@ Stressed pronouns (**moi, toi, lui, elle, nous, vous, eux, elles**) are used:
 
 "This is between you and me." →\
 
-```{=html}
 <textarea placeholder="French..." rows="1" cols="40" oninput="checkTranslation(this, 'C’est entre toi et moi.')"></textarea>
-```
+
 
 "She did it without them (fem.)." →\
 
-```{=html}
 <textarea placeholder="French..." rows="1" cols="40" oninput="checkTranslation(this, 'Elle l’a fait sans elles.')"></textarea>
-```
+
 
 #### 5. Create Your Own Sentences:
 
 Write 5 sentences using stressed pronouns. Be creative!\
 
-```{=html}
 <textarea placeholder="Write your sentences here..." rows="5" cols="60"></textarea>
-```
 
 <button onclick="showAnswers()">
 
@@ -88,7 +84,7 @@ Restart
 
 </button>
 
-```{=html}
+
 <script>
 function checkAnswer(input, correctAnswer) {
     const span = input.nextElementSibling;
@@ -125,7 +121,6 @@ function refreshPage() {
     location.reload();
 }
 </script>
-```
 
 ------------------------------------------------------------------------
 
@@ -137,4 +132,127 @@ function refreshPage() {
     -   Wrong: *pour je* → Correct: *pour moi*.\
 -   **Gender/Numbers**:
     -   *eux* (masc. plural), *elles* (fem. plural).
+:::
+
+
+::: {.content-visible when-profile="french"}
+
+### Comprendre les pronoms toniques
+
+Les pronoms toniques (**moi, toi, lui, elle, nous, vous, eux, elles**) s’utilisent :
+
+1.  **Pour insister sur le sujet** :
+    -   *Moi, j’adore le cinéma.*
+2.  **Après une préposition** (à, de, pour, chez, avec, sans, etc.) :
+    -   *Ce cadeau est pour toi.*
+    -   *Je pense à lui.*
+3.  **Après « C’est »** :
+    -   *C’est moi qui ai cuisiné.*
+4.  **Dans les comparaisons** :
+    -   *Elle est plus grande que lui.*
+5.  **Avec « -même »** (moi-même, toi-même…) :
+    -   *Je l’ai fait moi-même.*
+
+------------------------------------------------------------------------
+
+### Exercices
+
+#### 1. Choisissez le bon pronom tonique :
+
+« Ce livre est \_\_\_ (pour moi). » 📖 →\
+<input type="text" placeholder="moi/toi/lui" oninput="verifierReponse(this, 'pour moi')"><span></span>
+
+« Nous allons chez \_\_\_ (eux, masc.). » 🏠 →\
+<input type="text" placeholder="eux/elles/leur" oninput="verifierReponse(this, 'chez eux')"><span></span>
+
+« Elle est plus âgée que \_\_\_ (lui). » 👴 →\
+<input type="text" placeholder="lui/il/le" oninput="verifierReponse(this, 'que lui')"><span></span>
+
+#### 2. Remplacez les mots soulignés par un pronom tonique :
+
+« Je parle à Paul et Marie. » →\
+<input type="text" placeholder="Je parle à..." oninput="verifierReponse(this, 'Je parle à eux')"><span></span> *(Remarque : « à eux » pour un groupe mixte ou masculin.)*
+
+« Le chien appartient à ma sœur. » 🐕 →\
+<input type="text" placeholder="Le chien appartient à..." oninput="verifierReponse(this, 'Le chien appartient à elle')"><span></span>
+
+#### 3. Corrigez les erreurs :
+
+« C’est toi qui a raison. » →\
+<input type="text" placeholder="Phrase correcte" oninput="verifierReponse(this, 'C’est toi qui as raison')"><span></span> *(Le verbe s’accorde avec « toi »)*
+
+« Je vais avec ils. » →\
+<input type="text" placeholder="Phrase correcte" oninput="verifierReponse(this, 'Je vais avec eux')"><span></span>
+
+#### 4. Traduisez en français :
+
+« C’est entre toi et moi. » →\
+
+<textarea placeholder="Français..." rows="1" cols="40" oninput="verifierTraduction(this, 'C’est entre toi et moi.')"></textarea><span></span>
+
+« Elle l’a fait sans elles. » →\
+
+<textarea placeholder="Français..." rows="1" cols="40" oninput="verifierTraduction(this, 'Elle l’a fait sans elles.')"></textarea><span></span>
+
+#### 5. Créez vos propres phrases :
+
+Écrivez 5 phrases avec des pronoms toniques. Soyez créatif !
+
+<textarea placeholder="Écrivez vos phrases ici..." rows="5" cols="60"></textarea>
+
+<button onclick="afficherReponses()">
+Afficher les réponses
+</button>
+
+<button onclick="rafraichirPage()">
+Recommencer
+</button>
+
+<script>
+function verifierReponse(input, bonneReponse) {
+    const span = input.nextElementSibling;
+    if (input.value.trim().toLowerCase() === bonneReponse.toLowerCase()) {
+        span.textContent = "✓ Correct";
+        span.style.color = "green";
+    } else {
+        span.textContent = "";
+    }
+}
+
+function verifierTraduction(textarea, bonneTraduction) {
+    const span = textarea.nextElementSibling;
+    if (textarea.value.trim().toLowerCase() === bonneTraduction.toLowerCase()) {
+        span.textContent = "✓ Correct";
+        span.style.color = "green";
+    } else {
+        span.textContent = "";
+    }
+}
+
+function afficherReponses() {
+    document.querySelectorAll('input[type="text"], textarea').forEach(input => {
+        const span = input.nextElementSibling;
+        const bonneReponse = input.getAttribute('oninput')?.match(/'([^']+)'/)?.[1];
+        if (bonneReponse) {
+            span.textContent = `Réponse : ${bonneReponse}`;
+            span.style.color = "blue";
+        }
+    });
+}
+
+function rafraichirPage() {
+    location.reload();
+}
+</script>
+
+------------------------------------------------------------------------
+
+### À retenir :
+
+-   **Prépositions + pronoms toniques** :
+    -   *avec moi*, *sans toi*, *pour eux*.
+-   **Ne jamais utiliser les pronoms sujets** (je, tu, il…) après une préposition !
+    -   Faux : *pour je* → Correct : *pour moi*.
+-   **Genre et nombre :**
+    -   *eux* (masculin pluriel), *elles* (féminin pluriel).
 :::

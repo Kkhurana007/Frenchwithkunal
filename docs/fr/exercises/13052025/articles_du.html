@@ -115,10 +115,23 @@ ul.task-list li input[type="checkbox"] {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
-  <li class="nav-item">
-    <a class="nav-link" href="../../posts.html"> 
-<span class="menu-text">Articles de Blog</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-ressources" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Ressources</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-ressources">    
+        <li>
+    <a class="dropdown-item" href="../../posts.html"><i class="bi bi-file" role="img">
+</i> 
+ <span class="dropdown-text">Articles de Blog</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="../../exercises.html"><i class="bi bi-clipboard-check" role="img">
+</i> 
+ <span class="dropdown-text">Exercices</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
     <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">À Propos</span></a>
@@ -243,16 +256,58 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<section id="les-articles-partitifs-en-français" class="level3">
+<h3 class="anchored" data-anchor-id="les-articles-partitifs-en-français">Les articles partitifs en français</h3>
+<p>Utilisés pour exprimer une <strong>quantité indéfinie</strong> (comme “du”, “de la”, “de l’”, “des”) : - <strong>du</strong> = masculin singulier (<em>du pain</em>) - <strong>de la</strong> = féminin singulier (<em>de la confiture</em>) - <strong>de l’</strong> = devant une voyelle ou un <em>h</em> muet (<em>de l’eau</em>) - <strong>des</strong> = pluriel (<em>des fruits</em>)</p>
+<p><strong>Exception</strong> : Après une négation, on utilise <strong>“de”</strong> (<em>Je n’ai pas de lait</em>).</p>
 <hr>
-<section id="key-notes" class="level3">
-<h3 class="anchored" data-anchor-id="key-notes">Key Notes:</h3>
+</section>
+<section id="exercices" class="level3">
+<h3 class="anchored" data-anchor-id="exercices">Exercices</h3>
+<section id="complétez-avec-du-de-la-de-l-ou-des" class="level4">
+<h4 class="anchored" data-anchor-id="complétez-avec-du-de-la-de-l-ou-des">1. Complétez avec <strong>du, de la, de l’ ou des</strong> :</h4>
+<ol type="1">
+<li><p>Je veux ___ croissants 🥐. → <input type="text" placeholder="du/de la/de l'/des" oninput="checkAnswer(this, 'des')"><span style="margin-left:10px;"></span></p></li>
+<li><p>Elle mange ___ fromage 🧀. → <input type="text" placeholder="du/de la/de l'/des" oninput="checkAnswer(this, 'du')"><span style="margin-left:10px;"></span></p></li>
+<li><p>Nous buvons ___ café ☕. → <input type="text" placeholder="du/de la/de l'/des" oninput="checkAnswer(this, 'du')"><span style="margin-left:10px;"></span></p></li>
+<li><p>Tu as ___ épinards 🥬 ? → <input type="text" placeholder="du/de la/de l'/des" oninput="checkAnswer(this, 'des')"><span style="margin-left:10px;"></span></p></li>
+<li><p>Il prend ___ glace 🍦. → <input type="text" placeholder="du/de la/de l'/des" oninput="checkAnswer(this, 'de la')"><span style="margin-left:10px;"></span></p></li>
+</ol>
+</section>
+<section id="corrigez-les-erreurs" class="level4">
+<h4 class="anchored" data-anchor-id="corrigez-les-erreurs">2. Corrigez les erreurs :</h4>
+<ol type="1">
+<li><p>“Je veux de le sucre” → <input type="text" placeholder="Phrase correcte" oninput="checkAnswer(this, 'Je veux du sucre')"><span style="margin-left:10px;"></span></p></li>
+<li><p>“Elle a des lait” → <input type="text" placeholder="Phrase correcte" oninput="checkAnswer(this, 'Elle a du lait')"><span style="margin-left:10px;"></span></p></li>
+<li><p>“Nous mangeons de la frites” → <input type="text" placeholder="Phrase correcte" oninput="checkAnswer(this, 'Nous mangeons des frites')"><span style="margin-left:10px;"></span></p></li>
+</ol>
+</section>
+<section id="traduisez-en-français-utilisez-les-articles-partitifs" class="level4">
+<h4 class="anchored" data-anchor-id="traduisez-en-français-utilisez-les-articles-partitifs">3. Traduisez en français (utilisez les articles partitifs !) :</h4>
+<ol type="1">
+<li><p>“Je voudrais du thé.” →</p>
+<textarea placeholder="Je voudrais..." rows="2" cols="50" oninput="checkTranslation(this, 'Je voudrais du thé')"></textarea>
+<p><span style="margin-left:10px;"></span></p></li>
+<li><p>“Elle ne mange pas de viande.” →</p>
+<textarea placeholder="Elle ne mange pas..." rows="2" cols="50" oninput="checkTranslation(this, 'Elle ne mange pas de viande')"></textarea>
+<p><span style="margin-left:10px;"></span></p></li>
+</ol>
+<button onclick="showAnswers()">
+Afficher les réponses
+</button>
+<button onclick="checkAllAnswers()">
+Vérifier les réponses
+</button>
+<hr>
+</section>
+</section>
+<section id="notes-clés" class="level3">
+<h3 class="anchored" data-anchor-id="notes-clés">Notes clés :</h3>
 <ul>
-<li><strong>Remember</strong>: Use <strong>“de”</strong> after negatives (<em>pas de, jamais de</em>).<br>
-</li>
-<li><strong>Tip</strong>: If you can count it, use <strong>des</strong>; if not, use <strong>du/de la/de l’</strong>.</li>
+<li><strong>Rappel</strong> : On utilise <strong>“de”</strong> après une négation (<em>pas de, jamais de</em>).</li>
+<li><strong>Astuce</strong> : Si on peut compter, on utilise <strong>des</strong> ; sinon, <strong>du/de la/de l’</strong>.</li>
 </ul>
-<p><strong>Example</strong>:<br>
-- <em>Des pommes</em> (countable) vs.&nbsp;<em>Du riz</em> (uncountable).</p>
+<p><strong>Exemple</strong> : - <em>Des pommes</em> (dénombrable) vs.&nbsp;<em>Du riz</em> (indénombrable).</p>
 <script>  
 function showAnswers() {  
     document.querySelectorAll('input[type="text"]').forEach(input => {  

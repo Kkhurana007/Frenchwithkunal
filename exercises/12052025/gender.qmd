@@ -257,3 +257,253 @@ function checkAllAnswers() {
 </script>  
 :::
 
+
+::: {.content-visible when-profile="french"}
+
+Exercice : Identifier le genre des noms
+Entraînez-vous à déterminer le genre (masculin/féminin) des noms français et leurs articles.
+
+## 1. Attribuez l’article défini correct (le/la) à chaque nom :
+___ livre (book) 📚
+<input type="text" placeholder="le/la" oninput="checkAnswer(this, 'le')">
+<span style="margin-left:10px;"></span>
+
+___ table (table) 🪑
+<input type="text" placeholder="le/la" oninput="checkAnswer(this, 'la')">
+<span style="margin-left:10px;"></span>
+
+___ soleil (sun) ☀️
+<input type="text" placeholder="le/la" oninput="checkAnswer(this, 'le')">
+<span style="margin-left:10px;"></span>
+
+___ fleur (flower) 🌸
+<input type="text" placeholder="le/la" oninput="checkAnswer(this, 'la')">
+<span style="margin-left:10px;"></span>
+
+___ ordinateur (computer) 💻
+<input type="text" placeholder="le/la" oninput="checkAnswer(this, 'le')">
+<span style="margin-left:10px;"></span>
+
+___ maison (house) 🏠
+<input type="text" placeholder="le/la" oninput="checkAnswer(this, 'la')">
+<span style="margin-left:10px;"></span>
+
+___ chien (dog) 🐕
+<input type="text" placeholder="le/la" oninput="checkAnswer(this, 'le')">
+<span style="margin-left:10px;"></span>
+
+___ pomme (apple) 🍎
+<input type="text" placeholder="le/la" oninput="checkAnswer(this, 'la')">
+<span style="margin-left:10px;"></span>
+
+___ jardin (garden) 🌳
+<input type="text" placeholder="le/la" oninput="checkAnswer(this, 'le')">
+<span style="margin-left:10px;"></span>
+
+___ chaise (chair) 🪑
+<input type="text" placeholder="le/la" oninput="checkAnswer(this, 'la')">
+<span style="margin-left:10px;"></span>
+
+___ fenêtre (window) 🪟
+<input type="text" placeholder="le/la" oninput="checkAnswer(this, 'la')">
+<span style="margin-left:10px;"></span>
+
+___ vélo (bicycle) 🚲
+<input type="text" placeholder="le/la" oninput="checkAnswer(this, 'le')">
+<span style="margin-left:10px;"></span>
+
+___ porte (door) 🚪
+<input type="text" placeholder="le/la" oninput="checkAnswer(this, 'la')">
+<span style="margin-left:10px;"></span>
+
+___ téléphone (phone) 📞
+<input type="text" placeholder="le/la" oninput="checkAnswer(this, 'le')">
+<span style="margin-left:10px;"></span>
+
+___ rivière (river) 🌊
+<input type="text" placeholder="le/la" oninput="checkAnswer(this, 'la')">
+<span style="margin-left:10px;"></span>
+
+___ cahier (notebook) 📒
+<input type="text" placeholder="le/la" oninput="checkAnswer(this, 'le')">
+<span style="margin-left:10px;"></span>
+
+___ lampe (lamp) 💡
+<input type="text" placeholder="le/la" oninput="checkAnswer(this, 'la')">
+<span style="margin-left:10px;"></span>
+
+___ mur (wall) 🧱
+<input type="text" placeholder="le/la" oninput="checkAnswer(this, 'le')">
+<span style="margin-left:10px;"></span>
+
+___ horloge (clock) ⏰
+<input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'l\'')">
+<span style="margin-left:10px;"></span>
+
+___ stylo (pen) 🖊️
+<input type="text" placeholder="le/la" oninput="checkAnswer(this, 'le')">
+<span style="margin-left:10px;"></span>
+
+___ plage (beach) 🏖️
+<input type="text" placeholder="le/la" oninput="checkAnswer(this, 'la')">
+<span style="margin-left:10px;"></span>
+
+___ livreur (delivery person) 📦
+<input type="text" placeholder="le/la" oninput="checkAnswer(this, 'le')">
+<span style="margin-left:10px;"></span>
+
+___ voiture (car) 🚗
+<input type="text" placeholder="le/la" oninput="checkAnswer(this, 'la')">
+<span style="margin-left:10px;"></span>
+
+___ avion (plane) ✈️
+<input type="text" placeholder="le/la" oninput="checkAnswer(this, 'le')">
+<span style="margin-left:10px;"></span>
+
+___ étoile (star) ⭐
+<input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'l\'')">
+<span style="margin-left:10px;"></span>
+
+___ poisson (fish) 🐟
+<input type="text" placeholder="le/la" oninput="checkAnswer(this, 'le')">
+<span style="margin-left:10px;"></span>
+
+___ montagne (mountain) 🏔️
+<input type="text" placeholder="le/la" oninput="checkAnswer(this, 'la')">
+<span style="margin-left:10px;"></span>
+
+___ ordinateur portable (laptop) 💻
+<input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'l\'')">
+<span style="margin-left:10px;"></span>
+
+___ clé (key) 🔑
+<input type="text" placeholder="le/la" oninput="checkAnswer(this, 'la')">
+<span style="margin-left:10px;"></span>
+
+___ sac (bag) 🎒
+<input type="text" placeholder="le/la" oninput="checkAnswer(this, 'le')">
+<span style="margin-left:10px;"></span>
+
+___ bouteille (bottle) 🍼
+<input type="text" placeholder="le/la" oninput="checkAnswer(this, 'la')">
+<span style="margin-left:10px;"></span>
+
+___ parapluie (umbrella) ☂️
+<input type="text" placeholder="le/la" oninput="checkAnswer(this, 'le')">
+<span style="margin-left:10px;"></span>
+
+___ chemise (shirt) 👕
+<input type="text" placeholder="le/la" oninput="checkAnswer(this, 'la')">
+<span style="margin-left:10px;"></span>
+
+___ chapeau (hat) 🎩
+<input type="text" placeholder="le/la" oninput="checkAnswer(this, 'le')">
+<span style="margin-left:10px;"></span>
+
+___ montre (watch) ⌚
+<input type="text" placeholder="le/la" oninput="checkAnswer(this, 'la')">
+<span style="margin-left:10px;"></span>
+<span style="margin-left:10px;"></span>
+
+## 2. Réécrivez les noms avec l’article indéfini correct (un/une) :
+___ école (école) 🏫 → <input type="text" placeholder="un/une" oninput="checkAnswer(this, 'une')"><span style="margin-left:10px;"></span>
+
+___ chat (chat) 🐈 → <input type="text" placeholder="un/une" oninput="checkAnswer(this, 'un')"><span style="margin-left:10px;"></span>
+
+___ voiture (voiture) 🚗 → <input type="text" placeholder="un/une" oninput="checkAnswer(this, 'une')"><span style="margin-left:10px;"></span>
+
+___ arbre (arbre) 🌳 → <input type="text" placeholder="un/une" oninput="checkAnswer(this, 'un')"><span style="margin-left:10px;"></span>
+
+___ livre (livre) 📚 → <input type="text" placeholder="un/une" oninput="checkAnswer(this, 'un')"><span style="margin-left:10px;"></span>
+
+___ pomme (pomme) 🍎 → <input type="text" placeholder="un/une" oninput="checkAnswer(this, 'une')"><span style="margin-left:10px;"></span>
+
+___ chien (chien) 🐕 → <input type="text" placeholder="un/une" oninput="checkAnswer(this, 'un')"><span style="margin-left:10px;"></span>
+
+___ maison (maison) 🏠 → <input type="text" placeholder="un/une" oninput="checkAnswer(this, 'une')"><span style="margin-left:10px;"></span>
+
+___ vélo (vélo) 🚲 → <input type="text" placeholder="un/une" oninput="checkAnswer(this, 'un')"><span style="margin-left:10px;"></span>
+
+___ étoile (étoile) ⭐ → <input type="text" placeholder="un/une" oninput="checkAnswer(this, 'une')"><span style="margin-left:10px;"></span>
+
+___ poisson (poisson) 🐟 → <input type="text" placeholder="un/une" oninput="checkAnswer(this, 'un')"><span style="margin-left:10px;"></span>
+
+___ montagne (montagne) 🏔️ → <input type="text" placeholder="un/une" oninput="checkAnswer(this, 'une')"><span style="margin-left:10px;"></span>
+
+___ parapluie (parapluie) ☂️ → <input type="text" placeholder="un/une" oninput="checkAnswer(this, 'un')"><span style="margin-left:10px;"></span>
+
+___ lampe (lampe) 💡 → <input type="text" placeholder="un/une" oninput="checkAnswer(this, 'une')"><span style="margin-left:10px;"></span>
+
+___ sac (sac) 🎒 → <input type="text" placeholder="un/une" oninput="checkAnswer(this, 'un')"><span style="margin-left:10px;"></span>
+
+___ bouteille (bouteille) 🍼 → <input type="text" placeholder="un/une" oninput="checkAnswer(this, 'une')"><span style="margin-left:10px;"></span>
+
+___ chapeau (chapeau) 🎩 → <input type="text" placeholder="un/une" oninput="checkAnswer(this, 'un')"><span style="margin-left:10px;"></span>
+
+___ montre (montre) ⌚ → <input type="text" placeholder="un/une" oninput="checkAnswer(this, 'une')"><span style="margin-left:10px;"></span>
+
+___ stylo (stylo) 🖊️ → <input type="text" placeholder="un/une" oninput="checkAnswer(this, 'un')"><span style="margin-left:10px;"></span>
+
+___ plage (plage) 🏖️ → <input type="text" placeholder="un/une" oninput="checkAnswer(this, 'une')"><span style="margin-left:10px;"></span>
+
+___ avion (avion) ✈️ → <input type="text" placeholder="un/une" oninput="checkAnswer(this, 'un')"><span style="margin-left:10px;"></span>
+
+___ clé (clé) 🔑 → <input type="text" placeholder="un/une" oninput="checkAnswer(this, 'une')"><span style="margin-left:10px;"></span>
+
+___ chemise (chemise) 👕 → <input type="text" placeholder="un/une" oninput="checkAnswer(this, 'une')"><span style="margin-left:10px;"></span>
+
+___ mur (mur) 🧱 → <input type="text" placeholder="un/une" oninput="checkAnswer(this, 'un')"><span style="margin-left:10px;"></span>
+
+___ horloge (horloge) ⏰ → <input type="text" placeholder="un/une" oninput="checkAnswer(this, 'une')"><span style="margin-left:10px;"></span>
+
+## 3. Corrigez les erreurs d’accord de genre :
+La garçon → <input type="text" placeholder="Phrase correcte" oninput="checkAnswer(this, 'le garçon')"><span style="margin-left:10px;"></span>
+
+Un maison → <input type="text" placeholder="Phrase correcte" oninput="checkAnswer(this, 'une maison')"><span style="margin-left:10px;"></span>
+
+Le robe → <input type="text" placeholder="Phrase correcte" oninput="checkAnswer(this, 'la robe')"><span style="margin-left:10px;"></span>
+
+<button onclick="showAnswers()">Afficher toutes les réponses</button>
+
+<script>
+function showAnswers() {
+    document.querySelectorAll('input[type="text"]').forEach(input => {
+        const correct = input.getAttribute('oninput').match(/'([^']+)'/)[1];
+        input.value = correct;
+        const feedback = input.nextElementSibling;
+        feedback.textContent = "✓ Correct !";
+        feedback.style.color = "green";
+    });
+}
+</script>
+
+## 4. Traduisez en français (incluez les articles !) :
+« La lune est brillante. »
+
+<textarea placeholder="La lune est brillante." rows="2" cols="50"></textarea>
+« Un chien aboie. »
+
+<textarea placeholder="Un chien aboie." rows="2" cols="50"></textarea>
+<button onclick="checkAllAnswers()">Vérifier les réponses</button>
+
+<script>
+function checkAnswer(input, correctAnswer) {
+    const feedback = input.nextElementSibling;
+    if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
+        feedback.textContent = "✓ Correct !";
+        feedback.style.color = "green";
+    } else if (input.value.trim()) {
+        feedback.textContent = "✗ Réessayez !";
+        feedback.style.color = "red";
+    }
+}
+
+function checkAllAnswers() {
+    document.querySelectorAll('input[type="text"]').forEach(input => {
+        const correct = input.getAttribute('oninput').match(/'([^']+)'/)[1];
+        checkAnswer(input, correct);
+    });
+}
+</script>
+
+:::

@@ -1,9 +1,9 @@
 ---
-title: "Le Complément d'Objet Indirect (COI)"  
-author: "Kunal Khurana"  
-date: "05-15-2025"  
-categories: [B1, grammaire, COI, exercices]  
-image: "COI.png"  
+title: "Le Pronom 'en' : Placement et Exercices"
+author: "Kunal Khurana"
+date: "05-15-2025"
+categories: [B1, grammaire, pronom_en, exercices]
+image: "pronom_en.png"
 ---
 
 ::: {.content-visible when-profile="english"}
@@ -25,55 +25,55 @@ The pronoun **"en"** replaces a noun introduced by **"de"** (of, some, any) or a
 
 #### 1. Simple Tenses (Present/Future/Imperfect)  
 Replace the part in brackets with "en":  
-1. Je parle [de mon projet] (présent) → J’<input type="text" placeholder="" oninput="checkAnswer(this, '')"> parle.<span style="margin-left:10px;"></span>  
-2. Nous achetons [des pommes] (présent) → Nous <input type="text" placeholder="" oninput="checkAnswer(this, '')"> achetons.<span style="margin-left:10px;"></span>  
-3. Tu prendras [du café] (futur) → Tu <input type="text" placeholder="" oninput="checkAnswer(this, '')"> prendras.<span style="margin-left:10px;"></span>  
-4. Elle mangeait [des bonbons] (imparfait) → Elle <input type="text" placeholder="" oninput="checkAnswer(this, '')"> mangeait.<span style="margin-left:10px;"></span>  
-5. Vous boirez [de l’eau] (futur) → Vous <input type="text" placeholder="" oninput="checkAnswer(this, '')"> boirez.<span style="margin-left:10px;"></span>  
-6. Ils parlent [de leurs vacances] (présent) → Ils <input type="text" placeholder="" oninput="checkAnswer(this, '')"> parlent.<span style="margin-left:10px;"></span>  
-7. Nous avions [des idées] (imparfait) → Nous <input type="text" placeholder="" oninput="checkAnswer(this, '')"> avions.<span style="margin-left:10px;"></span>  
-8. Elle achètera [des livres] (futur) → Elle <input type="text" placeholder="" oninput="checkAnswer(this, '')"> achètera.<span style="margin-left:10px;"></span>  
-9. Tu veux [du pain] (présent) → Tu <input type="text" placeholder="" oninput="checkAnswer(this, '')"> veux.<span style="margin-left:10px;"></span>  
-10. Ils recevaient [des cadeaux] (imparfait) → Ils <input type="text" placeholder="" oninput="checkAnswer(this, '')"> recevaient.<span style="margin-left:10px;"></span>  
+1. Je parle [de mon projet] (present) → J’<input type="text" placeholder="" oninput="checkAnswer(this, 'en')"> parle.<span style="margin-left:10px;"></span>  
+2. Nous achetons [des pommes] (present) → Nous <input type="text" placeholder="" oninput="checkAnswer(this, 'en')"> achetons.<span style="margin-left:10px;"></span>  
+3. Tu prendras [du café] (future) → Tu <input type="text" placeholder="" oninput="checkAnswer(this, 'en')"> prendras.<span style="margin-left:10px;"></span>  
+4. Elle mangeait [des bonbons] (imperfect) → Elle <input type="text" placeholder="" oninput="checkAnswer(this, 'en')"> mangeait.<span style="margin-left:10px;"></span>  
+5. Vous boirez [de l’eau] (future) → Vous <input type="text" placeholder="" oninput="checkAnswer(this, 'en')"> boirez.<span style="margin-left:10px;"></span>  
+6. Ils parlent [de leurs vacances] (present) → Ils <input type="text" placeholder="" oninput="checkAnswer(this, 'en')"> parlent.<span style="margin-left:10px;"></span>  
+7. Nous avions [des idées] (imperfect) → Nous <input type="text" placeholder="" oninput="checkAnswer(this, 'en')"> avions.<span style="margin-left:10px;"></span>  
+8. Elle achètera [des livres] (future) → Elle <input type="text" placeholder="" oninput="checkAnswer(this, 'en')"> achètera.<span style="margin-left:10px;"></span>  
+9. Tu veux [du pain] (present) → Tu <input type="text" placeholder="" oninput="checkAnswer(this, 'en')"> veux.<span style="margin-left:10px;"></span>  
+10. Ils recevaient [des cadeaux] (imperfect) → Ils <input type="text" placeholder="" oninput="checkAnswer(this, 'en')"> recevaient.<span style="margin-left:10px;"></span>  
 
 #### 2. Compound Tenses (Passé Composé)  
 Replace with "en":  
-1. J’ai parlé [de ce problème] → J’<input type="text" placeholder="" oninput="checkAnswer(this, '')"> parlé.<span style="margin-left:10px;"></span>  
-2. Ils ont acheté [des fruits] → Ils <input type="text" placeholder="" oninput="checkAnswer(this, '')"> acheté.<span style="margin-left:10px;"></span>  
-3. Tu as bu [du lait] → Tu <input type="text" placeholder="" oninput="checkAnswer(this, '')"> bu.<span style="margin-left:10px;"></span>  
-4. Nous avons reçu [des lettres] → Nous <input type="text" placeholder="" oninput="checkAnswer(this, '')"> reçu.<span style="margin-left:10px;"></span>  
-5. Elle a pris [des photos] → Elle <input type="text" placeholder="" oninput="checkAnswer(this, '')"> pris.<span style="margin-left:10px;"></span>  
-6. Vous avez parlé [de vos projets] → Vous <input type="text" placeholder="" oninput="checkAnswer(this, '')"> parlé.<span style="margin-left:10px;"></span>  
-7. Il a mangé [du chocolat] → Il <input type="text" placeholder="" oninput="checkAnswer(this, '')"> mangé.<span style="margin-left:10px;"></span>  
-8. Elles ont acheté [des robes] → Elles <input type="text" placeholder="" oninput="checkAnswer(this, '')"> acheté.<span style="margin-left:10px;"></span>  
-9. J’ai reçu [des messages] → J’<input type="text" placeholder="" oninput="checkAnswer(this, '')"> reçu.<span style="margin-left:10px;"></span>  
-10. Nous avons bu [du jus] → Nous <input type="text" placeholder="" oninput="checkAnswer(this, '')"> bu.<span style="margin-left:10px;"></span>  
+1. J’ai parlé [de ce problème] → J’<input type="text" placeholder="" oninput="checkAnswer(this, 'en ai')"> parlé.<span style="margin-left:10px;"></span>  
+2. Ils ont acheté [des fruits] → Ils <input type="text" placeholder="" oninput="checkAnswer(this, 'en ont')"> acheté.<span style="margin-left:10px;"></span>  
+3. Tu as bu [du lait] → Tu <input type="text" placeholder="" oninput="checkAnswer(this, 'en as')"> bu.<span style="margin-left:10px;"></span>  
+4. Nous avons reçu [des lettres] → Nous <input type="text" placeholder="" oninput="checkAnswer(this, 'en avons')"> reçu.<span style="margin-left:10px;"></span>  
+5. Elle a pris [des photos] → Elle <input type="text" placeholder="" oninput="checkAnswer(this, 'en a')"> pris.<span style="margin-left:10px;"></span>  
+6. Vous avez parlé [de vos projets] → Vous <input type="text" placeholder="" oninput="checkAnswer(this, 'en avez')"> parlé.<span style="margin-left:10px;"></span>  
+7. Il a mangé [du chocolat] → Il <input type="text" placeholder="" oninput="checkAnswer(this, 'en a')"> mangé.<span style="margin-left:10px;"></span>  
+8. Elles ont acheté [des robes] → Elles <input type="text" placeholder="" oninput="checkAnswer(this, 'en ont')"> acheté.<span style="margin-left:10px;"></span>  
+9. J’ai reçu [des messages] → J’<input type="text" placeholder="" oninput="checkAnswer(this, 'en ai')"> reçu.<span style="margin-left:10px;"></span>  
+10. Nous avons bu [du jus] → Nous <input type="text" placeholder="" oninput="checkAnswer(this, 'en avons')"> bu.<span style="margin-left:10px;"></span>  
 
 #### 3. Two Verbs (Verb + Infinitive)  
 Place "en" correctly:  
-1. Je veux acheter [des pommes] → Je veux <input type="text" placeholder="" oninput="checkAnswer(this, '')"> acheter.<span style="margin-left:10px;"></span>  
-2. Elle peut prendre [du sucre] → Elle peut <input type="text" placeholder="" oninput="checkAnswer(this, '')"> prendre.<span style="margin-left:10px;"></span>  
-3. Nous allons manger [des crêpes] → Nous allons <input type="text" placeholder="" oninput="checkAnswer(this, '')"> manger.<span style="margin-left:10px;"></span>  
-4. Tu dois boire [de l’eau] → Tu dois <input type="text" placeholder="" oninput="checkAnswer(this, '')"> boire.<span style="margin-left:10px;"></span>  
-5. Ils veulent parler [de leur projet] → Ils veulent <input type="text" placeholder="" oninput="checkAnswer(this, '')"> parler.<span style="margin-left:10px;"></span>  
-6. Vous pouvez acheter [des billets] → Vous pouvez <input type="text" placeholder="" oninput="checkAnswer(this, '')"> acheter.<span style="margin-left:10px;"></span>  
-7. Je vais prendre [du pain] → Je vais <input type="text" placeholder="" oninput="checkAnswer(this, '')"> prendre.<span style="margin-left:10px;"></span>  
-8. Elle souhaite recevoir [des cadeaux] → Elle souhaite <input type="text" placeholder="" oninput="checkAnswer(this, '')"> recevoir.<span style="margin-left:10px;"></span>  
-9. Nous préférons acheter [des légumes] → Nous préférons <input type="text" placeholder="" oninput="checkAnswer(this, '')"> acheter.<span style="margin-left:10px;"></span>  
-10. Ils aiment boire [du thé] → Ils aiment <input type="text" placeholder="" oninput="checkAnswer(this, '')"> boire.<span style="margin-left:10px;"></span>  
+1. Je veux acheter [des pommes] → Je veux <input type="text" placeholder="" oninput="checkAnswer(this, 'en')"> acheter.<span style="margin-left:10px;"></span>  
+2. Elle peut prendre [du sucre] → Elle peut <input type="text" placeholder="" oninput="checkAnswer(this, 'en')"> prendre.<span style="margin-left:10px;"></span>  
+3. Nous allons manger [des crêpes] → Nous allons <input type="text" placeholder="" oninput="checkAnswer(this, 'en')"> manger.<span style="margin-left:10px;"></span>  
+4. Tu dois boire [de l’eau] → Tu dois <input type="text" placeholder="" oninput="checkAnswer(this, 'en')"> boire.<span style="margin-left:10px;"></span>  
+5. Ils veulent parler [de leur projet] → Ils veulent <input type="text" placeholder="" oninput="checkAnswer(this, 'en')"> parler.<span style="margin-left:10px;"></span>  
+6. Vous pouvez acheter [des billets] → Vous pouvez <input type="text" placeholder="" oninput="checkAnswer(this, 'en')"> acheter.<span style="margin-left:10px;"></span>  
+7. Je vais prendre [du pain] → Je vais <input type="text" placeholder="" oninput="checkAnswer(this, 'en')"> prendre.<span style="margin-left:10px;"></span>  
+8. Elle souhaite recevoir [des cadeaux] → Elle souhaite <input type="text" placeholder="" oninput="checkAnswer(this, 'en')"> recevoir.<span style="margin-left:10px;"></span>  
+9. Nous préférons acheter [des légumes] → Nous préférons <input type="text" placeholder="" oninput="checkAnswer(this, 'en')"> acheter.<span style="margin-left:10px;"></span>  
+10. Ils aiment boire [du thé] → Ils aiment <input type="text" placeholder="" oninput="checkAnswer(this, 'en')"> boire.<span style="margin-left:10px;"></span>  
 
 #### 4. Imperative (Affirmative/Negative)  
-Transform into commands with "en":  
-1. Acheter [des pommes] ! (affirmative) → <input type="text" placeholder="" oninput="checkAnswer(this, '')"> !<span style="margin-left:10px;"></span>  
-2. Ne pas prendre [de sucre] ! (negative) → <input type="text" placeholder="" oninput="checkAnswer(this, '')"> !<span style="margin-left:10px;"></span>  
-3. Manger [des fruits] ! (affirmative) → <input type="text" placeholder="" oninput="checkAnswer(this, '')"> !<span style="margin-left:10px;"></span>  
-4. Ne pas boire [de café] ! (negative) → <input type="text" placeholder="" oninput="checkAnswer(this, '')"> !<span style="margin-left:10px;"></span>  
-5. Prendre [du pain] ! (affirmative) → <input type="text" placeholder="" oninput="checkAnswer(this, '')"> !<span style="margin-left:10px;"></span>  
-6. Ne pas acheter [de billets] ! (negative) → <input type="text" placeholder="" oninput="checkAnswer(this, '')"> !<span style="margin-left:10px;"></span>  
-7. Parler [de ce sujet] ! (affirmative) → <input type="text" placeholder="" oninput="checkAnswer(this, '')"> !<span style="margin-left:10px;"></span>  
-8. Ne pas recevoir [de cadeaux] ! (negative) → <input type="text" placeholder="" oninput="checkAnswer(this, '')"> !<span style="margin-left:10px;"></span>  
-9. Acheter [des légumes] ! (affirmative) → <input type="text" placeholder="" oninput="checkAnswer(this, '')"> !<span style="margin-left:10px;"></span>  
-10. Ne pas parler [de ce problème] ! (negative) → <input type="text" placeholder="" oninput="checkAnswer(this, '')"> !<span style="margin-left:10px;"></span>  
+Transform into commands with "en" :  
+1. Acheter [des pommes] ! (affirmative) → <input type="text" placeholder="" oninput="checkAnswer(this, 'Achètes-en')"> !<span style="margin-left:10px;"></span>  
+2. Ne pas prendre [de sucre] ! (negative) → <input type="text" placeholder="" oninput="checkAnswer(this, 'N’en prends pas')"> !<span style="margin-left:10px;"></span>  
+3. Manger [des fruits] ! (affirmative) → <input type="text" placeholder="" oninput="checkAnswer(this, 'Manges-en')"> !<span style="margin-left:10px;"></span>  
+4. Ne pas boire [de café] ! (negative) → <input type="text" placeholder="" oninput="checkAnswer(this, 'N’en bois pas')"> !<span style="margin-left:10px;"></span>  
+5. Prendre [du pain] ! (affirmative) → <input type="text" placeholder="" oninput="checkAnswer(this, 'Prends-en')"> !<span style="margin-left:10px;"></span>  
+6. Ne pas acheter [de billets] ! (negative) → <input type="text" placeholder="" oninput="checkAnswer(this, 'N’en achète pas')"> !<span style="margin-left:10px;"></span>  
+7. Parler [de ce sujet] ! (affirmative) → <input type="text" placeholder="" oninput="checkAnswer(this, 'Parles-en')"> !<span style="margin-left:10px;"></span>  
+8. Ne pas recevoir [de cadeaux] ! (negative) → <input type="text" placeholder="" oninput="checkAnswer(this, 'N’en reçois pas')"> !<span style="margin-left:10px;"></span>  
+9. Acheter [des légumes] ! (affirmative) → <input type="text" placeholder="" oninput="checkAnswer(this, 'Achètes-en')"> !<span style="margin-left:10px;"></span>  
+10. Ne pas parler [de ce problème] ! (negative) → <input type="text" placeholder="" oninput="checkAnswer(this, 'N’en parle pas')"> !<span style="margin-left:10px;"></span>  
 
 ---
 

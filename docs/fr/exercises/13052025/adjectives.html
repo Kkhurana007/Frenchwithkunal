@@ -82,11 +82,13 @@ ul.task-list li input[type="checkbox"] {
 
 
 <meta property="og:title" content="French Demonstrative Adjectives (ce, cet, cette, ces) – Français avec Kunal">
+<meta property="og:description" content="">
 <meta property="og:image" content="https://frenchwithkunal.ca/exercises/13052025/demonstratives.png">
 <meta property="og:site_name" content="Français avec Kunal">
 <meta property="og:image:height" content="281">
 <meta property="og:image:width" content="582">
 <meta name="twitter:title" content="French Demonstrative Adjectives (ce, cet, cette, ces) – Français avec Kunal">
+<meta name="twitter:description" content="">
 <meta name="twitter:image" content="https://frenchwithkunal.ca/exercises/13052025/demonstratives.png">
 <meta name="twitter:image-height" content="281">
 <meta name="twitter:image-width" content="582">
@@ -113,10 +115,23 @@ ul.task-list li input[type="checkbox"] {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
-  <li class="nav-item">
-    <a class="nav-link" href="../../posts.html"> 
-<span class="menu-text">Articles de Blog</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-ressources" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Ressources</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-ressources">    
+        <li>
+    <a class="dropdown-item" href="../../posts.html"><i class="bi bi-file" role="img">
+</i> 
+ <span class="dropdown-text">Articles de Blog</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="../../exercises.html"><i class="bi bi-clipboard-check" role="img">
+</i> 
+ <span class="dropdown-text">Exercices</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
     <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">À Propos</span></a>
@@ -241,8 +256,110 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<section id="les-adjectifs-démonstratifs-en-français" class="level2">
+<h2 class="anchored" data-anchor-id="les-adjectifs-démonstratifs-en-français">Les adjectifs démonstratifs en français</h2>
+<p>Les adjectifs démonstratifs servent à montrer ou désigner quelque chose ou quelqu’un de précis. Ils s’accordent en genre et en nombre avec le nom qu’ils accompagnent :</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Français (Masc.)</th>
+<th>Français (Fém.)</th>
+<th>Pluriel</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>ce / cet</td>
+<td>cette</td>
+<td>ces</td>
+</tr>
+</tbody>
+</table>
+<p>Exemples :</p>
+<p>Ce livre (ce livre-ci) 📖</p>
+<p>Cet arbre (cet arbre-là) 🌳 (masculin devant voyelle ou h muet)</p>
+<p>Cette maison (cette maison-ci) 🏠</p>
+<p>Ces fleurs (ces fleurs-là) 💐</p>
+</section>
+<section id="exercices" class="level2">
+<h2 class="anchored" data-anchor-id="exercices">Exercices</h2>
+<section id="choisissez-le-bon-adjectif-démonstratif" class="level3">
+<h3 class="anchored" data-anchor-id="choisissez-le-bon-adjectif-démonstratif">1. Choisissez le bon adjectif démonstratif :</h3>
+<p>Regarde ___ oiseau ! (masc.) → <input type="text" placeholder="ce/cet/cette/ces" oninput="checkAnswer(this, 'cet')"><span style="margin-left:10px;">🚀 Astuce : « oiseau » commence par une voyelle</span></p>
+<p>Je veux ___ baguette. (fém.) → <input type="text" placeholder="ce/cet/cette/ces" oninput="checkAnswer(this, 'cette')"><span style="margin-left:10px;">🥖</span></p>
+<p>___ chiens sont bruyants ! (pluriel) → <input type="text" placeholder="ce/cet/cette/ces" oninput="checkAnswer(this, 'ces')"><span style="margin-left:10px;">🐕</span></p>
+<p>Elle adore ___ robe. (fém.) → <input type="text" placeholder="ce/cet/cette/ces" oninput="checkAnswer(this, 'cette')"><span style="margin-left:10px;">👗</span></p>
+<p>___ homme est gentil. (masc. voyelle) → <input type="text" placeholder="ce/cet/cette/ces" oninput="checkAnswer(this, 'cet')"><span style="margin-left:10px;">👨</span></p>
+</section>
+<section id="corrigez-les-erreurs" class="level3">
+<h3 class="anchored" data-anchor-id="corrigez-les-erreurs">2. Corrigez les erreurs :</h3>
+<p>« Cette arbre est grand. » → <input type="text" placeholder="Phrase correcte" oninput="checkAnswer(this, 'Cet arbre est grand')"><span style="margin-left:10px;">🌳</span></p>
+<p>« Ces fille est intelligente. » → <input type="text" placeholder="Phrase correcte" oninput="checkAnswer(this, 'Cette fille est intelligente')"><span style="margin-left:10px;">👧</span></p>
+</section>
+<section id="traduisez-en-français" class="level3">
+<h3 class="anchored" data-anchor-id="traduisez-en-français">3. Traduisez en français :</h3>
+<ol type="1">
+<li>“These cakes are delicious!” →</li>
+</ol>
+<textarea placeholder="..." rows="2" cols="50" oninput="checkTranslation(this, 'Ces gâteaux sont délicieux !')"></textarea>
+<p><span style="margin-left:10px;">🍰</span></p>
+<ol start="2" type="1">
+<li>“That (fem.) car is fast.” →</li>
+</ol>
+<textarea placeholder="..." rows="2" cols="50" oninput="checkTranslation(this, 'Cette voiture est rapide.')"></textarea>
+<p><span style="margin-left:10px;">🚗</span></p>
+<button onclick="showAnswers()">
+Afficher les réponses
+</button>
+<script>  
+function showAnswers() {  
+    document.querySelectorAll('input[type="text"]').forEach(input => {  
+        const correct = input.getAttribute('oninput').match(/'([^']+)'/)[1];  
+        input.value = correct;  
+        const feedback = input.nextElementSibling;  
+        feedback.textContent = "✓ Correct !";  
+        feedback.style.color = "green";  
+    });  
+}  
+
+function checkAllAnswers() {  
+    document.querySelectorAll('input[type="text"]').forEach(input => {  
+        const correct = input.getAttribute('oninput').match(/'([^']+)'/)[1];  
+        checkAnswer(input, correct);  
+    });  
+
+    document.querySelectorAll('textarea').forEach(textarea => {  
+        const correct = textarea.getAttribute('oninput').match(/'([^']+)'/)[1];  
+        checkTranslation(textarea, correct);  
+    });  
+}  
+
+function checkAnswer(input, correctAnswer) {  
+    const feedback = input.nextElementSibling;  
+    if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {  
+        feedback.textContent = "✓ Correct !";  
+        feedback.style.color = "green";  
+    } else if (input.value.trim()) {  
+        feedback.textContent = "✗ Essayez encore !";  
+        feedback.style.color = "red";  
+    }  
+}  
+
+function checkTranslation(textarea, correctAnswer) {  
+    const feedback = textarea.nextElementSibling;  
+    if (textarea.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {  
+        feedback.textContent = "✓ Correct !";  
+        feedback.style.color = "green";  
+    } else if (textarea.value.trim()) {  
+        feedback.textContent = "✗ Essayez encore !";  
+        feedback.style.color = "red";  
+    }  
+}  
+</script>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

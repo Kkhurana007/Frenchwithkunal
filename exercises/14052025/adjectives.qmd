@@ -159,3 +159,150 @@ function checkAllAnswers() {
 </script>  
 
 :::
+
+::: {.content-visible when-profile="french"}
+
+### Comprendre les adjectifs qualificatifs  
+
+Les adjectifs qualificatifs décrivent des qualités (ex : taille, couleur, personnalité) et **s’accordent en genre (masculin/féminin) et en nombre** avec le nom qu’ils qualifient.  
+
+#### Règles clés :  
+1. **Masculin vs. Féminin** :  
+    - La plupart des adjectifs ajoutent **-e** au féminin (*petit → petite*).  
+    - Certains changent de terminaison :  
+      - *-el → -elle* (naturel → naturelle)  
+      - *-er → -ère* (cher → chère)  
+      - *-x → -se* (heureux → heureuse).  
+    - Les adjectifs invariables (ex : *marron, sympa*) ne changent pas.  
+
+2. **Place** :  
+    - Généralement **après** le nom (*une fille gentille*).  
+    - Les adjectifs courts/fréquents sont souvent **avant** (*un petit chat, une jolie robe*).  
+
+3. **Exemples** :  
+    - Masculin : *Un livre intéressant*.  
+    - Féminin : *Une histoire intéressante*.  
+    - Pluriel : *Des enfants amusants*.  
+
+---
+
+### Exercices  
+
+#### 1. Donnez la bonne forme de l’adjectif (masculin/féminin/pluriel) :  
+___ chien (noir) 🐕 → <input type="text" placeholder="noir/noire/noirs" oninput="verifierReponse(this, 'noir')"><span style="margin-left:10px;"></span>  
+
+___ maison (blanc) 🏠 → <input type="text" placeholder="blanc/blanche/blancs" oninput="verifierReponse(this, 'blanche')"><span style="margin-left:10px;"></span>  
+
+___ robes (beau) 👗 → <input type="text" placeholder="beau/belle/beaux" oninput="verifierReponse(this, 'belles')"><span style="margin-left:10px;"></span>  
+
+___ arbre (vert) 🌳 → <input type="text" placeholder="vert/verte/verts" oninput="verifierReponse(this, 'vert')"><span style="margin-left:10px;"></span>  
+
+___ enfants (heureux) 🧒 → <input type="text" placeholder="heureux/heureuse/heureux" oninput="verifierReponse(this, 'heureux')"><span style="margin-left:10px;"></span>  
+
+#### 2. Corrigez les erreurs d’accord des adjectifs :  
+"Une homme grand" → <input type="text" placeholder="Phrase correcte" oninput="verifierReponse(this, 'un homme grand')"><span style="margin-left:10px;"></span>  
+
+"Des fleurs blancs" 🌸 → <input type="text" placeholder="Phrase correcte" oninput="verifierReponse(this, 'des fleurs blanches')"><span style="margin-left:10px;"></span>  
+
+"La pizza délicieux" 🍕 → <input type="text" placeholder="Phrase correcte" oninput="verifierReponse(this, 'la pizza délicieuse')"><span style="margin-left:10px;"></span>  
+
+#### 3. Traduisez en français (avec les adjectifs !) :  
+"Une femme intelligente." → <textarea placeholder="Français..." rows="1" cols="30" oninput="verifierTraduction(this, 'une femme intelligente')"></textarea><span style="margin-left:10px;"></span>  
+
+"Deux petits chiens amusants." → <textarea placeholder="Français..." rows="1" cols="30" oninput="verifierTraduction(this, 'deux petits chiens amusants')"></textarea><span style="margin-left:10px;"></span>  
+
+#### 4. Complétez avec la bonne forme de l’adjectif :  
+"Il a acheté une ___ (nouveau) voiture." 🚗 → <input type="text" placeholder="nouveau/nouvelle" oninput="verifierReponse(this, 'nouvelle')"><span style="margin-left:10px;"></span>  
+
+"Les ___ (vieux) livres sont précieux." 📚 → <input type="text" placeholder="vieux/vieille/vieilles" oninput="verifierReponse(this, 'vieux')"><span style="margin-left:10px;"></span>  
+
+<button onclick="afficherReponses()">Afficher toutes les réponses</button>  
+<button onclick="rafraichirPage()">Réinitialiser les exercices</button>  
+
+---
+
+### Notes :  
+- Les adjectifs **BANGS** (*Beauté, Âge, Nombre, Bonté, Taille*) sont souvent **avant** le nom (*un beau jardin*).  
+- **Irréguliers** :  
+  - *Vieux → vieille* (mais *vieil* devant voyelle : *un vieil homme*).  
+  - *Doux → douce*, *faux → fausse*.  
+- **Adjectifs composés** : seul le deuxième mot s’accorde (*des sourds-muets*).  
+
+<script>  
+function afficherReponses() {  
+     document.querySelectorAll('input[type="text"]').forEach(input => {  
+          const correct = input.getAttribute('oninput').match(/'([^']+)'/)[1];  
+          input.value = correct;  
+          const feedback = input.nextElementSibling;  
+          feedback.textContent = "✓ Correct !";  
+          feedback.style.color = "green";  
+     });  
+}  
+
+function rafraichirPage() {  
+     location.reload();  
+}  
+
+function verifierReponse(input, bonneReponse) {  
+     const feedback = input.nextElementSibling;  
+     if (input.value.trim().toLowerCase() === bonneReponse.toLowerCase()) {  
+          feedback.textContent = "✓ Correct !";  
+          feedback.style.color = "green";  
+     } else if (input.value.trim()) {  
+          feedback.textContent = "✗ Réessayez !";  
+          feedback.style.color = "red";  
+     }  
+}  
+
+function verifierToutesReponses() {  
+     document.querySelectorAll('input[type="text"]').forEach(input => {  
+          const correct = input.getAttribute('oninput').match(/'([^']+)'/)[1];  
+          verifierReponse(input, correct);  
+     });  
+
+     document.querySelectorAll('textarea').forEach(textarea => {  
+          const correct = textarea.getAttribute('oninput').match(/'([^']+)'/)[1];  
+          verifierTraduction(textarea, correct);  
+     });  
+}  
+
+function verifierTraduction(textarea, bonneReponse) {  
+     const feedback = textarea.nextElementSibling;  
+     if (textarea.value.trim().toLowerCase() === bonneReponse.toLowerCase()) {  
+          feedback.textContent = "✓ Correct !";  
+          feedback.style.color = "green";  
+     } else if (textarea.value.trim()) {  
+          feedback.textContent = "✗ Réessayez !";  
+          feedback.style.color = "red";  
+     }  
+}  
+
+function verifierToutesReponsesEtAfficher() {  
+     document.querySelectorAll('input[type="text"]').forEach(input => {  
+          const correct = input.getAttribute('oninput').match(/'([^']+)'/)[1];  
+          input.value = correct;  
+          const feedback = input.nextElementSibling;  
+          feedback.textContent = "✓ Correct !";  
+          feedback.style.color = "green";  
+     });  
+
+     document.querySelectorAll('textarea').forEach(textarea => {  
+          const correct = textarea.getAttribute('oninput').match(/'([^']+)'/)[1];  
+          textarea.value = correct;  
+          const feedback = textarea.nextElementSibling;  
+          feedback.textContent = "✓ Correct !";  
+          feedback.style.color = "green";  
+     });  
+}  
+</script>  
+
+#### 5. Traduisez en français (avec articles/partitifs !) :  
+"Je mange du poulet avec du riz."  
+<textarea placeholder="Je mange..." rows="2" cols="50" oninput="verifierTraduction(this, 'Je mange du poulet avec du riz')"></textarea><span style="margin-left:10px;"></span>  
+
+"Elle préfère les blancs d’œufs pour le petit-déjeuner."  
+<textarea placeholder="Elle préfère..." rows="2" cols="50" oninput="verifierTraduction(this, 'Elle préfère les blancs d’œufs pour le petit-déjeuner')"></textarea><span style="margin-left:10px;"></span>  
+
+<button onclick="verifierToutesReponsesEtAfficher()">Vérifier les réponses</button>  
+
+:::

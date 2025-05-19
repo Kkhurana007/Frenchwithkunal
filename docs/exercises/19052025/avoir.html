@@ -84,13 +84,13 @@ ul.task-list li input[type="checkbox"] {
 
 <meta property="og:title" content="Exercises with Avoir – French with Kunal">
 <meta property="og:description" content="">
-<meta property="og:image" content="https://tranquil-tiramisu-18a73a.netlify.app/exercises/19052025/avoir.png">
+<meta property="og:image" content="https://frenchwithkunal.ca/exercises/19052025/avoir.png">
 <meta property="og:site_name" content="French with Kunal">
 <meta property="og:image:height" content="354">
 <meta property="og:image:width" content="502">
 <meta name="twitter:title" content="Exercises with Avoir – French with Kunal">
 <meta name="twitter:description" content="">
-<meta name="twitter:image" content="https://tranquil-tiramisu-18a73a.netlify.app/exercises/19052025/avoir.png">
+<meta name="twitter:image" content="https://frenchwithkunal.ca/exercises/19052025/avoir.png">
 <meta name="twitter:image-height" content="354">
 <meta name="twitter:image-width" content="502">
 <meta name="twitter:card" content="summary_large_image">
@@ -252,8 +252,8 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="exercise-practicing-the-verb-aller" class="level1">
-<h1>Exercise: Practicing the Verb “Aller”</h1>
+<section id="exercise-practicing-the-verb-avoir" class="level1">
+<h1>Exercise: Practicing the Verb “Avoir”</h1>
 <p>Here are some exercises to practice conjugating the verb <strong>aller</strong> (to go) in French:</p>
 <ol type="1">
 <li>Conjugate the verb “avoir” in the present tense for the following subjects:
@@ -317,13 +317,14 @@ function checkAllAnswers() {
 <textarea placeholder="Enter your translation here" rows="2" cols="50"></textarea></li>
 <li><p>We have a house.<br>
 </p>
-<textarea placeholder="Enter your translation here" rows="2" cols="50"></textarea></li>
-</ul>
-<button onclick="showAllTranslations()">
-<p>Submit</p>
-</button></li>
-</ol>
-<script>
+<textarea placeholder="Enter your translation here" rows="2" cols="50">&lt;p&gt;&lt;/textarea&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;button onclick="showAllTranslations()"&gt;
+&lt;p&gt;Submit&lt;/p&gt;
+&lt;/button&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;script&gt;
+
 function showAllTranslations() {
     const translations = [
         { input: document.querySelectorAll('textarea')[0], correct: 'J\'ai un livre.' },
@@ -331,7 +332,7 @@ function showAllTranslations() {
         { input: document.querySelectorAll('textarea')[2], correct: 'Nous avons une maison.' }
     ];
 
-    translations.forEach(({ input, correct }) => {
+    translations.forEach(({ input, correct }) =&gt; {
         let feedback = input.nextElementSibling;
 
         if (!feedback || feedback.tagName !== 'SPAN') {
@@ -353,14 +354,14 @@ function showAllTranslations() {
     // Ensure the button remains visible after feedback is displayed
     document.querySelector('button[onclick="showAllTranslations()"]').scrollIntoView({ behavior: 'smooth', block: 'center' });
 }
-</script>
-<ol start="4" type="1">
-<li><p>Write a short paragraph about what you and your friends have done recently using different forms of “avoir.”</p>
-<textarea placeholder="Write your paragraph here" rows="5" cols="50"></textarea>
+&lt;/script&gt;
+&lt;ol start="4" type="1"&gt;
+&lt;li&gt;Write a short paragraph about what you and your friends have done recently using different forms of “avoir.”
+&lt;textarea placeholder="Write your paragraph here" rows="5" cols="50"&gt;</textarea>
 <button onclick="checkAllAnswers()">
-<p>Check All Answers</p>
+Check All Answers
 </button></li>
-</ol>
+</ul></li></ol>
 
 
 </section>
@@ -600,7 +601,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/tranquil-tiramisu-18a73a\.netlify\.app");
+      var filterRegex = new RegExp("https:\/\/frenchwithkunal\.ca");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

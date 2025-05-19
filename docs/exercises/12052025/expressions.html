@@ -84,13 +84,13 @@ ul.task-list li input[type="checkbox"] {
 
 <meta property="og:title" content="Exercises: Common French Thoughts &amp; Expressions – French with Kunal">
 <meta property="og:description" content="">
-<meta property="og:image" content="https://tranquil-tiramisu-18a73a.netlify.app/exercises/12052025/expressions.png">
+<meta property="og:image" content="https://frenchwithkunal.ca/exercises/12052025/expressions.png">
 <meta property="og:site_name" content="French with Kunal">
 <meta property="og:image:height" content="508">
 <meta property="og:image:width" content="649">
 <meta name="twitter:title" content="Exercises: Common French Thoughts &amp; Expressions – French with Kunal">
 <meta name="twitter:description" content="">
-<meta name="twitter:image" content="https://tranquil-tiramisu-18a73a.netlify.app/exercises/12052025/expressions.png">
+<meta name="twitter:image" content="https://frenchwithkunal.ca/exercises/12052025/expressions.png">
 <meta name="twitter:image-height" content="508">
 <meta name="twitter:image-width" content="649">
 <meta name="twitter:card" content="summary_large_image">
@@ -252,7 +252,7 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="exercises-common-french-thoughts-expressions" class="level3 contenet-visisble" data-when-profile="english">
+<section id="exercises-common-french-thoughts-expressions" class="level3">
 <h3 class="anchored" data-anchor-id="exercises-common-french-thoughts-expressions"><strong>Exercises: Common French Thoughts &amp; Expressions</strong></h3>
 <p><strong>Categories:</strong> A1/A2, vocabulary, expressions, sentence building</p>
 <section id="fill-in-the-blanks-with-the-correct-wordphrase" class="level4">
@@ -326,6 +326,9 @@ ul.task-list li input[type="checkbox"] {
 <button onclick="checkAllAnswers()">
 Check Answers
 </button>
+<button onclick="showAllAnswers()">
+Show All Answers
+</button>
 <script>  
 function checkAnswer(input, correctAnswer) {  
     const feedback = input.nextElementSibling;  
@@ -344,11 +347,22 @@ function checkAllAnswers() {
         checkAnswer(input, correct);  
     });  
 }  
+
+function showAllAnswers() {  
+    document.querySelectorAll('input[type="text"]').forEach(input => {  
+        const correct = input.getAttribute('oninput').match(/'([^']+)'/)[1];  
+        input.value = correct;  
+        const feedback = input.nextElementSibling;  
+        feedback.textContent = "✓ Correct!";  
+        feedback.style.color = "green";  
+    });  
+}  
+
 </script>
-</section>
-</section>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -585,7 +599,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/tranquil-tiramisu-18a73a\.netlify\.app");
+      var filterRegex = new RegExp("https:\/\/frenchwithkunal\.ca");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

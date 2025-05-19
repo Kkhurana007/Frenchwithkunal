@@ -134,3 +134,134 @@ function checkTranslation(textarea, correctAnswer) {
 </script>  
 
 :::  
+
+
+::: {.content-visible when-profile="french"}
+
+### Explication :  
+Les adjectifs possessifs indiquent à qui appartient un objet. En français, ils s’accordent avec le **nom** qu’ils accompagnent (et non avec le possesseur !).
+
+| Anglais        | Masculin singulier | Féminin singulier | Pluriel (M/F) |
+|----------------|-------------------|-------------------|---------------|
+| **mon**        | mon               | ma                | mes           |
+| **ton**        | ton               | ta                | tes           |
+| **son/sa**     | son               | sa                | ses           |
+| **notre**      | notre             | notre             | nos           |
+| **votre**      | votre             | votre             | vos           |
+| **leur**       | leur              | leur              | leurs         |
+
+**Exceptions :**  
+- Devant une voyelle ou un h muet, on utilise **mon/ton/son** même pour les noms féminins (*mon amie*, *son école*).
+
+---
+
+### Exercice 1 : Choisissez le bon adjectif possessif  
+Complétez avec **mon/ton/son/ma/ta/sa/notre/votre/leur**.
+
+1. C’est ___ livre. (mon)  
+    <input type="text" placeholder="mon/ma" oninput="checkAnswer(this, 'mon')"><span style="margin-left:10px;"></span>  
+
+2. ___ amie s’appelle Léa. (son)  
+    <input type="text" placeholder="son/sa" oninput="checkAnswer(this, 'son')"><span style="margin-left:10px;"></span>  
+
+3. Nous faisons ___ devoirs. (nos)  
+    <input type="text" placeholder="notre/nos" oninput="checkAnswer(this, 'nos')"><span style="margin-left:10px;"></span>  
+
+4. ___ parents sont gentils. (leurs)  
+    <input type="text" placeholder="leur/leurs" oninput="checkAnswer(this, 'leurs')"><span style="margin-left:10px;"></span>  
+
+5. Tu oublies toujours ___ clés ! (tes)  
+    <input type="text" placeholder="ton/ta/tes" oninput="checkAnswer(this, 'tes')"><span style="margin-left:10px;"></span>  
+
+---
+
+### Exercice 2 : Corrigez les erreurs  
+1. « Elle adore ton robe. » (sa) →  
+    <input type="text" placeholder="Corrigez" oninput="checkAnswer(this, 'Elle adore sa robe.')"><span style="margin-left:10px;"></span>  
+
+2. « J’ai perdu mon sac à dos. C’est votre sac ? » (ton) →  
+    <input type="text" placeholder="Corrigez" oninput="checkAnswer(this, 'C’est ton sac ?')"><span style="margin-left:10px;"></span>  
+
+3. « Leur chien est petit, mais notre chien est grand. » (leurs/nos si pluriel) →  
+    <input type="text" placeholder="Corrigez si nécessaire" oninput="checkAnswer(this, 'Leurs chiens.../Nos chiens...')"><span style="margin-left:10px;"></span>  
+
+---
+
+### Exercice 3 : Traduisez en français  
+1. « Your cat is cute. » (Ton chat est mignon.)  
+    <textarea placeholder="..." rows="2" cols="50" oninput="checkTranslation(this, 'Ton chat est mignon.')"></textarea><span style="margin-left:10px;"></span>  
+
+2. « Her brother is at our house. » (Son frère est à notre maison.)  
+    <textarea placeholder="..." rows="2" cols="50" oninput="checkTranslation(this, 'Son frère est à notre maison.')"></textarea><span style="margin-left:10px;"></span>  
+
+<button onclick="showAnswers()">Afficher les réponses</button>  
+<button onclick="checkAllAnswers()">Rééssayer</button>  
+
+
+---
+
+### Exercice 4 : Expression orale/écrite  
+**Situation :** Décrivez votre famille à un ami. Utilisez au moins **5 adjectifs possessifs**.  
+Exemple : *« Mon père est professeur. Sa voiture est rouge… »*  
+<textarea placeholder="Écrivez ici..." rows="4" cols="60"></textarea>  
+ 
+
+<script>  
+function showAnswers() {  
+    document.querySelectorAll('input[type="text"]').forEach(input => {  
+        const correct = input.getAttribute('oninput').match(/'([^']+)'/)[1];  
+        input.value = correct;  
+        const feedback = input.nextElementSibling;  
+        feedback.textContent = "✓ Correct !";  
+        feedback.style.color = "green";  
+    });  
+}  
+
+function checkAllAnswers() {  
+    document.querySelectorAll('input[type="text"]').forEach(input => {  
+        const correct = input.getAttribute('oninput').match(/'([^']+)'/)[1];  
+        checkAnswer(input, correct);  
+        if (input.value.trim().toLowerCase() !== correct.toLowerCase()) {  
+            input.value = correct;  
+            const feedback = input.nextElementSibling;  
+            feedback.textContent = `✗ Correct answer: ${correct}`;  
+            feedback.style.color = "blue";  
+        }  
+    });  
+
+    document.querySelectorAll('textarea').forEach(textarea => {  
+        const correct = textarea.getAttribute('oninput').match(/'([^']+)'/)[1];  
+        checkTranslation(textarea, correct);  
+        if (textarea.value.trim().toLowerCase() !== correct.toLowerCase()) {  
+            textarea.value = correct;  
+            const feedback = textarea.nextElementSibling;  
+            feedback.textContent = `✗ Correct answer: ${correct}`;  
+            feedback.style.color = "blue";  
+        }  
+    });  
+}  
+
+function checkAnswer(input, correctAnswer) {  
+    const feedback = input.nextElementSibling;  
+    if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {  
+        feedback.textContent = "✓ Correct !";  
+        feedback.style.color = "green";  
+    } else if (input.value.trim()) {  
+        feedback.textContent = "✗ Essayez encore !";  
+        feedback.style.color = "red";  
+    }  
+}  
+
+function checkTranslation(textarea, correctAnswer) {  
+    const feedback = textarea.nextElementSibling;  
+    if (textarea.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {  
+        feedback.textContent = "✓ Correct !";  
+        feedback.style.color = "green";  
+    } else if (textarea.value.trim()) {  
+        feedback.textContent = "✗ Essayez encore !";  
+        feedback.style.color = "red";  
+    }  
+}  
+</script>  
+
+:::

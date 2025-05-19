@@ -82,10 +82,16 @@ ul.task-list li input[type="checkbox"] {
 
 
 <meta property="og:title" content="French Compound Nouns Practice (3 Types) – Français avec Kunal">
+<meta property="og:description" content="">
 <meta property="og:image" content="https://frenchwithkunal.ca/exercises/14052025/compound_nouns.png">
 <meta property="og:site_name" content="Français avec Kunal">
+<meta property="og:image:height" content="321">
+<meta property="og:image:width" content="659">
 <meta name="twitter:title" content="French Compound Nouns Practice (3 Types) – Français avec Kunal">
+<meta name="twitter:description" content="">
 <meta name="twitter:image" content="https://frenchwithkunal.ca/exercises/14052025/compound_nouns.png">
+<meta name="twitter:image-height" content="321">
+<meta name="twitter:image-width" content="659">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -250,8 +256,108 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<section id="introduction-1" class="level2">
+<h2 class="anchored" data-anchor-id="introduction-1">Introduction</h2>
+<p>Les noms composés en français se forment en combinant deux mots ou plus pour créer un seul nom. Ces combinaisons suivent souvent des schémas précis. Dans cet exercice, nous allons explorer trois types courants de noms composés :</p>
+<ul>
+<li><strong>Type 1</strong> : Nom + Nom / Adj + Nom / Verbe + Nom (ex : brosse à dents)</li>
+<li><strong>Type 2</strong> : Nom + de + Nom (ex : tasse de café)</li>
+<li><strong>Type 3</strong> : Nom + à + Verbe (ex : sèche-cheveux)</li>
+</ul>
+<p>Entraînez-vous à identifier, compléter et créer des noms composés dans les exercices ci-dessous.</p>
+</section>
+<section id="exercice-1-identifier-le-type" class="level2">
+<h2 class="anchored" data-anchor-id="exercice-1-identifier-le-type">Exercice 1 : Identifier le type</h2>
+<p>Classez ces noms composés selon leur structure (Type 1/2/3) :</p>
+<p>Porte-monnaie → <input type="text" placeholder="Type ?"> <span class="feedback" data-answer="1"></span></p>
+<p>Verre de vin → <input type="text" placeholder="Type ?"> <span class="feedback" data-answer="2"></span></p>
+<p>Fer à repasser → <input type="text" placeholder="Type ?"> <span class="feedback" data-answer="3"></span></p>
+<button onclick="checkTypes()">
+Vérifier
+</button>
+</section>
+<section id="exercice-2-complétez-les-blancs" class="level2">
+<h2 class="anchored" data-anchor-id="exercice-2-complétez-les-blancs">Exercice 2 : Complétez les blancs</h2>
+<p>Complétez avec le mot ou la préposition correcte :</p>
+<p>Une ______ à dents → <input type="text" placeholder=""> <span class="feedback" data-answer="brosse"></span></p>
+<p>Une tasse ______ café → <input type="text" placeholder=""> <span class="feedback" data-answer="de"></span></p>
+<p>Un sèche-______ → <input type="text" placeholder=""> <span class="feedback" data-answer="cheveux"></span></p>
+<button onclick="checkFillBlanks()">
+Vérifier
+</button>
+</section>
+<section id="exercice-3-traduction" class="level2">
+<h2 class="anchored" data-anchor-id="exercice-3-traduction">Exercice 3 : Traduction</h2>
+<p>Traduisez en français (utilisez des noms composés) :</p>
+<p>“Bird-watching” → <input type="text" placeholder=""> <span class="feedback" data-answer="observation des oiseaux"></span></p>
+<p>“Swimming pool” → <input type="text" placeholder=""> (Remarque : pas composé !) <span class="feedback" data-answer="piscine"></span></p>
+<button onclick="checkTranslation()">
+Vérifier
+</button>
+</section>
+<section id="exercice-4-créez-vos-propres-exemples" class="level2">
+<h2 class="anchored" data-anchor-id="exercice-4-créez-vos-propres-exemples">Exercice 4 : Créez vos propres exemples</h2>
+<p>Inventez un nom composé pour chaque type :</p>
+<p>Type 1 : <input type="text" placeholder=""></p>
+<p>Type 2 : <input type="text" placeholder=""></p>
+<p>Type 3 : <input type="text" placeholder=""></p>
+<button onclick="giveExamples()">
+Voir des exemples
+</button>
+<div id="creative-feedback">
+
+</div>
+<button onclick="showAllAnswers()">
+Afficher toutes les réponses
+</button>
+<script>
+function checkTypes() {  
+    document.querySelectorAll('span[data-answer]').forEach(span => {  
+        const input = span.previousElementSibling;  
+        if (input.value.trim() === span.dataset.answer) {  
+            span.textContent = "✓ Correct";  
+            span.style.color = "green";  
+        } else {  
+            span.textContent = `✗ Type ${span.dataset.answer}`;  
+            span.style.color = "red";  
+        }  
+    });  
+}  
+
+function checkFillBlanks() {  
+    document.querySelectorAll('span[data-answer]').forEach(span => {  
+        const input = span.previousElementSibling;  
+        if (input.value.trim().toLowerCase() === span.dataset.answer) {  
+            span.textContent = "✓ Correct";  
+            span.style.color = "green";  
+        } else {  
+            span.textContent = `✗ Answer: "${span.dataset.answer}"`;  
+            span.style.color = "red";  
+        }  
+    });  
+}  
+
+function giveExamples() {  
+    document.getElementById('creative-feedback').innerHTML = `  
+        <p>Examples:</p>  
+        <ul>  
+            <li><strong>Type 1</strong>: sac-à-dos (backpack)</li>  
+            <li><strong>Type 2</strong>: verre de lait (glass of milk)</li>  
+            <li><strong>Type 3</strong>: machine à écrire (typewriter)</li>  
+        </ul>  
+    `;  
+}  
+
+function showAllAnswers() {
+    document.querySelectorAll('span[data-answer]').forEach(span => {
+        span.textContent = `Answer: ${span.dataset.answer}`;
+        span.style.color = "blue";
+    });
+}
+</script>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

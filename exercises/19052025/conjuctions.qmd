@@ -7,6 +7,7 @@ image: "conjunctions.png"
 ---
 
 ::: {.content-visible when-profile="english"}
+
 # Exercise: Practicing French Conjunctions
 
 Practice using conjunctions (*et, mais, ou, donc, car, parce que, quand, si, alors, puisque, comme, tandis que, bien que, quoique, afin que, pour que, avant que, après que, lorsque, dès que, tant que, à condition que, à moins que, en attendant que, jusqu'à ce que, sans que, malgré que*) in context.
@@ -110,6 +111,7 @@ Use a conjunction to link the two sentences logically. Type your answer in the b
   <span class="feedback"></span>
 
 ## 3. Translation Challenge
+
 Translate these sentences into French using conjunctions:
 
 - I want tea **or** coffee.  
@@ -123,10 +125,140 @@ Translate these sentences into French using conjunctions:
   <span class="feedback"></span>
 
 ## 4. Creative Writing
+
 Write a short paragraph (5-6 sentences) about your daily routine using at least **3 different conjunctions**. Highlight the conjunctions you used.
 
 <textarea placeholder="Mon quotidien..." rows="5" cols="50"></textarea>  
 <button onclick="highlightConjunctions(this.previousElementSibling)">Highlight Conjunctions</button>  
+<div class="feedback"></div>
+
+
+:::
+
+::: {.content-visible when-profile="french"}
+
+# Exercice : Pratiquer les conjonctions françaises
+
+Entraînez-vous à utiliser les conjonctions (*et, mais, ou, donc, car, parce que, quand, si, alors, puisque, comme, tandis que, bien que, quoique, afin que, pour que, avant que, après que, lorsque, dès que, tant que, à condition que, à moins que, en attendant que, jusqu'à ce que, sans que, malgré que*) en contexte.
+
+## 1. Complétez les phrases
+Choisissez la bonne conjonction dans le menu déroulant :
+
+- J'aime le chocolat <select onchange="checkConjunction(this, 'mais')">
+  <option value="">--Choisir--</option>
+  <option value="et">et</option>
+  <option value="mais">mais</option>
+  <option value="ou">ou</option>
+</select> je ne mange pas souvent.  
+<span class="feedback"></span>
+
+- Il veut voyager <select onchange="checkConjunction(this, 'donc')">
+  <option value="">--Choisir--</option>
+  <option value="donc">donc</option>
+  <option value="car">car</option>
+  <option value="quand">quand</option>
+</select> il économise de l'argent.  
+<span class="feedback"></span>
+
+- Nous irons au parc <select onchange="checkConjunction(this, 'si')">
+  <option value="">--Choisir--</option>
+  <option value="si">si</option>
+  <option value="quand">quand</option>
+  <option value="parce que">parce que</option>
+</select> il fait beau.  
+<span class="feedback"></span>
+
+- Elle est heureuse <select onchange="checkConjunction(this, 'parce que')">
+  <option value="">--Choisir--</option>
+  <option value="parce que">parce que</option>
+  <option value="alors">alors</option>
+  <option value="comme">comme</option>
+</select> elle a réussi son examen.  
+<span class="feedback"></span>
+
+- Je vais rester ici <select onchange="checkConjunction(this, 'tandis que')">
+  <option value="">--Choisir--</option>
+  <option value="tandis que">tandis que</option>
+  <option value="bien que">bien que</option>
+  <option value="quoique">quoique</option>
+</select> tu pars en voyage.  
+<span class="feedback"></span>
+
+- Il travaille dur <select onchange="checkConjunction(this, 'afin que')">
+  <option value="">--Choisir--</option>
+  <option value="afin que">afin que</option>
+  <option value="pour que">pour que</option>
+  <option value="avant que">avant que</option>
+</select> sa famille ait une vie meilleure.  
+<span class="feedback"></span>
+
+- Nous partirons <select onchange="checkConjunction(this, 'dès que')">
+  <option value="">--Choisir--</option>
+  <option value="dès que">dès que</option>
+  <option value="tant que">tant que</option>
+  <option value="à condition que">à condition que</option>
+</select> tu seras prêt.  
+<span class="feedback"></span>
+
+- Je t'aiderai <select onchange="checkConjunction(this, 'à condition que')">
+  <option value="">--Choisir--</option>
+  <option value="à condition que">à condition que</option>
+  <option value="à moins que">à moins que</option>
+  <option value="sans que">sans que</option>
+</select> tu fasses un effort.  
+<span class="feedback"></span>
+
+- Il est venu <select onchange="checkConjunction(this, 'malgré que')">
+  <option value="">--Choisir--</option>
+  <option value="malgré que">malgré que</option>
+  <option value="sans que">sans que</option>
+  <option value="en attendant que">en attendant que</option>
+</select> la pluie.  
+<span class="feedback"></span>
+
+- Nous resterons ici <select onchange="checkConjunction(this, 'tant que')">
+  <option value="">--Choisir--</option>
+  <option value="tant que">tant que</option>
+  <option value="jusqu'à ce que">jusqu'à ce que</option>
+  <option value="avant que">avant que</option>
+</select> le problème ne sera pas résolu.  
+<span class="feedback"></span>
+
+## 2. Reliez les phrases
+Utilisez une conjonction pour relier logiquement les deux phrases. Tapez votre réponse dans la case.
+
+- J'aime danser. Je n'aime pas chanter.  
+  **Réponse possible :** J'aime danser *mais* je n'aime pas chanter.  
+  <textarea placeholder="Votre réponse..." rows="2" cols="50"></textarea>  
+  <button onclick="checkCombination(this.previousElementSibling, 'mais')">Vérifier</button>  
+  <span class="feedback"></span>
+
+- Elle étudie beaucoup. Elle veut réussir.  
+  **Réponse possible :** Elle étudie beaucoup *car* elle veut réussir.  
+  <textarea placeholder="Votre réponse..." rows="2" cols="50"></textarea>  
+  <button onclick="checkCombination(this.previousElementSibling, 'car')">Vérifier</button>  
+  <span class="feedback"></span>
+
+## 3. Défi de traduction
+
+Traduisez ces phrases en français en utilisant des conjonctions :
+
+- Je veux du thé **ou** du café.  
+  <textarea placeholder="Je veux..." rows="2" cols="50"></textarea>  
+  <button onclick="checkTranslation(this.previousElementSibling, 'Je veux du thé ou du café.')">Vérifier</button>  
+  <span class="feedback"></span>
+
+- Il est fatigué **parce qu’**il a travaillé tard.  
+  <textarea placeholder="Il est fatigué..." rows="2" cols="50"></textarea>  
+  <button onclick="checkTranslation(this.previousElementSibling, 'Il est fatigué parce qu’il a travaillé tard.')">Vérifier</button>  
+  <span class="feedback"></span>
+
+## 4. Expression écrite
+
+Écrivez un court paragraphe (5-6 phrases) sur votre routine quotidienne en utilisant au moins **3 conjonctions différentes**. Mettez en évidence les conjonctions utilisées.
+
+<textarea placeholder="Mon quotidien..." rows="5" cols="50"></textarea>  
+<button onclick="highlightConjunctions(this.previousElementSibling)">Surligner les conjonctions</button>  
 <div class="feedback"></div>
 
 <script>
@@ -187,6 +319,66 @@ const conjunctions = [
   const feedback = textareaElement.nextElementSibling.nextElementSibling;
   feedback.innerHTML = "<strong>Conjunctions used:</strong><br>" + highlightedText;
 }
+
+
+// Function to check dropdown answers
+function checkConjunction(selectElement, correctAnswer) {
+  const userAnswer = selectElement.value.trim();
+  const feedback = selectElement.nextElementSibling;
+  if (userAnswer === correctAnswer) {
+    feedback.textContent = "✓ Correct!";
+    feedback.style.color = "green";
+  } else if (userAnswer) {
+    feedback.textContent = "✗ Try again!";
+    feedback.style.color = "red";
+  }
+}
+
+// Function to check combined sentences
+function checkCombination(textareaElement, requiredConjunction) {
+  const userText = textareaElement.value.trim().toLowerCase();
+  const feedback = textareaElement.nextElementSibling.nextElementSibling;
+  if (userText.includes(requiredConjunction)) {
+    feedback.textContent = "✓ Good job!";
+    feedback.style.color = "green";
+  } else {
+    feedback.textContent = `✗ Use the conjunction "${requiredConjunction}" to connect the ideas.`;
+    feedback.style.color = "red";
+  }
+}
+
+// Function to check translations
+function checkTranslation(textareaElement, correctAnswer) {
+  const userText = textareaElement.value.trim().toLowerCase();
+  const feedback = textareaElement.nextElementSibling.nextElementSibling;
+  if (userText === correctAnswer.toLowerCase()) {
+    feedback.textContent = "✓ Perfect!";
+    feedback.style.color = "green";
+  } else {
+    feedback.textContent = `✓ Suggested answer: "${correctAnswer}"`;
+    feedback.style.color = "blue";
+  }
+}
+
+// Function to highlight conjunctions in creative writing
+function highlightConjunctions(textareaElement) {
+const conjunctions = [
+    "et", "mais", "ou", "donc", "car", "parce que", "quand", "si", 
+    "alors", "puisque", "comme", "tandis que", "bien que", "quoique", 
+    "afin que", "pour que", "avant que", "après que", "lorsque", 
+    "dès que", "tant que", "à condition que", "à moins que", 
+    "en attendant que", "jusqu'à ce que", "sans que", "malgré que"
+];
+  const userText = textareaElement.value;
+  let highlightedText = userText;
+  conjunctions.forEach(conj => {
+    const regex = new RegExp(`\\b${conj}\\b`, "gi");
+    highlightedText = highlightedText.replace(regex, `<span style="background-color: yellow">${conj}</span>`);
+  });
+  const feedback = textareaElement.nextElementSibling.nextElementSibling;
+  feedback.innerHTML = "<strong>Conjunctions used:</strong><br>" + highlightedText;
+}
 </script>
 
 :::
+

@@ -80,31 +80,7 @@ function showAnswers() {
 <textarea placeholder="Elle boit..." rows="2" cols="50" oninput="checkTranslation(this, 'Elle boit du chocolat chaud')"></textarea><span style="margin-left:10px;"></span>  
 
 <button onclick="checkAllAnswers()">Check Answers</button>  
-
-<script>  
-function checkAllAnswers() {  
-    document.querySelectorAll('input[type="text"]').forEach(input => {  
-        const correct = input.getAttribute('oninput').match(/'([^']+)'/)[1];  
-        checkAnswer(input, correct);  
-    });  
-
-    document.querySelectorAll('textarea').forEach(textarea => {  
-        const correct = textarea.getAttribute('oninput').match(/'([^']+)'/)[1];  
-        checkTranslation(textarea, correct);  
-    });  
-}  
-
-function checkTranslation(textarea, correctAnswer) {  
-    const feedback = textarea.nextElementSibling;  
-    if (textarea.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {  
-        feedback.textContent = "✓ Correct!";  
-        feedback.style.color = "green";  
-    } else if (textarea.value.trim()) {  
-        feedback.textContent = "✗ Try again!";  
-        feedback.style.color = "red";  
-    }  
-}  
-</script>  
+<button onclick="showAllAnswers()">Show Answers</button>  
 
 <script>  
 function checkAnswer(input, correctAnswer) {  
@@ -123,22 +99,115 @@ function checkAllAnswers() {
         const correct = input.getAttribute('oninput').match(/'([^']+)'/)[1];  
         checkAnswer(input, correct);  
     });  
-
-    document.querySelectorAll('textarea').forEach(textarea => {  
-        const correct = textarea.getAttribute('oninput').match(/'([^']+)'/)[1];  
-        checkTranslation(textarea, correct);  
-    });  
 }  
 
-function checkTranslation(textarea, correctAnswer) {  
-    const feedback = textarea.nextElementSibling;  
-    if (textarea.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {  
+function showAllAnswers() {  
+    document.querySelectorAll('input[type="text"]').forEach(input => {  
+        const correct = input.getAttribute('oninput').match(/'([^']+)'/)[1];  
+        input.value = correct;  
+        const feedback = input.nextElementSibling;  
         feedback.textContent = "✓ Correct!";  
         feedback.style.color = "green";  
-    } else if (textarea.value.trim()) {  
+    });  
+}  
+</script>  
+
+:::  
+
+
+::: {.content-visible when-profile="french"}
+
+### Exercice : Noms d’aliments français et genre  
+Entraînez-vous à utiliser le bon genre et les bons articles pour les noms d’aliments en français.
+
+#### 1. Attribuez le bon article défini (*le/la/l'*) à chaque aliment :  
+___ café (coffee) ☕ → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'le')"><span style="margin-left:10px;"></span>  
+
+___ glace (ice cream) 🍦 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'la')"><span style="margin-left:10px;"></span>  
+
+___ chocolat (chocolat) 🍫 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'le')"><span style="margin-left:10px;"></span>  
+
+___ salade (salade) 🥗 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'la')"><span style="margin-left:10px;"></span>  
+
+___ riz (riz) 🍚 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'le')"><span style="margin-left:10px;"></span>  
+
+___ soupe (soupe) 🍲 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'la')"><span style="margin-left:10px;"></span>  
+
+___ lait (lait) 🥛 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'le')"><span style="margin-left:10px;"></span>  
+
+___ viande (viande) 🥩 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'la')"><span style="margin-left:10px;"></span>  
+
+___ thé (thé) 🫖 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'le')"><span style="margin-left:10px;"></span>  
+
+___ fruit (fruit) 🍎 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'le')"><span style="margin-left:10px;"></span>  
+
+___ légume (légume) 🥕 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'le')"><span style="margin-left:10px;"></span>  
+
+___ pain (pain) 🍞 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'le')"><span style="margin-left:10px;"></span>  
+
+___ poisson (poisson) 🐟 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'le')"><span style="margin-left:10px;"></span>  
+
+#### 2. Réécrivez avec le bon article indéfini (*un/une/des*) :  
+___ gâteau (gâteau) 🎂 → <input type="text" placeholder="un/une" oninput="checkAnswer(this, 'un')"><span style="margin-left:10px;"></span>  
+
+___ boisson (boisson) 🥤 → <input type="text" placeholder="un/une" oninput="checkAnswer(this, 'une')"><span style="margin-left:10px;"></span>  
+
+___ pâtes (pâtes) 🍝 → <input type="text" placeholder="un/une/des" oninput="checkAnswer(this, 'des')"><span style="margin-left:10px;"></span>  
+
+___ bonbon (bonbon) 🍬 → <input type="text" placeholder="un/une" oninput="checkAnswer(this, 'un')"><span style="margin-left:10px;"></span>  
+
+___ épices (épices) 🌶️ → <input type="text" placeholder="un/une/des" oninput="checkAnswer(this, 'des')"><span style="margin-left:10px;"></span>  
+
+#### 3. Corrigez les erreurs de genre/nombre :  
+"La lait" → <input type="text" placeholder="Phrase correcte" oninput="checkAnswer(this, 'le lait')"><span style="margin-left:10px;"></span>  
+
+"Un salade" → <input type="text" placeholder="Phrase correcte" oninput="checkAnswer(this, 'une salade')"><span style="margin-left:10px;"></span>  
+
+"Des gâteau" → <input type="text" placeholder="Phrase correcte" oninput="checkAnswer(this, 'des gâteaux')"><span style="margin-left:10px;"></span>  
+
+<button onclick="showAnswers()">Afficher toutes les réponses</button>  
+
+#### 4. Traduisez en français (avec les articles !) :  
+"Je mange du pain avec du fromage."  
+<textarea placeholder="Je mange..." rows="2" cols="50" oninput="checkTranslation(this, 'Je mange du pain avec du fromage')"></textarea><span style="margin-left:10px;"></span>  
+
+"Elle boit du chocolat chaud."  
+<textarea placeholder="Elle boit..." rows="2" cols="50" oninput="checkTranslation(this, 'Elle boit du chocolat chaud')"></textarea><span style="margin-left:10px;"></span>  
+
+
+<button onclick="checkAllAnswers()">Vérifier les réponses</button>  
+<button onclick="showAllAnswers()">Afficher toutes les réponses</button>  
+
+<script>  
+function checkAnswer(input, correctAnswer) {  
+    const feedback = input.nextElementSibling;  
+    if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {  
+        feedback.textContent = "✓ Correct!";  
+        feedback.style.color = "green";  
+    } else if (input.value.trim()) {  
         feedback.textContent = "✗ Try again!";  
         feedback.style.color = "red";  
     }  
 }  
+
+function checkAllAnswers() {  
+    document.querySelectorAll('input[type="text"]').forEach(input => {  
+        const correct = input.getAttribute('oninput').match(/'([^']+)'/)[1];  
+        checkAnswer(input, correct);  
+    });  
+}  
+
+function showAllAnswers() {  
+    document.querySelectorAll('input[type="text"]').forEach(input => {  
+        const correct = input.getAttribute('oninput').match(/'([^']+)'/)[1];  
+        input.value = correct;  
+        const feedback = input.nextElementSibling;  
+        feedback.textContent = "✓ Correct!";  
+        feedback.style.color = "green";  
+    });  
+}  
 </script>  
-:::  
+
+
+
+:::

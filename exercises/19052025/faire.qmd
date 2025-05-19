@@ -7,6 +7,7 @@ image: "faire.png"
 ---
 
 ::: {.content-visible when-profile="english"}
+
 # Exercise: Practicing the Verb "Faire"
 
 Here are some exercises to practice conjugating the verb **faire** (to do/make) in French:
@@ -157,4 +158,123 @@ function showAllTranslations() {
     }
     </script>
     ```
+:::
+
+::: {.content-visible when-profile="french"}
+
+# Exercice : Pratiquer le verbe "Faire"
+
+Voici quelques exercices pour pratiquer la conjugaison du verbe **faire** en français :
+
+1.  Conjuguez le verbe "faire" au présent pour les sujets suivants :
+    -   Je <input type="text" placeholder="Réponse ici" oninput="verifierReponse(this, 'fais')"> un gâteau.
+    -   Tu <input type="text" placeholder="Réponse ici" oninput="verifierReponse(this, 'fais')"> du sport.
+    -   Il/Elle <input type="text" placeholder="Réponse ici" oninput="verifierReponse(this, 'fait')"> ses devoirs.
+    -   Nous <input type="text" placeholder="Réponse ici" oninput="verifierReponse(this, 'faisons')"> une promenade.
+    -   Vous <input type="text" placeholder="Réponse ici" oninput="verifierReponse(this, 'faites')"> un voyage.
+    -   Ils/Elles <input type="text" placeholder="Réponse ici" oninput="verifierReponse(this, 'font')"> du bruit.
+
+<br>
+
+2.  Complétez avec la bonne forme de "faire" au passé composé :
+
+    -   Hier, j' <input type="text" placeholder="Réponse ici" oninput="verifierReponse(this, 'ai fait')"> une tarte.
+    -   La semaine dernière, nous <input type="text" placeholder="Réponse ici" oninput="verifierReponse(this, 'avons fait')"> une randonnée.
+    -   Est-ce que tu <input type="text" placeholder="Réponse ici" oninput="verifierReponse(this, 'as fait')"> tes devoirs ?
+    -   Ils/Elles <input type="text" placeholder="Réponse ici" oninput="verifierReponse(this, 'ont fait')"> une fête.
+    -   Vous <input type="text" placeholder="Réponse ici" oninput="verifierReponse(this, 'avez fait')"> un bon travail.
+    -   Il/Elle <input type="text" placeholder="Réponse ici" oninput="verifierReponse(this, 'a fait')"> une erreur.
+
+<br>
+
+3.  Traduisez les phrases suivantes en anglais en utilisant le verbe "faire" :
+
+    -   Je fais un gâteau.
+
+        <textarea placeholder="Écrivez votre traduction ici" rows="2" cols="50"></textarea>
+
+    -   Ils/Elles font du bruit.
+
+        <textarea placeholder="Écrivez votre traduction ici" rows="2" cols="50"></textarea>
+
+    -   Nous faisons une promenade.
+
+        <textarea placeholder="Écrivez votre traduction ici" rows="2" cols="50"></textarea>
+
+    <button onclick="afficherToutesLesTraductions()">
+    Soumettre
+    </button>
+
+4.  Écrivez un court paragraphe sur ce que vous et vos amis avez fait récemment en utilisant différentes formes du verbe "faire".
+
+    <textarea placeholder="Écrivez votre paragraphe ici" rows="5" cols="50"></textarea>
+
+    <button onclick="verifierToutesLesReponses()">
+    Vérifier toutes les réponses
+    </button>
+
+<script>
+function verifierReponse(input, bonneReponse) {
+    const reponseUtilisateur = input.value.trim().toLowerCase();
+    let feedback = input.nextElementSibling;
+    if (!feedback) {
+        feedback = document.createElement('span');
+        feedback.style.marginLeft = '10px';
+        input.parentNode.appendChild(feedback);
+    }
+    if (reponseUtilisateur === bonneReponse) {
+        feedback.textContent = "Correct ! +10 points";
+        feedback.style.color = "green";
+    } else if (reponseUtilisateur) {
+        feedback.textContent = "Essayez encore !";
+        feedback.style.color = "red";
+    } else {
+        feedback.textContent = "";
+    }
+}
+
+function afficherToutesLesTraductions() {
+    const traductions = [
+        { input: document.querySelectorAll('textarea')[0], correct: 'I make a cake.' },
+        { input: document.querySelectorAll('textarea')[1], correct: 'They make noise.' },
+        { input: document.querySelectorAll('textarea')[2], correct: 'We go for a walk.' }
+    ];
+
+    traductions.forEach(({ input, correct }) => {
+        let feedback = input.nextElementSibling;
+        if (!feedback || feedback.tagName !== 'SPAN') {
+            feedback = document.createElement('span');
+            feedback.style.marginLeft = '10px';
+            input.parentNode.appendChild(feedback);
+        }
+        const userTranslation = input.value.trim();
+        if (userTranslation.toLowerCase() === correct.toLowerCase()) {
+            feedback.textContent = "Correct ! La traduction est : " + correct;
+            feedback.style.color = "green";
+        } else {
+            feedback.textContent = "La bonne traduction est : " + correct;
+            feedback.style.color = "red";
+        }
+    });
+    document.querySelector('button[onclick="afficherToutesLesTraductions()"]').scrollIntoView({ behavior: 'smooth', block: 'center' });
+}
+
+function verifierToutesLesReponses() {
+    const paragraphInput = document.querySelectorAll('textarea')[3];
+    let feedback = paragraphInput.nextElementSibling;
+    if (!feedback) {
+        feedback = document.createElement('span');
+        feedback.style.marginLeft = '10px';
+        paragraphInput.parentNode.appendChild(feedback);
+    }
+    const userParagraph = paragraphInput.value.trim();
+    if (userParagraph.toLowerCase().includes('faire')) {
+        feedback.textContent = "Bravo ! Vous avez utilisé le verbe 'faire' dans votre paragraphe.";
+        feedback.style.color = "green";
+    } else {
+        feedback.textContent = "Essayez encore ! Assurez-vous d'utiliser le verbe 'faire' dans votre paragraphe.";
+        feedback.style.color = "red";
+    }
+}
+</script>
 :::

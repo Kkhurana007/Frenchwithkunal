@@ -1,0 +1,310 @@
+---
+title: "Les Modes, Temps et Aspects des Verbes en Français"
+author: "Kunal Khurana"
+date: "05-15-2025"
+categories: [B1, grammaire, verbes, exercices]
+image: "modes_verb.png"
+---
+
+::: {.content-visible when-profile="english"}
+
+### Understanding Verb Forms in French: Mood, Tense, and Aspect
+
+In French, verbs are characterized by three key features: **mood** (le mode), **tense** (le temps), and **aspect** (l'aspect).
+
+#### 1. Mood (Le Mode)
+Mood expresses the speaker's attitude toward the action.  
+Main moods in French:
+
+- **Indicative** (facts, reality): *Je mange* (I eat)
+
+- **Subjunctive** (doubt, wish): *Il faut que je mange* (I must eat)
+
+- **Imperative** (commands): *Mange!* (Eat!)
+
+- **Conditional** (hypothetical): *Je mangerais* (I would eat)
+
+#### 2. Tense (Le Temps)
+Tense locates the action in time.  
+Examples:
+
+- **Present**: *Je mange* (I eat).
+
+- **Past**: *J'ai mangé* (I ate), *Je mangeais* (I was eating)
+
+- **Future**: *Je mangerai* (I will eat)
+
+#### 3. Aspect (L'Aspect)
+Aspect shows how the action unfolds over time (completed, ongoing, repeated, etc.).  
+French expresses aspect mainly through tense choice and adverbs:
+
+- **Perfective** (completed): *J'ai mangé* (I have eaten)
+
+- **Imperfective** (ongoing/habitual): *Je mangeais* (I was eating / I used to eat)
+
+- **Progressive** (in progress, often with "être en train de"): *Je suis en train de manger* (I am eating)
+
+---
+
+### Exercises
+
+#### 1. Identify the Mood  
+For each sentence, select the mood of the verb in **bold**.
+
+#### 1. Identify the Mood  
+For each sentence, select the mood of the verb in **bold**.
+
+1. Je **mange** une pomme. <select onchange="checkVerbType(this, 'Indicative')"><option value="">--Choose--</option><option>Indicative</option><option>Subjunctive</option><option>Imperative</option><option>Conditional</option></select> <span></span>
+2. Il faut que tu **finisses** tes devoirs. <select onchange="checkVerbType(this, 'Subjunctive')"><option value="">--Choose--</option><option>Indicative</option><option>Subjunctive</option><option>Imperative</option><option>Conditional</option></select> <span></span>
+3. **Mange** tes légumes! <select onchange="checkVerbType(this, 'Imperative')"><option value="">--Choose--</option><option>Indicative</option><option>Subjunctive</option><option>Imperative</option><option>Conditional</option></select> <span></span>
+4. Je **mangerais** plus si j'avais faim. <select onchange="checkVerbType(this, 'Conditional')"><option value="">--Choose--</option><option>Indicative</option><option>Subjunctive</option><option>Imperative</option><option>Conditional</option></select> <span></span>
+5. Il est important que tu **sois** à l'heure. <select onchange="checkVerbType(this, 'Subjunctive')"><option value="">--Choose--</option><option>Indicative</option><option>Subjunctive</option><option>Imperative</option><option>Conditional</option></select> <span></span>
+6. **Va** à l'école! <select onchange="checkVerbType(this, 'Imperative')"><option value="">--Choose--</option><option>Indicative</option><option>Subjunctive</option><option>Imperative</option><option>Conditional</option></select> <span></span>
+7. Nous **irions** en France si nous pouvions. <select onchange="checkVerbType(this, 'Conditional')"><option value="">--Choose--</option><option>Indicative</option><option>Subjunctive</option><option>Imperative</option><option>Conditional</option></select> <span></span>
+8. Tu **parles** bien français. <select onchange="checkVerbType(this, 'Indicative')"><option value="">--Choose--</option><option>Indicative</option><option>Subjunctive</option><option>Imperative</option><option>Conditional</option></select> <span></span>
+9. Il faut que nous **fassions** attention. <select onchange="checkVerbType(this, 'Subjunctive')"><option value="">--Choose--</option><option>Indicative</option><option>Subjunctive</option><option>Imperative</option><option>Conditional</option></select> <span></span>
+10. **Écoutez** bien! <select onchange="checkVerbType(this, 'Imperative')"><option value="">--Choose--</option><option>Indicative</option><option>Subjunctive</option><option>Imperative</option><option>Conditional</option></select> <span></span>
+11. Je **serais** ravi de venir. <select onchange="checkVerbType(this, 'Conditional')"><option value="">--Choose--</option><option>Indicative</option><option>Subjunctive</option><option>Imperative</option><option>Conditional</option></select> <span></span>
+12. Nous **avons** un chien. <select onchange="checkVerbType(this, 'Indicative')"><option value="">--Choose--</option><option>Indicative</option><option>Subjunctive</option><option>Imperative</option><option>Conditional</option></select> <span></span>
+
+#### 2. Identify the Tense  
+For each sentence, select the tense of the verb in **bold**.
+
+1. Je **mange** maintenant. <select onchange="checkVerbType(this, 'Present')"><option value="">--Choose--</option><option>Present</option><option>Past (Passé composé)</option><option>Imperfect</option><option>Future</option></select> <span></span>
+2. Hier, j'**ai mangé** une pizza. <select onchange="checkVerbType(this, 'Past (Passé composé)')"><option value="">--Choose--</option><option>Present</option><option>Past (Passé composé)</option><option>Imperfect</option><option>Future</option></select> <span></span>
+3. Quand j'étais petit, je **mangeais** beaucoup de bonbons. <select onchange="checkVerbType(this, 'Imperfect')"><option value="">--Choose--</option><option>Present</option><option>Past (Passé composé)</option><option>Imperfect</option><option>Future</option></select> <span></span>
+4. Demain, je **mangerai** au restaurant. <select onchange="checkVerbType(this, 'Future')"><option value="">--Choose--</option><option>Present</option><option>Past (Passé composé)</option><option>Imperfect</option><option>Future</option></select> <span></span>
+5. Nous **avons fini** nos devoirs. <select onchange="checkVerbType(this, 'Past (Passé composé)')"><option value="">--Choose--</option><option>Present</option><option>Past (Passé composé)</option><option>Imperfect</option><option>Future</option></select> <span></span>
+6. Elle **étudiait** chaque soir. <select onchange="checkVerbType(this, 'Imperfect')"><option value="">--Choose--</option><option>Present</option><option>Past (Passé composé)</option><option>Imperfect</option><option>Future</option></select> <span></span>
+7. Ils **seront** en vacances la semaine prochaine. <select onchange="checkVerbType(this, 'Future')"><option value="">--Choose--</option><option>Present</option><option>Past (Passé composé)</option><option>Imperfect</option><option>Future</option></select> <span></span>
+8. Je **vais** à l'école tous les jours. <select onchange="checkVerbType(this, 'Present')"><option value="">--Choose--</option><option>Present</option><option>Past (Passé composé)</option><option>Imperfect</option><option>Future</option></select> <span></span>
+9. Nous **avions** un chat quand j'étais petit. <select onchange="checkVerbType(this, 'Imperfect')"><option value="">--Choose--</option><option>Present</option><option>Past (Passé composé)</option><option>Imperfect</option><option>Future</option></select> <span></span>
+10. Tu **feras** tes devoirs ce soir. <select onchange="checkVerbType(this, 'Future')"><option value="">--Choose--</option><option>Present</option><option>Past (Passé composé)</option><option>Imperfect</option><option>Future</option></select> <span></span>
+11. Il **a parlé** au professeur. <select onchange="checkVerbType(this, 'Past (Passé composé)')"><option value="">--Choose--</option><option>Present</option><option>Past (Passé composé)</option><option>Imperfect</option><option>Future</option></select> <span></span>
+12. Vous **parlez** très bien français. <select onchange="checkVerbType(this, 'Present')"><option value="">--Choose--</option><option>Present</option><option>Past (Passé composé)</option><option>Imperfect</option><option>Future</option></select> <span></span>
+
+#### 3. Identify the Aspect  
+For each sentence, select the aspect of the verb in **bold**.
+
+1. Je **suis en train de lire** un livre. <select onchange="checkVerbType(this, 'Progressive')"><option value="">--Choose--</option><option>Perfective</option><option>Imperfective</option><option>Progressive</option></select> <span></span>
+2. Il **a fini** ses devoirs. <select onchange="checkVerbType(this, 'Perfective')"><option value="">--Choose--</option><option>Perfective</option><option>Imperfective</option><option>Progressive</option></select> <span></span>
+3. Nous **étudiions** chaque soir. <select onchange="checkVerbType(this, 'Imperfective')"><option value="">--Choose--</option><option>Perfective</option><option>Imperfective</option><option>Progressive</option></select> <span></span>
+4. Elle **est en train d'écrire** une lettre. <select onchange="checkVerbType(this, 'Progressive')"><option value="">--Choose--</option><option>Perfective</option><option>Imperfective</option><option>Progressive</option></select> <span></span>
+5. J'**ai terminé** mon travail. <select onchange="checkVerbType(this, 'Perfective')"><option value="">--Choose--</option><option>Perfective</option><option>Imperfective</option><option>Progressive</option></select> <span></span>
+6. Ils **jouaient** souvent au parc. <select onchange="checkVerbType(this, 'Imperfective')"><option value="">--Choose--</option><option>Perfective</option><option>Imperfective</option><option>Progressive</option></select> <span></span>
+7. Nous **sommes en train de manger**. <select onchange="checkVerbType(this, 'Progressive')"><option value="">--Choose--</option><option>Perfective</option><option>Imperfective</option><option>Progressive</option></select> <span></span>
+8. Tu **as lu** ce livre. <select onchange="checkVerbType(this, 'Perfective')"><option value="">--Choose--</option><option>Perfective</option><option>Imperfective</option><option>Progressive</option></select> <span></span>
+9. Je **lisais** tous les soirs. <select onchange="checkVerbType(this, 'Imperfective')"><option value="">--Choose--</option><option>Perfective</option><option>Imperfective</option><option>Progressive</option></select> <span></span>
+10. Il **était en train de dormir** quand je suis arrivé. <select onchange="checkVerbType(this, 'Progressive')"><option value="">--Choose--</option><option>Perfective</option><option>Imperfective</option><option>Progressive</option></select> <span></span>
+11. Nous **avons mangé**. <select onchange="checkVerbType(this, 'Perfective')"><option value="">--Choose--</option><option>Perfective</option><option>Imperfective</option><option>Progressive</option></select> <span></span>
+12. Ils **travaillaient** chaque matin. <select onchange="checkVerbType(this, 'Imperfective')"><option value="">--Choose--</option><option>Perfective</option><option>Imperfective</option><option>Progressive</option></select> <span></span>
+
+#### 4. Complete the Sentences  
+Fill in the blank with the correct verb form (pay attention to mood, tense, and aspect):
+
+1. Si j'avais le temps, je ________ (lire, conditionnel) ce livre.<input type="text" placeholder="Verb" oninput="checkAnswer(this, 'lirais')"> <span></span>
+2. Il faut que tu ________ (faire, subjonctif) tes devoirs.<input type="text" placeholder="Verb" oninput="checkAnswer(this, 'fasses')"> <span></span>
+3. Nous ________ (être, imparfait) toujours contents.<input type="text" placeholder="Verb" oninput="checkAnswer(this, 'étions')"> <span></span>
+4. Je ________ (manger, futur) avec toi demain.<input type="text" placeholder="Verb" oninput="checkAnswer(this, 'mangerai')"> <span></span>
+5. Je ________ (être en train de, présent) travailler.<input type="text" placeholder="Verb" oninput="checkAnswer(this, 'suis en train de')"> <span></span>
+6. Si tu venais, nous ________ (aller, conditionnel) au cinéma.<input type="text" placeholder="Verb" oninput="checkAnswer(this, 'irions')"> <span></span>
+7. Il faut que vous ________ (venir, subjonctif) demain.<input type="text" placeholder="Verb" oninput="checkAnswer(this, 'veniez')"> <span></span>
+8. Elles ________ (avoir, imparfait) beaucoup d'amis.<input type="text" placeholder="Verb" oninput="checkAnswer(this, 'avaient')"> <span></span>
+9. Tu ________ (finir, futur) ce projet bientôt.<input type="text" placeholder="Verb" oninput="checkAnswer(this, 'finiras')"> <span></span>
+10. Nous ________ (être en train de, présent) étudier.<input type="text" placeholder="Verb" oninput="checkAnswer(this, 'sommes en train de')"> <span></span>
+11. Si j'étais riche, je ________ (voyager, conditionnel) autour du monde.<input type="text" placeholder="Verb" oninput="checkAnswer(this, 'voyagerais')"> <span></span>
+12. Il faut que je ________ (prendre, subjonctif) le bus.<input type="text" placeholder="Verb" oninput="checkAnswer(this, 'prenne')"> <span></span>
+
+---
+
+### To consolidate your learning
+
+Write a short paragraph (3-5 sentences) explaining what you have learned about mood, tense, and aspect in French verbs. Use your own words and, if possible, give an example.  
+<textarea rows="5" style="width:100%;" placeholder="Write here what you have learned..."></textarea>
+
+<button onclick="showAnswers()">Show answers</button>
+<button onclick="refreshPage()">Try again</button>
+
+---
+
+### Notes:
+- **Mood (le mode):** Shows the speaker's attitude (reality, wish, command, hypothesis).
+- **Tense (le temps):** Places the action in time (present, past, future).
+- **Aspect (l'aspect):** Describes how the action unfolds (completed, ongoing, repeated).
+- French expresses aspect mainly through tense and expressions like "être en train de" for progressive actions.
+
+:::
+
+::: {.content-visible when-profile="french"}
+
+### Comprendre les formes verbales en français : mode, temps et aspect
+
+En français, les verbes se caractérisent par trois éléments clés : **le mode**, **le temps** et **l’aspect**.
+
+#### 1. Le mode
+Le mode exprime l’attitude du locuteur face à l’action.  
+
+Principaux modes en français :
+
+- **Indicatif** (faits, réalité) : *Je mange*
+
+- **Subjonctif** (doute, souhait) : *Il faut que je mange*
+
+- **Impératif** (ordre) : *Mange !*
+
+- **Conditionnel** (hypothèse) : *Je mangerais*
+
+#### 2. Le temps
+
+Le temps situe l’action dans le passé, le présent ou le futur.  
+
+Exemples :
+
+- **Présent** : *Je mange*
+
+- **Passé** : *J’ai mangé*, *Je mangeais*
+
+- **Futur** : *Je mangerai*
+
+#### 3. L’aspect
+
+L’aspect décrit le déroulement de l’action (accomplie, en cours, répétée, etc.).  
+
+En français, l’aspect s’exprime surtout par le choix du temps et des adverbes :
+
+- **Perfectif** (accompli) : *J’ai mangé*
+
+- **Imperfectif** (en cours/habituel) : *Je mangeais*
+
+- **Progressif** (en train de se faire, souvent avec « être en train de ») : *Je suis en train de manger*
+
+---
+
+### Exercices
+
+#### 1. Identifier le mode  
+Pour chaque phrase, sélectionnez le mode du verbe en **gras**.
+
+1. Je **mange** une pomme. <select onchange="checkVerbType(this, 'Indicatif')"><option value="">--Choisir--</option><option>Indicatif</option><option>Subjonctif</option><option>Impératif</option><option>Conditionnel</option></select> <span></span>
+2. Il faut que tu **finisses** tes devoirs. <select onchange="checkVerbType(this, 'Subjonctif')"><option value="">--Choisir--</option><option>Indicatif</option><option>Subjonctif</option><option>Impératif</option><option>Conditionnel</option></select> <span></span>
+3. **Mange** tes légumes ! <select onchange="checkVerbType(this, 'Impératif')"><option value="">--Choisir--</option><option>Indicatif</option><option>Subjonctif</option><option>Impératif</option><option>Conditionnel</option></select> <span></span>
+4. Je **mangerais** plus si j’avais faim. <select onchange="checkVerbType(this, 'Conditionnel')"><option value="">--Choisir--</option><option>Indicatif</option><option>Subjonctif</option><option>Impératif</option><option>Conditionnel</option></select> <span></span>
+5. Il est important que tu **sois** à l'heure. <select onchange="checkVerbType(this, 'Subjonctif')"><option value="">--Choisir--</option><option>Indicatif</option><option>Subjonctif</option><option>Impératif</option><option>Conditionnel</option></select> <span></span>
+6. **Va** à l'école ! <select onchange="checkVerbType(this, 'Impératif')"><option value="">--Choisir--</option><option>Indicatif</option><option>Subjonctif</option><option>Impératif</option><option>Conditionnel</option></select> <span></span>
+7. Nous **irions** en France si nous pouvions. <select onchange="checkVerbType(this, 'Conditionnel')"><option value="">--Choisir--</option><option>Indicatif</option><option>Subjonctif</option><option>Impératif</option><option>Conditionnel</option></select> <span></span>
+8. Tu **parles** bien français. <select onchange="checkVerbType(this, 'Indicatif')"><option value="">--Choisir--</option><option>Indicatif</option><option>Subjonctif</option><option>Impératif</option><option>Conditionnel</option></select> <span></span>
+9. Il faut que nous **fassions** attention. <select onchange="checkVerbType(this, 'Subjonctif')"><option value="">--Choisir--</option><option>Indicatif</option><option>Subjonctif</option><option>Impératif</option><option>Conditionnel</option></select> <span></span>
+10. **Écoutez** bien ! <select onchange="checkVerbType(this, 'Impératif')"><option value="">--Choisir--</option><option>Indicatif</option><option>Subjonctif</option><option>Impératif</option><option>Conditionnel</option></select> <span></span>
+11. Je **serais** ravi de venir. <select onchange="checkVerbType(this, 'Conditionnel')"><option value="">--Choisir--</option><option>Indicatif</option><option>Subjonctif</option><option>Impératif</option><option>Conditionnel</option></select> <span></span>
+12. Nous **avons** un chien. <select onchange="checkVerbType(this, 'Indicatif')"><option value="">--Choisir--</option><option>Indicatif</option><option>Subjonctif</option><option>Impératif</option><option>Conditionnel</option></select> <span></span>
+
+#### 2. Identifier le temps  
+Pour chaque phrase, sélectionnez le temps du verbe en **gras**.
+
+1. Je **mange** maintenant. <select onchange="checkVerbType(this, 'Présent')"><option value="">--Choisir--</option><option>Présent</option><option>Passé (Passé composé)</option><option>Imparfait</option><option>Futur</option></select> <span></span>
+2. Hier, j’**ai mangé** une pizza. <select onchange="checkVerbType(this, 'Passé (Passé composé)')"><option value="">--Choisir--</option><option>Présent</option><option>Passé (Passé composé)</option><option>Imparfait</option><option>Futur</option></select> <span></span>
+3. Quand j’étais petit, je **mangeais** beaucoup de bonbons. <select onchange="checkVerbType(this, 'Imparfait')"><option value="">--Choisir--</option><option>Présent</option><option>Passé (Passé composé)</option><option>Imparfait</option><option>Futur</option></select> <span></span>
+4. Demain, je **mangerai** au restaurant. <select onchange="checkVerbType(this, 'Futur')"><option value="">--Choisir--</option><option>Présent</option><option>Passé (Passé composé)</option><option>Imparfait</option><option>Futur</option></select> <span></span>
+5. Nous **avons fini** nos devoirs. <select onchange="checkVerbType(this, 'Passé (Passé composé)')"><option value="">--Choisir--</option><option>Présent</option><option>Passé (Passé composé)</option><option>Imparfait</option><option>Futur</option></select> <span></span>
+6. Elle **étudiait** chaque soir. <select onchange="checkVerbType(this, 'Imparfait')"><option value="">--Choisir--</option><option>Présent</option><option>Passé (Passé composé)</option><option>Imparfait</option><option>Futur</option></select> <span></span>
+7. Ils **seront** en vacances la semaine prochaine. <select onchange="checkVerbType(this, 'Futur')"><option value="">--Choisir--</option><option>Présent</option><option>Passé (Passé composé)</option><option>Imparfait</option><option>Futur</option></select> <span></span>
+8. Je **vais** à l’école tous les jours. <select onchange="checkVerbType(this, 'Présent')"><option value="">--Choisir--</option><option>Présent</option><option>Passé (Passé composé)</option><option>Imparfait</option><option>Futur</option></select> <span></span>
+9. Nous **avions** un chat quand j’étais petit. <select onchange="checkVerbType(this, 'Imparfait')"><option value="">--Choisir--</option><option>Présent</option><option>Passé (Passé composé)</option><option>Imparfait</option><option>Futur</option></select> <span></span>
+10. Tu **feras** tes devoirs ce soir. <select onchange="checkVerbType(this, 'Futur')"><option value="">--Choisir--</option><option>Présent</option><option>Passé (Passé composé)</option><option>Imparfait</option><option>Futur</option></select> <span></span>
+11. Il **a parlé** au professeur. <select onchange="checkVerbType(this, 'Passé (Passé composé)')"><option value="">--Choisir--</option><option>Présent</option><option>Passé (Passé composé)</option><option>Imparfait</option><option>Futur</option></select> <span></span>
+12. Vous **parlez** très bien français. <select onchange="checkVerbType(this, 'Présent')"><option value="">--Choisir--</option><option>Présent</option><option>Passé (Passé composé)</option><option>Imparfait</option><option>Futur</option></select> <span></span>
+
+#### 3. Identifier l’aspect  
+Pour chaque phrase, sélectionnez l’aspect du verbe en **gras**.
+
+1. Je **suis en train de lire** un livre. <select onchange="checkVerbType(this, 'Progressif')"><option value="">--Choisir--</option><option>Perfectif</option><option>Imperfectif</option><option>Progressif</option></select> <span></span>
+2. Il **a fini** ses devoirs. <select onchange="checkVerbType(this, 'Perfectif')"><option value="">--Choisir--</option><option>Perfectif</option><option>Imperfectif</option><option>Progressif</option></select> <span></span>
+3. Nous **étudiions** chaque soir. <select onchange="checkVerbType(this, 'Imperfectif')"><option value="">--Choisir--</option><option>Perfectif</option><option>Imperfectif</option><option>Progressif</option></select> <span></span>
+4. Elle **est en train d’écrire** une lettre. <select onchange="checkVerbType(this, 'Progressif')"><option value="">--Choisir--</option><option>Perfectif</option><option>Imperfectif</option><option>Progressif</option></select> <span></span>
+5. J’**ai terminé** mon travail. <select onchange="checkVerbType(this, 'Perfectif')"><option value="">--Choisir--</option><option>Perfectif</option><option>Imperfectif</option><option>Progressif</option></select> <span></span>
+6. Ils **jouaient** souvent au parc. <select onchange="checkVerbType(this, 'Imperfectif')"><option value="">--Choisir--</option><option>Perfectif</option><option>Imperfectif</option><option>Progressif</option></select> <span></span>
+7. Nous **sommes en train de manger**. <select onchange="checkVerbType(this, 'Progressif')"><option value="">--Choisir--</option><option>Perfectif</option><option>Imperfectif</option><option>Progressif</option></select> <span></span>
+8. Tu **as lu** ce livre. <select onchange="checkVerbType(this, 'Perfectif')"><option value="">--Choisir--</option><option>Perfectif</option><option>Imperfectif</option><option>Progressif</option></select> <span></span>
+9. Je **lisais** tous les soirs. <select onchange="checkVerbType(this, 'Imperfectif')"><option value="">--Choisir--</option><option>Perfectif</option><option>Imperfectif</option><option>Progressif</option></select> <span></span>
+10. Il **était en train de dormir** quand je suis arrivé. <select onchange="checkVerbType(this, 'Progressif')"><option value="">--Choisir--</option><option>Perfectif</option><option>Imperfectif</option><option>Progressif</option></select> <span></span>
+11. Nous **avons mangé**. <select onchange="checkVerbType(this, 'Perfectif')"><option value="">--Choisir--</option><option>Perfectif</option><option>Imperfectif</option><option>Progressif</option></select> <span></span>
+12. Ils **travaillaient** chaque matin. <select onchange="checkVerbType(this, 'Imperfectif')"><option value="">--Choisir--</option><option>Perfectif</option><option>Imperfectif</option><option>Progressif</option></select> <span></span>
+
+#### 4. Complétez les phrases  
+Complétez avec la bonne forme du verbe (attention au mode, temps et aspect) :
+
+1. Si j’avais le temps, je ________ (lire, conditionnel) ce livre.<input type="text" placeholder="Verbe" oninput="checkAnswer(this, 'lirais')"> <span></span>
+2. Il faut que tu ________ (faire, subjonctif) tes devoirs.<input type="text" placeholder="Verbe" oninput="checkAnswer(this, 'fasses')"> <span></span>
+3. Nous ________ (être, imparfait) toujours contents.<input type="text" placeholder="Verbe" oninput="checkAnswer(this, 'étions')"> <span></span>
+4. Je ________ (manger, futur) avec toi demain.<input type="text" placeholder="Verbe" oninput="checkAnswer(this, 'mangerai')"> <span></span>
+5. Je ________ (être en train de, présent) travailler.<input type="text" placeholder="Verbe" oninput="checkAnswer(this, 'suis en train de')"> <span></span>
+6. Si tu venais, nous ________ (aller, conditionnel) au cinéma.<input type="text" placeholder="Verbe" oninput="checkAnswer(this, 'irions')"> <span></span>
+7. Il faut que vous ________ (venir, subjonctif) demain.<input type="text" placeholder="Verbe" oninput="checkAnswer(this, 'veniez')"> <span></span>
+8. Elles ________ (avoir, imparfait) beaucoup d’amis.<input type="text" placeholder="Verbe" oninput="checkAnswer(this, 'avaient')"> <span></span>
+9. Tu ________ (finir, futur) ce projet bientôt.<input type="text" placeholder="Verbe" oninput="checkAnswer(this, 'finiras')"> <span></span>
+10. Nous ________ (être en train de, présent) étudier.<input type="text" placeholder="Verbe" oninput="checkAnswer(this, 'sommes en train de')"> <span></span>
+11. Si j’étais riche, je ________ (voyager, conditionnel) autour du monde.<input type="text" placeholder="Verbe" oninput="checkAnswer(this, 'voyagerais')"> <span></span>
+12. Il faut que je ________ (prendre, subjonctif) le bus.<input type="text" placeholder="Verbe" oninput="checkAnswer(this, 'prenne')"> <span></span>
+
+---
+
+### Pour consolider vos acquis
+
+Rédigez un court paragraphe (3 à 5 phrases) expliquant ce que vous avez compris sur le mode, le temps et l’aspect des verbes en français. Utilisez vos propres mots et, si possible, donnez un exemple.  
+<textarea rows="5" style="width:100%;" placeholder="Écrivez ici ce que vous avez appris..."></textarea>
+
+<button onclick="showAnswers()">Afficher les réponses</button>
+<button onclick="refreshPage()">Réessayer</button>
+
+---
+
+### Notes :
+- **Le mode** : indique l’attitude du locuteur (réalité, souhait, ordre, hypothèse).
+- **Le temps** : situe l’action dans le présent, le passé ou le futur.
+- **L’aspect** : décrit le déroulement de l’action (accomplie, en cours, répétée).
+- L’aspect s’exprime surtout par le temps et des expressions comme « être en train de » pour le progressif.
+
+:::
+
+<script>
+function checkAnswer(input, correctAnswer) {
+    const span = input.nextElementSibling;
+    if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
+        span.textContent = "✓ Correct";
+        span.style.color = "green";
+    } else {
+        span.textContent = "";
+        span.style.color = "";
+    }
+}
+
+// Add checkVerbType function
+function checkVerbType(select, correctType) {
+    const span = select.nextElementSibling;
+    if (select.value === correctType) {
+        span.textContent = "✓ Correct";
+        span.style.color = "green";
+    } else if (select.value !== "") {
+        span.textContent = "✗ Incorrect";
+        span.style.color = "red";
+    } else {
+        span.textContent = "";
+        span.style.color = "";
+    }
+}
+
+function showAnswers() {
+    document.querySelectorAll('input[type="text"]').forEach(el => {
+        const correct = el.getAttribute('oninput')?.match(/'([^']+)'/)?.[1];
+        if (correct) {
+            const span = el.nextElementSibling;
+            span.textContent = `Réponse : ${correct}`;
+            span.style.color = "blue";
+        }
+    });
+}
+
+function refreshPage() {
+    location.reload();
+}
+</script>

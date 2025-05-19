@@ -1,0 +1,325 @@
+---
+title: "Le Présent: Les Trois Groupes de Verbes Français"
+author: "Kunal Khurana"
+date: "05-15-2025"
+categories: [B1, grammaire, verbes, exercices]
+image: "verb_accord.png"
+---
+
+::: {.content-visible when-profile="english"}
+
+### The Present Tense in French: The Three Verb Groups
+
+In French, verbs are divided into three groups based on their endings and conjugation patterns in the present tense.
+
+#### 1. First Group: -ER Verbs
+- Most common group.
+- Infinitive ends in **-er** (except "aller").
+- Endings: **-e, -es, -e, -ons, -ez, -ent**
+- Example: *parler* (to speak)
+    - je parle, tu parles, il/elle parle, nous parlons, vous parlez, ils/elles parlent
+
+#### 2. Second Group: -IR Verbs (Regular)
+- Infinitive ends in **-ir** and present participle ends in **-issant**.
+- Endings: **-is, -is, -it, -issons, -issez, -issent**
+- Example: *finir* (to finish)
+    - je finis, tu finis, il/elle finit, nous finissons, vous finissez, ils/elles finissent
+
+#### 3. Third Group: Irregular Verbs
+- Includes verbs ending in **-re, -oir, -dre, -tre**, and some irregular **-ir** verbs.
+- Conjugation patterns vary.
+- Examples:
+    - *prendre* (to take): je prends, tu prends, il/elle prend, nous prenons, vous prenez, ils/elles prennent
+    - *voir* (to see): je vois, tu vois, il/elle voit, nous voyons, vous voyez, ils/elles voient
+    - *venir* (to come): je viens, tu viens, il/elle vient, nous venons, vous venez, ils/elles viennent
+
+---
+
+### Exercises
+#### 1. Match the Verb to Its Meaning  
+Match each French verb to its English meaning.
+
+1. finir  
+<select onchange="checkVerbType(this, 'to finish')">
+    <option value="">--Choose--</option>
+    <option value="to speak">to speak</option>
+    <option value="to finish">to finish</option>
+    <option value="to take">to take</option>
+</select> <span></span>
+
+2. parler  
+<select onchange="checkVerbType(this, 'to speak')">
+    <option value="">--Choose--</option>
+    <option value="to finish">to finish</option>
+    <option value="to speak">to speak</option>
+    <option value="to sell">to sell</option>
+</select> <span></span>
+
+3. prendre  
+<select onchange="checkVerbType(this, 'to take')">
+    <option value="">--Choose--</option>
+    <option value="to come">to come</option>
+    <option value="to take">to take</option>
+    <option value="to see">to see</option>
+</select> <span></span>
+
+4. choisir  
+<select onchange="checkVerbType(this, 'to choose')">
+    <option value="">--Choose--</option>
+    <option value="to choose">to choose</option>
+    <option value="to answer">to answer</option>
+    <option value="to love">to love</option>
+</select> <span></span>
+
+5. vendre  
+<select onchange="checkVerbType(this, 'to sell')">
+    <option value="">--Choose--</option>
+    <option value="to sell">to sell</option>
+    <option value="to finish">to finish</option>
+    <option value="to see">to see</option>
+</select> <span></span>
+
+6. aller  
+<select onchange="checkVerbType(this, 'to go')">
+    <option value="">--Choose--</option>
+    <option value="to go">to go</option>
+    <option value="to answer">to answer</option>
+    <option value="to love">to love</option>
+</select> <span></span>
+
+7. voir  
+<select onchange="checkVerbType(this, 'to see')">
+    <option value="">--Choose--</option>
+    <option value="to see">to see</option>
+    <option value="to finish">to finish</option>
+    <option value="to take">to take</option>
+</select> <span></span>
+
+8. aimer  
+<select onchange="checkVerbType(this, 'to love')">
+    <option value="">--Choose--</option>
+    <option value="to love">to love</option>
+    <option value="to choose">to choose</option>
+    <option value="to go">to go</option>
+</select> <span></span>
+
+9. venir  
+<select onchange="checkVerbType(this, 'to come')">
+    <option value="">--Choose--</option>
+    <option value="to come">to come</option>
+    <option value="to answer">to answer</option>
+    <option value="to sell">to sell</option>
+</select> <span></span>
+
+10. répondre  
+<select onchange="checkVerbType(this, 'to answer')">
+    <option value="">--Choose--</option>
+    <option value="to answer">to answer</option>
+    <option value="to go">to go</option>
+    <option value="to speak">to speak</option>
+</select> <span></span>
+
+#### 2. Conjugate in Present Tense  
+Fill in the blank with the correct present tense form.
+
+1. Je ________ (parler) français. <input type="text" placeholder="Verb" oninput="checkAnswer(this, 'parle')"> <span></span>
+2. Nous ________ (finir) nos devoirs. <input type="text" placeholder="Verb" oninput="checkAnswer(this, 'finissons')"> <span></span>
+3. Tu ________ (prendre) le bus. <input type="text" placeholder="Verb" oninput="checkAnswer(this, 'prends')"> <span></span>
+4. Ils ________ (choisir) un livre. <input type="text" placeholder="Verb" oninput="checkAnswer(this, 'choisissent')"> <span></span>
+5. Vous ________ (voir) la tour Eiffel. <input type="text" placeholder="Verb" oninput="checkAnswer(this, 'voyez')"> <span></span>
+6. Elle ________ (vendre) des fleurs. <input type="text" placeholder="Verb" oninput="checkAnswer(this, 'vend')"> <span></span>
+7. Nous ________ (aimer) le chocolat. <input type="text" placeholder="Verb" oninput="checkAnswer(this, 'aimons')"> <span></span>
+8. Je ________ (venir) de Paris. <input type="text" placeholder="Verb" oninput="checkAnswer(this, 'viens')"> <span></span>
+9. Tu ________ (répondre) à la question. <input type="text" placeholder="Verb" oninput="checkAnswer(this, 'réponds')"> <span></span>
+10. Elles ________ (finir) tôt. <input type="text" placeholder="Verb" oninput="checkAnswer(this, 'finissent')"> <span></span>
+
+---
+
+### Summary Table
+
+| Group         | Ending(s)         | Example (je) | Example (nous) | Example (ils/elles) |
+|---------------|-------------------|--------------|----------------|---------------------|
+| 1st (-er)     | -e, -es, -e, ...  | parle        | parlons        | parlent             |
+| 2nd (-ir)     | -is, -is, -it...  | finis        | finissons      | finissent           |
+| 3rd (irreg.)  | -re, -oir, ...    | prends/vois  | prenons/voyons | prennent/voient     |
+
+---
+
+### Practice
+
+Write 3 sentences using a verb from each group in the present tense.
+
+<textarea rows="3" style="width:100%;" placeholder="Write your sentences here..."></textarea>
+
+<button onclick="showAnswers()">Show answers</button>
+<button onclick="refreshPage()">Try again</button>
+
+---
+
+### Notes:
+- **First group:** Regular -er verbs, most common and easiest to conjugate.
+- **Second group:** Regular -ir verbs with -issons in "nous" form.
+- **Third group:** Irregular verbs, memorize their patterns.
+
+:::
+
+::: {.content-visible when-profile="french"}
+
+### Le Présent en Français : Les Trois Groupes de Verbes
+
+En français, les verbes sont classés en trois groupes selon leur terminaison et leur modèle de conjugaison au présent.
+
+#### 1. Premier groupe : verbes en -ER
+- Groupe le plus courant.
+- Infinitif se termine par **-er** (sauf "aller").
+- Terminaisons : **-e, -es, -e, -ons, -ez, -ent**
+- Exemple : *parler*
+    - je parle, tu parles, il/elle parle, nous parlons, vous parlez, ils/elles parlent
+
+#### 2. Deuxième groupe : verbes en -IR (réguliers)
+- Infinitif en **-ir** et participe présent en **-issant**.
+- Terminaisons : **-is, -is, -it, -issons, -issez, -issent**
+- Exemple : *finir*
+    - je finis, tu finis, il/elle finit, nous finissons, vous finissez, ils/elles finissent
+
+#### 3. Troisième groupe : verbes irréguliers
+- Inclut les verbes en **-re, -oir, -dre, -tre** et certains verbes en **-ir** irréguliers.
+- Modèles de conjugaison variés.
+- Exemples :
+    - *prendre* : je prends, tu prends, il/elle prend, nous prenons, vous prenez, ils/elles prennent
+    - *voir* : je vois, tu vois, il/elle voit, nous voyons, vous voyez, ils/elles voient
+    - *venir* : je viens, tu viens, il/elle vient, nous venons, vous venez, ils/elles viennent
+
+---
+
+### Exercices
+
+#### 1. Identifiez le groupe du verbe  
+Associez chaque verbe à son infinitif.
+
+1. Je parle  
+    <select onchange="checkVerbType(this, 'parler')">
+      <option value="">--Choisir l'infinitif--</option>
+      <option value="finir">finir</option>
+      <option value="parler">parler</option>
+      <option value="prendre">prendre</option>
+    </select> <span></span>
+
+2. Nous finissons  
+    <select onchange="checkVerbType(this, 'finir')">
+      <option value="">--Choisir l'infinitif--</option>
+      <option value="finir">finir</option>
+      <option value="voir">voir</option>
+      <option value="vendre">vendre</option>
+    </select> <span></span>
+
+3. Tu prends  
+    <select onchange="checkVerbType(this, 'prendre')">
+      <option value="">--Choisir l'infinitif--</option>
+      <option value="prendre">prendre</option>
+      <option value="choisir">choisir</option>
+      <option value="aimer">aimer</option>
+    </select> <span></span>
+
+4. Ils choisissent  
+    <select onchange="checkVerbType(this, 'choisir')">
+      <option value="">--Choisir l'infinitif--</option>
+      <option value="choisir">choisir</option>
+      <option value="répondre">répondre</option>
+      <option value="venir">venir</option>
+    </select> <span></span>
+
+5. Vous voyez  
+    <select onchange="checkVerbType(this, 'voir')">
+      <option value="">--Choisir l'infinitif--</option>
+      <option value="voir">voir</option>
+      <option value="finir">finir</option>
+      <option value="parler">parler</option>
+    </select> <span></span>
+
+#### 2. Conjuguez au présent  
+Complétez avec la bonne forme du verbe au présent.
+
+1. Je ________ (parler) français. <input type="text" placeholder="Verbe" oninput="checkAnswer(this, 'parle')"> <span></span>
+2. Nous ________ (finir) nos devoirs. <input type="text" placeholder="Verbe" oninput="checkAnswer(this, 'finissons')"> <span></span>
+3. Tu ________ (prendre) le bus. <input type="text" placeholder="Verbe" oninput="checkAnswer(this, 'prends')"> <span></span>
+4. Ils ________ (choisir) un livre. <input type="text" placeholder="Verbe" oninput="checkAnswer(this, 'choisissent')"> <span></span>
+5. Vous ________ (voir) la tour Eiffel. <input type="text" placeholder="Verbe" oninput="checkAnswer(this, 'voyez')"> <span></span>
+6. Elle ________ (vendre) des fleurs. <input type="text" placeholder="Verbe" oninput="checkAnswer(this, 'vend')"> <span></span>
+7. Nous ________ (aimer) le chocolat. <input type="text" placeholder="Verbe" oninput="checkAnswer(this, 'aimons')"> <span></span>
+8. Je ________ (venir) de Paris. <input type="text" placeholder="Verbe" oninput="checkAnswer(this, 'viens')"> <span></span>
+9. Tu ________ (répondre) à la question. <input type="text" placeholder="Verbe" oninput="checkAnswer(this, 'réponds')"> <span></span>
+10. Elles ________ (finir) tôt. <input type="text" placeholder="Verbe" oninput="checkAnswer(this, 'finissent')"> <span></span>
+
+---
+
+### Tableau récapitulatif
+
+| Groupe         | Terminaison(s)         | Exemple (je) | Exemple (nous) | Exemple (ils/elles) |
+|---------------|------------------------|--------------|----------------|---------------------|
+| 1er (-er)     | -e, -es, -e, ...       | parle        | parlons        | parlent             |
+| 2e (-ir)      | -is, -is, -it...       | finis        | finissons      | finissent           |
+| 3e (irrég.)   | -re, -oir, ...         | prends/vois  | prenons/voyons | prennent/voient     |
+
+---
+
+### Pratique
+
+Écrivez 3 phrases en utilisant un verbe de chaque groupe au présent.
+
+<textarea rows="3" style="width:100%;" placeholder="Écrivez vos phrases ici..."></textarea>
+
+<button onclick="showAnswers()">Afficher les réponses</button>
+<button onclick="refreshPage()">Réessayer</button>
+
+---
+
+### Notes :
+- **Premier groupe :** Verbes réguliers en -er, les plus courants et les plus faciles à conjuguer.
+- **Deuxième groupe :** Verbes réguliers en -ir avec -issons à la forme "nous".
+- **Troisième groupe :** Verbes irréguliers, il faut mémoriser leurs modèles.
+
+:::
+
+<script>
+function checkAnswer(input, correctAnswer) {
+    const span = input.nextElementSibling;
+    if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
+        span.textContent = "✓ Correct";
+        span.style.color = "green";
+    } else {
+        span.textContent = "";
+        span.style.color = "";
+    }
+}
+
+// Add checkVerbType function
+function checkVerbType(select, correctType) {
+    const span = select.nextElementSibling;
+    if (select.value === correctType) {
+        span.textContent = "✓ Correct";
+        span.style.color = "green";
+    } else if (select.value !== "") {
+        span.textContent = "✗ Incorrect";
+        span.style.color = "red";
+    } else {
+        span.textContent = "";
+        span.style.color = "";
+    }
+}
+
+function showAnswers() {
+    document.querySelectorAll('input[type="text"]').forEach(el => {
+        const correct = el.getAttribute('oninput')?.match(/'([^']+)'/)?.[1];
+        if (correct) {
+            const span = el.nextElementSibling;
+            span.textContent = `Réponse : ${correct}`;
+            span.style.color = "blue";
+        }
+    });
+}
+
+function refreshPage() {
+    location.reload();
+}
+</script>

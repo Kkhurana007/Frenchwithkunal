@@ -84,13 +84,13 @@ ul.task-list li input[type="checkbox"] {
 
 <meta property="og:title" content="Exercises: Food Vocabulary &amp; Gender – French with Kunal">
 <meta property="og:description" content="">
-<meta property="og:image" content="https://tranquil-tiramisu-18a73a.netlify.app/exercises/12052025/food.png">
+<meta property="og:image" content="https://frenchwithkunal.ca/exercises/12052025/food.png">
 <meta property="og:site_name" content="French with Kunal">
 <meta property="og:image:height" content="578">
 <meta property="og:image:width" content="652">
 <meta name="twitter:title" content="Exercises: Food Vocabulary &amp; Gender – French with Kunal">
 <meta name="twitter:description" content="">
-<meta name="twitter:image" content="https://tranquil-tiramisu-18a73a.netlify.app/exercises/12052025/food.png">
+<meta name="twitter:image" content="https://frenchwithkunal.ca/exercises/12052025/food.png">
 <meta name="twitter:image-height" content="578">
 <meta name="twitter:image-width" content="652">
 <meta name="twitter:card" content="summary_large_image">
@@ -312,30 +312,9 @@ function showAnswers() {
 <button onclick="checkAllAnswers()">
 Check Answers
 </button>
-<script>  
-function checkAllAnswers() {  
-    document.querySelectorAll('input[type="text"]').forEach(input => {  
-        const correct = input.getAttribute('oninput').match(/'([^']+)'/)[1];  
-        checkAnswer(input, correct);  
-    });  
-
-    document.querySelectorAll('textarea').forEach(textarea => {  
-        const correct = textarea.getAttribute('oninput').match(/'([^']+)'/)[1];  
-        checkTranslation(textarea, correct);  
-    });  
-}  
-
-function checkTranslation(textarea, correctAnswer) {  
-    const feedback = textarea.nextElementSibling;  
-    if (textarea.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {  
-        feedback.textContent = "✓ Correct!";  
-        feedback.style.color = "green";  
-    } else if (textarea.value.trim()) {  
-        feedback.textContent = "✗ Try again!";  
-        feedback.style.color = "red";  
-    }  
-}  
-</script>
+<button onclick="showAllAnswers()">
+Show Answers
+</button>
 <script>  
 function checkAnswer(input, correctAnswer) {  
     const feedback = input.nextElementSibling;  
@@ -353,22 +332,16 @@ function checkAllAnswers() {
         const correct = input.getAttribute('oninput').match(/'([^']+)'/)[1];  
         checkAnswer(input, correct);  
     });  
-
-    document.querySelectorAll('textarea').forEach(textarea => {  
-        const correct = textarea.getAttribute('oninput').match(/'([^']+)'/)[1];  
-        checkTranslation(textarea, correct);  
-    });  
 }  
 
-function checkTranslation(textarea, correctAnswer) {  
-    const feedback = textarea.nextElementSibling;  
-    if (textarea.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {  
+function showAllAnswers() {  
+    document.querySelectorAll('input[type="text"]').forEach(input => {  
+        const correct = input.getAttribute('oninput').match(/'([^']+)'/)[1];  
+        input.value = correct;  
+        const feedback = input.nextElementSibling;  
         feedback.textContent = "✓ Correct!";  
         feedback.style.color = "green";  
-    } else if (textarea.value.trim()) {  
-        feedback.textContent = "✗ Try again!";  
-        feedback.style.color = "red";  
-    }  
+    });  
 }  
 </script>
 
@@ -611,7 +584,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/tranquil-tiramisu-18a73a\.netlify\.app");
+      var filterRegex = new RegExp("https:\/\/frenchwithkunal\.ca");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

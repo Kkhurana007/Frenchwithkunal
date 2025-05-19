@@ -127,3 +127,123 @@ function checkTranslation(textarea, correctAnswer) {
 
 
 :::  
+
+
+::: {.content-visible when-profile="french"}
+
+### Exercice : Noms de viandes en français et leur genre  
+Entraînez-vous à utiliser le bon article et à traduire les noms de viandes en français.
+
+#### 1. Attribuez le bon article défini (*le/la/l'*) à chaque terme :  
+___ aile de poulet (chicken wing) 🍗 → <input type="text" placeholder="le/la/l'" oninput="verifierReponse(this, 'l\'')"><span style="margin-left:10px;"></span>  
+
+___ agneau (lamb) 🐑 → <input type="text" placeholder="le/la/l'" oninput="verifierReponse(this, 'l\'')"><span style="margin-left:10px;"></span>  
+
+___ bacon 🥓 → <input type="text" placeholder="le/la/l'" oninput="verifierReponse(this, 'le')"><span style="margin-left:10px;"></span>  
+
+___ blanc de poulet (chicken breast) 🍗 → <input type="text" placeholder="le/la/l'" oninput="verifierReponse(this, 'le')"><span style="margin-left:10px;"></span>  
+
+___ escargot (snail) 🐌 → <input type="text" placeholder="le/la/l'" oninput="verifierReponse(this, 'l\'')"><span style="margin-left:10px;"></span>  
+
+___ foie (liver) 🍖 → <input type="text" placeholder="le/la/l'" oninput="verifierReponse(this, 'le')"><span style="margin-left:10px;"></span>  
+
+___ dinde (turkey) 🦃 → <input type="text" placeholder="le/la/l'" oninput="verifierReponse(this, 'la')"><span style="margin-left:10px;"></span>  
+
+___ veau (veal) 🐄 → <input type="text" placeholder="le/la/l'" oninput="verifierReponse(this, 'le')"><span style="margin-left:10px;"></span>  
+
+#### 2. Associez le terme français à son équivalent anglais :  
+**"le jambon"** 🍖 → <input type="text" placeholder="Anglais" oninput="verifierReponse(this, 'ham')"><span style="margin-left:10px;"></span>  
+
+**"la saucisse"** 🌭 → <input type="text" placeholder="Anglais" oninput="verifierReponse(this, 'sausage')"><span style="margin-left:10px;"></span>  
+
+**"le jaune d’œuf"** 🥚 → <input type="text" placeholder="Anglais" oninput="verifierReponse(this, 'egg yolk')"><span style="margin-left:10px;"></span>  
+
+**"les viandes maigres"** 🥩 → <input type="text" placeholder="Anglais" oninput="verifierReponse(this, 'lean meats')"><span style="margin-left:10px;"></span>  
+
+#### 3. Complétez avec le bon terme :  
+"___ (Le bœuf) est tendre." 🥩 → <input type="text" placeholder="Français" oninput="verifierReponse(this, 'le bœuf')"><span style="margin-left:10px;"></span>  
+
+"Je cuisine ___ (canard) à l’orange." 🦆 → <input type="text" placeholder="Français" oninput="verifierReponse(this, 'le canard')"><span style="margin-left:10px;"></span>  
+
+"___ (Le porc) est populaire en Allemagne." 🐖 → <input type="text" placeholder="Français" oninput="verifierReponse(this, 'le porc')"><span style="margin-left:10px;"></span>  
+
+#### 4. Corrigez les erreurs de genre/nombre :  
+"Une hamburger" 🍔 → <input type="text" placeholder="Phrase correcte" oninput="verifierReponse(this, 'un hamburger')"><span style="margin-left:10px;"></span>  
+
+"La bœuf" 🥩 → <input type="text" placeholder="Phrase correcte" oninput="verifierReponse(this, 'le bœuf')"><span style="margin-left:10px;"></span>  
+
+"Des saucisse" 🌭 → <input type="text" placeholder="Phrase correcte" oninput="verifierReponse(this, 'des saucisses')"><span style="margin-left:10px;"></span>  
+
+<button onclick="afficherReponses()">Afficher toutes les réponses</button>  
+
+<script>
+function afficherReponses() {
+    document.querySelectorAll('input[type="text"]').forEach(input => {
+        const correct = input.getAttribute('oninput').match(/'([^']+)'/)[1];
+        input.value = correct;
+        const feedback = input.nextElementSibling;
+        feedback.textContent = "✓ Correct !";
+        feedback.style.color = "green";
+    });
+}
+
+function rafraichirPage() {
+    location.reload();
+}
+</script>
+
+<button onclick="rafraichirPage()">Rafraîchir la page</button>
+
+#### 5. Traduisez en français (avec articles/partitifs !) :  
+"Je mange du poulet avec du riz."  
+<textarea placeholder="Je mange..." rows="2" cols="50" oninput="verifierTraduction(this, 'Je mange du poulet avec du riz')"></textarea><span style="margin-left:10px;"></span>  
+
+"Elle préfère les blancs d’œufs pour le petit-déjeuner."  
+<textarea placeholder="Elle préfère..." rows="2" cols="50" oninput="verifierTraduction(this, 'Elle préfère les blancs d’œufs pour le petit-déjeuner')"></textarea><span style="margin-left:10px;"></span>  
+
+<button onclick="verifierToutesReponses()">Vérifier les réponses</button>  
+
+<script>
+function verifierReponse(input, bonneReponse) {
+    const feedback = input.nextElementSibling;
+    if (input.value.trim().toLowerCase() === bonneReponse.toLowerCase()) {
+        feedback.textContent = "✓ Correct !";
+        feedback.style.color = "green";
+    } else if (input.value.trim()) {
+        feedback.textContent = "✗ Essayez encore !";
+        feedback.style.color = "red";
+    }
+}
+
+function verifierToutesReponses() {
+    document.querySelectorAll('input[type="text"]').forEach(input => {
+        const correct = input.getAttribute('oninput').match(/'([^']+)'/)[1];
+        verifierReponse(input, correct);
+    });
+
+    document.querySelectorAll('textarea').forEach(textarea => {
+        const correct = textarea.getAttribute('oninput').match(/'([^']+)'/)[1];
+        verifierTraduction(textarea, correct);
+    });
+}
+
+function verifierTraduction(textarea, bonneReponse) {
+    const feedback = textarea.nextElementSibling;
+    if (textarea.value.trim().toLowerCase() === bonneReponse.toLowerCase()) {
+        feedback.textContent = "✓ Correct !";
+        feedback.style.color = "green";
+    } else if (textarea.value.trim()) {
+        feedback.textContent = "✗ Essayez encore !";
+        feedback.style.color = "red";
+    }
+}
+</script>
+
+---
+
+### Notes :  
+- **Astuces de genre** : La plupart des noms de viandes sont masculins (*le porc, le steak*), mais il y a des exceptions comme *la dinde* (turkey) et *la viande* (meat).  
+- **Partitifs** : Utilisez *du/de la/des* pour "du/de la/des" (*du poulet*, *de la dinde*).  
+- **Pluriel** : *Les escargots* (snails) et *les saucisses* (sausages) sont au pluriel.  
+
+:::

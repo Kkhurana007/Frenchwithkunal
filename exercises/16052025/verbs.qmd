@@ -1,0 +1,206 @@
+---
+title: "Les Types de Verbes en Français"
+author: "Kunal Khurana"
+date: "05-15-2025"
+categories: [B1, grammaire, verbes, exercices]
+image: "verbs.png"
+---
+
+::: {.content-visible when-profile="english"}
+
+### Understanding Verb Types in French
+
+In French, verbs can be grouped into three main types: **simple verbs**, **auxiliary verbs** (*être*, *avoir*), and **semi-auxiliary verbs**.
+
+#### 1. Simple Verbs  
+These verbs express an action or a state by themselves.  
+*Examples:*  
+- *manger* (to eat)  
+- *finir* (to finish)  
+- *prendre* (to take)  
+
+#### 2. Auxiliary Verbs (*être*, *avoir*)  
+These verbs are used with a main verb to form compound tenses (like passé composé).  
+*Examples:*  
+- *J'ai mangé* (I ate)  
+- *Elle est partie* (She left)  
+
+#### 3. Semi-Auxiliary Verbs  
+These verbs are used with an infinitive to add nuance (intention, possibility, obligation, etc.).  
+Common semi-auxiliaries: *aller* (to go), *vouloir* (to want), *pouvoir* (can), *devoir* (must), *venir de* (just).  
+*Examples:*  
+- *Je vais manger* (I'm going to eat)  
+- *Il doit finir* (He must finish)  
+- *Nous venons de partir* (We just left)  
+
+---
+
+### Exercises
+
+#### 1. Identify the Verb Type  
+For each sentence, select the type of verb in **bold**.
+
+1. Je **mange** une pomme. <select onchange="checkVerbType(this, 'Simple verb')"><option value="">--Choose--</option><option>Simple verb</option><option>Auxiliary verb</option><option>Semi-auxiliary verb</option></select> <span></span>
+2. Elle **est** partie. <select onchange="checkVerbType(this, 'Auxiliary verb')"><option value="">--Choose--</option><option>Simple verb</option><option>Auxiliary verb</option><option>Semi-auxiliary verb</option></select> <span></span>
+3. Nous **allons** sortir. <select onchange="checkVerbType(this, 'Semi-auxiliary verb')"><option value="">--Choose--</option><option>Simple verb</option><option>Auxiliary verb</option><option>Semi-auxiliary verb</option></select> <span></span>
+4. Tu **as** fini tes devoirs. <select onchange="checkVerbType(this, 'Auxiliary verb')"><option value="">--Choose--</option><option>Simple verb</option><option>Auxiliary verb</option><option>Semi-auxiliary verb</option></select> <span></span>
+5. Ils **peuvent** venir. <select onchange="checkVerbType(this, 'Semi-auxiliary verb')"><option value="">--Choose--</option><option>Simple verb</option><option>Auxiliary verb</option><option>Semi-auxiliary verb</option></select> <span></span>
+6. Je **prends** le bus. <select onchange="checkVerbType(this, 'Simple verb')"><option value="">--Choose--</option><option>Simple verb</option><option>Auxiliary verb</option><option>Semi-auxiliary verb</option></select> <span></span>
+7. Vous **devez** partir. <select onchange="checkVerbType(this, 'Semi-auxiliary verb')"><option value="">--Choose--</option><option>Simple verb</option><option>Auxiliary verb</option><option>Semi-auxiliary verb</option></select> <span></span>
+8. Il **a** parlé. <select onchange="checkVerbType(this, 'Auxiliary verb')"><option value="">--Choose--</option><option>Simple verb</option><option>Auxiliary verb</option><option>Semi-auxiliary verb</option></select> <span></span>
+9. Nous **finissons** à 18h. <select onchange="checkVerbType(this, 'Simple verb')"><option value="">--Choose--</option><option>Simple verb</option><option>Auxiliary verb</option><option>Semi-auxiliary verb</option></select> <span></span>
+10. Elles **viennent de** partir. <select onchange="checkVerbType(this, 'Semi-auxiliary verb')"><option value="">--Choose--</option><option>Simple verb</option><option>Auxiliary verb</option><option>Semi-auxiliary verb</option></select> <span></span>
+
+#### 2. Complete the Sentences  
+Fill in the blank with the correct verb (simple, auxiliary, or semi-auxiliary):
+
+1. Je ________ (to go) étudier ce soir.<input type="text" placeholder="Verb" oninput="checkAnswer(this, 'vais')"> <span></span>
+2. Il ________ (to have) fini son travail.<input type="text" placeholder="Verb" oninput="checkAnswer(this, 'a')"> <span></span>
+3. Nous ________ (to finish) nos devoirs chaque jour.<input type="text" placeholder="Verb" oninput="checkAnswer(this, 'finissons')"> <span></span>
+4. Tu ________ (must) partir maintenant.<input type="text" placeholder="Verb" oninput="checkAnswer(this, 'dois')"> <span></span>
+5. Elles ________ (to be) arrivées à l’heure.<input type="text" placeholder="Verb" oninput="checkAnswer(this, 'sont')"> <span></span>
+6. Vous ________ (can) venir demain.<input type="text" placeholder="Verb" oninput="checkAnswer(this, 'pouvez')"> <span></span>
+7. Il ________ (to eat) une banane.<input type="text" placeholder="Verb" oninput="checkAnswer(this, 'mange')"> <span></span>
+8. Nous ________ (have just) de finir.<input type="text" placeholder="Verb" oninput="checkAnswer(this, 'venons')"> <span></span>
+9. Je ________ (to take) le train chaque matin.<input type="text" placeholder="Verb" oninput="checkAnswer(this, 'prends')"> <span></span>
+10. Tu ________ (to be) en retard.<input type="text" placeholder="Verb" oninput="checkAnswer(this, 'es')"> <span></span>
+
+---
+
+### To consolidate your learning
+
+Write a short paragraph (3-5 sentences) explaining what you have learned about the types of verbs in French. Use your own words and, if possible, give an example.  
+<textarea rows="5" style="width:100%;" placeholder="Write here what you have learned..."></textarea>
+
+<button onclick="showAnswers()">Show answers</button>
+<button onclick="refreshPage()">Try again</button>
+
+---
+
+### Notes:
+- **Simple verbs** express actions or states directly.
+- **Auxiliary verbs** (*être*, *avoir*) help form compound tenses.
+- **Semi-auxiliary verbs** are used with an infinitive to add meaning (intention, obligation, etc.).
+
+:::
+
+::: {.content-visible when-profile="french"}
+
+### Comprendre les types de verbes en français
+
+En français, les verbes peuvent être regroupés en trois grands types : **verbes simples**, **verbes auxiliaires** (*être*, *avoir*) et **verbes semi-auxiliaires**.
+
+#### 1. Verbes simples  
+Ces verbes expriment une action ou un état par eux-mêmes.  
+*Exemples :*  
+- *manger*  
+- *finir*  
+- *prendre*  
+
+#### 2. Verbes auxiliaires (*être*, *avoir*)  
+Ces verbes sont utilisés avec un verbe principal pour former des temps composés (comme le passé composé).  
+*Exemples :*  
+- *J'ai mangé*  
+- *Elle est partie*  
+
+#### 3. Verbes semi-auxiliaires  
+Ces verbes sont utilisés avec un infinitif pour ajouter une nuance (intention, possibilité, obligation, etc.).  
+Verbes semi-auxiliaires courants : *aller*, *vouloir*, *pouvoir*, *devoir*, *venir de*.  
+*Exemples :*  
+- *Je vais manger*  
+- *Il doit finir*  
+- *Nous venons de partir*  
+
+---
+
+### Exercices
+
+#### 1. Identifiez le type de verbe  
+Pour chaque phrase, sélectionnez le type du verbe en **gras**.
+
+1. Je **mange** une pomme. <select onchange="checkVerbType(this, 'Simple verb')"><option value="">--Choisir--</option><option>Simple verb</option><option>Auxiliary verb</option><option>Semi-auxiliary verb</option></select> <span></span>
+2. Elle **est** partie. <select onchange="checkVerbType(this, 'Auxiliary verb')"><option value="">--Choisir--</option><option>Simple verb</option><option>Auxiliary verb</option><option>Semi-auxiliary verb</option></select> <span></span>
+3. Nous **allons** sortir. <select onchange="checkVerbType(this, 'Semi-auxiliary verb')"><option value="">--Choisir--</option><option>Simple verb</option><option>Auxiliary verb</option><option>Semi-auxiliary verb</option></select> <span></span>
+4. Tu **as** fini tes devoirs. <select onchange="checkVerbType(this, 'Auxiliary verb')"><option value="">--Choisir--</option><option>Simple verb</option><option>Auxiliary verb</option><option>Semi-auxiliary verb</option></select> <span></span>
+5. Ils **peuvent** venir. <select onchange="checkVerbType(this, 'Semi-auxiliary verb')"><option value="">--Choisir--</option><option>Simple verb</option><option>Auxiliary verb</option><option>Semi-auxiliary verb</option></select> <span></span>
+6. Je **prends** le bus. <select onchange="checkVerbType(this, 'Simple verb')"><option value="">--Choisir--</option><option>Simple verb</option><option>Auxiliary verb</option><option>Semi-auxiliary verb</option></select> <span></span>
+7. Vous **devez** partir. <select onchange="checkVerbType(this, 'Semi-auxiliary verb')"><option value="">--Choisir--</option><option>Simple verb</option><option>Auxiliary verb</option><option>Semi-auxiliary verb</option></select> <span></span>
+8. Il **a** parlé. <select onchange="checkVerbType(this, 'Auxiliary verb')"><option value="">--Choisir--</option><option>Simple verb</option><option>Auxiliary verb</option><option>Semi-auxiliary verb</option></select> <span></span>
+9. Nous **finissons** à 18h. <select onchange="checkVerbType(this, 'Simple verb')"><option value="">--Choisir--</option><option>Simple verb</option><option>Auxiliary verb</option><option>Semi-auxiliary verb</option></select> <span></span>
+10. Elles **viennent de** partir. <select onchange="checkVerbType(this, 'Semi-auxiliary verb')"><option value="">--Choisir--</option><option>Simple verb</option><option>Auxiliary verb</option><option>Semi-auxiliary verb</option></select> <span></span>
+
+#### 2. Complétez les phrases  
+Complétez avec le verbe correct (simple, auxiliaire ou semi-auxiliaire) :
+
+1. Je ________ (aller) étudier ce soir.<input type="text" placeholder="Verbe" oninput="checkAnswer(this, 'vais')"> <span></span>
+2. Il ________ (avoir) fini son travail.<input type="text" placeholder="Verbe" oninput="checkAnswer(this, 'a')"> <span></span>
+3. Nous ________ (finir) nos devoirs chaque jour.<input type="text" placeholder="Verbe" oninput="checkAnswer(this, 'finissons')"> <span></span>
+4. Tu ________ (devoir) partir maintenant.<input type="text" placeholder="Verbe" oninput="checkAnswer(this, 'dois')"> <span></span>
+5. Elles ________ (être) arrivées à l’heure.<input type="text" placeholder="Verbe" oninput="checkAnswer(this, 'sont')"> <span></span>
+6. Vous ________ (pouvoir) venir demain.<input type="text" placeholder="Verbe" oninput="checkAnswer(this, 'pouvez')"> <span></span>
+7. Il ________ (manger) une banane.<input type="text" placeholder="Verbe" oninput="checkAnswer(this, 'mange')"> <span></span>
+8. Nous ________ (venir de) de finir.<input type="text" placeholder="Verbe" oninput="checkAnswer(this, 'venons')"> <span></span>
+9. Je ________ (prendre) le train chaque matin.<input type="text" placeholder="Verbe" oninput="checkAnswer(this, 'prends')"> <span></span>
+10. Tu ________ (être) en retard.<input type="text" placeholder="Verbe" oninput="checkAnswer(this, 'es')"> <span></span>
+
+---
+
+### Pour consolider vos apprentissages
+
+Écrivez un court paragraphe (3 à 5 phrases) expliquant ce que vous avez appris sur les types de verbes en français. Utilisez vos propres mots et, si possible, donnez un exemple.  
+<textarea rows="5" style="width:100%;" placeholder="Écrivez ici ce que vous avez appris..."></textarea>
+
+<button onclick="showAnswers()">Afficher les réponses</button>
+<button onclick="refreshPage()">Réessayer</button>
+
+---
+
+### Notes :
+- **Les verbes simples** expriment directement des actions ou des états.
+- **Les verbes auxiliaires** (*être*, *avoir*) servent à former les temps composés.
+- **Les verbes semi-auxiliaires** s’utilisent avec un infinitif pour ajouter une nuance (intention, obligation, etc.).
+
+:::
+
+<script>
+function checkAnswer(input, correctAnswer) {
+    const span = input.nextElementSibling;
+    if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
+        span.textContent = "✓ Correct";
+        span.style.color = "green";
+    } else {
+        span.textContent = "";
+        span.style.color = "";
+    }
+}
+
+// Add checkVerbType function
+function checkVerbType(select, correctType) {
+    const span = select.nextElementSibling;
+    if (select.value === correctType) {
+        span.textContent = "✓ Correct";
+        span.style.color = "green";
+    } else if (select.value !== "") {
+        span.textContent = "✗ Incorrect";
+        span.style.color = "red";
+    } else {
+        span.textContent = "";
+        span.style.color = "";
+    }
+}
+
+function showAnswers() {
+    document.querySelectorAll('input[type="text"]').forEach(el => {
+        const correct = el.getAttribute('oninput')?.match(/'([^']+)'/)?.[1];
+        if (correct) {
+            const span = el.nextElementSibling;
+            span.textContent = `Réponse : ${correct}`;
+            span.style.color = "blue";
+        }
+    });
+}
+
+function refreshPage() {
+    location.reload();
+}
+</script>

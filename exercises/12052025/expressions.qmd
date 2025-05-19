@@ -7,10 +7,11 @@ image: "expressions.png"
 ---
 
 
-::: {.contenet-visisble when-profile="english"}
+::: {.content-visible when-profile="english"}
 
 
 ### **Exercises: Common French Thoughts & Expressions**  
+
 **Categories:** A1/A2, vocabulary, expressions, sentence building  
 
 #### **1. Fill in the blanks with the correct word/phrase:**  
@@ -62,7 +63,8 @@ Draw a line (or type the letter) to match.
 
 ---
 
-<button onclick="checkAllAnswers()">Check Answers</button>  
+<button onclick="checkAllAnswers()">Check Answers</button> 
+<button onclick="showAllAnswers()">Show All Answers</button>
 
 <script>  
 function checkAnswer(input, correctAnswer) {  
@@ -82,6 +84,108 @@ function checkAllAnswers() {
         checkAnswer(input, correct);  
     });  
 }  
+
+function showAllAnswers() {  
+    document.querySelectorAll('input[type="text"]').forEach(input => {  
+        const correct = input.getAttribute('oninput').match(/'([^']+)'/)[1];  
+        input.value = correct;  
+        const feedback = input.nextElementSibling;  
+        feedback.textContent = "✓ Correct!";  
+        feedback.style.color = "green";  
+    });  
+}  
+
 </script>  
+
+:::
+
+
+::: {.content-visible when-profile="french"}
+
+### **Exercices : Pensées et expressions françaises courantes**  
+**Catégories :** A1/A2, vocabulaire, expressions, construction de phrases  
+
+#### **1. Complétez les expressions avec le mot/phrase correct(e) :**  
+Complétez ces expressions françaises courantes avec le mot manquant.  
+
+- "___-ci" (celui-ci/celle-ci) → <input type="text" placeholder="celui/celle" oninput="checkAnswer(this, 'celui')"> <span style="margin-left:10px;"></span>  
+- "Je ___ fatigué(e)" (je suis fatigué(e)) → <input type="text" placeholder="suis/être" oninput="checkAnswer(this, 'suis')"> <span style="margin-left:10px;"></span>  
+- "___ plaisir" (avec plaisir) → <input type="text" placeholder="av.." oninput="checkAnswer(this, 'avec')"> <span style="margin-left:10px;"></span>  
+- "Qu'est-ce que tu ___ ?" (Que fais-tu ?) → <input type="text" placeholder="fa.." oninput="checkAnswer(this, 'fais')"> <span style="margin-left:10px;"></span>  
+- "___ va ?" (Comment ça va ?) → <input type="text" placeholder="comment" oninput="checkAnswer(this, 'comment ça')"> <span style="margin-left:10px;"></span>  
+
+---
+
+#### **2. Associez l’expression française à son équivalent anglais :**  
+Tracez une ligne (ou tapez la lettre) pour associer.  
+
+- "Ça dépend" (It depends) → <input type="text" placeholder="c" oninput="checkAnswer(this, 'c')"> <span style="margin-left:10px;"></span>  
+- "Pas de problème" (No problem) → <input type="text" placeholder="d" oninput="checkAnswer(this, 'd')"> <span style="margin-left:10px;"></span>  
+- "It depends" (Ça dépend) → <input type="text" placeholder="a" oninput="checkAnswer(this, 'a')"> <span style="margin-left:10px;"></span>  
+- "No problem" (Pas de problème) → <input type="text" placeholder="b" oninput="checkAnswer(this, 'b')"> <span style="margin-left:10px;"></span>  
+
+---
+
+#### **3. Traduisez ces phrases courantes en français :**  
+- "Je ne comprends pas." (I don’t understand) → <input type="text" placeholder="je ne..." oninput="checkAnswer(this, 'je ne comprends pas')"> <span style="margin-left:10px;"></span>  
+- "À demain !" (See you tomorrow!) → <input type="text" placeholder="à de..." oninput="checkAnswer(this, 'à demain')"> <span style="margin-left:10px;"></span>  
+- "Quelle heure est-il ?" (What time is it?) → <input type="text" placeholder="quelle..." oninput="checkAnswer(this, 'quelle heure est-il')"> <span style="margin-left:10px;"></span>  
+
+---
+
+#### **4. Écrivez une phrase en utilisant l’indice :**  
+- **Indice :** Exprimez la surprise à propos du temps.  
+    → <textarea placeholder="Quel temps bizarre !" rows="2" cols="50"></textarea>  
+- **Indice :** Demandez l’avis de quelqu’un sur un film.  
+    → <textarea placeholder="Tu as aimé le film ?" rows="2" cols="50"></textarea>  
+
+---
+
+#### **5. Corrigez les erreurs dans ces phrases :**  
+- "Je suis 20 ans." → <input type="text" placeholder="J'ai 20 ans." oninput="checkAnswer(this, 'j\'ai 20 ans')"> <span style="margin-left:10px;"></span>  
+- "Elle va au supermarché demain." (Correct si la personne est une femme) → <input type="text" placeholder="Correct as is!" oninput="checkAnswer(this, 'correct as is')"> <span style="margin-left:10px;"></span>  
+
+---
+
+#### **6. Complétez le dialogue :**  
+**Contexte :** Commander un café au café.  
+- "Bonjour, je voudrais ___ café, s’il vous plaît." → <input type="text" placeholder="un" oninput="checkAnswer(this, 'un')">  
+- "___ sucre ?" (Avec du sucre ?) → <input type="text" placeholder="avec" oninput="checkAnswer(this, 'avec')">  
+
+---
+
+<button onclick="checkAllAnswers()">Vérifier les réponses</button>  
+<button onclick="showAllAnswers()">Afficher toutes les réponses</button>  
+
+<script>  
+function checkAnswer(input, correctAnswer) {  
+    const feedback = input.nextElementSibling;  
+    if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {  
+        feedback.textContent = "✓ Correct!";  
+        feedback.style.color = "green";  
+    } else if (input.value.trim()) {  
+        feedback.textContent = "✗ Try again!";  
+        feedback.style.color = "red";  
+    }  
+}  
+
+function checkAllAnswers() {  
+    document.querySelectorAll('input[type="text"]').forEach(input => {  
+        const correct = input.getAttribute('oninput').match(/'([^']+)'/)[1];  
+        checkAnswer(input, correct);  
+    });  
+}  
+
+function showAllAnswers() {  
+    document.querySelectorAll('input[type="text"]').forEach(input => {  
+        const correct = input.getAttribute('oninput').match(/'([^']+)'/)[1];  
+        input.value = correct;  
+        const feedback = input.nextElementSibling;  
+        feedback.textContent = "✓ Correct!";  
+        feedback.style.color = "green";  
+    });  
+}  
+</script>  
+
 
 :::

@@ -84,13 +84,13 @@ ul.task-list li input[type="checkbox"] {
 
 <meta property="og:title" content="Exercises with French Conjunctions – French with Kunal">
 <meta property="og:description" content="">
-<meta property="og:image" content="https://tranquil-tiramisu-18a73a.netlify.app/exercises/19052025/conjunctions.png">
+<meta property="og:image" content="https://frenchwithkunal.ca/exercises/19052025/conjunctions.png">
 <meta property="og:site_name" content="French with Kunal">
 <meta property="og:image:height" content="396">
 <meta property="og:image:width" content="625">
 <meta name="twitter:title" content="Exercises with French Conjunctions – French with Kunal">
 <meta name="twitter:description" content="">
-<meta name="twitter:image" content="https://tranquil-tiramisu-18a73a.netlify.app/exercises/19052025/conjunctions.png">
+<meta name="twitter:image" content="https://frenchwithkunal.ca/exercises/19052025/conjunctions.png">
 <meta name="twitter:image-height" content="396">
 <meta name="twitter:image-width" content="625">
 <meta name="twitter:card" content="summary_large_image">
@@ -333,65 +333,6 @@ Highlight Conjunctions
 <div class="feedback">
 
 </div>
-<script>
-// Function to check dropdown answers
-function checkConjunction(selectElement, correctAnswer) {
-  const userAnswer = selectElement.value.trim();
-  const feedback = selectElement.nextElementSibling;
-  if (userAnswer === correctAnswer) {
-    feedback.textContent = "✓ Correct!";
-    feedback.style.color = "green";
-  } else if (userAnswer) {
-    feedback.textContent = "✗ Try again!";
-    feedback.style.color = "red";
-  }
-}
-
-// Function to check combined sentences
-function checkCombination(textareaElement, requiredConjunction) {
-  const userText = textareaElement.value.trim().toLowerCase();
-  const feedback = textareaElement.nextElementSibling.nextElementSibling;
-  if (userText.includes(requiredConjunction)) {
-    feedback.textContent = "✓ Good job!";
-    feedback.style.color = "green";
-  } else {
-    feedback.textContent = `✗ Use the conjunction "${requiredConjunction}" to connect the ideas.`;
-    feedback.style.color = "red";
-  }
-}
-
-// Function to check translations
-function checkTranslation(textareaElement, correctAnswer) {
-  const userText = textareaElement.value.trim().toLowerCase();
-  const feedback = textareaElement.nextElementSibling.nextElementSibling;
-  if (userText === correctAnswer.toLowerCase()) {
-    feedback.textContent = "✓ Perfect!";
-    feedback.style.color = "green";
-  } else {
-    feedback.textContent = `✓ Suggested answer: "${correctAnswer}"`;
-    feedback.style.color = "blue";
-  }
-}
-
-// Function to highlight conjunctions in creative writing
-function highlightConjunctions(textareaElement) {
-const conjunctions = [
-    "et", "mais", "ou", "donc", "car", "parce que", "quand", "si", 
-    "alors", "puisque", "comme", "tandis que", "bien que", "quoique", 
-    "afin que", "pour que", "avant que", "après que", "lorsque", 
-    "dès que", "tant que", "à condition que", "à moins que", 
-    "en attendant que", "jusqu'à ce que", "sans que", "malgré que"
-];
-  const userText = textareaElement.value;
-  let highlightedText = userText;
-  conjunctions.forEach(conj => {
-    const regex = new RegExp(`\\b${conj}\\b`, "gi");
-    highlightedText = highlightedText.replace(regex, `<span style="background-color: yellow">${conj}</span>`);
-  });
-  const feedback = textareaElement.nextElementSibling.nextElementSibling;
-  feedback.innerHTML = "<strong>Conjunctions used:</strong><br>" + highlightedText;
-}
-</script>
 
 
 </section>
@@ -632,7 +573,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/tranquil-tiramisu-18a73a\.netlify\.app");
+      var filterRegex = new RegExp("https:\/\/frenchwithkunal\.ca");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

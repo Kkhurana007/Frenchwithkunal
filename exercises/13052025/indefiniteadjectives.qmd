@@ -151,3 +151,150 @@ function checkTranslation(textarea, correctAnswer) {
 </script>  
 
 :::  
+
+
+::: {.content-visible when-profile="french"}
+
+### Explication :  
+
+Les adjectifs indéfinis modifient les noms pour exprimer des quantités vagues ou l’individualité. Ils s’accordent toujours en genre et en nombre avec le nom qu’ils qualifient.  
+
+#### Principales catégories :  
+
+1. **Quantité nulle**  
+   - *Aucun(e)* (aucun/aucune) → *Aucun problème*  
+   - *Nul(le)* (aucun/aucune) → *Nulle part*  
+
+2. **Quantité limitée**  
+   - *Quelques* (quelques) → *Quelques amis*  
+   - *Certain(e)s* (certains/certaines) → *Certaines idées*  
+
+3. **Quantité plus grande**  
+   - *Plusieurs* (plusieurs) → *Plusieurs livres*  
+
+4. **Individualité**  
+   - *Chaque* (chaque) → *Chaque jour*  
+   - *Tout/toute/tous/toutes* (tout/toute/tous/toutes) → *Tous les matins*  
+
+**Remarque :**  
+
+- *Tout* change de forme :  
+  - Masculin singulier : *tout* (*tout le gâteau*)  
+  - Féminin singulier : *toute* (*toute la journée*)  
+  - Masculin pluriel : *tous* (*tous les enfants*)  
+  - Féminin pluriel : *toutes* (*toutes les filles*)  
+
+---
+
+### Exercice 1 : Choisissez le bon adjectif indéfini  
+
+Complétez avec : **aucun, quelques, plusieurs, chaque, tout/toute/tous/toutes**.  
+
+1. Il n’a fait ___ erreur dans son texte. (aucune) →  
+   <input type="text" placeholder="aucun/aucune" oninput="checkAnswer(this, 'aucune')"><span style="margin-left:10px;"></span>  
+
+2. J’ai ___ amis qui habitent à Paris. (quelques) →  
+   <input type="text" placeholder="quelques/plusieurs" oninput="checkAnswer(this, 'quelques')"><span style="margin-left:10px;"></span>  
+
+3. ___ les étudiants doivent passer l’examen. (tous) →  
+   <input type="text" placeholder="tout/tous/toutes" oninput="checkAnswer(this, 'tous')"><span style="margin-left:10px;"></span>  
+
+4. Elle achète ___ nouveau vêtement. (chaque) →  
+   <input type="text" placeholder="chaque/chacun" oninput="checkAnswer(this, 'chaque')"><span style="margin-left:10px;"></span>  
+
+5. Nous avons visité ___ villes en Italie. (plusieurs) →  
+   <input type="text" placeholder="plusieurs/quelques" oninput="checkAnswer(this, 'plusieurs')"><span style="margin-left:10px;"></span>  
+
+---
+
+### Exercice 2 : Corrigez les erreurs  
+
+1. « J’ai lu tout les livres. » →  
+   <input type="text" placeholder="Correct" oninput="checkAnswer(this, 'J’ai lu tous les livres.')"><span style="margin-left:10px;"></span>  
+
+2. « Elle a aucune idée. » →  
+   <input type="text" placeholder="Correct" oninput="checkAnswer(this, 'Elle n’a aucune idée.')"><span style="margin-left:10px;"></span>  
+
+3. « Chaque enfants aime les bonbons. » →  
+   <input type="text" placeholder="Correct" oninput="checkAnswer(this, 'Chaque enfant aime les bonbons.')"><span style="margin-left:10px;"></span>  
+
+---
+
+### Exercice 3 : Traduisez en français  
+
+1. « She has no patience. » →  
+   <textarea placeholder="..." rows="2" cols="50" oninput="checkTranslation(this, 'Elle n’a aucune patience.')"></textarea><span style="margin-left:10px;"></span>  
+
+2. « All the girls are ready. » →  
+   <textarea placeholder="..." rows="2" cols="50" oninput="checkTranslation(this, 'Toutes les filles sont prêtes.')"></textarea><span style="margin-left:10px;"></span>  
+
+---
+
+### Exercice 4 : Pratique écrite  
+
+**Situation :** Décrivez votre routine hebdomadaire en utilisant au moins **3 adjectifs indéfinis différents**.  
+Exemple : *« Chaque lundi, je fais quelques exercices. Tous mes amis vont à la gym… »*  
+<textarea placeholder="Écrivez ici..." rows="4" cols="60"></textarea>  
+
+<button onclick="showAnswers()">Afficher les réponses</button>  
+<button onclick="checkAllAnswers()">Vérifier</button>  
+
+<script>  
+function showAnswers() {  
+    document.querySelectorAll('input[type="text"]').forEach(input => {  
+        const correct = input.getAttribute('oninput').match(/'([^']+)'/)[1];  
+        input.value = correct;  
+        const feedback = input.nextElementSibling;  
+        feedback.textContent = "✓ Correct !";  
+        feedback.style.color = "green";  
+    });  
+}  
+
+function checkAllAnswers() {  
+    document.querySelectorAll('input[type="text"]').forEach(input => {  
+        const correct = input.getAttribute('oninput').match(/'([^']+)'/)[1];  
+        checkAnswer(input, correct);  
+        if (input.value.trim().toLowerCase() !== correct.toLowerCase()) {  
+            input.value = correct;  
+            const feedback = input.nextElementSibling;  
+            feedback.textContent = `✗ Correct answer: ${correct}`;  
+            feedback.style.color = "blue";  
+        }  
+    });  
+
+    document.querySelectorAll('textarea').forEach(textarea => {  
+        const correct = textarea.getAttribute('oninput').match(/'([^']+)'/)[1];  
+        checkTranslation(textarea, correct);  
+        if (textarea.value.trim().toLowerCase() !== correct.toLowerCase()) {  
+            textarea.value = correct;  
+            const feedback = textarea.nextElementSibling;  
+            feedback.textContent = `✗ Correct answer: ${correct}`;  
+            feedback.style.color = "blue";  
+        }  
+    });  
+}  
+
+function checkAnswer(input, correctAnswer) {  
+    const feedback = input.nextElementSibling;  
+    if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {  
+        feedback.textContent = "✓ Correct !";  
+        feedback.style.color = "green";  
+    } else if (input.value.trim()) {  
+        feedback.textContent = "✗ Essayez encore !";  
+        feedback.style.color = "red";  
+    }  
+}  
+
+function checkTranslation(textarea, correctAnswer) {  
+    const feedback = textarea.nextElementSibling;  
+    if (textarea.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {  
+        feedback.textContent = "✓ Correct !";  
+        feedback.style.color = "green";  
+    } else if (textarea.value.trim()) {  
+        feedback.textContent = "✗ Essayez encore !";  
+        feedback.style.color = "red";  
+    }  
+}  
+</script>  
+
+:::

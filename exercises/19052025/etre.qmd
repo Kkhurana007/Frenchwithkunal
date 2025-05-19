@@ -7,6 +7,7 @@ image: "etre.png"
 ---
 
 ::: {.content-visible when-profile="english"}
+
 # Exercise: Practicing the Verb "Être"
 
 Here are some exercises to practice conjugating the verb **être** (to be) in French:
@@ -22,7 +23,7 @@ Here are some exercises to practice conjugating the verb **être** (to be) in Fr
 <br>
 
 2.  Fill in the blanks with the correct form of "être" in the past tense (passé composé):
-    -   Hier, je <input type="text" placeholder="Enter answer here" oninput="checkAnswer(this, 'ai été')"> très occupé(e).
+    -   Hier, j' <input type="text" placeholder="Enter answer here" oninput="checkAnswer(this, 'ai été')"> très occupé(e).
     -   La semaine dernière, nous <input type="text" placeholder="Enter answer here" oninput="checkAnswer(this, 'avons été')"> à Paris.
     -   Est-ce que tu <input type="text" placeholder="Enter answer here" oninput="checkAnswer(this, 'as été')"> malade ?
     -   Ils/Elles <input type="text" placeholder="Enter answer here" oninput="checkAnswer(this, 'ont été')"> en retard.
@@ -31,7 +32,6 @@ Here are some exercises to practice conjugating the verb **être** (to be) in Fr
 
 <br>
 
-```{=html}
 <script>
 function checkAnswer(input, correctAnswer) {
     const userAnswer = input.value.trim().toLowerCase();
@@ -60,28 +60,23 @@ function checkAllAnswers() {
     });
 }
 </script>
-```
+
 
 3.  Translate the following sentences into French using the verb "être":
 
     -   I am happy.\
 
-        ```{=html}
         <textarea placeholder="Enter your translation here" rows="2" cols="50"></textarea>
-        ```
-
+        
     -   They are tired.\
 
-        ```{=html}
         <textarea placeholder="Enter your translation here" rows="2" cols="50"></textarea>
-        ```
+        
 
     -   We are ready.\
 
-        ```{=html}
         <textarea placeholder="Enter your translation here" rows="2" cols="50"></textarea>
-        ```
-
+        
     <button onclick="showAllTranslations()">
     Submit
     </button>
@@ -147,18 +142,12 @@ function showAllTranslations() {
 
 4.  Write a short paragraph about what you and your friends have done recently using different forms of "être."
 
-    ```{=html}
     <textarea placeholder="Write your paragraph here" rows="5" cols="50"></textarea>
-    ```
 
-    <button onclick="checkAllAnswers()">
+    <button onclick="checkAllAnswers()">Check All Answers</button>
 
-    Check All Answers
-
-    </button>
-
-    ```{=html}
-    <script>
+    
+<script>
     function checkAllAnswers() {
         const paragraphInput = document.querySelector('textarea');
         const feedback = paragraphInput.nextElementSibling || document.createElement('span');
@@ -178,5 +167,134 @@ function showAllTranslations() {
         }
     }
     </script>
-    ```
+:::
+
+
+::: {.conetent-visible when-profile="french"}
+
+# Exercice : Pratiquer le verbe "Être"
+
+Voici quelques exercices pour pratiquer la conjugaison du verbe **être** en français :
+
+1.  Conjuguez le verbe "être" au présent pour les sujets suivants :
+    -   Je <input type="text" placeholder="Entrez la réponse ici" oninput="verifierReponse(this, 'suis')"> content(e).
+    -   Tu <input type="text" placeholder="Entrez la réponse ici" oninput="verifierReponse(this, 'es')"> étudiant(e).
+    -   Il/Elle <input type="text" placeholder="Entrez la réponse ici" oninput="verifierReponse(this, 'est')"> professeur(e).
+    -   Nous <input type="text" placeholder="Entrez la réponse ici" oninput="verifierReponse(this, 'sommes')"> en vacances.
+    -   Vous <input type="text" placeholder="Entrez la réponse ici" oninput="verifierReponse(this, 'êtes')"> à l'heure.
+    -   Ils/Elles <input type="text" placeholder="Entrez la réponse ici" oninput="verifierReponse(this, 'sont')"> heureux/heureuses.
+
+<br>
+
+2.  Complétez avec la bonne forme de "être" au passé composé :
+    -   Hier, j' <input type="text" placeholder="Entrez la réponse ici" oninput="verifierReponse(this, 'ai été')"> très occupé(e).
+    -   La semaine dernière, nous <input type="text" placeholder="Entrez la réponse ici" oninput="verifierReponse(this, 'avons été')"> à Paris.
+    -   Est-ce que tu <input type="text" placeholder="Entrez la réponse ici" oninput="verifierReponse(this, 'as été')"> malade ?
+    -   Ils/Elles <input type="text" placeholder="Entrez la réponse ici" oninput="verifierReponse(this, 'ont été')"> en retard.
+    -   Vous <input type="text" placeholder="Entrez la réponse ici" oninput="verifierReponse(this, 'avez été')"> très gentils.
+    -   Il/Elle <input type="text" placeholder="Entrez la réponse ici" oninput="verifierReponse(this, 'a été')"> absent(e) hier.
+
+<br>
+
+<script>
+function verifierReponse(input, bonneReponse) {
+    const reponseUtilisateur = input.value.trim().toLowerCase();
+    let feedback = input.nextElementSibling;
+    if (!feedback) {
+        feedback = document.createElement('span');
+        feedback.style.marginLeft = '10px';
+        input.parentNode.appendChild(feedback);
+    }
+    if (reponseUtilisateur === bonneReponse) {
+        feedback.textContent = "Correct ! +10 points";
+        feedback.style.color = "green";
+    } else if (reponseUtilisateur) {
+        feedback.textContent = "Essayez encore !";
+        feedback.style.color = "red";
+    } else {
+        feedback.textContent = "";
+    }
+}
+
+function verifierToutesReponses() {
+    const inputs = document.querySelectorAll('input[type="text"]');
+    inputs.forEach(input => {
+        const bonneReponse = input.getAttribute('oninput').match(/'([^']+)'/)[1];
+        verifierReponse(input, bonneReponse);
+    });
+}
+</script>
+
+3.  Traduisez les phrases suivantes en français en utilisant le verbe "être" :
+
+    -   Je suis heureux/heureuse.\
+
+        <textarea placeholder="Écrivez votre traduction ici" rows="2" cols="50"></textarea>
+        
+    -   Ils/Elles sont fatigué(e)s.\
+
+        <textarea placeholder="Écrivez votre traduction ici" rows="2" cols="50"></textarea>
+        
+    -   Nous sommes prêts/prêtes.\
+
+        <textarea placeholder="Écrivez votre traduction ici" rows="2" cols="50"></textarea>
+        
+    <button onclick="afficherToutesTraductions()">
+    Soumettre
+    </button>
+
+<script>
+function afficherToutesTraductions() {
+    const traductions = [
+        { input: document.querySelectorAll('textarea')[0], correct: 'Je suis heureux/heureuse.' },
+        { input: document.querySelectorAll('textarea')[1], correct: 'Ils/Elles sont fatigué(e)s.' },
+        { input: document.querySelectorAll('textarea')[2], correct: 'Nous sommes prêts/prêtes.' }
+    ];
+
+    traductions.forEach(({ input, correct }) => {
+        let feedback = input.nextElementSibling;
+        if (!feedback || feedback.tagName !== 'SPAN') {
+            feedback = document.createElement('span');
+            feedback.style.marginLeft = '10px';
+            input.parentNode.appendChild(feedback);
+        }
+        const userTranslation = input.value.trim();
+        if (userTranslation.toLowerCase() === correct.toLowerCase()) {
+            feedback.textContent = "Correct ! La traduction est : " + correct;
+            feedback.style.color = "green";
+        } else {
+            feedback.textContent = "La bonne traduction est : " + correct;
+            feedback.style.color = "red";
+        }
+    });
+
+    document.querySelector('button[onclick="afficherToutesTraductions()"]').scrollIntoView({ behavior: 'smooth', block: 'center' });
+}
+</script>
+
+4.  Écrivez un court paragraphe sur ce que vous et vos amis avez fait récemment en utilisant différentes formes du verbe "être".
+
+    <textarea placeholder="Écrivez votre paragraphe ici" rows="5" cols="50"></textarea>
+
+    <button onclick="verifierToutesReponses()">Vérifier toutes les réponses</button>
+
+<script>
+function verifierToutesReponses() {
+    const paragraphInput = document.querySelectorAll('textarea')[3];
+    let feedback = paragraphInput.nextElementSibling;
+    if (!feedback) {
+        feedback = document.createElement('span');
+        feedback.style.marginLeft = '10px';
+        paragraphInput.parentNode.appendChild(feedback);
+    }
+    const userParagraph = paragraphInput.value.trim();
+    if (userParagraph.toLowerCase().includes('être')) {
+        feedback.textContent = "Bravo ! Vous avez utilisé le verbe 'être' dans votre paragraphe.";
+        feedback.style.color = "green";
+    } else {
+        feedback.textContent = "Essayez encore ! Assurez-vous d'utiliser le verbe 'être' dans votre paragraphe.";
+        feedback.style.color = "red";
+    }
+}
+</script>
 :::

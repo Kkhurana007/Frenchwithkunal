@@ -3,7 +3,7 @@ title: "Les Pronoms Démonstratifs"
 author: "Kunal Khurana"
 date: "05-15-2025"
 categories: [B1, grammaire, pronom démonstratif, exercices]
-image: "pronom_demonstratif.png"
+image: "demon.png"
 ---
 
 ::: {.content-visible when-profile="english"}

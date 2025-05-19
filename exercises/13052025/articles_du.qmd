@@ -58,8 +58,7 @@ Used to express **uncountable quantities** (like "some" or "any" in English):
 <button onclick="showAnswers()">Show Answers</button>  
 <button onclick="checkAllAnswers()">Check Answers</button>  
 
-
-:::  
+ 
 
 ---  
 
@@ -119,3 +118,116 @@ function checkTranslation(textarea, correctAnswer) {
 }  
 </script>  
 
+:::
+
+::: {.content-visible when-profile="french"}  
+
+### Les articles partitifs en français
+
+Utilisés pour exprimer une **quantité indéfinie** (comme "du", "de la", "de l’", "des") :
+- **du** = masculin singulier (*du pain*)
+- **de la** = féminin singulier (*de la confiture*)
+- **de l’** = devant une voyelle ou un *h* muet (*de l’eau*)
+- **des** = pluriel (*des fruits*)
+
+**Exception** : Après une négation, on utilise **"de"** (*Je n’ai pas de lait*).
+
+---
+
+### Exercices
+
+#### 1. Complétez avec **du, de la, de l’ ou des** :
+1. Je veux ___ croissants 🥐. →
+    <input type="text" placeholder="du/de la/de l'/des" oninput="checkAnswer(this, 'des')"><span style="margin-left:10px;"></span>
+
+2. Elle mange ___ fromage 🧀. →
+    <input type="text" placeholder="du/de la/de l'/des" oninput="checkAnswer(this, 'du')"><span style="margin-left:10px;"></span>
+
+3. Nous buvons ___ café ☕. →
+    <input type="text" placeholder="du/de la/de l'/des" oninput="checkAnswer(this, 'du')"><span style="margin-left:10px;"></span>
+
+4. Tu as ___ épinards 🥬 ? →
+    <input type="text" placeholder="du/de la/de l'/des" oninput="checkAnswer(this, 'des')"><span style="margin-left:10px;"></span>
+
+5. Il prend ___ glace 🍦. →
+    <input type="text" placeholder="du/de la/de l'/des" oninput="checkAnswer(this, 'de la')"><span style="margin-left:10px;"></span>
+
+#### 2. Corrigez les erreurs :
+1. "Je veux de le sucre" →
+    <input type="text" placeholder="Phrase correcte" oninput="checkAnswer(this, 'Je veux du sucre')"><span style="margin-left:10px;"></span>
+
+2. "Elle a des lait" →
+    <input type="text" placeholder="Phrase correcte" oninput="checkAnswer(this, 'Elle a du lait')"><span style="margin-left:10px;"></span>
+
+3. "Nous mangeons de la frites" →
+    <input type="text" placeholder="Phrase correcte" oninput="checkAnswer(this, 'Nous mangeons des frites')"><span style="margin-left:10px;"></span>
+
+#### 3. Traduisez en français (utilisez les articles partitifs !) :
+1. "Je voudrais du thé." →
+    <textarea placeholder="Je voudrais..." rows="2" cols="50" oninput="checkTranslation(this, 'Je voudrais du thé')"></textarea><span style="margin-left:10px;"></span>
+
+2. "Elle ne mange pas de viande." →
+    <textarea placeholder="Elle ne mange pas..." rows="2" cols="50" oninput="checkTranslation(this, 'Elle ne mange pas de viande')"></textarea><span style="margin-left:10px;"></span>
+
+<button onclick="showAnswers()">Afficher les réponses</button>
+<button onclick="checkAllAnswers()">Vérifier les réponses</button>
+
+---
+
+### Notes clés :
+- **Rappel** : On utilise **"de"** après une négation (*pas de, jamais de*).
+- **Astuce** : Si on peut compter, on utilise **des** ; sinon, **du/de la/de l’**.
+
+**Exemple** :
+- *Des pommes* (dénombrable) vs. *Du riz* (indénombrable).
+
+
+
+<script>  
+function showAnswers() {  
+    document.querySelectorAll('input[type="text"]').forEach(input => {  
+        const correct = input.getAttribute('oninput').match(/'([^']+)'/)[1];  
+        input.value = correct;  
+        const feedback = input.nextElementSibling;  
+        feedback.textContent = "✓ Correct !";  
+        feedback.style.color = "green";  
+    });  
+}  
+
+function checkAllAnswers() {  
+    document.querySelectorAll('input[type="text"]').forEach(input => {  
+        const correct = input.getAttribute('oninput').match(/'([^']+)'/)[1];  
+        checkAnswer(input, correct);  
+    });  
+
+    document.querySelectorAll('textarea').forEach(textarea => {  
+        const correct = textarea.getAttribute('oninput').match(/'([^']+)'/)[1];  
+        checkTranslation(textarea, correct);  
+    });  
+}  
+
+function checkAnswer(input, correctAnswer) {  
+    const feedback = input.nextElementSibling;  
+    if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {  
+        feedback.textContent = "✓ Correct !";  
+        feedback.style.color = "green";  
+    } else if (input.value.trim()) {  
+        feedback.textContent = "✗ Essayez encore !";  
+        feedback.style.color = "red";  
+    }  
+}  
+
+function checkTranslation(textarea, correctAnswer) {  
+    const feedback = textarea.nextElementSibling;  
+    if (textarea.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {  
+        feedback.textContent = "✓ Correct !";  
+        feedback.style.color = "green";  
+    } else if (textarea.value.trim()) {  
+        feedback.textContent = "✗ Essayez encore !";  
+        feedback.style.color = "red";  
+    }  
+}  
+</script>  
+
+
+:::

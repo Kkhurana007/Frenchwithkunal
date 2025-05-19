@@ -7,7 +7,8 @@ image: "avoir.png"
 ---
 
 ::: {.content-visible when-profile="english"}
-# Exercise: Practicing the Verb "Aller"
+
+# Exercise: Practicing the Verb "Avoir"
 
 Here are some exercises to practice conjugating the verb **aller** (to go) in French:
 
@@ -29,7 +30,6 @@ Here are some exercises to practice conjugating the verb **aller** (to go) in Fr
     -   Vous <input type="text" placeholder="Enter answer here" oninput="checkAnswer(this, 'avez eu')"> une surprise hier.
     -   Il/Elle <input type="text" placeholder="Enter answer here" oninput="checkAnswer(this, 'a eu')"> un problème avec son ordinateur.
 
-```{=html}
 <script>
 function checkAnswer(input, correctAnswer) {
     const userAnswer = input.value.trim().toLowerCase();
@@ -58,34 +58,25 @@ function checkAllAnswers() {
     });
 }
 </script>
-```
+
 
 3.  Translate the following sentences into French using the verb "avoir":
 
     -   I have a book.\
 
-        ```{=html}
         <textarea placeholder="Enter your translation here" rows="2" cols="50"></textarea>
-        ```
+       
 
     -   They have a dog.\
-
-        ```{=html}
         <textarea placeholder="Enter your translation here" rows="2" cols="50"></textarea>
-        ```
 
     -   We have a house.\
+        <textarea placeholder="Enter your translation here" rows="2" cols="50"></textarea
 
-        ```{=html}
-        <textarea placeholder="Enter your translation here" rows="2" cols="50"></textarea>
-        ```
+    <button onclick="showAllTranslations()">Submit</button>
 
-    <button onclick="showAllTranslations()">
-    Submit
-    </button>
-
-```{=html}
 <script>
+
 function showAllTranslations() {
     const translations = [
         { input: document.querySelectorAll('textarea')[0], correct: 'J\'ai un livre.' },
@@ -116,15 +107,117 @@ function showAllTranslations() {
     document.querySelector('button[onclick="showAllTranslations()"]').scrollIntoView({ behavior: 'smooth', block: 'center' });
 }
 </script>
-```
+
 
 4.  Write a short paragraph about what you and your friends have done recently using different forms of "avoir."
-
-    ```{=html}
     <textarea placeholder="Write your paragraph here" rows="5" cols="50"></textarea>
-    ```
 
     <button onclick="checkAllAnswers()">
     Check All Answers
     </button>
+:::
+
+
+::: {.content-visible when-profile="french"}
+
+# Exercice : Pratiquer le verbe "Avoir"
+
+Voici quelques exercices pour pratiquer la conjugaison du verbe **avoir** en français :
+
+1.  Conjuguez le verbe "avoir" au présent pour les sujets suivants :
+    -   J' <input type="text" placeholder="Entrez la réponse ici" oninput="verifierReponse(this, 'ai')"> un livre.
+    -   Tu <input type="text" placeholder="Entrez la réponse ici" oninput="verifierReponse(this, 'as')"> une voiture.
+    -   Il/Elle <input type="text" placeholder="Entrez la réponse ici" oninput="verifierReponse(this, 'a')"> un chien.
+    -   Nous <input type="text" placeholder="Entrez la réponse ici" oninput="verifierReponse(this, 'avons')"> une maison.
+    -   Vous <input type="text" placeholder="Entrez la réponse ici" oninput="verifierReponse(this, 'avez')"> un jardin.
+    -   Ils/Elles <input type="text" placeholder="Entrez la réponse ici" oninput="verifierReponse(this, 'ont')"> des amis.
+
+<br>
+
+2.  Complétez avec la bonne forme de "avoir" au passé composé :
+    -   Hier, j' <input type="text" placeholder="Entrez la réponse ici" oninput="verifierReponse(this, 'ai eu')"> une idée géniale.
+    -   La semaine dernière, nous <input type="text" placeholder="Entrez la réponse ici" oninput="verifierReponse(this, 'avons eu')"> une réunion importante.
+    -   Est-ce que tu <input type="text" placeholder="Entrez la réponse ici" oninput="verifierReponse(this, 'as eu')"> des nouvelles de lui ?
+    -   Ils/Elles <input type="text" placeholder="Entrez la réponse ici" oninput="verifierReponse(this, 'ont eu')"> un accident.
+    -   Vous <input type="text" placeholder="Entrez la réponse ici" oninput="verifierReponse(this, 'avez eu')"> une surprise hier.
+    -   Il/Elle <input type="text" placeholder="Entrez la réponse ici" oninput="verifierReponse(this, 'a eu')"> un problème avec son ordinateur.
+
+<script>
+function verifierReponse(input, bonneReponse) {
+    const reponseUtilisateur = input.value.trim().toLowerCase();
+    let feedback = input.nextElementSibling;
+    if (!feedback) {
+        feedback = document.createElement('span');
+        feedback.style.marginLeft = '10px';
+        input.parentNode.appendChild(feedback);
+    }
+    if (reponseUtilisateur === bonneReponse) {
+        feedback.textContent = "Correct ! +10 points";
+        feedback.style.color = "green";
+    } else if (reponseUtilisateur) {
+        feedback.textContent = "Essayez encore !";
+        feedback.style.color = "red";
+    } else {
+        feedback.textContent = "";
+    }
+}
+
+function verifierToutesReponses() {
+    const inputs = document.querySelectorAll('input[type="text"]');
+    inputs.forEach(input => {
+        const bonneReponse = input.getAttribute('oninput').match(/'([^']+)'/)[1];
+        verifierReponse(input, bonneReponse);
+    });
+}
+</script>
+
+3.  Traduisez les phrases suivantes en français en utilisant le verbe "avoir" :
+
+    -   J'ai un livre.\
+        <textarea placeholder="Écrivez votre traduction ici" rows="2" cols="50"></textarea>
+
+    -   Ils/Elles ont un chien.\
+        <textarea placeholder="Écrivez votre traduction ici" rows="2" cols="50"></textarea>
+
+    -   Nous avons une maison.\
+        <textarea placeholder="Écrivez votre traduction ici" rows="2" cols="50"></textarea>
+
+    <button onclick="afficherToutesTraductions()">Valider</button>
+
+<script>
+function afficherToutesTraductions() {
+    const traductions = [
+        { input: document.querySelectorAll('textarea')[0], correct: "J'ai un livre." },
+        { input: document.querySelectorAll('textarea')[1], correct: "Ils/Elles ont un chien." },
+        { input: document.querySelectorAll('textarea')[2], correct: "Nous avons une maison." }
+    ];
+
+    traductions.forEach(({ input, correct }) => {
+        let feedback = input.nextElementSibling;
+        if (!feedback || feedback.tagName !== 'SPAN') {
+            feedback = document.createElement('span');
+            feedback.style.marginLeft = '10px';
+            input.parentNode.appendChild(feedback);
+        }
+        const userTranslation = input.value.trim();
+        if (userTranslation.toLowerCase() === correct.toLowerCase()) {
+            feedback.textContent = "Correct ! La traduction est : " + correct;
+            feedback.style.color = "green";
+        } else {
+            feedback.textContent = "La bonne traduction est : " + correct;
+            feedback.style.color = "red";
+        }
+    });
+
+    document.querySelector('button[onclick="afficherToutesTraductions()"]').scrollIntoView({ behavior: 'smooth', block: 'center' });
+}
+</script>
+
+4.  Écrivez un court paragraphe sur ce que vous et vos amis avez fait récemment en utilisant différentes formes du verbe "avoir".
+    <textarea placeholder="Écrivez votre paragraphe ici" rows="5" cols="50"></textarea>
+
+    <button onclick="verifierToutesReponses()">
+    Vérifier toutes les réponses
+    </button>
+    
 :::

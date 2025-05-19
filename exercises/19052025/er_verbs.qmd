@@ -193,3 +193,183 @@ function highlightVerbs(textarea) {
 </script>
 
 :::
+
+::: {.content-visible when-profile="french"}
+
+# Exercice : Conjuguer les verbes français en -ER
+
+Entraînez-vous à conjuguer les verbes réguliers en -ER (*parler, manger, aimer, danser, écouter, etc.*) au présent.
+
+---
+
+## 1. Complétez les phrases  
+Conjuguez le verbe entre parenthèses pour chaque sujet.
+
+1. Je ___ (parler) français.  
+  <select onchange="checkVerb(this, 'parle')">
+    <option value="">--Sélectionner--</option>
+    <option value="parle">parle</option>
+    <option value="parles">parles</option>
+    <option value="parlons">parlons</option>
+  </select>  
+  <span class="feedback"></span>
+
+2. Tu ___ (manger) une pomme.  
+  <select onchange="checkVerb(this, 'manges')">
+    <option value="">--Sélectionner--</option>
+    <option value="mange">mange</option>
+    <option value="manges">manges</option>
+    <option value="mangez">mangez</option>
+  </select>  
+  <span class="feedback"></span>
+
+3. Il ___ (aimer) la musique.  
+  <select onchange="checkVerb(this, 'aime')">
+    <option value="">--Sélectionner--</option>
+    <option value="aime">aime</option>
+    <option value="aimes">aimes</option>
+    <option value="aimons">aimons</option>
+  </select>  
+  <span class="feedback"></span>
+
+4. Nous ___ (danser) tous les soirs.  
+  <select onchange="checkVerb(this, 'dansons')">
+    <option value="">--Sélectionner--</option>
+    <option value="danse">danse</option>
+    <option value="danses">danses</option>
+    <option value="dansons">dansons</option>
+  </select>  
+  <span class="feedback"></span>
+
+5. Vous ___ (écouter) la radio.  
+  <select onchange="checkVerb(this, 'écoutez')">
+    <option value="">--Sélectionner--</option>
+    <option value="écoute">écoute</option>
+    <option value="écoutes">écoutes</option>
+    <option value="écoutez">écoutez</option>
+  </select>  
+  <span class="feedback"></span>
+
+---
+
+## 2. Associez le sujet à la bonne conjugaison  
+Faites glisser le verbe vers le sujet correct.
+
+| Sujet   | Verbe (infinitif) | Conjugaison |
+|---------|-------------------|-------------|
+| Je      | chanter           | <span draggable="true" ondragstart="drag(event)" data-answer="chante">chante</span> |
+| Tu      | nager             | <span draggable="true" ondragstart="drag(event)" data-answer="nages">nages</span> |
+| Elle    | regarder          | <span draggable="true" ondragstart="drag(event)" data-answer="regarde">regarde</span> |
+| Nous    | voyager           | <span draggable="true" ondragstart="drag(event)" data-answer="voyageons">voyageons</span> |
+| Vous    | travailler        | <span draggable="true" ondragstart="drag(event)" data-answer="travaillez">travaillez</span> |
+
+Déposez ici :  
+<div class="dropzone" ondrop="drop(event)" ondragover="allowDrop(event)"></div>  
+<span class="feedback"></span>
+
+---
+
+## 3. Construisez la phrase  
+Utilisez le verbe donné pour compléter la phrase logiquement.
+
+1. (étudier) → Nous ___ pour l'examen.  
+  <textarea placeholder="Nous..." rows="1" cols="30"></textarea>  
+  <button onclick="checkSentence(this.previousElementSibling, 'étudions')">Vérifier</button>  
+  <span class="feedback"></span>
+
+2. (jouer) → Tu ___ au football.  
+  <textarea placeholder="Tu..." rows="1" cols="30"></textarea>  
+  <button onclick="checkSentence(this.previousElementSibling, 'joues')">Vérifier</button>  
+  <span class="feedback"></span>
+
+---
+
+## 4. Défi de traduction  
+Traduisez en français en utilisant des verbes en -ER.
+
+1. Elle mange une pizza. → ___  
+  <textarea placeholder="Elle..." rows="1" cols="30"></textarea>  
+  <button onclick="checkTranslation(this.previousElementSibling, 'Elle mange une pizza.')">Vérifier</button>  
+  <span class="feedback"></span>
+
+2. Nous regardons un film. → ___  
+  <textarea placeholder="Nous..." rows="1" cols="30"></textarea>  
+  <button onclick="checkTranslation(this.previousElementSibling, 'Nous regardons un film.')">Vérifier</button>  
+  <span class="feedback"></span>
+
+---
+
+## 5. Expression écrite  
+Écrivez 5 phrases sur vos loisirs en utilisant au moins **3 verbes différents en -ER sans les conjuguer**. Mettez les verbes en évidence.  
+Exemple : *Je danse le weekend. J'écoute de la musique...*  
+
+<textarea placeholder="Mes loisirs..." rows="5" cols="50"></textarea>  
+<button onclick="highlightVerbs(this.previousElementSibling)">Surligner les verbes</button>  
+<div class="feedback"></div>
+
+<script>
+// Vérification des réponses des menus déroulants
+function checkVerb(selectElement, correctAnswer) {
+  const feedback = selectElement.nextElementSibling;
+  if (selectElement.value === correctAnswer) {
+   feedback.textContent = "✓ Correct !";
+   feedback.style.color = "green";
+  } else if (selectElement.value) {
+   feedback.textContent = "✗ Incorrect. Essayez encore !";
+   feedback.style.color = "red";
+  } else {
+   feedback.textContent = "";
+  }
+}
+
+// Fonctions de glisser-déposer
+function allowDrop(e) { e.preventDefault(); }
+function drag(e) { e.dataTransfer.setData("text", e.target.dataset.answer); }
+function drop(e) {
+  e.preventDefault();
+  const data = e.dataTransfer.getData("text");
+  const feedback = e.target.nextElementSibling;
+  if (data) {
+   e.target.innerHTML = data;
+   feedback.textContent = "✓ Déposé !";
+   feedback.style.color = "green";
+  }
+}
+
+// Vérification de la construction de phrase
+function checkSentence(textarea, correctVerb) {
+  const feedback = textarea.nextElementSibling.nextElementSibling;
+  if (textarea.value.includes(correctVerb)) {
+   feedback.textContent = "✓ Correct !";
+   feedback.style.color = "green";
+  } else {
+   feedback.textContent = `✗ Utilisez "${correctVerb}".`;
+   feedback.style.color = "red";
+  }
+}
+
+// Vérification des traductions
+function checkTranslation(textarea, correctAnswer) {
+  const feedback = textarea.nextElementSibling.nextElementSibling;
+  if (textarea.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
+   feedback.textContent = "✓ Parfait !";
+   feedback.style.color = "green";
+  } else {
+   feedback.textContent = `✓ Suggestion : "${correctAnswer}"`;
+   feedback.style.color = "blue";
+  }
+}
+
+// Surligner les verbes en -ER dans l'expression écrite
+function highlightVerbs(textarea) {
+  const commonERVerbs = ["parler", "manger", "aimer", "danser", "écouter", "chanter", "nager", "regarder", "voyager", "travailler", "étudier", "jouer"];
+  let text = textarea.value;
+  commonERVerbs.forEach(verb => {
+   const regex = new RegExp(`\\b${verb}\\b`, "gi");
+   text = text.replace(regex, `<span style="background-color: yellow">${verb}</span>`);
+  });
+  const feedback = textarea.nextElementSibling.nextElementSibling;
+  feedback.innerHTML = "<strong>Verbes en -ER utilisés :</strong><br>" + text;
+}
+</script>
+:::

@@ -367,6 +367,30 @@ ul.task-list li input[type="checkbox"] {
 
 </div>
 <script src="https://widgets.sociablekit.com/google-reviews/widget.js" defer=""></script>
+<style>
+  .sk-ww-google-reviews {
+    max-height: 400px;
+    overflow-y: auto;
+  }
+  .sk-ww-google-reviews .sk-review {
+    margin-bottom: 1.5rem;
+  }
+</style>
+<script>
+  // Auto-refresh the reviews widget every 60 seconds
+  setInterval(function() {
+    var widget = document.querySelector('.sk-ww-google-reviews');
+    if(widget) {
+      var src = "https://widgets.sociablekit.com/google-reviews/widget.js";
+      var oldScript = document.querySelector('script[src="' + src + '"]');
+      if(oldScript) oldScript.remove();
+      var script = document.createElement('script');
+      script.src = src;
+      script.defer = true;
+      document.body.appendChild(script);
+    }
+  }, 60000);
+</script>
 <!-- Google Reviews Widget End -->
 <div id="newsletter" class="card" style="text-align: center; background: var(--light); border: 2px dashed var(--accent);">
 <h3 class="anchored">
@@ -650,7 +674,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/tranquil-tiramisu-18a73a\.netlify\.app");
+      var filterRegex = new RegExp("https:\/\/frenchwithkunal\.ca");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

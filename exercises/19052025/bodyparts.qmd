@@ -75,3 +75,81 @@ function giveFeedback() {
 </script>
 
 :::
+
+::: {.content-visible when-profile="french"}
+
+# Exercice : Les Parties du Corps
+
+### 1. Nommez les parties du corps  
+**Glissez les mots français sur la bonne partie du corps dans l’image :**  
+*(Glisser-déposer simulé avec retour visuel)*  
+
+- **Banque de mots :**  
+  `la tête` | `les yeux` | `le nez` | `la bouche` | `l'oreille` (f) | `la main` | `le pied` | `le bras` | `la jambe`  
+
+**Instructions :**  
+Associez chaque mot à son numéro sur l’image ci-dessous :  
+1. <input type="text" placeholder="Mot français" oninput="verifierPartieCorps(this, 'la tête')"> (tête)  
+2. <input type="text" placeholder="Mot français" oninput="verifierPartieCorps(this, 'les yeux')"> (yeux)  
+3. <input type="text" placeholder="Mot français" oninput="verifierPartieCorps(this, 'le nez')"> (nez)  
+... *(ajoutez-en d’autres si besoin)*  
+
+*(Remarque : dans une vraie activité, vous ajouteriez une image avec les parties numérotées.)*  
+
+---
+
+### 2. Complétez les phrases  
+Complétez avec la bonne partie du corps en français :  
+- Je vois avec **<input type="text" placeholder="?" oninput="verifierReponse(this, 'les yeux')">**.  
+- J’écoute avec **<input type="text" placeholder="?" oninput="verifierReponse(this, 'les oreilles')">**.  
+- Je marche avec **<input type="text" placeholder="?" oninput="verifierReponse(this, 'les pieds')">**.  
+
+---
+
+### 3. Singulier ou pluriel ?  
+Écrivez le pluriel de ces parties du corps (la plupart vont par deux !) :  
+- *la main* → <input type="text" placeholder="?" oninput="verifierReponse(this, 'les mains')">  
+- *le pied* → <input type="text" placeholder="?" oninput="verifierReponse(this, 'les pieds')">  
+- *l’œil* → <input type="text" placeholder="?" oninput="verifierReponse(this, 'les yeux')"> *(irrégulier !)*  
+
+---
+
+### 4. Défi créatif ✍️  
+**Décrivez un monstre en français !** Utilisez au moins 5 parties du corps et des adjectifs :  
+Exemple : *« Mon monstre a trois yeux, une grande bouche et de longues jambes. »*  
+
+<textarea placeholder="Écrivez ici..." rows="4" cols="50"></textarea>  
+<button onclick="donnerRetour()">Vérifier</button>  
+<span id="retour" style="color: green;"></span>  
+
+<script>
+function verifierPartieCorps(input, bonneReponse) {
+  if (input.value.trim().toLowerCase() === bonneReponse) {
+    input.style.backgroundColor = "#e6ffe6";
+  } else {
+    input.style.backgroundColor = "#ffe6e6";
+  }
+}
+
+function verifierReponse(input, bonneReponse) {
+  if (input.value.trim().toLowerCase() === bonneReponse) {
+    input.style.backgroundColor = "#e6ffe6";
+  } else {
+    input.style.backgroundColor = "#ffe6e6";
+  }
+}
+
+function donnerRetour() {
+  const texte = document.querySelector("textarea").value;
+  const retour = document.getElementById("retour");
+  const parties = ["tête", "yeux", "nez", "bouche", "main", "pied", "bras", "jambe", "oreille"];
+  const nb = parties.filter(partie => texte.toLowerCase().includes(partie)).length;
+  
+  if (nb >= 5) {
+    retour.textContent = `Excellent ! Vous avez utilisé ${nb} parties du corps.`;
+  } else {
+    retour.textContent = `Presque ! Ajoutez encore ${5 - nb} parties du corps.`;
+  }
+}
+</script>
+:::

@@ -3,7 +3,7 @@ title: "Les Pronoms Possessifs"
 author: "Kunal Khurana"
 date: "05-15-2025"
 categories: [B1, grammaire, pronom possessif, exercices]
-image: "pronom_possessif.png"
+image: "possessif.png"
 ---
 
 ::: {.content-visible when-profile="english"}

@@ -51,13 +51,18 @@ ___ homme est gentil. (masc. vowel) →
 <input type="text" placeholder="Correct phrase" oninput="checkAnswer(this, 'Cette fille est intelligente')"><span style="margin-left:10px;">👧</span>
 
 ### 3. Translate into French:
-"These cakes are delicious!" →
+
+1. "These cakes are delicious!" →
 
 <textarea placeholder="..." rows="2" cols="50" oninput="checkTranslation(this, 'Ces gâteaux sont délicieux !')"></textarea><span style="margin-left:10px;">🍰</span>
-"That (fem.) car is fast." →
+
+
+2. "That (fem.) car is fast." →
 
 <textarea placeholder="..." rows="2" cols="50" oninput="checkTranslation(this, 'Cette voiture est rapide.')"></textarea><span style="margin-left:10px;">🚗</span>
+
 <button onclick="showAnswers()">Show Answers</button>
+
 
 
 <script>  
@@ -105,5 +110,112 @@ function checkTranslation(textarea, correctAnswer) {
     }  
 }  
 </script>  
+
+:::
+
+::: {.content-visible when-profile="french"}
+
+## Les adjectifs démonstratifs en français
+
+Les adjectifs démonstratifs servent à montrer ou désigner quelque chose ou quelqu’un de précis. Ils s’accordent en genre et en nombre avec le nom qu’ils accompagnent :
+
+| Français (Masc.) | Français (Fém.) | Pluriel |
+|------------------|-----------------|---------|
+| ce / cet         | cette           | ces     |
+
+Exemples :
+
+Ce livre (ce livre-ci) 📖
+
+Cet arbre (cet arbre-là) 🌳 (masculin devant voyelle ou h muet)
+
+Cette maison (cette maison-ci) 🏠
+
+Ces fleurs (ces fleurs-là) 💐
+
+## Exercices
+
+### 1. Choisissez le bon adjectif démonstratif :
+Regarde ___ oiseau ! (masc.) →
+<input type="text" placeholder="ce/cet/cette/ces" oninput="checkAnswer(this, 'cet')"><span style="margin-left:10px;">🚀 Astuce : « oiseau » commence par une voyelle</span>
+
+Je veux ___ baguette. (fém.) →
+<input type="text" placeholder="ce/cet/cette/ces" oninput="checkAnswer(this, 'cette')"><span style="margin-left:10px;">🥖</span>
+
+___ chiens sont bruyants ! (pluriel) →
+<input type="text" placeholder="ce/cet/cette/ces" oninput="checkAnswer(this, 'ces')"><span style="margin-left:10px;">🐕</span>
+
+Elle adore ___ robe. (fém.) →
+<input type="text" placeholder="ce/cet/cette/ces" oninput="checkAnswer(this, 'cette')"><span style="margin-left:10px;">👗</span>
+
+___ homme est gentil. (masc. voyelle) →
+<input type="text" placeholder="ce/cet/cette/ces" oninput="checkAnswer(this, 'cet')"><span style="margin-left:10px;">👨</span>
+
+### 2. Corrigez les erreurs :
+« Cette arbre est grand. » →
+<input type="text" placeholder="Phrase correcte" oninput="checkAnswer(this, 'Cet arbre est grand')"><span style="margin-left:10px;">🌳</span>
+
+« Ces fille est intelligente. » →
+<input type="text" placeholder="Phrase correcte" oninput="checkAnswer(this, 'Cette fille est intelligente')"><span style="margin-left:10px;">👧</span>
+
+### 3. Traduisez en français :
+
+1. "These cakes are delicious!" →
+
+<textarea placeholder="..." rows="2" cols="50" oninput="checkTranslation(this, 'Ces gâteaux sont délicieux !')"></textarea><span style="margin-left:10px;">🍰</span>
+
+
+2. "That (fem.) car is fast." →
+
+<textarea placeholder="..." rows="2" cols="50" oninput="checkTranslation(this, 'Cette voiture est rapide.')"></textarea><span style="margin-left:10px;">🚗</span>
+
+<button onclick="showAnswers()">Afficher les réponses</button>
+
+<script>  
+function showAnswers() {  
+    document.querySelectorAll('input[type="text"]').forEach(input => {  
+        const correct = input.getAttribute('oninput').match(/'([^']+)'/)[1];  
+        input.value = correct;  
+        const feedback = input.nextElementSibling;  
+        feedback.textContent = "✓ Correct !";  
+        feedback.style.color = "green";  
+    });  
+}  
+
+function checkAllAnswers() {  
+    document.querySelectorAll('input[type="text"]').forEach(input => {  
+        const correct = input.getAttribute('oninput').match(/'([^']+)'/)[1];  
+        checkAnswer(input, correct);  
+    });  
+
+    document.querySelectorAll('textarea').forEach(textarea => {  
+        const correct = textarea.getAttribute('oninput').match(/'([^']+)'/)[1];  
+        checkTranslation(textarea, correct);  
+    });  
+}  
+
+function checkAnswer(input, correctAnswer) {  
+    const feedback = input.nextElementSibling;  
+    if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {  
+        feedback.textContent = "✓ Correct !";  
+        feedback.style.color = "green";  
+    } else if (input.value.trim()) {  
+        feedback.textContent = "✗ Essayez encore !";  
+        feedback.style.color = "red";  
+    }  
+}  
+
+function checkTranslation(textarea, correctAnswer) {  
+    const feedback = textarea.nextElementSibling;  
+    if (textarea.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {  
+        feedback.textContent = "✓ Correct !";  
+        feedback.style.color = "green";  
+    } else if (textarea.value.trim()) {  
+        feedback.textContent = "✗ Essayez encore !";  
+        feedback.style.color = "red";  
+    }  
+}  
+</script>  
+
 
 :::

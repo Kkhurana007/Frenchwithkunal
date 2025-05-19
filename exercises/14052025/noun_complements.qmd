@@ -3,7 +3,7 @@ title: "Mastering Noun Complements (Compléments du Nom)"
 author: "Kunal Khurana"  
 date: "05-12-2025"  
 categories: [B1, grammar, nouns, exercises]  
-image: "noun-complements.png"  
+image: "complements.png"  
 ---
 
 ::: {.content-visible when-profile="english"}  
@@ -110,3 +110,108 @@ function refreshPage() {
 - **Quantity**: Always **de** (*un litre **de lait***, *beaucoup **de travail***).  
 
 :::  
+
+
+::: {.content-visible when-profile="french"}
+### Comprendre les Compléments du Nom
+
+Un **complément du nom** est un mot ou groupe de mots qui précise un nom pour indiquer :
+- **La matière** (*une table **en bois***)
+- **Le contenu** (*un verre **d’eau***)
+- **La quantité/mesure** (*un kilo **de pommes***)
+- **La possession** (*le livre **de Paul***)
+- **La relation** (*la mère **de l’enfant***)
+
+#### Prépositions clés :
+- **de** (la plus courante) : *un sac **de farine***
+- **en** (matière) : *une bague **en or***
+- **à** (usage) : *une machine **à laver***
+- **pour** (destination) : *un cadeau **pour toi***
+
+---
+
+### Exercices
+
+#### 1. Choisissez la bonne préposition (*de/en/à/pour*) :
+___ lait (bouteille) 🥛 → <input type="text" placeholder="de/en/à/pour" oninput="checkAnswer(this, 'de')"><span style="margin-left:10px;"></span>
+
+___ café (tasse) ☕ → <input type="text" placeholder="de/en/à/pour" oninput="checkAnswer(this, 'à')"><span style="margin-left:10px;"></span>
+
+___ chocolat (tablette) 🍫 → <input type="text" placeholder="de/en/à/pour" oninput="checkAnswer(this, 'de')"><span style="margin-left:10px;"></span>
+
+___ étudiant (cahier) 📓 → <input type="text" placeholder="de/en/à/pour" oninput="checkAnswer(this, 'de')"><span style="margin-left:10px;"></span>
+
+___ argent (collier) 💎 → <input type="text" placeholder="de/en/à/pour" oninput="checkAnswer(this, 'en')"><span style="margin-left:10px;"></span>
+
+#### 2. Identifiez le type de complément (Matière/Contenu/Possession/Quantité) :
+"Un sac **de riz**" → <input type="text" placeholder="Type" oninput="checkAnswer(this, 'Contenu')"><span style="margin-left:10px;"></span>
+
+"Une montre **en or**" ⌚ → <input type="text" placeholder="Type" oninput="checkAnswer(this, 'Matière')"><span style="margin-left:10px;"></span>
+
+"Le chien **du voisin**" 🐕 → <input type="text" placeholder="Type" oninput="checkAnswer(this, 'Possession')"><span style="margin-left:10px;"></span>
+
+"10 litres **de jus**" 🧃 → <input type="text" placeholder="Type" oninput="checkAnswer(this, 'Quantité')"><span style="margin-left:10px;"></span>
+
+#### 3. Corrigez les erreurs :
+"Une bouteille à vin" 🍷 → <input type="text" placeholder="Phrase correcte" oninput="checkAnswer(this, 'une bouteille de vin')"><span style="margin-left:10px;"></span>
+
+"Un pull en laine" 🧶 → <input type="text" placeholder="Phrase correcte" oninput="checkAnswer(this, 'un pull en laine')"><span style="margin-left:10px;"></span> *(Aucune erreur !)*
+
+"La voiture à Jean" 🚗 → <input type="text" placeholder="Phrase correcte" oninput="checkAnswer(this, 'la voiture de Jean')"><span style="margin-left:10px;"></span>
+
+#### 4. Traduisez en français (avec compléments !) :
+"A box of chocolates." → <textarea placeholder="Français..." rows="1" cols="30" oninput="checkTranslation(this, 'une boîte de chocolats')"></textarea><span style="margin-left:10px;"></span>
+
+"Sophie’s notebook." → <textarea placeholder="Français..." rows="1" cols="30" oninput="checkTranslation(this, 'le cahier de Sophie')"></textarea><span style="margin-left:10px;"></span>
+
+"A wooden chair." → <textarea placeholder="Français..." rows="1" cols="30" oninput="checkTranslation(this, 'une chaise en bois')"></textarea><span style="margin-left:10px;"></span>
+
+<button onclick="showAnswers()">Afficher toutes les réponses</button>
+<button onclick="refreshPage()">Réinitialiser les exercices</button>
+
+<script>
+function checkAnswer(input, correctAnswer) {
+    const span = input.nextElementSibling;
+    if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
+        span.textContent = "✓ Correct";
+        span.style.color = "green";
+    } else {
+        span.textContent = "";
+    }
+}
+
+function checkTranslation(textarea, correctTranslation) {
+    const span = textarea.nextElementSibling;
+    if (textarea.value.trim().toLowerCase() === correctTranslation.toLowerCase()) {
+        span.textContent = "✓ Correct";
+        span.style.color = "green";
+    } else {
+        span.textContent = "";
+    }
+}
+
+function showAnswers() {
+    document.querySelectorAll('input[type="text"], textarea').forEach(input => {
+        const span = input.nextElementSibling;
+        const correctAnswer = input.getAttribute('oninput')?.match(/'([^']+)'/)?.[1];
+        if (correctAnswer) {
+            span.textContent = `Réponse : ${correctAnswer}`;
+            span.style.color = "blue";
+        }
+    });
+}
+
+function refreshPage() {
+    location.reload();
+}
+</script>
+
+---
+
+### Notes :
+- **Possession** : Utilisez **de** même pour les noms propres (*le chat **de Marie***).
+- **Matière vs. Contenu** :
+  - **en** = matière (*en verre* = fait de verre)
+  - **de** = contenu (*de confiture* = contenant de la confiture)
+- **Quantité** : Toujours **de** (*un litre **de lait***, *beaucoup **de travail***).
+:::

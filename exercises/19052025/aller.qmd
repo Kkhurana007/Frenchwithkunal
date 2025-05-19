@@ -123,3 +123,117 @@ function refreshPage() {
 - **Past**: Use "être allé(e)" as past tense (*Je suis allé au cinéma*)
 
 :::
+
+::: {.content-visible when-profile="french"}
+
+### Comprendre le verbe "Aller"
+**Aller** est l’un des verbes les plus courants et irréguliers en français. Il est essentiel pour :
+- Parler des destinations (*Je vais à Paris*)
+- Former le futur proche (*Je vais manger* = I’m going to eat)
+- Exprimer des projets futurs
+
+#### Conjugaison au présent :
+| Pronom    | Conjugaison | Exemple                  |
+|-----------|-------------|--------------------------|
+| Je        | vais        | Je vais au parc          |
+| Tu        | vas         | Tu vas à l'école         |
+| Il/Elle   | va          | Elle va au cinéma        |
+| Nous      | allons      | Nous allons en ville     |
+| Vous      | allez       | Vous allez au restaurant |
+| Ils/Elles | vont        | Ils vont à la plage      |
+
+#### Conjugaison au futur simple :
+| Pronom    | Conjugaison | Exemple                     |
+|-----------|-------------|-----------------------------|
+| Je        | irai        | J’irai en France            |
+| Tu        | iras        | Tu iras à la fête           |
+| Il/Elle   | ira         | Il ira au travail           |
+| Nous      | irons       | Nous irons en vacances      |
+| Vous      | irez        | Vous irez au marché         |
+| Ils/Elles | iront       | Elles iront à l'université  |
+
+---
+
+### Exercices
+
+#### 1. Conjuguez "aller" au présent :
+"Je ___ (aller) au supermarché." 🛒 →  
+<input type="text" placeholder="vais/vas/va" oninput="verifierReponse(this, 'vais')"><span style="margin-left:10px;"></span>
+
+"Nous ___ (aller) au musée demain." 🖼️ →  
+<input type="text" placeholder="allons/allez/vont" oninput="verifierReponse(this, 'allons')"><span style="margin-left:10px;"></span>
+
+"Elles ___ (aller) à la piscine." 🏊♀️ →  
+<input type="text" placeholder="vont/vas/allez" oninput="verifierReponse(this, 'vont')"><span style="margin-left:10px;"></span>
+
+#### 2. Pratique du futur simple :
+"Demain, tu ___ (aller) chez le médecin." 🏥 →  
+<input type="text" placeholder="iras/ira/irez" oninput="verifierReponse(this, 'iras')"><span style="margin-left:10px;"></span>
+
+"L’année prochaine, je ___ (aller) en Italie." 🇮🇹 →  
+<input type="text" placeholder="irai/irons/ira" oninput="verifierReponse(this, 'irai')"><span style="margin-left:10px;"></span>
+
+#### 3. Traduisez en français :
+"Je vais à la plage." 🏖️ →  
+<textarea placeholder="Je..." rows="1" oninput="verifierTraduction(this, 'Je vais à la plage')"></textarea><span style="margin-left:10px;"></span>
+
+"Ils iront au concert." 🎤 →  
+<textarea placeholder="Ils..." rows="1" oninput="verifierTraduction(this, 'Ils iront au concert')"></textarea><span style="margin-left:10px;"></span>
+
+#### 5. Rédigez un paragraphe en utilisant "aller" au présent et au futur :
+Écrivez un court paragraphe sur vos projets pour aujourd’hui et demain en utilisant le verbe **aller** au présent et au futur.  
+<textarea placeholder="Écrivez votre paragraphe ici..." rows="10" cols="80" oninput="verifierTraduction(this, 'Aujourd\'hui, je vais au marché. Demain, j\'irai au parc.')"></textarea><span style="margin-left:10px;"></span>
+
+<button onclick="afficherReponses()">Afficher les réponses</button>
+<button onclick="rafraichirPage()">Réessayer</button>
+
+<script>
+function verifierReponse(input, bonneReponse) {
+    const feedback = input.nextElementSibling;
+    if (input.value.trim().toLowerCase() === bonneReponse.toLowerCase()) {
+        feedback.textContent = "✓ Correct !";
+        feedback.style.color = "green";
+    } else if (input.value.trim()) {
+        feedback.textContent = "✗ Réessayez !";
+        feedback.style.color = "red";
+    }
+}
+
+function verifierTraduction(textarea, bonneTraduction) {
+    const feedback = textarea.nextElementSibling;
+    const userAnswer = textarea.value.trim().toLowerCase();
+    const possibleAnswers = bonneTraduction.toLowerCase().split('|');
+    if (possibleAnswers.includes(userAnswer)) {
+        feedback.textContent = "✓ Correct !";
+        feedback.style.color = "green";
+    } else if (textarea.value.trim()) {
+        feedback.textContent = `Réponse possible : ${bonneTraduction}`;
+        feedback.style.color = "blue";
+    }
+}
+
+function afficherReponses() {
+    document.querySelectorAll('input[type="text"]').forEach(input => {
+        const correct = input.getAttribute('oninput').match(/'([^']+)'/)[1];
+        input.value = correct;
+        verifierReponse(input, correct);
+    });
+    document.querySelectorAll('textarea').forEach(textarea => {
+        const correct = textarea.getAttribute('oninput').match(/'([^']+)'/)[1];
+        textarea.value = correct.split('|')[0];
+        verifierTraduction(textarea, correct);
+    });
+}
+
+function rafraichirPage() {
+    location.reload();
+}
+</script>
+
+---
+
+### Astuces :
+- **Aller + à** : Utilisez "à" pour les villes (*à Paris*), "au" pour les pays masculins (*au Canada*), "aux" pour les pays pluriels (*aux États-Unis*)
+- **Futur proche** : "Aller + infinitif" = "aller..." (*Je vais manger*)
+- **Passé** : Utilisez "être allé(e)" au passé composé (*Je suis allé au cinéma*)
+:::

@@ -3,7 +3,7 @@ title: "Adjective Constructions: à/de + Noun or Infinitive"
 author: "Kunal Khurana"  
 date: "05-12-2025"  
 categories: [A2/B1, grammar, adjectives, exercises]  
-image: "adj-constructions.png"  
+image: "adj.png"  
 ---
 
 ::: {.content-visible when-profile="english"}  
@@ -153,3 +153,126 @@ function checkAllAnswers() {
   - *C’est bon à savoir* (It’s good to know) vs. *C’est bon de savoir* (It feels good to know).  
 
 :::  
+
+::: {.content-visible when-profile="french"}
+
+### Comprendre les constructions adjectivales
+
+Certains adjectifs français exigent **à** ou **de** lorsqu’ils sont suivis d’un nom ou d’un infinitif. Le choix dépend du sens de l’adjectif.
+
+#### 1. **à/de + nom**
+- **à + nom** : Indique le but, la fonction ou la caractéristique.
+    - *Un verre **à eau*** (un verre pour l’eau)
+    - *Une machine **à laver*** (une machine pour laver)
+- **de + nom** : Indique la matière, l’origine ou la possession.
+    - *Une tasse **de thé*** (une tasse de thé)
+    - *Un livre **de français*** (un livre de français)
+
+#### 2. **à/de + infinitif**
+- **à + infinitif** : Souvent une nécessité ou un but.
+    - *C’est facile **à comprendre*** (C’est facile à comprendre)
+    - *Une décision **à prendre*** (Une décision à prendre)
+- **de + infinitif** : Souvent une possibilité ou une conséquence.
+    - *Je suis content **de te voir*** (Je suis content de te voir)
+    - *Il est responsable **de terminer*** (Il est responsable de terminer)
+
+---
+
+### Exercices
+
+#### 1. Choisissez *à* ou *de* pour les noms :
+___ café (tasse) ☕ → <input type="text" placeholder="à/de" oninput="checkAnswer(this, 'de')"><span style="margin-left:10px;"></span>
+
+___ pieds (chaussettes) 🧦 → <input type="text" placeholder="à/de" oninput="checkAnswer(this, 'de')"><span style="margin-left:10px;"></span>
+
+___ lettres (boîte) 📬 → <input type="text" placeholder="à/de" oninput="checkAnswer(this, 'aux')"><span style="margin-left:10px;"></span>
+
+___ musique (instrument) 🎻 → <input type="text" placeholder="à/de" oninput="checkAnswer(this, 'de')"><span style="margin-left:10px;"></span>
+
+#### 2. Choisissez *à* ou *de* pour les infinitifs :
+"Elle est prête ___ partir." ✈️ → <input type="text" placeholder="à/de" oninput="checkAnswer(this, 'à')"><span style="margin-left:10px;"></span>
+
+"Ce texte est difficile ___ traduire." 📝 → <input type="text" placeholder="à/de" oninput="checkAnswer(this, 'à')"><span style="margin-left:10px;"></span>
+
+"Je suis fier ___ réussir." 🏆 → <input type="text" placeholder="à/de" oninput="checkAnswer(this, 'de')"><span style="margin-left:10px;"></span>
+
+"Un projet ___ finir." 📅 → <input type="text" placeholder="à/de" oninput="checkAnswer(this, 'à')"><span style="margin-left:10px;"></span>
+
+#### 3. Corrigez les erreurs de préposition :
+"Une fourchette à salade" → <input type="text" placeholder="Phrase correcte" oninput="checkAnswer(this, 'une fourchette à salade')"><span style="margin-left:10px;"></span> *(Attention : Pas d’erreur ! Question piège.)*
+
+"Un sac de main" 👜 → <input type="text" placeholder="Phrase correcte" oninput="checkAnswer(this, 'un sac à main')"><span style="margin-left:10px;"></span>
+
+"Content à vous aider" → <input type="text" placeholder="Phrase correcte" oninput="checkAnswer(this, 'content de vous aider')"><span style="margin-left:10px;"></span>
+
+#### 4. Traduisez en français (incluez les prépositions !) :
+"A spoon for soup." → <textarea placeholder="Français..." rows="1" cols="30" oninput="checkTranslation(this, 'une cuillère à soupe')"></textarea><span style="margin-left:10px;"></span>
+
+"Happy to help you." → <textarea placeholder="Français..." rows="1" cols="30" oninput="checkTranslation(this, 'heureux de vous aider')"></textarea><span style="margin-left:10px;"></span>
+
+<button onclick="showAnswers()">Afficher toutes les réponses</button>
+<button onclick="refreshPage()">Recommencer les exercices</button>
+
+<script>
+function showAnswers() {
+        document.querySelectorAll('input[type="text"]').forEach(input => {
+                const correct = input.getAttribute('oninput').match(/'([^']+)'/)[1];
+                input.value = correct;
+                const feedback = input.nextElementSibling;
+                feedback.textContent = "✓ Correct !";
+                feedback.style.color = "green";
+        });
+
+        document.querySelectorAll('textarea').forEach(textarea => {
+                const correct = textarea.getAttribute('oninput').match(/'([^']+)'/)[1];
+                textarea.value = correct;
+                const feedback = textarea.nextElementSibling;
+                feedback.textContent = "✓ Correct !";
+                feedback.style.color = "green";
+        });
+}
+
+function refreshPage() {
+        location.reload();
+}
+
+function checkAnswer(input, correctAnswer) {
+        const feedback = input.nextElementSibling;
+        if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
+                feedback.textContent = "✓ Correct !";
+                feedback.style.color = "green";
+        } else if (input.value.trim()) {
+                feedback.textContent = "✗ Essayez encore !";
+                feedback.style.color = "red";
+        } else {
+                feedback.textContent = "";
+        }
+}
+
+function checkTranslation(textarea, correctAnswer) {
+        const feedback = textarea.nextElementSibling;
+        if (textarea.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
+                feedback.textContent = "✓ Correct !";
+                feedback.style.color = "green";
+        } else if (textarea.value.trim()) {
+                feedback.textContent = "✗ Essayez encore !";
+                feedback.style.color = "red";
+        } else {
+                feedback.textContent = "";
+        }
+}
+</script>
+
+---
+
+### Notes :
+- **Mnémotechniques** :
+    - **à** = **action/but** (pensez à *à table* = "pour manger").
+    - **de** = **origine/contenu** (pensez à *de Paris* = "de Paris").
+- **Paires adjectif + infinitif courantes** :
+    - *à* : *facile à, prêt à, lent à*.
+    - *de* : *content de, responsable de, capable de*.
+- **Exceptions** :
+    - *C’est bon à savoir* (utile à savoir) vs. *C’est bon de savoir* (ça fait plaisir de savoir).
+
+:::

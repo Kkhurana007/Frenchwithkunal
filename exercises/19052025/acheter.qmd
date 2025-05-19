@@ -137,3 +137,121 @@ function highlightStemChangeVerbs(textareaElement) {
 </script>  
 
 :::
+
+::: {.content-visible when-profile="french"}
+
+### Exercice : Conjuguer les verbes comme *Acheter*  
+Entraînez-vous à conjuguer les verbes à changement de radical (*acheter, préférer, espérer, répéter, céder*) au présent.  
+**Rappel** : Le "e" devient "è" à toutes les personnes **sauf** *nous* et *vous* (ex. : *j’achète* mais *nous achetons*).
+
+---
+
+### 1. Complétez les phrases  
+Conjuguez le verbe pour chaque sujet.
+
+Je (acheter) <input type="text" placeholder="Votre réponse">  
+<button onclick="revealAnswerFr(this, 'J\'achète un livre.')">Vérifier</button>  
+<span class="feedback"></span>
+
+Tu (préférer) <input type="text" placeholder="Votre réponse">  
+<button onclick="revealAnswerFr(this, 'Tu préfères le café.')">Vérifier</button>  
+<span class="feedback"></span>
+
+Il (espérer) <input type="text" placeholder="Votre réponse">  
+<button onclick="revealAnswerFr(this, 'Il espère gagner.')">Vérifier</button>  
+<span class="feedback"></span>
+
+Nous (répéter) <input type="text" placeholder="Votre réponse">  
+<button onclick="revealAnswerFr(this, 'Nous répétons la chanson.')">Vérifier</button>  
+<span class="feedback"></span>
+
+Vous (céder) <input type="text" placeholder="Votre réponse">  
+<button onclick="revealAnswerFr(this, 'Vous cédez la place.')">Vérifier</button>  
+<span class="feedback"></span>
+
+Elles (acheter) <input type="text" placeholder="Votre réponse">  
+<button onclick="revealAnswerFr(this, 'Elles achètent des fleurs.')">Vérifier</button>  
+<span class="feedback"></span>
+
+<script>
+function revealAnswerFr(button, correctAnswer) {
+    const feedback = button.nextElementSibling.nextElementSibling;
+    feedback.textContent = correctAnswer;
+    feedback.style.color = "blue";
+}
+</script>
+
+---
+
+### 2. Correction de phrases  
+Corrigez les conjugaisons incorrectes (attention au "è" !).
+
+Je prefere le thé. → <textarea rows="1" cols="30" placeholder="Phrase corrigée..."></textarea>  
+<button onclick="checkCorrectionFr(this.previousElementSibling, 'Je préfère le thé.')">Vérifier</button>  
+<span class="feedback"></span>
+
+Nous esprons partir. → <textarea rows="1" cols="30" placeholder="Phrase corrigée..."></textarea>  
+<button onclick="checkCorrectionFr(this.previousElementSibling, 'Nous espérons partir.')">Vérifier</button>  
+<span class="feedback"></span>  
+
+*(Note : La forme "nous" garde le "e" d’origine !)*  
+
+---
+
+### 3. Traduction  
+Traduisez en français en utilisant les verbes à changement de radical :
+
+She hopes to travel. → <textarea rows="1" cols="40" placeholder="Traduction française..."></textarea>  
+<button onclick="checkTranslationFr(this.previousElementSibling, 'Elle espère voyager.')">Vérifier</button>  
+<span class="feedback"></span>  
+
+We buy a car. → <textarea rows="1" cols="40" placeholder="Traduction française..."></textarea>  
+<button onclick="checkTranslationFr(this.previousElementSibling, 'Nous achetons une voiture.')">Vérifier</button>  
+<span class="feedback"></span>  
+
+---
+
+### 4. Production écrite  
+Écrivez 3 phrases sur le shopping ou vos préférences en utilisant au moins 2 verbes à changement de radical différents. Mettez les verbes en évidence.
+
+<textarea rows="5" cols="100" placeholder="Ex : J’achète des légumes..."></textarea>  
+<button onclick="highlightStemChangeVerbsFr(this.previousElementSibling)">Mettre en évidence</button>  
+<div class="feedback"></div>  
+
+<script>
+function checkCorrectionFr(textareaElement, correctAnswer) {  
+    const userText = textareaElement.value.trim();  
+    const feedback = textareaElement.nextElementSibling.nextElementSibling;  
+    if (userText === correctAnswer) {  
+        feedback.textContent = "✓ Parfait !";  
+        feedback.style.color = "green";  
+    } else {  
+        feedback.textContent = `✓ Suggestion : "${correctAnswer}"`;  
+        feedback.style.color = "blue";  
+    }  
+}
+
+function checkTranslationFr(textarea, correctAnswer) {
+  const feedback = textarea.nextElementSibling.nextElementSibling;
+  if (textarea.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
+    feedback.textContent = "✓ Parfait !";
+    feedback.style.color = "green";
+  } else {
+    feedback.textContent = `✓ Suggestion : "${correctAnswer}"`;
+    feedback.style.color = "blue";
+  }
+}
+
+function highlightStemChangeVerbsFr(textareaElement) {  
+    const verbs = ["acheter", "préférer", "espérer", "répéter", "céder"];  
+    let text = textareaElement.value;  
+    verbs.forEach(verb => {  
+        const regex = new RegExp(`\\b${verb}\\b`, "gi");  
+        text = text.replace(regex, `<span style="background-color: #FFD700">${verb}</span>`);  
+    });  
+    const feedback = textareaElement.nextElementSibling.nextElementSibling;  
+    feedback.innerHTML = "<strong>Verbes à changement de radical utilisés :</strong><br>" + text;  
+}
+</script>
+
+:::

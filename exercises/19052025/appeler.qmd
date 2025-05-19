@@ -7,6 +7,7 @@ image: "appeler.png"
 ---
 
 :::: {.content-visible when-profile="english"}
+
 ### Exercise: Conjugating Verbs Like *Appeler*
 
 Practice conjugating double-consonant verbs (*appeler, jeter, rappeler, projeter, rejeter*) in the present tense.\
@@ -39,19 +40,12 @@ Fix the incorrect conjugations (watch for missing double consonants!).
 
 Elle apele sa mère. →
 
-```{=html}
 <textarea rows="1" cols="30" placeholder="Corrected sentence..."></textarea>
-```
 
-<button onclick="checkCorrection(this.previousElementSibling, &#39;Elle appelle sa mère.&#39;)">
-Check
-</button>
+<button onclick="checkCorrection(this.previousElementSibling, &#39;Elle appelle sa mère.&#39;)">Check</button>
 
 Nous jetons la balle. →
-
-```{=html}
 <textarea rows="1" cols="30" placeholder="Corrected sentence..."></textarea>
-```
 
 <button onclick="checkCorrection(this.previousElementSibling, &#39;Nous jetons la balle.&#39;)">
 Check
@@ -67,26 +61,18 @@ Translate into French using double-consonant verbs:
 
 I call my teacher. →
 
-```{=html}
+
 <textarea rows="1" cols="40" placeholder="French translation..."></textarea>
-```
 
-<button onclick="checkTranslation(this.previousElementSibling, &#39;J\&#39;appelle mon professeur.&#39;)">
-
-Check
-
-</button>
+<button onclick="checkTranslation(this.previousElementSibling, &#39;J\&#39;appelle mon professeur.&#39;)">Check</button>
 
 They (fem.) throw the ball. →
 
-```{=html}
+
 <textarea rows="1" cols="40" placeholder="French translation..."></textarea>
-```
 
-<button onclick="checkTranslation(this.previousElementSibling, &#39;Elles jettent la balle.&#39;)">
 
-Check
-
+<button onclick="checkTranslation(this.previousElementSibling, &#39;Elles jettent la balle.&#39;)">Check
 </button>
 
 ------------------------------------------------------------------------
@@ -95,20 +81,13 @@ Check
 
 Write 3 sentences about daily routines using at least 2 different double-consonant verbs. Highlight the verbs.
 
-```{=html}
 <textarea rows="5" cols="100" placeholder="Ex: J'appelle mes parents..."></textarea>
-```
 
-<button onclick="highlightDoubleVerbs(this.previousElementSibling)">
-
-Highlight Verbs
-
-</button>
+<button onclick="highlightDoubleVerbs(this.previousElementSibling)">Highlight Verbs</button>
 
 ::: feedback
 :::
 
-```{=html}
 <script>
 function checkAnswer(input, correctAnswer) {
     const userAnswer = input.value.trim().toLowerCase();
@@ -158,5 +137,132 @@ function highlightDoubleVerbs(textareaElement) {
     feedback.innerHTML = "<strong>Double-consonant verbs used:</strong><br>" + text;  
 }  
 </script>
-```
-::::
+
+:::
+
+
+::: {.content-visible when-profile="french"}
+
+### Exercice : Conjuguer les verbes à double consonne (*appeler, jeter, rappeler, projeter, rejeter*) au présent
+
+**Rappel** :\
+1. La consonne (**l** ou **t**) se double dans certaines formes (ex. : *j'appelle* mais *nous appelons*).
+
+------------------------------------------------------------------------
+
+### 1. Complétez les phrases
+
+Conjuguez le verbe pour chaque sujet.
+
+Je (appeler) <input type="text" placeholder="Votre réponse" onblur="verifierReponse(this, 'appelle')"> → J'appelle mon ami.<span></span><br>
+
+Tu (jeter) <input type="text" placeholder="Votre réponse" onblur="verifierReponse(this, 'jettes')"> → Tu jettes le papier.<span></span><br>
+
+Il (rappeler) <input type="text" placeholder="Votre réponse" onblur="verifierReponse(this, 'rappelle')"> → Il rappelle la règle.<span></span><br>
+
+Nous (projeter) <input type="text" placeholder="Votre réponse" onblur="verifierReponse(this, 'projetons')"> → Nous projetons un film.<span></span><br>
+
+Vous (appeler) <input type="text" placeholder="Votre réponse" onblur="verifierReponse(this, 'appelez')"> → Vous appelez le médecin.<span></span><br>
+
+Elles (jeter) <input type="text" placeholder="Votre réponse" onblur="verifierReponse(this, 'jettent')"> → Elles jettent les déchets.<span></span><br>
+
+------------------------------------------------------------------------
+
+### 2. Correction de phrases
+
+Corrigez les conjugaisons incorrectes (attention aux doubles consonnes !).
+
+Elle apele sa mère. →
+
+<textarea rows="1" cols="30" placeholder="Phrase corrigée..."></textarea>
+<button onclick="verifierCorrection(this.previousElementSibling, 'Elle appelle sa mère.')">Vérifier</button>
+<span></span><br>
+
+Nous jetons la balle. →
+<textarea rows="1" cols="30" placeholder="Phrase corrigée..."></textarea>
+<button onclick="verifierCorrection(this.previousElementSibling, 'Nous jetons la balle.')">Vérifier</button>
+<span></span><br>
+
+*(Note : La forme "Nous" est correcte — pas de double consonne !)*
+
+------------------------------------------------------------------------
+
+### 3. Traduction
+
+Traduisez en français en utilisant les verbes à double consonne :
+
+J'appelle mon professeur. ←
+
+<textarea rows="1" cols="40" placeholder="Traduction française..."></textarea>
+<button onclick="verifierTraduction(this.previousElementSibling, 'J\'appelle mon professeur.')">Vérifier</button>
+<span></span><br>
+
+Elles jettent la balle. ←
+
+<textarea rows="1" cols="40" placeholder="Traduction française..."></textarea>
+<button onclick="verifierTraduction(this.previousElementSibling, 'Elles jettent la balle.')">Vérifier</button>
+<span></span><br>
+
+------------------------------------------------------------------------
+
+### 4. Production écrite
+
+Écrivez 3 phrases sur vos routines quotidiennes en utilisant au moins 2 verbes à double consonne différents. Mettez les verbes en évidence.
+
+<textarea rows="5" cols="100" placeholder="Ex : J'appelle mes parents..."></textarea>
+<button onclick="surlignerVerbesDouble(this.previousElementSibling)">Mettre en évidence</button>
+<span></span><br>
+
+::: feedback
+:::
+
+<script>
+function verifierReponse(input, bonneReponse) {
+    const userAnswer = input.value.trim().toLowerCase();
+    const feedback = input.nextElementSibling;
+    if (userAnswer === bonneReponse) {
+        feedback.textContent = "✓ Correct !";
+        feedback.style.color = "green";
+    } else if (userAnswer) {
+        feedback.textContent = `✗ Réessayez. Indice : "${bonneReponse}"`;
+        feedback.style.color = "red";
+    } else {
+        feedback.textContent = "";
+    }
+}
+
+function verifierCorrection(textareaElement, bonneReponse) {
+    const userText = textareaElement.value.trim();
+    const feedback = textareaElement.nextElementSibling.nextElementSibling;
+    if (userText === bonneReponse) {
+        feedback.textContent = "✓ Parfait !";
+        feedback.style.color = "green";
+    } else {
+        feedback.textContent = `✓ Suggestion : "${bonneReponse}"`;
+        feedback.style.color = "blue";
+    }
+}
+
+function verifierTraduction(textarea, bonneReponse) {
+    const feedback = textarea.nextElementSibling.nextElementSibling;
+    if (textarea.value.trim().toLowerCase() === bonneReponse.toLowerCase()) {
+        feedback.textContent = "✓ Parfait !";
+        feedback.style.color = "green";
+    } else {
+        feedback.textContent = `✓ Suggestion : "${bonneReponse}"`;
+        feedback.style.color = "blue";
+    }
+}
+
+function surlignerVerbesDouble(textareaElement) {
+    const verbs = ["appeler", "jeter", "rappeler", "projeter", "rejeter"];
+    let text = textareaElement.value;
+    verbs.forEach(verb => {
+        const regex = new RegExp(`\\b${verb}\\b`, "gi");
+        text = text.replace(regex, `<span style="background-color: #FFD700">${verb}</span>`);
+    });
+    const feedback = textareaElement.nextElementSibling.nextElementSibling;
+    feedback.innerHTML = "<strong>Verbes à double consonne utilisés :</strong><br>" + text;
+}
+</script>
+:::

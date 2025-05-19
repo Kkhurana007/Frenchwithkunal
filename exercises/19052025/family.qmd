@@ -7,6 +7,7 @@ image: "famille.png"
 ---
 
 ::: {.content-visible when-profile="english"}
+
 # Exercise: La Famille Française
 
 ### 1. **Family Tree Labeling**
@@ -61,3 +62,4 @@ image: "famille.png"
 - 1 pet (*un animal de compagnie*)
 
 :::
+

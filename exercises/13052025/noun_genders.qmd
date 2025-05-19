@@ -55,6 +55,7 @@ Classify these nouns (use **le/la**):
 ---
 
 ### Exercise 3: Translate & Identify Gender  
+
 1. "The culture is rich." →  
    <textarea placeholder="..." rows="2" cols="50" oninput="checkTranslation(this, 'La culture est riche.')"></textarea> (Feminine/Masculine?) →  
    <input type="text" placeholder="F/M" oninput="checkAnswer(this, 'F')"><span style="margin-left:10px;"></span>  
@@ -66,10 +67,13 @@ Classify these nouns (use **le/la**):
 ---
 
 ### Exercise 4: Writing Challenge  
+
 **List 5 masculine nouns ending in -e** and **5 feminine nouns ending in -tion/-té**.  
+
 Example:  
 - Masculine: *le musée* (museum), *le problème* (problem)...  
 - Feminine: *la situation*, *la beauté*...  
+
 <textarea placeholder="Write here..." rows="4" cols="60"></textarea>  
 
 <button onclick="showAnswers()">Show Answers</button>  
@@ -124,3 +128,126 @@ function checkTranslation(textarea, correctAnswer) {
 </script>  
 
 :::  
+
+::: {.content-visible when-profile="french"}
+
+### Explication :  
+En français, le genre des noms suit souvent des règles selon leur terminaison. **Ne supposez pas qu’un nom est toujours féminin parce qu’il finit par -e !**  
+
+#### 1. **Noms masculins terminés par -e** (Terminaisons courantes) :  
+    - **-age** : *le voyage*, *le fromage*  
+    - **-isme** : *le tourisme*, *le capitalisme*  
+    - **-ège** : *le collège*  
+    - **-é** : *le café*, *le lycée*  
+
+    **Exceptions :** *la page*, *la plage*  
+
+#### 2. **Terminaisons féminines** :  
+    - **-tion/-sion** : *la nation*, *la télévision*  
+    - **-té** : *la liberté*, *la santé*  
+    - **-ure** : *la culture*, *la voiture*  
+    - **-ée** : *la journée*, *la dictée*  
+
+---
+
+### Exercice 1 : Masculin ou Féminin ?  
+Classez ces noms (utilisez **le/la**) :  
+
+1. ___ langage (langue) →  
+    <input type="text" placeholder="le/la" oninput="checkAnswer(this, 'le')"><span style="margin-left:10px;"></span>  
+
+2. ___ liberté (liberté) →  
+    <input type="text" placeholder="le/la" oninput="checkAnswer(this, 'la')"><span style="margin-left:10px;"></span>  
+
+3. ___ optimisme (optimisme) →  
+    <input type="text" placeholder="le/la" oninput="checkAnswer(this, 'le')"><span style="margin-left:10px;"></span>  
+
+4. ___ solution (solution) →  
+    <input type="text" placeholder="le/la" oninput="checkAnswer(this, 'la')"><span style="margin-left:10px;"></span>  
+
+---
+
+### Exercice 2 : Corrigez les erreurs  
+1. "La fromage est délicieux." →  
+    <input type="text" placeholder="Corrigez" oninput="checkAnswer(this, 'Le fromage est délicieux.')"><span style="margin-left:10px;"></span>  
+
+2. "Le liberté est importante." →  
+    <input type="text" placeholder="Corrigez" oninput="checkAnswer(this, 'La liberté est importante.')"><span style="margin-left:10px;"></span>  
+
+---
+
+### Exercice 3 : Traduisez et identifiez le genre  
+
+1. "The culture is rich." →  
+   <textarea placeholder="..." rows="2" cols="50" oninput="checkTranslation(this, 'La culture est riche.')"></textarea> (Feminine/Masculine?) →  
+   <input type="text" placeholder="F/M" oninput="checkAnswer(this, 'F')"><span style="margin-left:10px;"></span>  
+
+2. "The message is clear." →  
+   <textarea placeholder="..." rows="2" cols="50" oninput="checkTranslation(this, 'Le message est clair.')"></textarea> (F/M?) →  
+   <input type="text" placeholder="F/M" oninput="checkAnswer(this, 'M')"><span style="margin-left:10px;"></span>   
+
+---
+
+### Exercice 4 : Défi d’écriture  
+
+**Listez 5 noms masculins finissant par -e** et **5 noms féminins finissant par -tion/-té**.  
+
+Exemple :  
+- Masculin : *le musée*, *le problème*...  
+- Féminin : *la situation*, *la beauté*...  
+
+<textarea placeholder="Écrivez ici..." rows="4" cols="60"></textarea>  
+
+
+<button onclick="showAnswers()">Afficher les réponses</button>  
+<button onclick="checkAllAnswers()">Vérifier les réponses</button>  
+
+<script>  
+
+function showAnswers() {  
+    document.querySelectorAll('input[type="text"]').forEach(input => {  
+        const correct = input.getAttribute('oninput').match(/'([^']+)'/)[1];  
+        input.value = correct;  
+        const feedback = input.nextElementSibling;  
+        feedback.textContent = "✓ Correct !";  
+        feedback.style.color = "green";  
+    });  
+}  
+
+function checkAllAnswers() {  
+    document.querySelectorAll('input[type="text"]').forEach(input => {  
+        const correct = input.getAttribute('oninput').match(/'([^']+)'/)[1];  
+        checkAnswer(input, correct);  
+    });  
+
+    document.querySelectorAll('textarea').forEach(textarea => {  
+        const correct = textarea.getAttribute('oninput').match(/'([^']+)'/)[1];  
+        checkTranslation(textarea, correct);  
+    });  
+}  
+
+function checkAnswer(input, correctAnswer) {  
+    const feedback = input.nextElementSibling;  
+    if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {  
+        feedback.textContent = "✓ Correct !";  
+        feedback.style.color = "green";  
+    } else if (input.value.trim()) {  
+        feedback.textContent = "✗ Essayez encore !";  
+        feedback.style.color = "red";  
+    }  
+}  
+
+function checkTranslation(textarea, correctAnswer) {  
+    const feedback = textarea.nextElementSibling;  
+    if (textarea.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {  
+        feedback.textContent = "✓ Correct !";  
+        feedback.style.color = "green";  
+    } else if (textarea.value.trim()) {  
+        feedback.textContent = "✗ Essayez encore !";  
+        feedback.style.color = "red";  
+    }  
+}
+
+</script>  
+
+:::

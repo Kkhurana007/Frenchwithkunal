@@ -84,13 +84,13 @@ ul.task-list li input[type="checkbox"] {
 
 <meta property="og:title" content="Exercises: Dairy Products Vocabulary &amp; Gender – French with Kunal">
 <meta property="og:description" content="">
-<meta property="og:image" content="https://tranquil-tiramisu-18a73a.netlify.app/exercises/12052025/dairy.png">
+<meta property="og:image" content="https://frenchwithkunal.ca/exercises/12052025/dairy.png">
 <meta property="og:site_name" content="French with Kunal">
 <meta property="og:image:height" content="527">
 <meta property="og:image:width" content="704">
 <meta name="twitter:title" content="Exercises: Dairy Products Vocabulary &amp; Gender – French with Kunal">
 <meta name="twitter:description" content="">
-<meta name="twitter:image" content="https://tranquil-tiramisu-18a73a.netlify.app/exercises/12052025/dairy.png">
+<meta name="twitter:image" content="https://frenchwithkunal.ca/exercises/12052025/dairy.png">
 <meta name="twitter:image-height" content="527">
 <meta name="twitter:image-width" content="704">
 <meta name="twitter:card" content="summary_large_image">
@@ -306,10 +306,15 @@ Refresh Page
 </section>
 <section id="translate-into-french-include-articlespartitives" class="level2">
 <h2 class="anchored" data-anchor-id="translate-into-french-include-articlespartitives">5. Translate into French (include articles/partitives!):</h2>
-<p>“I eat bread with butter.”</p>
-<textarea placeholder="Je mange..." rows="2" cols="50" oninput="checkTranslation(this, 'Je mange du pain avec du beurre')"></textarea>
-<p><span style="margin-left:10px;"></span> “She prefers ice cream for dessert.”</p>
-<textarea placeholder="Elle préfère..." rows="2" cols="50" oninput="checkTranslation(this, 'Elle préfère la glace pour le dessert')"></textarea>
+<ol type="1">
+<li>“I eat bread with butter.”</li>
+</ol>
+<textarea placeholder="Je mange..." rows="2" cols="50" oninput="checkTranslation(this, 'Je mange du pain avec du beurre.')"></textarea>
+<p><span style="margin-left:10px;"></span></p>
+<ol start="2" type="1">
+<li>“She prefers ice cream for dessert.”</li>
+</ol>
+<textarea placeholder="Elle préfère..." rows="2" cols="50" oninput="checkTranslation(this, 'Elle préfère la glace pour le dessert.')"></textarea>
 <p><span style="margin-left:10px;"></span></p>
 <button onclick="checkAllAnswers()">
 Check Answers
@@ -594,7 +599,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/tranquil-tiramisu-18a73a\.netlify\.app");
+      var filterRegex = new RegExp("https:\/\/frenchwithkunal\.ca");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

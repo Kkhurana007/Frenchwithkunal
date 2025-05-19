@@ -1,0 +1,269 @@
+---
+title: "Les Pronoms Relatifs Simples"
+author: "Kunal Khurana"
+date: "05-15-2025"
+categories: [B1, grammaire, pronom relatif, exercices]
+image: "relatif.png"
+---
+
+::: {.content-visible when-profile="english"}
+
+### Understanding Simple Relative Pronouns: **qui, que, dont, où**
+
+**Relative pronouns** connect two clauses by replacing a repeated noun and introducing a relative clause.  
+The main simple relative pronouns in French are **qui**, **que**, **dont**, and **où**.
+
+#### **Explanations & Examples**
+
+- **qui**: replaces the subject (person or thing)  
+    - *La femme **qui** parle est ma mère.*  
+        (The woman **who** is speaking is my mother.)
+- **que**: replaces the direct object  
+    - *Le livre **que** tu lis est intéressant.*  
+        (The book **that** you are reading is interesting.)
+- **dont**: replaces "de + noun" (possession, expressions with "de")  
+    - *L'élève **dont** je parle est absent.*  
+        (The student **whom** I am talking about is absent.)
+    - *C'est le film **dont** j'ai besoin.*  
+        (That's the film **I need**.)
+- **où**: replaces a place or time  
+    - *La ville **où** je suis né.*  
+        (The city **where** I was born.)
+    - *Le jour **où** nous sommes partis.*  
+        (The day **when** we left.)
+
+---
+
+### Exercises
+
+#### 1. Choose the correct relative pronoun (**qui**, **que**, **dont**, **où**):
+
+1. La maison ___ j'habite est grande. <input type="text" placeholder="qui/que/dont/où" oninput="checkAnswer(this, 'où')"><span></span>  
+2. Le livre ___ est sur la table est à moi. <input type="text" placeholder="qui/que/dont/où" oninput="checkAnswer(this, 'qui')"><span></span>  
+3. L'homme ___ tu vois est mon oncle. <input type="text" placeholder="qui/que/dont/où" oninput="checkAnswer(this, 'que')"><span></span>  
+4. C'est un problème ___ je parle souvent. <input type="text" placeholder="qui/que/dont/où" oninput="checkAnswer(this, 'dont')"><span></span>  
+5. Voici la raison ___ il est parti. <input type="text" placeholder="qui/que/dont/où" oninput="checkAnswer(this, 'pour laquelle')"><span></span>  
+6. Le film ___ nous avons vu hier était drôle. <input type="text" placeholder="qui/que/dont/où" oninput="checkAnswer(this, 'que')"><span></span>  
+7. L'élève ___ a gagné le prix est absent. <input type="text" placeholder="qui/que/dont/où" oninput="checkAnswer(this, 'qui')"><span></span>  
+8. C'est la femme ___ le fils est médecin. <input type="text" placeholder="qui/que/dont/où" oninput="checkAnswer(this, 'dont')"><span></span>  
+9. Le jour ___ il est arrivé, il pleuvait. <input type="text" placeholder="qui/que/dont/où" oninput="checkAnswer(this, 'où')"><span></span>  
+10. Le livre ___ tu as besoin est ici. <input type="text" placeholder="qui/que/dont/où" oninput="checkAnswer(this, 'dont')"><span></span>  
+
+#### 2. Complete the sentences with the correct relative pronoun:
+
+1. J'ai un ami ___ habite à Paris. <input type="text" placeholder="qui/que/dont/où" oninput="checkAnswer(this, 'qui')"><span></span>  
+2. Voilà la voiture ___ je rêve. <input type="text" placeholder="qui/que/dont/où" oninput="checkAnswer(this, 'dont')"><span></span>  
+3. C'est un endroit ___ j'aime aller. <input type="text" placeholder="qui/que/dont/où" oninput="checkAnswer(this, 'où')"><span></span>  
+4. Le film ___ tu parles est nouveau. <input type="text" placeholder="qui/que/dont/où" oninput="checkAnswer(this, 'dont')"><span></span>  
+5. La chanson ___ passe à la radio est belle. <input type="text" placeholder="qui/que/dont/où" oninput="checkAnswer(this, 'qui')"><span></span>  
+6. Le professeur ___ nous avons rencontré est gentil. <input type="text" placeholder="qui/que/dont/où" oninput="checkAnswer(this, 'que')"><span></span>  
+7. Voici la ville ___ il a grandi. <input type="text" placeholder="qui/que/dont/où" oninput="checkAnswer(this, 'où')"><span></span>  
+8. Les amis ___ je parle sont en vacances. <input type="text" placeholder="qui/que/dont/où" oninput="checkAnswer(this, 'dont')"><span></span>  
+9. Le livre ___ est sur la table appartient à Marie. <input type="text" placeholder="qui/que/dont/où" oninput="checkAnswer(this, 'qui')"><span></span>  
+10. C'est la raison pour ___ il a quitté la fête. <input type="text" placeholder="qui/que/dont/où" oninput="checkAnswer(this, 'laquelle')"><span></span>  
+
+---
+
+#### 3. Translate the following sentences into French using the correct relative pronoun (**qui**, **que**, **dont**, **où**):
+1. The girl who is singing is my sister. <input type="text" style="width:100%;" placeholder="Type your answer here" oninput="checkTranslation(this, 'La fille qui chante est ma sœur')"><span></span>
+2. The book that I am reading is interesting. <input type="text" style="width:100%;" placeholder="Type your answer here" oninput="checkTranslation(this, 'Le livre que je lis est intéressant')"><span></span>
+3. The city where we met is beautiful. <input type="text" style="width:100%;" placeholder="L\'ami dont je parle est absent" oninput="checkTranslation(this, 'La ville où nous nous sommes rencontrés est belle')"><span></span>
+4. The friend whom I am talking about is absent. <input type="text" style="width:100%;" placeholder="Type your answer here" oninput="checkTranslation(this, 'L\'ami dont je parle est absent')"><span></span>
+5. That's the film I need. <input type="text" style="width:100%;" placeholder="Type your answer here" oninput="checkTranslation(this, 'C&#39;est le film dont j&#39;ai besoin')"><span></span>
+6. The day when he arrived, it was raining. <input type="text" style="width:100%;" placeholder="Type your answer here" oninput="checkTranslation(this, 'Le jour où il est arrivé, il pleuvait')"><span></span>
+7. The student whose father is a doctor is absent. <input type="text" style="width:100%;" placeholder="Type your answer here" oninput="checkTranslation(this, 'L\\'élève dont le père est médecin est absent')"><span></span>
+8. The house where I live is big. <input type="text" style="width:100%;" placeholder="Type your answer here" oninput="checkTranslation(this, 'La maison où j\\'habite est grande')"><span></span>
+9. The man that you see is my uncle. <input type="text" style="width:100%;" placeholder="Type your answer here" oninput="checkTranslation(this, 'L\\'homme que tu vois est mon oncle')"><span></span>
+10. The reason why he left is unknown. <input type="text" style="width:100%;" placeholder="Type your answer here" oninput="checkTranslation(this, 'La raison pour laquelle il est parti est inconnue')"><span></span>
+
+---
+
+### To consolidate your learning
+
+Write a short paragraph (3-5 sentences) explaining what you have learned about the use of simple relative pronouns in French. Use your own words and, if possible, give an example.  
+<textarea rows="5" style="width:100%;" placeholder="Write here what you have learned..."></textarea>
+
+<button onclick="showAnswers()">Show answers</button>
+<button onclick="refreshPage()">Try again</button>
+
+---
+
+### Notes:
+- **qui**: replaces the subject (who/which/that)
+- **que**: replaces the direct object (whom/which/that)
+- **dont**: replaces "de + noun" (whose/of which/about which)
+- **où**: replaces a place or time (where/when)
+
+:::
+
+<style>
+input[type="text"] {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 6px;
+  min-width: 120px;
+}
+span {
+  display: inline-block;
+  vertical-align: middle;
+  min-width: 80px;
+  margin-left: 4px;
+}
+</style>
+::: {.content-visible when-profile="french"}
+
+### Comprendre les pronoms relatifs simples : **qui, que, dont, où**
+
+Les **pronoms relatifs** relient deux propositions en remplaçant un nom répété et en introduisant une proposition subordonnée relative.  
+Les principaux pronoms relatifs simples en français sont **qui**, **que**, **dont** et **où**.
+
+#### **Explications & Exemples**
+
+- **qui** : remplace le sujet (personne ou chose)  
+    - *La femme **qui** parle est ma mère.*
+- **que** : remplace le complément d'objet direct  
+    - *Le livre **que** tu lis est intéressant.*
+- **dont** : remplace "de + nom" (possession, expressions avec "de")  
+    - *L'élève **dont** je parle est absent.*
+    - *C'est le film **dont** j'ai besoin.*
+- **où** : remplace un lieu ou un moment  
+    - *La ville **où** je suis né.*
+    - *Le jour **où** nous sommes partis.*
+
+---
+
+### Exercices
+
+#### 1. Choisissez le bon pronom relatif (**qui**, **que**, **dont**, **où**) :
+
+1. La maison ___ j'habite est grande. <input type="text" placeholder="qui/que/dont/où" oninput="checkAnswer(this, 'où')"><span></span>  
+2. Le livre ___ est sur la table est à moi. <input type="text" placeholder="qui/que/dont/où" oninput="checkAnswer(this, 'qui')"><span></span>  
+3. L'homme ___ tu vois est mon oncle. <input type="text" placeholder="qui/que/dont/où" oninput="checkAnswer(this, 'que')"><span></span>  
+4. C'est un problème ___ je parle souvent. <input type="text" placeholder="qui/que/dont/où" oninput="checkAnswer(this, 'dont')"><span></span>  
+5. Voici la raison ___ il est parti. <input type="text" placeholder="qui/que/dont/où" oninput="checkAnswer(this, 'pour laquelle')"><span></span>  
+6. Le film ___ nous avons vu hier était drôle. <input type="text" placeholder="qui/que/dont/où" oninput="checkAnswer(this, 'que')"><span></span>  
+7. L'élève ___ a gagné le prix est absent. <input type="text" placeholder="qui/que/dont/où" oninput="checkAnswer(this, 'qui')"><span></span>  
+8. C'est la femme ___ le fils est médecin. <input type="text" placeholder="qui/que/dont/où" oninput="checkAnswer(this, 'dont')"><span></span>  
+9. Le jour ___ il est arrivé, il pleuvait. <input type="text" placeholder="qui/que/dont/où" oninput="checkAnswer(this, 'où')"><span></span>  
+10. Le livre ___ tu as besoin est ici. <input type="text" placeholder="qui/que/dont/où" oninput="checkAnswer(this, 'dont')"><span></span>  
+
+#### 2. Complétez les phrases avec le pronom relatif correct :
+
+1. J'ai un ami ___ habite à Paris. <input type="text" placeholder="qui/que/dont/où" oninput="checkAnswer(this, 'qui')"><span></span>  
+2. Voilà la voiture ___ je rêve. <input type="text" placeholder="qui/que/dont/où" oninput="checkAnswer(this, 'dont')"><span></span>  
+3. C'est un endroit ___ j'aime aller. <input type="text" placeholder="qui/que/dont/où" oninput="checkAnswer(this, 'où')"><span></span>  
+4. Le film ___ tu parles est nouveau. <input type="text" placeholder="qui/que/dont/où" oninput="checkAnswer(this, 'dont')"><span></span>  
+5. La chanson ___ passe à la radio est belle. <input type="text" placeholder="qui/que/dont/où" oninput="checkAnswer(this, 'qui')"><span></span>  
+6. Le professeur ___ nous avons rencontré est gentil. <input type="text" placeholder="qui/que/dont/où" oninput="checkAnswer(this, 'que')"><span></span>  
+7. Voici la ville ___ il a grandi. <input type="text" placeholder="qui/que/dont/où" oninput="checkAnswer(this, 'où')"><span></span>  
+8. Les amis ___ je parle sont en vacances. <input type="text" placeholder="qui/que/dont/où" oninput="checkAnswer(this, 'dont')"><span></span>  
+9. Le livre ___ est sur la table appartient à Marie. <input type="text" placeholder="qui/que/dont/où" oninput="checkAnswer(this, 'qui')"><span></span>  
+10. C'est la raison pour ___ il a quitté la fête. <input type="text" placeholder="qui/que/dont/où" oninput="checkAnswer(this, 'laquelle')"><span></span>  
+
+---
+
+#### 3. Traduisez les phrases suivantes en français en utilisant le bon pronom relatif (**qui**, **que**, **dont**, **où**) :
+1. La fille qui chante est ma sœur. <input type="text" style="width:100%;" placeholder="Tapez votre réponse ici" oninput="checkTranslation(this, 'La fille qui chante est ma sœur')"><span></span>
+2. Le livre que je lis est intéressant. <input type="text" style="width:100%;" placeholder="Tapez votre réponse ici" oninput="checkTranslation(this, 'Le livre que je lis est intéressant')"><span></span>
+3. La ville où nous nous sommes rencontrés est belle. <input type="text" style="width:100%;" placeholder="Tapez votre réponse ici" oninput="checkTranslation(this, 'La ville où nous nous sommes rencontrés est belle')"><span></span>
+4. L'ami dont je parle est absent. <input type="text" style="width:100%;" placeholder="Tapez votre réponse ici" oninput="checkTranslation(this, 'L\'ami dont je parle est absent')"><span></span>
+5. C'est le film dont j'ai besoin. <input type="text" style="width:100%;" placeholder="Tapez votre réponse ici" oninput="checkTranslation(this, 'C&#39;est le film dont j&#39;ai besoin')"><span></span>
+6. Le jour où il est arrivé, il pleuvait. <input type="text" style="width:100%;" placeholder="Tapez votre réponse ici" oninput="checkTranslation(this, 'Le jour où il est arrivé, il pleuvait')"><span></span>
+7. L'élève dont le père est médecin est absent. <input type="text" style="width:100%;" placeholder="Tapez votre réponse ici" oninput="checkTranslation(this, 'L\\'élève dont le père est médecin est absent')"><span></span>
+8. La maison où j'habite est grande. <input type="text" style="width:100%;" placeholder="Tapez votre réponse ici" oninput="checkTranslation(this, 'La maison où j\\'habite est grande')"><span></span>
+9. L'homme que tu vois est mon oncle. <input type="text" style="width:100%;" placeholder="Tapez votre réponse ici" oninput="checkTranslation(this, 'L\\'homme que tu vois est mon oncle')"><span></span>
+10. La raison pour laquelle il est parti est inconnue. <input type="text" style="width:100%;" placeholder="Tapez votre réponse ici" oninput="checkTranslation(this, 'La raison pour laquelle il est parti est inconnue')"><span></span>
+
+---
+
+### Pour consolider vos acquis
+
+Écrivez un court paragraphe (3 à 5 phrases) expliquant ce que vous avez appris sur l'utilisation des pronoms relatifs simples en français. Utilisez vos propres mots et, si possible, donnez un exemple.  
+<textarea rows="5" style="width:100%;" placeholder="Écrivez ici ce que vous avez appris..."></textarea>
+
+<button onclick="showAnswers()">Afficher les réponses</button>
+<button onclick="refreshPage()">Réessayer</button>
+
+---
+
+### Notes :
+- **qui** : remplace le sujet (qui/que/ce qui)
+- **que** : remplace le complément d'objet direct (que/ce que)
+- **dont** : remplace "de + nom" (dont/duquel/à propos duquel)
+- **où** : remplace un lieu ou un moment (où/quand)
+
+:::
+
+<script>
+function checkAnswer(input, correctAnswer) {
+    const span = input.nextElementSibling;
+    if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
+        span.textContent = "✓ Correct";
+        span.style.color = "green";
+    } else {
+        span.textContent = "";
+    }
+}
+
+function checkTranslation(input, correctTranslation) {
+    const user = input.value.trim()
+        .replace(/[’']/g, "'")
+        .replace(/\s+/g, " ")
+        .toLowerCase();
+    const correct = correctTranslation.trim()
+        .replace(/[’']/g, "'")
+        .replace(/\s+/g, " ")
+        .toLowerCase();
+    let span = input.nextElementSibling;
+    if (!span || span.tagName !== "SPAN") {
+        span = document.createElement("span");
+        span.style.marginLeft = "10px";
+        input.parentNode.insertBefore(span, input.nextSibling);
+    }
+    if (user === correct) {
+        span.textContent = "✓ Correct";
+        span.style.color = "green";
+    } else {
+        span.textContent = "";
+    }
+}
+
+function showAnswers() {
+    document.querySelectorAll('input[type="text"]').forEach(el => {
+        const oninput = el.getAttribute('oninput');
+        let correct = null;
+        let isTranslation = false;
+        if (oninput && oninput.startsWith("checkAnswer")) {
+            correct = oninput.match(/'([^']+)'/)?.[1];
+        } else if (oninput && oninput.startsWith("checkTranslation")) {
+            correct = oninput.match(/'([^']+)'/)?.[1];
+            isTranslation = true;
+        }
+        if (correct) {
+            const span = el.nextElementSibling;
+            if (isTranslation) {
+                // For translation, show "Réponse" or "Answer" based on placeholder language
+                const placeholder = el.getAttribute('placeholder') || '';
+                if (placeholder.toLowerCase().includes('tapez')) {
+                    span.textContent = `Réponse : ${correct.replace(/\\'/g, "'")}`;
+                } else {
+                    span.textContent = `Answer: ${correct.replace(/\\'/g, "'")}`;
+                }
+            } else {
+                // For fill-in, show "Réponse" or "Answer" based on placeholder language
+                const placeholder = el.getAttribute('placeholder') || '';
+                if (placeholder.toLowerCase().includes('tapez') || placeholder.toLowerCase().includes('qui/que/dont/où')) {
+                    span.textContent = `Réponse : ${correct}`;
+                } else {
+                    span.textContent = `Answer: ${correct}`;
+                }
+            }
+            span.style.color = "blue";
+        }
+    });
+}
+
+function refreshPage() {
+    location.reload();
+}
+</script>
