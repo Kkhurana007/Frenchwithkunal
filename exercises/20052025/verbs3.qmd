@@ -1,0 +1,315 @@
+---
+title: "Le Présent en Français : Les Trois Groupes de Verbes"
+author: "Kunal Khurana"
+date: "05-15-2025"
+categories: [B1, grammaire, verbes, exercices]
+image: "verb_accord.png"
+---
+
+::: {.content-visible when-profile="english"}
+
+### The Imperfect Tense in French: How to Form It
+
+The imparfait (imperfect) is used to describe ongoing or repeated actions in the past. To form the imparfait:
+
+1.  **Take the "nous" form of the verb in the present tense** (without "ons").
+2.  **Add the endings:**\
+    **-ais, -ais, -ait, -ions, -iez, -aient**
+
+#### Examples
+
+-   *parler* (nous parlons) → parl-
+    -   je parlais, tu parlais, il/elle parlait, nous parlions, vous parliez, ils/elles parlaient
+-   *finir* (nous finissons) → finiss-
+    -   je finissais, tu finissais, il/elle finissait, nous finissions, vous finissiez, ils/elles finissaient
+-   *prendre* (nous prenons) → pren-
+    -   je prenais, tu prenais, il/elle prenait, nous prenions, vous preniez, ils/elles prenaient
+
+#### Special Cases
+
+-   **-ier verbs** (étudier, oublier, apprécier, etc.):\
+    There are two "i" in the "nous" and "vous" forms.\
+    *étudier* → nous étudiions, vous étudiiez
+-   **-yer verbs** (payer, essayer, balayer, etc.):\
+    There are two "y" or "i" in the "nous" and "vous" forms.\
+    *payer* → nous payions, vous payiez
+
+------------------------------------------------------------------------
+
+### Exercises
+
+#### 1. Match the Verb to Its Imperfect Stem
+
+Match each verb to its correct imparfait stem.
+
+1.  parler\
+    <select onchange="checkVerbType(this, 'parl-')"> <option value="">--Choose--</option> <option value="parl-">parl-</option> <option value="finiss-">finiss-</option> <option value="pren-">pren-</option> </select>
+2.  finir\
+    <select onchange="checkVerbType(this, 'finiss-')"> <option value="">--Choose--</option> <option value="finiss-">finiss-</option> <option value="parl-">parl-</option> <option value="pren-">pren-</option> </select>
+3.  prendre\
+    <select onchange="checkVerbType(this, 'pren-')"> <option value="">--Choose--</option> <option value="pren-">pren-</option> <option value="finiss-">finiss-</option> <option value="étudi-">étudi-</option> </select>
+4.  étudier\
+    <select onchange="checkVerbType(this, 'étudi-')"> <option value="">--Choose--</option> <option value="étudi-">étudi-</option> <option value="pay-">pay-</option> <option value="parl-">parl-</option> </select>
+5.  payer\
+    <select onchange="checkVerbType(this, 'pay-')"> <option value="">--Choose--</option> <option value="pay-">pay-</option> <option value="finiss-">finiss-</option> <option value="pren-">pren-</option> </select>
+
+#### 2. Conjugate in Imperfect Tense
+
+Fill in the blank with the correct imparfait form.
+
+1.  Je \_\_\_\_\_\_\_\_ (parler) français. <input type="text" placeholder="Verb" oninput="checkAnswer(this, 'parlais')">
+2.  Nous \_\_\_\_\_\_\_\_ (finir) nos devoirs. <input type="text" placeholder="Verb" oninput="checkAnswer(this, 'finissions')">
+3.  Tu \_\_\_\_\_\_\_\_ (prendre) le bus. <input type="text" placeholder="Verb" oninput="checkAnswer(this, 'prenais')">
+4.  Ils \_\_\_\_\_\_\_\_ (choisir) un livre. <input type="text" placeholder="Verb" oninput="checkAnswer(this, 'choisissaient')">
+5.  Vous \_\_\_\_\_\_\_\_ (voir) la tour Eiffel. <input type="text" placeholder="Verb" oninput="checkAnswer(this, 'voyiez')">
+6.  Elle \_\_\_\_\_\_\_\_ (vendre) des fleurs. <input type="text" placeholder="Verb" oninput="checkAnswer(this, 'vendait')">
+7.  Nous \_\_\_\_\_\_\_\_ (aimer) le chocolat. <input type="text" placeholder="Verb" oninput="checkAnswer(this, 'aimions')">
+8.  Je \_\_\_\_\_\_\_\_ (venir) de Paris. <input type="text" placeholder="Verb" oninput="checkAnswer(this, 'venais')">
+9.  Tu \_\_\_\_\_\_\_\_ (répondre) à la question. <input type="text" placeholder="Verb" oninput="checkAnswer(this, 'répondais')">
+10. Elles \_\_\_\_\_\_\_\_ (finir) tôt. <input type="text" placeholder="Verb" oninput="checkAnswer(this, 'finissaient')">
+11. Nous \_\_\_\_\_\_\_\_ (étudier) chaque soir. <input type="text" placeholder="Verb" oninput="checkAnswer(this, 'étudiions')">
+12. Vous \_\_\_\_\_\_\_\_ (payer) ensemble. <input type="text" placeholder="Verb" oninput="checkAnswer(this, 'payiez')">
+
+------------------------------------------------------------------------
+
+### Summary Table
+
+| Ending    | je   | tu   | il/elle/on | nous  | vous | ils/elles |
+|-----------|------|------|------------|-------|------|-----------|
+| imparfait | -ais | -ais | -ait       | -ions | -iez | -aient    |
+
+**Formation:**\
+Take the "nous" form in present, remove "-ons", add the endings above.
+
+| Verb    | Present "nous" | Stem    | Example (je) | Example (nous) | Example (vous) |
+|------------|------------|------------|------------|------------|------------|
+| parler  | parlons        | parl-   | parlais      | parlions       | parliez        |
+| finir   | finissons      | finiss- | finissais    | finissions     | finissiez      |
+| prendre | prenons        | pren-   | prenais      | prenions       | preniez        |
+| étudier | étudions       | étudi-  | étudiais     | étudiions      | étudiiez       |
+| payer   | payons         | pay-    | payais       | payions        | payiez         |
+
+------------------------------------------------------------------------
+
+<button onclick="showAnswers()">
+
+Show Answers
+
+</button>
+
+<button onclick="refreshPage()">
+
+Try Again
+
+</button>
+
+### Practice
+
+Write 3 sentences using the imparfait with a verb from each group.
+
+<p>
+
+```{=html}
+<textarea rows="3" style="width:100%;" placeholder="Write your sentences here..."></textarea>
+```
+
+</p>
+
+```{=html}
+<script>
+function checkAnswer(input, correctAnswer) {
+    const span = input.nextElementSibling;
+    if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
+        span.textContent = "✓ Correct";
+        span.style.color = "green";
+    } else {
+        span.textContent = "";
+        span.style.color = "";
+    }
+}
+
+// Add checkVerbType function
+function checkVerbType(select, correctType) {
+    const span = select.nextElementSibling;
+    if (select.value === correctType) {
+        span.textContent = "✓ Correct";
+        span.style.color = "green";
+    } else if (select.value !== "") {
+        span.textContent = "✗ Incorrect";
+        span.style.color = "red";
+    } else {
+        span.textContent = "";
+        span.style.color = "";
+    }
+}
+
+function showAnswers() {
+    document.querySelectorAll('input[type="text"]').forEach(el => {
+        const correct = el.getAttribute('oninput')?.match(/'([^']+)'/)?.[1];
+        if (correct) {
+            const span = el.nextElementSibling;
+            span.textContent = `Réponse : ${correct}`;
+            span.style.color = "blue";
+        }
+    });
+}
+
+function refreshPage() {
+    location.reload();
+}
+</script>
+```
+:::
+
+::: {.content-visible when-profile="french"}
+### Le Présent en Français : Les Trois Groupes de Verbes
+
+En français, les verbes sont classés en trois groupes selon leur terminaison et leur modèle de conjugaison au présent.
+
+#### 1. Premier groupe : verbes en -ER
+
+-   Groupe le plus courant.
+-   Infinitif se termine par **-er** (sauf "aller").
+-   Terminaisons : **-e, -es, -e, -ons, -ez, -ent**
+-   Exemple : *parler*
+    -   je parle, tu parles, il/elle parle, nous parlons, vous parlez, ils/elles parlent
+
+#### 2. Deuxième groupe : verbes en -IR (réguliers)
+
+-   Infinitif en **-ir** et participe présent en **-issant**.
+-   Terminaisons : **-is, -is, -it, -issons, -issez, -issent**
+-   Exemple : *finir*
+    -   je finis, tu finis, il/elle finit, nous finissons, vous finissez, ils/elles finissent
+
+#### 3. Troisième groupe : verbes irréguliers
+
+-   Inclut les verbes en **-re, -oir, -dre, -tre** et certains verbes en **-ir** irréguliers.
+-   Modèles de conjugaison variés.
+-   Exemples :
+    -   *prendre* : je prends, tu prends, il/elle prend, nous prenons, vous prenez, ils/elles prennent
+    -   *voir* : je vois, tu vois, il/elle voit, nous voyons, vous voyez, ils/elles voient
+    -   *venir* : je viens, tu viens, il/elle vient, nous venons, vous venez, ils/elles viennent
+
+------------------------------------------------------------------------
+
+### Exercices
+
+#### 1. Identifiez le groupe du verbe
+
+Associez chaque verbe à son infinitif.
+
+1.  Je parle\
+    <select onchange="checkVerbType(this, 'parler')"> <option value="">--Choisir l'infinitif--</option> <option value="finir">finir</option> <option value="parler">parler</option> <option value="prendre">prendre</option> </select>
+
+2.  Nous finissons\
+    <select onchange="checkVerbType(this, 'finir')"> <option value="">--Choisir l'infinitif--</option> <option value="finir">finir</option> <option value="voir">voir</option> <option value="vendre">vendre</option> </select>
+
+3.  Tu prends\
+    <select onchange="checkVerbType(this, 'prendre')"> <option value="">--Choisir l'infinitif--</option> <option value="prendre">prendre</option> <option value="choisir">choisir</option> <option value="aimer">aimer</option> </select>
+
+4.  Ils choisissent\
+    <select onchange="checkVerbType(this, 'choisir')"> <option value="">--Choisir l'infinitif--</option> <option value="choisir">choisir</option> <option value="répondre">répondre</option> <option value="venir">venir</option> </select>
+
+5.  Vous voyez\
+    <select onchange="checkVerbType(this, 'voir')"> <option value="">--Choisir l'infinitif--</option> <option value="voir">voir</option> <option value="finir">finir</option> <option value="parler">parler</option> </select>
+
+#### 2. Conjuguez au présent
+
+Complétez avec la bonne forme du verbe au présent.
+
+1.  Je \_\_\_\_\_\_\_\_\_ (parler) français. <input type="text" placeholder="Verbe" oninput="checkAnswer(this, 'parle')">
+2.  Nous \_\_\_\_\_\_\_\_\_ (finir) nos devoirs. <input type="text" placeholder="Verbe" oninput="checkAnswer(this, 'finissons')">
+3.  Tu \_\_\_\_\_\_\_\_\_ (prendre) le bus. <input type="text" placeholder="Verbe" oninput="checkAnswer(this, 'prends')">
+4.  Ils \_\_\_\_\_\_\_\_\_ (choisir) un livre. <input type="text" placeholder="Verbe" oninput="checkAnswer(this, 'choisissent')">
+5.  Vous \_\_\_\_\_\_\_\_\_ (voir) la tour Eiffel. <input type="text" placeholder="Verbe" oninput="checkAnswer(this, 'voyez')">
+6.  Elle \_\_\_\_\_\_\_\_\_ (vendre) des fleurs. <input type="text" placeholder="Verbe" oninput="checkAnswer(this, 'vend')">
+7.  Nous \_\_\_\_\_\_\_\_\_ (aimer) le chocolat. <input type="text" placeholder="Verbe" oninput="checkAnswer(this, 'aimons')">
+8.  Je \_\_\_\_\_\_\_\_\_ (venir) de Paris. <input type="text" placeholder="Verbe" oninput="checkAnswer(this, 'viens')">
+9.  Tu \_\_\_\_\_\_\_\_\_ (répondre) à la question. <input type="text" placeholder="Verbe" oninput="checkAnswer(this, 'réponds')">
+10. Elles \_\_\_\_\_\_\_\_\_ (finir) tôt. <input type="text" placeholder="Verbe" oninput="checkAnswer(this, 'finissent')">
+
+------------------------------------------------------------------------
+
+### Tableau récapitulatif
+
+| Groupe      | Terminaison(s)   | Exemple (je) | Exemple (nous) | Exemple (ils/elles) |
+|---------------|---------------|---------------|---------------|---------------|
+| 1er (-er)   | -e, -es, -e, ... | parle        | parlons        | parlent             |
+| 2e (-ir)    | -is, -is, -it... | finis        | finissons      | finissent           |
+| 3e (irrég.) | -re, -oir, ...   | prends/vois  | prenons/voyons | prennent/voient     |
+
+------------------------------------------------------------------------
+
+### Pratique
+
+Écrivez 3 phrases en utilisant un verbe de chaque groupe au présent.
+
+```{=html}
+<textarea rows="3" style="width:100%;" placeholder="Écrivez vos phrases ici..."></textarea>
+```
+
+<button onclick="showAnswers()">
+
+Afficher les réponses
+
+</button>
+
+<button onclick="refreshPage()">
+
+Réessayer
+
+</button>
+
+------------------------------------------------------------------------
+
+### Notes :
+
+-   **Premier groupe :** Verbes réguliers en -er, les plus courants et les plus faciles à conjuguer.
+-   **Deuxième groupe :** Verbes réguliers en -ir avec -issons à la forme "nous".
+-   **Troisième groupe :** Verbes irréguliers, il faut mémoriser leurs modèles.
+
+```{=html}
+<script>
+function checkAnswer(input, correctAnswer) {
+    const span = input.nextElementSibling;
+    if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
+        span.textContent = "✓ Correct";
+        span.style.color = "green";
+    } else {
+        span.textContent = "";
+        span.style.color = "";
+    }
+}
+
+// Add checkVerbType function
+function checkVerbType(select, correctType) {
+    const span = select.nextElementSibling;
+    if (select.value === correctType) {
+        span.textContent = "✓ Correct";
+        span.style.color = "green";
+    } else if (select.value !== "") {
+        span.textContent = "✗ Incorrect";
+        span.style.color = "red";
+    } else {
+        span.textContent = "";
+        span.style.color = "";
+    }
+}
+
+function showAnswers() {
+    document.querySelectorAll('input[type="text"]').forEach(el => {
+        const correct = el.getAttribute('oninput')?.match(/'([^']+)'/)?.[1];
+        if (correct) {
+            const span = el.nextElementSibling;
+            span.textContent = `Réponse : ${correct}`;
+            span.style.color = "blue";
+        }
+    });
+}
+
+function refreshPage() {
+    location.reload();
+}
+</script>
+```
+:::

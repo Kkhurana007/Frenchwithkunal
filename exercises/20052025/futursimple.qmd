@@ -1,0 +1,224 @@
+---
+title: "Le Futur Simple"
+author: "Kunal Khurana"
+date: "05-15-2025"
+categories: [B1, grammaire, futur simple, exercices]
+image: "futur_simple.png"
+---
+
+::: {.content-visible when-profile="english"}
+
+### Understanding the "Futur Simple" Tense
+
+The **futur simple** is used to talk about future projects, intentions, or events that are going to happen soon or later. It is often used to express what will happen.
+
+#### Formation
+
+- Use the **infinitive form** of the verb as the base.
+- If the verb ends with **-e** (like "prendre", "aimer"), remove the final **-e** before adding the endings.
+- Add the following endings:
+    - **ai**, **as**, **a**, **ons**, **ez**, **ont**
+
+**Examples:**
+- *Parler* → je parlerai, tu parleras, il/elle parlera, nous parlerons, vous parlerez, ils/elles parleront
+- *Finir* → je finirai, tu finiras, il/elle finira, nous finirons, vous finirez, ils/elles finiront
+- *Prendre* → je prendrai, tu prendras, il/elle prendra, nous prendrons, vous prendrez, ils/elles prendront
+
+------------------------------------------------------------------------
+
+### Exercises
+
+#### 1. Conjugate the following verbs in futur simple (je form):
+
+1. parler → <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'parlerai')"><span></span>
+2. finir → <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'finirai')"><span></span>
+3. prendre → <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'prendrai')"><span></span>
+4. aller → <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'irai')"><span></span>
+5. avoir → <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'aurai')"><span></span>
+
+#### 2. Complete the sentences with the correct futur simple form:
+
+1. Demain, tu (venir) __________ à la fête. <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'viendras')"><span></span>
+2. Nous (être) __________ en vacances en juillet. <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'serons')"><span></span>
+3. Ils (faire) __________ leurs devoirs ce soir. <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'feront')"><span></span>
+4. Je (voir) __________ mes amis demain. <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'verrai')"><span></span>
+5. Vous (pouvoir) __________ partir à 18h. <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'pourrez')"><span></span>
+
+#### 3. Translate into French using futur simple:
+
+1. I will travel to France. <input type="text" placeholder="French answer" oninput="checkAnswer(this, 'Je voyagerai en France')"><span></span>
+2. She will finish her work. <input type="text" placeholder="French answer" oninput="checkAnswer(this, 'Elle finira son travail')"><span></span>
+3. We will be happy. <input type="text" placeholder="French answer" oninput="checkAnswer(this, 'Nous serons heureux')"><span></span>
+4. They will have a car. <input type="text" placeholder="French answer" oninput="checkAnswer(this, 'Ils auront une voiture')"><span></span>
+5. You (plural) will go to the cinema. <input type="text" placeholder="French answer" oninput="checkAnswer(this, 'Vous irez au cinéma')"><span></span>
+
+<button onclick="showAnswers()">Show Answers</button>
+<button onclick="refreshPage()">Try Again</button>
+
+
+------------------------------------------------------------------------
+
+### To consolidate your learning
+
+Write a short paragraph (3-5 sentences) explaining how and when to use the futur simple in French. Use your own words and, if possible, give an example.
+
+::: callout-note
+
+**Partagez vos phrases ici :**\
+
+::: {style="width:100%;padding:1em;border:2px solid #0078D4;border-radius:8px;background:#f5faff;"}
+<ul>
+
+<li><strong>Futur Simple :</strong> <br> 1. <input type="text" style="width:90%;" /><br> 2. <input type="text" style="width:90%;" /><br> 3. <input type="text" style="width:90%;" /></li>
+
+<li style="margin-top:1em;">
+
+<strong>Futur Antérieur :</strong> <br> 1. <input type="text" style="width:90%;" /><br> 2. <input type="text" style="width:90%;" /><br> 3. <input type="text" style="width:90%;" />
+
+</li>
+
+</ul>
+
+
+
+<script>
+function checkAnswer(input, correctAnswer) {
+    const span = input.nextElementSibling;
+    if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
+        span.textContent = "✓ Correct";
+        span.style.color = "green";
+    } else {
+        span.textContent = "";
+    }
+}
+
+function showAnswers() {
+    document.querySelectorAll('input[type="text"]').forEach(el => {
+        const correct = el.getAttribute('oninput')?.match(/'([^']+)'/)?.[1];
+        if (correct) {
+            const span = el.nextElementSibling;
+            span.textContent = `Réponse : ${correct}`;
+            span.style.color = "blue";
+        }
+    });
+}
+
+function refreshPage() {
+    location.reload();
+}
+</script>
+
+:::
+
+:::
+
+:::
+
+::: {.content-visible when-profile="french"}
+
+### Comprendre le temps "Futur Simple"
+
+Le **futur simple** s'utilise pour parler de projets, d'intentions ou d'événements qui auront lieu plus tard. Il permet d'exprimer ce qui va se passer dans le futur.
+
+#### Formation
+
+- On utilise l’**infinitif** du verbe comme base.
+- Si le verbe se termine par **-e** (comme "prendre", "aimer"), on enlève le **-e** final avant d’ajouter les terminaisons.
+- On ajoute les terminaisons suivantes :
+    - **ai**, **as**, **a**, **ons**, **ez**, **ont**
+
+**Exemples :**
+- *Parler* → je parlerai, tu parleras, il/elle parlera, nous parlerons, vous parlerez, ils/elles parleront
+- *Finir* → je finirai, tu finiras, il/elle finira, nous finirons, vous finirez, ils/elles finiront
+- *Prendre* → je prendrai, tu prendras, il/elle prendra, nous prendrons, vous prendrez, ils/elles prendront
+
+------------------------------------------------------------------------
+
+### Exercices
+
+#### 1. Conjuguez les verbes suivants au futur simple (je) :
+
+1. parler → <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'parlerai')"><span></span>
+2. finir → <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'finirai')"><span></span>
+3. prendre → <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'prendrai')"><span></span>
+4. aller → <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'irai')"><span></span>
+5. avoir → <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'aurai')"><span></span>
+
+#### 2. Complétez les phrases avec la forme correcte du futur simple :
+
+1. Demain, tu (venir) __________ à la fête. <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'viendras')"><span></span>
+2. Nous (être) __________ en vacances en juillet. <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'serons')"><span></span>
+3. Ils (faire) __________ leurs devoirs ce soir. <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'feront')"><span></span>
+4. Je (voir) __________ mes amis demain. <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'verrai')"><span></span>
+5. Vous (pouvoir) __________ partir à 18h. <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'pourrez')"><span></span>
+
+#### 3. Traduisez en français en utilisant le futur simple :
+
+1. I will travel to France. <input type="text" placeholder="Réponse en français" oninput="checkAnswer(this, 'Je voyagerai en France')"><span></span>
+2. She will finish her work. <input type="text" placeholder="Réponse en français" oninput="checkAnswer(this, 'Elle finira son travail')"><span></span>
+3. We will be happy. <input type="text" placeholder="Réponse en français" oninput="checkAnswer(this, 'Nous serons heureux')"><span></span>
+4. They will have a car. <input type="text" placeholder="Réponse en français" oninput="checkAnswer(this, 'Ils auront une voiture')"><span></span>
+5. You (plural) will go to the cinema. <input type="text" placeholder="Réponse en français" oninput="checkAnswer(this, 'Vous irez au cinéma')"><span></span>
+
+<button onclick="showAnswers()">Afficher les réponses</button>
+<button onclick="refreshPage()">Réessayer</button>
+
+------------------------------------------------------------------------
+
+### Pour consolider vos acquis
+
+Écrivez un court paragraphe (3-5 phrases) expliquant comment et quand utiliser le futur simple en français. Utilisez vos propres mots et, si possible, donnez un exemple.
+
+::: callout-note
+
+**Partagez vos phrases ici :**\
+
+::: {style="width:100%;padding:1em;border:2px solid #0078D4;border-radius:8px;background:#f5faff;"}
+<ul>
+
+<li><strong>Futur Simple :</strong> <br> 1. <input type="text" style="width:90%;" /><br> 2. <input type="text" style="width:90%;" /><br> 3. <input type="text" style="width:90%;" /></li>
+
+<li style="margin-top:1em;">
+
+<strong>Futur Antérieur :</strong> <br> 1. <input type="text" style="width:90%;" /><br> 2. <input type="text" style="width:90%;" /><br> 3. <input type="text" style="width:90%;" />
+
+</li>
+
+</ul>
+
+:::
+
+:::
+
+
+
+
+<script>
+function checkAnswer(input, correctAnswer) {
+    const span = input.nextElementSibling;
+    if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
+        span.textContent = "✓ Correct";
+        span.style.color = "green";
+    } else {
+        span.textContent = "";
+    }
+}
+
+function showAnswers() {
+    document.querySelectorAll('input[type="text"]').forEach(el => {
+        const correct = el.getAttribute('oninput')?.match(/'([^']+)'/)?.[1];
+        if (correct) {
+            const span = el.nextElementSibling;
+            span.textContent = `Réponse : ${correct}`;
+            span.style.color = "blue";
+        }
+    });
+}
+
+function refreshPage() {
+    location.reload();
+}
+</script>
+
+
+:::

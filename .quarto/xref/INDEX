@@ -472,5 +472,35 @@
   },
   "exercises/16052025/relatif.qmd": {
     "relatif.html": "f027e35b"
+  },
+  "exercises/20052025/futursimple.qmd": {
+    "futursimple.html": "83be4cda"
+  },
+  "exercises/20052025/passecomposer.qmd": {
+    "passecomposer.html": "5e9fa66c"
+  },
+  "exercises/20052025/imparfait.qmd": {
+    "imparfait.html": "c505a121"
+  },
+  "exercises/20052025/verbs3.qmd": {
+    "verbs3.html": "f3a99f51"
+  },
+  "exercises/20052025/plusqueparfait.qmd": {
+    "plusqueparfait.html": "7c39a52a"
+  },
+  "exercises/20052025/discours.qmd": {
+    "discours.html": "8d96457f"
+  },
+  "exercises/20052025/imperatif.qmd": {
+    "imperatif.html": "e4894c50"
+  },
+  "exercises/20052025/conditionnel.qmd": {
+    "conditionnel.html": "d3d2e7a3"
+  },
+  "exercises/20052025/subjonctif.qmd": {
+    "subjonctif.html": "df40ffa2"
+  },
+  "exercises/20052025/geraondif.qmd": {
+    "geraondif.html": "1d96c446"
   }
 }

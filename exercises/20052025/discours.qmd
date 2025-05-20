@@ -1,0 +1,303 @@
+---
+title: "Discours direct et Indirect"
+author: "Kunal Khurana"
+date: "05-20-2025"
+categories: [B1, grammar, plus-que-parfait, discours-indirect, exercises]
+image: "plusqueparfait.png"
+---
+
+::: {.content-visible when-profile="english"}
+
+### Studying Reported Speech (Discours du temps)
+
+**Reported speech** (discours indirect) is used to state what someone else said. There are two main types:
+
+#### 1. Immediate Reporting – Indirect Speech in the Present
+
+This is used when you report what someone just said, and the reporting verb is in the present or future.
+
+**Example:**
+
+- Direct: She says, "I am tired."
+- Indirect: She says (that) she is tired.
+
+#### 2. Reporting After Some Time – Indirect Speech in the Past
+
+This is used when you report what someone said at a previous time, and the reporting verb is in the past. In French, this often requires changing the tense (backshifting).
+
+**Example:**
+
+- Direct: He said, "I have finished my homework."
+- Indirect: He said (that) he had finished his homework.
+
+#### Table: Direct vs Indirect Speech (French)
+
+| Direct Speech (Discours direct) | Reporting Verb | Indirect Speech (Discours indirect) |
+|---------------------------------|---------------|-------------------------------------|
+| Il dit : "Je pars."             | present       | Il dit qu'il part.                  |
+| Il a dit : "Je pars."           | past          | Il a dit qu'il partait.             |
+| Elle dit : "J'ai fini."         | present       | Elle dit qu'elle a fini.            |
+| Elle a dit : "J'ai fini."       | past          | Elle a dit qu'elle avait fini.      |
+| Tu dis : "Je vais venir."       | present       | Tu dis que tu vas venir.            |
+| Tu as dit : "Je vais venir."    | past          | Tu as dit que tu allais venir.      |
+
+**Key points:**
+- If the reporting verb is in the present, the tense usually stays the same.
+- If the reporting verb is in the past, the tense shifts back (present → imperfect, passé composé → plus-que-parfait, futur → conditionnel, etc.).
+
+---
+
+### Exercises
+
+#### 1. Change to Indirect Speech  
+Rewrite each direct speech sentence as indirect speech in French.
+
+1. Il dit : "Je pars."  
+    <textarea rows="1" style="width:100%;" placeholder="Rewrite in indirect speech..." oninput="checkAnswer(this, 'Il dit qu\'il part.')"></textarea>
+    <span style="margin-left:10px;"></span>
+2. Il a dit : "Je pars."  
+    <textarea rows="1" style="width:100%;" placeholder="Rewrite in indirect speech..." oninput="checkAnswer(this, 'Il a dit qu\'il partait.')"></textarea>
+    <span style="margin-left:10px;"></span>
+3. Elle dit : "J'ai fini."  
+    <textarea rows="1" style="width:100%;" placeholder="Rewrite in indirect speech..." oninput="checkAnswer(this, 'Elle dit qu\'elle a fini.')"></textarea>
+    <span style="margin-left:10px;"></span>
+4. Elle a dit : "J'ai fini."  
+    <textarea rows="1" style="width:100%;" placeholder="Rewrite in indirect speech..." oninput="checkAnswer(this, 'Elle a dit qu\'elle avait fini.')"></textarea>
+    <span style="margin-left:10px;"></span>
+5. Tu dis : "Je vais venir."  
+    <textarea rows="1" style="width:100%;" placeholder="Rewrite in indirect speech..." oninput="checkAnswer(this, 'Tu dis que tu vas venir.')"></textarea>
+    <span style="margin-left:10px;"></span>
+6. Tu as dit : "Je vais venir."  
+    <textarea rows="1" style="width:100%;" placeholder="Rewrite in indirect speech..." oninput="checkAnswer(this, 'Tu as dit que tu allais venir.')"></textarea>
+    <span style="margin-left:10px;"></span>
+
+#### 2. Identify the tense shift  
+For each pair, identify the tense change from direct to indirect speech.
+
+1. Il a dit : "Je pars." → Il a dit qu'il ______.  
+    <input type="text" placeholder="" oninput="checkAnswer(this, 'partait')"><span style="margin-left:10px;"></span>
+2. Elle a dit : "J'ai fini." → Elle a dit qu'elle ______.  
+    <input type="text" placeholder="" oninput="checkAnswer(this, 'avait fini')"><span style="margin-left:10px;"></span>
+3. Tu as dit : "Je vais venir." → Tu as dit que tu ______ venir.  
+    <input type="text" placeholder="" oninput="checkAnswer(this, 'allais')"><span style="margin-left:10px;"></span>
+
+#### 3. Error correction  
+Each sentence contains a mistake with indirect speech. Rewrite it correctly.
+
+1. Il a dit qu'il part.  
+    <textarea rows="1" style="width:100%;" placeholder="Rewrite correctly..." oninput="checkAnswer(this, 'Il a dit qu\'il partait.')"></textarea>
+    <span style="margin-left:10px;"></span>
+2. Elle a dit qu'elle a fini.  
+    <textarea rows="1" style="width:100%;" placeholder="Rewrite correctly..." oninput="checkAnswer(this, 'Elle a dit qu\'elle avait fini.')"></textarea>
+    <span style="margin-left:10px;"></span>
+3. Tu as dit que tu vas venir.  
+    <textarea rows="1" style="width:100%;" placeholder="Rewrite correctly..." oninput="checkAnswer(this, 'Tu as dit que tu allais venir.')"></textarea>
+    <span style="margin-left:10px;"></span>
+
+---
+
+### To consolidate your learning
+
+Write a short paragraph (3-5 sentences) explaining what you have learned about indirect speech (discours du temps) in French. Give an example if possible.  
+<textarea rows="5" style="width:100%;" placeholder="Write here what you have learned..."></textarea>
+
+<button onclick="showAnswers()">Show answers</button>  
+<button onclick="refreshPage()">Try again</button>  
+
+---
+
+### Notes:
+- Indirect speech is used to report what someone else said.
+- If the reporting verb is in the present, the tense usually stays the same.
+- If the reporting verb is in the past, the tense shifts back (present → imperfect, passé composé → plus-que-parfait, futur → conditionnel, etc.).
+
+<script>
+function checkAnswer(input, correctAnswer) {
+     // Find the next element sibling that is a span
+     let span = input.nextSibling;
+     while (span && (span.nodeType !== 1 || span.tagName !== "SPAN")) {
+          span = span.nextSibling;
+     }
+     if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
+          if (span) {
+                span.textContent = "✓ Correct";
+                span.style.color = "green";
+          }
+     } else {
+          if (span) {
+                span.textContent = "";
+          }
+     }
+}
+
+function showAnswers() {
+      document.querySelectorAll('input[type="text"]').forEach(el => {
+             const correct = el.getAttribute('oninput')?.match(/'([^']+)'/)?.[1];
+             if (correct) {
+                     const span = el.nextElementSibling;
+                     span.textContent = `Answer: ${correct}`;
+                     span.style.color = "blue";
+             }
+      });
+      document.querySelectorAll('textarea').forEach(el => {
+             const correct = el.getAttribute('oninput')?.match(/'([^']+)'/)?.[1];
+             if (correct) {
+                     const span = el.nextElementSibling;
+                     span.textContent = `Answer: ${correct}`;
+                     span.style.color = "blue";
+             }
+      });
+}
+
+function refreshPage() {
+      location.reload();
+}
+</script>
+
+:::
+
+::: {.content-visible when-profile="french"}
+
+### Étudier le discours rapporté (Discours du temps)
+
+Le **discours indirect** est utilisé pour rapporter ce que quelqu’un a dit. Il existe deux principaux cas :
+
+#### 1. Discours indirect avec un verbe introducteur au présent
+
+On l’utilise pour rapporter ce que quelqu’un vient de dire, quand le verbe introducteur est au présent ou au futur.
+
+**Exemple :**
+
+- Direct : Elle dit : « Je suis fatiguée. »
+- Indirect : Elle dit (qu’)elle est fatiguée.
+
+#### 2. Discours indirect avec un verbe introducteur au passé
+
+On l’utilise pour rapporter ce que quelqu’un a dit dans le passé, quand le verbe introducteur est au passé. En français, il faut souvent changer le temps du verbe (on parle de « backshift »).
+
+**Exemple :**
+
+- Direct : Il a dit : « J’ai fini mes devoirs. »
+- Indirect : Il a dit (qu’)il avait fini ses devoirs.
+
+#### Tableau : Discours direct vs indirect (français)
+
+| Discours direct                  | Verbe introducteur | Discours indirect                  |
+|----------------------------------|--------------------|------------------------------------|
+| Il dit : « Je pars. »            | présent            | Il dit qu’il part.                 |
+| Il a dit : « Je pars. »          | passé              | Il a dit qu’il partait.            |
+| Elle dit : « J’ai fini. »        | présent            | Elle dit qu’elle a fini.           |
+| Elle a dit : « J’ai fini. »      | passé              | Elle a dit qu’elle avait fini.     |
+| Tu dis : « Je vais venir. »      | présent            | Tu dis que tu vas venir.           |
+| Tu as dit : « Je vais venir. »   | passé              | Tu as dit que tu allais venir.     |
+
+**Points clés :**
+- Si le verbe introducteur est au présent, le temps reste généralement le même.
+- Si le verbe introducteur est au passé, le temps recule d’un cran (présent → imparfait, passé composé → plus-que-parfait, futur → conditionnel, etc.).
+
+---
+
+### Exercices
+
+#### 1. Transformez au discours indirect  
+Réécrivez chaque phrase au discours indirect en français.
+
+1. Il dit : « Je pars. »  
+    <textarea rows="1" style="width:100%;" placeholder="Réécrivez au discours indirect..." oninput="checkAnswer(this, 'Il dit qu\'il part.')"></textarea>
+    <span style="margin-left:10px;"></span>
+2. Il a dit : « Je pars. »  
+    <textarea rows="1" style="width:100%;" placeholder="Réécrivez au discours indirect..." oninput="checkAnswer(this, 'Il a dit qu\'il partait.')"></textarea>
+    <span style="margin-left:10px;"></span>
+3. Elle dit : « J’ai fini. »  
+    <textarea rows="1" style="width:100%;" placeholder="Réécrivez au discours indirect..." oninput="checkAnswer(this, 'Elle dit qu\'elle a fini.')"></textarea>
+    <span style="margin-left:10px;"></span>
+4. Elle a dit : « J’ai fini. »  
+    <textarea rows="1" style="width:100%;" placeholder="Réécrivez au discours indirect..." oninput="checkAnswer(this, 'Elle a dit qu\'elle avait fini.')"></textarea>
+    <span style="margin-left:10px;"></span>
+5. Tu dis : « Je vais venir. »  
+    <textarea rows="1" style="width:100%;" placeholder="Réécrivez au discours indirect..." oninput="checkAnswer(this, 'Tu dis que tu vas venir.')"></textarea>
+    <span style="margin-left:10px;"></span>
+6. Tu as dit : « Je vais venir. »  
+    <textarea rows="1" style="width:100%;" placeholder="Réécrivez au discours indirect..." oninput="checkAnswer(this, 'Tu as dit que tu allais venir.')"></textarea>
+    <span style="margin-left:10px;"></span>
+
+#### 2. Identifiez le changement de temps  
+Pour chaque paire, indiquez le temps utilisé au discours indirect.
+
+1. Il a dit : « Je pars. » → Il a dit qu’il ______.  
+    <input type="text" placeholder="" oninput="checkAnswer(this, 'partait')"><span style="margin-left:10px;"></span>
+2. Elle a dit : « J’ai fini. » → Elle a dit qu’elle ______.  
+    <input type="text" placeholder="" oninput="checkAnswer(this, 'avait fini')"><span style="margin-left:10px;"></span>
+3. Tu as dit : « Je vais venir. » → Tu as dit que tu ______ venir.  
+    <input type="text" placeholder="" oninput="checkAnswer(this, 'allais')"><span style="margin-left:10px;"></span>
+
+#### 3. Correction d’erreurs  
+Chaque phrase contient une erreur de discours indirect. Réécrivez-la correctement.
+
+1. Il a dit qu’il part.  
+    <textarea rows="1" style="width:100%;" placeholder="Réécrivez correctement..." oninput="checkAnswer(this, 'Il a dit qu\'il partait.')"></textarea>
+    <span style="margin-left:10px;"></span>
+2. Elle a dit qu’elle a fini.  
+    <textarea rows="1" style="width:100%;" placeholder="Réécrivez correctement..." oninput="checkAnswer(this, 'Elle a dit qu\'elle avait fini.')"></textarea>
+    <span style="margin-left:10px;"></span>
+3. Tu as dit que tu vas venir.  
+    <textarea rows="1" style="width:100%;" placeholder="Réécrivez correctement..." oninput="checkAnswer(this, 'Tu as dit que tu allais venir.')"></textarea>
+    <span style="margin-left:10px;"></span>
+
+---
+
+### Pour consolider votre apprentissage
+
+Rédigez un court paragraphe (3 à 5 phrases) expliquant ce que vous avez appris sur le discours indirect en français. Donnez un exemple si possible.  
+<textarea rows="5" style="width:100%;" placeholder="Écrivez ici ce que vous avez appris..."></textarea>
+
+<button onclick="showAnswers()">Voir les réponses</button>  
+<button onclick="refreshPage()">Nouvel essai</button>  
+
+---
+
+### Notes :
+- Le discours indirect sert à rapporter ce que quelqu’un a dit.
+- Si le verbe introducteur est au présent, le temps reste généralement le même.
+- Si le verbe introducteur est au passé, le temps recule d’un cran (présent → imparfait, passé composé → plus-que-parfait, futur → conditionnel, etc.).
+
+<script>
+function checkAnswer(input, correctAnswer) {
+    // Find the next element sibling that is a span
+    let span = input.nextSibling;
+    while (span && (span.nodeType !== 1 || span.tagName !== "SPAN")) {
+        span = span.nextSibling;
+    }
+    if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
+        if (span) {
+            span.textContent = "✓ Correct";
+            span.style.color = "green";
+        }
+    } else {
+        if (span) {
+            span.textContent = "";
+        }
+    }
+}
+
+function showAnswers() {
+     document.querySelectorAll('input[type="text"]').forEach(el => {
+          const correct = el.getAttribute('oninput')?.match(/'([^']+)'/)?.[1];
+          if (correct) {
+                const span = el.nextElementSibling;
+                span.textContent = `Réponse : ${correct}`;
+                span.style.color = "blue";
+          }
+     });
+}
+
+function refreshPage() {
+     location.reload();
+}
+</script>
+
+:::
+
+
+
+
