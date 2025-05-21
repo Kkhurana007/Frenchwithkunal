@@ -233,4 +233,5 @@ function verifierTraduction(textarea, bonneReponse) {
 - **Le genre compte** : *Le homard* (masc.) mais *la crevette* (fém.).
 - **Contractions** : *L’huître* (et non « la huître ») à cause du h muet.
 - **Pluriels** : On ajoute généralement *-s* (*les crevettes*, *les sardines*).
+
 :::

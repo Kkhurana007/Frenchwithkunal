@@ -33,8 +33,8 @@ format:
 
   const translations = {
     noAccess: isFrench 
-      ? "Vous n'avez pas accès à cette page."
-      : "You don't have access to this page.",
+      ? "Vous n'avez pas accès à cette page. Si vous pensez que vous avez accès, veuillez <a href='https://frenchwithkunal.ca/login.html'>vous connecter</a>."
+      : "You don't have access to this page. If you think you have, kindly <a href='https://frenchwithkunal.ca/login.html'>login</a>.",
     subscribe: isFrench
       ? "Veuillez vous abonner pour obtenir l'accès."
       : "Please subscribe to gain access.",
@@ -172,40 +172,47 @@ ReactDOM.render(
 ```
 
 ::: {.content-visible when-profile="english"}
+The human body has many parts, each with an important function. Here are some key parts:
 
-The human body has many parts, each with an important function. Here are some key parts:  
+-   **Head (la tête):** The head contains the brain, eyes, ears, nose, and mouth. We use it to think, see, hear, smell, and eat.\
 
-- **Head (la tête):** The head contains the brain, eyes, ears, nose, and mouth. We use it to think, see, hear, smell, and eat.  
-- **Eyes (les yeux):** We see with our eyes. They help us recognize colors and shapes.  
-- **Ears (les oreilles):** We hear sounds with our ears. They also help us keep our balance.  
-- **Nose (le nez):** We smell with our nose. It also helps us breathe.  
-- **Mouth (la bouche):** We eat, drink, and speak with our mouth. Inside, we have teeth (les dents) and a tongue (la langue).  
+-   **Eyes (les yeux):** We see with our eyes. They help us recognize colors and shapes.\
 
-- **Arms (les bras) and Hands (les mains):** We use our arms to carry things. Our hands have fingers (les doigts) to grab objects.  
-- **Legs (les jambes) and Feet (les pieds):** We walk and run with our legs. Our feet help us stand and move.  
+-   **Ears (les oreilles):** We hear sounds with our ears. They also help us keep our balance.\
 
-- **Heart (le cœur):** The heart pumps blood in the body.  
-- **Lungs (les poumons):** We breathe with our lungs. They take oxygen from the air.  
+-   **Nose (le nez):** We smell with our nose. It also helps us breathe.\
 
-Taking care of our body is important. We should eat well, exercise, and rest.  
+-   **Mouth (la bouche):** We eat, drink, and speak with our mouth. Inside, we have teeth (les dents) and a tongue (la langue).
 
+-   **Arms (les bras) and Hands (les mains):** We use our arms to carry things. Our hands have fingers (les doigts) to grab objects.\
+
+-   **Legs (les jambes) and Feet (les pieds):** We walk and run with our legs. Our feet help us stand and move.
+
+-   **Heart (le cœur):** The heart pumps blood in the body.\
+
+-   **Lungs (les poumons):** We breathe with our lungs. They take oxygen from the air.
+
+Taking care of our body is important. We should eat well, exercise, and rest.
 :::
 
 ::: {.content-visible when-profile="french"}
+Le corps humain a beaucoup de parties, chacune avec une fonction importante. Voici quelques parties principales :
 
-Le corps humain a beaucoup de parties, chacune avec une fonction importante. Voici quelques parties principales :  
+-   **La tête :** La tête contient le cerveau, les yeux, les oreilles, le nez et la bouche. On l’utilise pour penser, voir, entendre, sentir et manger.\
 
-- **La tête :** La tête contient le cerveau, les yeux, les oreilles, le nez et la bouche. On l’utilise pour penser, voir, entendre, sentir et manger.  
-- **Les yeux :** On voit avec les yeux. Ils aident à reconnaître les couleurs et les formes.  
-- **Les oreilles :** On entend les sons avec les oreilles. Elles aident aussi à garder l’équilibre.  
-- **Le nez :** On sent les odeurs avec le nez. Il aide aussi à respirer.  
-- **La bouche :** On mange, on boit et on parle avec la bouche. À l’intérieur, il y a les dents et la langue.  
+-   **Les yeux :** On voit avec les yeux. Ils aident à reconnaître les couleurs et les formes.\
 
-- **Les bras et les mains :** On utilise les bras pour porter des choses. Les mains ont des doigts pour attraper des objets.  
-- **Les jambes et les pieds :** On marche et on court avec les jambes. Les pieds aident à se tenir debout et à bouger.  
+-   **Les oreilles :** On entend les sons avec les oreilles. Elles aident aussi à garder l’équilibre.\
 
-- **Le cœur :** Le cœur pompe le sang dans le corps.  
-- **Les poumons :** On respire avec les poumons. Ils prennent l’oxygène dans l’air.  
+-   **Le nez :** On sent les odeurs avec le nez. Il aide aussi à respirer.\
 
+-   **La bouche :** On mange, on boit et on parle avec la bouche. À l’intérieur, il y a les dents et la langue.
 
+-   **Les bras et les mains :** On utilise les bras pour porter des choses. Les mains ont des doigts pour attraper des objets.\
+
+-   **Les jambes et les pieds :** On marche et on court avec les jambes. Les pieds aident à se tenir debout et à bouger.
+
+-   **Le cœur :** Le cœur pompe le sang dans le corps.\
+
+-   **Les poumons :** On respire avec les poumons. Ils prennent l’oxygène dans l’air.
 :::

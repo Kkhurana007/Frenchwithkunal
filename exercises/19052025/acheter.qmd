@@ -6,41 +6,37 @@ categories: [A1/A2, grammar, verbs, exercises]
 image: "acheter.png"
 ---
 
-::: {.content-visible when-profile="english"}
+:::: {.content-visible when-profile="english"}
+### Exercise: Conjugating Verbs Like *Acheter*
 
-### Exercise: Conjugating Verbs Like *Acheter*  
-Practice conjugating stem-changing verbs (*acheter, préférer, espérer, répéter, céder*) in the present tense.  
+Practice conjugating stem-changing verbs (*acheter, préférer, espérer, répéter, céder*) in the present tense.\
 **Remember**: The "e" changes to "è" in all forms **except** *nous* and *vous* (e.g., *j'achète* but *nous achetons*).
 
----
+------------------------------------------------------------------------
 
-### 1. Fill in the Blanks  
+### 1. Fill in the Blanks
+
 Conjugate the verb for each subject.
 
-Je (acheter) <input type="text" placeholder="Your answer">  
-<button onclick="revealAnswer(this, 'J\'achète un livre.')">Check</button>  
-<span class="feedback"></span>
+Je (acheter) <input type="text" placeholder="Your answer">\
+<button onclick="revealAnswer(this, 'J\'achète un livre.')">Check</button>\
 
-Tu (préférer) <input type="text" placeholder="Your answer">  
-<button onclick="revealAnswer(this, 'Tu préfères le café.')">Check</button>  
-<span class="feedback"></span>
+Tu (préférer) <input type="text" placeholder="Your answer">\
+<button onclick="revealAnswer(this, 'Tu préfères le café.')">Check</button>\
 
-Il (espérer) <input type="text" placeholder="Your answer">  
-<button onclick="revealAnswer(this, 'Il espère gagner.')">Check</button>  
-<span class="feedback"></span>
+Il (espérer) <input type="text" placeholder="Your answer">\
+<button onclick="revealAnswer(this, 'Il espère gagner.')">Check</button>\
 
-Nous (répéter) <input type="text" placeholder="Your answer">  
-<button onclick="revealAnswer(this, 'Nous répétons la chanson.')">Check</button>  
-<span class="feedback"></span>
+Nous (répéter) <input type="text" placeholder="Your answer">\
+<button onclick="revealAnswer(this, 'Nous répétons la chanson.')">Check</button>\
 
-Vous (céder) <input type="text" placeholder="Your answer">  
-<button onclick="revealAnswer(this, 'Vous cédez la place.')">Check</button>  
-<span class="feedback"></span>
+Vous (céder) <input type="text" placeholder="Your answer">\
+<button onclick="revealAnswer(this, 'Vous cédez la place.')">Check</button>\
 
-Elles (acheter) <input type="text" placeholder="Your answer">  
-<button onclick="revealAnswer(this, 'Elles achètent des fleurs.')">Check</button>  
-<span class="feedback"></span>
+Elles (acheter) <input type="text" placeholder="Your answer">\
+<button onclick="revealAnswer(this, 'Elles achètent des fleurs.')">Check</button>\
 
+```{=html}
 <script>
 function revealAnswer(button, correctAnswer) {
     const feedback = button.nextElementSibling.nextElementSibling;
@@ -48,44 +44,90 @@ function revealAnswer(button, correctAnswer) {
     feedback.style.color = "blue";
 }
 </script>
+```
 
----
+------------------------------------------------------------------------
 
-### 2. Sentence Correction  
+### 2. Sentence Correction
+
 Fix the incorrect conjugations (watch for missing "è" changes!).
 
-Je prefere le thé. → <textarea rows="1" cols="30" placeholder="Corrected sentence..."></textarea>  
-<button onclick="checkCorrection(this.previousElementSibling, 'Je préfère le thé.')">Check</button>  
-<span class="feedback"></span>
+Je prefere le thé. →
 
-Nous esprons partir. → <textarea rows="1" cols="30" placeholder="Corrected sentence..."></textarea>  
-<button onclick="checkCorrection(this.previousElementSibling, 'Nous espérons partir.')">Check</button>  
-<span class="feedback"></span>  
+```{=html}
+<textarea rows="1" cols="30" placeholder="Corrected sentence..."></textarea>
+```
 
-*(Note: "Nous" form keeps the original "e"!)*  
+<button onclick="checkCorrection(this.previousElementSibling, &#39;Je préfère le thé.&#39;)">
 
----
+Check
 
-### 3. Translation Challenge  
+</button>
+
+Nous esprons partir. →
+
+```{=html}
+<textarea rows="1" cols="30" placeholder="Corrected sentence..."></textarea>
+```
+
+<button onclick="checkCorrection(this.previousElementSibling, &#39;Nous espérons partir.&#39;)">
+
+Check
+
+</button>
+
+*(Note: "Nous" form keeps the original "e"!)*
+
+------------------------------------------------------------------------
+
+### 3. Translation Challenge
+
 Translate into French using stem-changing verbs:
 
-She hopes to travel. → <textarea rows="1" cols="40" placeholder="French translation..."></textarea>  
-<button onclick="checkTranslation(this.previousElementSibling, 'Elle espère voyager.')">Check</button>  
-<span class="feedback"></span>  
+She hopes to travel. →
 
-We buy a car. → <textarea rows="1" cols="40" placeholder="French translation..."></textarea>  
-<button onclick="checkTranslation(this.previousElementSibling, 'Nous achetons une voiture.')">Check</button>  
-<span class="feedback"></span>  
+```{=html}
+<textarea rows="1" cols="40" placeholder="French translation..."></textarea>
+```
 
----
+<button onclick="checkTranslation(this.previousElementSibling, &#39;Elle espère voyager.&#39;)">
 
-### 4. Creative Writing  
-Write 3 sentences about shopping or preferences using at least 2 different stem-changing verbs. Highlight the verbs.  
+Check
 
-<textarea rows="5" cols="100" placeholder="Ex: J'achète des légumes..."></textarea>  
-<button onclick="highlightStemChangeVerbs(this.previousElementSibling)">Highlight Verbs</button>  
-<div class="feedback"></div>  
+</button>
 
+We buy a car. →
+
+```{=html}
+<textarea rows="1" cols="40" placeholder="French translation..."></textarea>
+```
+
+<button onclick="checkTranslation(this.previousElementSibling, &#39;Nous achetons une voiture.&#39;)">
+
+Check
+
+</button>
+
+------------------------------------------------------------------------
+
+### 4. Creative Writing
+
+Write 3 sentences about shopping or preferences using at least 2 different stem-changing verbs. Highlight the verbs.
+
+```{=html}
+<textarea rows="5" cols="100" placeholder="Ex: J'achète des légumes..."></textarea>
+```
+
+<button onclick="highlightStemChangeVerbs(this.previousElementSibling)">
+
+Highlight Verbs
+
+</button>
+
+::: feedback
+:::
+
+```{=html}
 <script>
 function checkAnswer(input, correctAnswer) {
     const userAnswer = input.value.trim().toLowerCase();
@@ -134,45 +176,41 @@ function highlightStemChangeVerbs(textareaElement) {
     const feedback = textareaElement.nextElementSibling.nextElementSibling;  
     feedback.innerHTML = "<strong>Stem-changing verbs used:</strong><br>" + text;  
 }  
-</script>  
+</script>
+```
+::::
 
-:::
+:::: {.content-visible when-profile="french"}
+### Exercice : Conjuguer les verbes comme *Acheter*
 
-::: {.content-visible when-profile="french"}
-
-### Exercice : Conjuguer les verbes comme *Acheter*  
-Entraînez-vous à conjuguer les verbes à changement de radical (*acheter, préférer, espérer, répéter, céder*) au présent.  
+Entraînez-vous à conjuguer les verbes à changement de radical (*acheter, préférer, espérer, répéter, céder*) au présent.\
 **Rappel** : Le "e" devient "è" à toutes les personnes **sauf** *nous* et *vous* (ex. : *j’achète* mais *nous achetons*).
 
----
+------------------------------------------------------------------------
 
-### 1. Complétez les phrases  
+### 1. Complétez les phrases
+
 Conjuguez le verbe pour chaque sujet.
 
-Je (acheter) <input type="text" placeholder="Votre réponse">  
-<button onclick="revealAnswerFr(this, 'J\'achète un livre.')">Vérifier</button>  
-<span class="feedback"></span>
+Je (acheter) <input type="text" placeholder="Votre réponse">\
+<button onclick="revealAnswerFr(this, 'J\'achète un livre.')">Vérifier</button>\
 
-Tu (préférer) <input type="text" placeholder="Votre réponse">  
-<button onclick="revealAnswerFr(this, 'Tu préfères le café.')">Vérifier</button>  
-<span class="feedback"></span>
+Tu (préférer) <input type="text" placeholder="Votre réponse">\
+<button onclick="revealAnswerFr(this, 'Tu préfères le café.')">Vérifier</button>\
 
-Il (espérer) <input type="text" placeholder="Votre réponse">  
-<button onclick="revealAnswerFr(this, 'Il espère gagner.')">Vérifier</button>  
-<span class="feedback"></span>
+Il (espérer) <input type="text" placeholder="Votre réponse">\
+<button onclick="revealAnswerFr(this, 'Il espère gagner.')">Vérifier</button>\
 
-Nous (répéter) <input type="text" placeholder="Votre réponse">  
-<button onclick="revealAnswerFr(this, 'Nous répétons la chanson.')">Vérifier</button>  
-<span class="feedback"></span>
+Nous (répéter) <input type="text" placeholder="Votre réponse">\
+<button onclick="revealAnswerFr(this, 'Nous répétons la chanson.')">Vérifier</button>\
 
-Vous (céder) <input type="text" placeholder="Votre réponse">  
-<button onclick="revealAnswerFr(this, 'Vous cédez la place.')">Vérifier</button>  
-<span class="feedback"></span>
+Vous (céder) <input type="text" placeholder="Votre réponse">\
+<button onclick="revealAnswerFr(this, 'Vous cédez la place.')">Vérifier</button>\
 
-Elles (acheter) <input type="text" placeholder="Votre réponse">  
-<button onclick="revealAnswerFr(this, 'Elles achètent des fleurs.')">Vérifier</button>  
-<span class="feedback"></span>
+Elles (acheter) <input type="text" placeholder="Votre réponse">\
+<button onclick="revealAnswerFr(this, 'Elles achètent des fleurs.')">Vérifier</button>\
 
+```{=html}
 <script>
 function revealAnswerFr(button, correctAnswer) {
     const feedback = button.nextElementSibling.nextElementSibling;
@@ -180,44 +218,90 @@ function revealAnswerFr(button, correctAnswer) {
     feedback.style.color = "blue";
 }
 </script>
+```
 
----
+------------------------------------------------------------------------
 
-### 2. Correction de phrases  
+### 2. Correction de phrases
+
 Corrigez les conjugaisons incorrectes (attention au "è" !).
 
-Je prefere le thé. → <textarea rows="1" cols="30" placeholder="Phrase corrigée..."></textarea>  
-<button onclick="checkCorrectionFr(this.previousElementSibling, 'Je préfère le thé.')">Vérifier</button>  
-<span class="feedback"></span>
+Je prefere le thé. →
 
-Nous esprons partir. → <textarea rows="1" cols="30" placeholder="Phrase corrigée..."></textarea>  
-<button onclick="checkCorrectionFr(this.previousElementSibling, 'Nous espérons partir.')">Vérifier</button>  
-<span class="feedback"></span>  
+```{=html}
+<textarea rows="1" cols="30" placeholder="Phrase corrigée..."></textarea>
+```
 
-*(Note : La forme "nous" garde le "e" d’origine !)*  
+<button onclick="checkCorrectionFr(this.previousElementSibling, &#39;Je préfère le thé.&#39;)">
 
----
+Vérifier
 
-### 3. Traduction  
+</button>
+
+Nous esprons partir. →
+
+```{=html}
+<textarea rows="1" cols="30" placeholder="Phrase corrigée..."></textarea>
+```
+
+<button onclick="checkCorrectionFr(this.previousElementSibling, &#39;Nous espérons partir.&#39;)">
+
+Vérifier
+
+</button>
+
+*(Note : La forme "nous" garde le "e" d’origine !)*
+
+------------------------------------------------------------------------
+
+### 3. Traduction
+
 Traduisez en français en utilisant les verbes à changement de radical :
 
-She hopes to travel. → <textarea rows="1" cols="40" placeholder="Traduction française..."></textarea>  
-<button onclick="checkTranslationFr(this.previousElementSibling, 'Elle espère voyager.')">Vérifier</button>  
-<span class="feedback"></span>  
+She hopes to travel. →
 
-We buy a car. → <textarea rows="1" cols="40" placeholder="Traduction française..."></textarea>  
-<button onclick="checkTranslationFr(this.previousElementSibling, 'Nous achetons une voiture.')">Vérifier</button>  
-<span class="feedback"></span>  
+```{=html}
+<textarea rows="1" cols="40" placeholder="Traduction française..."></textarea>
+```
 
----
+<button onclick="checkTranslationFr(this.previousElementSibling, &#39;Elle espère voyager.&#39;)">
 
-### 4. Production écrite  
+Vérifier
+
+</button>
+
+We buy a car. →
+
+```{=html}
+<textarea rows="1" cols="40" placeholder="Traduction française..."></textarea>
+```
+
+<button onclick="checkTranslationFr(this.previousElementSibling, &#39;Nous achetons une voiture.&#39;)">
+
+Vérifier
+
+</button>
+
+------------------------------------------------------------------------
+
+### 4. Production écrite
+
 Écrivez 3 phrases sur le shopping ou vos préférences en utilisant au moins 2 verbes à changement de radical différents. Mettez les verbes en évidence.
 
-<textarea rows="5" cols="100" placeholder="Ex : J’achète des légumes..."></textarea>  
-<button onclick="highlightStemChangeVerbsFr(this.previousElementSibling)">Mettre en évidence</button>  
-<div class="feedback"></div>  
+```{=html}
+<textarea rows="5" cols="100" placeholder="Ex : J’achète des légumes..."></textarea>
+```
 
+<button onclick="highlightStemChangeVerbsFr(this.previousElementSibling)">
+
+Mettre en évidence
+
+</button>
+
+::: feedback
+:::
+
+```{=html}
 <script>
 function checkCorrectionFr(textareaElement, correctAnswer) {  
     const userText = textareaElement.value.trim();  
@@ -253,5 +337,5 @@ function highlightStemChangeVerbsFr(textareaElement) {
     feedback.innerHTML = "<strong>Verbes à changement de radical utilisés :</strong><br>" + text;  
 }
 </script>
-
-:::
+```
+::::
