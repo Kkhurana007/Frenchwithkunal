@@ -502,5 +502,59 @@
   },
   "exercises/20052025/geraondif.qmd": {
     "geraondif.html": "1d96c446"
+  },
+  "exercises/20052025/active_passive.qmd": {
+    "active_passive.html": "236741e1"
+  },
+  "exercises/20052025/impersonnelle.qmd": {
+    "impersonnelle.html": "8d1af797"
+  },
+  "exercises/20052025/pronominale.qmd": {
+    "pronominale.html": "86b98308"
+  },
+  "exercises/20052025/construction.qmd": {
+    "construction.html": "971e3a6b"
+  },
+  "exercises/20052025/prepositiona.qmd": {
+    "prepositiona.html": "e926f241"
+  },
+  "exercises/20052025/prepositionde.qmd": {
+    "prepositionde.html": "e32e672f"
+  },
+  "exercises/20052025/prepositionen.qmd": {
+    "prepositionen.html": "d0c7ed14"
+  },
+  "exercises/20052025/prepositions.qmd": {
+    "prepositions.html": "df392b3e"
+  },
+  "exercises/20052025/preposition_a.qmd": {
+    "preposition_a.html": "bec7a6ce"
+  },
+  "exercises/20052025/adverbes.qmd": {
+    "adverbes.html": "01c2fe14"
+  },
+  "test_dashboard.qmd": {
+    "test_dashboard.html": "1412ad32"
+  },
+  "exercises/22052025/adv_mainere.qmd": {
+    "adv_mainere.html": "2fe4cde1"
+  },
+  "exercises/22052025/adv_temps.qmd": {
+    "adv_temps.html": "d1595a72"
+  },
+  "exercises/22052025/adv_quantite.qmd": {
+    "adv_quantite.html": "2c1dc17b"
+  },
+  "exercises/22052025/adv_lieu.qmd": {
+    "adv_lieu.html": "3387e031"
+  },
+  "exercises/22052025/adv_affirmation.qmd": {
+    "adv_affirmation.html": "bfdfb9a5"
+  },
+  "exercises/22052025/adv_conjuction.qmd": {
+    "adv_conjuction.html": "cdbe5451"
+  },
+  "exercises/22052025/adv_placement.qmd": {
+    "adv_placement.html": "cde7818a"
   }
 }

@@ -1,0 +1,328 @@
+---
+title: "Les verbes pronominaux en français"
+author: "Kunal Khurana"
+date: "05-20-2025"
+categories: [B1, grammar, pronominal, exercices]
+image: "pronominal.png"
+---
+
+::: {.content-visible when-profile="english"}
+
+# Pronominal Verbs in French
+
+Pronominal verbs are used when the subject performs the action on itself. The verb is accompanied by a reflexive pronoun that matches the subject.
+
+## Examples
+
+### 1st Person Singular (je)
+- **Je me lave.**  
+    *(I wash myself.)*
+
+### 2nd Person Singular (tu)
+- **Tu te réveilles.**  
+    *(You wake yourself up.)*
+
+### 3rd Person Singular (il/elle/on)
+- **Elle s'habille.**  
+    *(She gets dressed.)*
+
+### 1st Person Plural (nous)
+- **Nous nous promenons.**  
+    *(We take a walk.)*
+
+### 2nd Person Plural (vous)
+- **Vous vous souvenez.**  
+    *(You remember.)*
+
+### 3rd Person Plural (ils/elles)
+- **Ils se couchent.**  
+    *(They go to bed.)*
+
+------------------------------------------------------------------------
+
+# Exercises: Complete with the correct pronominal form
+
+For each sentence, write the correct pronominal verb form.
+
+### 1ère personne du singulier
+
+Complétez les phrases suivantes avec la bonne forme du verbe pronominal entre parenthèses.
+
+1. (se lever) Je ________ tôt le matin.  
+    <input type="text" placeholder="" size="25" oninput="checkAnswer(this, 'me lève')"><span></span>  
+2. (se souvenir) Je ________ de cette histoire.  
+    <input type="text" placeholder="" size="25" oninput="checkAnswer(this, 'me souviens')"><span></span>  
+3. (se laver) Je ________ les mains avant de manger.  
+    <input type="text" placeholder="" size="25" oninput="checkAnswer(this, 'me lave')"><span></span>  
+4. (se reposer) Je ________ après le travail.  
+    <input type="text" placeholder="" size="25" oninput="checkAnswer(this, 'me repose')"><span></span>  
+5. (se dépêcher) Je ________ pour attraper le bus.  
+    <input type="text" placeholder="" size="25" oninput="checkAnswer(this, 'me dépêche')"><span></span>  
+
+### 2ème personne du singulier
+
+Complétez les phrases suivantes avec la bonne forme du verbe pronominal entre parenthèses.
+
+1. (se brosser) Tu ________ les dents après chaque repas.  
+    <input type="text" placeholder="" size="25" oninput="checkAnswer(this, 'te brosses')"><span></span>  
+2. (se reposer) Tu ________ après le travail.  
+    <input type="text" placeholder="" size="25" oninput="checkAnswer(this, 'te reposes')"><span></span>  
+3. (se lever) Tu ________ à sept heures.  
+    <input type="text" placeholder="" size="25" oninput="checkAnswer(this, 'te lèves')"><span></span>  
+4. (se souvenir) Tu ________ de cette chanson ?  
+    <input type="text" placeholder="" size="25" oninput="checkAnswer(this, 'te souviens')"><span></span>  
+5. (se coucher) Tu ________ tard le week-end.  
+    <input type="text" placeholder="" size="25" oninput="checkAnswer(this, 'te couches')"><span></span>  
+
+### 3ème personne du singulier
+
+Complétez les phrases suivantes avec la bonne forme du verbe pronominal entre parenthèses.
+
+1. (s’habiller) Il ________ rapidement le matin.  
+    <input type="text" placeholder="" size="25" oninput="checkAnswer(this, 's\'habille')"><span></span>  
+2. (se coucher) Elle ________ à 22h.  
+    <input type="text" placeholder="" size="25" oninput="checkAnswer(this, 'se couche')"><span></span>  
+3. (se réveiller) Il ________ tôt chaque jour.  
+    <input type="text" placeholder="" size="25" oninput="checkAnswer(this, 'se réveille')"><span></span>  
+4. (se laver) Elle ________ avant le petit-déjeuner.  
+    <input type="text" placeholder="" size="25" oninput="checkAnswer(this, 'se lave')"><span></span>  
+5. (se promener) Il ________ dans le parc le soir.  
+    <input type="text" placeholder="" size="25" oninput="checkAnswer(this, 'se promène')"><span></span>  
+
+### 1ère personne du pluriel
+
+Complétez les phrases suivantes avec la bonne forme du verbe pronominal entre parenthèses.
+
+1. (se promener) Nous ________ dans le parc.  
+    <input type="text" placeholder="" size="25" oninput="checkAnswer(this, 'nous promenons')"><span></span>  
+2. (se dépêcher) Nous ________ pour ne pas être en retard.  
+    <input type="text" placeholder="" size="25" oninput="checkAnswer(this, 'nous dépêchons')"><span></span>  
+3. (se laver) Nous ________ les mains avant de manger.  
+    <input type="text" placeholder="" size="25" oninput="checkAnswer(this, 'nous lavons')"><span></span>  
+4. (se souvenir) Nous ________ de nos vacances.  
+    <input type="text" placeholder="" size="25" oninput="checkAnswer(this, 'nous souvenons')"><span></span>  
+5. (se reposer) Nous ________ le dimanche après-midi.  
+    <input type="text" placeholder="" size="25" oninput="checkAnswer(this, 'nous reposons')"><span></span>  
+
+### 2ème personne du pluriel
+
+Complétez les phrases suivantes avec la bonne forme du verbe pronominal entre parenthèses.
+
+1. (se souvenir) Vous ________ de vos amis d’enfance.  
+    <input type="text" placeholder="" size="25" oninput="checkAnswer(this, 'vous souvenez')"><span></span>  
+2. (se laver) Vous ________ les mains avant de manger.  
+    <input type="text" placeholder="" size="25" oninput="checkAnswer(this, 'vous lavez')"><span></span>  
+3. (se lever) Vous ________ tôt pendant la semaine.  
+    <input type="text" placeholder="" size="25" oninput="checkAnswer(this, 'vous levez')"><span></span>  
+4. (se coucher) Vous ________ à minuit.  
+    <input type="text" placeholder="" size="25" oninput="checkAnswer(this, 'vous couchez')"><span></span>  
+5. (se promener) Vous ________ souvent en ville.  
+    <input type="text" placeholder="" size="25" oninput="checkAnswer(this, 'vous promenez')"><span></span>  
+
+### 3ème personne du pluriel
+
+Complétez les phrases suivantes avec la bonne forme du verbe pronominal entre parenthèses.
+
+1. (se réveiller) Ils ________ tard le dimanche.  
+    <input type="text" placeholder="" size="25" oninput="checkAnswer(this, 'se réveillent')"><span></span>  
+2. (se parler) Elles ________ tous les jours.  
+    <input type="text" placeholder="" size="25" oninput="checkAnswer(this, 'se parlent')"><span></span>  
+3. (se laver) Ils ________ après le sport.  
+    <input type="text" placeholder="" size="25" oninput="checkAnswer(this, 'se lavent')"><span></span>  
+4. (se coucher) Elles ________ tôt pendant la semaine.  
+    <input type="text" placeholder="" size="25" oninput="checkAnswer(this, 'se couchent')"><span></span>  
+5. (se dépêcher) Ils ________ pour prendre le train.  
+    <input type="text" placeholder="" size="25" oninput="checkAnswer(this, 'se dépêchent')"><span></span>  
+
+
+<button onclick="showAnswers()">Show answers</button>
+<button onclick="refreshPage()">Try again</button>
+
+<script>
+function checkAnswer(input, correctAnswer) {
+    const span = input.nextElementSibling;
+    if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
+        span.textContent = "✓ Correct";
+        span.style.color = "green";
+    } else {
+        span.textContent = "";
+    }
+}
+
+function showAnswers() {
+    document.querySelectorAll('input[type="text"]').forEach(el => {
+        const correct = el.getAttribute('oninput')?.match(/'([^']+)'/)?.[1];
+        if (correct) {
+            const span = el.nextElementSibling;
+            span.textContent = `Réponse : ${correct}`;
+            span.style.color = "blue";
+        }
+    });
+}
+
+function refreshPage() {
+    location.reload();
+}
+</script>
+
+:::
+
+::: {.content-visible when-profile="french"}
+
+# Les verbes pronominaux en français
+
+Les verbes pronominaux s’utilisent lorsque le sujet fait l’action sur lui-même. Le verbe est accompagné d’un pronom réfléchi qui s’accorde avec le sujet.
+
+## Exemples
+
+### 1ère personne du singulier (je)
+- **Je me lave.**  
+    *(Je lave moi-même.)*
+
+### 2ème personne du singulier (tu)
+- **Tu te réveilles.**  
+    *(Tu réveilles toi-même.)*
+
+### 3ème personne du singulier (il/elle/on)
+- **Elle s'habille.**  
+    *(Elle habille elle-même.)*
+
+### 1ère personne du pluriel (nous)
+- **Nous nous promenons.**  
+    *(Nous promenons nous-mêmes.)*
+
+### 2ème personne du pluriel (vous)
+- **Vous vous souvenez.**  
+    *(Vous souvenez vous-mêmes.)*
+
+### 3ème personne du pluriel (ils/elles)
+- **Ils se couchent.**  
+    *(Ils couchent eux-mêmes.)*
+
+------------------------------------------------------------------------
+
+# Exercices : Complétez avec la bonne forme pronominale
+
+Pour chaque phrase, écrivez la forme correcte du verbe pronominal.
+
+### 1ère personne du singulier
+
+Complétez les phrases suivantes avec la bonne forme du verbe pronominal entre parenthèses.
+
+1. (se lever) Je ________ tôt le matin.  
+    <input type="text" placeholder="" size="25" oninput="checkAnswer(this, 'me lève')"><span></span>  
+2. (se souvenir) Je ________ de cette histoire.  
+    <input type="text" placeholder="" size="25" oninput="checkAnswer(this, 'me souviens')"><span></span>  
+3. (se laver) Je ________ les mains avant de manger.  
+    <input type="text" placeholder="" size="25" oninput="checkAnswer(this, 'me lave')"><span></span>  
+4. (se reposer) Je ________ après le travail.  
+    <input type="text" placeholder="" size="25" oninput="checkAnswer(this, 'me repose')"><span></span>  
+5. (se dépêcher) Je ________ pour attraper le bus.  
+    <input type="text" placeholder="" size="25" oninput="checkAnswer(this, 'me dépêche')"><span></span>  
+
+### 2ème personne du singulier
+
+Complétez les phrases suivantes avec la bonne forme du verbe pronominal entre parenthèses.
+
+1. (se brosser) Tu ________ les dents après chaque repas.  
+    <input type="text" placeholder="" size="25" oninput="checkAnswer(this, 'te brosses')"><span></span>  
+2. (se reposer) Tu ________ après le travail.  
+    <input type="text" placeholder="" size="25" oninput="checkAnswer(this, 'te reposes')"><span></span>  
+3. (se lever) Tu ________ à sept heures.  
+    <input type="text" placeholder="" size="25" oninput="checkAnswer(this, 'te lèves')"><span></span>  
+4. (se souvenir) Tu ________ de cette chanson ?  
+    <input type="text" placeholder="" size="25" oninput="checkAnswer(this, 'te souviens')"><span></span>  
+5. (se coucher) Tu ________ tard le week-end.  
+    <input type="text" placeholder="" size="25" oninput="checkAnswer(this, 'te couches')"><span></span>  
+
+### 3ème personne du singulier
+
+Complétez les phrases suivantes avec la bonne forme du verbe pronominal entre parenthèses.
+
+1. (s’habiller) Il ________ rapidement le matin.  
+    <input type="text" placeholder="" size="25" oninput="checkAnswer(this, 's\'habille')"><span></span>  
+2. (se coucher) Elle ________ à 22h.  
+    <input type="text" placeholder="" size="25" oninput="checkAnswer(this, 'se couche')"><span></span>  
+3. (se réveiller) Il ________ tôt chaque jour.  
+    <input type="text" placeholder="" size="25" oninput="checkAnswer(this, 'se réveille')"><span></span>  
+4. (se laver) Elle ________ avant le petit-déjeuner.  
+    <input type="text" placeholder="" size="25" oninput="checkAnswer(this, 'se lave')"><span></span>  
+5. (se promener) Il ________ dans le parc le soir.  
+    <input type="text" placeholder="" size="25" oninput="checkAnswer(this, 'se promène')"><span></span>  
+
+### 1ère personne du pluriel
+
+Complétez les phrases suivantes avec la bonne forme du verbe pronominal entre parenthèses.
+
+1. (se promener) Nous ________ dans le parc.  
+    <input type="text" placeholder="" size="25" oninput="checkAnswer(this, 'nous promenons')"><span></span>  
+2. (se dépêcher) Nous ________ pour ne pas être en retard.  
+    <input type="text" placeholder="" size="25" oninput="checkAnswer(this, 'nous dépêchons')"><span></span>  
+3. (se laver) Nous ________ les mains avant de manger.  
+    <input type="text" placeholder="" size="25" oninput="checkAnswer(this, 'nous lavons')"><span></span>  
+4. (se souvenir) Nous ________ de nos vacances.  
+    <input type="text" placeholder="" size="25" oninput="checkAnswer(this, 'nous souvenons')"><span></span>  
+5. (se reposer) Nous ________ le dimanche après-midi.  
+    <input type="text" placeholder="" size="25" oninput="checkAnswer(this, 'nous reposons')"><span></span>  
+
+### 2ème personne du pluriel
+
+Complétez les phrases suivantes avec la bonne forme du verbe pronominal entre parenthèses.
+
+1. (se souvenir) Vous ________ de vos amis d’enfance.  
+    <input type="text" placeholder="" size="25" oninput="checkAnswer(this, 'vous souvenez')"><span></span>  
+2. (se laver) Vous ________ les mains avant de manger.  
+    <input type="text" placeholder="" size="25" oninput="checkAnswer(this, 'vous lavez')"><span></span>  
+3. (se lever) Vous ________ tôt pendant la semaine.  
+    <input type="text" placeholder="" size="25" oninput="checkAnswer(this, 'vous levez')"><span></span>  
+4. (se coucher) Vous ________ à minuit.  
+    <input type="text" placeholder="" size="25" oninput="checkAnswer(this, 'vous couchez')"><span></span>  
+5. (se promener) Vous ________ souvent en ville.  
+    <input type="text" placeholder="" size="25" oninput="checkAnswer(this, 'vous promenez')"><span></span>  
+
+### 3ème personne du pluriel
+
+Complétez les phrases suivantes avec la bonne forme du verbe pronominal entre parenthèses.
+
+1. (se réveiller) Ils ________ tard le dimanche.  
+    <input type="text" placeholder="" size="25" oninput="checkAnswer(this, 'se réveillent')"><span></span>  
+2. (se parler) Elles ________ tous les jours.  
+    <input type="text" placeholder="" size="25" oninput="checkAnswer(this, 'se parlent')"><span></span>  
+3. (se laver) Ils ________ après le sport.  
+    <input type="text" placeholder="" size="25" oninput="checkAnswer(this, 'se lavent')"><span></span>  
+4. (se coucher) Elles ________ tôt pendant la semaine.  
+    <input type="text" placeholder="" size="25" oninput="checkAnswer(this, 'se couchent')"><span></span>  
+5. (se dépêcher) Ils ________ pour prendre le train.  
+    <input type="text" placeholder="" size="25" oninput="checkAnswer(this, 'se dépêchent')"><span></span>  
+
+<button onclick="showAnswers()">Afficher les réponses</button>
+<button onclick="refreshPage()">Réessayer</button>
+
+<script>
+function checkAnswer(input, correctAnswer) {
+    const span = input.nextElementSibling;
+    if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
+        span.textContent = "✓ Correct";
+        span.style.color = "green";
+    } else {
+        span.textContent = "";
+    }
+}
+
+function showAnswers() {
+    document.querySelectorAll('input[type="text"]').forEach(el => {
+        const correct = el.getAttribute('oninput')?.match(/'([^']+)'/)?.[1];
+        if (correct) {
+            const span = el.nextElementSibling;
+            span.textContent = `Réponse : ${correct}`;
+            span.style.color = "blue";
+        }
+    });
+}
+
+function refreshPage() {
+    location.reload();
+}
+</script>
+
+:::

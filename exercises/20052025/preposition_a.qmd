@@ -1,0 +1,428 @@
+---
+title: "The Preposition 'à' in French: Uses and Practice"
+author: "Kunal Khurana"
+date: "05-20-2025"
+categories: [B1, grammar, prepositions, à, exercises]
+image: "preposition-a.png"
+---
+
+::::::::::: {.content-visible when-profile="english"}
+### Understanding the Preposition **à** in French
+
+The preposition **à** is one of the most versatile and frequently used words in French. It can indicate place, time, manner, accompaniment, and is used after certain verbs, adjectives, adverbs, and nouns. Here are its main uses:
+
+#### 1. After Certain Verbs
+
+Some verbs are always followed by **à** before another verb or noun. - *Je commence à travailler.* (I start working.) - *Il pense à son avenir.* (He thinks about his future.)
+
+#### 2. As a Complement of an Adjective
+
+Some adjectives require **à** to introduce their complement. - *Il est prêt à partir.* (He is ready to leave.) - *Elle est habituée à la chaleur.* (She is used to the heat.)
+
+#### 3. As a Complement of an Adverb
+
+Certain adverbs are followed by **à**. - *Il est le premier à arriver.* (He is the first to arrive.) - *Elle est la dernière à sortir.* (She is the last to leave.)
+
+#### 4. As a Complement of a Noun
+
+Many nouns take **à** to introduce their complement. - *Une tasse à café* (A coffee cup) - *Une salle à manger* (A dining room)
+
+#### 5. Complement of a Noun with Description
+
+**à** can describe the purpose or characteristic of a noun. - *Une machine à laver* (A washing machine) - *Une boîte à outils* (A toolbox)
+
+#### 6. Expressing Distance, Time, Manner, Accompaniment
+
+-   **Distance:** *La gare est à 2 km d’ici.* (The station is 2 km from here.)
+-   **Time:** *Le film commence à 20h.* (The movie starts at 8pm.)
+-   **Manner:** *Fait à la main.* (Made by hand.)
+-   **Accompaniment:** *Je vais à Paris avec mes amis.* (I’m going to Paris with my friends.)
+
+------------------------------------------------------------------------
+
+### Exercises
+
+#### 1. Complete with **à** where necessary
+
+Type **à** in the blank if needed, or leave it blank if not.
+
+1.  Je pense <input type="text" placeholder="" oninput="checkAnswer(this, 'à')"> mes vacances.
+2.  Il est prêt <input type="text" placeholder="" oninput="checkAnswer(this, 'à')"> partir.
+3.  Nous allons <input type="text" placeholder="" oninput="checkAnswer(this, 'à')"> la plage demain.
+4.  Elle joue <input type="text" placeholder="" oninput="checkAnswer(this, 'de')"> la guitare.
+5.  C’est une machine <input type="text" placeholder="" oninput="checkAnswer(this, 'à')"> laver.
+6.  Le train arrive <input type="text" placeholder="" oninput="checkAnswer(this, 'à')"> 18h.
+7.  Il habite <input type="text" placeholder="" oninput="checkAnswer(this, 'à')"> 10 minutes d’ici.
+8.  Elle est la première <input type="text" placeholder="" oninput="checkAnswer(this, 'à')"> répondre.
+9.  Un verre <input type="text" placeholder="" oninput="checkAnswer(this, 'à')"> vin.
+10. Il parle <input type="text" placeholder="" oninput="checkAnswer(this, 'à')"> son frère.
+11. Une tasse <input type="text" placeholder="" oninput="checkAnswer(this, 'à')"> café.
+12. Il pense <input type="text" placeholder="" oninput="checkAnswer(this, 'à')"> son avenir.
+13. Elle est habituée <input type="text" placeholder="" oninput="checkAnswer(this, 'à')"> la chaleur.
+14. Nous sommes invités <input type="text" placeholder="" oninput="checkAnswer(this, 'à')"> dîner.
+15. Il commence <input type="text" placeholder="" oninput="checkAnswer(this, 'à')"> travailler.
+
+#### 2. Choose the correct use of **à**
+
+Select the correct answer for each sentence.
+
+<div>
+
+1.  <b>Une boîte à outils</b><br> <input type="radio" name="q1" id="q1a" onclick="checkRadioAnswer('q1', 'Purpose')"> Place <input type="radio" name="q1" id="q1b" onclick="checkRadioAnswer('q1', 'Purpose')"> Purpose <input type="radio" name="q1" id="q1c" onclick="checkRadioAnswer('q1', 'Purpose')"> Time <input type="radio" name="q1" id="q1d" onclick="checkRadioAnswer('q1', 'Purpose')"> Accompaniment
+
+</div>
+
+<div>
+
+2.  <b>Je vais à Paris</b><br> <input type="radio" name="q2" id="q2a" onclick="checkRadioAnswer('q2', 'Place')"> Place <input type="radio" name="q2" id="q2b" onclick="checkRadioAnswer('q2', 'Place')"> Purpose <input type="radio" name="q2" id="q2c" onclick="checkRadioAnswer('q2', 'Place')"> Manner <input type="radio" name="q2" id="q2d" onclick="checkRadioAnswer('q2', 'Place')"> Distance
+
+</div>
+
+<div>
+
+3.  <b>Fait à la main</b><br> <input type="radio" name="q3" id="q3a" onclick="checkRadioAnswer('q3', 'Manner')"> Place <input type="radio" name="q3" id="q3b" onclick="checkRadioAnswer('q3', 'Manner')"> Purpose <input type="radio" name="q3" id="q3c" onclick="checkRadioAnswer('q3', 'Manner')"> Manner <input type="radio" name="q3" id="q3d" onclick="checkRadioAnswer('q3', 'Manner')"> Time
+
+</div>
+
+<div>
+
+4.  <b>Le film commence à 21h</b><br> <input type="radio" name="q4" id="q4a" onclick="checkRadioAnswer('q4', 'Time')"> Place <input type="radio" name="q4" id="q4b" onclick="checkRadioAnswer('q4', 'Time')"> Purpose <input type="radio" name="q4" id="q4c" onclick="checkRadioAnswer('q4', 'Time')"> Manner <input type="radio" name="q4" id="q4d" onclick="checkRadioAnswer('q4', 'Time')"> Time
+
+</div>
+
+<div>
+
+5.  <b>Il est habitué à la chaleur</b><br> <input type="radio" name="q5" id="q5a" onclick="checkRadioAnswer('q5', 'Complement of adjective')"> Place <input type="radio" name="q5" id="q5b" onclick="checkRadioAnswer('q5', 'Complement of adjective')"> Purpose <input type="radio" name="q5" id="q5c" onclick="checkRadioAnswer('q5', 'Complement of adjective')"> Time <input type="radio" name="q5" id="q5d" onclick="checkRadioAnswer('q5', 'Complement of adjective')"> Complement of adjective
+
+</div>
+
+<div>
+
+6.  <b>La gare est à 2 km d’ici</b><br> <input type="radio" name="q6" id="q6a" onclick="checkRadioAnswer('q6', 'Distance')"> Distance <input type="radio" name="q6" id="q6b" onclick="checkRadioAnswer('q6', 'Distance')"> Place <input type="radio" name="q6" id="q6c" onclick="checkRadioAnswer('q6', 'Distance')"> Purpose <input type="radio" name="q6" id="q6d" onclick="checkRadioAnswer('q6', 'Distance')"> Manner
+
+</div>
+
+<div>
+
+7.  <b>Une salle à manger</b><br> <input type="radio" name="q7" id="q7a" onclick="checkRadioAnswer('q7', 'Purpose')"> Place <input type="radio" name="q7" id="q7b" onclick="checkRadioAnswer('q7', 'Purpose')"> Purpose <input type="radio" name="q7" id="q7c" onclick="checkRadioAnswer('q7', 'Purpose')"> Time <input type="radio" name="q7" id="q7d" onclick="checkRadioAnswer('q7', 'Purpose')"> Accompaniment
+
+</div>
+
+<div>
+
+8.  <b>Je parle à mon ami</b><br> <input type="radio" name="q8" id="q8a" onclick="checkRadioAnswer('q8', 'Accompaniment')"> Accompaniment <input type="radio" name="q8" id="q8b" onclick="checkRadioAnswer('q8', 'Accompaniment')"> Complement of verb <input type="radio" name="q8" id="q8c" onclick="checkRadioAnswer('q8', 'Accompaniment')"> Place <input type="radio" name="q8" id="q8d" onclick="checkRadioAnswer('q8', 'Accompaniment')"> Time
+
+</div>
+
+```{=html}
+<script>
+const correctRadioAnswers = {
+    q1: "Purpose",
+    q2: "Place",
+    q3: "Manner",
+    q4: "Time",
+    q5: "Complement of adjective",
+    q6: "Distance",
+    q7: "Purpose",
+    q8: "Complement of verb"
+};
+
+function checkRadioAnswer(q, correct) {
+    const radios = document.getElementsByName(q);
+    let selected = "";
+    radios.forEach(r => {
+        if (r.checked) {
+            selected = r.nextSibling.textContent.trim();
+        }
+    });
+    const result = document.getElementById(q + "-result");
+    if (selected === correct) {
+        result.textContent = "✓ Correct";
+        result.style.color = "green";
+    } else {
+        result.textContent = "";
+    }
+}
+</script>
+```
+
+#### 3. Fill in the blanks with your own ideas (using **à**)
+
+1.  Je suis prêt <input type="text" placeholder="" oninput="checkAnswer(this, 'à')"> ...
+2.  Nous allons <input type="text" placeholder="" oninput="checkAnswer(this, 'à')"> ...
+3.  C’est une salle <input type="text" placeholder="" oninput="checkAnswer(this, 'à')"> ...
+4.  Elle pense <input type="text" placeholder="" oninput="checkAnswer(this, 'à')"> ...
+5.  Il arrive <input type="text" placeholder="" oninput="checkAnswer(this, 'à')"> ...
+6.  Il commence <input type="text" placeholder="" oninput="checkAnswer(this, 'à')"> ...
+7.  Elle est habituée <input type="text" placeholder="" oninput="checkAnswer(this, 'à')"> ...
+8.  Nous sommes invités <input type="text" placeholder="" oninput="checkAnswer(this, 'à')"> ...
+9.  Je pense <input type="text" placeholder="" oninput="checkAnswer(this, 'à')"> ...
+10. Un verre <input type="text" placeholder="" oninput="checkAnswer(this, 'à')"> ...
+
+------------------------------------------------------------------------
+
+<button onclick="showAnswers()">
+
+Show answers
+
+</button>
+
+<button onclick="refreshPage()">
+
+Try again
+
+</button>
+
+```{=html}
+<script>
+function checkAnswer(input, correctAnswer) {
+     const span = input.nextElementSibling;
+     if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
+          span.textContent = "✓ Correct";
+          span.style.color = "green";
+     } else {
+          span.textContent = "";
+     }
+}
+
+function showAnswers() {
+     document.querySelectorAll('input[type="text"]').forEach(el => {
+          const correct = el.getAttribute('oninput')?.match(/'([^']+)'/)?.[1];
+          if (correct) {
+                const span = el.nextElementSibling;
+                span.textContent = `Réponse : ${correct}`;
+                span.style.color = "blue";
+          }
+     });
+}
+
+function refreshPage() {
+     location.reload();
+}
+</script>
+```
+
+### To consolidate your learning
+
+Write a short paragraph (3-5 sentences) explaining what you have learned about the preposition **à** in French. Use your own words and, if possible, give an example.
+
+```{=html}
+<textarea rows="5" style="width:100%;" placeholder="Write here what you have learned about 'à'..."></textarea>
+```
+:::::::::::
+
+::::::::::: {.content-visible when-profile="french"}
+### Comprendre la préposition **à** en français
+
+La préposition **à** est l’un des mots les plus polyvalents et fréquemment utilisés en français. Elle peut indiquer le lieu, le temps, la manière, l’accompagnement, et s’utilise après certains verbes, adjectifs, adverbes et noms. Voici ses principaux emplois :
+
+#### 1. Après certains verbes
+
+Certains verbes sont toujours suivis de **à** avant un autre verbe ou un nom. - *Je commence à travailler.* - *Il pense à son avenir.*
+
+#### 2. Complément d’un adjectif
+
+Certains adjectifs nécessitent **à** pour introduire leur complément. - *Il est prêt à partir.* - *Elle est habituée à la chaleur.*
+
+#### 3. Complément d’un adverbe
+
+Certains adverbes sont suivis de **à**. - *Il est le premier à arriver.* - *Elle est la dernière à sortir.*
+
+#### 4. Complément d’un nom
+
+De nombreux noms prennent **à** pour introduire leur complément. - *Une tasse à café* - *Une salle à manger*
+
+#### 5. Complément de nom avec description
+
+**à** peut décrire la fonction ou la caractéristique d’un nom. - *Une machine à laver* - *Une boîte à outils*
+
+#### 6. Exprimer la distance, le temps, la manière, l’accompagnement
+
+-   **Distance :** *La gare est à 2 km d’ici.*
+-   **Temps :** *Le film commence à 20h.*
+-   **Manière :** *Fait à la main.*
+-   **Accompagnement :** *Je vais à Paris avec mes amis.*
+
+------------------------------------------------------------------------
+
+### Exercices
+
+#### 1. Complétez avec **à** si nécessaire
+
+Tapez **à** dans le blanc si besoin, ou laissez vide si ce n’est pas nécessaire.
+
+1.  Je pense <input type="text" placeholder="" oninput="checkAnswer(this, 'à')"> mes vacances.
+2.  Il est prêt <input type="text" placeholder="" oninput="checkAnswer(this, 'à')"> partir.
+3.  Nous allons <input type="text" placeholder="" oninput="checkAnswer(this, 'à')"> la plage demain.
+4.  Elle joue <input type="text" placeholder="" oninput="checkAnswer(this, 'de')"> la guitare.
+5.  C’est une machine <input type="text" placeholder="" oninput="checkAnswer(this, 'à')"> laver.
+6.  Le train arrive <input type="text" placeholder="" oninput="checkAnswer(this, 'à')"> 18h.
+7.  Il habite <input type="text" placeholder="" oninput="checkAnswer(this, 'à')"> 10 minutes d’ici.
+8.  Elle est la première <input type="text" placeholder="" oninput="checkAnswer(this, 'à')"> répondre.
+9.  Un verre <input type="text" placeholder="" oninput="checkAnswer(this, 'à')"> vin.
+10. Il parle <input type="text" placeholder="" oninput="checkAnswer(this, 'à')"> son frère.
+11. Une tasse <input type="text" placeholder="" oninput="checkAnswer(this, 'à')"> café.
+12. Il pense <input type="text" placeholder="" oninput="checkAnswer(this, 'à')"> son avenir.
+13. Elle est habituée <input type="text" placeholder="" oninput="checkAnswer(this, 'à')"> la chaleur.
+14. Nous sommes invités <input type="text" placeholder="" oninput="checkAnswer(this, 'à')"> dîner.
+15. Il commence <input type="text" placeholder="" oninput="checkAnswer(this, 'à')"> travailler.
+
+#### 2. Choisissez le bon emploi de **à**
+
+Sélectionnez la bonne réponse pour chaque phrase.
+
+<div>
+
+1.  <b>Une boîte à outils</b><br> <input type="radio" name="q1" id="q1a" onclick="checkRadioAnswer('q1', 'But')"> Lieu <input type="radio" name="q1" id="q1b" onclick="checkRadioAnswer('q1', 'But')"> But <input type="radio" name="q1" id="q1c" onclick="checkRadioAnswer('q1', 'But')"> Temps <input type="radio" name="q1" id="q1d" onclick="checkRadioAnswer('q1', 'But')"> Accompagnement
+
+</div>
+
+<div>
+
+2.  <b>Je vais à Paris</b><br> <input type="radio" name="q2" id="q2a" onclick="checkRadioAnswer('q2', 'Lieu')"> Lieu <input type="radio" name="q2" id="q2b" onclick="checkRadioAnswer('q2', 'Lieu')"> But <input type="radio" name="q2" id="q2c" onclick="checkRadioAnswer('q2', 'Lieu')"> Manière <input type="radio" name="q2" id="q2d" onclick="checkRadioAnswer('q2', 'Lieu')"> Distance
+
+</div>
+
+<div>
+
+3.  <b>Fait à la main</b><br> <input type="radio" name="q3" id="q3a" onclick="checkRadioAnswer('q3', 'Manière')"> Lieu <input type="radio" name="q3" id="q3b" onclick="checkRadioAnswer('q3', 'Manière')"> But <input type="radio" name="q3" id="q3c" onclick="checkRadioAnswer('q3', 'Manière')"> Manière <input type="radio" name="q3" id="q3d" onclick="checkRadioAnswer('q3', 'Manière')"> Temps
+
+</div>
+
+<div>
+
+4.  <b>Le film commence à 21h</b><br> <input type="radio" name="q4" id="q4a" onclick="checkRadioAnswer('q4', 'Temps')"> Lieu <input type="radio" name="q4" id="q4b" onclick="checkRadioAnswer('q4', 'Temps')"> But <input type="radio" name="q4" id="q4c" onclick="checkRadioAnswer('q4', 'Temps')"> Manière <input type="radio" name="q4" id="q4d" onclick="checkRadioAnswer('q4', 'Temps')"> Temps
+
+</div>
+
+<div>
+
+5.  <b>Il est habitué à la chaleur</b><br> <input type="radio" name="q5" id="q5a" onclick="checkRadioAnswer('q5', 'Complément d\'adjectif')"> Lieu <input type="radio" name="q5" id="q5b" onclick="checkRadioAnswer('q5', 'Complément d\'adjectif')"> But <input type="radio" name="q5" id="q5c" onclick="checkRadioAnswer('q5', 'Complément d\'adjectif')"> Temps <input type="radio" name="q5" id="q5d" onclick="checkRadioAnswer('q5', 'Complément d\'adjectif')"> Complément d'adjectif
+
+</div>
+
+<div>
+
+6.  <b>La gare est à 2 km d’ici</b><br> <input type="radio" name="q6" id="q6a" onclick="checkRadioAnswer('q6', 'Distance')"> Distance <input type="radio" name="q6" id="q6b" onclick="checkRadioAnswer('q6', 'Distance')"> Lieu <input type="radio" name="q6" id="q6c" onclick="checkRadioAnswer('q6', 'Distance')"> But <input type="radio" name="q6" id="q6d" onclick="checkRadioAnswer('q6', 'Distance')"> Manière
+
+</div>
+
+<div>
+
+7.  <b>Une salle à manger</b><br> <input type="radio" name="q7" id="q7a" onclick="checkRadioAnswer('q7', 'But')"> Lieu <input type="radio" name="q7" id="q7b" onclick="checkRadioAnswer('q7', 'But')"> But <input type="radio" name="q7" id="q7c" onclick="checkRadioAnswer('q7', 'But')"> Temps <input type="radio" name="q7" id="q7d" onclick="checkRadioAnswer('q7', 'But')"> Accompagnement
+
+</div>
+
+<div>
+
+8.  <b>Je parle à mon ami</b><br> <input type="radio" name="q8" id="q8a" onclick="checkRadioAnswer('q8', 'Accompagnement')"> Accompagnement <input type="radio" name="q8" id="q8b" onclick="checkRadioAnswer('q8', 'Complément de verbe')"> Complément de verbe <input type="radio" name="q8" id="q8c" onclick="checkRadioAnswer('q8', 'Accompagnement')"> Lieu <input type="radio" name="q8" id="q8d" onclick="checkRadioAnswer('q8', 'Accompagnement')"> Temps
+
+</div>
+
+```{=html}
+<script>
+const correctRadioAnswers = {
+    q1: "But",
+    q2: "Lieu",
+    q3: "Manière",
+    q4: "Temps",
+    q5: "Complément d'adjectif",
+    q6: "Distance",
+    q7: "But",
+    q8: "Complément de verbe"
+};
+</script>
+```
+
+#### 3. Complétez avec vos propres idées (en utilisant **à**)
+
+1.  Je suis prêt <input type="text" placeholder="" oninput="checkAnswer(this, 'à')"> ...
+2.  Nous allons <input type="text" placeholder="" oninput="checkAnswer(this, 'à')"> ...
+3.  C’est une salle <input type="text" placeholder="" oninput="checkAnswer(this, 'à')"> ...
+4.  Elle pense <input type="text" placeholder="" oninput="checkAnswer(this, 'à')"> ...
+5.  Il arrive <input type="text" placeholder="" oninput="checkAnswer(this, 'à')"> ...
+6.  Il commence <input type="text" placeholder="" oninput="checkAnswer(this, 'à')"> ...
+7.  Elle est habituée <input type="text" placeholder="" oninput="checkAnswer(this, 'à')"> ...
+8.  Nous sommes invités <input type="text" placeholder="" oninput="checkAnswer(this, 'à')"> ...
+9.  Je pense <input type="text" placeholder="" oninput="checkAnswer(this, 'à')"> ...
+10. Un verre <input type="text" placeholder="" oninput="checkAnswer(this, 'à')"> ...
+
+------------------------------------------------------------------------
+
+### Pour consolider vos acquis
+
+Écrivez un court paragraphe (3 à 5 phrases) expliquant ce que vous avez appris sur la préposition **à** en français. Utilisez vos propres mots et, si possible, donnez un exemple.
+
+```{=html}
+<textarea rows="5" style="width:100%;" placeholder="Écrivez ici ce que vous avez appris sur 'à'..."></textarea>
+```
+
+<button onclick="showAnswers()">
+
+Voir les réponses
+
+</button>
+
+<button onclick="refreshPage()">
+
+Nouvel essai
+
+</button>
+
+```{=html}
+<script>
+function checkAnswer(input, correctAnswer) {
+     const span = input.nextElementSibling;
+     if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
+          span.textContent = "✓ Correct";
+          span.style.color = "green";
+     } else {
+          span.textContent = "";
+     }
+}
+
+function showAnswers() {
+     document.querySelectorAll('input[type="text"]').forEach(el => {
+          const correct = el.getAttribute('oninput')?.match(/'([^']+)'/)?.[1];
+          if (correct) {
+                const span = el.nextElementSibling;
+                span.textContent = `Réponse : ${correct}`;
+                span.style.color = "blue";
+          }
+     });
+}
+
+function refreshPage() {
+     location.reload();
+}
+
+const correctRadioAnswers = {
+    q1: "But",
+    q2: "Lieu",
+    q3: "Manière",
+    q4: "Temps",
+    q5: "Complément d'adjectif",
+    q6: "Distance",
+    q7: "But",
+    q8: "Complément de verbe"
+};
+
+function checkRadioAnswer(q, correct) {
+    const radios = document.getElementsByName(q);
+    let selected = "";
+    radios.forEach(r => {
+        if (r.checked) {
+            selected = r.nextSibling.textContent.trim();
+        }
+    });
+    const result = document.getElementById(q + "-result");
+    if (selected === correct) {
+        result.textContent = "✓ Correct";
+        result.style.color = "green";
+    } else {
+        result.textContent = "";
+    }
+}
+</script>
+```
+:::::::::::

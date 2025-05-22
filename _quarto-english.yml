@@ -130,6 +130,9 @@ website:
         - text: "Blog Posts"
           href: posts.qmd
           icon: file-lines
+        - text: "Exercises"
+          href: exercises.qmd
+          icon: clipboard-check
         - text: "About Us"
           href: about.qmd
           icon: info-circle

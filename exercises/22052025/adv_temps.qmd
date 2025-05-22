@@ -1,0 +1,389 @@
+---
+title: "Adverbs of Time (Adverbes de temps) in French"
+author: "Kunal Khurana"
+date: "05-20-2025"
+categories: [B1, grammar, adverbs, exercises]
+image: "adverbes_temps.png"
+---
+
+::: {.content-visible when-profile="english"}
+# Adverbs of Time in French (Adverbes de temps)
+
+Adverbs of time describe **when** an action takes place. In French, these adverbs answer the question "**When?**" (e.g., When does she arrive? She arrives *tomorrow*).
+
+**Common Adverbs of Time:**
+
+| French         | English        | Example (FR)                  | Example (EN)                |
+|----------------|---------------|-------------------------------|-----------------------------|
+| aujourd'hui    | today         | Je travaille aujourd'hui.     | I work today.               |
+| demain         | tomorrow      | Elle arrive demain.           | She arrives tomorrow.       |
+| hier           | yesterday     | Nous sommes venus hier.       | We came yesterday.          |
+| maintenant     | now           | Il mange maintenant.          | He is eating now.           |
+| bientôt        | soon          | Tu pars bientôt ?             | Are you leaving soon?       |
+| tard           | late          | Il rentre tard.               | He comes home late.         |
+| tôt            | early         | Je me lève tôt.               | I get up early.             |
+| toujours       | always        | Elle est toujours en avance.  | She is always early.        |
+| jamais         | never         | Il n'est jamais en retard.    | He is never late.           |
+| parfois        | sometimes     | Parfois, il pleut.            | Sometimes it rains.         |
+| souvent        | often         | Nous sortons souvent.         | We often go out.            |
+| déjà           | already       | J'ai déjà mangé.              | I have already eaten.       |
+| encore         | still/yet     | Tu es encore là ?             | Are you still here?         |
+
+------------------------------------------------------------------------
+
+# Activities
+
+## 1. Complete with the correct adverb of time (in French)
+
+1.  Je travaille <input type="text" placeholder="" oninput="checkAnswer(this, 'aujourd\'hui')"><span></span>. (today)
+2.  Elle arrive <input type="text" placeholder="" oninput="checkAnswer(this, 'demain')"><span></span>. (tomorrow)
+3.  Nous sommes venus <input type="text" placeholder="" oninput="checkAnswer(this, 'hier')"><span></span>. (yesterday)
+4.  Il mange <input type="text" placeholder="" oninput="checkAnswer(this, 'maintenant')"><span></span>. (now)
+5.  Tu pars <input type="text" placeholder="" oninput="checkAnswer(this, 'bientôt')"><span></span>? (soon)
+6.  Il rentre <input type="text" placeholder="" oninput="checkAnswer(this, 'tard')"><span></span>. (late)
+7.  Je me lève <input type="text" placeholder="" oninput="checkAnswer(this, 'tôt')"><span></span>. (early)
+8.  Elle est <input type="text" placeholder="" oninput="checkAnswer(this, 'toujours')"><span></span> en avance. (always)
+9.  Il n'est <input type="text" placeholder="" oninput="checkAnswer(this, 'jamais')"><span></span> en retard. (never)
+10. Parfois, il pleut. (sometimes) — <input type="text" placeholder="" oninput="checkAnswer(this, 'parfois')"><span></span>
+11. Nous sortons <input type="text" placeholder="" oninput="checkAnswer(this, 'souvent')"><span></span>. (often)
+12. J'ai <input type="text" placeholder="" oninput="checkAnswer(this, 'déjà')"><span></span> mangé. (already)
+13. Tu es <input type="text" placeholder="" oninput="checkAnswer(this, 'encore')"><span></span> là ? (still/yet)
+14. Il part <input type="text" placeholder="" oninput="checkAnswer(this, 'bientôt')"><span></span>. (soon)
+15. Translate "He is never late." <input type="text" placeholder="" oninput="checkAnswer(this, 'Il n\'est jamais en retard.')"><span></span>
+
+## 2. Choose the correct adverb of time
+
+Select the correct adverb to complete each sentence.
+
+1.  Elle arrive ___ (tomorrow):  
+    <select onchange="checkAnswer(this, 'demain')">
+      <option value=""></option>
+      <option value="hier">hier</option>
+      <option value="demain">demain</option>
+      <option value="toujours">toujours</option>
+    </select>
+    <span></span>
+
+2.  Je me lève ___ (early):  
+    <select onchange="checkAnswer(this, 'tôt')">
+      <option value=""></option>
+      <option value="tôt">tôt</option>
+      <option value="tard">tard</option>
+      <option value="déjà">déjà</option>
+    </select>
+    <span></span>
+
+3.  Il rentre ___ (late):  
+    <select onchange="checkAnswer(this, 'tard')">
+      <option value=""></option>
+      <option value="tard">tard</option>
+      <option value="bientôt">bientôt</option>
+      <option value="parfois">parfois</option>
+    </select>
+    <span></span>
+
+4.  Nous sortons ___ (often):  
+    <select onchange="checkAnswer(this, 'souvent')">
+      <option value=""></option>
+      <option value="souvent">souvent</option>
+      <option value="jamais">jamais</option>
+      <option value="maintenant">maintenant</option>
+    </select>
+    <span></span>
+
+5.  Il n'est ___ en retard (never):  
+    <select onchange="checkAnswer(this, 'jamais')">
+      <option value=""></option>
+      <option value="toujours">toujours</option>
+      <option value="jamais">jamais</option>
+      <option value="déjà">déjà</option>
+    </select>
+    <span></span>
+
+6.  J'ai ___ mangé (already):  
+    <select onchange="checkAnswer(this, 'déjà')">
+      <option value=""></option>
+      <option value="déjà">déjà</option>
+      <option value="encore">encore</option>
+      <option value="bientôt">bientôt</option>
+    </select>
+    <span></span>
+
+7.  Tu es ___ là ? (still):  
+    <select onchange="checkAnswer(this, 'encore')">
+      <option value=""></option>
+      <option value="encore">encore</option>
+      <option value="parfois">parfois</option>
+      <option value="tôt">tôt</option>
+    </select>
+    <span></span>
+
+8.  Il mange ___ (now):  
+    <select onchange="checkAnswer(this, 'maintenant')">
+      <option value=""></option>
+      <option value="maintenant">maintenant</option>
+      <option value="hier">hier</option>
+      <option value="toujours">toujours</option>
+    </select>
+    <span></span>
+
+9.  Elle est ___ en avance (always):  
+    <select onchange="checkAnswer(this, 'toujours')">
+      <option value=""></option>
+      <option value="toujours">toujours</option>
+      <option value="jamais">jamais</option>
+      <option value="bientôt">bientôt</option>
+    </select>
+    <span></span>
+
+10. Parfois, il pleut. (sometimes):  
+    <select onchange="checkAnswer(this, 'parfois')">
+      <option value=""></option>
+      <option value="parfois">parfois</option>
+      <option value="souvent">souvent</option>
+      <option value="déjà">déjà</option>
+    </select>
+    <span></span>
+
+## 3. Translate to French using an adverb of time
+
+1.  I work today. <input type="text" placeholder="" oninput="checkAnswer(this, 'Je travaille aujourd\'hui.')"><span></span>
+2.  She arrives tomorrow. <input type="text" placeholder="" oninput="checkAnswer(this, 'Elle arrive demain.')"><span></span>
+3.  We came yesterday. <input type="text" placeholder="" oninput="checkAnswer(this, 'Nous sommes venus hier.')"><span></span>
+4.  He is eating now. <input type="text" placeholder="" oninput="checkAnswer(this, 'Il mange maintenant.')"><span></span>
+5.  Are you leaving soon? <input type="text" placeholder="" oninput="checkAnswer(this, 'Tu pars bientôt ?')"><span></span>
+6.  He comes home late. <input type="text" placeholder="" oninput="checkAnswer(this, 'Il rentre tard.')"><span></span>
+7.  I get up early. <input type="text" placeholder="" oninput="checkAnswer(this, 'Je me lève tôt.')"><span></span>
+8.  She is always early. <input type="text" placeholder="" oninput="checkAnswer(this, 'Elle est toujours en avance.')"><span></span>
+9.  He is never late. <input type="text" placeholder="" oninput="checkAnswer(this, 'Il n\'est jamais en retard.')"><span></span>
+10. Sometimes it rains. <input type="text" placeholder="" oninput="checkAnswer(this, 'Parfois, il pleut.')"><span></span>
+11. We often go out. <input type="text" placeholder="" oninput="checkAnswer(this, 'Nous sortons souvent.')"><span></span>
+12. I have already eaten. <input type="text" placeholder="" oninput="checkAnswer(this, 'J\'ai déjà mangé.')"><span></span>
+13. Are you still here? <input type="text" placeholder="" oninput="checkAnswer(this, 'Tu es encore là ?')"><span></span>
+14. He is leaving soon. <input type="text" placeholder="" oninput="checkAnswer(this, 'Il part bientôt.')"><span></span>
+15. She is never late. <input type="text" placeholder="" oninput="checkAnswer(this, 'Elle n\'est jamais en retard.')"><span></span>
+
+<button onclick="showAnswers()">Show Answers</button>
+
+<button onclick="refreshPage()">Try Again</button>
+
+<script>
+function checkAnswer(input, correctAnswer) {
+    const span = input.nextElementSibling;
+    if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
+        span.textContent = "✓ Correct";
+        span.style.color = "green";
+    } else {
+        span.textContent = "";
+    }
+}
+
+function showAnswers() {
+    document.querySelectorAll('input[type="text"]').forEach(el => {
+        const correct = el.getAttribute('oninput')?.match(/'([^']+)'/)?.[1];
+        if (correct) {
+            const span = el.nextElementSibling;
+            span.textContent = `Réponse : ${correct}`;
+            span.style.color = "blue";
+        }
+    });
+}
+
+function refreshPage() {
+    location.reload();
+}
+</script>
+
+:::
+
+
+::: {.content-visible when-profile="french"}
+
+# Les adverbes de temps en français
+
+Les adverbes de temps indiquent **quand** une action a lieu. Ils répondent à la question "**Quand ?**" (ex. : Quand arrive-t-elle ? Elle arrive *demain*).
+
+**Adverbes de temps courants :**
+
+| Français        | Anglais         | Exemple (FR)                  | Exemple (EN)                |
+|-----------------|----------------|-------------------------------|-----------------------------|
+| aujourd'hui     | today          | Je travaille aujourd'hui.     | I work today.               |
+| demain          | tomorrow       | Elle arrive demain.           | She arrives tomorrow.       |
+| hier            | yesterday      | Nous sommes venus hier.       | We came yesterday.          |
+| maintenant      | now            | Il mange maintenant.          | He is eating now.           |
+| bientôt         | soon           | Tu pars bientôt ?             | Are you leaving soon?       |
+| tard            | late           | Il rentre tard.               | He comes home late.         |
+| tôt             | early          | Je me lève tôt.               | I get up early.             |
+| toujours        | always         | Elle est toujours en avance.  | She is always early.        |
+| jamais          | never          | Il n'est jamais en retard.    | He is never late.           |
+| parfois         | sometimes      | Parfois, il pleut.            | Sometimes it rains.         |
+| souvent         | often          | Nous sortons souvent.         | We often go out.            |
+| déjà            | already        | J'ai déjà mangé.              | I have already eaten.       |
+| encore          | still/yet      | Tu es encore là ?             | Are you still here?         |
+
+------------------------------------------------------------------------
+
+# Exercices
+
+## 1. Complétez avec le bon adverbe de temps (en français)
+
+1.  Je travaille <input type="text" placeholder="" oninput="checkAnswer(this, 'aujourd\'hui')"><span></span>. (today)
+2.  Elle arrive <input type="text" placeholder="" oninput="checkAnswer(this, 'demain')"><span></span>. (tomorrow)
+3.  Nous sommes venus <input type="text" placeholder="" oninput="checkAnswer(this, 'hier')"><span></span>. (yesterday)
+4.  Il mange <input type="text" placeholder="" oninput="checkAnswer(this, 'maintenant')"><span></span>. (now)
+5.  Tu pars <input type="text" placeholder="" oninput="checkAnswer(this, 'bientôt')"><span></span>? (soon)
+6.  Il rentre <input type="text" placeholder="" oninput="checkAnswer(this, 'tard')"><span></span>. (late)
+7.  Je me lève <input type="text" placeholder="" oninput="checkAnswer(this, 'tôt')"><span></span>. (early)
+8.  Elle est <input type="text" placeholder="" oninput="checkAnswer(this, 'toujours')"><span></span> en avance. (always)
+9.  Il n'est <input type="text" placeholder="" oninput="checkAnswer(this, 'jamais')"><span></span> en retard. (never)
+10. Parfois, il pleut. (sometimes) — <input type="text" placeholder="" oninput="checkAnswer(this, 'parfois')"><span></span>
+11. Nous sortons <input type="text" placeholder="" oninput="checkAnswer(this, 'souvent')"><span></span>. (often)
+12. J'ai <input type="text" placeholder="" oninput="checkAnswer(this, 'déjà')"><span></span> mangé. (already)
+13. Tu es <input type="text" placeholder="" oninput="checkAnswer(this, 'encore')"><span></span> là ? (still/yet)
+14. Il part <input type="text" placeholder="" oninput="checkAnswer(this, 'bientôt')"><span></span>. (soon)
+15. Traduisez "He is never late." <input type="text" placeholder="" oninput="checkAnswer(this, 'Il n\'est jamais en retard.')"><span></span>
+
+## 2. Choisissez le bon adverbe de temps
+
+Choisissez l'adverbe correct pour compléter chaque phrase.
+
+1.  Elle arrive ___ (demain) :  
+    <select onchange="checkAnswer(this, 'demain')">
+      <option value=""></option>
+      <option value="hier">hier</option>
+      <option value="demain">demain</option>
+      <option value="toujours">toujours</option>
+    </select>
+    <span></span>
+
+2.  Je me lève ___ (tôt) :  
+    <select onchange="checkAnswer(this, 'tôt')">
+      <option value=""></option>
+      <option value="tôt">tôt</option>
+      <option value="tard">tard</option>
+      <option value="déjà">déjà</option>
+    </select>
+    <span></span>
+
+3.  Il rentre ___ (tard) :  
+    <select onchange="checkAnswer(this, 'tard')">
+      <option value=""></option>
+      <option value="tard">tard</option>
+      <option value="bientôt">bientôt</option>
+      <option value="parfois">parfois</option>
+    </select>
+    <span></span>
+
+4.  Nous sortons ___ (souvent) :  
+    <select onchange="checkAnswer(this, 'souvent')">
+      <option value=""></option>
+      <option value="souvent">souvent</option>
+      <option value="jamais">jamais</option>
+      <option value="maintenant">maintenant</option>
+    </select>
+    <span></span>
+
+5.  Il n'est ___ en retard (jamais) :  
+    <select onchange="checkAnswer(this, 'jamais')">
+      <option value=""></option>
+      <option value="toujours">toujours</option>
+      <option value="jamais">jamais</option>
+      <option value="déjà">déjà</option>
+    </select>
+    <span></span>
+
+6.  J'ai ___ mangé (déjà) :  
+    <select onchange="checkAnswer(this, 'déjà')">
+      <option value=""></option>
+      <option value="déjà">déjà</option>
+      <option value="encore">encore</option>
+      <option value="bientôt">bientôt</option>
+    </select>
+    <span></span>
+
+7.  Tu es ___ là ? (encore) :  
+    <select onchange="checkAnswer(this, 'encore')">
+      <option value=""></option>
+      <option value="encore">encore</option>
+      <option value="parfois">parfois</option>
+      <option value="tôt">tôt</option>
+    </select>
+    <span></span>
+
+8.  Il mange ___ (maintenant) :  
+    <select onchange="checkAnswer(this, 'maintenant')">
+      <option value=""></option>
+      <option value="maintenant">maintenant</option>
+      <option value="hier">hier</option>
+      <option value="toujours">toujours</option>
+    </select>
+    <span></span>
+
+9.  Elle est ___ en avance (toujours) :  
+    <select onchange="checkAnswer(this, 'toujours')">
+      <option value=""></option>
+      <option value="toujours">toujours</option>
+      <option value="jamais">jamais</option>
+      <option value="bientôt">bientôt</option>
+    </select>
+    <span></span>
+
+10. Parfois, il pleut. (parfois) :  
+    <select onchange="checkAnswer(this, 'parfois')">
+      <option value=""></option>
+      <option value="parfois">parfois</option>
+      <option value="souvent">souvent</option>
+      <option value="déjà">déjà</option>
+    </select>
+    <span></span>
+
+## 3. Traduisez en français en utilisant un adverbe de temps
+
+1.  I work today. <input type="text" placeholder="" oninput="checkAnswer(this, 'Je travaille aujourd\'hui.')"><span></span>
+2.  She arrives tomorrow. <input type="text" placeholder="" oninput="checkAnswer(this, 'Elle arrive demain.')"><span></span>
+3.  We came yesterday. <input type="text" placeholder="" oninput="checkAnswer(this, 'Nous sommes venus hier.')"><span></span>
+4.  He is eating now. <input type="text" placeholder="" oninput="checkAnswer(this, 'Il mange maintenant.')"><span></span>
+5.  Are you leaving soon? <input type="text" placeholder="" oninput="checkAnswer(this, 'Tu pars bientôt ?')"><span></span>
+6.  He comes home late. <input type="text" placeholder="" oninput="checkAnswer(this, 'Il rentre tard.')"><span></span>
+7.  I get up early. <input type="text" placeholder="" oninput="checkAnswer(this, 'Je me lève tôt.')"><span></span>
+8.  She is always early. <input type="text" placeholder="" oninput="checkAnswer(this, 'Elle est toujours en avance.')"><span></span>
+9.  He is never late. <input type="text" placeholder="" oninput="checkAnswer(this, 'Il n\'est jamais en retard.')"><span></span>
+10. Sometimes it rains. <input type="text" placeholder="" oninput="checkAnswer(this, 'Parfois, il pleut.')"><span></span>
+11. We often go out. <input type="text" placeholder="" oninput="checkAnswer(this, 'Nous sortons souvent.')"><span></span>
+12. I have already eaten. <input type="text" placeholder="" oninput="checkAnswer(this, 'J\'ai déjà mangé.')"><span></span>
+13. Are you still here? <input type="text" placeholder="" oninput="checkAnswer(this, 'Tu es encore là ?')"><span></span>
+14. He is leaving soon. <input type="text" placeholder="" oninput="checkAnswer(this, 'Il part bientôt.')"><span></span>
+15. She is never late. <input type="text" placeholder="" oninput="checkAnswer(this, 'Elle n\'est jamais en retard.')"><span></span>
+
+<button onclick="showAnswers()">Afficher les réponses</button>
+
+<button onclick="refreshPage()">Réessayer</button>
+
+<script>
+function checkAnswer(input, correctAnswer) {
+    const span = input.nextElementSibling;
+    if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
+        span.textContent = "✓ Correct";
+        span.style.color = "green";
+    } else {
+        span.textContent = "";
+    }
+}
+
+function showAnswers() {
+    document.querySelectorAll('input[type="text"]').forEach(el => {
+        const correct = el.getAttribute('oninput')?.match(/'([^']+)'/)?.[1];
+        if (correct) {
+            const span = el.nextElementSibling;
+            span.textContent = `Réponse : ${correct}`;
+            span.style.color = "blue";
+        }
+    });
+}
+
+function refreshPage() {
+    location.reload();
+}
+</script>
+
+:::

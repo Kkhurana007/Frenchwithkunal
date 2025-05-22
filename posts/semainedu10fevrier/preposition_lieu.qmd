@@ -171,6 +171,7 @@ ReactDOM.render(
 ```
 
 ::: {.content-visible when-profile="english"}
+
 In our [recent discussions](https://drive.google.com/file/d/1feQg370lFfmcIdDkX0ZIFmTq329mUJSO/view?usp=drive_link), we explored some fundamental prepositions in French and their English equivalents. Prepositions are crucial in any language as they help us describe relationships between objects, places, and people. Here’s a quick recap of what we covered:
 
 Sous - Under: Indicates something is below or beneath another object.

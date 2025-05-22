@@ -5,6 +5,7 @@ date: "05-20-2025"
 categories: [B1, grammar, conditionnel, exercises]
 image: "conditionnel.png"
 ---
+
 ::: {.content-visible when-profile="english"}
 # The Conditional in French
 
@@ -12,95 +13,105 @@ The conditional is a verb mood used to express politeness, desire, regret, advic
 
 ## 1. The Present Conditional
 
-**Formation:**  
+**Formation:**\
 Take the stem of the simple future and add the imperfect endings.
 
-| Person | Ending      |
-|--------|-------------|
-| je     | -ais        |
-| tu     | -ais        |
-| il/elle| -ait        |
-| nous   | -ions       |
-| vous   | -iez        |
-| ils/elles| -aient    |
+| Person    | Ending |
+|-----------|--------|
+| je        | -ais   |
+| tu        | -ais   |
+| il/elle   | -ait   |
+| nous      | -ions  |
+| vous      | -iez   |
+| ils/elles | -aient |
 
-**Examples:**  
-- Je voudrais un café, s'il vous plaît. (politeness)  
-- Tu devrais mettre un manteau. (advice)  
-- Il aimerait voyager en France. (desire)  
+**Examples:**\
+- Je voudrais un café, s'il vous plaît. (politeness)\
+- Tu devrais mettre un manteau. (advice)\
+- Il aimerait voyager en France. (desire)\
 - Selon la radio, il y aurait un accident sur l’autoroute. (unconfirmed news)
 
 ## 2. The Past Conditional
 
-**Formation:**  
+**Formation:**\
 Auxiliary "avoir" or "être" in the present conditional + past participle of the verb.
 
-**Examples:**  
-- J’aurais aimé venir à la fête. (regret)  
+**Examples:**\
+- J’aurais aimé venir à la fête. (regret)\
 - Nous serions partis plus tôt si nous avions su. (regret, hypothesis)
 
 ## 3. Uses of the Conditional
 
-- **Politeness**: Je voudrais un renseignement.
-- **Desire**: Il aimerait apprendre le piano.
-- **Regret**: J’aurais dû étudier plus.
-- **Advice**: Tu devrais essayer ce restaurant.
-- **Probability**: Il serait malade.
-- **Unconfirmed news**: Le président démissionnerait.
+-   **Politeness**: Je voudrais un renseignement.
+-   **Desire**: Il aimerait apprendre le piano.
+-   **Regret**: J’aurais dû étudier plus.
+-   **Advice**: Tu devrais essayer ce restaurant.
+-   **Probability**: Il serait malade.
+-   **Unconfirmed news**: Le président démissionnerait.
 
----
+------------------------------------------------------------------------
 
 # Exercises
 
 ## Exercise 1: Complete with the present conditional
-1. Si j'avais de l'argent, je <input type="text" placeholder="" oninput="checkAnswer(this, 'voyagerais')"><span style="margin-left:10px;"></span> (voyager) autour du monde.
-2. Tu <input type="text" placeholder="" oninput="checkAnswer(this, 'pourrais')"><span style="margin-left:10px;"></span> (pouvoir) m'aider, s'il te plaît ?
-3. Nous <input type="text" placeholder="" oninput="checkAnswer(this, 'aimerions')"><span style="margin-left:10px;"></span> (aimer) visiter Paris un jour.
-4. Ils <input type="text" placeholder="" oninput="checkAnswer(this, 'devraient')"><span style="margin-left:10px;"></span> (devoir) faire attention.
-5. Elle <input type="text" placeholder="" oninput="checkAnswer(this, 'voudrait')"><span style="margin-left:10px;"></span> (vouloir) apprendre à jouer du piano.
-6. Vous <input type="text" placeholder="" oninput="checkAnswer(this, 'seriez')"><span style="margin-left:10px;"></span> (être) gentils de m’attendre.
-7. On <input type="text" placeholder="" oninput="checkAnswer(this, 'prendrait')"><span style="margin-left:10px;"></span> (prendre) un dessert après le repas.
-8. Je <input type="text" placeholder="" oninput="checkAnswer(this, 'préférerais')"><span style="margin-left:10px;"></span> (préférer) rester à la maison ce soir.
-9. Tu <input type="text" placeholder="" oninput="checkAnswer(this, 'saurais')"><span style="margin-left:10px;"></span> (savoir) la réponse si tu écoutais.
-10. Il <input type="text" placeholder="" oninput="checkAnswer(this, 'faudrait')"><span style="margin-left:10px;"></span> (falloir) partir bientôt.
-11. Nous <input type="text" placeholder="" oninput="checkAnswer(this, 'enverrions')"><span style="margin-left:10px;"></span> (envoyer) une carte postale à nos amis.
-12. Elles <input type="text" placeholder="" oninput="checkAnswer(this, 'finiraient')"><span style="margin-left:10px;"></span> (finir) leurs devoirs avant de sortir.
-13. Je <input type="text" placeholder="" oninput="checkAnswer(this, 'dirais')"><span style="margin-left:10px;"></span> (dire) la vérité si j’étais toi.
-14. Vous <input type="text" placeholder="" oninput="checkAnswer(this, 'verriez')"><span style="margin-left:10px;"></span> (voir) la Tour Eiffel si vous alliez à Paris.
-15. Il <input type="text" placeholder="" oninput="checkAnswer(this, 'pleuvrait')"><span style="margin-left:10px;"></span> (pleuvoir) demain, selon la météo.
-16. Tu <input type="text" placeholder="" oninput="checkAnswer(this, 'recevrais')"><span style="margin-left:10px;"></span> (recevoir) un cadeau pour ton anniversaire.
-17. Nous <input type="text" placeholder="" oninput="checkAnswer(this, 'choisirions')"><span style="margin-left:10px;"></span> (choisir) un autre restaurant si c’était possible.
-18. Je <input type="text" placeholder="" oninput="checkAnswer(this, 'attendrais')"><span style="margin-left:10px;"></span> (attendre) ici jusqu’à ton retour.
-19. Ils <input type="text" placeholder="" oninput="checkAnswer(this, 'viendraient')"><span style="margin-left:10px;"></span> (venir) avec nous au cinéma.
-20. Elle <input type="text" placeholder="" oninput="checkAnswer(this, 'écrirait')"><span style="margin-left:10px;"></span> (écrire) un livre si elle avait le temps.
+
+1.  Si j'avais de l'argent, je <input type="text" placeholder="" oninput="checkAnswer(this, 'voyagerais')"> (voyager) autour du monde.
+2.  Tu <input type="text" placeholder="" oninput="checkAnswer(this, 'pourrais')"> (pouvoir) m'aider, s'il te plaît ?
+3.  Nous <input type="text" placeholder="" oninput="checkAnswer(this, 'aimerions')"> (aimer) visiter Paris un jour.
+4.  Ils <input type="text" placeholder="" oninput="checkAnswer(this, 'devraient')"> (devoir) faire attention.
+5.  Elle <input type="text" placeholder="" oninput="checkAnswer(this, 'voudrait')"> (vouloir) apprendre à jouer du piano.
+6.  Vous <input type="text" placeholder="" oninput="checkAnswer(this, 'seriez')"> (être) gentils de m’attendre.
+7.  On <input type="text" placeholder="" oninput="checkAnswer(this, 'prendrait')"> (prendre) un dessert après le repas.
+8.  Je <input type="text" placeholder="" oninput="checkAnswer(this, 'préférerais')"> (préférer) rester à la maison ce soir.
+9.  Tu <input type="text" placeholder="" oninput="checkAnswer(this, 'saurais')"> (savoir) la réponse si tu écoutais.
+10. Il <input type="text" placeholder="" oninput="checkAnswer(this, 'faudrait')"> (falloir) partir bientôt.
+11. Nous <input type="text" placeholder="" oninput="checkAnswer(this, 'enverrions')"> (envoyer) une carte postale à nos amis.
+12. Elles <input type="text" placeholder="" oninput="checkAnswer(this, 'finiraient')"> (finir) leurs devoirs avant de sortir.
+13. Je <input type="text" placeholder="" oninput="checkAnswer(this, 'dirais')"> (dire) la vérité si j’étais toi.
+14. Vous <input type="text" placeholder="" oninput="checkAnswer(this, 'verriez')"> (voir) la Tour Eiffel si vous alliez à Paris.
+15. Il <input type="text" placeholder="" oninput="checkAnswer(this, 'pleuvrait')"> (pleuvoir) demain, selon la météo.
+16. Tu <input type="text" placeholder="" oninput="checkAnswer(this, 'recevrais')"> (recevoir) un cadeau pour ton anniversaire.
+17. Nous <input type="text" placeholder="" oninput="checkAnswer(this, 'choisirions')"> (choisir) un autre restaurant si c’était possible.
+18. Je <input type="text" placeholder="" oninput="checkAnswer(this, 'attendrais')"> (attendre) ici jusqu’à ton retour.
+19. Ils <input type="text" placeholder="" oninput="checkAnswer(this, 'viendraient')"> (venir) avec nous au cinéma.
+20. Elle <input type="text" placeholder="" oninput="checkAnswer(this, 'écrirait')"> (écrire) un livre si elle avait le temps.
 
 ## Exercise 2: Complete with the past conditional
 
-1. J’<input type="text" placeholder="" oninput="checkAnswer(this, 'serais venu')"><span style="margin-left:10px;"></span> (venir) si j’avais eu le temps.
-2. Elle <input type="text" placeholder="" oninput="checkAnswer(this, 'aurait aimé')"><span style="margin-left:10px;"></span> (aimer) voir ce film.
-3. Nous <input type="text" placeholder="" oninput="checkAnswer(this, 'serions partis')"><span style="margin-left:10px;"></span> (partir) plus tôt si possible.
-4. Tu <input type="text" placeholder="" oninput="checkAnswer(this, 'aurais dû')"><span style="margin-left:10px;"></span> (devoir) finir tes devoirs.
-5. Ils <input type="text" placeholder="" oninput="checkAnswer(this, 'auraient pu')"><span style="margin-left:10px;"></span> (pouvoir) réussir avec plus d’efforts.
-6. Vous <input type="text" placeholder="" oninput="checkAnswer(this, 'auriez été')"><span style="margin-left:10px;"></span> (être) surpris par la nouvelle.
-7. On <input type="text" placeholder="" oninput="checkAnswer(this, 'aurait fait')"><span style="margin-left:10px;"></span> (faire) une fête si tu avais accepté.
-8. Je <input type="text" placeholder="" oninput="checkAnswer(this, 'aurais vu')"><span style="margin-left:10px;"></span> (voir) ce spectacle si j’avais su.
-9. Tu <input type="text" placeholder="" oninput="checkAnswer(this, 'aurais reçu')"><span style="margin-left:10px;"></span> (recevoir) une invitation si tu étais venu.
-10. Elle <input type="text" placeholder="" oninput="checkAnswer(this, 'aurait dit')"><span style="margin-left:10px;"></span> (dire) la vérité si elle avait eu le courage.
-11. Nous <input type="text" placeholder="" oninput="checkAnswer(this, 'aurions pris')"><span style="margin-left:10px;"></span> (prendre) le train si nous avions eu les billets.
-12. Ils <input type="text" placeholder="" oninput="checkAnswer(this, 'auraient envoyé')"><span style="margin-left:10px;"></span> (envoyer) une lettre à leurs parents.
-13. Je <input type="text" placeholder="" oninput="checkAnswer(this, 'aurais fini')"><span style="margin-left:10px;"></span> (finir) le projet à temps sans ce problème.
-14. Vous <input type="text" placeholder="" oninput="checkAnswer(this, 'auriez lu')"><span style="margin-left:10px;"></span> (lire) ce livre si vous aviez eu le temps.
-15. Il <input type="text" placeholder="" oninput="checkAnswer(this, 'aurait dû')"><span style="margin-left:10px;"></span> (devoir) écouter les conseils de ses amis.
-16. Elles <input type="text" placeholder="" oninput="checkAnswer(this, 'seraient venues')"><span style="margin-left:10px;"></span> (venir) plus tôt si elles avaient pu.
-17. Tu <input type="text" placeholder="" oninput="checkAnswer(this, 'aurais vu')"><span style="margin-left:10px;"></span> (voir) la différence avec plus d’attention.
-18. Nous <input type="text" placeholder="" oninput="checkAnswer(this, 'aurions choisi')"><span style="margin-left:10px;"></span> (choisir) une autre date pour la réunion.
-19. Je <input type="text" placeholder="" oninput="checkAnswer(this, 'aurais écrit')"><span style="margin-left:10px;"></span> (écrire) un message si j’avais eu ton numéro.
-20. Ils <input type="text" placeholder="" oninput="checkAnswer(this, 'auraient été')"><span style="margin-left:10px;"></span> (être) contents de participer à l’événement.
+1.  J’<input type="text" placeholder="" oninput="checkAnswer(this, 'serais venu')"> (venir) si j’avais eu le temps.
+2.  Elle <input type="text" placeholder="" oninput="checkAnswer(this, 'aurait aimé')"> (aimer) voir ce film.
+3.  Nous <input type="text" placeholder="" oninput="checkAnswer(this, 'serions partis')"> (partir) plus tôt si possible.
+4.  Tu <input type="text" placeholder="" oninput="checkAnswer(this, 'aurais dû')"> (devoir) finir tes devoirs.
+5.  Ils <input type="text" placeholder="" oninput="checkAnswer(this, 'auraient pu')"> (pouvoir) réussir avec plus d’efforts.
+6.  Vous <input type="text" placeholder="" oninput="checkAnswer(this, 'auriez été')"> (être) surpris par la nouvelle.
+7.  On <input type="text" placeholder="" oninput="checkAnswer(this, 'aurait fait')"> (faire) une fête si tu avais accepté.
+8.  Je <input type="text" placeholder="" oninput="checkAnswer(this, 'aurais vu')"> (voir) ce spectacle si j’avais su.
+9.  Tu <input type="text" placeholder="" oninput="checkAnswer(this, 'aurais reçu')"> (recevoir) une invitation si tu étais venu.
+10. Elle <input type="text" placeholder="" oninput="checkAnswer(this, 'aurait dit')"> (dire) la vérité si elle avait eu le courage.
+11. Nous <input type="text" placeholder="" oninput="checkAnswer(this, 'aurions pris')"> (prendre) le train si nous avions eu les billets.
+12. Ils <input type="text" placeholder="" oninput="checkAnswer(this, 'auraient envoyé')"> (envoyer) une lettre à leurs parents.
+13. Je <input type="text" placeholder="" oninput="checkAnswer(this, 'aurais fini')"> (finir) le projet à temps sans ce problème.
+14. Vous <input type="text" placeholder="" oninput="checkAnswer(this, 'auriez lu')"> (lire) ce livre si vous aviez eu le temps.
+15. Il <input type="text" placeholder="" oninput="checkAnswer(this, 'aurait dû')"> (devoir) écouter les conseils de ses amis.
+16. Elles <input type="text" placeholder="" oninput="checkAnswer(this, 'seraient venues')"> (venir) plus tôt si elles avaient pu.
+17. Tu <input type="text" placeholder="" oninput="checkAnswer(this, 'aurais vu')"> (voir) la différence avec plus d’attention.
+18. Nous <input type="text" placeholder="" oninput="checkAnswer(this, 'aurions choisi')"> (choisir) une autre date pour la réunion.
+19. Je <input type="text" placeholder="" oninput="checkAnswer(this, 'aurais écrit')"> (écrire) un message si j’avais eu ton numéro.
+20. Ils <input type="text" placeholder="" oninput="checkAnswer(this, 'auraient été')"> (être) contents de participer à l’événement.
 
+<button onclick="showAnswers()">
 
-<button onclick="showAnswers()">Show Answers</button>
-<button onclick="refreshPage()">Try Again</button>
+Show Answers
 
+</button>
+
+<button onclick="refreshPage()">
+
+Try Again
+
+</button>
+
+```{=html}
 <script>
 function normalize(s) {
     return s.normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/\s+/g, ' ').trim().toLowerCase();
@@ -139,130 +150,138 @@ function refreshPage() {
 
 
 </script>
+```
 
-
----
+------------------------------------------------------------------------
 
 # Notes
 
-- The conditional is often used after "si" (if) to express a hypothesis:  
-    _Si j’étais riche, j’achèterais une maison._  
+-   The conditional is often used after "si" (if) to express a hypothesis:\
+    *Si j’étais riche, j’achèterais une maison.*\
     (If I were rich, I would buy a house.)
-- The past conditional expresses a regret or an action that did not happen in the past.
-- Be careful not to confuse the simple future and the present conditional:  
-    _Il parlera_ (he will speak – future) vs _Il parlerait_ (he would speak – conditional).
+-   The past conditional expresses a regret or an action that did not happen in the past.
+-   Be careful not to confuse the simple future and the present conditional:\
+    *Il parlera* (he will speak – future) vs *Il parlerait* (he would speak – conditional).
 
----
-
+------------------------------------------------------------------------
 :::
 
 ::: {.content-visible when-profile="french"}
-
 # Le Conditionnel en français
 
 Le conditionnel est un mode verbal utilisé pour exprimer la politesse, le désir, le regret, le conseil, la probabilité ou une information non confirmée. Il existe deux formes principales : le conditionnel présent (simple) et le conditionnel passé (composé).
 
 ## 1. Le Conditionnel Présent
 
-**Formation :**  
+**Formation :**\
 On prend le radical du futur simple et on ajoute les terminaisons de l’imparfait.
 
-| Personne | Terminaison |
-|----------|-------------|
-| je       | -ais        |
-| tu       | -ais        |
-| il/elle  | -ait        |
-| nous     | -ions       |
-| vous     | -iez        |
-| ils/elles| -aient      |
+| Personne  | Terminaison |
+|-----------|-------------|
+| je        | -ais        |
+| tu        | -ais        |
+| il/elle   | -ait        |
+| nous      | -ions       |
+| vous      | -iez        |
+| ils/elles | -aient      |
 
-**Exemples :**  
-- Je voudrais un café, s'il vous plaît. (politesse)  
-- Tu devrais mettre un manteau. (conseil)  
-- Il aimerait voyager en France. (désir)  
+**Exemples :**\
+- Je voudrais un café, s'il vous plaît. (politesse)\
+- Tu devrais mettre un manteau. (conseil)\
+- Il aimerait voyager en France. (désir)\
 - Selon la radio, il y aurait un accident sur l’autoroute. (nouvelle non confirmée)
 
 ## 2. Le Conditionnel Passé
 
-**Formation :**  
+**Formation :**\
 Auxiliaire "avoir" ou "être" au conditionnel présent + participe passé du verbe.
 
-**Exemples :**  
-- J’aurais aimé venir à la fête. (regret)  
+**Exemples :**\
+- J’aurais aimé venir à la fête. (regret)\
 - Nous serions partis plus tôt si nous avions su. (regret, hypothèse)
 
 ## 3. Usages du Conditionnel
 
-- **Politesse** : Je voudrais un renseignement.
-- **Désir** : Il aimerait apprendre le piano.
-- **Regret** : J’aurais dû étudier plus.
-- **Conseil** : Tu devrais essayer ce restaurant.
-- **Probabilité** : Il serait malade.
-- **Nouvelle non confirmée** : Le président démissionnerait.
+-   **Politesse** : Je voudrais un renseignement.
+-   **Désir** : Il aimerait apprendre le piano.
+-   **Regret** : J’aurais dû étudier plus.
+-   **Conseil** : Tu devrais essayer ce restaurant.
+-   **Probabilité** : Il serait malade.
+-   **Nouvelle non confirmée** : Le président démissionnerait.
 
----
+------------------------------------------------------------------------
 
 # Exercices
 
 ## Exercice 1 : Complétez avec le conditionnel présent
-1. Si j'avais de l'argent, je <input type="text" placeholder="" oninput="checkAnswer(this, 'voyagerais')"><span style="margin-left:10px;"></span> (voyager) autour du monde.
-2. Tu <input type="text" placeholder="" oninput="checkAnswer(this, 'pourrais')"><span style="margin-left:10px;"></span> (pouvoir) m'aider, s'il te plaît ?
-3. Nous <input type="text" placeholder="" oninput="checkAnswer(this, 'aimerions')"><span style="margin-left:10px;"></span> (aimer) visiter Paris un jour.
-4. Ils <input type="text" placeholder="" oninput="checkAnswer(this, 'devraient')"><span style="margin-left:10px;"></span> (devoir) faire attention.
-5. Elle <input type="text" placeholder="" oninput="checkAnswer(this, 'voudrait')"><span style="margin-left:10px;"></span> (vouloir) apprendre à jouer du piano.
-6. Vous <input type="text" placeholder="" oninput="checkAnswer(this, 'seriez')"><span style="margin-left:10px;"></span> (être) gentils de m’attendre.
-7. On <input type="text" placeholder="" oninput="checkAnswer(this, 'prendrait')"><span style="margin-left:10px;"></span> (prendre) un dessert après le repas.
-8. Je <input type="text" placeholder="" oninput="checkAnswer(this, 'préférerais')"><span style="margin-left:10px;"></span> (préférer) rester à la maison ce soir.
-9. Tu <input type="text" placeholder="" oninput="checkAnswer(this, 'saurais')"><span style="margin-left:10px;"></span> (savoir) la réponse si tu écoutais.
-10. Il <input type="text" placeholder="" oninput="checkAnswer(this, 'faudrait')"><span style="margin-left:10px;"></span> (falloir) partir bientôt.
-11. Nous <input type="text" placeholder="" oninput="checkAnswer(this, 'enverrions')"><span style="margin-left:10px;"></span> (envoyer) une carte postale à nos amis.
-12. Elles <input type="text" placeholder="" oninput="checkAnswer(this, 'finiraient')"><span style="margin-left:10px;"></span> (finir) leurs devoirs avant de sortir.
-13. Je <input type="text" placeholder="" oninput="checkAnswer(this, 'dirais')"><span style="margin-left:10px;"></span> (dire) la vérité si j’étais toi.
-14. Vous <input type="text" placeholder="" oninput="checkAnswer(this, 'verriez')"><span style="margin-left:10px;"></span> (voir) la Tour Eiffel si vous alliez à Paris.
-15. Il <input type="text" placeholder="" oninput="checkAnswer(this, 'pleuvrait')"><span style="margin-left:10px;"></span> (pleuvoir) demain, selon la météo.
-16. Tu <input type="text" placeholder="" oninput="checkAnswer(this, 'recevrais')"><span style="margin-left:10px;"></span> (recevoir) un cadeau pour ton anniversaire.
-17. Nous <input type="text" placeholder="" oninput="checkAnswer(this, 'choisirions')"><span style="margin-left:10px;"></span> (choisir) un autre restaurant si c’était possible.
-18. Je <input type="text" placeholder="" oninput="checkAnswer(this, 'attendrais')"><span style="margin-left:10px;"></span> (attendre) ici jusqu’à ton retour.
-19. Ils <input type="text" placeholder="" oninput="checkAnswer(this, 'viendraient')"><span style="margin-left:10px;"></span> (venir) avec nous au cinéma.
-20. Elle <input type="text" placeholder="" oninput="checkAnswer(this, 'écrirait')"><span style="margin-left:10px;"></span> (écrire) un livre si elle avait le temps.
+
+1.  Si j'avais de l'argent, je <input type="text" placeholder="" oninput="checkAnswer(this, 'voyagerais')"> (voyager) autour du monde.
+2.  Tu <input type="text" placeholder="" oninput="checkAnswer(this, 'pourrais')"> (pouvoir) m'aider, s'il te plaît ?
+3.  Nous <input type="text" placeholder="" oninput="checkAnswer(this, 'aimerions')"> (aimer) visiter Paris un jour.
+4.  Ils <input type="text" placeholder="" oninput="checkAnswer(this, 'devraient')"> (devoir) faire attention.
+5.  Elle <input type="text" placeholder="" oninput="checkAnswer(this, 'voudrait')"> (vouloir) apprendre à jouer du piano.
+6.  Vous <input type="text" placeholder="" oninput="checkAnswer(this, 'seriez')"> (être) gentils de m’attendre.
+7.  On <input type="text" placeholder="" oninput="checkAnswer(this, 'prendrait')"> (prendre) un dessert après le repas.
+8.  Je <input type="text" placeholder="" oninput="checkAnswer(this, 'préférerais')"> (préférer) rester à la maison ce soir.
+9.  Tu <input type="text" placeholder="" oninput="checkAnswer(this, 'saurais')"> (savoir) la réponse si tu écoutais.
+10. Il <input type="text" placeholder="" oninput="checkAnswer(this, 'faudrait')"> (falloir) partir bientôt.
+11. Nous <input type="text" placeholder="" oninput="checkAnswer(this, 'enverrions')"> (envoyer) une carte postale à nos amis.
+12. Elles <input type="text" placeholder="" oninput="checkAnswer(this, 'finiraient')"> (finir) leurs devoirs avant de sortir.
+13. Je <input type="text" placeholder="" oninput="checkAnswer(this, 'dirais')"> (dire) la vérité si j’étais toi.
+14. Vous <input type="text" placeholder="" oninput="checkAnswer(this, 'verriez')"> (voir) la Tour Eiffel si vous alliez à Paris.
+15. Il <input type="text" placeholder="" oninput="checkAnswer(this, 'pleuvrait')"> (pleuvoir) demain, selon la météo.
+16. Tu <input type="text" placeholder="" oninput="checkAnswer(this, 'recevrais')"> (recevoir) un cadeau pour ton anniversaire.
+17. Nous <input type="text" placeholder="" oninput="checkAnswer(this, 'choisirions')"> (choisir) un autre restaurant si c’était possible.
+18. Je <input type="text" placeholder="" oninput="checkAnswer(this, 'attendrais')"> (attendre) ici jusqu’à ton retour.
+19. Ils <input type="text" placeholder="" oninput="checkAnswer(this, 'viendraient')"> (venir) avec nous au cinéma.
+20. Elle <input type="text" placeholder="" oninput="checkAnswer(this, 'écrirait')"> (écrire) un livre si elle avait le temps.
 
 ## Exercice 2 : Complétez avec le conditionnel passé
 
-1. J’<input type="text" placeholder="" oninput="checkAnswer(this, 'serais venu')"><span style="margin-left:10px;"></span> (venir) si j’avais eu le temps.
-2. Elle <input type="text" placeholder="" oninput="checkAnswer(this, 'aurait aimé')"><span style="margin-left:10px;"></span> (aimer) voir ce film.
-3. Nous <input type="text" placeholder="" oninput="checkAnswer(this, 'serions partis')"><span style="margin-left:10px;"></span> (partir) plus tôt si possible.
-4. Tu <input type="text" placeholder="" oninput="checkAnswer(this, 'aurais dû')"><span style="margin-left:10px;"></span> (devoir) finir tes devoirs.
-5. Ils <input type="text" placeholder="" oninput="checkAnswer(this, 'auraient pu')"><span style="margin-left:10px;"></span> (pouvoir) réussir avec plus d’efforts.
-6. Vous <input type="text" placeholder="" oninput="checkAnswer(this, 'auriez été')"><span style="margin-left:10px;"></span> (être) surpris par la nouvelle.
-7. On <input type="text" placeholder="" oninput="checkAnswer(this, 'aurait fait')"><span style="margin-left:10px;"></span> (faire) une fête si tu avais accepté.
-8. Je <input type="text" placeholder="" oninput="checkAnswer(this, 'aurais vu')"><span style="margin-left:10px;"></span> (voir) ce spectacle si j’avais su.
-9. Tu <input type="text" placeholder="" oninput="checkAnswer(this, 'aurais reçu')"><span style="margin-left:10px;"></span> (recevoir) une invitation si tu étais venu.
-10. Elle <input type="text" placeholder="" oninput="checkAnswer(this, 'aurait dit')"><span style="margin-left:10px;"></span> (dire) la vérité si elle avait eu le courage.
-11. Nous <input type="text" placeholder="" oninput="checkAnswer(this, 'aurions pris')"><span style="margin-left:10px;"></span> (prendre) le train si nous avions eu les billets.
-12. Ils <input type="text" placeholder="" oninput="checkAnswer(this, 'auraient envoyé')"><span style="margin-left:10px;"></span> (envoyer) une lettre à leurs parents.
-13. Je <input type="text" placeholder="" oninput="checkAnswer(this, 'aurais fini')"><span style="margin-left:10px;"></span> (finir) le projet à temps sans ce problème.
-14. Vous <input type="text" placeholder="" oninput="checkAnswer(this, 'auriez lu')"><span style="margin-left:10px;"></span> (lire) ce livre si vous aviez eu le temps.
-15. Il <input type="text" placeholder="" oninput="checkAnswer(this, 'aurait dû')"><span style="margin-left:10px;"></span> (devoir) écouter les conseils de ses amis.
-16. Elles <input type="text" placeholder="" oninput="checkAnswer(this, 'seraient venues')"><span style="margin-left:10px;"></span> (venir) plus tôt si elles avaient pu.
-17. Tu <input type="text" placeholder="" oninput="checkAnswer(this, 'aurais vu')"><span style="margin-left:10px;"></span> (voir) la différence avec plus d’attention.
-18. Nous <input type="text" placeholder="" oninput="checkAnswer(this, 'aurions choisi')"><span style="margin-left:10px;"></span> (choisir) une autre date pour la réunion.
-19. Je <input type="text" placeholder="" oninput="checkAnswer(this, 'aurais écrit')"><span style="margin-left:10px;"></span> (écrire) un message si j’avais eu ton numéro.
-20. Ils <input type="text" placeholder="" oninput="checkAnswer(this, 'auraient été')"><span style="margin-left:10px;"></span> (être) contents de participer à l’événement.
+1.  J’<input type="text" placeholder="" oninput="checkAnswer(this, 'serais venu')"> (venir) si j’avais eu le temps.
+2.  Elle <input type="text" placeholder="" oninput="checkAnswer(this, 'aurait aimé')"> (aimer) voir ce film.
+3.  Nous <input type="text" placeholder="" oninput="checkAnswer(this, 'serions partis')"> (partir) plus tôt si possible.
+4.  Tu <input type="text" placeholder="" oninput="checkAnswer(this, 'aurais dû')"> (devoir) finir tes devoirs.
+5.  Ils <input type="text" placeholder="" oninput="checkAnswer(this, 'auraient pu')"> (pouvoir) réussir avec plus d’efforts.
+6.  Vous <input type="text" placeholder="" oninput="checkAnswer(this, 'auriez été')"> (être) surpris par la nouvelle.
+7.  On <input type="text" placeholder="" oninput="checkAnswer(this, 'aurait fait')"> (faire) une fête si tu avais accepté.
+8.  Je <input type="text" placeholder="" oninput="checkAnswer(this, 'aurais vu')"> (voir) ce spectacle si j’avais su.
+9.  Tu <input type="text" placeholder="" oninput="checkAnswer(this, 'aurais reçu')"> (recevoir) une invitation si tu étais venu.
+10. Elle <input type="text" placeholder="" oninput="checkAnswer(this, 'aurait dit')"> (dire) la vérité si elle avait eu le courage.
+11. Nous <input type="text" placeholder="" oninput="checkAnswer(this, 'aurions pris')"> (prendre) le train si nous avions eu les billets.
+12. Ils <input type="text" placeholder="" oninput="checkAnswer(this, 'auraient envoyé')"> (envoyer) une lettre à leurs parents.
+13. Je <input type="text" placeholder="" oninput="checkAnswer(this, 'aurais fini')"> (finir) le projet à temps sans ce problème.
+14. Vous <input type="text" placeholder="" oninput="checkAnswer(this, 'auriez lu')"> (lire) ce livre si vous aviez eu le temps.
+15. Il <input type="text" placeholder="" oninput="checkAnswer(this, 'aurait dû')"> (devoir) écouter les conseils de ses amis.
+16. Elles <input type="text" placeholder="" oninput="checkAnswer(this, 'seraient venues')"> (venir) plus tôt si elles avaient pu.
+17. Tu <input type="text" placeholder="" oninput="checkAnswer(this, 'aurais vu')"> (voir) la différence avec plus d’attention.
+18. Nous <input type="text" placeholder="" oninput="checkAnswer(this, 'aurions choisi')"> (choisir) une autre date pour la réunion.
+19. Je <input type="text" placeholder="" oninput="checkAnswer(this, 'aurais écrit')"> (écrire) un message si j’avais eu ton numéro.
+20. Ils <input type="text" placeholder="" oninput="checkAnswer(this, 'auraient été')"> (être) contents de participer à l’événement.
 
+<button onclick="showAnswers()">
 
-<button onclick="showAnswers()">Afficher les réponses</button>
-<button onclick="refreshPage()">Réessayer</button>
+Afficher les réponses
 
----
+</button>
+
+<button onclick="refreshPage()">
+
+Réessayer
+
+</button>
+
+------------------------------------------------------------------------
 
 # Notes
 
-- Le conditionnel est souvent utilisé après "si" pour exprimer une hypothèse :  
-    _Si j’étais riche, j’achèterais une maison._
-- Le conditionnel passé exprime un regret ou une action qui ne s’est pas réalisée dans le passé.
-- Attention à ne pas confondre le futur simple et le conditionnel présent :  
-    _Il parlera_ (il parlera – futur) vs _Il parlerait_ (il parlerait – conditionnel).
+-   Le conditionnel est souvent utilisé après "si" pour exprimer une hypothèse :\
+    *Si j’étais riche, j’achèterais une maison.*
+-   Le conditionnel passé exprime un regret ou une action qui ne s’est pas réalisée dans le passé.
+-   Attention à ne pas confondre le futur simple et le conditionnel présent :\
+    *Il parlera* (il parlera – futur) vs *Il parlerait* (il parlerait – conditionnel).
 
+```{=html}
 <script>
 function normalize(s) {
     return s.normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/\s+/g, ' ').trim().toLowerCase();
@@ -293,6 +312,5 @@ function refreshPage() {
 }
 
 </script>
-
-
+```
 :::

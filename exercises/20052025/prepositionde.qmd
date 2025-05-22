@@ -1,0 +1,422 @@
+---
+title: "The Preposition 'de' in French: Uses and Practice"
+author: "Kunal Khurana"
+date: "05-20-2025"
+categories: [B1, grammar, prepositions, de, exercises]
+image: "preposition-de.png"
+---
+
+::::::::::: {.content-visible when-profile="english"}
+### Understanding the Preposition **de** in French
+
+The preposition **de** is extremely common and versatile in French. It can indicate possession, origin, content, cause, description, and is used after certain verbs, adjectives, and nouns. Here are its main uses:
+
+#### 1. Indicating Possession
+
+**de** is used to show that something belongs to someone. - *Le livre de Marie.* (Mary's book) - *La voiture de mon père.* (My father's car)
+
+#### 2. Expressing Origin or Source
+
+**de** can indicate where someone or something comes from. - *Je viens de Paris.* (I come from Paris) - *Un vin de Bordeaux.* (A wine from Bordeaux)
+
+#### 3. Describing Content or Material
+
+**de** is used to specify what something is made of or contains. - *Une tasse de café.* (A cup of coffee) - *Une statue de bronze.* (A bronze statue)
+
+#### 4. After Certain Verbs, Adjectives, and Nouns
+
+Some verbs, adjectives, and nouns require **de** to introduce their complement. - *Parler de quelque chose.* (To talk about something) - *Être content de...* (To be happy about...) - *Avoir besoin de...* (To need...)
+
+#### 5. Expressing Cause or Reason
+
+**de** can introduce the cause of a feeling or situation. - *Il est fatigué de travailler.* (He is tired from working) - *Elle pleure de joie.* (She cries from joy)
+
+#### 6. Partitive and Quantity
+
+**de** is used to express an unspecified quantity or after expressions of quantity. - *Je veux de l’eau.* (I want some water) - *Beaucoup de travail.* (A lot of work)
+
+------------------------------------------------------------------------
+
+### Exercises
+
+#### 1. Complete with **de** where necessary
+
+Type **de** in the blank if needed, or leave it blank if not.
+
+1.  Le livre <input type="text" placeholder="" oninput="checkAnswer(this, 'de')"> Paul.
+2.  Je viens <input type="text" placeholder="" oninput="checkAnswer(this, 'de')"> France.
+3.  Une tasse <input type="text" placeholder="" oninput="checkAnswer(this, 'de')"> thé.
+4.  Il parle <input type="text" placeholder="" oninput="checkAnswer(this, 'de')"> son projet.
+5.  Beaucoup <input type="text" placeholder="" oninput="checkAnswer(this, 'de')"> travail.
+6.  Un film <input type="text" placeholder="" oninput="checkAnswer(this, 'de')"> science-fiction.
+7.  Elle est fière <input type="text" placeholder="" oninput="checkAnswer(this, 'de')"> son fils.
+8.  Un verre <input type="text" placeholder="" oninput="checkAnswer(this, 'de')"> jus.
+9.  Il a besoin <input type="text" placeholder="" oninput="checkAnswer(this, 'de')"> repos.
+10. Un ami <input type="text" placeholder="" oninput="checkAnswer(this, 'de')"> mon frère.
+11. Elle parle <input type="text" placeholder="" oninput="checkAnswer(this, 'de')"> ses vacances.
+12. Un morceau <input type="text" placeholder="" oninput="checkAnswer(this, 'de')"> gâteau.
+13. Il est content <input type="text" placeholder="" oninput="checkAnswer(this, 'de')"> sa note.
+14. Un livre <input type="text" placeholder="" oninput="checkAnswer(this, 'de')"> cuisine.
+15. Elle est fatiguée <input type="text" placeholder="" oninput="checkAnswer(this, 'de')"> marcher.
+
+#### 2. Choose the correct use of **de**
+
+Select the correct answer for each sentence.
+
+<div>
+
+1.  <b>Le livre de Paul</b><br> <input type="radio" name="q1" id="q1a" onclick="checkRadioAnswer('q1', 'Possession')"> Possession <input type="radio" name="q1" id="q1b" onclick="checkRadioAnswer('q1', 'Possession')"> Origin <input type="radio" name="q1" id="q1c" onclick="checkRadioAnswer('q1', 'Possession')"> Content <input type="radio" name="q1" id="q1d" onclick="checkRadioAnswer('q1', 'Possession')"> Cause
+
+</div>
+
+<div>
+
+2.  <b>Je viens de France</b><br> <input type="radio" name="q2" id="q2a" onclick="checkRadioAnswer('q2', 'Origin')"> Possession <input type="radio" name="q2" id="q2b" onclick="checkRadioAnswer('q2', 'Origin')"> Origin <input type="radio" name="q2" id="q2c" onclick="checkRadioAnswer('q2', 'Origin')"> Content <input type="radio" name="q2" id="q2d" onclick="checkRadioAnswer('q2', 'Origin')"> Cause
+
+</div>
+
+<div>
+
+3.  <b>Une tasse de café</b><br> <input type="radio" name="q3" id="q3a" onclick="checkRadioAnswer('q3', 'Content')"> Possession <input type="radio" name="q3" id="q3b" onclick="checkRadioAnswer('q3', 'Content')"> Origin <input type="radio" name="q3" id="q3c" onclick="checkRadioAnswer('q3', 'Content')"> Content <input type="radio" name="q3" id="q3d" onclick="checkRadioAnswer('q3', 'Content')"> Cause
+
+</div>
+
+<div>
+
+4.  <b>Il parle de son projet</b><br> <input type="radio" name="q4" id="q4a" onclick="checkRadioAnswer('q4', 'After verb')"> After verb <input type="radio" name="q4" id="q4b" onclick="checkRadioAnswer('q4', 'After verb')"> Possession <input type="radio" name="q4" id="q4c" onclick="checkRadioAnswer('q4', 'After verb')"> Origin <input type="radio" name="q4" id="q4d" onclick="checkRadioAnswer('q4', 'After verb')"> Cause
+
+</div>
+
+<div>
+
+5.  <b>Elle est fière de son fils</b><br> <input type="radio" name="q5" id="q5a" onclick="checkRadioAnswer('q5', 'After adjective')"> After adjective <input type="radio" name="q5" id="q5b" onclick="checkRadioAnswer('q5', 'After adjective')"> Content <input type="radio" name="q5" id="q5c" onclick="checkRadioAnswer('q5', 'After adjective')"> Origin <input type="radio" name="q5" id="q5d" onclick="checkRadioAnswer('q5', 'After adjective')"> Cause
+
+</div>
+
+<div>
+
+6.  <b>Elle pleure de joie</b><br> <input type="radio" name="q6" id="q6a" onclick="checkRadioAnswer('q6', 'Cause')"> Possession <input type="radio" name="q6" id="q6b" onclick="checkRadioAnswer('q6', 'Cause')"> Origin <input type="radio" name="q6" id="q6c" onclick="checkRadioAnswer('q6', 'Cause')"> Content <input type="radio" name="q6" id="q6d" onclick="checkRadioAnswer('q6', 'Cause')"> Cause
+
+</div>
+
+<div>
+
+7.  <b>Beaucoup de travail</b><br> <input type="radio" name="q7" id="q7a" onclick="checkRadioAnswer('q7', 'Quantity')"> Quantity <input type="radio" name="q7" id="q7b" onclick="checkRadioAnswer('q7', 'Quantity')"> Possession <input type="radio" name="q7" id="q7c" onclick="checkRadioAnswer('q7', 'Quantity')"> Content <input type="radio" name="q7" id="q7d" onclick="checkRadioAnswer('q7', 'Quantity')"> After verb
+
+</div>
+
+<div>
+
+8.  <b>Un ami de mon frère</b><br> <input type="radio" name="q8" id="q8a" onclick="checkRadioAnswer('q8', 'Relationship')"> Relationship <input type="radio" name="q8" id="q8b" onclick="checkRadioAnswer('q8', 'Relationship')"> Origin <input type="radio" name="q8" id="q8c" onclick="checkRadioAnswer('q8', 'Relationship')"> Content <input type="radio" name="q8" id="q8d" onclick="checkRadioAnswer('q8', 'Relationship')"> Cause
+
+</div>
+
+```{=html}
+<script>
+const correctRadioAnswers = {
+    q1: "Possession",
+    q2: "Origin",
+    q3: "Content",
+    q4: "After verb",
+    q5: "After adjective",
+    q6: "Cause",
+    q7: "Quantity",
+    q8: "Relationship"
+};
+
+function checkRadioAnswer(q, correct) {
+    const radios = document.getElementsByName(q);
+    let selected = "";
+    radios.forEach(r => {
+        if (r.checked) {
+            selected = r.nextSibling.textContent.trim();
+        }
+    });
+    const result = document.getElementById(q + "-result");
+    if (selected === correct) {
+        result.textContent = "✓ Correct";
+        result.style.color = "green";
+    } else {
+        result.textContent = "";
+    }
+}
+</script>
+```
+
+#### 3. Fill in the blanks with your own ideas (using **de**)
+
+1.  Un morceau <input type="text" placeholder="" oninput="checkAnswer(this, 'de')"> ...
+2.  Je parle <input type="text" placeholder="" oninput="checkAnswer(this, 'de')"> ...
+3.  Elle est fière <input type="text" placeholder="" oninput="checkAnswer(this, 'de')"> ...
+4.  Beaucoup <input type="text" placeholder="" oninput="checkAnswer(this, 'de')"> ...
+5.  Un film <input type="text" placeholder="" oninput="checkAnswer(this, 'de')"> ...
+6.  Il a besoin <input type="text" placeholder="" oninput="checkAnswer(this, 'de')"> ...
+7.  Un ami <input type="text" placeholder="" oninput="checkAnswer(this, 'de')"> ...
+8.  Elle parle <input type="text" placeholder="" oninput="checkAnswer(this, 'de')"> ...
+9.  Un livre <input type="text" placeholder="" oninput="checkAnswer(this, 'de')"> ...
+10. Elle est fatiguée <input type="text" placeholder="" oninput="checkAnswer(this, 'de')"> ...
+
+------------------------------------------------------------------------
+
+<button onclick="showAnswers()">
+
+Show answers
+
+</button>
+
+<button onclick="refreshPage()">
+
+Try again
+
+</button>
+
+```{=html}
+<script>
+function checkAnswer(input, correctAnswer) {
+     const span = input.nextElementSibling;
+     if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
+          span.textContent = "✓ Correct";
+          span.style.color = "green";
+     } else {
+          span.textContent = "";
+     }
+}
+
+function showAnswers() {
+     document.querySelectorAll('input[type="text"]').forEach(el => {
+          const correct = el.getAttribute('oninput')?.match(/'([^']+)'/)?.[1];
+          if (correct) {
+                const span = el.nextElementSibling;
+                span.textContent = `Réponse : ${correct}`;
+                span.style.color = "blue";
+          }
+     });
+}
+
+function refreshPage() {
+     location.reload();
+}
+</script>
+```
+
+### To consolidate your learning
+
+Write a short paragraph (3-5 sentences) explaining what you have learned about the preposition **de** in French. Use your own words and, if possible, give an example.
+
+```{=html}
+<textarea rows="5" style="width:100%;" placeholder="Write here what you have learned about 'de'..."></textarea>
+```
+:::::::::::
+
+::::::::::: {.content-visible when-profile="french"}
+### Comprendre la préposition **de** en français
+
+La préposition **de** est très courante et polyvalente en français. Elle sert à exprimer la possession, l’origine, le contenu, la cause, la description, et s’utilise après certains verbes, adjectifs et noms. Voici ses principaux emplois :
+
+#### 1. Indiquer la possession
+
+**de** sert à montrer que quelque chose appartient à quelqu’un. - *Le livre de Marie.* (Le livre appartient à Marie) - *La voiture de mon père.* (La voiture de mon père)
+
+#### 2. Exprimer l’origine ou la provenance
+
+**de** peut indiquer d’où vient quelqu’un ou quelque chose. - *Je viens de Paris.* (Je viens de la ville de Paris) - *Un vin de Bordeaux.* (Un vin provenant de Bordeaux)
+
+#### 3. Décrire le contenu ou la matière
+
+**de** précise ce que contient un objet ou de quoi il est fait. - *Une tasse de café.* (Une tasse qui contient du café) - *Une statue de bronze.* (Une statue faite en bronze)
+
+#### 4. Après certains verbes, adjectifs et noms
+
+Certains verbes, adjectifs et noms exigent **de** pour introduire leur complément. - *Parler de quelque chose.* (Parler à propos de quelque chose) - *Être content de...* (Être satisfait de...) - *Avoir besoin de...* (Avoir la nécessité de...)
+
+#### 5. Exprimer la cause ou la raison
+
+**de** peut introduire la cause d’un sentiment ou d’une situation. - *Il est fatigué de travailler.* (Il est fatigué parce qu’il travaille) - *Elle pleure de joie.* (Elle pleure à cause de la joie)
+
+#### 6. Partitif et quantité
+
+**de** s’utilise pour exprimer une quantité indéfinie ou après des expressions de quantité. - *Je veux de l’eau.* (Je veux un peu d’eau) - *Beaucoup de travail.* (Une grande quantité de travail)
+
+------------------------------------------------------------------------
+
+### Exercices
+
+#### 1. Complétez avec **de** si nécessaire
+
+Tapez **de** dans le blanc si besoin, ou laissez vide si ce n’est pas nécessaire.
+
+1.  Le livre <input type="text" placeholder="" oninput="checkAnswer(this, 'de')"> Paul.
+2.  Je viens <input type="text" placeholder="" oninput="checkAnswer(this, 'de')"> France.
+3.  Une tasse <input type="text" placeholder="" oninput="checkAnswer(this, 'de')"> thé.
+4.  Il parle <input type="text" placeholder="" oninput="checkAnswer(this, 'de')"> son projet.
+5.  Beaucoup <input type="text" placeholder="" oninput="checkAnswer(this, 'de')"> travail.
+6.  Un film <input type="text" placeholder="" oninput="checkAnswer(this, 'de')"> science-fiction.
+7.  Elle est fière <input type="text" placeholder="" oninput="checkAnswer(this, 'de')"> son fils.
+8.  Un verre <input type="text" placeholder="" oninput="checkAnswer(this, 'de')"> jus.
+9.  Il a besoin <input type="text" placeholder="" oninput="checkAnswer(this, 'de')"> repos.
+10. Un ami <input type="text" placeholder="" oninput="checkAnswer(this, 'de')"> mon frère.
+11. Elle parle <input type="text" placeholder="" oninput="checkAnswer(this, 'de')"> ses vacances.
+12. Un morceau <input type="text" placeholder="" oninput="checkAnswer(this, 'de')"> gâteau.
+13. Il est content <input type="text" placeholder="" oninput="checkAnswer(this, 'de')"> sa note.
+14. Un livre <input type="text" placeholder="" oninput="checkAnswer(this, 'de')"> cuisine.
+15. Elle est fatiguée <input type="text" placeholder="" oninput="checkAnswer(this, 'de')"> marcher.
+
+#### 2. Choisissez le bon emploi de **de**
+
+Sélectionnez la bonne réponse pour chaque phrase.
+
+<div>
+
+1.  <b>Le livre de Paul</b><br> <input type="radio" name="q1" id="q1a" onclick="checkRadioAnswer('q1', 'Possession')"> Possession <input type="radio" name="q1" id="q1b" onclick="checkRadioAnswer('q1', 'Origine')"> Origine <input type="radio" name="q1" id="q1c" onclick="checkRadioAnswer('q1', 'Contenu')"> Contenu <input type="radio" name="q1" id="q1d" onclick="checkRadioAnswer('q1', 'Cause')"> Cause
+
+</div>
+
+<div>
+
+2.  <b>Je viens de France</b><br> <input type="radio" name="q2" id="q2a" onclick="checkRadioAnswer('q2', 'Possession')"> Possession <input type="radio" name="q2" id="q2b" onclick="checkRadioAnswer('q2', 'Origine')"> Origine <input type="radio" name="q2" id="q2c" onclick="checkRadioAnswer('q2', 'Contenu')"> Contenu <input type="radio" name="q2" id="q2d" onclick="checkRadioAnswer('q2', 'Cause')"> Cause
+
+</div>
+
+<div>
+
+3.  <b>Une tasse de café</b><br> <input type="radio" name="q3" id="q3a" onclick="checkRadioAnswer('q3', 'Contenu')"> Possession <input type="radio" name="q3" id="q3b" onclick="checkRadioAnswer('q3', 'Origine')"> Origine <input type="radio" name="q3" id="q3c" onclick="checkRadioAnswer('q3', 'Contenu')"> Contenu <input type="radio" name="q3" id="q3d" onclick="checkRadioAnswer('q3', 'Cause')"> Cause
+
+</div>
+
+<div>
+
+4.  <b>Il parle de son projet</b><br> <input type="radio" name="q4" id="q4a" onclick="checkRadioAnswer('q4', 'Après verbe')"> Après verbe <input type="radio" name="q4" id="q4b" onclick="checkRadioAnswer('q4', 'Possession')"> Possession <input type="radio" name="q4" id="q4c" onclick="checkRadioAnswer('q4', 'Origine')"> Origine <input type="radio" name="q4" id="q4d" onclick="checkRadioAnswer('q4', 'Cause')"> Cause
+
+</div>
+
+<div>
+
+5.  <b>Elle est fière de son fils</b><br> <input type="radio" name="q5" id="q5a" onclick="checkRadioAnswer('q5', 'Après adjectif')"> Après adjectif <input type="radio" name="q5" id="q5b" onclick="checkRadioAnswer('q5', 'Contenu')"> Contenu <input type="radio" name="q5" id="q5c" onclick="checkRadioAnswer('q5', 'Origine')"> Origine <input type="radio" name="q5" id="q5d" onclick="checkRadioAnswer('q5', 'Cause')"> Cause
+
+</div>
+
+<div>
+
+6.  <b>Elle pleure de joie</b><br> <input type="radio" name="q6" id="q6a" onclick="checkRadioAnswer('q6', 'Cause')"> Possession <input type="radio" name="q6" id="q6b" onclick="checkRadioAnswer('q6', 'Origine')"> Origine <input type="radio" name="q6" id="q6c" onclick="checkRadioAnswer('q6', 'Contenu')"> Contenu <input type="radio" name="q6" id="q6d" onclick="checkRadioAnswer('q6', 'Cause')"> Cause
+
+</div>
+
+<div>
+
+7.  <b>Beaucoup de travail</b><br> <input type="radio" name="q7" id="q7a" onclick="checkRadioAnswer('q7', 'Quantité')"> Quantité <input type="radio" name="q7" id="q7b" onclick="checkRadioAnswer('q7', 'Possession')"> Possession <input type="radio" name="q7" id="q7c" onclick="checkRadioAnswer('q7', 'Contenu')"> Contenu <input type="radio" name="q7" id="q7d" onclick="checkRadioAnswer('q7', 'Après verbe')"> Après verbe
+
+</div>
+
+<div>
+
+8.  <b>Un ami de mon frère</b><br> <input type="radio" name="q8" id="q8a" onclick="checkRadioAnswer('q8', 'Relation')"> Relation <input type="radio" name="q8" id="q8b" onclick="checkRadioAnswer('q8', 'Origine')"> Origine <input type="radio" name="q8" id="q8c" onclick="checkRadioAnswer('q8', 'Contenu')"> Contenu <input type="radio" name="q8" id="q8d" onclick="checkRadioAnswer('q8', 'Cause')"> Cause
+
+</div>
+
+```{=html}
+<script>
+const correctRadioAnswers = {
+    q1: "Possession",
+    q2: "Origine",
+    q3: "Contenu",
+    q4: "Après verbe",
+    q5: "Après adjectif",
+    q6: "Cause",
+    q7: "Quantité",
+    q8: "Relation"
+};
+</script>
+```
+
+#### 3. Complétez avec vos propres idées (en utilisant **de**)
+
+1.  Un morceau <input type="text" placeholder="" oninput="checkAnswer(this, 'de')"> ...
+2.  Je parle <input type="text" placeholder="" oninput="checkAnswer(this, 'de')"> ...
+3.  Elle est fière <input type="text" placeholder="" oninput="checkAnswer(this, 'de')"> ...
+4.  Beaucoup <input type="text" placeholder="" oninput="checkAnswer(this, 'de')"> ...
+5.  Un film <input type="text" placeholder="" oninput="checkAnswer(this, 'de')"> ...
+6.  Il a besoin <input type="text" placeholder="" oninput="checkAnswer(this, 'de')"> ...
+7.  Un ami <input type="text" placeholder="" oninput="checkAnswer(this, 'de')"> ...
+8.  Elle parle <input type="text" placeholder="" oninput="checkAnswer(this, 'de')"> ...
+9.  Un livre <input type="text" placeholder="" oninput="checkAnswer(this, 'de')"> ...
+10. Elle est fatiguée <input type="text" placeholder="" oninput="checkAnswer(this, 'de')"> ...
+
+------------------------------------------------------------------------
+
+### Pour consolider vos acquis
+
+Écrivez un court paragraphe (3 à 5 phrases) expliquant ce que vous avez appris sur la préposition **de** en français. Utilisez vos propres mots et, si possible, donnez un exemple.
+
+```{=html}
+<textarea rows="5" style="width:100%;" placeholder="Écrivez ici ce que vous avez appris sur 'de'..."></textarea>
+```
+
+<button onclick="showAnswers()">
+
+Voir les réponses
+
+</button>
+
+<button onclick="refreshPage()">
+
+Nouvel essai
+
+</button>
+
+```{=html}
+<script>
+function checkAnswer(input, correctAnswer) {
+     const span = input.nextElementSibling;
+     if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
+          span.textContent = "✓ Correct";
+          span.style.color = "green";
+     } else {
+          span.textContent = "";
+     }
+}
+
+function showAnswers() {
+     document.querySelectorAll('input[type="text"]').forEach(el => {
+          const correct = el.getAttribute('oninput')?.match(/'([^']+)'/)?.[1];
+          if (correct) {
+                const span = el.nextElementSibling;
+                span.textContent = `Réponse : ${correct}`;
+                span.style.color = "blue";
+          }
+     });
+}
+
+function refreshPage() {
+     location.reload();
+}
+
+const correctRadioAnswers = {
+    q1: "Possession",
+    q2: "Origine",
+    q3: "Contenu",
+    q4: "Après verbe",
+    q5: "Après adjectif",
+    q6: "Cause",
+    q7: "Quantité",
+    q8: "Relation"
+};
+
+function checkRadioAnswer(q, correct) {
+    const radios = document.getElementsByName(q);
+    let selected = "";
+    radios.forEach(r => {
+        if (r.checked) {
+            selected = r.nextSibling.textContent.trim();
+        }
+    });
+    const result = document.getElementById(q + "-result");
+    if (selected === correct) {
+        result.textContent = "✓ Correct";
+        result.style.color = "green";
+    } else {
+        result.textContent = "";
+    }
+}
+</script>
+```
+:::::::::::

@@ -1,0 +1,324 @@
+---
+title: "Placement of Adverbs in French"
+author: "Kunal Khurana"
+date: "05-20-2025"
+categories: [B1, grammar, adverbs, placement, exercises]
+image: "adverbes_placement.png"
+---
+
+::: {.content-visible when-profile="english"}
+
+# Placement of Adverbs in French
+
+Adverbs in French can appear in different positions depending on their type and the sentence structure. Here are four common cases:
+
+## 1. At the Beginning or End of the Sentence
+
+Some adverbs (especially those expressing time or opinion) can be placed at the beginning or end of a sentence.
+
+- **Example:**  
+    *Heureusement*, il est venu.  
+    Il est venu, *heureusement*.  
+    (*Fortunately, he came.*)
+
+## 2. After the Verb
+
+Most adverbs of manner, place, or time are placed directly after the verb they modify.
+
+- **Example:**  
+    Elle parle *doucement*.  
+    (*She speaks gently.*)
+
+## 3. In Passé Composé: Between the Auxiliary and the Past Participle
+
+Short and common adverbs (like *bien*, *mal*, *déjà*, *toujours*, *encore*) are usually placed between the auxiliary verb (*avoir* or *être*) and the past participle.
+
+- **Example:**  
+    Il a *déjà* mangé.  
+    (*He has already eaten.*)
+
+## 4. Before an Adjective or Another Adverb
+
+Adverbs that modify an adjective or another adverb are placed directly before it.
+
+- **Example:**  
+    Elle est *très* intelligente.  
+    (*She is very intelligent.*)  
+    Il parle *trop* vite.  
+    (*He speaks too quickly.*)
+
+---
+
+# Exercises (in French)
+
+Complétez les phrases suivantes avec la bonne position de l’adverbe.
+
+1.  (*heureusement*) Il est venu.  
+    <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'Heureusement, il est venu.')"><span></span>
+
+2.  Elle parle (*doucement*).  
+    <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'Elle parle doucement.')"><span></span>
+
+3.  Il a (*déjà*) mangé.  
+    <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'Il a déjà mangé.')"><span></span>
+
+4.  Elle est (*très*) intelligente.  
+    <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'Elle est très intelligente.')"><span></span>
+
+5.  Il parle (*trop* vite).  
+    <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'Il parle trop vite.')"><span></span>
+
+---
+
+## Place the adverb in the correct position
+
+6.  (souvent) Nous allons au cinéma.  
+    <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'Nous allons souvent au cinéma.')"><span></span>
+
+7.  (déjà) Tu as vu ce film ?  
+    <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'Tu as déjà vu ce film ?')"><span></span>
+
+8.  (bien) Il parle français.  
+    <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'Il parle bien français.')"><span></span>
+
+9.  (rarement) Elle mange du chocolat.  
+    <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'Elle mange rarement du chocolat.')"><span></span>
+
+10. (toujours) Ils sont en retard.  
+    <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'Ils sont toujours en retard.')"><span></span>
+
+---
+
+## Choose the correct sentence
+
+11. Where do you place the adverb in the following sentence?  
+    "Elle a (vite) terminé son travail."  
+    <select onchange="checkAnswer(this, 'Elle a vite terminé son travail.')">
+      <option value=""></option>
+      <option value="Elle a terminé vite son travail.">Elle a terminé vite son travail.</option>
+      <option value="Elle a vite terminé son travail.">Elle a vite terminé son travail.</option>
+      <option value="Vite, elle a terminé son travail.">Vite, elle a terminé son travail.</option>
+    </select>
+    <span></span>
+
+12. Complete: "_____, il a compris la leçon." (heureusement)  
+    <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'Heureusement, il a compris la leçon.')"><span></span>
+
+---
+
+## Transform the sentence by adding the adverb in parentheses in the correct place
+
+13. Il a fini son repas. (rapidement)  
+    <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'Il a rapidement fini son repas.')"><span></span>
+
+14. Nous avons vu ce film. (déjà)  
+    <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'Nous avons déjà vu ce film.')"><span></span>
+
+15. Elle chante. (toujours)  
+    <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'Elle chante toujours.')"><span></span>
+
+---
+
+## Correct the adverb position if necessary
+
+16. Il mange son dessert toujours.  
+    <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'Il mange toujours son dessert.')"><span></span>
+
+17. Elle parle français bien.  
+    <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'Elle parle bien français.')"><span></span>
+
+18. Nous partons demain tôt.  
+    <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'Nous partons tôt demain.')"><span></span>
+
+<button onclick="showAnswers()">Show Answers</button>
+<button onclick="refreshPage()">Try Again</button>
+
+
+
+<script>
+
+function checkAnswer(input, correctAnswer) {
+    const span = input.nextElementSibling;
+    if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
+        span.textContent = "✓ Correct";
+        span.style.color = "green";
+    } else {
+        span.textContent = "";
+    }
+}
+
+function showAnswers() {
+    document.querySelectorAll('input[type="text"]').forEach(el => {
+        const correct = el.getAttribute('oninput')?.match(/'([^']+)'/)?.[1];
+        if (correct) {
+            const span = el.nextElementSibling;
+            span.textContent = `Réponse : ${correct}`;
+            span.style.color = "blue";
+        }
+    });
+}
+
+function refreshPage() {
+    location.reload();
+}
+</script>
+
+:::
+
+
+::: {.content-visible when-profile="french"}
+
+# Placement des adverbes en français
+
+Les adverbes en français peuvent apparaître à différents endroits selon leur type et la structure de la phrase. Voici quatre cas courants :
+
+## 1. Au début ou à la fin de la phrase
+
+Certains adverbes (notamment ceux qui expriment le temps ou l’opinion) peuvent être placés au début ou à la fin d’une phrase.
+
+- **Exemple :**  
+    *Heureusement*, il est venu.  
+    Il est venu, *heureusement*.  
+    (*Heureusement, il est venu.*)
+
+## 2. Après le verbe
+
+La plupart des adverbes de manière, de lieu ou de temps se placent directement après le verbe qu’ils modifient.
+
+- **Exemple :**  
+    Elle parle *doucement*.  
+    (*Elle parle doucement.*)
+
+## 3. Au passé composé : entre l’auxiliaire et le participe passé
+
+Les adverbes courts et courants (comme *bien*, *mal*, *déjà*, *toujours*, *encore*) se placent généralement entre l’auxiliaire (*avoir* ou *être*) et le participe passé.
+
+- **Exemple :**  
+    Il a *déjà* mangé.  
+    (*Il a déjà mangé.*)
+
+## 4. Devant un adjectif ou un autre adverbe
+
+Les adverbes qui modifient un adjectif ou un autre adverbe se placent directement devant celui-ci.
+
+- **Exemple :**  
+    Elle est *très* intelligente.  
+    (*Elle est très intelligente.*)  
+    Il parle *trop* vite.  
+    (*Il parle trop vite.*)
+
+---
+
+# Exercices
+
+Complétez les phrases suivantes avec la bonne position de l’adverbe.
+
+1.  (*heureusement*) Il est venu.  
+    <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'Heureusement, il est venu.')"><span></span>
+
+2.  Elle parle (*doucement*).  
+    <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'Elle parle doucement.')"><span></span>
+
+3.  Il a (*déjà*) mangé.  
+    <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'Il a déjà mangé.')"><span></span>
+
+4.  Elle est (*très*) intelligente.  
+    <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'Elle est très intelligente.')"><span></span>
+
+5.  Il parle (*trop* vite).  
+    <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'Il parle trop vite.')"><span></span>
+
+---
+
+## Placez l’adverbe à la bonne place
+
+6.  (souvent) Nous allons au cinéma.  
+    <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'Nous allons souvent au cinéma.')"><span></span>
+
+7.  (déjà) Tu as vu ce film ?  
+    <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'Tu as déjà vu ce film ?')"><span></span>
+
+8.  (bien) Il parle français.  
+    <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'Il parle bien français.')"><span></span>
+
+9.  (rarement) Elle mange du chocolat.  
+    <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'Elle mange rarement du chocolat.')"><span></span>
+
+10. (toujours) Ils sont en retard.  
+    <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'Ils sont toujours en retard.')"><span></span>
+
+---
+
+## Choisissez la bonne phrase
+
+11. Où place-t-on l’adverbe dans la phrase suivante ?  
+    « Elle a (vite) terminé son travail. »  
+    <select onchange="checkAnswer(this, 'Elle a vite terminé son travail.')">
+      <option value=""></option>
+      <option value="Elle a terminé vite son travail.">Elle a terminé vite son travail.</option>
+      <option value="Elle a vite terminé son travail.">Elle a vite terminé son travail.</option>
+      <option value="Vite, elle a terminé son travail.">Vite, elle a terminé son travail.</option>
+    </select>
+    <span></span>
+
+12. Complétez : « _____, il a compris la leçon. » (heureusement)  
+    <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'Heureusement, il a compris la leçon.')"><span></span>
+
+---
+
+## Transformez la phrase en ajoutant l’adverbe entre parenthèses à la bonne place
+
+13. Il a fini son repas. (rapidement)  
+    <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'Il a rapidement fini son repas.')"><span></span>
+
+14. Nous avons vu ce film. (déjà)  
+    <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'Nous avons déjà vu ce film.')"><span></span>
+
+15. Elle chante. (toujours)  
+    <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'Elle chante toujours.')"><span></span>
+
+---
+
+## Corrigez la position de l’adverbe si nécessaire
+
+16. Il mange son dessert toujours.  
+    <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'Il mange toujours son dessert.')"><span></span>
+
+17. Elle parle français bien.  
+    <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'Elle parle bien français.')"><span></span>
+
+18. Nous partons demain tôt.  
+    <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'Nous partons tôt demain.')"><span></span>
+
+<button onclick="showAnswers()">Afficher les réponses</button>
+
+<button onclick="refreshPage()">Réessayer</button>
+
+<script>
+function checkAnswer(input, correctAnswer) {
+    const span = input.nextElementSibling;
+    if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
+        span.textContent = "✓ Correct";
+        span.style.color = "green";
+    } else {
+        span.textContent = "";
+    }
+}
+
+function showAnswers() {
+    document.querySelectorAll('input[type="text"]').forEach(el => {
+        const correct = el.getAttribute('oninput')?.match(/'([^']+)'/)?.[1];
+        if (correct) {
+            const span = el.nextElementSibling;
+            span.textContent = `Réponse : ${correct}`;
+            span.style.color = "blue";
+        }
+    });
+}
+
+function refreshPage() {
+    location.reload();
+}
+</script>
+
+:::

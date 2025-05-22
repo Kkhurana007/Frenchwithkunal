@@ -1,0 +1,324 @@
+---
+title: "The Conditional Tense (Le Conditionnel) in French"
+author: "Kunal Khurana"
+date: "05-20-2025"
+categories: [B1, grammar, conditionnel, exercises]
+image: "conditionnel.png"
+---
+
+::: {.content-visible when-profile="english"}
+
+# Verb Constructions in French
+
+French verbs can be used in different constructions depending on their meaning and the context. Here are the main types:
+
+## 1. Verbs Used Alone
+
+Some verbs are used without a direct object, infinitive, or preposition. They may be followed by information about place, time, manner, or cause.
+
+**Examples:**  
+- Il part demain. (He is leaving tomorrow.)  
+- Nous restons à la maison. (We are staying at home.)  
+- Elle vient en bus. (She comes by bus.)  
+- Je m’habille rapidement. (I get dressed quickly.)
+
+## 2. Construction with a Noun, Pronoun, or Adjective
+
+Many verbs are followed by a direct object (noun or pronoun) or an adjective.
+
+**Examples:**  
+- Il mange une pomme. (He eats an apple.)  
+- Je vois Marie. (I see Marie.)  
+- Nous les invitons. (We invite them.)  
+- Elle est heureuse. (She is happy.)
+
+## 3. Construction with an Infinitive
+
+Some verbs are followed directly by an infinitive (sometimes with a preposition like "à" or "de").
+
+**Examples:**  
+- Je veux partir. (I want to leave.)  
+- Il préfère rester ici. (He prefers to stay here.)  
+- Nous aimons voyager. (We like to travel.)  
+- Elle commence à parler. (She starts to speak.)  
+- Tu as oublié de fermer la porte. (You forgot to close the door.)
+
+## 4. Construction with "que" or "si"
+
+Certain verbs are followed by a subordinate clause introduced by "que" (that) or "si" (if/whether).
+
+**With "que":**  
+Used after verbs expressing opinion, declaration, desire, fear, etc.
+
+**Examples:**  
+- Je pense que tu as raison. (I think that you are right.)  
+- Il dit que le train est en retard. (He says that the train is late.)  
+- Nous espérons que tout ira bien. (We hope that everything will be fine.)  
+- Elle a peur que tu partes. (She is afraid that you will leave.)
+
+**With "si":**  
+Used after verbs of asking, knowing, wondering, etc., to introduce indirect questions.
+
+**Examples:**  
+- Je demande si tu viens. (I ask if you are coming.)  
+- Il ne sait pas si elle est là. (He doesn't know if she is here.)  
+- Tu te demandes si c’est possible. (You wonder if it is possible.)  
+- Nous verrons si cela fonctionne. (We will see if it works.)
+
+---
+
+### Exercises
+
+#### A. Complete with "que" or "si" and the correct subordinate clause
+
+1. Je crois <input type="text" placeholder="" oninput="checkAnswer(this, 'que')"><span></span> tu as oublié ton livre.
+2. Elle demande <input type="text" placeholder="" oninput="checkAnswer(this, 'si')"><span></span> tu veux du café.
+3. Nous pensons <input type="text" placeholder="" oninput="checkAnswer(this, 'que')"><span></span> ce film est intéressant.
+4. Il ne sait pas <input type="text" placeholder="" oninput="checkAnswer(this, 'si')"><span></span> elle viendra ce soir.
+5. Tu dis <input type="text" placeholder="" oninput="checkAnswer(this, 'que')"><span></span> tu es fatigué.
+6. Ils veulent <input type="text" placeholder="" oninput="checkAnswer(this, 'que')"><span></span> tu les aides.
+7. Je me demande <input type="text" placeholder="" oninput="checkAnswer(this, 'si')"><span></span> c’est vrai.
+8. Elle espère <input type="text" placeholder="" oninput="checkAnswer(this, 'que')"><span></span> tout ira bien.
+
+#### B. Transform the direct sentences into indirect sentences using "que" or "si"
+
+1. Il dit : « Je pars demain. »  
+    → Il dit <input type="text" placeholder="" oninput="checkAnswer(this, 'qu\'il part demain')"><span></span>.
+
+2. Je demande : « Tu as fini ? »  
+    → Je demande <input type="text" placeholder="" oninput="checkAnswer(this, 'si tu as fini')"><span></span>.
+
+3. Nous pensons : « Il est malade. »  
+    → Nous pensons <input type="text" placeholder="" oninput="checkAnswer(this, 'qu\'il est malade')"><span></span>.
+
+4. Elle ne sait pas : « Paul vient ? »  
+    → Elle ne sait pas <input type="text" placeholder="" oninput="checkAnswer(this, 'si Paul vient')"><span></span>.
+
+5. Tu espères : « Marie réussira. »  
+    → Tu espères <input type="text" placeholder="" oninput="checkAnswer(this, 'que Marie réussira')"><span></span>.
+
+---
+
+#### C. Complétez avec le conditionnel présent
+
+1. Si j'étais en France, je <input type="text" placeholder="" oninput="checkAnswer(this, 'parlerais')"><span></span> (parler) français tous les jours.
+2. Si tu avais plus de temps, tu <input type="text" placeholder="" oninput="checkAnswer(this, 'lirais')"><span></span> (lire) ce livre.
+3. Nous <input type="text" placeholder="" oninput="checkAnswer(this, 'irions')"><span></span> (aller) à la plage s'il faisait beau.
+4. Elle <input type="text" placeholder="" oninput="checkAnswer(this, 'prendrait')"><span></span> (prendre) le train si elle pouvait.
+5. Vous <input type="text" placeholder="" oninput="checkAnswer(this, 'feriez')"><span></span> (faire) du sport si vous étiez motivés.
+6. Ils <input type="text" placeholder="" oninput="checkAnswer(this, 'choisiraient')"><span></span> (choisir) un autre film si celui-ci ne leur plaisait pas.
+7. Je <input type="text" placeholder="" oninput="checkAnswer(this, 'mangerais')"><span></span> (manger) au restaurant ce soir si j'avais de l'argent.
+8. Tu <input type="text" placeholder="" oninput="checkAnswer(this, 'devrais')"><span></span> (devoir) étudier davantage pour réussir.
+9. Nous <input type="text" placeholder="" oninput="checkAnswer(this, 'voudrions')"><span></span> (vouloir) visiter le musée demain.
+10. Elle <input type="text" placeholder="" oninput="checkAnswer(this, 'pourrait')"><span></span> (pouvoir) venir avec nous si elle finissait tôt.
+
+#### D. Complétez avec le conditionnel passé
+
+1. Si j'avais su, j'<input type="text" placeholder="" oninput="checkAnswer(this, 'aurais aidé')"><span></span> (aider) mon ami.
+2. Tu <input type="text" placeholder="" oninput="checkAnswer(this, 'aurais compris')"><span></span> (comprendre) la leçon si tu avais écouté.
+3. Nous <input type="text" placeholder="" oninput="checkAnswer(this, 'aurions vu')"><span></span> (voir) le film si nous étions arrivés à l'heure.
+4. Elle <input type="text" placeholder="" oninput="checkAnswer(this, 'aurait acheté')"><span></span> (acheter) la robe si elle avait eu assez d'argent.
+5. Vous <input type="text" placeholder="" oninput="checkAnswer(this, 'auriez pu')"><span></span> (pouvoir) participer à la réunion si vous aviez été disponibles.
+6. Ils <input type="text" placeholder="" oninput="checkAnswer(this, 'auraient compris')"><span></span> (comprendre) la situation avec plus d'explications.
+7. Je <input type="text" placeholder="" oninput="checkAnswer(this, 'serais resté')"><span></span> (rester) plus longtemps si j'avais eu le temps.
+8. Tu <input type="text" placeholder="" oninput="checkAnswer(this, 'aurais écrit')"><span></span> (écrire) à tes parents si tu n'avais pas oublié.
+9. Nous <input type="text" placeholder="" oninput="checkAnswer(this, 'aurions choisi')"><span></span> (choisir) une autre date si nous avions su.
+10. Elle <input type="text" placeholder="" oninput="checkAnswer(this, 'aurait fini')"><span></span> (finir) son travail plus tôt sans les interruptions.
+
+---
+
+<button onclick="showAnswers()">Show Answers</button>
+
+<button onclick="refreshPage()">Try Again</button>
+
+
+<script>
+function normalize(s) {
+    return s.normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/\s+/g, ' ').trim().toLowerCase();
+}
+function checkAnswer(input, answer) {
+    if (normalize(input.value) === normalize(answer)) {
+        input.style.backgroundColor = "#c8e6c9";
+    } else if (input.value.length > 0) {
+        input.style.backgroundColor = "#ffcdd2";
+    } else {
+        input.style.backgroundColor = "";
+    }
+}
+
+function showAnswers() {
+     document.querySelectorAll('input[type="text"]').forEach(el => {
+          const correct = el.getAttribute('oninput')?.match(/'([^']+)'/)?.[1];
+          if (correct) {
+                const span = el.nextElementSibling;
+                span.textContent = `Réponse : ${correct}`;
+                span.style.color = "blue";
+          }
+     });
+}
+
+function refreshPage() {
+    location.reload();
+}
+
+</script>
+
+:::
+
+::: {.content-visible when-profile="french"}
+
+# Les constructions verbales en français
+
+Les verbes français peuvent être utilisés dans différentes constructions selon leur sens et le contexte. Voici les principaux types :
+
+## 1. Verbes utilisés seuls
+
+Certains verbes s’emploient sans complément d’objet, infinitif ou préposition. Ils peuvent être suivis d’informations sur le lieu, le temps, la manière ou la cause.
+
+**Exemples :**  
+- Il part demain.  
+- Nous restons à la maison.  
+- Elle vient en bus.  
+- Je m’habille rapidement.
+
+## 2. Construction avec un nom, un pronom ou un adjectif
+
+Beaucoup de verbes sont suivis d’un complément d’objet direct (nom ou pronom) ou d’un adjectif.
+
+**Exemples :**  
+- Il mange une pomme.  
+- Je vois Marie.  
+- Nous les invitons.  
+- Elle est heureuse.
+
+## 3. Construction avec un infinitif
+
+Certains verbes sont suivis directement d’un infinitif (parfois avec une préposition comme « à » ou « de »).
+
+**Exemples :**  
+- Je veux partir.  
+- Il préfère rester ici.  
+- Nous aimons voyager.  
+- Elle commence à parler.  
+- Tu as oublié de fermer la porte.
+
+## 4. Construction avec « que » ou « si »
+
+Certains verbes sont suivis d’une proposition subordonnée introduite par « que » ou « si ».
+
+**Avec « que » :**  
+Après les verbes d’opinion, de déclaration, de désir, de crainte, etc.
+
+**Exemples :**  
+- Je pense que tu as raison.  
+- Il dit que le train est en retard.  
+- Nous espérons que tout ira bien.  
+- Elle a peur que tu partes.
+
+**Avec « si » :**  
+Après les verbes de demande, de savoir, de se demander, etc., pour introduire une question indirecte.
+
+**Exemples :**  
+- Je demande si tu viens.  
+- Il ne sait pas si elle est là.  
+- Tu te demandes si c’est possible.  
+- Nous verrons si cela fonctionne.
+
+---
+
+### Exercices
+
+#### A. Complétez avec « que » ou « si » et la subordonnée correcte
+
+1. Je crois <input type="text" placeholder="" oninput="checkAnswer(this, 'que')"><span></span> tu as oublié ton livre.
+2. Elle demande <input type="text" placeholder="" oninput="checkAnswer(this, 'si')"><span></span> tu veux du café.
+3. Nous pensons <input type="text" placeholder="" oninput="checkAnswer(this, 'que')"><span></span> ce film est intéressant.
+4. Il ne sait pas <input type="text" placeholder="" oninput="checkAnswer(this, 'si')"><span></span> elle viendra ce soir.
+5. Tu dis <input type="text" placeholder="" oninput="checkAnswer(this, 'que')"><span></span> tu es fatigué.
+6. Ils veulent <input type="text" placeholder="" oninput="checkAnswer(this, 'que')"><span></span> tu les aides.
+7. Je me demande <input type="text" placeholder="" oninput="checkAnswer(this, 'si')"><span></span> c’est vrai.
+8. Elle espère <input type="text" placeholder="" oninput="checkAnswer(this, 'que')"><span></span> tout ira bien.
+
+#### B. Transformez les phrases directes en phrases indirectes avec « que » ou « si »
+
+1. Il dit : « Je pars demain. »  
+    → Il dit <input type="text" placeholder="" oninput="checkAnswer(this, 'qu\'il part demain')"><span></span>.
+
+2. Je demande : « Tu as fini ? »  
+    → Je demande <input type="text" placeholder="" oninput="checkAnswer(this, 'si tu as fini')"><span></span>.
+
+3. Nous pensons : « Il est malade. »  
+    → Nous pensons <input type="text" placeholder="" oninput="checkAnswer(this, 'qu\'il est malade')"><span></span>.
+
+4. Elle ne sait pas : « Paul vient ? »  
+    → Elle ne sait pas <input type="text" placeholder="" oninput="checkAnswer(this, 'si Paul vient')"><span></span>.
+
+5. Tu espères : « Marie réussira. »  
+    → Tu espères <input type="text" placeholder="" oninput="checkAnswer(this, 'que Marie réussira')"><span></span>.
+
+---
+
+#### C. Complétez avec le conditionnel présent
+
+1. Si j'étais en France, je <input type="text" placeholder="" oninput="checkAnswer(this, 'parlerais')"><span></span> (parler) français tous les jours.
+2. Si tu avais plus de temps, tu <input type="text" placeholder="" oninput="checkAnswer(this, 'lirais')"><span></span> (lire) ce livre.
+3. Nous <input type="text" placeholder="" oninput="checkAnswer(this, 'irions')"><span></span> (aller) à la plage s'il faisait beau.
+4. Elle <input type="text" placeholder="" oninput="checkAnswer(this, 'prendrait')"><span></span> (prendre) le train si elle pouvait.
+5. Vous <input type="text" placeholder="" oninput="checkAnswer(this, 'feriez')"><span></span> (faire) du sport si vous étiez motivés.
+6. Ils <input type="text" placeholder="" oninput="checkAnswer(this, 'choisiraient')"><span></span> (choisir) un autre film si celui-ci ne leur plaisait pas.
+7. Je <input type="text" placeholder="" oninput="checkAnswer(this, 'mangerais')"><span></span> (manger) au restaurant ce soir si j'avais de l'argent.
+8. Tu <input type="text" placeholder="" oninput="checkAnswer(this, 'devrais')"><span></span> (devoir) étudier davantage pour réussir.
+9. Nous <input type="text" placeholder="" oninput="checkAnswer(this, 'voudrions')"><span></span> (vouloir) visiter le musée demain.
+10. Elle <input type="text" placeholder="" oninput="checkAnswer(this, 'pourrait')"><span></span> (pouvoir) venir avec nous si elle finissait tôt.
+
+#### D. Complétez avec le conditionnel passé
+
+1. Si j'avais su, j'<input type="text" placeholder="" oninput="checkAnswer(this, 'aurais aidé')"><span></span> (aider) mon ami.
+2. Tu <input type="text" placeholder="" oninput="checkAnswer(this, 'aurais compris')"><span></span> (comprendre) la leçon si tu avais écouté.
+3. Nous <input type="text" placeholder="" oninput="checkAnswer(this, 'aurions vu')"><span></span> (voir) le film si nous étions arrivés à l'heure.
+4. Elle <input type="text" placeholder="" oninput="checkAnswer(this, 'aurait acheté')"><span></span> (acheter) la robe si elle avait eu assez d'argent.
+5. Vous <input type="text" placeholder="" oninput="checkAnswer(this, 'auriez pu')"><span></span> (pouvoir) participer à la réunion si vous aviez été disponibles.
+6. Ils <input type="text" placeholder="" oninput="checkAnswer(this, 'auraient compris')"><span></span> (comprendre) la situation avec plus d'explications.
+7. Je <input type="text" placeholder="" oninput="checkAnswer(this, 'serais resté')"><span></span> (rester) plus longtemps si j'avais eu le temps.
+8. Tu <input type="text" placeholder="" oninput="checkAnswer(this, 'aurais écrit')"><span></span> (écrire) à tes parents si tu n'avais pas oublié.
+9. Nous <input type="text" placeholder="" oninput="checkAnswer(this, 'aurions choisi')"><span></span> (choisir) une autre date si nous avions su.
+10. Elle <input type="text" placeholder="" oninput="checkAnswer(this, 'aurait fini')"><span></span> (finir) son travail plus tôt sans les interruptions.
+
+---
+
+<button onclick="showAnswers()">Afficher les réponses</button>
+
+<button onclick="refreshPage()">Réessayer</button>
+
+<script>
+function normalize(s) {
+    return s.normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/\s+/g, ' ').trim().toLowerCase();
+}
+function checkAnswer(input, answer) {
+    if (normalize(input.value) === normalize(answer)) {
+        input.style.backgroundColor = "#c8e6c9";
+    } else if (input.value.length > 0) {
+        input.style.backgroundColor = "#ffcdd2";
+    } else {
+        input.style.backgroundColor = "";
+    }
+}
+
+function showAnswers() {
+     document.querySelectorAll('input[type="text"]').forEach(el => {
+          const correct = el.getAttribute('oninput')?.match(/'([^']+)'/)?.[1];
+          if (correct) {
+                const span = el.nextElementSibling;
+                span.textContent = `Réponse : ${correct}`;
+                span.style.color = "blue";
+          }
+     });
+}
+
+function refreshPage() {
+    location.reload();
+}
+
+</script>
+
+:::

@@ -1,0 +1,318 @@
+---
+title: "L’Impérsonnel en français"
+author: "Kunal Khurana"
+date: "05-20-2025"
+categories: [B1, grammar, impersonnel, exercices]
+image: "impersonnel.png"
+---
+
+::: {.content-visible when-profile="english"}
+
+# The Impersonal Form in French
+
+French often uses impersonal expressions—phrases where "il" does not refer to a specific person or thing. These are common in talking about the weather, time, necessity, opinions, and general statements.
+
+## 1. Weather
+
+- **Il pleut.** (It is raining.)
+- **Il neige.** (It is snowing.)
+- **Il fait chaud.** (It is hot.)
+
+## 2. Time
+
+- **Il est huit heures.** (It is eight o’clock.)
+- **Il est tard.** (It is late.)
+
+## 3. Necessity and Obligation
+
+- **Il faut + infinitif**  
+    *Il faut étudier.* (It is necessary to study.)
+
+- **Il faut que + subjonctif**  
+    *Il faut que tu viennes.* (You must come.)
+
+## 4. Impersonal Opinions
+
+- **Il est + adjectif + de + infinitif**  
+    *Il est important de pratiquer.* (It is important to practice.)
+
+- **Il est + adjectif + que + subjonctif/indicatif**  
+    *Il est possible que tu aies raison.* (It is possible that you are right.)  
+    *Il est certain que tu comprends.* (It is certain that you understand.)
+
+## 5. Other Impersonal Expressions
+
+- **Il s’agit de + nom/infinitif**  
+    *Il s’agit de comprendre la règle.* (It’s about understanding the rule.)
+
+- **Il semble que + subjonctif**  
+    *Il semble qu’il pleuve.* (It seems that it is raining.)
+
+------------------------------------------------------------------------
+
+# Exercises: Complete with the correct impersonal form
+
+Pour chaque phrase, complétez avec la bonne expression impersonnelle.
+
+1. ________ chaud aujourd’hui.  
+    <input type="text" placeholder="" size="35" oninput="checkAnswer(this, 'Il fait')" ><span></span>  
+
+2. ________ nécessaire de finir les devoirs.  
+    <input type="text" placeholder="" size="35" oninput="checkAnswer(this, 'Il est')" ><span></span>  
+
+3. ________ que tu partes maintenant. (obligation)  
+    <input type="text" placeholder="" size="35" oninput="checkAnswer(this, 'Il faut')" ><span></span>  
+
+4. ________ que tu sois à l’heure. (important)  
+    <input type="text" placeholder="" size="35" oninput="checkAnswer(this, 'Il est important')" ><span></span>  
+
+5. ________ cinq heures.  
+    <input type="text" placeholder="" size="35" oninput="checkAnswer(this, 'Il est')" ><span></span>  
+
+6. ________ de bien écouter en classe.  
+    <input type="text" placeholder="" size="35" oninput="checkAnswer(this, 'Il faut')" ><span></span>  
+
+7. ________ qu’il pleuve demain. (possibilité)  
+    <input type="text" placeholder="" size="35" oninput="checkAnswer(this, 'Il est possible')" ><span></span>  
+
+8. ________ de comprendre la consigne.  
+    <input type="text" placeholder="" size="35" oninput="checkAnswer(this, 'Il s’agit')" ><span></span>  
+
+9. ________ que tu viennes à la réunion. (nécessité, subjonctif)  
+    <input type="text" placeholder="" size="35" oninput="checkAnswer(this, 'Il faut')" ><span></span>  
+
+10. ________ que tu as raison. (certitude)  
+    <input type="text" placeholder="" size="35" oninput="checkAnswer(this, 'Il est certain')" ><span></span>  
+
+---
+
+# Creative Exercises: Impersonal Expressions in Context
+
+## A. Complete the Dialogue
+
+Complétez le dialogue avec la bonne expression impersonnelle (“Il faut”, “Il est possible”, “Il s’agit”, etc.).
+
+**A:** Je n’ai pas envie d’aller à l’école aujourd’hui.  
+**B:** ________ que tu sois présent, c’est important pour ton apprentissage.  
+<input type="text" placeholder="" size="55" oninput="checkAnswer(this, 'Il est important')" ><span></span>  
+
+**A:** Mais il pleut beaucoup dehors !  
+**B:** ________ prendre un parapluie alors.  
+<input type="text" placeholder="" size="55" oninput="checkAnswer(this, 'Il faut')" ><span></span>  
+
+**A:** Tu crois qu’on aura un contrôle ?  
+**B:** ________ que le professeur en fasse un, mais je ne suis pas sûr.  
+<input type="text" placeholder="" size="55" oninput="checkAnswer(this, 'Il est possible')" ><span></span>  
+
+---
+
+## B. Reformulate
+
+Réécrivez chaque phrase en utilisant une expression impersonnelle.
+
+1. Tu dois finir tes devoirs.  
+   <input type="text" placeholder="Ex: Il faut..." size="55" oninput="checkAnswer(this, 'Il faut finir les devoirs.')" ><span></span>  
+
+2. On dit que la réunion commence à 10h.  
+   <input type="text" placeholder="Ex: Il est dit que ...." size="55" oninput="checkAnswer(this, 'Il est dit que la réunion commence à 10h.')" ><span></span>  
+
+3. Tu es obligé de partir maintenant.  
+   <input type="text" placeholder="Ex: Il faut ..." size="55" oninput="checkAnswer(this, 'Il faut partir maintenant.')" ><span></span>  
+
+---
+
+## C. Invent Your Own
+
+Écrivez deux phrases en français utilisant une expression impersonnelle (par exemple : Il faut, Il est important de, Il semble que, etc.).
+
+<input type="text" placeholder="Votre phrase 1" size="70"><span></span>  
+<input type="text" placeholder="Votre phrase 2" size="70"><span></span>  
+
+
+
+<button onclick="showAnswers()">Show answers</button>
+<button onclick="refreshPage()">Try again</button>
+
+<script>
+function checkAnswer(input, correctAnswer) {
+    const span = input.nextElementSibling;
+    if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
+        span.textContent = "✓ Correct";
+        span.style.color = "green";
+    } else {
+        span.textContent = "";
+    }
+}
+
+function showAnswers() {
+    document.querySelectorAll('input[type="text"]').forEach(el => {
+        const correct = el.getAttribute('oninput')?.match(/'([^']+)'/)?.[1];
+        if (correct) {
+            const span = el.nextElementSibling;
+            span.textContent = `Réponse : ${correct}`;
+            span.style.color = "blue";
+        }
+    });
+}
+
+function refreshPage() {
+    location.reload();
+}
+</script>
+
+------------------------------------------------------------------------
+:::
+
+::: {.content-visible when-profile="french"}
+
+# La forme impersonnelle en français
+
+Le français utilise souvent des expressions impersonnelles—des phrases où "il" ne fait pas référence à une personne ou une chose précise. Elles sont fréquentes pour parler de la météo, de l’heure, de la nécessité, des opinions et des généralités.
+
+## 1. La météo
+
+- **Il pleut.**  
+- **Il neige.**  
+- **Il fait chaud.**
+
+## 2. L’heure
+
+- **Il est huit heures.**
+- **Il est tard.**
+
+## 3. La nécessité et l’obligation
+
+- **Il faut + infinitif**  
+    *Il faut étudier.*
+
+- **Il faut que + subjonctif**  
+    *Il faut que tu viennes.*
+
+## 4. Les opinions impersonnelles
+
+- **Il est + adjectif + de + infinitif**  
+    *Il est important de pratiquer.*
+
+- **Il est + adjectif + que + subjonctif/indicatif**  
+    *Il est possible que tu aies raison.*  
+    *Il est certain que tu comprends.*
+
+## 5. Autres expressions impersonnelles
+
+- **Il s’agit de + nom/infinitif**  
+    *Il s’agit de comprendre la règle.*
+
+- **Il semble que + subjonctif**  
+    *Il semble qu’il pleuve.*
+
+------------------------------------------------------------------------
+
+# Exercices : Complétez avec la bonne forme impersonnelle
+
+Pour chaque phrase, complétez avec la bonne expression impersonnelle.
+
+1. ________ chaud aujourd’hui.  
+    <input type="text" placeholder="" size="35" oninput="checkAnswer(this, 'Il fait')" ><span></span>  
+
+2. ________ nécessaire de finir les devoirs.  
+    <input type="text" placeholder="" size="35" oninput="checkAnswer(this, 'Il est')" ><span></span>  
+
+3. ________ que tu partes maintenant. (obligation)  
+    <input type="text" placeholder="" size="35" oninput="checkAnswer(this, 'Il faut')" ><span></span>  
+
+4. ________ que tu sois à l’heure. (important)  
+    <input type="text" placeholder="" size="35" oninput="checkAnswer(this, 'Il est important')" ><span></span>  
+
+5. ________ cinq heures.  
+    <input type="text" placeholder="" size="35" oninput="checkAnswer(this, 'Il est')" ><span></span>  
+
+6. ________ de bien écouter en classe.  
+    <input type="text" placeholder="" size="35" oninput="checkAnswer(this, 'Il faut')" ><span></span>  
+
+7. ________ qu’il pleuve demain. (possibilité)  
+    <input type="text" placeholder="" size="35" oninput="checkAnswer(this, 'Il est possible')" ><span></span>  
+
+8. ________ de comprendre la consigne.  
+    <input type="text" placeholder="" size="35" oninput="checkAnswer(this, 'Il s’agit')" ><span></span>  
+
+9. ________ que tu viennes à la réunion. (nécessité, subjonctif)  
+    <input type="text" placeholder="" size="35" oninput="checkAnswer(this, 'Il faut')" ><span></span>  
+
+10. ________ que tu as raison. (certitude)  
+    <input type="text" placeholder="" size="35" oninput="checkAnswer(this, 'Il est certain')" ><span></span>  
+
+---
+
+# Exercices créatifs : Expressions impersonnelles en contexte
+
+## A. Complétez le dialogue
+
+Complétez le dialogue avec la bonne expression impersonnelle (“Il faut”, “Il est possible”, “Il s’agit”, etc.).
+
+**A :** Je n’ai pas envie d’aller à l’école aujourd’hui.  
+**B :** ________ que tu sois présent, c’est important pour ton apprentissage.  
+<input type="text" placeholder="" size="55" oninput="checkAnswer(this, 'Il est important')" ><span></span>  
+
+**A :** Mais il pleut beaucoup dehors !  
+**B :** ________ prendre un parapluie alors.  
+<input type="text" placeholder="" size="55" oninput="checkAnswer(this, 'Il faut')" ><span></span>  
+
+**A :** Tu crois qu’on aura un contrôle ?  
+**B :** ________ que le professeur en fasse un, mais je ne suis pas sûr.  
+<input type="text" placeholder="" size="55" oninput="checkAnswer(this, 'Il est possible')" ><span></span>  
+
+---
+
+## B. Reformulez
+
+Réécrivez chaque phrase en utilisant une expression impersonnelle.
+
+1. Tu dois finir tes devoirs.  
+   <input type="text" placeholder="Ex : Il faut..." size="55" oninput="checkAnswer(this, 'Il faut finir les devoirs.')" ><span></span>  
+
+2. On dit que la réunion commence à 10h.  
+   <input type="text" placeholder="Ex : Il est dit que ..." size="55" oninput="checkAnswer(this, 'Il est dit que la réunion commence à 10h.')" ><span></span>  
+
+3. Tu es obligé de partir maintenant.  
+   <input type="text" placeholder="Ex : Il faut ..." size="55" oninput="checkAnswer(this, 'Il faut partir maintenant.')" ><span></span>  
+
+---
+
+## C. Inventez vos propres phrases
+
+Écrivez deux phrases en français utilisant une expression impersonnelle (par exemple : Il faut, Il est important de, Il semble que, etc.).
+
+<input type="text" placeholder="Votre phrase 1" size="70"><span></span>  
+<input type="text" placeholder="Votre phrase 2" size="70"><span></span>  
+
+<button onclick="showAnswers()">Afficher les réponses</button>
+<button onclick="refreshPage()">Réessayer</button>
+
+<script>
+function checkAnswer(input, correctAnswer) {
+    const span = input.nextElementSibling;
+    if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
+        span.textContent = "✓ Correct";
+        span.style.color = "green";
+    } else {
+        span.textContent = "";
+    }
+}
+
+function showAnswers() {
+    document.querySelectorAll('input[type="text"]').forEach(el => {
+        const correct = el.getAttribute('oninput')?.match(/'([^']+)'/)?.[1];
+        if (correct) {
+            const span = el.nextElementSibling;
+            span.textContent = `Réponse : ${correct}`;
+            span.style.color = "blue";
+        }
+    });
+}
+
+function refreshPage() {
+    location.reload();
+}
+</script>
+
+:::

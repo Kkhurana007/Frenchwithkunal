@@ -1,0 +1,231 @@
+---
+title: "Adverbs that Connect Ideas in French (Adverbes de liaison)"
+author: "Kunal Khurana"
+date: "05-20-2025"
+categories: [B1, grammar, adverbs, connectors, exercises]
+image: "adverbes_liaison.png"
+---
+
+::: {.content-visible when-profile="english"}
+
+# Adverbs that Connect Ideas in French (Adverbes de liaison)
+
+Adverbs such as **d'abord** (first), **ensuite** (then/next), **et puis** (and then), and **enfin** (finally) are used to connect phrases or sentences. These adverbs help organize your ideas, show the order of events, and make your writing or speech clearer and more logical.
+
+**Common connecting adverbs:**
+
+| French        | English         | Example (FR)                                 | Example (EN)                      |
+|---------------|----------------|----------------------------------------------|-----------------------------------|
+| d'abord       | first           | D'abord, je me lève.                         | First, I get up.                  |
+| ensuite       | then/next       | Ensuite, je prends mon petit-déjeuner.       | Then, I have breakfast.           |
+| et puis       | and then        | Et puis, je vais à l'école.                  | And then, I go to school.         |
+| enfin         | finally         | Enfin, je rentre à la maison.                | Finally, I go home.               |
+| après         | after           | Après, je fais mes devoirs.                  | After, I do my homework.          |
+| de plus       | moreover/furthermore | De plus, j'aime lire.                  | Moreover, I like to read.         |
+| cependant     | however         | Cependant, il pleut.                         | However, it is raining.           |
+| pourtant      | yet/nevertheless| Pourtant, il sort.                           | Yet, he goes out.                 |
+| donc          | so/therefore    | Donc, je reste à la maison.                  | So, I stay at home.               |
+| puis          | then            | Puis, je me repose.                          | Then, I rest.                     |
+| en outre      | furthermore     | En outre, elle parle espagnol.               | Furthermore, she speaks Spanish.  |
+| par contre    | on the other hand | Par contre, il préfère le thé.            | On the other hand, he prefers tea.|
+| en revanche   | conversely      | En revanche, elle n'aime pas le café.        | Conversely, she doesn't like coffee.|
+| ainsi         | thus/so         | Ainsi, nous avons terminé.                   | Thus, we are done.                |
+| finalement    | eventually      | Finalement, ils arrivent.                    | Eventually, they arrive.          |
+
+These adverbs are usually placed at the beginning of a sentence or clause to indicate the sequence of actions.
+
+---
+
+# Activities
+
+## 1. Fill in the blanks with the correct connecting adverb
+
+Choose from: **d'abord**, **ensuite**, **et puis**, **enfin**
+
+1. Je me réveille <input type="text" placeholder="" oninput="checkAnswer(this, 'd\'abord')"><span></span>. (d'abord)
+2. Je prends une douche <input type="text" placeholder="" oninput="checkAnswer(this, 'ensuite')"><span></span>. (ensuite)
+3. Je m'habille <input type="text" placeholder="" oninput="checkAnswer(this, 'puis')"><span></span>. (puis)
+4. Je prends mon petit-déjeuner <input type="text" placeholder="" oninput="checkAnswer(this, 'après')"><span></span>. (après)
+5. Je vais à l'école <input type="text" placeholder="" oninput="checkAnswer(this, 'et puis')"><span></span>. (et puis)
+6. J'étudie <input type="text" placeholder="" oninput="checkAnswer(this, 'ensuite')"><span></span>. (ensuite)
+7. Je rentre à la maison <input type="text" placeholder="" oninput="checkAnswer(this, 'après')"><span></span>. (après)
+8. Je fais mes devoirs <input type="text" placeholder="" oninput="checkAnswer(this, 'd\'abord')"><span></span>. (d'abord)
+9. Je regarde la télévision <input type="text" placeholder="" oninput="checkAnswer(this, 'puis')"><span></span>. (puis)
+10. Je dîne avec ma famille <input type="text" placeholder="" oninput="checkAnswer(this, 'ensuite')"><span></span>. (ensuite)
+11. Je lis un livre <input type="text" placeholder="" oninput="checkAnswer(this, 'après')"><span></span>. (après)
+12. Je me brosse les dents <input type="text" placeholder="" oninput="checkAnswer(this, 'enfin')"><span></span>. (enfin)
+13. Je me couche <input type="text" placeholder="" oninput="checkAnswer(this, 'finalement')"><span></span>. (finalement)
+14. Je prépare mon sac <input type="text" placeholder="" oninput="checkAnswer(this, 'd\'abord')"><span></span>. (d'abord)
+15. Je dis bonne nuit <input type="text" placeholder="" oninput="checkAnswer(this, 'enfin')"><span></span>. (enfin)
+
+## 2. Put the sentences in order using connecting adverbs
+
+Arrange the following actions in a logical order and add the appropriate adverb at the beginning of each sentence:
+
+- Je me brosse les dents.
+- Je prends une douche.
+- Je me réveille.
+- Je m'habille.
+
+_Space for your answer:_
+
+<textarea rows="6" style="width:100%" placeholder="Write the ordered sentences here..."></textarea>
+
+## 3. Write a short paragraph
+
+Write a short paragraph (3-5 sentences) about your morning routine. Use at least three connecting adverbs from the list above.
+
+<textarea rows="6" style="width:100%" placeholder="Write your paragraph here..."></textarea>
+
+---
+
+<button onclick="showAnswers()">Show Answers</button>
+<button onclick="refreshPage()">Try Again</button>
+
+<script>
+function checkAnswer(input, correctAnswer) {
+    const span = input.nextElementSibling;
+    if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
+        span.textContent = "✓ Correct";
+        span.style.color = "green";
+    } else {
+        span.textContent = "";
+    }
+}
+
+function showAnswers() {
+    // For fill-in-the-blank exercise
+    const answers = ["d'abord", "ensuite", "et puis", "enfin"];
+    document.querySelectorAll('.connector-blank').forEach((el, idx) => {
+        const span = el.nextElementSibling;
+        span.textContent = `Answer: ${answers[idx]}`;
+        span.style.color = "blue";
+    });
+}
+
+function refreshPage() {
+    location.reload();
+}
+</script>
+
+<!-- For fill-in-the-blank exercise -->
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    document.querySelectorAll('.connector-blank').forEach((el, idx) => {
+        el.addEventListener('input', function() {
+            const answers = ["d'abord", "ensuite", "et puis", "enfin"];
+            checkAnswer(el, answers[idx]);
+        });
+    });
+});
+
+
+<!-- Add input fields for exercise 1 -->
+
+document.addEventListener("DOMContentLoaded", function() {
+    const blanks = document.querySelectorAll('.connector-blank');
+    if (blanks.length === 0) {
+        const ex1 = document.querySelectorAll('ol')[0];
+        if (ex1) {
+            ex1.innerHTML = `
+            <li><input type="text" class="connector-blank" style="width:100px">, je fais mes devoirs.<span></span> (First)</li>
+            <li><input type="text" class="connector-blank" style="width:100px">, je regarde la télévision.<span></span> (Then/next)</li>
+            <li><input type="text" class="connector-blank" style="width:100px">, je dîne avec ma famille.<span></span> (And then)</li>
+            <li><input type="text" class="connector-blank" style="width:100px">, je me couche.<span></span> (Finally)</li>
+            `;
+        }
+    }
+});
+
+</script>
+
+:::
+
+
+::: {.content-visible when-profile="french"}
+
+# Les adverbes de liaison en français
+
+Les adverbes comme **d'abord**, **ensuite**, **et puis**, **enfin** servent à relier des phrases ou des idées. Ils permettent d'organiser le discours et de montrer la chronologie ou la logique des actions.
+
+**Adverbes courants :**
+
+| Français      | Anglais              | Exemple (FR)                              | Exemple (EN)                      |
+|---------------|----------------------|-------------------------------------------|-----------------------------------|
+| d'abord       | first                | D'abord, je me lève.                      | First, I get up.                  |
+| ensuite       | then/next            | Ensuite, je prends mon petit-déjeuner.    | Then, I have breakfast.           |
+| et puis       | and then             | Et puis, je vais à l'école.               | And then, I go to school.         |
+| enfin         | finally              | Enfin, je rentre à la maison.             | Finally, I go home.               |
+| après         | after                | Après, je fais mes devoirs.               | After, I do my homework.          |
+| de plus       | moreover/furthermore | De plus, j'aime lire.                     | Moreover, I like to read.         |
+| cependant     | however              | Cependant, il pleut.                      | However, it is raining.           |
+| pourtant      | yet/nevertheless     | Pourtant, il sort.                        | Yet, he goes out.                 |
+| donc          | so/therefore         | Donc, je reste à la maison.               | So, I stay at home.               |
+| puis          | then                 | Puis, je me repose.                       | Then, I rest.                     |
+| en outre      | furthermore          | En outre, elle parle espagnol.            | Furthermore, she speaks Spanish.  |
+| par contre    | on the other hand    | Par contre, il préfère le thé.            | On the other hand, he prefers tea.|
+| en revanche   | conversely           | En revanche, elle n'aime pas le café.     | Conversely, she doesn't like coffee.|
+| ainsi         | thus/so              | Ainsi, nous avons terminé.                | Thus, we are done.                |
+| finalement    | eventually           | Finalement, ils arrivent.                 | Eventually, they arrive.          |
+
+---
+
+# Activités
+
+## 1. Complétez avec l’adverbe de liaison correct
+
+Choisissez parmi : **d'abord**, **ensuite**, **et puis**, **enfin**
+1. Je me lève <input type="text" placeholder="" oninput="checkAnswer(this, 'd\'abord')"><span></span>. (first)
+2. Je prends mon petit-déjeuner <input type="text" placeholder="" oninput="checkAnswer(this, 'ensuite')"><span></span>. (then/next)
+3. Je m'habille <input type="text" placeholder="" oninput="checkAnswer(this, 'et puis')"><span></span>. (and then)
+4. Je quitte la maison <input type="text" placeholder="" oninput="checkAnswer(this, 'enfin')"><span></span>. (finally)
+
+## 2. Remettez les phrases dans l’ordre logique en ajoutant un adverbe de liaison
+
+- Je fais mes devoirs.
+- Je rentre à la maison.
+- Je goûte.
+- Je me repose.
+
+_Espace pour votre réponse :_
+
+<textarea rows="6" style="width:100%" placeholder="Écrivez les phrases ordonnées ici..."></textarea>
+
+## 3. Rédigez un court paragraphe
+
+Écrivez un court paragraphe (3 à 5 phrases) sur votre routine du soir. Utilisez au moins trois adverbes de liaison de la liste ci-dessus.
+
+<textarea rows="6" style="width:100%" placeholder="Écrivez votre paragraphe ici..."></textarea>
+
+<button onclick="showAnswers()">Afficher les réponses</button>
+
+<button onclick="refreshPage()">Réessayer</button>
+
+<script>
+function checkAnswer(input, correctAnswer) {
+    const span = input.nextElementSibling;
+    if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
+        span.textContent = "✓ Correct";
+        span.style.color = "green";
+    } else {
+        span.textContent = "";
+    }
+}
+
+function showAnswers() {
+    document.querySelectorAll('input[type="text"]').forEach(el => {
+        const correct = el.getAttribute('oninput')?.match(/'([^']+)'/)?.[1];
+        if (correct) {
+            const span = el.nextElementSibling;
+            span.textContent = `Réponse : ${correct}`;
+            span.style.color = "blue";
+        }
+    });
+}
+
+function refreshPage() {
+    location.reload();
+}
+</script>
+
+:::

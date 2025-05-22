@@ -1,0 +1,407 @@
+---
+title: "Adverbs of Affirmation (Adverbes d'affirmation) in French"
+author: "Kunal Khurana"
+date: "05-20-2025"
+categories: [B1, grammar, adverbs, exercises]
+image: "adverbes_affirmation.png"
+---
+
+::: {.content-visible when-profile="english"}
+
+# Adverbs of Affirmation in French (Adverbes d'affirmation)
+
+Adverbs of affirmation are words or phrases used to confirm, agree, or show certainty about something. They answer questions like "Is it true?" or "Do you agree?" and are often used to express certainty, possibility, or agreement.
+
+**Common Adverbs of Affirmation:**
+
+| French         | English           | Example (FR)                | Example (EN)                |
+|----------------|------------------|-----------------------------|-----------------------------|
+| oui            | yes              | Oui, j'ai compris.          | Yes, I understood.          |
+| bien sûr       | of course         | Bien sûr, je viens !        | Of course, I'm coming!      |
+| évidemment     | obviously         | Évidemment, c'est vrai.     | Obviously, it's true.       |
+| certainement   | certainly         | Il viendra certainement.    | He will certainly come.     |
+| sans doute     | probably/perhaps  | Il viendra sans doute.      | He will probably come.      |
+| peut-être      | maybe/perhaps     | Peut-être qu'il viendra.    | Maybe he will come.         |
+| en effet       | indeed            | En effet, tu as raison.     | Indeed, you are right.      |
+
+---
+
+# Activities
+
+## 1. Complete with the correct adverb of affirmation (in French)
+
+1. ______, j'ai compris. (yes)
+    <input type="text" placeholder="" oninput="checkAnswer(this, 'oui')"><span></span>
+2. ______, je viens ! (of course)
+    <input type="text" placeholder="" oninput="checkAnswer(this, 'bien sûr')"><span></span>
+3. ______, c'est vrai. (obviously)
+    <input type="text" placeholder="" oninput="checkAnswer(this, 'évidemment')"><span></span>
+4. Il viendra ______. (certainly)
+    <input type="text" placeholder="" oninput="checkAnswer(this, 'certainement')"><span></span>
+5. Il viendra ______. (probably/perhaps)
+    <input type="text" placeholder="" oninput="checkAnswer(this, 'sans doute')"><span></span>
+6. ______ qu'il viendra. (maybe/perhaps)
+    <input type="text" placeholder="" oninput="checkAnswer(this, 'peut-être')"><span></span>
+7. ______, tu as raison. (indeed)
+    <input type="text" placeholder="" oninput="checkAnswer(this, 'en effet')"><span></span>
+8. ______, il a réussi. (certainly)
+    <input type="text" placeholder="" oninput="checkAnswer(this, 'certainement')"><span></span>
+9. ______, je suis prêt. (obviously)
+    <input type="text" placeholder="" oninput="checkAnswer(this, 'évidemment')"><span></span>
+10. ______, tu peux venir. (of course)
+    <input type="text" placeholder="" oninput="checkAnswer(this, 'bien sûr')"><span></span>
+11. ______, il est d'accord. (yes)
+    <input type="text" placeholder="" oninput="checkAnswer(this, 'oui')"><span></span>
+12. ______, il va pleuvoir. (maybe)
+    <input type="text" placeholder="" oninput="checkAnswer(this, 'peut-être')"><span></span>
+13. ______, tu as gagné ! (obviously)
+    <input type="text" placeholder="" oninput="checkAnswer(this, 'évidemment')"><span></span>
+14. ______, il viendra demain. (probably)
+    <input type="text" placeholder="" oninput="checkAnswer(this, 'sans doute')"><span></span>
+15. ______, tu as bien travaillé. (indeed)
+    <input type="text" placeholder="" oninput="checkAnswer(this, 'en effet')"><span></span>
+
+## 2. Choose the correct adverb of affirmation
+
+1. ______, je suis d'accord. (yes)
+    <select onchange="checkAnswer(this, 'oui')">
+      <option value=""></option>
+      <option value="oui">oui</option>
+      <option value="peut-être">peut-être</option>
+      <option value="sans doute">sans doute</option>
+    </select>
+    <span></span>
+
+2. ______, il va pleuvoir. (maybe)
+    <select onchange="checkAnswer(this, 'peut-être')">
+      <option value=""></option>
+      <option value="évidemment">évidemment</option>
+      <option value="peut-être">peut-être</option>
+      <option value="bien sûr">bien sûr</option>
+    </select>
+    <span></span>
+
+3. ______, tu peux entrer. (of course)
+    <select onchange="checkAnswer(this, 'bien sûr')">
+      <option value=""></option>
+      <option value="bien sûr">bien sûr</option>
+      <option value="sans doute">sans doute</option>
+      <option value="oui">oui</option>
+    </select>
+    <span></span>
+
+4. ______, il est parti. (certainly)
+    <select onchange="checkAnswer(this, 'certainement')">
+      <option value=""></option>
+      <option value="certainement">certainement</option>
+      <option value="peut-être">peut-être</option>
+      <option value="en effet">en effet</option>
+    </select>
+    <span></span>
+
+5. ______, tu as gagné ! (obviously)
+    <select onchange="checkAnswer(this, 'évidemment')">
+      <option value=""></option>
+      <option value="évidemment">évidemment</option>
+      <option value="oui">oui</option>
+      <option value="sans doute">sans doute</option>
+    </select>
+    <span></span>
+
+6. ______, il viendra demain. (probably)
+    <select onchange="checkAnswer(this, 'sans doute')">
+      <option value=""></option>
+      <option value="sans doute">sans doute</option>
+      <option value="bien sûr">bien sûr</option>
+      <option value="peut-être">peut-être</option>
+    </select>
+    <span></span>
+
+7. ______, tu as raison. (indeed)
+    <select onchange="checkAnswer(this, 'en effet')">
+      <option value=""></option>
+      <option value="en effet">en effet</option>
+      <option value="oui">oui</option>
+      <option value="certainement">certainement</option>
+    </select>
+    <span></span>
+
+8. ______, il a compris. (obviously)
+    <select onchange="checkAnswer(this, 'évidemment')">
+      <option value=""></option>
+      <option value="évidemment">évidemment</option>
+      <option value="peut-être">peut-être</option>
+      <option value="bien sûr">bien sûr</option>
+    </select>
+    <span></span>
+
+9. ______, je viendrai. (certainly)
+    <select onchange="checkAnswer(this, 'certainement')">
+      <option value=""></option>
+      <option value="certainement">certainement</option>
+      <option value="oui">oui</option>
+      <option value="sans doute">sans doute</option>
+    </select>
+    <span></span>
+
+10. ______, tu peux essayer. (of course)
+    <select onchange="checkAnswer(this, 'bien sûr')">
+      <option value=""></option>
+      <option value="bien sûr">bien sûr</option>
+      <option value="peut-être">peut-être</option>
+      <option value="en effet">en effet</option>
+    </select>
+    <span></span>
+
+## 3. Translate to French using an adverb of affirmation
+
+1. Yes, I understood. <input type="text" placeholder="" oninput="checkAnswer(this, 'Oui, j\'ai compris.')"><span></span>
+2. Of course, I am coming! <input type="text" placeholder="" oninput="checkAnswer(this, 'Bien sûr, je viens !')"><span></span>
+3. Obviously, it is true. <input type="text" placeholder="" oninput="checkAnswer(this, 'Évidemment, c\'est vrai.')"><span></span>
+4. He will certainly come. <input type="text" placeholder="" oninput="checkAnswer(this, 'Il viendra certainement.')"><span></span>
+5. Maybe he will come. <input type="text" placeholder="" oninput="checkAnswer(this, 'Peut-être qu\'il viendra.')"><span></span>
+6. Indeed, you are right. <input type="text" placeholder="" oninput="checkAnswer(this, 'En effet, tu as raison.')"><span></span>
+7. Certainly, he succeeded. <input type="text" placeholder="" oninput="checkAnswer(this, 'Certainement, il a réussi.')"><span></span>
+8. Obviously, I am ready. <input type="text" placeholder="" oninput="checkAnswer(this, 'Évidemment, je suis prêt.')"><span></span>
+9. Of course, you can come. <input type="text" placeholder="" oninput="checkAnswer(this, 'Bien sûr, tu peux venir.')"><span></span>
+10. Yes, he agrees. <input type="text" placeholder="" oninput="checkAnswer(this, 'Oui, il est d\'accord.')"><span></span>
+11. Maybe it will rain. <input type="text" placeholder="" oninput="checkAnswer(this, 'Peut-être qu\'il va pleuvoir.')"><span></span>
+12. Obviously, you won! <input type="text" placeholder="" oninput="checkAnswer(this, 'Évidemment, tu as gagné !')"><span></span>
+13. Probably, he will come tomorrow. <input type="text" placeholder="" oninput="checkAnswer(this, 'Sans doute, il viendra demain.')"><span></span>
+14. Indeed, you worked well. <input type="text" placeholder="" oninput="checkAnswer(this, 'En effet, tu as bien travaillé.')"><span></span>
+15. Of course, you can try. <input type="text" placeholder="" oninput="checkAnswer(this, 'Bien sûr, tu peux essayer.')"><span></span>
+
+
+
+
+<button onclick="showAnswers()">Show Answers</button>
+
+<button onclick="refreshPage()">Try Again</button>
+
+<script>
+function checkAnswer(input, correctAnswer) {
+    const span = input.nextElementSibling;
+    if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
+        span.textContent = "✓ Correct";
+        span.style.color = "green";
+    } else {
+        span.textContent = "";
+    }
+}
+
+function showAnswers() {
+    document.querySelectorAll('input[type="text"]').forEach(el => {
+        const correct = el.getAttribute('oninput')?.match(/'([^']+)'/)?.[1];
+        if (correct) {
+            const span = el.nextElementSibling;
+            span.textContent = `Réponse : ${correct}`;
+            span.style.color = "blue";
+        }
+    });
+}
+
+function refreshPage() {
+    location.reload();
+}
+</script>
+
+:::
+
+
+::: {.content-visible when-profile="french"}
+
+# Les adverbes d'affirmation en français
+
+Les adverbes d'affirmation sont des mots ou expressions utilisés pour confirmer, approuver ou montrer la certitude à propos de quelque chose. Ils répondent à des questions comme « Est-ce vrai ? » ou « Es-tu d'accord ? » et servent à exprimer la certitude, la possibilité ou l'accord.
+
+**Adverbes d'affirmation courants :**
+
+| Français       | Anglais            | Exemple (FR)                | Exemple (EN)                |
+|----------------|-------------------|-----------------------------|-----------------------------|
+| oui            | yes               | Oui, j'ai compris.          | Yes, I understood.          |
+| bien sûr       | of course         | Bien sûr, je viens !        | Of course, I'm coming!      |
+| évidemment     | obviously         | Évidemment, c'est vrai.     | Obviously, it's true.       |
+| certainement   | certainly         | Il viendra certainement.    | He will certainly come.     |
+| sans doute     | probably/perhaps  | Il viendra sans doute.      | He will probably come.      |
+| peut-être      | maybe/perhaps     | Peut-être qu'il viendra.    | Maybe he will come.         |
+| en effet       | indeed            | En effet, tu as raison.     | Indeed, you are right.      |
+
+---
+
+# Activités
+
+## 1. Complétez avec le bon adverbe d'affirmation (en français)
+
+1. ______, j'ai compris. (yes)
+    <input type="text" placeholder="" oninput="checkAnswer(this, 'oui')"><span></span>
+2. ______, je viens ! (of course)
+    <input type="text" placeholder="" oninput="checkAnswer(this, 'bien sûr')"><span></span>
+3. ______, c'est vrai. (obviously)
+    <input type="text" placeholder="" oninput="checkAnswer(this, 'évidemment')"><span></span>
+4. Il viendra ______. (certainly)
+    <input type="text" placeholder="" oninput="checkAnswer(this, 'certainement')"><span></span>
+5. Il viendra ______. (probably/perhaps)
+    <input type="text" placeholder="" oninput="checkAnswer(this, 'sans doute')"><span></span>
+6. ______ qu'il viendra. (maybe/perhaps)
+    <input type="text" placeholder="" oninput="checkAnswer(this, 'peut-être')"><span></span>
+7. ______, tu as raison. (indeed)
+    <input type="text" placeholder="" oninput="checkAnswer(this, 'en effet')"><span></span>
+8. ______, il a réussi. (certainly)
+    <input type="text" placeholder="" oninput="checkAnswer(this, 'certainement')"><span></span>
+9. ______, je suis prêt. (obviously)
+    <input type="text" placeholder="" oninput="checkAnswer(this, 'évidemment')"><span></span>
+10. ______, tu peux venir. (of course)
+    <input type="text" placeholder="" oninput="checkAnswer(this, 'bien sûr')"><span></span>
+11. ______, il est d'accord. (yes)
+    <input type="text" placeholder="" oninput="checkAnswer(this, 'oui')"><span></span>
+12. ______, il va pleuvoir. (maybe)
+    <input type="text" placeholder="" oninput="checkAnswer(this, 'peut-être')"><span></span>
+13. ______, tu as gagné ! (obviously)
+    <input type="text" placeholder="" oninput="checkAnswer(this, 'évidemment')"><span></span>
+14. ______, il viendra demain. (probably)
+    <input type="text" placeholder="" oninput="checkAnswer(this, 'sans doute')"><span></span>
+15. ______, tu as bien travaillé. (indeed)
+    <input type="text" placeholder="" oninput="checkAnswer(this, 'en effet')"><span></span>
+
+## 2. Choisissez le bon adverbe d'affirmation
+
+1. ______, je suis d'accord. (oui)
+    <select onchange="checkAnswer(this, 'oui')">
+      <option value=""></option>
+      <option value="oui">oui</option>
+      <option value="peut-être">peut-être</option>
+      <option value="sans doute">sans doute</option>
+    </select>
+    <span></span>
+
+2. ______, il va pleuvoir. (peut-être)
+    <select onchange="checkAnswer(this, 'peut-être')">
+      <option value=""></option>
+      <option value="évidemment">évidemment</option>
+      <option value="peut-être">peut-être</option>
+      <option value="bien sûr">bien sûr</option>
+    </select>
+    <span></span>
+
+3. ______, tu peux entrer. (bien sûr)
+    <select onchange="checkAnswer(this, 'bien sûr')">
+      <option value=""></option>
+      <option value="bien sûr">bien sûr</option>
+      <option value="sans doute">sans doute</option>
+      <option value="oui">oui</option>
+    </select>
+    <span></span>
+
+4. ______, il est parti. (certainement)
+    <select onchange="checkAnswer(this, 'certainement')">
+      <option value=""></option>
+      <option value="certainement">certainement</option>
+      <option value="peut-être">peut-être</option>
+      <option value="en effet">en effet</option>
+    </select>
+    <span></span>
+
+5. ______, tu as gagné ! (évidemment)
+    <select onchange="checkAnswer(this, 'évidemment')">
+      <option value=""></option>
+      <option value="évidemment">évidemment</option>
+      <option value="oui">oui</option>
+      <option value="sans doute">sans doute</option>
+    </select>
+    <span></span>
+
+6. ______, il viendra demain. (sans doute)
+    <select onchange="checkAnswer(this, 'sans doute')">
+      <option value=""></option>
+      <option value="sans doute">sans doute</option>
+      <option value="bien sûr">bien sûr</option>
+      <option value="peut-être">peut-être</option>
+    </select>
+    <span></span>
+
+7. ______, tu as raison. (en effet)
+    <select onchange="checkAnswer(this, 'en effet')">
+      <option value=""></option>
+      <option value="en effet">en effet</option>
+      <option value="oui">oui</option>
+      <option value="certainement">certainement</option>
+    </select>
+    <span></span>
+
+8. ______, il a compris. (évidemment)
+    <select onchange="checkAnswer(this, 'évidemment')">
+      <option value=""></option>
+      <option value="évidemment">évidemment</option>
+      <option value="peut-être">peut-être</option>
+      <option value="bien sûr">bien sûr</option>
+    </select>
+    <span></span>
+
+9. ______, je viendrai. (certainement)
+    <select onchange="checkAnswer(this, 'certainement')">
+      <option value=""></option>
+      <option value="certainement">certainement</option>
+      <option value="oui">oui</option>
+      <option value="sans doute">sans doute</option>
+    </select>
+    <span></span>
+
+10. ______, tu peux essayer. (bien sûr)
+    <select onchange="checkAnswer(this, 'bien sûr')">
+      <option value=""></option>
+      <option value="bien sûr">bien sûr</option>
+      <option value="peut-être">peut-être</option>
+      <option value="en effet">en effet</option>
+    </select>
+    <span></span>
+
+## 3. Traduisez en français en utilisant un adverbe d'affirmation
+
+1. Yes, I understood. <input type="text" placeholder="" oninput="checkAnswer(this, 'Oui, j\'ai compris.')"><span></span>
+2. Of course, I am coming! <input type="text" placeholder="" oninput="checkAnswer(this, 'Bien sûr, je viens !')"><span></span>
+3. Obviously, it is true. <input type="text" placeholder="" oninput="checkAnswer(this, 'Évidemment, c\'est vrai.')"><span></span>
+4. He will certainly come. <input type="text" placeholder="" oninput="checkAnswer(this, 'Il viendra certainement.')"><span></span>
+5. Maybe he will come. <input type="text" placeholder="" oninput="checkAnswer(this, 'Peut-être qu\'il viendra.')"><span></span>
+6. Indeed, you are right. <input type="text" placeholder="" oninput="checkAnswer(this, 'En effet, tu as raison.')"><span></span>
+7. Certainly, he succeeded. <input type="text" placeholder="" oninput="checkAnswer(this, 'Certainement, il a réussi.')"><span></span>
+8. Obviously, I am ready. <input type="text" placeholder="" oninput="checkAnswer(this, 'Évidemment, je suis prêt.')"><span></span>
+9. Of course, you can come. <input type="text" placeholder="" oninput="checkAnswer(this, 'Bien sûr, tu peux venir.')"><span></span>
+10. Yes, he agrees. <input type="text" placeholder="" oninput="checkAnswer(this, 'Oui, il est d\'accord.')"><span></span>
+11. Maybe it will rain. <input type="text" placeholder="" oninput="checkAnswer(this, 'Peut-être qu\'il va pleuvoir.')"><span></span>
+12. Obviously, you won! <input type="text" placeholder="" oninput="checkAnswer(this, 'Évidemment, tu as gagné !')"><span></span>
+13. Probably, he will come tomorrow. <input type="text" placeholder="" oninput="checkAnswer(this, 'Sans doute, il viendra demain.')"><span></span>
+14. Indeed, you worked well. <input type="text" placeholder="" oninput="checkAnswer(this, 'En effet, tu as bien travaillé.')"><span></span>
+15. Of course, you can try. <input type="text" placeholder="" oninput="checkAnswer(this, 'Bien sûr, tu peux essayer.')"><span></span>
+
+<button onclick="showAnswers()">Afficher les réponses</button>
+
+<button onclick="refreshPage()">Réessayer</button>
+
+<script>
+function checkAnswer(input, correctAnswer) {
+    const span = input.nextElementSibling;
+    if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
+        span.textContent = "✓ Correct";
+        span.style.color = "green";
+    } else {
+        span.textContent = "";
+    }
+}
+
+function showAnswers() {
+    document.querySelectorAll('input[type="text"]').forEach(el => {
+        const correct = el.getAttribute('oninput')?.match(/'([^']+)'/)?.[1];
+        if (correct) {
+            const span = el.nextElementSibling;
+            span.textContent = `Réponse : ${correct}`;
+            span.style.color = "blue";
+        }
+    });
+}
+
+function refreshPage() {
+    location.reload();
+}
+</script>
+
+:::

@@ -7,108 +7,136 @@ image: "plusqueparfait.png"
 ---
 
 ::: {.content-visible when-profile="english"}
-
 ### Understanding the Pluperfect Tense (Le Plus-que-parfait)
 
 The **plus-que-parfait** is a past tense in French used to express an action that happened before another past action. It is never used alone; it is always used in relation to another action in the past, often with the passé composé or imparfait.
 
-**How to form the plus-que-parfait:**  
-1. Use the imperfect tense (**imparfait**) of **avoir** or **être** (as auxiliary).  
+**How to form the plus-que-parfait:**\
+1. Use the imperfect tense (**imparfait**) of **avoir** or **être** (as auxiliary).\
 2. Add the past participle of the main verb.
 
-**Formula:**  
+**Formula:**\
 `imparfait of avoir/être + past participle`
 
-**Examples:**  
-- *J'avais mangé* (I had eaten)  
+**Examples:**\
+- *J'avais mangé* (I had eaten)\
 - *Nous étions partis* (We had left)
 
-**When to use the plus-que-parfait:**  
-- To show that one action happened before another past action:  
-    *Quand il est arrivé, j'avais déjà fini mes devoirs.*  
-    (When he arrived, I had already finished my homework.)
-- It is used with the passé composé or imparfait to clarify the sequence of past events.
+**When to use the plus-que-parfait:**\
+- To show that one action happened before another past action:\
+*Quand il est arrivé, j'avais déjà fini mes devoirs.*\
+(When he arrived, I had already finished my homework.) - It is used with the passé composé or imparfait to clarify the sequence of past events.
 
----
+------------------------------------------------------------------------
 
 ### Exercises
 
-#### 1. Conjugate in the plus-que-parfait  
+#### 1. Conjugate in the plus-que-parfait
+
 Write the correct form using the imperfect of the auxiliary and the past participle:
 
-1. Je <input type="text" placeholder="" oninput="checkAnswer(this, 'avais parlé')"><span style="margin-left:10px;"></span> (parler) avec mon ami.
-2. Nous <input type="text" placeholder="" oninput="checkAnswer(this, 'avions fini')"><span style="margin-left:10px;"></span> (finir) nos devoirs.
-3. Tu <input type="text" placeholder="" oninput="checkAnswer(this, 'avais eu')"><span style="margin-left:10px;"></span> (avoir) un chien.
-4. Elle <input type="text" placeholder="" oninput="checkAnswer(this, 'était allée')"><span style="margin-left:10px;"></span> (aller) à l’école tous les jours.
-5. Vous <input type="text" placeholder="" oninput="checkAnswer(this, 'aviez pris')"><span style="margin-left:10px;"></span> (prendre) le bus.
-6. Ils <input type="text" placeholder="" oninput="checkAnswer(this, 'avaient été')"><span style="margin-left:10px;"></span> (être) contents.
-7. Nous <input type="text" placeholder="" oninput="checkAnswer(this, 'avions mangé')"><span style="margin-left:10px;"></span> (manger) avant de sortir.
-8. Je <input type="text" placeholder="" oninput="checkAnswer(this, 'avais lu')"><span style="margin-left:10px;"></span> (lire) ce livre.
-9. Tu <input type="text" placeholder="" oninput="checkAnswer(this, 'avais voyagé')"><span style="margin-left:10px;"></span> (voyager) beaucoup.
-10. Elle <input type="text" placeholder="" oninput="checkAnswer(this, 'avait fait')"><span style="margin-left:10px;"></span> (faire) du sport.
+1.  Je <input type="text" placeholder="" oninput="checkAnswer(this, 'avais parlé')"> (parler) avec mon ami.
+2.  Nous <input type="text" placeholder="" oninput="checkAnswer(this, 'avions fini')"> (finir) nos devoirs.
+3.  Tu <input type="text" placeholder="" oninput="checkAnswer(this, 'avais eu')"> (avoir) un chien.
+4.  Elle <input type="text" placeholder="" oninput="checkAnswer(this, 'était allée')"> (aller) à l’école tous les jours.
+5.  Vous <input type="text" placeholder="" oninput="checkAnswer(this, 'aviez pris')"> (prendre) le bus.
+6.  Ils <input type="text" placeholder="" oninput="checkAnswer(this, 'avaient été')"> (être) contents.
+7.  Nous <input type="text" placeholder="" oninput="checkAnswer(this, 'avions mangé')"> (manger) avant de sortir.
+8.  Je <input type="text" placeholder="" oninput="checkAnswer(this, 'avais lu')"> (lire) ce livre.
+9.  Tu <input type="text" placeholder="" oninput="checkAnswer(this, 'avais voyagé')"> (voyager) beaucoup.
+10. Elle <input type="text" placeholder="" oninput="checkAnswer(this, 'avait fait')"> (faire) du sport.
 
-#### 2. Complete the sentences with the plus-que-parfait  
+#### 2. Complete the sentences with the plus-que-parfait
+
 Type the correct form (use the verb in parentheses):
 
-1. Quand j’ai téléphoné, il <input type="text" placeholder="" oninput="checkAnswer(this, 'était parti')"><span style="margin-left:10px;"></span> (partir).
-2. Nous <input type="text" placeholder="" oninput="checkAnswer(this, 'avions terminé')"><span style="margin-left:10px;"></span> (terminer) le travail avant midi.
-3. Elle <input type="text" placeholder="" oninput="checkAnswer(this, 'avait oublié')"><span style="margin-left:10px;"></span> (oublier) ses clés.
-4. Vous <input type="text" placeholder="" oninput="checkAnswer(this, 'aviez vu')"><span style="margin-left:10px;"></span> (voir) ce film avant?
-5. Ils <input type="text" placeholder="" oninput="checkAnswer(this, 'avaient pris')"><span style="margin-left:10px;"></span> (prendre) le train.
+1.  Quand j’ai téléphoné, il <input type="text" placeholder="" oninput="checkAnswer(this, 'était parti')"> (partir).
+2.  Nous <input type="text" placeholder="" oninput="checkAnswer(this, 'avions terminé')"> (terminer) le travail avant midi.
+3.  Elle <input type="text" placeholder="" oninput="checkAnswer(this, 'avait oublié')"> (oublier) ses clés.
+4.  Vous <input type="text" placeholder="" oninput="checkAnswer(this, 'aviez vu')"> (voir) ce film avant?
+5.  Ils <input type="text" placeholder="" oninput="checkAnswer(this, 'avaient pris')"> (prendre) le train.
 
-#### 3. Choose the correct tense: passé composé or plus-que-parfait  
+#### 3. Choose the correct tense: passé composé or plus-que-parfait
+
 Type "passé composé" or "plus-que-parfait" for each blank.
 
-1. Quand il est arrivé, j’<input type="text" placeholder="" oninput="checkAnswer(this, 'avais déjà mangé')"><span style="margin-left:10px;"></span> (déjà manger).
-2. Elle <input type="text" placeholder="" oninput="checkAnswer(this, 'avait fini')"><span style="margin-left:10px;"></span> (finir) ses devoirs avant de sortir.
-3. Nous <input type="text" placeholder="" oninput="checkAnswer(this, 'avons vu')"><span style="margin-left:10px;"></span> (voir) ce film hier soir.
-4. Tu <input type="text" placeholder="" oninput="checkAnswer(this, 'avais oublié')"><span style="margin-left:10px;"></span> (oublier) ton livre à la maison.
-5. Ils <input type="text" placeholder="" oninput="checkAnswer(this, 'ont pris')"><span style="margin-left:10px;"></span> (prendre) le bus ce matin.
+1.  Quand il est arrivé, j’<input type="text" placeholder="" oninput="checkAnswer(this, 'avais déjà mangé')"> (déjà manger).
+2.  Elle <input type="text" placeholder="" oninput="checkAnswer(this, 'avait fini')"> (finir) ses devoirs avant de sortir.
+3.  Nous <input type="text" placeholder="" oninput="checkAnswer(this, 'avons vu')"> (voir) ce film hier soir.
+4.  Tu <input type="text" placeholder="" oninput="checkAnswer(this, 'avais oublié')"> (oublier) ton livre à la maison.
+5.  Ils <input type="text" placeholder="" oninput="checkAnswer(this, 'ont pris')"> (prendre) le bus ce matin.
 
-#### 4. Error correction  
+#### 4. Error correction
+
 Each sentence contains a mistake with the use of the plus-que-parfait. Rewrite the sentence correctly.
 
-1. Quand je suis arrivé, Marie a déjà parti.  
-    <textarea rows="1" style="width:100%;" placeholder="Rewrite correctly..." oninput="checkAnswer(this, 'Quand je suis arrivé, Marie était déjà partie.')"></textarea>
-    <span style="margin-left:10px;"></span>
-2. Nous avons mangé avant que tu es venu.  
-    <textarea rows="1" style="width:100%;" placeholder="Rewrite correctly..." oninput="checkAnswer(this, 'Nous avions mangé avant que tu sois venu.')"></textarea>
-    <span style="margin-left:10px;"></span>
-3. Elle avait allé à l’école hier.  
-    <textarea rows="1" style="width:100%;" placeholder="Rewrite correctly..." oninput="checkAnswer(this, 'Elle était allée à l’école hier.')"></textarea>
-    <span style="margin-left:10px;"></span>
+1.  Quand je suis arrivé, Marie a déjà parti.\
 
-#### 5. Story sequencing  
+    ```{=html}
+    <textarea rows="1" style="width:100%;" placeholder="Rewrite correctly..." oninput="checkAnswer(this, 'Quand je suis arrivé, Marie était déjà partie.')"></textarea>
+    ```
+
+2.  Nous avons mangé avant que tu es venu.\
+
+    ```{=html}
+    <textarea rows="1" style="width:100%;" placeholder="Rewrite correctly..." oninput="checkAnswer(this, 'Nous avions mangé avant que tu sois venu.')"></textarea>
+    ```
+
+3.  Elle avait allé à l’école hier.\
+
+    ```{=html}
+    <textarea rows="1" style="width:100%;" placeholder="Rewrite correctly..." oninput="checkAnswer(this, 'Elle était allée à l’école hier.')"></textarea>
+    ```
+
+#### 5. Story sequencing
+
 Put the following events in the correct order by numbering them (1-4):
 
-- <input type="text" style="width:30px;" placeholder=" " oninput="checkAnswer(this, '2')"><span style="margin-left:10px;"></span> J’avais déjà pris mon petit-déjeuner.
-- <input type="text" style="width:30px;" placeholder=" " oninput="checkAnswer(this, '1')"><span style="margin-left:10px;"></span> Je me suis réveillé.
-- <input type="text" style="width:30px;" placeholder=" " oninput="checkAnswer(this, '4')"><span style="margin-left:10px;"></span> Je suis parti à l’école.
-- <input type="text" style="width:30px;" placeholder=" " oninput="checkAnswer(this, '3')"><span style="margin-left:10px;"></span> J’ai mis mes vêtements.
+-   <input type="text" style="width:30px;" placeholder=" " oninput="checkAnswer(this, '2')"> J’avais déjà pris mon petit-déjeuner.
+-   <input type="text" style="width:30px;" placeholder=" " oninput="checkAnswer(this, '1')"> Je me suis réveillé.
+-   <input type="text" style="width:30px;" placeholder=" " oninput="checkAnswer(this, '4')"> Je suis parti à l’école.
+-   <input type="text" style="width:30px;" placeholder=" " oninput="checkAnswer(this, '3')"> J’ai mis mes vêtements.
 
-#### 6. Write your own sentences  
-Write 2 sentences using the plus-que-parfait to describe something you had done before another past action.  
+#### 6. Write your own sentences
+
+Write 2 sentences using the plus-que-parfait to describe something you had done before another past action.\
+
+```{=html}
 <textarea rows="3" style="width:100%;" placeholder="Write your sentences here..."></textarea>
+```
 
----
+------------------------------------------------------------------------
 
 ### To consolidate your learning
 
-Write a short paragraph (3-5 sentences) explaining what you have learned about the plus-que-parfait in French. Use your own words and, if possible, give an example.  
+Write a short paragraph (3-5 sentences) explaining what you have learned about the plus-que-parfait in French. Use your own words and, if possible, give an example.\
+
+```{=html}
 <textarea rows="5" style="width:100%;" placeholder="Write here what you have learned..."></textarea>
+```
 
-<button onclick="showAnswers()">Show answers</button>  
-<button onclick="refreshPage()">Try again</button>  
+<button onclick="showAnswers()">
 
----
+Show answers
+
+</button>
+
+<button onclick="refreshPage()">
+
+Try again
+
+</button>
+
+------------------------------------------------------------------------
 
 ### Notes:
-- The plus-que-parfait is used to talk about an action that happened before another past action.
-- It is formed with the imperfect of **avoir** or **être** + past participle.
-- It is always used with another past tense (imparfait or passé composé) to show the sequence of events.
-- *Être* is used as the auxiliary for verbs of movement and reflexive verbs, just like in the passé composé.
 
+-   The plus-que-parfait is used to talk about an action that happened before another past action.
+-   It is formed with the imperfect of **avoir** or **être** + past participle.
+-   It is always used with another past tense (imparfait or passé composé) to show the sequence of events.
+-   *Être* is used as the auxiliary for verbs of movement and reflexive verbs, just like in the passé composé.
 
+```{=html}
 <script>
 function checkAnswer(input, correctAnswer) {
     // Find the next element sibling that is a span
@@ -143,116 +171,140 @@ function refreshPage() {
      location.reload();
 }
 </script>
-
+```
 :::
 
-
-
-
-::: {.content-visible when-profile="french"}  
-
+::: {.content-visible when-profile="french"}
 ### Comprendre le Plus-que-parfait
 
 Le **plus-que-parfait** est un temps du passé utilisé pour exprimer une action qui s’est produite avant une autre action passée. Il n’est jamais utilisé seul : il sert toujours à montrer la relation entre deux actions dans le passé, souvent avec le passé composé ou l’imparfait.
 
-**Comment former le plus-que-parfait :**  
-1. Utilisez l’imparfait de **avoir** ou **être** (comme auxiliaire).  
+**Comment former le plus-que-parfait :**\
+1. Utilisez l’imparfait de **avoir** ou **être** (comme auxiliaire).\
 2. Ajoutez le participe passé du verbe principal.
 
-**Formule :**  
+**Formule :**\
 `imparfait de avoir/être + participe passé`
 
-**Exemples :**  
-- *J’avais mangé* (J’avais mangé)  
+**Exemples :**\
+- *J’avais mangé* (J’avais mangé)\
 - *Nous étions partis* (Nous étions partis)
 
-**Quand utiliser le plus-que-parfait :**  
-- Pour montrer qu’une action s’est produite avant une autre action passée :  
-    *Quand il est arrivé, j’avais déjà fini mes devoirs.*  
-    (Quand il est arrivé, j’avais déjà fini mes devoirs.)
-- Il s’utilise avec le passé composé ou l’imparfait pour clarifier la séquence des événements passés.
+**Quand utiliser le plus-que-parfait :**\
+- Pour montrer qu’une action s’est produite avant une autre action passée :\
+*Quand il est arrivé, j’avais déjà fini mes devoirs.*\
+(Quand il est arrivé, j’avais déjà fini mes devoirs.) - Il s’utilise avec le passé composé ou l’imparfait pour clarifier la séquence des événements passés.
 
----
+------------------------------------------------------------------------
 
 ### Exercices
 
-#### 1. Conjuguez au plus-que-parfait  
+#### 1. Conjuguez au plus-que-parfait
+
 Écrivez la bonne forme en utilisant l’imparfait de l’auxiliaire et le participe passé :
 
-1. Je <input type="text" placeholder="" oninput="checkAnswer(this, 'avais parlé')"><span style="margin-left:10px;"></span> (parler) avec mon ami.
-2. Nous <input type="text" placeholder="" oninput="checkAnswer(this, 'avions fini')"><span style="margin-left:10px;"></span> (finir) nos devoirs.
-3. Tu <input type="text" placeholder="" oninput="checkAnswer(this, 'avais eu')"><span style="margin-left:10px;"></span> (avoir) un chien.
-4. Elle <input type="text" placeholder="" oninput="checkAnswer(this, 'était allée')"><span style="margin-left:10px;"></span> (aller) à l’école tous les jours.
-5. Vous <input type="text" placeholder="" oninput="checkAnswer(this, 'aviez pris')"><span style="margin-left:10px;"></span> (prendre) le bus.
-6. Ils <input type="text" placeholder="" oninput="checkAnswer(this, 'avaient été')"><span style="margin-left:10px;"></span> (être) contents.
-7. Nous <input type="text" placeholder="" oninput="checkAnswer(this, 'avions mangé')"><span style="margin-left:10px;"></span> (manger) avant de sortir.
-8. Je <input type="text" placeholder="" oninput="checkAnswer(this, 'avais lu')"><span style="margin-left:10px;"></span> (lire) ce livre.
-9. Tu <input type="text" placeholder="" oninput="checkAnswer(this, 'avais voyagé')"><span style="margin-left:10px;"></span> (voyager) beaucoup.
-10. Elle <input type="text" placeholder="" oninput="checkAnswer(this, 'avait fait')"><span style="margin-left:10px;"></span> (faire) du sport.
+1.  Je <input type="text" placeholder="" oninput="checkAnswer(this, 'avais parlé')"> (parler) avec mon ami.
+2.  Nous <input type="text" placeholder="" oninput="checkAnswer(this, 'avions fini')"> (finir) nos devoirs.
+3.  Tu <input type="text" placeholder="" oninput="checkAnswer(this, 'avais eu')"> (avoir) un chien.
+4.  Elle <input type="text" placeholder="" oninput="checkAnswer(this, 'était allée')"> (aller) à l’école tous les jours.
+5.  Vous <input type="text" placeholder="" oninput="checkAnswer(this, 'aviez pris')"> (prendre) le bus.
+6.  Ils <input type="text" placeholder="" oninput="checkAnswer(this, 'avaient été')"> (être) contents.
+7.  Nous <input type="text" placeholder="" oninput="checkAnswer(this, 'avions mangé')"> (manger) avant de sortir.
+8.  Je <input type="text" placeholder="" oninput="checkAnswer(this, 'avais lu')"> (lire) ce livre.
+9.  Tu <input type="text" placeholder="" oninput="checkAnswer(this, 'avais voyagé')"> (voyager) beaucoup.
+10. Elle <input type="text" placeholder="" oninput="checkAnswer(this, 'avait fait')"> (faire) du sport.
 
-#### 2. Complétez les phrases avec le plus-que-parfait  
+#### 2. Complétez les phrases avec le plus-que-parfait
+
 Tapez la bonne forme (utilisez le verbe entre parenthèses) :
 
-1. Quand j’ai téléphoné, il <input type="text" placeholder="" oninput="checkAnswer(this, 'était parti')"><span style="margin-left:10px;"></span> (partir).
-2. Nous <input type="text" placeholder="" oninput="checkAnswer(this, 'avions terminé')"><span style="margin-left:10px;"></span> (terminer) le travail avant midi.
-3. Elle <input type="text" placeholder="" oninput="checkAnswer(this, 'avait oublié')"><span style="margin-left:10px;"></span> (oublier) ses clés.
-4. Vous <input type="text" placeholder="" oninput="checkAnswer(this, 'aviez vu')"><span style="margin-left:10px;"></span> (voir) ce film avant ?
-5. Ils <input type="text" placeholder="" oninput="checkAnswer(this, 'avaient pris')"><span style="margin-left:10px;"></span> (prendre) le train.
+1.  Quand j’ai téléphoné, il <input type="text" placeholder="" oninput="checkAnswer(this, 'était parti')"> (partir).
+2.  Nous <input type="text" placeholder="" oninput="checkAnswer(this, 'avions terminé')"> (terminer) le travail avant midi.
+3.  Elle <input type="text" placeholder="" oninput="checkAnswer(this, 'avait oublié')"> (oublier) ses clés.
+4.  Vous <input type="text" placeholder="" oninput="checkAnswer(this, 'aviez vu')"> (voir) ce film avant ?
+5.  Ils <input type="text" placeholder="" oninput="checkAnswer(this, 'avaient pris')"> (prendre) le train.
 
-#### 3. Choisissez le bon temps : passé composé ou plus-que-parfait  
+#### 3. Choisissez le bon temps : passé composé ou plus-que-parfait
+
 Tapez "passé composé" ou "plus-que-parfait" pour chaque espace.
 
-1. Quand il est arrivé, j’<input type="text" placeholder="" oninput="checkAnswer(this, 'avais déjà mangé')"><span style="margin-left:10px;"></span> (déjà manger).
-2. Elle <input type="text" placeholder="" oninput="checkAnswer(this, 'avait fini')"><span style="margin-left:10px;"></span> (finir) ses devoirs avant de sortir.
-3. Nous <input type="text" placeholder="" oninput="checkAnswer(this, 'avons vu')"><span style="margin-left:10px;"></span> (voir) ce film hier soir.
-4. Tu <input type="text" placeholder="" oninput="checkAnswer(this, 'avais oublié')"><span style="margin-left:10px;"></span> (oublier) ton livre à la maison.
-5. Ils <input type="text" placeholder="" oninput="checkAnswer(this, 'ont pris')"><span style="margin-left:10px;"></span> (prendre) le bus ce matin.
+1.  Quand il est arrivé, j’<input type="text" placeholder="" oninput="checkAnswer(this, 'avais déjà mangé')"> (déjà manger).
+2.  Elle <input type="text" placeholder="" oninput="checkAnswer(this, 'avait fini')"> (finir) ses devoirs avant de sortir.
+3.  Nous <input type="text" placeholder="" oninput="checkAnswer(this, 'avons vu')"> (voir) ce film hier soir.
+4.  Tu <input type="text" placeholder="" oninput="checkAnswer(this, 'avais oublié')"> (oublier) ton livre à la maison.
+5.  Ils <input type="text" placeholder="" oninput="checkAnswer(this, 'ont pris')"> (prendre) le bus ce matin.
 
-#### 4. Correction d’erreurs  
+#### 4. Correction d’erreurs
+
 Chaque phrase contient une erreur avec l’utilisation du plus-que-parfait. Réécrivez la phrase correctement.
 
-1. Quand je suis arrivé, Marie a déjà parti.  
-    <textarea rows="1" style="width:100%;" placeholder="Réécrivez correctement..." oninput="checkAnswer(this, 'Quand je suis arrivé, Marie était déjà partie.')"></textarea>
-    <span style="margin-left:10px;"></span>
-2. Nous avons mangé avant que tu es venu.  
-    <textarea rows="1" style="width:100%;" placeholder="Réécrivez correctement..." oninput="checkAnswer(this, 'Nous avions mangé avant que tu sois venu.')"></textarea>
-    <span style="margin-left:10px;"></span>
-3. Elle avait allé à l’école hier.  
-    <textarea rows="1" style="width:100%;" placeholder="Réécrivez correctement..." oninput="checkAnswer(this, 'Elle était allée à l’école hier.')"></textarea>
-    <span style="margin-left:10px;"></span>
+1.  Quand je suis arrivé, Marie a déjà parti.\
 
-#### 5. Remettez l’histoire dans l’ordre  
+    ```{=html}
+    <textarea rows="1" style="width:100%;" placeholder="Réécrivez correctement..." oninput="checkAnswer(this, 'Quand je suis arrivé, Marie était déjà partie.')"></textarea>
+    ```
+
+2.  Nous avons mangé avant que tu es venu.\
+
+    ```{=html}
+    <textarea rows="1" style="width:100%;" placeholder="Réécrivez correctement..." oninput="checkAnswer(this, 'Nous avions mangé avant que tu sois venu.')"></textarea>
+    ```
+
+3.  Elle avait allé à l’école hier.\
+
+    ```{=html}
+    <textarea rows="1" style="width:100%;" placeholder="Réécrivez correctement..." oninput="checkAnswer(this, 'Elle était allée à l’école hier.')"></textarea>
+    ```
+
+#### 5. Remettez l’histoire dans l’ordre
+
 Mettez les événements suivants dans le bon ordre en les numérotant (1-4) :
 
-- <input type="text" style="width:30px;" placeholder=" " oninput="checkAnswer(this, '2')"><span style="margin-left:10px;"></span> J’avais déjà pris mon petit-déjeuner.
-- <input type="text" style="width:30px;" placeholder=" " oninput="checkAnswer(this, '1')"><span style="margin-left:10px;"></span> Je me suis réveillé.
-- <input type="text" style="width:30px;" placeholder=" " oninput="checkAnswer(this, '4')"><span style="margin-left:10px;"></span> Je suis parti à l’école.
-- <input type="text" style="width:30px;" placeholder=" " oninput="checkAnswer(this, '3')"><span style="margin-left:10px;"></span> J’ai mis mes vêtements.
+-   <input type="text" style="width:30px;" placeholder=" " oninput="checkAnswer(this, '2')"> J’avais déjà pris mon petit-déjeuner.
+-   <input type="text" style="width:30px;" placeholder=" " oninput="checkAnswer(this, '1')"> Je me suis réveillé.
+-   <input type="text" style="width:30px;" placeholder=" " oninput="checkAnswer(this, '4')"> Je suis parti à l’école.
+-   <input type="text" style="width:30px;" placeholder=" " oninput="checkAnswer(this, '3')"> J’ai mis mes vêtements.
 
-#### 6. Écrivez vos propres phrases  
-Écrivez 2 phrases en utilisant le plus-que-parfait pour décrire quelque chose que vous aviez fait avant une autre action passée.  
+#### 6. Écrivez vos propres phrases
+
+Écrivez 2 phrases en utilisant le plus-que-parfait pour décrire quelque chose que vous aviez fait avant une autre action passée.\
+
+```{=html}
 <textarea rows="3" style="width:100%;" placeholder="Écrivez vos phrases ici..."></textarea>
+```
 
----
+------------------------------------------------------------------------
 
 ### Pour consolider votre apprentissage
 
-Rédigez un court paragraphe (3 à 5 phrases) expliquant ce que vous avez appris sur le plus-que-parfait en français. Utilisez vos propres mots et, si possible, donnez un exemple.  
-<textarea rows="5" style="width:100%;" placeholder="Écrivez ici ce que vous avez appris..."></textarea>
+Rédigez un court paragraphe (3 à 5 phrases) expliquant ce que vous avez appris sur le plus-que-parfait en français. Utilisez vos propres mots et, si possible, donnez un exemple.\
 
----
+```{=html}
+<textarea rows="5" style="width:100%;" placeholder="Écrivez ici ce que vous avez appris..."></textarea>
+```
+
+------------------------------------------------------------------------
 
 ### Notes :
-- Le plus-que-parfait sert à parler d’une action qui s’est produite avant une autre action passée.
-- Il se forme avec l’imparfait de **avoir** ou **être** + participe passé.
-- Il s’utilise toujours avec un autre temps du passé (imparfait ou passé composé) pour montrer la séquence des événements.
-- *Être* est utilisé comme auxiliaire pour les verbes de mouvement et les verbes pronominaux, comme au passé composé.
 
-<button onclick="showAnswers()">Voir les réponses</button>  
-<button onclick="refreshPage()">Nouvel essai</button>  
+-   Le plus-que-parfait sert à parler d’une action qui s’est produite avant une autre action passée.
+-   Il se forme avec l’imparfait de **avoir** ou **être** + participe passé.
+-   Il s’utilise toujours avec un autre temps du passé (imparfait ou passé composé) pour montrer la séquence des événements.
+-   *Être* est utilisé comme auxiliaire pour les verbes de mouvement et les verbes pronominaux, comme au passé composé.
 
+<button onclick="showAnswers()">
 
+Voir les réponses
 
+</button>
+
+<button onclick="refreshPage()">
+
+Nouvel essai
+
+</button>
+
+```{=html}
 <script>
 function checkAnswer(input, correctAnswer) {
     // Find the next element sibling that is a span
@@ -287,9 +339,7 @@ function refreshPage() {
      location.reload();
 }
 </script>
+```
 
-
-
----
-
+------------------------------------------------------------------------
 :::

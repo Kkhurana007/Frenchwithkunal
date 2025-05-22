@@ -1,0 +1,396 @@
+---
+title: "Adverbs of Place (Adverbes de lieu) in French"
+author: "Kunal Khurana"
+date: "05-20-2025"
+categories: [B1, grammar, adverbs, exercises]
+image: "adverbes_lieu.png"
+---
+
+::: {.content-visible when-profile="english"}
+
+# Adverbs of Place in French (Adverbes de lieu)
+
+Adverbs of place describe **where** an action takes place or the location of something. In French, these adverbs answer the question "**Where?**" (e.g., Where is she? She is *here*).
+
+**Common Adverbs of Place:**
+
+| French         | English        | Example (FR)                  | Example (EN)                |
+|----------------|---------------|-------------------------------|-----------------------------|
+| ici            | here          | Je suis ici.                  | I am here.                  |
+| là             | there         | Il est là.                    | He is there.                |
+| là-bas         | over there    | Elle va là-bas.               | She is going over there.    |
+| partout        | everywhere    | Il cherche partout.           | He looks everywhere.        |
+| nulle part     | nowhere       | Je ne vais nulle part.        | I am going nowhere.         |
+| ailleurs       | elsewhere     | Va ailleurs !                 | Go elsewhere!               |
+| devant         | in front      | Le chat est devant la porte.  | The cat is in front of the door. |
+| derrière       | behind        | Le chien est derrière moi.    | The dog is behind me.       |
+| dessus         | on (top)      | Le livre est dessus.          | The book is on (top).       |
+| dessous        | under         | Le chat est dessous.          | The cat is under.           |
+| dedans         | inside        | Il est dedans.                | He is inside.               |
+| dehors         | outside       | Elle joue dehors.             | She is playing outside.     |
+| à gauche       | to the left   | Tournez à gauche.             | Turn to the left.           |
+| à droite       | to the right  | Tournez à droite.             | Turn to the right.          |
+| en haut        | upstairs/up   | Il est en haut.               | He is upstairs.             |
+| en bas         | downstairs/down| Elle est en bas.             | She is downstairs.          |
+
+------------------------------------------------------------------------
+
+# Activities
+
+## 1. Complete with the correct adverb of place (in French)
+
+1.  Je suis <input type="text" placeholder="" oninput="checkAnswer(this, 'ici')"><span></span>. (here)
+2.  Il est <input type="text" placeholder="" oninput="checkAnswer(this, 'là')"><span></span>. (there)
+3.  Elle va <input type="text" placeholder="" oninput="checkAnswer(this, 'là-bas')"><span></span>. (over there)
+4.  Il cherche <input type="text" placeholder="" oninput="checkAnswer(this, 'partout')"><span></span>. (everywhere)
+5.  Je ne vais <input type="text" placeholder="" oninput="checkAnswer(this, 'nulle part')"><span></span>. (nowhere)
+6.  Va <input type="text" placeholder="" oninput="checkAnswer(this, 'ailleurs')"><span></span> ! (elsewhere)
+7.  Le chat est <input type="text" placeholder="" oninput="checkAnswer(this, 'devant')"><span></span> la porte. (in front)
+8.  Le chien est <input type="text" placeholder="" oninput="checkAnswer(this, 'derrière')"><span></span> moi. (behind)
+9.  Le livre est <input type="text" placeholder="" oninput="checkAnswer(this, 'dessus')"><span></span>. (on/top)
+10. Le chat est <input type="text" placeholder="" oninput="checkAnswer(this, 'dessous')"><span></span>. (under)
+11. Il est <input type="text" placeholder="" oninput="checkAnswer(this, 'dedans')"><span></span>. (inside)
+12. Elle joue <input type="text" placeholder="" oninput="checkAnswer(this, 'dehors')"><span></span>. (outside)
+13. Tournez <input type="text" placeholder="" oninput="checkAnswer(this, 'à gauche')"><span></span>. (to the left)
+14. Tournez <input type="text" placeholder="" oninput="checkAnswer(this, 'à droite')"><span></span>. (to the right)
+15. Il est <input type="text" placeholder="" oninput="checkAnswer(this, 'en haut')"><span></span>. (upstairs/up)
+
+## 2. Choose the correct adverb of place
+
+Select the correct adverb to complete each sentence.
+
+1.  Le chat est ___ la porte. (in front):  
+    <select onchange="checkAnswer(this, 'devant')">
+      <option value=""></option>
+      <option value="devant">devant</option>
+      <option value="derrière">derrière</option>
+      <option value="dessous">dessous</option>
+    </select>
+    <span></span>
+
+2.  Le chien est ___ moi. (behind):  
+    <select onchange="checkAnswer(this, 'derrière')">
+      <option value=""></option>
+      <option value="devant">devant</option>
+      <option value="derrière">derrière</option>
+      <option value="dessus">dessus</option>
+    </select>
+    <span></span>
+
+3.  Elle va ___ (over there):  
+    <select onchange="checkAnswer(this, 'là-bas')">
+      <option value=""></option>
+      <option value="ici">ici</option>
+      <option value="là-bas">là-bas</option>
+      <option value="ailleurs">ailleurs</option>
+    </select>
+    <span></span>
+
+4.  Il cherche ___ (everywhere):  
+    <select onchange="checkAnswer(this, 'partout')">
+      <option value=""></option>
+      <option value="partout">partout</option>
+      <option value="nulle part">nulle part</option>
+      <option value="dehors">dehors</option>
+    </select>
+    <span></span>
+
+5.  Je ne vais ___ (nowhere):  
+    <select onchange="checkAnswer(this, 'nulle part')">
+      <option value=""></option>
+      <option value="partout">partout</option>
+      <option value="nulle part">nulle part</option>
+      <option value="dedans">dedans</option>
+    </select>
+    <span></span>
+
+6.  Va ___ ! (elsewhere):  
+    <select onchange="checkAnswer(this, 'ailleurs')">
+      <option value=""></option>
+      <option value="ailleurs">ailleurs</option>
+      <option value="ici">ici</option>
+      <option value="là">là</option>
+    </select>
+    <span></span>
+
+7.  Le livre est ___ . (on/top):  
+    <select onchange="checkAnswer(this, 'dessus')">
+      <option value=""></option>
+      <option value="dessus">dessus</option>
+      <option value="dessous">dessous</option>
+      <option value="dedans">dedans</option>
+    </select>
+    <span></span>
+
+8.  Le chat est ___ . (under):  
+    <select onchange="checkAnswer(this, 'dessous')">
+      <option value=""></option>
+      <option value="dessus">dessus</option>
+      <option value="dessous">dessous</option>
+      <option value="dehors">dehors</option>
+    </select>
+    <span></span>
+
+9.  Il est ___ . (inside):  
+    <select onchange="checkAnswer(this, 'dedans')">
+      <option value=""></option>
+      <option value="dedans">dedans</option>
+      <option value="dehors">dehors</option>
+      <option value="en bas">en bas</option>
+    </select>
+    <span></span>
+
+10. Elle joue ___ . (outside):  
+    <select onchange="checkAnswer(this, 'dehors')">
+      <option value=""></option>
+      <option value="dedans">dedans</option>
+      <option value="dehors">dehors</option>
+      <option value="ici">ici</option>
+    </select>
+    <span></span>
+
+## 3. Translate to French using an adverb of place
+
+1.  I am here. <input type="text" placeholder="" oninput="checkAnswer(this, 'Je suis ici.')"><span></span>
+2.  He is there. <input type="text" placeholder="" oninput="checkAnswer(this, 'Il est là.')"><span></span>
+3.  She is going over there. <input type="text" placeholder="" oninput="checkAnswer(this, 'Elle va là-bas.')"><span></span>
+4.  He looks everywhere. <input type="text" placeholder="" oninput="checkAnswer(this, 'Il cherche partout.')"><span></span>
+5.  I am going nowhere. <input type="text" placeholder="" oninput="checkAnswer(this, 'Je ne vais nulle part.')"><span></span>
+6.  Go elsewhere! <input type="text" placeholder="" oninput="checkAnswer(this, 'Va ailleurs !')"><span></span>
+7.  The cat is in front of the door. <input type="text" placeholder="" oninput="checkAnswer(this, 'Le chat est devant la porte.')"><span></span>
+8.  The dog is behind me. <input type="text" placeholder="" oninput="checkAnswer(this, 'Le chien est derrière moi.')"><span></span>
+9.  The book is on (top). <input type="text" placeholder="" oninput="checkAnswer(this, 'Le livre est dessus.')"><span></span>
+10. The cat is under. <input type="text" placeholder="" oninput="checkAnswer(this, 'Le chat est dessous.')"><span></span>
+11. He is inside. <input type="text" placeholder="" oninput="checkAnswer(this, 'Il est dedans.')"><span></span>
+12. She is playing outside. <input type="text" placeholder="" oninput="checkAnswer(this, 'Elle joue dehors.')"><span></span>
+13. Turn to the left. <input type="text" placeholder="" oninput="checkAnswer(this, 'Tournez à gauche.')"><span></span>
+14. Turn to the right. <input type="text" placeholder="" oninput="checkAnswer(this, 'Tournez à droite.')"><span></span>
+15. He is upstairs. <input type="text" placeholder="" oninput="checkAnswer(this, 'Il est en haut.')"><span></span>
+
+<button onclick="showAnswers()">Show Answers</button>
+
+<button onclick="refreshPage()">Try Again</button>
+
+<script>
+function checkAnswer(input, correctAnswer) {
+    const span = input.nextElementSibling;
+    if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
+        span.textContent = "✓ Correct";
+        span.style.color = "green";
+    } else {
+        span.textContent = "";
+    }
+}
+
+function showAnswers() {
+    document.querySelectorAll('input[type="text"]').forEach(el => {
+        const correct = el.getAttribute('oninput')?.match(/'([^']+)'/)?.[1];
+        if (correct) {
+            const span = el.nextElementSibling;
+            span.textContent = `Réponse : ${correct}`;
+            span.style.color = "blue";
+        }
+    });
+}
+
+function refreshPage() {
+    location.reload();
+}
+</script>
+
+:::
+
+
+::: {.content-visible when-profile="french"}
+
+# Les adverbes de lieu en français
+
+Les adverbes de lieu indiquent **où** se passe une action ou où se trouve quelque chose. Ils répondent à la question "**Où ?**" (ex. : Où est-elle ? Elle est *ici*).
+
+**Adverbes de lieu courants :**
+
+| Français       | Anglais        | Exemple (FR)                  | Exemple (EN)                |
+|----------------|---------------|-------------------------------|-----------------------------|
+| ici            | here          | Je suis ici.                  | I am here.                  |
+| là             | there         | Il est là.                    | He is there.                |
+| là-bas         | over there    | Elle va là-bas.               | She is going over there.    |
+| partout        | everywhere    | Il cherche partout.           | He looks everywhere.        |
+| nulle part     | nowhere       | Je ne vais nulle part.        | I am going nowhere.         |
+| ailleurs       | elsewhere     | Va ailleurs !                 | Go elsewhere!               |
+| devant         | devant        | Le chat est devant la porte.  | The cat is in front of the door. |
+| derrière       | behind        | Le chien est derrière moi.    | The dog is behind me.       |
+| dessus         | on (top)      | Le livre est dessus.          | The book is on (top).       |
+| dessous        | under         | Le chat est dessous.          | The cat is under.           |
+| dedans         | inside        | Il est dedans.                | He is inside.               |
+| dehors         | outside       | Elle joue dehors.             | She is playing outside.     |
+| à gauche       | to the left   | Tournez à gauche.             | Turn to the left.           |
+| à droite       | to the right  | Tournez à droite.             | Turn to the right.          |
+| en haut        | upstairs/up   | Il est en haut.               | He is upstairs.             |
+| en bas         | downstairs/down| Elle est en bas.             | She is downstairs.          |
+
+------------------------------------------------------------------------
+
+# Activités
+
+## 1. Complétez avec le bon adverbe de lieu (en français)
+
+1.  Je suis <input type="text" placeholder="" oninput="checkAnswer(this, 'ici')"><span></span>. (ici)
+2.  Il est <input type="text" placeholder="" oninput="checkAnswer(this, 'là')"><span></span>. (là)
+3.  Elle va <input type="text" placeholder="" oninput="checkAnswer(this, 'là-bas')"><span></span>. (là-bas)
+4.  Il cherche <input type="text" placeholder="" oninput="checkAnswer(this, 'partout')"><span></span>. (partout)
+5.  Je ne vais <input type="text" placeholder="" oninput="checkAnswer(this, 'nulle part')"><span></span>. (nulle part)
+6.  Va <input type="text" placeholder="" oninput="checkAnswer(this, 'ailleurs')"><span></span> ! (ailleurs)
+7.  Le chat est <input type="text" placeholder="" oninput="checkAnswer(this, 'devant')"><span></span> la porte. (devant)
+8.  Le chien est <input type="text" placeholder="" oninput="checkAnswer(this, 'derrière')"><span></span> moi. (derrière)
+9.  Le livre est <input type="text" placeholder="" oninput="checkAnswer(this, 'dessus')"><span></span>. (dessus)
+10. Le chat est <input type="text" placeholder="" oninput="checkAnswer(this, 'dessous')"><span></span>. (dessous)
+11. Il est <input type="text" placeholder="" oninput="checkAnswer(this, 'dedans')"><span></span>. (dedans)
+12. Elle joue <input type="text" placeholder="" oninput="checkAnswer(this, 'dehors')"><span></span>. (dehors)
+13. Tournez <input type="text" placeholder="" oninput="checkAnswer(this, 'à gauche')"><span></span>. (à gauche)
+14. Tournez <input type="text" placeholder="" oninput="checkAnswer(this, 'à droite')"><span></span>. (à droite)
+15. Il est <input type="text" placeholder="" oninput="checkAnswer(this, 'en haut')"><span></span>. (en haut)
+
+## 2. Choisissez le bon adverbe de lieu
+
+Choisissez l'adverbe qui complète correctement chaque phrase.
+
+1.  Le chat est ___ la porte. (devant) :  
+    <select onchange="checkAnswer(this, 'devant')">
+      <option value=""></option>
+      <option value="devant">devant</option>
+      <option value="derrière">derrière</option>
+      <option value="dessous">dessous</option>
+    </select>
+    <span></span>
+
+2.  Le chien est ___ moi. (derrière) :  
+    <select onchange="checkAnswer(this, 'derrière')">
+      <option value=""></option>
+      <option value="devant">devant</option>
+      <option value="derrière">derrière</option>
+      <option value="dessus">dessus</option>
+    </select>
+    <span></span>
+
+3.  Elle va ___ (là-bas) :  
+    <select onchange="checkAnswer(this, 'là-bas')">
+      <option value=""></option>
+      <option value="ici">ici</option>
+      <option value="là-bas">là-bas</option>
+      <option value="ailleurs">ailleurs</option>
+    </select>
+    <span></span>
+
+4.  Il cherche ___ (partout) :  
+    <select onchange="checkAnswer(this, 'partout')">
+      <option value=""></option>
+      <option value="partout">partout</option>
+      <option value="nulle part">nulle part</option>
+      <option value="dehors">dehors</option>
+    </select>
+    <span></span>
+
+5.  Je ne vais ___ (nulle part) :  
+    <select onchange="checkAnswer(this, 'nulle part')">
+      <option value=""></option>
+      <option value="partout">partout</option>
+      <option value="nulle part">nulle part</option>
+      <option value="dedans">dedans</option>
+    </select>
+    <span></span>
+
+6.  Va ___ ! (ailleurs) :  
+    <select onchange="checkAnswer(this, 'ailleurs')">
+      <option value=""></option>
+      <option value="ailleurs">ailleurs</option>
+      <option value="ici">ici</option>
+      <option value="là">là</option>
+    </select>
+    <span></span>
+
+7.  Le livre est ___ . (dessus) :  
+    <select onchange="checkAnswer(this, 'dessus')">
+      <option value=""></option>
+      <option value="dessus">dessus</option>
+      <option value="dessous">dessous</option>
+      <option value="dedans">dedans</option>
+    </select>
+    <span></span>
+
+8.  Le chat est ___ . (dessous) :  
+    <select onchange="checkAnswer(this, 'dessous')">
+      <option value=""></option>
+      <option value="dessus">dessus</option>
+      <option value="dessous">dessous</option>
+      <option value="dehors">dehors</option>
+    </select>
+    <span></span>
+
+9.  Il est ___ . (dedans) :  
+    <select onchange="checkAnswer(this, 'dedans')">
+      <option value=""></option>
+      <option value="dedans">dedans</option>
+      <option value="dehors">dehors</option>
+      <option value="en bas">en bas</option>
+    </select>
+    <span></span>
+
+10. Elle joue ___ . (dehors) :  
+    <select onchange="checkAnswer(this, 'dehors')">
+      <option value=""></option>
+      <option value="dedans">dedans</option>
+      <option value="dehors">dehors</option>
+      <option value="ici">ici</option>
+    </select>
+    <span></span>
+
+## 3. Traduisez en français en utilisant un adverbe de lieu
+
+1.  I am here. <input type="text" placeholder="" oninput="checkAnswer(this, 'Je suis ici.')"><span></span>
+2.  He is there. <input type="text" placeholder="" oninput="checkAnswer(this, 'Il est là.')"><span></span>
+3.  She is going over there. <input type="text" placeholder="" oninput="checkAnswer(this, 'Elle va là-bas.')"><span></span>
+4.  He looks everywhere. <input type="text" placeholder="" oninput="checkAnswer(this, 'Il cherche partout.')"><span></span>
+5.  I am going nowhere. <input type="text" placeholder="" oninput="checkAnswer(this, 'Je ne vais nulle part.')"><span></span>
+6.  Go elsewhere! <input type="text" placeholder="" oninput="checkAnswer(this, 'Va ailleurs !')"><span></span>
+7.  The cat is in front of the door. <input type="text" placeholder="" oninput="checkAnswer(this, 'Le chat est devant la porte.')"><span></span>
+8.  The dog is behind me. <input type="text" placeholder="" oninput="checkAnswer(this, 'Le chien est derrière moi.')"><span></span>
+9.  The book is on (top). <input type="text" placeholder="" oninput="checkAnswer(this, 'Le livre est dessus.')"><span></span>
+10. The cat is under. <input type="text" placeholder="" oninput="checkAnswer(this, 'Le chat est dessous.')"><span></span>
+11. He is inside. <input type="text" placeholder="" oninput="checkAnswer(this, 'Il est dedans.')"><span></span>
+12. She is playing outside. <input type="text" placeholder="" oninput="checkAnswer(this, 'Elle joue dehors.')"><span></span>
+13. Turn to the left. <input type="text" placeholder="" oninput="checkAnswer(this, 'Tournez à gauche.')"><span></span>
+14. Turn to the right. <input type="text" placeholder="" oninput="checkAnswer(this, 'Tournez à droite.')"><span></span>
+15. He is upstairs. <input type="text" placeholder="" oninput="checkAnswer(this, 'Il est en haut.')"><span></span>
+
+<button onclick="showAnswers()">Afficher les réponses</button>
+
+<button onclick="refreshPage()">Réessayer</button>
+
+<script>
+function checkAnswer(input, correctAnswer) {
+    const span = input.nextElementSibling;
+    if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
+        span.textContent = "✓ Correct";
+        span.style.color = "green";
+    } else {
+        span.textContent = "";
+    }
+}
+
+function showAnswers() {
+    document.querySelectorAll('input[type="text"]').forEach(el => {
+        const correct = el.getAttribute('oninput')?.match(/'([^']+)'/)?.[1];
+        if (correct) {
+            const span = el.nextElementSibling;
+            span.textContent = `Réponse : ${correct}`;
+            span.style.color = "blue";
+        }
+    });
+}
+
+function refreshPage() {
+    location.reload();
+}
+</script>
+
+:::

@@ -7,7 +7,6 @@ image: "verb_accord.png"
 ---
 
 ::: {.content-visible when-profile="english"}
-
 ### The Imperfect Tense in French: How to Form It
 
 The imparfait (imperfect) is used to describe ongoing or repeated actions in the past. To form the imparfait:

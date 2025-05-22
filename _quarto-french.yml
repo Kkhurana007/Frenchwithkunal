@@ -115,6 +115,9 @@ website:
         - text: "Articles de Blog"
           href: posts.qmd
           icon: file-lines
+        - text: "Exercices"
+          href: exercises.qmd
+          icon: clipboard-check
         - text: "À Propos"
           href: about.qmd
           icon: info-circle

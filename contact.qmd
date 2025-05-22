@@ -14,6 +14,9 @@ format:
 ::: {.content-visible when-profile="english"}
 We'd love to hear from you! Whether you have a question about our services, feedback, or need support, our team is here to help.
 
+
+<iframe width="600" height="450" src="https://lookerstudio.google.com/embed/reporting/0B_U5RNpwhcE6QXg4SXFBVGUwMjg/page/6zXD" frameborder="0" style="border:0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>
+
 ## Get in Touch
 
 **Email:** [frenchwithkunal\@gmail.com](mailto:frenchwithkunal@gmail.com)

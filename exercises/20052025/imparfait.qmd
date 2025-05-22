@@ -7,97 +7,112 @@ image: "imparfait.png"
 ---
 
 ::: {.content-visible when-profile="english"}
-
 ### Understanding the Imperfect Tense (L'Imparfait)
 
 The **imparfait** is a past tense in French used to describe actions or situations that lasted for a certain time, were habitual, or set the scene in the past. It is also used for repeated actions and to express hypotheses.
 
-**How to form the imparfait:**  
-1. Take the **nous** form of the present tense (e.g., *nous parlons*).  
-2. Remove the **-ons** ending to get the stem (radical).  
-3. Add these endings:  
-    - **-ais, -ais, -ait, -ions, -iez, -aient**
+**How to form the imparfait:**\
+1. Take the **nous** form of the present tense (e.g., *nous parlons*).\
+2. Remove the **-ons** ending to get the stem (radical).\
+3. Add these endings:\
+- **-ais, -ais, -ait, -ions, -iez, -aient**
 
-**Examples:**  
-- *Je parlais* (I was speaking / I used to speak)  
-- *Nous finissions* (We were finishing)  
+**Examples:**\
+- *Je parlais* (I was speaking / I used to speak)\
+- *Nous finissions* (We were finishing)\
 - *Ils avaient* (They used to have)
 
-**When to use the imparfait:**  
-- To describe something in the past (background, setting):  
-  *Il faisait beau.* (The weather was nice.)  
-- For habits or repeated actions:  
-  *Quand j'étais petit, je jouais au parc.* (When I was little, I used to play in the park.)  
-- For ongoing actions interrupted by another action:  
-  *Je lisais quand il est arrivé.* (I was reading when he arrived.)  
-- To express a hypothesis:  
-  *Si j'avais de l'argent, je voyagerais.* (If I had money, I would travel.)
+**When to use the imparfait:**\
+- To describe something in the past (background, setting):\
+*Il faisait beau.* (The weather was nice.)\
+- For habits or repeated actions:\
+*Quand j'étais petit, je jouais au parc.* (When I was little, I used to play in the park.)\
+- For ongoing actions interrupted by another action:\
+*Je lisais quand il est arrivé.* (I was reading when he arrived.)\
+- To express a hypothesis:\
+*Si j'avais de l'argent, je voyagerais.* (If I had money, I would travel.)
 
----
+------------------------------------------------------------------------
 
 ### Exercises
 
-#### 1. Conjugate in the imparfait  
+#### 1. Conjugate in the imparfait
+
 Write the correct form of the verb in parentheses:
 
-1. Je <input type="text" placeholder="" oninput="checkAnswer(this, 'parlais')"><span style="margin-left:10px;"></span> (parler) avec mon ami.
-2. Nous <input type="text" placeholder="" oninput="checkAnswer(this, 'finissions')"><span style="margin-left:10px;"></span> (finir) nos devoirs.
-3. Tu <input type="text" placeholder="" oninput="checkAnswer(this, 'avais')"><span style="margin-left:10px;"></span> (avoir) un chien.
-4. Elle <input type="text" placeholder="" oninput="checkAnswer(this, 'allait')"><span style="margin-left:10px;"></span> (aller) à l’école tous les jours.
-5. Vous <input type="text" placeholder="" oninput="checkAnswer(this, 'preniez')"><span style="margin-left:10px;"></span> (prendre) le bus.
-6. Ils <input type="text" placeholder="" oninput="checkAnswer(this, 'étaient')"><span style="margin-left:10px;"></span> (être) contents.
-7. Nous <input type="text" placeholder="" oninput="checkAnswer(this, 'mangions')"><span style="margin-left:10px;"></span> (manger) souvent au restaurant.
-8. Je <input type="text" placeholder="" oninput="checkAnswer(this, 'lisais')"><span style="margin-left:10px;"></span> (lire) un livre chaque soir.
-9. Tu <input type="text" placeholder="" oninput="checkAnswer(this, 'voyageais')"><span style="margin-left:10px;"></span> (voyager) beaucoup.
-10. Elle <input type="text" placeholder="" oninput="checkAnswer(this, 'faisait')"><span style="margin-left:10px;"></span> (faire) du sport.
+1.  Je <input type="text" placeholder="" oninput="checkAnswer(this, 'parlais')"><span></span> (parler) avec mon ami.
+2.  Nous <input type="text" placeholder="" oninput="checkAnswer(this, 'finissions')"><span></span> (finir) nos devoirs.
+3.  Tu <input type="text" placeholder="" oninput="checkAnswer(this, 'avais')"><span></span> (avoir) un chien.
+4.  Elle <input type="text" placeholder="" oninput="checkAnswer(this, 'allait')"><span></span> (aller) à l’école tous les jours.
+5.  Vous <input type="text" placeholder="" oninput="checkAnswer(this, 'preniez')"><span></span> (prendre) le bus.
+6.  Ils <input type="text" placeholder="" oninput="checkAnswer(this, 'étaient')"><span></span> (être) contents.
+7.  Nous <input type="text" placeholder="" oninput="checkAnswer(this, 'mangions')"><span></span> (manger) souvent au restaurant.
+8.  Je <input type="text" placeholder="" oninput="checkAnswer(this, 'lisais')"><span></span> (lire) un livre chaque soir.
+9.  Tu <input type="text" placeholder="" oninput="checkAnswer(this, 'voyageais')"><span></span> (voyager) beaucoup.
+10. Elle <input type="text" placeholder="" oninput="checkAnswer(this, 'faisait')"><span></span> (faire) du sport.
 
-#### 2. Choose the correct tense (imparfait or passé composé)  
+#### 2. Choose the correct tense (imparfait or passé composé)
+
 Type "imparfait" or "passé composé":
 
-1. Quand j’étais petit, je <input type="text" placeholder="" oninput="checkAnswer(this, 'imparfait')"><span style="margin-left:10px;"></span> (allais / suis allé) à la plage chaque été.
-2. Hier, il <input type="text" placeholder="" oninput="checkAnswer(this, 'passé composé')"><span style="margin-left:10px;"></span> (pleuvait / a plu) toute la journée.
-3. Nous <input type="text" placeholder="" oninput="checkAnswer(this, 'imparfait')"><span style="margin-left:10px;"></span> (regardions / avons regardé) la télévision tous les soirs.
-4. Elle <input type="text" placeholder="" oninput="checkAnswer(this, 'passé composé')"><span style="margin-left:10px;"></span> (est tombée / tombait) dans la rue.
-5. Vous <input type="text" placeholder="" oninput="checkAnswer(this, 'imparfait')"><span style="margin-left:10px;"></span> (faisiez / avez fait) du vélo le week-end.
-6. Ils <input type="text" placeholder="" oninput="checkAnswer(this, 'passé composé')"><span style="margin-left:10px;"></span> (ont vu / voyaient) un accident hier soir.
-7. Je <input type="text" placeholder="" oninput="checkAnswer(this, 'imparfait')"><span style="margin-left:10px;"></span> (lisais / ai lu) toujours avant de dormir.
-8. Tu <input type="text" placeholder="" oninput="checkAnswer(this, 'passé composé')"><span style="margin-left:10px;"></span> (as fini / finissais) tes devoirs à 20h.
-9. Nous <input type="text" placeholder="" oninput="checkAnswer(this, 'imparfait')"><span style="margin-left:10px;"></span> (habitions / avons habité) à Paris quand j’étais jeune.
-10. Elle <input type="text" placeholder="" oninput="checkAnswer(this, 'passé composé')"><span style="margin-left:10px;"></span> (a pris / prenait) le train ce matin.
+1.  Quand j’étais petit, je <input type="text" placeholder="" oninput="checkAnswer(this, 'imparfait')"><span></span> (allais / suis allé) à la plage chaque été.
+2.  Hier, il <input type="text" placeholder="" oninput="checkAnswer(this, 'passé composé')"><span></span> (pleuvait / a plu) toute la journée.
+3.  Nous <input type="text" placeholder="" oninput="checkAnswer(this, 'imparfait')"><span></span> (regardions / avons regardé) la télévision tous les soirs.
+4.  Elle <input type="text" placeholder="" oninput="checkAnswer(this, 'passé composé')"><span></span> (est tombée / tombait) dans la rue.
+5.  Vous <input type="text" placeholder="" oninput="checkAnswer(this, 'imparfait')"><span></span> (faisiez / avez fait) du vélo le week-end.
+6.  Ils <input type="text" placeholder="" oninput="checkAnswer(this, 'passé composé')"><span></span> (ont vu / voyaient) un accident hier soir.
+7.  Je <input type="text" placeholder="" oninput="checkAnswer(this, 'imparfait')"><span></span> (lisais / ai lu) toujours avant de dormir.
+8.  Tu <input type="text" placeholder="" oninput="checkAnswer(this, 'passé composé')"><span></span> (as fini / finissais) tes devoirs à 20h.
+9.  Nous <input type="text" placeholder="" oninput="checkAnswer(this, 'imparfait')"><span></span> (habitions / avons habité) à Paris quand j’étais jeune.
+10. Elle <input type="text" placeholder="" oninput="checkAnswer(this, 'passé composé')"><span></span> (a pris / prenait) le train ce matin.
 
 #### 3. Complete the sentences with your own ideas (use imparfait):
 
-1. Quand j’étais enfant, je <input type="text" placeholder="" oninput="checkAnswer(this, 'jouais dehors')"><span style="margin-left:10px;"></span> .
-2. Tous les matins, nous <input type="text" placeholder="" oninput="checkAnswer(this, 'prenions le petit-déjeuner ensemble')"><span style="margin-left:10px;"></span> .
-3. Il faisait beau et les oiseaux <input type="text" placeholder="" oninput="checkAnswer(this, 'chantaient')"><span style="margin-left:10px;"></span> .
-4. À l’école, mes amis et moi <input type="text" placeholder="" oninput="checkAnswer(this, 'étudiions beaucoup')"><span style="margin-left:10px;"></span> .
-5. Ma famille <input type="text" placeholder="" oninput="checkAnswer(this, 'partait souvent en vacances')"><span style="margin-left:10px;"></span> .
-6. Mon grand-père <input type="text" placeholder="" oninput="checkAnswer(this, 'racontait des histoires')"><span style="margin-left:10px;"></span> chaque soir.
-7. Nous <input type="text" placeholder="" oninput="checkAnswer(this, 'jouions au football')"><span style="margin-left:10px;"></span> après l’école.
-8. Je <input type="text" placeholder="" oninput="checkAnswer(this, 'lisais des livres')"><span style="margin-left:10px;"></span> avant de dormir.
-9. Mes parents <input type="text" placeholder="" oninput="checkAnswer(this, 'travaillaient beaucoup')"><span style="margin-left:10px;"></span> pendant la semaine.
-10. Le dimanche, nous <input type="text" placeholder="" oninput="checkAnswer(this, 'visitons nos grands-parents')"><span style="margin-left:10px;"></span> .
-11. Quand il pleuvait, je <input type="text" placeholder="" oninput="checkAnswer(this, 'regardais la télévision')"><span style="margin-left:10px;"></span> .
-12. En été, mes amis <input type="text" placeholder="" oninput="checkAnswer(this, 'allaient à la piscine')"><span style="margin-left:10px;"></span> .
+1.  Quand j’étais enfant, je <input type="text" placeholder="" oninput="checkAnswer(this, 'jouais dehors')"><span></span> .
+2.  Tous les matins, nous <input type="text" placeholder="" oninput="checkAnswer(this, 'prenions le petit-déjeuner ensemble')"><span></span> .
+3.  Il faisait beau et les oiseaux <input type="text" placeholder="" oninput="checkAnswer(this, 'chantaient')"><span></span> .
+4.  À l’école, mes amis et moi <input type="text" placeholder="" oninput="checkAnswer(this, 'étudiions beaucoup')"><span></span> .
+5.  Ma famille <input type="text" placeholder="" oninput="checkAnswer(this, 'partait souvent en vacances')"><span></span> .
+6.  Mon grand-père <input type="text" placeholder="" oninput="checkAnswer(this, 'racontait des histoires')"><span></span> chaque soir.
+7.  Nous <input type="text" placeholder="" oninput="checkAnswer(this, 'jouions au football')"><span></span> après l’école.
+8.  Je <input type="text" placeholder="" oninput="checkAnswer(this, 'lisais des livres')"><span></span> avant de dormir.
+9.  Mes parents <input type="text" placeholder="" oninput="checkAnswer(this, 'travaillaient beaucoup')"><span></span> pendant la semaine.
+10. Le dimanche, nous <input type="text" placeholder="" oninput="checkAnswer(this, 'visitons nos grands-parents')"><span></span> .
+11. Quand il pleuvait, je <input type="text" placeholder="" oninput="checkAnswer(this, 'regardais la télévision')"><span></span> .
+12. En été, mes amis <input type="text" placeholder="" oninput="checkAnswer(this, 'allaient à la piscine')"><span></span> .
 
----
+------------------------------------------------------------------------
 
 ### To consolidate your learning
 
-Write a short paragraph (3-5 sentences) explaining what you have learned about the imparfait in French. Use your own words and, if possible, give an example.  
+Write a short paragraph (3-5 sentences) explaining what you have learned about the imparfait in French. Use your own words and, if possible, give an example.\
+
+```{=html}
 <textarea rows="5" style="width:100%;" placeholder="Write here what you have learned..."></textarea>
+```
 
-<button onclick="showAnswers()">Show answers</button>  
-<button onclick="refreshPage()">Try again</button>  
+<button onclick="showAnswers()">
 
----
+Show answers
+
+</button>
+
+<button onclick="refreshPage()">
+
+Try again
+
+</button>
+
+------------------------------------------------------------------------
 
 ### Notes:
-- The imparfait is used for descriptions, habits, and ongoing actions in the past.
-- The endings are: **-ais, -ais, -ait, -ions, -iez, -aient**.
-- The stem comes from the "nous" form of the present tense.
-- *Être* is irregular: *j'étais, tu étais, il/elle était, nous étions, vous étiez, ils/elles étaient*.
 
+-   The imparfait is used for descriptions, habits, and ongoing actions in the past.
+-   The endings are: **-ais, -ais, -ait, -ions, -iez, -aient**.
+-   The stem comes from the "nous" form of the present tense.
+-   *Être* is irregular: *j'étais, tu étais, il/elle était, nous étions, vous étiez, ils/elles étaient*.
+
+```{=html}
 <script>
 function checkAnswer(input, correctAnswer) {
      const span = input.nextElementSibling;
@@ -124,86 +139,85 @@ function refreshPage() {
      location.reload();
 }
 </script>
-
+```
 :::
 
-
-
-
-::: {.content-visible when-profile="french"}  
-
+::: {.content-visible when-profile="french"}
 ### Comprendre l’imparfait
 
 L’**imparfait** est un temps du passé utilisé pour décrire des actions ou des situations qui duraient, étaient habituelles ou servaient de décor dans le passé. Il sert aussi à exprimer des habitudes, des descriptions ou des hypothèses.
 
-**Comment former l’imparfait :**  
-1. Prenez la forme **nous** du présent (ex. : *nous parlons*).  
-2. Retirez la terminaison **-ons** pour obtenir le radical.  
-3. Ajoutez les terminaisons :  
-    - **-ais, -ais, -ait, -ions, -iez, -aient**
+**Comment former l’imparfait :**\
+1. Prenez la forme **nous** du présent (ex. : *nous parlons*).\
+2. Retirez la terminaison **-ons** pour obtenir le radical.\
+3. Ajoutez les terminaisons :\
+- **-ais, -ais, -ait, -ions, -iez, -aient**
 
-**Exemples :**  
-- *Je parlais*  
-- *Nous finissions*  
+**Exemples :**\
+- *Je parlais*\
+- *Nous finissions*\
 - *Ils avaient*
 
-**Quand utiliser l’imparfait :**  
-- Pour décrire une situation passée :  
-  *Il faisait beau.*  
-- Pour une habitude ou une action répétée :  
-  *Quand j’étais petit, je jouais au parc.*  
-- Pour une action en cours interrompue par une autre :  
-  *Je lisais quand il est arrivé.*  
-- Pour exprimer une hypothèse :  
-  *Si j’avais de l’argent, je voyagerais.*
+**Quand utiliser l’imparfait :**\
+- Pour décrire une situation passée :\
+*Il faisait beau.*\
+- Pour une habitude ou une action répétée :\
+*Quand j’étais petit, je jouais au parc.*\
+- Pour une action en cours interrompue par une autre :\
+*Je lisais quand il est arrivé.*\
+- Pour exprimer une hypothèse :\
+*Si j’avais de l’argent, je voyagerais.*
 
----
+------------------------------------------------------------------------
 
 ### Exercices
 
-#### 1. Conjuguez à l’imparfait  
+#### 1. Conjuguez à l’imparfait
+
 Écrivez la bonne forme du verbe entre parenthèses :
 
-1. Je <input type="text" placeholder="" oninput="checkAnswer(this, 'parlais')"><span style="margin-left:10px;"></span> (parler) avec mon ami.
-2. Nous <input type="text" placeholder="" oninput="checkAnswer(this, 'finissions')"><span style="margin-left:10px;"></span> (finir) nos devoirs.
-3. Tu <input type="text" placeholder="" oninput="checkAnswer(this, 'avais')"><span style="margin-left:10px;"></span> (avoir) un chien.
-4. Elle <input type="text" placeholder="" oninput="checkAnswer(this, 'allait')"><span style="margin-left:10px;"></span> (aller) à l’école tous les jours.
-5. Vous <input type="text" placeholder="" oninput="checkAnswer(this, 'preniez')"><span style="margin-left:10px;"></span> (prendre) le bus.
-6. Ils <input type="text" placeholder="" oninput="checkAnswer(this, 'étaient')"><span style="margin-left:10px;"></span> (être) contents.
-7. Nous <input type="text" placeholder="" oninput="checkAnswer(this, 'mangions')"><span style="margin-left:10px;"></span> (manger) souvent au restaurant.
-8. Je <input type="text" placeholder="" oninput="checkAnswer(this, 'lisais')"><span style="margin-left:10px;"></span> (lire) un livre chaque soir.
-9. Tu <input type="text" placeholder="" oninput="checkAnswer(this, 'voyageais')"><span style="margin-left:10px;"></span> (voyager) beaucoup.
-10. Elle <input type="text" placeholder="" oninput="checkAnswer(this, 'faisait')"><span style="margin-left:10px;"></span> (faire) du sport.
+1.  Je <input type="text" placeholder="" oninput="checkAnswer(this, 'parlais')"><span></span> (parler) avec mon ami.
+2.  Nous <input type="text" placeholder="" oninput="checkAnswer(this, 'finissions')"><span></span> (finir) nos devoirs.
+3.  Tu <input type="text" placeholder="" oninput="checkAnswer(this, 'avais')"><span></span> (avoir) un chien.
+4.  Elle <input type="text" placeholder="" oninput="checkAnswer(this, 'allait')"><span></span> (aller) à l’école tous les jours.
+5.  Vous <input type="text" placeholder="" oninput="checkAnswer(this, 'preniez')"><span></span> (prendre) le bus.
+6.  Ils <input type="text" placeholder="" oninput="checkAnswer(this, 'étaient')"><span></span> (être) contents.
+7.  Nous <input type="text" placeholder="" oninput="checkAnswer(this, 'mangions')"><span></span> (manger) souvent au restaurant.
+8.  Je <input type="text" placeholder="" oninput="checkAnswer(this, 'lisais')"><span></span> (lire) un livre chaque soir.
+9.  Tu <input type="text" placeholder="" oninput="checkAnswer(this, 'voyageais')"><span></span> (voyager) beaucoup.
+10. Elle <input type="text" placeholder="" oninput="checkAnswer(this, 'faisait')"><span></span> (faire) du sport.
 
-#### 2. Choisissez le bon temps (imparfait ou passé composé)  
+#### 2. Choisissez le bon temps (imparfait ou passé composé)
+
 Tapez "imparfait" ou "passé composé" :
 
-1. Quand j’étais petit, je <input type="text" placeholder="" oninput="checkAnswer(this, 'imparfait')"><span style="margin-left:10px;"></span> (allais / suis allé) à la plage chaque été.
-2. Hier, il <input type="text" placeholder="" oninput="checkAnswer(this, 'passé composé')"><span style="margin-left:10px;"></span> (pleuvait / a plu) toute la journée.
-3. Nous <input type="text" placeholder="" oninput="checkAnswer(this, 'imparfait')"><span style="margin-left:10px;"></span> (regardions / avons regardé) la télévision tous les soirs.
-4. Elle <input type="text" placeholder="" oninput="checkAnswer(this, 'passé composé')"><span style="margin-left:10px;"></span> (est tombée / tombait) dans la rue.
-5. Vous <input type="text" placeholder="" oninput="checkAnswer(this, 'imparfait')"><span style="margin-left:10px;"></span> (faisiez / avez fait) du vélo le week-end.
-6. Ils <input type="text" placeholder="" oninput="checkAnswer(this, 'passé composé')"><span style="margin-left:10px;"></span> (ont vu / voyaient) un accident hier soir.
-7. Je <input type="text" placeholder="" oninput="checkAnswer(this, 'imparfait')"><span style="margin-left:10px;"></span> (lisais / ai lu) toujours avant de dormir.
-8. Tu <input type="text" placeholder="" oninput="checkAnswer(this, 'passé composé')"><span style="margin-left:10px;"></span> (as fini / finissais) tes devoirs à 20h.
-9. Nous <input type="text" placeholder="" oninput="checkAnswer(this, 'imparfait')"><span style="margin-left:10px;"></span> (habitions / avons habité) à Paris quand j’étais jeune.
-10. Elle <input type="text" placeholder="" oninput="checkAnswer(this, 'passé composé')"><span style="margin-left:10px;"></span> (a pris / prenait) le train ce matin.
+1.  Quand j’étais petit, je <input type="text" placeholder="" oninput="checkAnswer(this, 'imparfait')"><span></span> (allais / suis allé) à la plage chaque été.
+2.  Hier, il <input type="text" placeholder="" oninput="checkAnswer(this, 'passé composé')"><span></span> (pleuvait / a plu) toute la journée.
+3.  Nous <input type="text" placeholder="" oninput="checkAnswer(this, 'imparfait')"><span></span> (regardions / avons regardé) la télévision tous les soirs.
+4.  Elle <input type="text" placeholder="" oninput="checkAnswer(this, 'passé composé')"><span></span> (est tombée / tombait) dans la rue.
+5.  Vous <input type="text" placeholder="" oninput="checkAnswer(this, 'imparfait')"><span></span> (faisiez / avez fait) du vélo le week-end.
+6.  Ils <input type="text" placeholder="" oninput="checkAnswer(this, 'passé composé')"><span></span> (ont vu / voyaient) un accident hier soir.
+7.  Je <input type="text" placeholder="" oninput="checkAnswer(this, 'imparfait')"><span></span> (lisais / ai lu) toujours avant de dormir.
+8.  Tu <input type="text" placeholder="" oninput="checkAnswer(this, 'passé composé')"><span></span> (as fini / finissais) tes devoirs à 20h.
+9.  Nous <input type="text" placeholder="" oninput="checkAnswer(this, 'imparfait')"><span></span> (habitions / avons habité) à Paris quand j’étais jeune.
+10. Elle <input type="text" placeholder="" oninput="checkAnswer(this, 'passé composé')"><span></span> (a pris / prenait) le train ce matin.
 
 #### 3. Complétez les phrases avec vos propres idées (utilisez l’imparfait) :
 
-1. Quand j’étais enfant, je <input type="text" placeholder="" oninput="checkAnswer(this, 'jouais dehors')"><span style="margin-left:10px;"></span> .
-2. Tous les matins, nous <input type="text" placeholder="" oninput="checkAnswer(this, 'prenions le petit-déjeuner ensemble')"><span style="margin-left:10px;"></span> .
-3. Il faisait beau et les oiseaux <input type="text" placeholder="" oninput="checkAnswer(this, 'chantaient')"><span style="margin-left:10px;"></span> .
-4. À l’école, mes amis et moi <input type="text" placeholder="" oninput="checkAnswer(this, 'étudiions beaucoup')"><span style="margin-left:10px;"></span> .
-5. Ma famille <input type="text" placeholder="" oninput="checkAnswer(this, 'partait souvent en vacances')"><span style="margin-left:10px;"></span> .
-6. Mon grand-père <input type="text" placeholder="" oninput="checkAnswer(this, 'racontait des histoires')"><span style="margin-left:10px;"></span> chaque soir.
-7. Nous <input type="text" placeholder="" oninput="checkAnswer(this, 'jouions au football')"><span style="margin-left:10px;"></span> après l’école.
-8. Je <input type="text" placeholder="" oninput="checkAnswer(this, 'lisais des livres')"><span style="margin-left:10px;"></span> avant de dormir.
-9. Mes parents <input type="text" placeholder="" oninput="checkAnswer(this, 'travaillaient beaucoup')"><span style="margin-left:10px;"></span> pendant la semaine.
-10. Le dimanche, nous <input type="text" placeholder="" oninput="checkAnswer(this, 'visitons nos grands-parents')"><span style="margin-left:10px;"></span> .
-11. Quand il pleuvait, je <input type="text" placeholder="" oninput="checkAnswer(this, 'regardais la télévision')"><span style="margin-left:10px;"></span> .
-12. En été, mes amis <input type="text" placeholder="" oninput="checkAnswer(this, 'allaient à la piscine')"><span style="margin-left:10px;"></span> .
+1.  Quand j’étais enfant, je <input type="text" placeholder="" oninput="checkAnswer(this, 'jouais dehors')"><span></span> .
+2.  Tous les matins, nous <input type="text" placeholder="" oninput="checkAnswer(this, 'prenions le petit-déjeuner ensemble')"><span></span> .
+3.  Il faisait beau et les oiseaux <input type="text" placeholder="" oninput="checkAnswer(this, 'chantaient')"><span></span> .
+4.  À l’école, mes amis et moi <input type="text" placeholder="" oninput="checkAnswer(this, 'étudiions beaucoup')"><span></span> .
+5.  Ma famille <input type="text" placeholder="" oninput="checkAnswer(this, 'partait souvent en vacances')"><span></span> .
+6.  Mon grand-père <input type="text" placeholder="" oninput="checkAnswer(this, 'racontait des histoires')"><span></span> chaque soir.
+7.  Nous <input type="text" placeholder="" oninput="checkAnswer(this, 'jouions au football')"><span></span> après l’école.
+8.  Je <input type="text" placeholder="" oninput="checkAnswer(this, 'lisais des livres')"><span></span> avant de dormir.
+9.  Mes parents <input type="text" placeholder="" oninput="checkAnswer(this, 'travaillaient beaucoup')"><span></span> pendant la semaine.
+10. Le dimanche, nous <input type="text" placeholder="" oninput="checkAnswer(this, 'visitons nos grands-parents')"><span></span> .
+11. Quand il pleuvait, je <input type="text" placeholder="" oninput="checkAnswer(this, 'regardais la télévision')"><span></span> .
+12. En été, mes amis <input type="text" placeholder="" oninput="checkAnswer(this, 'allaient à la piscine')"><span></span> .
 
+```{=html}
 <!-- Réponses exemples :
 1. jouais dehors
 2. prenions le petit-déjeuner ensemble
@@ -218,28 +232,40 @@ Tapez "imparfait" ou "passé composé" :
 11. regardais la télévision
 12. allaient à la piscine
 -->
+```
 
----
+------------------------------------------------------------------------
 
 ### Pour consolider vos acquis
 
-Écrivez un court paragraphe (3 à 5 phrases) pour expliquer ce que vous avez compris sur l’imparfait en français. Utilisez vos propres mots et, si possible, donnez un exemple.  
-<textarea rows="5" style="width:100%;" placeholder="Écrivez ici ce que vous avez appris..."></textarea>
+Écrivez un court paragraphe (3 à 5 phrases) pour expliquer ce que vous avez compris sur l’imparfait en français. Utilisez vos propres mots et, si possible, donnez un exemple.\
 
---- 
+```{=html}
+<textarea rows="5" style="width:100%;" placeholder="Écrivez ici ce que vous avez appris..."></textarea>
+```
+
+------------------------------------------------------------------------
 
 ### Notes :
-- L’imparfait sert à décrire, à exprimer des habitudes ou des actions en cours dans le passé.
-- Les terminaisons sont : **-ais, -ais, -ait, -ions, -iez, -aient**.
-- Le radical vient de la forme "nous" au présent.
-- *Être* est irrégulier : *j’étais, tu étais, il/elle était, nous étions, vous étiez, ils/elles étaient*.
 
+-   L’imparfait sert à décrire, à exprimer des habitudes ou des actions en cours dans le passé.
+-   Les terminaisons sont : **-ais, -ais, -ait, -ions, -iez, -aient**.
+-   Le radical vient de la forme "nous" au présent.
+-   *Être* est irrégulier : *j’étais, tu étais, il/elle était, nous étions, vous étiez, ils/elles étaient*.
 
-<button onclick="showAnswers()">Voir les réponses</button>  
-<button onclick="refreshPage()">Nouvel essai</button>  
+<button onclick="showAnswers()">
 
+Voir les réponses
 
+</button>
 
+<button onclick="refreshPage()">
+
+Nouvel essai
+
+</button>
+
+```{=html}
 <script>
 function checkAnswer(input, correctAnswer) {
      const span = input.nextElementSibling;
@@ -266,7 +292,7 @@ function refreshPage() {
      location.reload();
 }
 </script>
+```
 
----
-
+------------------------------------------------------------------------
 :::

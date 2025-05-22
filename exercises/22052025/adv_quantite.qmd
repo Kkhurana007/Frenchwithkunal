@@ -1,0 +1,376 @@
+---
+title: "Adverbs of Quantity (Adverbes de quantité) in French"
+author: "Kunal Khurana"
+date: "05-20-2025"
+categories: [B1, grammar, adverbs, exercises]
+image: "adverbes_quantite.png"
+---
+
+::: {.content-visible when-profile="english"}
+
+# Adverbs of Quantity in French (Adverbes de quantité)
+
+Adverbs of quantity indicate an **undefined amount** or degree. They can modify verbs, adjectives, or nouns to express "how much" or "to what extent" something happens or exists.
+
+- **Modify a verb:**  
+    *Il mange beaucoup.* (He eats a lot.)
+- **Modify an adjective:**  
+    *Elle est très gentille.* (She is very kind.)
+- **Modify a noun:**  
+    *Il a trop de travail.* (He has too much work.)
+
+**Common Adverbs of Quantity:**
+
+| French      | English         | Example (FR)                  | Example (EN)                |
+|-------------|----------------|-------------------------------|-----------------------------|
+| beaucoup    | a lot/much      | Il travaille beaucoup.        | He works a lot.             |
+| trop        | too much        | Il mange trop.                | He eats too much.           |
+| assez       | enough/rather   | Elle est assez grande.        | She is tall enough.         |
+| peu         | little/not much | Il parle peu.                 | He speaks little.           |
+| tellement   | so much         | Il est tellement fatigué.     | He is so tired.             |
+| moins       | less            | J'ai moins de temps.          | I have less time.           |
+| plus        | more            | Elle veut plus de café.       | She wants more coffee.      |
+| autant      | as much         | Il mange autant que moi.      | He eats as much as I do.    |
+| suffisamment| enough          | Tu as suffisamment d'argent.  | You have enough money.      |
+
+------------------------------------------------------------------------
+
+# Activities
+
+## 1. Complete with the correct adverb of quantity (in French)
+
+1.  Il travaille <input type="text" placeholder="" oninput="checkAnswer(this, 'beaucoup')"><span></span>. (a lot)
+2.  Elle mange <input type="text" placeholder="" oninput="checkAnswer(this, 'trop')"><span></span>. (too much)
+3.  Il est <input type="text" placeholder="" oninput="checkAnswer(this, 'très')"><span></span> fatigué. (very)
+4.  Tu as <input type="text" placeholder="" oninput="checkAnswer(this, 'assez')"><span></span> d'argent. (enough)
+5.  Il parle <input type="text" placeholder="" oninput="checkAnswer(this, 'peu')"><span></span>. (little)
+6.  Elle est <input type="text" placeholder="" oninput="checkAnswer(this, 'tellement')"><span></span> gentille. (so)
+7.  J'ai <input type="text" placeholder="" oninput="checkAnswer(this, 'moins')"><span></span> de temps. (less)
+8.  Elle veut <input type="text" placeholder="" oninput="checkAnswer(this, 'plus')"><span></span> de café. (more)
+9.  Il mange <input type="text" placeholder="" oninput="checkAnswer(this, 'autant')"><span></span> que moi. (as much)
+10. Tu as <input type="text" placeholder="" oninput="checkAnswer(this, 'suffisamment')"><span></span> d'argent. (enough)
+
+## 2. Choose the correct adverb of quantity
+
+Select the correct adverb to complete each sentence.
+
+1.  Il travaille ___ . (a lot):  
+        <select onchange="checkAnswer(this, 'beaucoup')">
+            <option value=""></option>
+            <option value="beaucoup">beaucoup</option>
+            <option value="peu">peu</option>
+            <option value="trop">trop</option>
+        </select>
+        <span></span>
+
+2.  Elle mange ___ . (too much):  
+        <select onchange="checkAnswer(this, 'trop')">
+            <option value=""></option>
+            <option value="trop">trop</option>
+            <option value="assez">assez</option>
+            <option value="moins">moins</option>
+        </select>
+        <span></span>
+
+3.  Il est ___ fatigué. (very):  
+        <select onchange="checkAnswer(this, 'très')">
+            <option value=""></option>
+            <option value="très">très</option>
+            <option value="tellement">tellement</option>
+            <option value="peu">peu</option>
+        </select>
+        <span></span>
+
+4.  Tu as ___ d'argent. (enough):  
+        <select onchange="checkAnswer(this, 'assez')">
+            <option value=""></option>
+            <option value="assez">assez</option>
+            <option value="plus">plus</option>
+            <option value="moins">moins</option>
+        </select>
+        <span></span>
+
+5.  Il parle ___ . (little):  
+        <select onchange="checkAnswer(this, 'peu')">
+            <option value=""></option>
+            <option value="beaucoup">beaucoup</option>
+            <option value="peu">peu</option>
+            <option value="autant">autant</option>
+        </select>
+        <span></span>
+
+6.  Elle est ___ gentille. (so):  
+        <select onchange="checkAnswer(this, 'tellement')">
+            <option value=""></option>
+            <option value="tellement">tellement</option>
+            <option value="très">très</option>
+            <option value="peu">peu</option>
+        </select>
+        <span></span>
+
+7.  J'ai ___ de temps. (less):  
+        <select onchange="checkAnswer(this, 'moins')">
+            <option value=""></option>
+            <option value="plus">plus</option>
+            <option value="moins">moins</option>
+            <option value="trop">trop</option>
+        </select>
+        <span></span>
+
+8.  Elle veut ___ de café. (more):  
+        <select onchange="checkAnswer(this, 'plus')">
+            <option value=""></option>
+            <option value="plus">plus</option>
+            <option value="moins">moins</option>
+            <option value="peu">peu</option>
+        </select>
+        <span></span>
+
+9.  Il mange ___ que moi. (as much):  
+        <select onchange="checkAnswer(this, 'autant')">
+            <option value=""></option>
+            <option value="autant">autant</option>
+            <option value="trop">trop</option>
+            <option value="beaucoup">beaucoup</option>
+        </select>
+        <span></span>
+
+10. Tu as ___ d'argent. (enough):  
+        <select onchange="checkAnswer(this, 'suffisamment')">
+            <option value=""></option>
+            <option value="suffisamment">suffisamment</option>
+            <option value="plus">plus</option>
+            <option value="peu">peu</option>
+        </select>
+        <span></span>
+
+## 3. Translate to French using an adverb of quantity
+
+1.  He works a lot. <input type="text" placeholder="" oninput="checkAnswer(this, 'Il travaille beaucoup.')"><span></span>
+2.  She eats too much. <input type="text" placeholder="" oninput="checkAnswer(this, 'Elle mange trop.')"><span></span>
+3.  He is very tired. <input type="text" placeholder="" oninput="checkAnswer(this, 'Il est très fatigué.')"><span></span>
+4.  You have enough money. <input type="text" placeholder="" oninput="checkAnswer(this, 'Tu as assez d\'argent.')"><span></span>
+5.  He speaks little. <input type="text" placeholder="" oninput="checkAnswer(this, 'Il parle peu.')"><span></span>
+6.  She is so kind. <input type="text" placeholder="" oninput="checkAnswer(this, 'Elle est tellement gentille.')"><span></span>
+7.  I have less time. <input type="text" placeholder="" oninput="checkAnswer(this, 'J\'ai moins de temps.')"><span></span>
+8.  She wants more coffee. <input type="text" placeholder="" oninput="checkAnswer(this, 'Elle veut plus de café.')"><span></span>
+9.  He eats as much as I do. <input type="text" placeholder="" oninput="checkAnswer(this, 'Il mange autant que moi.')"><span></span>
+10. You have enough money. <input type="text" placeholder="" oninput="checkAnswer(this, 'Tu as suffisamment d\'argent.')"><span></span>
+
+<button onclick="showAnswers()">Show Answers</button>
+
+<button onclick="refreshPage()">Try Again</button>
+
+<script>
+function checkAnswer(input, correctAnswer) {
+        const span = input.nextElementSibling;
+        if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
+                span.textContent = "✓ Correct";
+                span.style.color = "green";
+        } else {
+                span.textContent = "";
+        }
+}
+
+function showAnswers() {
+        document.querySelectorAll('input[type="text"]').forEach(el => {
+                const correct = el.getAttribute('oninput')?.match(/'([^']+)'/)?.[1];
+                if (correct) {
+                        const span = el.nextElementSibling;
+                        span.textContent = `Réponse : ${correct}`;
+                        span.style.color = "blue";
+                }
+        });
+}
+
+function refreshPage() {
+        location.reload();
+}
+</script>
+
+:::
+
+
+
+::: {.content-visible when-profile="french"}
+
+# Les adverbes de quantité en français
+
+Les adverbes de quantité indiquent une **quantité indéfinie** ou un degré. Ils peuvent modifier des verbes, des adjectifs ou des noms pour exprimer "combien" ou "dans quelle mesure" quelque chose se produit ou existe.
+
+- **Modifier un verbe :**  
+    *Il mange beaucoup.*
+- **Modifier un adjectif :**  
+    *Elle est très gentille.*
+- **Modifier un nom :**  
+    *Il a trop de travail.*
+
+**Adverbes de quantité courants :**
+
+| Français      | Anglais           | Exemple (FR)                  | Exemple (EN)                |
+|---------------|-------------------|-------------------------------|-----------------------------|
+| beaucoup      | a lot/much        | Il travaille beaucoup.        | He works a lot.             |
+| trop          | too much          | Il mange trop.                | He eats too much.           |
+| assez         | enough/rather     | Elle est assez grande.        | She is tall enough.         |
+| peu           | little/not much   | Il parle peu.                 | He speaks little.           |
+| tellement     | so much           | Il est tellement fatigué.     | He is so tired.             |
+| moins         | less              | J'ai moins de temps.          | I have less time.           |
+| plus          | more              | Elle veut plus de café.       | She wants more coffee.      |
+| autant        | as much           | Il mange autant que moi.      | He eats as much as I do.    |
+| suffisamment  | enough            | Tu as suffisamment d'argent.  | You have enough money.      |
+
+------------------------------------------------------------------------
+
+# Activités
+
+## 1. Complétez avec le bon adverbe de quantité
+1.  Il travaille <input type="text" placeholder="" oninput="checkAnswer(this, 'beaucoup')"><span></span>. (a lot)
+2.  Elle mange <input type="text" placeholder="" oninput="checkAnswer(this, 'trop')"><span></span>. (too much)
+3.  Il est <input type="text" placeholder="" oninput="checkAnswer(this, 'très')"><span></span> fatigué. (very)
+4.  Tu as <input type="text" placeholder="" oninput="checkAnswer(this, 'assez')"><span></span> d'argent. (enough)
+5.  Il parle <input type="text" placeholder="" oninput="checkAnswer(this, 'peu')"><span></span>. (little)
+6.  Elle est <input type="text" placeholder="" oninput="checkAnswer(this, 'tellement')"><span></span> gentille. (so)
+7.  J'ai <input type="text" placeholder="" oninput="checkAnswer(this, 'moins')"><span></span> de temps. (less)
+8.  Elle veut <input type="text" placeholder="" oninput="checkAnswer(this, 'plus')"><span></span> de café. (more)
+9.  Il mange <input type="text" placeholder="" oninput="checkAnswer(this, 'autant')"><span></span> que moi. (as much)
+10. Tu as <input type="text" placeholder="" oninput="checkAnswer(this, 'suffisamment')"><span></span> d'argent. (enough)
+
+## 2. Choisissez le bon adverbe de quantité
+
+Choisissez l'adverbe correct pour compléter chaque phrase.
+
+1.  Il travaille ___ . (beaucoup) :  
+        <select onchange="checkAnswer(this, 'beaucoup')">
+            <option value=""></option>
+            <option value="beaucoup">beaucoup</option>
+            <option value="peu">peu</option>
+            <option value="trop">trop</option>
+        </select>
+        <span></span>
+
+2.  Elle mange ___ . (trop) :  
+        <select onchange="checkAnswer(this, 'trop')">
+            <option value=""></option>
+            <option value="trop">trop</option>
+            <option value="assez">assez</option>
+            <option value="moins">moins</option>
+        </select>
+        <span></span>
+
+3.  Il est ___ fatigué. (très) :  
+        <select onchange="checkAnswer(this, 'très')">
+            <option value=""></option>
+            <option value="très">très</option>
+            <option value="tellement">tellement</option>
+            <option value="peu">peu</option>
+        </select>
+        <span></span>
+
+4.  Tu as ___ d'argent. (assez) :  
+        <select onchange="checkAnswer(this, 'assez')">
+            <option value=""></option>
+            <option value="assez">assez</option>
+            <option value="plus">plus</option>
+            <option value="moins">moins</option>
+        </select>
+        <span></span>
+
+5.  Il parle ___ . (peu) :  
+        <select onchange="checkAnswer(this, 'peu')">
+            <option value=""></option>
+            <option value="beaucoup">beaucoup</option>
+            <option value="peu">peu</option>
+            <option value="autant">autant</option>
+        </select>
+        <span></span>
+
+6.  Elle est ___ gentille. (tellement) :  
+        <select onchange="checkAnswer(this, 'tellement')">
+            <option value=""></option>
+            <option value="tellement">tellement</option>
+            <option value="très">très</option>
+            <option value="peu">peu</option>
+        </select>
+        <span></span>
+
+7.  J'ai ___ de temps. (moins) :  
+        <select onchange="checkAnswer(this, 'moins')">
+            <option value=""></option>
+            <option value="plus">plus</option>
+            <option value="moins">moins</option>
+            <option value="trop">trop</option>
+        </select>
+        <span></span>
+
+8.  Elle veut ___ de café. (plus) :  
+        <select onchange="checkAnswer(this, 'plus')">
+            <option value=""></option>
+            <option value="plus">plus</option>
+            <option value="moins">moins</option>
+            <option value="peu">peu</option>
+        </select>
+        <span></span>
+
+9.  Il mange ___ que moi. (autant) :  
+        <select onchange="checkAnswer(this, 'autant')">
+            <option value=""></option>
+            <option value="autant">autant</option>
+            <option value="trop">trop</option>
+            <option value="beaucoup">beaucoup</option>
+        </select>
+        <span></span>
+
+10. Tu as ___ d'argent. (suffisamment) :  
+        <select onchange="checkAnswer(this, 'suffisamment')">
+            <option value=""></option>
+            <option value="suffisamment">suffisamment</option>
+            <option value="plus">plus</option>
+            <option value="peu">peu</option>
+        </select>
+        <span></span>
+
+## 3. Traduisez en français en utilisant un adverbe de quantité
+
+1.  He works a lot. <input type="text" placeholder="" oninput="checkAnswer(this, 'Il travaille beaucoup.')"><span></span>
+2.  She eats too much. <input type="text" placeholder="" oninput="checkAnswer(this, 'Elle mange trop.')"><span></span>
+3.  He is very tired. <input type="text" placeholder="" oninput="checkAnswer(this, 'Il est très fatigué.')"><span></span>
+4.  You have enough money. <input type="text" placeholder="" oninput="checkAnswer(this, 'Tu as assez d\'argent.')"><span></span>
+5.  He speaks little. <input type="text" placeholder="" oninput="checkAnswer(this, 'Il parle peu.')"><span></span>
+6.  She is so kind. <input type="text" placeholder="" oninput="checkAnswer(this, 'Elle est tellement gentille.')"><span></span>
+7.  I have less time. <input type="text" placeholder="" oninput="checkAnswer(this, 'J\'ai moins de temps.')"><span></span>
+8.  She wants more coffee. <input type="text" placeholder="" oninput="checkAnswer(this, 'Elle veut plus de café.')"><span></span>
+9.  He eats as much as I do. <input type="text" placeholder="" oninput="checkAnswer(this, 'Il mange autant que moi.')"><span></span>
+10. You have enough money. <input type="text" placeholder="" oninput="checkAnswer(this, 'Tu as suffisamment d\'argent.')"><span></span>
+
+<button onclick="showAnswers()">Afficher les réponses</button>
+
+<button onclick="refreshPage()">Réessayer</button>
+
+<script>
+function checkAnswer(input, correctAnswer) {
+    const span = input.nextElementSibling;
+    if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
+        span.textContent = "✓ Correct";
+        span.style.color = "green";
+    } else {
+        span.textContent = "";
+    }
+}
+
+function showAnswers() {
+    document.querySelectorAll('input[type="text"]').forEach(el => {
+        const correct = el.getAttribute('oninput')?.match(/'([^']+)'/)?.[1];
+        if (correct) {
+            const span = el.nextElementSibling;
+            span.textContent = `Réponse : ${correct}`;
+            span.style.color = "blue";
+        }
+    });
+}
+
+function refreshPage() {
+    location.reload();
+}
+</script>
+
+:::

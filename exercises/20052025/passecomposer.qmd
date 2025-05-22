@@ -6,8 +6,7 @@ categories: [B1, grammaire, passé composé, exercices]
 image: "passe_compose.png"
 ---
 
-::: {.content-visible when-profile="english"}
-
+::::: {.content-visible when-profile="english"}
 ### Understanding the "Passé Composé" Tense
 
 The **passé composé** is a past tense used to express a completed action, a specific event, or a series of actions in the past.
@@ -16,31 +15,25 @@ The **passé composé** is a past tense used to express a completed action, a sp
 
 The passé composé is formed with two elements:
 
-1. **The auxiliary verb** (avoir or être) conjugated in the present
-2. **The past participle** of the main verb
+1.  **The auxiliary verb** (avoir or être) conjugated in the present
+2.  **The past participle** of the main verb
 
-The general structure is:  
+The general structure is:
 
 **subject + auxiliary (avoir/être) + past participle**
 
 ##### 1. The auxiliary "avoir"
 
-In most cases, **avoir** is used as the auxiliary.  
-Examples:  
-- J’ai mangé. (I ate.)
-- Tu as fini. (You finished.)
-- Nous avons pris. (We took.)
+In most cases, **avoir** is used as the auxiliary.\
+Examples:\
+- J’ai mangé. (I ate.) - Tu as fini. (You finished.) - Nous avons pris. (We took.)
 
 ##### 2. The auxiliary "être"
 
-**Être** is used as the auxiliary with:
-- 16 verbs of movement or change of state (often called "la maison d’être"), for example: aller (to go), venir (to come), arriver (to arrive), partir (to leave), entrer (to enter), sortir (to go out), monter (to go up), descendre (to go down), naître (to be born), mourir (to die), rester (to stay), retourner (to return), tomber (to fall), passer (to pass), revenir (to come back), devenir (to become), rentrer (to come back in).
-- All **reflexive verbs** (se laver, s’habiller, se lever, etc.), that is, when the action is done to oneself.
+**Être** is used as the auxiliary with: - 16 verbs of movement or change of state (often called "la maison d’être"), for example: aller (to go), venir (to come), arriver (to arrive), partir (to leave), entrer (to enter), sortir (to go out), monter (to go up), descendre (to go down), naître (to be born), mourir (to die), rester (to stay), retourner (to return), tomber (to fall), passer (to pass), revenir (to come back), devenir (to become), rentrer (to come back in). - All **reflexive verbs** (se laver, s’habiller, se lever, etc.), that is, when the action is done to oneself.
 
-Examples:  
-- Elle est allée au marché. (She went to the market.)
-- Nous sommes partis tôt. (We left early.)
-- Je me suis levé(e) à 7h. (I got up at 7am.)
+Examples:\
+- Elle est allée au marché. (She went to the market.) - Nous sommes partis tôt. (We left early.) - Je me suis levé(e) à 7h. (I got up at 7am.)
 
 **Note:** With the auxiliary "être", the past participle agrees in gender and number with the subject.
 
@@ -50,22 +43,31 @@ Examples:
 
 #### 1. Complete with the correct auxiliary (avoir or être) and the past participle:
 
-1. Je ________ (manger) une pomme. <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'ai mangé')"><span></span>
-2. Elle ________ (aller) à l’école. <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'est allée')"><span></span>
-3. Nous ________ (finir) nos devoirs. <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'avons fini')"><span></span>
-4. Ils ________ (venir) en retard. <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'sont venus')"><span></span>
-5. Tu ________ (se lever) tôt. <input type="text" placeholder="Answer" oninput="checkAnswer(this, 't’es levé')"><span></span>
+1.  Je \_\_\_\_\_\_\_\_ (manger) une pomme. <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'ai mangé')">
+2.  Elle \_\_\_\_\_\_\_\_ (aller) à l’école. <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'est allée')">
+3.  Nous \_\_\_\_\_\_\_\_ (finir) nos devoirs. <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'avons fini')">
+4.  Ils \_\_\_\_\_\_\_\_ (venir) en retard. <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'sont venus')">
+5.  Tu \_\_\_\_\_\_\_\_ (se lever) tôt. <input type="text" placeholder="Answer" oninput="checkAnswer(this, 't’es levé')">
 
 #### 2. Put the following sentences in the passé composé:
 
-1. Je (prendre) le bus. <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'ai pris le bus')"><span></span>
-2. Nous (arriver) à Paris. <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'sommes arrivés à Paris')"><span></span>
-3. Elle (se laver). <input type="text" placeholder="Answer" oninput="checkAnswer(this, 's’est lavée')"><span></span>
-4. Vous (faire) vos devoirs. <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'avez fait vos devoirs')"><span></span>
-5. Ils (tomber) dans la rue. <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'sont tombés dans la rue')"><span></span>
+1.  Je (prendre) le bus. <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'ai pris le bus')">
+2.  Nous (arriver) à Paris. <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'sommes arrivés à Paris')">
+3.  Elle (se laver). <input type="text" placeholder="Answer" oninput="checkAnswer(this, 's’est lavée')">
+4.  Vous (faire) vos devoirs. <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'avez fait vos devoirs')">
+5.  Ils (tomber) dans la rue. <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'sont tombés dans la rue')">
 
-<button onclick="showAnswers()">Show answers</button>
-<button onclick="refreshPage()">Try again</button>
+<button onclick="showAnswers()">
+
+Show answers
+
+</button>
+
+<button onclick="refreshPage()">
+
+Try again
+
+</button>
 
 ------------------------------------------------------------------------
 
@@ -73,9 +75,7 @@ Examples:
 
 Write a short paragraph (3-5 sentences) explaining how and when to use the passé composé and imparatif in French. Use your own words and, if possible, give an example.
 
-
-::: callout-note
-
+:::: callout-note
 **Share your sentences here:**\
 
 ::: {style="width:100%;padding:1em;border:2px solid #0078D4;border-radius:8px;background:#f5faff;"}
@@ -90,47 +90,34 @@ Write a short paragraph (3-5 sentences) explaining how and when to use the pass�
 </li>
 
 </ul>
-
 :::
+::::
+:::::
 
-:::
-
-:::
-
-
-::: {.content-visible when-profile="french"}
-
+::::: {.content-visible when-profile="french"}
 ### Comprendre le temps "Passé Composé"
 
 Le **passé composé** est un temps du passé utilisé pour exprimer une action achevée, ponctuelle ou une série d’actions dans le passé.
 
 #### Formation
 
-Le passé composé se forme avec deux éléments :
-1. **L’auxiliaire** (avoir ou être) conjugué au présent
-2. **Le participe passé** du verbe principal
+Le passé composé se forme avec deux éléments : 1. **L’auxiliaire** (avoir ou être) conjugué au présent 2. **Le participe passé** du verbe principal
 
-La structure générale est donc :  
+La structure générale est donc :\
 **sujet + auxiliaire (avoir/être) + participe passé**
 
 ##### 1. L’auxiliaire « avoir »
 
-Dans la plupart des cas, on utilise **avoir** comme auxiliaire.  
-Exemples :  
-- J’ai mangé.
-- Tu as fini.
-- Nous avons pris.
+Dans la plupart des cas, on utilise **avoir** comme auxiliaire.\
+Exemples :\
+- J’ai mangé. - Tu as fini. - Nous avons pris.
 
 ##### 2. L’auxiliaire « être »
 
-On utilise **être** comme auxiliaire avec :
-- 16 verbes de mouvement ou de changement d’état (souvent appelés « la maison d’être »), par exemple : aller, venir, arriver, partir, entrer, sortir, monter, descendre, naître, mourir, rester, retourner, tomber, passer, revenir, devenir, rentrer.
-- Tous les **verbes pronominaux** (se laver, s’habiller, se lever, etc.), c’est-à-dire quand l’action est faite sur soi-même.
+On utilise **être** comme auxiliaire avec : - 16 verbes de mouvement ou de changement d’état (souvent appelés « la maison d’être »), par exemple : aller, venir, arriver, partir, entrer, sortir, monter, descendre, naître, mourir, rester, retourner, tomber, passer, revenir, devenir, rentrer. - Tous les **verbes pronominaux** (se laver, s’habiller, se lever, etc.), c’est-à-dire quand l’action est faite sur soi-même.
 
-Exemples :  
-- Elle est allée au marché.
-- Nous sommes partis tôt.
-- Je me suis levé(e) à 7h.
+Exemples :\
+- Elle est allée au marché. - Nous sommes partis tôt. - Je me suis levé(e) à 7h.
 
 **Attention :** Avec l’auxiliaire « être », le participe passé s’accorde en genre et en nombre avec le sujet.
 
@@ -140,22 +127,31 @@ Exemples :
 
 #### 1. Complétez avec l’auxiliaire correct (avoir ou être) et le participe passé :
 
-1. Je ________ (manger) une pomme. <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'ai mangé')"><span></span>
-2. Elle ________ (aller) à l’école. <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'est allée')"><span></span>
-3. Nous ________ (finir) nos devoirs. <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'avons fini')"><span></span>
-4. Ils ________ (venir) en retard. <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'sont venus')"><span></span>
-5. Tu ________ (se lever) tôt. <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 't’es levé')"><span></span>
+1.  Je \_\_\_\_\_\_\_\_ (manger) une pomme. <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'ai mangé')">
+2.  Elle \_\_\_\_\_\_\_\_ (aller) à l’école. <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'est allée')">
+3.  Nous \_\_\_\_\_\_\_\_ (finir) nos devoirs. <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'avons fini')">
+4.  Ils \_\_\_\_\_\_\_\_ (venir) en retard. <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'sont venus')">
+5.  Tu \_\_\_\_\_\_\_\_ (se lever) tôt. <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 't’es levé')">
 
 #### 2. Mettez les phrases suivantes au passé composé :
 
-1. Je (prendre) le bus. <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'ai pris le bus')"><span></span>
-2. Nous (arriver) à Paris. <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'sommes arrivés à Paris')"><span></span>
-3. Elle (se laver). <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 's’est lavée')"><span></span>
-4. Vous (faire) vos devoirs. <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'avez fait vos devoirs')"><span></span>
-5. Ils (tomber) dans la rue. <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'sont tombés dans la rue')"><span></span>
+1.  Je (prendre) le bus. <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'ai pris le bus')">
+2.  Nous (arriver) à Paris. <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'sommes arrivés à Paris')">
+3.  Elle (se laver). <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 's’est lavée')">
+4.  Vous (faire) vos devoirs. <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'avez fait vos devoirs')">
+5.  Ils (tomber) dans la rue. <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'sont tombés dans la rue')">
 
-<button onclick="showAnswers()">Afficher les réponses</button>
-<button onclick="refreshPage()">Réessayer</button>
+<button onclick="showAnswers()">
+
+Afficher les réponses
+
+</button>
+
+<button onclick="refreshPage()">
+
+Réessayer
+
+</button>
 
 ------------------------------------------------------------------------
 
@@ -163,8 +159,7 @@ Exemples :
 
 Écrivez un court paragraphe (3-5 phrases) expliquant comment et quand utiliser le passé composé en français. Utilisez vos propres mots et, si possible, donnez un exemple.
 
-::: callout-note
-
+:::: callout-note
 **Partagez vos phrases ici :**\
 
 ::: {style="width:100%;padding:1em;border:2px solid #0078D4;border-radius:8px;background:#f5faff;"}
@@ -180,8 +175,7 @@ Exemples :
 
 </ul>
 
-
-
+```{=html}
 <script>
 function checkAnswer(input, correctAnswer) {
     const span = input.nextElementSibling;
@@ -208,9 +202,7 @@ function refreshPage() {
     location.reload();
 }
 </script>
-
+```
 :::
-
-:::
-
-:::
+::::
+:::::

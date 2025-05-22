@@ -6,120 +6,121 @@ categories: [B1, grammar, subjunctive, exercises]
 image: "subjonctif.png"
 ---
 
-::: {.content-visible when-profile="english"}
-
+::::: {.content-visible when-profile="english"}
 ### Understanding the "Subjunctive" Mood
 
 The **subjunctive** (le subjonctif) is a verb mood used to express doubt, emotion, necessity, possibility, will, or judgment. It is not a tense, but a mood, and can be used in the present, past, and (rarely) future.
 
 #### When to Use the Subjunctive
 
-- After expressions of necessity, doubt, emotion, desire, or possibility.
-- After certain conjunctions (e.g., *bien que*, *pour que*, *afin que*).
-- In dependent clauses introduced by *que* when the main clause expresses subjectivity.
+-   After expressions of necessity, doubt, emotion, desire, or possibility.
+-   After certain conjunctions (e.g., *bien que*, *pour que*, *afin que*).
+-   In dependent clauses introduced by *que* when the main clause expresses subjectivity.
 
----
+------------------------------------------------------------------------
 
 ### How to Form the Subjunctive
 
 #### 1. Present Subjunctive (Subjonctif Présent)
 
-- Take the third person plural (ils/elles) form of the present indicative, remove the -ent, and add the endings: **-e, -es, -e, -ions, -iez, -ent**.
+-   Take the third person plural (ils/elles) form of the present indicative, remove the -ent, and add the endings: **-e, -es, -e, -ions, -iez, -ent**.
 
-**Examples:**
-- *parler* → que je parle, que tu parles, qu’il/elle parle, que nous parlions, que vous parliez, qu’ils/elles parlent
-- *finir* → que je finisse, que tu finisses, qu’il/elle finisse, que nous finissions, que vous finissiez, qu’ils/elles finissent
-- *prendre* → que je prenne, que tu prennes, qu’il/elle prenne, que nous prenions, que vous preniez, qu’ils/elles prennent
+**Examples:** - *parler* → que je parle, que tu parles, qu’il/elle parle, que nous parlions, que vous parliez, qu’ils/elles parlent - *finir* → que je finisse, que tu finisses, qu’il/elle finisse, que nous finissions, que vous finissiez, qu’ils/elles finissent - *prendre* → que je prenne, que tu prennes, qu’il/elle prenne, que nous prenions, que vous preniez, qu’ils/elles prennent
 
 #### 2. Past Subjunctive (Subjonctif Passé)
 
-- Use the present subjunctive of *avoir* or *être* + past participle.
+-   Use the present subjunctive of *avoir* or *être* + past participle.
 
-**Examples:**
-- *que j’aie parlé* (that I spoke)
-- *que tu sois allé(e)* (that you went)
-- *qu’il ait fini* (that he finished)
+**Examples:** - *que j’aie parlé* (that I spoke) - *que tu sois allé(e)* (that you went) - *qu’il ait fini* (that he finished)
 
 #### 3. Future Subjunctive (Subjonctif Futur)
 
-- The future subjunctive is extremely rare in modern French and is generally replaced by the present or past subjunctive. In literary or very formal contexts, you may see forms like *qu’il ait parlé* to refer to a future action after a conjunction.
+-   The future subjunctive is extremely rare in modern French and is generally replaced by the present or past subjunctive. In literary or very formal contexts, you may see forms like *qu’il ait parlé* to refer to a future action after a conjunction.
 
----
+------------------------------------------------------------------------
 
 ### Examples of Usage
 
-- Il faut que tu **fasses** tes devoirs. (You must do your homework.)
-- Je doute qu’il **vienne** ce soir. (I doubt he is coming tonight.)
-- Bien que nous **soyons** fatigués, nous continuons. (Although we are tired, we continue.)
-- Je veux que tu **aies fini** avant midi. (I want you to have finished before noon.)
+-   Il faut que tu **fasses** tes devoirs. (You must do your homework.)
+-   Je doute qu’il **vienne** ce soir. (I doubt he is coming tonight.)
+-   Bien que nous **soyons** fatigués, nous continuons. (Although we are tired, we continue.)
+-   Je veux que tu **aies fini** avant midi. (I want you to have finished before noon.)
 
----
+------------------------------------------------------------------------
 
 ### Exercises
 
 #### 1. Conjugate the following verbs in the present subjunctive (je form):
 
-1. parler → <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'parle')"><span></span>
-2. finir → <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'finisse')"><span></span>
-3. prendre → <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'prenne')"><span></span>
-4. aller → <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'aille')"><span></span>
-5. avoir → <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'aie')"><span></span>
-6. faire → <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'fasse')"><span></span>
-7. pouvoir → <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'puisse')"><span></span>
-8. savoir → <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'sache')"><span></span>
-9. venir → <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'vienne')"><span></span>
-10. voir → <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'voie')"><span></span>
+1.  parler → <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'parle')">
+2.  finir → <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'finisse')">
+3.  prendre → <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'prenne')">
+4.  aller → <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'aille')">
+5.  avoir → <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'aie')">
+6.  faire → <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'fasse')">
+7.  pouvoir → <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'puisse')">
+8.  savoir → <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'sache')">
+9.  venir → <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'vienne')">
+10. voir → <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'voie')">
 
 #### 2. Complete the sentences with the correct present subjunctive form:
 
-1. Il faut que tu (venir) __________. <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'viennes')"><span></span>
-2. Je veux que nous (être) __________ à l’heure. <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'soyons')"><span></span>
-3. Bien qu’il (faire) __________ froid, il sort. <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'fasse')"><span></span>
-4. Je doute qu’elle (voir) __________ le film. <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'voie')"><span></span>
-5. Il est possible que vous (pouvoir) __________ venir. <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'puissiez')"><span></span>
-6. Il faut que j’ (avoir) __________ du courage. <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'aie')"><span></span>
-7. Je souhaite qu’il (savoir) __________ la vérité. <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'sache')"><span></span>
-8. Il est important que tu (prendre) __________ soin de toi. <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'prennes')"><span></span>
-9. Bien que nous (aller) __________ vite, nous sommes en retard. <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'allions')"><span></span>
-10. Je crains qu’ils ne (finir) __________ pas à temps. <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'finissent')"><span></span>
+1.  Il faut que tu (venir) \_\_\_\_\_\_\_\_\_\_. <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'viennes')">
+2.  Je veux que nous (être) \_\_\_\_\_\_\_\_\_\_ à l’heure. <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'soyons')">
+3.  Bien qu’il (faire) \_\_\_\_\_\_\_\_\_\_ froid, il sort. <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'fasse')">
+4.  Je doute qu’elle (voir) \_\_\_\_\_\_\_\_\_\_ le film. <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'voie')">
+5.  Il est possible que vous (pouvoir) \_\_\_\_\_\_\_\_\_\_ venir. <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'puissiez')">
+6.  Il faut que j’ (avoir) \_\_\_\_\_\_\_\_\_\_ du courage. <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'aie')">
+7.  Je souhaite qu’il (savoir) \_\_\_\_\_\_\_\_\_\_ la vérité. <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'sache')">
+8.  Il est important que tu (prendre) \_\_\_\_\_\_\_\_\_\_ soin de toi. <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'prennes')">
+9.  Bien que nous (aller) \_\_\_\_\_\_\_\_\_\_ vite, nous sommes en retard. <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'allions')">
+10. Je crains qu’ils ne (finir) \_\_\_\_\_\_\_\_\_\_ pas à temps. <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'finissent')">
 
 #### 3. Complete with the correct past subjunctive form:
 
-1. Je suis content que tu (finir) __________ à temps. <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'aies fini')"><span></span>
-2. Il est possible qu’ils (partir) __________ avant midi. <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'soient partis')"><span></span>
-3. Je doute qu’elle (faire) __________ ses devoirs. <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'ait fait')"><span></span>
-4. Nous sommes heureux que vous (venir) __________. <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'soyez venus')"><span></span>
-5. Il est dommage que j’ (oublier) __________ le livre. <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'aie oublié')"><span></span>
-6. Je regrette que tu (ne pas voir) __________ ce spectacle. <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'aies pas vu')"><span></span>
-7. Il est surprenant qu’il (avoir) __________ autant de succès. <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'ait eu')"><span></span>
-8. Je doute que nous (pouvoir) __________ finir à l’heure. <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'ayons pu')"><span></span>
-9. Il est heureux que vous (savoir) __________ la réponse. <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'ayez su')"><span></span>
-10. Je crains qu’ils (prendre) __________ la mauvaise route. <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'aient pris')"><span></span>
+1.  Je suis content que tu (finir) \_\_\_\_\_\_\_\_\_\_ à temps. <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'aies fini')">
+2.  Il est possible qu’ils (partir) \_\_\_\_\_\_\_\_\_\_ avant midi. <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'soient partis')">
+3.  Je doute qu’elle (faire) \_\_\_\_\_\_\_\_\_\_ ses devoirs. <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'ait fait')">
+4.  Nous sommes heureux que vous (venir) \_\_\_\_\_\_\_\_\_\_. <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'soyez venus')">
+5.  Il est dommage que j’ (oublier) \_\_\_\_\_\_\_\_\_\_ le livre. <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'aie oublié')">
+6.  Je regrette que tu (ne pas voir) \_\_\_\_\_\_\_\_\_\_ ce spectacle. <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'aies pas vu')">
+7.  Il est surprenant qu’il (avoir) \_\_\_\_\_\_\_\_\_\_ autant de succès. <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'ait eu')">
+8.  Je doute que nous (pouvoir) \_\_\_\_\_\_\_\_\_\_ finir à l’heure. <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'ayons pu')">
+9.  Il est heureux que vous (savoir) \_\_\_\_\_\_\_\_\_\_ la réponse. <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'ayez su')">
+10. Je crains qu’ils (prendre) \_\_\_\_\_\_\_\_\_\_ la mauvaise route. <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'aient pris')">
 
 #### 4. Translate into French using the subjunctive (present or past):
 
-1. I want you to come. <input type="text" placeholder="French answer" oninput="checkAnswer(this, 'Je veux que tu viennes')"><span></span>
-2. I doubt that he finished. <input type="text" placeholder="French answer" oninput="checkAnswer(this, 'Je doute qu’il ait fini')"><span></span>
-3. Although we are tired, we continue. <input type="text" placeholder="French answer" oninput="checkAnswer(this, 'Bien que nous soyons fatigués, nous continuons')"><span></span>
-4. It is possible that they left. <input type="text" placeholder="French answer" oninput="checkAnswer(this, 'Il est possible qu’ils soient partis')"><span></span>
-5. I am happy that you have come. <input type="text" placeholder="French answer" oninput="checkAnswer(this, 'Je suis content que tu sois venu')"><span></span>
-6. I am afraid that she did not see the message. <input type="text" placeholder="French answer" oninput="checkAnswer(this, 'J’ai peur qu’elle n’ait pas vu le message')"><span></span>
-7. I want us to finish early. <input type="text" placeholder="French answer" oninput="checkAnswer(this, 'Je veux que nous finissions tôt')"><span></span>
-8. It is necessary that you be on time. <input type="text" placeholder="French answer" oninput="checkAnswer(this, 'Il faut que tu sois à l’heure')"><span></span>
-9. I doubt that they understood. <input type="text" placeholder="French answer" oninput="checkAnswer(this, 'Je doute qu’ils aient compris')"><span></span>
-10. Although he is sick, he works. <input type="text" placeholder="French answer" oninput="checkAnswer(this, 'Bien qu’il soit malade, il travaille')"><span></span>
+1.  I want you to come. <input type="text" placeholder="French answer" oninput="checkAnswer(this, 'Je veux que tu viennes')">
+2.  I doubt that he finished. <input type="text" placeholder="French answer" oninput="checkAnswer(this, 'Je doute qu’il ait fini')">
+3.  Although we are tired, we continue. <input type="text" placeholder="French answer" oninput="checkAnswer(this, 'Bien que nous soyons fatigués, nous continuons')">
+4.  It is possible that they left. <input type="text" placeholder="French answer" oninput="checkAnswer(this, 'Il est possible qu’ils soient partis')">
+5.  I am happy that you have come. <input type="text" placeholder="French answer" oninput="checkAnswer(this, 'Je suis content que tu sois venu')">
+6.  I am afraid that she did not see the message. <input type="text" placeholder="French answer" oninput="checkAnswer(this, 'J’ai peur qu’elle n’ait pas vu le message')">
+7.  I want us to finish early. <input type="text" placeholder="French answer" oninput="checkAnswer(this, 'Je veux que nous finissions tôt')">
+8.  It is necessary that you be on time. <input type="text" placeholder="French answer" oninput="checkAnswer(this, 'Il faut que tu sois à l’heure')">
+9.  I doubt that they understood. <input type="text" placeholder="French answer" oninput="checkAnswer(this, 'Je doute qu’ils aient compris')">
+10. Although he is sick, he works. <input type="text" placeholder="French answer" oninput="checkAnswer(this, 'Bien qu’il soit malade, il travaille')">
 
-<button onclick="showAnswers()">Show Answers</button>
-<button onclick="refreshPage()">Try Again</button>
+<button onclick="showAnswers()">
 
----
+Show Answers
+
+</button>
+
+<button onclick="refreshPage()">
+
+Try Again
+
+</button>
+
+------------------------------------------------------------------------
 
 ### To Consolidate Your Learning
 
 Write a short paragraph (3-5 sentences) explaining how and when to use the subjunctive in French. Use your own words and, if possible, give an example for the present and past subjunctive.
 
-::: callout-note
-
+:::: callout-note
 **Write your sentences here:**\
 
 ::: {style="width:100%;padding:1em;border:2px solid #0078D4;border-radius:8px;background:#f5faff;"}
@@ -135,6 +136,7 @@ Write a short paragraph (3-5 sentences) explaining how and when to use the subju
 
 </ul>
 
+```{=html}
 <script>
 function checkAnswer(input, correctAnswer) {
     const span = input.nextElementSibling;
@@ -161,15 +163,12 @@ function refreshPage() {
     location.reload();
 }
 </script>
-
+```
 :::
+::::
+:::::
 
-:::
-
-:::
-
-::: {.content-visible when-profile="french"}
-
+::::: {.content-visible when-profile="french"}
 ### Comprendre le temps "Futur Simple"
 
 ### Comprendre le mode subjonctif
@@ -178,112 +177,114 @@ Le **subjonctif** est un mode verbal utilisé pour exprimer le doute, l’émoti
 
 #### Quand utiliser le subjonctif
 
-- Après des expressions de nécessité, de doute, d’émotion, de désir ou de possibilité.
-- Après certaines conjonctions (ex. : *bien que*, *pour que*, *afin que*).
-- Dans les propositions subordonnées introduites par *que* lorsque la principale exprime la subjectivité.
+-   Après des expressions de nécessité, de doute, d’émotion, de désir ou de possibilité.
+-   Après certaines conjonctions (ex. : *bien que*, *pour que*, *afin que*).
+-   Dans les propositions subordonnées introduites par *que* lorsque la principale exprime la subjectivité.
 
----
+------------------------------------------------------------------------
 
 ### Comment former le subjonctif
 
 #### 1. Subjonctif présent
 
-- Prenez la forme « ils/elles » du présent de l’indicatif, retirez le -ent, puis ajoutez les terminaisons : **-e, -es, -e, -ions, -iez, -ent**.
+-   Prenez la forme « ils/elles » du présent de l’indicatif, retirez le -ent, puis ajoutez les terminaisons : **-e, -es, -e, -ions, -iez, -ent**.
 
-**Exemples :**
-- *parler* → que je parle, que tu parles, qu’il/elle parle, que nous parlions, que vous parliez, qu’ils/elles parlent
-- *finir* → que je finisse, que tu finisses, qu’il/elle finisse, que nous finissions, que vous finissiez, qu’ils/elles finissent
-- *prendre* → que je prenne, que tu prennes, qu’il/elle prenne, que nous prenions, que vous preniez, qu’ils/elles prennent
+**Exemples :** - *parler* → que je parle, que tu parles, qu’il/elle parle, que nous parlions, que vous parliez, qu’ils/elles parlent - *finir* → que je finisse, que tu finisses, qu’il/elle finisse, que nous finissions, que vous finissiez, qu’ils/elles finissent - *prendre* → que je prenne, que tu prennes, qu’il/elle prenne, que nous prenions, que vous preniez, qu’ils/elles prennent
 
 #### 2. Subjonctif passé
 
-- Utilisez le subjonctif présent de *avoir* ou *être* + le participe passé.
+-   Utilisez le subjonctif présent de *avoir* ou *être* + le participe passé.
 
-**Exemples :**
-- *que j’aie parlé*
-- *que tu sois allé(e)*
-- *qu’il ait fini*
+**Exemples :** - *que j’aie parlé* - *que tu sois allé(e)* - *qu’il ait fini*
 
 #### 3. Subjonctif futur
 
-- Le subjonctif futur est extrêmement rare en français moderne et est généralement remplacé par le subjonctif présent ou passé. Dans des contextes littéraires ou très formels, on peut voir des formes comme *qu’il ait parlé* pour une action future après une conjonction.
+-   Le subjonctif futur est extrêmement rare en français moderne et est généralement remplacé par le subjonctif présent ou passé. Dans des contextes littéraires ou très formels, on peut voir des formes comme *qu’il ait parlé* pour une action future après une conjonction.
 
----
+------------------------------------------------------------------------
 
 ### Exemples d’utilisation
 
-- Il faut que tu **fasses** tes devoirs.
-- Je doute qu’il **vienne** ce soir.
-- Bien que nous **soyons** fatigués, nous continuons.
-- Je veux que tu **aies fini** avant midi.
+-   Il faut que tu **fasses** tes devoirs.
+-   Je doute qu’il **vienne** ce soir.
+-   Bien que nous **soyons** fatigués, nous continuons.
+-   Je veux que tu **aies fini** avant midi.
 
----
+------------------------------------------------------------------------
 
 ### Exercices
 
 #### 1. Conjuguez les verbes suivants au subjonctif présent (je) :
 
-1. parler → <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'parle')"><span></span>
-2. finir → <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'finisse')"><span></span>
-3. prendre → <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'prenne')"><span></span>
-4. aller → <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'aille')"><span></span>
-5. avoir → <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'aie')"><span></span>
-6. faire → <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'fasse')"><span></span>
-7. pouvoir → <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'puisse')"><span></span>
-8. savoir → <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'sache')"><span></span>
-9. venir → <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'vienne')"><span></span>
-10. voir → <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'voie')"><span></span>
+1.  parler → <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'parle')">
+2.  finir → <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'finisse')">
+3.  prendre → <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'prenne')">
+4.  aller → <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'aille')">
+5.  avoir → <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'aie')">
+6.  faire → <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'fasse')">
+7.  pouvoir → <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'puisse')">
+8.  savoir → <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'sache')">
+9.  venir → <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'vienne')">
+10. voir → <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'voie')">
 
 #### 2. Complétez les phrases avec la forme correcte du subjonctif présent :
 
-1. Il faut que tu (venir) __________. <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'viennes')"><span></span>
-2. Je veux que nous (être) __________ à l’heure. <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'soyons')"><span></span>
-3. Bien qu’il (faire) __________ froid, il sort. <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'fasse')"><span></span>
-4. Je doute qu’elle (voir) __________ le film. <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'voie')"><span></span>
-5. Il est possible que vous (pouvoir) __________ venir. <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'puissiez')"><span></span>
-6. Il faut que j’ (avoir) __________ du courage. <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'aie')"><span></span>
-7. Je souhaite qu’il (savoir) __________ la vérité. <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'sache')"><span></span>
-8. Il est important que tu (prendre) __________ soin de toi. <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'prennes')"><span></span>
-9. Bien que nous (aller) __________ vite, nous sommes en retard. <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'allions')"><span></span>
-10. Je crains qu’ils ne (finir) __________ pas à temps. <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'finissent')"><span></span>
+1.  Il faut que tu (venir) \_\_\_\_\_\_\_\_\_\_. <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'viennes')">
+2.  Je veux que nous (être) \_\_\_\_\_\_\_\_\_\_ à l’heure. <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'soyons')">
+3.  Bien qu’il (faire) \_\_\_\_\_\_\_\_\_\_ froid, il sort. <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'fasse')">
+4.  Je doute qu’elle (voir) \_\_\_\_\_\_\_\_\_\_ le film. <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'voie')">
+5.  Il est possible que vous (pouvoir) \_\_\_\_\_\_\_\_\_\_ venir. <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'puissiez')">
+6.  Il faut que j’ (avoir) \_\_\_\_\_\_\_\_\_\_ du courage. <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'aie')">
+7.  Je souhaite qu’il (savoir) \_\_\_\_\_\_\_\_\_\_ la vérité. <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'sache')">
+8.  Il est important que tu (prendre) \_\_\_\_\_\_\_\_\_\_ soin de toi. <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'prennes')">
+9.  Bien que nous (aller) \_\_\_\_\_\_\_\_\_\_ vite, nous sommes en retard. <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'allions')">
+10. Je crains qu’ils ne (finir) \_\_\_\_\_\_\_\_\_\_ pas à temps. <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'finissent')">
 
 #### 3. Complétez avec la forme correcte du subjonctif passé :
 
-1. Je suis content que tu (finir) __________ à temps. <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'aies fini')"><span></span>
-2. Il est possible qu’ils (partir) __________ avant midi. <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'soient partis')"><span></span>
-3. Je doute qu’elle (faire) __________ ses devoirs. <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'ait fait')"><span></span>
-4. Nous sommes heureux que vous (venir) __________. <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'soyez venus')"><span></span>
-5. Il est dommage que j’ (oublier) __________ le livre. <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'aie oublié')"><span></span>
-6. Je regrette que tu (ne pas voir) __________ ce spectacle. <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'aies pas vu')"><span></span>
-7. Il est surprenant qu’il (avoir) __________ autant de succès. <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'ait eu')"><span></span>
-8. Je doute que nous (pouvoir) __________ finir à l’heure. <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'ayons pu')"><span></span>
-9. Il est heureux que vous (savoir) __________ la réponse. <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'ayez su')"><span></span>
-10. Je crains qu’ils (prendre) __________ la mauvaise route. <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'aient pris')"><span></span>
+1.  Je suis content que tu (finir) \_\_\_\_\_\_\_\_\_\_ à temps. <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'aies fini')">
+2.  Il est possible qu’ils (partir) \_\_\_\_\_\_\_\_\_\_ avant midi. <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'soient partis')">
+3.  Je doute qu’elle (faire) \_\_\_\_\_\_\_\_\_\_ ses devoirs. <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'ait fait')">
+4.  Nous sommes heureux que vous (venir) \_\_\_\_\_\_\_\_\_\_. <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'soyez venus')">
+5.  Il est dommage que j’ (oublier) \_\_\_\_\_\_\_\_\_\_ le livre. <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'aie oublié')">
+6.  Je regrette que tu (ne pas voir) \_\_\_\_\_\_\_\_\_\_ ce spectacle. <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'aies pas vu')">
+7.  Il est surprenant qu’il (avoir) \_\_\_\_\_\_\_\_\_\_ autant de succès. <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'ait eu')">
+8.  Je doute que nous (pouvoir) \_\_\_\_\_\_\_\_\_\_ finir à l’heure. <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'ayons pu')">
+9.  Il est heureux que vous (savoir) \_\_\_\_\_\_\_\_\_\_ la réponse. <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'ayez su')">
+10. Je crains qu’ils (prendre) \_\_\_\_\_\_\_\_\_\_ la mauvaise route. <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'aient pris')">
 
 #### 4. Traduisez en français en utilisant le subjonctif (présent ou passé) :
 
-1. Je veux que tu viennes. <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'Je veux que tu viennes')"><span></span>
-2. Je doute qu’il ait fini. <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'Je doute qu’il ait fini')"><span></span>
-3. Bien que nous soyons fatigués, nous continuons. <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'Bien que nous soyons fatigués, nous continuons')"><span></span>
-4. Il est possible qu’ils soient partis. <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'Il est possible qu’ils soient partis')"><span></span>
-5. Je suis content que tu sois venu. <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'Je suis content que tu sois venu')"><span></span>
-6. J’ai peur qu’elle n’ait pas vu le message. <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'J’ai peur qu’elle n’ait pas vu le message')"><span></span>
-7. Je veux que nous finissions tôt. <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'Je veux que nous finissions tôt')"><span></span>
-8. Il faut que tu sois à l’heure. <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'Il faut que tu sois à l’heure')"><span></span>
-9. Je doute qu’ils aient compris. <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'Je doute qu’ils aient compris')"><span></span>
-10. Bien qu’il soit malade, il travaille. <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'Bien qu’il soit malade, il travaille')"><span></span>
+1.  Je veux que tu viennes. <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'Je veux que tu viennes')">
+2.  Je doute qu’il ait fini. <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'Je doute qu’il ait fini')">
+3.  Bien que nous soyons fatigués, nous continuons. <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'Bien que nous soyons fatigués, nous continuons')">
+4.  Il est possible qu’ils soient partis. <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'Il est possible qu’ils soient partis')">
+5.  Je suis content que tu sois venu. <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'Je suis content que tu sois venu')">
+6.  J’ai peur qu’elle n’ait pas vu le message. <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'J’ai peur qu’elle n’ait pas vu le message')">
+7.  Je veux que nous finissions tôt. <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'Je veux que nous finissions tôt')">
+8.  Il faut que tu sois à l’heure. <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'Il faut que tu sois à l’heure')">
+9.  Je doute qu’ils aient compris. <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'Je doute qu’ils aient compris')">
+10. Bien qu’il soit malade, il travaille. <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'Bien qu’il soit malade, il travaille')">
 
-<button onclick="showAnswers()">Afficher les réponses</button>
-<button onclick="refreshPage()">Réessayer</button>
+<button onclick="showAnswers()">
 
----
+Afficher les réponses
+
+</button>
+
+<button onclick="refreshPage()">
+
+Réessayer
+
+</button>
+
+------------------------------------------------------------------------
 
 ### Pour consolider vos connaissances
 
 Écrivez un court paragraphe (3 à 5 phrases) expliquant comment et quand utiliser le subjonctif en français. Utilisez vos propres mots et, si possible, donnez un exemple pour le subjonctif présent et passé.
 
-::: callout-note
-
+:::: callout-note
 **Écrivez vos phrases ici :**\
 
 ::: {style="width:100%;padding:1em;border:2px solid #0078D4;border-radius:8px;background:#f5faff;"}
@@ -299,6 +300,7 @@ Le **subjonctif** est un mode verbal utilisé pour exprimer le doute, l’émoti
 
 </ul>
 
+```{=html}
 <script>
 function checkAnswer(input, correctAnswer) {
     const span = input.nextElementSibling;
@@ -325,8 +327,7 @@ function refreshPage() {
     location.reload();
 }
 </script>
-
+```
 :::
-
-:::
-:::
+::::
+:::::

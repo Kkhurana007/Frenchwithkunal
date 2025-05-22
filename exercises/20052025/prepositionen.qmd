@@ -1,0 +1,381 @@
+---
+title: "The Preposition 'en' in French: Uses and Practice"
+author: "Kunal Khurana"
+date: "05-20-2025"
+categories: [B1, grammar, prepositions, en, exercises]
+image: "preposition-en.png"
+---
+
+::: {.content-visible when-profile="english"}
+### Understanding the Preposition **en** in French
+
+The preposition **en** is very common and has several important uses in French. It can indicate location, time, means, material, quantity, and is used in many idiomatic expressions. Here are its main uses:
+
+#### 1. Indicating Location or Place
+**en** is used with feminine countries, continents, and some regions to mean "in" or "to".
+- *Je vais en France.* (I am going to France)
+- *Elle habite en Europe.* (She lives in Europe)
+
+#### 2. Expressing Time or Duration
+**en** can indicate the length of time needed to do something, or when something happens.
+- *Il a fini en deux heures.* (He finished in two hours)
+- *En hiver, il fait froid.* (In winter, it is cold)
+
+#### 3. Expressing Means or Manner
+**en** can show how something is done or by what means.
+- *Voyager en train.* (To travel by train)
+- *Écrire en français.* (To write in French)
+
+#### 4. Indicating Material or Content
+**en** is used to specify what something is made of.
+- *Une robe en coton.* (A cotton dress)
+- *Un verre en plastique.* (A plastic glass)
+
+#### 5. Expressing Quantity or Replacement
+**en** can replace a noun introduced by "de" to avoid repetition.
+- *Tu veux du pain ? Oui, j’en veux.* (Do you want some bread? Yes, I want some.)
+
+#### 6. Idiomatic Expressions
+**en** appears in many fixed expressions.
+- *En avance* (early), *en retard* (late), *en forme* (in shape)
+
+------------------------------------------------------------------------
+
+### Exercises
+
+#### 1. Complete with **en** where necessary
+
+Type **en** in the blank if needed, or leave it blank if not.
+
+1. Je vais <input type="text" placeholder="" oninput="checkAnswer(this, 'en')"><span></span> Italie.
+2. Elle voyage <input type="text" placeholder="" oninput="checkAnswer(this, 'en')"><span></span> train.
+3. Il a fini <input type="text" placeholder="" oninput="checkAnswer(this, 'en')"><span></span> une heure.
+4. Nous sommes <input type="text" placeholder="" oninput="checkAnswer(this, 'en')"><span></span> hiver.
+5. Il porte une chemise <input type="text" placeholder="" oninput="checkAnswer(this, 'en')"><span></span> lin.
+6. J’<input type="text" placeholder="" oninput="checkAnswer(this, 'en')"><span></span> ai trois.
+7. Elle parle <input type="text" placeholder="" oninput="checkAnswer(this, 'en')"><span></span> anglais.
+8. Ils sont <input type="text" placeholder="" oninput="checkAnswer(this, 'en')"><span></span> forme aujourd’hui.
+9. Nous partons <input type="text" placeholder="" oninput="checkAnswer(this, 'en')"><span></span> août.
+10. Il travaille <input type="text" placeholder="" oninput="checkAnswer(this, 'en')"><span></span> silence.
+
+#### 2. Choose the correct use of **en**
+
+Select the correct answer for each sentence.
+
+<div>
+1. <b>Je vais en Italie</b><br>
+    <input type="radio" name="q1" id="q1a" onclick="checkRadioAnswer('q1', 'Location')"> Location
+    <input type="radio" name="q1" id="q1b" onclick="checkRadioAnswer('q1', 'Time')"> Time
+    <input type="radio" name="q1" id="q1c" onclick="checkRadioAnswer('q1', 'Means')"> Means
+    <input type="radio" name="q1" id="q1d" onclick="checkRadioAnswer('q1', 'Material')"> Material
+    <span id="q1-result"></span>
+</div>
+<div>
+2. <b>Voyager en train</b><br>
+    <input type="radio" name="q2" id="q2a" onclick="checkRadioAnswer('q2', 'Means')"> Location
+    <input type="radio" name="q2" id="q2b" onclick="checkRadioAnswer('q2', 'Means')"> Means
+    <input type="radio" name="q2" id="q2c" onclick="checkRadioAnswer('q2', 'Time')"> Time
+    <input type="radio" name="q2" id="q2d" onclick="checkRadioAnswer('q2', 'Material')"> Material
+    <span id="q2-result"></span>
+</div>
+<div>
+3. <b>Une robe en coton</b><br>
+    <input type="radio" name="q3" id="q3a" onclick="checkRadioAnswer('q3', 'Material')"> Material
+    <input type="radio" name="q3" id="q3b" onclick="checkRadioAnswer('q3', 'Means')"> Means
+    <input type="radio" name="q3" id="q3c" onclick="checkRadioAnswer('q3', 'Location')"> Location
+    <input type="radio" name="q3" id="q3d" onclick="checkRadioAnswer('q3', 'Time')"> Time
+    <span id="q3-result"></span>
+</div>
+<div>
+4. <b>Il a fini en une heure</b><br>
+    <input type="radio" name="q4" id="q4a" onclick="checkRadioAnswer('q4', 'Time')"> Time
+    <input type="radio" name="q4" id="q4b" onclick="checkRadioAnswer('q4', 'Means')"> Means
+    <input type="radio" name="q4" id="q4c" onclick="checkRadioAnswer('q4', 'Material')"> Material
+    <input type="radio" name="q4" id="q4d" onclick="checkRadioAnswer('q4', 'Location')"> Location
+    <span id="q4-result"></span>
+</div>
+<div>
+5. <b>J’en ai trois</b><br>
+    <input type="radio" name="q5" id="q5a" onclick="checkRadioAnswer('q5', 'Quantity/Replacement')"> Quantity/Replacement
+    <input type="radio" name="q5" id="q5b" onclick="checkRadioAnswer('q5', 'Means')"> Means
+    <input type="radio" name="q5" id="q5c" onclick="checkRadioAnswer('q5', 'Material')"> Material
+    <input type="radio" name="q5" id="q5d" onclick="checkRadioAnswer('q5', 'Location')"> Location
+    <span id="q5-result"></span>
+</div>
+<div>
+6. <b>Ils sont en forme</b><br>
+    <input type="radio" name="q6" id="q6a" onclick="checkRadioAnswer('q6', 'Expression')"> Expression
+    <input type="radio" name="q6" id="q6b" onclick="checkRadioAnswer('q6', 'Means')"> Means
+    <input type="radio" name="q6" id="q6c" onclick="checkRadioAnswer('q6', 'Material')"> Material
+    <input type="radio" name="q6" id="q6d" onclick="checkRadioAnswer('q6', 'Time')"> Time
+    <span id="q6-result"></span>
+</div>
+
+<script>
+const correctRadioAnswers = {
+    q1: "Location",
+    q2: "Means",
+    q3: "Material",
+    q4: "Time",
+    q5: "Quantity/Replacement",
+    q6: "Expression"
+};
+
+function checkRadioAnswer(q, correct) {
+    const radios = document.getElementsByName(q);
+    let selected = "";
+    radios.forEach(r => {
+        if (r.checked) {
+            selected = r.nextSibling.textContent.trim();
+        }
+    });
+    const result = document.getElementById(q + "-result");
+    if (selected === correct) {
+        result.textContent = "✓ Correct";
+        result.style.color = "green";
+    } else {
+        result.textContent = "";
+    }
+}
+</script>
+
+#### 3. Fill in the blanks with your own ideas (using **en**)
+
+1. Je pars <input type="text" placeholder="" oninput="checkAnswer(this, 'en')"><span></span> Espagne cet été.
+2. Elle travaille <input type="text" placeholder="" oninput="checkAnswer(this, 'en')"><span></span> silence.
+3. Il voyage <input type="text" placeholder="" oninput="checkAnswer(this, 'en')"><span></span> avion.
+4. Nous sommes <input type="text" placeholder="" oninput="checkAnswer(this, 'en')"><span></span> vacances.
+5. Il porte un pantalon <input type="text" placeholder="" oninput="checkAnswer(this, 'en')"><span></span> jean.
+6. J’<input type="text" placeholder="" oninput="checkAnswer(this, 'en')"><span></span> ai beaucoup.
+7. Elle lit <input type="text" placeholder="" oninput="checkAnswer(this, 'en')"><span></span> anglais.
+8. Ils arrivent <input type="text" placeholder="" oninput="checkAnswer(this, 'en')"><span></span> avance.
+
+------------------------------------------------------------------------
+
+<button onclick="showAnswers()">Show answers</button>
+
+<button onclick="refreshPage()">Try again</button>
+
+<script>
+function checkAnswer(input, correctAnswer) {
+     const span = input.nextElementSibling;
+     if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
+          span.textContent = "✓ Correct";
+          span.style.color = "green";
+     } else {
+          span.textContent = "";
+     }
+}
+
+function showAnswers() {
+     document.querySelectorAll('input[type="text"]').forEach(el => {
+          const correct = el.getAttribute('oninput')?.match(/'([^']+)'/)?.[1];
+          if (correct) {
+                const span = el.nextElementSibling;
+                span.textContent = `Réponse : ${correct}`;
+                span.style.color = "blue";
+          }
+     });
+}
+
+function refreshPage() {
+     location.reload();
+}
+</script>
+
+### To consolidate your learning
+
+Write a short paragraph (3-5 sentences) explaining what you have learned about the preposition **en** in French. Use your own words and, if possible, give an example.
+
+<textarea rows="5" style="width:100%;" placeholder="Write here what you have learned about 'en'..."></textarea>
+
+
+
+:::
+
+
+::: {.content-visible when-profile="french"}
+
+### Comprendre la préposition **en** en français
+
+La préposition **en** est très fréquente et a plusieurs emplois importants en français. Elle peut indiquer le lieu, le temps, le moyen, la matière, la quantité, et s’utilise dans de nombreuses expressions idiomatiques. Voici ses principaux usages :
+
+#### 1. Indiquer un lieu ou une destination
+**en** s’utilise avec les pays féminins, les continents et certaines régions pour dire « en » ou « à ».
+- *Je vais en France.* (Je me rends en France)
+- *Elle habite en Europe.* (Elle vit en Europe)
+
+#### 2. Exprimer le temps ou la durée
+**en** peut indiquer la durée nécessaire pour faire quelque chose ou le moment où cela se passe.
+- *Il a fini en deux heures.* (Il a terminé en deux heures)
+- *En hiver, il fait froid.* (Pendant l’hiver, il fait froid)
+
+#### 3. Exprimer le moyen ou la manière
+**en** indique comment ou par quel moyen on fait quelque chose.
+- *Voyager en train.* (Voyager par le train)
+- *Écrire en français.* (Écrire dans la langue française)
+
+#### 4. Indiquer la matière ou le contenu
+**en** précise de quoi est fait un objet.
+- *Une robe en coton.* (Une robe faite de coton)
+- *Un verre en plastique.* (Un verre fabriqué en plastique)
+
+#### 5. Exprimer la quantité ou le remplacement
+**en** peut remplacer un nom introduit par « de » pour éviter la répétition.
+- *Tu veux du pain ? Oui, j’en veux.* (Oui, je veux du pain)
+
+#### 6. Expressions idiomatiques
+**en** apparaît dans de nombreuses expressions fixes.
+- *En avance* (en avance), *en retard* (en retard), *en forme* (en forme)
+
+------------------------------------------------------------------------
+
+### Exercices
+
+#### 1. Complétez avec **en** si nécessaire
+
+Tapez **en** dans le blanc si besoin, ou laissez vide si ce n’est pas nécessaire.
+
+1. Je vais <input type="text" placeholder="" oninput="checkAnswer(this, 'en')"><span></span> Italie.
+2. Elle voyage <input type="text" placeholder="" oninput="checkAnswer(this, 'en')"><span></span> train.
+3. Il a fini <input type="text" placeholder="" oninput="checkAnswer(this, 'en')"><span></span> une heure.
+4. Nous sommes <input type="text" placeholder="" oninput="checkAnswer(this, 'en')"><span></span> hiver.
+5. Il porte une chemise <input type="text" placeholder="" oninput="checkAnswer(this, 'en')"><span></span> lin.
+6. J’<input type="text" placeholder="" oninput="checkAnswer(this, 'en')"><span></span> ai trois.
+7. Elle parle <input type="text" placeholder="" oninput="checkAnswer(this, 'en')"><span></span> anglais.
+8. Ils sont <input type="text" placeholder="" oninput="checkAnswer(this, 'en')"><span></span> forme aujourd’hui.
+9. Nous partons <input type="text" placeholder="" oninput="checkAnswer(this, 'en')"><span></span> août.
+10. Il travaille <input type="text" placeholder="" oninput="checkAnswer(this, 'en')"><span></span> silence.
+
+#### 2. Choisissez le bon emploi de **en**
+
+Sélectionnez la bonne réponse pour chaque phrase.
+
+<div>
+1. <b>Je vais en Italie</b><br>
+    <input type="radio" name="q1" id="q1a" onclick="checkRadioAnswer('q1', 'Lieu')"> Lieu
+    <input type="radio" name="q1" id="q1b" onclick="checkRadioAnswer('q1', 'Temps')"> Temps
+    <input type="radio" name="q1" id="q1c" onclick="checkRadioAnswer('q1', 'Moyen')"> Moyen
+    <input type="radio" name="q1" id="q1d" onclick="checkRadioAnswer('q1', 'Matière')"> Matière
+    <span id="q1-result"></span>
+</div>
+<div>
+2. <b>Voyager en train</b><br>
+    <input type="radio" name="q2" id="q2a" onclick="checkRadioAnswer('q2', 'Moyen')"> Moyen
+    <input type="radio" name="q2" id="q2b" onclick="checkRadioAnswer('q2', 'Lieu')"> Lieu
+    <input type="radio" name="q2" id="q2c" onclick="checkRadioAnswer('q2', 'Temps')"> Temps
+    <input type="radio" name="q2" id="q2d" onclick="checkRadioAnswer('q2', 'Matière')"> Matière
+    <span id="q2-result"></span>
+</div>
+<div>
+3. <b>Une robe en coton</b><br>
+    <input type="radio" name="q3" id="q3a" onclick="checkRadioAnswer('q3', 'Matière')"> Matière
+    <input type="radio" name="q3" id="q3b" onclick="checkRadioAnswer('q3', 'Moyen')"> Moyen
+    <input type="radio" name="q3" id="q3c" onclick="checkRadioAnswer('q3', 'Lieu')"> Lieu
+    <input type="radio" name="q3" id="q3d" onclick="checkRadioAnswer('q3', 'Temps')"> Temps
+    <span id="q3-result"></span>
+</div>
+<div>
+4. <b>Il a fini en une heure</b><br>
+    <input type="radio" name="q4" id="q4a" onclick="checkRadioAnswer('q4', 'Temps')"> Temps
+    <input type="radio" name="q4" id="q4b" onclick="checkRadioAnswer('q4', 'Moyen')"> Moyen
+    <input type="radio" name="q4" id="q4c" onclick="checkRadioAnswer('q4', 'Matière')"> Matière
+    <input type="radio" name="q4" id="q4d" onclick="checkRadioAnswer('q4', 'Lieu')"> Lieu
+    <span id="q4-result"></span>
+</div>
+<div>
+5. <b>J’en ai trois</b><br>
+    <input type="radio" name="q5" id="q5a" onclick="checkRadioAnswer('q5', 'Quantité/Remplacement')"> Quantité/Remplacement
+    <input type="radio" name="q5" id="q5b" onclick="checkRadioAnswer('q5', 'Moyen')"> Moyen
+    <input type="radio" name="q5" id="q5c" onclick="checkRadioAnswer('q5', 'Matière')"> Matière
+    <input type="radio" name="q5" id="q5d" onclick="checkRadioAnswer('q5', 'Lieu')"> Lieu
+    <span id="q5-result"></span>
+</div>
+<div>
+6. <b>Ils sont en forme</b><br>
+    <input type="radio" name="q6" id="q6a" onclick="checkRadioAnswer('q6', 'Expression')"> Expression
+    <input type="radio" name="q6" id="q6b" onclick="checkRadioAnswer('q6', 'Moyen')"> Moyen
+    <input type="radio" name="q6" id="q6c" onclick="checkRadioAnswer('q6', 'Matière')"> Matière
+    <input type="radio" name="q6" id="q6d" onclick="checkRadioAnswer('q6', 'Temps')"> Temps
+    <span id="q6-result"></span>
+</div>
+
+<script>
+const correctRadioAnswers = {
+    q1: "Lieu",
+    q2: "Moyen",
+    q3: "Matière",
+    q4: "Temps",
+    q5: "Quantité/Remplacement",
+    q6: "Expression"
+};
+
+function checkRadioAnswer(q, correct) {
+    const radios = document.getElementsByName(q);
+    let selected = "";
+    radios.forEach(r => {
+        if (r.checked) {
+            selected = r.nextSibling.textContent.trim();
+        }
+    });
+    const result = document.getElementById(q + "-result");
+    if (selected === correct) {
+        result.textContent = "✓ Correct";
+        result.style.color = "green";
+    } else {
+        result.textContent = "";
+    }
+}
+</script>
+
+#### 3. Complétez avec vos propres idées (en utilisant **en**)
+
+1. Je pars <input type="text" placeholder="" oninput="checkAnswer(this, 'en')"><span></span> Espagne cet été.
+2. Elle travaille <input type="text" placeholder="" oninput="checkAnswer(this, 'en')"><span></span> silence.
+3. Il voyage <input type="text" placeholder="" oninput="checkAnswer(this, 'en')"><span></span> avion.
+4. Nous sommes <input type="text" placeholder="" oninput="checkAnswer(this, 'en')"><span></span> vacances.
+5. Il porte un pantalon <input type="text" placeholder="" oninput="checkAnswer(this, 'en')"><span></span> jean.
+6. J’<input type="text" placeholder="" oninput="checkAnswer(this, 'en')"><span></span> ai beaucoup.
+7. Elle lit <input type="text" placeholder="" oninput="checkAnswer(this, 'en')"><span></span> anglais.
+8. Ils arrivent <input type="text" placeholder="" oninput="checkAnswer(this, 'en')"><span></span> avance.
+
+------------------------------------------------------------------------
+
+<button onclick="showAnswers()">Voir les réponses</button>
+
+<button onclick="refreshPage()">Nouvel essai</button>
+
+<script>
+function checkAnswer(input, correctAnswer) {
+     const span = input.nextElementSibling;
+     if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
+          span.textContent = "✓ Correct";
+          span.style.color = "green";
+     } else {
+          span.textContent = "";
+     }
+}
+
+function showAnswers() {
+     document.querySelectorAll('input[type="text"]').forEach(el => {
+          const correct = el.getAttribute('oninput')?.match(/'([^']+)'/)?.[1];
+          if (correct) {
+                const span = el.nextElementSibling;
+                span.textContent = `Réponse : ${correct}`;
+                span.style.color = "blue";
+          }
+     });
+}
+
+function refreshPage() {
+     location.reload();
+}
+</script>
+
+### Pour consolider vos acquis
+
+Écrivez un court paragraphe (3 à 5 phrases) expliquant ce que vous avez appris sur la préposition **en** en français. Utilisez vos propres mots et, si possible, donnez un exemple.
+
+<textarea rows="5" style="width:100%;" placeholder="Écrivez ici ce que vous avez appris sur 'en'..."></textarea>
+
+:::

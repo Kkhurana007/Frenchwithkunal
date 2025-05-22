@@ -1,0 +1,424 @@
+---
+title: "Common French Prepositions: Uses and Practice"
+author: "Kunal Khurana"
+date: "05-20-2025"
+categories: [B1, grammar, prepositions, exercises]
+image: "prepositions-french.png"
+---
+
+::: {.content-visible when-profile="english"}
+
+### Understanding Common French Prepositions
+
+French prepositions such as **avec**, **contre**, **par**, **pour**, **sans**, **sur**, **dans**, **envers**, and **parmi** are essential for expressing relationships between words. Here are their main uses with examples:
+
+#### 1. **avec** (with)
+Used to indicate accompaniment, manner, or possession.
+- *Je viens avec toi.* (I am coming with you)
+- *Il écrit avec un stylo.* (He writes with a pen)
+
+#### 2. **contre** (against)
+Expresses opposition, contact, or resistance.
+- *Il est contre cette idée.* (He is against this idea)
+- *La chaise est contre le mur.* (The chair is against the wall)
+
+#### 3. **par** (by, through)
+Indicates means, cause, or passage.
+- *Envoyé par la poste.* (Sent by mail)
+- *Passer par la porte.* (Go through the door)
+
+#### 4. **pour** (for, in order to)
+Shows purpose, recipient, or duration.
+- *C’est pour toi.* (It’s for you)
+- *Je travaille pour réussir.* (I work to succeed)
+
+#### 5. **sans** (without)
+Indicates absence or lack.
+- *Un café sans sucre.* (A coffee without sugar)
+- *Il est parti sans dire au revoir.* (He left without saying goodbye)
+
+#### 6. **sur** (on, about)
+Expresses position, topic, or approximation.
+- *Le livre est sur la table.* (The book is on the table)
+- *Un film sur la nature.* (A film about nature)
+
+#### 7. **dans** (in, inside)
+Indicates location, time, or context.
+- *Dans la maison.* (In the house)
+- *Je pars dans une heure.* (I leave in an hour)
+
+#### 8. **envers** (towards, to)
+Used for attitude or feelings towards someone.
+- *Il est gentil envers les animaux.* (He is kind to animals)
+
+#### 9. **parmi** (among)
+Indicates being part of a group.
+- *Parmi les étudiants.* (Among the students)
+
+
+### Exercises
+
+#### 1. Complete with the correct preposition
+
+Type the correct preposition (**avec, contre, par, pour, sans, sur, dans, envers, parmi**) in the blank.
+
+1. Je vais <input type="text" placeholder="" oninput="checkAnswer(this, 'avec')"><span></span> mon ami au cinéma.
+2. Il est <input type="text" placeholder="" oninput="checkAnswer(this, 'contre')"><span></span> cette décision.
+3. Le message a été envoyé <input type="text" placeholder="" oninput="checkAnswer(this, 'par')"><span></span> email.
+4. Ce cadeau est <input type="text" placeholder="" oninput="checkAnswer(this, 'pour')"><span></span> toi.
+5. Elle boit son thé <input type="text" placeholder="" oninput="checkAnswer(this, 'sans')"><span></span> sucre.
+6. Le chat est <input type="text" placeholder="" oninput="checkAnswer(this, 'sur')"><span></span> le canapé.
+7. Nous sommes <input type="text" placeholder="" oninput="checkAnswer(this, 'dans')"><span></span> la voiture.
+8. Il est poli <input type="text" placeholder="" oninput="checkAnswer(this, 'envers')"><span></span> ses professeurs.
+9. Elle se sent bien <input type="text" placeholder="" oninput="checkAnswer(this, 'parmi')"><span></span> ses amis.
+
+#### 2. Choose the correct use of the preposition
+
+Select the correct answer for each sentence.
+
+<div>
+1. <b>Il travaille avec son frère</b><br>
+    <input type="radio" name="q1" id="q1a" onclick="checkRadioAnswer('q1', 'Accompaniment')"> Accompaniment
+    <input type="radio" name="q1" id="q1b" onclick="checkRadioAnswer('q1', 'Opposition')"> Opposition
+    <input type="radio" name="q1" id="q1c" onclick="checkRadioAnswer('q1', 'Means')"> Means
+    <span id="q1-result"></span>
+</div>
+<div>
+2. <b>La lettre est envoyée par avion</b><br>
+    <input type="radio" name="q2" id="q2a" onclick="checkRadioAnswer('q2', 'Means')"> Means
+    <input type="radio" name="q2" id="q2b" onclick="checkRadioAnswer('q2', 'Purpose')"> Purpose
+    <input type="radio" name="q2" id="q2c" onclick="checkRadioAnswer('q2', 'Location')"> Location
+    <span id="q2-result"></span>
+</div>
+<div>
+3. <b>Il est contre la violence</b><br>
+    <input type="radio" name="q3" id="q3a" onclick="checkRadioAnswer('q3', 'Opposition')"> Opposition
+    <input type="radio" name="q3" id="q3b" onclick="checkRadioAnswer('q3', 'Accompaniment')"> Accompaniment
+    <input type="radio" name="q3" id="q3c" onclick="checkRadioAnswer('q3', 'Absence')"> Absence
+    <span id="q3-result"></span>
+</div>
+<div>
+4. <b>Un gâteau sans gluten</b><br>
+    <input type="radio" name="q4" id="q4a" onclick="checkRadioAnswer('q4', 'Absence')"> Absence
+    <input type="radio" name="q4" id="q4b" onclick="checkRadioAnswer('q4', 'Location')"> Location
+    <input type="radio" name="q4" id="q4c" onclick="checkRadioAnswer('q4', 'Purpose')"> Purpose
+    <span id="q4-result"></span>
+</div>
+<div>
+5. <b>Le livre est sur la table</b><br>
+    <input type="radio" name="q5" id="q5a" onclick="checkRadioAnswer('q5', 'Position')"> Position
+    <input type="radio" name="q5" id="q5b" onclick="checkRadioAnswer('q5', 'Means')"> Means
+    <input type="radio" name="q5" id="q5c" onclick="checkRadioAnswer('q5', 'Opposition')"> Opposition
+    <span id="q5-result"></span>
+</div>
+<div>
+6. <b>Il est gentil envers ses collègues</b><br>
+    <input type="radio" name="q6" id="q6a" onclick="checkRadioAnswer('q6', 'Attitude')"> Attitude
+    <input type="radio" name="q6" id="q6b" onclick="checkRadioAnswer('q6', 'Means')"> Means
+    <input type="radio" name="q6" id="q6c" onclick="checkRadioAnswer('q6', 'Absence')"> Absence
+    <span id="q6-result"></span>
+</div>
+<div>
+7. <b>Elle est parmi les meilleurs</b><br>
+    <input type="radio" name="q7" id="q7a" onclick="checkRadioAnswer('q7', 'Group')"> Group
+    <input type="radio" name="q7" id="q7b" onclick="checkRadioAnswer('q7', 'Purpose')"> Purpose
+    <input type="radio" name="q7" id="q7c" onclick="checkRadioAnswer('q7', 'Means')"> Means
+    <span id="q7-result"></span>
+</div>
+<div>
+8. <b>Nous sommes dans la salle</b><br>
+    <input type="radio" name="q8" id="q8a" onclick="checkRadioAnswer('q8', 'Location')"> Location
+    <input type="radio" name="q8" id="q8b" onclick="checkRadioAnswer('q8', 'Absence')"> Absence
+    <input type="radio" name="q8" id="q8c" onclick="checkRadioAnswer('q8', 'Attitude')"> Attitude
+    <span id="q8-result"></span>
+</div>
+<div>
+9. <b>Il fait cela pour apprendre</b><br>
+    <input type="radio" name="q9" id="q9a" onclick="checkRadioAnswer('q9', 'Purpose')"> Purpose
+    <input type="radio" name="q9" id="q9b" onclick="checkRadioAnswer('q9', 'Means')"> Means
+    <input type="radio" name="q9" id="q9c" onclick="checkRadioAnswer('q9', 'Position')"> Position
+    <span id="q9-result"></span>
+</div>
+
+<script>
+const correctRadioAnswers = {
+    q1: "Accompaniment",
+    q2: "Means",
+    q3: "Opposition",
+    q4: "Absence",
+    q5: "Position",
+    q6: "Attitude",
+    q7: "Group",
+    q8: "Location",
+    q9: "Purpose"
+};
+
+function checkRadioAnswer(q, correct) {
+    const radios = document.getElementsByName(q);
+    let selected = "";
+    radios.forEach(r => {
+        if (r.checked) {
+            selected = r.nextSibling.textContent.trim();
+        }
+    });
+    const result = document.getElementById(q + "-result");
+    if (selected === correct) {
+        result.textContent = "✓ Correct";
+        result.style.color = "green";
+    } else {
+        result.textContent = "";
+    }
+}
+</script>
+
+#### 3. Fill in the blanks with your own ideas (using the prepositions above)
+
+1. Je voyage <input type="text" placeholder="" oninput="checkAnswer(this, 'par')"><span></span> train.
+2. Il parle <input type="text" placeholder="" oninput="checkAnswer(this, 'avec')"><span></span> ses amis.
+3. Elle est <input type="text" placeholder="" oninput="checkAnswer(this, 'contre')"><span></span> la violence.
+4. Nous sommes <input type="text" placeholder="" oninput="checkAnswer(this, 'dans')"><span></span> la classe.
+5. Il agit <input type="text" placeholder="" oninput="checkAnswer(this, 'envers')"><span></span> respect envers tous.
+6. Ce livre est <input type="text" placeholder="" oninput="checkAnswer(this, 'sur')"><span></span> l’histoire de France.
+7. Elle vit <input type="text" placeholder="" oninput="checkAnswer(this, 'parmi')"><span></span> ses amis.
+8. Il part <input type="text" placeholder="" oninput="checkAnswer(this, 'pour')"><span></span> Paris demain.
+9. Je bois mon café <input type="text" placeholder="" oninput="checkAnswer(this, 'sans')"><span></span> lait.
+
+
+
+<button onclick="showAnswers()">Show answers</button>
+<button onclick="refreshPage()">Try again</button>
+
+<script>
+function checkAnswer(input, correctAnswer) {
+     const span = input.nextElementSibling;
+     if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
+          span.textContent = "✓ Correct";
+          span.style.color = "green";
+     } else {
+          span.textContent = "";
+     }
+}
+
+function showAnswers() {
+     document.querySelectorAll('input[type="text"]').forEach(el => {
+          const correct = el.getAttribute('oninput')?.match(/'([^']+)'/)?.[1];
+          if (correct) {
+                const span = el.nextElementSibling;
+                span.textContent = `Answer: ${correct}`;
+                span.style.color = "blue";
+          }
+     });
+}
+
+function refreshPage() {
+     location.reload();
+}
+</script>
+
+### To consolidate your learning
+
+Write a short paragraph (3-5 sentences) explaining what you have learned about French prepositions. Use your own words and, if possible, give an example.
+
+<textarea rows="5" style="width:100%;" placeholder="Write here what you have learned about French prepositions..."></textarea>
+
+:::
+
+
+
+
+::: {.content-visible when-profile="french"}
+
+### Comprendre les prépositions françaises courantes
+
+Les prépositions françaises comme **avec**, **contre**, **par**, **pour**, **sans**, **sur**, **dans**, **envers** et **parmi** sont essentielles pour exprimer les relations entre les mots. Voici leurs principaux usages avec des exemples :
+
+#### 1. **avec**
+Indique l’accompagnement, la manière ou la possession.
+- *Je viens avec toi.* (Je viens en ta compagnie)
+- *Il écrit avec un stylo.* (Il utilise un stylo pour écrire)
+
+#### 2. **contre**
+Exprime l’opposition, le contact ou la résistance.
+- *Il est contre cette idée.* (Il n’est pas d’accord avec cette idée)
+- *La chaise est contre le mur.* (La chaise touche le mur)
+
+#### 3. **par**
+Indique le moyen, la cause ou le passage.
+- *Envoyé par la poste.* (Utilise la poste comme moyen)
+- *Passer par la porte.* (Utilise la porte pour entrer/sortir)
+
+#### 4. **pour**
+Montre le but, le destinataire ou la durée.
+- *C’est pour toi.* (Destiné à toi)
+- *Je travaille pour réussir.* (But de réussir)
+
+#### 5. **sans**
+Indique l’absence ou le manque.
+- *Un café sans sucre.* (Pas de sucre dans le café)
+- *Il est parti sans dire au revoir.* (Il n’a pas dit au revoir en partant)
+
+#### 6. **sur**
+Exprime la position, le sujet ou l’approximation.
+- *Le livre est sur la table.* (Position du livre)
+- *Un film sur la nature.* (Sujet du film)
+
+#### 7. **dans**
+Indique le lieu, le temps ou le contexte.
+- *Dans la maison.* (À l’intérieur de la maison)
+- *Je pars dans une heure.* (Après une heure)
+
+#### 8. **envers**
+Utilisé pour l’attitude ou les sentiments envers quelqu’un.
+- *Il est gentil envers les animaux.* (Il a une bonne attitude vis-à-vis des animaux)
+
+#### 9. **parmi**
+Indique qu’on fait partie d’un groupe.
+- *Parmi les étudiants.* (Au sein du groupe des étudiants)
+
+### Exercices
+
+#### 1. Complétez avec la bonne préposition
+
+Tapez la bonne préposition (**avec, contre, par, pour, sans, sur, dans, envers, parmi**) dans le blanc.
+
+1. Je vais <input type="text" placeholder="" oninput="checkAnswer(this, 'avec')"><span></span> mon ami au cinéma.
+2. Il est <input type="text" placeholder="" oninput="checkAnswer(this, 'contre')"><span></span> cette décision.
+3. Le message a été envoyé <input type="text" placeholder="" oninput="checkAnswer(this, 'par')"><span></span> email.
+4. Ce cadeau est <input type="text" placeholder="" oninput="checkAnswer(this, 'pour')"><span></span> toi.
+5. Elle boit son thé <input type="text" placeholder="" oninput="checkAnswer(this, 'sans')"><span></span> sucre.
+6. Le chat est <input type="text" placeholder="" oninput="checkAnswer(this, 'sur')"><span></span> le canapé.
+7. Nous sommes <input type="text" placeholder="" oninput="checkAnswer(this, 'dans')"><span></span> la voiture.
+8. Il est poli <input type="text" placeholder="" oninput="checkAnswer(this, 'envers')"><span></span> ses professeurs.
+9. Elle se sent bien <input type="text" placeholder="" oninput="checkAnswer(this, 'parmi')"><span></span> ses amis.
+
+#### 2. Choisissez le bon usage de la préposition
+
+Sélectionnez la bonne réponse pour chaque phrase.
+
+<div>
+1. <b>Il travaille avec son frère</b><br>
+    <input type="radio" name="q1f" id="q1fa" onclick="checkRadioAnswer('q1f', 'Accompagnement')"> Accompagnement
+    <input type="radio" name="q1f" id="q1fb" onclick="checkRadioAnswer('q1f', 'Opposition')"> Opposition
+    <input type="radio" name="q1f" id="q1fc" onclick="checkRadioAnswer('q1f', 'Moyen')"> Moyen
+    <span id="q1f-result"></span>
+</div>
+<div>
+2. <b>La lettre est envoyée par avion</b><br>
+    <input type="radio" name="q2f" id="q2fa" onclick="checkRadioAnswer('q2f', 'Moyen')"> Moyen
+    <input type="radio" name="q2f" id="q2fb" onclick="checkRadioAnswer('q2f', 'But')"> But
+    <input type="radio" name="q2f" id="q2fc" onclick="checkRadioAnswer('q2f', 'Lieu')"> Lieu
+    <span id="q2f-result"></span>
+</div>
+<div>
+3. <b>Il est contre la violence</b><br>
+    <input type="radio" name="q3f" id="q3fa" onclick="checkRadioAnswer('q3f', 'Opposition')"> Opposition
+    <input type="radio" name="q3f" id="q3fb" onclick="checkRadioAnswer('q3f', 'Accompagnement')"> Accompagnement
+    <input type="radio" name="q3f" id="q3fc" onclick="checkRadioAnswer('q3f', 'Absence')"> Absence
+    <span id="q3f-result"></span>
+</div>
+<div>
+4. <b>Un gâteau sans gluten</b><br>
+    <input type="radio" name="q4f" id="q4fa" onclick="checkRadioAnswer('q4f', 'Absence')"> Absence
+    <input type="radio" name="q4f" id="q4fb" onclick="checkRadioAnswer('q4f', 'Lieu')"> Lieu
+    <input type="radio" name="q4f" id="q4fc" onclick="checkRadioAnswer('q4f', 'But')"> But
+    <span id="q4f-result"></span>
+</div>
+<div>
+5. <b>Le livre est sur la table</b><br>
+    <input type="radio" name="q5f" id="q5fa" onclick="checkRadioAnswer('q5f', 'Position')"> Position
+    <input type="radio" name="q5f" id="q5fb" onclick="checkRadioAnswer('q5f', 'Moyen')"> Moyen
+    <input type="radio" name="q5f" id="q5fc" onclick="checkRadioAnswer('q5f', 'Opposition')"> Opposition
+    <span id="q5f-result"></span>
+</div>
+<div>
+6. <b>Il est gentil envers ses collègues</b><br>
+    <input type="radio" name="q6f" id="q6fa" onclick="checkRadioAnswer('q6f', 'Attitude')"> Attitude
+    <input type="radio" name="q6f" id="q6fb" onclick="checkRadioAnswer('q6f', 'Moyen')"> Moyen
+    <input type="radio" name="q6f" id="q6fc" onclick="checkRadioAnswer('q6f', 'Absence')"> Absence
+    <span id="q6f-result"></span>
+</div>
+<div>
+7. <b>Elle est parmi les meilleurs</b><br>
+    <input type="radio" name="q7f" id="q7fa" onclick="checkRadioAnswer('q7f', 'Groupe')"> Groupe
+    <input type="radio" name="q7f" id="q7fb" onclick="checkRadioAnswer('q7f', 'But')"> But
+    <input type="radio" name="q7f" id="q7fc" onclick="checkRadioAnswer('q7f', 'Moyen')"> Moyen
+    <span id="q7f-result"></span>
+</div>
+<div>
+8. <b>Nous sommes dans la salle</b><br>
+    <input type="radio" name="q8f" id="q8fa" onclick="checkRadioAnswer('q8f', 'Lieu')"> Lieu
+    <input type="radio" name="q8f" id="q8fb" onclick="checkRadioAnswer('q8f', 'Absence')"> Absence
+    <input type="radio" name="q8f" id="q8fc" onclick="checkRadioAnswer('q8f', 'Attitude')"> Attitude
+    <span id="q8f-result"></span>
+</div>
+<div>
+9. <b>Il fait cela pour apprendre</b><br>
+    <input type="radio" name="q9f" id="q9fa" onclick="checkRadioAnswer('q9f', 'But')"> But
+    <input type="radio" name="q9f" id="q9fb" onclick="checkRadioAnswer('q9f', 'Moyen')"> Moyen
+    <input type="radio" name="q9f" id="q9fc" onclick="checkRadioAnswer('q9f', 'Position')"> Position
+    <span id="q9f-result"></span>
+</div>
+
+<script>
+const correctRadioAnswers = {
+    q1f: "Accompagnement",
+    q2f: "Moyen",
+    q3f: "Opposition",
+    q4f: "Absence",
+    q5f: "Position",
+    q6f: "Attitude",
+    q7f: "Groupe",
+    q8f: "Lieu",
+    q9f: "But"
+};
+</script>
+
+#### 3. Complétez avec vos propres idées (en utilisant les prépositions ci-dessus)
+
+1. Je voyage <input type="text" placeholder="" oninput="checkAnswer(this, 'par')"><span></span> train.
+2. Il parle <input type="text" placeholder="" oninput="checkAnswer(this, 'avec')"><span></span> ses amis.
+3. Elle est <input type="text" placeholder="" oninput="checkAnswer(this, 'contre')"><span></span> la violence.
+4. Nous sommes <input type="text" placeholder="" oninput="checkAnswer(this, 'dans')"><span></span> la classe.
+5. Il agit <input type="text" placeholder="" oninput="checkAnswer(this, 'envers')"><span></span> respect envers tous.
+6. Ce livre est <input type="text" placeholder="" oninput="checkAnswer(this, 'sur')"><span></span> l’histoire de France.
+7. Elle vit <input type="text" placeholder="" oninput="checkAnswer(this, 'parmi')"><span></span> ses amis.
+8. Il part <input type="text" placeholder="" oninput="checkAnswer(this, 'pour')"><span></span> Paris demain.
+9. Je bois mon café <input type="text" placeholder="" oninput="checkAnswer(this, 'sans')"><span></span> lait.
+
+<button onclick="showAnswers()">Afficher les réponses</button>
+<button onclick="refreshPage()">Réessayer</button>
+
+### Pour consolider vos apprentissages
+
+Écrivez un court paragraphe (3 à 5 phrases) expliquant ce que vous avez appris sur les prépositions françaises. Utilisez vos propres mots et, si possible, donnez un exemple.
+
+<textarea rows="5" style="width:100%;" placeholder="Écrivez ici ce que vous avez appris sur les prépositions françaises..."></textarea>
+
+<script>
+function checkAnswer(input, correctAnswer) {
+     const span = input.nextElementSibling;
+     if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
+          span.textContent = "✓ Correct";
+          span.style.color = "green";
+     } else {
+          span.textContent = "";
+     }
+}
+
+function showAnswers() {
+     document.querySelectorAll('input[type="text"]').forEach(el => {
+          const correct = el.getAttribute('oninput')?.match(/'([^']+)'/)?.[1];
+          if (correct) {
+                const span = el.nextElementSibling;
+                span.textContent = `Answer: ${correct}`;
+                span.style.color = "blue";
+          }
+     });
+}
+
+function refreshPage() {
+     location.reload();
+}
+</script>
+
+:::

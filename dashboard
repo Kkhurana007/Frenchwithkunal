@@ -1,0 +1,66 @@
+---
+title: "Student Progress Dashboard"
+format: 
+  html:
+    toc: true
+    code-fold: true
+---
+
+## Class Overview
+
+```{python}
+#| echo: false
+#| warning: false
+import pandas as pd
+import plotly.express as px
+
+df = pd.read_csv("data/student_progress.csv")
+
+# Summary statistics
+class_avg = df.groupby('date').mean(numeric_only=True).reset_index()
+fig = px.line(class_avg, x='date', y=['vocabulary_score', 'grammar_score', 
+             'listening_score', 'speaking_score'],
+             title='Class Average Progress Over Time')
+fig.show()
+```
+
+## Individual Student Reports
+
+```{python}
+#| echo: false
+from ipywidgets import interact, Dropdown
+
+student_list = df['student_name'].unique()
+
+@interact(student=Dropdown(options=student_list, description='Select Student:'))
+def show_student_progress(student):
+    student_df = df[df['student_name'] == student]
+    fig = px.bar(student_df, x='date', 
+                 y=['vocabulary_score', 'grammar_score', 
+                    'listening_score', 'speaking_score'],
+                 barmode='group',
+                 title=f'{student}\'s Progress')
+    fig.show()
+```
+
+## Skills Breakdown
+
+```{python}
+#| echo: false
+fig = px.sunburst(df, path=['student_name'], values='vocabulary_score',
+                 title='Vocabulary Skills Distribution')
+fig.show()
+```
+
+
+<div id="observablehq-chart"></div>
+
+<script type="module">
+import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
+import define from "https://api.observablehq.com/@d3/bar-chart.js?v=3";
+
+const runtime = new Runtime();
+const main = runtime.module(define, name => {
+  if (name === "chart") return new Inspector(document.querySelector("#observablehq-chart"));
+});
+</script>

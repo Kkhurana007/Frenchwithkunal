@@ -1,0 +1,386 @@
+---
+title: "Adverbs of Manner (Adverbes de manière) in French"
+author: "Kunal Khurana"
+date: "05-20-2025"
+categories: [B1, grammar, adverbs, exercises]
+image: "adverbes_maniere.png"
+---
+
+::: {.content-visible when-profile="english"}
+# Adverbs of Manner in French (Adverbes de manière)
+
+Adverbs of manner describe **how** an action is performed. In French, most adverbs of manner are formed by adding **-ment** to the feminine form of an adjective. They answer the question "**How?**" (e.g., How does she sing? She sings *beautifully*).
+
+**Formation:**
+- Take the feminine form of the adjective.
+- Add **-ment**.
+- Example: *rapide* (quick) → *rapidement* (quickly)
+
+**Examples:**
+
+| Adjective (FR) | Adverb (FR)    | English      | Example (FR)             | Example (EN)            |
+|----------------|----------------|--------------|--------------------------|-------------------------|
+| rapide         | rapidement     | quickly      | Il répond rapidement.    | He answers quickly.     |
+| doux           | doucement      | gently       | Elle parle doucement.    | She speaks gently.      |
+| heureux        | heureusement   | fortunately  | Heureusement, il est là. | Fortunately, he is here.|
+| facile         | facilement     | easily       | Tu apprends facilement.  | You learn easily.       |
+| poli           | poliment       | politely     | Il demande poliment.     | He asks politely.       |
+
+------------------------------------------------------------------------
+
+# Activities
+
+## 1. Complete with the correct adverb of manner (in French)
+
+## 1. Complete with the correct adverb of manner (in French)
+
+1.  Il parle <input type="text" placeholder="" oninput="checkAnswer(this, 'doucement')"><span></span>. (gently)
+2.  Elle apprend <input type="text" placeholder="" oninput="checkAnswer(this, 'facilement')"><span></span>. (easily)
+3.  Il répond <input type="text" placeholder="" oninput="checkAnswer(this, 'rapidement')"><span></span>. (quickly)
+4.  Tu demandes <input type="text" placeholder="" oninput="checkAnswer(this, 'poliment')"><span></span>. (politely)
+5.  Il travaille <input type="text" placeholder="" oninput="checkAnswer(this, 'sérieusement')"><span></span>. (seriously)
+6.  Elle chante <input type="text" placeholder="" oninput="checkAnswer(this, 'magnifiquement')"><span></span>. (beautifully)
+7.  Il explique <input type="text" placeholder="" oninput="checkAnswer(this, 'clairement')"><span></span>. (clearly)
+8.  Tu écris <input type="text" placeholder="" oninput="checkAnswer(this, 'soigneusement')"><span></span>. (carefully)
+9.  Nous marchons <input type="text" placeholder="" oninput="checkAnswer(this, 'lentement')"><span></span>. (slowly)
+10. Elle écoute <input type="text" placeholder="" oninput="checkAnswer(this, 'attentivement')"><span></span>. (attentively)
+11. Il agit <input type="text" placeholder="" oninput="checkAnswer(this, 'prudemment')"><span></span>. (prudently)
+12. Elle répond <input type="text" placeholder="" oninput="checkAnswer(this, 'calmement')"><span></span>. (calmly)
+13. Tu ris <input type="text" placeholder="" oninput="checkAnswer(this, 'joyeusement')"><span></span>. (joyfully)
+14. Il accepte <input type="text" placeholder="" oninput="checkAnswer(this, 'volontiers')"><span></span>. (willingly)
+15. Translate "Fortunately, he is here." <input type="text" placeholder="" oninput="checkAnswer(this, 'Heureusement, il est là.')"><span></span>
+
+## 2. Choose the correct adverb of manner
+
+Select the correct adverb to complete each sentence.
+
+1.  Elle chante ___ (beautifully):  
+    <select onchange="checkAnswer(this, 'magnifiquement')">
+      <option value=""></option>
+      <option value="rapidement">rapidement</option>
+      <option value="facilement">facilement</option>
+      <option value="magnifiquement">magnifiquement</option>
+    </select>
+    <span></span>
+
+2.  Il travaille ___ (seriously):  
+    <select onchange="checkAnswer(this, 'sérieusement')">
+      <option value=""></option>
+      <option value="doucement">doucement</option>
+      <option value="sérieusement">sérieusement</option>
+      <option value="poliment">poliment</option>
+    </select>
+    <span></span>
+
+3.  Tu parles ___ (clearly):  
+    <select onchange="checkAnswer(this, 'clairement')">
+      <option value=""></option>
+      <option value="clairement">clairement</option>
+      <option value="heureusement">heureusement</option>
+      <option value="rapidement">rapidement</option>
+    </select>
+    <span></span>
+
+4.  Il écrit ___ (carefully):  
+    <select onchange="checkAnswer(this, 'soigneusement')">
+      <option value=""></option>
+      <option value="soigneusement">soigneusement</option>
+      <option value="attentivement">attentivement</option>
+      <option value="joyeusement">joyeusement</option>
+    </select>
+    <span></span>
+
+5.  Elle écoute ___ (attentively):  
+    <select onchange="checkAnswer(this, 'attentivement')">
+      <option value=""></option>
+      <option value="attentivement">attentivement</option>
+      <option value="prudemment">prudemment</option>
+      <option value="calmement">calmement</option>
+    </select>
+    <span></span>
+
+6.  Nous marchons ___ (slowly):  
+    <select onchange="checkAnswer(this, 'lentement')">
+      <option value=""></option>
+      <option value="lentement">lentement</option>
+      <option value="rapidement">rapidement</option>
+      <option value="volontiers">volontiers</option>
+    </select>
+    <span></span>
+
+7.  Il agit ___ (prudently):  
+    <select onchange="checkAnswer(this, 'prudemment')">
+      <option value=""></option>
+      <option value="prudemment">prudemment</option>
+      <option value="doucement">doucement</option>
+      <option value="clairement">clairement</option>
+    </select>
+    <span></span>
+
+8.  Elle répond ___ (calmly):  
+    <select onchange="checkAnswer(this, 'calmement')">
+      <option value=""></option>
+      <option value="calmement">calmement</option>
+      <option value="soigneusement">soigneusement</option>
+      <option value="facilement">facilement</option>
+    </select>
+    <span></span>
+
+9.  Tu ris ___ (joyfully):  
+    <select onchange="checkAnswer(this, 'joyeusement')">
+      <option value=""></option>
+      <option value="joyeusement">joyeusement</option>
+      <option value="poliment">poliment</option>
+      <option value="sérieusement">sérieusement</option>
+    </select>
+    <span></span>
+
+10. Il accepte ___ (willingly):  
+    <select onchange="checkAnswer(this, 'volontiers')">
+      <option value=""></option>
+      <option value="volontiers">volontiers</option>
+      <option value="attentivement">attentivement</option>
+      <option value="lentement">lentement</option>
+    </select>
+    <span></span>
+
+## 3. Translate to French using an adverb of manner
+
+1.  He answers quickly. <input type="text" placeholder="" oninput="checkAnswer(this, 'Il répond rapidement.')"><span></span>
+2.  She learns easily. <input type="text" placeholder="" oninput="checkAnswer(this, 'Elle apprend facilement.')"><span></span>
+3.  You speak gently. <input type="text" placeholder="" oninput="checkAnswer(this, 'Tu parles doucement.')"><span></span>
+4.  He asks politely. <input type="text" placeholder="" oninput="checkAnswer(this, 'Il demande poliment.')"><span></span>
+5.  She sings beautifully. <input type="text" placeholder="" oninput="checkAnswer(this, 'Elle chante magnifiquement.')"><span></span>
+6.  He works seriously. <input type="text" placeholder="" oninput="checkAnswer(this, 'Il travaille sérieusement.')"><span></span>
+7.  You write carefully. <input type="text" placeholder="" oninput="checkAnswer(this, 'Tu écris soigneusement.')"><span></span>
+8.  We walk slowly. <input type="text" placeholder="" oninput="checkAnswer(this, 'Nous marchons lentement.')"><span></span>
+9.  She listens attentively. <input type="text" placeholder="" oninput="checkAnswer(this, 'Elle écoute attentivement.')"><span></span>
+10. He acts prudently. <input type="text" placeholder="" oninput="checkAnswer(this, 'Il agit prudemment.')"><span></span>
+11. She answers calmly. <input type="text" placeholder="" oninput="checkAnswer(this, 'Elle répond calmement.')"><span></span>
+12. You laugh joyfully. <input type="text" placeholder="" oninput="checkAnswer(this, 'Tu ris joyeusement.')"><span></span>
+13. He accepts willingly. <input type="text" placeholder="" oninput="checkAnswer(this, 'Il accepte volontiers.')"><span></span>
+14. She explains clearly. <input type="text" placeholder="" oninput="checkAnswer(this, 'Elle explique clairement.')"><span></span>
+15. He answers willingly. <input type="text" placeholder="" oninput="checkAnswer(this, 'Il répond volontiers.')"><span></span>
+
+<button onclick="showAnswers()">Show Answers</button>
+
+<button onclick="refreshPage()">Try Again</button>
+
+<script>
+
+function checkAnswer(input, correctAnswer) {
+    const span = input.nextElementSibling;
+    if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
+        span.textContent = "✓ Correct";
+        span.style.color = "green";
+    } else {
+        span.textContent = "";
+    }
+}
+
+function showAnswers() {
+    document.querySelectorAll('input[type="text"]').forEach(el => {
+        const correct = el.getAttribute('oninput')?.match(/'([^']+)'/)?.[1];
+        if (correct) {
+            const span = el.nextElementSibling;
+            span.textContent = `Réponse : ${correct}`;
+            span.style.color = "blue";
+        }
+    });
+}
+
+function refreshPage() {
+    location.reload();
+}
+</script>
+
+:::
+
+
+::: {.content-visible when-profile="french"}
+
+# Les adverbes de manière en français
+
+Les adverbes de manière décrivent **comment** une action est réalisée. En français, la plupart des adverbes de manière se forment en ajoutant **-ment** à la forme féminine de l’adjectif. Ils répondent à la question "**Comment ?**" (ex. : Comment chante-t-elle ? Elle chante *magnifiquement*).
+
+**Formation :**
+- Prendre la forme féminine de l’adjectif.
+- Ajouter **-ment**.
+- Exemple : *rapide* → *rapidement*
+
+**Exemples :**
+
+| Adjectif (FR) | Adverbe (FR)    | Anglais        | Exemple (FR)             | Exemple (EN)            |
+|---------------|-----------------|----------------|--------------------------|-------------------------|
+| rapide        | rapidement      | quickly        | Il répond rapidement.    | He answers quickly.     |
+| doux          | doucement       | gently         | Elle parle doucement.    | She speaks gently.      |
+| heureux       | heureusement    | fortunately    | Heureusement, il est là. | Fortunately, he is here.|
+| facile        | facilement      | easily         | Tu apprends facilement.  | You learn easily.       |
+| poli          | poliment        | politely       | Il demande poliment.     | He asks politely.       |
+
+------------------------------------------------------------------------
+
+# Activités
+
+## 1. Complétez avec le bon adverbe de manière (en français)
+
+1.  Il parle <input type="text" placeholder="" oninput="checkAnswer(this, 'doucement')"><span></span>. (doucement)
+2.  Elle apprend <input type="text" placeholder="" oninput="checkAnswer(this, 'facilement')"><span></span>. (facilement)
+3.  Il répond <input type="text" placeholder="" oninput="checkAnswer(this, 'rapidement')"><span></span>. (rapidement)
+4.  Tu demandes <input type="text" placeholder="" oninput="checkAnswer(this, 'poliment')"><span></span>. (poliment)
+5.  Il travaille <input type="text" placeholder="" oninput="checkAnswer(this, 'sérieusement')"><span></span>. (sérieusement)
+6.  Elle chante <input type="text" placeholder="" oninput="checkAnswer(this, 'magnifiquement')"><span></span>. (magnifiquement)
+7.  Il explique <input type="text" placeholder="" oninput="checkAnswer(this, 'clairement')"><span></span>. (clairement)
+8.  Tu écris <input type="text" placeholder="" oninput="checkAnswer(this, 'soigneusement')"><span></span>. (soigneusement)
+9.  Nous marchons <input type="text" placeholder="" oninput="checkAnswer(this, 'lentement')"><span></span>. (lentement)
+10. Elle écoute <input type="text" placeholder="" oninput="checkAnswer(this, 'attentivement')"><span></span>. (attentivement)
+11. Il agit <input type="text" placeholder="" oninput="checkAnswer(this, 'prudemment')"><span></span>. (prudemment)
+12. Elle répond <input type="text" placeholder="" oninput="checkAnswer(this, 'calmement')"><span></span>. (calmement)
+13. Tu ris <input type="text" placeholder="" oninput="checkAnswer(this, 'joyeusement')"><span></span>. (joyeusement)
+14. Il accepte <input type="text" placeholder="" oninput="checkAnswer(this, 'volontiers')"><span></span>. (volontiers)
+15. Traduisez "Fortunately, he is here." <input type="text" placeholder="" oninput="checkAnswer(this, 'Heureusement, il est là.')"><span></span>
+
+## 2. Choisissez le bon adverbe de manière
+
+Sélectionnez l’adverbe correct pour compléter chaque phrase.
+
+1.  Elle chante ___ (magnifiquement) :  
+    <select onchange="checkAnswer(this, 'magnifiquement')">
+      <option value=""></option>
+      <option value="rapidement">rapidement</option>
+      <option value="facilement">facilement</option>
+      <option value="magnifiquement">magnifiquement</option>
+    </select>
+    <span></span>
+
+2.  Il travaille ___ (sérieusement) :  
+    <select onchange="checkAnswer(this, 'sérieusement')">
+      <option value=""></option>
+      <option value="doucement">doucement</option>
+      <option value="sérieusement">sérieusement</option>
+      <option value="poliment">poliment</option>
+    </select>
+    <span></span>
+
+3.  Tu parles ___ (clairement) :  
+    <select onchange="checkAnswer(this, 'clairement')">
+      <option value=""></option>
+      <option value="clairement">clairement</option>
+      <option value="heureusement">heureusement</option>
+      <option value="rapidement">rapidement</option>
+    </select>
+    <span></span>
+
+4.  Il écrit ___ (soigneusement) :  
+    <select onchange="checkAnswer(this, 'soigneusement')">
+      <option value=""></option>
+      <option value="soigneusement">soigneusement</option>
+      <option value="attentivement">attentivement</option>
+      <option value="joyeusement">joyeusement</option>
+    </select>
+    <span></span>
+
+5.  Elle écoute ___ (attentivement) :  
+    <select onchange="checkAnswer(this, 'attentivement')">
+      <option value=""></option>
+      <option value="attentivement">attentivement</option>
+      <option value="prudemment">prudemment</option>
+      <option value="calmement">calmement</option>
+    </select>
+    <span></span>
+
+6.  Nous marchons ___ (lentement) :  
+    <select onchange="checkAnswer(this, 'lentement')">
+      <option value=""></option>
+      <option value="lentement">lentement</option>
+      <option value="rapidement">rapidement</option>
+      <option value="volontiers">volontiers</option>
+    </select>
+    <span></span>
+
+7.  Il agit ___ (prudemment) :  
+    <select onchange="checkAnswer(this, 'prudemment')">
+      <option value=""></option>
+      <option value="prudemment">prudemment</option>
+      <option value="doucement">doucement</option>
+      <option value="clairement">clairement</option>
+    </select>
+    <span></span>
+
+8.  Elle répond ___ (calmement) :  
+    <select onchange="checkAnswer(this, 'calmement')">
+      <option value=""></option>
+      <option value="calmement">calmement</option>
+      <option value="soigneusement">soigneusement</option>
+      <option value="facilement">facilement</option>
+    </select>
+    <span></span>
+
+9.  Tu ris ___ (joyeusement) :  
+    <select onchange="checkAnswer(this, 'joyeusement')">
+      <option value=""></option>
+      <option value="joyeusement">joyeusement</option>
+      <option value="poliment">poliment</option>
+      <option value="sérieusement">sérieusement</option>
+    </select>
+    <span></span>
+
+10. Il accepte ___ (volontiers) :  
+    <select onchange="checkAnswer(this, 'volontiers')">
+      <option value=""></option>
+      <option value="volontiers">volontiers</option>
+      <option value="attentivement">attentivement</option>
+      <option value="lentement">lentement</option>
+    </select>
+    <span></span>
+
+## 3. Traduisez en français en utilisant un adverbe de manière
+
+1.  He answers quickly. <input type="text" placeholder="" oninput="checkAnswer(this, 'Il répond rapidement.')"><span></span>
+2.  She learns easily. <input type="text" placeholder="" oninput="checkAnswer(this, 'Elle apprend facilement.')"><span></span>
+3.  You speak gently. <input type="text" placeholder="" oninput="checkAnswer(this, 'Tu parles doucement.')"><span></span>
+4.  He asks politely. <input type="text" placeholder="" oninput="checkAnswer(this, 'Il demande poliment.')"><span></span>
+5.  She sings beautifully. <input type="text" placeholder="" oninput="checkAnswer(this, 'Elle chante magnifiquement.')"><span></span>
+6.  He works seriously. <input type="text" placeholder="" oninput="checkAnswer(this, 'Il travaille sérieusement.')"><span></span>
+7.  You write carefully. <input type="text" placeholder="" oninput="checkAnswer(this, 'Tu écris soigneusement.')"><span></span>
+8.  We walk slowly. <input type="text" placeholder="" oninput="checkAnswer(this, 'Nous marchons lentement.')"><span></span>
+9.  She listens attentively. <input type="text" placeholder="" oninput="checkAnswer(this, 'Elle écoute attentivement.')"><span></span>
+10. He acts prudently. <input type="text" placeholder="" oninput="checkAnswer(this, 'Il agit prudemment.')"><span></span>
+11. She answers calmly. <input type="text" placeholder="" oninput="checkAnswer(this, 'Elle répond calmement.')"><span></span>
+12. You laugh joyfully. <input type="text" placeholder="" oninput="checkAnswer(this, 'Tu ris joyeusement.')"><span></span>
+13. He accepts willingly. <input type="text" placeholder="" oninput="checkAnswer(this, 'Il accepte volontiers.')"><span></span>
+14. She explains clearly. <input type="text" placeholder="" oninput="checkAnswer(this, 'Elle explique clairement.')"><span></span>
+15. He answers willingly. <input type="text" placeholder="" oninput="checkAnswer(this, 'Il répond volontiers.')"><span></span>
+
+<button onclick="showAnswers()">Afficher les réponses</button>
+
+<button onclick="refreshPage()">Réessayer</button>
+
+<script>
+function checkAnswer(input, correctAnswer) {
+    const span = input.nextElementSibling;
+    if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
+        span.textContent = "✓ Correct";
+        span.style.color = "green";
+    } else {
+        span.textContent = "";
+    }
+}
+
+function showAnswers() {
+    document.querySelectorAll('input[type="text"]').forEach(el => {
+        const correct = el.getAttribute('oninput')?.match(/'([^']+)'/)?.[1];
+        if (correct) {
+            const span = el.nextElementSibling;
+            span.textContent = `Réponse : ${correct}`;
+            span.style.color = "blue";
+        }
+    });
+}
+
+function refreshPage() {
+    location.reload();
+}
+</script>
+
+:::

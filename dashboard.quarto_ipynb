@@ -1,0 +1,125 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "---\n",
+        "title: \"Student Progress Dashboard\"\n",
+        "format: \n",
+        "  html:\n",
+        "    toc: true\n",
+        "    code-fold: true\n",
+        "---\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "## Class Overview\n"
+      ],
+      "id": "24e29736"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "#| echo: false\n",
+        "#| warning: false\n",
+        "import pandas as pd\n",
+        "import plotly.express as px\n",
+        "\n",
+        "df = pd.read_csv(\"data/student_progress.csv\")\n",
+        "\n",
+        "# Summary statistics\n",
+        "class_avg = df.groupby('date').mean(numeric_only=True).reset_index()\n",
+        "fig = px.line(class_avg, x='date', y=['vocabulary_score', 'grammar_score', \n",
+        "             'listening_score', 'speaking_score'],\n",
+        "             title='Class Average Progress Over Time')\n",
+        "fig.show()"
+      ],
+      "id": "7bf1f2b8",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "## Individual Student Reports\n"
+      ],
+      "id": "5e47b3e2"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "#| echo: false\n",
+        "from ipywidgets import interact, Dropdown\n",
+        "\n",
+        "student_list = df['student_name'].unique()\n",
+        "\n",
+        "@interact(student=Dropdown(options=student_list, description='Select Student:'))\n",
+        "def show_student_progress(student):\n",
+        "    student_df = df[df['student_name'] == student]\n",
+        "    fig = px.bar(student_df, x='date', \n",
+        "                 y=['vocabulary_score', 'grammar_score', \n",
+        "                    'listening_score', 'speaking_score'],\n",
+        "                 barmode='group',\n",
+        "                 title=f'{student}\\'s Progress')\n",
+        "    fig.show()"
+      ],
+      "id": "1aca6052",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "## Skills Breakdown\n"
+      ],
+      "id": "5fbb71a4"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "#| echo: false\n",
+        "fig = px.sunburst(df, path=['student_name'], values='vocabulary_score',\n",
+        "                 title='Vocabulary Skills Distribution')\n",
+        "fig.show()"
+      ],
+      "id": "d5ad62f5",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "<div id=\"observablehq-chart\"></div>\n",
+        "\n",
+        "<script type=\"module\">\n",
+        "import {Runtime, Inspector} from \"https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js\";\n",
+        "import define from \"https://api.observablehq.com/@d3/bar-chart.js?v=3\";\n",
+        "\n",
+        "const runtime = new Runtime();\n",
+        "const main = runtime.module(define, name => {\n",
+        "  if (name === \"chart\") return new Inspector(document.querySelector(\"#observablehq-chart\"));\n",
+        "});\n",
+        "</script>"
+      ],
+      "id": "5ffc8d66"
+    }
+  ],
+  "metadata": {
+    "kernelspec": {
+      "name": "python3",
+      "language": "python",
+      "display_name": "Python 3 (ipykernel)",
+      "path": "C:\\Users\\khura\\OneDrive\\OneDrive - Université Laval\\Desktop\\frenchwithkunal.ca\\venv\\share\\jupyter\\kernels\\python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 5
+}
