@@ -267,22 +267,22 @@ ul.task-list li input[type="checkbox"] {
 <p>Conjuguez le verbe pour chaque sujet.</p>
 <p>Je (acheter) <input type="text" placeholder="Votre réponse"><br>
 <button onclick="revealAnswerFr(this, 'J\'achète un livre.')">Vérifier</button><br>
-<span class="feedback"></span></p>
+</p>
 <p>Tu (préférer) <input type="text" placeholder="Votre réponse"><br>
 <button onclick="revealAnswerFr(this, 'Tu préfères le café.')">Vérifier</button><br>
-<span class="feedback"></span></p>
+</p>
 <p>Il (espérer) <input type="text" placeholder="Votre réponse"><br>
 <button onclick="revealAnswerFr(this, 'Il espère gagner.')">Vérifier</button><br>
-<span class="feedback"></span></p>
+</p>
 <p>Nous (répéter) <input type="text" placeholder="Votre réponse"><br>
 <button onclick="revealAnswerFr(this, 'Nous répétons la chanson.')">Vérifier</button><br>
-<span class="feedback"></span></p>
+</p>
 <p>Vous (céder) <input type="text" placeholder="Votre réponse"><br>
 <button onclick="revealAnswerFr(this, 'Vous cédez la place.')">Vérifier</button><br>
-<span class="feedback"></span></p>
+</p>
 <p>Elles (acheter) <input type="text" placeholder="Votre réponse"><br>
 <button onclick="revealAnswerFr(this, 'Elles achètent des fleurs.')">Vérifier</button><br>
-<span class="feedback"></span></p>
+</p>
 <script>
 function revealAnswerFr(button, correctAnswer) {
     const feedback = button.nextElementSibling.nextElementSibling;
@@ -295,36 +295,32 @@ function revealAnswerFr(button, correctAnswer) {
 <section id="correction-de-phrases" class="level3">
 <h3 class="anchored" data-anchor-id="correction-de-phrases">2. Correction de phrases</h3>
 <p>Corrigez les conjugaisons incorrectes (attention au “è” !).</p>
-Je prefere le thé. →
+<p>Je prefere le thé. →</p>
 <textarea rows="1" cols="30" placeholder="Phrase corrigée..."></textarea>
 <button onclick="checkCorrectionFr(this.previousElementSibling, 'Je préfère le thé.')">
-Vérifier
+<p>Vérifier</p>
 </button>
-<p><span class="feedback"></span></p>
-Nous esprons partir. →
+<p>Nous esprons partir. →</p>
 <textarea rows="1" cols="30" placeholder="Phrase corrigée..."></textarea>
 <button onclick="checkCorrectionFr(this.previousElementSibling, 'Nous espérons partir.')">
-Vérifier
+<p>Vérifier</p>
 </button>
-<p><span class="feedback"></span></p>
 <p><em>(Note : La forme “nous” garde le “e” d’origine !)</em></p>
 <hr>
 </section>
 <section id="traduction" class="level3">
 <h3 class="anchored" data-anchor-id="traduction">3. Traduction</h3>
 <p>Traduisez en français en utilisant les verbes à changement de radical :</p>
-She hopes to travel. →
+<p>She hopes to travel. →</p>
 <textarea rows="1" cols="40" placeholder="Traduction française..."></textarea>
 <button onclick="checkTranslationFr(this.previousElementSibling, 'Elle espère voyager.')">
-Vérifier
+<p>Vérifier</p>
 </button>
-<p><span class="feedback"></span></p>
-We buy a car. →
+<p>We buy a car. →</p>
 <textarea rows="1" cols="40" placeholder="Traduction française..."></textarea>
 <button onclick="checkTranslationFr(this.previousElementSibling, 'Nous achetons une voiture.')">
-Vérifier
+<p>Vérifier</p>
 </button>
-<p><span class="feedback"></span></p>
 <hr>
 </section>
 <section id="production-écrite" class="level3">
@@ -332,7 +328,7 @@ Vérifier
 <p>Écrivez 3 phrases sur le shopping ou vos préférences en utilisant au moins 2 verbes à changement de radical différents. Mettez les verbes en évidence.</p>
 <textarea rows="5" cols="100" placeholder="Ex : J’achète des légumes..."></textarea>
 <button onclick="highlightStemChangeVerbsFr(this.previousElementSibling)">
-Mettre en évidence
+<p>Mettre en évidence</p>
 </button>
 <div class="feedback">
 

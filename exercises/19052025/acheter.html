@@ -263,22 +263,22 @@ ul.task-list li input[type="checkbox"] {
 <p>Conjugate the verb for each subject.</p>
 <p>Je (acheter) <input type="text" placeholder="Your answer"><br>
 <button onclick="revealAnswer(this, 'J\'achète un livre.')">Check</button><br>
-<span class="feedback"></span></p>
+</p>
 <p>Tu (préférer) <input type="text" placeholder="Your answer"><br>
 <button onclick="revealAnswer(this, 'Tu préfères le café.')">Check</button><br>
-<span class="feedback"></span></p>
+</p>
 <p>Il (espérer) <input type="text" placeholder="Your answer"><br>
 <button onclick="revealAnswer(this, 'Il espère gagner.')">Check</button><br>
-<span class="feedback"></span></p>
+</p>
 <p>Nous (répéter) <input type="text" placeholder="Your answer"><br>
 <button onclick="revealAnswer(this, 'Nous répétons la chanson.')">Check</button><br>
-<span class="feedback"></span></p>
+</p>
 <p>Vous (céder) <input type="text" placeholder="Your answer"><br>
 <button onclick="revealAnswer(this, 'Vous cédez la place.')">Check</button><br>
-<span class="feedback"></span></p>
+</p>
 <p>Elles (acheter) <input type="text" placeholder="Your answer"><br>
 <button onclick="revealAnswer(this, 'Elles achètent des fleurs.')">Check</button><br>
-<span class="feedback"></span></p>
+</p>
 <script>
 function revealAnswer(button, correctAnswer) {
     const feedback = button.nextElementSibling.nextElementSibling;
@@ -291,36 +291,32 @@ function revealAnswer(button, correctAnswer) {
 <section id="sentence-correction" class="level3">
 <h3 class="anchored" data-anchor-id="sentence-correction">2. Sentence Correction</h3>
 <p>Fix the incorrect conjugations (watch for missing “è” changes!).</p>
-Je prefere le thé. →
+<p>Je prefere le thé. →</p>
 <textarea rows="1" cols="30" placeholder="Corrected sentence..."></textarea>
 <button onclick="checkCorrection(this.previousElementSibling, 'Je préfère le thé.')">
-Check
+<p>Check</p>
 </button>
-<p><span class="feedback"></span></p>
-Nous esprons partir. →
+<p>Nous esprons partir. →</p>
 <textarea rows="1" cols="30" placeholder="Corrected sentence..."></textarea>
 <button onclick="checkCorrection(this.previousElementSibling, 'Nous espérons partir.')">
-Check
+<p>Check</p>
 </button>
-<p><span class="feedback"></span></p>
 <p><em>(Note: “Nous” form keeps the original “e”!)</em></p>
 <hr>
 </section>
 <section id="translation-challenge" class="level3">
 <h3 class="anchored" data-anchor-id="translation-challenge">3. Translation Challenge</h3>
 <p>Translate into French using stem-changing verbs:</p>
-She hopes to travel. →
+<p>She hopes to travel. →</p>
 <textarea rows="1" cols="40" placeholder="French translation..."></textarea>
 <button onclick="checkTranslation(this.previousElementSibling, 'Elle espère voyager.')">
-Check
+<p>Check</p>
 </button>
-<p><span class="feedback"></span></p>
-We buy a car. →
+<p>We buy a car. →</p>
 <textarea rows="1" cols="40" placeholder="French translation..."></textarea>
 <button onclick="checkTranslation(this.previousElementSibling, 'Nous achetons une voiture.')">
-Check
+<p>Check</p>
 </button>
-<p><span class="feedback"></span></p>
 <hr>
 </section>
 <section id="creative-writing" class="level3">
@@ -328,7 +324,7 @@ Check
 <p>Write 3 sentences about shopping or preferences using at least 2 different stem-changing verbs. Highlight the verbs.</p>
 <textarea rows="5" cols="100" placeholder="Ex: J'achète des légumes..."></textarea>
 <button onclick="highlightStemChangeVerbs(this.previousElementSibling)">
-Highlight Verbs
+<p>Highlight Verbs</p>
 </button>
 <div class="feedback">
 
