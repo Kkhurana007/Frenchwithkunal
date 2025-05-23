@@ -7,6 +7,7 @@ image: "verb_accord.png"
 ---
 
 ::: {.content-visible when-profile="english"}
+
 ### The Imperfect Tense in French: How to Form It
 
 The imparfait (imperfect) is used to describe ongoing or repeated actions in the past. To form the imparfait:
@@ -90,17 +91,8 @@ Take the "nous" form in present, remove "-ons", add the endings above.
 
 ------------------------------------------------------------------------
 
-<button onclick="showAnswers()">
-
-Show Answers
-
-</button>
-
-<button onclick="refreshPage()">
-
-Try Again
-
-</button>
+<button onclick="showAnswers()">Show Answers</button>
+<button onclick="refreshPage()">Try Again</button>
 
 ### Practice
 
@@ -108,13 +100,11 @@ Write 3 sentences using the imparfait with a verb from each group.
 
 <p>
 
-```{=html}
 <textarea rows="3" style="width:100%;" placeholder="Write your sentences here..."></textarea>
-```
 
 </p>
 
-```{=html}
+
 <script>
 function checkAnswer(input, correctAnswer) {
     const span = input.nextElementSibling;
@@ -157,10 +147,11 @@ function refreshPage() {
     location.reload();
 }
 </script>
-```
+
 :::
 
 ::: {.content-visible when-profile="french"}
+
 ### Le Présent en Français : Les Trois Groupes de Verbes
 
 En français, les verbes sont classés en trois groupes selon leur terminaison et leur modèle de conjugaison au présent.
@@ -243,21 +234,12 @@ Complétez avec la bonne forme du verbe au présent.
 
 Écrivez 3 phrases en utilisant un verbe de chaque groupe au présent.
 
-```{=html}
 <textarea rows="3" style="width:100%;" placeholder="Écrivez vos phrases ici..."></textarea>
-```
 
-<button onclick="showAnswers()">
 
-Afficher les réponses
+<button onclick="showAnswers()">Afficher les réponses</button>
 
-</button>
-
-<button onclick="refreshPage()">
-
-Réessayer
-
-</button>
+<button onclick="refreshPage()">Réessayer</button>
 
 ------------------------------------------------------------------------
 
@@ -267,7 +249,7 @@ Réessayer
 -   **Deuxième groupe :** Verbes réguliers en -ir avec -issons à la forme "nous".
 -   **Troisième groupe :** Verbes irréguliers, il faut mémoriser leurs modèles.
 
-```{=html}
+
 <script>
 function checkAnswer(input, correctAnswer) {
     const span = input.nextElementSibling;
@@ -310,5 +292,5 @@ function refreshPage() {
     location.reload();
 }
 </script>
-```
+
 :::

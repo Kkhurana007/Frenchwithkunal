@@ -86,9 +86,13 @@ ul.task-list li input[type="checkbox"] {
 <meta property="og:description" content="">
 <meta property="og:image" content="https://frenchwithkunal.ca/exercises/22052025/adverbes_affirmation.png">
 <meta property="og:site_name" content="French with Kunal">
+<meta property="og:image:height" content="247">
+<meta property="og:image:width" content="536">
 <meta name="twitter:title" content="Adverbs of Affirmation (Adverbes d’affirmation) in French – French with Kunal">
 <meta name="twitter:description" content="">
 <meta name="twitter:image" content="https://frenchwithkunal.ca/exercises/22052025/adverbes_affirmation.png">
+<meta name="twitter:image-height" content="247">
+<meta name="twitter:image-width" content="536">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -378,38 +382,6 @@ Try Again
 </button>
 <script>
 function checkAnswer(input, correctAnswer) {
-     const span = input.nextElementSibling;
-     if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
-          span.textContent = "✓ Correct";
-          span.style.color = "green";
-     } else {
-          span.textContent = "";
-     }
-}
-
-function showAnswers() {
-     document.querySelectorAll('input[type="text"]').forEach(el => {
-          const correct = el.getAttribute('oninput')?.match(/'([^']+)'/)?.[1];
-          if (correct) {
-                const span = el.nextElementSibling;
-                span.textContent = `Answer: ${correct}`;
-                span.style.color = "blue";
-          }
-     });
-}
-
-function refreshPage() {
-     location.reload();
-}
-</script>
-<button onclick="showAnswers()">
-Show Answers
-</button>
-<button onclick="refreshPage()">
-Try Again
-</button>
-<script>
-function checkAnswer(input, correctAnswer) {
     const span = input.nextElementSibling;
     if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
         span.textContent = "✓ Correct";
@@ -434,7 +406,6 @@ function refreshPage() {
     location.reload();
 }
 </script>
-<p>:::</p>
 
 
 </section>

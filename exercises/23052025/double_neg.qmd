@@ -1,0 +1,211 @@
+---
+title: "Double Négations en Français : ne ... ni ... ni ..."
+author: "Kunal Khurana"
+date: "05-20-2025"
+categories: [B1, grammar, negatives, double-negation, exercises]
+image: "double_negation_french.png"
+---
+
+::: {.content-visible when-profile="english"}
+
+# Double Negation in French: ne ... ni ... ni ...
+
+In French, double negation is used to express the absence of two or more elements. The structure is:
+
+**Case 1 (with definite articles):**  
+`sujet + ne + verbe + ni + article défini + nom + ni + article défini + nom`
+
+*Example:*  
+Je ne mange ni la viande ni le poisson.  
+(I eat neither meat nor fish.)
+
+**Case 2 (without articles):**  
+`sujet + ne + verbe + ni + nom + ni + nom`
+
+*Example:*  
+Elle n'a ni frère ni sœur.  
+(She has neither brother nor sister.)
+
+**Note:**  
+- After "ni", the articles "le", "la", "les" (definite) are kept, but "un", "une", "des" (indefinite) are dropped.
+- The verb always takes "ne" before it.
+
+## Common Patterns
+
+| Structure                                      | Example (FR)                         | Example (EN)                       |
+|------------------------------------------------|--------------------------------------|------------------------------------|
+| ne ... ni ... ni ... (with definite articles)   | Il ne visite ni le musée ni la plage.| He visits neither the museum nor the beach. |
+| ne ... ni ... ni ... (without articles)         | Nous n'avons ni chat ni chien.       | We have neither cat nor dog.       |
+
+# Exercises
+
+## 1. Transform the sentences
+
+Transform the following affirmative sentences into their correct double negative forms in French.
+
+1. Je mange la viande et le poisson. <input type="text" placeholder="" oninput="checkAnswer(this, 'Je ne mange ni la viande ni le poisson.')"><span></span>
+2. Elle a un frère et une sœur. <input type="text" placeholder="" oninput="checkAnswer(this, 'Elle n\'a ni frère ni sœur.')"><span></span>
+3. Nous visitons le musée et la plage. <input type="text" placeholder="" oninput="checkAnswer(this, 'Nous ne visitons ni le musée ni la plage.')"><span></span>
+4. Il boit du thé et du café. <input type="text" placeholder="" oninput="checkAnswer(this, 'Il ne boit ni thé ni café.')"><span></span>
+5. Vous aimez le chocolat et la vanille. <input type="text" placeholder="" oninput="checkAnswer(this, 'Vous n\'aimez ni le chocolat ni la vanille.')"><span></span>
+6. Ils ont des stylos et des crayons. <input type="text" placeholder="" oninput="checkAnswer(this, 'Ils n\'ont ni stylos ni crayons.')"><span></span>
+7. Tu lis le journal et le livre. <input type="text" placeholder="" oninput="checkAnswer(this, 'Tu ne lis ni le journal ni le livre.')"><span></span>
+8. Elle porte une robe et une jupe. <input type="text" placeholder="" oninput="checkAnswer(this, 'Elle ne porte ni robe ni jupe.')"><span></span>
+9. Nous achetons du pain et du fromage. <input type="text" placeholder="" oninput="checkAnswer(this, 'Nous n\'achetons ni pain ni fromage.')"><span></span>
+10. Il regarde la télévision et écoute la radio. <input type="text" placeholder="" oninput="checkAnswer(this, 'Il ne regarde ni la télévision ni n\'écoute la radio.')"><span></span>
+11. Vous prenez le bus et le métro. <input type="text" placeholder="" oninput="checkAnswer(this, 'Vous ne prenez ni le bus ni le métro.')"><span></span>
+12. Elles portent des chaussures et des chaussettes. <input type="text" placeholder="" oninput="checkAnswer(this, 'Elles ne portent ni chaussures ni chaussettes.')"><span></span>
+13. Tu as un stylo et un crayon. <input type="text" placeholder="" oninput="checkAnswer(this, 'Tu n\'as ni stylo ni crayon.')"><span></span>
+14. Il mange le gâteau et la glace. <input type="text" placeholder="" oninput="checkAnswer(this, 'Il ne mange ni le gâteau ni la glace.')"><span></span>
+15. Nous voyons le film et la pièce de théâtre. <input type="text" placeholder="" oninput="checkAnswer(this, 'Nous ne voyons ni le film ni la pièce de théâtre.')"><span></span>
+16. Elle lit des romans et des magazines. <input type="text" placeholder="" oninput="checkAnswer(this, 'Elle ne lit ni romans ni magazines.')"><span></span>
+17. Ils jouent au football et au tennis. <input type="text" placeholder="" oninput="checkAnswer(this, 'Ils ne jouent ni au football ni au tennis.')"><span></span>
+18. Tu bois du lait et du jus. <input type="text" placeholder="" oninput="checkAnswer(this, 'Tu ne bois ni lait ni jus.')"><span></span>
+19. Je visite la France et l’Italie. <input type="text" placeholder="" oninput="checkAnswer(this, 'Je ne visite ni la France ni l\'Italie.')"><span></span>
+20. Vous mangez des pommes et des poires. <input type="text" placeholder="" oninput="checkAnswer(this, 'Vous ne mangez ni pommes ni poires.')"><span></span>
+
+---
+
+## 2. Practice: Write your own sentences
+
+Write your own sentences using "ne ... ni ... ni ..." to express double negation in French.
+
+1. <input type="text" placeholder="Write your sentence here" style="width: 80%; font-size: 1.1em;"><span></span>
+2. <input type="text" placeholder="Write your sentence here" style="width: 80%; font-size: 1.1em;"><span></span>
+3. <input type="text" placeholder="Write your sentence here" style="width: 80%; font-size: 1.1em;"><span></span>
+4. <input type="text" placeholder="Write your sentence here" style="width: 80%; font-size: 1.1em;"><span></span>
+5. <input type="text" placeholder="Write your sentence here" style="width: 80%; font-size: 1.1em;"><span></span>
+
+<button onclick="showAnswers()">Show Answers</button>
+<button onclick="refreshPage()">Try Again</button>
+
+<script>
+function checkAnswer(input, correctAnswer) {
+    const span = input.nextElementSibling;
+    if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
+        span.textContent = "✓ Correct";
+        span.style.color = "green";
+    } else {
+        span.textContent = "";
+    }
+}
+
+function showAnswers() {
+    document.querySelectorAll('input[type="text"]').forEach(el => {
+        const correct = el.getAttribute('oninput')?.match(/'([^']+)'/)?.[1];
+        if (correct) {
+            const span = el.nextElementSibling;
+            span.textContent = `Réponse : ${correct}`;
+            span.style.color = "blue";
+        }
+    });
+}
+
+function refreshPage() {
+    location.reload();
+}
+</script>
+
+:::
+
+
+::: {.content-visible when-profile="french"}
+
+# Les phrases négatives en français
+
+En français, la double négation « ne ... ni ... ni ... » permet d’exprimer l’absence de deux éléments ou plus. La structure est la suivante :
+
+**Cas 1 (avec articles définis) :**  
+`sujet + ne + verbe + ni + article défini + nom + ni + article défini + nom`
+
+*Exemple :*  
+Je ne mange ni la viande ni le poisson.
+
+**Cas 2 (sans articles) :**  
+`sujet + ne + verbe + ni + nom + ni + nom`
+
+*Exemple :*  
+Elle n’a ni frère ni sœur.
+
+**Remarques :**  
+- Après « ni », les articles définis (« le », « la », « les ») sont conservés, mais les articles indéfinis (« un », « une », « des ») disparaissent.
+- Le verbe est toujours encadré par « ne » et « ni ».
+
+## Structures courantes
+
+| Structure                                    | Exemple (FR)                         | Exemple (EN)                       |
+|-----------------------------------------------|--------------------------------------|------------------------------------|
+| ne ... ni ... ni ... (avec articles définis)  | Il ne visite ni le musée ni la plage.| He visits neither the museum nor the beach. |
+| ne ... ni ... ni ... (sans articles)          | Nous n’avons ni chat ni chien.       | We have neither cat nor dog.       |
+
+# Exercices
+
+## 1. Transformez les phrases
+
+Transformez les phrases affirmatives suivantes en phrases négatives avec « ne ... ni ... ni ... ».
+
+1. Je mange la viande et le poisson. <input type="text" placeholder="" oninput="checkAnswer(this, 'Je ne mange ni la viande ni le poisson.')"><span></span>
+2. Elle a un frère et une sœur. <input type="text" placeholder="" oninput="checkAnswer(this, 'Elle n\'a ni frère ni sœur.')"><span></span>
+3. Nous visitons le musée et la plage. <input type="text" placeholder="" oninput="checkAnswer(this, 'Nous ne visitons ni le musée ni la plage.')"><span></span>
+4. Il boit du thé et du café. <input type="text" placeholder="" oninput="checkAnswer(this, 'Il ne boit ni thé ni café.')"><span></span>
+5. Vous aimez le chocolat et la vanille. <input type="text" placeholder="" oninput="checkAnswer(this, 'Vous n\'aimez ni le chocolat ni la vanille.')"><span></span>
+6. Ils ont des stylos et des crayons. <input type="text" placeholder="" oninput="checkAnswer(this, 'Ils n\'ont ni stylos ni crayons.')"><span></span>
+7. Tu lis le journal et le livre. <input type="text" placeholder="" oninput="checkAnswer(this, 'Tu ne lis ni le journal ni le livre.')"><span></span>
+8. Elle porte une robe et une jupe. <input type="text" placeholder="" oninput="checkAnswer(this, 'Elle ne porte ni robe ni jupe.')"><span></span>
+9. Nous achetons du pain et du fromage. <input type="text" placeholder="" oninput="checkAnswer(this, 'Nous n\'achetons ni pain ni fromage.')"><span></span>
+10. Il regarde la télévision et écoute la radio. <input type="text" placeholder="" oninput="checkAnswer(this, 'Il ne regarde ni la télévision ni n\'écoute la radio.')"><span></span>
+11. Vous prenez le bus et le métro. <input type="text" placeholder="" oninput="checkAnswer(this, 'Vous ne prenez ni le bus ni le métro.')"><span></span>
+12. Elles portent des chaussures et des chaussettes. <input type="text" placeholder="" oninput="checkAnswer(this, 'Elles ne portent ni chaussures ni chaussettes.')"><span></span>
+13. Tu as un stylo et un crayon. <input type="text" placeholder="" oninput="checkAnswer(this, 'Tu n\'as ni stylo ni crayon.')"><span></span>
+14. Il mange le gâteau et la glace. <input type="text" placeholder="" oninput="checkAnswer(this, 'Il ne mange ni le gâteau ni la glace.')"><span></span>
+15. Nous voyons le film et la pièce de théâtre. <input type="text" placeholder="" oninput="checkAnswer(this, 'Nous ne voyons ni le film ni la pièce de théâtre.')"><span></span>
+16. Elle lit des romans et des magazines. <input type="text" placeholder="" oninput="checkAnswer(this, 'Elle ne lit ni romans ni magazines.')"><span></span>
+17. Ils jouent au football et au tennis. <input type="text" placeholder="" oninput="checkAnswer(this, 'Ils ne jouent ni au football ni au tennis.')"><span></span>
+18. Tu bois du lait et du jus. <input type="text" placeholder="" oninput="checkAnswer(this, 'Tu ne bois ni lait ni jus.')"><span></span>
+19. Je visite la France et l’Italie. <input type="text" placeholder="" oninput="checkAnswer(this, 'Je ne visite ni la France ni l\'Italie.')"><span></span>
+20. Vous mangez des pommes et des poires. <input type="text" placeholder="" oninput="checkAnswer(this, 'Vous ne mangez ni pommes ni poires.')"><span></span>
+
+---
+
+## 2. Pratique : Écrivez vos propres phrases
+
+Écrivez vos propres phrases en utilisant « ne ... ni ... ni ... » pour exprimer la double négation en français.
+
+1. <input type="text" placeholder="Écrivez votre phrase ici" style="width: 80%; font-size: 1.1em;"><span></span>
+2. <input type="text" placeholder="Écrivez votre phrase ici" style="width: 80%; font-size: 1.1em;"><span></span>
+3. <input type="text" placeholder="Écrivez votre phrase ici" style="width: 80%; font-size: 1.1em;"><span></span>
+4. <input type="text" placeholder="Écrivez votre phrase ici" style="width: 80%; font-size: 1.1em;"><span></span>
+5. <input type="text" placeholder="Écrivez votre phrase ici" style="width: 80%; font-size: 1.1em;"><span></span>
+
+<button onclick="showAnswers()">Afficher les réponses</button>
+<button onclick="refreshPage()">Réessayer</button>
+
+<script>
+function checkAnswer(input, correctAnswer) {
+        const span = input.nextElementSibling;
+        if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
+                span.textContent = "✓ Correct";
+                span.style.color = "green";
+        } else {
+                span.textContent = "";
+        }
+}
+
+function showAnswers() {
+        document.querySelectorAll('input[type="text"]').forEach(el => {
+                const correct = el.getAttribute('oninput')?.match(/'([^']+)'/)?.[1];
+                if (correct) {
+                        const span = el.nextElementSibling;
+                        span.textContent = `Réponse : ${correct}`;
+                        span.style.color = "blue";
+                }
+        });
+}
+
+function refreshPage() {
+        location.reload();
+}
+</script>
+
+
+:::

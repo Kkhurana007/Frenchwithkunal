@@ -556,5 +556,20 @@
   },
   "exercises/22052025/adv_placement.qmd": {
     "adv_placement.html": "cde7818a"
+  },
+  "exercises/23052025/ph_negative.qmd": {
+    "ph_negative.html": "a47372e4"
+  },
+  "exercises/23052025/neg.qmd": {
+    "neg.html": "2ae40a33"
+  },
+  "exercises/23052025/neg2.qmd": {
+    "neg2.html": "4c616dd5"
+  },
+  "exercises/23052025/double_neg.qmd": {
+    "double_neg.html": "d8e9cf03"
+  },
+  "exercises/23052025/restrictive.qmd": {
+    "restrictive.html": "a8bb885a"
   }
 }

@@ -3,7 +3,7 @@ title: "The Conditional Tense (Le Conditionnel) in French"
 author: "Kunal Khurana"
 date: "05-20-2025"
 categories: [B1, grammar, conditionnel, exercises]
-image: "conditionnel.png"
+image: "construction.png"
 ---
 
 ::: {.content-visible when-profile="english"}

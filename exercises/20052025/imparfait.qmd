@@ -7,6 +7,7 @@ image: "imparfait.png"
 ---
 
 ::: {.content-visible when-profile="english"}
+
 ### Understanding the Imperfect Tense (L'Imparfait)
 
 The **imparfait** is a past tense in French used to describe actions or situations that lasted for a certain time, were habitual, or set the scene in the past. It is also used for repeated actions and to express hypotheses.
@@ -87,21 +88,12 @@ Type "imparfait" or "passé composé":
 
 Write a short paragraph (3-5 sentences) explaining what you have learned about the imparfait in French. Use your own words and, if possible, give an example.\
 
-```{=html}
+
 <textarea rows="5" style="width:100%;" placeholder="Write here what you have learned..."></textarea>
-```
 
-<button onclick="showAnswers()">
 
-Show answers
-
-</button>
-
-<button onclick="refreshPage()">
-
-Try again
-
-</button>
+<button onclick="showAnswers()">Show answers</button>
+<button onclick="refreshPage()">Try again</button>
 
 ------------------------------------------------------------------------
 
@@ -112,8 +104,9 @@ Try again
 -   The stem comes from the "nous" form of the present tense.
 -   *Être* is irregular: *j'étais, tu étais, il/elle était, nous étions, vous étiez, ils/elles étaient*.
 
-```{=html}
+
 <script>
+
 function checkAnswer(input, correctAnswer) {
      const span = input.nextElementSibling;
      if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
@@ -139,7 +132,7 @@ function refreshPage() {
      location.reload();
 }
 </script>
-```
+
 :::
 
 ::: {.content-visible when-profile="french"}
@@ -265,7 +258,6 @@ Nouvel essai
 
 </button>
 
-```{=html}
 <script>
 function checkAnswer(input, correctAnswer) {
      const span = input.nextElementSibling;
@@ -292,7 +284,7 @@ function refreshPage() {
      location.reload();
 }
 </script>
-```
+
 
 ------------------------------------------------------------------------
 :::

@@ -82,7 +82,7 @@ Write a short paragraph (3-5 sentences) explaining how and when to use the futur
 
 </ul>
 
-
+```{=html}
 <script>
 function checkAnswer(input, correctAnswer) {
     const span = input.nextElementSibling;
@@ -109,7 +109,7 @@ function refreshPage() {
     location.reload();
 }
 </script>
-
+```
 :::
 ::::
 :::::

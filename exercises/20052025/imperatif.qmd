@@ -5,8 +5,8 @@ date: "05-15-2025"
 categories: [B1, grammar, imperatif, exercises]
 image: "imperatif.png"
 ---
-::: {.content-visible when-profile="english"}
 
+::: {.content-visible when-profile="english"}
 
 ## Introduction
 
@@ -16,9 +16,9 @@ The imperative mood (l'impératif) is used to give commands, make requests, or o
 
 The imperative is formed using the present tense, but only with three persons:
 
-- **tu** (you, singular/informal)
-- **nous** (we, let’s)
-- **vous** (you, plural/formal)
+-   **tu** (you, singular/informal)
+-   **nous** (we, let’s)
+-   **vous** (you, plural/formal)
 
 **Note:** The subject pronoun is omitted in the imperative.
 
@@ -26,108 +26,113 @@ The imperative is formed using the present tense, but only with three persons:
 
 #### -ER Verbs
 
-- For **tu**, drop the final -s from the present tense form.
-- For **nous** and **vous**, use the regular present tense forms.
+-   For **tu**, drop the final -s from the present tense form.
+-   For **nous** and **vous**, use the regular present tense forms.
 
-**Examples:**
-- Parler (to speak):  
-    - (tu) Parle !  
-    - (nous) Parlons !  
-    - (vous) Parlez !
+**Examples:** - Parler (to speak):\
+- (tu) Parle !\
+- (nous) Parlons !\
+- (vous) Parlez !
 
 #### -IR and -RE Verbs
 
-- Use the present tense forms for tu, nous, and vous.
+-   Use the present tense forms for tu, nous, and vous.
 
-**Examples:**
-- Finir (to finish):  
-    - (tu) Finis !  
-    - (nous) Finissons !  
-    - (vous) Finissez !
+**Examples:** - Finir (to finish):\
+- (tu) Finis !\
+- (nous) Finissons !\
+- (vous) Finissez !
 
-- Attendre (to wait):  
-    - (tu) Attends !  
-    - (nous) Attendons !  
-    - (vous) Attendez !
+-   Attendre (to wait):
+    -   (tu) Attends !\
+    -   (nous) Attendons !\
+    -   (vous) Attendez !
 
 ### Negative Form
 
 Place **ne** before the verb and **pas** after.
 
-- Ne parle pas ! (Don’t speak!)
-- N’attendons pas ! (Let’s not wait!)
+-   Ne parle pas ! (Don’t speak!)
+-   N’attendons pas ! (Let’s not wait!)
 
 ## Les verbes pronominaux (Reflexive Verbs)
 
 For reflexive verbs, the reflexive pronoun comes after the verb and is connected with a hyphen.
 
-- Lève-toi ! (Get up!)
-- Levons-nous ! (Let’s get up!)
-- Levez-vous ! (Get up!)
+-   Lève-toi ! (Get up!)
+-   Levons-nous ! (Let’s get up!)
+-   Levez-vous ! (Get up!)
 
 **Negative:** The reflexive pronoun goes before the verb.
 
-- Ne te lève pas !
-- Ne nous levons pas !
-- Ne vous levez pas !
-
+-   Ne te lève pas !
+-   Ne nous levons pas !
+-   Ne vous levez pas !
 
 ### Exercices
+
 #### 1. Conjugate the following verbs in the imperative (tu, nous, vous):
 
-1. parler  
-    - <input type="text" placeholder="tu" oninput="checkAnswer(this, 'parle')"><span></span>
-    - <input type="text" placeholder="nous" oninput="checkAnswer(this, 'parlons')"><span></span>
-    - <input type="text" placeholder="vous" oninput="checkAnswer(this, 'parlez')"><span></span>
-2. finir  
-    - <input type="text" placeholder="tu" oninput="checkAnswer(this, 'finis')"><span></span>
-    - <input type="text" placeholder="nous" oninput="checkAnswer(this, 'finissons')"><span></span>
-    - <input type="text" placeholder="vous" oninput="checkAnswer(this, 'finissez')"><span></span>
-3. attendre  
-    - <input type="text" placeholder="tu" oninput="checkAnswer(this, 'attends')"><span></span>
-    - <input type="text" placeholder="nous" oninput="checkAnswer(this, 'attendons')"><span></span>
-    - <input type="text" placeholder="vous" oninput="checkAnswer(this, 'attendez')"><span></span>
-4. aller  
-    - <input type="text" placeholder="tu" oninput="checkAnswer(this, 'va')"><span></span>
-    - <input type="text" placeholder="nous" oninput="checkAnswer(this, 'allons')"><span></span>
-    - <input type="text" placeholder="vous" oninput="checkAnswer(this, 'allez')"><span></span>
-5. avoir  
-    - <input type="text" placeholder="tu" oninput="checkAnswer(this, 'aie')"><span></span>
-    - <input type="text" placeholder="nous" oninput="checkAnswer(this, 'ayons')"><span></span>
-    - <input type="text" placeholder="vous" oninput="checkAnswer(this, 'ayez')"><span></span>
+1.  parler
+    -   <input type="text" placeholder="tu" oninput="checkAnswer(this, 'parle')">
+    -   <input type="text" placeholder="nous" oninput="checkAnswer(this, 'parlons')">
+    -   <input type="text" placeholder="vous" oninput="checkAnswer(this, 'parlez')">
+2.  finir
+    -   <input type="text" placeholder="tu" oninput="checkAnswer(this, 'finis')">
+    -   <input type="text" placeholder="nous" oninput="checkAnswer(this, 'finissons')">
+    -   <input type="text" placeholder="vous" oninput="checkAnswer(this, 'finissez')">
+3.  attendre
+    -   <input type="text" placeholder="tu" oninput="checkAnswer(this, 'attends')">
+    -   <input type="text" placeholder="nous" oninput="checkAnswer(this, 'attendons')">
+    -   <input type="text" placeholder="vous" oninput="checkAnswer(this, 'attendez')">
+4.  aller
+    -   <input type="text" placeholder="tu" oninput="checkAnswer(this, 'va')">
+    -   <input type="text" placeholder="nous" oninput="checkAnswer(this, 'allons')">
+    -   <input type="text" placeholder="vous" oninput="checkAnswer(this, 'allez')">
+5.  avoir
+    -   <input type="text" placeholder="tu" oninput="checkAnswer(this, 'aie')">
+    -   <input type="text" placeholder="nous" oninput="checkAnswer(this, 'ayons')">
+    -   <input type="text" placeholder="vous" oninput="checkAnswer(this, 'ayez')">
 
 #### 2. Change the sentences to the negative imperative form:
 
-1. Parle ! → <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'Ne parle pas !')"><span></span>
-2. Finissons ! → <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'Ne finissons pas !')"><span></span>
-3. Attendez ! → <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'N\'attendez pas !')"><span></span>
-4. Va ! → <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'Ne va pas !')"><span></span>
-5. Ayez ! → <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'N\'ayez pas !')"><span></span>
+1.  Parle ! → <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'Ne parle pas !')">
+2.  Finissons ! → <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'Ne finissons pas !')">
+3.  Attendez ! → <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'N\'attendez pas !')">
+4.  Va ! → <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'Ne va pas !')">
+5.  Ayez ! → <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'N\'ayez pas !')">
 
 #### 3. Complete with the correct imperative form for reflexive verbs:
 
-1. (tu) se lever → <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'Lève-toi !')"><span></span>
-2. (nous) se dépêcher → <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'Dépêchons-nous !')"><span></span>
-3. (vous) se reposer → <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'Reposez-vous !')"><span></span>
-4. (tu, negative) se coucher → <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'Ne te couche pas !')"><span></span>
-5. (nous, negative) se taire → <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'Ne nous taisons pas !')"><span></span>
+1.  (tu) se lever → <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'Lève-toi !')">
+2.  (nous) se dépêcher → <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'Dépêchons-nous !')">
+3.  (vous) se reposer → <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'Reposez-vous !')">
+4.  (tu, negative) se coucher → <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'Ne te couche pas !')">
+5.  (nous, negative) se taire → <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'Ne nous taisons pas !')">
 
-<button onclick="showAnswers()">Show Answers</button>
-<button onclick="refreshPage()">Try Again</button>
+<button onclick="showAnswers()">
+
+Show Answers
+
+</button>
+
+<button onclick="refreshPage()">
+
+Try Again
+
+</button>
 
 ## More Examples with Irregular Verbs
 
 Here are some common expressions using the imperative with irregular verbs:
 
-- Aie confiance en toi ! (Have confidence in yourself!)
-- Sache écouter les autres. (Know how to listen to others.)
-- Veuillez patienter un instant. (Please wait a moment.)
-- Soyons prudents ! (Let’s be careful!)
-
+-   Aie confiance en toi ! (Have confidence in yourself!)
+-   Sache écouter les autres. (Know how to listen to others.)
+-   Veuillez patienter un instant. (Please wait a moment.)
+-   Soyons prudents ! (Let’s be careful!)
 :::
 
 ::: {.content-visible when-profile="french"}
-
 ## Introduction
 
 Le mode impératif est utilisé pour donner des ordres, faire des demandes ou donner des conseils en français. C’est une structure essentielle pour la communication quotidienne.
@@ -136,9 +141,9 @@ Le mode impératif est utilisé pour donner des ordres, faire des demandes ou do
 
 L’impératif se forme à partir du présent, mais seulement avec trois personnes :
 
-- **tu** (tu, singulier/informel)
-- **nous** (nous, suggestion)
-- **vous** (vous, pluriel/formel)
+-   **tu** (tu, singulier/informel)
+-   **nous** (nous, suggestion)
+-   **vous** (vous, pluriel/formel)
 
 **Remarque :** Le pronom sujet est omis à l’impératif.
 
@@ -146,106 +151,113 @@ L’impératif se forme à partir du présent, mais seulement avec trois personn
 
 #### Verbes en -ER
 
-- Pour **tu**, on enlève le -s final de la forme du présent.
-- Pour **nous** et **vous**, on utilise les formes régulières du présent.
+-   Pour **tu**, on enlève le -s final de la forme du présent.
+-   Pour **nous** et **vous**, on utilise les formes régulières du présent.
 
-**Exemples :**
-- Parler :  
-    - (tu) Parle !  
-    - (nous) Parlons !  
-    - (vous) Parlez !
+**Exemples :** - Parler :\
+- (tu) Parle !\
+- (nous) Parlons !\
+- (vous) Parlez !
 
 #### Verbes en -IR et -RE
 
-- On utilise les formes du présent pour tu, nous et vous.
+-   On utilise les formes du présent pour tu, nous et vous.
 
-**Exemples :**
-- Finir :  
-    - (tu) Finis !  
-    - (nous) Finissons !  
-    - (vous) Finissez !
+**Exemples :** - Finir :\
+- (tu) Finis !\
+- (nous) Finissons !\
+- (vous) Finissez !
 
-- Attendre :  
-    - (tu) Attends !  
-    - (nous) Attendons !  
-    - (vous) Attendez !
+-   Attendre :
+    -   (tu) Attends !\
+    -   (nous) Attendons !\
+    -   (vous) Attendez !
 
 ### Forme négative
 
 Placez **ne** avant le verbe et **pas** après.
 
-- Ne parle pas ! (Ne parle pas !)
-- N’attendons pas ! (N’attendons pas !)
+-   Ne parle pas ! (Ne parle pas !)
+-   N’attendons pas ! (N’attendons pas !)
 
 ## Les verbes pronominaux
 
 Pour les verbes pronominaux, le pronom réfléchi se place après le verbe et est relié par un trait d’union.
 
-- Lève-toi ! (Lève-toi !)
-- Levons-nous ! (Levons-nous !)
-- Levez-vous ! (Levez-vous !)
+-   Lève-toi ! (Lève-toi !)
+-   Levons-nous ! (Levons-nous !)
+-   Levez-vous ! (Levez-vous !)
 
 **Négatif :** Le pronom réfléchi précède le verbe.
 
-- Ne te lève pas !
-- Ne nous levons pas !
-- Ne vous levez pas !
+-   Ne te lève pas !
+-   Ne nous levons pas !
+-   Ne vous levez pas !
 
 ### Exercices
 
 #### 1. Conjuguez les verbes suivants à l’impératif (tu, nous, vous) :
 
-1. parler  
-    - <input type="text" placeholder="tu" oninput="checkAnswer(this, 'parle')"><span></span>
-    - <input type="text" placeholder="nous" oninput="checkAnswer(this, 'parlons')"><span></span>
-    - <input type="text" placeholder="vous" oninput="checkAnswer(this, 'parlez')"><span></span>
-2. finir  
-    - <input type="text" placeholder="tu" oninput="checkAnswer(this, 'finis')"><span></span>
-    - <input type="text" placeholder="nous" oninput="checkAnswer(this, 'finissons')"><span></span>
-    - <input type="text" placeholder="vous" oninput="checkAnswer(this, 'finissez')"><span></span>
-3. attendre  
-    - <input type="text" placeholder="tu" oninput="checkAnswer(this, 'attends')"><span></span>
-    - <input type="text" placeholder="nous" oninput="checkAnswer(this, 'attendons')"><span></span>
-    - <input type="text" placeholder="vous" oninput="checkAnswer(this, 'attendez')"><span></span>
-4. aller  
-    - <input type="text" placeholder="tu" oninput="checkAnswer(this, 'va')"><span></span>
-    - <input type="text" placeholder="nous" oninput="checkAnswer(this, 'allons')"><span></span>
-    - <input type="text" placeholder="vous" oninput="checkAnswer(this, 'allez')"><span></span>
-5. avoir  
-    - <input type="text" placeholder="tu" oninput="checkAnswer(this, 'aie')"><span></span>
-    - <input type="text" placeholder="nous" oninput="checkAnswer(this, 'ayons')"><span></span>
-    - <input type="text" placeholder="vous" oninput="checkAnswer(this, 'ayez')"><span></span>
+1.  parler
+    -   <input type="text" placeholder="tu" oninput="checkAnswer(this, 'parle')">
+    -   <input type="text" placeholder="nous" oninput="checkAnswer(this, 'parlons')">
+    -   <input type="text" placeholder="vous" oninput="checkAnswer(this, 'parlez')">
+2.  finir
+    -   <input type="text" placeholder="tu" oninput="checkAnswer(this, 'finis')">
+    -   <input type="text" placeholder="nous" oninput="checkAnswer(this, 'finissons')">
+    -   <input type="text" placeholder="vous" oninput="checkAnswer(this, 'finissez')">
+3.  attendre
+    -   <input type="text" placeholder="tu" oninput="checkAnswer(this, 'attends')">
+    -   <input type="text" placeholder="nous" oninput="checkAnswer(this, 'attendons')">
+    -   <input type="text" placeholder="vous" oninput="checkAnswer(this, 'attendez')">
+4.  aller
+    -   <input type="text" placeholder="tu" oninput="checkAnswer(this, 'va')">
+    -   <input type="text" placeholder="nous" oninput="checkAnswer(this, 'allons')">
+    -   <input type="text" placeholder="vous" oninput="checkAnswer(this, 'allez')">
+5.  avoir
+    -   <input type="text" placeholder="tu" oninput="checkAnswer(this, 'aie')">
+    -   <input type="text" placeholder="nous" oninput="checkAnswer(this, 'ayons')">
+    -   <input type="text" placeholder="vous" oninput="checkAnswer(this, 'ayez')">
 
 #### 2. Mettez les phrases à la forme négative de l’impératif :
 
-1. Parle ! → <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'Ne parle pas !')"><span></span>
-2. Finissons ! → <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'Ne finissons pas !')"><span></span>
-3. Attendez ! → <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'N\'attendez pas !')"><span></span>
-4. Va ! → <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'Ne va pas !')"><span></span>
-5. Ayez ! → <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'N\'ayez pas !')"><span></span>
+1.  Parle ! → <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'Ne parle pas !')">
+2.  Finissons ! → <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'Ne finissons pas !')">
+3.  Attendez ! → <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'N\'attendez pas !')">
+4.  Va ! → <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'Ne va pas !')">
+5.  Ayez ! → <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'N\'ayez pas !')">
 
 #### 3. Complétez avec la bonne forme de l’impératif pour les verbes pronominaux :
 
-1. (tu) se lever → <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'Lève-toi !')"><span></span>
-2. (nous) se dépêcher → <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'Dépêchons-nous !')"><span></span>
-3. (vous) se reposer → <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'Reposez-vous !')"><span></span>
-4. (tu, négatif) se coucher → <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'Ne te couche pas !')"><span></span>
-5. (nous, négatif) se taire → <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'Ne nous taisons pas !')"><span></span>
+1.  (tu) se lever → <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'Lève-toi !')">
+2.  (nous) se dépêcher → <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'Dépêchons-nous !')">
+3.  (vous) se reposer → <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'Reposez-vous !')">
+4.  (tu, négatif) se coucher → <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'Ne te couche pas !')">
+5.  (nous, négatif) se taire → <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'Ne nous taisons pas !')">
 
-<button onclick="showAnswers()">Afficher les réponses</button>
-<button onclick="refreshPage()">Réessayer</button>
+<button onclick="showAnswers()">
+
+Afficher les réponses
+
+</button>
+
+<button onclick="refreshPage()">
+
+Réessayer
+
+</button>
 
 ## Plus d’exemples avec des verbes irréguliers
 
 Voici quelques expressions courantes utilisant l’impératif avec des verbes irréguliers :
 
-- Aie confiance en toi ! (Have confidence in yourself!)
-- Sache écouter les autres. (Know how to listen to others.)
-- Veuillez patienter un instant. (Please wait a moment.)
-- Soyons prudents ! (Let’s be careful!)
-
+-   Aie confiance en toi ! (Have confidence in yourself!)
+-   Sache écouter les autres. (Know how to listen to others.)
+-   Veuillez patienter un instant. (Please wait a moment.)
+-   Soyons prudents ! (Let’s be careful!)
 :::
 
+```{=html}
 <script>
 function checkAnswer(input, correctAnswer) {
     const span = input.nextElementSibling;
@@ -277,4 +289,4 @@ function refreshPage() {
     });
 }
 </script>
-
+```

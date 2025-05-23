@@ -6,124 +6,127 @@ categories: [B1, grammar, gerondif, exercises]
 image: "gerondif.png"
 ---
 
-::: {.content-visible when-profile="english"}
-
+::::: {.content-visible when-profile="english"}
 ### Understanding the "Gérondif"
 
 The **gérondif** is a verb form in French used to express simultaneous actions or the manner in which something is done. It often translates to "while doing" or "by doing" in English.
 
 #### When to Use the Gérondif
 
-- To indicate that two actions are happening at the same time.
-- To express how or under what circumstances something happens.
+-   To indicate that two actions are happening at the same time.
+-   To express how or under what circumstances something happens.
 
-**Examples:**
-- *Il écoute de la musique en faisant ses devoirs.*  
-    (He listens to music while doing his homework.)
-- *Elle a appris le français en voyageant.*  
-    (She learned French by traveling.)
+**Examples:** - *Il écoute de la musique en faisant ses devoirs.*\
+(He listens to music while doing his homework.) - *Elle a appris le français en voyageant.*\
+(She learned French by traveling.)
 
----
+------------------------------------------------------------------------
 
 ### How to Form the Gérondif
 
-- Take the **nous** form of the present tense, remove the **-ons**, and add **-ant**.
-- Precede it with **en**.
+-   Take the **nous** form of the present tense, remove the **-ons**, and add **-ant**.
+-   Precede it with **en**.
 
-**Formation:**  
-en + [nous form without -ons] + ant
+**Formation:**\
+en + \[nous form without -ons\] + ant
 
-**Examples:**
-- *parler* → nous parlons → **en parlant** (while speaking)
-- *finir* → nous finissons → **en finissant** (while finishing)
-- *prendre* → nous prenons → **en prenant** (while taking)
+**Examples:** - *parler* → nous parlons → **en parlant** (while speaking) - *finir* → nous finissons → **en finissant** (while finishing) - *prendre* → nous prenons → **en prenant** (while taking)
 
 #### Irregular Forms
 
-There are only three irregular gérondif forms:
-- **être** → en étant
-- **avoir** → en ayant
-- **savoir** → en sachant
+There are only three irregular gérondif forms: - **être** → en étant - **avoir** → en ayant - **savoir** → en sachant
 
----
+------------------------------------------------------------------------
 
 ### Exercises
 
 #### 1. Write the gérondif for the following verbs:
 
-1. parler → <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'en parlant')"><span></span>
-2. finir → <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'en finissant')"><span></span>
-3. prendre → <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'en prenant')"><span></span>
-4. être → <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'en étant')"><span></span>
-5. avoir → <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'en ayant')"><span></span>
-6. savoir → <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'en sachant')"><span></span>
+1.  parler → <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'en parlant')">
+2.  finir → <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'en finissant')">
+3.  prendre → <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'en prenant')">
+4.  être → <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'en étant')">
+5.  avoir → <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'en ayant')">
+6.  savoir → <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'en sachant')">
 
 #### 2. Complete the sentences with the correct gérondif form:
 
-1. Il a appris le français ___ (voyager). <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'en voyageant')"><span></span>
-2. Elle s’est blessée ___ (courir). <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'en courant')"><span></span>
-3. Tu peux progresser ___ (pratiquer) tous les jours. <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'en pratiquant')"><span></span>
-4. ___ (être) patient, tu réussiras. <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'en étant')"><span></span>
-5. Il a réussi ___ (travailler) dur. <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'en travaillant')"><span></span>
-6. Nous avons compris la leçon ___ (écouter) attentivement. <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'en écoutant')"><span></span>
-7. Elle a perdu du poids ___ (faire) du sport. <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'en faisant')"><span></span>
-8. Ils ont gagné du temps ___ (prendre) le train. <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'en prenant')"><span></span>
-9. Vous pouvez améliorer votre accent ___ (répéter) les phrases. <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'en répétant')"><span></span>
-10. Il a trouvé un emploi ___ (envoyer) des candidatures. <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'en envoyant')"><span></span>
+1.  Il a appris le français \_\_\_ (voyager). <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'en voyageant')">
+2.  Elle s’est blessée \_\_\_ (courir). <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'en courant')">
+3.  Tu peux progresser \_\_\_ (pratiquer) tous les jours. <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'en pratiquant')">
+4.  \_\_\_ (être) patient, tu réussiras. <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'en étant')">
+5.  Il a réussi \_\_\_ (travailler) dur. <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'en travaillant')">
+6.  Nous avons compris la leçon \_\_\_ (écouter) attentivement. <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'en écoutant')">
+7.  Elle a perdu du poids \_\_\_ (faire) du sport. <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'en faisant')">
+8.  Ils ont gagné du temps \_\_\_ (prendre) le train. <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'en prenant')">
+9.  Vous pouvez améliorer votre accent \_\_\_ (répéter) les phrases. <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'en répétant')">
+10. Il a trouvé un emploi \_\_\_ (envoyer) des candidatures. <input type="text" placeholder="Answer" oninput="checkAnswer(this, 'en envoyant')">
 
 #### 3. Translate into French using the gérondif:
 
-1. By listening, you will understand better.  
-<input type="text" style="width:80%;font-size:1.1em;padding:0.5em;" placeholder="Réponse" oninput="checkAnswer(this, 'En écoutant, tu comprendras mieux')"><span></span>
+1.  By listening, you will understand better.\
+    <input type="text" style="width:80%;font-size:1.1em;padding:0.5em;" placeholder="Réponse" oninput="checkAnswer(this, 'En écoutant, tu comprendras mieux')">
 
-2. He improved his French by reading.  
-<input type="text" style="width:80%;font-size:1.1em;padding:0.5em;" placeholder="Réponse" oninput="checkAnswer(this, 'Il a amélioré son français en lisant')"><span></span>
+2.  He improved his French by reading.\
+    <input type="text" style="width:80%;font-size:1.1em;padding:0.5em;" placeholder="Réponse" oninput="checkAnswer(this, 'Il a amélioré son français en lisant')">
 
-3. She found the solution by thinking.  
-<input type="text" style="width:80%;font-size:1.1em;padding:0.5em;" placeholder="Réponse" oninput="checkAnswer(this, 'Elle a trouvé la solution en réfléchissant')"><span></span>
+3.  She found the solution by thinking.\
+    <input type="text" style="width:80%;font-size:1.1em;padding:0.5em;" placeholder="Réponse" oninput="checkAnswer(this, 'Elle a trouvé la solution en réfléchissant')">
 
-4. By practicing, you will progress.  
-<input type="text" style="width:80%;font-size:1.1em;padding:0.5em;" placeholder="Réponse" oninput="checkAnswer(this, 'En pratiquant, tu progresseras')"><span></span>
+4.  By practicing, you will progress.\
+    <input type="text" style="width:80%;font-size:1.1em;padding:0.5em;" placeholder="Réponse" oninput="checkAnswer(this, 'En pratiquant, tu progresseras')">
 
-5. By being patient, you will succeed.  
-<input type="text" style="width:80%;font-size:1.1em;padding:0.5em;" placeholder="Réponse" oninput="checkAnswer(this, 'En étant patient, tu réussiras')"><span></span>
+5.  By being patient, you will succeed.\
+    <input type="text" style="width:80%;font-size:1.1em;padding:0.5em;" placeholder="Réponse" oninput="checkAnswer(this, 'En étant patient, tu réussiras')">
 
-6. By working hard, he succeeded.  
-<input type="text" style="width:80%;font-size:1.1em;padding:0.5em;" placeholder="Réponse" oninput="checkAnswer(this, 'En travaillant dur, il a réussi')"><span></span>
+6.  By working hard, he succeeded.\
+    <input type="text" style="width:80%;font-size:1.1em;padding:0.5em;" placeholder="Réponse" oninput="checkAnswer(this, 'En travaillant dur, il a réussi')">
 
-7. By taking the train, they saved time.  
-<input type="text" style="width:80%;font-size:1.1em;padding:0.5em;" placeholder="Réponse" oninput="checkAnswer(this, 'En prenant le train, ils ont gagné du temps')"><span></span>
+7.  By taking the train, they saved time.\
+    <input type="text" style="width:80%;font-size:1.1em;padding:0.5em;" placeholder="Réponse" oninput="checkAnswer(this, 'En prenant le train, ils ont gagné du temps')">
 
-8. By repeating the sentences, you can improve your accent.  
-<input type="text" style="width:80%;font-size:1.1em;padding:0.5em;" placeholder="Réponse" oninput="checkAnswer(this, 'En répétant les phrases, tu peux améliorer ton accent')"><span></span>
+8.  By repeating the sentences, you can improve your accent.\
+    <input type="text" style="width:80%;font-size:1.1em;padding:0.5em;" placeholder="Réponse" oninput="checkAnswer(this, 'En répétant les phrases, tu peux améliorer ton accent')">
 
-9. By sending applications, he found a job.  
-<input type="text" style="width:80%;font-size:1.1em;padding:0.5em;" placeholder="Réponse" oninput="checkAnswer(this, 'En envoyant des candidatures, il a trouvé un emploi')"><span></span>
+9.  By sending applications, he found a job.\
+    <input type="text" style="width:80%;font-size:1.1em;padding:0.5em;" placeholder="Réponse" oninput="checkAnswer(this, 'En envoyant des candidatures, il a trouvé un emploi')">
 
-10. By listening carefully, we understood the lesson.  
-<input type="text" style="width:80%;font-size:1.1em;padding:0.5em;" placeholder="Réponse" oninput="checkAnswer(this, 'En écoutant attentivement, nous avons compris la leçon')"><span></span>
+10. By listening carefully, we understood the lesson.\
+    <input type="text" style="width:80%;font-size:1.1em;padding:0.5em;" placeholder="Réponse" oninput="checkAnswer(this, 'En écoutant attentivement, nous avons compris la leçon')">
 
+<button onclick="showAnswers()">
 
-<button onclick="showAnswers()">Show Answers</button>
-<button onclick="refreshPage()">Try Again</button>
+Show Answers
 
----
+</button>
+
+<button onclick="refreshPage()">
+
+Try Again
+
+</button>
+
+------------------------------------------------------------------------
 
 ### To Consolidate Your Learning
 
 Write a short paragraph (3-5 sentences) explaining how and when to use the gérondif in French. Use your own words and, if possible, give an example.
 
-::: callout-note
-
+:::: callout-note
 **Write your sentences here:**\
 
 ::: {style="width:100%;padding:1em;border:2px solid #0078D4;border-radius:8px;background:#f5faff;"}
 <ul>
+
 <li><input type="text" style="width:90%;" /></li>
+
 <li><input type="text" style="width:90%;" /></li>
+
 <li><input type="text" style="width:90%;" /></li>
+
 </ul>
 
+```{=html}
 <script>
 function checkAnswer(input, correctAnswer) {
         const span = input.nextElementSibling;
@@ -150,128 +153,128 @@ function refreshPage() {
         location.reload();
 }
 </script>
-
+```
 :::
+::::
+:::::
 
-:::
-
-:::
-
-::: {.content-visible when-profile="french"}
-
+::::: {.content-visible when-profile="french"}
 ### Comprendre le « gérondif »
 
 Le **gérondif** est une forme verbale en français qui permet d’exprimer deux actions simultanées ou la manière dont une action est réalisée. Il se traduit souvent par « en faisant » en français.
 
 #### Quand utiliser le gérondif
 
-- Pour indiquer que deux actions se passent en même temps.
-- Pour exprimer la manière ou les circonstances d’une action.
+-   Pour indiquer que deux actions se passent en même temps.
+-   Pour exprimer la manière ou les circonstances d’une action.
 
-**Exemples :**
-- *Il écoute de la musique en faisant ses devoirs.*
-- *Elle a appris le français en voyageant.*
+**Exemples :** - *Il écoute de la musique en faisant ses devoirs.* - *Elle a appris le français en voyageant.*
 
----
+------------------------------------------------------------------------
 
 ### Comment former le gérondif
 
-- Prenez la forme **nous** du verbe au présent, retirez **-ons** et ajoutez **-ant**.
-- Ajoutez **en** devant.
+-   Prenez la forme **nous** du verbe au présent, retirez **-ons** et ajoutez **-ant**.
+-   Ajoutez **en** devant.
 
-**Formation :**  
-en + [radical du nous sans -ons] + ant
+**Formation :**\
+en + \[radical du nous sans -ons\] + ant
 
-**Exemples :**
-- *parler* → nous parlons → **en parlant**
-- *finir* → nous finissons → **en finissant**
-- *prendre* → nous prenons → **en prenant**
+**Exemples :** - *parler* → nous parlons → **en parlant** - *finir* → nous finissons → **en finissant** - *prendre* → nous prenons → **en prenant**
 
 #### Formes irrégulières
 
-Il n’y a que trois formes irrégulières :
-- **être** → en étant
-- **avoir** → en ayant
-- **savoir** → en sachant
+Il n’y a que trois formes irrégulières : - **être** → en étant - **avoir** → en ayant - **savoir** → en sachant
 
----
+------------------------------------------------------------------------
 
 ### Exercices
 
 #### 1. Écrivez le gérondif des verbes suivants :
 
-1. parler → <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'en parlant')"><span></span>
-2. finir → <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'en finissant')"><span></span>
-3. prendre → <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'en prenant')"><span></span>
-4. être → <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'en étant')"><span></span>
-5. avoir → <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'en ayant')"><span></span>
-6. savoir → <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'en sachant')"><span></span>
+1.  parler → <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'en parlant')">
+2.  finir → <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'en finissant')">
+3.  prendre → <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'en prenant')">
+4.  être → <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'en étant')">
+5.  avoir → <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'en ayant')">
+6.  savoir → <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'en sachant')">
 
 #### 2. Complétez les phrases avec la bonne forme du gérondif :
 
-1. Il a appris le français ___ (voyager). <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'en voyageant')"><span></span>
-2. Elle s’est blessée ___ (courir). <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'en courant')"><span></span>
-3. Tu peux progresser ___ (pratiquer) tous les jours. <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'en pratiquant')"><span></span>
-4. ___ (être) patient, tu réussiras. <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'en étant')"><span></span>
-5. Il a réussi ___ (travailler) dur. <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'en travaillant')"><span></span>
-6. Nous avons compris la leçon ___ (écouter) attentivement. <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'en écoutant')"><span></span>
-7. Elle a perdu du poids ___ (faire) du sport. <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'en faisant')"><span></span>
-8. Ils ont gagné du temps ___ (prendre) le train. <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'en prenant')"><span></span>
-9. Vous pouvez améliorer votre accent ___ (répéter) les phrases. <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'en répétant')"><span></span>
-10. Il a trouvé un emploi ___ (envoyer) des candidatures. <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'en envoyant')"><span></span>
+1.  Il a appris le français \_\_\_ (voyager). <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'en voyageant')">
+2.  Elle s’est blessée \_\_\_ (courir). <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'en courant')">
+3.  Tu peux progresser \_\_\_ (pratiquer) tous les jours. <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'en pratiquant')">
+4.  \_\_\_ (être) patient, tu réussiras. <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'en étant')">
+5.  Il a réussi \_\_\_ (travailler) dur. <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'en travaillant')">
+6.  Nous avons compris la leçon \_\_\_ (écouter) attentivement. <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'en écoutant')">
+7.  Elle a perdu du poids \_\_\_ (faire) du sport. <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'en faisant')">
+8.  Ils ont gagné du temps \_\_\_ (prendre) le train. <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'en prenant')">
+9.  Vous pouvez améliorer votre accent \_\_\_ (répéter) les phrases. <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'en répétant')">
+10. Il a trouvé un emploi \_\_\_ (envoyer) des candidatures. <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'en envoyant')">
 
 #### 3. Traduisez en français en utilisant le gérondif :
 
-1. By listening, you will understand better.  
-<input type="text" style="width:80%;font-size:1.1em;padding:0.5em;" placeholder="Réponse" oninput="checkAnswer(this, 'En écoutant, tu comprendras mieux')"><span></span>
+1.  By listening, you will understand better.\
+    <input type="text" style="width:80%;font-size:1.1em;padding:0.5em;" placeholder="Réponse" oninput="checkAnswer(this, 'En écoutant, tu comprendras mieux')">
 
-2. He improved his French by reading.  
-<input type="text" style="width:80%;font-size:1.1em;padding:0.5em;" placeholder="Réponse" oninput="checkAnswer(this, 'Il a amélioré son français en lisant')"><span></span>
+2.  He improved his French by reading.\
+    <input type="text" style="width:80%;font-size:1.1em;padding:0.5em;" placeholder="Réponse" oninput="checkAnswer(this, 'Il a amélioré son français en lisant')">
 
-3. She found the solution by thinking.  
-<input type="text" style="width:80%;font-size:1.1em;padding:0.5em;" placeholder="Réponse" oninput="checkAnswer(this, 'Elle a trouvé la solution en réfléchissant')"><span></span>
+3.  She found the solution by thinking.\
+    <input type="text" style="width:80%;font-size:1.1em;padding:0.5em;" placeholder="Réponse" oninput="checkAnswer(this, 'Elle a trouvé la solution en réfléchissant')">
 
-4. By practicing, you will progress.  
-<input type="text" style="width:80%;font-size:1.1em;padding:0.5em;" placeholder="Réponse" oninput="checkAnswer(this, 'En pratiquant, tu progresseras')"><span></span>
+4.  By practicing, you will progress.\
+    <input type="text" style="width:80%;font-size:1.1em;padding:0.5em;" placeholder="Réponse" oninput="checkAnswer(this, 'En pratiquant, tu progresseras')">
 
-5. By being patient, you will succeed.  
-<input type="text" style="width:80%;font-size:1.1em;padding:0.5em;" placeholder="Réponse" oninput="checkAnswer(this, 'En étant patient, tu réussiras')"><span></span>
+5.  By being patient, you will succeed.\
+    <input type="text" style="width:80%;font-size:1.1em;padding:0.5em;" placeholder="Réponse" oninput="checkAnswer(this, 'En étant patient, tu réussiras')">
 
-6. By working hard, he succeeded.  
-<input type="text" style="width:80%;font-size:1.1em;padding:0.5em;" placeholder="Réponse" oninput="checkAnswer(this, 'En travaillant dur, il a réussi')"><span></span>
+6.  By working hard, he succeeded.\
+    <input type="text" style="width:80%;font-size:1.1em;padding:0.5em;" placeholder="Réponse" oninput="checkAnswer(this, 'En travaillant dur, il a réussi')">
 
-7. By taking the train, they saved time.  
-<input type="text" style="width:80%;font-size:1.1em;padding:0.5em;" placeholder="Réponse" oninput="checkAnswer(this, 'En prenant le train, ils ont gagné du temps')"><span></span>
+7.  By taking the train, they saved time.\
+    <input type="text" style="width:80%;font-size:1.1em;padding:0.5em;" placeholder="Réponse" oninput="checkAnswer(this, 'En prenant le train, ils ont gagné du temps')">
 
-8. By repeating the sentences, you can improve your accent.  
-<input type="text" style="width:80%;font-size:1.1em;padding:0.5em;" placeholder="Réponse" oninput="checkAnswer(this, 'En répétant les phrases, tu peux améliorer ton accent')"><span></span>
+8.  By repeating the sentences, you can improve your accent.\
+    <input type="text" style="width:80%;font-size:1.1em;padding:0.5em;" placeholder="Réponse" oninput="checkAnswer(this, 'En répétant les phrases, tu peux améliorer ton accent')">
 
-9. By sending applications, he found a job.  
-<input type="text" style="width:80%;font-size:1.1em;padding:0.5em;" placeholder="Réponse" oninput="checkAnswer(this, 'En envoyant des candidatures, il a trouvé un emploi')"><span></span>
+9.  By sending applications, he found a job.\
+    <input type="text" style="width:80%;font-size:1.1em;padding:0.5em;" placeholder="Réponse" oninput="checkAnswer(this, 'En envoyant des candidatures, il a trouvé un emploi')">
 
-10. By listening carefully, we understood the lesson.  
-<input type="text" style="width:80%;font-size:1.1em;padding:0.5em;" placeholder="Réponse" oninput="checkAnswer(this, 'En écoutant attentivement, nous avons compris la leçon')"><span></span>
+10. By listening carefully, we understood the lesson.\
+    <input type="text" style="width:80%;font-size:1.1em;padding:0.5em;" placeholder="Réponse" oninput="checkAnswer(this, 'En écoutant attentivement, nous avons compris la leçon')">
 
-<button onclick="showAnswers()">Afficher les réponses</button>
-<button onclick="refreshPage()">Réessayer</button>
+<button onclick="showAnswers()">
 
----
+Afficher les réponses
+
+</button>
+
+<button onclick="refreshPage()">
+
+Réessayer
+
+</button>
+
+------------------------------------------------------------------------
 
 ### Pour consolider vos connaissances
 
 Écrivez un court paragraphe (3 à 5 phrases) expliquant comment et quand utiliser le gérondif en français. Utilisez vos propres mots et, si possible, donnez un exemple.
 
-::: callout-note
-
+:::: callout-note
 **Écrivez vos phrases ici :**\
 
 ::: {style="width:100%;padding:1em;border:2px solid #0078D4;border-radius:8px;background:#f5faff;"}
 <ul>
+
 <li><input type="text" style="width:90%;" /></li>
+
 <li><input type="text" style="width:90%;" /></li>
+
 <li><input type="text" style="width:90%;" /></li>
+
 </ul>
 :::
-
-:::
-:::
+::::
+:::::

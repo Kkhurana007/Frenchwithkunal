@@ -86,9 +86,13 @@ ul.task-list li input[type="checkbox"] {
 <meta property="og:description" content="">
 <meta property="og:image" content="https://frenchwithkunal.ca/exercises/20052025/imparfait.png">
 <meta property="og:site_name" content="French with Kunal">
+<meta property="og:image:height" content="218">
+<meta property="og:image:width" content="396">
 <meta name="twitter:title" content="The Imperfect Tense (L’Imparfait) in French – French with Kunal">
 <meta name="twitter:description" content="">
 <meta name="twitter:image" content="https://frenchwithkunal.ca/exercises/20052025/imparfait.png">
+<meta name="twitter:image-height" content="218">
+<meta name="twitter:image-width" content="396">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -330,10 +334,10 @@ ul.task-list li input[type="checkbox"] {
 </p>
 <textarea rows="5" style="width:100%;" placeholder="Write here what you have learned..."></textarea>
 <button onclick="showAnswers()">
-<p>Show answers</p>
+Show answers
 </button>
 <button onclick="refreshPage()">
-<p>Try again</p>
+Try again
 </button>
 <hr>
 </section>
@@ -346,6 +350,7 @@ ul.task-list li input[type="checkbox"] {
 <li><em>Être</em> is irregular: <em>j’étais, tu étais, il/elle était, nous étions, vous étiez, ils/elles étaient</em>.</li>
 </ul>
 <script>
+
 function checkAnswer(input, correctAnswer) {
      const span = input.nextElementSibling;
      if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {

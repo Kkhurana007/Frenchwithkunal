@@ -1,0 +1,178 @@
+---
+title: "Negative Phrases in French (Les phrases négatives)"
+author: "Kunal Khurana"
+date: "05-20-2025"
+categories: [B1, grammar, negatives, exercises]
+image: "negation_french.png"
+---
+
+::: {.content-visible when-profile="english"}
+
+# Negative Phrases in French (Les phrases négatives)
+
+Negation is essential in French to express the opposite of an affirmative statement. The most basic form is **ne ... pas** ("not"), but there are several other negative expressions, each with its own use.
+
+## Common Negative Expressions
+
+| French             | English                | Example (FR)                  | Example (EN)               |
+|--------------------|------------------------|-------------------------------|----------------------------|
+| ne ... pas         | not                    | Je ne mange pas.              | I do not eat.              |
+| ne ... plus        | no longer, not anymore | Il ne travaille plus ici.     | He no longer works here.   |
+| ne ... jamais      | never                  | Elle n'oublie jamais.         | She never forgets.         |
+| ne ... rien        | nothing                | Je ne vois rien.              | I see nothing.             |
+| ne ... personne    | nobody, no one         | Il n'y a personne.            | There is nobody.           |
+| ne ... aucun(e)    | none, not any          | Je n'ai aucune idée.          | I have no idea.            |
+| ne ... nulle part  | nowhere                | Tu ne vas nulle part.         | You are going nowhere.     |
+| ne ... pas encore  | not yet                | Nous n'avons pas encore fini. | We have not finished yet.  |
+
+**Note:** In spoken French, "ne" is often dropped, but in writing and formal speech, both parts are required.
+
+
+
+# Exercises
+
+## 1. Transform the sentences
+
+Transform the following affirmative sentences into their correct negative forms in French. Type your answer in the box and check if it's correct.
+
+1. Je travaille aujourd'hui. <input type="text" placeholder="" oninput="checkAnswer(this, 'Je ne travaille pas aujourd\'hui.')"><span></span>
+2. Elle mange de la viande. <input type="text" placeholder="" oninput="checkAnswer(this, 'Elle ne mange pas de viande.')"><span></span>
+3. Nous voyons quelque chose. <input type="text" placeholder="" oninput="checkAnswer(this, 'Nous ne voyons rien.')"><span></span>
+4. Il parle à quelqu'un. <input type="text" placeholder="" oninput="checkAnswer(this, 'Il ne parle à personne.')"><span></span>
+5. Vous avez une idée. <input type="text" placeholder="" oninput="checkAnswer(this, 'Vous n\'avez aucune idée.')"><span></span>
+6. Ils vont quelque part ce soir. <input type="text" placeholder="" oninput="checkAnswer(this, 'Ils ne vont nulle part ce soir.')"><span></span>
+7. Elle est déjà ici. <input type="text" placeholder="" oninput="checkAnswer(this, 'Elle n\'est pas encore ici.')"><span></span>
+8. Il travaille encore ici. <input type="text" placeholder="" oninput="checkAnswer(this, 'Il ne travaille plus ici.')"><span></span>
+9. Nous avons des amis. <input type="text" placeholder="" oninput="checkAnswer(this, 'Nous n\'avons aucun ami.')"><span></span>
+10. Elle oublie parfois. <input type="text" placeholder="" oninput="checkAnswer(this, 'Elle n\'oublie jamais.')"><span></span>
+11. Je vois quelqu'un. <input type="text" placeholder="" oninput="checkAnswer(this, 'Je ne vois personne.')"><span></span>
+12. Tu vas quelque part. <input type="text" placeholder="" oninput="checkAnswer(this, 'Tu ne vas nulle part.')"><span></span>
+13. Il dit quelque chose. <input type="text" placeholder="" oninput="checkAnswer(this, 'Il ne dit rien.')"><span></span>
+14. Nous faisons ça parfois. <input type="text" placeholder="" oninput="checkAnswer(this, 'Nous ne faisons jamais ça.')"><span></span>
+15. Tu as encore du temps. <input type="text" placeholder="" oninput="checkAnswer(this, 'Tu n\'as plus de temps.')"><span></span>
+16. Elle voit quelqu'un ici. <input type="text" placeholder="" oninput="checkAnswer(this, 'Elle ne voit personne ici.')"><span></span>
+17. J'ai envie de sortir. <input type="text" placeholder="" oninput="checkAnswer(this, 'Je n\'ai aucune envie de sortir.')"><span></span>
+18. Vous trouvez ce livre quelque part. <input type="text" placeholder="" oninput="checkAnswer(this, 'Vous ne trouvez nulle part ce livre.')"><span></span>
+19. Ils sont déjà arrivés. <input type="text" placeholder="" oninput="checkAnswer(this, 'Ils ne sont pas encore arrivés.')"><span></span>
+20. Nous parlons encore de ce sujet. <input type="text" placeholder="" oninput="checkAnswer(this, 'Nous ne parlons plus de ce sujet.')"><span></span>
+21. Tu veux manger quelque chose. <input type="text" placeholder="" oninput="checkAnswer(this, 'Tu ne veux rien manger.')"><span></span>
+22. Il y a quelqu'un dans la salle. <input type="text" placeholder="" oninput="checkAnswer(this, 'Il n\'y a personne dans la salle.')"><span></span>
+23. Je vais parfois là-bas. <input type="text" placeholder="" oninput="checkAnswer(this, 'Je ne vais jamais là-bas.')"><span></span>
+24. Elle lit des livres en anglais. <input type="text" placeholder="" oninput="checkAnswer(this, 'Elle ne lit aucun livre en anglais.')"><span></span>
+
+<button onclick="showAnswers()">Show Answers</button>
+
+<button onclick="refreshPage()">Try Again</button>
+
+<script>
+function checkAnswer(input, correctAnswer) {
+        const span = input.nextElementSibling;
+        if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
+                span.textContent = "✓ Correct";
+                span.style.color = "green";
+        } else {
+                span.textContent = "";
+        }
+}
+
+function showAnswers() {
+        document.querySelectorAll('input[type="text"]').forEach(el => {
+                const correct = el.getAttribute('oninput')?.match(/'([^']+)'/)?.[1];
+                if (correct) {
+                        const span = el.nextElementSibling;
+                        span.textContent = `Réponse : ${correct}`;
+                        span.style.color = "blue";
+                }
+        });
+}
+
+function refreshPage() {
+        location.reload();
+}
+</script>
+
+:::
+
+::: {.content-visible when-profile="french"}
+# Les phrases négatives en français
+
+La négation est essentielle en français pour exprimer le contraire d’une affirmation. La forme la plus courante est **ne ... pas**, mais il existe plusieurs autres expressions négatives, chacune ayant son usage particulier.
+
+## Expressions négatives courantes
+
+| Français            | Anglais                  | Exemple (FR)                    | Exemple (EN)                  |
+|---------------------|--------------------------|----------------------------------|-------------------------------|
+| ne ... pas          | ne ... not               | Je ne mange pas.                 | I do not eat.                 |
+| ne ... plus         | ne ... no longer         | Il ne travaille plus ici.        | He no longer works here.      |
+| ne ... jamais       | ne ... never             | Elle n'oublie jamais.            | She never forgets.            |
+| ne ... rien         | ne ... nothing           | Je ne vois rien.                 | I see nothing.                |
+| ne ... personne     | ne ... nobody/no one     | Il n'y a personne.               | There is nobody.              |
+| ne ... aucun(e)     | ne ... none/not any      | Je n'ai aucune idée.             | I have no idea.               |
+| ne ... nulle part   | ne ... nowhere           | Tu ne vas nulle part.            | You are going nowhere.        |
+| ne ... pas encore   | ne ... not yet           | Nous n'avons pas encore fini.    | We have not finished yet.     |
+
+**Remarque :** À l’oral, « ne » est souvent omis, mais à l’écrit et dans un contexte formel, les deux parties sont nécessaires.
+
+# Exercices
+
+## 1. Transformez les phrases
+
+Transformez les phrases affirmatives suivantes en phrases négatives correctes en français. Tapez votre réponse dans la case et vérifiez si elle est correcte.
+
+1. Je travaille aujourd'hui. <input type="text" placeholder="" oninput="checkAnswer(this, 'Je ne travaille pas aujourd\'hui.')"><span></span>
+2. Elle mange de la viande. <input type="text" placeholder="" oninput="checkAnswer(this, 'Elle ne mange pas de viande.')"><span></span>
+3. Nous voyons quelque chose. <input type="text" placeholder="" oninput="checkAnswer(this, 'Nous ne voyons rien.')"><span></span>
+4. Il parle à quelqu'un. <input type="text" placeholder="" oninput="checkAnswer(this, 'Il ne parle à personne.')"><span></span>
+5. Vous avez une idée. <input type="text" placeholder="" oninput="checkAnswer(this, 'Vous n\'avez aucune idée.')"><span></span>
+6. Ils vont quelque part ce soir. <input type="text" placeholder="" oninput="checkAnswer(this, 'Ils ne vont nulle part ce soir.')"><span></span>
+7. Elle est déjà ici. <input type="text" placeholder="" oninput="checkAnswer(this, 'Elle n\'est pas encore ici.')"><span></span>
+8. Il travaille encore ici. <input type="text" placeholder="" oninput="checkAnswer(this, 'Il ne travaille plus ici.')"><span></span>
+9. Nous avons des amis. <input type="text" placeholder="" oninput="checkAnswer(this, 'Nous n\'avons aucun ami.')"><span></span>
+10. Elle oublie parfois. <input type="text" placeholder="" oninput="checkAnswer(this, 'Elle n\'oublie jamais.')"><span></span>
+11. Je vois quelqu'un. <input type="text" placeholder="" oninput="checkAnswer(this, 'Je ne vois personne.')"><span></span>
+12. Tu vas quelque part. <input type="text" placeholder="" oninput="checkAnswer(this, 'Tu ne vas nulle part.')"><span></span>
+13. Il dit quelque chose. <input type="text" placeholder="" oninput="checkAnswer(this, 'Il ne dit rien.')"><span></span>
+14. Nous faisons ça parfois. <input type="text" placeholder="" oninput="checkAnswer(this, 'Nous ne faisons jamais ça.')"><span></span>
+15. Tu as encore du temps. <input type="text" placeholder="" oninput="checkAnswer(this, 'Tu n\'as plus de temps.')"><span></span>
+16. Elle voit quelqu'un ici. <input type="text" placeholder="" oninput="checkAnswer(this, 'Elle ne voit personne ici.')"><span></span>
+17. J'ai envie de sortir. <input type="text" placeholder="" oninput="checkAnswer(this, 'Je n\'ai aucune envie de sortir.')"><span></span>
+18. Vous trouvez ce livre quelque part. <input type="text" placeholder="" oninput="checkAnswer(this, 'Vous ne trouvez nulle part ce livre.')"><span></span>
+19. Ils sont déjà arrivés. <input type="text" placeholder="" oninput="checkAnswer(this, 'Ils ne sont pas encore arrivés.')"><span></span>
+20. Nous parlons encore de ce sujet. <input type="text" placeholder="" oninput="checkAnswer(this, 'Nous ne parlons plus de ce sujet.')"><span></span>
+21. Tu veux manger quelque chose. <input type="text" placeholder="" oninput="checkAnswer(this, 'Tu ne veux rien manger.')"><span></span>
+22. Il y a quelqu'un dans la salle. <input type="text" placeholder="" oninput="checkAnswer(this, 'Il n\'y a personne dans la salle.')"><span></span>
+23. Je vais parfois là-bas. <input type="text" placeholder="" oninput="checkAnswer(this, 'Je ne vais jamais là-bas.')"><span></span>
+24. Elle lit des livres en anglais. <input type="text" placeholder="" oninput="checkAnswer(this, 'Elle ne lit aucun livre en anglais.')"><span></span>
+
+<button onclick="showAnswers()">Afficher les réponses</button>
+<button onclick="refreshPage()">Réessayer</button>
+
+<script>
+function checkAnswer(input, correctAnswer) {
+        const span = input.nextElementSibling;
+        if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
+                span.textContent = "✓ Correct";
+                span.style.color = "green";
+        } else {
+                span.textContent = "";
+        }
+}
+
+function showAnswers() {
+        document.querySelectorAll('input[type="text"]').forEach(el => {
+                const correct = el.getAttribute('oninput')?.match(/'([^']+)'/)?.[1];
+                if (correct) {
+                        const span = el.nextElementSibling;
+                        span.textContent = `Réponse : ${correct}`;
+                        span.style.color = "blue";
+                }
+        });
+}
+
+function refreshPage() {
+        location.reload();
+}
+</script>
+
+
+:::

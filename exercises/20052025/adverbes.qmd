@@ -1,9 +1,10 @@
 ---
-title: "The Conditional Tense (Le Conditionnel) in French"
+title: "French Adverbs (Les Adverbes)"
 author: "Kunal Khurana"
 date: "05-20-2025"
-categories: [B1, grammar, conditionnel, exercises]
-image: "conditionnel.png"
+categories: [B1, grammar, adverbes, exercises]
+image: "adverbes.png"
+---
 ---
 
 ::: {.content-visible when-profile="english"}
