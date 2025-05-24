@@ -571,5 +571,11 @@
   },
   "exercises/23052025/restrictive.qmd": {
     "restrictive.html": "a8bb885a"
+  },
+  "curriculum.qmd": {
+    "curriculum.html": "61364df0"
+  },
+  "quiz.qmd": {
+    "quiz.html": "02ad8053"
   }
 }

@@ -1,0 +1,570 @@
+---
+title: "Level Up Your French: Interactive Skills Quiz (Beginner Friendly)"
+---
+
+::: {.content-visible when-profile="english"}
+
+
+Answer the following questions. Write your answers in the spaces provided, then use the script at the end to calculate your score.
+
+---
+
+## Questions
+1. Write a sentence introducing yourself in French.
+<br>
+<textarea rows="2" style="width:100%;" placeholder="Votre réponse ici..."></textarea>
+2. How do you say “hello” and “goodbye” in French?
+<br>
+<input type="text" style="width:100%;" placeholder="" oninput="checkAnswer(this, 'bonjour et au revoir')"><span></span>
+3. Give three common polite phrases.
+<br>
+<input type="text" style="width:100%;" placeholder="" oninput="checkAnswer(this, 'merci, s\'il vous plaît, excusez-moi')"><span></span>
+4. Count from 1 to 20 in French.
+<br>
+<input type="text" style="width:100%;" placeholder="" oninput="checkAnswer(this, 'un deux trois quatre cinq six sept huit neuf dix onze douze treize quatorze quinze seize dix-sept dix-huit dix-neuf vingt')"><span></span>
+5. Reading comprehension: Marie va à l’école à pied tous les matins. Elle aime apprendre le français et parler avec ses amis.
+<br>
+<strong>Question:</strong> Comment Marie va-t-elle à l’école ?
+<br>
+<select style="width:100%;" oninput="checkAnswer(this, 'à pied')">
+    <option value="">Choisissez la bonne réponse</option>
+    <option value="en voiture">en voiture</option>
+    <option value="à pied">à pied</option>
+    <option value="en bus">en bus</option>
+</select><span></span>
+6. Reading comprehension: Paul mange une pomme et boit un jus d’orange au petit-déjeuner.
+<br>
+<strong>Question:</strong> Que boit Paul au petit-déjeuner ?
+<br>
+<select style="width:100%;" oninput="checkAnswer(this, 'un jus d’orange')">
+    <option value="">Choisissez la bonne réponse</option>
+    <option value="du lait">du lait</option>
+    <option value="un jus d’orange">un jus d’orange</option>
+    <option value="de l’eau">de l’eau</option>
+</select><span></span>
+7. Reading comprehension: Les enfants jouent dans le parc après l’école.
+<br>
+<strong>Question:</strong> Où jouent les enfants ?
+<br>
+<select style="width:100%;" oninput="checkAnswer(this, 'dans le parc')">
+    <option value="">Choisissez la bonne réponse</option>
+    <option value="à la maison">à la maison</option>
+    <option value="dans le parc">dans le parc</option>
+    <option value="à l’école">à l’école</option>
+</select><span></span>
+8. Reading comprehension: Sophie a deux frères et une sœur.
+<br>
+<strong>Question:</strong> Combien de frères a Sophie ?
+<br>
+<select style="width:100%;" oninput="checkAnswer(this, 'deux')">
+    <option value="">Choisissez la bonne réponse</option>
+    <option value="un">un</option>
+    <option value="deux">deux</option>
+    <option value="trois">trois</option>
+</select><span></span>
+9. Reading comprehension: Luc travaille dans une boulangerie tous les matins. Il prépare du pain et des croissants pour les clients.
+<br>
+<strong>Question:</strong> Où travaille Luc ?
+<br>
+<select style="width:100%;" oninput="checkAnswer(this, 'dans une boulangerie')">
+    <option value="">Choisissez la bonne réponse</option>
+    <option value="dans une école">dans une école</option>
+    <option value="dans une boulangerie">dans une boulangerie</option>
+    <option value="dans un hôpital">dans un hôpital</option>
+</select><span></span>
+10. Reading comprehension: Claire aime voyager. L’été dernier, elle est allée en Espagne et a visité plusieurs musées.
+<br>
+<strong>Question:</strong> Dans quel pays Claire est-elle allée l’été dernier ?
+<br>
+<select style="width:100%;" oninput="checkAnswer(this, 'en Espagne')">
+    <option value="">Choisissez la bonne réponse</option>
+    <option value="en Italie">en Italie</option>
+    <option value="en Espagne">en Espagne</option>
+    <option value="en France">en France</option>
+</select><span></span>
+11. Reading comprehension: Les élèves doivent rendre leurs devoirs avant vendredi. Sinon, ils auront une mauvaise note.
+<br>
+<strong>Question:</strong> Que doivent faire les élèves avant vendredi ?
+<br>
+<select style="width:100%;" oninput="checkAnswer(this, 'rendre leurs devoirs')">
+    <option value="">Choisissez la bonne réponse</option>
+    <option value="rendre leurs devoirs">rendre leurs devoirs</option>
+    <option value="passer un examen">passer un examen</option>
+    <option value="aller en voyage">aller en voyage</option>
+</select><span></span>
+12. Reading comprehension: Paul a acheté un nouveau vélo pour aller à l’université. Il préfère le vélo à la voiture.
+<br>
+<strong>Question:</strong> Pourquoi Paul a-t-il acheté un vélo ?
+<br>
+<select style="width:100%;" oninput="checkAnswer(this, 'pour aller à l’université')">
+    <option value="">Choisissez la bonne réponse</option>
+    <option value="pour voyager en France">pour voyager en France</option>
+    <option value="pour aller à l’université">pour aller à l’université</option>
+    <option value="pour faire du sport">pour faire du sport</option>
+</select><span></span>
+13. Reading comprehension: Le week-end, Julie fait du bénévolat dans un refuge pour animaux. Elle adore s’occuper des chiens et des chats.
+<br>
+<strong>Question:</strong> Que fait Julie le week-end ?
+<br>
+<select style="width:100%;" oninput="checkAnswer(this, 'du bénévolat dans un refuge pour animaux')">
+    <option value="">Choisissez la bonne réponse</option>
+    <option value="du bénévolat dans un refuge pour animaux">du bénévolat dans un refuge pour animaux</option>
+    <option value="elle va à la piscine">elle va à la piscine</option>
+    <option value="elle travaille dans une boulangerie">elle travaille dans une boulangerie</option>
+</select><span></span>
+14. What are the days of the week in French?
+<br>
+<input type="text" style="width:100%;" placeholder="" oninput="checkAnswer(this, 'lundi mardi mercredi jeudi vendredi samedi dimanche')"><span></span>
+15. Name three months of the year in French.
+<br>
+<input type="text" style="width:100%;" placeholder="" oninput="checkAnswer(this, 'janvier février mars')"><span></span>
+16. How do you ask for the time in French?
+<br>
+<input type="text" style="width:100%;" placeholder="" oninput="checkAnswer(this, 'quelle heure est-il ?')"><span></span>
+17. Conjugate “être” in present tense (je, tu, il/elle).
+<br>
+<input type="text" style="width:100%;" placeholder="" oninput="checkAnswer(this, 'je suis tu es il est elle est')"><span></span>
+18. Conjugate “avoir” in present tense (je, tu, il/elle).
+<br>
+<input type="text" style="width:100%;" placeholder="" oninput="checkAnswer(this, 'j\'ai tu as il a elle a')"><span></span>
+19. Give the correct form: “le”, “la”, “les”, “un”, “une”, “des”.
+<br>
+<input type="text" style="width:100%;" placeholder="" oninput="checkAnswer(this, 'le la les un une des')"><span></span>
+20. What is the plural of “animal”, “cheval”, “journal”?
+<br>
+<input type="text" style="width:100%;" placeholder="" oninput="checkAnswer(this, 'animaux chevaux journaux')"><span></span>
+21. Transform this sentence to negative: “Je parle français.”
+<br>
+<input type="text" style="width:100%;" placeholder="" oninput="checkAnswer(this, 'je ne parle pas français')"><span></span>
+22. Make a question with “où”.
+<br>
+<input type="text" style="width:100%;" placeholder="" oninput="checkAnswer(this, 'où habites-tu ?')"><span></span>
+23. Give five family vocabulary words.
+<br>
+<input type="text" style="width:100%;" placeholder="" oninput="checkAnswer(this, 'mère père frère sœur enfant')"><span></span>
+24. Name three common foods in French.
+<br>
+<input type="text" style="width:100%;" placeholder="" oninput="checkAnswer(this, 'pain fromage pomme')"><span></span>
+25. Name three colors in French.
+<br>
+<input type="text" style="width:100%;" placeholder="" oninput="checkAnswer(this, 'rouge bleu vert')"><span></span>
+26. Describe a person (physical and character).
+<br>
+<textarea rows="2" style="width:100%;" placeholder="Votre réponse ici..."></textarea>
+27. Give two nationalities and two professions.
+<br>
+<input type="text" style="width:100%;" placeholder="" oninput="checkAnswer(this, 'français canadien médecin professeur')"><span></span>
+28. Conjugate “aller” in present tense (je, tu, il/elle).
+<br>
+<input type="text" style="width:100%;" placeholder="" oninput="checkAnswer(this, 'je vais tu vas il va elle va')"><span></span>
+29. Give three useful expressions to ask for help.
+<br>
+<input type="text" style="width:100%;" placeholder="" oninput="checkAnswer(this, 'pouvez-vous m\'aider ? excusez-moi s\'il vous plaît')"><span></span>
+30. Conjugate “faire” in present tense (je, tu, il/elle).
+<br>
+<input type="text" style="width:100%;" placeholder="" oninput="checkAnswer(this, 'je fais tu fais il fait elle fait')"><span></span>
+31. Give an example sentence with “il y a”.
+<br>
+<input type="text" style="width:100%;" placeholder="" oninput="checkAnswer(this, 'il y a un chat sur la table')"><span></span>
+32. What is today’s date in French? (e.g., “Nous sommes le 1er janvier.”)
+<br>
+<textarea rows="2" style="width:100%;" placeholder="Votre réponse ici..."></textarea>
+33. Conjugate “parler” in passé composé (je, tu, il/elle).
+<br>
+<input type="text" style="width:100%;" placeholder="" oninput="checkAnswer(this, 'j\'ai parlé tu as parlé il a parlé elle a parlé')"><span></span>
+34. Conjugate “finir” in passé composé (je, tu, il/elle).
+<br>
+<input type="text" style="width:100%;" placeholder="" oninput="checkAnswer(this, 'j\'ai fini tu as fini il a fini elle a fini')"><span></span>
+35. Conjugate “prendre” in passé composé (je, tu, il/elle).
+<br>
+<input type="text" style="width:100%;" placeholder="" oninput="checkAnswer(this, 'j\'ai pris tu as pris il a pris elle a pris')"><span></span>
+36. When do you use “être” in passé composé?
+<br>
+<input type="text" style="width:100%;" placeholder="" oninput="checkAnswer(this, 'avec les verbes de mouvement et les verbes pronominaux')"><span></span>
+37. Give an example of imparfait.
+<br>
+<input type="text" style="width:100%;" placeholder="" oninput="checkAnswer(this, 'je faisais mes devoirs')"><span></span>
+38. Compare two things with “plus… que”.
+<br>
+<input type="text" style="width:100%;" placeholder="" oninput="checkAnswer(this, 'Marie est plus grande que Paul')"><span></span>
+39. What is the superlative of “bon”?
+<br>
+<input type="text" style="width:100%;" placeholder="" oninput="checkAnswer(this, 'le meilleur')"><span></span>
+40. Give a demonstrative adjective and a demonstrative pronoun.
+<br>
+<input type="text" style="width:100%;" placeholder="" oninput="checkAnswer(this, 'ce celui-ci')"><span></span>
+41. Conjugate “manger” in futur simple (je, tu, il/elle).
+<br>
+<input type="text" style="width:100%;" placeholder="" oninput="checkAnswer(this, 'je mangerai tu mangeras il mangera elle mangera')"><span></span>
+42. Give an example of imperative.
+<br>
+<input type="text" style="width:100%;" placeholder="" oninput="checkAnswer(this, 'écoute !')"><span></span>
+43. Give an example of a pronominal verb.
+<br>
+<input type="text" style="width:100%;" placeholder="" oninput="checkAnswer(this, 'se lever')"><span></span>
+44. Use “depuis” in a sentence.
+<br>
+<input type="text" style="width:100%;" placeholder="" oninput="checkAnswer(this, 'j\'habite ici depuis deux ans')"><span></span>
+45. Give an ordinal number (e.g., “premier”).
+<br>
+<input type="text" style="width:100%;" placeholder="" oninput="checkAnswer(this, 'premier')"><span></span>
+46. Give a partitive article.
+<br>
+<input type="text" style="width:100%;" placeholder="" oninput="checkAnswer(this, 'du')"><span></span>
+47. Give a possessive pronoun.
+<br>
+<input type="text" style="width:100%;" placeholder="" oninput="checkAnswer(this, 'le mien')"><span></span>
+48. Name two sports and two hobbies.
+<br>
+<input type="text" style="width:100%;" placeholder="" oninput="checkAnswer(this, 'football tennis lecture musique')"><span></span>
+49. Name two clothes and two animals.
+<br>
+<input type="text" style="width:100%;" placeholder="" oninput="checkAnswer(this, 'chemise pantalon chat chien')"><span></span>
+50. Give a means of transport.
+<br>
+<input type="text" style="width:100%;" placeholder="" oninput="checkAnswer(this, 'le bus')"><span></span>
+51. Give a French idiomatic expression.
+<br>
+<input type="text" style="width:100%;" placeholder="" oninput="checkAnswer(this, 'avoir le cafard')"><span></span>
+52. Conjugate “venir” in plus-que-parfait (je).
+<br>
+<input type="text" style="width:100%;" placeholder="" oninput="checkAnswer(this, 'j\'étais venu')"><span></span>
+53. Give an example of present conditional.
+<br>
+<input type="text" style="width:100%;" placeholder="" oninput="checkAnswer(this, 'je voudrais un café')"><span></span>
+54. Give a sentence in present subjunctive.
+<br>
+<input type="text" style="width:100%;" placeholder="" oninput="checkAnswer(this, 'il faut que tu viennes')"><span></span>
+55. Give a sentence with “si”.
+<br>
+<input type="text" style="width:100%;" placeholder="" oninput="checkAnswer(this, 'si j\'avais le temps, je voyagerais')"><span></span>
+
+---
+
+
+<button onclick="showScore()" style="margin-right: 1em;">Show Answers</button>
+<button onclick="refreshPage()">Restart</button>
+
+
+<script>
+function checkAnswer(input, correctAnswer) {
+    const span = input.nextElementSibling;
+    if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
+        span.textContent = "✓ Correct";
+        span.style.color = "green";
+    } else {
+        span.textContent = "";
+    }
+}
+
+function showScore() {
+    let score = 0;
+    document.querySelectorAll('input[type="text"]').forEach(el => {
+        const correct = el.getAttribute('oninput')?.match(/'([^']+)'/)?.[1];
+        const span = el.nextElementSibling;
+        if (el.value.trim().toLowerCase() === correct?.toLowerCase()) {
+            score++;
+            span.textContent = "✓ Correct";
+            span.style.color = "green";
+        } else {
+            span.textContent = `Réponse : ${correct || ''}`;
+            span.style.color = "blue";
+        }
+    });
+    let resultMsg = `Votre score : ${score}/55.`;
+    if (score > 35) {
+        resultMsg += " Félicitations ! Vous avez un niveau B1 en français.";
+    }
+    alert(resultMsg);
+}
+
+function refreshPage() {
+    location.reload();
+}
+</script>
+
+
+:::
+
+
+::: {.content-visible when-profile="french"}
+
+
+Répondez aux questions suivantes. Écrivez vos réponses dans les espaces prévus, puis utilisez le script à la fin pour calculer votre score.
+
+---
+
+## Questions
+
+1. Écris une phrase pour te présenter en français.
+<br>
+<textarea rows="2" style="width:100%;" placeholder="Votre réponse ici..."></textarea>
+2. Comment dit-on « bonjour » et « au revoir » en français ?
+<br>
+<input type="text" style="width:100%;" placeholder="" oninput="checkAnswer(this, 'bonjour et au revoir')"><span></span>
+3. Donne trois formules de politesse courantes.
+<br>
+<input type="text" style="width:100%;" placeholder="" oninput="checkAnswer(this, 'merci, s\'il vous plaît, excusez-moi')"><span></span>
+4. Compte de 1 à 20 en français.
+<br>
+<input type="text" style="width:100%;" placeholder="" oninput="checkAnswer(this, 'un deux trois quatre cinq six sept huit neuf dix onze douze treize quatorze quinze seize dix-sept dix-huit dix-neuf vingt')"><span></span>
+5. Compréhension écrite : Marie va à l’école à pied tous les matins. Elle aime apprendre le français et parler avec ses amis.
+<br>
+<strong>Question :</strong> Comment Marie va-t-elle à l’école ?
+<br>
+<select style="width:100%;" oninput="checkAnswer(this, 'à pied')">
+    <option value="">Choisissez la bonne réponse</option>
+    <option value="en voiture">en voiture</option>
+    <option value="à pied">à pied</option>
+    <option value="en bus">en bus</option>
+</select><span></span>
+6. Compréhension écrite : Paul mange une pomme et boit un jus d’orange au petit-déjeuner.
+<br>
+<strong>Question :</strong> Que boit Paul au petit-déjeuner ?
+<br>
+<select style="width:100%;" oninput="checkAnswer(this, 'un jus d’orange')">
+    <option value="">Choisissez la bonne réponse</option>
+    <option value="du lait">du lait</option>
+    <option value="un jus d’orange">un jus d’orange</option>
+    <option value="de l’eau">de l’eau</option>
+</select><span></span>
+7. Compréhension écrite : Les enfants jouent dans le parc après l’école.
+<br>
+<strong>Question :</strong> Où jouent les enfants ?
+<br>
+<select style="width:100%;" oninput="checkAnswer(this, 'dans le parc')">
+    <option value="">Choisissez la bonne réponse</option>
+    <option value="à la maison">à la maison</option>
+    <option value="dans le parc">dans le parc</option>
+    <option value="à l’école">à l’école</option>
+</select><span></span>
+8. Compréhension écrite : Sophie a deux frères et une sœur.
+<br>
+<strong>Question :</strong> Combien de frères a Sophie ?
+<br>
+<select style="width:100%;" oninput="checkAnswer(this, 'deux')">
+    <option value="">Choisissez la bonne réponse</option>
+    <option value="un">un</option>
+    <option value="deux">deux</option>
+    <option value="trois">trois</option>
+</select><span></span>
+9. Compréhension écrite : Luc travaille dans une boulangerie tous les matins. Il prépare du pain et des croissants pour les clients.
+<br>
+<strong>Question :</strong> Où travaille Luc ?
+<br>
+<select style="width:100%;" oninput="checkAnswer(this, 'dans une boulangerie')">
+    <option value="">Choisissez la bonne réponse</option>
+    <option value="dans une école">dans une école</option>
+    <option value="dans une boulangerie">dans une boulangerie</option>
+    <option value="dans un hôpital">dans un hôpital</option>
+</select><span></span>
+10. Compréhension écrite : Claire aime voyager. L’été dernier, elle est allée en Espagne et a visité plusieurs musées.
+<br>
+<strong>Question :</strong> Dans quel pays Claire est-elle allée l’été dernier ?
+<br>
+<select style="width:100%;" oninput="checkAnswer(this, 'en Espagne')">
+    <option value="">Choisissez la bonne réponse</option>
+    <option value="en Italie">en Italie</option>
+    <option value="en Espagne">en Espagne</option>
+    <option value="en France">en France</option>
+</select><span></span>
+11. Compréhension écrite : Les élèves doivent rendre leurs devoirs avant vendredi. Sinon, ils auront une mauvaise note.
+<br>
+<strong>Question :</strong> Que doivent faire les élèves avant vendredi ?
+<br>
+<select style="width:100%;" oninput="checkAnswer(this, 'rendre leurs devoirs')">
+    <option value="">Choisissez la bonne réponse</option>
+    <option value="rendre leurs devoirs">rendre leurs devoirs</option>
+    <option value="passer un examen">passer un examen</option>
+    <option value="aller en voyage">aller en voyage</option>
+</select><span></span>
+12. Compréhension écrite : Paul a acheté un nouveau vélo pour aller à l’université. Il préfère le vélo à la voiture.
+<br>
+<strong>Question :</strong> Pourquoi Paul a-t-il acheté un vélo ?
+<br>
+<select style="width:100%;" oninput="checkAnswer(this, 'pour aller à l’université')">
+    <option value="">Choisissez la bonne réponse</option>
+    <option value="pour voyager en France">pour voyager en France</option>
+    <option value="pour aller à l’université">pour aller à l’université</option>
+    <option value="pour faire du sport">pour faire du sport</option>
+</select><span></span>
+13. Compréhension écrite : Le week-end, Julie fait du bénévolat dans un refuge pour animaux. Elle adore s’occuper des chiens et des chats.
+<br>
+<strong>Question :</strong> Que fait Julie le week-end ?
+<br>
+<select style="width:100%;" oninput="checkAnswer(this, 'du bénévolat dans un refuge pour animaux')">
+    <option value="">Choisissez la bonne réponse</option>
+    <option value="du bénévolat dans un refuge pour animaux">du bénévolat dans un refuge pour animaux</option>
+    <option value="elle va à la piscine">elle va à la piscine</option>
+    <option value="elle travaille dans une boulangerie">elle travaille dans une boulangerie</option>
+</select><span></span>
+14. Quels sont les jours de la semaine en français ?
+<br>
+<input type="text" style="width:100%;" placeholder="" oninput="checkAnswer(this, 'lundi mardi mercredi jeudi vendredi samedi dimanche')"><span></span>
+15. Cite trois mois de l’année en français.
+<br>
+<input type="text" style="width:100%;" placeholder="" oninput="checkAnswer(this, 'janvier février mars')"><span></span>
+16. Comment demande-t-on l’heure en français ?
+<br>
+<input type="text" style="width:100%;" placeholder="" oninput="checkAnswer(this, 'quelle heure est-il ?')"><span></span>
+17. Conjugue « être » au présent (je, tu, il/elle).
+<br>
+<input type="text" style="width:100%;" placeholder="" oninput="checkAnswer(this, 'je suis tu es il est elle est')"><span></span>
+18. Conjugue « avoir » au présent (je, tu, il/elle).
+<br>
+<input type="text" style="width:100%;" placeholder="" oninput="checkAnswer(this, 'j\'ai tu as il a elle a')"><span></span>
+19. Donne la bonne forme : « le », « la », « les », « un », « une », « des ».
+<br>
+<input type="text" style="width:100%;" placeholder="" oninput="checkAnswer(this, 'le la les un une des')"><span></span>
+20. Quel est le pluriel de « animal », « cheval », « journal » ?
+<br>
+<input type="text" style="width:100%;" placeholder="" oninput="checkAnswer(this, 'animaux chevaux journaux')"><span></span>
+21. Mets cette phrase à la forme négative : « Je parle français. »
+<br>
+<input type="text" style="width:100%;" placeholder="" oninput="checkAnswer(this, 'je ne parle pas français')"><span></span>
+22. Fais une question avec « où ».
+<br>
+<input type="text" style="width:100%;" placeholder="" oninput="checkAnswer(this, 'où habites-tu ?')"><span></span>
+23. Donne cinq mots de vocabulaire de la famille.
+<br>
+<input type="text" style="width:100%;" placeholder="" oninput="checkAnswer(this, 'mère père frère sœur enfant')"><span></span>
+24. Cite trois aliments courants en français.
+<br>
+<input type="text" style="width:100%;" placeholder="" oninput="checkAnswer(this, 'pain fromage pomme')"><span></span>
+25. Cite trois couleurs en français.
+<br>
+<input type="text" style="width:100%;" placeholder="" oninput="checkAnswer(this, 'rouge bleu vert')"><span></span>
+26. Décris une personne (physique et caractère).
+<br>
+<textarea rows="2" style="width:100%;" placeholder="Votre réponse ici..."></textarea>
+27. Donne deux nationalités et deux professions.
+<br>
+<input type="text" style="width:100%;" placeholder="" oninput="checkAnswer(this, 'français canadien médecin professeur')"><span></span>
+28. Conjugue « aller » au présent (je, tu, il/elle).
+<br>
+<input type="text" style="width:100%;" placeholder="" oninput="checkAnswer(this, 'je vais tu vas il va elle va')"><span></span>
+29. Donne trois expressions utiles pour demander de l’aide.
+<br>
+<input type="text" style="width:100%;" placeholder="" oninput="checkAnswer(this, 'pouvez-vous m\'aider ? excusez-moi s\'il vous plaît')"><span></span>
+30. Conjugue « faire » au présent (je, tu, il/elle).
+<br>
+<input type="text" style="width:100%;" placeholder="" oninput="checkAnswer(this, 'je fais tu fais il fait elle fait')"><span></span>
+31. Donne une phrase avec « il y a ».
+<br>
+<input type="text" style="width:100%;" placeholder="" oninput="checkAnswer(this, 'il y a un chat sur la table')"><span></span>
+32. Quelle est la date d’aujourd’hui en français ? (ex. : « Nous sommes le 1er janvier. »)
+<br>
+<textarea rows="2" style="width:100%;" placeholder="Votre réponse ici..."></textarea>
+33. Conjugue « parler » au passé composé (je, tu, il/elle).
+<br>
+<input type="text" style="width:100%;" placeholder="" oninput="checkAnswer(this, 'j\'ai parlé tu as parlé il a parlé elle a parlé')"><span></span>
+34. Conjugue « finir » au passé composé (je, tu, il/elle).
+<br>
+<input type="text" style="width:100%;" placeholder="" oninput="checkAnswer(this, 'j\'ai fini tu as fini il a fini elle a fini')"><span></span>
+35. Conjugue « prendre » au passé composé (je, tu, il/elle).
+<br>
+<input type="text" style="width:100%;" placeholder="" oninput="checkAnswer(this, 'j\'ai pris tu as pris il a pris elle a pris')"><span></span>
+36. Quand utilise-t-on « être » au passé composé ?
+<br>
+<input type="text" style="width:100%;" placeholder="" oninput="checkAnswer(this, 'avec les verbes de mouvement et les verbes pronominaux')"><span></span>
+37. Donne un exemple d’imparfait.
+<br>
+<input type="text" style="width:100%;" placeholder="" oninput="checkAnswer(this, 'je faisais mes devoirs')"><span></span>
+38. Compare deux choses avec « plus… que ».
+<br>
+<input type="text" style="width:100%;" placeholder="" oninput="checkAnswer(this, 'Marie est plus grande que Paul')"><span></span>
+39. Quel est le superlatif de « bon » ?
+<br>
+<input type="text" style="width:100%;" placeholder="" oninput="checkAnswer(this, 'le meilleur')"><span></span>
+40. Donne un adjectif démonstratif et un pronom démonstratif.
+<br>
+<input type="text" style="width:100%;" placeholder="" oninput="checkAnswer(this, 'ce celui-ci')"><span></span>
+41. Conjugue « manger » au futur simple (je, tu, il/elle).
+<br>
+<input type="text" style="width:100%;" placeholder="" oninput="checkAnswer(this, 'je mangerai tu mangeras il mangera elle mangera')"><span></span>
+42. Donne un exemple d’impératif.
+<br>
+<input type="text" style="width:100%;" placeholder="" oninput="checkAnswer(this, 'écoute !')"><span></span>
+43. Donne un exemple de verbe pronominal.
+<br>
+<input type="text" style="width:100%;" placeholder="" oninput="checkAnswer(this, 'se lever')"><span></span>
+44. Utilise « depuis » dans une phrase.
+<br>
+<input type="text" style="width:100%;" placeholder="" oninput="checkAnswer(this, 'j\'habite ici depuis deux ans')"><span></span>
+45. Donne un nombre ordinal (ex. : « premier »).
+<br>
+<input type="text" style="width:100%;" placeholder="" oninput="checkAnswer(this, 'premier')"><span></span>
+46. Donne un article partitif.
+<br>
+<input type="text" style="width:100%;" placeholder="" oninput="checkAnswer(this, 'du')"><span></span>
+47. Donne un pronom possessif.
+<br>
+<input type="text" style="width:100%;" placeholder="" oninput="checkAnswer(this, 'le mien')"><span></span>
+48. Cite deux sports et deux loisirs.
+<br>
+<input type="text" style="width:100%;" placeholder="" oninput="checkAnswer(this, 'football tennis lecture musique')"><span></span>
+49. Cite deux vêtements et deux animaux.
+<br>
+<input type="text" style="width:100%;" placeholder="" oninput="checkAnswer(this, 'chemise pantalon chat chien')"><span></span>
+50. Donne un moyen de transport.
+<br>
+<input type="text" style="width:100%;" placeholder="" oninput="checkAnswer(this, 'le bus')"><span></span>
+51. Donne une expression idiomatique française.
+<br>
+<input type="text" style="width:100%;" placeholder="" oninput="checkAnswer(this, 'avoir le cafard')"><span></span>
+52. Conjugue « venir » au plus-que-parfait (je).
+<br>
+<input type="text" style="width:100%;" placeholder="" oninput="checkAnswer(this, 'j\'étais venu')"><span></span>
+53. Donne un exemple de conditionnel présent.
+<br>
+<input type="text" style="width:100%;" placeholder="" oninput="checkAnswer(this, 'je voudrais un café')"><span></span>
+54. Donne une phrase au subjonctif présent.
+<br>
+<input type="text" style="width:100%;" placeholder="" oninput="checkAnswer(this, 'il faut que tu viennes')"><span></span>
+55. Donne une phrase avec « si ».
+<br>
+<input type="text" style="width:100%;" placeholder="" oninput="checkAnswer(this, 'si j\'avais le temps, je voyagerais')"><span></span>
+
+---
+
+<button onclick="showScore()" style="margin-right: 1em;">Afficher les réponses</button>
+<button onclick="refreshPage()">Recommencer</button>
+
+<script>
+function checkAnswer(input, correctAnswer) {
+    const span = input.nextElementSibling;
+    if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
+        span.textContent = "✓ Correct";
+        span.style.color = "green";
+    } else {
+        span.textContent = "";
+    }
+}
+
+function showScore() {
+    let score = 0;
+    document.querySelectorAll('input[type="text"]').forEach(el => {
+        const correct = el.getAttribute('oninput')?.match(/'([^']+)'/)?.[1];
+        const span = el.nextElementSibling;
+        if (el.value.trim().toLowerCase() === correct?.toLowerCase()) {
+            score++;
+            span.textContent = "✓ Correct";
+            span.style.color = "green";
+        } else {
+            span.textContent = `Réponse : ${correct || ''}`;
+            span.style.color = "blue";
+        }
+    });
+    let resultMsg = `Votre score : ${score}/55.`;
+    if (score > 35) {
+        resultMsg += " Félicitations ! Vous avez un niveau B1 en français.";
+    }
+    alert(resultMsg);
+}
+
+function refreshPage() {
+    location.reload();
+}
+</script>
+
+:::

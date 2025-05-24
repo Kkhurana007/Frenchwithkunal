@@ -12,9 +12,7 @@ format:
 ---
 
 ::: {.content-visible when-profile="english"}
-
 We'd love to hear from you! Whether you have a question about our services, feedback, or need support, our team is here to help.
-
 
 ## Get in Touch
 
@@ -90,7 +88,7 @@ Nous serions ravis d'avoir de vos nouvelles ! Que vous ayez une question sur n
 
 ## Entrer en Contact
 
-**Courriel:** [frenchwithkunal\@gmail.com](mailto:frenchwithkunal\@gmail.com)
+**Courriel:** [frenchwithkunal\@gmail.com](mailto:frenchwithkunal@gmail.com)
 
 ## Formulaire d'Inscription
 

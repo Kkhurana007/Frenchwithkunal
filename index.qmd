@@ -108,7 +108,7 @@ format:
           </style>
 ---
 
-:::::::::::::::: {.content-visible when-profile="english"}
+::::::::::::::: {.content-visible when-profile="english"}
 ::: language-switcher
 <button class="language-btn" onclick="window.quartoToggleProfile(&#39;french&#39;)">
 
@@ -176,14 +176,75 @@ Stuck on subjunctive at 2am? Our WhatsApp support has you covered (oui, even on 
 :::
 
 [Get Help →](/contact.html){.btn}
+
 ::::
+
+
+:::: card
+<i class="floating-icon fas fa-lightbulb"></i>
+
+::: card-content
+### <i class="fas fa-magic"></i> AI-Powered French Quiz
+
+Curious about your French skills? Try our interactive AI quiz! Instantly discover your strengths and get a personalized tip to boost your learning.
+:::
+
+[Take the Quiz →](/quiz.html){.btn}
+
+:::: 
+
+:::: card
+<i class="floating-icon fas fa-video"></i>
+
+::: card-content
+### <i class="fas fa-play-circle"></i> Recorded Lectures
+
+Access a library of engaging recorded French lessons. Learn at your own pace, anytime, anywhere.
+:::
+
+[Watch Lectures →](/posts.html){.btn}
+
+::::
+
+:::: card
+
+<i class="floating-icon fas fa-pencil-alt"></i>
+
+::: card-content
+### <i class="fas fa-tasks"></i> Interactive Exercises
+
+Practice what you learn with quizzes, exercises, and real-life scenarios to boost your confidence.
+:::
+
+[Try Exercises →](/exercises.html){.btn}
+
+::::
+
+:::: card
+<i class="floating-icon fas fa-list-alt"></i>
+
+::: card-content
+### <i class="fas fa-stream"></i> Full Curriculum
+
+Explore our structured curriculum designed to take you from beginner to fluent, step by step.
+:::
+
+[View Curriculum →](/curriculum.html){.btn}
+:::: 
+
+
 :::::::::::
 
 ## 🗣️ Success Stories {.testimonials}
 
-<div class='sk-ww-google-reviews' data-embed-id='25557829'></div>
-<script src='https://widgets.sociablekit.com/google-reviews/widget.js' defer></script>
+::: {.sk-ww-google-reviews data-embed-id="25557829"}
+:::
 
+```{=html}
+<script src='https://widgets.sociablekit.com/google-reviews/widget.js' defer></script>
+```
+
+```{=html}
 <style>
   .sk-ww-google-reviews {
     max-height: 400px;
@@ -193,6 +254,9 @@ Stuck on subjunctive at 2am? Our WhatsApp support has you covered (oui, even on 
     margin-bottom: 1.5rem;
   }
 </style>
+```
+
+```{=html}
 <script>
   // Auto-refresh the reviews widget every 60 seconds
   setInterval(function() {
@@ -208,12 +272,9 @@ Stuck on subjunctive at 2am? Our WhatsApp support has you covered (oui, even on 
     }
   }, 60000);
 </script>
-
+```
 
 <!-- Google Reviews Widget End -->
-
-
-
 
 ::: {#newsletter .card style="text-align: center; background: var(--light); border: 2px dashed var(--accent);"}
 <h3><i class="fas fa-envelope-open-text"></i> Get Weekly French Goodies!</h3>
@@ -262,9 +323,9 @@ document.getElementById('subscribeForm').addEventListener('submit', async functi
 **Limited spots available** - Join 1,200+ students who've unlocked their French potential!
 
 [Enroll Now](/payment.html){.btn} [Free Trial Lesson](/contact.html){.btn}
-::::::::::::::::
+:::::::::::::::
 
-:::::::::::::::: {.content-visible when-profile="french"}
+::::::::::::::: {.content-visible when-profile="french"}
 ::: language-switcher
 <button class="language-btn" onclick="window.quartoToggleProfile(&#39;english&#39;)">
 
@@ -333,13 +394,70 @@ Blocage sur le subjonctif à 2h du matin? Notre support WhatsApp est là pour vo
 
 [Obtenir de l'aide →](/contact.html){.btn}
 ::::
+
+:::: card
+<i class="floating-icon fas fa-lightbulb"></i>
+
+::: card-content
+### <i class="fas fa-magic"></i> Quiz d'évaluation IA
+
+Curieux de connaître votre niveau de français ? Essayez notre quiz interactif alimenté par l'IA ! Découvrez instantanément vos points forts et recevez un conseil personnalisé pour progresser.
+:::
+
+[Passer le quiz →](/quiz.html){.btn}
+
+:::: 
+
+:::: card
+<i class="floating-icon fas fa-video"></i>
+
+::: card-content
+### <i class="fas fa-play-circle"></i> Cours enregistrés
+
+Accédez à une bibliothèque de leçons de français captivantes en vidéo. Apprenez à votre rythme, où et quand vous voulez.
+:::
+
+[Voir les cours →](/posts.html){.btn}
+
+::::
+
+:::: card
+
+<i class="floating-icon fas fa-pencil-alt"></i>
+
+::: card-content
+### <i class="fas fa-tasks"></i> Exercices interactifs
+
+Entraînez-vous avec des quiz, des exercices et des mises en situation pour gagner en confiance.
+:::
+
+[Essayer les exercices →](/exercises.html){.btn}
+
+::::
+
+:::: card
+<i class="floating-icon fas fa-list-alt"></i>
+
+::: card-content
+### <i class="fas fa-stream"></i> Parcours complet
+
+Découvrez notre programme structuré pour passer de débutant à fluent, étape par étape.
+:::
+
+[Voir le programme →](/curriculum.html){.btn}
+:::: 
 :::::::::::
 
 ## 🗣️ Témoignages {.testimonials}
 
-<div class='sk-ww-google-reviews' data-embed-id='25557829'></div>
-<script src='https://widgets.sociablekit.com/google-reviews/widget.js' defer></script>
+::: {.sk-ww-google-reviews data-embed-id="25557829"}
+:::
 
+```{=html}
+<script src='https://widgets.sociablekit.com/google-reviews/widget.js' defer></script>
+```
+
+```{=html}
 <style>
   .sk-ww-google-reviews {
     max-height: 400px;
@@ -349,6 +467,9 @@ Blocage sur le subjonctif à 2h du matin? Notre support WhatsApp est là pour vo
     margin-bottom: 1.5rem;
   }
 </style>
+```
+
+```{=html}
 <script>
   // Auto-refresh the reviews widget every 60 seconds
   setInterval(function() {
@@ -364,8 +485,7 @@ Blocage sur le subjonctif à 2h du matin? Notre support WhatsApp est là pour vo
     }
   }, 60000);
 </script>
-
-
+```
 
 ::: {#newsletter-fr .card style="text-align: center; background: var(--light); border: 2px dashed var(--accent);"}
 <h3><i class="fas fa-envelope-open-text"></i> Recevez chaque semaine votre dose de français authentique!</h3>
@@ -374,13 +494,12 @@ Blocage sur le subjonctif à 2h du matin? Notre support WhatsApp est là pour vo
 
 <form id="subscribeFormFr" style="margin-top: 1rem;">
 
-  <input type="email" id="subscriberEmailFr" name="email" placeholder="Entrez votre e-mail" required style="padding: 10px; border-radius: 5px; border: 1px solid #ccc; width: 80%; max-width: 300px;"> <br>
-  <button type="submit" class="btn" style="margin-top: 1rem;">Oui, je le veux!</button>
+<input type="email" id="subscriberEmailFr" name="email" placeholder="Entrez votre e-mail" required style="padding: 10px; border-radius: 5px; border: 1px solid #ccc; width: 80%; max-width: 300px;"> <br> <button type="submit" class="btn" style="margin-top: 1rem;">Oui, je le veux!</button>
 
 </form>
-
 :::
 
+```{=html}
 <script>
 document.getElementById('subscribeFormFr').addEventListener('submit', async function(e) {
   e.preventDefault();
@@ -408,11 +527,11 @@ document.getElementById('subscribeFormFr').addEventListener('submit', async func
   }
 });
 </script>
-
+```
 
 ## 🚀 Prêt pour votre révolution française ? {.hero}
 
 **Places limitées** - Rejoignez 1 200+ étudiants qui ont débloqué leur potentiel en français !
 
 [S'inscrire maintenant](/payment.html){.btn} [Leçon d'essai gratuite](/contact.html){.btn}
-::::::::::::::::
+:::::::::::::::

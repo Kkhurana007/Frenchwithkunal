@@ -72,6 +72,9 @@ website:
           - text: "Exercices"
             href: exercises.qmd
             icon: clipboard-check
+          - text: "Quiz"  
+            href: quiz.qmd
+            icon: patch-question 
       - text: "À Propos"
         href: about.qmd      
       - text: "Contactez-nous"
@@ -91,9 +94,14 @@ website:
             icon: credit-card
         
     right:
-      - text: "FAQ"
-        href: faq.qmd
-        icon: question-circle
+      - text: "Plus"
+        menu:
+          - text: "FAQ"
+            href: faq.qmd
+            icon: question-circle
+          - text: "Programme"
+            href: curriculum.qmd
+            icon: book
       - text: Langue
         menu:
           - text: Anglais
