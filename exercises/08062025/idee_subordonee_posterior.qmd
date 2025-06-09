@@ -1,0 +1,328 @@
+---
+title: "Exprimer la postériorité en français (Expressing Posterior Actions in French)" 
+author: "Kunal Khurana" 
+date: "2025-06-08" 
+categories: [B1, grammar, postériorité, subordonnée, temps, exercises] 
+image: "posteriorite.png"
+---
+
+
+::: {.content-visible when-profile="english"}
+
+# Expressing Posterior Actions in French
+
+In French, to express that one action continues until another action happens (posteriority), you use specific expressions and subordinate clauses. These structures indicate that the main action lasts up to a certain point or event.
+
+## 1. Key Expressions for Posteriority
+
+| Expression | Usage/Meaning | Example |
+|--------------------|---------------------|-------------------------------|
+| **jusqu’à + nom** | until (a noun/event) | Je travaille jusqu’à minuit. |
+| **jusqu’à ce que + subj.** | until (someone does something) | Attends jusqu’à ce qu’il arrive. |
+
+> **Note:**\
+> "Avant" expressions (avant + nom, avant de + infinitif, avant que + subj.) indicate anteriority (before the main action), while "jusqu’à" expressions indicate posteriority (the main action continues until something happens).
+
+------------------------------------------------------------------------
+
+## 2. How to Use
+
+-   **Jusqu’à + nom**\
+    Use when the action continues up to a specific event or time (noun).\
+    *Ex: Elle reste à l’école jusqu’à la fin des cours.*
+
+-   **Jusqu’à ce que + subj.**\
+    Use when the action continues until another action happens (requires subjunctive).\
+    *Ex: Je vais attendre ici jusqu’à ce que tu reviennes.*
+
+------------------------------------------------------------------------
+
+# Exercises
+
+## 1. Fill in with the correct expression
+
+### 
+
+1. ________ 8 heures, je dors. <input type="text" placeholder="" oninput="checkAnswer(this, 'Jusqu’à')" > <span></span>
+2. ________ tu restes ici, je reviens. <input type="text" placeholder="" oninput="checkAnswer(this, 'Jusqu’à ce que')"> <span></span>
+3. ________ nous avons attendu, la fin du spectacle est arrivée. <input type="text" placeholder="" oninput="checkAnswer(this, 'Jusqu’à')"> <span></span>
+4. ________ il travaille, il termine le projet. <input type="text" placeholder="" oninput="checkAnswer(this, 'Jusqu’à ce que')"> <span></span>
+5. ________ elle lit, il est minuit. <input type="text" placeholder="" oninput="checkAnswer(this, 'Jusqu’à')"> <span></span>
+6. ________ je reste à la maison, il arrête de pleuvoir. <input type="text" placeholder="" oninput="checkAnswer(this, 'Jusqu’à ce que')"> <span></span>
+7. ________ nous marchons, nous arrivons à la gare. <input type="text" placeholder="" oninput="checkAnswer(this, 'Jusqu’à')"> <span></span>
+8. ________ tu attends ici, je reviens. <input type="text" placeholder="" oninput="checkAnswer(this, 'Jusqu’à ce que')"> <span></span>
+9. ________ il lit, il s’endort. <input type="text" placeholder="" oninput="checkAnswer(this, 'Jusqu’à ce que')"> <span></span>
+10. ________ elle travaille, la fin de la journée arrive. <input type="text" placeholder="" oninput="checkAnswer(this, 'Jusqu’à')"> <span></span>
+11. ________ nous restons dehors, le soleil se couche. <input type="text" placeholder="" oninput="checkAnswer(this, 'Jusqu’à ce que')"> <span></span>
+12. ________ je garde le silence, tu expliques tout. <input type="text" placeholder="" oninput="checkAnswer(this, 'Jusqu’à ce que')"> <span></span>
+13. ________ il attend, le bus arrive. <input type="text" placeholder="" oninput="checkAnswer(this, 'Jusqu’à ce que')"> <span></span>
+14. ________ elle danse, la musique s’arrête. <input type="text" placeholder="" oninput="checkAnswer(this, 'Jusqu’à ce que')"> <span></span>
+15. ________ nous restons à table, tout le monde a fini. <input type="text" placeholder="" oninput="checkAnswer(this, 'Jusqu’à ce que')"> <span></span>
+
+---
+
+## 2. Transform the sentences using "jusqu’à" or "jusqu’à ce que"
+
+1.  Il attend. Ensuite, tu arrives.\
+    → <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Il attend jusqu’à ce que tu arrives.')"><span></span>
+2.  Je travaille. Ensuite, c’est la pause.\
+    → <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Je travaille jusqu’à la pause.')"><span></span>
+3.  Nous restons ici. Ensuite, le film commence.\
+    → <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Nous restons ici jusqu’à ce que le film commence.')"><span></span>
+4.  Elle lit. Ensuite, elle s’endort.\
+    → <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Elle lit jusqu’à ce qu’elle s’endorme.')"><span></span>
+5.  Tu restes à la bibliothèque. Ensuite, elle ferme.\
+    → <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Tu restes à la bibliothèque jusqu’à sa fermeture.')"><span></span>
+6.  Nous attendons. Ensuite, le professeur arrive.\
+    → <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Nous attendons jusqu’à ce que le professeur arrive.')"><span></span>
+7.  Je lis. Ensuite, il est minuit.\
+    → <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Je lis jusqu’à minuit.')"><span></span>
+8.  Elle travaille. Ensuite, elle termine le projet.\
+    → <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Elle travaille jusqu’à ce qu’elle termine le projet.')"><span></span>
+9.  Ils jouent dehors. Ensuite, il fait nuit.\
+    → <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Ils jouent dehors jusqu’à la nuit.')"><span></span>
+10. Tu restes ici. Ensuite, je reviens.\
+    → <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Tu restes ici jusqu’à ce que je revienne.')"><span></span>
+11. Nous mangeons. Ensuite, tout le monde est rassasié.\
+    → <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Nous mangeons jusqu’à ce que tout le monde soit rassasié.')"><span></span>
+12. Il court. Ensuite, il est fatigué.\
+    → <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Il court jusqu’à ce qu’il soit fatigué.')"><span></span>
+13. Je reste debout. Ensuite, le bus arrive.\
+    → <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Je reste debout jusqu’à ce que le bus arrive.')"><span></span>
+14. Elle chante. Ensuite, le spectacle finit.\
+    → <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Elle chante jusqu’à la fin du spectacle.')"><span></span>
+15. Nous attendons. Ensuite, la pluie s’arrête.\
+    → <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Nous attendons jusqu’à ce que la pluie s’arrête.')"><span></span>
+
+
+
+## 3. Translate into French
+
+1.  I wait until you come back.\
+    <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'J’attends jusqu’à ce que tu reviennes.')"><span></span>
+2.  She studies until midnight.\
+    <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Elle étudie jusqu’à minuit.')"><span></span>
+3.  We stay here until the end of the class.\
+    <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Nous restons ici jusqu’à la fin du cours.')"><span></span>
+4.  He works until he finishes.\
+    <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Il travaille jusqu’à ce qu’il finisse.')"><span></span>
+5.  Wait until I call you.\
+    <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Attends jusqu’à ce que je t’appelle.')"><span></span>
+6.  They play until it gets dark.\
+    <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Ils jouent jusqu’à ce qu’il fasse nuit.')"><span></span>
+7.  We walk until the station.\
+    <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Nous marchons jusqu’à la gare.')"><span></span>
+8.  She waits until her friend arrives.\
+    <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Elle attend jusqu’à ce que son amie arrive.')"><span></span>
+9.  I read until I fall asleep.\
+    <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Je lis jusqu’à ce que je m’endorme.')"><span></span>
+10. Stay here until the teacher comes.\
+    <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Reste ici jusqu’à ce que le professeur vienne.')"><span></span>
+11. He eats until he is full.\
+    <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Il mange jusqu’à ce qu’il soit rassasié.')"><span></span>
+12. We wait until the rain stops.\
+    <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Nous attendons jusqu’à ce que la pluie s’arrête.')"><span></span>
+13. She sings until the end of the concert.\
+    <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Elle chante jusqu’à la fin du concert.')"><span></span>
+14. I stay at home until my parents return.\
+    <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Je reste à la maison jusqu’à ce que mes parents rentrent.')"><span></span>
+15. He studies until he understands everything.\
+    <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Il étudie jusqu’à ce qu’il comprenne tout.')"><span></span>
+
+<button onclick="showAnswers()">Show Answers</button>
+
+<button onclick="refreshPage()">Try Again</button>
+
+
+## Practice: Write Your Own Paragraph
+
+Write a short paragraph (4–6 sentences) using at least two different expressions of posteriority from above. Describe your study routine or a recent event.
+
+<textarea style="width: 100%; min-height: 120px; font-size: 1.1em;" placeholder="Write your paragraph here..."></textarea>
+
+
+<script>
+function checkAnswer(input, correctAnswer) {
+        const span = input.nextElementSibling;
+        if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
+                span.textContent = "✓ Correct";
+                span.style.color = "green";
+        } else {
+                span.textContent = "";
+        }
+}
+
+function showAnswers() {
+        document.querySelectorAll('input[type="text"]').forEach(el => {
+                const correct = el.getAttribute('oninput')?.match(/'([^']+)'/)?.[1];
+                if (correct) {
+                        const span = el.nextElementSibling;
+                        span.textContent = `Réponse : ${correct}`;
+                        span.style.color = "blue";
+                }
+        });
+}
+
+function refreshPage() {
+        location.reload();
+}
+</script>
+
+:::
+
+::: {.content-visible when-profile="french"}
+
+# Exprimer la postériorité en français
+
+Pour exprimer qu’une action continue jusqu’à ce qu’une autre se produise (postériorité), on utilise des expressions et des subordonnées spécifiques. Ces structures indiquent que l’action principale dure jusqu’à un certain moment ou événement.
+
+## 1. Expressions clés pour la postériorité
+
+| Expression | Utilisation/Sens | Exemple |
+|--------------------|---------------------|-------------------------------|
+| **jusqu’à + nom** | jusqu’à (un événement/un nom) | Je travaille jusqu’à minuit. |
+| **jusqu’à ce que + subj.** | jusqu’à ce que (quelqu’un fasse quelque chose) | Attends jusqu’à ce qu’il arrive. |
+
+> **Remarque :**\
+> Les expressions avec "avant" (avant + nom, avant de + infinitif, avant que + subj.) expriment l’antériorité (avant l’action principale), tandis que les expressions avec "jusqu’à" expriment la postériorité (l’action principale continue jusqu’à ce que quelque chose arrive).
+
+------------------------------------------------------------------------
+
+## 2. Comment utiliser
+
+-   **Jusqu’à + nom**\
+    À utiliser quand l’action continue jusqu’à un événement ou un moment précis (nom).\
+    *Ex : Elle reste à l’école jusqu’à la fin des cours.*
+
+-   **Jusqu’à ce que + subj.**\
+    À utiliser quand l’action continue jusqu’à ce qu’une autre action se produise (subjonctif obligatoire).\
+    *Ex : Je vais attendre ici jusqu’à ce que tu reviennes.*
+
+------------------------------------------------------------------------
+
+# Exercices
+
+## 1. Complétez avec la bonne expression
+
+1. ________ 8 heures, je dors. <input type="text" placeholder="" oninput="checkAnswer(this, 'Jusqu’à')" > <span></span>
+2. ________ tu restes ici, je reviens. <input type="text" placeholder="" oninput="checkAnswer(this, 'Jusqu’à ce que')"> <span></span>
+3. ________ nous avons attendu, la fin du spectacle est arrivée. <input type="text" placeholder="" oninput="checkAnswer(this, 'Jusqu’à')"> <span></span>
+4. ________ il travaille, il termine le projet. <input type="text" placeholder="" oninput="checkAnswer(this, 'Jusqu’à ce que')"> <span></span>
+5. ________ elle lit, il est minuit. <input type="text" placeholder="" oninput="checkAnswer(this, 'Jusqu’à')"> <span></span>
+6. ________ je reste à la maison, il arrête de pleuvoir. <input type="text" placeholder="" oninput="checkAnswer(this, 'Jusqu’à ce que')"> <span></span>
+7. ________ nous marchons, nous arrivons à la gare. <input type="text" placeholder="" oninput="checkAnswer(this, 'Jusqu’à')"> <span></span>
+8. ________ tu attends ici, je reviens. <input type="text" placeholder="" oninput="checkAnswer(this, 'Jusqu’à ce que')"> <span></span>
+9. ________ il lit, il s’endort. <input type="text" placeholder="" oninput="checkAnswer(this, 'Jusqu’à ce que')"> <span></span>
+10. ________ elle travaille, la fin de la journée arrive. <input type="text" placeholder="" oninput="checkAnswer(this, 'Jusqu’à')"> <span></span>
+11. ________ nous restons dehors, le soleil se couche. <input type="text" placeholder="" oninput="checkAnswer(this, 'Jusqu’à ce que')"> <span></span>
+12. ________ je garde le silence, tu expliques tout. <input type="text" placeholder="" oninput="checkAnswer(this, 'Jusqu’à ce que')"> <span></span>
+13. ________ il attend, le bus arrive. <input type="text" placeholder="" oninput="checkAnswer(this, 'Jusqu’à ce que')"> <span></span>
+14. ________ elle danse, la musique s’arrête. <input type="text" placeholder="" oninput="checkAnswer(this, 'Jusqu’à ce que')"> <span></span>
+15. ________ nous restons à table, tout le monde a fini. <input type="text" placeholder="" oninput="checkAnswer(this, 'Jusqu’à ce que')"> <span></span>
+
+---
+
+## 2. Transformez les phrases en utilisant "jusqu’à" ou "jusqu’à ce que"
+1.  Il attend. Ensuite, tu arrives.\
+    → <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Il attend jusqu’à ce que tu arrives.')"><span></span>
+2.  Je travaille. Ensuite, c’est la pause.\
+    → <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Je travaille jusqu’à la pause.')"><span></span>
+3.  Nous restons ici. Ensuite, le film commence.\
+    → <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Nous restons ici jusqu’à ce que le film commence.')"><span></span>
+4.  Elle lit. Ensuite, elle s’endort.\
+    → <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Elle lit jusqu’à ce qu’elle s’endorme.')"><span></span>
+5.  Tu restes à la bibliothèque. Ensuite, elle ferme.\
+    → <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Tu restes à la bibliothèque jusqu’à sa fermeture.')"><span></span>
+6.  Nous attendons. Ensuite, le professeur arrive.\
+    → <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Nous attendons jusqu’à ce que le professeur arrive.')"><span></span>
+7.  Je lis. Ensuite, il est minuit.\
+    → <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Je lis jusqu’à minuit.')"><span></span>
+8.  Elle travaille. Ensuite, elle termine le projet.\
+    → <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Elle travaille jusqu’à ce qu’elle termine le projet.')"><span></span>
+9.  Ils jouent dehors. Ensuite, il fait nuit.\
+    → <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Ils jouent dehors jusqu’à la nuit.')"><span></span>
+10. Tu restes ici. Ensuite, je reviens.\
+    → <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Tu restes ici jusqu’à ce que je revienne.')"><span></span>
+11. Nous mangeons. Ensuite, tout le monde est rassasié.\
+    → <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Nous mangeons jusqu’à ce que tout le monde soit rassasié.')"><span></span>
+12. Il court. Ensuite, il est fatigué.\
+    → <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Il court jusqu’à ce qu’il soit fatigué.')"><span></span>
+13. Je reste debout. Ensuite, le bus arrive.\
+    → <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Je reste debout jusqu’à ce que le bus arrive.')"><span></span>
+14. Elle chante. Ensuite, le spectacle finit.\
+    → <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Elle chante jusqu’à la fin du spectacle.')"><span></span>
+15. Nous attendons. Ensuite, la pluie s’arrête.\
+    → <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Nous attendons jusqu’à ce que la pluie s’arrête.')"><span></span>
+
+## 3. Traduisez en français
+
+1.  J’attends jusqu’à ce que tu reviennes.\
+    <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'J’attends jusqu’à ce que tu reviennes.')"><span></span>
+2.  Elle étudie jusqu’à minuit.\
+    <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Elle étudie jusqu’à minuit.')"><span></span>
+3.  Nous restons ici jusqu’à la fin du cours.\
+    <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Nous restons ici jusqu’à la fin du cours.')"><span></span>
+4.  Il travaille jusqu’à ce qu’il finisse.\
+    <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Il travaille jusqu’à ce qu’il finisse.')"><span></span>
+5.  Attends jusqu’à ce que je t’appelle.\
+    <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Attends jusqu’à ce que je t’appelle.')"><span></span>
+6.  Ils jouent jusqu’à ce qu’il fasse nuit.\
+    <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Ils jouent jusqu’à ce qu’il fasse nuit.')"><span></span>
+7.  Nous marchons jusqu’à la gare.\
+    <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Nous marchons jusqu’à la gare.')"><span></span>
+8.  Elle attend jusqu’à ce que son amie arrive.\
+    <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Elle attend jusqu’à ce que son amie arrive.')"><span></span>
+9.  Je lis jusqu’à ce que je m’endorme.\
+    <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Je lis jusqu’à ce que je m’endorme.')"><span></span>
+10. Reste ici jusqu’à ce que le professeur vienne.\
+    <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Reste ici jusqu’à ce que le professeur vienne.')"><span></span>
+11. Il mange jusqu’à ce qu’il soit rassasié.\
+    <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Il mange jusqu’à ce qu’il soit rassasié.')"><span></span>
+12. Nous attendons jusqu’à ce que la pluie s’arrête.\
+    <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Nous attendons jusqu’à ce que la pluie s’arrête.')"><span></span>
+13. Elle chante jusqu’à la fin du concert.\
+    <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Elle chante jusqu’à la fin du concert.')"><span></span>
+14. Je reste à la maison jusqu’à ce que mes parents rentrent.\
+    <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Je reste à la maison jusqu’à ce que mes parents rentrent.')"><span></span>
+15. Il étudie jusqu’à ce qu’il comprenne tout.\
+    <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Il étudie jusqu’à ce qu’il comprenne tout.')"><span></span>
+
+<button onclick="showAnswers()">Afficher les réponses</button>
+
+<button onclick="refreshPage()">Réessayer</button>
+
+## Pratique : Rédigez votre propre paragraphe
+
+Rédigez un court paragraphe (4 à 6 phrases) en utilisant au moins deux expressions de postériorité vues ci-dessus. Décrivez votre routine d’étude ou un événement récent.
+
+<textarea style="width: 100%; min-height: 120px; font-size: 1.1em;" placeholder="Écrivez votre paragraphe ici..."></textarea>
+
+
+<script>
+function checkAnswer(input, correctAnswer) {
+        const span = input.nextElementSibling;
+        if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
+                span.textContent = "✓ Correct";
+                span.style.color = "green";
+        } else {
+                span.textContent = "";
+        }
+}
+
+function showAnswers() {
+        document.querySelectorAll('input[type="text"]').forEach(el => {
+                const correct = el.getAttribute('oninput')?.match(/'([^']+)'/)?.[1];
+                if (correct) {
+                        const span = el.nextElementSibling;
+                        span.textContent = `Réponse : ${correct}`;
+                        span.style.color = "blue";
+                }
+        });
+}
+
+function refreshPage() {
+        location.reload();
+}
+</script>
+
+:::

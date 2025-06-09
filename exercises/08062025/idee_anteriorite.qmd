@@ -1,0 +1,304 @@
+---
+title: "Exprimer l’antériorité en français (Expressing Prior Actions in French)"
+author: "Kunal Khurana"
+date: "2025-06-08"
+categories: [B1, grammar, antériorité, adverbes, temps, exercises]
+image: "anteriorite.png"
+---
+
+::: {.content-visible when-profile="english"}
+
+# Expressing Prior Actions in French
+
+In French, to express that one action happened before another, you can use several expressions and structures. These can appear at the beginning or within a sentence. Here are the main ways to express anteriority (prior actions):
+
+## 1. Key Expressions for Anteriority
+
+| Expression                        | Usage/Meaning                        | Example                                                    |
+|------------------------------------|--------------------------------------|------------------------------------------------------------|
+| **avant de + infinitif**           | before (doing something)             | Avant de partir, ferme la porte.                           |
+| **avant que + subj.**              | before (someone else does)           | Avant que tu partes, dis-moi au revoir.                    |
+| **après + nom**                    | after (noun)                         | Après le dîner, nous sortons.                              |
+| **après que + indicatif**          | after (someone did)                  | Après que tu es parti, il a commencé à pleuvoir.           |
+| **après + infinitif passé**        | after (having done)                  | Après avoir mangé, il est parti.                           |
+| **dès que, aussitôt que, une fois que** | as soon as, once (immediate succession) | Dès qu’il est arrivé, on a commencé.                   |
+| **quand, lorsque**                 | when (can indicate anteriority)      | Quand il a fini, il est sorti.                             |
+
+---
+
+## 2. How to Use
+
+- **Avant de + infinitif**  
+    Use before an action by the same subject.  
+    _Ex: Avant de commencer, lis les instructions._
+
+- **Avant que + subj.**  
+    Use before another subject’s action (requires subjunctive).  
+    _Ex: Pars avant qu’il ne pleuve._
+
+- **Après + nom**  
+    Use after a noun.  
+    _Ex: Après le travail, je me repose._
+
+- **Après que + indicatif**  
+    Use after another action (requires indicative, not subjunctive).  
+    _Ex: Après que tu es parti, j’ai rangé la maison._
+
+- **Après + infinitif passé**  
+    Use after having done something (same subject).  
+    _Ex: Après avoir fini mes devoirs, je regarde la télé._
+
+- **Dès que, Aussitôt que, Une fois que**  
+    Use for immediate succession—one action follows another.  
+    _Ex: Dès qu’il a terminé, il est parti._
+
+- **Quand, Lorsque**  
+    Can indicate anteriority if the first action is completed before the second.  
+    _Ex: Quand il a mangé, il est sorti._
+
+---
+
+# Exercises
+
+## 1. Fill in with the correct expression
+
+1. ________ tu pars, ferme la fenêtre. <input type="text" placeholder="" oninput="checkAnswer(this, 'Avant de')"> <span></span>
+2. ________ tu es arrivé, le film avait commencé. <input type="text" placeholder="" oninput="checkAnswer(this, 'Quand')"> <span></span>
+3. ________ avoir mangé, il est sorti. <input type="text" placeholder="" oninput="checkAnswer(this, 'Après')"> <span></span>
+4. ________ tu as fini, appelle-moi. <input type="text" placeholder="" oninput="checkAnswer(this, 'Dès que')"> <span></span>
+5. ________ le dîner, nous avons fait une promenade. <input type="text" placeholder="" oninput="checkAnswer(this, 'Après')"> <span></span>
+6. ________ tu partes, dis-moi au revoir. <input type="text" placeholder="" oninput="checkAnswer(this, 'Avant que')"> <span></span>
+7. ________ il a terminé ses devoirs, il a regardé la télé. <input type="text" placeholder="" oninput="checkAnswer(this, 'Après que')"> <span></span>
+8. ________ tu as lu ce livre, tu comprendras mieux le film. <input type="text" placeholder="" oninput="checkAnswer(this, 'Une fois que')"> <span></span>
+9. ________ avoir fini, il est parti. <input type="text" placeholder="" oninput="checkAnswer(this, 'Après')"> <span></span>
+10. ________ tu arrives, on commence. <input type="text" placeholder="" oninput="checkAnswer(this, 'Dès que')"> <span></span>
+
+---
+
+## 2. Transform the sentences using the correct time expression
+
+1. Il a mangé. Ensuite, il est parti.  
+    → <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Après avoir mangé, il est parti.')"> <span></span>
+2. Tu finis tes devoirs. Tu peux regarder la télé après.  
+    → <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Après que tu as fini tes devoirs, tu peux regarder la télé.')"> <span></span>
+3. Je lis les instructions. Ensuite, je commence.  
+    → <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Après avoir lu les instructions, je commence.')"> <span></span>
+4. Il part. Je ferme la porte juste après.  
+    → <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Dès qu\'il part, je ferme la porte.')"> <span></span>
+5. Tu pars. Dis-moi au revoir avant.  
+    → <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Avant de partir, dis-moi au revoir.')"> <span></span>
+
+---
+
+## 3. Translate into French
+
+1. Before leaving, close the window.  
+    <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Avant de partir, ferme la fenêtre.')"> <span></span>
+2. After dinner, we go out.  
+    <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Après le dîner, nous sortons.')"> <span></span>
+3. As soon as you finish, call me.  
+    <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Dès que tu as fini, appelle-moi.')"> <span></span>
+4. After having read the book, I watched the movie.  
+    <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Après avoir lu le livre, j\'ai regardé le film.')"> <span></span>
+5. Before you leave, tell me.  
+    <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Avant que tu partes, dis-moi.')"> <span></span>
+6. When he finished, he left.  
+    <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Quand il a fini, il est parti.')"> <span></span>
+7. Once you have read this, you will understand.  
+    <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Une fois que tu as lu ceci, tu comprendras.')"> <span></span>
+8. After work, I rest.  
+    <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Après le travail, je me repose.')"> <span></span>
+9. After you left, it started to rain.  
+    <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Après que tu es parti, il a commencé à pleuvoir.')"> <span></span>
+10. Before starting, read the instructions.  
+    <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Avant de commencer, lis les instructions.')"> <span></span>
+
+<button onclick="showAnswers()">Show Answers</button>
+<button onclick="refreshPage()">Try Again</button>
+
+---
+
+## Practice: Write Your Own Paragraph
+
+Write a short paragraph (4–6 sentences) using at least three different expressions of anteriority from above. Describe your daily routine or a recent event.
+
+<textarea style="width: 100%; min-height: 120px; font-size: 1.1em;" placeholder="Write your paragraph here..."></textarea>
+
+<script>
+function checkAnswer(input, correctAnswer) {
+    const span = input.nextElementSibling;
+    if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
+        span.textContent = "✓ Correct";
+        span.style.color = "green";
+    } else {
+        span.textContent = "";
+    }
+}
+
+function showAnswers() {
+    document.querySelectorAll('input[type="text"]').forEach(el => {
+        const correct = el.getAttribute('oninput')?.match(/'([^']+)'/)?.[1];
+        if (correct) {
+            const span = el.nextElementSibling;
+            span.textContent = `Réponse : ${correct}`;
+            span.style.color = "blue";
+        }
+    });
+}
+
+function refreshPage() {
+    location.reload();
+}
+</script>
+
+:::
+
+
+::: {.content-visible when-profile="french"}
+
+# Exprimer l’antériorité en français
+
+Pour exprimer qu’une action s’est produite avant une autre, on utilise plusieurs expressions et structures. Elles peuvent apparaître en début ou au sein de la phrase. Voici les principales façons d’exprimer l’antériorité :
+
+## 1. Expressions clés pour l’antériorité
+
+| Expression                        | Utilisation/Sens                         | Exemple                                                    |
+|------------------------------------|------------------------------------------|------------------------------------------------------------|
+| **avant de + infinitif**           | avant de faire quelque chose             | Avant de partir, ferme la porte.                           |
+| **avant que + subj.**              | avant qu’une autre personne fasse        | Avant que tu partes, dis-moi au revoir.                    |
+| **après + nom**                    | après (nom)                              | Après le dîner, nous sortons.                              |
+| **après que + indicatif**          | après que quelqu’un a fait               | Après que tu es parti, il a commencé à pleuvoir.           |
+| **après + infinitif passé**        | après avoir fait                         | Après avoir mangé, il est parti.                           |
+| **dès que, aussitôt que, une fois que** | dès que, aussitôt que, une fois que (succession immédiate) | Dès qu’il est arrivé, on a commencé.                   |
+| **quand, lorsque**                 | quand, lorsque (peut indiquer l’antériorité) | Quand il a fini, il est sorti.                         |
+
+---
+
+## 2. Comment les utiliser
+
+- **Avant de + infinitif**  
+    Utilisé avant une action du même sujet.  
+    _Ex : Avant de commencer, lis les instructions._
+
+- **Avant que + subj.**  
+    Utilisé avant l’action d’un autre sujet (subjonctif obligatoire).  
+    _Ex : Pars avant qu’il ne pleuve._
+
+- **Après + nom**  
+    Utilisé après un nom.  
+    _Ex : Après le travail, je me repose._
+
+- **Après que + indicatif**  
+    Utilisé après une autre action (indicatif, pas subjonctif).  
+    _Ex : Après que tu es parti, j’ai rangé la maison._
+
+- **Après + infinitif passé**  
+    Utilisé après avoir fait quelque chose (même sujet).  
+    _Ex : Après avoir fini mes devoirs, je regarde la télé._
+
+- **Dès que, Aussitôt que, Une fois que**  
+    Pour la succession immédiate : une action suit l’autre.  
+    _Ex : Dès qu’il a terminé, il est parti._
+
+- **Quand, Lorsque**  
+    Peut indiquer l’antériorité si la première action est terminée avant la seconde.  
+    _Ex : Quand il a mangé, il est sorti._
+
+---
+
+# Exercices
+
+## 1. Complétez avec la bonne expression
+
+1. ________ tu pars, ferme la fenêtre. <input type="text" placeholder="" oninput="checkAnswer(this, 'Avant de')"> <span></span>
+2. ________ tu es arrivé, le film avait commencé. <input type="text" placeholder="" oninput="checkAnswer(this, 'Quand')"> <span></span>
+3. ________ avoir mangé, il est sorti. <input type="text" placeholder="" oninput="checkAnswer(this, 'Après')"> <span></span>
+4. ________ tu as fini, appelle-moi. <input type="text" placeholder="" oninput="checkAnswer(this, 'Dès que')"> <span></span>
+5. ________ le dîner, nous avons fait une promenade. <input type="text" placeholder="" oninput="checkAnswer(this, 'Après')"> <span></span>
+6. ________ tu partes, dis-moi au revoir. <input type="text" placeholder="" oninput="checkAnswer(this, 'Avant que')"> <span></span>
+7. ________ il a terminé ses devoirs, il a regardé la télé. <input type="text" placeholder="" oninput="checkAnswer(this, 'Après que')"> <span></span>
+8. ________ tu as lu ce livre, tu comprendras mieux le film. <input type="text" placeholder="" oninput="checkAnswer(this, 'Une fois que')"> <span></span>
+9. ________ avoir fini, il est parti. <input type="text" placeholder="" oninput="checkAnswer(this, 'Après')"> <span></span>
+10. ________ tu arrives, on commence. <input type="text" placeholder="" oninput="checkAnswer(this, 'Dès que')"> <span></span>
+
+---
+
+## 2. Transformez les phrases avec l’expression temporelle correcte
+
+1. Il a mangé. Ensuite, il est parti.  
+    → <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Après avoir mangé, il est parti.')"> <span></span>
+2. Tu finis tes devoirs. Tu peux regarder la télé après.  
+    → <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Après que tu as fini tes devoirs, tu peux regarder la télé.')"> <span></span>
+3. Je lis les instructions. Ensuite, je commence.  
+    → <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Après avoir lu les instructions, je commence.')"> <span></span>
+4. Il part. Je ferme la porte juste après.  
+    → <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Dès qu\'il part, je ferme la porte.')"> <span></span>
+5. Tu pars. Dis-moi au revoir avant.  
+    → <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Avant de partir, dis-moi au revoir.')"> <span></span>
+
+---
+
+## 3. Traduisez en français
+
+1. Before leaving, close the window.  
+    <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Avant de partir, ferme la fenêtre.')"> <span></span>
+2. After dinner, we go out.  
+    <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Après le dîner, nous sortons.')"> <span></span>
+3. As soon as you finish, call me.  
+    <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Dès que tu as fini, appelle-moi.')"> <span></span>
+4. After having read the book, I watched the movie.  
+    <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Après avoir lu le livre, j\'ai regardé le film.')"> <span></span>
+5. Before you leave, tell me.  
+    <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Avant que tu partes, dis-moi.')"> <span></span>
+6. When he finished, he left.  
+    <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Quand il a fini, il est parti.')"> <span></span>
+7. Once you have read this, you will understand.  
+    <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Une fois que tu as lu ceci, tu comprendras.')"> <span></span>
+8. After work, I rest.  
+    <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Après le travail, je me repose.')"> <span></span>
+9. After you left, it started to rain.  
+    <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Après que tu es parti, il a commencé à pleuvoir.')"> <span></span>
+10. Before starting, read the instructions.  
+    <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Avant de commencer, lis les instructions.')"> <span></span>
+
+<button onclick="showAnswers()">Afficher les réponses</button>
+<button onclick="refreshPage()">Réessayer</button>
+
+---
+
+## Pratique : Rédigez votre propre paragraphe
+
+Rédigez un court paragraphe (4 à 6 phrases) en utilisant au moins trois expressions d’antériorité vues ci-dessus. Décrivez votre routine quotidienne ou un événement récent.
+
+<textarea style="width: 100%; min-height: 120px; font-size: 1.1em;" placeholder="Écrivez votre paragraphe ici..."></textarea>
+
+
+<script>
+function checkAnswer(input, correctAnswer) {
+    const span = input.nextElementSibling;
+    if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
+        span.textContent = "✓ Correct";
+        span.style.color = "green";
+    } else {
+        span.textContent = "";
+    }
+}
+
+function showAnswers() {
+    document.querySelectorAll('input[type="text"]').forEach(el => {
+        const correct = el.getAttribute('oninput')?.match(/'([^']+)'/)?.[1];
+        if (correct) {
+            const span = el.nextElementSibling;
+            span.textContent = `Réponse : ${correct}`;
+            span.style.color = "blue";
+        }
+    });
+}
+
+function refreshPage() {
+    location.reload();
+}
+</script>
+
+
+:::

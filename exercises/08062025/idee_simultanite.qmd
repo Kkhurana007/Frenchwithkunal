@@ -1,0 +1,294 @@
+---
+title: "Exprimer la simultanéité en français (Expressing Simultaneous Actions in French)"
+author: "Kunal Khurana"
+date: "2025-06-08"
+categories: [B1, grammar, simultanéité, adverbes, temps, exercises]
+image: "simultaneite.png"
+---
+
+::: {.content-visible when-profile="english"}
+
+# Expressing Simultaneous Actions in French
+
+In French, simultaneous actions can be expressed in several ways, depending on whether you want to emphasize a precise moment, a duration, or immediate succession. Here are the main expressions and how to use them:
+
+## 1. Key Expressions for Simultaneity
+
+| Expression                | Usage/Meaning                        | Example                                               |
+|---------------------------|--------------------------------------|-------------------------------------------------------|
+| **quand, lorsque**        | when (precise moment or duration)    | Quand il arrive, je pars. (When he arrives, I leave.) |
+| **au moment où, à l’instant où** | at the (precise) moment when | Au moment où tu es parti, il a appelé.                |
+| **pendant que**           | while (simultaneity + duration)      | Je lis pendant qu’il cuisine.                         |
+| **tant que, aussi longtemps que** | as long as (simultaneity + duration) | Tant que tu travailles, je reste ici.         |
+| **dès que, aussitôt que** | as soon as (immediate succession)    | Dès qu’il arrive, on commence.                        |
+| **depuis que**            | since (starting point in the past)   | Depuis qu’il est parti, je suis triste.               |
+| **le gérondif (en + participe présent)** | while/by (doing) | Il chante en travaillant. (He sings while working.)   |
+
+---
+
+## 2. How to Use
+
+- **Quand, Lorsque, Au moment où, À l’instant où**  
+    Use these to indicate a precise moment when two actions happen together.  
+    _Ex: Au moment où je suis sorti, il a commencé à pleuvoir._
+
+- **Pendant que**  
+    Use for two actions happening over a period of time.  
+    _Ex: Elle étudie pendant que je regarde la télé._
+
+- **Tant que, Aussi longtemps que**  
+    Use to express that two actions last for the same duration.  
+    _Ex: Tant que tu dors, je ne fais pas de bruit._
+
+- **Dès que, Aussitôt que**  
+    Use for immediate succession—one action follows another instantly.  
+    _Ex: Dès qu’il arrive, on mange._
+
+- **Depuis que**  
+    Use to indicate that something has been happening since a specific event.  
+    _Ex: Depuis qu’il est parti, elle pleure._
+
+- **Le gérondif (en + participe présent)**  
+    Use to show two actions happening at the same time, often with the same subject.  
+    _Ex: Il apprend en écoutant la radio._
+
+---
+
+# Exercises
+
+## 1. Fill in with the correct expression
+
+1. ________ tu dors, je travaille. <input type="text" placeholder="" oninput="checkAnswer(this, 'Pendant que')"> <span></span>
+2. ________ tu es arrivé, le film a commencé. <input type="text" placeholder="" oninput="checkAnswer(this, 'Au moment où')"> <span></span>
+3. ________ tu travailles, je lis. <input type="text" placeholder="" oninput="checkAnswer(this, 'Pendant que')"> <span></span>
+4. ________ tu as fini, appelle-moi. <input type="text" placeholder="" oninput="checkAnswer(this, 'Dès que')"> <span></span>
+5. ________ tu es parti, il a commencé à pleuvoir. <input type="text" placeholder="" oninput="checkAnswer(this, 'À l\'instant où')"> <span></span>
+6. ________ tu restes ici, je suis content. <input type="text" placeholder="" oninput="checkAnswer(this, 'Tant que')"> <span></span>
+7. ________ il travaille, il écoute de la musique. <input type="text" placeholder="" oninput="checkAnswer(this, 'En travaillant')"> <span></span>
+8. ________ tu es là, je me sens bien. <input type="text" placeholder="" oninput="checkAnswer(this, 'Aussi longtemps que')"> <span></span>
+9. ________ tu es parti, tout a changé. <input type="text" placeholder="" oninput="checkAnswer(this, 'Depuis que')"> <span></span>
+10. ________ tu arrives, on commence. <input type="text" placeholder="" oninput="checkAnswer(this, 'Aussitôt que')"> <span></span>
+
+---
+
+## 2. Transform the sentences using the correct time expression
+
+1. Il travaille. Il écoute de la musique en même temps.  
+    → <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Il travaille en écoutant de la musique.')"> <span></span>
+2. Je lis. Mon frère fait ses devoirs en même temps.  
+    → <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Je lis pendant que mon frère fait ses devoirs.')"> <span></span>
+3. Tu es arrivé. Le spectacle a commencé à ce moment précis.  
+    → <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Au moment où tu es arrivé, le spectacle a commencé.')"> <span></span>
+4. Il a fini ses études. Il a trouvé un emploi immédiatement.  
+    → <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Dès qu\'il a fini ses études, il a trouvé un emploi.')"> <span></span>
+5. Elle est partie. Depuis ce moment, il est triste.  
+    → <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Depuis qu\'elle est partie, il est triste.')"> <span></span>
+
+---
+
+## 3. Translate into French
+
+1. As soon as you arrive, we will start.  
+    <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Dès que tu arrives, on commence.')"> <span></span>
+2. While I am cooking, you can set the table.  
+    <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Pendant que je cuisine, tu peux mettre la table.')"> <span></span>
+3. He listens to music while working.  
+    <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Il écoute de la musique en travaillant.')"> <span></span>
+4. At the moment she left, it started to rain.  
+    <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Au moment où elle est partie, il a commencé à pleuvoir.')"> <span></span>
+5. Since you left, everything has changed.  
+    <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Depuis que tu es parti, tout a changé.')"> <span></span>
+6. When he arrives, I leave.  
+    <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Quand il arrive, je pars.')"> <span></span>
+7. As long as you stay here, I am happy.  
+    <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Tant que tu restes ici, je suis content.')"> <span></span>
+8. While you are sleeping, I work.  
+    <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Pendant que tu dors, je travaille.')"> <span></span>
+9. The moment you finished, call me.  
+    <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Au moment où tu as fini, appelle-moi.')"> <span></span>
+10. He found a job as soon as he finished his studies.  
+    <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Dès qu\'il a fini ses études, il a trouvé un emploi.')"> <span></span>
+
+<button onclick="showAnswers()">Show Answers</button>
+<button onclick="refreshPage()">Try Again</button>
+
+---
+
+## Practice: Write Your Own Paragraph
+
+Write a short paragraph (4–6 sentences) using at least three different expressions of simultaneity from above. Describe your daily routine or a recent event.
+
+<textarea style="width: 100%; min-height: 120px; font-size: 1.1em;" placeholder="Write your paragraph here..."></textarea>
+
+<script>
+function checkAnswer(input, correctAnswer) {
+                const span = input.nextElementSibling;
+                if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
+                                span.textContent = "✓ Correct";
+                                span.style.color = "green";
+                } else {
+                                span.textContent = "";
+                }
+}
+
+function showAnswers() {
+                document.querySelectorAll('input[type="text"]').forEach(el => {
+                                const correct = el.getAttribute('oninput')?.match(/'([^']+)'/)?.[1];
+                                if (correct) {
+                                                const span = el.nextElementSibling;
+                                                span.textContent = `Réponse : ${correct}`;
+                                                span.style.color = "blue";
+                                }
+                });
+}
+
+function refreshPage() {
+                location.reload();
+}
+</script>
+
+:::
+
+
+::: {.content-visible when-profile="french"}
+
+# Exprimer la simultanéité en français
+
+En français, il existe plusieurs façons d’exprimer que deux actions se passent en même temps. Selon que l’on veut insister sur un moment précis, une durée ou une succession immédiate, on utilise différentes expressions.
+
+## 1. Expressions clés pour la simultanéité
+
+| Expression                | Usage/Sens                              | Exemple                                               |
+|---------------------------|-----------------------------------------|-------------------------------------------------------|
+| **quand, lorsque**        | quand (moment précis ou durée)          | Quand il arrive, je pars.                             |
+| **au moment où, à l’instant où** | au moment précis où           | Au moment où tu es parti, il a appelé.                |
+| **pendant que**           | pendant que (simultanéité + durée)      | Je lis pendant qu’il cuisine.                         |
+| **tant que, aussi longtemps que** | aussi longtemps que (durée)  | Tant que tu travailles, je reste ici.                 |
+| **dès que, aussitôt que** | dès que (succession immédiate)          | Dès qu’il arrive, on commence.                        |
+| **depuis que**            | depuis que (point de départ passé)      | Depuis qu’il est parti, je suis triste.               |
+| **le gérondif (en + participe présent)** | en (faisant)           | Il chante en travaillant.                             |
+
+---
+
+## 2. Comment les utiliser
+
+- **Quand, Lorsque, Au moment où, À l’instant où**  
+    Utilisez-les pour indiquer un moment précis où deux actions se produisent ensemble.  
+    _Ex : Au moment où je suis sorti, il a commencé à pleuvoir._
+
+- **Pendant que**  
+    Pour deux actions qui se déroulent sur une période de temps.  
+    _Ex : Elle étudie pendant que je regarde la télé._
+
+- **Tant que, Aussi longtemps que**  
+    Pour exprimer que deux actions durent en même temps.  
+    _Ex : Tant que tu dors, je ne fais pas de bruit._
+
+- **Dès que, Aussitôt que**  
+    Pour une succession immédiate : une action suit l’autre instantanément.  
+    _Ex : Dès qu’il arrive, on mange._
+
+- **Depuis que**  
+    Pour indiquer qu’une action a commencé à partir d’un événement précis.  
+    _Ex : Depuis qu’il est parti, elle pleure._
+
+- **Le gérondif (en + participe présent)**  
+    Pour montrer deux actions qui se passent en même temps, souvent avec le même sujet.  
+    _Ex : Il apprend en écoutant la radio._
+
+---
+
+# Exercices
+
+## 1. Complétez avec l’expression correcte
+
+1. ________ tu dors, je travaille. <input type="text" placeholder="" oninput="checkAnswer(this, 'Pendant que')"> <span></span>
+2. ________ tu es arrivé, le film a commencé. <input type="text" placeholder="" oninput="checkAnswer(this, 'Au moment où')"> <span></span>
+3. ________ tu travailles, je lis. <input type="text" placeholder="" oninput="checkAnswer(this, 'Pendant que')"> <span></span>
+4. ________ tu as fini, appelle-moi. <input type="text" placeholder="" oninput="checkAnswer(this, 'Dès que')"> <span></span>
+5. ________ tu es parti, il a commencé à pleuvoir. <input type="text" placeholder="" oninput="checkAnswer(this, 'À l\'instant où')"> <span></span>
+6. ________ tu restes ici, je suis content. <input type="text" placeholder="" oninput="checkAnswer(this, 'Tant que')"> <span></span>
+7. ________ il travaille, il écoute de la musique. <input type="text" placeholder="" oninput="checkAnswer(this, 'En travaillant')"> <span></span>
+8. ________ tu es là, je me sens bien. <input type="text" placeholder="" oninput="checkAnswer(this, 'Aussi longtemps que')"> <span></span>
+9. ________ tu es parti, tout a changé. <input type="text" placeholder="" oninput="checkAnswer(this, 'Depuis que')"> <span></span>
+10. ________ tu arrives, on commence. <input type="text" placeholder="" oninput="checkAnswer(this, 'Aussitôt que')"> <span></span>
+
+---
+
+## 2. Transformez les phrases avec l’expression de temps correcte
+
+1. Il travaille. Il écoute de la musique en même temps.  
+     → <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Il travaille en écoutant de la musique.')"> <span></span>
+2. Je lis. Mon frère fait ses devoirs en même temps.  
+     → <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Je lis pendant que mon frère fait ses devoirs.')"> <span></span>
+3. Tu es arrivé. Le spectacle a commencé à ce moment précis.  
+     → <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Au moment où tu es arrivé, le spectacle a commencé.')"> <span></span>
+4. Il a fini ses études. Il a trouvé un emploi immédiatement.  
+     → <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Dès qu\'il a fini ses études, il a trouvé un emploi.')"> <span></span>
+5. Elle est partie. Depuis ce moment, il est triste.  
+     → <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Depuis qu\'elle est partie, il est triste.')"> <span></span>
+
+---
+
+## 3. Traduisez en français
+1. As soon as you arrive, we start.  
+    <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Dès que tu arrives, on commence.')"> <span></span>
+2. While I am cooking, you can set the table.  
+    <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Pendant que je cuisine, tu peux mettre la table.')"> <span></span>
+3. He listens to music while working.  
+    <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Il écoute de la musique en travaillant.')"> <span></span>
+4. At the moment she left, it started to rain.  
+    <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Au moment où elle est partie, il a commencé à pleuvoir.')"> <span></span>
+5. Since you left, everything has changed.  
+    <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Depuis que tu es parti, tout a changé.')"> <span></span>
+6. When he arrives, I leave.  
+    <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Quand il arrive, je pars.')"> <span></span>
+7. As long as you stay here, I am happy.  
+    <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Tant que tu restes ici, je suis content.')"> <span></span>
+8. While you are sleeping, I work.  
+    <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Pendant que tu dors, je travaille.')"> <span></span>
+9. The moment you finished, call me.  
+    <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Au moment où tu as fini, appelle-moi.')"> <span></span>
+10. He found a job as soon as he finished his studies.  
+    <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Dès qu\'il a fini ses études, il a trouvé un emploi.')"> <span></span>
+
+<button onclick="showAnswers()">Afficher les réponses</button>
+<button onclick="refreshPage()">Réessayer</button>
+
+---
+
+## Pratique : Rédigez votre propre paragraphe
+
+Écrivez un court paragraphe (4 à 6 phrases) en utilisant au moins trois expressions de simultanéité vues ci-dessus. Décrivez votre routine quotidienne ou un événement récent.
+
+<textarea style="width: 100%; min-height: 120px; font-size: 1.1em;" placeholder="Écrivez votre paragraphe ici..."></textarea>
+
+<script>
+function checkAnswer(input, correctAnswer) {
+        const span = input.nextElementSibling;
+        if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
+                span.textContent = "✓ Correct";
+                span.style.color = "green";
+        } else {
+                span.textContent = "";
+        }
+}
+
+function showAnswers() {
+        document.querySelectorAll('input[type="text"]').forEach(el => {
+                const correct = el.getAttribute('oninput')?.match(/'([^']+)'/)?.[1];
+                if (correct) {
+                        const span = el.nextElementSibling;
+                        span.textContent = `Réponse : ${correct}`;
+                        span.style.color = "blue";
+                }
+        });
+}
+
+function refreshPage() {
+        location.reload();
+}
+</script>
+
+
+:::

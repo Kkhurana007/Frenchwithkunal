@@ -1,0 +1,300 @@
+---
+title: "L'idée de moment (The Idea of Time in Context)"
+author: "Kunal Khurana"
+date: "05-31-2025"
+categories: [B1, grammar, adverbes, temps, exercises]
+image: "moment.png"
+---
+
+::: {.content-visible when-profile="english"}
+
+# Expressing the Idea of Moment in French
+
+In French, **l'idée de moment** refers to expressing when an event happened in relation to another event—showing **anteriority** (before), **simultaneity** (at the same time), or **posteriority** (after). These are often expressed using time adverbs or phrases.
+
+## 1. Key Expressions
+
+| French Expression      | English Equivalent      | Example                                      |
+|-----------------------|------------------------|----------------------------------------------|
+| avant (de)            | before                 | Avant de partir, il a mangé. (Before leaving, he ate.) |
+| après (avoir/être)    | after                  | Après avoir mangé, il est sorti. (After eating, he went out.) |
+| pendant que           | while                  | Il lisait pendant que je travaillais. (He was reading while I was working.) |
+| lorsque / quand       | when                   | Quand il est arrivé, j'étais là. (When he arrived, I was there.) |
+| dès que / aussitôt que| as soon as             | Dès qu'il a fini, il est parti. (As soon as he finished, he left.) |
+| au moment où          | at the moment when     | Au moment où tu es parti, il a appelé. (At the moment you left, he called.) |
+
+---
+
+## 2. How to Use
+
+- **Antériorité (Before):**  
+    Use "avant de" + infinitive or "avant que" + subjunctive.  
+    _Ex: Avant de sortir, ferme la porte._
+
+- **Simultanéité (While/When):**  
+    Use "pendant que" + verb or "lorsque/quand" + verb.  
+    _Ex: Je mangeais pendant qu'il parlait._
+
+- **Postériorité (After):**  
+    Use "après avoir/être" + past participle.  
+    _Ex: Après avoir fini, il est parti._
+
+---
+
+# Exercises
+
+## 1. Complétez avec l'expression correcte (avant, après, pendant que, quand, dès que, au moment où)
+
+1. ________ tu pars, ferme la fenêtre. <input type="text" placeholder="" oninput="checkAnswer(this, 'Avant de')"> <span></span>
+2. ________ il a mangé, il est allé au travail. <input type="text" placeholder="" oninput="checkAnswer(this, 'Après avoir')"> <span></span>
+3. Je fais mes devoirs ________ ma sœur regarde la télé. <input type="text" placeholder="" oninput="checkAnswer(this, 'pendant que')"> <span></span>
+4. ________ il est arrivé, tout le monde a applaudi. <input type="text" placeholder="" oninput="checkAnswer(this, 'Quand')"> <span></span>
+5. ________ tu as fini, appelle-moi. <input type="text" placeholder="" oninput="checkAnswer(this, 'Dès que')"> <span></span>
+6. ________ tu es entré, le téléphone a sonné. <input type="text" placeholder="" oninput="checkAnswer(this, 'Au moment où')"> <span></span>
+7. ________ commencer, lisez les instructions. <input type="text" placeholder="" oninput="checkAnswer(this, 'Avant de')"> <span></span>
+8. ________ avoir terminé, repose-toi un peu. <input type="text" placeholder="" oninput="checkAnswer(this, 'Après avoir')"> <span></span>
+9. Il écoute de la musique ________ il fait ses devoirs. <input type="text" placeholder="" oninput="checkAnswer(this, 'pendant que')"> <span></span>
+10. ________ tu me vois, fais-moi signe. <input type="text" placeholder="" oninput="checkAnswer(this, 'Quand')"> <span></span>
+11. ________ tu reçois le colis, préviens-moi. <input type="text" placeholder="" oninput="checkAnswer(this, 'Dès que')"> <span></span>
+12. ________ tu es arrivé, il a commencé à pleuvoir. <input type="text" placeholder="" oninput="checkAnswer(this, 'Au moment où')"> <span></span>
+
+---
+
+## 2. Transform the sentences using the correct time expression
+
+1. Il a pris son petit-déjeuner. Ensuite, il est parti.  
+    → <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Après avoir pris son petit-déjeuner, il est parti.')"> <span></span>
+2. Je me brosse les dents. Puis, je vais dormir.  
+    → <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Après m\'être brossé les dents, je vais dormir.')"> <span></span>
+3. Il lit. Sa sœur fait ses devoirs en même temps.  
+    → <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Il lit pendant que sa sœur fait ses devoirs.')"> <span></span>
+4. Tu pars. N’oublie pas tes clés avant cela.  
+    → <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Avant de partir, n\'oublie pas tes clés.')"> <span></span>
+5. Il a fini ses études. Il a trouvé un emploi tout de suite.  
+    → <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Dès qu\'il a fini ses études, il a trouvé un emploi.')"> <span></span>
+6. Je me lève. Ensuite, je prends une douche.  
+    → <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Après m\'être levé, je prends une douche.')"> <span></span>
+7. Elle termine son travail. Puis, elle sort avec ses amis.  
+    → <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Après avoir terminé son travail, elle sort avec ses amis.')"> <span></span>
+8. Nous mangeons. En même temps, nous discutons.  
+    → <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Nous mangeons pendant que nous discutons.')"> <span></span>
+9. Il part. N’oublie pas de fermer la porte avant cela.  
+    → <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Avant de partir, n\'oublie pas de fermer la porte.')"> <span></span>
+10. Elle a reçu le message. Elle a répondu immédiatement.  
+    → <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Dès qu\'elle a reçu le message, elle a répondu.')"> <span></span>
+
+---
+
+## 3. Traduisez en français avec la bonne expression de temps
+
+1. Before leaving, close the door.  
+    <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Avant de partir, ferme la porte.')"> <span></span>
+2. After eating, he went out.  
+    <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Après avoir mangé, il est sorti.')"> <span></span>
+3. While I was working, he called.  
+    <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Pendant que je travaillais, il a appelé.')"> <span></span>
+4. As soon as you arrive, call me.  
+    <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Dès que tu arrives, appelle-moi.')"> <span></span>
+5. At the moment you left, he arrived.  
+    <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Au moment où tu es parti, il est arrivé.')"> <span></span>
+6. Before starting, read the instructions.  
+    <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Avant de commencer, lis les instructions.')"> <span></span>
+7. After finishing, rest a little.  
+    <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Après avoir fini, repose-toi un peu.')"> <span></span>
+8. While she was singing, I was playing the piano.  
+    <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Pendant qu\'elle chantait, je jouais du piano.')"> <span></span>
+9. As soon as he sees you, he smiles.  
+    <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Dès qu\'il te voit, il sourit.')"> <span></span>
+10. At the moment I arrived, the class started.  
+    <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Au moment où je suis arrivé, le cours a commencé.')"> <span></span>
+
+<button onclick="showAnswers()">Show Answers</button>
+<button onclick="refreshPage()">Try Again</button>
+
+
+---
+
+## Practice: Write Your Own Paragraph
+
+Write a short paragraph (4–6 sentences) using at least three different time expressions from above. Try to describe your daily routine or a recent event. 
+
+<textarea style="width: 100%; min-height: 120px; font-size: 1.1em;" placeholder="Write your paragraph here..."></textarea>
+
+
+<script>
+function checkAnswer(input, correctAnswer) {
+        const span = input.nextElementSibling;
+        if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
+                span.textContent = "✓ Correct";
+                span.style.color = "green";
+        } else {
+                span.textContent = "";
+        }
+}
+
+function showAnswers() {
+        document.querySelectorAll('input[type="text"]').forEach(el => {
+                const correct = el.getAttribute('oninput')?.match(/'([^']+)'/)?.[1];
+                if (correct) {
+                        const span = el.nextElementSibling;
+                        span.textContent = `Réponse : ${correct}`;
+                        span.style.color = "blue";
+                }
+        });
+}
+
+function refreshPage() {
+        location.reload();
+}
+</script>
+
+:::
+
+
+
+::: {.content-visible when-profile="french"}
+
+# Exprimer l’idée de moment en français
+
+En français, **l’idée de moment** consiste à exprimer quand un événement a lieu par rapport à un autre : **antériorité** (avant), **simultanéité** (en même temps), ou **postériorité** (après). On utilise souvent des adverbes ou des locutions temporelles pour cela.
+
+## 1. Expressions clés
+
+| Expression française      | Équivalent anglais         | Exemple                                      |
+|--------------------------|---------------------------|----------------------------------------------|
+| avant (de)               | before                    | Avant de partir, il a mangé.                 |
+| après (avoir/être)       | after                     | Après avoir mangé, il est sorti.             |
+| pendant que              | while                     | Il lisait pendant que je travaillais.        |
+| lorsque / quand          | when                      | Quand il est arrivé, j'étais là.             |
+| dès que / aussitôt que   | as soon as                | Dès qu'il a fini, il est parti.              |
+| au moment où             | at the moment when        | Au moment où tu es parti, il a appelé.       |
+
+---
+
+## 2. Comment utiliser
+
+- **Antériorité (Avant) :**  
+    Utilisez "avant de" + infinitif ou "avant que" + subjonctif.  
+    _Ex : Avant de sortir, ferme la porte._
+
+- **Simultanéité (Pendant/Quand) :**  
+    Utilisez "pendant que" + verbe ou "lorsque/quand" + verbe.  
+    _Ex : Je mangeais pendant qu'il parlait._
+
+- **Postériorité (Après) :**  
+    Utilisez "après avoir/être" + participe passé.  
+    _Ex : Après avoir fini, il est parti._
+
+---
+
+# Exercices
+
+## 1. Complétez avec la bonne expression (avant, après, pendant que, quand, dès que, au moment où)
+
+1. ________ tu pars, ferme la fenêtre. <input type="text" placeholder="" oninput="checkAnswer(this, 'Avant de')"> <span></span>
+2. ________ il a mangé, il est allé au travail. <input type="text" placeholder="" oninput="checkAnswer(this, 'Après avoir')"> <span></span>
+3. Je fais mes devoirs ________ ma sœur regarde la télé. <input type="text" placeholder="" oninput="checkAnswer(this, 'pendant que')"> <span></span>
+4. ________ il est arrivé, tout le monde a applaudi. <input type="text" placeholder="" oninput="checkAnswer(this, 'Quand')"> <span></span>
+5. ________ tu as fini, appelle-moi. <input type="text" placeholder="" oninput="checkAnswer(this, 'Dès que')"> <span></span>
+6. ________ tu es entré, le téléphone a sonné. <input type="text" placeholder="" oninput="checkAnswer(this, 'Au moment où')"> <span></span>
+7. ________ commencer, lisez les instructions. <input type="text" placeholder="" oninput="checkAnswer(this, 'Avant de')"> <span></span>
+8. ________ avoir terminé, repose-toi un peu. <input type="text" placeholder="" oninput="checkAnswer(this, 'Après avoir')"> <span></span>
+9. Il écoute de la musique ________ il fait ses devoirs. <input type="text" placeholder="" oninput="checkAnswer(this, 'pendant que')"> <span></span>
+10. ________ tu me vois, fais-moi signe. <input type="text" placeholder="" oninput="checkAnswer(this, 'Quand')"> <span></span>
+11. ________ tu reçois le colis, préviens-moi. <input type="text" placeholder="" oninput="checkAnswer(this, 'Dès que')"> <span></span>
+12. ________ tu es arrivé, il a commencé à pleuvoir. <input type="text" placeholder="" oninput="checkAnswer(this, 'Au moment où')"> <span></span>
+
+---
+
+## 2. Transformez les phrases avec la bonne expression temporelle
+
+1. Il a pris son petit-déjeuner. Ensuite, il est parti.  
+    → <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Après avoir pris son petit-déjeuner, il est parti.')"> <span></span>
+2. Je me brosse les dents. Puis, je vais dormir.  
+    → <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Après m\'être brossé les dents, je vais dormir.')"> <span></span>
+3. Il lit. Sa sœur fait ses devoirs en même temps.  
+    → <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Il lit pendant que sa sœur fait ses devoirs.')"> <span></span>
+4. Tu pars. N’oublie pas tes clés avant cela.  
+    → <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Avant de partir, n\'oublie pas tes clés.')"> <span></span>
+5. Il a fini ses études. Il a trouvé un emploi tout de suite.  
+    → <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Dès qu\'il a fini ses études, il a trouvé un emploi.')"> <span></span>
+6. Je me lève. Ensuite, je prends une douche.  
+    → <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Après m\'être levé, je prends une douche.')"> <span></span>
+7. Elle termine son travail. Puis, elle sort avec ses amis.  
+    → <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Après avoir terminé son travail, elle sort avec ses amis.')"> <span></span>
+8. Nous mangeons. En même temps, nous discutons.  
+    → <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Nous mangeons pendant que nous discutons.')"> <span></span>
+9. Il part. N’oublie pas de fermer la porte avant cela.  
+    → <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Avant de partir, n\'oublie pas de fermer la porte.')"> <span></span>
+10. Elle a reçu le message. Elle a répondu immédiatement.  
+    → <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Dès qu\'elle a reçu le message, elle a répondu.')"> <span></span>
+
+---
+
+## 3. Traduisez en français avec la bonne expression de temps
+
+1. Avant de partir, ferme la porte.  
+    <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Avant de partir, ferme la porte.')"> <span></span>
+2. Après avoir mangé, il est sorti.  
+    <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Après avoir mangé, il est sorti.')"> <span></span>
+3. Pendant que je travaillais, il a appelé.  
+    <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Pendant que je travaillais, il a appelé.')"> <span></span>
+4. Dès que tu arrives, appelle-moi.  
+    <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Dès que tu arrives, appelle-moi.')"> <span></span>
+5. Au moment où tu es parti, il est arrivé.  
+    <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Au moment où tu es parti, il est arrivé.')"> <span></span>
+6. Avant de commencer, lis les instructions.  
+    <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Avant de commencer, lis les instructions.')"> <span></span>
+7. Après avoir fini, repose-toi un peu.  
+    <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Après avoir fini, repose-toi un peu.')"> <span></span>
+8. Pendant qu’elle chantait, je jouais du piano.  
+    <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Pendant qu\'elle chantait, je jouais du piano.')"> <span></span>
+9. Dès qu’il te voit, il sourit.  
+    <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Dès qu\'il te voit, il sourit.')"> <span></span>
+10. Au moment où je suis arrivé, le cours a commencé.  
+    <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Au moment où je suis arrivé, le cours a commencé.')"> <span></span>
+
+---
+
+<button onclick="showAnswers()">Afficher les réponses</button>
+<button onclick="refreshPage()">Réessayer</button>
+
+
+## Pratique : Rédigez votre propre paragraphe
+
+Écrivez un court paragraphe (4 à 6 phrases) en utilisant au moins trois expressions temporelles différentes vues ci-dessus. Décrivez votre routine quotidienne ou un événement récent.
+
+<textarea style="width: 100%; min-height: 120px; font-size: 1.1em;" placeholder="Écrivez votre paragraphe ici..."></textarea>
+
+
+
+
+<script>
+function checkAnswer(input, correctAnswer) {
+    const span = input.nextElementSibling;
+    if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
+        span.textContent = "✓ Correct";
+        span.style.color = "green";
+    } else {
+        span.textContent = "";
+    }
+}
+
+function showAnswers() {
+    document.querySelectorAll('input[type="text"]').forEach(el => {
+        const correct = el.getAttribute('oninput')?.match(/'([^']+)'/)?.[1];
+        if (correct) {
+            const span = el.nextElementSibling;
+            span.textContent = `Réponse : ${correct}`;
+            span.style.color = "blue";
+        }
+    });
+}
+
+function refreshPage() {
+    location.reload();
+}
+</script>
+
+
+:::

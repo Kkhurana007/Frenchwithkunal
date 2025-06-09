@@ -1,8 +1,8 @@
 ---
-title: "The Conditional Tense (Le Conditionnel) in French"
+title: "The Construction des Verbes (Verb Constructions) in French"
 author: "Kunal Khurana"
 date: "05-20-2025"
-categories: [B1, grammar, conditionnel, exercises]
+categories: [B1, grammar, construction, exercises]
 image: "construction.png"
 ---
 

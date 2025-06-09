@@ -3,7 +3,7 @@ title: "Discours direct et Indirect"
 author: "Kunal Khurana"
 date: "05-20-2025"
 categories: [B1, grammar, plus-que-parfait, discours-indirect, exercises]
-image: "plusqueparfait.png"
+image: "discours.png"
 ---
 
 ::: {.content-visible when-profile="english"}

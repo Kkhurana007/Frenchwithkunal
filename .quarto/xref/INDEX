@@ -577,5 +577,35 @@
   },
   "quiz.qmd": {
     "quiz.html": "02ad8053"
+  },
+  "exercises/31052025/interrogative.qmd": {
+    "interrogative.html": "1967e290"
+  },
+  "exercises/31052025/interrogarion_partille.qmd": {
+    "interrogarion_partille.html": "e0078c20"
+  },
+  "exercises/31052025/autres_interrogation.qmd": {
+    "autres_interrogation.html": "6090f5e3"
+  },
+  "exercises/08062025/ideedutemps.qmd": {
+    "ideedutemps.html": "3c07610b"
+  },
+  "exercises/08062025/ideeduree.qmd": {
+    "ideeduree.html": "ab334dc9"
+  },
+  "exercises/08062025/idee_frequence.qmd": {
+    "idee_frequence.html": "a0e0980b"
+  },
+  "unsubscribe2.qmd": {
+    "unsubscribe2.html": "0f5f4cf0"
+  },
+  "exercises/08062025/idee_simultanite.qmd": {
+    "idee_simultanite.html": "a6cab773"
+  },
+  "exercises/08062025/idee_anteriorite.qmd": {
+    "idee_anteriorite.html": "5a0acdb2"
+  },
+  "exercises/08062025/idee_subordonee_posterior.qmd": {
+    "idee_subordonee_posterior.html": "c51b24d3"
   }
 }
