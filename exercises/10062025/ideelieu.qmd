@@ -1,0 +1,417 @@
+---
+title: "Parler des lieux en français (Talking About Places in French)"
+author: "Kunal Khurana"
+date: "06-08-2025"
+categories: [B1, grammar, prépositions, lieux, exercises]
+image: "lieux.png"
+---
+
+::: {.content-visible when-profile="english"}
+
+# Talking About Places in French
+
+In French, to talk about places—where you go, where you are, or where you come from—you need to use the correct prepositions and sometimes the relative pronoun **où**. The choice of preposition depends on the verb (être, aller, habiter, venir) and the type of place (country, region, city, etc.).
+
+## 1. The Place Where You Go / Are / Live (Aller, Être, Habiter, etc.)
+
+### a) Countries
+
+- **Masculine countries (usually end with a consonant, e.g., le Canada, le Japon):**  
+    Use **au**  
+    _Ex: Je vais **au** Canada. / J'habite **au** Japon._
+
+- **Feminine countries (usually end with -e, e.g., la France, l’Italie):**  
+    Use **en**  
+    _Ex: Je vais **en** France. / J'habite **en** Italie._
+
+- **Plural countries (e.g., les États-Unis, les Pays-Bas):**  
+    Use **aux**  
+    _Ex: Je vais **aux** États-Unis. / J'habite **aux** Pays-Bas._
+
+### b) Regions, Provinces, Continents
+
+- **Feminine regions/continents:**  
+    Use **en**  
+    _Ex: Je vais **en** Bretagne. / Je suis **en** Afrique._
+
+- **Masculine regions:**  
+    Use **dans le**  
+    _Ex: Je vais **dans le** Limousin._
+
+### c) Cities and Villages
+
+- Use **à**  
+    _Ex: Je vais **à** Paris. / J'habite **à** Québec._
+
+### d) Other Places
+
+- Use **à** for most places (school, work, etc.):  
+    _Ex: Je vais **à** l’école. / Je travaille **à** l’hôpital._
+
+---
+
+## 2. The Place From Where You Come (Venir de)
+
+### a) Countries
+
+- **Masculine countries:**  
+    Use **du**  
+    _Ex: Je viens **du** Canada._
+
+- **Feminine countries:**  
+    Use **de**  
+    _Ex: Je viens **de** France._
+
+- **Countries starting with a vowel or mute h:**  
+    Use **d’**  
+    _Ex: Je viens **d’Italie**._
+
+- **Plural countries:**  
+    Use **des**  
+    _Ex: Je viens **des** États-Unis._
+
+### b) Regions, Provinces, Continents
+
+- **Feminine:**  
+    Use **de**  
+    _Ex: Je viens **de** Bretagne._
+
+- **Masculine:**  
+    Use **du**  
+    _Ex: Je viens **du** Limousin._
+
+### c) Cities and Villages
+
+- Use **de** (or **d’** before a vowel)  
+    _Ex: Je viens **de** Paris. / Je viens **d’Avignon**._
+
+### d) Other Places
+
+- Use **de** (or **de l’**, **du**, **des** as needed):  
+    _Ex: Je viens **de l’école**. / Je viens **du travail**._
+
+---
+
+## 3. Using "où" to Talk About Place
+
+The relative pronoun **où** is used to mean "where" (the place where...):
+
+_Ex: C’est la ville **où** je suis né. (This is the city where I was born.)_
+
+---
+
+# Exercises
+
+## 1. Complete with the correct preposition (à, en, au, aux, dans le, de, du, des, d’)
+
+1. Je vais ________ Espagne. <input type="text" placeholder="" oninput="checkAnswer(this, 'en')"> <span></span>
+2. Nous habitons ________ États-Unis. <input type="text" placeholder="" oninput="checkAnswer(this, 'aux')"> <span></span>
+3. Il vient ________ Japon. <input type="text" placeholder="" oninput="checkAnswer(this, 'du')"> <span></span>
+4. Elle va ________ Paris. <input type="text" placeholder="" oninput="checkAnswer(this, 'à')"> <span></span>
+5. Tu viens ________ Italie ? <input type="text" placeholder="" oninput="checkAnswer(this, 'd’')"> <span></span>
+6. Nous allons ________ Bretagne cet été. <input type="text" placeholder="" oninput="checkAnswer(this, 'en')"> <span></span>
+7. Je viens ________ Limousin. <input type="text" placeholder="" oninput="checkAnswer(this, 'du')"> <span></span>
+8. Ils habitent ________ Pays-Bas. <input type="text" placeholder="" oninput="checkAnswer(this, 'aux')"> <span></span>
+9. Elle vient ________ école. <input type="text" placeholder="" oninput="checkAnswer(this, 'de l’')"> <span></span>
+10. Nous allons ________ village voisin. <input type="text" placeholder="" oninput="checkAnswer(this, 'au')"> <span></span>
+11. Je viens ________ Canada. <input type="text" placeholder="" oninput="checkAnswer(this, 'du')"> <span></span>
+12. Il va ________ Afrique. <input type="text" placeholder="" oninput="checkAnswer(this, 'en')"> <span></span>
+13. Tu viens ________ Marseille ? <input type="text" placeholder="" oninput="checkAnswer(this, 'de')"> <span></span>
+14. Nous habitons ________ Québec. <input type="text" placeholder="" oninput="checkAnswer(this, 'à')"> <span></span>
+15. Elle va ________ hôpital. <input type="text" placeholder="" oninput="checkAnswer(this, 'à l’')"> <span></span>
+
+---
+
+## 2. Rewrite the sentences using the correct preposition
+
+1. Je vais Paris.  
+        → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Je vais à Paris.')"> <span></span>
+2. Il habite Canada.  
+        → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Il habite au Canada.')"> <span></span>
+3. Nous venons France.  
+        → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Nous venons de France.')"> <span></span>
+4. Elle va États-Unis.  
+        → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Elle va aux États-Unis.')"> <span></span>
+5. Tu viens Italie ?  
+        → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Tu viens d’Italie ?')"> <span></span>
+6. Nous habitons Limousin.  
+        → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Nous habitons dans le Limousin.')"> <span></span>
+7. Je viens école.  
+        → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Je viens de l’école.')"> <span></span>
+8. Ils vont Afrique.  
+        → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Ils vont en Afrique.')"> <span></span>
+9. Elle habite Marseille.  
+        → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Elle habite à Marseille.')"> <span></span>
+10. Nous venons Pays-Bas.  
+        → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Nous venons des Pays-Bas.')"> <span></span>
+
+---
+
+## 3. Translate into French with the correct preposition
+
+1. I am going to Germany.  
+        <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Je vais en Allemagne.')"> <span></span>
+2. She lives in the United States.  
+        <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Elle habite aux États-Unis.')"> <span></span>
+3. We come from Spain.  
+        <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Nous venons d’Espagne.')"> <span></span>
+4. He is going to the hospital.  
+        <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Il va à l’hôpital.')"> <span></span>
+5. They live in Paris.  
+        <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Ils habitent à Paris.')"> <span></span>
+6. I come from Canada.  
+        <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Je viens du Canada.')"> <span></span>
+7. We are going to Brittany.  
+        <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Nous allons en Bretagne.')"> <span></span>
+8. She comes from the Netherlands.  
+        <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Elle vient des Pays-Bas.')"> <span></span>
+9. He lives in Quebec.  
+        <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Il habite à Québec.')"> <span></span>
+10. I come from Avignon.  
+        <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Je viens d’Avignon.')"> <span></span>
+
+<button onclick="showAnswers()">Show Answers</button>
+<button onclick="refreshPage()">Try Again</button>
+
+---
+
+## Practice: Write Your Own Paragraph
+
+Write a short paragraph (4–6 sentences) about where you live, where you come from, and places you have visited or want to visit. Use at least three different prepositions (à, en, au, aux, de, du, des, d’) and try to include a sentence with **où**.
+
+<textarea style="width: 100%; min-height: 200px; font-size: 1.1em;" placeholder="Write your paragraph here..."></textarea>
+
+
+<script>
+function checkAnswer(input, correctAnswer) {
+        const span = input.nextElementSibling;
+        if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
+                span.textContent = "✓ Correct";
+                span.style.color = "green";
+        } else {
+                span.textContent = "";
+        }
+}
+
+function showAnswers() {
+        document.querySelectorAll('input[type="text"]').forEach(el => {
+                const correct = el.getAttribute('oninput')?.match(/'([^']+)'/)?.[1];
+                if (correct) {
+                        const span = el.nextElementSibling;
+                        span.textContent = `Réponse : ${correct}`;
+                        span.style.color = "blue";
+                }
+        });
+}
+
+function refreshPage() {
+        location.reload();
+}
+</script>
+
+:::
+
+
+::: {.content-visible when-profile="french"}
+
+# Parler des lieux en français
+
+En français, pour parler des lieux — où l’on va, où l’on est, ou d’où l’on vient — il faut utiliser les bonnes prépositions et parfois le pronom relatif **où**. Le choix de la préposition dépend du verbe (être, aller, habiter, venir) et du type de lieu (pays, région, ville, etc.).
+
+## 1. Le lieu où l’on va / où l’on est / où l’on habite (Aller, Être, Habiter, etc.)
+
+### a) Les pays
+
+- **Pays masculins (finissent souvent par une consonne, ex : le Canada, le Japon) :**  
+    Utilisez **au**  
+    _Ex : Je vais **au** Canada. / J’habite **au** Japon._
+
+- **Pays féminins (finissent souvent par -e, ex : la France, l’Italie) :**  
+    Utilisez **en**  
+    _Ex : Je vais **en** France. / J’habite **en** Italie._
+
+- **Pays pluriels (ex : les États-Unis, les Pays-Bas) :**  
+    Utilisez **aux**  
+    _Ex : Je vais **aux** États-Unis. / J’habite **aux** Pays-Bas._
+
+### b) Régions, provinces, continents
+
+- **Régions/continents féminins :**  
+    Utilisez **en**  
+    _Ex : Je vais **en** Bretagne. / Je suis **en** Afrique._
+
+- **Régions masculines :**  
+    Utilisez **dans le**  
+    _Ex : Je vais **dans le** Limousin._
+
+### c) Villes et villages
+
+- Utilisez **à**  
+    _Ex : Je vais **à** Paris. / J’habite **à** Québec._
+
+### d) Autres lieux
+
+- Utilisez **à** pour la plupart des lieux (école, travail, etc.) :  
+    _Ex : Je vais **à** l’école. / Je travaille **à** l’hôpital._
+
+---
+
+## 2. Le lieu d’où l’on vient (Venir de)
+
+### a) Les pays
+
+- **Pays masculins :**  
+    Utilisez **du**  
+    _Ex : Je viens **du** Canada._
+
+- **Pays féminins :**  
+    Utilisez **de**  
+    _Ex : Je viens **de** France._
+
+- **Pays commençant par une voyelle ou un h muet :**  
+    Utilisez **d’**  
+    _Ex : Je viens **d’Italie**._
+
+- **Pays pluriels :**  
+    Utilisez **des**  
+    _Ex : Je viens **des** États-Unis._
+
+### b) Régions, provinces, continents
+
+- **Féminin :**  
+    Utilisez **de**  
+    _Ex : Je viens **de** Bretagne._
+
+- **Masculin :**  
+    Utilisez **du**  
+    _Ex : Je viens **du** Limousin._
+
+### c) Villes et villages
+
+- Utilisez **de** (ou **d’** devant une voyelle)  
+    _Ex : Je viens **de** Paris. / Je viens **d’Avignon**._
+
+### d) Autres lieux
+
+- Utilisez **de** (ou **de l’**, **du**, **des** selon le cas) :  
+    _Ex : Je viens **de l’école**. / Je viens **du travail**._
+
+---
+
+## 3. Utiliser "où" pour parler d’un lieu
+
+Le pronom relatif **où** sert à exprimer « le lieu où… » :
+
+_Ex : C’est la ville **où** je suis né(e)._
+
+---
+
+# Exercices
+
+## 1. Complétez avec la bonne préposition (à, en, au, aux, dans le, de, du, des, d’)
+
+1. Je vais ________ Espagne. <input type="text" placeholder="" oninput="checkAnswer(this, 'en')"> <span></span>
+2. Nous habitons ________ États-Unis. <input type="text" placeholder="" oninput="checkAnswer(this, 'aux')"> <span></span>
+3. Il vient ________ Japon. <input type="text" placeholder="" oninput="checkAnswer(this, 'du')"> <span></span>
+4. Elle va ________ Paris. <input type="text" placeholder="" oninput="checkAnswer(this, 'à')"> <span></span>
+5. Tu viens ________ Italie ? <input type="text" placeholder="" oninput="checkAnswer(this, 'd’')"> <span></span>
+6. Nous allons ________ Bretagne cet été. <input type="text" placeholder="" oninput="checkAnswer(this, 'en')"> <span></span>
+7. Je viens ________ Limousin. <input type="text" placeholder="" oninput="checkAnswer(this, 'du')"> <span></span>
+8. Ils habitent ________ Pays-Bas. <input type="text" placeholder="" oninput="checkAnswer(this, 'aux')"> <span></span>
+9. Elle vient ________ école. <input type="text" placeholder="" oninput="checkAnswer(this, 'de l’')"> <span></span>
+10. Nous allons ________ village voisin. <input type="text" placeholder="" oninput="checkAnswer(this, 'au')"> <span></span>
+11. Je viens ________ Canada. <input type="text" placeholder="" oninput="checkAnswer(this, 'du')"> <span></span>
+12. Il va ________ Afrique. <input type="text" placeholder="" oninput="checkAnswer(this, 'en')"> <span></span>
+13. Tu viens ________ Marseille ? <input type="text" placeholder="" oninput="checkAnswer(this, 'de')"> <span></span>
+14. Nous habitons ________ Québec. <input type="text" placeholder="" oninput="checkAnswer(this, 'à')"> <span></span>
+15. Elle va ________ hôpital. <input type="text" placeholder="" oninput="checkAnswer(this, 'à l’')"> <span></span>
+
+---
+
+## 2. Réécrivez les phrases avec la bonne préposition
+
+1. Je vais Paris.  
+        → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Je vais à Paris.')"> <span></span>
+2. Il habite Canada.  
+        → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Il habite au Canada.')"> <span></span>
+3. Nous venons France.  
+        → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Nous venons de France.')"> <span></span>
+4. Elle va États-Unis.  
+        → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Elle va aux États-Unis.')"> <span></span>
+5. Tu viens Italie ?  
+        → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Tu viens d’Italie ?')"> <span></span>
+6. Nous habitons Limousin.  
+        → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Nous habitons dans le Limousin.')"> <span></span>
+7. Je viens école.  
+        → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Je viens de l’école.')"> <span></span>
+8. Ils vont Afrique.  
+        → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Ils vont en Afrique.')"> <span></span>
+9. Elle habite Marseille.  
+        → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Elle habite à Marseille.')"> <span></span>
+10. Nous venons Pays-Bas.  
+        → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Nous venons des Pays-Bas.')"> <span></span>
+
+---
+
+## 3. Traduisez en français avec la bonne préposition
+
+1. I am going to Germany.  
+    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Je vais en Allemagne.')"> <span></span>
+2. She lives in the United States.  
+    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Elle habite aux États-Unis.')"> <span></span>
+3. We come from Spain.  
+    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Nous venons d’Espagne.')"> <span></span>
+4. He is going to the hospital.  
+    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Il va à l’hôpital.')"> <span></span>
+5. They live in Paris.  
+    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Ils habitent à Paris.')"> <span></span>
+6. I come from Canada.  
+    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Je viens du Canada.')"> <span></span>
+7. We are going to Brittany.  
+    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Nous allons en Bretagne.')"> <span></span>
+8. She comes from the Netherlands.  
+    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Elle vient des Pays-Bas.')"> <span></span>
+9. He lives in Quebec.  
+    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Il habite à Québec.')"> <span></span>
+10. I come from Avignon.  
+        <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Je viens d’Avignon.')"> <span></span>
+
+<button onclick="showAnswers()">Afficher les réponses</button>
+<button onclick="refreshPage()">Réessayer</button>
+
+---
+
+## Pratique : Rédigez votre propre paragraphe
+
+Écrivez un court paragraphe (4 à 6 phrases) sur l’endroit où vous habitez, d’où vous venez, et les lieux que vous avez visités ou que vous souhaitez visiter. Utilisez au moins trois prépositions différentes (à, en, au, aux, de, du, des, d’) et essayez d’inclure une phrase avec **où**.
+
+<textarea style="width: 100%; min-height: 200px; font-size: 1.1em;" placeholder="Écrivez votre paragraphe ici..."></textarea>
+
+<script>
+function checkAnswer(input, correctAnswer) {
+        const span = input.nextElementSibling;
+        if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
+                span.textContent = "✓ Correct";
+                span.style.color = "green";
+        } else {
+                span.textContent = "";
+        }
+}
+
+function showAnswers() {
+        document.querySelectorAll('input[type="text"]').forEach(el => {
+                const correct = el.getAttribute('oninput')?.match(/'([^']+)'/)?.[1];
+                if (correct) {
+                        const span = el.nextElementSibling;
+                        span.textContent = `Réponse : ${correct}`;
+                        span.style.color = "blue";
+                }
+        });
+}
+
+function refreshPage() {
+        location.reload();
+}
+</script>
+
+:::

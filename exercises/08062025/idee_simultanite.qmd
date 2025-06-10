@@ -74,40 +74,40 @@ In French, simultaneous actions can be expressed in several ways, depending on w
 ## 2. Transform the sentences using the correct time expression
 
 1. Il travaille. Il écoute de la musique en même temps.  
-    → <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Il travaille en écoutant de la musique.')"> <span></span>
+    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Il travaille en écoutant de la musique.')"> <span></span>
 2. Je lis. Mon frère fait ses devoirs en même temps.  
-    → <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Je lis pendant que mon frère fait ses devoirs.')"> <span></span>
+    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Je lis pendant que mon frère fait ses devoirs.')"> <span></span>
 3. Tu es arrivé. Le spectacle a commencé à ce moment précis.  
-    → <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Au moment où tu es arrivé, le spectacle a commencé.')"> <span></span>
+    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Au moment où tu es arrivé, le spectacle a commencé.')"> <span></span>
 4. Il a fini ses études. Il a trouvé un emploi immédiatement.  
-    → <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Dès qu\'il a fini ses études, il a trouvé un emploi.')"> <span></span>
+    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Dès qu\'il a fini ses études, il a trouvé un emploi.')"> <span></span>
 5. Elle est partie. Depuis ce moment, il est triste.  
-    → <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Depuis qu\'elle est partie, il est triste.')"> <span></span>
+    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Depuis qu\'elle est partie, il est triste.')"> <span></span>
 
 ---
 
 ## 3. Translate into French
 
 1. As soon as you arrive, we will start.  
-    <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Dès que tu arrives, on commence.')"> <span></span>
+    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Dès que tu arrives, on commence.')"> <span></span>
 2. While I am cooking, you can set the table.  
-    <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Pendant que je cuisine, tu peux mettre la table.')"> <span></span>
+    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Pendant que je cuisine, tu peux mettre la table.')"> <span></span>
 3. He listens to music while working.  
-    <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Il écoute de la musique en travaillant.')"> <span></span>
+    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Il écoute de la musique en travaillant.')"> <span></span>
 4. At the moment she left, it started to rain.  
-    <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Au moment où elle est partie, il a commencé à pleuvoir.')"> <span></span>
+    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Au moment où elle est partie, il a commencé à pleuvoir.')"> <span></span>
 5. Since you left, everything has changed.  
-    <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Depuis que tu es parti, tout a changé.')"> <span></span>
+    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Depuis que tu es parti, tout a changé.')"> <span></span>
 6. When he arrives, I leave.  
-    <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Quand il arrive, je pars.')"> <span></span>
+    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Quand il arrive, je pars.')"> <span></span>
 7. As long as you stay here, I am happy.  
-    <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Tant que tu restes ici, je suis content.')"> <span></span>
+    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Tant que tu restes ici, je suis content.')"> <span></span>
 8. While you are sleeping, I work.  
-    <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Pendant que tu dors, je travaille.')"> <span></span>
+    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Pendant que tu dors, je travaille.')"> <span></span>
 9. The moment you finished, call me.  
-    <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Au moment où tu as fini, appelle-moi.')"> <span></span>
+    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Au moment où tu as fini, appelle-moi.')"> <span></span>
 10. He found a job as soon as he finished his studies.  
-    <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Dès qu\'il a fini ses études, il a trouvé un emploi.')"> <span></span>
+    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Dès qu\'il a fini ses études, il a trouvé un emploi.')"> <span></span>
 
 <button onclick="showAnswers()">Show Answers</button>
 <button onclick="refreshPage()">Try Again</button>
@@ -118,7 +118,7 @@ In French, simultaneous actions can be expressed in several ways, depending on w
 
 Write a short paragraph (4–6 sentences) using at least three different expressions of simultaneity from above. Describe your daily routine or a recent event.
 
-<textarea style="width: 100%; min-height: 120px; font-size: 1.1em;" placeholder="Write your paragraph here..."></textarea>
+<textarea style="width: 100%; min-height: 200px; font-size: 1.1em;" placeholder="Write your paragraph here..."></textarea>
 
 <script>
 function checkAnswer(input, correctAnswer) {
@@ -218,39 +218,39 @@ En français, il existe plusieurs façons d’exprimer que deux actions se passe
 ## 2. Transformez les phrases avec l’expression de temps correcte
 
 1. Il travaille. Il écoute de la musique en même temps.  
-     → <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Il travaille en écoutant de la musique.')"> <span></span>
+     → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Il travaille en écoutant de la musique.')"> <span></span>
 2. Je lis. Mon frère fait ses devoirs en même temps.  
-     → <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Je lis pendant que mon frère fait ses devoirs.')"> <span></span>
+     → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Je lis pendant que mon frère fait ses devoirs.')"> <span></span>
 3. Tu es arrivé. Le spectacle a commencé à ce moment précis.  
-     → <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Au moment où tu es arrivé, le spectacle a commencé.')"> <span></span>
+     → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Au moment où tu es arrivé, le spectacle a commencé.')"> <span></span>
 4. Il a fini ses études. Il a trouvé un emploi immédiatement.  
-     → <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Dès qu\'il a fini ses études, il a trouvé un emploi.')"> <span></span>
+     → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Dès qu\'il a fini ses études, il a trouvé un emploi.')"> <span></span>
 5. Elle est partie. Depuis ce moment, il est triste.  
-     → <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Depuis qu\'elle est partie, il est triste.')"> <span></span>
+     → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Depuis qu\'elle est partie, il est triste.')"> <span></span>
 
 ---
 
 ## 3. Traduisez en français
 1. As soon as you arrive, we start.  
-    <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Dès que tu arrives, on commence.')"> <span></span>
+    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Dès que tu arrives, on commence.')"> <span></span>
 2. While I am cooking, you can set the table.  
-    <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Pendant que je cuisine, tu peux mettre la table.')"> <span></span>
+    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Pendant que je cuisine, tu peux mettre la table.')"> <span></span>
 3. He listens to music while working.  
-    <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Il écoute de la musique en travaillant.')"> <span></span>
+    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Il écoute de la musique en travaillant.')"> <span></span>
 4. At the moment she left, it started to rain.  
-    <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Au moment où elle est partie, il a commencé à pleuvoir.')"> <span></span>
+    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Au moment où elle est partie, il a commencé à pleuvoir.')"> <span></span>
 5. Since you left, everything has changed.  
-    <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Depuis que tu es parti, tout a changé.')"> <span></span>
+    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Depuis que tu es parti, tout a changé.')"> <span></span>
 6. When he arrives, I leave.  
-    <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Quand il arrive, je pars.')"> <span></span>
+    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Quand il arrive, je pars.')"> <span></span>
 7. As long as you stay here, I am happy.  
-    <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Tant que tu restes ici, je suis content.')"> <span></span>
+    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Tant que tu restes ici, je suis content.')"> <span></span>
 8. While you are sleeping, I work.  
-    <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Pendant que tu dors, je travaille.')"> <span></span>
+    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Pendant que tu dors, je travaille.')"> <span></span>
 9. The moment you finished, call me.  
-    <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Au moment où tu as fini, appelle-moi.')"> <span></span>
+    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Au moment où tu as fini, appelle-moi.')"> <span></span>
 10. He found a job as soon as he finished his studies.  
-    <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Dès qu\'il a fini ses études, il a trouvé un emploi.')"> <span></span>
+    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Dès qu\'il a fini ses études, il a trouvé un emploi.')"> <span></span>
 
 <button onclick="showAnswers()">Afficher les réponses</button>
 <button onclick="refreshPage()">Réessayer</button>
@@ -261,7 +261,7 @@ En français, il existe plusieurs façons d’exprimer que deux actions se passe
 
 Écrivez un court paragraphe (4 à 6 phrases) en utilisant au moins trois expressions de simultanéité vues ci-dessus. Décrivez votre routine quotidienne ou un événement récent.
 
-<textarea style="width: 100%; min-height: 120px; font-size: 1.1em;" placeholder="Écrivez votre paragraphe ici..."></textarea>
+<textarea style="width: 100%; min-height: 200px; font-size: 1.1em;" placeholder="Écrivez votre paragraphe ici..."></textarea>
 
 <script>
 function checkAnswer(input, correctAnswer) {

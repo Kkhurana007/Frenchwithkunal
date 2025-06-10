@@ -50,55 +50,55 @@ This is because you cannot say "Il ne lit que." (That would be incomplete.) Inst
 
 Transform the following sentences into French using the restrictive structure **ne... que**.
 
-1. Je mange seulement des fruits. — I only eat fruit. <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Je ne mange que des fruits.')"><span></span>
+1. Je mange seulement des fruits. — I only eat fruit. <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Je ne mange que des fruits.')"><span></span>
 
-2. Il a seulement un frère. — He only has one brother. <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Il n\'a qu\'un frère.')"><span></span>
+2. Il a seulement un frère. — He only has one brother. <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Il n\'a qu\'un frère.')"><span></span>
 
-3. Nous parlons seulement anglais à la maison. — We only speak English at home. <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Nous ne parlons qu\'anglais à la maison.')"><span></span>
+3. Nous parlons seulement anglais à la maison. — We only speak English at home. <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Nous ne parlons qu\'anglais à la maison.')"><span></span>
 
-4. Elle boit seulement du café. — She only drinks coffee. <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Elle ne boit que du café.')"><span></span>
+4. Elle boit seulement du café. — She only drinks coffee. <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Elle ne boit que du café.')"><span></span>
 
-5. Ils veulent seulement se reposer. — They only want to rest. <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Ils ne veulent que se reposer.')"><span></span>
+5. Ils veulent seulement se reposer. — They only want to rest. <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Ils ne veulent que se reposer.')"><span></span>
 
-6. Vous avez seulement cinq minutes. — You (formal) only have five minutes. <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Vous n\'avez que cinq minutes.')"><span></span>
+6. Vous avez seulement cinq minutes. — You (formal) only have five minutes. <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Vous n\'avez que cinq minutes.')"><span></span>
 
-7. Il fait seulement lire. — He only reads. (He does nothing but read.) <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Il ne fait que lire.')"><span></span>
+7. Il fait seulement lire. — He only reads. (He does nothing but read.) <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Il ne fait que lire.')"><span></span>
 
-8. Je travaille seulement le week-end. — I only work on weekends. <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Je ne travaille que le week-end.')"><span></span>
+8. Je travaille seulement le week-end. — I only work on weekends. <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Je ne travaille que le week-end.')"><span></span>
 
-9. Nous nous voyons seulement pendant les vacances. — We only see each other on holidays. <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Nous ne nous voyons que pendant les vacances.')"><span></span>
+9. Nous nous voyons seulement pendant les vacances. — We only see each other on holidays. <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Nous ne nous voyons que pendant les vacances.')"><span></span>
 
-10. Elle étudie seulement le français. — She only studies French. <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Elle n\'étudie que le français.')"><span></span>
+10. Elle étudie seulement le français. — She only studies French. <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Elle n\'étudie que le français.')"><span></span>
 
-11. Je veux seulement un café. — I only want a coffee. <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Je ne veux qu\'un café.')"><span></span>
+11. Je veux seulement un café. — I only want a coffee. <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Je ne veux qu\'un café.')"><span></span>
 
-12. Il regarde seulement la télévision le soir. — He only watches TV in the evening. <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Il ne regarde que la télévision le soir.')"><span></span>
+12. Il regarde seulement la télévision le soir. — He only watches TV in the evening. <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Il ne regarde que la télévision le soir.')"><span></span>
 
-13. Nous avons seulement deux options. — We only have two options. <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Nous n\'avons que deux options.')"><span></span>
+13. Nous avons seulement deux options. — We only have two options. <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Nous n\'avons que deux options.')"><span></span>
 
-14. Elle lit seulement des romans. — She only reads novels. <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Elle ne lit que des romans.')"><span></span>
+14. Elle lit seulement des romans. — She only reads novels. <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Elle ne lit que des romans.')"><span></span>
 
-15. Ils prennent seulement le bus. — They only take the bus. <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Ils ne prennent que le bus.')"><span></span>
+15. Ils prennent seulement le bus. — They only take the bus. <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Ils ne prennent que le bus.')"><span></span>
 
-16. Tu peux seulement choisir un cadeau. — You can only choose one gift. <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Tu ne peux choisir qu\'un cadeau.')"><span></span>
+16. Tu peux seulement choisir un cadeau. — You can only choose one gift. <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Tu ne peux choisir qu\'un cadeau.')"><span></span>
 
-17. Je fais seulement du sport le matin. — I only exercise in the morning. <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Je ne fais du sport que le matin.')"><span></span>
+17. Je fais seulement du sport le matin. — I only exercise in the morning. <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Je ne fais du sport que le matin.')"><span></span>
 
-18. Il mange seulement du pain. — He only eats bread. <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Il ne mange que du pain.')"><span></span>
+18. Il mange seulement du pain. — He only eats bread. <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Il ne mange que du pain.')"><span></span>
 
-19. Nous sortons seulement le samedi. — We only go out on Saturdays. <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Nous ne sortons que le samedi.')"><span></span>
+19. Nous sortons seulement le samedi. — We only go out on Saturdays. <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Nous ne sortons que le samedi.')"><span></span>
 
-20. Elle écoute seulement de la musique classique. — She only listens to classical music. <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Elle n\'écoute que de la musique classique.')"><span></span>
+20. Elle écoute seulement de la musique classique. — She only listens to classical music. <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Elle n\'écoute que de la musique classique.')"><span></span>
 
-21. Je vois seulement mes amis le dimanche. — I only see my friends on Sundays. <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Je ne vois que mes amis le dimanche.')"><span></span>
+21. Je vois seulement mes amis le dimanche. — I only see my friends on Sundays. <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Je ne vois que mes amis le dimanche.')"><span></span>
 
-22. Il lit seulement le journal du matin. — He only reads the morning newspaper. <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Il ne lit que le journal du matin.')"><span></span>
+22. Il lit seulement le journal du matin. — He only reads the morning newspaper. <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Il ne lit que le journal du matin.')"><span></span>
 
-23. Nous achetons seulement des produits locaux. — We only buy local products. <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Nous n\'achetons que des produits locaux.')"><span></span>
+23. Nous achetons seulement des produits locaux. — We only buy local products. <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Nous n\'achetons que des produits locaux.')"><span></span>
 
-24. Elle voyage seulement en train. — She only travels by train. <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Elle ne voyage qu\'en train.')"><span></span>
+24. Elle voyage seulement en train. — She only travels by train. <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Elle ne voyage qu\'en train.')"><span></span>
 
-25. Ils mangent seulement à la cantine. — They only eat at the cafeteria. <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Ils ne mangent qu\'à la cantine.')"><span></span>
+25. Ils mangent seulement à la cantine. — They only eat at the cafeteria. <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Ils ne mangent qu\'à la cantine.')"><span></span>
 
 <button onclick="showAnswers()">Show Answers</button>
 <button onclick="refreshPage()">Try Again</button>
@@ -178,79 +178,79 @@ On ne peut pas dire « Il ne lit que. » (ce serait incomplet). On dit donc « I
 Transformez les phrases suivantes en utilisant la structure restrictive **ne... que**.
 
 1. Je mange seulement des fruits. —  
-<input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Je ne mange que des fruits.')"><span></span>
+<input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Je ne mange que des fruits.')"><span></span>
 
 2. Il a seulement un frère. —  
-<input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Il n\'a qu\'un frère.')"><span></span>
+<input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Il n\'a qu\'un frère.')"><span></span>
 
 3. Nous parlons seulement anglais à la maison. —  
-<input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Nous ne parlons qu\'anglais à la maison.')"><span></span>
+<input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Nous ne parlons qu\'anglais à la maison.')"><span></span>
 
 4. Elle boit seulement du café. —  
-<input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Elle ne boit que du café.')"><span></span>
+<input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Elle ne boit que du café.')"><span></span>
 
 5. Ils veulent seulement se reposer. —  
-<input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Ils ne veulent que se reposer.')"><span></span>
+<input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Ils ne veulent que se reposer.')"><span></span>
 
 6. Vous avez seulement cinq minutes. —  
-<input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Vous n\'avez que cinq minutes.')"><span></span>
+<input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Vous n\'avez que cinq minutes.')"><span></span>
 
 7. Il fait seulement lire. —  
-<input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Il ne fait que lire.')"><span></span>
+<input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Il ne fait que lire.')"><span></span>
 
 8. Je travaille seulement le week-end. —  
-<input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Je ne travaille que le week-end.')"><span></span>
+<input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Je ne travaille que le week-end.')"><span></span>
 
 9. Nous nous voyons seulement pendant les vacances. —  
-<input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Nous ne nous voyons que pendant les vacances.')"><span></span>
+<input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Nous ne nous voyons que pendant les vacances.')"><span></span>
 
 10. Elle étudie seulement le français. —  
-<input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Elle n\'étudie que le français.')"><span></span>
+<input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Elle n\'étudie que le français.')"><span></span>
 
 11. Je veux seulement un café. —  
-<input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Je ne veux qu\'un café.')"><span></span>
+<input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Je ne veux qu\'un café.')"><span></span>
 
 12. Il regarde seulement la télévision le soir. —  
-<input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Il ne regarde que la télévision le soir.')"><span></span>
+<input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Il ne regarde que la télévision le soir.')"><span></span>
 
 13. Nous avons seulement deux options. —  
-<input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Nous n\'avons que deux options.')"><span></span>
+<input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Nous n\'avons que deux options.')"><span></span>
 
 14. Elle lit seulement des romans. —  
-<input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Elle ne lit que des romans.')"><span></span>
+<input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Elle ne lit que des romans.')"><span></span>
 
 15. Ils prennent seulement le bus. —  
-<input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Ils ne prennent que le bus.')"><span></span>
+<input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Ils ne prennent que le bus.')"><span></span>
 
 16. Tu peux seulement choisir un cadeau. —  
-<input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Tu ne peux choisir qu\'un cadeau.')"><span></span>
+<input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Tu ne peux choisir qu\'un cadeau.')"><span></span>
 
 17. Je fais seulement du sport le matin. —  
-<input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Je ne fais du sport que le matin.')"><span></span>
+<input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Je ne fais du sport que le matin.')"><span></span>
 
 18. Il mange seulement du pain. —  
-<input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Il ne mange que du pain.')"><span></span>
+<input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Il ne mange que du pain.')"><span></span>
 
 19. Nous sortons seulement le samedi. —  
-<input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Nous ne sortons que le samedi.')"><span></span>
+<input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Nous ne sortons que le samedi.')"><span></span>
 
 20. Elle écoute seulement de la musique classique. —  
-<input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Elle n\'écoute que de la musique classique.')"><span></span>
+<input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Elle n\'écoute que de la musique classique.')"><span></span>
 
 21. Je vois seulement mes amis le dimanche. —  
-<input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Je ne vois que mes amis le dimanche.')"><span></span>
+<input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Je ne vois que mes amis le dimanche.')"><span></span>
 
 22. Il lit seulement le journal du matin. —  
-<input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Il ne lit que le journal du matin.')"><span></span>
+<input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Il ne lit que le journal du matin.')"><span></span>
 
 23. Nous achetons seulement des produits locaux. —  
-<input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Nous n\'achetons que des produits locaux.')"><span></span>
+<input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Nous n\'achetons que des produits locaux.')"><span></span>
 
 24. Elle voyage seulement en train. —  
-<input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Elle ne voyage qu\'en train.')"><span></span>
+<input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Elle ne voyage qu\'en train.')"><span></span>
 
 25. Ils mangent seulement à la cantine. —  
-<input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Ils ne mangent qu\'à la cantine.')"><span></span>
+<input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Ils ne mangent qu\'à la cantine.')"><span></span>
 
 <button onclick="showAnswers()">Afficher les réponses</button>
 <button onclick="refreshPage()">Réessayer</button>

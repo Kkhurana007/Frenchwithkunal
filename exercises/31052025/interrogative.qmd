@@ -70,45 +70,45 @@ For each set, fill in the blank with the correct question form. The verb to use 
 ## 2. Transform the statement into a question (all 3 forms)
 
 1. Il parle français.
-    - Simple : <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Il parle français ?')"> <span></span>
-    - Est-ce que : <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Est-ce qu\'il parle français ?')"> <span></span>
-    - Inversion : <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Parle-t-il français ?')"> <span></span>
+    - Simple : <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Il parle français ?')"> <span></span>
+    - Est-ce que : <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Est-ce qu\'il parle français ?')"> <span></span>
+    - Inversion : <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Parle-t-il français ?')"> <span></span>
 2. Vous avez une voiture.
-    - Simple : <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Vous avez une voiture ?')"> <span></span>
-    - Est-ce que : <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Est-ce que vous avez une voiture ?')"> <span></span>
-    - Inversion : <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Avez-vous une voiture ?')"> <span></span>
+    - Simple : <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Vous avez une voiture ?')"> <span></span>
+    - Est-ce que : <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Est-ce que vous avez une voiture ?')"> <span></span>
+    - Inversion : <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Avez-vous une voiture ?')"> <span></span>
 3. Elle travaille ici.
-    - Simple : <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Elle travaille ici ?')"> <span></span>
-    - Est-ce que : <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Est-ce qu\'elle travaille ici ?')"> <span></span>
-    - Inversion : <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Travaille-t-elle ici ?')"> <span></span>
+    - Simple : <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Elle travaille ici ?')"> <span></span>
+    - Est-ce que : <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Est-ce qu\'elle travaille ici ?')"> <span></span>
+    - Inversion : <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Travaille-t-elle ici ?')"> <span></span>
 4. Nous partons ce soir.
-    - Simple : <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Nous partons ce soir ?')"> <span></span>
-    - Est-ce que : <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Est-ce que nous partons ce soir ?')"> <span></span>
-    - Inversion : <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Partons-nous ce soir ?')"> <span></span>
+    - Simple : <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Nous partons ce soir ?')"> <span></span>
+    - Est-ce que : <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Est-ce que nous partons ce soir ?')"> <span></span>
+    - Inversion : <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Partons-nous ce soir ?')"> <span></span>
 5. Tu comprends la question.
-    - Simple : <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Tu comprends la question ?')"> <span></span>
-    - Est-ce que : <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Est-ce que tu comprends la question ?')"> <span></span>
-    - Inversion : <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Comprends-tu la question ?')"> <span></span>
+    - Simple : <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Tu comprends la question ?')"> <span></span>
+    - Est-ce que : <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Est-ce que tu comprends la question ?')"> <span></span>
+    - Inversion : <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Comprends-tu la question ?')"> <span></span>
 6. Ils habitent à Paris.
-    - Simple : <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Ils habitent à Paris ?')"> <span></span>
-    - Est-ce que : <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Est-ce qu\'ils habitent à Paris ?')"> <span></span>
-    - Inversion : <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Habitent-ils à Paris ?')"> <span></span>
+    - Simple : <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Ils habitent à Paris ?')"> <span></span>
+    - Est-ce que : <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Est-ce qu\'ils habitent à Paris ?')"> <span></span>
+    - Inversion : <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Habitent-ils à Paris ?')"> <span></span>
 7. Marie vient demain.
-    - Simple : <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Marie vient demain ?')"> <span></span>
-    - Est-ce que : <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Est-ce que Marie vient demain ?')"> <span></span>
-    - Inversion : <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Marie vient-elle demain ?')"> <span></span>
+    - Simple : <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Marie vient demain ?')"> <span></span>
+    - Est-ce que : <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Est-ce que Marie vient demain ?')"> <span></span>
+    - Inversion : <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Marie vient-elle demain ?')"> <span></span>
 8. Paul a un chien.
-    - Simple : <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Paul a un chien ?')"> <span></span>
-    - Est-ce que : <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Est-ce que Paul a un chien ?')"> <span></span>
-    - Inversion : <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Paul a-t-il un chien ?')"> <span></span>
+    - Simple : <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Paul a un chien ?')"> <span></span>
+    - Est-ce que : <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Est-ce que Paul a un chien ?')"> <span></span>
+    - Inversion : <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Paul a-t-il un chien ?')"> <span></span>
 9. Vous aimez le cinéma.
-    - Simple : <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Vous aimez le cinéma ?')"> <span></span>
-    - Est-ce que : <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Est-ce que vous aimez le cinéma ?')"> <span></span>
-    - Inversion : <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Aimez-vous le cinéma ?')"> <span></span>
+    - Simple : <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Vous aimez le cinéma ?')"> <span></span>
+    - Est-ce que : <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Est-ce que vous aimez le cinéma ?')"> <span></span>
+    - Inversion : <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Aimez-vous le cinéma ?')"> <span></span>
 10. Les enfants jouent dehors.
-    - Simple : <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Les enfants jouent dehors ?')"> <span></span>
-    - Est-ce que : <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Est-ce que les enfants jouent dehors ?')"> <span></span>
-    - Inversion : <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Les enfants jouent-ils dehors ?')"> <span></span>
+    - Simple : <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Les enfants jouent dehors ?')"> <span></span>
+    - Est-ce que : <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Est-ce que les enfants jouent dehors ?')"> <span></span>
+    - Inversion : <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Les enfants jouent-ils dehors ?')"> <span></span>
 
 
 ---
@@ -223,45 +223,45 @@ Pour chaque série, complétez avec la bonne forme interrogative. Le verbe à ut
 
 ## 2. Transformez l’affirmation en question (les 3 formes)
 1. Il parle français.
-    - Simple : <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Il parle français ?')"> <span></span>
-    - Est-ce que : <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Est-ce qu\'il parle français ?')"> <span></span>
-    - Inversion : <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Parle-t-il français ?')"> <span></span>
+    - Simple : <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Il parle français ?')"> <span></span>
+    - Est-ce que : <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Est-ce qu\'il parle français ?')"> <span></span>
+    - Inversion : <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Parle-t-il français ?')"> <span></span>
 2. Vous avez une voiture.
-    - Simple : <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Vous avez une voiture ?')"> <span></span>
-    - Est-ce que : <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Est-ce que vous avez une voiture ?')"> <span></span>
-    - Inversion : <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Avez-vous une voiture ?')"> <span></span>
+    - Simple : <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Vous avez une voiture ?')"> <span></span>
+    - Est-ce que : <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Est-ce que vous avez une voiture ?')"> <span></span>
+    - Inversion : <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Avez-vous une voiture ?')"> <span></span>
 3. Elle travaille ici.
-    - Simple : <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Elle travaille ici ?')"> <span></span>
-    - Est-ce que : <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Est-ce qu\'elle travaille ici ?')"> <span></span>
-    - Inversion : <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Travaille-t-elle ici ?')"> <span></span>
+    - Simple : <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Elle travaille ici ?')"> <span></span>
+    - Est-ce que : <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Est-ce qu\'elle travaille ici ?')"> <span></span>
+    - Inversion : <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Travaille-t-elle ici ?')"> <span></span>
 4. Nous partons ce soir.
-    - Simple : <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Nous partons ce soir ?')"> <span></span>
-    - Est-ce que : <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Est-ce que nous partons ce soir ?')"> <span></span>
-    - Inversion : <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Partons-nous ce soir ?')"> <span></span>
+    - Simple : <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Nous partons ce soir ?')"> <span></span>
+    - Est-ce que : <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Est-ce que nous partons ce soir ?')"> <span></span>
+    - Inversion : <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Partons-nous ce soir ?')"> <span></span>
 5. Tu comprends la question.
-    - Simple : <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Tu comprends la question ?')"> <span></span>
-    - Est-ce que : <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Est-ce que tu comprends la question ?')"> <span></span>
-    - Inversion : <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Comprends-tu la question ?')"> <span></span>
+    - Simple : <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Tu comprends la question ?')"> <span></span>
+    - Est-ce que : <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Est-ce que tu comprends la question ?')"> <span></span>
+    - Inversion : <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Comprends-tu la question ?')"> <span></span>
 6. Ils habitent à Paris.
-    - Simple : <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Ils habitent à Paris ?')"> <span></span>
-    - Est-ce que : <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Est-ce qu\'ils habitent à Paris ?')"> <span></span>
-    - Inversion : <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Habitent-ils à Paris ?')"> <span></span>
+    - Simple : <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Ils habitent à Paris ?')"> <span></span>
+    - Est-ce que : <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Est-ce qu\'ils habitent à Paris ?')"> <span></span>
+    - Inversion : <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Habitent-ils à Paris ?')"> <span></span>
 7. Marie vient demain.
-    - Simple : <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Marie vient demain ?')"> <span></span>
-    - Est-ce que : <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Est-ce que Marie vient demain ?')"> <span></span>
-    - Inversion : <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Marie vient-elle demain ?')"> <span></span>
+    - Simple : <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Marie vient demain ?')"> <span></span>
+    - Est-ce que : <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Est-ce que Marie vient demain ?')"> <span></span>
+    - Inversion : <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Marie vient-elle demain ?')"> <span></span>
 8. Paul a un chien.
-    - Simple : <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Paul a un chien ?')"> <span></span>
-    - Est-ce que : <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Est-ce que Paul a un chien ?')"> <span></span>
-    - Inversion : <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Paul a-t-il un chien ?')"> <span></span>
+    - Simple : <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Paul a un chien ?')"> <span></span>
+    - Est-ce que : <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Est-ce que Paul a un chien ?')"> <span></span>
+    - Inversion : <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Paul a-t-il un chien ?')"> <span></span>
 9. Vous aimez le cinéma.
-    - Simple : <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Vous aimez le cinéma ?')"> <span></span>
-    - Est-ce que : <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Est-ce que vous aimez le cinéma ?')"> <span></span>
-    - Inversion : <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Aimez-vous le cinéma ?')"> <span></span>
+    - Simple : <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Vous aimez le cinéma ?')"> <span></span>
+    - Est-ce que : <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Est-ce que vous aimez le cinéma ?')"> <span></span>
+    - Inversion : <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Aimez-vous le cinéma ?')"> <span></span>
 10. Les enfants jouent dehors.
-    - Simple : <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Les enfants jouent dehors ?')"> <span></span>
-    - Est-ce que : <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Est-ce que les enfants jouent dehors ?')"> <span></span>
-    - Inversion : <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Les enfants jouent-ils dehors ?')"> <span></span>
+    - Simple : <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Les enfants jouent dehors ?')"> <span></span>
+    - Est-ce que : <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Est-ce que les enfants jouent dehors ?')"> <span></span>
+    - Inversion : <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Les enfants jouent-ils dehors ?')"> <span></span>
 
 ---
 

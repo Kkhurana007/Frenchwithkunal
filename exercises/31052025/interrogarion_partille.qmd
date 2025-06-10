@@ -69,16 +69,16 @@ When asking about someone's identity or characteristics, use:
 
 ## 2. Transform the statement into a question with "quel(le)(s)"
 
-1. Ton prénom est Paul. → <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Quel est ton prénom?')"> <span></span>
-2. Tes passe-temps sont la lecture et le sport. → <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Quels sont tes passe-temps?')"> <span></span>
-3. Ta couleur favorite est le bleu. → <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Quelle est ta couleur favorite?')"> <span></span>
-4. Vos adresses sont à Paris et Lyon. → <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Quelles sont vos adresses?')"> <span></span>
-5. Ton animal préféré est le chat. → <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Quel est ton animal préféré?')"> <span></span>
-6. Tes amis sont Sophie et Marc. → <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Quels sont tes amis?')"> <span></span>
-7. Ta saison préférée est l'été. → <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Quelle est ta saison préférée?')"> <span></span>
-8. Tes matières préférées sont le français et l’histoire. → <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Quelles sont tes matières préférées?')"> <span></span>
-9. Ton livre préféré est "Le Petit Prince". → <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Quel est ton livre préféré?')"> <span></span>
-10. Tes langues parlées sont le français et l’anglais. → <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Quelles sont tes langues parlées?')"> <span></span>
+1. Ton prénom est Paul. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Quel est ton prénom?')"> <span></span>
+2. Tes passe-temps sont la lecture et le sport. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Quels sont tes passe-temps?')"> <span></span>
+3. Ta couleur favorite est le bleu. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Quelle est ta couleur favorite?')"> <span></span>
+4. Vos adresses sont à Paris et Lyon. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Quelles sont vos adresses?')"> <span></span>
+5. Ton animal préféré est le chat. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Quel est ton animal préféré?')"> <span></span>
+6. Tes amis sont Sophie et Marc. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Quels sont tes amis?')"> <span></span>
+7. Ta saison préférée est l'été. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Quelle est ta saison préférée?')"> <span></span>
+8. Tes matières préférées sont le français et l’histoire. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Quelles sont tes matières préférées?')"> <span></span>
+9. Ton livre préféré est "Le Petit Prince". → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Quel est ton livre préféré?')"> <span></span>
+10. Tes langues parlées sont le français et l’anglais. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Quelles sont tes langues parlées?')"> <span></span>
 
 ---
 
@@ -189,16 +189,16 @@ Pour demander l’identité ou une caractéristique, on utilise :
 ---
 
 ## 2. Transforme l’affirmation en question avec "quel(le)(s)"
-1. Ton prénom est Paul. → <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Quel est ton prénom?')"> <span></span>
-2. Tes passe-temps sont la lecture et le sport. → <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Quels sont tes passe-temps?')"> <span></span>
-3. Ta couleur favorite est le bleu. → <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Quelle est ta couleur favorite?')"> <span></span>
-4. Vos adresses sont à Paris et Lyon. → <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Quelles sont vos adresses?')"> <span></span>
-5. Ton animal préféré est le chat. → <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Quel est ton animal préféré?')"> <span></span>
-6. Tes amis sont Sophie et Marc. → <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Quels sont tes amis?')"> <span></span>
-7. Ta saison préférée est l'été. → <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Quelle est ta saison préférée?')"> <span></span>
-8. Tes matières préférées sont le français et l’histoire. → <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Quelles sont tes matières préférées?')"> <span></span>
-9. Ton livre préféré est "Le Petit Prince". → <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Quel est ton livre préféré?')"> <span></span>
-10. Tes langues parlées sont le français et l’anglais. → <input type="text" style="width: 350px;" placeholder="" oninput="checkAnswer(this, 'Quelles sont tes langues parlées?')"> <span></span>
+1. Ton prénom est Paul. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Quel est ton prénom?')"> <span></span>
+2. Tes passe-temps sont la lecture et le sport. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Quels sont tes passe-temps?')"> <span></span>
+3. Ta couleur favorite est le bleu. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Quelle est ta couleur favorite?')"> <span></span>
+4. Vos adresses sont à Paris et Lyon. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Quelles sont vos adresses?')"> <span></span>
+5. Ton animal préféré est le chat. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Quel est ton animal préféré?')"> <span></span>
+6. Tes amis sont Sophie et Marc. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Quels sont tes amis?')"> <span></span>
+7. Ta saison préférée est l'été. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Quelle est ta saison préférée?')"> <span></span>
+8. Tes matières préférées sont le français et l’histoire. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Quelles sont tes matières préférées?')"> <span></span>
+9. Ton livre préféré est "Le Petit Prince". → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Quel est ton livre préféré?')"> <span></span>
+10. Tes langues parlées sont le français et l’anglais. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Quelles sont tes langues parlées?')"> <span></span>
 
 ---
 
