@@ -15,10 +15,7 @@ At French with Kunal, our mission is to make learning French accessible and enjo
 
 Founded by Kunal, a passionate French learner and teacher with over 5 years of experience, French with Kunal is dedicated to providing high-quality French education. Kunal has a deep love for the French language and culture, and is committed to sharing this passion with students around the world.
 
-{{< video https://www.youtube.com/embed/HkX5iiaiIvg
-    title="About Kunal"
-    aspect-ratio="9x16" 
->}}
+{{< video https://www.youtube.com/embed/HkX5iiaiIvg title="About Kunal" aspect-ratio="9x16" >}}
 
 ## What We Offer
 
@@ -48,12 +45,7 @@ Chez French with Kunal, notre mission est de rendre l'apprentissage du français
 
 Fondé par Kunal, un passionné de la langue française et enseignant avec plus de 5 ans d'expérience, French with Kunal est dédié à fournir une éducation de haute qualité en français. Kunal a un amour profond pour la langue et la culture françaises, et s'engage à partager cette passion avec des étudiants du monde entier.
 
-{{< video https://www.youtube.com/embed/HkX5iiaiIvg
-    title="About Kunal"
-    start="19"
-    aspect-ratio="9x16" 
->}}
-
+{{< video https://www.youtube.com/embed/HkX5iiaiIvg title="About Kunal" start="19" aspect-ratio="9x16" >}}
 
 ## Ce que nous offrons
 
@@ -67,8 +59,3 @@ Fondé par Kunal, un passionné de la langue française et enseignant avec plus 
 2.  Flexibilité : Apprenez à votre propre rythme, à tout moment, n'importe où. Notre plateforme en ligne est accessible 24/7, vous permettant d'intégrer l'apprentissage dans votre emploi du temps chargé. <br>
 3.  Passion : Nous sommes passionnés par le français et déterminés à vous aider à atteindre vos objectifs linguistiques. <br> Rejoignez-nous dès aujourd'hui et commencez votre voyage pour maîtriser le français avec French with Kunal. Nous avons hâte de vous aider à réussir !
 :::
-
-
-
-
-

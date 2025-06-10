@@ -1,0 +1,49 @@
+---
+title: ""
+format: html
+---
+
+# 🇫🇷 French Learning Assistant
+{: .text-center .mb-4 }
+
+::: {.container .mt-5}
+
+## 📝 Sentence Analysis
+::: {.card .mb-4}
+#### 
+<form id="analysisForm" class="mb-3">
+    <label class="form-label">Enter a French sentence:</label>
+    <input type="text" class="form-control mb-2" name="sentence" required>
+    <button type="submit" class="btn btn-primary mt-2">Analyze</button>
+</form>
+<div id="analysisResult" class="mt-3"></div>
+:::
+
+## 🔤 Verb Conjugator
+::: {.card .mb-4}
+#### 
+<form id="conjugationForm" class="mb-3">
+    <label class="form-label">Enter a French verb:</label>
+    <input type="text" class="form-control mb-2" name="verb" required>
+    <button type="submit" class="btn btn-primary mt-2">Conjugate</button>
+</form>
+<div id="conjugationResult" class="mt-3"></div>
+:::
+
+## 🎧 Pronunciation
+::: {.card}
+#### 
+<form id="pronunciationForm" class="mb-3">
+    <label class="form-label">Text to pronounce:</label>
+    <input type="text" class="form-control mb-2" name="text" required>
+    <button type="submit" class="btn btn-primary mt-2">Speak</button>
+</form>
+<audio id="audioPlayer" controls class="mt-3 d-none"></audio>
+:::
+
+<div class="text-center mt-4">
+    <a href="/quiz" class="btn btn-success">Take a Quiz →</a>
+</div>
+
+:::
+

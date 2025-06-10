@@ -3052,5 +3052,33 @@
     "title": "Exprimer l’antériorité en français (Expressing Prior Actions in French)",
     "section": "Practice: Write Your Own Paragraph",
     "text": "Practice: Write Your Own Paragraph\nWrite a short paragraph (4–6 sentences) using at least three different expressions of anteriority from above. Describe your daily routine or a recent event."
+  },
+  {
+    "objectID": "ai_app.html",
+    "href": "ai_app.html",
+    "title": "🇫🇷 French Learning Assistant",
+    "section": "",
+    "text": "{: .text-center .mb-4 }\n\n\n\n\n\n\nEnter a French sentence:  Analyze\n\n\n\n\n\n\n\n\n\n\n\nEnter a French verb:  Conjugate\n\n\n\n\n\n\n\n\n\n\n\nText to pronounce:  Speak\n\n\n\n\n\n&lt;a href=\"/quiz\" class=\"btn btn-success\"&gt;Take a Quiz →&lt;/a&gt;"
+  },
+  {
+    "objectID": "ai_app.html#sentence-analysis",
+    "href": "ai_app.html#sentence-analysis",
+    "title": "🇫🇷 French Learning Assistant",
+    "section": "",
+    "text": "Enter a French sentence:  Analyze"
+  },
+  {
+    "objectID": "ai_app.html#verb-conjugator",
+    "href": "ai_app.html#verb-conjugator",
+    "title": "🇫🇷 French Learning Assistant",
+    "section": "",
+    "text": "Enter a French verb:  Conjugate"
+  },
+  {
+    "objectID": "ai_app.html#pronunciation",
+    "href": "ai_app.html#pronunciation",
+    "title": "🇫🇷 French Learning Assistant",
+    "section": "",
+    "text": "Text to pronounce:  Speak\n\n\n\n\n\n&lt;a href=\"/quiz\" class=\"btn btn-success\"&gt;Take a Quiz →&lt;/a&gt;"
   }
 ]
