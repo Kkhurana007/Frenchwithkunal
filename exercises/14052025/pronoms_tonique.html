@@ -136,6 +136,11 @@ ul.task-list li input[type="checkbox"] {
 </i> 
  <span class="dropdown-text">Quiz</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="../../quarto_french_learning.html"><i class="bi bi-robot" role="img">
+</i> 
+ <span class="dropdown-text">AI Application</span></a>
+  </li>  
     </ul>
   </li>
   <li class="nav-item">
@@ -338,10 +343,10 @@ ul.task-list li input[type="checkbox"] {
 </p>
 <textarea placeholder="Write your sentences here..." rows="5" cols="60"></textarea>
 <button onclick="showAnswers()">
-<p>Show Answers</p>
+Show Answers
 </button>
 <button onclick="refreshPage()">
-<p>Restart</p>
+Restart
 </button>
 <script>
 function checkAnswer(input, correctAnswer) {
@@ -354,9 +359,15 @@ function checkAnswer(input, correctAnswer) {
     }
 }
 
-function checkTranslation(textarea, correctTranslation) {
-    const span = textarea.nextElementSibling;
-    if (textarea.value.trim().toLowerCase() === correctTranslation.toLowerCase()) {
+function checkTranslation(textarea, correctAnswer) {
+    const value = textarea.value.trim().toLowerCase().replace(/[’']/g, "'");
+    const correct = correctAnswer.trim().toLowerCase().replace(/[’']/g, "'");
+    let span = textarea.nextElementSibling;
+    if (!span || span.tagName !== "SPAN") {
+        span = document.createElement("span");
+        textarea.parentNode.insertBefore(span, textarea.nextSibling);
+    }
+    if (value === correct) {
         span.textContent = "✓ Correct";
         span.style.color = "green";
     } else {
@@ -365,11 +376,11 @@ function checkTranslation(textarea, correctTranslation) {
 }
 
 function showAnswers() {
-    document.querySelectorAll('input[type="text"], textarea').forEach(input => {
-        const span = input.nextElementSibling;
-        const correctAnswer = input.getAttribute('oninput')?.match(/'([^']+)'/)?.[1];
-        if (correctAnswer) {
-            span.textContent = `Answer: ${correctAnswer}`;
+    document.querySelectorAll('input[type="text"]').forEach(el => {
+        const correct = el.getAttribute('oninput')?.match(/'([^']+)'/)?.[1];
+        if (correct) {
+            const span = el.nextElementSibling;
+            span.textContent = `Réponse : ${correct}`;
             span.style.color = "blue";
         }
     });
