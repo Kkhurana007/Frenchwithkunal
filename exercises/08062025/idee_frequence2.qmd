@@ -13,144 +13,154 @@ In French, to describe where something or someone is, we use prepositions of pla
 
 ## 1. Key Prepositions of Place
 
-| French Preposition           | Meaning                        | Example                                               |
-|-----------------------------|--------------------------------|-------------------------------------------------------|
-| dans                        | in, inside                     | Le livre est **dans** le sac. (The book is in the bag.) |
-| sur                         | on, on top of                  | Le chat est **sur** la table. (The cat is on the table.) |
-| sous                        | under                          | Les chaussures sont **sous** le lit. (The shoes are under the bed.) |
-| devant                      | in front of                    | Il y a un arbre **devant** la maison. (There is a tree in front of the house.) |
-| derrière                    | behind                         | Le jardin est **derrière** la maison. (The garden is behind the house.) |
-| à côté de                   | next to, beside                | La boulangerie est **à côté de** la banque. (The bakery is next to the bank.) |
-| en face de                  | opposite, facing               | L’école est **en face de** la poste. (The school is opposite the post office.) |
-| de l’autre côté de          | on the other side of           | Le parc est **de l’autre côté de** la rue. (The park is on the other side of the street.) |
-| au milieu de                | in the middle of               | La fontaine est **au milieu de** la place. (The fountain is in the middle of the square.) |
+| French Preposition | Meaning | Example |
+|------------------|--------------------|----------------------------------|
+| dans | in, inside | Le livre est **dans** le sac. (The book is in the bag.) |
+| sur | on, on top of | Le chat est **sur** la table. (The cat is on the table.) |
+| sous | under | Les chaussures sont **sous** le lit. (The shoes are under the bed.) |
+| devant | in front of | Il y a un arbre **devant** la maison. (There is a tree in front of the house.) |
+| derrière | behind | Le jardin est **derrière** la maison. (The garden is behind the house.) |
+| à côté de | next to, beside | La boulangerie est **à côté de** la banque. (The bakery is next to the bank.) |
+| en face de | opposite, facing | L’école est **en face de** la poste. (The school is opposite the post office.) |
+| de l’autre côté de | on the other side of | Le parc est **de l’autre côté de** la rue. (The park is on the other side of the street.) |
+| au milieu de | in the middle of | La fontaine est **au milieu de** la place. (The fountain is in the middle of the square.) |
 
-> **Note:**  
-> - Use **où** to ask about location: _Où est la bibliothèque ?_ (Where is the library?)
-> - Prepositions are followed by **de** (of), which may contract: _à côté du parc_ (next to the park), _en face de l’école_ (opposite the school).
+> **Note:**\
+> - Use **où** to ask about location: *Où est la bibliothèque ?* (Where is the library?) - Prepositions are followed by **de** (of), which may contract: *à côté du parc* (next to the park), *en face de l’école* (opposite the school).
 
----
+------------------------------------------------------------------------
 
 ## 2. Asking for Directions
 
 To ask for directions, use polite expressions and the prepositions above.
 
-- **Excusez-moi, où est... ?** (Excuse me, where is...?)
-- **Pouvez-vous me dire où se trouve... ?** (Can you tell me where ... is?)
-- **Comment aller à... ?** (How do I get to...?)
+-   **Excusez-moi, où est... ?** (Excuse me, where is...?)
+-   **Pouvez-vous me dire où se trouve... ?** (Can you tell me where ... is?)
+-   **Comment aller à... ?** (How do I get to...?)
 
----
+------------------------------------------------------------------------
 
 ## 3. Giving Directions
 
 When giving directions, use verbs and prepositions:
 
-- **Allez tout droit** (Go straight ahead)
-- **Tournez à gauche / à droite** (Turn left / right)
-- **Traversez la rue** (Cross the street)
-- **C’est à côté de... / en face de...** (It’s next to... / opposite...)
+-   **Allez tout droit** (Go straight ahead)
+-   **Tournez à gauche / à droite** (Turn left / right)
+-   **Traversez la rue** (Cross the street)
+-   **C’est à côté de... / en face de...** (It’s next to... / opposite...)
 
----
+------------------------------------------------------------------------
 
 # Exercises
 
 ## 1. Complete with the correct preposition (dans, sur, sous, devant, derrière, à côté de, en face de, de l'autre côté de, au milieu de)
 
-1. Le chat est ________ la chaise. <input type="text" placeholder="" oninput="checkAnswer(this, 'sous')"> <span></span>
-2. La voiture est ________ la maison. <input type="text" placeholder="" oninput="checkAnswer(this, 'devant')"> <span></span>
-3. Le café est ________ la banque. <input type="text" placeholder="" oninput="checkAnswer(this, 'à côté de')"> <span></span>
-4. Le parc est ________ la rue. <input type="text" placeholder="" oninput="checkAnswer(this, 'de l\'autre côté de')"> <span></span>
-5. Le livre est ________ la table. <input type="text" placeholder="" oninput="checkAnswer(this, 'sur')"> <span></span>
-6. La fontaine est ________ la place. <input type="text" placeholder="" oninput="checkAnswer(this, 'au milieu de')"> <span></span>
-7. L’école est ________ la poste. <input type="text" placeholder="" oninput="checkAnswer(this, 'en face de')"> <span></span>
-8. Les clés sont ________ le sac. <input type="text" placeholder="" oninput="checkAnswer(this, 'dans')"> <span></span>
-9. Le jardin est ________ la maison. <input type="text" placeholder="" oninput="checkAnswer(this, 'derrière')"> <span></span>
-10. Le cinéma est ________ la bibliothèque. <input type="text" placeholder="" oninput="checkAnswer(this, 'à côté de')"> <span></span>
-11. Le banc est ________ l’arbre. <input type="text" placeholder="" oninput="checkAnswer(this, 'sous')"> <span></span>
-12. Le supermarché est ________ la pharmacie. <input type="text" placeholder="" oninput="checkAnswer(this, 'en face de')"> <span></span>
+1.  Le chat est \_\_\_\_\_\_\_\_ la chaise. <input type="text" placeholder="" oninput="checkAnswer(this, 'sous')">
+2.  La voiture est \_\_\_\_\_\_\_\_ la maison. <input type="text" placeholder="" oninput="checkAnswer(this, 'devant')">
+3.  Le café est \_\_\_\_\_\_\_\_ la banque. <input type="text" placeholder="" oninput="checkAnswer(this, 'à côté de')">
+4.  Le parc est \_\_\_\_\_\_\_\_ la rue. <input type="text" placeholder="" oninput="checkAnswer(this, 'de l\'autre côté de')">
+5.  Le livre est \_\_\_\_\_\_\_\_ la table. <input type="text" placeholder="" oninput="checkAnswer(this, 'sur')">
+6.  La fontaine est \_\_\_\_\_\_\_\_ la place. <input type="text" placeholder="" oninput="checkAnswer(this, 'au milieu de')">
+7.  L’école est \_\_\_\_\_\_\_\_ la poste. <input type="text" placeholder="" oninput="checkAnswer(this, 'en face de')">
+8.  Les clés sont \_\_\_\_\_\_\_\_ le sac. <input type="text" placeholder="" oninput="checkAnswer(this, 'dans')">
+9.  Le jardin est \_\_\_\_\_\_\_\_ la maison. <input type="text" placeholder="" oninput="checkAnswer(this, 'derrière')">
+10. Le cinéma est \_\_\_\_\_\_\_\_ la bibliothèque. <input type="text" placeholder="" oninput="checkAnswer(this, 'à côté de')">
+11. Le banc est \_\_\_\_\_\_\_\_ l’arbre. <input type="text" placeholder="" oninput="checkAnswer(this, 'sous')">
+12. Le supermarché est \_\_\_\_\_\_\_\_ la pharmacie. <input type="text" placeholder="" oninput="checkAnswer(this, 'en face de')">
 
----
+------------------------------------------------------------------------
 
 ## 2. Asking for Directions: Complete the questions
 
-1. ________ , où est la gare ? (polite) <input type="text" placeholder="" oninput="checkAnswer(this, 'Excusez-moi')"> <span></span>
-2. ________ me dire où se trouve la pharmacie ? <input type="text" placeholder="" oninput="checkAnswer(this, 'Pouvez-vous')"> <span></span>
-3. ________ aller à la bibliothèque ? <input type="text" placeholder="" oninput="checkAnswer(this, 'Comment')"> <span></span>
-4. ________ est le musée, s’il vous plaît ? <input type="text" placeholder="" oninput="checkAnswer(this, 'Où')"> <span></span>
-5. ________ est la boulangerie ? <input type="text" placeholder="" oninput="checkAnswer(this, 'Où')"> <span></span>
-6. ________ puis-je trouver un arrêt de bus ? <input type="text" placeholder="" oninput="checkAnswer(this, 'Où')"> <span></span>
-7. ________ pour aller au parc ? <input type="text" placeholder="" oninput="checkAnswer(this, 'Comment')"> <span></span>
-8. ________ indiquer la route pour l’hôpital ? <input type="text" placeholder="" oninput="checkAnswer(this, 'Pouvez-vous')"> <span></span>
-9. ________ , où se trouve la mairie ? <input type="text" placeholder="" oninput="checkAnswer(this, 'Excusez-moi')"> <span></span>
-10. ________ est la station de métro la plus proche ? <input type="text" placeholder="" oninput="checkAnswer(this, 'Où')"> <span></span>
-11. ________ aller à la plage ? <input type="text" placeholder="" oninput="checkAnswer(this, 'Comment')"> <span></span>
+1.  \_\_\_\_\_\_\_\_ , où est la gare ? (polite) <input type="text" placeholder="" oninput="checkAnswer(this, 'Excusez-moi')">
+2.  \_\_\_\_\_\_\_\_ me dire où se trouve la pharmacie ? <input type="text" placeholder="" oninput="checkAnswer(this, 'Pouvez-vous')">
+3.  \_\_\_\_\_\_\_\_ aller à la bibliothèque ? <input type="text" placeholder="" oninput="checkAnswer(this, 'Comment')">
+4.  \_\_\_\_\_\_\_\_ est le musée, s’il vous plaît ? <input type="text" placeholder="" oninput="checkAnswer(this, 'Où')">
+5.  \_\_\_\_\_\_\_\_ est la boulangerie ? <input type="text" placeholder="" oninput="checkAnswer(this, 'Où')">
+6.  \_\_\_\_\_\_\_\_ puis-je trouver un arrêt de bus ? <input type="text" placeholder="" oninput="checkAnswer(this, 'Où')">
+7.  \_\_\_\_\_\_\_\_ pour aller au parc ? <input type="text" placeholder="" oninput="checkAnswer(this, 'Comment')">
+8.  \_\_\_\_\_\_\_\_ indiquer la route pour l’hôpital ? <input type="text" placeholder="" oninput="checkAnswer(this, 'Pouvez-vous')">
+9.  \_\_\_\_\_\_\_\_ , où se trouve la mairie ? <input type="text" placeholder="" oninput="checkAnswer(this, 'Excusez-moi')">
+10. \_\_\_\_\_\_\_\_ est la station de métro la plus proche ? <input type="text" placeholder="" oninput="checkAnswer(this, 'Où')">
+11. \_\_\_\_\_\_\_\_ aller à la plage ? <input type="text" placeholder="" oninput="checkAnswer(this, 'Comment')">
 
----
+------------------------------------------------------------------------
 
 ## 3. Giving Directions: Choose the correct option
 
-1. Pour aller à la poste, ________ tout droit.  
-    <input type="text" placeholder="" oninput="checkAnswer(this, 'allez')"> <span></span>
-2. ________ à gauche au feu.  
-    <input type="text" placeholder="" oninput="checkAnswer(this, 'Tournez')"> <span></span>
-3. ________ la rue et c’est en face.  
-    <input type="text" placeholder="" oninput="checkAnswer(this, 'Traversez')"> <span></span>
-4. La boulangerie est ________ la pharmacie.  
-    <input type="text" placeholder="" oninput="checkAnswer(this, 'à côté de')"> <span></span>
-5. ________ à droite après le pont.  
-    <input type="text" placeholder="" oninput="checkAnswer(this, 'Tournez')"> <span></span>
-6. ________ jusqu’au bout de la rue.  
-    <input type="text" placeholder="" oninput="checkAnswer(this, 'Allez')"> <span></span>
-7. ________ le parc et continuez tout droit.  
-    <input type="text" placeholder="" oninput="checkAnswer(this, 'Traversez')"> <span></span>
-8. ________ la première rue à gauche.  
-    <input type="text" placeholder="" oninput="checkAnswer(this, 'Prenez')"> <span></span>
-9. ________ devant la mairie, puis tournez à droite.  
-    <input type="text" placeholder="" oninput="checkAnswer(this, 'Passez')"> <span></span>
-10. ________ à la deuxième intersection.  
-    <input type="text" placeholder="" oninput="checkAnswer(this, 'Tournez')"> <span></span>
-11. ________ la place et c’est à gauche.  
-    <input type="text" placeholder="" oninput="checkAnswer(this, 'Traversez')"> <span></span>
+1.  Pour aller à la poste, \_\_\_\_\_\_\_\_ tout droit.\
+    <input type="text" placeholder="" oninput="checkAnswer(this, 'allez')">
+2.  \_\_\_\_\_\_\_\_ à gauche au feu.\
+    <input type="text" placeholder="" oninput="checkAnswer(this, 'Tournez')">
+3.  \_\_\_\_\_\_\_\_ la rue et c’est en face.\
+    <input type="text" placeholder="" oninput="checkAnswer(this, 'Traversez')">
+4.  La boulangerie est \_\_\_\_\_\_\_\_ la pharmacie.\
+    <input type="text" placeholder="" oninput="checkAnswer(this, 'à côté de')">
+5.  \_\_\_\_\_\_\_\_ à droite après le pont.\
+    <input type="text" placeholder="" oninput="checkAnswer(this, 'Tournez')">
+6.  \_\_\_\_\_\_\_\_ jusqu’au bout de la rue.\
+    <input type="text" placeholder="" oninput="checkAnswer(this, 'Allez')">
+7.  \_\_\_\_\_\_\_\_ le parc et continuez tout droit.\
+    <input type="text" placeholder="" oninput="checkAnswer(this, 'Traversez')">
+8.  \_\_\_\_\_\_\_\_ la première rue à gauche.\
+    <input type="text" placeholder="" oninput="checkAnswer(this, 'Prenez')">
+9.  \_\_\_\_\_\_\_\_ devant la mairie, puis tournez à droite.\
+    <input type="text" placeholder="" oninput="checkAnswer(this, 'Passez')">
+10. \_\_\_\_\_\_\_\_ à la deuxième intersection.\
+    <input type="text" placeholder="" oninput="checkAnswer(this, 'Tournez')">
+11. \_\_\_\_\_\_\_\_ la place et c’est à gauche.\
+    <input type="text" placeholder="" oninput="checkAnswer(this, 'Traversez')">
 
----
+------------------------------------------------------------------------
 
 ## 4. Translate into French with the correct preposition or expression
 
-1. The cat is under the table.  
-    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Le chat est sous la table.')"> <span></span>
-2. The school is opposite the park.  
-    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'L\'école est en face du parc.')"> <span></span>
-3. The bank is next to the post office.  
-    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'La banque est à côté de la poste.')"> <span></span>
-4. The fountain is in the middle of the square.  
-    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'La fontaine est au milieu de la place.')"> <span></span>
-5. The garden is behind the house.  
-    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Le jardin est derrière la maison.')"> <span></span>
-6. The car is in front of the cinema.  
-    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'La voiture est devant le cinéma.')"> <span></span>
-7. The bakery is on the other side of the street.  
-    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'La boulangerie est de l\'autre côté de la rue.')"> <span></span>
-8. The keys are in the bag.  
-    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Les clés sont dans le sac.')"> <span></span>
-9. The bench is under the tree.  
-    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Le banc est sous l\'arbre.')"> <span></span>
-10. The supermarket is opposite the pharmacy.  
-    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Le supermarché est en face de la pharmacie.')"> <span></span>
-11. The cinema is next to the library.  
-    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Le cinéma est à côté de la bibliothèque.')"> <span></span>
+1.  The cat is under the table.\
+    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Le chat est sous la table.')">
+2.  The school is opposite the park.\
+    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'L\'école est en face du parc.')">
+3.  The bank is next to the post office.\
+    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'La banque est à côté de la poste.')">
+4.  The fountain is in the middle of the square.\
+    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'La fontaine est au milieu de la place.')">
+5.  The garden is behind the house.\
+    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Le jardin est derrière la maison.')">
+6.  The car is in front of the cinema.\
+    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'La voiture est devant le cinéma.')">
+7.  The bakery is on the other side of the street.\
+    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'La boulangerie est de l\'autre côté de la rue.')">
+8.  The keys are in the bag.\
+    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Les clés sont dans le sac.')">
+9.  The bench is under the tree.\
+    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Le banc est sous l\'arbre.')">
+10. The supermarket is opposite the pharmacy.\
+    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Le supermarché est en face de la pharmacie.')">
+11. The cinema is next to the library.\
+    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Le cinéma est à côté de la bibliothèque.')">
 
-<button onclick="showAnswers()">Show Answers</button>
-<button onclick="refreshPage()">Try Again</button>
+<button onclick="showAnswers()">
 
----
+Show Answers
+
+</button>
+
+<button onclick="refreshPage()">
+
+Try Again
+
+</button>
+
+------------------------------------------------------------------------
 
 ## Practice: Write Your Own Directions
 
 Write a short paragraph (4–6 sentences) describing how to get from your house to a place in your town (e.g., the library, the park). Use at least three different prepositions of place and two expressions for asking or giving directions in French.
 
+```{=html}
 <textarea style="width: 100%; min-height: 200px; font-size: 1.1em;" placeholder="Write your paragraph here..."></textarea>
+```
 
-
+```{=html}
 <script>
 function checkAnswer(input, correctAnswer) {
         const span = input.nextElementSibling;
@@ -177,153 +187,160 @@ function refreshPage() {
         location.reload();
 }
 </script>
-
+```
 :::
 
-
 ::: {.content-visible when-profile="french"}
-
 # Se localiser, demander son chemin, indiquer une direction
 
 En français, pour décrire où se trouve quelque chose ou quelqu’un, on utilise les prépositions de lieu avec le mot interrogatif **où**.
 
 ## 1. Principales prépositions de lieu
 
-| Préposition française        | Sens                        | Exemple                                               |
-|-----------------------------|-----------------------------|-------------------------------------------------------|
-| dans                        | dans, à l’intérieur         | Le livre est **dans** le sac.                         |
-| sur                         | sur, au-dessus de           | Le chat est **sur** la table.                         |
-| sous                        | sous                        | Les chaussures sont **sous** le lit.                  |
-| devant                      | devant                      | Il y a un arbre **devant** la maison.                 |
-| derrière                    | derrière                    | Le jardin est **derrière** la maison.                 |
-| à côté de                   | à côté de, près de          | La boulangerie est **à côté de** la banque.           |
-| en face de                  | en face de                  | L’école est **en face de** la poste.                  |
-| de l’autre côté de          | de l’autre côté de          | Le parc est **de l’autre côté de** la rue.            |
-| au milieu de                | au milieu de                | La fontaine est **au milieu de** la place.            |
+| Préposition française | Sens | Exemple |
+|-------------------|-------------------|-----------------------------------|
+| dans | dans, à l’intérieur | Le livre est **dans** le sac. |
+| sur | sur, au-dessus de | Le chat est **sur** la table. |
+| sous | sous | Les chaussures sont **sous** le lit. |
+| devant | devant | Il y a un arbre **devant** la maison. |
+| derrière | derrière | Le jardin est **derrière** la maison. |
+| à côté de | à côté de, près de | La boulangerie est **à côté de** la banque. |
+| en face de | en face de | L’école est **en face de** la poste. |
+| de l’autre côté de | de l’autre côté de | Le parc est **de l’autre côté de** la rue. |
+| au milieu de | au milieu de | La fontaine est **au milieu de** la place. |
 
-> **Remarque :**  
-> - Utilisez **où** pour demander un lieu : _Où est la bibliothèque ?_
-> - Les prépositions sont suivies de **de** (du, de la, de l’, des) selon le mot qui suit.
+> **Remarque :**\
+> - Utilisez **où** pour demander un lieu : *Où est la bibliothèque ?* - Les prépositions sont suivies de **de** (du, de la, de l’, des) selon le mot qui suit.
 
----
+------------------------------------------------------------------------
 
 ## 2. Demander son chemin
 
 Pour demander son chemin, utilisez des expressions polies et les prépositions ci-dessus.
 
-- **Excusez-moi, où est... ?**
-- **Pouvez-vous me dire où se trouve... ?**
-- **Comment aller à... ?**
+-   **Excusez-moi, où est... ?**
+-   **Pouvez-vous me dire où se trouve... ?**
+-   **Comment aller à... ?**
 
----
+------------------------------------------------------------------------
 
 ## 3. Indiquer une direction
 
 Pour indiquer une direction, utilisez des verbes et des prépositions :
 
-- **Allez tout droit**
-- **Tournez à gauche / à droite**
-- **Traversez la rue**
-- **C’est à côté de... / en face de...**
+-   **Allez tout droit**
+-   **Tournez à gauche / à droite**
+-   **Traversez la rue**
+-   **C’est à côté de... / en face de...**
 
----
+------------------------------------------------------------------------
 
 # Exercices
 
 ## 1. Complétez avec la bonne préposition (dans, sur, sous, devant, derrière, à côté de, en face de, de l'autre côté de, au milieu de)
 
-1. Le chat est ________ la chaise. <input type="text" placeholder="" oninput="checkAnswer(this, 'sous')"> <span></span>
-2. La voiture est ________ la maison. <input type="text" placeholder="" oninput="checkAnswer(this, 'devant')"> <span></span>
-3. Le café est ________ la banque. <input type="text" placeholder="" oninput="checkAnswer(this, 'à côté de')"> <span></span>
-4. Le parc est ________ la rue. <input type="text" placeholder="" oninput="checkAnswer(this, 'de l\'autre côté de')"> <span></span>
-5. Le livre est ________ la table. <input type="text" placeholder="" oninput="checkAnswer(this, 'sur')"> <span></span>
-6. La fontaine est ________ la place. <input type="text" placeholder="" oninput="checkAnswer(this, 'au milieu de')"> <span></span>
-7. L’école est ________ la poste. <input type="text" placeholder="" oninput="checkAnswer(this, 'en face de')"> <span></span>
-8. Les clés sont ________ le sac. <input type="text" placeholder="" oninput="checkAnswer(this, 'dans')"> <span></span>
-9. Le jardin est ________ la maison. <input type="text" placeholder="" oninput="checkAnswer(this, 'derrière')"> <span></span>
-10. Le cinéma est ________ la bibliothèque. <input type="text" placeholder="" oninput="checkAnswer(this, 'à côté de')"> <span></span>
-11. Le banc est ________ l’arbre. <input type="text" placeholder="" oninput="checkAnswer(this, 'sous')"> <span></span>
-12. Le supermarché est ________ la pharmacie. <input type="text" placeholder="" oninput="checkAnswer(this, 'en face de')"> <span></span>
+1.  Le chat est \_\_\_\_\_\_\_\_ la chaise. <input type="text" placeholder="" oninput="checkAnswer(this, 'sous')">
+2.  La voiture est \_\_\_\_\_\_\_\_ la maison. <input type="text" placeholder="" oninput="checkAnswer(this, 'devant')">
+3.  Le café est \_\_\_\_\_\_\_\_ la banque. <input type="text" placeholder="" oninput="checkAnswer(this, 'à côté de')">
+4.  Le parc est \_\_\_\_\_\_\_\_ la rue. <input type="text" placeholder="" oninput="checkAnswer(this, 'de l\'autre côté de')">
+5.  Le livre est \_\_\_\_\_\_\_\_ la table. <input type="text" placeholder="" oninput="checkAnswer(this, 'sur')">
+6.  La fontaine est \_\_\_\_\_\_\_\_ la place. <input type="text" placeholder="" oninput="checkAnswer(this, 'au milieu de')">
+7.  L’école est \_\_\_\_\_\_\_\_ la poste. <input type="text" placeholder="" oninput="checkAnswer(this, 'en face de')">
+8.  Les clés sont \_\_\_\_\_\_\_\_ le sac. <input type="text" placeholder="" oninput="checkAnswer(this, 'dans')">
+9.  Le jardin est \_\_\_\_\_\_\_\_ la maison. <input type="text" placeholder="" oninput="checkAnswer(this, 'derrière')">
+10. Le cinéma est \_\_\_\_\_\_\_\_ la bibliothèque. <input type="text" placeholder="" oninput="checkAnswer(this, 'à côté de')">
+11. Le banc est \_\_\_\_\_\_\_\_ l’arbre. <input type="text" placeholder="" oninput="checkAnswer(this, 'sous')">
+12. Le supermarché est \_\_\_\_\_\_\_\_ la pharmacie. <input type="text" placeholder="" oninput="checkAnswer(this, 'en face de')">
 
----
+------------------------------------------------------------------------
 
 ## 2. Demander son chemin : Complétez les questions
 
-1. ________ , où est la gare ? (poli) <input type="text" placeholder="" oninput="checkAnswer(this, 'Excusez-moi')"> <span></span>
-2. ________ me dire où se trouve la pharmacie ? <input type="text" placeholder="" oninput="checkAnswer(this, 'Pouvez-vous')"> <span></span>
-3. ________ aller à la bibliothèque ? <input type="text" placeholder="" oninput="checkAnswer(this, 'Comment')"> <span></span>
-4. ________ est le musée, s’il vous plaît ? <input type="text" placeholder="" oninput="checkAnswer(this, 'Où')"> <span></span>
-5. ________ est la boulangerie ? <input type="text" placeholder="" oninput="checkAnswer(this, 'Où')"> <span></span>
-6. ________ puis-je trouver un arrêt de bus ? <input type="text" placeholder="" oninput="checkAnswer(this, 'Où')"> <span></span>
-7. ________ pour aller au parc ? <input type="text" placeholder="" oninput="checkAnswer(this, 'Comment')"> <span></span>
-8. ________ indiquer la route pour l’hôpital ? <input type="text" placeholder="" oninput="checkAnswer(this, 'Pouvez-vous')"> <span></span>
-9. ________ , où se trouve la mairie ? <input type="text" placeholder="" oninput="checkAnswer(this, 'Excusez-moi')"> <span></span>
-10. ________ est la station de métro la plus proche ? <input type="text" placeholder="" oninput="checkAnswer(this, 'Où')"> <span></span>
-11. ________ aller à la plage ? <input type="text" placeholder="" oninput="checkAnswer(this, 'Comment')"> <span></span>
+1.  \_\_\_\_\_\_\_\_ , où est la gare ? (poli) <input type="text" placeholder="" oninput="checkAnswer(this, 'Excusez-moi')">
+2.  \_\_\_\_\_\_\_\_ me dire où se trouve la pharmacie ? <input type="text" placeholder="" oninput="checkAnswer(this, 'Pouvez-vous')">
+3.  \_\_\_\_\_\_\_\_ aller à la bibliothèque ? <input type="text" placeholder="" oninput="checkAnswer(this, 'Comment')">
+4.  \_\_\_\_\_\_\_\_ est le musée, s’il vous plaît ? <input type="text" placeholder="" oninput="checkAnswer(this, 'Où')">
+5.  \_\_\_\_\_\_\_\_ est la boulangerie ? <input type="text" placeholder="" oninput="checkAnswer(this, 'Où')">
+6.  \_\_\_\_\_\_\_\_ puis-je trouver un arrêt de bus ? <input type="text" placeholder="" oninput="checkAnswer(this, 'Où')">
+7.  \_\_\_\_\_\_\_\_ pour aller au parc ? <input type="text" placeholder="" oninput="checkAnswer(this, 'Comment')">
+8.  \_\_\_\_\_\_\_\_ indiquer la route pour l’hôpital ? <input type="text" placeholder="" oninput="checkAnswer(this, 'Pouvez-vous')">
+9.  \_\_\_\_\_\_\_\_ , où se trouve la mairie ? <input type="text" placeholder="" oninput="checkAnswer(this, 'Excusez-moi')">
+10. \_\_\_\_\_\_\_\_ est la station de métro la plus proche ? <input type="text" placeholder="" oninput="checkAnswer(this, 'Où')">
+11. \_\_\_\_\_\_\_\_ aller à la plage ? <input type="text" placeholder="" oninput="checkAnswer(this, 'Comment')">
 
----
+------------------------------------------------------------------------
 
 ## 3. Indiquer une direction : Choisissez la bonne option
 
-1. Pour aller à la poste, ________ tout droit.  
-    <input type="text" placeholder="" oninput="checkAnswer(this, 'allez')"> <span></span>
-2. ________ à gauche au feu.  
-    <input type="text" placeholder="" oninput="checkAnswer(this, 'Tournez')"> <span></span>
-3. ________ la rue et c’est en face.  
-    <input type="text" placeholder="" oninput="checkAnswer(this, 'Traversez')"> <span></span>
-4. La boulangerie est ________ la pharmacie.  
-    <input type="text" placeholder="" oninput="checkAnswer(this, 'à côté de')"> <span></span>
-5. ________ à droite après le pont.  
-    <input type="text" placeholder="" oninput="checkAnswer(this, 'Tournez')"> <span></span>
-6. ________ jusqu’au bout de la rue.  
-    <input type="text" placeholder="" oninput="checkAnswer(this, 'Allez')"> <span></span>
-7. ________ le parc et continuez tout droit.  
-    <input type="text" placeholder="" oninput="checkAnswer(this, 'Traversez')"> <span></span>
-8. ________ la première rue à gauche.  
-    <input type="text" placeholder="" oninput="checkAnswer(this, 'Prenez')"> <span></span>
-9. ________ devant la mairie, puis tournez à droite.  
-    <input type="text" placeholder="" oninput="checkAnswer(this, 'Passez')"> <span></span>
-10. ________ à la deuxième intersection.  
-    <input type="text" placeholder="" oninput="checkAnswer(this, 'Tournez')"> <span></span>
-11. ________ la place et c’est à gauche.  
-    <input type="text" placeholder="" oninput="checkAnswer(this, 'Traversez')"> <span></span>
+1.  Pour aller à la poste, \_\_\_\_\_\_\_\_ tout droit.\
+    <input type="text" placeholder="" oninput="checkAnswer(this, 'allez')">
+2.  \_\_\_\_\_\_\_\_ à gauche au feu.\
+    <input type="text" placeholder="" oninput="checkAnswer(this, 'Tournez')">
+3.  \_\_\_\_\_\_\_\_ la rue et c’est en face.\
+    <input type="text" placeholder="" oninput="checkAnswer(this, 'Traversez')">
+4.  La boulangerie est \_\_\_\_\_\_\_\_ la pharmacie.\
+    <input type="text" placeholder="" oninput="checkAnswer(this, 'à côté de')">
+5.  \_\_\_\_\_\_\_\_ à droite après le pont.\
+    <input type="text" placeholder="" oninput="checkAnswer(this, 'Tournez')">
+6.  \_\_\_\_\_\_\_\_ jusqu’au bout de la rue.\
+    <input type="text" placeholder="" oninput="checkAnswer(this, 'Allez')">
+7.  \_\_\_\_\_\_\_\_ le parc et continuez tout droit.\
+    <input type="text" placeholder="" oninput="checkAnswer(this, 'Traversez')">
+8.  \_\_\_\_\_\_\_\_ la première rue à gauche.\
+    <input type="text" placeholder="" oninput="checkAnswer(this, 'Prenez')">
+9.  \_\_\_\_\_\_\_\_ devant la mairie, puis tournez à droite.\
+    <input type="text" placeholder="" oninput="checkAnswer(this, 'Passez')">
+10. \_\_\_\_\_\_\_\_ à la deuxième intersection.\
+    <input type="text" placeholder="" oninput="checkAnswer(this, 'Tournez')">
+11. \_\_\_\_\_\_\_\_ la place et c’est à gauche.\
+    <input type="text" placeholder="" oninput="checkAnswer(this, 'Traversez')">
 
----
+------------------------------------------------------------------------
 
 ## 4. Traduisez en français avec la bonne préposition ou expression
 
-1. The cat is under the table.  
-    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Le chat est sous la table.')"> <span></span>
-2. The school is opposite the park.  
-    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'L\'école est en face du parc.')"> <span></span>
-3. The bank is next to the post office.  
-    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'La banque est à côté de la poste.')"> <span></span>
-4. The fountain is in the middle of the square.  
-    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'La fontaine est au milieu de la place.')"> <span></span>
-5. The garden is behind the house.  
-    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Le jardin est derrière la maison.')"> <span></span>
-6. The car is in front of the cinema.  
-    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'La voiture est devant le cinéma.')"> <span></span>
-7. The bakery is on the other side of the street.  
-    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'La boulangerie est de l\'autre côté de la rue.')"> <span></span>
-8. The keys are in the bag.  
-    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Les clés sont dans le sac.')"> <span></span>
-9. The bench is under the tree.  
-    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Le banc est sous l\'arbre.')"> <span></span>
-10. The supermarket is opposite the pharmacy.  
-    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Le supermarché est en face de la pharmacie.')"> <span></span>
-11. The cinema is next to the library.  
-    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Le cinéma est à côté de la bibliothèque.')"> <span></span>
+1.  The cat is under the table.\
+    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Le chat est sous la table.')">
+2.  The school is opposite the park.\
+    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'L\'école est en face du parc.')">
+3.  The bank is next to the post office.\
+    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'La banque est à côté de la poste.')">
+4.  The fountain is in the middle of the square.\
+    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'La fontaine est au milieu de la place.')">
+5.  The garden is behind the house.\
+    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Le jardin est derrière la maison.')">
+6.  The car is in front of the cinema.\
+    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'La voiture est devant le cinéma.')">
+7.  The bakery is on the other side of the street.\
+    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'La boulangerie est de l\'autre côté de la rue.')">
+8.  The keys are in the bag.\
+    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Les clés sont dans le sac.')">
+9.  The bench is under the tree.\
+    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Le banc est sous l\'arbre.')">
+10. The supermarket is opposite the pharmacy.\
+    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Le supermarché est en face de la pharmacie.')">
+11. The cinema is next to the library.\
+    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Le cinéma est à côté de la bibliothèque.')">
 
-<button onclick="showAnswers()">Afficher les réponses</button>
-<button onclick="refreshPage()">Réessayer</button>
+<button onclick="showAnswers()">
 
----
+Afficher les réponses
+
+</button>
+
+<button onclick="refreshPage()">
+
+Réessayer
+
+</button>
+
+------------------------------------------------------------------------
 
 ## Pratique : Rédigez vos propres indications
 
 Rédigez un court paragraphe (4 à 6 phrases) pour expliquer comment aller de chez vous à un lieu de votre ville (par exemple, la bibliothèque, le parc). Utilisez au moins trois prépositions de lieu et deux expressions pour demander ou donner des indications en français.
 
+```{=html}
 <textarea style="width: 100%; min-height: 200px; font-size: 1.1em;" placeholder="Écrivez votre paragraphe ici..."></textarea>
-
+```
 :::

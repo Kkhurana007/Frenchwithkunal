@@ -7,117 +7,127 @@ image: "frequence.png"
 ---
 
 ::: {.content-visible when-profile="english"}
-
 # Expressing Frequency and Habit in French
 
 In French, **l'idée de fréquence et d'habitude** refers to expressing how often an action occurs or describing habitual actions. This is commonly done using adverbs and expressions of frequency.
 
 ## 1. Key Expressions
 
-| French Expression                | Usage & Meaning                                             | Example                                                        |
-|----------------------------------|------------------------------------------------------------|----------------------------------------------------------------|
-| tous les jours                   | every day                                                  | Je fais du sport **tous les jours**. (I exercise every day.)   |
-| le matin / à midi / le soir      | in the morning / at noon / in the evening                  | Je lis **le soir**. (I read in the evening.)                   |
-| à chaque repas                   | at every meal                                              | Je bois de l'eau **à chaque repas**. (I drink water at every meal.) |
-| deux (ou trois) fois par semaine | two (or three) times a week                                | Je vais à la piscine **deux fois par semaine**. (I go to the pool twice a week.) |
-| souvent                          | often                                                      | Nous sortons **souvent**. (We go out often.)                   |
-| parfois / quelquefois            | sometimes                                                  | Il mange **parfois** au restaurant. (He sometimes eats out.)   |
-| rarement                         | rarely                                                     | Elle regarde **rarement** la télévision. (She rarely watches TV.) |
-| toujours                         | always (also used for "still" and "all the time")          | Il est **toujours** en retard. (He is always late.)            |
-| jamais                           | never                                                      | Je ne fume **jamais**. (I never smoke.)                        |
-| de temps en temps                | from time to time                                          | Nous voyageons **de temps en temps**. (We travel from time to time.) |
+| French Expression | Usage & Meaning | Example |
+|------------------|---------------------------|----------------------------|
+| tous les jours | every day | Je fais du sport **tous les jours**. (I exercise every day.) |
+| le matin / à midi / le soir | in the morning / at noon / in the evening | Je lis **le soir**. (I read in the evening.) |
+| à chaque repas | at every meal | Je bois de l'eau **à chaque repas**. (I drink water at every meal.) |
+| deux (ou trois) fois par semaine | two (or three) times a week | Je vais à la piscine **deux fois par semaine**. (I go to the pool twice a week.) |
+| souvent | often | Nous sortons **souvent**. (We go out often.) |
+| parfois / quelquefois | sometimes | Il mange **parfois** au restaurant. (He sometimes eats out.) |
+| rarement | rarely | Elle regarde **rarement** la télévision. (She rarely watches TV.) |
+| toujours | always (also used for "still" and "all the time") | Il est **toujours** en retard. (He is always late.) |
+| jamais | never | Je ne fume **jamais**. (I never smoke.) |
+| de temps en temps | from time to time | Nous voyageons **de temps en temps**. (We travel from time to time.) |
 
-> **Attention:**  
-> - **toujours** can mean "always", "still", or "all the time" depending on context.  
+> **Attention:**\
+> - **toujours** can mean "always", "still", or "all the time" depending on context.\
 > - In negative sentences, **jamais** replaces "pas" (e.g., Je ne mange jamais de viande).
 
----
+------------------------------------------------------------------------
 
 ## 2. How to Use
 
-- **Tous les jours / chaque semaine / chaque matin**:  
-    Used to express regular, repeated actions.  
-    _Ex: Il travaille tous les jours._
+-   **Tous les jours / chaque semaine / chaque matin**:\
+    Used to express regular, repeated actions.\
+    *Ex: Il travaille tous les jours.*
 
-- **Le matin / à midi / le soir**:  
-    Used for habitual actions at specific times of day.  
-    _Ex: Je bois du café le matin._
+-   **Le matin / à midi / le soir**:\
+    Used for habitual actions at specific times of day.\
+    *Ex: Je bois du café le matin.*
 
-- **Deux fois par semaine / trois fois par mois**:  
-    Used to specify frequency.  
-    _Ex: Nous allons au cinéma deux fois par mois._
+-   **Deux fois par semaine / trois fois par mois**:\
+    Used to specify frequency.\
+    *Ex: Nous allons au cinéma deux fois par mois.*
 
-- **Toujours / souvent / parfois / rarement / jamais**:  
-    Adverbs placed after the verb (except in compound tenses, after the auxiliary).  
-    _Ex: Elle voyage souvent. / Je ne mange jamais de poisson._
+-   **Toujours / souvent / parfois / rarement / jamais**:\
+    Adverbs placed after the verb (except in compound tenses, after the auxiliary).\
+    *Ex: Elle voyage souvent. / Je ne mange jamais de poisson.*
 
----
+------------------------------------------------------------------------
 
 # Exercises
 
 ## 1. Fill in with the correct frequency expression (tous les jours, le matin, à midi, à chaque repas, le soir, deux fois par semaine, souvent, parfois, rarement, toujours, jamais, de temps en temps)
 
-1. Je prends mon petit-déjeuner ________. <input type="text" placeholder="" oninput="checkAnswer(this, 'le matin')"> <span></span>
-2. Nous allons à la gym ________. <input type="text" placeholder="" oninput="checkAnswer(this, 'deux fois par semaine')"> <span></span>
-3. Il boit du café ________. <input type="text" placeholder="" oninput="checkAnswer(this, 'à chaque repas')"> <span></span>
-4. Elle lit un livre ________. <input type="text" placeholder="" oninput="checkAnswer(this, 'le soir')"> <span></span>
-5. Tu fais du sport ________? (every day) <input type="text" placeholder="" oninput="checkAnswer(this, 'tous les jours')"> <span></span>
-6. Nous sortons ________ au restaurant. <input type="text" placeholder="" oninput="checkAnswer(this, 'souvent')"> <span></span>
-7. Je regarde ________ la télévision. (rarely) <input type="text" placeholder="" oninput="checkAnswer(this, 'rarement')"> <span></span>
-8. Il est ________ en avance. (always) <input type="text" placeholder="" oninput="checkAnswer(this, 'toujours')"> <span></span>
-9. Elle ne mange ________ de viande. (never) <input type="text" placeholder="" oninput="checkAnswer(this, 'jamais')"> <span></span>
-10. Nous voyageons ________. (from time to time) <input type="text" placeholder="" oninput="checkAnswer(this, 'de temps en temps')"> <span></span>
-11. Je prends un café ________. (at noon) <input type="text" placeholder="" oninput="checkAnswer(this, 'à midi')"> <span></span>
-12. Ils vont au cinéma ________. (sometimes) <input type="text" placeholder="" oninput="checkAnswer(this, 'parfois')"> <span></span>
+1.  Je prends mon petit-déjeuner \_\_\_\_\_\_\_\_. <input type="text" placeholder="" oninput="checkAnswer(this, 'le matin')">
+2.  Nous allons à la gym \_\_\_\_\_\_\_\_. <input type="text" placeholder="" oninput="checkAnswer(this, 'deux fois par semaine')">
+3.  Il boit du café \_\_\_\_\_\_\_\_. <input type="text" placeholder="" oninput="checkAnswer(this, 'à chaque repas')">
+4.  Elle lit un livre \_\_\_\_\_\_\_\_. <input type="text" placeholder="" oninput="checkAnswer(this, 'le soir')">
+5.  Tu fais du sport \_\_\_\_\_\_\_\_? (every day) <input type="text" placeholder="" oninput="checkAnswer(this, 'tous les jours')">
+6.  Nous sortons \_\_\_\_\_\_\_\_ au restaurant. <input type="text" placeholder="" oninput="checkAnswer(this, 'souvent')">
+7.  Je regarde \_\_\_\_\_\_\_\_ la télévision. (rarely) <input type="text" placeholder="" oninput="checkAnswer(this, 'rarement')">
+8.  Il est \_\_\_\_\_\_\_\_ en avance. (always) <input type="text" placeholder="" oninput="checkAnswer(this, 'toujours')">
+9.  Elle ne mange \_\_\_\_\_\_\_\_ de viande. (never) <input type="text" placeholder="" oninput="checkAnswer(this, 'jamais')">
+10. Nous voyageons \_\_\_\_\_\_\_\_. (from time to time) <input type="text" placeholder="" oninput="checkAnswer(this, 'de temps en temps')">
+11. Je prends un café \_\_\_\_\_\_\_\_. (at noon) <input type="text" placeholder="" oninput="checkAnswer(this, 'à midi')">
+12. Ils vont au cinéma \_\_\_\_\_\_\_\_. (sometimes) <input type="text" placeholder="" oninput="checkAnswer(this, 'parfois')">
 
----
+------------------------------------------------------------------------
 
 ## 2. Rewrite the sentences using the indicated frequency expression
 
-1. Je fais du yoga chaque matin. (tous les jours)  
-    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Je fais du yoga tous les jours.')"> <span></span>
-2. Nous allons au marché le samedi. (une fois par semaine)  
-    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Nous allons au marché une fois par semaine.')"> <span></span>
-3. Il prend un dessert à chaque repas. (toujours)  
-    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Il prend toujours un dessert.')"> <span></span>
-4. Elle ne boit pas de café. (jamais)  
-    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Elle ne boit jamais de café.')"> <span></span>
-5. Nous faisons du vélo parfois. (de temps en temps)  
-    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Nous faisons du vélo de temps en temps.')"> <span></span>
+1.  Je fais du yoga chaque matin. (tous les jours)\
+    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Je fais du yoga tous les jours.')">
+2.  Nous allons au marché le samedi. (une fois par semaine)\
+    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Nous allons au marché une fois par semaine.')">
+3.  Il prend un dessert à chaque repas. (toujours)\
+    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Il prend toujours un dessert.')">
+4.  Elle ne boit pas de café. (jamais)\
+    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Elle ne boit jamais de café.')">
+5.  Nous faisons du vélo parfois. (de temps en temps)\
+    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Nous faisons du vélo de temps en temps.')">
 
----
+------------------------------------------------------------------------
 
 ## 3. Translate into French with the correct frequency expression
 
-1. I eat breakfast every morning.  
-    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Je prends le petit-déjeuner tous les matins.')"> <span></span>
-2. She goes to the gym twice a week.  
-    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Elle va à la gym deux fois par semaine.')"> <span></span>
-3. We always arrive on time.  
-    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Nous arrivons toujours à l’heure.')"> <span></span>
-4. He never eats meat.  
-    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Il ne mange jamais de viande.')"> <span></span>
-5. They rarely watch TV.  
-    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Ils regardent rarement la télévision.')"> <span></span>
-6. I drink coffee at noon.  
-    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Je bois du café à midi.')"> <span></span>
-7. We go to the cinema from time to time.  
-    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Nous allons au cinéma de temps en temps.')"> <span></span>
-8. She sometimes eats at the restaurant.  
-    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Elle mange parfois au restaurant.')"> <span></span>
+1.  I eat breakfast every morning.\
+    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Je prends le petit-déjeuner tous les matins.')">
+2.  She goes to the gym twice a week.\
+    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Elle va à la gym deux fois par semaine.')">
+3.  We always arrive on time.\
+    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Nous arrivons toujours à l’heure.')">
+4.  He never eats meat.\
+    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Il ne mange jamais de viande.')">
+5.  They rarely watch TV.\
+    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Ils regardent rarement la télévision.')">
+6.  I drink coffee at noon.\
+    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Je bois du café à midi.')">
+7.  We go to the cinema from time to time.\
+    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Nous allons au cinéma de temps en temps.')">
+8.  She sometimes eats at the restaurant.\
+    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Elle mange parfois au restaurant.')">
 
-<button onclick="showAnswers()">Show Answers</button>
-<button onclick="refreshPage()">Try Again</button>
+<button onclick="showAnswers()">
 
----
+Show Answers
+
+</button>
+
+<button onclick="refreshPage()">
+
+Try Again
+
+</button>
+
+------------------------------------------------------------------------
 
 ## Practice: Write Your Own Paragraph
 
 Write a short paragraph (4–6 sentences) using at least three different French expressions of frequency or habit (tous les jours, le matin, à midi, à chaque repas, le soir, deux fois par semaine, souvent, parfois, rarement, toujours, jamais, de temps en temps) from above. Describe your daily routine or habits, making sure to highlight how you express frequency in French.
 
+```{=html}
 <textarea style="width: 100%; min-height: 200px; font-size: 1.1em;" placeholder="Write your paragraph here..."></textarea>
+```
 
-
+```{=html}
 <script>
 function checkAnswer(input, correctAnswer) {
         const span = input.nextElementSibling;
@@ -144,122 +154,132 @@ function refreshPage() {
         location.reload();
 }
 </script>
-
+```
 :::
 
 ::: {.content-visible when-profile="french"}
-
 # Exprimer la fréquence et l'habitude en français
 
 En français, **l'idée de fréquence et d'habitude** consiste à indiquer à quelle fréquence une action se produit ou à décrire des actions habituelles. On utilise souvent des adverbes et des expressions de fréquence pour cela.
 
 ## 1. Expressions clés
 
-| Expression française              | Usage & signification                                         | Exemple                                                        |
-|-----------------------------------|--------------------------------------------------------------|----------------------------------------------------------------|
-| tous les jours                    | chaque jour                                                  | Je fais du sport **tous les jours**.                           |
-| le matin / à midi / le soir       | le matin / à midi / le soir                                  | Je lis **le soir**.                                            |
-| à chaque repas                    | à chaque repas                                               | Je bois de l'eau **à chaque repas**.                           |
-| deux (ou trois) fois par semaine  | deux (ou trois) fois par semaine                             | Je vais à la piscine **deux fois par semaine**.                |
-| souvent                           | souvent                                                      | Nous sortons **souvent**.                                      |
-| parfois / quelquefois             | parfois                                                      | Il mange **parfois** au restaurant.                            |
-| rarement                          | rarement                                                     | Elle regarde **rarement** la télévision.                       |
-| toujours                          | toujours (aussi : encore, tout le temps selon le contexte)   | Il est **toujours** en retard.                                 |
-| jamais                            | jamais                                                       | Je ne fume **jamais**.                                         |
-| de temps en temps                 | de temps en temps                                            | Nous voyageons **de temps en temps**.                          |
+| Expression française | Usage & signification | Exemple |
+|------------------|---------------------------|----------------------------|
+| tous les jours | chaque jour | Je fais du sport **tous les jours**. |
+| le matin / à midi / le soir | le matin / à midi / le soir | Je lis **le soir**. |
+| à chaque repas | à chaque repas | Je bois de l'eau **à chaque repas**. |
+| deux (ou trois) fois par semaine | deux (ou trois) fois par semaine | Je vais à la piscine **deux fois par semaine**. |
+| souvent | souvent | Nous sortons **souvent**. |
+| parfois / quelquefois | parfois | Il mange **parfois** au restaurant. |
+| rarement | rarement | Elle regarde **rarement** la télévision. |
+| toujours | toujours (aussi : encore, tout le temps selon le contexte) | Il est **toujours** en retard. |
+| jamais | jamais | Je ne fume **jamais**. |
+| de temps en temps | de temps en temps | Nous voyageons **de temps en temps**. |
 
-> **Attention :**  
+> **Attention :**
 
-> - **toujours** peut signifier "toujours", "encore" ou "tout le temps" selon le contexte.  
-> - Dans les phrases négatives, **jamais** remplace "pas" (ex : Je ne mange jamais de viande).
+> -   **toujours** peut signifier "toujours", "encore" ou "tout le temps" selon le contexte.\
+> -   Dans les phrases négatives, **jamais** remplace "pas" (ex : Je ne mange jamais de viande).
 
----
+------------------------------------------------------------------------
 
 ## 2. Comment utiliser
 
-- **Tous les jours / chaque semaine / chaque matin** :  
-    Sert à exprimer une action régulière et répétée.  
-    _Ex : Il travaille tous les jours._
+-   **Tous les jours / chaque semaine / chaque matin** :\
+    Sert à exprimer une action régulière et répétée.\
+    *Ex : Il travaille tous les jours.*
 
-- **Le matin / à midi / le soir** :  
-    Sert à indiquer une habitude à un moment précis de la journée.  
-    _Ex : Je bois du café le matin._
+-   **Le matin / à midi / le soir** :\
+    Sert à indiquer une habitude à un moment précis de la journée.\
+    *Ex : Je bois du café le matin.*
 
-- **Deux fois par semaine / trois fois par mois** :  
-    Sert à préciser la fréquence.  
-    _Ex : Nous allons au cinéma deux fois par mois._
+-   **Deux fois par semaine / trois fois par mois** :\
+    Sert à préciser la fréquence.\
+    *Ex : Nous allons au cinéma deux fois par mois.*
 
-- **Toujours / souvent / parfois / rarement / jamais** :  
-    Ces adverbes se placent après le verbe (dans les temps composés, après l’auxiliaire).  
-    _Ex : Elle voyage souvent. / Je ne mange jamais de poisson._
+-   **Toujours / souvent / parfois / rarement / jamais** :\
+    Ces adverbes se placent après le verbe (dans les temps composés, après l’auxiliaire).\
+    *Ex : Elle voyage souvent. / Je ne mange jamais de poisson.*
 
----
+------------------------------------------------------------------------
 
 # Exercices
 
 ## 1. Complétez avec l'expression de fréquence correcte (tous les jours, le matin, à midi, à chaque repas, le soir, deux fois par semaine, souvent, parfois, rarement, toujours, jamais, de temps en temps)
 
-1. Je prends mon petit-déjeuner ________. <input type="text" placeholder="" oninput="checkAnswer(this, 'le matin')"> <span></span>
-2. Nous allons à la gym ________. <input type="text" placeholder="" oninput="checkAnswer(this, 'deux fois par semaine')"> <span></span>
-3. Il boit du café ________. <input type="text" placeholder="" oninput="checkAnswer(this, 'à chaque repas')"> <span></span>
-4. Elle lit un livre ________. <input type="text" placeholder="" oninput="checkAnswer(this, 'le soir')"> <span></span>
-5. Tu fais du sport ________ ? <input type="text" placeholder="" oninput="checkAnswer(this, 'tous les jours')"> <span></span>
-6. Nous sortons ________ au restaurant. <input type="text" placeholder="" oninput="checkAnswer(this, 'souvent')"> <span></span>
-7. Je regarde ________ la télévision. <input type="text" placeholder="" oninput="checkAnswer(this, 'rarement')"> <span></span>
-8. Il est ________ en avance. <input type="text" placeholder="" oninput="checkAnswer(this, 'toujours')"> <span></span>
-9. Elle ne mange ________ de viande. <input type="text" placeholder="" oninput="checkAnswer(this, 'jamais')"> <span></span>
-10. Nous voyageons ________. <input type="text" placeholder="" oninput="checkAnswer(this, 'de temps en temps')"> <span></span>
-11. Je prends un café ________. <input type="text" placeholder="" oninput="checkAnswer(this, 'à midi')"> <span></span>
-12. Ils vont au cinéma ________. <input type="text" placeholder="" oninput="checkAnswer(this, 'parfois')"> <span></span>
+1.  Je prends mon petit-déjeuner \_\_\_\_\_\_\_\_. <input type="text" placeholder="" oninput="checkAnswer(this, 'le matin')">
+2.  Nous allons à la gym \_\_\_\_\_\_\_\_. <input type="text" placeholder="" oninput="checkAnswer(this, 'deux fois par semaine')">
+3.  Il boit du café \_\_\_\_\_\_\_\_. <input type="text" placeholder="" oninput="checkAnswer(this, 'à chaque repas')">
+4.  Elle lit un livre \_\_\_\_\_\_\_\_. <input type="text" placeholder="" oninput="checkAnswer(this, 'le soir')">
+5.  Tu fais du sport \_\_\_\_\_\_\_\_ ? <input type="text" placeholder="" oninput="checkAnswer(this, 'tous les jours')">
+6.  Nous sortons \_\_\_\_\_\_\_\_ au restaurant. <input type="text" placeholder="" oninput="checkAnswer(this, 'souvent')">
+7.  Je regarde \_\_\_\_\_\_\_\_ la télévision. <input type="text" placeholder="" oninput="checkAnswer(this, 'rarement')">
+8.  Il est \_\_\_\_\_\_\_\_ en avance. <input type="text" placeholder="" oninput="checkAnswer(this, 'toujours')">
+9.  Elle ne mange \_\_\_\_\_\_\_\_ de viande. <input type="text" placeholder="" oninput="checkAnswer(this, 'jamais')">
+10. Nous voyageons \_\_\_\_\_\_\_\_. <input type="text" placeholder="" oninput="checkAnswer(this, 'de temps en temps')">
+11. Je prends un café \_\_\_\_\_\_\_\_. <input type="text" placeholder="" oninput="checkAnswer(this, 'à midi')">
+12. Ils vont au cinéma \_\_\_\_\_\_\_\_. <input type="text" placeholder="" oninput="checkAnswer(this, 'parfois')">
 
----
+------------------------------------------------------------------------
 
 ## 2. Réécrivez les phrases en utilisant l’expression de fréquence indiquée
 
-1. Je fais du yoga chaque matin. (tous les jours)  
-    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Je fais du yoga tous les jours.')"> <span></span>
-2. Nous allons au marché le samedi. (une fois par semaine)  
-    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Nous allons au marché une fois par semaine.')"> <span></span>
-3. Il prend un dessert à chaque repas. (toujours)  
-    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Il prend toujours un dessert.')"> <span></span>
-4. Elle ne boit pas de café. (jamais)  
-    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Elle ne boit jamais de café.')"> <span></span>
-5. Nous faisons du vélo parfois. (de temps en temps)  
-    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Nous faisons du vélo de temps en temps.')"> <span></span>
+1.  Je fais du yoga chaque matin. (tous les jours)\
+    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Je fais du yoga tous les jours.')">
+2.  Nous allons au marché le samedi. (une fois par semaine)\
+    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Nous allons au marché une fois par semaine.')">
+3.  Il prend un dessert à chaque repas. (toujours)\
+    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Il prend toujours un dessert.')">
+4.  Elle ne boit pas de café. (jamais)\
+    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Elle ne boit jamais de café.')">
+5.  Nous faisons du vélo parfois. (de temps en temps)\
+    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Nous faisons du vélo de temps en temps.')">
 
----
+------------------------------------------------------------------------
 
 ## 3. Traduisez en français avec la bonne expression de fréquence
 
-1. I eat breakfast every morning.  
-    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Je prends le petit-déjeuner tous les matins.')"> <span></span>
-2. She goes to the gym twice a week.  
-    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Elle va à la gym deux fois par semaine.')"> <span></span>
-3. We always arrive on time.  
-    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Nous arrivons toujours à l’heure.')"> <span></span>
-4. He never eats meat.  
-    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Il ne mange jamais de viande.')"> <span></span>
-5. They rarely watch TV.  
-    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Ils regardent rarement la télévision.')"> <span></span>
-6. I drink coffee at noon.  
-    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Je bois du café à midi.')"> <span></span>
-7. We go to the cinema from time to time.  
-    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Nous allons au cinéma de temps en temps.')"> <span></span>
-8. She sometimes eats at the restaurant.  
-    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Elle mange parfois au restaurant.')"> <span></span>
+1.  I eat breakfast every morning.\
+    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Je prends le petit-déjeuner tous les matins.')">
+2.  She goes to the gym twice a week.\
+    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Elle va à la gym deux fois par semaine.')">
+3.  We always arrive on time.\
+    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Nous arrivons toujours à l’heure.')">
+4.  He never eats meat.\
+    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Il ne mange jamais de viande.')">
+5.  They rarely watch TV.\
+    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Ils regardent rarement la télévision.')">
+6.  I drink coffee at noon.\
+    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Je bois du café à midi.')">
+7.  We go to the cinema from time to time.\
+    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Nous allons au cinéma de temps en temps.')">
+8.  She sometimes eats at the restaurant.\
+    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Elle mange parfois au restaurant.')">
 
-<button onclick="showAnswers()">Afficher les réponses</button>
-<button onclick="refreshPage()">Réessayer</button>
+<button onclick="showAnswers()">
 
----
+Afficher les réponses
+
+</button>
+
+<button onclick="refreshPage()">
+
+Réessayer
+
+</button>
+
+------------------------------------------------------------------------
 
 ## Pratique : Rédigez votre propre paragraphe
 
 Rédigez un court paragraphe (4 à 6 phrases) en utilisant au moins trois expressions françaises de fréquence ou d’habitude (tous les jours, le matin, à midi, à chaque repas, le soir, deux fois par semaine, souvent, parfois, rarement, toujours, jamais, de temps en temps) parmi celles ci-dessus. Décrivez votre routine quotidienne ou vos habitudes, en mettant en valeur l’expression de la fréquence en français.
 
+```{=html}
 <textarea style="width: 100%; min-height: 200px; font-size: 1.1em;" placeholder="Écrivez votre paragraphe ici..."></textarea>
+```
 
-
+```{=html}
 <script>
 function checkAnswer(input, correctAnswer) {
         const span = input.nextElementSibling;
@@ -286,5 +306,5 @@ function refreshPage() {
         location.reload();
 }
 </script>
-
+```
 :::

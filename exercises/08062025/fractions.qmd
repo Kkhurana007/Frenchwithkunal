@@ -7,124 +7,134 @@ image: "fractions.png"
 ---
 
 ::: {.content-visible when-profile="english"}
-
 # Fractions and Percentages in French
 
 In French, fractions and percentages are used to express parts of a whole or proportions. Here are some common ways to say them:
 
 ## 1. Key Expressions
 
-| Fraction / Percentage | French Expression         | Example                                                        |
-|----------------------|--------------------------|----------------------------------------------------------------|
-| 1/2                  | un demi                  | Je bois **un demi** litre d’eau. (I drink half a liter of water.) |
-| 1/4                  | un quart                 | Il mange **un quart** de la pizza. (He eats a quarter of the pizza.) |
-| 1/3                  | un tiers                 | Un **tiers** des élèves sont absents. (A third of the students are absent.) |
-| 10%                  | dix pour cent            | **Dix pour cent** des gens aiment ce film. (Ten percent of people like this movie.) |
-| 1,5%                 | un et demi pour cent     | L’intérêt est de **un et demi pour cent**. (The interest is one and a half percent.) |
+| Fraction / Percentage | French Expression | Example |
+|------------------|------------------|-------------------------------------|
+| 1/2 | un demi | Je bois **un demi** litre d’eau. (I drink half a liter of water.) |
+| 1/4 | un quart | Il mange **un quart** de la pizza. (He eats a quarter of the pizza.) |
+| 1/3 | un tiers | Un **tiers** des élèves sont absents. (A third of the students are absent.) |
+| 10% | dix pour cent | **Dix pour cent** des gens aiment ce film. (Ten percent of people like this movie.) |
+| 1,5% | un et demi pour cent | L’intérêt est de **un et demi pour cent**. (The interest is one and a half percent.) |
 
-> **Note:**  
-> - "Pour cent" means "percent".  
+> **Note:**\
+> - "Pour cent" means "percent".\
 > - Fractions like "un demi", "un quart", and "un tiers" are used without "de" before a noun (e.g., un demi litre, un quart d’heure).
 
----
+------------------------------------------------------------------------
 
 ## 2. How to Use
 
-- **Un demi / une demi**:  
-    Used for "half". "Un demi" (masculine), "une demi" (feminine).  
-    _Ex: un demi litre, une demi heure_
+-   **Un demi / une demi**:\
+    Used for "half". "Un demi" (masculine), "une demi" (feminine).\
+    *Ex: un demi litre, une demi heure*
 
-- **Un quart / un tiers**:  
-    Used for "a quarter" and "a third".  
-    _Ex: un quart de gâteau, un tiers des élèves_
+-   **Un quart / un tiers**:\
+    Used for "a quarter" and "a third".\
+    *Ex: un quart de gâteau, un tiers des élèves*
 
-- **Pour cent**:  
-    Used for percentages.  
-    _Ex: vingt pour cent, cinquante pour cent_
+-   **Pour cent**:\
+    Used for percentages.\
+    *Ex: vingt pour cent, cinquante pour cent*
 
-- **Un et demi pour cent**:  
-    Used for "one and a half percent".  
-    _Ex: un et demi pour cent d’intérêt_
+-   **Un et demi pour cent**:\
+    Used for "one and a half percent".\
+    *Ex: un et demi pour cent d’intérêt*
 
----
+------------------------------------------------------------------------
 
 # Exercises
 
 ## 1. Fill in with the correct French fraction or percentage (un demi, un quart, un tiers, dix pour cent, un et demi pour cent)
 
-1. Je bois ________ litre d’eau. (half) <input type="text" placeholder="" oninput="checkAnswer(this, 'un demi')"> <span></span>
-2. Il mange ________ de la tarte. (a quarter) <input type="text" placeholder="" oninput="checkAnswer(this, 'un quart')"> <span></span>
-3. ________ des élèves sont absents. (a third) <input type="text" placeholder="" oninput="checkAnswer(this, 'un tiers')"> <span></span>
-4. ________ des étudiants ont réussi l’examen. (ten percent) <input type="text" placeholder="" oninput="checkAnswer(this, 'dix pour cent')"> <span></span>
-5. L’intérêt est de ________. (one and a half percent) <input type="text" placeholder="" oninput="checkAnswer(this, 'un et demi pour cent')"> <span></span>
-6. Il a mangé ________ du gâteau. (half) <input type="text" placeholder="" oninput="checkAnswer(this, 'un demi')"> <span></span>
-7. ________ des enfants jouent dehors. (a quarter) <input type="text" placeholder="" oninput="checkAnswer(this, 'un quart')"> <span></span>
-8. ________ des réponses sont correctes. (a third) <input type="text" placeholder="" oninput="checkAnswer(this, 'un tiers')"> <span></span>
-9. ________ des clients sont satisfaits. (ten percent) <input type="text" placeholder="" oninput="checkAnswer(this, 'dix pour cent')"> <span></span>
-10. Le taux d’intérêt est de ________. (one and a half percent) <input type="text" placeholder="" oninput="checkAnswer(this, 'un et demi pour cent')"> <span></span>
+1.  Je bois \_\_\_\_\_\_\_\_ litre d’eau. (half) <input type="text" placeholder="" oninput="checkAnswer(this, 'un demi')">
+2.  Il mange \_\_\_\_\_\_\_\_ de la tarte. (a quarter) <input type="text" placeholder="" oninput="checkAnswer(this, 'un quart')">
+3.  \_\_\_\_\_\_\_\_ des élèves sont absents. (a third) <input type="text" placeholder="" oninput="checkAnswer(this, 'un tiers')">
+4.  \_\_\_\_\_\_\_\_ des étudiants ont réussi l’examen. (ten percent) <input type="text" placeholder="" oninput="checkAnswer(this, 'dix pour cent')">
+5.  L’intérêt est de \_\_\_\_\_\_\_\_. (one and a half percent) <input type="text" placeholder="" oninput="checkAnswer(this, 'un et demi pour cent')">
+6.  Il a mangé \_\_\_\_\_\_\_\_ du gâteau. (half) <input type="text" placeholder="" oninput="checkAnswer(this, 'un demi')">
+7.  \_\_\_\_\_\_\_\_ des enfants jouent dehors. (a quarter) <input type="text" placeholder="" oninput="checkAnswer(this, 'un quart')">
+8.  \_\_\_\_\_\_\_\_ des réponses sont correctes. (a third) <input type="text" placeholder="" oninput="checkAnswer(this, 'un tiers')">
+9.  \_\_\_\_\_\_\_\_ des clients sont satisfaits. (ten percent) <input type="text" placeholder="" oninput="checkAnswer(this, 'dix pour cent')">
+10. Le taux d’intérêt est de \_\_\_\_\_\_\_\_. (one and a half percent) <input type="text" placeholder="" oninput="checkAnswer(this, 'un et demi pour cent')">
 
----
+------------------------------------------------------------------------
 
 ## 2. Rewrite the sentences using the indicated fraction or percentage
 
-1. Je mange la moitié du gâteau. (un demi)  
-    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Je mange un demi gâteau.')"> <span></span>
-2. Vingt pour cent des gens aiment ce livre. (dix pour cent)  
-    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Dix pour cent des gens aiment ce livre.')"> <span></span>
-3. Il boit une partie du jus. (un quart)  
-    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Il boit un quart du jus.')"> <span></span>
-4. Un élève sur trois est absent. (un tiers)  
-    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Un tiers des élèves est absent.')"> <span></span>
-5. Le taux est de deux pour cent. (un et demi pour cent)  
-    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Le taux est de un et demi pour cent.')"> <span></span>
-6. Je bois la moitié du verre. (un demi)  
-    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Je bois un demi verre.')"> <span></span>
-7. Trente pour cent des élèves participent. (dix pour cent)  
-    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Dix pour cent des élèves participent.')"> <span></span>
-8. Il mange une partie de la pizza. (un quart)  
-    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Il mange un quart de la pizza.')"> <span></span>
-9. Un étudiant sur trois a réussi. (un tiers)  
-    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Un tiers des étudiants a réussi.')"> <span></span>
-10. Le taux est de trois pour cent. (un et demi pour cent)  
-    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Le taux est de un et demi pour cent.')"> <span></span>
+1.  Je mange la moitié du gâteau. (un demi)\
+    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Je mange un demi gâteau.')">
+2.  Vingt pour cent des gens aiment ce livre. (dix pour cent)\
+    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Dix pour cent des gens aiment ce livre.')">
+3.  Il boit une partie du jus. (un quart)\
+    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Il boit un quart du jus.')">
+4.  Un élève sur trois est absent. (un tiers)\
+    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Un tiers des élèves est absent.')">
+5.  Le taux est de deux pour cent. (un et demi pour cent)\
+    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Le taux est de un et demi pour cent.')">
+6.  Je bois la moitié du verre. (un demi)\
+    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Je bois un demi verre.')">
+7.  Trente pour cent des élèves participent. (dix pour cent)\
+    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Dix pour cent des élèves participent.')">
+8.  Il mange une partie de la pizza. (un quart)\
+    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Il mange un quart de la pizza.')">
+9.  Un étudiant sur trois a réussi. (un tiers)\
+    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Un tiers des étudiants a réussi.')">
+10. Le taux est de trois pour cent. (un et demi pour cent)\
+    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Le taux est de un et demi pour cent.')">
 
----
+------------------------------------------------------------------------
 
 ## 3. Translate into French with the correct fraction or percentage
 
-1. I drink half a liter of water.  
-    <input type="text" style="width: 450px;" placeholder="" oninput="checkAnswer(this, 'Je bois un demi litre d’eau.')"> <span></span>
-2. He eats a quarter of the cake.  
-    <input type="text" style="width: 450px;" placeholder="" oninput="checkAnswer(this, 'Il mange un quart du gâteau.')"> <span></span>
-3. A third of the students are absent.  
-    <input type="text" style="width: 450px;" placeholder="" oninput="checkAnswer(this, 'Un tiers des élèves sont absents.')"> <span></span>
-4. Ten percent of people like this movie.  
-    <input type="text" style="width: 450px;" placeholder="" oninput="checkAnswer(this, 'Dix pour cent des gens aiment ce film.')"> <span></span>
-5. The interest is one and a half percent.  
-    <input type="text" style="width: 450px;" placeholder="" oninput="checkAnswer(this, 'L’intérêt est de un et demi pour cent.')"> <span></span>
-6. I ate half the pizza.  
-    <input type="text" style="width: 450px;" placeholder="" oninput="checkAnswer(this, 'J’ai mangé un demi pizza.')"> <span></span>
-7. A quarter of the class is absent.  
-    <input type="text" style="width: 450px;" placeholder="" oninput="checkAnswer(this, 'Un quart de la classe est absent.')"> <span></span>
-8. A third of the answers are correct.  
-    <input type="text" style="width: 450px;" placeholder="" oninput="checkAnswer(this, 'Un tiers des réponses sont correctes.')"> <span></span>
-9. Ten percent of the children are outside.  
-    <input type="text" style="width: 450px;" placeholder="" oninput="checkAnswer(this, 'Dix pour cent des enfants sont dehors.')"> <span></span>
-10. The rate is one and a half percent.  
-    <input type="text" style="width: 450px;" placeholder="" oninput="checkAnswer(this, 'Le taux est de un et demi pour cent.')"> <span></span>
+1.  I drink half a liter of water.\
+    <input type="text" style="width: 450px;" placeholder="" oninput="checkAnswer(this, 'Je bois un demi litre d’eau.')">
+2.  He eats a quarter of the cake.\
+    <input type="text" style="width: 450px;" placeholder="" oninput="checkAnswer(this, 'Il mange un quart du gâteau.')">
+3.  A third of the students are absent.\
+    <input type="text" style="width: 450px;" placeholder="" oninput="checkAnswer(this, 'Un tiers des élèves sont absents.')">
+4.  Ten percent of people like this movie.\
+    <input type="text" style="width: 450px;" placeholder="" oninput="checkAnswer(this, 'Dix pour cent des gens aiment ce film.')">
+5.  The interest is one and a half percent.\
+    <input type="text" style="width: 450px;" placeholder="" oninput="checkAnswer(this, 'L’intérêt est de un et demi pour cent.')">
+6.  I ate half the pizza.\
+    <input type="text" style="width: 450px;" placeholder="" oninput="checkAnswer(this, 'J’ai mangé un demi pizza.')">
+7.  A quarter of the class is absent.\
+    <input type="text" style="width: 450px;" placeholder="" oninput="checkAnswer(this, 'Un quart de la classe est absent.')">
+8.  A third of the answers are correct.\
+    <input type="text" style="width: 450px;" placeholder="" oninput="checkAnswer(this, 'Un tiers des réponses sont correctes.')">
+9.  Ten percent of the children are outside.\
+    <input type="text" style="width: 450px;" placeholder="" oninput="checkAnswer(this, 'Dix pour cent des enfants sont dehors.')">
+10. The rate is one and a half percent.\
+    <input type="text" style="width: 450px;" placeholder="" oninput="checkAnswer(this, 'Le taux est de un et demi pour cent.')">
 
-<button onclick="showAnswers()">Show Answers</button>
-<button onclick="refreshPage()">Try Again</button>
+<button onclick="showAnswers()">
 
----
+Show Answers
+
+</button>
+
+<button onclick="refreshPage()">
+
+Try Again
+
+</button>
+
+------------------------------------------------------------------------
 
 ## Practice: Write Your Own Sentences
 
 Write 3–4 sentences using at least two different French expressions for fractions or percentages (un demi, un quart, un tiers, dix pour cent, un et demi pour cent). Describe quantities or proportions in your daily life.
 
+```{=html}
 <textarea style="width: 100%; min-height: 200px; font-size: 1.1em;" placeholder="Write your sentences here..."></textarea>
+```
 
-
+```{=html}
 <script>
 function checkAnswer(input, correctAnswer) {
     const span = input.nextElementSibling;
@@ -151,128 +161,138 @@ function refreshPage() {
     location.reload();
 }
 </script>
-
+```
 :::
 
 ::: {.content-visible when-profile="french"}
-
 # Les fractions et les pourcentages en français
 
 En français, les fractions et les pourcentages servent à exprimer des parties d’un tout ou des proportions. Voici quelques expressions courantes :
 
 ## 1. Expressions clés
 
-| Fraction / Pourcentage | Expression française      | Exemple                                                        |
-|-----------------------|--------------------------|----------------------------------------------------------------|
-| 1/2                   | un demi                  | Je bois **un demi** litre d’eau.                               |
-| 1/4                   | un quart                 | Il mange **un quart** de la pizza.                             |
-| 1/3                   | un tiers                 | Un **tiers** des élèves sont absents.                          |
-| 10 %                  | dix pour cent            | **Dix pour cent** des gens aiment ce film.                     |
-| 1,5 %                 | un et demi pour cent     | L’intérêt est de **un et demi pour cent**.                     |
+| Fraction / Pourcentage | Expression française | Exemple |
+|------------------|------------------|-------------------------------------|
+| 1/2 | un demi | Je bois **un demi** litre d’eau. |
+| 1/4 | un quart | Il mange **un quart** de la pizza. |
+| 1/3 | un tiers | Un **tiers** des élèves sont absents. |
+| 10 % | dix pour cent | **Dix pour cent** des gens aiment ce film. |
+| 1,5 % | un et demi pour cent | L’intérêt est de **un et demi pour cent**. |
 
-> **Remarque :**  
-> - « Pour cent » signifie « pourcentage ».  
+> **Remarque :**\
+> - « Pour cent » signifie « pourcentage ».\
 > - Les fractions comme « un demi », « un quart » et « un tiers » s’emploient sans « de » devant un nom (ex. : un demi litre, un quart d’heure).
 
----
+------------------------------------------------------------------------
 
 ## 2. Comment les utiliser
 
-- **Un demi / une demi :**  
-    Utilisé pour « la moitié ». « Un demi » (masculin), « une demi » (féminin).  
-    _Ex : un demi litre, une demi heure_
+-   **Un demi / une demi :**\
+    Utilisé pour « la moitié ». « Un demi » (masculin), « une demi » (féminin).\
+    *Ex : un demi litre, une demi heure*
 
-- **Un quart / un tiers :**  
-    Utilisé pour « un quart » et « un tiers ».  
-    _Ex : un quart de gâteau, un tiers des élèves_
+-   **Un quart / un tiers :**\
+    Utilisé pour « un quart » et « un tiers ».\
+    *Ex : un quart de gâteau, un tiers des élèves*
 
-- **Pour cent :**  
-    Utilisé pour les pourcentages.  
-    _Ex : vingt pour cent, cinquante pour cent_
+-   **Pour cent :**\
+    Utilisé pour les pourcentages.\
+    *Ex : vingt pour cent, cinquante pour cent*
 
-- **Un et demi pour cent :**  
-    Utilisé pour « un et demi pour cent ».  
-    _Ex : un et demi pour cent d’intérêt_
+-   **Un et demi pour cent :**\
+    Utilisé pour « un et demi pour cent ».\
+    *Ex : un et demi pour cent d’intérêt*
 
----
+------------------------------------------------------------------------
 
 # Exercices
 
 ## 1. Complétez avec la bonne fraction ou le bon pourcentage en français (un demi, un quart, un tiers, dix pour cent, un et demi pour cent)
 
-1. Je bois ________ litre d’eau. (la moitié) <input type="text" placeholder="" oninput="checkAnswer(this, 'un demi')"> <span></span>
-2. Il mange ________ de la tarte. (un quart) <input type="text" placeholder="" oninput="checkAnswer(this, 'un quart')"> <span></span>
-3. ________ des élèves sont absents. (un tiers) <input type="text" placeholder="" oninput="checkAnswer(this, 'un tiers')"> <span></span>
-4. ________ des étudiants ont réussi l’examen. (dix pour cent) <input type="text" placeholder="" oninput="checkAnswer(this, 'dix pour cent')"> <span></span>
-5. L’intérêt est de ________. (un et demi pour cent) <input type="text" placeholder="" oninput="checkAnswer(this, 'un et demi pour cent')"> <span></span>
-6. Il a mangé ________ du gâteau. (la moitié) <input type="text" placeholder="" oninput="checkAnswer(this, 'un demi')"> <span></span>
-7. ________ des enfants jouent dehors. (un quart) <input type="text" placeholder="" oninput="checkAnswer(this, 'un quart')"> <span></span>
-8. ________ des réponses sont correctes. (un tiers) <input type="text" placeholder="" oninput="checkAnswer(this, 'un tiers')"> <span></span>
-9. ________ des clients sont satisfaits. (dix pour cent) <input type="text" placeholder="" oninput="checkAnswer(this, 'dix pour cent')"> <span></span>
-10. Le taux d’intérêt est de ________. (un et demi pour cent) <input type="text" placeholder="" oninput="checkAnswer(this, 'un et demi pour cent')"> <span></span>
+1.  Je bois \_\_\_\_\_\_\_\_ litre d’eau. (la moitié) <input type="text" placeholder="" oninput="checkAnswer(this, 'un demi')">
+2.  Il mange \_\_\_\_\_\_\_\_ de la tarte. (un quart) <input type="text" placeholder="" oninput="checkAnswer(this, 'un quart')">
+3.  \_\_\_\_\_\_\_\_ des élèves sont absents. (un tiers) <input type="text" placeholder="" oninput="checkAnswer(this, 'un tiers')">
+4.  \_\_\_\_\_\_\_\_ des étudiants ont réussi l’examen. (dix pour cent) <input type="text" placeholder="" oninput="checkAnswer(this, 'dix pour cent')">
+5.  L’intérêt est de \_\_\_\_\_\_\_\_. (un et demi pour cent) <input type="text" placeholder="" oninput="checkAnswer(this, 'un et demi pour cent')">
+6.  Il a mangé \_\_\_\_\_\_\_\_ du gâteau. (la moitié) <input type="text" placeholder="" oninput="checkAnswer(this, 'un demi')">
+7.  \_\_\_\_\_\_\_\_ des enfants jouent dehors. (un quart) <input type="text" placeholder="" oninput="checkAnswer(this, 'un quart')">
+8.  \_\_\_\_\_\_\_\_ des réponses sont correctes. (un tiers) <input type="text" placeholder="" oninput="checkAnswer(this, 'un tiers')">
+9.  \_\_\_\_\_\_\_\_ des clients sont satisfaits. (dix pour cent) <input type="text" placeholder="" oninput="checkAnswer(this, 'dix pour cent')">
+10. Le taux d’intérêt est de \_\_\_\_\_\_\_\_. (un et demi pour cent) <input type="text" placeholder="" oninput="checkAnswer(this, 'un et demi pour cent')">
 
----
+------------------------------------------------------------------------
 
 ## 2. Réécrivez les phrases en utilisant la fraction ou le pourcentage indiqué
 
-1. Je mange la moitié du gâteau. (un demi)  
-    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Je mange un demi gâteau.')"> <span></span>
-2. Vingt pour cent des gens aiment ce livre. (dix pour cent)  
-    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Dix pour cent des gens aiment ce livre.')"> <span></span>
-3. Il boit une partie du jus. (un quart)  
-    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Il boit un quart du jus.')"> <span></span>
-4. Un élève sur trois est absent. (un tiers)  
-    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Un tiers des élèves est absent.')"> <span></span>
-5. Le taux est de deux pour cent. (un et demi pour cent)  
-    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Le taux est de un et demi pour cent.')"> <span></span>
-6. Je bois la moitié du verre. (un demi)  
-    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Je bois un demi verre.')"> <span></span>
-7. Trente pour cent des élèves participent. (dix pour cent)  
-    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Dix pour cent des élèves participent.')"> <span></span>
-8. Il mange une partie de la pizza. (un quart)  
-    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Il mange un quart de la pizza.')"> <span></span>
-9. Un étudiant sur trois a réussi. (un tiers)  
-    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Un tiers des étudiants a réussi.')"> <span></span>
-10. Le taux est de trois pour cent. (un et demi pour cent)  
-    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Le taux est de un et demi pour cent.')"> <span></span>
+1.  Je mange la moitié du gâteau. (un demi)\
+    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Je mange un demi gâteau.')">
+2.  Vingt pour cent des gens aiment ce livre. (dix pour cent)\
+    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Dix pour cent des gens aiment ce livre.')">
+3.  Il boit une partie du jus. (un quart)\
+    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Il boit un quart du jus.')">
+4.  Un élève sur trois est absent. (un tiers)\
+    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Un tiers des élèves est absent.')">
+5.  Le taux est de deux pour cent. (un et demi pour cent)\
+    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Le taux est de un et demi pour cent.')">
+6.  Je bois la moitié du verre. (un demi)\
+    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Je bois un demi verre.')">
+7.  Trente pour cent des élèves participent. (dix pour cent)\
+    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Dix pour cent des élèves participent.')">
+8.  Il mange une partie de la pizza. (un quart)\
+    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Il mange un quart de la pizza.')">
+9.  Un étudiant sur trois a réussi. (un tiers)\
+    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Un tiers des étudiants a réussi.')">
+10. Le taux est de trois pour cent. (un et demi pour cent)\
+    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Le taux est de un et demi pour cent.')">
 
----
+------------------------------------------------------------------------
 
 ## 3. Traduisez en français avec la bonne fraction ou le bon pourcentage
 
-1. I drink half a liter of water.  
-    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Je bois un demi litre d’eau.')"> <span></span>
-2. He eats a quarter of the cake.  
-    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Il mange un quart du gâteau.')"> <span></span>
-3. A third of the students are absent.  
-    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Un tiers des élèves sont absents.')"> <span></span>
-4. Ten percent of people like this movie.  
-    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Dix pour cent des gens aiment ce film.')"> <span></span>
-5. The interest is one and a half percent.  
-    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'L’intérêt est de un et demi pour cent.')"> <span></span>
-6. I ate half the pizza.  
-    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'J’ai mangé un demi pizza.')"> <span></span>
-7. A quarter of the class is absent.  
-    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Un quart de la classe est absent.')"> <span></span>
-8. A third of the answers are correct.  
-    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Un tiers des réponses sont correctes.')"> <span></span>
-9. Ten percent of the children are outside.  
-    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Dix pour cent des enfants sont dehors.')"> <span></span>
-10. The rate is one and a half percent.  
-    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Le taux est de un et demi pour cent.')"> <span></span>
+1.  I drink half a liter of water.\
+    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Je bois un demi litre d’eau.')">
+2.  He eats a quarter of the cake.\
+    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Il mange un quart du gâteau.')">
+3.  A third of the students are absent.\
+    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Un tiers des élèves sont absents.')">
+4.  Ten percent of people like this movie.\
+    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Dix pour cent des gens aiment ce film.')">
+5.  The interest is one and a half percent.\
+    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'L’intérêt est de un et demi pour cent.')">
+6.  I ate half the pizza.\
+    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'J’ai mangé un demi pizza.')">
+7.  A quarter of the class is absent.\
+    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Un quart de la classe est absent.')">
+8.  A third of the answers are correct.\
+    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Un tiers des réponses sont correctes.')">
+9.  Ten percent of the children are outside.\
+    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Dix pour cent des enfants sont dehors.')">
+10. The rate is one and a half percent.\
+    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Le taux est de un et demi pour cent.')">
 
-<button onclick="showAnswers()">Afficher les réponses</button>
-<button onclick="refreshPage()">Réessayer</button>
+<button onclick="showAnswers()">
 
----
+Afficher les réponses
+
+</button>
+
+<button onclick="refreshPage()">
+
+Réessayer
+
+</button>
+
+------------------------------------------------------------------------
 
 ## Pratique : Écrivez vos propres phrases
 
 Écrivez 3 à 4 phrases en utilisant au moins deux expressions françaises différentes pour les fractions ou les pourcentages (un demi, un quart, un tiers, dix pour cent, un et demi pour cent). Décrivez des quantités ou des proportions dans votre vie quotidienne.
 
+```{=html}
 <textarea style="width: 100%; min-height: 200px; font-size: 1.1em;" placeholder="Écrivez vos phrases ici..."></textarea>
+```
 
-
+```{=html}
 <script>
 function checkAnswer(input, correctAnswer) {
     const span = input.nextElementSibling;
@@ -299,6 +319,5 @@ function refreshPage() {
     location.reload();
 }
 </script>
-
-
+```
 :::

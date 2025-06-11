@@ -7,169 +7,179 @@ image: "duree.png"
 ---
 
 ::: {.content-visible when-profile="english"}
-
 # Expressing the Idea of Duration in French
 
 In French, **l'idée de durée** refers to expressing how long an action lasts or has lasted. There are several ways to express duration, each with its own nuance.
 
 ## 1. Key Expressions
 
-| French Expression         | Usage & Meaning                                                                 | Example                                                      |
-|--------------------------|--------------------------------------------------------------------------------|--------------------------------------------------------------|
-| pendant + durée          | For a completed action, or to specify the total time something lasted           | J'ai dormi **pendant deux heures**. (I slept for two hours.) |
-| (pendant) longtemps      | For a long time; "pendant" can be omitted                                      | Il a attendu (pendant) longtemps. (He waited a long time.)   |
-| tout(e) + durée          | The whole/entire duration, without interruption                                | Elle a travaillé **toute la journée**. (She worked all day.) |
-| en + durée               | Time taken to complete an action                                               | J'ai lu ce livre **en une semaine**. (I read this book in a week.) |
-| depuis + point de départ | Action started in the past and continues into the present                      | J'habite ici **depuis 2010**. (I've lived here since 2010.)  |
-| ça fait... que / il y a... que | Same meaning as "depuis", always followed by a duration                  | **Ça fait deux ans que** j'apprends le français. (I've been learning French for two years.) |
+| French Expression | Usage & Meaning | Example |
+|----------------|--------------------------------|------------------------|
+| pendant + durée | For a completed action, or to specify the total time something lasted | J'ai dormi **pendant deux heures**. (I slept for two hours.) |
+| (pendant) longtemps | For a long time; "pendant" can be omitted | Il a attendu (pendant) longtemps. (He waited a long time.) |
+| tout(e) + durée | The whole/entire duration, without interruption | Elle a travaillé **toute la journée**. (She worked all day.) |
+| en + durée | Time taken to complete an action | J'ai lu ce livre **en une semaine**. (I read this book in a week.) |
+| depuis + point de départ | Action started in the past and continues into the present | J'habite ici **depuis 2010**. (I've lived here since 2010.) |
+| ça fait... que / il y a... que | Same meaning as "depuis", always followed by a duration | **Ça fait deux ans que** j'apprends le français. (I've been learning French for two years.) |
 
----
+------------------------------------------------------------------------
 
 ## 2. How to Use
 
-- **Pendant + durée**:  
-    Used for actions with a specified duration, often completed.  
-    _Ex: Il a plu pendant trois jours._
+-   **Pendant + durée**:\
+    Used for actions with a specified duration, often completed.\
+    *Ex: Il a plu pendant trois jours.*
 
-- **(Pendant) longtemps**:  
-    "Pendant" is optional.  
-    _Ex: Nous avons parlé longtemps._
+-   **(Pendant) longtemps**:\
+    "Pendant" is optional.\
+    *Ex: Nous avons parlé longtemps.*
 
-- **Tout(e) + durée**:  
-    Emphasizes continuity, no interruption.  
-    _Ex: Il a étudié toute la nuit._
+-   **Tout(e) + durée**:\
+    Emphasizes continuity, no interruption.\
+    *Ex: Il a étudié toute la nuit.*
 
-- **En + durée**:  
-    Indicates the time needed to finish something.  
-    _Ex: Elle a fini ses devoirs en une heure._
+-   **En + durée**:\
+    Indicates the time needed to finish something.\
+    *Ex: Elle a fini ses devoirs en une heure.*
 
-- **Depuis + point de départ**:  
-    Action started in the past, still ongoing.  
-    _Ex: Je travaille ici depuis janvier._
+-   **Depuis + point de départ**:\
+    Action started in the past, still ongoing.\
+    *Ex: Je travaille ici depuis janvier.*
 
-- **Ça fait... que / Il y a... que**:  
-    Same as "depuis", but always followed by a duration.  
-    _Ex: Il y a trois semaines que je suis malade._
+-   **Ça fait... que / Il y a... que**:\
+    Same as "depuis", but always followed by a duration.\
+    *Ex: Il y a trois semaines que je suis malade.*
 
----
+------------------------------------------------------------------------
 
 # Exercises
 
 ## 1. Fill in with the correct expression (pendant, en, depuis, tout(e), il y a... que, ça fait... que, longtemps)
 
-1. J'ai attendu ________ une heure. <input type="text" placeholder="" oninput="checkAnswer(this, 'pendant')"> <span></span>
-2. Elle a couru ________ dix minutes. <input type="text" placeholder="" oninput="checkAnswer(this, 'pendant')"> <span></span>
-3. Il a fini ses devoirs ________ trente minutes. <input type="text" placeholder="" oninput="checkAnswer(this, 'en')"> <span></span>
-4. Nous habitons ici ________ 2015. <input type="text" placeholder="" oninput="checkAnswer(this, 'depuis')"> <span></span>
-5. ________ deux ans que je travaille dans cette entreprise. <input type="text" placeholder="" oninput="checkAnswer(this, 'Ça fait')"> <span></span>
-6. Elle a étudié ________ la nuit. <input type="text" placeholder="" oninput="checkAnswer(this, 'toute')"> <span></span>
-7. Il pleut ________ trois jours. <input type="text" placeholder="" oninput="checkAnswer(this, 'depuis')"> <span></span>
-8. J'ai marché ________ dans le parc. <input type="text" placeholder="" oninput="checkAnswer(this, 'longtemps')"> <span></span>
-9. ________ une semaine que je suis malade. <input type="text" placeholder="" oninput="checkAnswer(this, 'Il y a')"> <span></span>
-10. Elle a dormi ________ huit heures sans se réveiller. <input type="text" placeholder="" oninput="checkAnswer(this, 'toute')"> <span></span>
-11. Nous avons voyagé ________ deux semaines en Europe. <input type="text" placeholder="" oninput="checkAnswer(this, 'pendant')"> <span></span>
-12. Il travaille ici ________ janvier. <input type="text" placeholder="" oninput="checkAnswer(this, 'depuis')"> <span></span>
-13. Elle a terminé le puzzle ________ une heure. <input type="text" placeholder="" oninput="checkAnswer(this, 'en')"> <span></span>
-14. ________ trois mois que j’apprends à conduire. <input type="text" placeholder="" oninput="checkAnswer(this, 'Ça fait')"> <span></span>
-15. Il a parlé ________ au téléphone hier soir. <input type="text" placeholder="" oninput="checkAnswer(this, 'longtemps')"> <span></span>
-16. Nous avons attendu ________ la matinée. <input type="text" placeholder="" oninput="checkAnswer(this, 'toute')"> <span></span>
-17. ________ cinq ans que nous sommes amis. <input type="text" placeholder="" oninput="checkAnswer(this, 'Il y a')"> <span></span>
-18. Elle a étudié ________ deux heures sans pause. <input type="text" placeholder="" oninput="checkAnswer(this, 'pendant')"> <span></span>
-19. J’ai lu ce livre ________ trois jours. <input type="text" placeholder="" oninput="checkAnswer(this, 'en')"> <span></span>
-20. Il neige ________ hier soir. <input type="text" placeholder="" oninput="checkAnswer(this, 'depuis')"> <span></span>
+1.  J'ai attendu \_\_\_\_\_\_\_\_ une heure. <input type="text" placeholder="" oninput="checkAnswer(this, 'pendant')">
+2.  Elle a couru \_\_\_\_\_\_\_\_ dix minutes. <input type="text" placeholder="" oninput="checkAnswer(this, 'pendant')">
+3.  Il a fini ses devoirs \_\_\_\_\_\_\_\_ trente minutes. <input type="text" placeholder="" oninput="checkAnswer(this, 'en')">
+4.  Nous habitons ici \_\_\_\_\_\_\_\_ 2015. <input type="text" placeholder="" oninput="checkAnswer(this, 'depuis')">
+5.  \_\_\_\_\_\_\_\_ deux ans que je travaille dans cette entreprise. <input type="text" placeholder="" oninput="checkAnswer(this, 'Ça fait')">
+6.  Elle a étudié \_\_\_\_\_\_\_\_ la nuit. <input type="text" placeholder="" oninput="checkAnswer(this, 'toute')">
+7.  Il pleut \_\_\_\_\_\_\_\_ trois jours. <input type="text" placeholder="" oninput="checkAnswer(this, 'depuis')">
+8.  J'ai marché \_\_\_\_\_\_\_\_ dans le parc. <input type="text" placeholder="" oninput="checkAnswer(this, 'longtemps')">
+9.  \_\_\_\_\_\_\_\_ une semaine que je suis malade. <input type="text" placeholder="" oninput="checkAnswer(this, 'Il y a')">
+10. Elle a dormi \_\_\_\_\_\_\_\_ huit heures sans se réveiller. <input type="text" placeholder="" oninput="checkAnswer(this, 'toute')">
+11. Nous avons voyagé \_\_\_\_\_\_\_\_ deux semaines en Europe. <input type="text" placeholder="" oninput="checkAnswer(this, 'pendant')">
+12. Il travaille ici \_\_\_\_\_\_\_\_ janvier. <input type="text" placeholder="" oninput="checkAnswer(this, 'depuis')">
+13. Elle a terminé le puzzle \_\_\_\_\_\_\_\_ une heure. <input type="text" placeholder="" oninput="checkAnswer(this, 'en')">
+14. \_\_\_\_\_\_\_\_ trois mois que j’apprends à conduire. <input type="text" placeholder="" oninput="checkAnswer(this, 'Ça fait')">
+15. Il a parlé \_\_\_\_\_\_\_\_ au téléphone hier soir. <input type="text" placeholder="" oninput="checkAnswer(this, 'longtemps')">
+16. Nous avons attendu \_\_\_\_\_\_\_\_ la matinée. <input type="text" placeholder="" oninput="checkAnswer(this, 'toute')">
+17. \_\_\_\_\_\_\_\_ cinq ans que nous sommes amis. <input type="text" placeholder="" oninput="checkAnswer(this, 'Il y a')">
+18. Elle a étudié \_\_\_\_\_\_\_\_ deux heures sans pause. <input type="text" placeholder="" oninput="checkAnswer(this, 'pendant')">
+19. J’ai lu ce livre \_\_\_\_\_\_\_\_ trois jours. <input type="text" placeholder="" oninput="checkAnswer(this, 'en')">
+20. Il neige \_\_\_\_\_\_\_\_ hier soir. <input type="text" placeholder="" oninput="checkAnswer(this, 'depuis')">
 
----
+------------------------------------------------------------------------
 
 ## 2. Rewrite the sentences using the indicated duration expression
 
-1. Il a appris le français en trois mois. (depuis)  
-    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Il apprend le français depuis trois mois.')"> <span></span>
-2. Je travaille ici depuis 2018. (ça fait... que)  
-    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Ça fait six ans que je travaille ici.')"> <span></span>
-3. Elle a lu tout le livre sans s’arrêter. (tout(e))  
-    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Elle a lu tout le livre sans s’arrêter.')"> <span></span>
-4. Nous avons attendu longtemps. (pendant)  
-    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Nous avons attendu pendant longtemps.')"> <span></span>
-5. Il a terminé le projet en deux jours. (pendant)  
-    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Il a travaillé pendant deux jours sur le projet.')"> <span></span>
-6. J’habite ici depuis dix ans. (il y a... que)  
-    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Il y a dix ans que j’habite ici.')"> <span></span>
-7. Elle a dormi toute la nuit. (pendant)  
-    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Elle a dormi pendant toute la nuit.')"> <span></span>
-8. Nous sommes amis depuis l’enfance. (ça fait... que)  
-    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Ça fait longtemps que nous sommes amis.')"> <span></span>
-9. Il étudie depuis deux heures. (il y a... que)  
-    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Il y a deux heures qu’il étudie.')"> <span></span>
-10. J’ai attendu pendant trois heures. (depuis)  
-    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'J’attends depuis trois heures.')"> <span></span>
-11. Elle a fini ses devoirs en une heure. (pendant)  
-    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Elle a travaillé pendant une heure sur ses devoirs.')"> <span></span>
-12. Nous avons parlé longtemps. (pendant)  
-    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Nous avons parlé pendant longtemps.')"> <span></span>
-13. Il a vécu à Paris pendant cinq ans. (depuis)  
-    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Il vit à Paris depuis cinq ans.')"> <span></span>
-14. J’étudie le français depuis trois mois. (ça fait... que)  
-    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Ça fait trois mois que j’étudie le français.')"> <span></span>
-15. Elle travaille ici depuis janvier. (il y a... que)  
-    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Il y a six mois qu’elle travaille ici.')"> <span></span>
+1.  Il a appris le français en trois mois. (depuis)\
+    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Il apprend le français depuis trois mois.')">
+2.  Je travaille ici depuis 2018. (ça fait... que)\
+    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Ça fait six ans que je travaille ici.')">
+3.  Elle a lu tout le livre sans s’arrêter. (tout(e))\
+    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Elle a lu tout le livre sans s’arrêter.')">
+4.  Nous avons attendu longtemps. (pendant)\
+    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Nous avons attendu pendant longtemps.')">
+5.  Il a terminé le projet en deux jours. (pendant)\
+    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Il a travaillé pendant deux jours sur le projet.')">
+6.  J’habite ici depuis dix ans. (il y a... que)\
+    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Il y a dix ans que j’habite ici.')">
+7.  Elle a dormi toute la nuit. (pendant)\
+    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Elle a dormi pendant toute la nuit.')">
+8.  Nous sommes amis depuis l’enfance. (ça fait... que)\
+    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Ça fait longtemps que nous sommes amis.')">
+9.  Il étudie depuis deux heures. (il y a... que)\
+    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Il y a deux heures qu’il étudie.')">
+10. J’ai attendu pendant trois heures. (depuis)\
+    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'J’attends depuis trois heures.')">
+11. Elle a fini ses devoirs en une heure. (pendant)\
+    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Elle a travaillé pendant une heure sur ses devoirs.')">
+12. Nous avons parlé longtemps. (pendant)\
+    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Nous avons parlé pendant longtemps.')">
+13. Il a vécu à Paris pendant cinq ans. (depuis)\
+    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Il vit à Paris depuis cinq ans.')">
+14. J’étudie le français depuis trois mois. (ça fait... que)\
+    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Ça fait trois mois que j’étudie le français.')">
+15. Elle travaille ici depuis janvier. (il y a... que)\
+    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Il y a six mois qu’elle travaille ici.')">
 
----
+------------------------------------------------------------------------
 
 ## 3. Translate into French with the correct duration expression
 
-1. I have been living here for five years.  
-    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'J’habite ici depuis cinq ans.')"> <span></span>
-2. She finished the exam in one hour.  
-    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Elle a terminé l’examen en une heure.')"> <span></span>
-3. He worked all night.  
-    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Il a travaillé toute la nuit.')"> <span></span>
-4. We waited for a long time.  
-    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Nous avons attendu longtemps.')"> <span></span>
-5. It’s been three weeks since I saw him.  
-    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Ça fait trois semaines que je ne l’ai pas vu.')"> <span></span>
-6. He has been sick for a week.  
-    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Il y a une semaine qu’il est malade.')"> <span></span>
-7. I read this book in two days.  
-    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'J’ai lu ce livre en deux jours.')"> <span></span>
-8. She has been studying since January.  
-    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Elle étudie depuis janvier.')"> <span></span>
-9. He slept for eight hours.  
-    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Il a dormi pendant huit heures.')"> <span></span>
-10. We have been friends for ten years.  
-    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Nous sommes amis depuis dix ans.')"> <span></span>
-11. I have been working here for two months.  
-    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Je travaille ici depuis deux mois.')"> <span></span>
-12. She has been waiting for a long time.  
-    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Elle attend depuis longtemps.')"> <span></span>
-13. He has been learning French for three years.  
-    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Il apprend le français depuis trois ans.')"> <span></span>
-14. We traveled for two weeks.  
-    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Nous avons voyagé pendant deux semaines.')"> <span></span>
-15. She finished her homework in thirty minutes.  
-    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Elle a fini ses devoirs en trente minutes.')"> <span></span>
-16. I have been sick since Monday.  
-    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Je suis malade depuis lundi.')"> <span></span>
-17. He has been living in Paris for five years.  
-    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Il habite à Paris depuis cinq ans.')"> <span></span>
-18. We have been waiting for an hour.  
-    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Nous attendons depuis une heure.')"> <span></span>
-19. She has been working here since 2020.  
-    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Elle travaille ici depuis 2020.')"> <span></span>
-20. I have been learning French for six months.  
-    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'J’apprends le français depuis six mois.')"> <span></span>
+1.  I have been living here for five years.\
+    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'J’habite ici depuis cinq ans.')">
+2.  She finished the exam in one hour.\
+    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Elle a terminé l’examen en une heure.')">
+3.  He worked all night.\
+    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Il a travaillé toute la nuit.')">
+4.  We waited for a long time.\
+    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Nous avons attendu longtemps.')">
+5.  It’s been three weeks since I saw him.\
+    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Ça fait trois semaines que je ne l’ai pas vu.')">
+6.  He has been sick for a week.\
+    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Il y a une semaine qu’il est malade.')">
+7.  I read this book in two days.\
+    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'J’ai lu ce livre en deux jours.')">
+8.  She has been studying since January.\
+    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Elle étudie depuis janvier.')">
+9.  He slept for eight hours.\
+    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Il a dormi pendant huit heures.')">
+10. We have been friends for ten years.\
+    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Nous sommes amis depuis dix ans.')">
+11. I have been working here for two months.\
+    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Je travaille ici depuis deux mois.')">
+12. She has been waiting for a long time.\
+    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Elle attend depuis longtemps.')">
+13. He has been learning French for three years.\
+    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Il apprend le français depuis trois ans.')">
+14. We traveled for two weeks.\
+    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Nous avons voyagé pendant deux semaines.')">
+15. She finished her homework in thirty minutes.\
+    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Elle a fini ses devoirs en trente minutes.')">
+16. I have been sick since Monday.\
+    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Je suis malade depuis lundi.')">
+17. He has been living in Paris for five years.\
+    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Il habite à Paris depuis cinq ans.')">
+18. We have been waiting for an hour.\
+    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Nous attendons depuis une heure.')">
+19. She has been working here since 2020.\
+    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Elle travaille ici depuis 2020.')">
+20. I have been learning French for six months.\
+    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'J’apprends le français depuis six mois.')">
 
-<button onclick="showAnswers()">Show Answers</button>
-<button onclick="refreshPage()">Try Again</button>
+<button onclick="showAnswers()">
 
----
+Show Answers
+
+</button>
+
+<button onclick="refreshPage()">
+
+Try Again
+
+</button>
+
+------------------------------------------------------------------------
 
 ## Practice: Write Your Own Paragraph
 
 Write a short paragraph (4–6 sentences) using at least three different French expressions of duration (pendant, en, depuis, tout(e), il y a... que, ça fait... que, longtemps) from above. Describe your daily routine or a recent event, making sure to highlight how you express the idea of duration in French.
 
+```{=html}
 <textarea style="width: 100%; min-height: 200px; font-size: 1.1em;" placeholder="Write your paragraph here..."></textarea>
+```
 
-
+```{=html}
 <script>
 function checkAnswer(input, correctAnswer) {
         const span = input.nextElementSibling;
@@ -196,176 +206,183 @@ function refreshPage() {
         location.reload();
 }
 </script>
-
+```
 :::
 
-
-
 ::: {.content-visible when-profile="french"}
-
 # Exprimer l’idée de durée en français
 
 En français, **l’idée de durée** consiste à indiquer combien de temps une action dure ou a duré. Il existe plusieurs façons d’exprimer la durée, chacune avec sa nuance.
 
 ## 1. Expressions clés
 
-| Expression française           | Usage & Signification                                                         | Exemple                                                      |
-|-------------------------------|-------------------------------------------------------------------------------|--------------------------------------------------------------|
-| pendant + durée               | Pour une action terminée ou pour préciser la durée totale                     | J’ai dormi **pendant deux heures**.                          |
-| (pendant) longtemps           | Pendant longtemps ; « pendant » peut être omis                                | Il a attendu (pendant) longtemps.                            |
-| tout(e) + durée               | Toute la durée, sans interruption                                             | Elle a travaillé **toute la journée**.                       |
-| en + durée                    | Temps nécessaire pour accomplir une action                                    | J’ai lu ce livre **en une semaine**.                         |
-| depuis + point de départ      | Action commencée dans le passé et qui continue                                | J’habite ici **depuis 2010**.                                |
-| ça fait... que / il y a... que| Même sens que « depuis », toujours suivi d’une durée                          | **Ça fait deux ans que** j’apprends le français.             |
+| Expression française | Usage & Signification | Exemple |
+|-----------------|-------------------------------|------------------------|
+| pendant + durée | Pour une action terminée ou pour préciser la durée totale | J’ai dormi **pendant deux heures**. |
+| (pendant) longtemps | Pendant longtemps ; « pendant » peut être omis | Il a attendu (pendant) longtemps. |
+| tout(e) + durée | Toute la durée, sans interruption | Elle a travaillé **toute la journée**. |
+| en + durée | Temps nécessaire pour accomplir une action | J’ai lu ce livre **en une semaine**. |
+| depuis + point de départ | Action commencée dans le passé et qui continue | J’habite ici **depuis 2010**. |
+| ça fait... que / il y a... que | Même sens que « depuis », toujours suivi d’une durée | **Ça fait deux ans que** j’apprends le français. |
 
----
+------------------------------------------------------------------------
 
 ## 2. Comment les utiliser
 
-- **Pendant + durée** :  
-    Utilisé pour des actions avec une durée précise, souvent terminées.  
-    _Ex : Il a plu pendant trois jours._
+-   **Pendant + durée** :\
+    Utilisé pour des actions avec une durée précise, souvent terminées.\
+    *Ex : Il a plu pendant trois jours.*
 
-- **(Pendant) longtemps** :  
-    « Pendant » est optionnel.  
-    _Ex : Nous avons parlé longtemps._
+-   **(Pendant) longtemps** :\
+    « Pendant » est optionnel.\
+    *Ex : Nous avons parlé longtemps.*
 
-- **Tout(e) + durée** :  
-    Met l’accent sur la continuité, sans interruption.  
-    _Ex : Il a étudié toute la nuit._
+-   **Tout(e) + durée** :\
+    Met l’accent sur la continuité, sans interruption.\
+    *Ex : Il a étudié toute la nuit.*
 
-- **En + durée** :  
-    Indique le temps nécessaire pour finir quelque chose.  
-    _Ex : Elle a fini ses devoirs en une heure._
+-   **En + durée** :\
+    Indique le temps nécessaire pour finir quelque chose.\
+    *Ex : Elle a fini ses devoirs en une heure.*
 
-- **Depuis + point de départ** :  
-    Action commencée dans le passé, toujours en cours.  
-    _Ex : Je travaille ici depuis janvier._
+-   **Depuis + point de départ** :\
+    Action commencée dans le passé, toujours en cours.\
+    *Ex : Je travaille ici depuis janvier.*
 
-- **Ça fait... que / Il y a... que** :  
-    Même sens que « depuis », mais toujours suivi d’une durée.  
-    _Ex : Il y a trois semaines que je suis malade._
+-   **Ça fait... que / Il y a... que** :\
+    Même sens que « depuis », mais toujours suivi d’une durée.\
+    *Ex : Il y a trois semaines que je suis malade.*
 
----
+------------------------------------------------------------------------
 
 # Exercices
 
 ## 1. Complétez avec la bonne expression (pendant, en, depuis, tout(e), il y a... que, ça fait... que, longtemps)
 
-1. J’ai attendu ________ une heure. <input type="text" placeholder="" oninput="checkAnswer(this, 'pendant')"> <span></span>
-2. Elle a couru ________ dix minutes. <input type="text" placeholder="" oninput="checkAnswer(this, 'pendant')"> <span></span>
-3. Il a fini ses devoirs ________ trente minutes. <input type="text" placeholder="" oninput="checkAnswer(this, 'en')"> <span></span>
-4. Nous habitons ici ________ 2015. <input type="text" placeholder="" oninput="checkAnswer(this, 'depuis')"> <span></span>
-5. ________ deux ans que je travaille dans cette entreprise. <input type="text" placeholder="" oninput="checkAnswer(this, 'Ça fait')"> <span></span>
-6. Elle a étudié ________ la nuit. <input type="text" placeholder="" oninput="checkAnswer(this, 'toute')"> <span></span>
-7. Il pleut ________ trois jours. <input type="text" placeholder="" oninput="checkAnswer(this, 'depuis')"> <span></span>
-8. J’ai marché ________ dans le parc. <input type="text" placeholder="" oninput="checkAnswer(this, 'longtemps')"> <span></span>
-9. ________ une semaine que je suis malade. <input type="text" placeholder="" oninput="checkAnswer(this, 'Il y a')"> <span></span>
-10. Elle a dormi ________ huit heures sans se réveiller. <input type="text" placeholder="" oninput="checkAnswer(this, 'toute')"> <span></span>
-11. Nous avons voyagé ________ deux semaines en Europe. <input type="text" placeholder="" oninput="checkAnswer(this, 'pendant')"> <span></span>
-12. Il travaille ici ________ janvier. <input type="text" placeholder="" oninput="checkAnswer(this, 'depuis')"> <span></span>
-13. Elle a terminé le puzzle ________ une heure. <input type="text" placeholder="" oninput="checkAnswer(this, 'en')"> <span></span>
-14. ________ trois mois que j’apprends à conduire. <input type="text" placeholder="" oninput="checkAnswer(this, 'Ça fait')"> <span></span>
-15. Il a parlé ________ au téléphone hier soir. <input type="text" placeholder="" oninput="checkAnswer(this, 'longtemps')"> <span></span>
-16. Nous avons attendu ________ la matinée. <input type="text" placeholder="" oninput="checkAnswer(this, 'toute')"> <span></span>
-17. ________ cinq ans que nous sommes amis. <input type="text" placeholder="" oninput="checkAnswer(this, 'Il y a')"> <span></span>
-18. Elle a étudié ________ deux heures sans pause. <input type="text" placeholder="" oninput="checkAnswer(this, 'pendant')"> <span></span>
-19. J’ai lu ce livre ________ trois jours. <input type="text" placeholder="" oninput="checkAnswer(this, 'en')"> <span></span>
-20. Il neige ________ hier soir. <input type="text" placeholder="" oninput="checkAnswer(this, 'depuis')"> <span></span>
+1.  J’ai attendu \_\_\_\_\_\_\_\_ une heure. <input type="text" placeholder="" oninput="checkAnswer(this, 'pendant')">
+2.  Elle a couru \_\_\_\_\_\_\_\_ dix minutes. <input type="text" placeholder="" oninput="checkAnswer(this, 'pendant')">
+3.  Il a fini ses devoirs \_\_\_\_\_\_\_\_ trente minutes. <input type="text" placeholder="" oninput="checkAnswer(this, 'en')">
+4.  Nous habitons ici \_\_\_\_\_\_\_\_ 2015. <input type="text" placeholder="" oninput="checkAnswer(this, 'depuis')">
+5.  \_\_\_\_\_\_\_\_ deux ans que je travaille dans cette entreprise. <input type="text" placeholder="" oninput="checkAnswer(this, 'Ça fait')">
+6.  Elle a étudié \_\_\_\_\_\_\_\_ la nuit. <input type="text" placeholder="" oninput="checkAnswer(this, 'toute')">
+7.  Il pleut \_\_\_\_\_\_\_\_ trois jours. <input type="text" placeholder="" oninput="checkAnswer(this, 'depuis')">
+8.  J’ai marché \_\_\_\_\_\_\_\_ dans le parc. <input type="text" placeholder="" oninput="checkAnswer(this, 'longtemps')">
+9.  \_\_\_\_\_\_\_\_ une semaine que je suis malade. <input type="text" placeholder="" oninput="checkAnswer(this, 'Il y a')">
+10. Elle a dormi \_\_\_\_\_\_\_\_ huit heures sans se réveiller. <input type="text" placeholder="" oninput="checkAnswer(this, 'toute')">
+11. Nous avons voyagé \_\_\_\_\_\_\_\_ deux semaines en Europe. <input type="text" placeholder="" oninput="checkAnswer(this, 'pendant')">
+12. Il travaille ici \_\_\_\_\_\_\_\_ janvier. <input type="text" placeholder="" oninput="checkAnswer(this, 'depuis')">
+13. Elle a terminé le puzzle \_\_\_\_\_\_\_\_ une heure. <input type="text" placeholder="" oninput="checkAnswer(this, 'en')">
+14. \_\_\_\_\_\_\_\_ trois mois que j’apprends à conduire. <input type="text" placeholder="" oninput="checkAnswer(this, 'Ça fait')">
+15. Il a parlé \_\_\_\_\_\_\_\_ au téléphone hier soir. <input type="text" placeholder="" oninput="checkAnswer(this, 'longtemps')">
+16. Nous avons attendu \_\_\_\_\_\_\_\_ la matinée. <input type="text" placeholder="" oninput="checkAnswer(this, 'toute')">
+17. \_\_\_\_\_\_\_\_ cinq ans que nous sommes amis. <input type="text" placeholder="" oninput="checkAnswer(this, 'Il y a')">
+18. Elle a étudié \_\_\_\_\_\_\_\_ deux heures sans pause. <input type="text" placeholder="" oninput="checkAnswer(this, 'pendant')">
+19. J’ai lu ce livre \_\_\_\_\_\_\_\_ trois jours. <input type="text" placeholder="" oninput="checkAnswer(this, 'en')">
+20. Il neige \_\_\_\_\_\_\_\_ hier soir. <input type="text" placeholder="" oninput="checkAnswer(this, 'depuis')">
 
----
+------------------------------------------------------------------------
 
 ## 2. Réécrivez les phrases en utilisant l’expression de durée indiquée
 
-1. Il a appris le français en trois mois. (depuis)  
-    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Il apprend le français depuis trois mois.')"> <span></span>
-2. Je travaille ici depuis 2018. (ça fait... que)  
-    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Ça fait six ans que je travaille ici.')"> <span></span>
-3. Elle a lu tout le livre sans s’arrêter. (tout(e))  
-    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Elle a lu tout le livre sans s’arrêter.')"> <span></span>
-4. Nous avons attendu longtemps. (pendant)  
-    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Nous avons attendu pendant longtemps.')"> <span></span>
-5. Il a terminé le projet en deux jours. (pendant)  
-    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Il a travaillé pendant deux jours sur le projet.')"> <span></span>
-6. J’habite ici depuis dix ans. (il y a... que)  
-    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Il y a dix ans que j’habite ici.')"> <span></span>
-7. Elle a dormi toute la nuit. (pendant)  
-    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Elle a dormi pendant toute la nuit.')"> <span></span>
-8. Nous sommes amis depuis l’enfance. (ça fait... que)  
-    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Ça fait longtemps que nous sommes amis.')"> <span></span>
-9. Il étudie depuis deux heures. (il y a... que)  
-    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Il y a deux heures qu’il étudie.')"> <span></span>
-10. J’ai attendu pendant trois heures. (depuis)  
-    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'J’attends depuis trois heures.')"> <span></span>
-11. Elle a fini ses devoirs en une heure. (pendant)  
-    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Elle a travaillé pendant une heure sur ses devoirs.')"> <span></span>
-12. Nous avons parlé longtemps. (pendant)  
-    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Nous avons parlé pendant longtemps.')"> <span></span>
-13. Il a vécu à Paris pendant cinq ans. (depuis)  
-    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Il vit à Paris depuis cinq ans.')"> <span></span>
-14. J’étudie le français depuis trois mois. (ça fait... que)  
-    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Ça fait trois mois que j’étudie le français.')"> <span></span>
-15. Elle travaille ici depuis janvier. (il y a... que)  
-    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Il y a six mois qu’elle travaille ici.')"> <span></span>
+1.  Il a appris le français en trois mois. (depuis)\
+    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Il apprend le français depuis trois mois.')">
+2.  Je travaille ici depuis 2018. (ça fait... que)\
+    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Ça fait six ans que je travaille ici.')">
+3.  Elle a lu tout le livre sans s’arrêter. (tout(e))\
+    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Elle a lu tout le livre sans s’arrêter.')">
+4.  Nous avons attendu longtemps. (pendant)\
+    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Nous avons attendu pendant longtemps.')">
+5.  Il a terminé le projet en deux jours. (pendant)\
+    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Il a travaillé pendant deux jours sur le projet.')">
+6.  J’habite ici depuis dix ans. (il y a... que)\
+    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Il y a dix ans que j’habite ici.')">
+7.  Elle a dormi toute la nuit. (pendant)\
+    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Elle a dormi pendant toute la nuit.')">
+8.  Nous sommes amis depuis l’enfance. (ça fait... que)\
+    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Ça fait longtemps que nous sommes amis.')">
+9.  Il étudie depuis deux heures. (il y a... que)\
+    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Il y a deux heures qu’il étudie.')">
+10. J’ai attendu pendant trois heures. (depuis)\
+    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'J’attends depuis trois heures.')">
+11. Elle a fini ses devoirs en une heure. (pendant)\
+    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Elle a travaillé pendant une heure sur ses devoirs.')">
+12. Nous avons parlé longtemps. (pendant)\
+    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Nous avons parlé pendant longtemps.')">
+13. Il a vécu à Paris pendant cinq ans. (depuis)\
+    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Il vit à Paris depuis cinq ans.')">
+14. J’étudie le français depuis trois mois. (ça fait... que)\
+    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Ça fait trois mois que j’étudie le français.')">
+15. Elle travaille ici depuis janvier. (il y a... que)\
+    → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Il y a six mois qu’elle travaille ici.')">
 
----
+------------------------------------------------------------------------
 
 ## 3. Traduisez en français avec la bonne expression de durée
 
-1. I have been living here for five years.  
-    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'J’habite ici depuis cinq ans.')"> <span></span>
-2. She finished the exam in one hour.  
-    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Elle a terminé l’examen en une heure.')"> <span></span>
-3. He worked all night.  
-    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Il a travaillé toute la nuit.')"> <span></span>
-4. We waited for a long time.  
-    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Nous avons attendu longtemps.')"> <span></span>
-5. It’s been three weeks since I saw him.  
-    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Ça fait trois semaines que je ne l’ai pas vu.')"> <span></span>
-6. He has been sick for a week.  
-    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Il y a une semaine qu’il est malade.')"> <span></span>
-7. I read this book in two days.  
-    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'J’ai lu ce livre en deux jours.')"> <span></span>
-8. She has been studying since January.  
-    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Elle étudie depuis janvier.')"> <span></span>
-9. He slept for eight hours.  
-    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Il a dormi pendant huit heures.')"> <span></span>
-10. We have been friends for ten years.  
-    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Nous sommes amis depuis dix ans.')"> <span></span>
-11. I have been working here for two months.  
-    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Je travaille ici depuis deux mois.')"> <span></span>
-12. She has been waiting for a long time.  
-    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Elle attend depuis longtemps.')"> <span></span>
-13. He has been learning French for three years.  
-    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Il apprend le français depuis trois ans.')"> <span></span>
-14. We traveled for two weeks.  
-    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Nous avons voyagé pendant deux semaines.')"> <span></span>
-15. She finished her homework in thirty minutes.  
-    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Elle a fini ses devoirs en trente minutes.')"> <span></span>
-16. I have been sick since Monday.  
-    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Je suis malade depuis lundi.')"> <span></span>
-17. He has been living in Paris for five years.  
-    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Il habite à Paris depuis cinq ans.')"> <span></span>
-18. We have been waiting for an hour.  
-    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Nous attendons depuis une heure.')"> <span></span>
-19. She has been working here since 2020.  
-    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Elle travaille ici depuis 2020.')"> <span></span>
-20. I have been learning French for six months.  
-    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'J’apprends le français depuis six mois.')"> <span></span>
+1.  I have been living here for five years.\
+    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'J’habite ici depuis cinq ans.')">
+2.  She finished the exam in one hour.\
+    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Elle a terminé l’examen en une heure.')">
+3.  He worked all night.\
+    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Il a travaillé toute la nuit.')">
+4.  We waited for a long time.\
+    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Nous avons attendu longtemps.')">
+5.  It’s been three weeks since I saw him.\
+    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Ça fait trois semaines que je ne l’ai pas vu.')">
+6.  He has been sick for a week.\
+    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Il y a une semaine qu’il est malade.')">
+7.  I read this book in two days.\
+    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'J’ai lu ce livre en deux jours.')">
+8.  She has been studying since January.\
+    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Elle étudie depuis janvier.')">
+9.  He slept for eight hours.\
+    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Il a dormi pendant huit heures.')">
+10. We have been friends for ten years.\
+    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Nous sommes amis depuis dix ans.')">
+11. I have been working here for two months.\
+    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Je travaille ici depuis deux mois.')">
+12. She has been waiting for a long time.\
+    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Elle attend depuis longtemps.')">
+13. He has been learning French for three years.\
+    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Il apprend le français depuis trois ans.')">
+14. We traveled for two weeks.\
+    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Nous avons voyagé pendant deux semaines.')">
+15. She finished her homework in thirty minutes.\
+    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Elle a fini ses devoirs en trente minutes.')">
+16. I have been sick since Monday.\
+    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Je suis malade depuis lundi.')">
+17. He has been living in Paris for five years.\
+    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Il habite à Paris depuis cinq ans.')">
+18. We have been waiting for an hour.\
+    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Nous attendons depuis une heure.')">
+19. She has been working here since 2020.\
+    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Elle travaille ici depuis 2020.')">
+20. I have been learning French for six months.\
+    <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'J’apprends le français depuis six mois.')">
 
-<button onclick="showAnswers()">Afficher les réponses</button>
-<button onclick="refreshPage()">Réessayer</button>
+<button onclick="showAnswers()">
 
----
+Afficher les réponses
+
+</button>
+
+<button onclick="refreshPage()">
+
+Réessayer
+
+</button>
+
+------------------------------------------------------------------------
 
 ## Pratique : Rédigez votre propre paragraphe
 
 Écrivez un court paragraphe (4 à 6 phrases) en utilisant au moins trois expressions françaises de durée différentes (pendant, en, depuis, tout(e), il y a... que, ça fait... que, longtemps) parmi celles vues ci-dessus. Décrivez votre routine quotidienne ou un événement récent, en mettant en valeur l’expression de la durée en français.
 
+```{=html}
 <textarea style="width: 100%; min-height: 200px; font-size: 1.1em;" placeholder="Écrivez votre paragraphe ici..."></textarea>
+```
 
-
-
+```{=html}
 <script>
 function checkAnswer(input, correctAnswer) {
         const span = input.nextElementSibling;
@@ -392,6 +409,5 @@ function refreshPage() {
         location.reload();
 }
 </script>
-
-
+```
 :::

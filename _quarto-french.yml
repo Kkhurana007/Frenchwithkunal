@@ -75,6 +75,9 @@ website:
           - text: "Quiz"  
             href: quiz.qmd
             icon: patch-question 
+          - text: "Application IA"
+            href: quarto_french_learning.qmd
+            icon: robot
       - text: "À Propos"
         href: about.qmd      
       - text: "Contactez-nous"

@@ -1,0 +1,137 @@
+---
+title: "🇫🇷 French Learning Assistant"
+format: html
+page-layout: full
+---
+
+#🇫🇷 French Learning Assistant
+
+<div class="text-center mb-4"></div>
+
+::::::: {.container .mt-5}
+
+## 📝 Sentence Analysis
+
+:::: {.card .mb-4}
+#### 
+
+<form id="analysisForm" class="mb-3">
+
+<label class="form-label">Enter a French sentence:</label>
+<textarea class="form-control mb-2" name="sentence" rows="5" required></textarea>
+<button type="submit" class="btn btn-primary mt-2">Analyze</button>
+
+</form>
+
+::: {#analysisResult .mt-3}
+:::
+
+::::
+
+## 🔤 Verb Conjugator
+
+:::: {.card .mb-4}
+
+#### 
+
+<form id="conjugationForm" class="mb-3">
+
+<label class="form-label">Enter a French verb:</label> <input type="text" class="form-control mb-2" name="verb" required> <button type="submit" class="btn btn-primary mt-2">Conjugate</button>
+
+</form>
+
+::: {#conjugationResult .mt-3}
+:::
+::::
+
+## 🎧 Pronunciation
+
+:::: {.card}
+#### 
+
+<form id="pronunciationForm" class="mb-3">
+
+<label class="form-label">Text to pronounce:</label>
+<textarea class="form-control mb-2" name="text" rows="5" required></textarea>
+<button type="submit" class="btn btn-primary mt-2">Speak</button>
+
+</form>
+
+<audio id="audioPlayer" controls class="mt-3 d-none">
+
+</audio>
+
+::::
+
+::: {.text-center .mt-4}
+:::
+
+:::::::
+
+<!-- Load Bootstrap & JavaScript -->
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+
+<script>
+// const BACKEND_URL = "http://127.0.0.1:5000";
+const BACKEND_URL = "https://french-grammar-ai-a92ff913a503.herokuapp.com";
+
+// Sentence Analysis
+document.getElementById("analysisForm").addEventListener("submit", async (e) => {
+    e.preventDefault();
+    const formData = new FormData(e.target);
+    const response = await fetch(`${BACKEND_URL}/analyze`, { method: "POST", body: formData });
+    const data = await response.json();
+    let html = "<table class='table'><tr><th>Word</th><th>Lemma</th><th>POS</th></tr>";
+    data.analysis.forEach(item => {
+        html += `<tr><td>${item.word}</td><td>${item.lemma}</td><td>${item.pos}</td></tr>`;
+    });
+    html += "</table>";
+    document.getElementById("analysisResult").innerHTML = html;
+});
+
+// Verb Conjugation
+document.getElementById("conjugationForm").addEventListener("submit", async (e) => {
+    e.preventDefault();
+    const formData = new FormData(e.target);
+    const response = await fetch(`${BACKEND_URL}/conjugate`, { method: "POST", body: formData });
+    const data = await response.json();
+    const resultDiv = document.getElementById("conjugationResult");
+
+    if (data.error) {
+        resultDiv.innerHTML = `<div class="alert alert-danger">${data.error}</div>`;
+        return;
+    }
+
+    let html = `
+        <h5>Conjugation of <strong>${data.verb}</strong></h5>
+        <p><strong>Mood:</strong> ${data.mood} &nbsp;&nbsp; <strong>Tense:</strong> ${data.tense}</p>
+        <table class="table table-striped table-bordered">
+            <thead>
+                <tr><th>Subject</th><th>Conjugated Form</th></tr>
+            </thead>
+            <tbody>
+    `;
+    for (const [subject, conjugated] of Object.entries(data.conjugations)) {
+        html += `<tr><td>${subject}</td><td>${conjugated}</td></tr>`;
+    }
+    html += `</tbody></table>`;
+    resultDiv.innerHTML = html;
+});
+
+// Pronunciation
+document.getElementById("pronunciationForm").addEventListener("submit", async (e) => {
+    e.preventDefault();
+    const formData = new FormData(e.target);
+    const response = await fetch(`${BACKEND_URL}/pronounce`, { method: "POST", body: formData });
+    const data = await response.json();
+    const player = document.getElementById("audioPlayer");
+    player.src = data.audio;
+    player.classList.remove("d-none");
+    player.play();
+});
+
+</script>

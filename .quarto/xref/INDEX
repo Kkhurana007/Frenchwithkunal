@@ -619,5 +619,14 @@
   },
   "exercises/08062025/fractions.qmd": {
     "fractions.html": "bb0b4c97"
+  },
+  "quarto_french_learning.qmd": {
+    "quarto_french_learning.html": "389e317b"
+  },
+  "exercises/08062025/mesurer.qmd": {
+    "mesurer.html": "91333b2f"
+  },
+  "quarto_french_learning2.qmd": {
+    "quarto_french_learning2.html": "c30c3cf0"
   }
 }

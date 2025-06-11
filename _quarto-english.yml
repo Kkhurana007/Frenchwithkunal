@@ -88,7 +88,10 @@ website:
             icon: clipboard-check
           - text: "Quiz"  
             href: quiz.qmd
-            icon: patch-question          
+            icon: patch-question
+          - text: "AI Application"
+            href: quarto_french_learning.qmd
+            icon: robot
       - text: "About Us"
         href: about.qmd      
       - text: "Contact Us"

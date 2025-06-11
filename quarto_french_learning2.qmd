@@ -1,0 +1,110 @@
+---
+title: "🇫🇷 French Learning Assistant"
+format:
+  html:
+    page-layout: full
+    include-in-header:
+      - text: |
+          <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+---
+
+<div class="container mt-5">
+
+## 📝 Sentence Analysis
+<div class="card mb-4">
+  <form id="analysisForm" class="p-3">
+    <label class="form-label">Enter a French sentence:</label>
+    <textarea class="form-control mb-2" name="sentence" rows="3" required></textarea>
+    <button type="submit" class="btn btn-primary">Analyze</button>
+  </form>
+  <div id="analysisResult" class="p-3"></div>
+</div>
+
+## 🔤 Verb Conjugator
+<div class="card mb-4">
+  <form id="conjugationForm" class="p-3">
+    <label class="form-label">Enter a French verb:</label>
+    <input type="text" class="form-control mb-2" name="verb" required>
+    <button type="submit" class="btn btn-primary">Conjugate</button>
+  </form>
+  <div id="conjugationResult" class="p-3"></div>
+</div>
+
+## 🎧 Pronunciation
+<div class="card mb-4">
+  <form id="pronunciationForm" class="p-3">
+    <label class="form-label">Text to pronounce:</label>
+    <textarea class="form-control mb-2" name="text" rows="3" required></textarea>
+    <button type="submit" class="btn btn-primary">Speak</button>
+  </form>
+  <audio id="audioPlayer" controls class="mt-3 d-none"></audio>
+</div>
+
+</div>
+
+<script>
+    
+const BACKEND_URL = "https://french-grammar-ai-a92ff913a503.herokuapp.com";
+
+// Sentence Analysis
+
+// Sentence Analysis (JavaScript)
+// Example in Python using Fetch API equivalent (PyScript/Pyodide in Quarto)
+
+document.getElementById("analysisForm").addEventListener("submit", async function(e) {
+    e.preventDefault();
+    // Use fetch as usual, but here's how you might call a Python backend with fetch:
+    const response = await fetch(`${BACKEND_URL}/analyze`, {
+        method: "POST",
+        body: new FormData(e.target)
+    });
+    const data = await response.json();
+    document.getElementById("analysisResult").innerHTML = `
+        <div class="html" raw-html="true">
+        <table class="table">
+            <tr><th>Word</th><th>Lemma</th><th>POS</th></tr>
+            ${(data.analysis || []).map(function(item) {
+                return `
+                <tr>
+                    <td>${item.word}</td>
+                    <td>${item.lemma}</td>
+                    <td>${item.pos}</td>
+                </tr>
+                `;
+            }).join('')}
+        </table>
+        </div>`;
+});
+
+// If you want to use Python directly in Quarto (with PyScript), you could do something like this:
+
+/*
+<py-script>
+import js
+
+def analyze_form_submit(event):
+    event.preventDefault()
+    form = js.document.getElementById("analysisForm")
+    form_data = js.FormData.new(form)
+    # Use pyfetch to call backend
+    from pyodide.http import pyfetch
+    response = await pyfetch(
+        f"{BACKEND_URL}/analyze",
+        method="POST",
+        body=form_data
+    )
+    data = await response.json()
+    # Render result in analysisResult div
+    table_html = "<table class='table'><tr><th>Word</th><th>Lemma</th><th>POS</th></tr>"
+    for item in data.get("analysis", []):
+        table_html += f"<tr><td>{item['word']}</td><td>{item['lemma']}</td><td>{item['pos']}</td></tr>"
+    table_html += "</table>"
+    js.document.getElementById("analysisResult").innerHTML = table_html
+
+js.document.getElementById("analysisForm").addEventListener("submit", analyze_form_submit)
+</py-script>
+*/
+
+</script>
