@@ -198,7 +198,7 @@ En français, pour décrire où se trouve quelque chose ou quelqu’un, on utili
 ## 1. Principales prépositions de lieu
 
 | Préposition française | Sens | Exemple |
-|-------------------|-------------------|-----------------------------------|
+|-------------------|-------------------|----------------------------------|
 | dans | dans, à l’intérieur | Le livre est **dans** le sac. |
 | sur | sur, au-dessus de | Le chat est **sur** la table. |
 | sous | sous | Les chaussures sont **sous** le lit. |

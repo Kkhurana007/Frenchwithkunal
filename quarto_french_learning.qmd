@@ -4,7 +4,6 @@ format: html
 page-layout: full
 ---
 
-#🇫🇷 French Learning Assistant
 
 <div class="text-center mb-4"></div>
 

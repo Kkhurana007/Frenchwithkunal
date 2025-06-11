@@ -3,7 +3,7 @@ title: "La Phrase Interrogative (French Questions)"
 author: "Kunal Khurana"
 date: "05-31-2025"
 categories: [A2, grammar, interrogative, exercises]
-image: "interrogative.png"
+image: "interrogative2.png"
 ---
 
 ::: {.content-visible when-profile="english"}

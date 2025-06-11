@@ -7,7 +7,6 @@ image: "adverbes.png"
 ---
 
 ::: {.content-visible when-profile="english"}
-
 # Adverbs in French
 
 Adverbs are words that modify verbs, adjectives, or other adverbs. In French, adverbs often answer questions like "how?", "when?", "where?", or "to what extent?". They can describe how an action is performed, how often it happens, or to what degree.
@@ -36,7 +35,7 @@ Some common French adverbs and their meanings:
 Some adverbs are made up of several words:
 
 | French | English | Example (FR) | Example (EN) |
-|-----------------|-----------------|-------------------|-------------------|
+|------------------|------------------|-------------------|-------------------|
 | c'est-à-dire | that is to say | Il est bilingue, c'est-à-dire, il parle deux langues. | He is bilingual, that is to say, he speaks two languages. |
 | tout à fait | absolutely/completely | Je suis tout à fait d'accord. | I completely agree. |
 | au fur et à mesure | as/while | Au fur et à mesure, il progresse. | As time goes by, he improves. |
@@ -64,47 +63,56 @@ Many adverbs are formed by adding **-ment** to the feminine form of an adjective
 
 ### Complete with the correct adverb (FR/EN)
 
-1.  Il parle <input type="text" placeholder="" oninput="checkAnswer(this, 'vite')"> (quickly). <span></span>
-2.  Elle chante <input type="text" placeholder="" oninput="checkAnswer(this, 'bien')"> (well). <span></span>
-3.  Je me lève <input type="text" placeholder="" oninput="checkAnswer(this, 'tôt')"> (early). <span></span>
-4.  Il travaille <input type="text" placeholder="" oninput="checkAnswer(this, 'mal')"> (badly). <span></span>
-5.  Nous sommes <input type="text" placeholder="" oninput="checkAnswer(this, 'tout à fait')"> d’accord. (completely) <span></span>
-6.  Elle mange <input type="text" placeholder="" oninput="checkAnswer(this, 'peu')"> (little). <span></span>
-7.  Il court <input type="text" placeholder="" oninput="checkAnswer(this, 'rapidement')"> (quickly). <span></span>
-8.  Il parle <input type="text" placeholder="" oninput="checkAnswer(this, 'trop')"> (too much). <span></span>
-9.  Elle apprend <input type="text" placeholder="" oninput="checkAnswer(this, 'facilement')"> (easily). <span></span>
-10.  Il a <input type="text" placeholder="" oninput="checkAnswer(this, 'mal')"> dormi. (badly) <span></span>
+1.  Il parle <input type="text" placeholder="" oninput="checkAnswer(this, 'vite')"> (quickly).
+2.  Elle chante <input type="text" placeholder="" oninput="checkAnswer(this, 'bien')"> (well).
+3.  Je me lève <input type="text" placeholder="" oninput="checkAnswer(this, 'tôt')"> (early).
+4.  Il travaille <input type="text" placeholder="" oninput="checkAnswer(this, 'mal')"> (badly).
+5.  Nous sommes <input type="text" placeholder="" oninput="checkAnswer(this, 'tout à fait')"> d’accord. (completely)
+6.  Elle mange <input type="text" placeholder="" oninput="checkAnswer(this, 'peu')"> (little).
+7.  Il court <input type="text" placeholder="" oninput="checkAnswer(this, 'rapidement')"> (quickly).
+8.  Il parle <input type="text" placeholder="" oninput="checkAnswer(this, 'trop')"> (too much).
+9.  Elle apprend <input type="text" placeholder="" oninput="checkAnswer(this, 'facilement')"> (easily).
+10. Il a <input type="text" placeholder="" oninput="checkAnswer(this, 'mal')"> dormi. (badly)
 
 ### Translate to French
 
-1.  He arrives late. <input type="text" placeholder="" oninput="checkAnswer(this, 'Il arrive tard.')"> <span></span>
-2.  She learns easily. <input type="text" placeholder="" oninput="checkAnswer(this, 'Elle apprend facilement.')"> <span></span>
-3.  I travel from time to time. <input type="text" placeholder="" oninput="checkAnswer(this, 'Je voyage de temps en temps.')"> <span></span>
-4.  Fortunately, he is here. <input type="text" placeholder="" oninput="checkAnswer(this, 'Heureusement, il est là.')"> <span></span>
-5.  He speaks too fast. <input type="text" placeholder="" oninput="checkAnswer(this, 'Il parle trop vite.')"> <span></span>
-6.  In general, it’s nice here. <input type="text" placeholder="" oninput="checkAnswer(this, 'En général, il fait beau ici.')"> <span></span>
-7.  She sings well. <input type="text" placeholder="" oninput="checkAnswer(this, 'Elle chante bien.')"> <span></span>
-8.  He answers quickly. <input type="text" placeholder="" oninput="checkAnswer(this, 'Il répond rapidement.')"> <span></span>
-9.  I get up early. <input type="text" placeholder="" oninput="checkAnswer(this, 'Je me lève tôt.')"> <span></span>
-10.  He speaks gently. <input type="text" placeholder="" oninput="checkAnswer(this, 'Il parle doucement.')"> <span></span>
+1.  He arrives late. <input type="text" placeholder="" oninput="checkAnswer(this, 'Il arrive tard.')">
+2.  She learns easily. <input type="text" placeholder="" oninput="checkAnswer(this, 'Elle apprend facilement.')">
+3.  I travel from time to time. <input type="text" placeholder="" oninput="checkAnswer(this, 'Je voyage de temps en temps.')">
+4.  Fortunately, he is here. <input type="text" placeholder="" oninput="checkAnswer(this, 'Heureusement, il est là.')">
+5.  He speaks too fast. <input type="text" placeholder="" oninput="checkAnswer(this, 'Il parle trop vite.')">
+6.  In general, it’s nice here. <input type="text" placeholder="" oninput="checkAnswer(this, 'En général, il fait beau ici.')">
+7.  She sings well. <input type="text" placeholder="" oninput="checkAnswer(this, 'Elle chante bien.')">
+8.  He answers quickly. <input type="text" placeholder="" oninput="checkAnswer(this, 'Il répond rapidement.')">
+9.  I get up early. <input type="text" placeholder="" oninput="checkAnswer(this, 'Je me lève tôt.')">
+10. He speaks gently. <input type="text" placeholder="" oninput="checkAnswer(this, 'Il parle doucement.')">
 
 ### Fill in the blank with the correct adverb
 
-1.  Ils <input type="text" placeholder="" oninput="checkAnswer(this, 'auraient pu')"> (pouvoir) réussir avec plus d’efforts. <span></span>
-2.  Elle <input type="text" placeholder="" oninput="checkAnswer(this, 'a bien')"> (bien) compris la leçon. <span></span>
-3.  Nous <input type="text" placeholder="" oninput="checkAnswer(this, 'avons rapidement')"> (rapidement) terminé le travail. <span></span>
-4.  Tu <input type="text" placeholder="" oninput="checkAnswer(this, 'as facilement')"> (facilement) trouvé la solution. <span></span>
-5.  Il <input type="text" placeholder="" oninput="checkAnswer(this, 'a doucement')"> (doucement) fermé la porte. <span></span>
-6.  Elle <input type="text" placeholder="" oninput="checkAnswer(this, 'a trop')"> (trop) mangé ce soir. <span></span>
-7.  Nous <input type="text" placeholder="" oninput="checkAnswer(this, 'avons mal')"> (mal) compris la question. <span></span>
-8.  Vous <input type="text" placeholder="" oninput="checkAnswer(this, 'avez tôt')"> (tôt) terminé vos devoirs. <span></span>
-9.  Il <input type="text" placeholder="" oninput="checkAnswer(this, 'a peu')"> (peu) parlé pendant la réunion. <span></span>
-10.  Elles <input type="text" placeholder="" oninput="checkAnswer(this, 'ont heureusement')"> (heureusement) évité l’accident. <span></span>
+1.  Ils <input type="text" placeholder="" oninput="checkAnswer(this, 'auraient pu')"> (pouvoir) réussir avec plus d’efforts.
+2.  Elle <input type="text" placeholder="" oninput="checkAnswer(this, 'a bien')"> (bien) compris la leçon.
+3.  Nous <input type="text" placeholder="" oninput="checkAnswer(this, 'avons rapidement')"> (rapidement) terminé le travail.
+4.  Tu <input type="text" placeholder="" oninput="checkAnswer(this, 'as facilement')"> (facilement) trouvé la solution.
+5.  Il <input type="text" placeholder="" oninput="checkAnswer(this, 'a doucement')"> (doucement) fermé la porte.
+6.  Elle <input type="text" placeholder="" oninput="checkAnswer(this, 'a trop')"> (trop) mangé ce soir.
+7.  Nous <input type="text" placeholder="" oninput="checkAnswer(this, 'avons mal')"> (mal) compris la question.
+8.  Vous <input type="text" placeholder="" oninput="checkAnswer(this, 'avez tôt')"> (tôt) terminé vos devoirs.
+9.  Il <input type="text" placeholder="" oninput="checkAnswer(this, 'a peu')"> (peu) parlé pendant la réunion.
+10. Elles <input type="text" placeholder="" oninput="checkAnswer(this, 'ont heureusement')"> (heureusement) évité l’accident.
 
+<button onclick="showAnswers()">
 
-<button onclick="showAnswers()">Afficher les réponses</button>
-<button onclick="refreshPage()">Réessayer</button>
+Afficher les réponses
 
+</button>
+
+<button onclick="refreshPage()">
+
+Réessayer
+
+</button>
+
+```{=html}
 <script>
 function checkAnswer(input, correctAnswer) {
     const span = input.nextElementSibling;
@@ -131,12 +139,10 @@ function refreshPage() {
     location.reload();
 }
 </script>
-
-
+```
 :::
 
 ::: {.content-visible when-profile="french"}
-
 # Les Adverbes en Français / Adverbs in French
 
 Les adverbes sont des mots qui modifient le sens d’un verbe, d’un adjectif ou d’un autre adverbe.\
@@ -162,7 +168,7 @@ Adverbs are words that modify the meaning of a verb, an adjective, or another ad
 ## 2. Adverbes Complexes / Complex Adverbs
 
 | Français | Anglais | Exemple (FR) | Example (EN) |
-|------------------|------------------|-------------------|-------------------|
+|------------------|------------------|------------------|------------------|
 | c'est-à-dire | that is to say | Il est bilingue, c'est-à-dire, il parle deux langues. | He is bilingual, that is to say, he speaks two languages. |
 | tout à fait | absolutely/completely | Je suis tout à fait d'accord. | I completely agree. |
 | au fur et à mesure | as/while | Au fur et à mesure, il progresse. | As time goes by, he improves. |
@@ -186,48 +192,59 @@ Adverbs are often formed by adding **-ment** to the feminine form of the adjecti
 ------------------------------------------------------------------------
 
 # Exercices / Exercises
+
 ## 1. Complétez avec l’adverbe correct (FR/EN)
 
-1.  Il court <input type="text" placeholder="" oninput="checkAnswer(this, 'vite')"> (quickly). <span></span>
-2.  Elle parle <input type="text" placeholder="" oninput="checkAnswer(this, 'bien')"> (bien). <span></span>
-3.  Je mange <input type="text" placeholder="" oninput="checkAnswer(this, 'peu')"> (peu). <span></span>
-4.  Il travaille <input type="text" placeholder="" oninput="checkAnswer(this, 'mal')"> (mal). <span></span>
-5.  Nous sommes <input type="text" placeholder="" oninput="checkAnswer(this, 'tout à fait')"> d’accord. (completely) <span></span>
-6.  Elle apprend <input type="text" placeholder="" oninput="checkAnswer(this, 'facilement')"> (easily). <span></span>
-7.  Il répond <input type="text" placeholder="" oninput="checkAnswer(this, 'rapidement')"> (rapidement). <span></span>
-8.  Il parle <input type="text" placeholder="" oninput="checkAnswer(this, 'trop')"> (trop). <span></span>
-9.  Je me lève <input type="text" placeholder="" oninput="checkAnswer(this, 'tôt')"> (tôt). <span></span>
-10.  Il a <input type="text" placeholder="" oninput="checkAnswer(this, 'mal')"> dormi. (mal) <span></span>
+1.  Il court <input type="text" placeholder="" oninput="checkAnswer(this, 'vite')"> (quickly).
+2.  Elle parle <input type="text" placeholder="" oninput="checkAnswer(this, 'bien')"> (bien).
+3.  Je mange <input type="text" placeholder="" oninput="checkAnswer(this, 'peu')"> (peu).
+4.  Il travaille <input type="text" placeholder="" oninput="checkAnswer(this, 'mal')"> (mal).
+5.  Nous sommes <input type="text" placeholder="" oninput="checkAnswer(this, 'tout à fait')"> d’accord. (completely)
+6.  Elle apprend <input type="text" placeholder="" oninput="checkAnswer(this, 'facilement')"> (easily).
+7.  Il répond <input type="text" placeholder="" oninput="checkAnswer(this, 'rapidement')"> (rapidement).
+8.  Il parle <input type="text" placeholder="" oninput="checkAnswer(this, 'trop')"> (trop).
+9.  Je me lève <input type="text" placeholder="" oninput="checkAnswer(this, 'tôt')"> (tôt).
+10. Il a <input type="text" placeholder="" oninput="checkAnswer(this, 'mal')"> dormi. (mal)
 
 ## 2. Traduisez en français
 
-1.  He arrives late. <input type="text" placeholder="" oninput="checkAnswer(this, 'Il arrive tard.')"> <span></span>
-2.  She learns easily. <input type="text" placeholder="" oninput="checkAnswer(this, 'Elle apprend facilement.')"> <span></span>
-3.  I travel from time to time. <input type="text" placeholder="" oninput="checkAnswer(this, 'Je voyage de temps en temps.')"> <span></span>
-4.  Fortunately, he is here. <input type="text" placeholder="" oninput="checkAnswer(this, 'Heureusement, il est là.')"> <span></span>
-5.  He speaks too fast. <input type="text" placeholder="" oninput="checkAnswer(this, 'Il parle trop vite.')"> <span></span>
-6.  In general, it’s nice here. <input type="text" placeholder="" oninput="checkAnswer(this, 'En général, il fait beau ici.')"> <span></span>
-7.  She sings well. <input type="text" placeholder="" oninput="checkAnswer(this, 'Elle chante bien.')"> <span></span>
-8.  He answers quickly. <input type="text" placeholder="" oninput="checkAnswer(this, 'Il répond rapidement.')"> <span></span>
-9.  I get up early. <input type="text" placeholder="" oninput="checkAnswer(this, 'Je me lève tôt.')"> <span></span>
-10.  He speaks gently. <input type="text" placeholder="" oninput="checkAnswer(this, 'Il parle doucement.')"> <span></span>
+1.  He arrives late. <input type="text" placeholder="" oninput="checkAnswer(this, 'Il arrive tard.')">
+2.  She learns easily. <input type="text" placeholder="" oninput="checkAnswer(this, 'Elle apprend facilement.')">
+3.  I travel from time to time. <input type="text" placeholder="" oninput="checkAnswer(this, 'Je voyage de temps en temps.')">
+4.  Fortunately, he is here. <input type="text" placeholder="" oninput="checkAnswer(this, 'Heureusement, il est là.')">
+5.  He speaks too fast. <input type="text" placeholder="" oninput="checkAnswer(this, 'Il parle trop vite.')">
+6.  In general, it’s nice here. <input type="text" placeholder="" oninput="checkAnswer(this, 'En général, il fait beau ici.')">
+7.  She sings well. <input type="text" placeholder="" oninput="checkAnswer(this, 'Elle chante bien.')">
+8.  He answers quickly. <input type="text" placeholder="" oninput="checkAnswer(this, 'Il répond rapidement.')">
+9.  I get up early. <input type="text" placeholder="" oninput="checkAnswer(this, 'Je me lève tôt.')">
+10. He speaks gently. <input type="text" placeholder="" oninput="checkAnswer(this, 'Il parle doucement.')">
 
 ## 3. Complétez avec la bonne forme (adverbe ou groupe verbal)
 
-1.  Ils <input type="text" placeholder="" oninput="checkAnswer(this, 'auraient pu')"> (pouvoir) réussir avec plus d’efforts. <span></span>
-2.  Elle <input type="text" placeholder="" oninput="checkAnswer(this, 'a bien')"> (bien) compris la leçon. <span></span>
-3.  Nous <input type="text" placeholder="" oninput="checkAnswer(this, 'avons rapidement')"> (rapidement) terminé le travail. <span></span>
-4.  Tu <input type="text" placeholder="" oninput="checkAnswer(this, 'as facilement')"> (facilement) trouvé la solution. <span></span>
-5.  Il <input type="text" placeholder="" oninput="checkAnswer(this, 'a doucement')"> (doucement) fermé la porte. <span></span>
-6.  Elle <input type="text" placeholder="" oninput="checkAnswer(this, 'a trop')"> (trop) mangé ce soir. <span></span>
-7.  Nous <input type="text" placeholder="" oninput="checkAnswer(this, 'avons mal')"> (mal) compris la question. <span></span>
-8.  Vous <input type="text" placeholder="" oninput="checkAnswer(this, 'avez tôt')"> (tôt) terminé vos devoirs. <span></span>
-9.  Il <input type="text" placeholder="" oninput="checkAnswer(this, 'a peu')"> (peu) parlé pendant la réunion. <span></span>
-10.  Elles <input type="text" placeholder="" oninput="checkAnswer(this, 'ont heureusement')"> (heureusement) évité l’accident. <span></span>
+1.  Ils <input type="text" placeholder="" oninput="checkAnswer(this, 'auraient pu')"> (pouvoir) réussir avec plus d’efforts.
+2.  Elle <input type="text" placeholder="" oninput="checkAnswer(this, 'a bien')"> (bien) compris la leçon.
+3.  Nous <input type="text" placeholder="" oninput="checkAnswer(this, 'avons rapidement')"> (rapidement) terminé le travail.
+4.  Tu <input type="text" placeholder="" oninput="checkAnswer(this, 'as facilement')"> (facilement) trouvé la solution.
+5.  Il <input type="text" placeholder="" oninput="checkAnswer(this, 'a doucement')"> (doucement) fermé la porte.
+6.  Elle <input type="text" placeholder="" oninput="checkAnswer(this, 'a trop')"> (trop) mangé ce soir.
+7.  Nous <input type="text" placeholder="" oninput="checkAnswer(this, 'avons mal')"> (mal) compris la question.
+8.  Vous <input type="text" placeholder="" oninput="checkAnswer(this, 'avez tôt')"> (tôt) terminé vos devoirs.
+9.  Il <input type="text" placeholder="" oninput="checkAnswer(this, 'a peu')"> (peu) parlé pendant la réunion.
+10. Elles <input type="text" placeholder="" oninput="checkAnswer(this, 'ont heureusement')"> (heureusement) évité l’accident.
 
-<button onclick="showAnswers()">Afficher les réponses</button>
-<button onclick="refreshPage()">Réessayer</button>
+<button onclick="showAnswers()">
 
+Afficher les réponses
+
+</button>
+
+<button onclick="refreshPage()">
+
+Réessayer
+
+</button>
+
+```{=html}
 <script>
 function checkAnswer(input, correctAnswer) {
     const span = input.nextElementSibling;
@@ -254,5 +271,5 @@ function refreshPage() {
     location.reload();
 }
 </script>
-
+```
 :::
