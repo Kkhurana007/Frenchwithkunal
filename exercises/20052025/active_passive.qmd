@@ -7,44 +7,43 @@ image: "active_passive.png"
 ---
 
 ::: {.content-visible when-profile="english"}
-
 # Active and Passive Voice in French
 
 In French, verbs can be used in the active or passive voice. The active voice emphasizes the subject performing the action, while the passive voice emphasizes the action received by the subject.
 
 ## Présent (Present)
 
-- **Active:** Le professeur explique la leçon.  
+-   **Active:** Le professeur explique la leçon.\
     *(The teacher explains the lesson.)*
-- **Passive:** La leçon est expliquée par le professeur.  
+-   **Passive:** La leçon est expliquée par le professeur.\
     *(The lesson is explained by the teacher.)*
 
 ## Passé Composé (Present Perfect)
 
-- **Active:** Les élèves ont lu le livre.  
+-   **Active:** Les élèves ont lu le livre.\
     *(The students have read the book.)*
-- **Passive:** Le livre a été lu par les élèves.  
+-   **Passive:** Le livre a été lu par les élèves.\
     *(The book has been read by the students.)*
 
 ## Futur (Future)
 
-- **Active:** Marie écrira une lettre.  
+-   **Active:** Marie écrira une lettre.\
     *(Marie will write a letter.)*
-- **Passive:** Une lettre sera écrite par Marie.  
+-   **Passive:** Une lettre sera écrite par Marie.\
     *(A letter will be written by Marie.)*
 
 ## Imparfait (Imperfect)
 
-- **Active:** On réparait la route.  
+-   **Active:** On réparait la route.\
     *(They were repairing the road.)*
-- **Passive:** La route était réparée.  
+-   **Passive:** La route était réparée.\
     *(The road was being repaired.)*
 
 ## Futur Proche (Near Future)
 
-- **Active:** Paul va préparer le dîner.  
+-   **Active:** Paul va préparer le dîner.\
     *(Paul is going to prepare dinner.)*
-- **Passive:** Le dîner va être préparé par Paul.  
+-   **Passive:** Le dîner va être préparé par Paul.\
     *(Dinner is going to be prepared by Paul.)*
 
 ------------------------------------------------------------------------
@@ -53,69 +52,84 @@ In French, verbs can be used in the active or passive voice. The active voice em
 
 Pour chaque phrase, écrivez la forme passive correcte dans le temps indiqué.
 
-### Présent  
-1. Active: Le chef cuisine le repas.  
-    Passive: <input type="text" placeholder="" size="45" oninput="checkAnswer(this, 'Le repas est cuisiné par le chef')"><span></span>  
-2. Active: Les étudiants écrivent les réponses.  
-    Passive: <input type="text" placeholder="" size="45" oninput="checkAnswer(this, 'Les réponses sont écrites par les étudiants')"><span></span>  
-3. Active: Marie lit le journal.  
-    Passive: <input type="text" placeholder="" size="45" oninput="checkAnswer(this, 'Le journal est lu par Marie')"><span></span>  
-4. Active: Paul répare la voiture.  
-    Passive: <input type="text" placeholder="" size="45" oninput="checkAnswer(this, 'La voiture est réparée par Paul')"><span></span>  
-5. Active: Les enfants mangent le gâteau.  
-    Passive: <input type="text" placeholder="" size="45" oninput="checkAnswer(this, 'Le gâteau est mangé par les enfants')"><span></span>  
+### Présent
 
-### Passé composé  
-1. Active: Les enfants ont décoré la salle.  
-    Passive: <input type="text" placeholder="" size="45" oninput="checkAnswer(this, 'La salle a été décorée par les enfants')"><span></span>  
-2. Active: Le médecin a soigné le patient.  
-    Passive: <input type="text" placeholder="" size="45" oninput="checkAnswer(this, 'Le patient a été soigné par le médecin')"><span></span>  
-3. Active: Julie a écrit la lettre.  
-    Passive: <input type="text" placeholder="" size="45" oninput="checkAnswer(this, 'La lettre a été écrite par Julie')"><span></span>  
-4. Active: Les élèves ont terminé les exercices.  
-    Passive: <input type="text" placeholder="" size="45" oninput="checkAnswer(this, 'Les exercices ont été terminés par les élèves')"><span></span>  
-5. Active: Mon frère a cassé la fenêtre.  
-    Passive: <input type="text" placeholder="" size="45" oninput="checkAnswer(this, 'La fenêtre a été cassée par mon frère')"><span></span>  
+1.  Active: Le chef cuisine le repas.\
+    Passive: <input type="text" placeholder="" size="45" oninput="checkAnswer(this, 'Le repas est cuisiné par le chef')">\
+2.  Active: Les étudiants écrivent les réponses.\
+    Passive: <input type="text" placeholder="" size="45" oninput="checkAnswer(this, 'Les réponses sont écrites par les étudiants')">\
+3.  Active: Marie lit le journal.\
+    Passive: <input type="text" placeholder="" size="45" oninput="checkAnswer(this, 'Le journal est lu par Marie')">\
+4.  Active: Paul répare la voiture.\
+    Passive: <input type="text" placeholder="" size="45" oninput="checkAnswer(this, 'La voiture est réparée par Paul')">\
+5.  Active: Les enfants mangent le gâteau.\
+    Passive: <input type="text" placeholder="" size="45" oninput="checkAnswer(this, 'Le gâteau est mangé par les enfants')">
 
-### Futur  
-1. Active: Julie chantera la chanson.  
-    Passive: <input type="text" placeholder="" size="45" oninput="checkAnswer(this, 'La chanson sera chantée par Julie')"><span></span>  
-2. Active: Les ingénieurs construiront le pont.  
-    Passive: <input type="text" placeholder="" size="45" oninput="checkAnswer(this, 'Le pont sera construit par les ingénieurs')"><span></span>  
-3. Active: Le professeur corrigera les copies.  
-    Passive: <input type="text" placeholder="" size="45" oninput="checkAnswer(this, 'Les copies seront corrigées par le professeur')"><span></span>  
-4. Active: Nous organiserons la fête.  
-    Passive: <input type="text" placeholder="" size="45" oninput="checkAnswer(this, 'La fête sera organisée par nous')"><span></span>  
-5. Active: Les techniciens installeront les ordinateurs.  
-    Passive: <input type="text" placeholder="" size="45" oninput="checkAnswer(this, 'Les ordinateurs seront installés par les techniciens')"><span></span>  
+### Passé composé
 
-### Imparfait  
-1. Active: On réparait la voiture.  
-    Passive: <input type="text" placeholder="" size="45" oninput="checkAnswer(this, 'La voiture était réparée')"><span></span>  
-2. Active: Les enfants lisaient les histoires.  
-    Passive: <input type="text" placeholder="" size="45" oninput="checkAnswer(this, 'Les histoires étaient lues par les enfants')"><span></span>  
-3. Active: Le jardinier arrosait les plantes.  
-    Passive: <input type="text" placeholder="" size="45" oninput="checkAnswer(this, 'Les plantes étaient arrosées par le jardinier')"><span></span>  
-4. Active: Marie préparait le dîner.  
-    Passive: <input type="text" placeholder="" size="45" oninput="checkAnswer(this, 'Le dîner était préparé par Marie')"><span></span>  
-5. Active: Les ouvriers peignaient la maison.  
-    Passive: <input type="text" placeholder="" size="45" oninput="checkAnswer(this, 'La maison était peinte par les ouvriers')"><span></span>  
+1.  Active: Les enfants ont décoré la salle.\
+    Passive: <input type="text" placeholder="" size="45" oninput="checkAnswer(this, 'La salle a été décorée par les enfants')">\
+2.  Active: Le médecin a soigné le patient.\
+    Passive: <input type="text" placeholder="" size="45" oninput="checkAnswer(this, 'Le patient a été soigné par le médecin')">\
+3.  Active: Julie a écrit la lettre.\
+    Passive: <input type="text" placeholder="" size="45" oninput="checkAnswer(this, 'La lettre a été écrite par Julie')">\
+4.  Active: Les élèves ont terminé les exercices.\
+    Passive: <input type="text" placeholder="" size="45" oninput="checkAnswer(this, 'Les exercices ont été terminés par les élèves')">\
+5.  Active: Mon frère a cassé la fenêtre.\
+    Passive: <input type="text" placeholder="" size="45" oninput="checkAnswer(this, 'La fenêtre a été cassée par mon frère')">
 
-### Futur proche  
-1. Active: Mon père va vendre la maison.  
-    Passive: <input type="text" placeholder="" size="45" oninput="checkAnswer(this, 'La maison va être vendue par mon père')"><span></span>  
-2. Active: Paul va préparer le dîner.  
-    Passive: <input type="text" placeholder="" size="45" oninput="checkAnswer(this, 'Le dîner va être préparé par Paul')"><span></span>  
-3. Active: Les élèves vont finir le projet.  
-    Passive: <input type="text" placeholder="" size="45" oninput="checkAnswer(this, 'Le projet va être fini par les élèves')"><span></span>  
-4. Active: Marie va écrire une lettre.  
-    Passive: <input type="text" placeholder="" size="45" oninput="checkAnswer(this, 'Une lettre va être écrite par Marie')"><span></span>  
-5. Active: Les techniciens vont réparer l’ordinateur.  
-    Passive: <input type="text" placeholder="" size="45" oninput="checkAnswer(this, 'L’ordinateur va être réparé par les techniciens')"><span></span>  
+### Futur
 
-<button onclick="showAnswers()">Show answers</button>
-<button onclick="refreshPage()">Try again</button>
+1.  Active: Julie chantera la chanson.\
+    Passive: <input type="text" placeholder="" size="45" oninput="checkAnswer(this, 'La chanson sera chantée par Julie')">\
+2.  Active: Les ingénieurs construiront le pont.\
+    Passive: <input type="text" placeholder="" size="45" oninput="checkAnswer(this, 'Le pont sera construit par les ingénieurs')">\
+3.  Active: Le professeur corrigera les copies.\
+    Passive: <input type="text" placeholder="" size="45" oninput="checkAnswer(this, 'Les copies seront corrigées par le professeur')">\
+4.  Active: Nous organiserons la fête.\
+    Passive: <input type="text" placeholder="" size="45" oninput="checkAnswer(this, 'La fête sera organisée par nous')">\
+5.  Active: Les techniciens installeront les ordinateurs.\
+    Passive: <input type="text" placeholder="" size="45" oninput="checkAnswer(this, 'Les ordinateurs seront installés par les techniciens')">
 
+### Imparfait
+
+1.  Active: On réparait la voiture.\
+    Passive: <input type="text" placeholder="" size="45" oninput="checkAnswer(this, 'La voiture était réparée')">\
+2.  Active: Les enfants lisaient les histoires.\
+    Passive: <input type="text" placeholder="" size="45" oninput="checkAnswer(this, 'Les histoires étaient lues par les enfants')">\
+3.  Active: Le jardinier arrosait les plantes.\
+    Passive: <input type="text" placeholder="" size="45" oninput="checkAnswer(this, 'Les plantes étaient arrosées par le jardinier')">\
+4.  Active: Marie préparait le dîner.\
+    Passive: <input type="text" placeholder="" size="45" oninput="checkAnswer(this, 'Le dîner était préparé par Marie')">\
+5.  Active: Les ouvriers peignaient la maison.\
+    Passive: <input type="text" placeholder="" size="45" oninput="checkAnswer(this, 'La maison était peinte par les ouvriers')">
+
+### Futur proche
+
+1.  Active: Mon père va vendre la maison.\
+    Passive: <input type="text" placeholder="" size="45" oninput="checkAnswer(this, 'La maison va être vendue par mon père')">\
+2.  Active: Paul va préparer le dîner.\
+    Passive: <input type="text" placeholder="" size="45" oninput="checkAnswer(this, 'Le dîner va être préparé par Paul')">\
+3.  Active: Les élèves vont finir le projet.\
+    Passive: <input type="text" placeholder="" size="45" oninput="checkAnswer(this, 'Le projet va être fini par les élèves')">\
+4.  Active: Marie va écrire une lettre.\
+    Passive: <input type="text" placeholder="" size="45" oninput="checkAnswer(this, 'Une lettre va être écrite par Marie')">\
+5.  Active: Les techniciens vont réparer l’ordinateur.\
+    Passive: <input type="text" placeholder="" size="45" oninput="checkAnswer(this, 'L’ordinateur va être réparé par les techniciens')">
+
+<button onclick="showAnswers()">
+
+Show answers
+
+</button>
+
+<button onclick="refreshPage()">
+
+Try again
+
+</button>
+
+```{=html}
 <script>
 function checkAnswer(input, correctAnswer) {
     const span = input.nextElementSibling;
@@ -142,40 +156,40 @@ function refreshPage() {
     location.reload();
 }
 </script>
+```
 
 ------------------------------------------------------------------------
 :::
 
 ::: {.content-visible when-profile="french"}
-
 # Voix active et passive en français
 
 En français, les verbes peuvent être utilisés à la voix active ou passive. La voix active met l’accent sur le sujet qui fait l’action, tandis que la voix passive met l’accent sur l’action subie par le sujet.
 
 ## Présent
 
-- **Active :** Le professeur explique la leçon.  
-- **Passive :** La leçon est expliquée par le professeur.
+-   **Active :** Le professeur explique la leçon.\
+-   **Passive :** La leçon est expliquée par le professeur.
 
 ## Passé composé
 
-- **Active :** Les élèves ont lu le livre.  
-- **Passive :** Le livre a été lu par les élèves.
+-   **Active :** Les élèves ont lu le livre.\
+-   **Passive :** Le livre a été lu par les élèves.
 
 ## Futur
 
-- **Active :** Marie écrira une lettre.  
-- **Passive :** Une lettre sera écrite par Marie.
+-   **Active :** Marie écrira une lettre.\
+-   **Passive :** Une lettre sera écrite par Marie.
 
 ## Imparfait
 
-- **Active :** On réparait la route.  
-- **Passive :** La route était réparée.
+-   **Active :** On réparait la route.\
+-   **Passive :** La route était réparée.
 
 ## Futur proche
 
-- **Active :** Paul va préparer le dîner.  
-- **Passive :** Le dîner va être préparé par Paul.
+-   **Active :** Paul va préparer le dîner.\
+-   **Passive :** Le dîner va être préparé par Paul.
 
 ------------------------------------------------------------------------
 
@@ -183,69 +197,84 @@ En français, les verbes peuvent être utilisés à la voix active ou passive. L
 
 Pour chaque phrase, écrivez la forme passive correcte dans le temps indiqué.
 
-### Présent  
-1. Active : Le chef cuisine le repas.  
-    Passive : <input type="text" placeholder="" size="45" oninput="checkAnswer(this, 'Le repas est cuisiné par le chef')"><span></span>  
-2. Active : Les étudiants écrivent les réponses.  
-    Passive : <input type="text" placeholder="" size="45" oninput="checkAnswer(this, 'Les réponses sont écrites par les étudiants')"><span></span>  
-3. Active : Marie lit le journal.  
-    Passive : <input type="text" placeholder="" size="45" oninput="checkAnswer(this, 'Le journal est lu par Marie')"><span></span>  
-4. Active : Paul répare la voiture.  
-    Passive : <input type="text" placeholder="" size="45" oninput="checkAnswer(this, 'La voiture est réparée par Paul')"><span></span>  
-5. Active : Les enfants mangent le gâteau.  
-    Passive : <input type="text" placeholder="" size="45" oninput="checkAnswer(this, 'Le gâteau est mangé par les enfants')"><span></span>  
+### Présent
 
-### Passé composé  
-1. Active : Les enfants ont décoré la salle.  
-    Passive : <input type="text" placeholder="" size="45" oninput="checkAnswer(this, 'La salle a été décorée par les enfants')"><span></span>  
-2. Active : Le médecin a soigné le patient.  
-    Passive : <input type="text" placeholder="" size="45" oninput="checkAnswer(this, 'Le patient a été soigné par le médecin')"><span></span>  
-3. Active : Julie a écrit la lettre.  
-    Passive : <input type="text" placeholder="" size="45" oninput="checkAnswer(this, 'La lettre a été écrite par Julie')"><span></span>  
-4. Active : Les élèves ont terminé les exercices.  
-    Passive : <input type="text" placeholder="" size="45" oninput="checkAnswer(this, 'Les exercices ont été terminés par les élèves')"><span></span>  
-5. Active : Mon frère a cassé la fenêtre.  
-    Passive : <input type="text" placeholder="" size="45" oninput="checkAnswer(this, 'La fenêtre a été cassée par mon frère')"><span></span>  
+1.  Active : Le chef cuisine le repas.\
+    Passive : <input type="text" placeholder="" size="45" oninput="checkAnswer(this, 'Le repas est cuisiné par le chef')">\
+2.  Active : Les étudiants écrivent les réponses.\
+    Passive : <input type="text" placeholder="" size="45" oninput="checkAnswer(this, 'Les réponses sont écrites par les étudiants')">\
+3.  Active : Marie lit le journal.\
+    Passive : <input type="text" placeholder="" size="45" oninput="checkAnswer(this, 'Le journal est lu par Marie')">\
+4.  Active : Paul répare la voiture.\
+    Passive : <input type="text" placeholder="" size="45" oninput="checkAnswer(this, 'La voiture est réparée par Paul')">\
+5.  Active : Les enfants mangent le gâteau.\
+    Passive : <input type="text" placeholder="" size="45" oninput="checkAnswer(this, 'Le gâteau est mangé par les enfants')">
 
-### Futur  
-1. Active : Julie chantera la chanson.  
-    Passive : <input type="text" placeholder="" size="45" oninput="checkAnswer(this, 'La chanson sera chantée par Julie')"><span></span>  
-2. Active : Les ingénieurs construiront le pont.  
-    Passive : <input type="text" placeholder="" size="45" oninput="checkAnswer(this, 'Le pont sera construit par les ingénieurs')"><span></span>  
-3. Active : Le professeur corrigera les copies.  
-    Passive : <input type="text" placeholder="" size="45" oninput="checkAnswer(this, 'Les copies seront corrigées par le professeur')"><span></span>  
-4. Active : Nous organiserons la fête.  
-    Passive : <input type="text" placeholder="" size="45" oninput="checkAnswer(this, 'La fête sera organisée par nous')"><span></span>  
-5. Active : Les techniciens installeront les ordinateurs.  
-    Passive : <input type="text" placeholder="" size="45" oninput="checkAnswer(this, 'Les ordinateurs seront installés par les techniciens')"><span></span>  
+### Passé composé
 
-### Imparfait  
-1. Active : On réparait la voiture.  
-    Passive : <input type="text" placeholder="" size="45" oninput="checkAnswer(this, 'La voiture était réparée')"><span></span>  
-2. Active : Les enfants lisaient les histoires.  
-    Passive : <input type="text" placeholder="" size="45" oninput="checkAnswer(this, 'Les histoires étaient lues par les enfants')"><span></span>  
-3. Active : Le jardinier arrosait les plantes.  
-    Passive : <input type="text" placeholder="" size="45" oninput="checkAnswer(this, 'Les plantes étaient arrosées par le jardinier')"><span></span>  
-4. Active : Marie préparait le dîner.  
-    Passive : <input type="text" placeholder="" size="45" oninput="checkAnswer(this, 'Le dîner était préparé par Marie')"><span></span>  
-5. Active : Les ouvriers peignaient la maison.  
-    Passive : <input type="text" placeholder="" size="45" oninput="checkAnswer(this, 'La maison était peinte par les ouvriers')"><span></span>  
+1.  Active : Les enfants ont décoré la salle.\
+    Passive : <input type="text" placeholder="" size="45" oninput="checkAnswer(this, 'La salle a été décorée par les enfants')">\
+2.  Active : Le médecin a soigné le patient.\
+    Passive : <input type="text" placeholder="" size="45" oninput="checkAnswer(this, 'Le patient a été soigné par le médecin')">\
+3.  Active : Julie a écrit la lettre.\
+    Passive : <input type="text" placeholder="" size="45" oninput="checkAnswer(this, 'La lettre a été écrite par Julie')">\
+4.  Active : Les élèves ont terminé les exercices.\
+    Passive : <input type="text" placeholder="" size="45" oninput="checkAnswer(this, 'Les exercices ont été terminés par les élèves')">\
+5.  Active : Mon frère a cassé la fenêtre.\
+    Passive : <input type="text" placeholder="" size="45" oninput="checkAnswer(this, 'La fenêtre a été cassée par mon frère')">
 
-### Futur proche  
-1. Active : Mon père va vendre la maison.  
-    Passive : <input type="text" placeholder="" size="45" oninput="checkAnswer(this, 'La maison va être vendue par mon père')"><span></span>  
-2. Active : Paul va préparer le dîner.  
-    Passive : <input type="text" placeholder="" size="45" oninput="checkAnswer(this, 'Le dîner va être préparé par Paul')"><span></span>  
-3. Active : Les élèves vont finir le projet.  
-    Passive : <input type="text" placeholder="" size="45" oninput="checkAnswer(this, 'Le projet va être fini par les élèves')"><span></span>  
-4. Active : Marie va écrire une lettre.  
-    Passive : <input type="text" placeholder="" size="45" oninput="checkAnswer(this, 'Une lettre va être écrite par Marie')"><span></span>  
-5. Active : Les techniciens vont réparer l’ordinateur.  
-    Passive : <input type="text" placeholder="" size="45" oninput="checkAnswer(this, 'L’ordinateur va être réparé par les techniciens')"><span></span>  
+### Futur
 
-<button onclick="showAnswers()">Afficher les réponses</button>
-<button onclick="refreshPage()">Réessayer</button>
+1.  Active : Julie chantera la chanson.\
+    Passive : <input type="text" placeholder="" size="45" oninput="checkAnswer(this, 'La chanson sera chantée par Julie')">\
+2.  Active : Les ingénieurs construiront le pont.\
+    Passive : <input type="text" placeholder="" size="45" oninput="checkAnswer(this, 'Le pont sera construit par les ingénieurs')">\
+3.  Active : Le professeur corrigera les copies.\
+    Passive : <input type="text" placeholder="" size="45" oninput="checkAnswer(this, 'Les copies seront corrigées par le professeur')">\
+4.  Active : Nous organiserons la fête.\
+    Passive : <input type="text" placeholder="" size="45" oninput="checkAnswer(this, 'La fête sera organisée par nous')">\
+5.  Active : Les techniciens installeront les ordinateurs.\
+    Passive : <input type="text" placeholder="" size="45" oninput="checkAnswer(this, 'Les ordinateurs seront installés par les techniciens')">
 
+### Imparfait
+
+1.  Active : On réparait la voiture.\
+    Passive : <input type="text" placeholder="" size="45" oninput="checkAnswer(this, 'La voiture était réparée')">\
+2.  Active : Les enfants lisaient les histoires.\
+    Passive : <input type="text" placeholder="" size="45" oninput="checkAnswer(this, 'Les histoires étaient lues par les enfants')">\
+3.  Active : Le jardinier arrosait les plantes.\
+    Passive : <input type="text" placeholder="" size="45" oninput="checkAnswer(this, 'Les plantes étaient arrosées par le jardinier')">\
+4.  Active : Marie préparait le dîner.\
+    Passive : <input type="text" placeholder="" size="45" oninput="checkAnswer(this, 'Le dîner était préparé par Marie')">\
+5.  Active : Les ouvriers peignaient la maison.\
+    Passive : <input type="text" placeholder="" size="45" oninput="checkAnswer(this, 'La maison était peinte par les ouvriers')">
+
+### Futur proche
+
+1.  Active : Mon père va vendre la maison.\
+    Passive : <input type="text" placeholder="" size="45" oninput="checkAnswer(this, 'La maison va être vendue par mon père')">\
+2.  Active : Paul va préparer le dîner.\
+    Passive : <input type="text" placeholder="" size="45" oninput="checkAnswer(this, 'Le dîner va être préparé par Paul')">\
+3.  Active : Les élèves vont finir le projet.\
+    Passive : <input type="text" placeholder="" size="45" oninput="checkAnswer(this, 'Le projet va être fini par les élèves')">\
+4.  Active : Marie va écrire une lettre.\
+    Passive : <input type="text" placeholder="" size="45" oninput="checkAnswer(this, 'Une lettre va être écrite par Marie')">\
+5.  Active : Les techniciens vont réparer l’ordinateur.\
+    Passive : <input type="text" placeholder="" size="45" oninput="checkAnswer(this, 'L’ordinateur va être réparé par les techniciens')">
+
+<button onclick="showAnswers()">
+
+Afficher les réponses
+
+</button>
+
+<button onclick="refreshPage()">
+
+Réessayer
+
+</button>
+
+```{=html}
 <script>
 function checkAnswer(input, correctAnswer) {
     const span = input.nextElementSibling;
@@ -272,5 +301,5 @@ function refreshPage() {
     location.reload();
 }
 </script>
-
+```
 :::

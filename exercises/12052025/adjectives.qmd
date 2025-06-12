@@ -7,56 +7,61 @@ image: "adjectives.png"
 ---
 
 ::: {.content-visible when-profile="english"}
-
-Exercise: Forming Feminine Adjectives
-Convert masculine adjectives to their feminine forms. Pay attention to spelling rules!
+Exercise: Forming Feminine Adjectives Convert masculine adjectives to their feminine forms. Pay attention to spelling rules!
 
 ## 1. Write the Feminine Form:
 
-"clair" → <input type="text" placeholder="féminin" oninput="checkAnswer(this, 'claire')"><span style="margin-left:10px;"></span>  
+"clair" → <input type="text" placeholder="féminin" oninput="checkAnswer(this, 'claire')">
 
-"facile" → <input type="text" placeholder="féminin" oninput="checkAnswer(this, 'facile')"><span style="margin-left:10px;"></span>  
+"facile" → <input type="text" placeholder="féminin" oninput="checkAnswer(this, 'facile')">
 
-"sportif" → <input type="text" placeholder="féminin" oninput="checkAnswer(this, 'sportive')"><span style="margin-left:10px;"></span>  
+"sportif" → <input type="text" placeholder="féminin" oninput="checkAnswer(this, 'sportive')">
 
-"furieux" → <input type="text" placeholder="féminin" oninput="checkAnswer(this, 'furieuse')"><span style="margin-left:10px;"></span>  
+"furieux" → <input type="text" placeholder="féminin" oninput="checkAnswer(this, 'furieuse')">
 
-"gentil" → <input type="text" placeholder="féminin" oninput="checkAnswer(this, 'gentille')"><span style="margin-left:10px;"></span>  
+"gentil" → <input type="text" placeholder="féminin" oninput="checkAnswer(this, 'gentille')">
 
-"cher" → <input type="text" placeholder="féminin" oninput="checkAnswer(this, 'chère')"><span style="margin-left:10px;"></span>  
+"cher" → <input type="text" placeholder="féminin" oninput="checkAnswer(this, 'chère')">
 
-"inquiet" → <input type="text" placeholder="féminin" oninput="checkAnswer(this, 'inquiète')"><span style="margin-left:10px;"></span>  
+"inquiet" → <input type="text" placeholder="féminin" oninput="checkAnswer(this, 'inquiète')">
 
-"froid" → <input type="text" placeholder="féminin" oninput="checkAnswer(this, 'froide')"><span style="margin-left:10px;"></span>  
+"froid" → <input type="text" placeholder="féminin" oninput="checkAnswer(this, 'froide')">
 
-"long" → <input type="text" placeholder="féminin" oninput="checkAnswer(this, 'longue')"><span style="margin-left:10px;"></span>  
+"long" → <input type="text" placeholder="féminin" oninput="checkAnswer(this, 'longue')">
 
-"beau" → <input type="text" placeholder="féminin" oninput="checkAnswer(this, 'belle')"><span style="margin-left:10px;"></span>  
+"beau" → <input type="text" placeholder="féminin" oninput="checkAnswer(this, 'belle')">
 
 ## 2. Correct the Errors (Feminine Forms):
-"gros → grose" → <input type="text" placeholder="Correct form" oninput="checkAnswer(this, 'grosse')"><span style="margin-left:10px;"></span>  
 
-"fier → fière" (already correct) → <input type="text" placeholder="No change?" oninput="checkAnswer(this, 'fière')"><span style="margin-left:10px;"></span>  
+"gros → grose" → <input type="text" placeholder="Correct form" oninput="checkAnswer(this, 'grosse')">
 
-"blanc → blance" → <input type="text" placeholder="Correct form" oninput="checkAnswer(this, 'blanche')"><span style="margin-left:10px;"></span>  
+"fier → fière" (already correct) → <input type="text" placeholder="No change?" oninput="checkAnswer(this, 'fière')">
+
+"blanc → blance" → <input type="text" placeholder="Correct form" oninput="checkAnswer(this, 'blanche')">
 
 ## 3. Match the Pairs (Masculine → Feminine):
-"bon" → <input type="text" placeholder="féminin" oninput="checkAnswer(this, 'bonne')"><span style="margin-left:10px;"></span>  
 
-"joli" → <input type="text" placeholder="féminin" oninput="checkAnswer(this, 'jolie')"><span style="margin-left:10px;"></span>  
+"bon" → <input type="text" placeholder="féminin" oninput="checkAnswer(this, 'bonne')">
 
-"sérieux" → <input type="text" placeholder="féminin" oninput="checkAnswer(this, 'sérieuse')"><span style="margin-left:10px;"></span>  
+"joli" → <input type="text" placeholder="féminin" oninput="checkAnswer(this, 'jolie')">
 
-## 4. Fill in the Blanks (Include Articles):  
+"sérieux" → <input type="text" placeholder="féminin" oninput="checkAnswer(this, 'sérieuse')">
 
-"Un homme ___ (actif) → Une femme ___." → <input type="text" placeholder="féminin" oninput="checkAnswer(this, 'active')"><span style="margin-left:10px;"></span>  
+## 4. Fill in the Blanks (Include Articles):
 
-"Un livre ___ (nouveau) → Une édition ___." → <input type="text" placeholder="féminin" oninput="checkAnswer(this, 'nouvelle')"><span style="margin-left:10px;"></span>  
+"Un homme \_\_\_ (actif) → Une femme \_\_\_." → <input type="text" placeholder="féminin" oninput="checkAnswer(this, 'active')">
 
-"Un dessert ___ (frais) → Une tarte ___." → <input type="text" placeholder="féminin" oninput="checkAnswer(this, 'fraîche')"><span style="margin-left:10px;"></span>  
+"Un livre \_\_\_ (nouveau) → Une édition \_\_\_." → <input type="text" placeholder="féminin" oninput="checkAnswer(this, 'nouvelle')">
 
-<button onclick="showAnswers()">Show All Answers</button>  
+"Un dessert \_\_\_ (frais) → Une tarte \_\_\_." → <input type="text" placeholder="féminin" oninput="checkAnswer(this, 'fraîche')">
 
+<button onclick="showAnswers()">
+
+Show All Answers
+
+</button>
+
+```{=html}
 <script>  
 function showAnswers() {  
     document.querySelectorAll('input[type="text"]').forEach(input => {  
@@ -71,23 +76,36 @@ function showAnswers() {
 function refreshPage() {  
     location.reload();  
 }  
-</script>  
+</script>
+```
 
-<button onclick="refreshPage()">Refresh Page</button>
+<button onclick="refreshPage()">
+
+Refresh Page
+
+</button>
 
 ## 5. Translate into French (Use Feminine Adjectives):
 
-1. "She has a long dress."
+1.  "She has a long dress."
 
-<textarea placeholder="Elle a..." rows="2" cols="50" oninput="checkTranslation(this, 'Elle a une robe longue')"></textarea><span style="margin-left:10px;"></span>
+```{=html}
+<textarea placeholder="Elle a..." rows="2" cols="50" oninput="checkTranslation(this, 'Elle a une robe longue')"></textarea>
+```
 
-2. "The white cat is gentle."
+2.  "The white cat is gentle."
 
-<textarea placeholder="Le chat..." rows="2" cols="50" oninput="checkTranslation(this, 'Le chat blanc est gentil')"></textarea><span style="margin-left:10px;"></span>
+```{=html}
+<textarea placeholder="Le chat..." rows="2" cols="50" oninput="checkTranslation(this, 'Le chat blanc est gentil')"></textarea>
+```
 
+<button onclick="checkAllAnswers()">
 
-<button onclick="checkAllAnswers()">Check Answers</button>  
+Check Answers
 
+</button>
+
+```{=html}
 <script>  
 function checkAnswer(input, correctAnswer) {  
     const feedback = input.nextElementSibling;  
@@ -122,9 +140,11 @@ function checkTranslation(textarea, correctAnswer) {
         feedback.style.color = "red";  
     }  
 }  
-</script>  
+</script>
+```
 
 ### Notes:
+
 General Rule: Add *-e* (petit → petite).
 
 Exceptions:
@@ -138,63 +158,70 @@ Exceptions:
 Doubling consonants (bon → bonne).
 
 Irregulars: beau → belle, nouveau → nouvelle, vieux → vieille.
-
 :::
 
 ::: {.content-visible when-profile="french"}
-
-Exercice : Former le féminin des adjectifs
-Transformez les adjectifs masculins en leur forme féminine. Faites attention aux règles d’orthographe !
+Exercice : Former le féminin des adjectifs Transformez les adjectifs masculins en leur forme féminine. Faites attention aux règles d’orthographe !
 
 ## 1. Écrivez la forme féminine :
 
-« clair » → <input type="text" placeholder="féminin" oninput="checkAnswer(this, 'claire')"><span style="margin-left:10px;"></span>  
+« clair » → <input type="text" placeholder="féminin" oninput="checkAnswer(this, 'claire')">
 
-« facile » → <input type="text" placeholder="féminin" oninput="checkAnswer(this, 'facile')"><span style="margin-left:10px;"></span>  
+« facile » → <input type="text" placeholder="féminin" oninput="checkAnswer(this, 'facile')">
 
-« sportif » → <input type="text" placeholder="féminin" oninput="checkAnswer(this, 'sportive')"><span style="margin-left:10px;"></span>  
+« sportif » → <input type="text" placeholder="féminin" oninput="checkAnswer(this, 'sportive')">
 
-« furieux » → <input type="text" placeholder="féminin" oninput="checkAnswer(this, 'furieuse')"><span style="margin-left:10px;"></span>  
+« furieux » → <input type="text" placeholder="féminin" oninput="checkAnswer(this, 'furieuse')">
 
-« gentil » → <input type="text" placeholder="féminin" oninput="checkAnswer(this, 'gentille')"><span style="margin-left:10px;"></span>  
+« gentil » → <input type="text" placeholder="féminin" oninput="checkAnswer(this, 'gentille')">
 
-« cher » → <input type="text" placeholder="féminin" oninput="checkAnswer(this, 'chère')"><span style="margin-left:10px;"></span>  
+« cher » → <input type="text" placeholder="féminin" oninput="checkAnswer(this, 'chère')">
 
-« inquiet » → <input type="text" placeholder="féminin" oninput="checkAnswer(this, 'inquiète')"><span style="margin-left:10px;"></span>  
+« inquiet » → <input type="text" placeholder="féminin" oninput="checkAnswer(this, 'inquiète')">
 
-« froid » → <input type="text" placeholder="féminin" oninput="checkAnswer(this, 'froide')"><span style="margin-left:10px;"></span>  
+« froid » → <input type="text" placeholder="féminin" oninput="checkAnswer(this, 'froide')">
 
-« long » → <input type="text" placeholder="féminin" oninput="checkAnswer(this, 'longue')"><span style="margin-left:10px;"></span>  
+« long » → <input type="text" placeholder="féminin" oninput="checkAnswer(this, 'longue')">
 
-« beau » → <input type="text" placeholder="féminin" oninput="checkAnswer(this, 'belle')"><span style="margin-left:10px;"></span>  
+« beau » → <input type="text" placeholder="féminin" oninput="checkAnswer(this, 'belle')">
 
 ## 2. Corrigez les erreurs (formes féminines) :
-« gros → grose » → <input type="text" placeholder="Forme correcte" oninput="checkAnswer(this, 'grosse')"><span style="margin-left:10px;"></span>  
 
-« fier → fière » (déjà correct) → <input type="text" placeholder="Aucun changement ?" oninput="checkAnswer(this, 'fière')"><span style="margin-left:10px;"></span>  
+« gros → grose » → <input type="text" placeholder="Forme correcte" oninput="checkAnswer(this, 'grosse')">
 
-« blanc → blance » → <input type="text" placeholder="Forme correcte" oninput="checkAnswer(this, 'blanche')"><span style="margin-left:10px;"></span>  
+« fier → fière » (déjà correct) → <input type="text" placeholder="Aucun changement ?" oninput="checkAnswer(this, 'fière')">
+
+« blanc → blance » → <input type="text" placeholder="Forme correcte" oninput="checkAnswer(this, 'blanche')">
 
 ## 3. Associez les paires (masculin → féminin) :
-« bon » → <input type="text" placeholder="féminin" oninput="checkAnswer(this, 'bonne')"><span style="margin-left:10px;"></span>  
 
-« joli » → <input type="text" placeholder="féminin" oninput="checkAnswer(this, 'jolie')"><span style="margin-left:10px;"></span>  
+« bon » → <input type="text" placeholder="féminin" oninput="checkAnswer(this, 'bonne')">
 
-« sérieux » → <input type="text" placeholder="féminin" oninput="checkAnswer(this, 'sérieuse')"><span style="margin-left:10px;"></span>  
+« joli » → <input type="text" placeholder="féminin" oninput="checkAnswer(this, 'jolie')">
 
-## 4. Complétez les phrases (avec articles) :  
+« sérieux » → <input type="text" placeholder="féminin" oninput="checkAnswer(this, 'sérieuse')">
 
-« Un homme ___ (actif) → Une femme ___. » → <input type="text" placeholder="féminin" oninput="checkAnswer(this, 'active')"><span style="margin-left:10px;"></span>  
+## 4. Complétez les phrases (avec articles) :
 
-« Un livre ___ (nouveau) → Une édition ___. » → <input type="text" placeholder="féminin" oninput="checkAnswer(this, 'nouvelle')"><span style="margin-left:10px;"></span>  
+« Un homme \_\_\_ (actif) → Une femme \_\_\_. » → <input type="text" placeholder="féminin" oninput="checkAnswer(this, 'active')">
 
-« Un dessert ___ (frais) → Une tarte ___. » → <input type="text" placeholder="féminin" oninput="checkAnswer(this, 'fraîche')"><span style="margin-left:10px;"></span>  
+« Un livre \_\_\_ (nouveau) → Une édition \_\_\_. » → <input type="text" placeholder="féminin" oninput="checkAnswer(this, 'nouvelle')">
 
-<button onclick="showAnswers()">Afficher toutes les réponses</button>  
+« Un dessert \_\_\_ (frais) → Une tarte \_\_\_. » → <input type="text" placeholder="féminin" oninput="checkAnswer(this, 'fraîche')">
 
-<button onclick="refreshPage()">Rafraîchir la page</button>
+<button onclick="showAnswers()">
 
+Afficher toutes les réponses
 
+</button>
+
+<button onclick="refreshPage()">
+
+Rafraîchir la page
+
+</button>
+
+```{=html}
 <script>  
 function showAnswers() {  
     document.querySelectorAll('input[type="text"]').forEach(input => {  
@@ -209,23 +236,31 @@ function showAnswers() {
 function refreshPage() {  
     location.reload();  
 }  
-</script>  
-
+</script>
+```
 
 ## 5. Traduisez en français (utilisez les adjectifs féminins) :
 
-1. "She has a long dress."
+1.  "She has a long dress."
 
-<textarea placeholder="Elle a..." rows="2" cols="50" oninput="checkTranslation(this, 'Elle a une robe longue')"></textarea><span style="margin-left:10px;"></span>
+```{=html}
+<textarea placeholder="Elle a..." rows="2" cols="50" oninput="checkTranslation(this, 'Elle a une robe longue')"></textarea>
+```
 
-2. "The white cat is gentle."
+2.  "The white cat is gentle."
 
-<textarea placeholder="Le chat..." rows="2" cols="50" oninput="checkTranslation(this, 'Le chat blanc est gentil')"></textarea><span style="margin-left:10px;"></span>
+```{=html}
+<textarea placeholder="Le chat..." rows="2" cols="50" oninput="checkTranslation(this, 'Le chat blanc est gentil')"></textarea>
+```
 
+<button onclick="checkAllAnswers()">
 
-<button onclick="checkAllAnswers()">Vérifier les réponses</button>  
+Vérifier les réponses
+
+</button>
 
 ### Notes :
+
 Règle générale : ajoutez *-e* (petit → petite).
 
 Exceptions :
@@ -240,9 +275,7 @@ Doublement de consonne (bon → bonne).
 
 Irréguliers : beau → belle, nouveau → nouvelle, vieux → vieille.
 
-
-
-
+```{=html}
 <script>  
 function checkAnswer(input, correctAnswer) {  
     const feedback = input.nextElementSibling;  
@@ -277,6 +310,6 @@ function checkTranslation(textarea, correctAnswer) {
         feedback.style.color = "red";  
     }  
 }  
-</script>  
-
+</script>
+```
 :::

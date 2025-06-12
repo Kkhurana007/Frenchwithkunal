@@ -7,119 +7,119 @@ image: "interrogative.png"
 ---
 
 ::: {.content-visible when-profile="english"}
-
 # Asking for Information with Partial Interrogatives
 
 In French, **partial interrogatives** are used to ask for specific information other than a simple yes/no answer. These questions begin with a question word such as:
 
-- **Où** (where)
-- **Quand** (when)
-- **Pourquoi** (why)
-- **Comment** (how)
-- **Quoi / Que** (what)
-- **Qui** (who)
-- **Combien (de)** (how much/many)
+-   **Où** (where)
+-   **Quand** (when)
+-   **Pourquoi** (why)
+-   **Comment** (how)
+-   **Quoi / Que** (what)
+-   **Qui** (who)
+-   **Combien (de)** (how much/many)
 
 These words help you ask about place, time, reason, manner, identity, quantity, etc.
 
----
+------------------------------------------------------------------------
 
 ## 1. Common Partial Interrogative Words
 
-| French      | English         | Example                                 |
-|-------------|----------------|-----------------------------------------|
-| Où          | Where           | Où habites-tu ? (Where do you live?)    |
-| Quand       | When            | Quand arrives-tu ? (When do you arrive?)|
-| Pourquoi    | Why             | Pourquoi étudies-tu ? (Why do you study?)|
-| Comment     | How             | Comment vas-tu ? (How are you?)         |
-| Qui         | Who             | Qui est-ce ? (Who is it?)               |
-| Que / Quoi  | What            | Que fais-tu ? (What are you doing?)     |
-| Combien (de)| How much/many   | Combien de frères as-tu ? (How many brothers do you have?)|
+| French | English | Example |
+|-----------------|-----------------|---------------------------------------|
+| Où | Where | Où habites-tu ? (Where do you live?) |
+| Quand | When | Quand arrives-tu ? (When do you arrive?) |
+| Pourquoi | Why | Pourquoi étudies-tu ? (Why do you study?) |
+| Comment | How | Comment vas-tu ? (How are you?) |
+| Qui | Who | Qui est-ce ? (Who is it?) |
+| Que / Quoi | What | Que fais-tu ? (What are you doing?) |
+| Combien (de) | How much/many | Combien de frères as-tu ? (How many brothers do you have?) |
 
----
+------------------------------------------------------------------------
 
 ## 2. Structure of Partial Questions
 
 Partial questions usually follow this structure:
 
-**[Question word] + [verb] + [subject] + ... ?**
+**\[Question word\] + \[verb\] + \[subject\] + ... ?**
 
-Examples:
-- Où vas-tu ? (Where are you going?)
-- Quand commence le cours ? (When does the class start?)
-- Pourquoi ris-tu ? (Why are you laughing?)
-- Comment s’appelle-t-il ? (What is his name?)
-- Qui parle ? (Who is speaking?)
-- Que veux-tu ? (What do you want?)
-- Combien coûte ce livre ? (How much does this book cost?)
+Examples: - Où vas-tu ? (Where are you going?) - Quand commence le cours ? (When does the class start?) - Pourquoi ris-tu ? (Why are you laughing?) - Comment s’appelle-t-il ? (What is his name?) - Qui parle ? (Who is speaking?) - Que veux-tu ? (What do you want?) - Combien coûte ce livre ? (How much does this book cost?)
 
----
+------------------------------------------------------------------------
 
 # Exercises
 
 ## 1. Complete the questions with the correct interrogative word
 
-1. ______ vas-tu ? <input type="text" placeholder="" oninput="checkAnswer(this, 'Où')"> <span></span>
-2. ______ commence la réunion ? <input type="text" placeholder="" oninput="checkAnswer(this, 'Quand')"> <span></span>
-3. ______ est-ce ? <input type="text" placeholder="" oninput="checkAnswer(this, 'Qui')"> <span></span>
-4. ______ tu ris ? <input type="text" placeholder="" oninput="checkAnswer(this, 'Pourquoi')"> <span></span>
-5. ______ s’appelle-t-elle ? <input type="text" placeholder="" oninput="checkAnswer(this, 'Comment')"> <span></span>
-6. ______ fais-tu ? <input type="text" placeholder="" oninput="checkAnswer(this, 'Que')"> <span></span>
-7. ______ de frères as-tu ? <input type="text" placeholder="" oninput="checkAnswer(this, 'Combien')"> <span></span>
-8. ______ coûte ce livre ? <input type="text" placeholder="" oninput="checkAnswer(this, 'Combien')"> <span></span>
-9. ______ parles-tu ? <input type="text" placeholder="" oninput="checkAnswer(this, 'À qui')"> <span></span>
-10. ______ veux-tu manger ? <input type="text" placeholder="" oninput="checkAnswer(this, 'Qu\'est-ce que')"> <span></span>
+1.  \_\_\_\_\_\_ vas-tu ? <input type="text" placeholder="" oninput="checkAnswer(this, 'Où')">
+2.  \_\_\_\_\_\_ commence la réunion ? <input type="text" placeholder="" oninput="checkAnswer(this, 'Quand')">
+3.  \_\_\_\_\_\_ est-ce ? <input type="text" placeholder="" oninput="checkAnswer(this, 'Qui')">
+4.  \_\_\_\_\_\_ tu ris ? <input type="text" placeholder="" oninput="checkAnswer(this, 'Pourquoi')">
+5.  \_\_\_\_\_\_ s’appelle-t-elle ? <input type="text" placeholder="" oninput="checkAnswer(this, 'Comment')">
+6.  \_\_\_\_\_\_ fais-tu ? <input type="text" placeholder="" oninput="checkAnswer(this, 'Que')">
+7.  \_\_\_\_\_\_ de frères as-tu ? <input type="text" placeholder="" oninput="checkAnswer(this, 'Combien')">
+8.  \_\_\_\_\_\_ coûte ce livre ? <input type="text" placeholder="" oninput="checkAnswer(this, 'Combien')">
+9.  \_\_\_\_\_\_ parles-tu ? <input type="text" placeholder="" oninput="checkAnswer(this, 'À qui')">
+10. \_\_\_\_\_\_ veux-tu manger ? <input type="text" placeholder="" oninput="checkAnswer(this, 'Qu\'est-ce que')">
 
----
+------------------------------------------------------------------------
 
 ## 2. Transform the statement into a question using the appropriate interrogative word
 
-1. Je vais à Paris. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Où vas-tu ?')"> <span></span>
-2. La réunion commence à 10h. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Quand commence la réunion ?')"> <span></span>
-3. Il s’appelle Marc. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Comment s’appelle-t-il ?')"> <span></span>
-4. Je ris parce que c’est drôle. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Pourquoi ris-tu ?')"> <span></span>
-5. Ce livre coûte 10 euros. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Combien coûte ce livre ?')"> <span></span>
-6. Je parle à Sophie. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'À qui parles-tu ?')"> <span></span>
-7. Je veux manger une pomme. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Qu\'est-ce que tu veux manger ?')"> <span></span>
-8. J’ai deux frères. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Combien de frères as-tu ?')"> <span></span>
-9. Il fait ses devoirs. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Que fait-il ?')"> <span></span>
-10. Marie arrive à 8h. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Quand arrive Marie ?')"> <span></span>
-11. Elle va à l’école en bus. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Comment va-t-elle à l\'école ?')"> <span></span>
-12. Paul téléphone à sa mère. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'À qui Paul téléphone-t-il ?')"> <span></span>
-13. Nous partons demain. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Quand partons-nous ?')"> <span></span>
-14. Il y a cinq élèves dans la classe. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Combien d\'élèves y a-t-il dans la classe ?')"> <span></span>
-15. Tu veux faire quoi ce soir ? → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Que veux-tu faire ce soir ?')"> <span></span>
-16. Ce stylo appartient à qui ? → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'À qui appartient ce stylo ?')"> <span></span>
-17. Ils habitent à Lyon. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Où habitent-ils ?')"> <span></span>
-18. Tu ris parce que tu es content. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Pourquoi ris-tu ?')"> <span></span>
-19. Il mange une pomme. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Que mange-t-il ?')"> <span></span>
-20. Elle parle à son professeur. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'À qui parle-t-elle ?')"> <span></span>
+1.  Je vais à Paris. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Où vas-tu ?')">
+2.  La réunion commence à 10h. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Quand commence la réunion ?')">
+3.  Il s’appelle Marc. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Comment s’appelle-t-il ?')">
+4.  Je ris parce que c’est drôle. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Pourquoi ris-tu ?')">
+5.  Ce livre coûte 10 euros. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Combien coûte ce livre ?')">
+6.  Je parle à Sophie. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'À qui parles-tu ?')">
+7.  Je veux manger une pomme. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Qu\'est-ce que tu veux manger ?')">
+8.  J’ai deux frères. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Combien de frères as-tu ?')">
+9.  Il fait ses devoirs. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Que fait-il ?')">
+10. Marie arrive à 8h. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Quand arrive Marie ?')">
+11. Elle va à l’école en bus. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Comment va-t-elle à l\'école ?')">
+12. Paul téléphone à sa mère. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'À qui Paul téléphone-t-il ?')">
+13. Nous partons demain. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Quand partons-nous ?')">
+14. Il y a cinq élèves dans la classe. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Combien d\'élèves y a-t-il dans la classe ?')">
+15. Tu veux faire quoi ce soir ? → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Que veux-tu faire ce soir ?')">
+16. Ce stylo appartient à qui ? → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'À qui appartient ce stylo ?')">
+17. Ils habitent à Lyon. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Où habitent-ils ?')">
+18. Tu ris parce que tu es content. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Pourquoi ris-tu ?')">
+19. Il mange une pomme. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Que mange-t-il ?')">
+20. Elle parle à son professeur. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'À qui parle-t-elle ?')">
 
----
+------------------------------------------------------------------------
 
 ## 3. Translate to French using the correct interrogative word
 
-1. Where do you live? <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Où habites-tu?')"> <span></span>
-2. When does the class start? <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Quand commence le cours?')"> <span></span>
-3. Why are you sad? <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Pourquoi es-tu triste?')"> <span></span>
-4. How do you go to school? <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Comment vas-tu à l\'école?')"> <span></span>
-5. Who is calling? <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Qui appelle?')"> <span></span>
-6. What are you doing? <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Que fais-tu?')"> <span></span>
-7. How many sisters do you have? <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Combien de sœurs as-tu?')"> <span></span>
-8. What do you want? <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Qu\'est-ce que tu veux?')"> <span></span>
-9. Who are you talking to? <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'À qui parles-tu?')"> <span></span>
-10. How much does it cost? <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Combien ça coûte?')"> <span></span>
-11. What time is it? <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Quelle heure est-il?')"> <span></span>
-12. Where are they going? <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Où vont-ils?')"> <span></span>
-13. Why are you laughing? <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Pourquoi ris-tu?')"> <span></span>
-14. How do you say this in French? <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Comment dit-on cela en français?')"> <span></span>
-15. Who is your teacher? <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Qui est ton professeur?')"> <span></span>
+1.  Where do you live? <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Où habites-tu?')">
+2.  When does the class start? <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Quand commence le cours?')">
+3.  Why are you sad? <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Pourquoi es-tu triste?')">
+4.  How do you go to school? <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Comment vas-tu à l\'école?')">
+5.  Who is calling? <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Qui appelle?')">
+6.  What are you doing? <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Que fais-tu?')">
+7.  How many sisters do you have? <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Combien de sœurs as-tu?')">
+8.  What do you want? <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Qu\'est-ce que tu veux?')">
+9.  Who are you talking to? <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'À qui parles-tu?')">
+10. How much does it cost? <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Combien ça coûte?')">
+11. What time is it? <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Quelle heure est-il?')">
+12. Where are they going? <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Où vont-ils?')">
+13. Why are you laughing? <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Pourquoi ris-tu?')">
+14. How do you say this in French? <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Comment dit-on cela en français?')">
+15. Who is your teacher? <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Qui est ton professeur?')">
 
+<button onclick="showAnswers()">
 
-<button onclick="showAnswers()">Show Answers</button>
-<button onclick="refreshPage()">Try Again</button>
+Show Answers
 
+</button>
 
+<button onclick="refreshPage()">
+
+Try Again
+
+</button>
+
+```{=html}
 <script>
 function checkAnswer(input, correctAnswer) {
     const span = input.nextElementSibling;
@@ -146,126 +146,123 @@ function refreshPage() {
     location.reload();
 }
 </script>
-
+```
 :::
 
-
-
 ::: {.content-visible when-profile="french"}
-
-
 # Demander des informations avec les interrogatifs partiels
 
 En français, les **interrogatifs partiels** servent à demander une information précise, autre qu’un simple oui/non. Ces questions commencent par un mot interrogatif comme :
 
-- **Où** (où)
-- **Quand** (quand)
-- **Pourquoi** (pourquoi)
-- **Comment** (comment)
-- **Quoi / Que** (quoi / que)
-- **Qui** (qui)
-- **Combien (de)** (combien)
+-   **Où** (où)
+-   **Quand** (quand)
+-   **Pourquoi** (pourquoi)
+-   **Comment** (comment)
+-   **Quoi / Que** (quoi / que)
+-   **Qui** (qui)
+-   **Combien (de)** (combien)
 
 Ces mots permettent de demander un lieu, un moment, une raison, une manière, une identité, une quantité, etc.
 
----
+------------------------------------------------------------------------
 
 ## 1. Mots interrogatifs partiels courants
 
-| Français      | Anglais         | Exemple                                   |
-|---------------|-----------------|-------------------------------------------|
-| Où            | Where           | Où habites-tu ? (Where do you live?)      |
-| Quand         | When            | Quand arrives-tu ? (When do you arrive?)  |
-| Pourquoi      | Why             | Pourquoi étudies-tu ? (Why do you study?) |
-| Comment       | How             | Comment vas-tu ? (How are you?)           |
-| Qui           | Who             | Qui est-ce ? (Who is it?)                 |
-| Que / Quoi    | What            | Que fais-tu ? (What are you doing?)       |
-| Combien (de)  | How much/many   | Combien de frères as-tu ? (How many brothers do you have?) |
+| Français | Anglais | Exemple |
+|-----------------|-----------------|---------------------------------------|
+| Où | Where | Où habites-tu ? (Where do you live?) |
+| Quand | When | Quand arrives-tu ? (When do you arrive?) |
+| Pourquoi | Why | Pourquoi étudies-tu ? (Why do you study?) |
+| Comment | How | Comment vas-tu ? (How are you?) |
+| Qui | Who | Qui est-ce ? (Who is it?) |
+| Que / Quoi | What | Que fais-tu ? (What are you doing?) |
+| Combien (de) | How much/many | Combien de frères as-tu ? (How many brothers do you have?) |
 
----
+------------------------------------------------------------------------
 
 ## 2. Structure des questions partielles
 
 Les questions partielles suivent généralement cette structure :
 
-**[Mot interrogatif] + [verbe] + [sujet] + ... ?**
+**\[Mot interrogatif\] + \[verbe\] + \[sujet\] + ... ?**
 
-Exemples :
-- Où vas-tu ? (Où vas-tu ?)
-- Quand commence le cours ? (Quand commence le cours ?)
-- Pourquoi ris-tu ? (Pourquoi ris-tu ?)
-- Comment s’appelle-t-il ? (Comment s’appelle-t-il ?)
-- Qui parle ? (Qui parle ?)
-- Que veux-tu ? (Que veux-tu ?)
-- Combien coûte ce livre ? (Combien coûte ce livre ?)
+Exemples : - Où vas-tu ? (Où vas-tu ?) - Quand commence le cours ? (Quand commence le cours ?) - Pourquoi ris-tu ? (Pourquoi ris-tu ?) - Comment s’appelle-t-il ? (Comment s’appelle-t-il ?) - Qui parle ? (Qui parle ?) - Que veux-tu ? (Que veux-tu ?) - Combien coûte ce livre ? (Combien coûte ce livre ?)
 
----
+------------------------------------------------------------------------
 
 # Exercices
 
 ## 1. Complétez les questions avec le mot interrogatif correct
 
-1. ______ vas-tu ? <input type="text" placeholder="" oninput="checkAnswer(this, 'Où')"> <span></span>
-2. ______ commence la réunion ? <input type="text" placeholder="" oninput="checkAnswer(this, 'Quand')"> <span></span>
-3. ______ est-ce ? <input type="text" placeholder="" oninput="checkAnswer(this, 'Qui')"> <span></span>
-4. ______ tu ris ? <input type="text" placeholder="" oninput="checkAnswer(this, 'Pourquoi')"> <span></span>
-5. ______ s’appelle-t-elle ? <input type="text" placeholder="" oninput="checkAnswer(this, 'Comment')"> <span></span>
-6. ______ fais-tu ? <input type="text" placeholder="" oninput="checkAnswer(this, 'Que')"> <span></span>
-7. ______ de frères as-tu ? <input type="text" placeholder="" oninput="checkAnswer(this, 'Combien')"> <span></span>
-8. ______ coûte ce livre ? <input type="text" placeholder="" oninput="checkAnswer(this, 'Combien')"> <span></span>
-9. ______ parles-tu ? <input type="text" placeholder="" oninput="checkAnswer(this, 'À qui')"> <span></span>
-10. ______ veux-tu manger ? <input type="text" placeholder="" oninput="checkAnswer(this, 'Qu\'est-ce que')"> <span></span>
+1.  \_\_\_\_\_\_ vas-tu ? <input type="text" placeholder="" oninput="checkAnswer(this, 'Où')">
+2.  \_\_\_\_\_\_ commence la réunion ? <input type="text" placeholder="" oninput="checkAnswer(this, 'Quand')">
+3.  \_\_\_\_\_\_ est-ce ? <input type="text" placeholder="" oninput="checkAnswer(this, 'Qui')">
+4.  \_\_\_\_\_\_ tu ris ? <input type="text" placeholder="" oninput="checkAnswer(this, 'Pourquoi')">
+5.  \_\_\_\_\_\_ s’appelle-t-elle ? <input type="text" placeholder="" oninput="checkAnswer(this, 'Comment')">
+6.  \_\_\_\_\_\_ fais-tu ? <input type="text" placeholder="" oninput="checkAnswer(this, 'Que')">
+7.  \_\_\_\_\_\_ de frères as-tu ? <input type="text" placeholder="" oninput="checkAnswer(this, 'Combien')">
+8.  \_\_\_\_\_\_ coûte ce livre ? <input type="text" placeholder="" oninput="checkAnswer(this, 'Combien')">
+9.  \_\_\_\_\_\_ parles-tu ? <input type="text" placeholder="" oninput="checkAnswer(this, 'À qui')">
+10. \_\_\_\_\_\_ veux-tu manger ? <input type="text" placeholder="" oninput="checkAnswer(this, 'Qu\'est-ce que')">
 
----
+------------------------------------------------------------------------
 
 ## 2. Transformez l’affirmation en question avec le mot interrogatif approprié
 
-1. Je vais à Paris. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Où vas-tu ?')"> <span></span>
-2. La réunion commence à 10h. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Quand commence la réunion ?')"> <span></span>
-3. Il s’appelle Marc. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Comment s’appelle-t-il ?')"> <span></span>
-4. Je ris parce que c’est drôle. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Pourquoi ris-tu ?')"> <span></span>
-5. Ce livre coûte 10 euros. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Combien coûte ce livre ?')"> <span></span>
-6. Je parle à Sophie. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'À qui parles-tu ?')"> <span></span>
-7. Je veux manger une pomme. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Qu\'est-ce que tu veux manger ?')"> <span></span>
-8. J’ai deux frères. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Combien de frères as-tu ?')"> <span></span>
-9. Il fait ses devoirs. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Que fait-il ?')"> <span></span>
-10. Marie arrive à 8h. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Quand arrive Marie ?')"> <span></span>
-11. Elle va à l’école en bus. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Comment va-t-elle à l\'école ?')"> <span></span>
-12. Paul téléphone à sa mère. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'À qui Paul téléphone-t-il ?')"> <span></span>
-13. Nous partons demain. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Quand partons-nous ?')"> <span></span>
-14. Il y a cinq élèves dans la classe. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Combien d\'élèves y a-t-il dans la classe ?')"> <span></span>
-15. Tu veux faire quoi ce soir ? → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Que veux-tu faire ce soir ?')"> <span></span>
-16. Ce stylo appartient à qui ? → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'À qui appartient ce stylo ?')"> <span></span>
-17. Ils habitent à Lyon. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Où habitent-ils ?')"> <span></span>
-18. Tu ris parce que tu es content. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Pourquoi ris-tu ?')"> <span></span>
-19. Il mange une pomme. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Que mange-t-il ?')"> <span></span>
-20. Elle parle à son professeur. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'À qui parle-t-elle ?')"> <span></span>
+1.  Je vais à Paris. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Où vas-tu ?')">
+2.  La réunion commence à 10h. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Quand commence la réunion ?')">
+3.  Il s’appelle Marc. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Comment s’appelle-t-il ?')">
+4.  Je ris parce que c’est drôle. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Pourquoi ris-tu ?')">
+5.  Ce livre coûte 10 euros. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Combien coûte ce livre ?')">
+6.  Je parle à Sophie. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'À qui parles-tu ?')">
+7.  Je veux manger une pomme. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Qu\'est-ce que tu veux manger ?')">
+8.  J’ai deux frères. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Combien de frères as-tu ?')">
+9.  Il fait ses devoirs. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Que fait-il ?')">
+10. Marie arrive à 8h. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Quand arrive Marie ?')">
+11. Elle va à l’école en bus. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Comment va-t-elle à l\'école ?')">
+12. Paul téléphone à sa mère. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'À qui Paul téléphone-t-il ?')">
+13. Nous partons demain. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Quand partons-nous ?')">
+14. Il y a cinq élèves dans la classe. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Combien d\'élèves y a-t-il dans la classe ?')">
+15. Tu veux faire quoi ce soir ? → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Que veux-tu faire ce soir ?')">
+16. Ce stylo appartient à qui ? → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'À qui appartient ce stylo ?')">
+17. Ils habitent à Lyon. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Où habitent-ils ?')">
+18. Tu ris parce que tu es content. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Pourquoi ris-tu ?')">
+19. Il mange une pomme. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Que mange-t-il ?')">
+20. Elle parle à son professeur. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'À qui parle-t-elle ?')">
 
----
+------------------------------------------------------------------------
 
 ## 3. Traduisez en français avec le bon mot interrogatif
 
-1. Where do you live? <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Où habites-tu ?')"> <span></span>
-2. When does the class start? <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Quand commence le cours ?')"> <span></span>
-3. Why are you sad? <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Pourquoi es-tu triste ?')"> <span></span>
-4. How do you go to school? <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Comment vas-tu à l\'école ?')"> <span></span>
-5. Who is calling? <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Qui appelle ?')"> <span></span>
-6. What are you doing? <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Que fais-tu ?')"> <span></span>
-7. How many sisters do you have? <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Combien de sœurs as-tu ?')"> <span></span>
-8. What do you want? <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Qu\'est-ce que tu veux ?')"> <span></span>
-9. Who are you talking to? <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'À qui parles-tu ?')"> <span></span>
-10. How much does it cost? <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Combien ça coûte ?')"> <span></span>
-11. What time is it? <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Quelle heure est-il ?')"> <span></span>
-12. Where are they going? <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Où vont-ils ?')"> <span></span>
-13. Why are you laughing? <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Pourquoi ris-tu ?')"> <span></span>
-14. How do you say this in French? <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Comment dit-on cela en français ?')"> <span></span>
-15. Who is your teacher? <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Qui est ton professeur ?')"> <span></span>
+1.  Where do you live? <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Où habites-tu ?')">
+2.  When does the class start? <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Quand commence le cours ?')">
+3.  Why are you sad? <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Pourquoi es-tu triste ?')">
+4.  How do you go to school? <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Comment vas-tu à l\'école ?')">
+5.  Who is calling? <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Qui appelle ?')">
+6.  What are you doing? <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Que fais-tu ?')">
+7.  How many sisters do you have? <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Combien de sœurs as-tu ?')">
+8.  What do you want? <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Qu\'est-ce que tu veux ?')">
+9.  Who are you talking to? <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'À qui parles-tu ?')">
+10. How much does it cost? <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Combien ça coûte ?')">
+11. What time is it? <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Quelle heure est-il ?')">
+12. Where are they going? <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Où vont-ils ?')">
+13. Why are you laughing? <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Pourquoi ris-tu ?')">
+14. How do you say this in French? <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Comment dit-on cela en français ?')">
+15. Who is your teacher? <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Qui est ton professeur ?')">
 
+<button onclick="showAnswers()">
 
-<button onclick="showAnswers()">Afficher les réponses</button>
-<button onclick="refreshPage()">Réessayer</button>
+Afficher les réponses
 
+</button>
 
+<button onclick="refreshPage()">
+
+Réessayer
+
+</button>
+
+```{=html}
 <script>
 function checkAnswer(input, correctAnswer) {
     const span = input.nextElementSibling;
@@ -292,6 +289,5 @@ function refreshPage() {
     location.reload();
 }
 </script>
-
-
+```
 :::

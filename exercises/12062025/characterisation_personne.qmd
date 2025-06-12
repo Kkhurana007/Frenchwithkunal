@@ -1,0 +1,417 @@
+---
+title: "Décrire une personne en français (Describing a Person in French)"
+author: "Kunal Khurana"
+date: "06-08-2025"
+categories: [B1, grammar, adjectives, description, exercises]
+image: "characterisation_personne.png"
+---
+
+::: {.content-visible when-profile="english"}
+# Describing a Person in French
+
+To describe someone in French, you can talk about their age, height, body type, hair, skin, accessories, qualities, and flaws. Here are the main ways to characterize a person:
+
+## 1. Age (L’âge)
+
+- Use **avoir** for age:  
+    - J’ai 20 ans. (I am 20 years old.)
+- Use **être** for adjectives:  
+    - Il est jeune. (He is young.)  
+    - Elle est âgée. (She is elderly.)
+
+**Common adjectives:** jeune (young), âgé(e) (elderly), adulte (adult), enfant (child).
+
+---
+
+## 2. Height (La taille)
+
+- Use **être** + adjective:  
+    - Il est grand. (He is tall.)  
+    - Elle est petite. (She is short.)  
+    - Il est de taille moyenne. (He is of average height.)
+
+**Adjectives:** grand(e) (tall), petit(e) (short), de taille moyenne (average height).
+
+---
+
+## 3. Body Type (La corpulence)
+
+- Use **être** + adjective:  
+    - Il est mince. (He is slim.)  
+    - Elle est forte. (She is strong/big.)  
+    - Il est maigre. (He is skinny.)  
+    - Elle est ronde. (She is round.)
+
+**Adjectives:** maigre (skinny), mince (slim), rond(e) (round), fort(e) (strong/big).
+
+---
+
+## 4. Hair (Les cheveux)
+
+- Use **être** + adjective:  
+    - Il est blond. (He is blond.)  
+    - Elle est brune. (She is brunette.)  
+    - Il est châtain. (He is chestnut-haired.)  
+    - Elle est chauve. (She is bald.)
+
+**Adjectives:** blond(e), brun(e), châtain, roux/rousse (red-haired), chauve (bald).
+
+---
+
+## 5. Skin (La peau)
+
+- Use **être** + adjective:  
+    - Il est blanc. (He is white.)  
+    - Elle est noire. (She is black.)  
+    - Il a la peau mate. (He has olive skin.)  
+    - Elle a la peau bronzée. (She has tanned skin.)
+
+**Adjectives:** blanc(he), noir(e), foncé(e) (dark), mate (olive), bronzé(e) (tanned), doré(e) (golden).
+
+---
+
+## 6. Accessories (Les accessoires)
+
+- Use **porter** (to wear):  
+    - Il porte des lunettes. (He wears glasses.)  
+    - Elle porte une barbe. (She has a beard.)  
+    - Il porte une moustache. (He has a mustache.)
+
+**Accessories:** des lunettes (glasses), une barbe (beard), une moustache (mustache), des boucles d’oreilles (earrings), un chapeau (hat).
+
+---
+
+## 7. Qualities (Les qualités)
+
+- Use **être** + adjective:  
+    - Elle est belle. (She is beautiful.)  
+    - Il est intelligent. (He is intelligent.)  
+    - Elle est douce. (She is gentle.)  
+    - Il est joyeux. (He is joyful.)  
+    - Elle est dynamique. (She is energetic.)  
+    - Il est agréable. (He is pleasant.)  
+    - Elle est modeste. (She is modest.)
+
+---
+
+## 8. Flaws (Les défauts)
+
+- Use **être** + adjective:  
+    - Il est laid. (He is ugly.)  
+    - Elle est stupide. (She is stupid.)  
+    - Il est brutal. (He is brutal.)  
+    - Elle est sale. (She is dirty.)  
+    - Il est désagréable. (He is unpleasant.)  
+    - Elle est bruyante. (She is noisy.)  
+    - Il est impoli. (He is rude.)
+
+---
+
+# Exercises
+
+## 1. Fill in with the correct word for age or height
+
+1. J’\_\_\_\_\_\_\_ 25 ans. (to be) <input type="text" placeholder="" oninput="checkAnswer(this, 'ai')"><span></span>
+2. Il \_\_\_\_\_\_\_ jeune. (to be) <input type="text" placeholder="" oninput="checkAnswer(this, 'est')"><span></span>
+3. Elle est \_\_\_\_\_\_\_. (elderly) <input type="text" placeholder="" oninput="checkAnswer(this, 'âgée')"><span></span>
+4. Il est \_\_\_\_\_\_\_. (tall) <input type="text" placeholder="" oninput="checkAnswer(this, 'grand')"><span></span>
+5. Elle est de taille \_\_\_\_\_\_\_. (average) <input type="text" placeholder="" oninput="checkAnswer(this, 'moyenne')"><span></span>
+6. Nous \_\_\_\_\_\_\_ 30 ans. (to be) <input type="text" placeholder="" oninput="checkAnswer(this, 'avons')"><span></span>
+7. Vous \_\_\_\_\_\_\_ petits. (to be) <input type="text" placeholder="" oninput="checkAnswer(this, 'êtes')"><span></span>
+8. Ils sont \_\_\_\_\_\_\_. (children) <input type="text" placeholder="" oninput="checkAnswer(this, 'enfants')"><span></span>
+9. Tu \_\_\_\_\_\_\_ adulte. (to be) <input type="text" placeholder="" oninput="checkAnswer(this, 'es')"><span></span>
+10. Elle est \_\_\_\_\_\_\_. (short) <input type="text" placeholder="" oninput="checkAnswer(this, 'petite')"><span></span>
+
+---
+
+## 2. Choose the correct adjective for body type or hair
+
+1. Il est \_\_\_\_\_\_\_. (slim) <input type="text" placeholder="" oninput="checkAnswer(this, 'mince')"><span></span>
+2. Elle est \_\_\_\_\_\_\_. (round) <input type="text" placeholder="" oninput="checkAnswer(this, 'ronde')"><span></span>
+3. Il est \_\_\_\_\_\_\_. (bald) <input type="text" placeholder="" oninput="checkAnswer(this, 'chauve')"><span></span>
+4. Elle est \_\_\_\_\_\_\_. (brunette) <input type="text" placeholder="" oninput="checkAnswer(this, 'brune')"><span></span>
+5. Il est \_\_\_\_\_\_\_. (skinny) <input type="text" placeholder="" oninput="checkAnswer(this, 'maigre')"><span></span>
+6. Elle est \_\_\_\_\_\_\_. (strong/big) <input type="text" placeholder="" oninput="checkAnswer(this, 'forte')"><span></span>
+7. Il est \_\_\_\_\_\_\_. (red-haired) <input type="text" placeholder="" oninput="checkAnswer(this, 'roux')"><span></span>
+8. Elle est \_\_\_\_\_\_\_. (chestnut-haired) <input type="text" placeholder="" oninput="checkAnswer(this, 'châtain')"><span></span>
+9. Il est \_\_\_\_\_\_\_. (blond) <input type="text" placeholder="" oninput="checkAnswer(this, 'blond')"><span></span>
+10. Elle est \_\_\_\_\_\_\_. (slim) <input type="text" placeholder="" oninput="checkAnswer(this, 'mince')"><span></span>
+
+---
+
+## 3. Complete with the correct skin or accessory word
+
+1. Il est \_\_\_\_\_\_\_. (black) <input type="text" placeholder="" oninput="checkAnswer(this, 'noir')"><span></span>
+2. Elle a la peau \_\_\_\_\_\_\_. (tanned) <input type="text" placeholder="" oninput="checkAnswer(this, 'bronzée')"><span></span>
+3. Il porte des \_\_\_\_\_\_\_. (glasses) <input type="text" placeholder="" oninput="checkAnswer(this, 'lunettes')"><span></span>
+4. Elle porte une \_\_\_\_\_\_\_. (beard) <input type="text" placeholder="" oninput="checkAnswer(this, 'barbe')"><span></span>
+5. Il a la peau \_\_\_\_\_\_\_. (olive) <input type="text" placeholder="" oninput="checkAnswer(this, 'mate')"><span></span>
+6. Elle porte une \_\_\_\_\_\_\_. (hat) <input type="text" placeholder="" oninput="checkAnswer(this, 'chapeau')"><span></span>
+7. Il porte une \_\_\_\_\_\_\_. (mustache) <input type="text" placeholder="" oninput="checkAnswer(this, 'moustache')"><span></span>
+8. Elle porte des \_\_\_\_\_\_\_. (earrings) <input type="text" placeholder="" oninput="checkAnswer(this, 'boucles d’oreilles')"><span></span>
+9. Il est \_\_\_\_\_\_\_. (white) <input type="text" placeholder="" oninput="checkAnswer(this, 'blanc')"><span></span>
+10. Elle a la peau \_\_\_\_\_\_\_. (golden) <input type="text" placeholder="" oninput="checkAnswer(this, 'dorée')"><span></span>
+
+---
+
+## 4. Qualities and Flaws: Complete with the correct adjective
+
+1. Elle est \_\_\_\_\_\_\_. (beautiful) <input type="text" placeholder="" oninput="checkAnswer(this, 'belle')"><span></span>
+2. Il est \_\_\_\_\_\_\_. (intelligent) <input type="text" placeholder="" oninput="checkAnswer(this, 'intelligent')"><span></span>
+3. Elle est \_\_\_\_\_\_\_. (modest) <input type="text" placeholder="" oninput="checkAnswer(this, 'modeste')"><span></span>
+4. Il est \_\_\_\_\_\_\_. (ugly) <input type="text" placeholder="" oninput="checkAnswer(this, 'laid')"><span></span>
+5. Elle est \_\_\_\_\_\_\_. (noisy) <input type="text" placeholder="" oninput="checkAnswer(this, 'bruyante')"><span></span>
+6. Il est \_\_\_\_\_\_\_. (rude) <input type="text" placeholder="" oninput="checkAnswer(this, 'impoli')"><span></span>
+7. Elle est \_\_\_\_\_\_\_. (gentle) <input type="text" placeholder="" oninput="checkAnswer(this, 'douce')"><span></span>
+8. Il est \_\_\_\_\_\_\_. (pleasant) <input type="text" placeholder="" oninput="checkAnswer(this, 'agréable')"><span></span>
+9. Elle est \_\_\_\_\_\_\_. (energetic) <input type="text" placeholder="" oninput="checkAnswer(this, 'dynamique')"><span></span>
+10. Il est \_\_\_\_\_\_\_. (unpleasant) <input type="text" placeholder="" oninput="checkAnswer(this, 'désagréable')"><span></span>
+
+---
+
+<button onclick="showAnswers()">Show Answers</button>
+<button onclick="refreshPage()">Try Again</button>
+
+---
+
+## Practice: Write Your Own Sentences
+
+Write 3–4 sentences describing a person you know. Use at least two different ways to characterize them (age, height, body type, hair, skin, accessories, qualities, or flaws).
+
+<textarea style="width: 100%; min-height: 200px; font-size: 1.1em;" placeholder="Write your sentences here..."></textarea>
+
+<script>
+function checkAnswer(input, correctAnswer) {
+        const span = input.nextElementSibling;
+        if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
+                span.textContent = "✓ Correct";
+                span.style.color = "green";
+        } else {
+                span.textContent = "";
+        }
+}
+
+function showAnswers() {
+        document.querySelectorAll('input[type="text"]').forEach(el => {
+                const correct = el.getAttribute('oninput')?.match(/'([^']+)'/)?.[1];
+                if (correct) {
+                        const span = el.nextElementSibling;
+                        span.textContent = `Réponse : ${correct}`;
+                        span.style.color = "blue";
+                }
+        });
+}
+
+function refreshPage() {
+        location.reload();
+}
+</script>
+
+:::
+
+
+::: {.content-visible when-profile="french"}
+
+# Décrire une personne en français
+
+Pour décrire quelqu’un en français, on peut parler de son âge, sa taille, sa corpulence, ses cheveux, sa peau, ses accessoires, ses qualités et ses défauts. Voici les principales façons de caractériser une personne :
+
+## 1. L’âge
+
+- Utilisez **avoir** pour l’âge :  
+    - J’ai 20 ans.
+- Utilisez **être** pour les adjectifs :  
+    - Il est jeune.
+    - Elle est âgée.
+
+**Adjectifs courants :** jeune, âgé(e), adulte, enfant.
+
+---
+
+## 2. La taille
+
+- Utilisez **être** + adjectif :  
+    - Il est grand.
+    - Elle est petite.
+    - Il est de taille moyenne.
+
+**Adjectifs :** grand(e), petit(e), de taille moyenne.
+
+---
+
+## 3. La corpulence
+
+- Utilisez **être** + adjectif :  
+    - Il est mince.
+    - Elle est forte.
+    - Il est maigre.
+    - Elle est ronde.
+
+**Adjectifs :** maigre, mince, rond(e), fort(e).
+
+---
+
+## 4. Les cheveux
+
+- Utilisez **être** + adjectif :  
+    - Il est blond.
+    - Elle est brune.
+    - Il est châtain.
+    - Elle est chauve.
+
+**Adjectifs :** blond(e), brun(e), châtain, roux/rousse, chauve.
+
+---
+
+## 5. La peau
+
+- Utilisez **être** + adjectif :  
+    - Il est blanc.
+    - Elle est noire.
+    - Il a la peau mate.
+    - Elle a la peau bronzée.
+
+**Adjectifs :** blanc(he), noir(e), foncé(e), mate, bronzé(e), doré(e).
+
+---
+
+## 6. Les accessoires
+
+- Utilisez **porter** :  
+    - Il porte des lunettes.
+    - Elle porte une barbe.
+    - Il porte une moustache.
+
+**Accessoires :** des lunettes, une barbe, une moustache, des boucles d’oreilles, un chapeau.
+
+---
+
+## 7. Les qualités
+
+- Utilisez **être** + adjectif :  
+    - Elle est belle.
+    - Il est intelligent.
+    - Elle est douce.
+    - Il est joyeux.
+    - Elle est dynamique.
+    - Il est agréable.
+    - Elle est modeste.
+
+---
+
+## 8. Les défauts
+
+- Utilisez **être** + adjectif :  
+    - Il est laid.
+    - Elle est stupide.
+    - Il est brutal.
+    - Elle est sale.
+    - Il est désagréable.
+    - Elle est bruyante.
+    - Il est impoli.
+
+---
+
+# Exercices
+
+## 1. Complétez avec le mot correct pour l’âge ou la taille
+
+1. J’\_\_\_\_\_\_\_ 25 ans. (to have) <input type="text" placeholder="" oninput="checkAnswer(this, 'ai')"><span></span>
+2. Il \_\_\_\_\_\_\_ jeune. (to be) <input type="text" placeholder="" oninput="checkAnswer(this, 'est')"><span></span>
+3. Elle est \_\_\_\_\_\_\_. (elderly) <input type="text" placeholder="" oninput="checkAnswer(this, 'âgée')"><span></span>
+4. Il est \_\_\_\_\_\_\_. (tall) <input type="text" placeholder="" oninput="checkAnswer(this, 'grand')"><span></span>
+5. Elle est de taille \_\_\_\_\_\_\_. (average) <input type="text" placeholder="" oninput="checkAnswer(this, 'moyenne')"><span></span>
+6. Nous \_\_\_\_\_\_\_ 30 ans. (to have) <input type="text" placeholder="" oninput="checkAnswer(this, 'avons')"><span></span>
+7. Vous \_\_\_\_\_\_\_ petits. (to be) <input type="text" placeholder="" oninput="checkAnswer(this, 'êtes')"><span></span>
+8. Ils sont \_\_\_\_\_\_\_. (children) <input type="text" placeholder="" oninput="checkAnswer(this, 'enfants')"><span></span>
+9. Tu \_\_\_\_\_\_\_ adulte. (to be) <input type="text" placeholder="" oninput="checkAnswer(this, 'es')"><span></span>
+10. Elle est \_\_\_\_\_\_\_. (short) <input type="text" placeholder="" oninput="checkAnswer(this, 'petite')"><span></span>
+
+---
+
+## 2. Choisissez l’adjectif correct pour la corpulence ou les cheveux
+
+1. Il est \_\_\_\_\_\_\_. (slim) <input type="text" placeholder="" oninput="checkAnswer(this, 'mince')"><span></span>
+2. Elle est \_\_\_\_\_\_\_. (round) <input type="text" placeholder="" oninput="checkAnswer(this, 'ronde')"><span></span>
+3. Il est \_\_\_\_\_\_\_. (bald) <input type="text" placeholder="" oninput="checkAnswer(this, 'chauve')"><span></span>
+4. Elle est \_\_\_\_\_\_\_. (brunette) <input type="text" placeholder="" oninput="checkAnswer(this, 'brune')"><span></span>
+5. Il est \_\_\_\_\_\_\_. (skinny) <input type="text" placeholder="" oninput="checkAnswer(this, 'maigre')"><span></span>
+6. Elle est \_\_\_\_\_\_\_. (strong/big) <input type="text" placeholder="" oninput="checkAnswer(this, 'forte')"><span></span>
+7. Il est \_\_\_\_\_\_\_. (red-haired) <input type="text" placeholder="" oninput="checkAnswer(this, 'roux')"><span></span>
+8. Elle est \_\_\_\_\_\_\_. (chestnut-haired) <input type="text" placeholder="" oninput="checkAnswer(this, 'châtain')"><span></span>
+9. Il est \_\_\_\_\_\_\_. (blond) <input type="text" placeholder="" oninput="checkAnswer(this, 'blond')"><span></span>
+10. Elle est \_\_\_\_\_\_\_. (slim) <input type="text" placeholder="" oninput="checkAnswer(this, 'mince')"><span></span>
+
+---
+
+## 3. Complétez avec le mot correct pour la peau ou les accessoires
+
+1. Il est \_\_\_\_\_\_\_. (black) <input type="text" placeholder="" oninput="checkAnswer(this, 'noir')"><span></span>
+2. Elle a la peau \_\_\_\_\_\_\_. (tanned) <input type="text" placeholder="" oninput="checkAnswer(this, 'bronzée')"><span></span>
+3. Il porte des \_\_\_\_\_\_\_. (glasses) <input type="text" placeholder="" oninput="checkAnswer(this, 'lunettes')"><span></span>
+4. Elle porte une \_\_\_\_\_\_\_. (beard) <input type="text" placeholder="" oninput="checkAnswer(this, 'barbe')"><span></span>
+5. Il a la peau \_\_\_\_\_\_\_. (olive) <input type="text" placeholder="" oninput="checkAnswer(this, 'mate')"><span></span>
+6. Elle porte un \_\_\_\_\_\_\_. (hat) <input type="text" placeholder="" oninput="checkAnswer(this, 'chapeau')"><span></span>
+7. Il porte une \_\_\_\_\_\_\_. (mustache) <input type="text" placeholder="" oninput="checkAnswer(this, 'moustache')"><span></span>
+8. Elle porte des \_\_\_\_\_\_\_. (earrings) <input type="text" placeholder="" oninput="checkAnswer(this, 'boucles d’oreilles')"><span></span>
+9. Il est \_\_\_\_\_\_\_. (white) <input type="text" placeholder="" oninput="checkAnswer(this, 'blanc')"><span></span>
+10. Elle a la peau \_\_\_\_\_\_\_. (golden) <input type="text" placeholder="" oninput="checkAnswer(this, 'dorée')"><span></span>
+
+---
+
+## 4. Qualités et défauts : Complétez avec l’adjectif correct
+
+1. Elle est \_\_\_\_\_\_\_. (beautiful) <input type="text" placeholder="" oninput="checkAnswer(this, 'belle')"><span></span>
+2. Il est \_\_\_\_\_\_\_. (intelligent) <input type="text" placeholder="" oninput="checkAnswer(this, 'intelligent')"><span></span>
+3. Elle est \_\_\_\_\_\_\_. (modest) <input type="text" placeholder="" oninput="checkAnswer(this, 'modeste')"><span></span>
+4. Il est \_\_\_\_\_\_\_. (ugly) <input type="text" placeholder="" oninput="checkAnswer(this, 'laid')"><span></span>
+5. Elle est \_\_\_\_\_\_\_. (noisy) <input type="text" placeholder="" oninput="checkAnswer(this, 'bruyante')"><span></span>
+6. Il est \_\_\_\_\_\_\_. (rude) <input type="text" placeholder="" oninput="checkAnswer(this, 'impoli')"><span></span>
+7. Elle est \_\_\_\_\_\_\_. (gentle) <input type="text" placeholder="" oninput="checkAnswer(this, 'douce')"><span></span>
+8. Il est \_\_\_\_\_\_\_. (pleasant) <input type="text" placeholder="" oninput="checkAnswer(this, 'agréable')"><span></span>
+9. Elle est \_\_\_\_\_\_\_. (energetic) <input type="text" placeholder="" oninput="checkAnswer(this, 'dynamique')"><span></span>
+10. Il est \_\_\_\_\_\_\_. (unpleasant) <input type="text" placeholder="" oninput="checkAnswer(this, 'désagréable')"><span></span>
+
+---
+
+<button onclick="showAnswers()">Afficher les réponses</button>
+<button onclick="refreshPage()">Réessayer</button>
+
+---
+
+## Pratique : Écrivez vos propres phrases
+
+Écrivez 3 à 4 phrases pour décrire une personne que vous connaissez. Utilisez au moins deux façons différentes de la caractériser (âge, taille, corpulence, cheveux, peau, accessoires, qualités ou défauts).
+
+<textarea style="width: 100%; min-height: 200px; font-size: 1.1em;" placeholder="Écrivez vos phrases ici..."></textarea>
+
+<script>
+function checkAnswer(input, correctAnswer) {
+        const span = input.nextElementSibling;
+        if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
+                span.textContent = "✓ Correct";
+                span.style.color = "green";
+        } else {
+                span.textContent = "";
+        }
+}
+
+function showAnswers() {
+        document.querySelectorAll('input[type="text"]').forEach(el => {
+                const correct = el.getAttribute('oninput')?.match(/'([^']+)'/)?.[1];
+                if (correct) {
+                        const span = el.nextElementSibling;
+                        span.textContent = `Réponse : ${correct}`;
+                        span.style.color = "blue";
+                }
+        });
+}
+
+function refreshPage() {
+        location.reload();
+}
+</script>
+
+
+
+:::

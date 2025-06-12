@@ -7,32 +7,31 @@ image: "interrogative2.png"
 ---
 
 ::: {.content-visible when-profile="english"}
-
 # Asking for Information with "Quel(le)(s)" (Partial Questions)
 
 In French, **quel / quelle / quels / quelles** are interrogative adjectives used to ask for specific information about a noun (person or thing). They agree in gender and number with the noun they refer to.
 
-- **Quel** (masculine singular)
-- **Quelle** (feminine singular)
-- **Quels** (masculine plural)
-- **Quelles** (feminine plural)
+-   **Quel** (masculine singular)
+-   **Quelle** (feminine singular)
+-   **Quels** (masculine plural)
+-   **Quelles** (feminine plural)
 
 Use "quel(le)(s)" to ask *which* or *what* followed by a noun.
 
----
+------------------------------------------------------------------------
 
 ## 1. Structure with "Quel(le)(s)" + Noun
 
-- **Quel livre lis-tu ?**  
+-   **Quel livre lis-tu ?**\
     (Which book are you reading?)
-- **Quelle couleur préfères-tu ?**  
+-   **Quelle couleur préfères-tu ?**\
     (What color do you prefer?)
-- **Quels films aimes-tu ?**  
+-   **Quels films aimes-tu ?**\
     (Which movies do you like?)
-- **Quelles langues parles-tu ?**  
+-   **Quelles langues parles-tu ?**\
     (Which languages do you speak?)
 
----
+------------------------------------------------------------------------
 
 ## 2. Structure with "Quel(le)(s)" + être + déterminant + nom
 
@@ -40,65 +39,75 @@ When asking about someone's identity or characteristics, use:
 
 **Quel(le)(s) + être (conjugated) + déterminant + noun**
 
-- **Quel est ton prénom ?**  
+-   **Quel est ton prénom ?**\
     (What is your first name?)
-- **Quelle est ta nationalité ?**  
+-   **Quelle est ta nationalité ?**\
     (What is your nationality?)
-- **Quels sont tes passe-temps ?**  
+-   **Quels sont tes passe-temps ?**\
     (What are your hobbies?)
-- **Quelles sont vos adresses ?**  
+-   **Quelles sont vos adresses ?**\
     (What are your addresses?)
 
----
+------------------------------------------------------------------------
 
 # Exercises
 
 ## 1. Complete with the correct form of "quel"
-1. ______ est ton film préféré ? <input type="text" placeholder="" oninput="checkAnswer(this, 'Quel')"> <span></span>
-2. ______ est ta couleur favorite ? <input type="text" placeholder="" oninput="checkAnswer(this, 'Quelle')"> <span></span>
-3. ______ sont tes matières préférées ? <input type="text" placeholder="" oninput="checkAnswer(this, 'Quelles')"> <span></span>
-4. ______ livre lis-tu ? <input type="text" placeholder="" oninput="checkAnswer(this, 'Quel')"> <span></span>
-5. ______ sont vos adresses ? <input type="text" placeholder="" oninput="checkAnswer(this, 'Quelles')"> <span></span>
-6. ______ est ton animal préféré ? <input type="text" placeholder="" oninput="checkAnswer(this, 'Quel')"> <span></span>
-7. ______ sont tes amis ? <input type="text" placeholder="" oninput="checkAnswer(this, 'Quels')"> <span></span>
-8. ______ est ta saison préférée ? <input type="text" placeholder="" oninput="checkAnswer(this, 'Quelle')"> <span></span>
-9. ______ films préfères-tu ? <input type="text" placeholder="" oninput="checkAnswer(this, 'Quels')"> <span></span>
-10. ______ langue parles-tu à la maison ? <input type="text" placeholder="" oninput="checkAnswer(this, 'Quelle')"> <span></span>
 
----
+1.  \_\_\_\_\_\_ est ton film préféré ? <input type="text" placeholder="" oninput="checkAnswer(this, 'Quel')">
+2.  \_\_\_\_\_\_ est ta couleur favorite ? <input type="text" placeholder="" oninput="checkAnswer(this, 'Quelle')">
+3.  \_\_\_\_\_\_ sont tes matières préférées ? <input type="text" placeholder="" oninput="checkAnswer(this, 'Quelles')">
+4.  \_\_\_\_\_\_ livre lis-tu ? <input type="text" placeholder="" oninput="checkAnswer(this, 'Quel')">
+5.  \_\_\_\_\_\_ sont vos adresses ? <input type="text" placeholder="" oninput="checkAnswer(this, 'Quelles')">
+6.  \_\_\_\_\_\_ est ton animal préféré ? <input type="text" placeholder="" oninput="checkAnswer(this, 'Quel')">
+7.  \_\_\_\_\_\_ sont tes amis ? <input type="text" placeholder="" oninput="checkAnswer(this, 'Quels')">
+8.  \_\_\_\_\_\_ est ta saison préférée ? <input type="text" placeholder="" oninput="checkAnswer(this, 'Quelle')">
+9.  \_\_\_\_\_\_ films préfères-tu ? <input type="text" placeholder="" oninput="checkAnswer(this, 'Quels')">
+10. \_\_\_\_\_\_ langue parles-tu à la maison ? <input type="text" placeholder="" oninput="checkAnswer(this, 'Quelle')">
+
+------------------------------------------------------------------------
 
 ## 2. Transform the statement into a question with "quel(le)(s)"
 
-1. Ton prénom est Paul. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Quel est ton prénom?')"> <span></span>
-2. Tes passe-temps sont la lecture et le sport. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Quels sont tes passe-temps?')"> <span></span>
-3. Ta couleur favorite est le bleu. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Quelle est ta couleur favorite?')"> <span></span>
-4. Vos adresses sont à Paris et Lyon. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Quelles sont vos adresses?')"> <span></span>
-5. Ton animal préféré est le chat. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Quel est ton animal préféré?')"> <span></span>
-6. Tes amis sont Sophie et Marc. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Quels sont tes amis?')"> <span></span>
-7. Ta saison préférée est l'été. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Quelle est ta saison préférée?')"> <span></span>
-8. Tes matières préférées sont le français et l’histoire. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Quelles sont tes matières préférées?')"> <span></span>
-9. Ton livre préféré est "Le Petit Prince". → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Quel est ton livre préféré?')"> <span></span>
-10. Tes langues parlées sont le français et l’anglais. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Quelles sont tes langues parlées?')"> <span></span>
+1.  Ton prénom est Paul. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Quel est ton prénom?')">
+2.  Tes passe-temps sont la lecture et le sport. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Quels sont tes passe-temps?')">
+3.  Ta couleur favorite est le bleu. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Quelle est ta couleur favorite?')">
+4.  Vos adresses sont à Paris et Lyon. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Quelles sont vos adresses?')">
+5.  Ton animal préféré est le chat. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Quel est ton animal préféré?')">
+6.  Tes amis sont Sophie et Marc. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Quels sont tes amis?')">
+7.  Ta saison préférée est l'été. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Quelle est ta saison préférée?')">
+8.  Tes matières préférées sont le français et l’histoire. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Quelles sont tes matières préférées?')">
+9.  Ton livre préféré est "Le Petit Prince". → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Quel est ton livre préféré?')">
+10. Tes langues parlées sont le français et l’anglais. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Quelles sont tes langues parlées?')">
 
----
+------------------------------------------------------------------------
 
 ## 3. Translate to French using "quel(le)(s)"
 
-1. What is your name? <input type="text" placeholder="" oninput="checkAnswer(this, 'Quel est ton nom?')"> <span></span>
-2. Which books do you read? <input type="text" placeholder="" oninput="checkAnswer(this, 'Quels livres lis-tu?')"> <span></span>
-3. What is your favorite color? <input type="text" placeholder="" oninput="checkAnswer(this, 'Quelle est ta couleur préférée?')"> <span></span>
-4. Which languages do you speak? <input type="text" placeholder="" oninput="checkAnswer(this, 'Quelles langues parles-tu?')"> <span></span>
-5. What is your favorite animal? <input type="text" placeholder="" oninput="checkAnswer(this, 'Quel est ton animal préféré?')"> <span></span>
-6. Which friends are coming? <input type="text" placeholder="" oninput="checkAnswer(this, 'Quels amis viennent?')"> <span></span>
-7. What is your favorite season? <input type="text" placeholder="" oninput="checkAnswer(this, 'Quelle est ta saison préférée?')"> <span></span>
-8. Which subjects do you like? <input type="text" placeholder="" oninput="checkAnswer(this, 'Quelles matières aimes-tu?')"> <span></span>
-9. What is your favorite book? <input type="text" placeholder="" oninput="checkAnswer(this, 'Quel est ton livre préféré?')"> <span></span>
-10. Which addresses do you have? <input type="text" placeholder="" oninput="checkAnswer(this, 'Quelles adresses as-tu?')"> <span></span>
+1.  What is your name? <input type="text" placeholder="" oninput="checkAnswer(this, 'Quel est ton nom?')">
+2.  Which books do you read? <input type="text" placeholder="" oninput="checkAnswer(this, 'Quels livres lis-tu?')">
+3.  What is your favorite color? <input type="text" placeholder="" oninput="checkAnswer(this, 'Quelle est ta couleur préférée?')">
+4.  Which languages do you speak? <input type="text" placeholder="" oninput="checkAnswer(this, 'Quelles langues parles-tu?')">
+5.  What is your favorite animal? <input type="text" placeholder="" oninput="checkAnswer(this, 'Quel est ton animal préféré?')">
+6.  Which friends are coming? <input type="text" placeholder="" oninput="checkAnswer(this, 'Quels amis viennent?')">
+7.  What is your favorite season? <input type="text" placeholder="" oninput="checkAnswer(this, 'Quelle est ta saison préférée?')">
+8.  Which subjects do you like? <input type="text" placeholder="" oninput="checkAnswer(this, 'Quelles matières aimes-tu?')">
+9.  What is your favorite book? <input type="text" placeholder="" oninput="checkAnswer(this, 'Quel est ton livre préféré?')">
+10. Which addresses do you have? <input type="text" placeholder="" oninput="checkAnswer(this, 'Quelles adresses as-tu?')">
 
-<button onclick="showAnswers()">Show Answers</button>
-<button onclick="refreshPage()">Try Again</button>
+<button onclick="showAnswers()">
 
+Show Answers
 
+</button>
+
+<button onclick="refreshPage()">
+
+Try Again
+
+</button>
+
+```{=html}
 <script>
 function checkAnswer(input, correctAnswer) {
     const span = input.nextElementSibling;
@@ -125,39 +134,35 @@ function refreshPage() {
     location.reload();
 }
 </script>
-
+```
 :::
 
-
-
 ::: {.content-visible when-profile="french"}
-
-
 # Poser une question avec "Quel(le)(s)" (Questions partielles)
 
 En français, **quel / quelle / quels / quelles** sont des adjectifs interrogatifs utilisés pour demander une information précise sur un nom (personne ou chose). Ils s’accordent en genre et en nombre avec le nom qu’ils accompagnent.
 
-- **Quel** (masculin singulier)
-- **Quelle** (féminin singulier)
-- **Quels** (masculin pluriel)
-- **Quelles** (féminin pluriel)
+-   **Quel** (masculin singulier)
+-   **Quelle** (féminin singulier)
+-   **Quels** (masculin pluriel)
+-   **Quelles** (féminin pluriel)
 
 On utilise "quel(le)(s)" pour demander *quel* ou *quelle* suivi d’un nom.
 
----
+------------------------------------------------------------------------
 
 ## 1. Structure avec "Quel(le)(s)" + nom
 
-- **Quel livre lis-tu ?**  
+-   **Quel livre lis-tu ?**\
     (Quel livre es-tu en train de lire ?)
-- **Quelle couleur préfères-tu ?**  
+-   **Quelle couleur préfères-tu ?**\
     (Quelle est ta couleur préférée ?)
-- **Quels films aimes-tu ?**  
+-   **Quels films aimes-tu ?**\
     (Quels films apprécies-tu ?)
-- **Quelles langues parles-tu ?**  
+-   **Quelles langues parles-tu ?**\
     (Quelles langues sais-tu parler ?)
 
----
+------------------------------------------------------------------------
 
 ## 2. Structure avec "Quel(le)(s)" + être + déterminant + nom
 
@@ -165,61 +170,71 @@ Pour demander l’identité ou une caractéristique, on utilise :
 
 **Quel(le)(s) + être (conjugué) + déterminant + nom**
 
-- **Quel est ton prénom ?**
-- **Quelle est ta nationalité ?**
-- **Quels sont tes passe-temps ?**
-- **Quelles sont vos adresses ?**
+-   **Quel est ton prénom ?**
+-   **Quelle est ta nationalité ?**
+-   **Quels sont tes passe-temps ?**
+-   **Quelles sont vos adresses ?**
 
----
+------------------------------------------------------------------------
 
 # Exercices
 
 ## 1. Complète avec la bonne forme de "quel"
-1. ______ est ton film préféré ? <input type="text" placeholder="" oninput="checkAnswer(this, 'Quel')"> <span></span>
-2. ______ est ta couleur favorite ? <input type="text" placeholder="" oninput="checkAnswer(this, 'Quelle')"> <span></span>
-3. ______ sont tes matières préférées ? <input type="text" placeholder="" oninput="checkAnswer(this, 'Quelles')"> <span></span>
-4. ______ livre lis-tu ? <input type="text" placeholder="" oninput="checkAnswer(this, 'Quel')"> <span></span>
-5. ______ sont vos adresses ? <input type="text" placeholder="" oninput="checkAnswer(this, 'Quelles')"> <span></span>
-6. ______ est ton animal préféré ? <input type="text" placeholder="" oninput="checkAnswer(this, 'Quel')"> <span></span>
-7. ______ sont tes amis ? <input type="text" placeholder="" oninput="checkAnswer(this, 'Quels')"> <span></span>
-8. ______ est ta saison préférée ? <input type="text" placeholder="" oninput="checkAnswer(this, 'Quelle')"> <span></span>
-9. ______ films préfères-tu ? <input type="text" placeholder="" oninput="checkAnswer(this, 'Quels')"> <span></span>
-10. ______ langue parles-tu à la maison ? <input type="text" placeholder="" oninput="checkAnswer(this, 'Quelle')"> <span></span>
 
----
+1.  \_\_\_\_\_\_ est ton film préféré ? <input type="text" placeholder="" oninput="checkAnswer(this, 'Quel')">
+2.  \_\_\_\_\_\_ est ta couleur favorite ? <input type="text" placeholder="" oninput="checkAnswer(this, 'Quelle')">
+3.  \_\_\_\_\_\_ sont tes matières préférées ? <input type="text" placeholder="" oninput="checkAnswer(this, 'Quelles')">
+4.  \_\_\_\_\_\_ livre lis-tu ? <input type="text" placeholder="" oninput="checkAnswer(this, 'Quel')">
+5.  \_\_\_\_\_\_ sont vos adresses ? <input type="text" placeholder="" oninput="checkAnswer(this, 'Quelles')">
+6.  \_\_\_\_\_\_ est ton animal préféré ? <input type="text" placeholder="" oninput="checkAnswer(this, 'Quel')">
+7.  \_\_\_\_\_\_ sont tes amis ? <input type="text" placeholder="" oninput="checkAnswer(this, 'Quels')">
+8.  \_\_\_\_\_\_ est ta saison préférée ? <input type="text" placeholder="" oninput="checkAnswer(this, 'Quelle')">
+9.  \_\_\_\_\_\_ films préfères-tu ? <input type="text" placeholder="" oninput="checkAnswer(this, 'Quels')">
+10. \_\_\_\_\_\_ langue parles-tu à la maison ? <input type="text" placeholder="" oninput="checkAnswer(this, 'Quelle')">
+
+------------------------------------------------------------------------
 
 ## 2. Transforme l’affirmation en question avec "quel(le)(s)"
-1. Ton prénom est Paul. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Quel est ton prénom?')"> <span></span>
-2. Tes passe-temps sont la lecture et le sport. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Quels sont tes passe-temps?')"> <span></span>
-3. Ta couleur favorite est le bleu. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Quelle est ta couleur favorite?')"> <span></span>
-4. Vos adresses sont à Paris et Lyon. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Quelles sont vos adresses?')"> <span></span>
-5. Ton animal préféré est le chat. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Quel est ton animal préféré?')"> <span></span>
-6. Tes amis sont Sophie et Marc. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Quels sont tes amis?')"> <span></span>
-7. Ta saison préférée est l'été. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Quelle est ta saison préférée?')"> <span></span>
-8. Tes matières préférées sont le français et l’histoire. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Quelles sont tes matières préférées?')"> <span></span>
-9. Ton livre préféré est "Le Petit Prince". → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Quel est ton livre préféré?')"> <span></span>
-10. Tes langues parlées sont le français et l’anglais. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Quelles sont tes langues parlées?')"> <span></span>
 
----
+1.  Ton prénom est Paul. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Quel est ton prénom?')">
+2.  Tes passe-temps sont la lecture et le sport. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Quels sont tes passe-temps?')">
+3.  Ta couleur favorite est le bleu. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Quelle est ta couleur favorite?')">
+4.  Vos adresses sont à Paris et Lyon. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Quelles sont vos adresses?')">
+5.  Ton animal préféré est le chat. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Quel est ton animal préféré?')">
+6.  Tes amis sont Sophie et Marc. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Quels sont tes amis?')">
+7.  Ta saison préférée est l'été. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Quelle est ta saison préférée?')">
+8.  Tes matières préférées sont le français et l’histoire. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Quelles sont tes matières préférées?')">
+9.  Ton livre préféré est "Le Petit Prince". → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Quel est ton livre préféré?')">
+10. Tes langues parlées sont le français et l’anglais. → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Quelles sont tes langues parlées?')">
+
+------------------------------------------------------------------------
 
 ## 3. Traduis en français en utilisant "quel(le)(s)"
 
-1. What is your name? <input type="text" placeholder="" oninput="checkAnswer(this, 'Quel est ton nom?')"> <span></span>
-2. Which books do you read? <input type="text" placeholder="" oninput="checkAnswer(this, 'Quels livres lis-tu?')"> <span></span>
-3. What is your favorite color? <input type="text" placeholder="" oninput="checkAnswer(this, 'Quelle est ta couleur préférée?')"> <span></span>
-4. Which languages do you speak? <input type="text" placeholder="" oninput="checkAnswer(this, 'Quelles langues parles-tu?')"> <span></span>
-5. What is your favorite animal? <input type="text" placeholder="" oninput="checkAnswer(this, 'Quel est ton animal préféré?')"> <span></span>
-6. Which friends are coming? <input type="text" placeholder="" oninput="checkAnswer(this, 'Quels amis viennent?')"> <span></span>
-7. What is your favorite season? <input type="text" placeholder="" oninput="checkAnswer(this, 'Quelle est ta saison préférée?')"> <span></span>
-8. Which subjects do you like? <input type="text" placeholder="" oninput="checkAnswer(this, 'Quelles matières aimes-tu?')"> <span></span>
-9. What is your favorite book? <input type="text" placeholder="" oninput="checkAnswer(this, 'Quel est ton livre préféré?')"> <span></span>
-10. Which addresses do you have? <input type="text" placeholder="" oninput="checkAnswer(this, 'Quelles adresses as-tu?')"> <span></span>
+1.  What is your name? <input type="text" placeholder="" oninput="checkAnswer(this, 'Quel est ton nom?')">
+2.  Which books do you read? <input type="text" placeholder="" oninput="checkAnswer(this, 'Quels livres lis-tu?')">
+3.  What is your favorite color? <input type="text" placeholder="" oninput="checkAnswer(this, 'Quelle est ta couleur préférée?')">
+4.  Which languages do you speak? <input type="text" placeholder="" oninput="checkAnswer(this, 'Quelles langues parles-tu?')">
+5.  What is your favorite animal? <input type="text" placeholder="" oninput="checkAnswer(this, 'Quel est ton animal préféré?')">
+6.  Which friends are coming? <input type="text" placeholder="" oninput="checkAnswer(this, 'Quels amis viennent?')">
+7.  What is your favorite season? <input type="text" placeholder="" oninput="checkAnswer(this, 'Quelle est ta saison préférée?')">
+8.  Which subjects do you like? <input type="text" placeholder="" oninput="checkAnswer(this, 'Quelles matières aimes-tu?')">
+9.  What is your favorite book? <input type="text" placeholder="" oninput="checkAnswer(this, 'Quel est ton livre préféré?')">
+10. Which addresses do you have? <input type="text" placeholder="" oninput="checkAnswer(this, 'Quelles adresses as-tu?')">
 
+<button onclick="showAnswers()">
 
-<button onclick="showAnswers()">Afficher les réponses</button>
-<button onclick="refreshPage()">Réessayer</button>
+Afficher les réponses
 
+</button>
 
+<button onclick="refreshPage()">
+
+Réessayer
+
+</button>
+
+```{=html}
 <script>
 function checkAnswer(input, correctAnswer) {
     const span = input.nextElementSibling;
@@ -246,6 +261,5 @@ function refreshPage() {
     location.reload();
 }
 </script>
-
-
+```
 :::

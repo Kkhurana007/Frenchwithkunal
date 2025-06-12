@@ -1,0 +1,332 @@
+---
+title: "Caractériser les choses en français (Describing Things in French)"
+author: "Kunal Khurana"
+date: "06-08-2025"
+categories: [B1, grammar, adjectives, description, exercises]
+image: "characterisation.png"
+---
+
+::: {.content-visible when-profile="english"}
+# Describing Things in French
+
+In French, you can describe objects using color, size, shape, material, and function. Here are the main ways to characterize things:
+
+## 1. Colors (Les couleurs)
+
+| French      | English   | Example (French)             | Example (English)         |
+|-------------|-----------|------------------------------|---------------------------|
+| blanc(he)   | white     | une chemise **blanche**      | a white shirt             |
+| noir(e)     | black     | un sac **noir**              | a black bag               |
+| vert(e)     | green     | une pomme **verte**          | a green apple             |
+| rouge       | red       | une voiture **rouge**        | a red car                 |
+| jaune       | yellow    | un citron **jaune**          | a yellow lemon            |
+| bleu(e)     | blue      | une mer **bleue**            | a blue sea                |
+| gris(e)     | grey      | un nuage **gris**            | a grey cloud              |
+| marron      | brown     | une table **marron**         | a brown table             |
+
+> **Note:** Most color adjectives agree in gender and number with the noun.
+
+---
+
+## 2. Size, Height, Depth, Volume (La taille, la hauteur, la profondeur, le volume)
+
+| Adjective         | Meaning         | Example (French)                  | Example (English)         |
+|-------------------|----------------|-----------------------------------|---------------------------|
+| minuscule         | tiny           | une pièce **minuscule**           | a tiny room               |
+| petit(e)          | small          | un **petit** livre                | a small book              |
+| grand(e)          | big/large      | une **grande** maison             | a big house               |
+| haut(e)           | tall/high      | une tour **haute**                | a tall tower              |
+| bas(se)           | low/short      | une chaise **basse**              | a low chair               |
+| profond(e)        | deep           | une piscine **profonde**          | a deep pool               |
+| large             | wide           | une rue **large**                 | a wide street             |
+| étroit(e)         | narrow         | un chemin **étroit**              | a narrow path             |
+
+---
+
+## 3. Material (La matière)
+
+You can use **de** or **en** to indicate the material:
+
+- **chose + de + matière**: une table **de bois** (a table of wood)
+- **chose + en + matière**: une table **en bois** (a wooden table)
+
+**Common materials:** bois (wood), métal (metal), plastique (plastic), verre (glass), coton (cotton), cuir (leather), pierre (stone), papier (paper).
+
+---
+
+## 4. Shape (La forme)
+
+- Use adjectives: rond(e) (round), carré(e) (square), rectangulaire (rectangular), ovale (oval), triangulaire (triangular).
+- Or: **en forme de + noun**: un ballon **en forme de** cœur (a heart-shaped balloon).
+
+---
+
+## 5. Function (La fonction)
+
+- **Ça sert à + infinitif**: Ça sert à écrire. (It is used to write.)
+- **On l’utilise pour + infinitif**: On l’utilise pour couper. (We use it to cut.)
+
+---
+
+# Exercises
+
+## 1. Fill in with the correct color adjective (blanc, noir, vert, rouge, jaune, bleu, gris, marron)
+
+1. Une chemise \_\_\_\_\_\_\_\_. (white) <input type="text" placeholder="" oninput="checkAnswer(this, 'blanche')"><span></span>
+2. Un sac \_\_\_\_\_\_\_\_. (black) <input type="text" placeholder="" oninput="checkAnswer(this, 'noir')"><span></span>
+3. Une pomme \_\_\_\_\_\_\_\_. (green) <input type="text" placeholder="" oninput="checkAnswer(this, 'verte')"><span></span>
+4. Une voiture \_\_\_\_\_\_\_\_. (red) <input type="text" placeholder="" oninput="checkAnswer(this, 'rouge')"><span></span>
+5. Un citron \_\_\_\_\_\_\_\_. (yellow) <input type="text" placeholder="" oninput="checkAnswer(this, 'jaune')"><span></span>
+6. Une mer \_\_\_\_\_\_\_\_. (blue) <input type="text" placeholder="" oninput="checkAnswer(this, 'bleue')"><span></span>
+7. Un nuage \_\_\_\_\_\_\_\_. (grey) <input type="text" placeholder="" oninput="checkAnswer(this, 'gris')"><span></span>
+8. Une table \_\_\_\_\_\_\_\_. (brown) <input type="text" placeholder="" oninput="checkAnswer(this, 'marron')"><span></span>
+
+---
+
+## 2. Choose the correct adjective for size, height, depth, or volume
+
+1. Une pièce \_\_\_\_\_\_\_\_. (tiny) <input type="text" placeholder="" oninput="checkAnswer(this, 'minuscule')"><span></span>
+2. Un livre \_\_\_\_\_\_\_\_. (small) <input type="text" placeholder="" oninput="checkAnswer(this, 'petit')"><span></span>
+3. Une maison \_\_\_\_\_\_\_\_. (big) <input type="text" placeholder="" oninput="checkAnswer(this, 'grande')"><span></span>
+4. Une tour \_\_\_\_\_\_\_\_. (tall) <input type="text" placeholder="" oninput="checkAnswer(this, 'haute')"><span></span>
+5. Une chaise \_\_\_\_\_\_\_\_. (low) <input type="text" placeholder="" oninput="checkAnswer(this, 'basse')"><span></span>
+6. Une piscine \_\_\_\_\_\_\_\_. (deep) <input type="text" placeholder="" oninput="checkAnswer(this, 'profonde')"><span></span>
+7. Une rue \_\_\_\_\_\_\_\_. (wide) <input type="text" placeholder="" oninput="checkAnswer(this, 'large')"><span></span>
+8. Un chemin \_\_\_\_\_\_\_\_. (narrow) <input type="text" placeholder="" oninput="checkAnswer(this, 'étroit')"><span></span>
+
+---
+
+## 3. Complete with the correct material (bois, métal, plastique, verre, coton, cuir, pierre, papier)
+
+1. Une table en \_\_\_\_\_\_\_\_. (wood) <input type="text" placeholder="" oninput="checkAnswer(this, 'bois')"><span></span>
+2. Une chaise en \_\_\_\_\_\_\_\_. (metal) <input type="text" placeholder="" oninput="checkAnswer(this, 'métal')"><span></span>
+3. Une bouteille en \_\_\_\_\_\_\_\_. (glass) <input type="text" placeholder="" oninput="checkAnswer(this, 'verre')"><span></span>
+4. Un sac en \_\_\_\_\_\_\_\_. (leather) <input type="text" placeholder="" oninput="checkAnswer(this, 'cuir')"><span></span>
+5. Un pull en \_\_\_\_\_\_\_\_. (cotton) <input type="text" placeholder="" oninput="checkAnswer(this, 'coton')"><span></span>
+6. Une boîte en \_\_\_\_\_\_\_\_. (plastic) <input type="text" placeholder="" oninput="checkAnswer(this, 'plastique')"><span></span>
+7. Un mur en \_\_\_\_\_\_\_\_. (stone) <input type="text" placeholder="" oninput="checkAnswer(this, 'pierre')"><span></span>
+8. Un livre en \_\_\_\_\_\_\_\_. (paper) <input type="text" placeholder="" oninput="checkAnswer(this, 'papier')"><span></span>
+
+---
+
+## 4. Shape: Complete with the correct adjective or phrase
+
+1. Une table \_\_\_\_\_\_\_\_. (round) <input type="text" placeholder="" oninput="checkAnswer(this, 'ronde')"><span></span>
+2. Un miroir \_\_\_\_\_\_\_\_. (square) <input type="text" placeholder="" oninput="checkAnswer(this, 'carré')"><span></span>
+3. Une fenêtre \_\_\_\_\_\_\_\_. (rectangular) <input type="text" placeholder="" oninput="checkAnswer(this, 'rectangulaire')"><span></span>
+4. Un ballon en forme de \_\_\_\_\_\_\_\_. (heart) <input type="text" placeholder="" oninput="checkAnswer(this, 'cœur')"><span></span>
+
+---
+
+## 5. Function: Complete with "ça sert à" or "on l'utilise pour" + infinitive
+
+1. Un stylo : \_\_\_\_\_\_\_\_ écrire. <input type="text" style="width: 300px;" placeholder="" oninput="checkAnswer(this, 'ça sert à écrire')"><span></span>
+2. Un couteau : \_\_\_\_\_\_\_\_ couper. <input type="text" style="width: 300px;" placeholder="" oninput="checkAnswer(this, 'on l\'utilise pour couper')"><span></span>
+3. Une clé : \_\_\_\_\_\_\_\_ ouvrir la porte. <input type="text" style="width: 300px;" placeholder="" oninput="checkAnswer(this, 'ça sert à ouvrir la porte')"><span></span>
+4. Un téléphone : \_\_\_\_\_\_\_\_ téléphoner. <input type="text" style="width: 300px;" placeholder="" oninput="checkAnswer(this, 'on l\'utilise pour téléphoner')"><span></span>
+
+<button onclick="showAnswers()">Show Answers</button>
+<button onclick="refreshPage()">Try Again</button>
+
+---
+
+## Practice: Write Your Own Sentences
+
+Write 3–4 sentences describing objects around you. Use at least two different ways to characterize them (color, size, material, shape, or function).
+
+<textarea style="width: 100%; min-height: 200px; font-size: 1.1em;" placeholder="Write your sentences here..."></textarea>
+ 
+
+<script>
+function checkAnswer(input, correctAnswer) {
+    const span = input.nextElementSibling;
+    if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
+        span.textContent = "✓ Correct";
+        span.style.color = "green";
+    } else {
+        span.textContent = "";
+    }
+}
+
+function showAnswers() {
+    document.querySelectorAll('input[type="text"]').forEach(el => {
+        const correct = el.getAttribute('oninput')?.match(/'([^']+)'/)?.[1];
+        if (correct) {
+            const span = el.nextElementSibling;
+            span.textContent = `Réponse : ${correct}`;
+            span.style.color = "blue";
+        }
+    });
+}
+
+function refreshPage() {
+    location.reload();
+}
+</script>
+
+:::
+
+
+::: {.content-visible when-profile="french"}
+
+# Décrire les choses en français
+
+En français, on peut décrire les objets selon la couleur, la taille, la forme, la matière et la fonction. Voici les principales façons de caractériser les choses :
+
+## 1. Les couleurs
+
+| Français     | Anglais   | Exemple (français)           | Exemple (anglais)         |
+|--------------|-----------|------------------------------|---------------------------|
+| blanc(he)    | white     | une chemise **blanche**      | a white shirt             |
+| noir(e)      | black     | un sac **noir**              | a black bag               |
+| vert(e)      | green     | une pomme **verte**          | a green apple             |
+| rouge        | red       | une voiture **rouge**        | a red car                 |
+| jaune        | yellow    | un citron **jaune**          | a yellow lemon            |
+| bleu(e)      | blue      | une mer **bleue**            | a blue sea                |
+| gris(e)      | gris      | un nuage **gris**            | a grey cloud              |
+| marron       | brown     | une table **marron**         | a brown table             |
+
+> **Remarque :** La plupart des adjectifs de couleur s’accordent en genre et en nombre avec le nom.
+
+---
+
+## 2. Taille, hauteur, profondeur, volume
+
+| Adjectif         | Sens            | Exemple (français)                | Exemple (anglais)         |
+|------------------|-----------------|-----------------------------------|---------------------------|
+| minuscule        | très petit      | une pièce **minuscule**           | a tiny room               |
+| petit(e)         | petit           | un **petit** livre                | a small book              |
+| grand(e)         | grand           | une **grande** maison             | a big house               |
+| haut(e)          | haut            | une tour **haute**                | a tall tower              |
+| bas(se)          | bas             | une chaise **basse**              | a low chair               |
+| profond(e)       | profond         | une piscine **profonde**          | a deep pool               |
+| large            | large           | une rue **large**                 | a wide street             |
+| étroit(e)        | étroit          | un chemin **étroit**              | a narrow path             |
+
+---
+
+## 3. La matière
+
+On utilise **de** ou **en** pour indiquer la matière :
+
+- **chose + de + matière** : une table **de bois**
+- **chose + en + matière** : une table **en bois**
+
+**Matières courantes :** bois, métal, plastique, verre, coton, cuir, pierre, papier.
+
+---
+
+## 4. La forme
+
+- Adjectifs : rond(e), carré(e), rectangulaire, ovale, triangulaire.
+- Ou : **en forme de + nom** : un ballon **en forme de** cœur.
+
+---
+
+## 5. La fonction
+
+- **Ça sert à + infinitif** : Ça sert à écrire.
+- **On l’utilise pour + infinitif** : On l’utilise pour couper.
+
+---
+
+# Exercices
+
+## 1. Complétez avec l’adjectif de couleur correct (blanc, noir, vert, rouge, jaune, bleu, gris, marron)
+
+1. Une chemise \_\_\_\_\_\_\_\_. (blanc) <input type="text" placeholder="" oninput="checkAnswer(this, 'blanche')"><span></span>
+2. Un sac \_\_\_\_\_\_\_\_. (noir) <input type="text" placeholder="" oninput="checkAnswer(this, 'noir')"><span></span>
+3. Une pomme \_\_\_\_\_\_\_\_. (vert) <input type="text" placeholder="" oninput="checkAnswer(this, 'verte')"><span></span>
+4. Une voiture \_\_\_\_\_\_\_\_. (rouge) <input type="text" placeholder="" oninput="checkAnswer(this, 'rouge')"><span></span>
+5. Un citron \_\_\_\_\_\_\_\_. (jaune) <input type="text" placeholder="" oninput="checkAnswer(this, 'jaune')"><span></span>
+6. Une mer \_\_\_\_\_\_\_\_. (bleu) <input type="text" placeholder="" oninput="checkAnswer(this, 'bleue')"><span></span>
+7. Un nuage \_\_\_\_\_\_\_\_. (gris) <input type="text" placeholder="" oninput="checkAnswer(this, 'gris')"><span></span>
+8. Une table \_\_\_\_\_\_\_\_. (marron) <input type="text" placeholder="" oninput="checkAnswer(this, 'marron')"><span></span>
+
+---
+
+## 2. Choisissez l’adjectif correct pour la taille, la hauteur, la profondeur ou le volume
+
+1. Une pièce \_\_\_\_\_\_\_\_. (tiny) <input type="text" placeholder="" oninput="checkAnswer(this, 'minuscule')"><span></span>
+2. Un livre \_\_\_\_\_\_\_\_. (small) <input type="text" placeholder="" oninput="checkAnswer(this, 'petit')"><span></span>
+3. Une maison \_\_\_\_\_\_\_\_. (big) <input type="text" placeholder="" oninput="checkAnswer(this, 'grande')"><span></span>
+4. Une tour \_\_\_\_\_\_\_\_. (tall) <input type="text" placeholder="" oninput="checkAnswer(this, 'haute')"><span></span>
+5. Une chaise \_\_\_\_\_\_\_\_. (low) <input type="text" placeholder="" oninput="checkAnswer(this, 'basse')"><span></span>
+6. Une piscine \_\_\_\_\_\_\_\_. (deep) <input type="text" placeholder="" oninput="checkAnswer(this, 'profonde')"><span></span>
+7. Une rue \_\_\_\_\_\_\_\_. (wide) <input type="text" placeholder="" oninput="checkAnswer(this, 'large')"><span></span>
+8. Un chemin \_\_\_\_\_\_\_\_. (narrow) <input type="text" placeholder="" oninput="checkAnswer(this, 'étroit')"><span></span>
+
+
+---
+
+## 3. Complétez avec la matière correcte (bois, métal, plastique, verre, coton, cuir, pierre, papier)
+
+1. Une table en \_\_\_\_\_\_\_\_. (wood) <input type="text" placeholder="" oninput="checkAnswer(this, 'bois')"><span></span>
+2. Une chaise en \_\_\_\_\_\_\_\_. (metal) <input type="text" placeholder="" oninput="checkAnswer(this, 'métal')"><span></span>
+3. Une bouteille en \_\_\_\_\_\_\_\_. (glass) <input type="text" placeholder="" oninput="checkAnswer(this, 'verre')"><span></span>
+4. Un sac en \_\_\_\_\_\_\_\_. (leather) <input type="text" placeholder="" oninput="checkAnswer(this, 'cuir')"><span></span>
+5. Un pull en \_\_\_\_\_\_\_\_. (cotton) <input type="text" placeholder="" oninput="checkAnswer(this, 'coton')"><span></span>
+6. Une boîte en \_\_\_\_\_\_\_\_. (plastic) <input type="text" placeholder="" oninput="checkAnswer(this, 'plastique')"><span></span>
+7. Un mur en \_\_\_\_\_\_\_\_. (stone) <input type="text" placeholder="" oninput="checkAnswer(this, 'pierre')"><span></span>
+8. Un livre en \_\_\_\_\_\_\_\_. (paper) <input type="text" placeholder="" oninput="checkAnswer(this, 'papier')"><span></span>
+
+---
+
+## 4. Forme : Complétez avec l’adjectif ou l’expression correcte
+
+1. Une table \_\_\_\_\_\_\_\_. (round) <input type="text" placeholder="" oninput="checkAnswer(this, 'ronde')"><span></span>
+2. Un miroir \_\_\_\_\_\_\_\_. (square) <input type="text" placeholder="" oninput="checkAnswer(this, 'carré')"><span></span>
+3. Une fenêtre \_\_\_\_\_\_\_\_. (rectangular) <input type="text" placeholder="" oninput="checkAnswer(this, 'rectangulaire')"><span></span>
+4. Un ballon en forme de \_\_\_\_\_\_\_\_. (heart) <input type="text" placeholder="" oninput="checkAnswer(this, 'cœur')"><span></span>
+
+---
+
+## 5. Fonction : Complétez avec "ça sert à" ou "on l’utilise pour" + infinitif
+
+1. Un stylo : \_\_\_\_\_\_\_\_ écrire. <input type="text" style="width: 300px;" placeholder="" oninput="checkAnswer(this, 'ça sert à écrire')"><span></span>
+2. Un couteau : \_\_\_\_\_\_\_\_ couper. <input type="text" style="width: 300px;" placeholder="" oninput="checkAnswer(this, 'on l\'utilise pour couper')"><span></span>
+3. Une clé : \_\_\_\_\_\_\_\_ ouvrir la porte. <input type="text" style="width: 300px;" placeholder="" oninput="checkAnswer(this, 'ça sert à ouvrir la porte')"><span></span>
+4. Un téléphone : \_\_\_\_\_\_\_\_ téléphoner. <input type="text" style="width: 300px;" placeholder="" oninput="checkAnswer(this, 'on l\'utilise pour téléphoner')"><span></span>
+
+<button onclick="showAnswers()">Afficher les réponses</button>
+<button onclick="refreshPage()">Réessayer</button>
+
+---
+
+## Pratique : Écrivez vos propres phrases
+
+Écrivez 3 à 4 phrases pour décrire des objets autour de vous. Utilisez au moins deux façons différentes de les caractériser (couleur, taille, matière, forme ou fonction).
+
+<textarea style="width: 100%; min-height: 200px; font-size: 1.1em;" placeholder="Écrivez vos phrases ici..."></textarea>
+
+ 
+
+<script>
+function checkAnswer(input, correctAnswer) {
+    const span = input.nextElementSibling;
+    if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
+        span.textContent = "✓ Correct";
+        span.style.color = "green";
+    } else {
+        span.textContent = "";
+    }
+}
+
+function showAnswers() {
+    document.querySelectorAll('input[type="text"]').forEach(el => {
+        const correct = el.getAttribute('oninput')?.match(/'([^']+)'/)?.[1];
+        if (correct) {
+            const span = el.nextElementSibling;
+            span.textContent = `Réponse : ${correct}`;
+            span.style.color = "blue";
+        }
+    });
+}
+
+function refreshPage() {
+    location.reload();
+}
+</script>
+
+
+:::

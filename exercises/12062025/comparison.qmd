@@ -1,0 +1,206 @@
+---
+title: "Comparer des qualités en français (Comparing Qualities in French)"
+author: "Kunal Khurana"
+date: "06-08-2025"
+categories: [B1, grammar, comparatif, adjectives, comparison, exercises]
+image: "comparison.png"
+---
+
+::: {.content-visible when-profile="english"}
+# Comparing Qualities in French
+
+In French, you can compare qualities using three main structures:
+
+## 1. Superiority (Supériorité)
+
+- **plus + adjective + que**  
+    (more ... than)
+
+    > Paul est **plus grand que** Marie.  
+    > (Paul is taller than Marie.)
+
+## 2. Equality (Égalité)
+
+- **aussi + adjective + que**  
+    (as ... as)
+
+    > Marie est **aussi intelligente que** Paul.  
+    > (Marie is as intelligent as Paul.)
+
+## 3. Inferiority (Infériorité)
+
+- **moins + adjective + que**  
+    (less ... than)
+
+    > Luc est **moins rapide que** Paul.  
+    > (Luc is less fast than Paul.)
+
+> **Note:** The adjective agrees in gender and number with the subject.
+
+---
+
+# Exercises
+
+## 1. Complete with "plus", "aussi", or "moins" and the correct adjective
+
+1. Paul est ____ grand ___ Luc. (taller) <input type="text" style="width: 60px;" placeholder="" oninput="checkAnswer(this)"> grand <input type="text" style="width: 60px;" placeholder="" oninput="checkAnswer(this)"> Luc.<span></span>
+2. Marie est ____ intelligente ___ Sophie. (as intelligent as) <input type="text" style="width: 60px;" placeholder="" oninput="checkAnswer(this)"> intelligente <input type="text" style="width: 60px;" placeholder="" oninput="checkAnswer(this)"> Sophie.<span></span>
+3. Luc est ____ rapide ___ Paul. (less fast than) <input type="text" style="width: 60px;" placeholder="" oninput="checkAnswer(this)"> rapide <input type="text" style="width: 60px;" placeholder="" oninput="checkAnswer(this)"> Paul.<span></span>
+4. Cette voiture est ____ chère ___ l'autre. (more expensive than) <input type="text" style="width: 60px;" placeholder="" oninput="checkAnswer(this)"> chère <input type="text" style="width: 60px;" placeholder="" oninput="checkAnswer(this)"> l'autre.<span></span>
+5. Mon frère est ____ sportif ___ moi. (as sporty as) <input type="text" style="width: 60px;" placeholder="" oninput="checkAnswer(this)"> sportif <input type="text" style="width: 60px;" placeholder="" oninput="checkAnswer(this)"> moi.<span></span>
+6. Ce film est ____ intéressant ___ le livre. (less interesting than) <input type="text" style="width: 60px;" placeholder="" oninput="checkAnswer(this)"> intéressant <input type="text" style="width: 60px;" placeholder="" oninput="checkAnswer(this)"> le livre.<span></span>
+7. Mon sac est ____ lourd ___ le tien. (heavier) <input type="text" style="width: 60px;" placeholder="" oninput="checkAnswer(this)"> lourd <input type="text" style="width: 60px;" placeholder="" oninput="checkAnswer(this)"> le tien.<span></span>
+8. Cette maison est ____ grande ___ celle-là. (as big as) <input type="text" style="width: 60px;" placeholder="" oninput="checkAnswer(this)"> grande <input type="text" style="width: 60px;" placeholder="" oninput="checkAnswer(this)"> celle-là.<span></span>
+9. Mon vélo est ____ rapide ___ ta voiture. (less fast than) <input type="text" style="width: 60px;" placeholder="" oninput="checkAnswer(this)"> rapide <input type="text" style="width: 60px;" placeholder="" oninput="checkAnswer(this)"> ta voiture.<span></span>
+10. Ce gâteau est ____ bon ___ celui d’hier. (better) <input type="text" style="width: 60px;" placeholder="" oninput="checkAnswer(this)"> bon <input type="text" style="width: 60px;" placeholder="" oninput="checkAnswer(this)"> celui d’hier.<span></span>
+11. Ma sœur est ____ gentille ___ moi. (as kind as) <input type="text" style="width: 60px;" placeholder="" oninput="checkAnswer(this)"> gentille <input type="text" style="width: 60px;" placeholder="" oninput="checkAnswer(this)"> moi.<span></span>
+12. Ce livre est ____ difficile ___ l’autre. (less difficult than) <input type="text" style="width: 60px;" placeholder="" oninput="checkAnswer(this)"> difficile <input type="text" style="width: 60px;" placeholder="" oninput="checkAnswer(this)"> l’autre.<span></span>
+13. Mon père est ____ âgé ___ ta mère. (older than) <input type="text" style="width: 60px;" placeholder="" oninput="checkAnswer(this)"> âgé <input type="text" style="width: 60px;" placeholder="" oninput="checkAnswer(this)"> ta mère.<span></span>
+14. Cette question est ____ facile ___ la précédente. (as easy as) <input type="text" style="width: 60px;" placeholder="" oninput="checkAnswer(this)"> facile <input type="text" style="width: 60px;" placeholder="" oninput="checkAnswer(this)"> la précédente.<span></span>
+15. Ce chien est ____ bruyant ___ l’autre. (less noisy than) <input type="text" style="width: 60px;" placeholder="" oninput="checkAnswer(this)"> bruyant <input type="text" style="width: 60px;" placeholder="" oninput="checkAnswer(this)"> l’autre.<span></span>
+
+---
+
+## 2. Transform the sentences as indicated
+
+1. Julie est grande. Marie est grande aussi.  
+    → Marie est ____ grande ___ Julie. (égalité)  
+    <input type="text" style="width: 60px;" placeholder="" oninput="checkAnswer(this)"> grande <input type="text" style="width: 60px;" placeholder="" oninput="checkAnswer(this)"> Julie.<span></span>
+
+2. Mon chat est rapide. Mon chien est plus rapide.  
+    → Mon chien est ____ rapide ___ mon chat. (supériorité)  
+    <input type="text" style="width: 60px;" placeholder="" oninput="checkAnswer(this)"> rapide <input type="text" style="width: 60px;" placeholder="" oninput="checkAnswer(this)"> mon chat.<span></span>
+
+3. Ce livre est intéressant. Ce film est moins intéressant.  
+    → Ce film est ____ intéressant ___ ce livre. (infériorité)  
+    <input type="text" style="width: 60px;" placeholder="" oninput="checkAnswer(this)"> intéressant <input type="text" style="width: 60px;" placeholder="" oninput="checkAnswer(this)"> ce livre.<span></span>
+
+4. Pierre est jeune. Marc est plus jeune.  
+    → Marc est ____ jeune ___ Pierre. (supériorité)  
+    <input type="text" style="width: 60px;" placeholder="" oninput="checkAnswer(this)"> jeune <input type="text" style="width: 60px;" placeholder="" oninput="checkAnswer(this)"> Pierre.<span></span>
+
+5. Cette robe est belle. Celle-ci est aussi belle.  
+    → Cette robe est ____ belle ___ celle-ci. (égalité)  
+    <input type="text" style="width: 60px;" placeholder="" oninput="checkAnswer(this)"> belle <input type="text" style="width: 60px;" placeholder="" oninput="checkAnswer(this)"> celle-ci.<span></span>
+
+6. Mon ordinateur est lourd. Mon sac est moins lourd.  
+    → Mon sac est ____ lourd ___ mon ordinateur. (infériorité)  
+    <input type="text" style="width: 60px;" placeholder="" oninput="checkAnswer(this)"> lourd <input type="text" style="width: 60px;" placeholder="" oninput="checkAnswer(this)"> mon ordinateur.<span></span>
+
+7. Le café est chaud. Le thé est aussi chaud.  
+    → Le thé est ____ chaud ___ le café. (égalité)  
+    <input type="text" style="width: 60px;" placeholder="" oninput="checkAnswer(this)"> chaud <input type="text" style="width: 60px;" placeholder="" oninput="checkAnswer(this)"> le café.<span></span>
+
+8. Ce film est long. Ce livre est plus long.  
+    → Ce livre est ____ long ___ ce film. (supériorité)  
+    <input type="text" style="width: 60px;" placeholder="" oninput="checkAnswer(this)"> long <input type="text" style="width: 60px;" placeholder="" oninput="checkAnswer(this)"> ce film.<span></span>
+
+9. Cette question est difficile. Celle-ci est moins difficile.  
+    → Celle-ci est ____ difficile ___ cette question. (infériorité)  
+    <input type="text" style="width: 60px;" placeholder="" oninput="checkAnswer(this)"> difficile <input type="text" style="width: 60px;" placeholder="" oninput="checkAnswer(this)"> cette question.<span></span>
+
+10. Mon frère est fort. Mon cousin est aussi fort.  
+    → Mon cousin est ____ fort ___ mon frère. (égalité)  
+    <input type="text" style="width: 60px;" placeholder="" oninput="checkAnswer(this)"> fort <input type="text" style="width: 60px;" placeholder="" oninput="checkAnswer(this)"> mon frère.<span></span>
+
+11. Cette pizza est bonne. Celle d’hier était moins bonne.  
+    → Celle d’hier était ____ bonne ___ cette pizza. (infériorité)  
+    <input type="text" style="width: 60px;" placeholder="" oninput="checkAnswer(this)"> bonne <input type="text" style="width: 60px;" placeholder="" oninput="checkAnswer(this)"> cette pizza.<span></span>
+
+12. Mon appartement est petit. Le tien est plus petit.  
+    → Le tien est ____ petit ___ mon appartement. (supériorité)  
+    <input type="text" style="width: 60px;" placeholder="" oninput="checkAnswer(this)"> petit <input type="text" style="width: 60px;" placeholder="" oninput="checkAnswer(this)"> mon appartement.<span></span>
+
+13. Ce problème est compliqué. L’autre est aussi compliqué.  
+    → L’autre est ____ compliqué ___ ce problème. (égalité)  
+    <input type="text" style="width: 60px;" placeholder="" oninput="checkAnswer(this)"> compliqué <input type="text" style="width: 60px;" placeholder="" oninput="checkAnswer(this)"> ce problème.<span></span>
+
+14. Mon stylo est cher. Le tien est moins cher.  
+    → Le tien est ____ cher ___ mon stylo. (infériorité)  
+    <input type="text" style="width: 60px;" placeholder="" oninput="checkAnswer(this)"> cher <input type="text" style="width: 60px;" placeholder="" oninput="checkAnswer(this)"> mon stylo.<span></span>
+
+15. Cette chanson est populaire. Celle-ci est plus populaire.  
+    → Celle-ci est ____ populaire ___ cette chanson. (supériorité)  
+    <input type="text" style="width: 60px;" placeholder="" oninput="checkAnswer(this)"> populaire <input type="text" style="width: 60px;" placeholder="" oninput="checkAnswer(this)"> cette chanson.<span></span>
+
+<button onclick="showAnswers()">Show Answers</button>
+<button onclick="refreshPage()">Try Again</button>
+
+
+<script>
+function checkAnswer(input, correctAnswer) {
+        const span = input.nextElementSibling;
+        if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
+                span.textContent = "✓ Correct";
+                span.style.color = "green";
+        } else {
+                span.textContent = "";
+        }
+}
+
+function showAnswers() {
+        document.querySelectorAll('input[type="text"]').forEach(el => {
+                const correct = el.getAttribute('oninput')?.match(/'([^']+)'/)?.[1];
+                if (correct) {
+                        const span = el.nextElementSibling;
+                        span.textContent = `Réponse : ${correct}`;
+                        span.style.color = "blue";
+                }
+        });
+}
+
+function refreshPage() {
+        location.reload();
+}
+</script>
+
+---
+
+## 3. Practice: Write your own comparative sentences
+
+Write 3–4 sentences comparing people or things around you using "plus ... que", "aussi ... que", or "moins ... que".
+
+<textarea style="width: 100%; min-height: 200px; font-size: 1.1em;" placeholder="Write your sentences here..."></textarea>
+
+
+ 
+
+:::
+
+
+::: {.content-visible when-profile="french"}
+
+
+
+
+ 
+
+<script>
+function checkAnswer(input, correctAnswer) {
+    const span = input.nextElementSibling;
+    if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
+        span.textContent = "✓ Correct";
+        span.style.color = "green";
+    } else {
+        span.textContent = "";
+    }
+}
+
+function showAnswers() {
+    document.querySelectorAll('input[type="text"]').forEach(el => {
+        const correct = el.getAttribute('oninput')?.match(/'([^']+)'/)?.[1];
+        if (correct) {
+            const span = el.nextElementSibling;
+            span.textContent = `Réponse : ${correct}`;
+            span.style.color = "blue";
+        }
+    });
+}
+
+function refreshPage() {
+    location.reload();
+}
+</script>
+
+
+:::

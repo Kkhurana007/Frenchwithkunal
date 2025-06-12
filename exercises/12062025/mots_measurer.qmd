@@ -1,0 +1,295 @@
+---
+title: "Les mots pour mesurer en français (Words for Measuring in French)"
+author: "Kunal Khurana"
+date: "06-08-2025"
+categories: [B1, grammar, quantifiers, measuring, exercises]
+image: "measuring.png"
+---
+
+::: {.content-visible when-profile="english"}
+# Words for Measuring in French
+
+In French, there are many words used to measure quantities, whether for food, objects, or people. Here are some of the most common:
+
+## 1. Key Measuring Words
+
+| French Expression      | Meaning                        | Example (French)                        | Example (English)                      |
+|-----------------------|-------------------------------|------------------------------------------|----------------------------------------|
+| un kilo (de)          | a kilogram (of)               | J’achète **un kilo de** pommes.          | I buy a kilogram of apples.            |
+| une livre (de)        | a pound (of)                  | Il prend **une livre de** tomates.       | He takes a pound of tomatoes.          |
+| un demi-kilo (de)     | half a kilogram (of)          | Donnez-moi **un demi-kilo de** fraises.  | Give me half a kilo of strawberries.   |
+| cent grammes (de)     | 100 grams (of)                | Je veux **cent grammes de** fromage.     | I want 100 grams of cheese.            |
+| un morceau (de)       | a piece (of)                  | Prends **un morceau de** gâteau.         | Take a piece of cake.                  |
+| une tranche (de)      | a slice (of)                  | Je mange **une tranche de** pain.        | I eat a slice of bread.                |
+| un paquet (de)        | a packet/pack (of)            | J’achète **un paquet de** biscuits.      | I buy a packet of cookies.             |
+| un bouquet (de)       | a bunch (of)                  | Elle offre **un bouquet de** fleurs.     | She gives a bunch of flowers.          |
+| un tas (de)           | a pile/heap (of)              | Il y a **un tas de** vêtements ici.      | There is a pile of clothes here.       |
+| une foule (de)        | a crowd (of)                  | **Une foule de** gens attendent.         | A crowd of people are waiting.         |
+
+> **Note:**\
+> - Most of these expressions are followed by "de" + noun (e.g., un kilo de pommes, un paquet de biscuits).
+> - "Une livre" in French means "a pound" (about 500g), not "a book" in this context.
+
+------------------------------------------------------------------------
+
+## 2. How to Use
+
+- **Quantities for food:**\
+    Use "un kilo de", "une livre de", "cent grammes de" for weights.\
+    *Ex: un kilo de pommes, une livre de tomates, cent grammes de fromage*
+
+- **Pieces and slices:**\
+    Use "un morceau de" for a piece, "une tranche de" for a slice.\
+    *Ex: un morceau de gâteau, une tranche de pain*
+
+- **Packets and bunches:**\
+    Use "un paquet de" for a packet, "un bouquet de" for a bunch (usually flowers).\
+    *Ex: un paquet de biscuits, un bouquet de fleurs*
+
+- **Heaps and crowds:**\
+    Use "un tas de" for a pile/heap, "une foule de" for a crowd (people).\
+    *Ex: un tas de vêtements, une foule de gens*
+
+------------------------------------------------------------------------
+
+# Exercises
+
+## 1. Fill in with the correct French measuring word (un kilo, une livre, un demi-kilo, cent grammes, un morceau, une tranche, un paquet, un bouquet, un tas, une foule)
+
+1. J’achète \_\_\_\_\_\_\_\_ de pommes. (a kilogram) <input type="text" placeholder="" oninput="checkAnswer(this, 'un kilo')"><span></span>
+2. Il prend \_\_\_\_\_\_\_\_ de tomates. (a pound) <input type="text" placeholder="" oninput="checkAnswer(this, 'une livre')"><span></span>
+3. Donnez-moi \_\_\_\_\_\_\_\_ de fraises. (half a kilo) <input type="text" placeholder="" oninput="checkAnswer(this, 'un demi-kilo')"><span></span>
+4. Je veux \_\_\_\_\_\_\_\_ de fromage. (100 grams) <input type="text" placeholder="" oninput="checkAnswer(this, 'cent grammes')"><span></span>
+5. Prends \_\_\_\_\_\_\_\_ de gâteau. (a piece) <input type="text" placeholder="" oninput="checkAnswer(this, 'un morceau')"><span></span>
+6. Je mange \_\_\_\_\_\_\_\_ de pain. (a slice) <input type="text" placeholder="" oninput="checkAnswer(this, 'une tranche')"><span></span>
+7. J’achète \_\_\_\_\_\_\_\_ de biscuits. (a packet) <input type="text" placeholder="" oninput="checkAnswer(this, 'un paquet')"><span></span>
+8. Elle offre \_\_\_\_\_\_\_\_ de fleurs. (a bunch) <input type="text" placeholder="" oninput="checkAnswer(this, 'un bouquet')"><span></span>
+9. Il y a \_\_\_\_\_\_\_\_ de vêtements ici. (a pile) <input type="text" placeholder="" oninput="checkAnswer(this, 'un tas')"><span></span>
+10. \_\_\_\_\_\_\_\_ de gens attendent. (a crowd) <input type="text" placeholder="" oninput="checkAnswer(this, 'une foule')"><span></span>
+
+------------------------------------------------------------------------
+
+## 2. Rewrite the sentences using the indicated measuring word
+
+1. Je veux une portion de fromage. (cent grammes)\
+     → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Je veux cent grammes de fromage.')"><span></span>
+2. Elle donne des fleurs à sa mère. (un bouquet)\
+     → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Elle donne un bouquet de fleurs à sa mère.')"><span></span>
+3. Il mange une part de gâteau. (un morceau)\
+     → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Il mange un morceau de gâteau.')"><span></span>
+4. J’achète beaucoup de biscuits. (un paquet)\
+     → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'J’achète un paquet de biscuits.')"><span></span>
+5. Il y a beaucoup de monde dans la rue. (une foule)\
+     → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Il y a une foule de gens dans la rue.')"><span></span>
+
+------------------------------------------------------------------------
+
+## 3. Translate into French with the correct measuring word
+
+1. I buy a kilogram of apples.\
+     <input type="text" style="width: 450px;" placeholder="" oninput="checkAnswer(this, 'J’achète un kilo de pommes.')"><span></span>
+2. He takes a pound of tomatoes.\
+     <input type="text" style="width: 450px;" placeholder="" oninput="checkAnswer(this, 'Il prend une livre de tomates.')"><span></span>
+3. Give me half a kilo of strawberries.\
+     <input type="text" style="width: 450px;" placeholder="" oninput="checkAnswer(this, 'Donnez-moi un demi-kilo de fraises.')"><span></span>
+4. I want 100 grams of cheese.\
+     <input type="text" style="width: 450px;" placeholder="" oninput="checkAnswer(this, 'Je veux cent grammes de fromage.')"><span></span>
+5. Take a piece of cake.\
+     <input type="text" style="width: 450px;" placeholder="" oninput="checkAnswer(this, 'Prends un morceau de gâteau.')"><span></span>
+6. I eat a slice of bread.\
+     <input type="text" style="width: 450px;" placeholder="" oninput="checkAnswer(this, 'Je mange une tranche de pain.')"><span></span>
+7. I buy a packet of cookies.\
+     <input type="text" style="width: 450px;" placeholder="" oninput="checkAnswer(this, 'J’achète un paquet de biscuits.')"><span></span>
+8. She gives a bunch of flowers.\
+     <input type="text" style="width: 450px;" placeholder="" oninput="checkAnswer(this, 'Elle offre un bouquet de fleurs.')"><span></span>
+9. There is a pile of clothes here.\
+     <input type="text" style="width: 450px;" placeholder="" oninput="checkAnswer(this, 'Il y a un tas de vêtements ici.')"><span></span>
+10. A crowd of people are waiting.\
+     <input type="text" style="width: 450px;" placeholder="" oninput="checkAnswer(this, 'Une foule de gens attendent.')"><span></span>
+
+<button onclick="showAnswers()">Show Answers</button>
+
+<button onclick="refreshPage()">Try Again</button>
+
+------------------------------------------------------------------------
+
+## Practice: Write Your Own Sentences
+
+Write 3–4 sentences using at least two different French measuring words (un kilo, une livre, un demi-kilo, cent grammes, un morceau, une tranche, un paquet, un bouquet, un tas, une foule). Describe quantities or groups in your daily life.
+
+<textarea style="width: 100%; min-height: 200px; font-size: 1.1em;" placeholder="Write your sentences here..."></textarea>
+ 
+
+<script>
+function checkAnswer(input, correctAnswer) {
+    const span = input.nextElementSibling;
+    if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
+        span.textContent = "✓ Correct";
+        span.style.color = "green";
+    } else {
+        span.textContent = "";
+    }
+}
+
+function showAnswers() {
+    document.querySelectorAll('input[type="text"]').forEach(el => {
+        const correct = el.getAttribute('oninput')?.match(/'([^']+)'/)?.[1];
+        if (correct) {
+            const span = el.nextElementSibling;
+            span.textContent = `Réponse : ${correct}`;
+            span.style.color = "blue";
+        }
+    });
+}
+
+function refreshPage() {
+    location.reload();
+}
+</script>
+
+:::
+
+::: {.content-visible when-profile="french"}
+
+# Les mots pour mesurer en français
+
+En français, il existe de nombreux mots pour exprimer des quantités, que ce soit pour la nourriture, les objets ou les personnes. Voici quelques-uns des plus courants :
+
+## 1. Mots clés pour mesurer
+
+| Expression française      | Signification                        | Exemple (français)                        | Exemple (anglais)                      |
+|--------------------------|--------------------------------------|-------------------------------------------|----------------------------------------|
+| un kilo (de)             | un kilogramme (de)                   | J’achète **un kilo de** pommes.           | I buy a kilogram of apples.            |
+| une livre (de)           | une livre (500g) (de)                | Il prend **une livre de** tomates.        | He takes a pound of tomatoes.          |
+| un demi-kilo (de)        | un demi-kilo (de)                    | Donnez-moi **un demi-kilo de** fraises.   | Give me half a kilo of strawberries.   |
+| cent grammes (de)        | cent grammes (de)                    | Je veux **cent grammes de** fromage.      | I want 100 grams of cheese.            |
+| un morceau (de)          | un morceau (de)                      | Prends **un morceau de** gâteau.          | Take a piece of cake.                  |
+| une tranche (de)         | une tranche (de)                     | Je mange **une tranche de** pain.         | I eat a slice of bread.                |
+| un paquet (de)           | un paquet (de)                       | J’achète **un paquet de** biscuits.       | I buy a packet of cookies.             |
+| un bouquet (de)          | un bouquet (de)                      | Elle offre **un bouquet de** fleurs.      | She gives a bunch of flowers.          |
+| un tas (de)              | un tas (de)                          | Il y a **un tas de** vêtements ici.       | There is a pile of clothes here.       |
+| une foule (de)           | une foule (de)                       | **Une foule de** gens attendent.          | A crowd of people are waiting.         |
+
+> **Remarque :**\
+> - La plupart de ces expressions sont suivies de « de » + nom (ex. : un kilo de pommes, un paquet de biscuits).
+> - « Une livre » signifie « une demi-kilo » (environ 500g), et non « un livre » (book) dans ce contexte.
+
+------------------------------------------------------------------------
+
+## 2. Comment les utiliser
+
+- **Quantités pour la nourriture :**\
+    Utilisez « un kilo de », « une livre de », « cent grammes de » pour les poids.\
+    *Ex : un kilo de pommes, une livre de tomates, cent grammes de fromage*
+
+- **Morceaux et tranches :**\
+    Utilisez « un morceau de » pour un morceau, « une tranche de » pour une tranche.\
+    *Ex : un morceau de gâteau, une tranche de pain*
+
+- **Paquets et bouquets :**\
+    Utilisez « un paquet de » pour un paquet, « un bouquet de » pour un bouquet (souvent des fleurs).\
+    *Ex : un paquet de biscuits, un bouquet de fleurs*
+
+- **Tas et foules :**\
+    Utilisez « un tas de » pour un tas, « une foule de » pour une foule (de personnes).\
+    *Ex : un tas de vêtements, une foule de gens*
+
+------------------------------------------------------------------------
+
+# Exercices
+
+## 1. Complétez avec le bon mot de mesure en français (un kilo, une livre, un demi-kilo, cent grammes, un morceau, une tranche, un paquet, un bouquet, un tas, une foule)
+
+1. J’achète \_\_\_\_\_\_\_\_ de pommes. (un kilogramme) <input type="text" placeholder="" oninput="checkAnswer(this, 'un kilo')"><span></span>
+2. Il prend \_\_\_\_\_\_\_\_ de tomates. (une livre) <input type="text" placeholder="" oninput="checkAnswer(this, 'une livre')"><span></span>
+3. Donnez-moi \_\_\_\_\_\_\_\_ de fraises. (un demi-kilo) <input type="text" placeholder="" oninput="checkAnswer(this, 'un demi-kilo')"><span></span>
+4. Je veux \_\_\_\_\_\_\_\_ de fromage. (cent grammes) <input type="text" placeholder="" oninput="checkAnswer(this, 'cent grammes')"><span></span>
+5. Prends \_\_\_\_\_\_\_\_ de gâteau. (un morceau) <input type="text" placeholder="" oninput="checkAnswer(this, 'un morceau')"><span></span>
+6. Je mange \_\_\_\_\_\_\_\_ de pain. (une tranche) <input type="text" placeholder="" oninput="checkAnswer(this, 'une tranche')"><span></span>
+7. J’achète \_\_\_\_\_\_\_\_ de biscuits. (un paquet) <input type="text" placeholder="" oninput="checkAnswer(this, 'un paquet')"><span></span>
+8. Elle offre \_\_\_\_\_\_\_\_ de fleurs. (un bouquet) <input type="text" placeholder="" oninput="checkAnswer(this, 'un bouquet')"><span></span>
+9. Il y a \_\_\_\_\_\_\_\_ de vêtements ici. (un tas) <input type="text" placeholder="" oninput="checkAnswer(this, 'un tas')"><span></span>
+10. \_\_\_\_\_\_\_\_ de gens attendent. (une foule) <input type="text" placeholder="" oninput="checkAnswer(this, 'une foule')"><span></span>
+
+------------------------------------------------------------------------
+
+## 2. Réécrivez les phrases en utilisant le mot de mesure indiqué
+
+1. Je veux une portion de fromage. (cent grammes)\
+     → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Je veux cent grammes de fromage.')"><span></span>
+2. Elle donne des fleurs à sa mère. (un bouquet)\
+     → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Elle donne un bouquet de fleurs à sa mère.')"><span></span>
+3. Il mange une part de gâteau. (un morceau)\
+     → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Il mange un morceau de gâteau.')"><span></span>
+4. J’achète beaucoup de biscuits. (un paquet)\
+     → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'J’achète un paquet de biscuits.')"><span></span>
+5. Il y a beaucoup de monde dans la rue. (une foule)\
+     → <input type="text" style="width: 500px;" placeholder="" oninput="checkAnswer(this, 'Il y a une foule de gens dans la rue.')"><span></span>
+
+------------------------------------------------------------------------
+
+## 3. Traduisez en français avec le bon mot de mesure
+
+1. J’achète un kilogramme de pommes.\
+     <input type="text" style="width: 450px;" placeholder="" oninput="checkAnswer(this, 'J’achète un kilo de pommes.')"><span></span>
+2. Il prend une livre de tomates.\
+     <input type="text" style="width: 450px;" placeholder="" oninput="checkAnswer(this, 'Il prend une livre de tomates.')"><span></span>
+3. Donnez-moi un demi-kilo de fraises.\
+     <input type="text" style="width: 450px;" placeholder="" oninput="checkAnswer(this, 'Donnez-moi un demi-kilo de fraises.')"><span></span>
+4. Je veux cent grammes de fromage.\
+     <input type="text" style="width: 450px;" placeholder="" oninput="checkAnswer(this, 'Je veux cent grammes de fromage.')"><span></span>
+5. Prends un morceau de gâteau.\
+     <input type="text" style="width: 450px;" placeholder="" oninput="checkAnswer(this, 'Prends un morceau de gâteau.')"><span></span>
+6. Je mange une tranche de pain.\
+     <input type="text" style="width: 450px;" placeholder="" oninput="checkAnswer(this, 'Je mange une tranche de pain.')"><span></span>
+7. J’achète un paquet de biscuits.\
+     <input type="text" style="width: 450px;" placeholder="" oninput="checkAnswer(this, 'J’achète un paquet de biscuits.')"><span></span>
+8. Elle offre un bouquet de fleurs.\
+     <input type="text" style="width: 450px;" placeholder="" oninput="checkAnswer(this, 'Elle offre un bouquet de fleurs.')"><span></span>
+9. Il y a un tas de vêtements ici.\
+     <input type="text" style="width: 450px;" placeholder="" oninput="checkAnswer(this, 'Il y a un tas de vêtements ici.')"><span></span>
+10. Une foule de gens attendent.\
+     <input type="text" style="width: 450px;" placeholder="" oninput="checkAnswer(this, 'Une foule de gens attendent.')"><span></span>
+
+<button onclick="showAnswers()">Afficher les réponses</button>
+
+<button onclick="refreshPage()">Réessayer</button>
+
+------------------------------------------------------------------------
+
+## Pratique : Écrivez vos propres phrases
+
+Écrivez 3 à 4 phrases en utilisant au moins deux mots de mesure différents en français (un kilo, une livre, un demi-kilo, cent grammes, un morceau, une tranche, un paquet, un bouquet, un tas, une foule). Décrivez des quantités ou des groupes dans votre vie quotidienne.
+
+
+<textarea style="width: 100%; min-height: 200px; font-size: 1.1em;" placeholder="Écrivez vos phrases ici..."></textarea>
+
+
+<script>
+function checkAnswer(input, correctAnswer) {
+    const span = input.nextElementSibling;
+    if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
+        span.textContent = "✓ Correct";
+        span.style.color = "green";
+    } else {
+        span.textContent = "";
+    }
+}
+
+function showAnswers() {
+    document.querySelectorAll('input[type="text"]').forEach(el => {
+        const correct = el.getAttribute('oninput')?.match(/'([^']+)'/)?.[1];
+        if (correct) {
+            const span = el.nextElementSibling;
+            span.textContent = `Réponse : ${correct}`;
+            span.style.color = "blue";
+        }
+    });
+}
+
+function refreshPage() {
+    location.reload();
+}
+</script>
+
+:::
