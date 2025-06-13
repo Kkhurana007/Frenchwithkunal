@@ -89,6 +89,15 @@ website:
           - text: "Quiz"  
             href: quiz.qmd
             icon: patch-question
+          - text: "Listening"
+            href: listening.qmd
+            icon: headphones
+          - text: "Reading"
+            href: reading.qmd
+            icon: book
+          - text: "Dictation"
+            href: dictation.qmd
+            icon: pencil
           - text: "AI Application"
             href: quarto_french_learning.qmd
             icon: robot
