@@ -1,0 +1,203 @@
+---
+title: "Comprehension Quiz - La famille de Marie"
+format:
+  html:
+    embed-resources: true
+    theme: cosmo
+    include-in-header:
+      - text: |
+          <style>
+            .quiz-section { max-width: 800px; margin: auto; font-family: 'Segoe UI', sans-serif; }
+            .question { margin: 20px 0; padding: 15px; border: 1px dashed #ccc; border-radius: 8px; }
+            .question h4 { color: #d33; margin-bottom: 10px; }
+            .options label { display: block; margin: 6px 0; cursor: pointer; }
+            .correct-answer { color: green; font-weight: bold; }
+          </style>
+---
+<div class="quiz-section">
+
+## Did you understand the text?
+Please answer the following questions of understanding:
+
+<div id="quiz-app"></div>
+
+<script>
+const questions = [
+    {
+        text: "Question 1: Combien de frères et sœurs a Marie ?",
+        options: [
+            { label: "a) 3", correct: true },
+            { label: "b) 2", correct: false },
+            { label: "c) 4", correct: false },
+            { label: "d) 5", correct: false }
+        ]
+    },
+    {
+        text: "Question 2: Quel âge a la sœur de Marie ?",
+        options: [
+            { label: "a) 7 ans", correct: false },
+            { label: "b) 17 ans", correct: false },
+            { label: "c) 8 ans", correct: true },
+            { label: "d) 15 ans", correct: false }
+        ]
+    },
+    {
+        text: "Question 3: Quel sport pratique Marie ?",
+        options: [
+            { label: "a) Le judo", correct: false },
+            { label: "b) La danse", correct: true },
+            { label: "c) La natation", correct: false },
+            { label: "d) L'escrime", correct: false }
+        ]
+    },
+    {
+        text: "Question 4: Dans quelle ville Marie habite elle ?",
+        options: [
+            { label: "a) A Paris", correct: false },
+            { label: "b) A Marseille", correct: false },
+            { label: "c) A Montpellier", correct: true },
+            { label: "d) A Nice", correct: false }
+        ]
+    },
+    {
+        text: "Question 5: Depuis combien de temps Marie vit elle ici ?",
+        options: [
+            { label: "a) Depuis 15 ans", correct: false },
+            { label: "b) Depuis 7 ans", correct: true },
+            { label: "c) Depuis 10 ans", correct: false },
+            { label: "d) Depuis 3 ans", correct: false }
+        ]
+    },
+    {
+        text: "Question 6: Quel est le sport préféré de Marie ?",
+        options: [
+            { label: "a) L’équitation", correct: false },
+            { label: "b) La danse", correct: true },
+            { label: "c) Le foot", correct: false },
+            { label: "d) La natation", correct: false }
+        ]
+    }
+];
+
+function renderQuiz(questions, containerId) {
+    const container = document.getElementById(containerId);
+    let current = 0;
+
+    function showQuestion(idx) {
+        container.innerHTML = "";
+        const q = questions[idx];
+        const qDiv = document.createElement("div");
+        qDiv.className = "question";
+        qDiv.innerHTML = `<h4>${q.text}</h4>`;
+        const optsDiv = document.createElement("div");
+        optsDiv.className = "options";
+        q.options.forEach((opt, i) => {
+            const label = document.createElement("label");
+            label.innerHTML = `<input type="radio" name="q${idx}" value="${i}"> ${opt.label}`;
+            label.style.cursor = "pointer";
+            label.onclick = () => {
+                if (opt.correct) {
+                    label.innerHTML += ' <span class="correct-answer">✔ Correct!</span>';
+                    setTimeout(() => {
+                        if (idx + 1 < questions.length && (idx + 1) % 3 !== 0) {
+                            showQuestion(idx + 1);
+                        } else if (idx + 1 < questions.length) {
+                            container.innerHTML = `<button id="next-group">Next Questions</button>`;
+                            document.getElementById("next-group").onclick = () => showQuestion(idx + 1);
+                        } else {
+                            container.innerHTML = "<b>Quiz terminé !</b>";
+                        }
+                    }, 800);
+                } else {
+                    label.innerHTML += ' <span style="color:red;">✖ Incorrect</span>';
+                }
+            };
+            optsDiv.appendChild(label);
+        });
+        qDiv.appendChild(optsDiv);
+        container.appendChild(qDiv);
+    }
+
+    // Show first group of 3 questions
+    function startQuiz() {
+        let groupStart = 0;
+        function showGroup(startIdx) {
+            let idx = startIdx;
+            function showNext() {
+                if (idx < startIdx + 3 && idx < questions.length) {
+                    showQuestion(idx);
+                    idx++;
+                } else if (idx < questions.length) {
+                    container.innerHTML = `<button id="next-group">Next Questions</button>`;
+                    document.getElementById("next-group").onclick = () => showGroup(idx);
+                } else {
+                    container.innerHTML = "<b>Quiz terminé !</b>";
+                }
+            }
+            showQuestion(startIdx);
+            // Override showQuestion to chain to next in group
+            const origShowQuestion = showQuestion;
+            showQuestion = function(idx) {
+                origShowQuestion(idx);
+                // When correct, move to next in group
+                const radios = container.querySelectorAll('input[type="radio"]');
+                radios.forEach(radio => {
+                    radio.onclick = () => {
+                        const opt = questions[idx].options[radio.value];
+                        if (opt.correct) setTimeout(showNext, 800);
+                    };
+                });
+            };
+        }
+        showGroup(groupStart);
+    }
+
+    // Simpler: just show 3 at a time, wait for all correct, then next group
+    function showGroupOfThree(startIdx) {
+        container.innerHTML = "";
+        let correctCount = 0;
+        for (let i = 0; i < 3 && (startIdx + i) < questions.length; i++) {
+            const q = questions[startIdx + i];
+            const qDiv = document.createElement("div");
+            qDiv.className = "question";
+            qDiv.innerHTML = `<h4>${q.text}</h4>`;
+            const optsDiv = document.createElement("div");
+            optsDiv.className = "options";
+            q.options.forEach((opt, j) => {
+                const label = document.createElement("label");
+                label.innerHTML = `<input type="radio" name="q${startIdx + i}" value="${j}"> ${opt.label}`;
+                label.style.cursor = "pointer";
+                label.onclick = () => {
+                    if (opt.correct) {
+                        if (!label.querySelector('.correct-answer')) {
+                            label.innerHTML += ' <span class="correct-answer">✔ Correct!</span>';
+                            correctCount++;
+                            if (correctCount === Math.min(3, questions.length - startIdx)) {
+                                setTimeout(() => {
+                                    if (startIdx + 3 < questions.length) {
+                                        container.innerHTML = `<button id="next-group">Next Questions</button>`;
+                                        document.getElementById("next-group").onclick = () => showGroupOfThree(startIdx + 3);
+                                    } else {
+                                        container.innerHTML = "<b>Quiz terminé !</b>";
+                                    }
+                                }, 800);
+                            }
+                        }
+                    } else {
+                        if (!label.querySelector('.incorrect-answer')) {
+                            label.innerHTML += ' <span class="incorrect-answer" style="color:red;">✖ Incorrect</span>';
+                        }
+                    }
+                };
+                optsDiv.appendChild(label);
+            });
+            qDiv.appendChild(optsDiv);
+            container.appendChild(qDiv);
+        }
+    }
+
+    showGroupOfThree(0);
+}
+
+renderQuiz(questions, "quiz-app");
+</script>

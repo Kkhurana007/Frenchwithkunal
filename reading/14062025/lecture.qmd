@@ -1,0 +1,73 @@
+---
+title: "Lecture des Romains"
+categories: ["Lecture", "Compréhension écrite", "Intermédiaire"]
+image: "lecture.png"
+execute:
+    enabled: true
+    echo: false
+---
+
+## Pratiquer la compréhension écrite : Lecture des Romains
+
+Lisez le texte suivant :
+
+> L’influence des Romains sur la civilisation occidentale demeure indéniable. Leur capacité à organiser, administrer et intégrer des peuples variés a permis à l’Empire romain de prospérer pendant des siècles. Les Romains ont perfectionné des infrastructures telles que les routes, les aqueducs et les amphithéâtres, dont certains subsistent encore aujourd’hui. 
+
+> Leur système juridique, fondé sur le droit écrit, a inspiré de nombreux pays modernes. Mais la grandeur de Rome ne résidait pas uniquement dans ses réalisations matérielles. Les Romains excellaient aussi dans l’art de la diplomatie et de la négociation, ce qui leur a permis d’étendre leur influence sans recourir systématiquement à la force. Cependant, cette puissance n’était pas sans failles : la corruption, les inégalités sociales et les luttes de pouvoir internes ont progressivement fragilisé l’Empire. Malgré sa chute, l’héritage romain continue de façonner nos sociétés, que ce soit à travers la langue, l’architecture ou les institutions politiques.
+
+---
+
+### Questions de compréhension
+
+Répondez aux questions suivantes. Chaque bonne réponse vaut 1 point.
+
+<form id="exam-form">
+    <ol>
+        <li>
+            Quelles infrastructures romaines sont mentionnées dans le texte ?<br>
+            <input type="text" name="q1">
+        </li>
+        <li>
+            En quoi le système juridique romain a-t-il influencé le monde moderne ?<br>
+            <input type="text" name="q2">
+        </li>
+        <li>
+            Selon le texte, comment les Romains étendaient-ils leur influence sans utiliser la force ?<br>
+            <input type="text" name="q3">
+        </li>
+        <li>
+            Quelles faiblesses internes ont contribué au déclin de l’Empire romain ?<br>
+            <input type="text" name="q4">
+        </li>
+        <li>
+            Donnez deux exemples de l’héritage romain dans nos sociétés actuelles.<br>
+            <input type="text" name="q5">
+        </li>
+    </ol>
+    <button type="button" onclick="gradeExam()">Soumettre</button>
+</form>
+<div id="result"></div>
+
+<script>
+function normalize(str) {
+    return str.trim().toLowerCase();
+}
+function gradeExam() {
+    const answers = {
+        q1: ["routes", "aqueducs", "amphithéâtres", "routes, aqueducs et amphithéâtres", "infrastructures"],
+        q2: ["droit écrit", "système juridique", "inspiré de nombreux pays modernes", "inspiré le monde moderne"],
+        q3: ["diplomatie", "négociation", "art de la diplomatie et de la négociation"],
+        q4: ["corruption", "inégalités sociales", "luttes de pouvoir internes", "faiblesses internes", "corruption, inégalités sociales et luttes de pouvoir internes"],
+        q5: ["langue", "architecture", "institutions politiques", "langue et architecture", "langue et institutions politiques", "architecture et institutions politiques"]
+    };
+    let score = 0;
+    const form = document.getElementById('exam-form');
+    for (let i = 1; i <= 5; i++) {
+        const userAnswer = normalize(form['q'+i].value);
+        if (answers['q'+i].some(ans => userAnswer.includes(normalize(ans)))) {
+            score += 1;
+        }
+    }
+    document.getElementById('result').innerHTML = `<strong>Votre score : ${score} / 5</strong>`;
+}
+</script>

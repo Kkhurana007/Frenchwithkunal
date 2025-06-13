@@ -1,0 +1,71 @@
+---
+title: "L'amour"
+categories: ["lecture", "débutant", "amour"]
+image: "amour.png"
+execute:
+    enabled: true
+    echo: false
+---
+
+## Pratiquer la compréhension écrite : L'amour
+
+Écoutez le texte suivant :
+
+> Marie aime beaucoup son ami Paul. Ils se voient souvent au café après l’école. Marie aime parler avec Paul parce qu’il est gentil et drôle. Un jour, Paul offre une fleur à Marie. Elle est très heureuse et remercie Paul avec un sourire.
+
+---
+
+### Questions de compréhension
+
+Répondez aux questions suivantes. Chaque bonne réponse vaut 1 point.
+
+<form id="exam-form">
+    <ol>
+        <li>
+            Comment s’appelle l’ami de Marie ?<br>
+            <input type="text" name="q1">
+        </li>
+        <li>
+            Où Marie et Paul se voient-ils souvent ?<br>
+            <input type="text" name="q2">
+        </li>
+        <li>
+            Pourquoi Marie aime parler avec Paul ?<br>
+            <input type="text" name="q3">
+        </li>
+        <li>
+            Qu’est-ce que Paul offre à Marie ?<br>
+            <input type="text" name="q4">
+        </li>
+        <li>
+            Comment Marie réagit-elle ?<br>
+            <input type="text" name="q5">
+        </li>
+    </ol>
+    <button type="button" onclick="gradeExam()">Soumettre</button>
+</form>
+<div id="result"></div>
+
+<script>
+function normalize(str) {
+    return str.trim().toLowerCase();
+}
+function gradeExam() {
+    const answers = {
+        q1: ["paul"],
+        q2: ["au café", "café"],
+        q3: ["parce qu’il est gentil et drôle", "il est gentil et drôle", "gentil et drôle", "parce qu'il est gentil et drôle"],
+        q4: ["une fleur", "fleur"],
+        q5: ["elle est très heureuse", "heureuse", "elle remercie paul avec un sourire", "elle sourit", "elle remercie paul", "elle est heureuse et remercie paul"]
+    };
+    let score = 0;
+    const form = document.getElementById('exam-form');
+    for (let i = 1; i <= 5; i++) {
+        const userAnswer = normalize(form['q'+i].value);
+        if (answers['q'+i].some(ans => userAnswer.includes(normalize(ans)))) {
+            score += 1;
+        }
+    }
+    document.getElementById('result').innerHTML = `<strong>Votre score : ${score} / 5</strong>`;
+}
+</script>

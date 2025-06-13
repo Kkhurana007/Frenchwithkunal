@@ -1,0 +1,71 @@
+---
+title: "Centre ville"
+categories: ["Lecture", "Compréhension écrite", "Débutant"]
+image: "centreville.png"
+execute:
+    enabled: true
+    echo: false
+---
+
+## Pratiquer la compréhension écrite : Centre ville
+
+Lisez le texte suivant :
+
+> Le centre-ville de Montréal est un endroit animé où se rencontrent des personnes de tous horizons. Chaque matin, les rues se remplissent de travailleurs pressés, d’étudiants et de touristes curieux. Les gratte-ciel modernes côtoient des bâtiments historiques, créant un contraste fascinant. Les cafés et restaurants offrent une grande variété de cuisines, attirant ceux qui souhaitent découvrir de nouvelles saveurs. Le soir, les lumières illuminent les rues et de nombreux événements culturels animent la ville. Malgré l’agitation, certains trouvent des moments de tranquillité dans les parcs ou en flânant le long du fleuve Saint-Laurent.
+
+---
+
+### Questions de compréhension
+
+Répondez aux questions suivantes. Chaque bonne réponse vaut 1 point.
+
+<form id="exam-form">
+    <ol>
+        <li>
+            Où se passe la scène décrite dans le texte ?<br>
+            <input type="text" name="q1">
+        </li>
+        <li>
+            Qui peut-on rencontrer au centre-ville le matin ?<br>
+            <input type="text" name="q2">
+        </li>
+        <li>
+            Quel contraste observe-t-on dans l’architecture du centre-ville ?<br>
+            <input type="text" name="q3">
+        </li>
+        <li>
+            Qu’est-ce qui attire les amateurs de cuisine au centre-ville ?<br>
+            <input type="text" name="q4">
+        </li>
+        <li>
+            Où certains trouvent-ils de la tranquillité malgré l’agitation ?<br>
+            <input type="text" name="q5">
+        </li>
+    </ol>
+    <button type="button" onclick="gradeExam()">Soumettre</button>
+</form>
+<div id="result"></div>
+
+<script>
+function normalize(str) {
+    return str.trim().toLowerCase();
+}
+function gradeExam() {
+    const answers = {
+        q1: ["le centre-ville de montréal", "centre-ville", "centre ville", "centre-ville de montréal"],
+        q2: ["travailleurs, étudiants et touristes", "travailleurs pressés, étudiants et touristes curieux", "travailleurs", "étudiants", "touristes"],
+        q3: ["gratte-ciel modernes et bâtiments historiques", "contraste entre gratte-ciel modernes et bâtiments historiques", "modernes et historiques", "gratte-ciel et bâtiments historiques"],
+        q4: ["la variété de cuisines", "grande variété de cuisines", "cuisines variées", "restaurants et cafés", "découvrir de nouvelles saveurs"],
+        q5: ["dans les parcs", "en flânant le long du fleuve saint-laurent", "parcs", "le long du fleuve saint-laurent", "parcs ou le long du fleuve"]
+    };
+    let score = 0;
+    const form = document.getElementById('exam-form');
+    for (let i = 1; i <= 5; i++) {
+        const userAnswer = normalize(form['q'+i].value);
+        if (answers['q'+i].some(ans => userAnswer.includes(normalize(ans)))) {
+            score += 1;
+        }
+    }
+    document.getElementById('result').innerHTML = `<strong>Votre score : ${score} / 5</strong>`;
+}
+</script>

@@ -78,6 +78,15 @@ website:
           - text: "Application IA"
             href: quarto_french_learning.qmd
             icon: robot
+          - text: "Compréhension Orale"
+            href: listening.qmd
+            icon: headphones
+          - text: "Compréhension Écrite"
+            href: reading.qmd
+            icon: book
+          - text: "Dictée"
+            href: dictation.qmd
+            icon: pencil
       - text: "À Propos"
         href: about.qmd      
       - text: "Contactez-nous"

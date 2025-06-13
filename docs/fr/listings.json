@@ -1,5 +1,20 @@
 [
   {
+    "listing": "/reading.html",
+    "items": [
+      "/docs/reading/14062025/chanter.html",
+      "/reading/13062025/foret.html",
+      "/reading/13062025/yoga.html",
+      "/reading/14062025/amour.html",
+      "/reading/14062025/bonhomme.html",
+      "/reading/14062025/centreville.html",
+      "/reading/14062025/chanter.html",
+      "/reading/14062025/lecture.html",
+      "/reading/14062025/loisirs.html",
+      "/reading/14062025/natation.html"
+    ]
+  },
+  {
     "listing": "/posts.html",
     "items": [
       "/posts/28042025/conver2.html",
@@ -52,6 +67,10 @@
     ]
   },
   {
+    "listing": "/dictation.html",
+    "items": []
+  },
+  {
     "listing": "/exercises.html",
     "items": [
       "/exercises/08062025/fractions.html",
@@ -63,6 +82,8 @@
       "/exercises/08062025/ideeduree.html",
       "/exercises/10062025/ideelieu.html",
       "/exercises/12062025/characterisation_choses.html",
+      "/exercises/12062025/characterisation_personne.html",
+      "/exercises/12062025/comparison.html",
       "/exercises/12062025/mots_measurer.html",
       "/exercises/08062025/ideedutemps.html",
       "/exercises/31052025/autres_interrogation.html",
@@ -162,6 +183,18 @@
       "/exercises/19052025/prepositions.html",
       "/exercises/19052025/re_verbs.html",
       "/exercises/19052025/lasalledebain.html"
+    ]
+  },
+  {
+    "listing": "/listening.html",
+    "items": [
+      "/listening/13062025/amis.html",
+      "/listening/13062025/famille.html",
+      "/listening/13062025/marche.html",
+      "/listening/13062025/marriage.html",
+      "/listening/13062025/practice.html",
+      "/listening/13062025/promenade.html",
+      "/listening/13062025/ville_marie.html"
     ]
   }
 ]

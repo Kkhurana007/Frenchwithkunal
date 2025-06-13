@@ -649,5 +649,65 @@
   },
   "exercises/12062025/comparison.qmd": {
     "comparison.html": "e241247b"
+  },
+  "dictation.qmd": {
+    "dictation.html": "ce160104"
+  },
+  "listening.qmd": {
+    "listening.html": "6285af03"
+  },
+  "reading.qmd": {
+    "reading.html": "14115027"
+  },
+  "listening/13062025/amis.qmd": {
+    "amis.html": "1fd00b90"
+  },
+  "listening/13062025/marche.qmd": {
+    "marche.html": "5465acae"
+  },
+  "listening/13062025/marriage.qmd": {
+    "marriage.html": "f123ffb6"
+  },
+  "listening/13062025/practice.qmd": {
+    "practice.html": "d19af0cf"
+  },
+  "listening/13062025/promenade.qmd": {
+    "promenade.html": "9dd7eb5f"
+  },
+  "listening/13062025/ville_marie.qmd": {
+    "ville_marie.html": "72f34a29"
+  },
+  "listening/13062025/famille.qmd": {
+    "famille.html": "a6432400"
+  },
+  "reading/14062025/amour.qmd": {
+    "amour.html": "a2372599"
+  },
+  "reading/13062025/foret.qmd": {
+    "foret.html": "c681913b"
+  },
+  "reading/13062025/yoga.qmd": {
+    "yoga.html": "a3ee974f"
+  },
+  "reading/14062025/centreville.qmd": {
+    "centreville.html": "84f095e6"
+  },
+  "reading/14062025/natation.qmd": {
+    "natation.html": "e8749bf9"
+  },
+  "docs/reading/14062025/chanter.qmd": {
+    "chanter.html": "37f7b23d"
+  },
+  "reading/14062025/bonhomme.qmd": {
+    "bonhomme.html": "f3e8a494"
+  },
+  "reading/14062025/chanter.qmd": {
+    "chanter.html": "e9a1a017"
+  },
+  "reading/14062025/lecture.qmd": {
+    "lecture.html": "bfd0ce7d"
+  },
+  "reading/14062025/loisirs.qmd": {
+    "loisirs.html": "6d417f7e"
   }
 }

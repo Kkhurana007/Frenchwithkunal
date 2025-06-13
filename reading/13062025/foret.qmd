@@ -1,0 +1,124 @@
+---
+title: "La Forêt : Activités de Compréhension de Lecture"
+categories: ["Lecture", "Compréhension écrite", "Débutant"]
+image: "foret.png"
+execute:
+    enabled: true
+    echo: false
+---
+
+## Pratiquer la compréhension écrite : La Forêt
+
+Lisez le texte suivant :
+
+> La forêt est un endroit où poussent de nombreux arbres, plantes et fleurs. Beaucoup d’animaux y vivent, comme les oiseaux, les écureuils et les cerfs. Les forêts sont importantes car elles produisent de l’oxygène et abritent de nombreuses espèces.
+
+
+> Dans la forêt, il fait souvent frais et humide. On peut entendre le chant des oiseaux et le bruissement des feuilles. Certaines forêts sont très anciennes et abritent des arbres géants. Les promeneurs aiment s’y balader pour profiter de la nature et observer les animaux. Parfois, on peut aussi trouver des champignons ou des baies à ramasser. La forêt change d’aspect selon les saisons : en automne, les feuilles deviennent rouges et jaunes, tandis qu’au printemps, de nouvelles fleurs apparaissent.
+
+---
+
+### Questions de compréhension
+
+Répondez aux questions suivantes. Chaque bonne réponse vaut 1 point.
+<form id="exam-form">
+    <ol>
+        <li>
+            Quels animaux peut-on trouver dans la forêt ?<br>
+            <input type="text" name="q1" style="width: 90%; height: 2.5em; font-size: 1em;">
+        </li>
+        <li>
+            Pourquoi les forêts sont-elles importantes ?<br>
+            <input type="text" name="q2" style="width: 90%; height: 2.5em; font-size: 1em;">
+        </li>
+        <li>
+            Que trouve-t-on dans une forêt à part des arbres ?<br>
+            <input type="text" name="q3" style="width: 90%; height: 2.5em; font-size: 1em;">
+        </li>
+        <li>
+            Qu’est-ce que les forêts produisent et que nous respirons ?<br>
+            <input type="text" name="q4" style="width: 90%; height: 2.5em; font-size: 1em;">
+        </li>
+        <li>
+            Donne un exemple d’animal qui saute d’arbre en arbre.<br>
+            <input type="text" name="q5" style="width: 90%; height: 2.5em; font-size: 1em;">
+        </li>
+        <li>
+            Comment la forêt change-t-elle en automne ?<br>
+            <input type="text" name="q6" style="width: 90%; height: 2.5em; font-size: 1em;">
+        </li>
+        <li>
+            Que peut-on ramasser dans la forêt ?<br>
+            <input type="text" name="q7" style="width: 90%; height: 2.5em; font-size: 1em;">
+        </li>
+        <li>
+            Pourquoi les promeneurs aiment-ils aller dans la forêt ?<br>
+            <input type="text" name="q8" style="width: 90%; height: 2.5em; font-size: 1em;">
+        </li>
+    </ol>
+    <button type="button" onclick="gradeExam()">Soumettre</button>
+</form>
+<div id="result"></div>
+
+<script>
+function normalize(str) {
+    return str.trim().toLowerCase();
+}
+function gradeExam() {
+    const answers = {
+        q1: [
+            "oiseaux", "écureuils", "cerfs", "des oiseaux", "des écureuils", "des cerfs",
+            "oiseaux, écureuils, cerfs", "beaucoup d’animaux", "beaucoup d'animaux", "animaux"
+        ],
+        q2: [
+            "elles produisent de l’oxygène", "elles produisent de l'oxygène", "elles abritent de nombreuses espèces",
+            "produisent de l’oxygène", "produisent de l'oxygène", "abritent de nombreuses espèces",
+            "elles produisent de l’oxygène et abritent de nombreuses espèces", "elles produisent de l'oxygène et abritent de nombreuses espèces",
+            "produisent de l’oxygène et abritent de nombreuses espèces", "produisent de l'oxygène et abritent de nombreuses espèces",
+            "pour l’oxygène", "pour l'oxygène", "pour abriter des espèces", "pour abriter de nombreuses espèces"
+        ],
+        q3: [
+            "plantes", "fleurs", "des plantes", "des fleurs", "plantes et fleurs", "des plantes et des fleurs",
+            "champignons", "baies", "des champignons", "des baies", "champignons ou baies", "des champignons ou des baies"
+        ],
+        q4: [
+            "oxygène", "de l’oxygène", "de l'oxygène"
+        ],
+        q5: [
+            "écureuil", "un écureuil", "les écureuils", "écureuils"
+        ],
+        q6: [
+            "les feuilles deviennent rouges et jaunes", "feuilles rouges et jaunes", "les feuilles changent de couleur",
+            "les feuilles deviennent rouges", "les feuilles deviennent jaunes", "les feuilles changent", "les feuilles tombent",
+            "en automne les feuilles deviennent rouges et jaunes", "les feuilles changent de couleur en automne"
+        ],
+        q7: [
+            "champignons", "baies", "des champignons", "des baies", "champignons ou baies", "des champignons ou des baies"
+        ],
+        q8: [
+            "pour profiter de la nature", "pour observer les animaux", "pour se balader", "pour profiter de la nature et observer les animaux",
+            "pour se promener", "pour marcher", "pour voir la nature", "pour voir les animaux", "pour profiter de la forêt"
+        ]
+    };
+    let score = 0;
+    const form = document.getElementById('exam-form');
+    for (let i = 1; i <= 8; i++) {
+        const userAnswer = normalize(form['q'+i].value);
+        if (answers['q'+i].some(ans => userAnswer.includes(normalize(ans)))) {
+            score += 1;
+        }
+    }
+    document.getElementById('result').innerHTML = `<strong>Votre score : ${score} / 8</strong>`;
+}
+    };
+    let score = 0;
+    const form = document.getElementById('exam-form');
+    for (let i = 1; i <= 8; i++) {
+        const userAnswer = normalize(form['q'+i].value);
+        if (answers['q'+i].some(ans => userAnswer.includes(normalize(ans)))) {
+            score += 1;
+        }
+    }
+    document.getElementById('result').innerHTML = `<strong>Votre score : ${score} / 8</strong>`;
+}
+</script>

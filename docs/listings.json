@@ -165,5 +165,35 @@
       "/exercises/19052025/re_verbs.html",
       "/exercises/19052025/lasalledebain.html"
     ]
+  },
+  {
+    "listing": "/listening.html",
+    "items": [
+      "/listening/13062025/amis.html",
+      "/listening/13062025/famille.html",
+      "/listening/13062025/marche.html",
+      "/listening/13062025/marriage.html",
+      "/listening/13062025/practice.html",
+      "/listening/13062025/promenade.html",
+      "/listening/13062025/ville_marie.html"
+    ]
+  },
+  {
+    "listing": "/dictation.html",
+    "items": []
+  },
+  {
+    "listing": "/reading.html",
+    "items": [
+      "/reading/13062025/foret.html",
+      "/reading/13062025/yoga.html",
+      "/reading/14062025/amour.html",
+      "/reading/14062025/bonhomme.html",
+      "/reading/14062025/centreville.html",
+      "/reading/14062025/chanter.html",
+      "/reading/14062025/lecture.html",
+      "/reading/14062025/loisirs.html",
+      "/reading/14062025/natation.html"
+    ]
   }
 ]
