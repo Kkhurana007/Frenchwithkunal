@@ -1,0 +1,65 @@
+---
+title: "Ville-Marie : Vie dans un village au Québec"
+categories: ["Compréhension orale", "Débutant", "Vie quotidienne", "Québec"]
+image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80"
+image-alt: "Beau village au Québec"
+---
+
+## 🎧 Activité de compréhension orale
+
+Écoutez l'extrait audio sur la vie dans un village au Québec, puis répondez aux questions suivantes.  
+[Insérez ici l'audio ou un lien vers celui-ci.]
+
+### 📝 Questions de compréhension
+
+<div class="audio-text">
+Émilie habite dans un petit village au Québec, entouré de forêts et de lacs. Chaque matin, elle se promène avec son chien près de la rivière. Dans le village, il y a beaucoup d’animaux : des vaches, des chevaux, et même quelques moutons. Émilie aime aider ses voisins à la ferme, surtout pendant la saison des récoltes. Elle apprécie la tranquillité de la campagne et le contact avec la nature. L’hiver, elle fait du ski de fond et observe les traces d’animaux dans la neige.
+</div>
+
+<div class="question-block">
+
+<div class="question">
+**🟠 Question 1 :**  
+Où habite Émilie ?
+<div class="options">
+- a. Dans une grande ville.  
+- b. Dans un petit village au Québec.  
+- c. Près de la mer.  
+- d. Dans une banlieue de Montréal.
+</div>
+</div>
+
+<div class="question">
+**🟠 Question 2 :**  
+Avec qui Émilie se promène-t-elle le matin ?  
+<div class="options">
+- a. Avec son chat.  
+- b. Avec son chien.  
+- c. Avec ses amis.  
+- d. Avec sa sœur.
+</div>
+</div>
+
+<div class="question">
+**🟠 Question 3 :**  
+Quels animaux trouve-t-on dans le village ?  
+<div class="options">
+- a. Des lions et des tigres.  
+- b. Des vaches, des chevaux et des moutons.  
+- c. Des dauphins.  
+- d. Des singes.
+</div>
+</div>
+
+<div class="question">
+**🟠 Question 4 :**  
+Qu’aime faire Émilie en hiver ?  
+<div class="options">
+- a. Aller à la plage.  
+- b. Faire du ski de fond et observer les traces d’animaux.  
+- c. Nager dans le lac.  
+- d. Faire du vélo.
+</div>
+</div>
+
+</div>

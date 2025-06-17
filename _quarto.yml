@@ -11,24 +11,24 @@ profile:
     - [english, french]
     
 
-format:
-  html:
-    include-in-header:
-      - text: |
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-      - text: |
-          <!-- Google tag (gtag.js) -->
-          <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17047244782"></script>
-          <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'AW-17047244782');
-          </script>
-    include-in-footer: footer.md
+#format:
+#  html:
+#    include-in-header:
+#      - text: |
+#          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+#      - text: |
+#          <!-- Google tag (gtag.js) -->
+#          <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17047244782"></script>
+#          <script>
+#            window.dataLayer = window.dataLayer || [];
+#            function gtag(){dataLayer.push(arguments);}
+#            gtag('js', new Date());
+#            gtag('config', 'AW-17047244782');
+#          </script>
+#    include-in-footer: footer.md
 
-execute: 
-  freeze: true
+#execute: 
+#  freeze: true
 
 #metadata-files: 
   #- _quarto-french.yml

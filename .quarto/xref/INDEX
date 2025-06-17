@@ -709,5 +709,71 @@
   },
   "reading/14062025/loisirs.qmd": {
     "loisirs.html": "6d417f7e"
+  },
+  "listening/13062025/campaign.qmd": {
+    "campaign.html": "7e8123de"
+  },
+  "listening/13062025/immigration.qmd": {
+    "immigration.html": "6256c974"
+  },
+  "vocabulary/16062025/bodyparts.qmd": {
+    "bodyparts.html": "3eb85d34"
+  },
+  "vocabulary/16062025/clothing.qmd": {
+    "clothing.html": "c54339e4"
+  },
+  "vocabulary/16062025/dairy.qmd": {
+    "dairy.html": "6dd57d0b"
+  },
+  "vocabulary/16062025/family.qmd": {
+    "family.html": "5eb3418d"
+  },
+  "vocabulary/16062025/food.qmd": {
+    "food.html": "1808b494"
+  },
+  "vocabulary/16062025/fruits.qmd": {
+    "fruits.html": "8b368f34"
+  },
+  "vocabulary/16062025/lachambre1.qmd": {
+    "lachambre1.html": "976fe2bc"
+  },
+  "vocabulary/16062025/lacuisine.qmd": {
+    "lacuisine.html": "a95b8ebd"
+  },
+  "vocabulary/16062025/lasalledebain.qmd": {
+    "lasalledebain.html": "09954edd"
+  },
+  "vocabulary/16062025/legumes.qmd": {
+    "legumes.html": "155f8432"
+  },
+  "vocabulary/16062025/lesalon.qmd": {
+    "lesalon.html": "720df70c"
+  },
+  "vocabulary/16062025/noun_genders.qmd": {
+    "noun_genders.html": "30c84d46"
+  },
+  "vocabulary/16062025/numbers.qmd": {
+    "numbers.html": "78bdd513"
+  },
+  "vocabulary/16062025/ordinal.qmd": {
+    "ordinal.html": "7d9b13a0"
+  },
+  "vocabulary/16062025/partsofhouse.qmd": {
+    "partsofhouse.html": "f7154b20"
+  },
+  "vocabulary/16062025/seafood.qmd": {
+    "seafood.html": "ca33df6a"
+  },
+  "vocabulary/16062025/shopping.qmd": {
+    "shopping.html": "65b4ba8c"
+  },
+  "vocabulary/16062025/storesandplaces.qmd": {
+    "storesandplaces.html": "67fb193c"
+  },
+  "vocabulary/16062025/viande.qmd": {
+    "viande.html": "4699eb18"
+  },
+  "vocabulary.qmd": {
+    "vocabulary.html": "14c3c833"
   }
 }

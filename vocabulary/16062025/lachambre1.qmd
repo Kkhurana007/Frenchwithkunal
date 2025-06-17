@@ -1,0 +1,201 @@
+---
+title: "Exercises: Bedroom Vocabulary & Gender"
+author: "Kunal Khurana"
+date: "16-06-2025"
+categories: [A2, vocabulary, bedroom, exercises]
+image: "lachambre.png"
+---
+
+::: {.content-visible when-profile="english"}
+
+### Exercise: French Bedroom Nouns and Gender
+
+Practice the gender of French bedroom nouns and their articles.
+
+#### 1. Assign the correct definite article (*le/la/l'*) to each bedroom item:
+
+___ lit (bed) 🛏️ → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'le')">
+
+___ armoire (wardrobe) 🚪 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'l\'')">
+
+___ lampe (lamp) 💡 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'la')">
+
+___ oreiller (pillow) 💤 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'l\'')">
+
+___ couverture (blanket) 🛌 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'la')">
+
+___ bureau (desk) 🖊️ → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'le')">
+
+___ fenêtre (window) 🪟 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'la')">
+
+___ chaise (chair) 🪑 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'la')">
+
+#### 2. Match the French term to its English equivalent:
+
+**"la commode"** → <input type="text" placeholder="English" oninput="checkAnswer(this, 'dresser')">
+
+**"le tapis"** → <input type="text" placeholder="English" oninput="checkAnswer(this, 'rug')">
+
+**"la table de nuit"** → <input type="text" placeholder="English" oninput="checkAnswer(this, 'nightstand')">
+
+**"la porte"** → <input type="text" placeholder="English" oninput="checkAnswer(this, 'door')">
+
+#### 3. Fill in the blanks with the correct term:
+
+"Je range mes vêtements dans \_\_\_ (the wardrobe)." → <input type="text" placeholder="French" oninput="checkAnswer(this, 'l\'armoire')">
+
+"Je pose mon réveil sur \_\_\_ (the nightstand)." → <input type="text" placeholder="French" oninput="checkAnswer(this, 'la table de nuit')">
+
+"Je m'assois sur \_\_\_ (the chair) pour étudier." → <input type="text" placeholder="French" oninput="checkAnswer(this, 'la chaise')">
+
+"Je mets mes pieds sur \_\_\_ (the rug)." → <input type="text" placeholder="French" oninput="checkAnswer(this, 'le tapis')">
+
+"J'ouvre \_\_\_ (the door) pour entrer dans la chambre." → <input type="text" placeholder="French" oninput="checkAnswer(this, 'la porte')">
+
+"Je travaille sur \_\_\_ (the desk)." → <input type="text" placeholder="French" oninput="checkAnswer(this, 'le bureau')">
+
+"Je mets \_\_\_ (the blanket) sur le lit quand il fait froid." → <input type="text" placeholder="French" oninput="checkAnswer(this, 'la couverture')">
+
+"Je range mes livres dans \_\_\_ (the dresser)." → <input type="text" placeholder="French" oninput="checkAnswer(this, 'la commode')">
+
+"Je dors sur \_\_\_ (the bed)." → <input type="text" placeholder="French" oninput="checkAnswer(this, 'le lit')">
+
+"J'allume \_\_\_ (the lamp) quand il fait sombre." → <input type="text" placeholder="French" oninput="checkAnswer(this, 'la lampe')">
+
+#### 4. Correct the errors in gender/number:
+
+"Un armoire" → <input type="text" placeholder="Correct phrase" oninput="checkAnswer(this, 'une armoire')">
+
+"La lit" → <input type="text" placeholder="Correct phrase" oninput="checkAnswer(this, 'le lit')">
+
+"Des chaise" → <input type="text" placeholder="Correct phrase" oninput="checkAnswer(this, 'des chaises')">
+
+<button onclick="showAnswers()">Show All Answers</button>
+
+<script>
+function showAnswers() {
+  document.querySelectorAll('input[type="text"]').forEach(input => {
+    const correct = input.getAttribute('oninput').match(/'([^']+)'/)[1];
+    input.value = correct;
+    const feedback = input.nextElementSibling;
+    if (feedback) {
+      feedback.textContent = "✓ Correct!";
+      feedback.style.color = "green";
+    }
+  });
+}
+
+function checkAnswer(input, correct) {
+  let feedback = input.nextElementSibling;
+  if (!feedback) {
+    feedback = document.createElement('span');
+    input.parentNode.insertBefore(feedback, input.nextSibling);
+  }
+  if (input.value.trim().toLowerCase() === correct.toLowerCase()) {
+    feedback.textContent = "✓ Correct!";
+    feedback.style.color = "green";
+  } else {
+    feedback.textContent = "";
+  }
+}
+</script>
+
+:::
+
+
+::: {.content-visible when-profile="french"}
+
+### Exercice : Vocabulaire de la chambre et genre
+
+Entraînez-vous à utiliser le genre des noms de la chambre en français et leurs articles.
+
+#### 1. Attribuez le bon article défini (*le/la/l'*) à chaque objet de la chambre :
+
+___ lit (🛏️) → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'le')">
+
+___ armoire (🚪) → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'l\'')">
+
+___ lampe (💡) → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'la')">
+
+___ oreiller (💤) → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'l\'')">
+
+___ couverture (🛌) → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'la')">
+
+___ bureau (🖊️) → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'le')">
+
+___ fenêtre (🪟) → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'la')">
+
+___ chaise (🪑) → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'la')">
+
+#### 2. Associez le terme français à son équivalent anglais :
+
+**"la commode"** → <input type="text" placeholder="Anglais" oninput="checkAnswer(this, 'dresser')">
+
+**"le tapis"** → <input type="text" placeholder="Anglais" oninput="checkAnswer(this, 'rug')">
+
+**"la table de nuit"** → <input type="text" placeholder="Anglais" oninput="checkAnswer(this, 'nightstand')">
+
+**"la porte"** → <input type="text" placeholder="Anglais" oninput="checkAnswer(this, 'door')">
+
+#### 3. Complétez les phrases avec le bon terme :
+
+"Je range \_\_\_ dans l'armoire." (le tapis) → <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'le tapis')">
+
+"Je m'assois sur \_\_\_ pour lire." (la chaise) → <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'la chaise')">
+
+"J'allume \_\_\_ quand il fait sombre." (la lampe) → <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'la lampe')">
+
+"Je mets mes vêtements dans \_\_\_." (la commode) → <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'la commode')">
+
+"Je ferme \_\_\_ avant de sortir." (la porte) → <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'la porte')">
+
+"Je travaille sur \_\_\_." (le bureau) → <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'le bureau')">
+
+"Je dors sur \_\_\_." (le lit) → <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'le lit')">
+
+"Je mets \_\_\_ sur le lit quand il fait froid." (la couverture) → <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'la couverture')">
+
+"Je pose mon livre sur \_\_\_." (la table de nuit) → <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'la table de nuit')">
+
+"Je marche sur \_\_\_ en entrant dans la chambre." (le tapis) → <input type="text" placeholder="Réponse" oninput="checkAnswer(this, 'le tapis')">
+
+#### 4. Corrigez les erreurs de genre/nombre :
+
+"Un armoire" → <input type="text" placeholder="Phrase correcte" oninput="checkAnswer(this, 'une armoire')">
+
+"La lit" → <input type="text" placeholder="Phrase correcte" oninput="checkAnswer(this, 'le lit')">
+
+"Des chaise" → <input type="text" placeholder="Phrase correcte" oninput="checkAnswer(this, 'des chaises')">
+
+<button onclick="showAnswers()">Afficher toutes les réponses</button>
+
+<script>
+function showAnswers() {
+  document.querySelectorAll('input[type="text"]').forEach(input => {
+    const correct = input.getAttribute('oninput').match(/'([^']+)'/)[1];
+    input.value = correct;
+    const feedback = input.nextElementSibling;
+    if (feedback) {
+      feedback.textContent = "✓ Correct!";
+      feedback.style.color = "green";
+    }
+  });
+}
+
+function checkAnswer(input, correct) {
+  let feedback = input.nextElementSibling;
+  if (!feedback) {
+    feedback = document.createElement('span');
+    input.parentNode.insertBefore(feedback, input.nextSibling);
+  }
+  if (input.value.trim().toLowerCase() === correct.toLowerCase()) {
+    feedback.textContent = "✓ Correct!";
+    feedback.style.color = "green";
+  } else {
+    feedback.textContent = "";
+  }
+}
+</script>
+
+
+:::

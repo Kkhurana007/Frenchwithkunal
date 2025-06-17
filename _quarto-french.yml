@@ -135,9 +135,12 @@ website:
         - text: "Articles de Blog"
           href: posts.qmd
           icon: file-lines
-        - text: "Exercices"
+        - text: "Grammaire"
           href: exercises.qmd
           icon: clipboard-check
+        - text: "Vocabulaire"
+          href: vocabulary.qmd
+          icon: book
         - text: "À Propos"
           href: about.qmd
           icon: info-circle

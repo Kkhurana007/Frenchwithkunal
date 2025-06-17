@@ -7,6 +7,7 @@ image: "characterisation.png"
 ---
 
 ::: {.content-visible when-profile="english"}
+
 # Describing Things in French
 
 In French, you can describe objects using color, size, shape, material, and function. Here are the main ways to characterize things:

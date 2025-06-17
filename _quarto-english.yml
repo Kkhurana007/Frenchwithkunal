@@ -83,9 +83,12 @@ website:
           - text: "Blog Posts"
             href: posts.qmd
             icon: file
-          - text: "Exercises"
+          - text: "Grammar"
             href: exercises.qmd
             icon: clipboard-check
+          - text: "Vocabulary"
+            href: vocabulary.qmd
+            icon: book
           - text: "Quiz"  
             href: quiz.qmd
             icon: patch-question

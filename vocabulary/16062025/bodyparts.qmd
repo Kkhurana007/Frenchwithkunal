@@ -1,0 +1,172 @@
+---
+title: "Body Parts in French"
+author: "Kunal Khurana"
+date: "05-12-2025"
+categories: [A1/A2, vocabulary, body parts, exercises]
+image: "lescorps.png"
+---
+
+::: {.content-visible when-profile="english"}
+# Exercise: Les Parties du Corps (Body Parts)
+
+### 1. Label the Body Parts
+
+**Drag the French words to the correct body part on the image:**\
+*(Simulated drag-and-drop with text feedback)*
+
+-   **Word Bank:**\
+    `la tête` \| `les yeux` \| `le nez` \| `la bouche` \| `l'oreille` (f) \| `la main` \| `le pied` \| `le bras` \| `la jambe`
+
+**Instructions:**\
+Match each word to its number on the image below:\
+1. <input type="text" placeholder="French word" oninput="checkAnswer(this, 'la tête')"> (head)\
+2. <input type="text" placeholder="French word" oninput="checkAnswer(this, 'les yeux')"> (eyes)\
+3. <input type="text" placeholder="French word" oninput="checkAnswer(this, 'le nez')"> (nose)\
+... *(add more as needed)*
+
+*(Note: In a real activity, you’d embed an image with numbered body parts.)*
+
+------------------------------------------------------------------------
+
+### 2. Fill in the Blanks
+
+Complete the sentences with the correct body part in French:\
+- Je vois avec <input type="text" placeholder="?" oninput="checkAnswer(this, 'les yeux')">. (I see with my **.)\
+- J’écoute avec <input type="text" placeholder="?" oninput="checkAnswer(this, 'les oreilles')">. (I listen with my .)\
+- Je marche avec <input type="text" placeholder="?" oninput="checkAnswer(this, 'les pieds')">. (I walk with my __.)
+
+------------------------------------------------------------------------
+
+### 3. Singular or Plural?
+
+Write the plural form of these body parts (most come in pairs!):\
+- *la main* → <input type="text" placeholder="?" oninput="checkAnswer(this, 'les mains')">\
+- *le pied* → <input type="text" placeholder="?" oninput="checkAnswer(this, 'les pieds')">\
+- *l’œil* → <input type="text" placeholder="?" oninput="checkAnswer(this, 'les yeux')"> *(irregular!)*
+
+------------------------------------------------------------------------
+
+### 4. Creative Challenge ✍️
+
+**Describe a monster in French!** Use 5+ body parts and adjectives:\
+Example: *"Mon monstre a trois yeux, une grande bouche, et des longues jambes."*
+
+
+<textarea placeholder="Écrivez ici..." rows="4" cols="50"></textarea>
+
+
+<button onclick="giveFeedback()">Check My Work</button>
+
+<script>
+function checkAnswer(input, correctAnswer) {
+        const span = input.nextElementSibling;
+        if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
+                span.textContent = "✓ Correct";
+                span.style.color = "green";
+        } else {
+                span.textContent = "";
+        }
+}
+
+function showAnswers() {
+        document.querySelectorAll('input[type="text"]').forEach(el => {
+                const correct = el.getAttribute('oninput')?.match(/'([^']+)'/)?.[1];
+                if (correct) {
+                        const span = el.nextElementSibling;
+                        span.textContent = `Réponse : ${correct}`;
+                        span.style.color = "blue";
+                }
+        });
+}
+
+function refreshPage() {
+        location.reload();
+}
+</script>
+
+:::
+
+::: {.content-visible when-profile="french"}
+
+# Exercice : Les Parties du Corps
+
+### 1. Nommez les parties du corps
+
+**Glissez les mots français sur la bonne partie du corps dans l’image :**\
+*(Glisser-déposer simulé avec retour visuel)*
+
+-   **Banque de mots :**\
+    `la tête` \| `les yeux` \| `le nez` \| `la bouche` \| `l'oreille` (f) \| `la main` \| `le pied` \| `le bras` \| `la jambe`
+
+**Instructions :**\
+Associez chaque mot à son numéro sur l’image ci-dessous :\
+1. <input type="text" placeholder="Mot français" oninput="checkAnswer(this, 'la tête')"> (tête)\
+2. <input type="text" placeholder="Mot français" oninput="checkAnswer(this, 'les yeux')"> (yeux)\
+3. <input type="text" placeholder="Mot français" oninput="checkAnswer(this, 'le nez')"> (nez)\
+... *(ajoutez-en d’autres si besoin)*
+
+*(Remarque : dans une vraie activité, vous ajouteriez une image avec les parties numérotées.)*
+
+------------------------------------------------------------------------
+
+### 2. Complétez les phrases
+
+Complétez avec la bonne partie du corps en français :\
+- Je vois avec <input type="text" placeholder="?" oninput="checkAnswer(this, 'les yeux')">.\
+- J’écoute avec <input type="text" placeholder="?" oninput="checkAnswer(this, 'les oreilles')">.\
+- Je marche avec <input type="text" placeholder="?" oninput="checkAnswer(this, 'les pieds')">.
+
+------------------------------------------------------------------------
+
+### 3. Singulier ou pluriel ?
+
+Écrivez le pluriel de ces parties du corps (la plupart vont par deux !) :\
+- *la main* → <input type="text" placeholder="?" oninput="checkAnswer(this, 'les mains')">\
+- *le pied* → <input type="text" placeholder="?" oninput="checkAnswer(this, 'les pieds')">\
+- *l’œil* → <input type="text" placeholder="?" oninput="checkAnswer(this, 'les yeux')"> *(irrégulier !)*
+
+
+<button onclick="donnerRetour()">Vérifier</button>
+
+
+------------------------------------------------------------------------
+
+
+### 4. Défi créatif ✍️
+
+**Décrivez un monstre en français !** Utilisez au moins 5 parties du corps et des adjectifs :\
+Exemple : *« Mon monstre a trois yeux, une grande bouche et de longues jambes. »*
+
+
+<textarea placeholder="Écrivez ici..." rows="4" cols="100"></textarea>
+
+
+<script>
+
+function checkAnswer(input, correctAnswer) {
+        const span = input.nextElementSibling;
+        if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
+                span.textContent = "✓ Correct";
+                span.style.color = "green";
+        } else {
+                span.textContent = "";
+        }
+}
+
+function showAnswers() {
+        document.querySelectorAll('input[type="text"]').forEach(el => {
+                const correct = el.getAttribute('oninput')?.match(/'([^']+)'/)?.[1];
+                if (correct) {
+                        const span = el.nextElementSibling;
+                        span.textContent = `Réponse : ${correct}`;
+                        span.style.color = "blue";
+                }
+        });
+}
+
+function refreshPage() {
+        location.reload();
+}
+</script>
+
+:::

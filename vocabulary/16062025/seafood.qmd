@@ -1,0 +1,192 @@
+---
+title: "Exercises: French Seafood Vocabulary (Les Fruits de Mer)"  
+author: "Kunal Khurana"  
+date: "05-12-2025"  
+categories: [A1/A2, vocabulary, food, exercises]  
+image: "seafood.png"  
+---
+
+::: {.content-visible when-profile="english"}
+
+### Exercise: French Seafood Terms
+
+Practice identifying and using seafood vocabulary in French.
+
+#### 1. Write the French Word:
+
+**"crab"** → <input type="text" placeholder="French" oninput="checkAnswer(this, 'le crabe')"><span></span>
+
+**"shrimp"** → <input type="text" placeholder="French" oninput="checkAnswer(this, 'la crevette')"><span></span>
+
+**"salmon"** → <input type="text" placeholder="French" oninput="checkAnswer(this, 'le saumon')"><span></span>
+
+**"oyster"** → <input type="text" placeholder="French" oninput="checkAnswer(this, 'l’huître')"><span></span>
+
+**"tuna"** → <input type="text" placeholder="French" oninput="checkAnswer(this, 'le thon')"><span></span>
+
+#### 2. Match the Seafood to Its Description:
+
+**"Un poisson gras souvent utilisé en sushi"** → <input type="text" placeholder="French" oninput="checkAnswer(this, 'le saumon')"><span></span>
+
+**"Un crustacé avec des pinces"** → <input type="text" placeholder="French" oninput="checkAnswer(this, 'le homard')"><span></span>
+
+**"Petit poisson souvent en conserve"** → <input type="text" placeholder="French" oninput="checkAnswer(this, 'la sardine')"><span></span>
+
+#### 3. Correct the Errors (Spelling/Gender):
+
+**"la crabe"** → <input type="text" placeholder="Correct form" oninput="checkAnswer(this, 'le crabe')"><span></span>
+
+**"le huitre"** → <input type="text" placeholder="Correct form" oninput="checkAnswer(this, 'l’huître')"><span></span>
+
+**"la thon"** → <input type="text" placeholder="Correct form" oninput="checkAnswer(this, 'le thon')"><span></span>
+
+#### 4. Fill in the Blanks with Seafood Terms:
+
+"J’ai commandé \_\_\_ (lobster) grillé pour le dîner." → <input type="text" placeholder="French" oninput="checkAnswer(this, 'le homard')"><span></span>
+
+"Les \_\_\_ (clams) sont délicieuses avec du beurre à l’ail." → <input type="text" placeholder="French" oninput="checkAnswer(this, 'les palourdes')"><span></span>
+
+"Ce restaurant sert un excellent \_\_\_ (fillet) de bar." → <input type="text" placeholder="French" oninput="checkAnswer(this, 'filet')"><span></span>
+
+<button onclick="showAnswers()">Show All Answers</button>
+
+
+<script>
+function checkAnswer(input, correctAnswer) {
+    const span = input.nextElementSibling;
+    if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
+        span.textContent = "✓ Correct";
+        span.style.color = "green";
+    } else {
+        span.textContent = "";
+    }
+}
+
+function showAnswers() {
+    document.querySelectorAll('input[type="text"]').forEach(el => {
+        const correct = el.getAttribute('oninput')?.match(/'([^']+)'/)?.[1];
+        if (correct) {
+            const span = el.nextElementSibling;
+            span.textContent = `Réponse : ${correct}`;
+            span.style.color = "blue";
+        }
+    });
+}
+
+function refreshPage() {
+    location.reload();
+}
+</script>
+
+<button onclick="refreshPage()">Refresh Page</button>
+
+#### 5. Translate into French:
+
+**"I love shrimp and oysters."**\
+
+<textarea placeholder="J’adore..." rows="2" cols="50" oninput="checkTranslation(this, 'J’adore les crevettes et les huîtres')"></textarea>
+
+**"We ate grilled salmon yesterday."**
+
+
+<textarea placeholder="Nous avons mangé..." rows="2" cols="50" oninput="checkTranslation(this, 'Nous avons mangé du saumon grillé hier')"></textarea>
+
+
+
+### Notes:
+
+-   **Gender Matters**: *Le homard* (masc.) but *la crevette* (fem.).\
+-   **Contractions**: *L’huître* (not "la huître") because of the silent *h*.\
+-   **Plurals**: Most add *-s* (*les crevettes*, *les sardines*).
+:::
+
+::: {.content-visible when-profile="french"}
+
+### Exercice : Vocabulaire des fruits de mer
+
+Entraînez-vous à reconnaître et utiliser le vocabulaire des fruits de mer en français.
+
+#### 1. Écrivez le mot en anglais :
+
+**"le crabe"** → <input type="text" placeholder="Anglais" oninput="checkAnswer(this, 'crab')"><span></span>
+
+**"la crevette"** → <input type="text" placeholder="Anglais" oninput="checkAnswer(this, 'shrimp')"><span></span>
+
+**"le saumon"** → <input type="text" placeholder="Anglais" oninput="checkAnswer(this, 'salmon')"><span></span>
+
+**"l’huître"** → <input type="text" placeholder="Anglais" oninput="checkAnswer(this, 'oyster')"><span></span>
+
+**"le thon"** → <input type="text" placeholder="Anglais" oninput="checkAnswer(this, 'tuna')"><span></span>
+
+#### 2. Associez le fruit de mer à sa description (en anglais) :
+
+**"Un poisson gras souvent utilisé en sushi"** → <input type="text" placeholder="Anglais" oninput="checkAnswer(this, 'salmon')"><span></span>
+
+**"Un crustacé avec des pinces"** → <input type="text" placeholder="Anglais" oninput="checkAnswer(this, 'lobster')"><span></span>
+
+**"Petit poisson souvent en conserve"** → <input type="text" placeholder="Anglais" oninput="checkAnswer(this, 'sardine')"><span></span>
+
+#### 3. Corrigez les erreurs (orthographe/genre) :
+
+**"the crevette"** → <input type="text" placeholder="Forme correcte" oninput="checkAnswer(this, 'the shrimp')"><span></span>
+
+**"the huitre"** → <input type="text" placeholder="Forme correcte" oninput="checkAnswer(this, 'the oyster')"><span></span>
+
+**"the thon"** → <input type="text" placeholder="Forme correcte" oninput="checkAnswer(this, 'the tuna')"><span></span>
+
+#### 4. Complétez les phrases avec le bon terme en anglais :
+
+"J’ai commandé \_\_\_ grillé pour le dîner." (Réponse attendue : lobster) → <input type="text" placeholder="Anglais" oninput="checkAnswer(this, 'lobster')"><span></span>
+
+"Les \_\_\_ sont délicieuses avec du beurre à l’ail." (Réponse attendue : clams) → <input type="text" placeholder="Anglais" oninput="checkAnswer(this, 'clams')"><span></span>
+
+"Ce restaurant sert un excellent \_\_\_ de bar." (Réponse attendue : fillet) → <input type="text" placeholder="Anglais" oninput="checkAnswer(this, 'fillet')"><span></span>
+
+<button onclick="showAnswers()">Afficher toutes les réponses</button>
+<button onclick="refreshPage()">Rafraîchir la page</button>
+
+
+<script>
+function checkAnswer(input, correctAnswer) {
+    const span = input.nextElementSibling;
+    if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
+        span.textContent = "✓ Correct";
+        span.style.color = "green";
+    } else {
+        span.textContent = "";
+    }
+}
+
+function showAnswers() {
+    document.querySelectorAll('input[type="text"]').forEach(el => {
+        const correct = el.getAttribute('oninput')?.match(/'([^']+)'/)?.[1];
+        if (correct) {
+            const span = el.nextElementSibling;
+            span.textContent = `Réponse : ${correct}`;
+            span.style.color = "blue";
+        }
+    });
+}
+
+function refreshPage() {
+    location.reload();
+}
+</script>
+
+#### 5. Traduisez en anglais :
+
+**"J’adore les crevettes et les huîtres."**\
+<textarea placeholder="I love..." rows="2" cols="50" oninput="checkTranslation(this, 'I love shrimp and oysters')"></textarea>
+
+**"Nous avons mangé du saumon grillé hier."**\
+<textarea placeholder="We ate..." rows="2" cols="50" oninput="checkTranslation(this, 'We ate grilled salmon yesterday')"></textarea>
+
+
+
+### Notes :
+
+-   **Genre** : *Le homard* (masc.), *la crevette* (fém.).
+-   **Contractions** : *L’huître* (et non "la huître") à cause du h muet.
+-   **Pluriels** : On ajoute généralement *-s* (*les crevettes*, *les sardines*).
+
+:::

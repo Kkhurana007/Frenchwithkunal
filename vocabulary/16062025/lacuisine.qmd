@@ -1,0 +1,224 @@
+---
+title: "Exercises: Kitchen Vocabulary & Gender"
+author: "Kunal Khurana"
+date: "16-06-2025"
+categories: [A2, vocabulary, kitchen, exercises]
+image: "lacuisine.png"
+---
+
+::: {.content-visible when-profile="english"}
+
+### Exercise: French Kitchen Nouns and Gender
+
+Practice the gender of French kitchen nouns and their articles.
+
+#### 1. Assign the correct definite article (*le/la/l'*) to each kitchen item:
+
+___ four (oven) 🔥 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'le')">
+
+___ cuisinière (stove) 🍳 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'la')">
+
+___ évier (sink) 🚰 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'l\'')">
+
+___ réfrigérateur (fridge) 🧊 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'le')">
+
+___ assiette (plate) 🍽️ → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'l\'')">
+
+___ casserole (saucepan) 🥘 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'la')">
+
+___ verre (glass) 🥛 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'le')">
+
+___ fourchette (fork) 🍴 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'la')">
+
+#### 2. Match the French term to its English equivalent:
+
+**"la poêle"** → <input type="text" placeholder="English" oninput="checkAnswer(this, 'frying pan')">
+
+**"le couteau"** → <input type="text" placeholder="English" oninput="checkAnswer(this, 'knife')">
+
+**"la cuillère"** → <input type="text" placeholder="English" oninput="checkAnswer(this, 'spoon')">
+
+**"le micro-ondes"** → <input type="text" placeholder="English" oninput="checkAnswer(this, 'microwave')">
+
+#### 3. Fill in the blanks with the correct term:
+
+"Je mets les légumes dans \_\_\_ (the saucepan)." → <input type="text" placeholder="French" oninput="checkAnswer(this, 'la casserole')">
+
+"Je bois de l'eau dans \_\_\_ (the glass)." → <input type="text" placeholder="French" oninput="checkAnswer(this, 'le verre')">
+
+"Je coupe le pain avec \_\_\_ (the knife)." → <input type="text" placeholder="French" oninput="checkAnswer(this, 'le couteau')">
+
+"Je fais cuire un œuf dans \_\_\_ (the frying pan)." → <input type="text" placeholder="French" oninput="checkAnswer(this, 'la poêle')">
+
+"Je mets l'assiette dans \_\_\_ (the sink)." → <input type="text" placeholder="French" oninput="checkAnswer(this, 'l\'évier')">
+
+"Je range le lait dans \_\_\_ (the fridge)." → <input type="text" placeholder="French" oninput="checkAnswer(this, 'le réfrigérateur')">
+
+#### 4. Correct the errors in gender/number:
+
+"Un assiette" → <input type="text" placeholder="Correct phrase" oninput="checkAnswer(this, 'une assiette')">
+
+"La verre" → <input type="text" placeholder="Correct phrase" oninput="checkAnswer(this, 'le verre')">
+
+"Des couteaux" (if singular) → <input type="text" placeholder="Correct phrase" oninput="checkAnswer(this, 'un couteau')">
+
+"Le cuillère" → <input type="text" placeholder="Correct phrase" oninput="checkAnswer(this, 'la cuillère')">
+
+"Une four" → <input type="text" placeholder="Correct phrase" oninput="checkAnswer(this, 'un four')">
+
+"Le casserole" → <input type="text" placeholder="Correct phrase" oninput="checkAnswer(this, 'la casserole')">
+
+"Un poêle" → <input type="text" placeholder="Correct phrase" oninput="checkAnswer(this, 'une poêle')">
+
+"La micro-ondes" → <input type="text" placeholder="Correct phrase" oninput="checkAnswer(this, 'le micro-ondes')">
+
+"Un évier" → <input type="text" placeholder="Correct phrase" oninput="checkAnswer(this, 'un évier')">
+
+"Le assiette" → <input type="text" placeholder="Correct phrase" oninput="checkAnswer(this, 'l\'assiette')">
+
+"Une réfrigérateur" → <input type="text" placeholder="Correct phrase" oninput="checkAnswer(this, 'un réfrigérateur')">
+
+"La couteau" → <input type="text" placeholder="Correct phrase" oninput="checkAnswer(this, 'le couteau')">
+
+"Un fourchette" → <input type="text" placeholder="Correct phrase" oninput="checkAnswer(this, 'une fourchette')">
+
+<button onclick="showAnswers()">Show All Answers</button>
+
+<script>
+function showAnswers() {
+  document.querySelectorAll('input[type="text"]').forEach(input => {
+    const correct = input.getAttribute('oninput').match(/'([^']+)'/)[1];
+    input.value = correct;
+    const feedback = input.nextElementSibling;
+    if (feedback) {
+      feedback.textContent = "✓ Correct!";
+      feedback.style.color = "green";
+    }
+  });
+}
+
+function checkAnswer(input, correct) {
+  let feedback = input.nextElementSibling;
+  if (!feedback) {
+    feedback = document.createElement('span');
+    input.parentNode.insertBefore(feedback, input.nextSibling);
+  }
+  if (input.value.trim().toLowerCase() === correct.toLowerCase()) {
+    feedback.textContent = "✓ Correct!";
+    feedback.style.color = "green";
+  } else {
+    feedback.textContent = "";
+  }
+}
+</script>
+
+:::
+
+::: {.content-visible when-profile="french"}
+
+### Exercice : Noms de la cuisine et genre
+
+Entraînez-vous à utiliser le genre des noms de la cuisine en français et leurs articles.
+
+#### 1. Attribuez le bon article défini (*le/la/l'*) à chaque objet de la cuisine :
+
+___ oven (four) 🔥 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'le')">
+
+___ stove (cuisinière) 🍳 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'la')">
+
+___ sink (évier) 🚰 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'l\'')">
+
+___ fridge (réfrigérateur) 🧊 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'le')">
+
+___ plate (assiette) 🍽️ → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'l\'')">
+
+___ saucepan (casserole) 🥘 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'la')">
+
+___ glass (verre) 🥛 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'le')">
+
+___ fork (fourchette) 🍴 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'la')">
+
+#### 2. Associez le terme français à son équivalent anglais :
+
+**"la poêle"** → <input type="text" placeholder="Anglais" oninput="checkAnswer(this, 'frying pan')">
+
+**"le couteau"** → <input type="text" placeholder="Anglais" oninput="checkAnswer(this, 'knife')">
+
+**"la cuillère"** → <input type="text" placeholder="Anglais" oninput="checkAnswer(this, 'spoon')">
+
+**"le micro-ondes"** → <input type="text" placeholder="Anglais" oninput="checkAnswer(this, 'microwave')">
+
+#### 3. Complétez les phrases avec le bon terme :
+
+"Je mets les légumes dans \_\_\_ (la casserole)." → <input type="text" placeholder="Français" oninput="checkAnswer(this, 'la casserole')">
+
+"Je bois de l'eau dans \_\_\_ (le verre)." → <input type="text" placeholder="Français" oninput="checkAnswer(this, 'le verre')">
+
+"Je coupe le pain avec \_\_\_ (le couteau)." → <input type="text" placeholder="Français" oninput="checkAnswer(this, 'le couteau')">
+
+"Je fais cuire un œuf dans \_\_\_ (la poêle)." → <input type="text" placeholder="Français" oninput="checkAnswer(this, 'la poêle')">
+
+"Je mets l'assiette dans \_\_\_ (l'évier)." → <input type="text" placeholder="Français" oninput="checkAnswer(this, 'l\'évier')">
+
+"Je range le lait dans \_\_\_ (le réfrigérateur)." → <input type="text" placeholder="Français" oninput="checkAnswer(this, 'le réfrigérateur')">
+
+#### 4. Corrigez les erreurs de genre/nombre :
+
+"Un assiette" → <input type="text" placeholder="Phrase correcte" oninput="checkAnswer(this, 'une assiette')">
+
+"La verre" → <input type="text" placeholder="Phrase correcte" oninput="checkAnswer(this, 'le verre')">
+
+"Des couteaux" (si singulier) → <input type="text" placeholder="Phrase correcte" oninput="checkAnswer(this, 'un couteau')">
+
+"Le cuillère" → <input type="text" placeholder="Phrase correcte" oninput="checkAnswer(this, 'la cuillère')">
+
+"Une four" → <input type="text" placeholder="Phrase correcte" oninput="checkAnswer(this, 'un four')">
+
+"Le casserole" → <input type="text" placeholder="Phrase correcte" oninput="checkAnswer(this, 'la casserole')">
+
+"Un poêle" → <input type="text" placeholder="Phrase correcte" oninput="checkAnswer(this, 'une poêle')">
+
+"La micro-ondes" → <input type="text" placeholder="Phrase correcte" oninput="checkAnswer(this, 'le micro-ondes')">
+
+"Un évier" → <input type="text" placeholder="Phrase correcte" oninput="checkAnswer(this, 'un évier')">
+
+"Le assiette" → <input type="text" placeholder="Phrase correcte" oninput="checkAnswer(this, 'l\'assiette')">
+
+"Une réfrigérateur" → <input type="text" placeholder="Phrase correcte" oninput="checkAnswer(this, 'un réfrigérateur')">
+
+"La couteau" → <input type="text" placeholder="Phrase correcte" oninput="checkAnswer(this, 'le couteau')">
+
+"Un fourchette" → <input type="text" placeholder="Phrase correcte" oninput="checkAnswer(this, 'une fourchette')">
+
+<button onclick="showAnswers()">Afficher toutes les réponses</button>
+
+
+<script>
+function showAnswers() {
+  document.querySelectorAll('input[type="text"]').forEach(input => {
+    const correct = input.getAttribute('oninput').match(/'([^']+)'/)[1];
+    input.value = correct;
+    const feedback = input.nextElementSibling;
+    if (feedback) {
+      feedback.textContent = "✓ Correct!";
+      feedback.style.color = "green";
+    }
+  });
+}
+
+function checkAnswer(input, correct) {
+  let feedback = input.nextElementSibling;
+  if (!feedback) {
+    feedback = document.createElement('span');
+    input.parentNode.insertBefore(feedback, input.nextSibling);
+  }
+  if (input.value.trim().toLowerCase() === correct.toLowerCase()) {
+    feedback.textContent = "✓ Correct!";
+    feedback.style.color = "green";
+  } else {
+    feedback.textContent = "";
+  }
+}
+</script>
+
+:::

@@ -1,0 +1,266 @@
+---
+title: "Exercises: French Ordinal Numbers (1st–20th)"  
+author: "Kunal Khurana"  
+date: "05-12-2025"  
+categories: [A1/A2, grammar, numbers, exercises]  
+image: "ordinal.png"  
+---
+
+::: {.content-visible when-profile="english"}
+### Exercise: French Ordinal Numbers
+
+Practice forming and using ordinal numbers in French.
+
+#### 1. Write the Ordinal Form (Include *premier/première* for gender):
+
+**"1st (masculine)"** → <input type="text" placeholder="French" oninput="checkAnswer(this, 'premier')">\
+**"1st (feminine)"** → <input type="text" placeholder="French" oninput="checkAnswer(this, 'première')">\
+**"3rd"** → <input type="text" placeholder="French" oninput="checkAnswer(this, 'troisième')">\
+**"5th"** → <input type="text" placeholder="French" oninput="checkAnswer(this, 'cinquième')">\
+**"10th"** → <input type="text" placeholder="French" oninput="checkAnswer(this, 'dixième')">\
+**"15th"** → <input type="text" placeholder="French" oninput="checkAnswer(this, 'quinzième')">\
+**"20th"** → <input type="text" placeholder="French" oninput="checkAnswer(this, 'vingtième')">
+
+#### 2. Match the Ordinal to Its Cardinal Equivalent:
+
+**"septième"** → <input type="text" placeholder="Cardinal (e.g., 7)" oninput="checkAnswer(this, '7')">\
+**"douzième"** → <input type="text" placeholder="Cardinal (e.g., 12)" oninput="checkAnswer(this, '12')">\
+**"dix-neuvième"** → <input type="text" placeholder="Cardinal (e.g., 19)" oninput="checkAnswer(this, '19')">
+
+#### 3. Correct the Errors (Spelling/Gender):
+
+**"quatrème"** → <input type="text" placeholder="Correct form" oninput="checkAnswer(this, 'quatrième')">\
+**"huitème"** → <input type="text" placeholder="Correct form" oninput="checkAnswer(this, 'huitième')">\
+**"premiere" (masculine)** → <input type="text" placeholder="Correct form" oninput="checkAnswer(this, 'premier')">
+
+#### 4. Fill in the Blanks with Ordinals:
+
+"Le \_\_\_ (4th) étage est occupé." → <input type="text" placeholder="French" oninput="checkAnswer(this, 'quatrième')">\
+"C’est ma \_\_\_ (1st, fem.) visite à Paris." → <input type="text" placeholder="French" oninput="checkAnswer(this, 'première')">\
+"Ils ont fini \_\_\_ (17th) dans la course." → <input type="text" placeholder="French" oninput="checkAnswer(this, 'dix-septième')">
+
+<button onclick="showAnswers()">
+
+Show All Answers
+
+</button>
+
+<button onclick="refreshPage()">
+
+Refresh Page
+
+</button>
+
+#### 5. Translate into French (Include Gender!):
+
+**"This is my ninth coffee today."**\
+
+```{=html}
+<textarea placeholder="C’est..." rows="2" cols="50" oninput="checkTranslation(this, 'C’est mon neuvième café aujourd’hui')"></textarea>
+```
+
+**"She won the second prize."**\
+
+```{=html}
+<textarea placeholder="Elle a gagné..." rows="2" cols="50" oninput="checkTranslation(this, 'Elle a gagné le deuxième prix')"></textarea>
+```
+
+```{=html}
+<script>  
+function showAnswers() {  
+    document.querySelectorAll('input[type="text"]').forEach(input => {  
+        const correct = input.getAttribute('oninput').match(/'([^']+)'/)[1];  
+        input.value = correct;  
+        const feedback = input.nextElementSibling;  
+        feedback.textContent = "✓ Correct!";  
+        feedback.style.color = "green";  
+    });  
+}  
+
+function refreshPage() {  
+    location.reload();  
+}  
+</script>
+```
+
+<button onclick="checkAllAnswers()">
+
+Check Answers
+
+</button>
+
+```{=html}
+<script>  
+function checkTranslation(textarea, correctAnswer) {  
+    const feedback = textarea.nextElementSibling;  
+    if (textarea.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {  
+        feedback.textContent = "✓ Correct!";  
+        feedback.style.color = "green";  
+    } else if (textarea.value.trim()) {  
+        feedback.textContent = "✗ Try again!";  
+        feedback.style.color = "red";  
+    }  
+}  
+</script>
+```
+
+```{=html}
+<script>  
+function checkAnswer(input, correctAnswer) {  
+    const feedback = input.nextElementSibling;  
+    if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {  
+        feedback.textContent = "✓ Correct!";  
+        feedback.style.color = "green";  
+    } else if (input.value.trim()) {  
+        feedback.textContent = "✗ Try again!";  
+        feedback.style.color = "red";  
+    }  
+}  
+
+function checkAllAnswers() {  
+    document.querySelectorAll('input[type="text"]').forEach(input => {  
+        const correct = input.getAttribute('oninput').match(/'([^']+)'/)[1];  
+        checkAnswer(input, correct);  
+    });  
+
+    document.querySelectorAll('textarea').forEach(textarea => {  
+        const correct = textarea.getAttribute('oninput').match(/'([^']+)'/)[1];  
+        checkTranslation(textarea, correct);  
+    });  
+}  
+
+function checkTranslation(textarea, correctAnswer) {  
+    const feedback = textarea.nextElementSibling;  
+    if (textarea.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {  
+        feedback.textContent = "✓ Correct!";  
+        feedback.style.color = "green";  
+    } else if (textarea.value.trim()) {  
+        feedback.textContent = "✗ Try again!";  
+        feedback.style.color = "red";  
+    }  
+}  
+</script>
+```
+
+### Notes:
+
+-   **Gender Rules**: *Premier* (masc.) vs. *première* (fem.). All others add *-ième* regardless of gender.\
+-   **Spelling Changes**:
+    -   *cinq* → *cinquième* (add *-u*).\
+    -   *neuf* → *neuvième* (drop *-f*).\
+    -   *vingt* → *vingtième* (drop *-t* if followed by *-ième*).\
+-   **Hyphens**: Used in compounds (*dix-septième*).
+:::
+
+::: {.content-visible when-profile="french"}
+### Exercice : Les nombres ordinaux en français
+
+Entraînez-vous à former et à utiliser les nombres ordinaux en français.
+
+#### 1. Écrivez la forme ordinale (Incluez *premier/première* selon le genre) :
+
+**« 1er (masculin) »** → <input type="text" placeholder="Français" oninput="checkAnswer(this, 'premier')">
+
+**« 1re (féminin) »** → <input type="text" placeholder="Français" oninput="checkAnswer(this, 'première')">
+
+**« 3e »** → <input type="text" placeholder="Français" oninput="checkAnswer(this, 'troisième')">
+
+**« 5e »** → <input type="text" placeholder="Français" oninput="checkAnswer(this, 'cinquième')">
+
+**« 10e »** → <input type="text" placeholder="Français" oninput="checkAnswer(this, 'dixième')">
+
+**« 15e »** → <input type="text" placeholder="Français" oninput="checkAnswer(this, 'quinzième')">
+
+**« 20e »** → <input type="text" placeholder="Français" oninput="checkAnswer(this, 'vingtième')">
+
+#### 2. Associez l’ordinal à son équivalent cardinal :
+
+**« septième »** → <input type="text" placeholder="Cardinal (ex : 7)" oninput="checkAnswer(this, '7')">
+
+**« douzième »** → <input type="text" placeholder="Cardinal (ex : 12)" oninput="checkAnswer(this, '12')">
+
+**« dix-neuvième »** → <input type="text" placeholder="Cardinal (ex : 19)" oninput="checkAnswer(this, '19')">
+
+#### 3. Corrigez les erreurs (orthographe/genre) :
+
+**« quatrème »** → <input type="text" placeholder="Forme correcte" oninput="checkAnswer(this, 'quatrième')">
+
+**« huitème »** → <input type="text" placeholder="Forme correcte" oninput="checkAnswer(this, 'huitième')">
+
+**« premiere » (masculin)** → <input type="text" placeholder="Forme correcte" oninput="checkAnswer(this, 'premier')">
+
+#### 4. Complétez avec l’ordinal approprié :
+
+« Le \_\_\_ (4e) étage est occupé. » → <input type="text" placeholder="Français" oninput="checkAnswer(this, 'quatrième')">
+
+« C’est ma \_\_\_ (1re, fém.) visite à Paris. » → <input type="text" placeholder="Français" oninput="checkAnswer(this, 'première')">
+
+« Ils ont fini \_\_\_ (17e) dans la course. » → <input type="text" placeholder="Français" oninput="checkAnswer(this, 'dix-septième')">
+
+<button onclick="showAnswersFr()">
+
+Afficher toutes les réponses
+
+</button>
+
+<button onclick="refreshPage()">
+
+Rafraîchir la page
+
+</button>
+
+#### 5. Traduisez en français (indiquez le genre !) :
+
+**« C’est mon neuvième café aujourd’hui. »**
+
+```{=html}
+<textarea placeholder="C’est..." rows="2" cols="50" oninput="checkTranslation(this, 'C’est mon neuvième café aujourd’hui')"></textarea>
+```
+
+**« Elle a gagné le deuxième prix. »**
+
+```{=html}
+<textarea placeholder="Elle a gagné..." rows="2" cols="50" oninput="checkTranslation(this, 'Elle a gagné le deuxième prix')"></textarea>
+```
+
+<button onclick="checkAllAnswersFr()">
+
+Vérifier les réponses
+
+</button>
+
+```{=html}
+<script>
+function showAnswersFr() {
+    document.querySelectorAll('.content-hidden input[type="text"]').forEach(input => {
+        const correct = input.getAttribute('oninput').match(/'([^']+)'/)[1];
+        input.value = correct;
+        const feedback = input.nextElementSibling;
+        feedback.textContent = "✓ Correct !";
+        feedback.style.color = "green";
+    });
+}
+
+function checkAllAnswersFr() {
+    document.querySelectorAll('.content-hidden input[type="text"]').forEach(input => {
+        const correct = input.getAttribute('oninput').match(/'([^']+)'/)[1];
+        checkAnswer(input, correct);
+    });
+
+    document.querySelectorAll('.content-hidden textarea').forEach(textarea => {
+        const correct = textarea.getAttribute('oninput').match(/'([^']+)'/)[1];
+        checkTranslation(textarea, correct);
+    });
+}
+</script>
+```
+
+### Notes :
+
+-   **Règles de genre** : *Premier* (masc.) vs. *première* (fém.). Les autres prennent *-ième* quel que soit le genre.
+-   **Modifications orthographiques** :
+    -   *cinq* → *cinquième* (ajouter *-u*).
+    -   *neuf* → *neuvième* (remplacer *-f* par *-v*).
+    -   *vingt* → *vingtième* (supprimer *-t* si suivi de *-ième*).
+-   **Traits d’union** : Utilisés dans les composés (*dix-septième*).
+:::

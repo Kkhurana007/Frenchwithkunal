@@ -7,224 +7,248 @@ image: "pronom_interrogatif.png"
 ---
 
 ::: {.content-visible when-profile="english"}
-
 ### Understanding Interrogative Pronouns
 
 **Interrogative pronouns** are used to ask questions about people or things. There are two main forms:
 
 #### 1. Simple Form
 
-- **Qui ?** — Who? (for people, subject or object)
-    - *Qui parle ?* (Who is speaking?)
-    - *Tu vois qui ?* (Who do you see?)
-- **Que ? / Qu' ?** — What? (for things, usually object)
-    - *Que fais-tu ?* (What are you doing?)
-    - *Qu'est-ce que tu veux ?* (What do you want?)
+-   **Qui ?** — Who? (for people, subject or object)
+    -   *Qui parle ?* (Who is speaking?)
+    -   *Tu vois qui ?* (Who do you see?)
+-   **Que ? / Qu' ?** — What? (for things, usually object)
+    -   *Que fais-tu ?* (What are you doing?)
+    -   *Qu'est-ce que tu veux ?* (What do you want?)
 
 #### 2. Compound Form (Lequel, Laquelle, Lesquels, Lesquelles)
 
 Used to ask "which one(s)?" and agree in gender and number with the noun they replace.
 
-- **Lequel** (masc. sing.), **Laquelle** (fem. sing.), **Lesquels** (masc. pl.), **Lesquelles** (fem. pl.)
-    - *Lequel veux-tu ?* (Which one do you want? — masculine singular)
-    - *Laquelle préfères-tu ?* (Which one do you prefer? — feminine singular)
-    - *Lesquels sont à toi ?* (Which ones are yours? — masculine plural)
-    - *Lesquelles as-tu choisies ?* (Which ones did you choose? — feminine plural)
+-   **Lequel** (masc. sing.), **Laquelle** (fem. sing.), **Lesquels** (masc. pl.), **Lesquelles** (fem. pl.)
+    -   *Lequel veux-tu ?* (Which one do you want? — masculine singular)
+    -   *Laquelle préfères-tu ?* (Which one do you prefer? — feminine singular)
+    -   *Lesquels sont à toi ?* (Which ones are yours? — masculine plural)
+    -   *Lesquelles as-tu choisies ?* (Which ones did you choose? — feminine plural)
 
-They can also be used with prepositions:
-- *Avec lequel pars-tu ?* (With which one are you leaving?)
-- *À laquelle penses-tu ?* (Which one are you thinking about?)
+They can also be used with prepositions: - *Avec lequel pars-tu ?* (With which one are you leaving?) - *À laquelle penses-tu ?* (Which one are you thinking about?)
 
----
+------------------------------------------------------------------------
 
 ### Exercises
 
-#### 1. Simple Form  
+#### 1. Simple Form
+
 Complete with **qui**, **que**, or **quoi**:
 
-1. _______ parle à Marie ? → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'Qui')">.<span style="margin-left:10px;"></span>
-2. Tu fais _______ ? → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'quoi')">.<span style="margin-left:10px;"></span>
-3. _______ est là ? → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'Qui')">.<span style="margin-left:10px;"></span>
-4. _______ veux-tu manger ? → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'Que')">.<span style="margin-left:10px;"></span>
-5. Tu invites _______ ? → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'qui')">.<span style="margin-left:10px;"></span>
-6. _______ arrive en retard ? → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'Qui')">.<span style="margin-left:10px;"></span>
-7. _______ cherches-tu ? → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'Que')">.<span style="margin-left:10px;"></span>
-8. Tu parles à _______ ? → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'qui')">.<span style="margin-left:10px;"></span>
-9. _______ est-ce que tu regardes ? → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'Qu\'')">.<span style="margin-left:10px;"></span>
-10. _______ veut du café ? → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'Qui')">.<span style="margin-left:10px;"></span>
-11. _______ as-tu vu hier ? → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'Qui')">.<span style="margin-left:10px;"></span>
-12. _______ fais-tu ce soir ? → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'Que')">.<span style="margin-left:10px;"></span>
-13. _______ t'intéresse dans ce livre ? → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'Qu\'')">.<span style="margin-left:10px;"></span>
-14. _______ a cassé la fenêtre ? → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'Qui')">.<span style="margin-left:10px;"></span>
-15. Tu veux _______ ? → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'quoi')">.<span style="margin-left:10px;"></span>
+1.  \_\_\_\_\_\_\_ parle à Marie ? → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'Qui')">.
+2.  Tu fais \_\_\_\_\_\_\_ ? → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'quoi')">.
+3.  \_\_\_\_\_\_\_ est là ? → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'Qui')">.
+4.  \_\_\_\_\_\_\_ veux-tu manger ? → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'Que')">.
+5.  Tu invites \_\_\_\_\_\_\_ ? → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'qui')">.
+6.  \_\_\_\_\_\_\_ arrive en retard ? → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'Qui')">.
+7.  \_\_\_\_\_\_\_ cherches-tu ? → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'Que')">.
+8.  Tu parles à \_\_\_\_\_\_\_ ? → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'qui')">.
+9.  \_\_\_\_\_\_\_ est-ce que tu regardes ? → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'Qu\'')">.
+10. \_\_\_\_\_\_\_ veut du café ? → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'Qui')">.
+11. \_\_\_\_\_\_\_ as-tu vu hier ? → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'Qui')">.
+12. \_\_\_\_\_\_\_ fais-tu ce soir ? → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'Que')">.
+13. \_\_\_\_\_\_\_ t'intéresse dans ce livre ? → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'Qu\'')">.
+14. \_\_\_\_\_\_\_ a cassé la fenêtre ? → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'Qui')">.
+15. Tu veux \_\_\_\_\_\_\_ ? → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'quoi')">.
 
-#### 2. Compound Form  
+#### 2. Compound Form
+
 Complete with the correct form: **lequel, laquelle, lesquels, lesquelles** (pay attention to gender and number):
 
-1. _______ de ces livres veux-tu ? (masc. sing.) → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'Lequel')">.<span style="margin-left:10px;"></span>
-2. _______ de ces robes préfères-tu ? (fem. sing.) → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'Laquelle')">.<span style="margin-left:10px;"></span>
-3. _______ de ces films as-tu vus ? (masc. pl.) → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'Lesquels')">.<span style="margin-left:10px;"></span>
-4. _______ de ces chansons connais-tu ? (fem. pl.) → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'Lesquelles')">.<span style="margin-left:10px;"></span>
-5. Tu veux aller à _______ ? (fem. sing., with preposition "à") → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'laquelle')">.<span style="margin-left:10px;"></span>
-6. _______ de ces stylos est à toi ? (masc. sing.) → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'Lequel')">.<span style="margin-left:10px;"></span>
-7. _______ de ces photos préfères-tu ? (fem. sing.) → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'Laquelle')">.<span style="margin-left:10px;"></span>
-8. _______ de ces enfants sont tes cousins ? (masc. pl.) → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'Lesquels')">.<span style="margin-left:10px;"></span>
-9. _______ de ces maisons sont anciennes ? (fem. pl.) → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'Lesquelles')">.<span style="margin-left:10px;"></span>
-10. _______ de ces chemises veux-tu acheter ? (fem. sing.) → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'Laquelle')">.<span style="margin-left:10px;"></span>
-11. _______ de ces exercices trouves-tu difficiles ? (masc. pl.) → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'Lesquels')">.<span style="margin-left:10px;"></span>
-12. _______ de ces couleurs préfères-tu ? (fem. pl.) → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'Lesquelles')">.<span style="margin-left:10px;"></span>
-13. _______ de ces ordinateurs est le tien ? (masc. sing.) → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'Lequel')">.<span style="margin-left:10px;"></span>
-14. _______ de ces portes est ouverte ? (fem. sing.) → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'Laquelle')">.<span style="margin-left:10px;"></span>
-15. _______ de ces élèves ont réussi ? (masc. pl.) → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'Lesquels')">.<span style="margin-left:10px;"></span>
+1.  \_\_\_\_\_\_\_ de ces livres veux-tu ? (masc. sing.) → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'Lequel')">.
+2.  \_\_\_\_\_\_\_ de ces robes préfères-tu ? (fem. sing.) → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'Laquelle')">.
+3.  \_\_\_\_\_\_\_ de ces films as-tu vus ? (masc. pl.) → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'Lesquels')">.
+4.  \_\_\_\_\_\_\_ de ces chansons connais-tu ? (fem. pl.) → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'Lesquelles')">.
+5.  Tu veux aller à \_\_\_\_\_\_\_ ? (fem. sing., with preposition "à") → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'laquelle')">.
+6.  \_\_\_\_\_\_\_ de ces stylos est à toi ? (masc. sing.) → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'Lequel')">.
+7.  \_\_\_\_\_\_\_ de ces photos préfères-tu ? (fem. sing.) → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'Laquelle')">.
+8.  \_\_\_\_\_\_\_ de ces enfants sont tes cousins ? (masc. pl.) → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'Lesquels')">.
+9.  \_\_\_\_\_\_\_ de ces maisons sont anciennes ? (fem. pl.) → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'Lesquelles')">.
+10. \_\_\_\_\_\_\_ de ces chemises veux-tu acheter ? (fem. sing.) → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'Laquelle')">.
+11. \_\_\_\_\_\_\_ de ces exercices trouves-tu difficiles ? (masc. pl.) → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'Lesquels')">.
+12. \_\_\_\_\_\_\_ de ces couleurs préfères-tu ? (fem. pl.) → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'Lesquelles')">.
+13. \_\_\_\_\_\_\_ de ces ordinateurs est le tien ? (masc. sing.) → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'Lequel')">.
+14. \_\_\_\_\_\_\_ de ces portes est ouverte ? (fem. sing.) → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'Laquelle')">.
+15. \_\_\_\_\_\_\_ de ces élèves ont réussi ? (masc. pl.) → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'Lesquels')">.
 
-#### 3. With Prepositions  
+#### 3. With Prepositions
+
 Choose the correct form with the preposition:
 
-1. Avec _______ vas-tu ? (masc. sing.) → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'lequel')">.<span style="margin-left:10px;"></span>
-2. Dans _______ as-tu mis le livre ? (fem. sing.) → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'laquelle')">.<span style="margin-left:10px;"></span>
-3. Pour _______ sont ces cadeaux ? (masc. pl.) → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'lesquels')">.<span style="margin-left:10px;"></span>
-4. Sur _______ as-tu écrit ? (fem. pl.) → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'lesquelles')">.<span style="margin-left:10px;"></span>
-5. À _______ penses-tu ? (fem. sing.) → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'laquelle')">.<span style="margin-left:10px;"></span>
-6. Avec _______ as-tu voyagé ? (masc. pl.) → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'lesquels')">.<span style="margin-left:10px;"></span>
-7. Pour _______ travailles-tu ? (fem. pl.) → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'lesquelles')">.<span style="margin-left:10px;"></span>
-8. Dans _______ veux-tu entrer ? (masc. sing.) → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'lequel')">.<span style="margin-left:10px;"></span>
-9. Sur _______ comptes-tu ? (fem. sing.) → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'laquelle')">.<span style="margin-left:10px;"></span>
-10. Avec _______ joues-tu au foot ? (masc. pl.) → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'lesquels')">.<span style="margin-left:10px;"></span>
-11. Pour _______ as-tu acheté ces fleurs ? (fem. pl.) → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'lesquelles')">.<span style="margin-left:10px;"></span>
-12. Dans _______ as-tu rangé les dossiers ? (masc. pl.) → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'lesquels')">.<span style="margin-left:10px;"></span>
-13. À _______ veux-tu parler ? (fem. sing.) → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'laquelle')">.<span style="margin-left:10px;"></span>
-14. Avec _______ vas-tu au cinéma ? (fem. pl.) → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'lesquelles')">.<span style="margin-left:10px;"></span>
-15. Sur _______ as-tu écrit ton nom ? (masc. sing.) → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'lequel')">.<span style="margin-left:10px;"></span>
+1.  Avec \_\_\_\_\_\_\_ vas-tu ? (masc. sing.) → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'lequel')">.
+2.  Dans \_\_\_\_\_\_\_ as-tu mis le livre ? (fem. sing.) → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'laquelle')">.
+3.  Pour \_\_\_\_\_\_\_ sont ces cadeaux ? (masc. pl.) → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'lesquels')">.
+4.  Sur \_\_\_\_\_\_\_ as-tu écrit ? (fem. pl.) → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'lesquelles')">.
+5.  À \_\_\_\_\_\_\_ penses-tu ? (fem. sing.) → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'laquelle')">.
+6.  Avec \_\_\_\_\_\_\_ as-tu voyagé ? (masc. pl.) → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'lesquels')">.
+7.  Pour \_\_\_\_\_\_\_ travailles-tu ? (fem. pl.) → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'lesquelles')">.
+8.  Dans \_\_\_\_\_\_\_ veux-tu entrer ? (masc. sing.) → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'lequel')">.
+9.  Sur \_\_\_\_\_\_\_ comptes-tu ? (fem. sing.) → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'laquelle')">.
+10. Avec \_\_\_\_\_\_\_ joues-tu au foot ? (masc. pl.) → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'lesquels')">.
+11. Pour \_\_\_\_\_\_\_ as-tu acheté ces fleurs ? (fem. pl.) → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'lesquelles')">.
+12. Dans \_\_\_\_\_\_\_ as-tu rangé les dossiers ? (masc. pl.) → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'lesquels')">.
+13. À \_\_\_\_\_\_\_ veux-tu parler ? (fem. sing.) → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'laquelle')">.
+14. Avec \_\_\_\_\_\_\_ vas-tu au cinéma ? (fem. pl.) → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'lesquelles')">.
+15. Sur \_\_\_\_\_\_\_ as-tu écrit ton nom ? (masc. sing.) → <input type="text" placeholder="Pronoun" oninput="checkAnswer(this, 'lequel')">.
 
----
+------------------------------------------------------------------------
 
 ### To consolidate your learning
 
-Write a short paragraph (3-5 sentences) explaining what you have learned about interrogative pronouns in French. Use your own words and, if possible, give an example.  
+Write a short paragraph (3-5 sentences) explaining what you have learned about interrogative pronouns in French. Use your own words and, if possible, give an example.\
+
+```{=html}
 <textarea rows="5" style="width:100%;" placeholder="Write here what you have learned..."></textarea>
+```
 
-<button onclick="showAnswers()">Show answers</button>
-<button onclick="refreshPage()">Try again</button>
+<button onclick="showAnswers()">
 
----
+Show answers
+
+</button>
+
+<button onclick="refreshPage()">
+
+Try again
+
+</button>
+
+------------------------------------------------------------------------
 
 ### Notes:
-- **Simple forms:** "Qui" for people, "que/quoi" for things.
-- **Compound forms:** "Lequel, laquelle, lesquels, lesquelles" agree in gender and number with the noun.
-- **With prepositions:** The preposition comes before the interrogative pronoun (e.g., "avec lequel", "à laquelle").
 
+-   **Simple forms:** "Qui" for people, "que/quoi" for things.
+-   **Compound forms:** "Lequel, laquelle, lesquels, lesquelles" agree in gender and number with the noun.
+-   **With prepositions:** The preposition comes before the interrogative pronoun (e.g., "avec lequel", "à laquelle").
 :::
 
 ::: {.content-visible when-profile="french"}
-
 ### Comprendre les pronoms interrogatifs
 
 Les **pronoms interrogatifs** servent à poser des questions sur des personnes ou des choses. Il existe deux formes principales :
 
 #### 1. Forme simple
 
-- **Qui ?** — Pour les personnes (sujet ou objet)
-    - *Qui parle ?*
-    - *Tu vois qui ?*
-- **Que ? / Qu' ?** — Pour les choses (généralement objet)
-    - *Que fais-tu ?*
-    - *Qu'est-ce que tu veux ?*
+-   **Qui ?** — Pour les personnes (sujet ou objet)
+    -   *Qui parle ?*
+    -   *Tu vois qui ?*
+-   **Que ? / Qu' ?** — Pour les choses (généralement objet)
+    -   *Que fais-tu ?*
+    -   *Qu'est-ce que tu veux ?*
 
 #### 2. Forme composée (Lequel, Laquelle, Lesquels, Lesquelles)
 
 Utilisés pour demander « lequel/lesquels ? » et s’accordent en genre et en nombre avec le nom qu’ils remplacent.
 
-- **Lequel** (masc. sing.), **Laquelle** (fém. sing.), **Lesquels** (masc. pl.), **Lesquelles** (fém. pl.)
-    - *Lequel veux-tu ?*
-    - *Laquelle préfères-tu ?*
-    - *Lesquels sont à toi ?*
-    - *Lesquelles as-tu choisies ?*
+-   **Lequel** (masc. sing.), **Laquelle** (fém. sing.), **Lesquels** (masc. pl.), **Lesquelles** (fém. pl.)
+    -   *Lequel veux-tu ?*
+    -   *Laquelle préfères-tu ?*
+    -   *Lesquels sont à toi ?*
+    -   *Lesquelles as-tu choisies ?*
 
-Ils peuvent aussi s’utiliser avec des prépositions :
-- *Avec lequel pars-tu ?*
-- *À laquelle penses-tu ?*
+Ils peuvent aussi s’utiliser avec des prépositions : - *Avec lequel pars-tu ?* - *À laquelle penses-tu ?*
 
----
+------------------------------------------------------------------------
 
 ### Exercices
 
-#### 1. Forme simple  
+#### 1. Forme simple
+
 Complétez avec **qui**, **que** ou **quoi** :
 
-1. _______ parle à Marie ? → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'Qui')">.<span style="margin-left:10px;"></span>
-2. Tu fais _______ ? → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'quoi')">.<span style="margin-left:10px;"></span>
-3. _______ est là ? → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'Qui')">.<span style="margin-left:10px;"></span>
-4. _______ veux-tu manger ? → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'Que')">.<span style="margin-left:10px;"></span>
-5. Tu invites _______ ? → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'qui')">.<span style="margin-left:10px;"></span>
-6. _______ arrive en retard ? → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'Qui')">.<span style="margin-left:10px;"></span>
-7. _______ cherches-tu ? → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'Que')">.<span style="margin-left:10px;"></span>
-8. Tu parles à _______ ? → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'qui')">.<span style="margin-left:10px;"></span>
-9. _______ est-ce que tu regardes ? → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'Qu\'')">.<span style="margin-left:10px;"></span>
-10. _______ veut du café ? → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'Qui')">.<span style="margin-left:10px;"></span>
-11. _______ as-tu vu hier ? → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'Qui')">.<span style="margin-left:10px;"></span>
-12. _______ fais-tu ce soir ? → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'Que')">.<span style="margin-left:10px;"></span>
-13. _______ t'intéresse dans ce livre ? → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'Qu\'')">.<span style="margin-left:10px;"></span>
-14. _______ a cassé la fenêtre ? → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'Qui')">.<span style="margin-left:10px;"></span>
-15. Tu veux _______ ? → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'quoi')">.<span style="margin-left:10px;"></span>
+1.  \_\_\_\_\_\_\_ parle à Marie ? → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'Qui')">.
+2.  Tu fais \_\_\_\_\_\_\_ ? → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'quoi')">.
+3.  \_\_\_\_\_\_\_ est là ? → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'Qui')">.
+4.  \_\_\_\_\_\_\_ veux-tu manger ? → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'Que')">.
+5.  Tu invites \_\_\_\_\_\_\_ ? → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'qui')">.
+6.  \_\_\_\_\_\_\_ arrive en retard ? → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'Qui')">.
+7.  \_\_\_\_\_\_\_ cherches-tu ? → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'Que')">.
+8.  Tu parles à \_\_\_\_\_\_\_ ? → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'qui')">.
+9.  \_\_\_\_\_\_\_ est-ce que tu regardes ? → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'Qu\'')">.
+10. \_\_\_\_\_\_\_ veut du café ? → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'Qui')">.
+11. \_\_\_\_\_\_\_ as-tu vu hier ? → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'Qui')">.
+12. \_\_\_\_\_\_\_ fais-tu ce soir ? → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'Que')">.
+13. \_\_\_\_\_\_\_ t'intéresse dans ce livre ? → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'Qu\'')">.
+14. \_\_\_\_\_\_\_ a cassé la fenêtre ? → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'Qui')">.
+15. Tu veux \_\_\_\_\_\_\_ ? → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'quoi')">.
 
-#### 2. Forme composée  
+#### 2. Forme composée
+
 Complétez avec la bonne forme : **lequel, laquelle, lesquels, lesquelles** (attention au genre et au nombre) :
 
-1. _______ de ces livres veux-tu ? (masc. sing.) → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'Lequel')">.<span style="margin-left:10px;"></span>
-2. _______ de ces robes préfères-tu ? (fém. sing.) → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'Laquelle')">.<span style="margin-left:10px;"></span>
-3. _______ de ces films as-tu vus ? (masc. pl.) → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'Lesquels')">.<span style="margin-left:10px;"></span>
-4. _______ de ces chansons connais-tu ? (fém. pl.) → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'Lesquelles')">.<span style="margin-left:10px;"></span>
-5. Tu veux aller à _______ ? (fém. sing., avec préposition "à") → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'laquelle')">.<span style="margin-left:10px;"></span>
-6. _______ de ces stylos est à toi ? (masc. sing.) → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'Lequel')">.<span style="margin-left:10px;"></span>
-7. _______ de ces photos préfères-tu ? (fém. sing.) → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'Laquelle')">.<span style="margin-left:10px;"></span>
-8. _______ de ces enfants sont tes cousins ? (masc. pl.) → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'Lesquels')">.<span style="margin-left:10px;"></span>
-9. _______ de ces maisons sont anciennes ? (fém. pl.) → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'Lesquelles')">.<span style="margin-left:10px;"></span>
-10. _______ de ces chemises veux-tu acheter ? (fém. sing.) → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'Laquelle')">.<span style="margin-left:10px;"></span>
-11. _______ de ces exercices trouves-tu difficiles ? (masc. pl.) → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'Lesquels')">.<span style="margin-left:10px;"></span>
-12. _______ de ces couleurs préfères-tu ? (fém. pl.) → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'Lesquelles')">.<span style="margin-left:10px;"></span>
-13. _______ de ces ordinateurs est le tien ? (masc. sing.) → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'Lequel')">.<span style="margin-left:10px;"></span>
-14. _______ de ces portes est ouverte ? (fém. sing.) → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'Laquelle')">.<span style="margin-left:10px;"></span>
-15. _______ de ces élèves ont réussi ? (masc. pl.) → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'Lesquels')">.<span style="margin-left:10px;"></span>
+1.  \_\_\_\_\_\_\_ de ces livres veux-tu ? (masc. sing.) → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'Lequel')">.
+2.  \_\_\_\_\_\_\_ de ces robes préfères-tu ? (fém. sing.) → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'Laquelle')">.
+3.  \_\_\_\_\_\_\_ de ces films as-tu vus ? (masc. pl.) → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'Lesquels')">.
+4.  \_\_\_\_\_\_\_ de ces chansons connais-tu ? (fém. pl.) → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'Lesquelles')">.
+5.  Tu veux aller à \_\_\_\_\_\_\_ ? (fém. sing., avec préposition "à") → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'laquelle')">.
+6.  \_\_\_\_\_\_\_ de ces stylos est à toi ? (masc. sing.) → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'Lequel')">.
+7.  \_\_\_\_\_\_\_ de ces photos préfères-tu ? (fém. sing.) → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'Laquelle')">.
+8.  \_\_\_\_\_\_\_ de ces enfants sont tes cousins ? (masc. pl.) → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'Lesquels')">.
+9.  \_\_\_\_\_\_\_ de ces maisons sont anciennes ? (fém. pl.) → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'Lesquelles')">.
+10. \_\_\_\_\_\_\_ de ces chemises veux-tu acheter ? (fém. sing.) → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'Laquelle')">.
+11. \_\_\_\_\_\_\_ de ces exercices trouves-tu difficiles ? (masc. pl.) → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'Lesquels')">.
+12. \_\_\_\_\_\_\_ de ces couleurs préfères-tu ? (fém. pl.) → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'Lesquelles')">.
+13. \_\_\_\_\_\_\_ de ces ordinateurs est le tien ? (masc. sing.) → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'Lequel')">.
+14. \_\_\_\_\_\_\_ de ces portes est ouverte ? (fém. sing.) → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'Laquelle')">.
+15. \_\_\_\_\_\_\_ de ces élèves ont réussi ? (masc. pl.) → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'Lesquels')">.
 
-#### 3. Avec prépositions  
+#### 3. Avec prépositions
+
 Choisissez la bonne forme avec la préposition :
 
-1. Avec _______ vas-tu ? (masc. sing.) → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'lequel')">.<span style="margin-left:10px;"></span>
-2. Dans _______ as-tu mis le livre ? (fém. sing.) → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'laquelle')">.<span style="margin-left:10px;"></span>
-3. Pour _______ sont ces cadeaux ? (masc. pl.) → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'lesquels')">.<span style="margin-left:10px;"></span>
-4. Sur _______ as-tu écrit ? (fém. pl.) → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'lesquelles')">.<span style="margin-left:10px;"></span>
-5. À _______ penses-tu ? (fém. sing.) → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'laquelle')">.<span style="margin-left:10px;"></span>
-6. Avec _______ as-tu voyagé ? (masc. pl.) → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'lesquels')">.<span style="margin-left:10px;"></span>
-7. Pour _______ travailles-tu ? (fém. pl.) → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'lesquelles')">.<span style="margin-left:10px;"></span>
-8. Dans _______ veux-tu entrer ? (masc. sing.) → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'lequel')">.<span style="margin-left:10px;"></span>
-9. Sur _______ comptes-tu ? (fém. sing.) → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'laquelle')">.<span style="margin-left:10px;"></span>
-10. Avec _______ joues-tu au foot ? (masc. pl.) → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'lesquels')">.<span style="margin-left:10px;"></span>
-11. Pour _______ as-tu acheté ces fleurs ? (fém. pl.) → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'lesquelles')">.<span style="margin-left:10px;"></span>
-12. Dans _______ as-tu rangé les dossiers ? (masc. pl.) → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'lesquels')">.<span style="margin-left:10px;"></span>
-13. À _______ veux-tu parler ? (fém. sing.) → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'laquelle')">.<span style="margin-left:10px;"></span>
-14. Avec _______ vas-tu au cinéma ? (fém. pl.) → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'lesquelles')">.<span style="margin-left:10px;"></span>
-15. Sur _______ as-tu écrit ton nom ? (masc. sing.) → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'lequel')">.<span style="margin-left:10px;"></span>
+1.  Avec \_\_\_\_\_\_\_ vas-tu ? (masc. sing.) → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'lequel')">.
+2.  Dans \_\_\_\_\_\_\_ as-tu mis le livre ? (fém. sing.) → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'laquelle')">.
+3.  Pour \_\_\_\_\_\_\_ sont ces cadeaux ? (masc. pl.) → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'lesquels')">.
+4.  Sur \_\_\_\_\_\_\_ as-tu écrit ? (fém. pl.) → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'lesquelles')">.
+5.  À \_\_\_\_\_\_\_ penses-tu ? (fém. sing.) → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'laquelle')">.
+6.  Avec \_\_\_\_\_\_\_ as-tu voyagé ? (masc. pl.) → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'lesquels')">.
+7.  Pour \_\_\_\_\_\_\_ travailles-tu ? (fém. pl.) → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'lesquelles')">.
+8.  Dans \_\_\_\_\_\_\_ veux-tu entrer ? (masc. sing.) → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'lequel')">.
+9.  Sur \_\_\_\_\_\_\_ comptes-tu ? (fém. sing.) → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'laquelle')">.
+10. Avec \_\_\_\_\_\_\_ joues-tu au foot ? (masc. pl.) → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'lesquels')">.
+11. Pour \_\_\_\_\_\_\_ as-tu acheté ces fleurs ? (fém. pl.) → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'lesquelles')">.
+12. Dans \_\_\_\_\_\_\_ as-tu rangé les dossiers ? (masc. pl.) → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'lesquels')">.
+13. À \_\_\_\_\_\_\_ veux-tu parler ? (fém. sing.) → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'laquelle')">.
+14. Avec \_\_\_\_\_\_\_ vas-tu au cinéma ? (fém. pl.) → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'lesquelles')">.
+15. Sur \_\_\_\_\_\_\_ as-tu écrit ton nom ? (masc. sing.) → <input type="text" placeholder="Pronom" oninput="checkAnswer(this, 'lequel')">.
 
----
+------------------------------------------------------------------------
 
 ### Pour consolider vos acquis
 
-Rédigez un court paragraphe (3 à 5 phrases) expliquant ce que vous avez appris sur les pronoms interrogatifs en français. Utilisez vos propres mots et, si possible, donnez un exemple.  
+Rédigez un court paragraphe (3 à 5 phrases) expliquant ce que vous avez appris sur les pronoms interrogatifs en français. Utilisez vos propres mots et, si possible, donnez un exemple.\
+
+```{=html}
 <textarea rows="5" style="width:100%;" placeholder="Écrivez ici ce que vous avez appris..."></textarea>
+```
 
-<button onclick="showAnswers()">Afficher les réponses</button>
-<button onclick="refreshPage()">Réessayer</button>
+<button onclick="showAnswers()">
 
----
+Afficher les réponses
+
+</button>
+
+<button onclick="refreshPage()">
+
+Réessayer
+
+</button>
+
+------------------------------------------------------------------------
 
 ### Notes :
-- **Formes simples :** « Qui » pour les personnes, « que/quoi » pour les choses.
-- **Formes composées :** « Lequel, laquelle, lesquels, lesquelles » s’accordent en genre et en nombre avec le nom.
-- **Avec prépositions :** La préposition précède le pronom interrogatif (ex. : « avec lequel », « à laquelle »).
 
-
+-   **Formes simples :** « Qui » pour les personnes, « que/quoi » pour les choses.
+-   **Formes composées :** « Lequel, laquelle, lesquels, lesquelles » s’accordent en genre et en nombre avec le nom.
+-   **Avec prépositions :** La préposition précède le pronom interrogatif (ex. : « avec lequel », « à laquelle »).
 :::
 
+```{=html}
 <script>
 function checkAnswer(input, correctAnswer) {
     const span = input.nextElementSibling;
@@ -251,3 +275,4 @@ function refreshPage() {
     location.reload();
 }
 </script>
+```

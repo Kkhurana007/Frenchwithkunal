@@ -1,0 +1,68 @@
+---
+title: "Compréhension orale – Mariages en Inde"
+format:
+  html:
+    theme: cosmo
+    toc: false
+    css: styles.css
+---
+
+## 🎧 Activité de compréhension orale
+
+Écoutez l'extrait audio sur les mariages en Inde, puis répondez aux questions suivantes.  
+[Insérez ici l'audio ou un lien vers celui-ci.]
+---
+
+### 📝 Questions de compréhension
+
+<div class="audio-text">
+Lily est arrivée à Paris il y a presque trois ans pour faire un stage dans une entreprise parisienne. Elle n’est pas née à Paris, mais elle a choisi cette ville pour acquérir de l’expérience professionnelle. Au début, elle ne connaissait personne, mais elle s’est rapidement fait des amis. Lily aime beaucoup vivre et travailler à Paris, même si elle a dû s’habituer à prendre le métro tous les jours, ce qui était nouveau pour elle. Aujourd’hui, elle apprécie la vie parisienne et se sent chez elle dans cette grande ville.
+</div>
+
+<div class="question-block">
+
+<div class="question">
+**🟠 Question 1 :**  
+Comment Lily est-elle arrivée à Paris ?
+<div class="options">
+- a. Elle est venue faire du tourisme.  
+- b. Elle est née dans cette ville.  
+- c. Elle est venue rendre visite à des amis.  
+- d. Elle a fait un stage dans une entreprise parisienne.
+</div>
+</div>
+
+<div class="question">
+**🟠 Question 2 :**  
+Depuis combien de temps vit-elle à Paris ?  
+<div class="options">
+- a. Depuis quelques mois.  
+- b. Depuis 1 an.  
+- c. Depuis bientôt 3 ans.  
+- d. Elle y a toujours vécu.
+</div>
+</div>
+
+<div class="question">
+**🟠 Question 3 :**  
+Lily aime-t-elle vivre à Paris ?  
+<div class="options">
+- a. Oui, mais elle n’aime pas y travailler.  
+- b. Non, car elle a peur de conduire dans la ville.  
+- c. Oui, elle aime y travailler et y vivre.  
+- d. Non, car elle n’a pas d’amis à Paris.
+</div>
+</div>
+
+<div class="question">
+**🟠 Question 4 :**  
+À quoi Lily a-t-elle du s’habituer ?  
+<div class="options">
+- a. À prendre le métro.  
+- b. À conduire dans la ville.  
+- c. À sortir en fin de journée.  
+- d. À parler français.
+</div>
+</div>
+
+</div>

@@ -1,0 +1,251 @@
+---
+title: "La famille en français"
+author: "Kunal Khurana"
+date: "05-20-2025"
+categories: [A1, vocabulary, famille, exercises]
+image: "famille.png"
+---
+
+::: {.content-visible when-profile="english"}
+
+# Talking about Family in French
+
+Here are some basic sentences to describe your family in French. Practice by filling in the blanks with the correct French word.
+
+## Examples
+
+-   **My mother is kind.**  
+    Ma mère est gentille.
+-   **My father is tall.**  
+    Mon père est grand.
+-   **My cousin is funny.**  
+    Mon cousin est drôle.
+-   **My aunt lives in Paris.**  
+    Ma tante habite à Paris.
+-   **My stepmother is nice.**  
+    Ma belle-mère est sympa.
+
+------------------------------------------------------------------------
+
+# Exercises: Complete the sentences with the correct family word in French
+
+1.  My mother is a teacher.  
+    Ma <input type="text" placeholder="" size="10" oninput="checkAnswer(this, 'mère')"> <span></span> est professeure.
+
+2.  My father is 40 years old.  
+    Mon <input type="text" placeholder="" size="10" oninput="checkAnswer(this, 'père')"> <span></span> a 40 ans.
+
+3.  My cousin (male) plays football.  
+    Mon <input type="text" placeholder="" size="10" oninput="checkAnswer(this, 'cousin')"> <span></span> joue au football.
+
+4.  My cousin (female) is 12 years old.  
+    Ma <input type="text" placeholder="" size="10" oninput="checkAnswer(this, 'cousine')"> <span></span> a 12 ans.
+
+5.  My aunt is very nice.  
+    Ma <input type="text" placeholder="" size="10" oninput="checkAnswer(this, 'tante')"> <span></span> est très gentille.
+
+6.  My uncle is a doctor.  
+    Mon <input type="text" placeholder="" size="10" oninput="checkAnswer(this, 'oncle')"> <span></span> est médecin.
+
+7.  My stepmother is French.  
+    Ma <input type="text" placeholder="" size="10" oninput="checkAnswer(this, 'belle-mère')"> <span></span> est française.
+
+8.  My stepfather is funny.  
+    Mon <input type="text" placeholder="" size="10" oninput="checkAnswer(this, 'beau-père')"> <span></span> est drôle.
+
+9.  My brother is a student.  
+    Mon <input type="text" placeholder="" size="10" oninput="checkAnswer(this, 'frère')"> <span></span> est étudiant.
+
+10.  My sister is small.  
+    Ma <input type="text" placeholder="" size="10" oninput="checkAnswer(this, 'sœur')"> <span></span> est petite.
+
+## Challenge: Who Am I? (Guess the Family Member)
+
+Read each description and type the correct French family word.
+
+1. She is the daughter of my uncle and aunt.  
+    <input type="text" placeholder="" size="10" oninput="checkAnswer(this, 'cousine')"><span></span>
+
+2. He is married to my mother, but he is not my father.  
+    <input type="text" placeholder="" size="10" oninput="checkAnswer(this, 'beau-père')"><span></span>
+
+3. She is my father's wife and my mother's rival.  
+    <input type="text" placeholder="" size="10" oninput="checkAnswer(this, 'belle-mère')"><span></span>
+
+4. He is the son of my parents.  
+    <input type="text" placeholder="" size="10" oninput="checkAnswer(this, 'frère')"><span></span>
+
+5. She is my mother's mother.  
+    <input type="text" placeholder="" size="10" oninput="checkAnswer(this, 'grand-mère')"><span></span>
+
+---
+
+## Match the English and French Family Words
+
+Match the English word to the correct French word by typing the French word.
+
+- Grandfather: <input type="text" placeholder="" size="12" oninput="checkAnswer(this, 'grand-père')"><span></span>
+- Nephew: <input type="text" placeholder="" size="12" oninput="checkAnswer(this, 'neveu')"><span></span>
+- Niece: <input type="text" placeholder="" size="12" oninput="checkAnswer(this, 'nièce')"><span></span>
+- Husband: <input type="text" placeholder="" size="12" oninput="checkAnswer(this, 'mari')"><span></span>
+- Wife: <input type="text" placeholder="" size="12" oninput="checkAnswer(this, 'femme')"><span></span>
+
+---
+
+## Fill in the Blanks: Talking About Your Family
+
+Complete the sentences with the correct French family word.
+
+1. Mon <input type="text" placeholder="" size="10" oninput="checkAnswer(this, 'oncle')"><span></span> habite à Montréal.
+2. Ma <input type="text" placeholder="" size="10" oninput="checkAnswer(this, 'sœur')"><span></span> aime la musique.
+3. Mon <input type="text" placeholder="" size="10" oninput="checkAnswer(this, 'père')"><span></span> travaille à l’hôpital.
+4. Ma <input type="text" placeholder="" size="10" oninput="checkAnswer(this, 'grand-mère')"><span></span> fait de bons gâteaux.
+5. Mon <input type="text" placeholder="" size="10" oninput="checkAnswer(this, 'cousin')"><span></span> joue du piano.
+    ---
+
+<button onclick="showAnswers()">Show answers</button>
+<button onclick="refreshPage()">Try again</button>
+
+
+<script>
+function checkAnswer(input, correctAnswer) {
+    const span = input.nextElementSibling;
+    if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
+        span.textContent = "✓ Correct";
+        span.style.color = "green";
+    } else {
+        span.textContent = "";
+    }
+}
+
+function showAnswers() {
+    document.querySelectorAll('input[type="text"]').forEach(el => {
+        const correct = el.getAttribute('oninput')?.match(/'([^']+)'/)?.[1];
+        if (correct) {
+            const span = el.nextElementSibling;
+            span.textContent = `Réponse : ${correct}`;
+            span.style.color = "blue";
+        }
+    });
+}
+
+function refreshPage() {
+    location.reload();
+}
+</script>
+
+:::
+
+::: {.content-visible when-profile="french"}
+
+# Parler de la famille en français
+
+Voici quelques phrases de base pour décrire ta famille en français. Entraîne-toi en complétant les phrases avec le bon mot de vocabulaire.
+
+## Exemples
+
+-   **Ma mère est gentille.**  
+    Ma mère est gentille.
+-   **Mon père est grand.**  
+    Mon père est grand.
+-   **Mon cousin est drôle.**  
+    Mon cousin est drôle.
+-   **Ma tante habite à Paris.**  
+    Ma tante habite à Paris.
+-   **Ma belle-mère est sympa.**  
+    Ma belle-mère est sympa.
+
+------------------------------------------------------------------------
+
+# Exercices : Complète les phrases avec le bon mot de la famille
+
+1.  Ma <input type="text" placeholder="" size="10" oninput="checkAnswer(this, 'mère')"> est professeure.
+2.  Mon <input type="text" placeholder="" size="10" oninput="checkAnswer(this, 'père')"> a 40 ans.
+3.  Mon <input type="text" placeholder="" size="10" oninput="checkAnswer(this, 'cousin')"> joue au football.
+4.  Ma <input type="text" placeholder="" size="10" oninput="checkAnswer(this, 'cousine')"> a 12 ans.
+5.  Ma <input type="text" placeholder="" size="10" oninput="checkAnswer(this, 'tante')"> est très gentille.
+6.  Mon <input type="text" placeholder="" size="10" oninput="checkAnswer(this, 'oncle')"> est médecin.
+7.  Ma <input type="text" placeholder="" size="10" oninput="checkAnswer(this, 'belle-mère')"> est française.
+8.  Mon <input type="text" placeholder="" size="10" oninput="checkAnswer(this, 'beau-père')"> est drôle.
+9.  Mon <input type="text" placeholder="" size="10" oninput="checkAnswer(this, 'frère')"> est étudiant.
+10.  Ma <input type="text" placeholder="" size="10" oninput="checkAnswer(this, 'sœur')"> est petite.
+
+## Défi : Qui suis-je ? (Devine le membre de la famille)
+
+Lis chaque description et écris le bon mot de la famille en français.
+
+1. Elle est la fille de mon oncle et de ma tante.  
+    <input type="text" placeholder="" size="10" oninput="checkAnswer(this, 'cousine')"><span></span>
+
+2. Il est marié à ma mère, mais ce n'est pas mon père.  
+    <input type="text" placeholder="" size="10" oninput="checkAnswer(this, 'beau-père')"><span></span>
+
+3. Elle est la femme de mon père et la rivale de ma mère.  
+    <input type="text" placeholder="" size="10" oninput="checkAnswer(this, 'belle-mère')"><span></span>
+
+4. Il est le fils de mes parents.  
+    <input type="text" placeholder="" size="10" oninput="checkAnswer(this, 'frère')"><span></span>
+
+5. Elle est la mère de ma mère.  
+    <input type="text" placeholder="" size="10" oninput="checkAnswer(this, 'grand-mère')"><span></span>
+
+---
+
+## Associe les mots de la famille en anglais et en français
+
+Associe le mot anglais au mot français en écrivant le mot français.
+
+- Grandfather : <input type="text" placeholder="" size="12" oninput="checkAnswer(this, 'grand-père')"><span></span>
+- Nephew : <input type="text" placeholder="" size="12" oninput="checkAnswer(this, 'neveu')"><span></span>
+- Niece : <input type="text" placeholder="" size="12" oninput="checkAnswer(this, 'nièce')"><span></span>
+- Husband : <input type="text" placeholder="" size="12" oninput="checkAnswer(this, 'mari')"><span></span>
+- Wife : <input type="text" placeholder="" size="12" oninput="checkAnswer(this, 'femme')"><span></span>
+
+---
+
+## Complète les phrases : Parler de ta famille
+
+Complète les phrases avec le bon mot de la famille en français.
+
+1. Mon <input type="text" placeholder="" size="10" oninput="checkAnswer(this, 'oncle')"><span></span> habite à Montréal.
+2. Ma <input type="text" placeholder="" size="10" oninput="checkAnswer(this, 'sœur')"><span></span> aime la musique.
+3. Mon <input type="text" placeholder="" size="10" oninput="checkAnswer(this, 'père')"><span></span> travaille à l’hôpital.
+4. Ma <input type="text" placeholder="" size="10" oninput="checkAnswer(this, 'grand-mère')"><span></span> fait de bons gâteaux.
+5. Mon <input type="text" placeholder="" size="10" oninput="checkAnswer(this, 'cousin')"><span></span> joue du piano.
+---
+
+<button onclick="showAnswers()">Afficher les réponses</button>
+
+<button onclick="refreshPage()">Réessayer</button>
+
+
+
+<script>
+function checkAnswer(input, correctAnswer) {
+    const span = input.nextElementSibling;
+    if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
+        span.textContent = "✓ Correct";
+        span.style.color = "green";
+    } else {
+        span.textContent = "";
+    }
+}
+
+function showAnswers() {
+    document.querySelectorAll('input[type="text"]').forEach(el => {
+        const correct = el.getAttribute('oninput')?.match(/'([^']+)'/)?.[1];
+        if (correct) {
+            const span = el.nextElementSibling;
+            span.textContent = `Réponse : ${correct}`;
+            span.style.color = "blue";
+        }
+    });
+}
+
+function refreshPage() {
+    location.reload();
+}
+</script>
+</script>
+
+:::

@@ -1,0 +1,207 @@
+---
+title: "Exercises: Stores & Places Vocabulary"  
+author: "Kunal Khurana"  
+date: "05-12-2025"  
+categories: [A1/A2, vocabulary, places, exercises]  
+image: "places.png"  
+---
+
+::: {.content-visible when-profile="english"}
+
+### Exercise: French Places and Their Gender
+
+Practice the gender of French place nouns and their articles.
+
+#### 1. Assign the correct definite article (*le/la/l'*) to each place:
+
+\_\_\_ aéroport (airport) ✈️ → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'l\'')"><span></span>
+
+\_\_\_ bibliothèque (library) 📚 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'la')"><span></span>
+
+\_\_\_ hôpital (hospital) 🏥 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'l\'')"><span></span>
+
+\_\_\_ parc (park) 🌳 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'le')"><span></span>
+
+\_\_\_ plage (beach) 🏖️ → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'la')"><span></span>
+
+\_\_\_ université (university) 🎓 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'l\'')"><span></span>
+
+\_\_\_ centre commercial (mall) 🛍️ → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'le')"><span></span>
+
+\_\_\_ poste (post office) 📮 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'la')"><span></span>
+
+\_\_\_ musée (museum) 🖼️ → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'le')"><span></span>
+
+\_\_\_ piscine (swimming pool) 🏊 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'la')"><span></span>
+
+#### 2. Rewrite with the correct indefinite article (*un/une/des*):
+
+\_\_\_ café (café) ☕ → <input type="text" placeholder="un/une" oninput="checkAnswer(this, 'un')"><span></span>
+
+\_\_\_ épicerie (grocery store) 🛒 → <input type="text" placeholder="un/une" oninput="checkAnswer(this, 'une')"><span></span>
+
+\_\_\_ magasins (stores) 🏬 → <input type="text" placeholder="un/une/des" oninput="checkAnswer(this, 'des')"><span></span>
+
+\_\_\_ boulangerie (bakery) 🥖 → <input type="text" placeholder="un/une" oninput="checkAnswer(this, 'une')"><span></span>
+
+\_\_\_ stade (stadium) ⚽ → <input type="text" placeholder="un/une" oninput="checkAnswer(this, 'un')"><span></span>
+
+\_\_\_ pharmacie (pharmacy) 💊 → <input type="text" placeholder="un/une" oninput="checkAnswer(this, 'une')"><span></span>
+
+\_\_\_ cinéma (cinema) 🎬 → <input type="text" placeholder="un/une" oninput="checkAnswer(this, 'un')"><span></span>
+
+#### 3. Correct the errors in gender/number:
+
+"La musée" → <input type="text" placeholder="Correct phrase" oninput="checkAnswer(this, 'le musée')"><span></span>
+
+"Un bibliothèque" → <input type="text" placeholder="Correct phrase" oninput="checkAnswer(this, 'une bibliothèque')"><span></span>
+
+"Des église" → <input type="text" placeholder="Correct phrase" oninput="checkAnswer(this, 'des églises')"><span></span>
+
+"La parc" → <input type="text" placeholder="Correct phrase" oninput="checkAnswer(this, 'le parc')"><span></span>
+
+"Une hôpital" → <input type="text" placeholder="Correct phrase" oninput="checkAnswer(this, 'un hôpital')"><span></span>
+
+<button onclick="checkAllAnswers()">Check Answers</button>
+<button onclick="refreshPage()">Refresh</button>
+
+<script>
+function checkAnswer(input, correctAnswer) {
+    const span = input.nextElementSibling;
+    if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
+        span.textContent = "✓ Correct";
+        span.style.color = "green";
+    } else {
+        span.textContent = "";
+    }
+}
+
+// New function to check all answers at once
+function checkAllAnswers() {
+    document.querySelectorAll('input[type="text"]').forEach(el => {
+        const correct = el.getAttribute('oninput')?.match(/'([^']+)'/)?.[1];
+        if (correct) {
+            checkAnswer(el, correct);
+        }
+    });
+}
+
+function showAnswers() {
+    document.querySelectorAll('input[type="text"]').forEach(el => {
+        const correct = el.getAttribute('oninput')?.match(/'([^']+)'/)?.[1];
+        if (correct) {
+            const span = el.nextElementSibling;
+            span.textContent = `Réponse : ${correct}`;
+            span.style.color = "blue";
+        }
+    });
+}
+
+function refreshPage() {
+    location.reload();
+}
+</script>
+
+
+:::
+
+
+::: {.content-visible when-profile="french"}
+
+### Exercice : Lieux en français et leur genre
+
+Entraînez-vous à utiliser le bon article avec les noms de lieux en français.
+
+#### 1. Attribuez le bon article défini (*le/la/l'*) à chaque lieu :
+
+\_\_\_ aéroport (airport) ✈️ → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'l\'')"><span></span>
+
+\_\_\_ bibliothèque (bibliothèque) 📚 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'la')"><span></span>
+
+\_\_\_ hôpital (hôpital) 🏥 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'l\'')"><span></span>
+
+\_\_\_ parc (parc) 🌳 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'le')"><span></span>
+
+\_\_\_ plage (plage) 🏖️ → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'la')"><span></span>
+
+\_\_\_ université (université) 🎓 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'l\'')"><span></span>
+
+\_\_\_ centre commercial (centre commercial) 🛍️ → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'le')"><span></span>
+
+\_\_\_ poste (poste) 📮 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'la')"><span></span>
+
+\_\_\_ musée (musée) 🖼️ → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'le')"><span></span>
+
+\_\_\_ piscine (piscine) 🏊 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'la')"><span></span>
+
+#### 2. Réécrivez avec le bon article indéfini (*un/une/des*) :
+
+\_\_\_ café (café) ☕ → <input type="text" placeholder="un/une" oninput="checkAnswer(this, 'un')"><span></span>
+
+\_\_\_ épicerie (épicerie) 🛒 → <input type="text" placeholder="un/une" oninput="checkAnswer(this, 'une')"><span></span>
+
+\_\_\_ magasins (magasins) 🏬 → <input type="text" placeholder="un/une/des" oninput="checkAnswer(this, 'des')"><span></span>
+
+\_\_\_ boulangerie (boulangerie) 🥖 → <input type="text" placeholder="un/une" oninput="checkAnswer(this, 'une')"><span></span>
+
+\_\_\_ stade (stade) ⚽ → <input type="text" placeholder="un/une" oninput="checkAnswer(this, 'un')"><span></span>
+
+\_\_\_ pharmacie (pharmacie) 💊 → <input type="text" placeholder="un/une" oninput="checkAnswer(this, 'une')"><span></span>
+
+\_\_\_ cinéma (cinéma) 🎬 → <input type="text" placeholder="un/une" oninput="checkAnswer(this, 'un')"><span></span>
+
+#### 3. Corrigez les erreurs de genre/nombre :
+
+"La musée" → <input type="text" placeholder="Phrase correcte" oninput="checkAnswer(this, 'le musée')"><span></span>
+
+"Un bibliothèque" → <input type="text" placeholder="Phrase correcte" oninput="checkAnswer(this, 'une bibliothèque')"><span></span>
+
+"Des église" → <input type="text" placeholder="Phrase correcte" oninput="checkAnswer(this, 'des églises')"><span></span>
+
+"La parc" → <input type="text" placeholder="Phrase correcte" oninput="checkAnswer(this, 'le parc')"><span></span>
+
+"Une hôpital" → <input type="text" placeholder="Phrase correcte" oninput="checkAnswer(this, 'un hôpital')"><span></span>
+
+
+<button onclick="checkAnswer()">Vérifier les réponses</button>
+<button onclick="refreshPage()">Rafraîchir</button>
+
+
+<script>
+function checkAnswer(input, correctAnswer) {
+    const span = input.nextElementSibling;
+    if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
+        span.textContent = "✓ Correct";
+        span.style.color = "green";
+    } else {
+        span.textContent = "";
+    }
+}
+
+// New function to check all answers at once
+function checkAllAnswers() {
+    document.querySelectorAll('input[type="text"]').forEach(el => {
+        const correct = el.getAttribute('oninput')?.match(/'([^']+)'/)?.[1];
+        if (correct) {
+            checkAnswer(el, correct);
+        }
+    });
+}
+
+function showAnswers() {
+    document.querySelectorAll('input[type="text"]').forEach(el => {
+        const correct = el.getAttribute('oninput')?.match(/'([^']+)'/)?.[1];
+        if (correct) {
+            const span = el.nextElementSibling;
+            span.textContent = `Réponse : ${correct}`;
+            span.style.color = "blue";
+        }
+    });
+}
+
+function refreshPage() {
+    location.reload();
+}
+</script>
+
+:::

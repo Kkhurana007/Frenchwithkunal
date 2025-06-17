@@ -7,6 +7,7 @@ image: "characterisation_personne.png"
 ---
 
 ::: {.content-visible when-profile="english"}
+
 # Describing a Person in French
 
 To describe someone in French, you can talk about their age, height, body type, hair, skin, accessories, qualities, and flaws. Here are the main ways to characterize a person:

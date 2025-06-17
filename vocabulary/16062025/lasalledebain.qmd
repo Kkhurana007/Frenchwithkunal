@@ -1,0 +1,211 @@
+---
+title: "Exercises: Bathroom Vocabulary & Gender"
+author: "Kunal Khurana"
+date: "16-06-2025"
+categories: [A1/A2, vocabulary, bathroom, exercises]
+image: "lasalledebain.png"
+---
+
+::: {.content-visible when-profile="english"}
+### Exercise: French Bathroom Nouns and Gender
+
+Practice the gender of French bathroom nouns and their articles.
+
+#### 1. Assign the correct definite article (*le/la/l'*) to each bathroom item:
+
+___ lavabo (sink) 🚰 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'le')"><span></span>
+
+___ douche (shower) 🚿 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'la')"><span></span>
+
+___ baignoire (bathtub) 🛁 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'la')"><span></span>
+
+___ miroir (mirror) 🪞 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'le')"><span></span>
+
+___ serviette (towel) 🧺 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'la')"><span></span>
+
+___ brosse à dents (toothbrush) 🪥 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'la')"><span></span>
+
+___ dentifrice (toothpaste) 🦷 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'le')"><span></span>
+
+___ savon (soap) 🧼 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'le')"><span></span>
+
+___ toilette (toilet) 🚽 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'la')"><span></span>
+
+#### 2. Match the French term to its English equivalent:
+
+**"le peigne"** → <input type="text" placeholder="English" oninput="checkAnswer(this, 'comb')"><span></span>
+
+**"le shampoing"** → <input type="text" placeholder="English" oninput="checkAnswer(this, 'shampoo')"><span></span>
+
+**"le papier toilette"** → <input type="text" placeholder="English" oninput="checkAnswer(this, 'toilet paper')"><span></span>
+
+**"le rideau de douche"** → <input type="text" placeholder="English" oninput="checkAnswer(this, 'shower curtain')"><span></span>
+
+#### 3. Fill in the blanks with the correct term:
+"Je me lave les mains avec \_\_\_ (soap)." → <input type="text" placeholder="French" oninput="checkAnswer(this, 'du savon')"><span></span>
+
+"\_\_\_ (The towel) est mouillée." → <input type="text" placeholder="French" oninput="checkAnswer(this, 'La serviette')"><span></span>
+
+"Où est \_\_\_ (the toothbrush) ?" → <input type="text" placeholder="French" oninput="checkAnswer(this, 'la brosse à dents')"><span></span>
+
+"Je regarde dans \_\_\_ (the mirror)." → <input type="text" placeholder="French" oninput="checkAnswer(this, 'le miroir')"><span></span>
+
+"Il y a \_\_\_ (a bathtub) dans la salle de bain." → <input type="text" placeholder="French" oninput="checkAnswer(this, 'une baignoire')"><span></span>
+
+"Je prends une douche dans \_\_\_ (the shower)." → <input type="text" placeholder="French" oninput="checkAnswer(this, 'la douche')"><span></span>
+
+"J’utilise \_\_\_ (the shampoo) pour mes cheveux." → <input type="text" placeholder="French" oninput="checkAnswer(this, 'le shampoing')"><span></span>
+
+"Le papier toilette est à côté de \_\_\_ (the toilet)." → <input type="text" placeholder="French" oninput="checkAnswer(this, 'la toilette')"><span></span>
+
+"Je me brosse les dents avec \_\_\_ (toothpaste)." → <input type="text" placeholder="French" oninput="checkAnswer(this, 'du dentifrice')"><span></span>
+
+"Accroche \_\_\_ (the towel) sur le porte-serviettes." → <input type="text" placeholder="French" oninput="checkAnswer(this, 'la serviette')"><span></span>
+
+"Le savon est sur \_\_\_ (the sink)." → <input type="text" placeholder="French" oninput="checkAnswer(this, 'le lavabo')"><span></span>
+
+"J’utilise \_\_\_ (the comb) après la douche." → <input type="text" placeholder="French" oninput="checkAnswer(this, 'le peigne')"><span></span>
+
+"Ferme \_\_\_ (the shower curtain) avant de prendre une douche." → <input type="text" placeholder="French" oninput="checkAnswer(this, 'le rideau de douche')"><span></span>
+
+#### 4. Correct the errors in gender/number:
+"Un baignoire" → <input type="text" placeholder="Correct phrase" oninput="checkAnswer(this, 'une baignoire')"><span></span>
+
+"Le serviette" → <input type="text" placeholder="Correct phrase" oninput="checkAnswer(this, 'la serviette')"><span></span>
+
+"Des savon" → <input type="text" placeholder="Correct phrase" oninput="checkAnswer(this, 'des savons')"><span></span>
+
+"La miroir" → <input type="text" placeholder="Correct phrase" oninput="checkAnswer(this, 'le miroir')"><span></span>
+
+"Le douche" → <input type="text" placeholder="Correct phrase" oninput="checkAnswer(this, 'la douche')"><span></span>
+
+"Les brosse à dents" → <input type="text" placeholder="Correct phrase" oninput="checkAnswer(this, 'les brosses à dents')"><span></span>
+
+"Une dentifrice" → <input type="text" placeholder="Correct phrase" oninput="checkAnswer(this, 'un dentifrice')"><span></span>
+
+"Le shampoings" → <input type="text" placeholder="Correct phrase" oninput="checkAnswer(this, 'les shampoings')"><span></span>
+
+<button onclick="showAnswers()">Show All Answers</button>
+
+<script>
+function showAnswers() {
+    document.querySelectorAll('input[type="text"]').forEach(input => {
+        const correct = input.getAttribute('oninput').match(/'([^']+)'/)[1];
+        input.value = correct;
+        const feedback = input.nextElementSibling;
+        if (feedback) {
+            feedback.textContent = "✓ Correct!";
+            feedback.style.color = "green";
+        }
+    });
+}
+function refreshPage() {
+    location.reload();
+}
+</script>
+
+:::
+
+
+::: {.content-visible when-profile="french"}
+
+### Exercice : Vocabulaire de la salle de bain et genre
+
+Entraînez-vous à utiliser le genre des noms de la salle de bain en français et leurs articles.
+
+#### 1. Attribuez le bon article défini (*le/la/l'*) à chaque objet de la salle de bain :
+
+___ lavabo (sink) 🚰 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'le')">
+
+___ douche (shower) 🚿 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'la')">
+
+___ baignoire (bathtub) 🛁 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'la')">
+
+___ miroir (mirror) 🪞 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'le')">
+
+___ serviette (towel) 🧺 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'la')">
+
+___ brosse à dents (toothbrush) 🪥 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'la')">
+
+___ dentifrice (toothpaste) 🦷 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'le')">
+
+___ savon (soap) 🧼 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'le')">
+
+___ toilette (toilet) 🚽 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'la')">
+
+#### 2. Associez le terme français à son équivalent anglais :
+
+**"le peigne"** → <input type="text" placeholder="Anglais" oninput="checkAnswer(this, 'comb')">
+
+**"le shampoing"** → <input type="text" placeholder="Anglais" oninput="checkAnswer(this, 'shampoo')">
+
+**"le papier toilette"** → <input type="text" placeholder="Anglais" oninput="checkAnswer(this, 'toilet paper')">
+
+**"le rideau de douche"** → <input type="text" placeholder="Anglais" oninput="checkAnswer(this, 'shower curtain')">
+
+#### 3. Complétez les phrases avec le bon terme :
+
+"Je me lave les mains avec \_\_\_ (savon)." → <input type="text" placeholder="Français" oninput="checkAnswer(this, 'du savon')">
+
+"\_\_\_ (La serviette) est mouillée." → <input type="text" placeholder="Français" oninput="checkAnswer(this, 'La serviette')">
+
+"Où est \_\_\_ (la brosse à dents) ?" → <input type="text" placeholder="Français" oninput="checkAnswer(this, 'la brosse à dents')">
+
+"Je regarde dans \_\_\_ (le miroir)." → <input type="text" placeholder="Français" oninput="checkAnswer(this, 'le miroir')">
+
+"Il y a \_\_\_ (une baignoire) dans la salle de bain." → <input type="text" placeholder="Français" oninput="checkAnswer(this, 'une baignoire')">
+
+"Je prends une douche dans \_\_\_ (la douche)." → <input type="text" placeholder="Français" oninput="checkAnswer(this, 'la douche')">
+
+"J’utilise \_\_\_ (le shampoing) pour mes cheveux." → <input type="text" placeholder="Français" oninput="checkAnswer(this, 'le shampoing')">
+
+"Le papier toilette est à côté de \_\_\_ (la toilette)." → <input type="text" placeholder="Français" oninput="checkAnswer(this, 'la toilette')">
+
+"Je me brosse les dents avec \_\_\_ (dentifrice)." → <input type="text" placeholder="Français" oninput="checkAnswer(this, 'du dentifrice')">
+
+"Accroche \_\_\_ (la serviette) sur le porte-serviettes." → <input type="text" placeholder="Français" oninput="checkAnswer(this, 'la serviette')">
+
+"Le savon est sur \_\_\_ (le lavabo)." → <input type="text" placeholder="Français" oninput="checkAnswer(this, 'le lavabo')">
+
+"J’utilise \_\_\_ (le peigne) après la douche." → <input type="text" placeholder="Français" oninput="checkAnswer(this, 'le peigne')">
+
+"Ferme \_\_\_ (le rideau de douche) avant de prendre une douche." → <input type="text" placeholder="Français" oninput="checkAnswer(this, 'le rideau de douche')">
+
+#### 4. Corrigez les erreurs de genre/nombre :
+
+"Un baignoire" → <input type="text" placeholder="Phrase correcte" oninput="checkAnswer(this, 'une baignoire')">
+
+"Le serviette" → <input type="text" placeholder="Phrase correcte" oninput="checkAnswer(this, 'la serviette')">
+
+"Des savon" → <input type="text" placeholder="Phrase correcte" oninput="checkAnswer(this, 'des savons')">
+
+"La miroir" → <input type="text" placeholder="Phrase correcte" oninput="checkAnswer(this, 'le miroir')">
+
+"Le douche" → <input type="text" placeholder="Phrase correcte" oninput="checkAnswer(this, 'la douche')">
+
+"Les brosse à dents" → <input type="text" placeholder="Phrase correcte" oninput="checkAnswer(this, 'les brosses à dents')">
+
+"Une dentifrice" → <input type="text" placeholder="Phrase correcte" oninput="checkAnswer(this, 'un dentifrice')">
+
+"Le shampoings" → <input type="text" placeholder="Phrase correcte" oninput="checkAnswer(this, 'les shampoings')">
+
+<button onclick="showAnswers()">Afficher toutes les réponses</button>
+
+<script>
+function showAnswers() {
+    document.querySelectorAll('input[type="text"]').forEach(input => {
+        const correct = input.getAttribute('oninput').match(/'([^']+)'/)[1];
+        input.value = correct;
+        const feedback = input.nextElementSibling;
+        if (feedback) {
+            feedback.textContent = "✓ Correct!";
+            feedback.style.color = "green";
+        }
+    });
+}
+function refreshPage() {
+    location.reload();
+}
+</script>
+
+:::

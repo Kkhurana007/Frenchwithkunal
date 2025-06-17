@@ -18,12 +18,11 @@ format:
 <a href="mailto:frenchwithkunal@gmail.com" target="_blank" style="margin: 0 10px; color: #000;"><i class="fas fa-envelope fa-lg"></i></a> <a href="https://www.instagram.com/frenchwithkunal" target="_blank" style="margin: 0 10px; color: #E1306C;"><i class="fab fa-instagram fa-lg"></i></a> <a href="https://frenchwithkunal.ca" target="_blank" style="margin: 0 10px; color: #0077b5;"><i class="fas fa-globe fa-lg"></i></a> <a href="https://whatsapp.com/channel/0029Vb57n2e7dmegpjYpyi3V" target="_blank" style="margin: 0 10px; color: #25D366;"><i class="fab fa-whatsapp fa-lg"></i></a> <button onclick="copyLink()" style="background-color: #0077b5; color: white; padding: 8px 16px; border: none; border-radius: 4px; cursor: pointer; margin-left: 10px;"> <i class="fas fa-copy"></i> </button> [Link copied!]{#copy-message style="margin-left: 10px; color: green; display: none;"}
 :::
 
+::: {#react-root}
+:::
 
-
-
-
-<div id="react-root"></div>
- <script type="text/babel">
+```{=html}
+<script type="text/babel">
  const ProfilePage = () => {
   const { useState, useEffect } = React;
   const [redirectCounter, setRedirectCounter] = useState(4);
@@ -169,18 +168,14 @@ ReactDOM.render(
   document.getElementById('react-root')
 );
  </script>
+```
 
 ::: {.content-visible when-profile="english"}
-
 In French, -er verbs are the most common and are considered regular verbs. These verbs follow a standard conjugation pattern in different tenses, making them relatively easy to learn. To conjugate an -er verb in the present tense, you begin by removing the -er ending from the infinitive form of the verb, leaving the stem. Then, you add the appropriate endings depending on the subject pronoun. For example, with the verb "parler" (to speak):
 
 je parle (I speak) tu parles (you speak, informal) il/elle parle (he/she speaks) nous parlons (we speak) vous parlez (you speak, formal/plural) ils/elles parlent (they speak) The endings for the present tense are: -e, -es, -e, -ons, -ez, -ent. These are applied to all regular -er verbs.
 
-{{< video https://www.youtube.com/watch?v=TAYBSzkmMZ4
-    title="What is the CERN?"
-    start="116"
-    aspect-ratio="21x9" 
->}}
+{{< video https://www.youtube.com/watch?v=TAYBSzkmMZ4 title="What is the CERN?" start="116" aspect-ratio="21x9" >}}
 
 You can look at [this pdf](https://drive.google.com/file/d/1QWKTDci-CCVcfR7ca7QxQC4QnOdSYb2S/view?usp=drive_link) for detailed explanation.
 :::
@@ -193,8 +188,4 @@ je parle (je parle) tu parles (tu parles, informel) il/elle parle (il/elle parle
 Tu peux consulter [ce pdf](https://drive.google.com/file/d/1QWKTDci-CCVcfR7ca7QxQC4QnOdSYb2S/view?usp=drive_link) pour des explications détaillées.
 :::
 
-{{< video https://www.youtube.com/watch?v=taAKHLtMWHw
-    title="What is the CERN?"
-    start="116"
-    aspect-ratio="21x9" 
->}}
+{{< video https://www.youtube.com/watch?v=taAKHLtMWHw title="What is the CERN?" start="116" aspect-ratio="21x9" >}}

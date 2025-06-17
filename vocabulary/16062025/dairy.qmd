@@ -1,0 +1,274 @@
+---
+title: "Exercises: Dairy Products Vocabulary & Gender"
+author: "Kunal Khurana"
+date: "05-12-2025"
+categories: [A1/A2, vocabulary, dairy, exercises]
+image: "dairy.png"
+---
+
+::: {.content-visible when-profile="english"}
+
+Exercise: French Dairy Nouns and Gender Practice the gender of French dairy-related nouns and their articles.
+
+## 1. Assign the correct definite article (le/la/l') to each term:
+
+\_\_\_ beurre (butter) 🧈 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'le')">
+
+\_\_\_ crème chantilly (whipped cream) 🍰 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'la')">
+
+\_\_\_ fromage (cheese) 🧀 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'le')">
+
+\_\_\_ glace (ice cream) 🍦 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'la')">
+
+\_\_\_ lait (milk) 🥛 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'le')">
+
+\_\_\_ yaourt (yogurt) 🍶 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'le')">
+
+\_\_\_ margarine 🧈 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'la')">
+
+\_\_\_ fromage râpé (grated cheese) 🧀 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'le')">
+
+## 2. Match the French term to its English equivalent:
+
+"le lait entier" 🥛 → <input type="text" placeholder="English" oninput="checkAnswer(this, 'whole milk')">
+
+"la crème chantilly" 🍰 → <input type="text" placeholder="English" oninput="checkAnswer(this, 'whipped cream')">
+
+"le lait écémé" 🥛 → <input type="text" placeholder="English" oninput="checkAnswer(this, 'skim milk')">
+
+"le yaourt nature" 🍶 → <input type="text" placeholder="English" oninput="checkAnswer(this, 'plain yogurt')">
+
+## 3. Fill in the blanks with the correct term:
+
+"\_\_\_ (The butter) est sur la table." 🧈 → <input type="text" placeholder="French" oninput="checkAnswer(this, 'le beurre')">
+
+"J’achète \_\_\_ (some yogurt) pour le petit-déjeuner." 🍶 → <input type="text" placeholder="French" oninput="checkAnswer(this, 'du yaourt')">
+
+"\_\_\_ (The ice cream) est trop sucré." 🍦 → <input type="text" placeholder="French" oninput="checkAnswer(this, 'la glace')">
+
+## 4. Correct the errors in gender/number:
+
+"Une fromage" 🧀 → <input type="text" placeholder="Correct phrase" oninput="checkAnswer(this, 'un fromage')">
+
+"Le crème" 🍦 → <input type="text" placeholder="Correct phrase" oninput="checkAnswer(this, 'la crème')">
+
+"Des yaourt" 🍶 → <input type="text" placeholder="Correct phrase" oninput="checkAnswer(this, 'des yaourts')">
+
+<button onclick="showAnswers()">Show All Answers</button>
+
+
+<script>  
+function showAnswers() {  
+    document.querySelectorAll('input[type="text"]').forEach(input => {  
+        const correct = input.getAttribute('oninput').match(/'([^']+)'/)[1];  
+        input.value = correct;  
+        const feedback = input.nextElementSibling;  
+        feedback.textContent = "✓ Correct!";  
+        feedback.style.color = "green";  
+    });  
+}  
+
+function refreshPage() {  
+    location.reload();  
+}  
+</script>
+
+
+<button onclick="refreshPage()">Refresh Page</button>
+
+## 5. Translate into French (include articles/partitives!):
+
+1.  "I eat bread with butter."
+
+
+<textarea placeholder="Je mange..." rows="2" cols="50" oninput="checkTranslation(this, 'Je mange du pain avec du beurre.')"></textarea>
+
+
+2.  "She prefers ice cream for dessert."
+
+
+<textarea placeholder="Elle préfère..." rows="2" cols="50" oninput="checkTranslation(this, 'Elle préfère la glace pour le dessert.')"></textarea>
+
+
+<button onclick="checkAllAnswers()">Check Answers</button>
+
+<button onclick="giveFeedback()">Check My Work</button>
+
+<script>
+function checkAnswer(input, correctAnswer) {
+        const span = input.nextElementSibling;
+        if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
+                span.textContent = "✓ Correct";
+                span.style.color = "green";
+        } else {
+                span.textContent = "";
+        }
+}
+
+function showAnswers() {
+        document.querySelectorAll('input[type="text"]').forEach(el => {
+                const correct = el.getAttribute('oninput')?.match(/'([^']+)'/)?.[1];
+                if (correct) {
+                        const span = el.nextElementSibling;
+                        span.textContent = `Réponse : ${correct}`;
+                        span.style.color = "blue";
+                }
+        });
+}
+
+function refreshPage() {
+        location.reload();
+}
+</script>
+
+#### Notes:
+
+Gender hints: Most dairy terms are masculine (le lait, le yaourt), but exceptions include la crème and la glace.
+
+Partitives: Use du/de la for "some" (du fromage, de la crème).
+
+Plural alert: Les yaourts (yogurts) and les fromages (cheeses) are plural.
+
+
+:::
+
+::: {.content-visible when-profile="french"}
+
+Exercice : Noms laitiers français et genre\
+
+Entraînez-vous à utiliser le genre des noms liés aux produits laitiers et leurs articles.
+
+## 1. Attribuez le bon article défini (le/la/l') à chaque terme :
+
+\_\_\_ beurre (butter) 🧈 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'le')">
+
+\_\_\_ crème chantilly (whipped cream) 🍰 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'la')">
+
+\_\_\_ fromage (cheese) 🧀 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'le')">
+
+\_\_\_ glace (ice cream) 🍦 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'la')">
+
+\_\_\_ lait (milk) 🥛 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'le')">
+
+\_\_\_ yaourt (yogourt) 🍶 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'le')">
+
+\_\_\_ margarine 🧈 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'la')">
+
+\_\_\_ fromage râpé (gruyère râpé) 🧀 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'le')">
+
+## 2. Associez le terme français à son équivalent anglais :
+
+"le lait entier" 🥛 → <input type="text" placeholder="Anglais" oninput="checkAnswer(this, 'whole milk')">
+
+"la crème chantilly" 🍰 → <input type="text" placeholder="Anglais" oninput="checkAnswer(this, 'whipped cream')">
+
+"le lait écrémé" 🥛 → <input type="text" placeholder="Anglais" oninput="checkAnswer(this, 'skim milk')">
+
+"le yaourt nature" 🍶 → <input type="text" placeholder="Anglais" oninput="checkAnswer(this, 'plain yogurt')">
+
+## 3. Complétez avec le terme correct :
+
+"\_\_\_ (Le beurre) est sur la table." 🧈 → <input type="text" placeholder="Français" oninput="checkAnswer(this, 'le beurre')">
+
+"J’achète \_\_\_ (du yaourt) pour le petit-déjeuner." 🍶 → <input type="text" placeholder="Français" oninput="checkAnswer(this, 'du yaourt')">
+
+"\_\_\_ (La glace) est trop sucrée." 🍦 → <input type="text" placeholder="Français" oninput="checkAnswer(this, 'la glace')">
+
+## 4. Corrigez les erreurs de genre/nombre :
+
+"Une fromage" 🧀 → <input type="text" placeholder="Phrase correcte" oninput="checkAnswer(this, 'un fromage')">
+
+"Le crème" 🍦 → <input type="text" placeholder="Phrase correcte" oninput="checkAnswer(this, 'la crème')">
+
+"Des yaourt" 🍶 → <input type="text" placeholder="Phrase correcte" oninput="checkAnswer(this, 'des yaourts')">
+
+<button onclick="showAnswers()">
+
+Afficher toutes les réponses
+
+</button>
+
+<button onclick="giveFeedback()">Check My Work</button>
+
+<script>
+function checkAnswer(input, correctAnswer) {
+        const span = input.nextElementSibling;
+        if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
+                span.textContent = "✓ Correct";
+                span.style.color = "green";
+        } else {
+                span.textContent = "";
+        }
+}
+
+function showAnswers() {
+        document.querySelectorAll('input[type="text"]').forEach(el => {
+                const correct = el.getAttribute('oninput')?.match(/'([^']+)'/)?.[1];
+                if (correct) {
+                        const span = el.nextElementSibling;
+                        span.textContent = `Réponse : ${correct}`;
+                        span.style.color = "blue";
+                }
+        });
+}
+
+function refreshPage() {
+        location.reload();
+}
+</script>
+
+<button onclick="refreshPage()">Rafraîchir la page</button>
+
+## 5. Traduisez en français (avec articles/partitifs !) :
+
+1.  "I eat bread with butter."
+
+
+<textarea placeholder="Je mange..." rows="2" cols="50" oninput="checkTranslation(this, 'Je mange du pain avec du beurre.')"></textarea>
+
+2.  "She prefers ice cream for dessert."
+
+
+<textarea placeholder="Elle préfère..." rows="2" cols="50" oninput="checkTranslation(this, 'Elle préfère la glace pour le dessert.')"></textarea>
+
+<button onclick="checkAllAnswers()">Vérifier les réponses</button>
+
+
+<button onclick="giveFeedback()">Check My Work</button>
+
+<script>
+function checkAnswer(input, correctAnswer) {
+        const span = input.nextElementSibling;
+        if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
+                span.textContent = "✓ Correct";
+                span.style.color = "green";
+        } else {
+                span.textContent = "";
+        }
+}
+
+function showAnswers() {
+        document.querySelectorAll('input[type="text"]').forEach(el => {
+                const correct = el.getAttribute('oninput')?.match(/'([^']+)'/)?.[1];
+                if (correct) {
+                        const span = el.nextElementSibling;
+                        span.textContent = `Réponse : ${correct}`;
+                        span.style.color = "blue";
+                }
+        });
+}
+
+function refreshPage() {
+        location.reload();
+}
+</script>
+
+#### Notes :
+
+Aide pour le genre : La plupart des termes laitiers sont masculins (le lait, le yaourt), mais il y a des exceptions comme la crème et la glace.
+
+Partitifs : Utilisez du/de la pour "du/de la" (du fromage, de la crème).
+
+Pluriel : Les yaourts (yogourts) et les fromages (fromages) sont au pluriel.
+
+:::

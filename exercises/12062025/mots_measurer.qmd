@@ -7,6 +7,7 @@ image: "measuring.png"
 ---
 
 ::: {.content-visible when-profile="english"}
+
 # Words for Measuring in French
 
 In French, there are many words used to measure quantities, whether for food, objects, or people. Here are some of the most common:

@@ -1,0 +1,229 @@
+---
+title: "Exercises: Vegetable Vocabulary & Gender"  
+author: "Kunal Khurana"  
+date: "05-12-2025"  
+categories: [A1/A2, vocabulary, vegetables, exercises]  
+image: "legumes.png"  
+---
+
+::: {.content-visible when-profile="english"}
+
+### Exercise: French Vegetable Nouns and Gender
+
+Practice the gender of French vegetable nouns and their articles.
+
+#### 1. Assign the correct definite article (*le/la/l'*) to each vegetable:
+
+\_\_\_ ail (garlic) 🧄 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'l\'')"><span></span>
+
+\_\_\_ carotte (carrot) 🥕 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'la')"><span></span>
+
+\_\_\_ brocoli (broccoli) 🥦 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'le')"><span></span>
+
+\_\_\_ courgette (zucchini) 🥒 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'la')"><span></span>
+
+\_\_\_ champignon (mushroom) 🍄 → <input type="text" placeholder="le/la/l'/les" oninput="checkAnswer(this, 'le')"><span></span>
+
+\_\_\_ épinards (spinach) 🍃 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'les')"><span></span>[(plural!)]{style="margin-left:10px;"}
+
+\_\_\_ oignon (onion) 🧅 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'l\'')"><span></span>
+
+\_\_\_ pomme de terre (potato) 🥔 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'la')"><span></span>
+
+#### 2. Match the French term to its English equivalent:
+
+**"l’artichaut"** 🥬 → <input type="text" placeholder="English" oninput="checkAnswer(this, 'artichoke')"><span></span>
+
+**"le chou-fleur"** 🥦 → <input type="text" placeholder="English" oninput="checkAnswer(this, 'cauliflower')"><span></span>
+
+**"la betterave"** 🍠 → <input type="text" placeholder="English" oninput="checkAnswer(this, 'beet')"><span></span>
+
+**"les haricots verts"** 🫘 → <input type="text" placeholder="English" oninput="checkAnswer(this, 'green beans')"><span></span>
+
+#### 3. Fill in the blanks with the correct term:
+"\_\_\_ (The cucumber) est frais." 🥒 → <input type="text" placeholder="French" oninput="checkAnswer(this, 'le concombre')"><span></span>
+
+"J’achète \_\_\_ (tomatoes) au marché." 🍅 → <input type="text" placeholder="French" oninput="checkAnswer(this, 'des tomates')"><span></span>
+
+"\_\_\_ (The beet) est rouge." 🍠 → <input type="text" placeholder="French" oninput="checkAnswer(this, 'la betterave')"><span></span>
+
+"Nous cuisinons \_\_\_ (spinach) ce soir." 🍃 → <input type="text" placeholder="French" oninput="checkAnswer(this, 'des épinards')"><span></span>
+
+"Elle préfère \_\_\_ (the mushroom)." 🍄 → <input type="text" placeholder="French" oninput="checkAnswer(this, 'le champignon')"><span></span>
+
+"\_\_\_ (The carrot) est orange." 🥕 → <input type="text" placeholder="French" oninput="checkAnswer(this, 'la carotte')"><span></span>
+
+"Il coupe \_\_\_ (the onion)." 🧅 → <input type="text" placeholder="French" oninput="checkAnswer(this, 'l\'oignon')"><span></span>
+
+"Nous mangeons \_\_\_ (potatoes) avec du poulet." 🥔 → <input type="text" placeholder="French" oninput="checkAnswer(this, 'des pommes de terre')"><span></span>
+
+"Tu ajoutes \_\_\_ (the garlic) à la sauce." 🧄 → <input type="text" placeholder="French" oninput="checkAnswer(this, 'l\'ail')"><span></span>
+
+"Elles aiment \_\_\_ (green beans)." 🫘 → <input type="text" placeholder="French" oninput="checkAnswer(this, 'les haricots verts')"><span></span>
+
+#### 4. Correct the errors in gender/number:
+
+"Un courgette" 🥒 → <input type="text" placeholder="Correct phrase" oninput="checkAnswer(this, 'une courgette')"><span></span>
+
+"La maïs" 🌽 → <input type="text" placeholder="Correct phrase" oninput="checkAnswer(this, 'le maïs')"><span></span>
+
+"Des haricot" 🫘 → <input type="text" placeholder="Correct phrase" oninput="checkAnswer(this, 'des haricots')"><span></span>
+
+<button onclick="showAnswers()">Show All Answers</button>
+<button onclick="refreshPage()">Refresh Page</button>
+
+<script>
+function checkAnswer(input, correctAnswer) {
+    const span = input.nextElementSibling;
+    if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
+        span.textContent = "✓ Correct";
+        span.style.color = "green";
+    } else {
+        span.textContent = "";
+    }
+}
+
+function showAnswers() {
+    document.querySelectorAll('input[type="text"]').forEach(el => {
+        const correct = el.getAttribute('oninput')?.match(/'([^']+)'/)?.[1];
+        if (correct) {
+            const span = el.nextElementSibling;
+            span.textContent = `Réponse : ${correct}`;
+            span.style.color = "blue";
+        }
+    });
+}
+
+function refreshPage() {
+    location.reload();
+}
+</script>
+
+
+#### 5. Translate into French (include articles!):
+
+"We eat tofu with vegetables."\
+
+
+<textarea placeholder="Nous mangeons..." rows="2" cols="50" oninput="checkTranslation(this, 'Nous mangeons du tofu avec des légumes')"></textarea>
+
+
+"The salad has cucumber and tomatoes."\
+
+
+<textarea placeholder="La salade a..." rows="2" cols="50" oninput="checkTranslation(this, 'La salade a du concombre et des tomates')"></textarea>
+
+---
+
+### Notes:
+
+-   **Gender hints**: Most vegetables ending in *-e* are feminine (*la courgette*), but exceptions exist (*le gingembre*).\
+-   **Plural alert**: *Épinards* (spinach) and *haricots verts* (green beans) are always plural. Other examples include *les choux de Bruxelles* (Brussels sprouts) and *les radis* (radishes).
+:::
+
+::: {.content-visible when-profile="french"}
+
+### Exercice : Noms de légumes en français et leur genre
+
+Entraînez-vous à utiliser le bon article défini (*le/la/l'*) avec les noms de légumes en français.
+
+#### 1. Attribuez l’article défini correct (*le/la/l'*) à chaque légume :
+
+\_\_\_ ail (garlic) 🧄 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'l\'')"><span></span>
+
+\_\_\_ carotte (carotte) 🥕 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'la')"><span></span>
+
+\_\_\_ brocoli (brocoli) 🥦 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'le')"><span></span>
+
+\_\_\_ courgette (courgette) 🥒 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'la')"><span></span>
+
+\_\_\_ champignon (champignon) 🍄 → <input type="text" placeholder="le/la/l'/les" oninput="checkAnswer(this, 'le')"><span></span>
+
+\_\_\_ épinards (épinards) 🍃 → <input type="text" placeholder="le/la/l'/les" oninput="checkAnswer(this, 'les')"><span></span>[(pluriel!)]{style="margin-left:10px;"}
+
+\_\_\_ oignon (oignon) 🧅 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'l\'')"><span></span>
+
+\_\_\_ pomme de terre (pomme de terre) 🥔 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'la')"><span></span>
+
+#### 2. Associez le terme français à son équivalent anglais :
+
+**"l’artichaut"** 🥬 → <input type="text" placeholder="Anglais" oninput="checkAnswer(this, 'artichoke')"><span></span>
+
+**"le chou-fleur"** 🥦 → <input type="text" placeholder="Anglais" oninput="checkAnswer(this, 'cauliflower')"><span></span>
+
+**"la betterave"** 🍠 → <input type="text" placeholder="Anglais" oninput="checkAnswer(this, 'beet')"><span></span>
+
+**"les haricots verts"** 🫘 → <input type="text" placeholder="Anglais" oninput="checkAnswer(this, 'green beans')"><span></span>
+
+#### 3. Complétez avec le terme correct :
+
+"\_\_\_ (L’asperge) est verte." 🥗 → <input type="text" placeholder="Français" oninput="checkAnswer(this, 'l\'')"><span></span>
+
+"Je déteste \_\_\_ (les choux de Bruxelles)." 🥬 → <input type="text" placeholder="Français" oninput="checkAnswer(this, 'les choux de Bruxelles')"><span></span>
+
+"\_\_\_ (Les radis) sont piquants." 🌶️ → <input type="text" placeholder="Français" oninput="checkAnswer(this, 'les radis')"><span></span>
+
+#### 4. Corrigez les erreurs de genre ou de nombre :
+
+"Un courgette" 🥒 → <input type="text" placeholder="Phrase correcte" oninput="checkAnswer(this, 'une courgette')"><span></span>
+
+"La maïs" 🌽 → <input type="text" placeholder="Phrase correcte" oninput="checkAnswer(this, 'le maïs')"><span></span>
+
+"Des haricot" 🫘 → <input type="text" placeholder="Phrase correcte" oninput="checkAnswer(this, 'des haricots')"><span></span>
+
+<button onclick="afficherReponses()">Afficher toutes les réponses</button>
+
+<button onclick="rafraichirPage()">Rafraîchir la page</button>
+
+<script>
+function checkAnswer(input, correctAnswer) {
+    const span = input.nextElementSibling;
+    if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
+        span.textContent = "✓ Correct";
+        span.style.color = "green";
+    } else {
+        span.textContent = "";
+    }
+}
+
+function showAnswers() {
+    document.querySelectorAll('input[type="text"]').forEach(el => {
+        const correct = el.getAttribute('oninput')?.match(/'([^']+)'/)?.[1];
+        if (correct) {
+            const span = el.nextElementSibling;
+            span.textContent = `Réponse : ${correct}`;
+            span.style.color = "blue";
+        }
+    });
+}
+
+function refreshPage() {
+    location.reload();
+}
+</script>
+
+
+
+
+#### 5. Traduisez en français (avec les articles !) :
+
+"Nous mangeons du tofu avec des légumes."\
+
+<textarea placeholder="Nous mangeons..." rows="2" cols="50" oninput="verifierTraduction(this, 'Nous mangeons du tofu avec des légumes')"></textarea>
+
+"La salade a du concombre et des tomates."\
+
+
+<textarea placeholder="La salade a..." rows="2" cols="50" oninput="verifierTraduction(this, 'La salade a du concombre et des tomates')"></textarea>
+
+<button onclick="verifierToutesReponses()">Vérifier les réponses</button>
+
+
+------------------------------------------------------------------------
+
+### Notes :
+
+-   **Astuces de genre** : La plupart des légumes qui se terminent par *-e* sont féminins (*la courgette*), mais il y a des exceptions (*le gingembre*).\
+-   **Attention au pluriel** : *Épinards* (épinards) et *haricots verts* (haricots verts) sont toujours au pluriel. D’autres exemples : *les choux de Bruxelles* et *les radis*.
+
+:::

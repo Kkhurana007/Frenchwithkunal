@@ -1,0 +1,185 @@
+---
+title: "Exercises: Parts of the House Vocabulary & Gender"
+author: "Kunal Khurana"
+date: "16-06-2025"
+categories: [A2, vocabulary, house, exercises]
+image: "partsofhouse.png"
+---
+
+::: {.content-visible when-profile="english"}
+
+### Exercise: French House Parts Nouns and Gender
+
+Practice the gender of French house part nouns and their articles.
+
+#### 1. Assign the correct definite article (*le/la/l'*) to each part of the house:
+
+___ salon (living room) 🛋️ → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'le')"><span></span>
+
+___ cuisine (kitchen) 🍳 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'la')"><span></span>
+
+___ chambre (bedroom) 🛏️ → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'la')"><span></span>
+
+___ escalier (staircase) 🪜 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'l\'')"><span></span>
+
+___ salle de bains (bathroom) 🛁 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'la')"><span></span>
+
+___ jardin (garden) 🌳 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'le')"><span></span>
+
+___ porte (door) 🚪 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'la')"><span></span>
+
+___ fenêtre (window) 🪟 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'la')"><span></span>
+
+#### 2. Match the French term to its English equivalent:
+
+**"le grenier"** → <input type="text" placeholder="English" oninput="checkAnswer(this, 'attic')"><span></span>
+
+**"la cave"** → <input type="text" placeholder="English" oninput="checkAnswer(this, 'basement')"><span></span>
+
+**"le couloir"** → <input type="text" placeholder="English" oninput="checkAnswer(this, 'hallway')"><span></span>
+
+**"le garage"** → <input type="text" placeholder="English" oninput="checkAnswer(this, 'garage')"><span></span>
+
+#### 3. Fill in the blanks with the correct term:
+
+"Je vais dans ___ (the kitchen) pour cuisiner." → <input type="text" placeholder="French" oninput="checkAnswer(this, 'la cuisine')"><span></span>
+
+"___ (The living room) est grand." → <input type="text" placeholder="French" oninput="checkAnswer(this, 'le salon')"><span></span>
+
+"Où est ___ (the bathroom) ?" → <input type="text" placeholder="French" oninput="checkAnswer(this, 'la salle de bains')"><span></span>
+
+"Je monte par ___ (the staircase)." → <input type="text" placeholder="French" oninput="checkAnswer(this, 'l\'escalier')"><span></span>
+
+"Nous ouvrons ___ (the window) pour aérer la pièce." → <input type="text" placeholder="French" oninput="checkAnswer(this, 'la fenêtre')"><span></span>
+
+"Il y a des fleurs dans ___ (the garden)." → <input type="text" placeholder="French" oninput="checkAnswer(this, 'le jardin')"><span></span>
+
+"Ferme ___ (the door), s'il te plaît." → <input type="text" placeholder="French" oninput="checkAnswer(this, 'la porte')"><span></span>
+
+"Ma chambre est à côté de ___ (the hallway)." → <input type="text" placeholder="French" oninput="checkAnswer(this, 'le couloir')"><span></span>
+
+"Les vélos sont dans ___ (the garage)." → <input type="text" placeholder="French" oninput="checkAnswer(this, 'le garage')"><span></span>
+
+"Il y a du vin dans ___ (the basement)." → <input type="text" placeholder="French" oninput="checkAnswer(this, 'la cave')"><span></span>
+
+"Les vieux jouets sont dans ___ (the attic)." → <input type="text" placeholder="French" oninput="checkAnswer(this, 'le grenier')"><span></span>
+
+"Je prends une douche dans ___ (the bathroom)." → <input type="text" placeholder="French" oninput="checkAnswer(this, 'la salle de bains')"><span></span>
+
+"Nous dînons dans ___ (the kitchen)." → <input type="text" placeholder="French" oninput="checkAnswer(this, 'la cuisine')"><span></span>
+
+#### 4. Correct the errors in gender/number:
+
+"Un chambre" → <input type="text" placeholder="Correct phrase" oninput="checkAnswer(this, 'une chambre')"><span></span>
+
+"La jardin" → <input type="text" placeholder="Correct phrase" oninput="checkAnswer(this, 'le jardin')"><span></span>
+
+"Des fenêtre" → <input type="text" placeholder="Correct phrase" oninput="checkAnswer(this, 'des fenêtres')"><span></span>
+
+<button onclick="showAnswers()">Show All Answers</button>
+
+:::
+
+:::{.content-visible when-profile="french"}
+
+### Exercice : Noms des parties de la maison et leur genre
+
+Entraînez-vous à utiliser le genre des noms des parties de la maison en français et leurs articles.
+
+#### 1. Attribuez le bon article défini (*le/la/l'*) à chaque partie de la maison :
+
+___ salon 🛋️ → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'le')"><span></span>
+
+___ cuisine 🍳 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'la')"><span></span>
+
+___ chambre 🛏️ → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'la')"><span></span>
+
+___ escalier 🪜 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'l\'')"><span></span>
+
+___ salle de bains 🛁 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'la')"><span></span>
+
+___ jardin 🌳 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'le')"><span></span>
+
+___ porte 🚪 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'la')"><span></span>
+
+___ fenêtre 🪟 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'la')"><span></span>
+
+#### 2. Associez la partie de la maison à sa traduction en anglais :
+
+**"le grenier"** → <input type="text" placeholder="Anglais" oninput="checkAnswer(this, 'attic')"><span></span>
+
+**"la cave"** → <input type="text" placeholder="Anglais" oninput="checkAnswer(this, 'basement')"><span></span>
+
+**"le couloir"** → <input type="text" placeholder="Anglais" oninput="checkAnswer(this, 'hallway')"><span></span>
+
+**"le garage"** → <input type="text" placeholder="Anglais" oninput="checkAnswer(this, 'garage')"><span></span>
+
+#### 3. Complétez avec le bon terme :
+
+"Je vais dans ___ pour cuisiner." → <input type="text" placeholder="Français" oninput="checkAnswer(this, 'la cuisine')"><span></span>
+
+"___ est grand." → <input type="text" placeholder="Français" oninput="checkAnswer(this, 'le salon')"><span></span>
+
+"Où est ___ ?" → <input type="text" placeholder="Français" oninput="checkAnswer(this, 'la salle de bains')"><span></span>
+
+"Je monte par ___." → <input type="text" placeholder="Français" oninput="checkAnswer(this, 'l\'escalier')"><span></span>
+
+"Nous ouvrons ___ pour aérer la pièce." → <input type="text" placeholder="Français" oninput="checkAnswer(this, 'la fenêtre')"><span></span>
+
+"Il y a des fleurs dans ___." → <input type="text" placeholder="Français" oninput="checkAnswer(this, 'le jardin')"><span></span>
+
+"Ferme ___, s'il te plaît." → <input type="text" placeholder="Français" oninput="checkAnswer(this, 'la porte')"><span></span>
+
+"Ma chambre est à côté de ___." → <input type="text" placeholder="Français" oninput="checkAnswer(this, 'le couloir')"><span></span>
+
+"Les vélos sont dans ___." → <input type="text" placeholder="Français" oninput="checkAnswer(this, 'le garage')"><span></span>
+
+"Il y a du vin dans ___." → <input type="text" placeholder="Français" oninput="checkAnswer(this, 'la cave')"><span></span>
+
+"Les vieux jouets sont dans ___." → <input type="text" placeholder="Français" oninput="checkAnswer(this, 'le grenier')"><span></span>
+
+"Je prends une douche dans ___." → <input type="text" placeholder="Français" oninput="checkAnswer(this, 'la salle de bains')"><span></span>
+
+"Nous dînons dans ___." → <input type="text" placeholder="Français" oninput="checkAnswer(this, 'la cuisine')"><span></span>
+
+#### 4. Corrigez les erreurs de genre/nombre :
+
+"Un chambre" → <input type="text" placeholder="Phrase correcte" oninput="checkAnswer(this, 'une chambre')"><span></span>
+
+"La jardin" → <input type="text" placeholder="Phrase correcte" oninput="checkAnswer(this, 'le jardin')"><span></span>
+
+"Des fenêtre" → <input type="text" placeholder="Phrase correcte" oninput="checkAnswer(this, 'des fenêtres')"><span></span>
+
+<button onclick="showAnswers()">Afficher toutes les réponses</button>
+
+:::
+
+
+<script>
+function checkAnswer(input, correctAnswer) {
+    const span = input.nextElementSibling;
+    if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
+        span.textContent = "✓ Correct";
+        span.style.color = "green";
+    } else {
+        span.textContent = "";
+    }
+}
+
+function showAnswers() {
+    document.querySelectorAll('input[type="text"]').forEach(el => {
+        const correct = el.getAttribute('oninput')?.match(/'([^']+)'/)?.[1];
+        if (correct) {
+            const span = el.nextElementSibling;
+            span.textContent = `Réponse : ${correct}`;
+            span.style.color = "blue";
+        }
+    });
+}
+
+function refreshPage() {
+    location.reload();
+}
+</script>
+
+
