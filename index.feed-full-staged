@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>French with Kunal</title>
+<link>https://frenchwithkunal.ca/</link>
+<atom:link href="https://frenchwithkunal.ca/index.xml" rel="self" type="application/rss+xml"/>
+<description></description>
+<generator>quarto-1.6.40</generator>
+<lastBuildDate>Mon, 06 Apr 2026 04:00:00 GMT</lastBuildDate>
+<item>
+  <title>{B4F502887207:/vocabulary/16062025/lasalledebain.html}</title>
+  <dc:creator>Kunal Khurana</dc:creator>
+  <link>https://frenchwithkunal.ca/vocabulary/16062025/lasalledebain.html</link>
+  <description>{B4F502887207:/vocabulary/16062025/lasalledebain.html}</description>
+  <category>A1/A2</category>
+  <category>vocabulary</category>
+  <category>bathroom</category>
+  <category>exercises</category>
+  <guid>https://frenchwithkunal.ca/vocabulary/16062025/lasalledebain.html</guid>
+  <pubDate>Mon, 06 Apr 2026 04:00:00 GMT</pubDate>
+  <media:content url="https://frenchwithkunal.ca/vocabulary/16062025/lasalledebain.png" medium="image" type="image/png" height="155" width="144"/>
+</item>
+<item>
+  <title>{B4F502887207:/vocabulary/16062025/lachambre1.html}</title>
+  <dc:creator>Kunal Khurana</dc:creator>
+  <link>https://frenchwithkunal.ca/vocabulary/16062025/lachambre1.html</link>
+  <description>{B4F502887207:/vocabulary/16062025/lachambre1.html}</description>
+  <category>A2</category>
+  <category>vocabulary</category>
+  <category>bedroom</category>
+  <category>exercises</category>
+  <guid>https://frenchwithkunal.ca/vocabulary/16062025/lachambre1.html</guid>
+  <pubDate>Mon, 06 Apr 2026 04:00:00 GMT</pubDate>
+  <media:content url="https://frenchwithkunal.ca/vocabulary/16062025/lachambre.png" medium="image" type="image/png" height="113" width="144"/>
+</item>
+<item>
+  <title>{B4F502887207:/vocabulary/16062025/lacuisine.html}</title>
+  <dc:creator>Kunal Khurana</dc:creator>
+  <link>https://frenchwithkunal.ca/vocabulary/16062025/lacuisine.html</link>
+  <description>{B4F502887207:/vocabulary/16062025/lacuisine.html}</description>
+  <category>A2</category>
+  <category>vocabulary</category>
+  <category>kitchen</category>
+  <category>exercises</category>
+  <guid>https://frenchwithkunal.ca/vocabulary/16062025/lacuisine.html</guid>
+  <pubDate>Mon, 06 Apr 2026 04:00:00 GMT</pubDate>
+  <media:content url="https://frenchwithkunal.ca/vocabulary/16062025/lacuisine.png" medium="image" type="image/png" height="62" width="144"/>
+</item>
+<item>
+  <title>{B4F502887207:/vocabulary/16062025/partsofhouse.html}</title>
+  <dc:creator>Kunal Khurana</dc:creator>
+  <link>https://frenchwithkunal.ca/vocabulary/16062025/partsofhouse.html</link>
+  <description>{B4F502887207:/vocabulary/16062025/partsofhouse.html}</description>
+  <category>A2</category>
+  <category>vocabulary</category>
+  <category>house</category>
+  <category>exercises</category>
+  <guid>https://frenchwithkunal.ca/vocabulary/16062025/partsofhouse.html</guid>
+  <pubDate>Mon, 06 Apr 2026 04:00:00 GMT</pubDate>
+  <media:content url="https://frenchwithkunal.ca/vocabulary/16062025/partsofhouse.png" medium="image" type="image/png" height="159" width="144"/>
+</item>
+<item>
+  <title>{B4F502887207:/exercises/12062025/characterisation_choses.html}</title>
+  <dc:creator>Kunal Khurana</dc:creator>
+  <link>https://frenchwithkunal.ca/exercises/12062025/characterisation_choses.html</link>
+  <description>{B4F502887207:/exercises/12062025/characterisation_choses.html}</description>
+  <category>B1</category>
+  <category>grammar</category>
+  <category>adjectives</category>
+  <category>description</category>
+  <category>exercises</category>
+  <guid>https://frenchwithkunal.ca/exercises/12062025/characterisation_choses.html</guid>
+  <pubDate>Sun, 08 Jun 2025 04:00:00 GMT</pubDate>
+  <media:content url="https://frenchwithkunal.ca/exercises/12062025/characterisation.png" medium="image" type="image/png" height="127" width="144"/>
+</item>
+<item>
+  <title>{B4F502887207:/exercises/12062025/comparison.html}</title>
+  <dc:creator>Kunal Khurana</dc:creator>
+  <link>https://frenchwithkunal.ca/exercises/12062025/comparison.html</link>
+  <description>{B4F502887207:/exercises/12062025/comparison.html}</description>
+  <category>B1</category>
+  <category>grammar</category>
+  <category>comparatif</category>
+  <category>adjectives</category>
+  <category>comparison</category>
+  <category>exercises</category>
+  <guid>https://frenchwithkunal.ca/exercises/12062025/comparison.html</guid>
+  <pubDate>Sun, 08 Jun 2025 04:00:00 GMT</pubDate>
+  <media:content url="https://frenchwithkunal.ca/exercises/12062025/comparison.png" medium="image" type="image/png" height="44" width="144"/>
+</item>
+<item>
+  <title>{B4F502887207:/exercises/12062025/characterisation_personne.html}</title>
+  <dc:creator>Kunal Khurana</dc:creator>
+  <link>https://frenchwithkunal.ca/exercises/12062025/characterisation_personne.html</link>
+  <description>{B4F502887207:/exercises/12062025/characterisation_personne.html}</description>
+  <category>B1</category>
+  <category>grammar</category>
+  <category>adjectives</category>
+  <category>description</category>
+  <category>exercises</category>
+  <guid>https://frenchwithkunal.ca/exercises/12062025/characterisation_personne.html</guid>
+  <pubDate>Sun, 08 Jun 2025 04:00:00 GMT</pubDate>
+  <media:content url="https://frenchwithkunal.ca/exercises/12062025/characterisation_personne.png" medium="image" type="image/png" height="144" width="144"/>
+</item>
+<item>
+  <title>{B4F502887207:/exercises/08062025/idee_subordonee_posterior.html}</title>
+  <dc:creator>Kunal Khurana</dc:creator>
+  <link>https://frenchwithkunal.ca/exercises/08062025/idee_subordonee_posterior.html</link>
+  <description>{B4F502887207:/exercises/08062025/idee_subordonee_posterior.html}</description>
+  <category>B1</category>
+  <category>grammar</category>
+  <category>postériorité</category>
+  <category>subordonnée</category>
+  <category>temps</category>
+  <category>exercises</category>
+  <guid>https://frenchwithkunal.ca/exercises/08062025/idee_subordonee_posterior.html</guid>
+  <pubDate>Sun, 08 Jun 2025 04:00:00 GMT</pubDate>
+  <media:content url="https://frenchwithkunal.ca/exercises/08062025/posteriorite.png" medium="image" type="image/png" height="57" width="144"/>
+</item>
+<item>
+  <title>{B4F502887207:/exercises/08062025/idee_simultanite.html}</title>
+  <dc:creator>Kunal Khurana</dc:creator>
+  <link>https://frenchwithkunal.ca/exercises/08062025/idee_simultanite.html</link>
+  <description>{B4F502887207:/exercises/08062025/idee_simultanite.html}</description>
+  <category>B1</category>
+  <category>grammar</category>
+  <category>simultanéité</category>
+  <category>adverbes</category>
+  <category>temps</category>
+  <category>exercises</category>
+  <guid>https://frenchwithkunal.ca/exercises/08062025/idee_simultanite.html</guid>
+  <pubDate>Sun, 08 Jun 2025 04:00:00 GMT</pubDate>
+  <media:content url="https://frenchwithkunal.ca/exercises/08062025/simultaneite.png" medium="image" type="image/png" height="59" width="144"/>
+</item>
+<item>
+  <title>{B4F502887207:/exercises/08062025/idee_anteriorite.html}</title>
+  <dc:creator>Kunal Khurana</dc:creator>
+  <link>https://frenchwithkunal.ca/exercises/08062025/idee_anteriorite.html</link>
+  <description>{B4F502887207:/exercises/08062025/idee_anteriorite.html}</description>
+  <category>B1</category>
+  <category>grammar</category>
+  <category>antériorité</category>
+  <category>adverbes</category>
+  <category>temps</category>
+  <category>exercises</category>
+  <guid>https://frenchwithkunal.ca/exercises/08062025/idee_anteriorite.html</guid>
+  <pubDate>Sun, 08 Jun 2025 04:00:00 GMT</pubDate>
+  <media:content url="https://frenchwithkunal.ca/exercises/08062025/anteriorite.png" medium="image" type="image/png" height="54" width="144"/>
+</item>
+<item>
+  <title>{B4F502887207:/exercises/08062025/ideeduree.html}</title>
+  <dc:creator>Kunal Khurana</dc:creator>
+  <link>https://frenchwithkunal.ca/exercises/08062025/ideeduree.html</link>
+  <description>{B4F502887207:/exercises/08062025/ideeduree.html}</description>
+  <category>B1</category>
+  <category>grammar</category>
+  <category>adverbes</category>
+  <category>temps</category>
+  <category>exercises</category>
+  <guid>https://frenchwithkunal.ca/exercises/08062025/ideeduree.html</guid>
+  <pubDate>Sun, 08 Jun 2025 04:00:00 GMT</pubDate>
+  <media:content url="https://frenchwithkunal.ca/exercises/08062025/duree.png" medium="image" type="image/png" height="85" width="144"/>
+</item>
+<item>
+  <title>{B4F502887207:/exercises/08062025/idee_frequence.html}</title>
+  <dc:creator>Kunal Khurana</dc:creator>
+  <link>https://frenchwithkunal.ca/exercises/08062025/idee_frequence.html</link>
+  <description>{B4F502887207:/exercises/08062025/idee_frequence.html}</description>
+  <category>B1</category>
+  <category>grammar</category>
+  <category>adverbes</category>
+  <category>fréquence</category>
+  <category>habitudes</category>
+  <category>exercises</category>
+  <guid>https://frenchwithkunal.ca/exercises/08062025/idee_frequence.html</guid>
+  <pubDate>Sun, 08 Jun 2025 04:00:00 GMT</pubDate>
+  <media:content url="https://frenchwithkunal.ca/exercises/08062025/frequence.png" medium="image" type="image/png" height="169" width="144"/>
+</item>
+<item>
+  <title>{B4F502887207:/exercises/08062025/fractions.html}</title>
+  <dc:creator>Kunal Khurana</dc:creator>
+  <link>https://frenchwithkunal.ca/exercises/08062025/fractions.html</link>
+  <description>{B4F502887207:/exercises/08062025/fractions.html}</description>
+  <category>B1</category>
+  <category>grammar</category>
+  <category>fractions</category>
+  <category>pourcentages</category>
+  <category>exercises</category>
+  <guid>https://frenchwithkunal.ca/exercises/08062025/fractions.html</guid>
+  <pubDate>Sun, 08 Jun 2025 04:00:00 GMT</pubDate>
+  <media:content url="https://frenchwithkunal.ca/exercises/08062025/fractions.png" medium="image" type="image/png" height="129" width="144"/>
+</item>
+<item>
+  <title>{B4F502887207:/exercises/12062025/mots_measurer.html}</title>
+  <dc:creator>Kunal Khurana</dc:creator>
+  <link>https://frenchwithkunal.ca/exercises/12062025/mots_measurer.html</link>
+  <description>{B4F502887207:/exercises/12062025/mots_measurer.html}</description>
+  <category>B1</category>
+  <category>grammar</category>
+  <category>quantifiers</category>
+  <category>measuring</category>
+  <category>exercises</category>
+  <guid>https://frenchwithkunal.ca/exercises/12062025/mots_measurer.html</guid>
+  <pubDate>Sun, 08 Jun 2025 04:00:00 GMT</pubDate>
+  <media:content url="https://frenchwithkunal.ca/exercises/12062025/measuring.png" medium="image" type="image/png" height="134" width="144"/>
+</item>
+<item>
+  <title>{B4F502887207:/exercises/08062025/idee_frequence2.html}</title>
+  <dc:creator>Kunal Khurana</dc:creator>
+  <link>https://frenchwithkunal.ca/exercises/08062025/idee_frequence2.html</link>
+  <description>{B4F502887207:/exercises/08062025/idee_frequence2.html}</description>
+  <category>A1</category>
+  <category>grammar</category>
+  <category>prépositions</category>
+  <category>localisation</category>
+  <category>directions</category>
+  <category>exercises</category>
+  <guid>https://frenchwithkunal.ca/exercises/08062025/idee_frequence2.html</guid>
+  <pubDate>Sun, 08 Jun 2025 04:00:00 GMT</pubDate>
+  <media:content url="https://frenchwithkunal.ca/exercises/08062025/localisation.png" medium="image" type="image/png" height="90" width="144"/>
+</item>
+<item>
+  <title>{B4F502887207:/exercises/10062025/ideelieu.html}</title>
+  <dc:creator>Kunal Khurana</dc:creator>
+  <link>https://frenchwithkunal.ca/exercises/10062025/ideelieu.html</link>
+  <description>{B4F502887207:/exercises/10062025/ideelieu.html}</description>
+  <category>B1</category>
+  <category>grammar</category>
+  <category>prépositions</category>
+  <category>lieux</category>
+  <category>exercises</category>
+  <guid>https://frenchwithkunal.ca/exercises/10062025/ideelieu.html</guid>
+  <pubDate>Sun, 08 Jun 2025 04:00:00 GMT</pubDate>
+  <media:content url="https://frenchwithkunal.ca/exercises/10062025/lieux.png" medium="image" type="image/png" height="112" width="144"/>
+</item>
+<item>
+  <title>{B4F502887207:/exercises/08062025/ideedutemps.html}</title>
+  <dc:creator>Kunal Khurana</dc:creator>
+  <link>https://frenchwithkunal.ca/exercises/08062025/ideedutemps.html</link>
+  <description>{B4F502887207:/exercises/08062025/ideedutemps.html}</description>
+  <category>B1</category>
+  <category>grammar</category>
+  <category>adverbes</category>
+  <category>temps</category>
+  <category>exercises</category>
+  <guid>https://frenchwithkunal.ca/exercises/08062025/ideedutemps.html</guid>
+  <pubDate>Sat, 31 May 2025 04:00:00 GMT</pubDate>
+  <media:content url="https://frenchwithkunal.ca/exercises/08062025/moment.png" medium="image" type="image/png" height="74" width="144"/>
+</item>
+<item>
+  <title>{B4F502887207:/exercises/31052025/interrogarion_partille.html}</title>
+  <dc:creator>Kunal Khurana</dc:creator>
+  <link>https://frenchwithkunal.ca/exercises/31052025/interrogarion_partille.html</link>
+  <description>{B4F502887207:/exercises/31052025/interrogarion_partille.html}</description>
+  <category>A2</category>
+  <category>grammar</category>
+  <category>interrogative</category>
+  <category>exercises</category>
+  <guid>https://frenchwithkunal.ca/exercises/31052025/interrogarion_partille.html</guid>
+  <pubDate>Sat, 31 May 2025 04:00:00 GMT</pubDate>
+  <media:content url="https://frenchwithkunal.ca/exercises/31052025/interrogative2.png" medium="image" type="image/png" height="155" width="144"/>
+</item>
+<item>
+  <title>{B4F502887207:/exercises/31052025/interrogative.html}</title>
+  <dc:creator>Kunal Khurana</dc:creator>
+  <link>https://frenchwithkunal.ca/exercises/31052025/interrogative.html</link>
+  <description>{B4F502887207:/exercises/31052025/interrogative.html}</description>
+  <category>A2</category>
+  <category>grammar</category>
+  <category>interrogative</category>
+  <category>exercises</category>
+  <guid>https://frenchwithkunal.ca/exercises/31052025/interrogative.html</guid>
+  <pubDate>Sat, 31 May 2025 04:00:00 GMT</pubDate>
+  <media:content url="https://frenchwithkunal.ca/exercises/31052025/interrogative3.png" medium="image" type="image/png" height="57" width="144"/>
+</item>
+<item>
+  <title>{B4F502887207:/exercises/31052025/autres_interrogation.html}</title>
+  <dc:creator>Kunal Khurana</dc:creator>
+  <link>https://frenchwithkunal.ca/exercises/31052025/autres_interrogation.html</link>
+  <description>{B4F502887207:/exercises/31052025/autres_interrogation.html}</description>
+  <category>A2</category>
+  <category>grammar</category>
+  <category>interrogative</category>
+  <category>exercises</category>
+  <guid>https://frenchwithkunal.ca/exercises/31052025/autres_interrogation.html</guid>
+  <pubDate>Sat, 31 May 2025 04:00:00 GMT</pubDate>
+  <media:content url="https://frenchwithkunal.ca/exercises/31052025/interrogative.png" medium="image" type="image/png" height="103" width="144"/>
+</item>
+</channel>
+</rss>
