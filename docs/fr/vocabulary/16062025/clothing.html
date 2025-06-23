@@ -319,16 +319,34 @@ ul.task-list li input[type="checkbox"] {
 <button onclick="showAnswers()">
 <p>Afficher toutes les réponses</p>
 </button>
-<script>  
-function showAnswers() {  
-    document.querySelectorAll('input[type="text"]').forEach(input => {  
-        const correct = input.getAttribute('oninput').match(/'([^']+)'/)[1];  
-        input.value = correct;  
-        const feedback = input.nextElementSibling;  
-        feedback.textContent = "✓ Correct!";  
-        feedback.style.color = "green";  
-    });  
-}  
+<button onclick="giveFeedback()">
+Check My Work
+</button>
+<script>
+function checkAnswer(input, correctAnswer) {
+        const span = input.nextElementSibling;
+        if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
+                span.textContent = "✓ Correct";
+                span.style.color = "green";
+        } else {
+                span.textContent = "";
+        }
+}
+
+function showAnswers() {
+        document.querySelectorAll('input[type="text"]').forEach(el => {
+                const correct = el.getAttribute('oninput')?.match(/'([^']+)'/)?.[1];
+                if (correct) {
+                        const span = el.nextElementSibling;
+                        span.textContent = `Réponse : ${correct}`;
+                        span.style.color = "blue";
+                }
+        });
+}
+
+function refreshPage() {
+        location.reload();
+}
 </script>
 </section>
 <section id="traduisez-en-français-avec-les-articles" class="level4">
@@ -338,43 +356,8 @@ function showAnswers() {
 <p>“I need new shoes.”</p>
 <textarea placeholder="J’ai besoin..." rows="2" cols="50" oninput="checkTranslation(this, 'J’ai besoin de nouvelles chaussures.')"></textarea>
 <button onclick="checkAllAnswers()">
-<p>Vérifier les réponses</p>
+Vérifier les réponses
 </button>
-<script>  
-function checkAnswer(input, correctAnswer) {  
-    const feedback = input.nextElementSibling;  
-    if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {  
-        feedback.textContent = "✓ Correct!";  
-        feedback.style.color = "green";  
-    } else if (input.value.trim()) {  
-        feedback.textContent = "✗ Try again!";  
-        feedback.style.color = "red";  
-    }  
-}  
-
-function checkAllAnswers() {  
-    document.querySelectorAll('input[type="text"]').forEach(input => {  
-        const correct = input.getAttribute('oninput').match(/'([^']+)'/)[1];  
-        checkAnswer(input, correct);  
-    });  
-
-    document.querySelectorAll('textarea').forEach(textarea => {  
-        const correct = textarea.getAttribute('oninput').match(/'([^']+)'/)[1];  
-        checkTranslation(textarea, correct);  
-    });  
-}  
-
-function checkTranslation(textarea, correctAnswer) {  
-    const feedback = textarea.nextElementSibling;  
-    if (textarea.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {  
-        feedback.textContent = "✓ Correct!";  
-        feedback.style.color = "green";  
-    } else if (textarea.value.trim()) {  
-        feedback.textContent = "✗ Try again!";  
-        feedback.style.color = "red";  
-    }  
-}  
-</script>
 
 
 </section>

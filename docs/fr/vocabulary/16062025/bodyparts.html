@@ -294,9 +294,9 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 <p><strong>Instructions :</strong><br>
 Associez chaque mot à son numéro sur l’image ci-dessous :<br>
-1. <input type="text" placeholder="Mot français" oninput="verifierPartieCorps(this, 'la tête')"> (tête)<br>
-2. <input type="text" placeholder="Mot français" oninput="verifierPartieCorps(this, 'les yeux')"> (yeux)<br>
-3. <input type="text" placeholder="Mot français" oninput="verifierPartieCorps(this, 'le nez')"> (nez)<br>
+1. <input type="text" placeholder="Mot français" oninput="checkAnswer(this, 'la tête')"> (tête)<br>
+2. <input type="text" placeholder="Mot français" oninput="checkAnswer(this, 'les yeux')"> (yeux)<br>
+3. <input type="text" placeholder="Mot français" oninput="checkAnswer(this, 'le nez')"> (nez)<br>
 … <em>(ajoutez-en d’autres si besoin)</em></p>
 <p><em>(Remarque : dans une vraie activité, vous ajouteriez une image avec les parties numérotées.)</em></p>
 <hr>
@@ -304,28 +304,29 @@ Associez chaque mot à son numéro sur l’image ci-dessous :<br>
 <section id="complétez-les-phrases" class="level3">
 <h3 class="anchored" data-anchor-id="complétez-les-phrases">2. Complétez les phrases</h3>
 <p>Complétez avec la bonne partie du corps en français :<br>
-- Je vois avec <input type="text" placeholder="?" oninput="verifierReponse(this, 'les yeux')">.<br>
-- J’écoute avec <input type="text" placeholder="?" oninput="verifierReponse(this, 'les oreilles')">.<br>
-- Je marche avec <input type="text" placeholder="?" oninput="verifierReponse(this, 'les pieds')">.</p>
+- Je vois avec <input type="text" placeholder="?" oninput="checkAnswer(this, 'les yeux')">.<br>
+- J’écoute avec <input type="text" placeholder="?" oninput="checkAnswer(this, 'les oreilles')">.<br>
+- Je marche avec <input type="text" placeholder="?" oninput="checkAnswer(this, 'les pieds')">.</p>
 <hr>
 </section>
 <section id="singulier-ou-pluriel" class="level3">
 <h3 class="anchored" data-anchor-id="singulier-ou-pluriel">3. Singulier ou pluriel ?</h3>
 <p>Écrivez le pluriel de ces parties du corps (la plupart vont par deux !) :<br>
-- <em>la main</em> → <input type="text" placeholder="?" oninput="verifierReponse(this, 'les mains')"><br>
-- <em>le pied</em> → <input type="text" placeholder="?" oninput="verifierReponse(this, 'les pieds')"><br>
-- <em>l’œil</em> → <input type="text" placeholder="?" oninput="verifierReponse(this, 'les yeux')"> <em>(irrégulier !)</em></p>
+- <em>la main</em> → <input type="text" placeholder="?" oninput="checkAnswer(this, 'les mains')"><br>
+- <em>le pied</em> → <input type="text" placeholder="?" oninput="checkAnswer(this, 'les pieds')"><br>
+- <em>l’œil</em> → <input type="text" placeholder="?" oninput="checkAnswer(this, 'les yeux')"> <em>(irrégulier !)</em></p>
+<button onclick="donnerRetour()">
+Vérifier
+</button>
 <hr>
 </section>
 <section id="défi-créatif" class="level3">
 <h3 class="anchored" data-anchor-id="défi-créatif">4. Défi créatif ✍️</h3>
 <p><strong>Décrivez un monstre en français !</strong> Utilisez au moins 5 parties du corps et des adjectifs :<br>
 Exemple : <em>« Mon monstre a trois yeux, une grande bouche et de longues jambes. »</em></p>
-<textarea placeholder="Écrivez ici..." rows="4" cols="50"></textarea>
-<button onclick="donnerRetour()">
-Vérifier
-</button>
+<textarea placeholder="Écrivez ici..." rows="4" cols="100"></textarea>
 <script>
+
 function checkAnswer(input, correctAnswer) {
         const span = input.nextElementSibling;
         if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {

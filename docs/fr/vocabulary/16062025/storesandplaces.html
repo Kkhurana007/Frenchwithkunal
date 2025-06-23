@@ -73,11 +73,13 @@ ul.task-list li input[type="checkbox"] {
 
 
 <meta property="og:title" content="Exercises: Stores &amp; Places Vocabulary – Français avec Kunal">
+<meta property="og:description" content="">
 <meta property="og:image" content="https://frenchwithkunal.ca/vocabulary/16062025/places.png">
 <meta property="og:site_name" content="Français avec Kunal">
 <meta property="og:image:height" content="531">
 <meta property="og:image:width" content="577">
 <meta name="twitter:title" content="Exercises: Stores &amp; Places Vocabulary – Français avec Kunal">
+<meta name="twitter:description" content="">
 <meta name="twitter:image" content="https://frenchwithkunal.ca/vocabulary/16062025/places.png">
 <meta name="twitter:image-height" content="531">
 <meta name="twitter:image-width" content="577">
@@ -282,8 +284,85 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<section id="exercice-lieux-en-français-et-leur-genre" class="level3">
+<h3 class="anchored" data-anchor-id="exercice-lieux-en-français-et-leur-genre">Exercice : Lieux en français et leur genre</h3>
+<p>Entraînez-vous à utiliser le bon article avec les noms de lieux en français.</p>
+<section id="attribuez-le-bon-article-défini-lelal-à-chaque-lieu" class="level4">
+<h4 class="anchored" data-anchor-id="attribuez-le-bon-article-défini-lelal-à-chaque-lieu">1. Attribuez le bon article défini (<em>le/la/l’</em>) à chaque lieu :</h4>
+<p>___ aéroport (airport) ✈️ → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'l\'')"><span></span></p>
+<p>___ bibliothèque (bibliothèque) 📚 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'la')"><span></span></p>
+<p>___ hôpital (hôpital) 🏥 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'l\'')"><span></span></p>
+<p>___ parc (parc) 🌳 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'le')"><span></span></p>
+<p>___ plage (plage) 🏖️ → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'la')"><span></span></p>
+<p>___ université (université) 🎓 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'l\'')"><span></span></p>
+<p>___ centre commercial (centre commercial) 🛍️ → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'le')"><span></span></p>
+<p>___ poste (poste) 📮 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'la')"><span></span></p>
+<p>___ musée (musée) 🖼️ → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'le')"><span></span></p>
+<p>___ piscine (piscine) 🏊 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'la')"><span></span></p>
+</section>
+<section id="réécrivez-avec-le-bon-article-indéfini-ununedes" class="level4">
+<h4 class="anchored" data-anchor-id="réécrivez-avec-le-bon-article-indéfini-ununedes">2. Réécrivez avec le bon article indéfini (<em>un/une/des</em>) :</h4>
+<p>___ café (café) ☕ → <input type="text" placeholder="un/une" oninput="checkAnswer(this, 'un')"><span></span></p>
+<p>___ épicerie (épicerie) 🛒 → <input type="text" placeholder="un/une" oninput="checkAnswer(this, 'une')"><span></span></p>
+<p>___ magasins (magasins) 🏬 → <input type="text" placeholder="un/une/des" oninput="checkAnswer(this, 'des')"><span></span></p>
+<p>___ boulangerie (boulangerie) 🥖 → <input type="text" placeholder="un/une" oninput="checkAnswer(this, 'une')"><span></span></p>
+<p>___ stade (stade) ⚽ → <input type="text" placeholder="un/une" oninput="checkAnswer(this, 'un')"><span></span></p>
+<p>___ pharmacie (pharmacie) 💊 → <input type="text" placeholder="un/une" oninput="checkAnswer(this, 'une')"><span></span></p>
+<p>___ cinéma (cinéma) 🎬 → <input type="text" placeholder="un/une" oninput="checkAnswer(this, 'un')"><span></span></p>
+</section>
+<section id="corrigez-les-erreurs-de-genrenombre" class="level4">
+<h4 class="anchored" data-anchor-id="corrigez-les-erreurs-de-genrenombre">3. Corrigez les erreurs de genre/nombre :</h4>
+<p>“La musée” → <input type="text" placeholder="Phrase correcte" oninput="checkAnswer(this, 'le musée')"><span></span></p>
+<p>“Un bibliothèque” → <input type="text" placeholder="Phrase correcte" oninput="checkAnswer(this, 'une bibliothèque')"><span></span></p>
+<p>“Des église” → <input type="text" placeholder="Phrase correcte" oninput="checkAnswer(this, 'des églises')"><span></span></p>
+<p>“La parc” → <input type="text" placeholder="Phrase correcte" oninput="checkAnswer(this, 'le parc')"><span></span></p>
+<p>“Une hôpital” → <input type="text" placeholder="Phrase correcte" oninput="checkAnswer(this, 'un hôpital')"><span></span></p>
+<button onclick="checkAnswer()">
+Vérifier les réponses
+</button>
+<button onclick="refreshPage()">
+Rafraîchir
+</button>
+<script>
+function checkAnswer(input, correctAnswer) {
+    const span = input.nextElementSibling;
+    if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
+        span.textContent = "✓ Correct";
+        span.style.color = "green";
+    } else {
+        span.textContent = "";
+    }
+}
+
+// New function to check all answers at once
+function checkAllAnswers() {
+    document.querySelectorAll('input[type="text"]').forEach(el => {
+        const correct = el.getAttribute('oninput')?.match(/'([^']+)'/)?.[1];
+        if (correct) {
+            checkAnswer(el, correct);
+        }
+    });
+}
+
+function showAnswers() {
+    document.querySelectorAll('input[type="text"]').forEach(el => {
+        const correct = el.getAttribute('oninput')?.match(/'([^']+)'/)?.[1];
+        if (correct) {
+            const span = el.nextElementSibling;
+            span.textContent = `Réponse : ${correct}`;
+            span.style.color = "blue";
+        }
+    });
+}
+
+function refreshPage() {
+    location.reload();
+}
+</script>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

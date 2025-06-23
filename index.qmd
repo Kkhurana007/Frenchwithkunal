@@ -108,7 +108,7 @@ format:
           </style>
 ---
 
-::::::::::::::: {.content-visible when-profile="english"}
+::::::::::::::::::::::: {.content-visible when-profile="english"}
 ::: language-switcher
 <button class="language-btn" onclick="window.quartoToggleProfile(&#39;french&#39;)">
 
@@ -129,7 +129,7 @@ Français
 
 ## 🎯 Your French Learning Toolkit {#cards-en}
 
-::::::::::: card-container
+::::::::::::::::::: card-container
 :::: card
 <i class="floating-icon fas fa-pen-fancy"></i>
 
@@ -176,9 +176,7 @@ Stuck on subjunctive at 2am? Our WhatsApp support has you covered (oui, even on 
 :::
 
 [Get Help →](/contact.html){.btn}
-
 ::::
-
 
 :::: card
 <i class="floating-icon fas fa-lightbulb"></i>
@@ -190,8 +188,7 @@ Curious about your French skills? Try our interactive AI quiz! Instantly discove
 :::
 
 [Take the Quiz →](/quiz.html){.btn}
-
-:::: 
+::::
 
 :::: card
 <i class="floating-icon fas fa-video"></i>
@@ -203,11 +200,9 @@ Access a library of engaging recorded French lessons. Learn at your own pace, an
 :::
 
 [Watch Lectures →](/posts.html){.btn}
-
 ::::
 
 :::: card
-
 <i class="floating-icon fas fa-pencil-alt"></i>
 
 ::: card-content
@@ -217,7 +212,6 @@ Practice what you learn with quizzes, exercises, and real-life scenarios to boos
 :::
 
 [Try Exercises →](/exercises.html){.btn}
-
 ::::
 
 :::: card
@@ -230,10 +224,8 @@ Explore our structured curriculum designed to take you from beginner to fluent, 
 :::
 
 [View Curriculum →](/curriculum.html){.btn}
-:::: 
-
-
-:::::::::::
+::::
+:::::::::::::::::::
 
 ## 🗣️ Success Stories {.testimonials}
 
@@ -323,9 +315,9 @@ document.getElementById('subscribeForm').addEventListener('submit', async functi
 **Limited spots available** - Join 1,200+ students who've unlocked their French potential!
 
 [Enroll Now](/payment.html){.btn} [Free Trial Lesson](/contact.html){.btn}
-:::::::::::::::
+:::::::::::::::::::::::
 
-::::::::::::::: {.content-visible when-profile="french"}
+::::::::::::::::::::::: {.content-visible when-profile="french"}
 ::: language-switcher
 <button class="language-btn" onclick="window.quartoToggleProfile(&#39;english&#39;)">
 
@@ -346,7 +338,7 @@ English
 
 ## 🎯 Votre boîte à outils {#cards}
 
-::::::::::: card-container
+::::::::::::::::::: card-container
 :::: card
 <i class="floating-icon fas fa-pen-fancy"></i>
 
@@ -405,8 +397,7 @@ Curieux de connaître votre niveau de français ? Essayez notre quiz interactif 
 :::
 
 [Passer le quiz →](/quiz.html){.btn}
-
-:::: 
+::::
 
 :::: card
 <i class="floating-icon fas fa-video"></i>
@@ -418,11 +409,9 @@ Accédez à une bibliothèque de leçons de français captivantes en vidéo. App
 :::
 
 [Voir les cours →](/posts.html){.btn}
-
 ::::
 
 :::: card
-
 <i class="floating-icon fas fa-pencil-alt"></i>
 
 ::: card-content
@@ -432,7 +421,6 @@ Entraînez-vous avec des quiz, des exercices et des mises en situation pour gagn
 :::
 
 [Essayer les exercices →](/exercises.html){.btn}
-
 ::::
 
 :::: card
@@ -445,8 +433,8 @@ Découvrez notre programme structuré pour passer de débutant à fluent, étape
 :::
 
 [Voir le programme →](/curriculum.html){.btn}
-:::: 
-:::::::::::
+::::
+:::::::::::::::::::
 
 ## 🗣️ Témoignages {.testimonials}
 
@@ -534,4 +522,4 @@ document.getElementById('subscribeFormFr').addEventListener('submit', async func
 **Places limitées** - Rejoignez 1 200+ étudiants qui ont débloqué leur potentiel en français !
 
 [S'inscrire maintenant](/payment.html){.btn} [Leçon d'essai gratuite](/contact.html){.btn}
-:::::::::::::::
+:::::::::::::::::::::::

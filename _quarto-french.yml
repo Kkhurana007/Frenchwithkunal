@@ -12,20 +12,20 @@ website:
   site-url: "https://frenchwithkunal.ca"
   open-graph: true
   twitter-card: true
-
-  announcement: 
-    icon: info-circle
-    dismissable: true
-    content: >
-      **🎉 Bonne nouvelle !**  
-      Rejoignez notre *Communauté d'apprentissage du français* et profitez d'une **classe d'essai GRATUITE** !  
-       📘 Découvrez des **ressources exclusives** [comme celle-ci](https://frenchwithkunal.ca/fr/posts/28042025/conver2.html) pour accélérer votre apprentissage :  
-        - **Conseils de grammaire** pour maîtriser les bases et les subtilités.  
-        - **Exercices d'écoute** pour améliorer votre compréhension orale.  
-        - **Activités interactives** pour rendre l'apprentissage amusant et efficace !  
-      👉 Rendez-vous sur la page [Abonnement](https://frenchwithkunal.ca/fr/payment.html) pour en savoir plus.
-    type: success
-    position: below-navbar
+  # 
+  #  announcement: 
+  #    icon: info-circle
+  #    dismissable: true
+  #    content: >
+  #      **🎉 Bonne nouvelle !**  
+  #      Rejoignez notre *Communauté d'apprentissage du français* et profitez d'une **classe d'essai GRATUITE** !  
+  #       📘 Découvrez des **ressources exclusives** [comme celle-ci](https://frenchwithkunal.ca/fr/posts/28042025/conver2.html) pour accélérer votre apprentissage :  
+  #        - **Conseils de grammaire** pour maîtriser les bases et les subtilités.  
+  #        - **Exercices d'écoute** pour améliorer votre compréhension orale.  
+  #        - **Activités interactives** pour rendre l'apprentissage amusant et efficace !  
+  #      👉 Rendez-vous sur la page [Abonnement](https://frenchwithkunal.ca/fr/payment.html) pour en savoir plus.
+  #    type: success
+  #    position: below-navbar
   
   search:
     location: navbar
@@ -68,16 +68,15 @@ website:
         menu: 
           - text: "Articles de Blog"
             href: posts.qmd
-            icon: file
-          - text: "Exercices"
+          - text: "Grammaire"
             href: exercises.qmd
             icon: clipboard-check
+          - text: "Vocabulaire"
+            href: vocabulary.qmd
+            icon: book
           - text: "Quiz"  
             href: quiz.qmd
             icon: patch-question 
-          - text: "Application IA"
-            href: quarto_french_learning.qmd
-            icon: robot
           - text: "Compréhension Orale"
             href: listening.qmd
             icon: headphones
@@ -87,6 +86,9 @@ website:
           - text: "Dictée"
             href: dictation.qmd
             icon: pencil
+          - text: "Application IA"
+            href: quarto_french_learning.qmd
+            icon: robot
       - text: "À Propos"
         href: about.qmd      
       - text: "Contactez-nous"
