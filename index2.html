@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr"><head>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.6.40">
@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Reading – Français avec Kunal</title>
+<title>French with Kunal</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -31,8 +31,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./images/banner_kk.png" rel="icon" type="image/png">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -58,88 +56,240 @@ ul.task-list li input[type="checkbox"] {
   ],
   "show-item-context": true,
   "language": {
-    "search-no-results-text": "Pas de résultats",
-    "search-matching-documents-text": "documents trouvés",
-    "search-copy-link-title": "Copier le lien vers la recherche",
-    "search-hide-matches-text": "Cacher les correspondances additionnelles",
-    "search-more-match-text": "correspondance de plus dans ce document",
-    "search-more-matches-text": "correspondances de plus dans ce document",
-    "search-clear-button-title": "Effacer",
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
     "search-text-placeholder": "",
-    "search-detached-cancel-button-title": "Annuler",
-    "search-submit-button-title": "Envoyer",
-    "search-label": "Recherche"
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-image','listing-date','listing-title','listing-subtitle','listing-categories','listing-author','listing-reading-time',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" <script="" src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6">
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&amp;family=Montserrat:wght@400;600;700&amp;family=Special+Elite&amp;family=Courier+Prime:ital,wght@0,400;1,400&amp;display=swap" rel="stylesheet">
+<style>
+  :root {
+      --primary-dark-bg: #2e2e2e;
+      --dark-text: #2e2e2e;
+      --light-text: #fff;
+      --accent-green: #5F9F72;
+      --button-enroll: #C6BCBA;
+      --button-free-trial: #946534;
   }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
-<meta property="og:title" content="Reading – Français avec Kunal">
-<meta property="og:image" content="https://frenchwithkunal.ca/reading/13062025/foret.png">
-<meta property="og:site_name" content="Français avec Kunal">
-<meta property="og:image:height" content="288">
-<meta property="og:image:width" content="523">
-<meta name="twitter:title" content="Reading – Français avec Kunal">
-<meta name="twitter:image" content="https://frenchwithkunal.ca/reading/13062025/foret.png">
-<meta name="twitter:image-height" content="288">
-<meta name="twitter:image-width" content="523">
-<meta name="twitter:card" content="summary_large_image">
+  body {
+      font-family: 'Montserrat', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f8f9fa;
+  }
+
+  .navbar {
+      background-color: rgba(0, 0, 0, 0) !important;
+      position: fixed;
+      width: 100%;
+      top: 0;
+      z-index: 1000;
+  }
+
+  .navbar-brand {
+      font-family: 'Special Elite', cursive;
+      color: var(--light-text) !important;
+      font-size: 1.8rem;
+      font-weight: 700;
+      transition: color 0.3s ease;
+  }
+
+  .navbar-brand:hover {
+      color: var(--accent-green) !important;
+  }
+
+  .navbar-nav .nav-link {
+      font-family: 'Special Elite', cursive;
+      color: var(--light-text) !important;
+      margin-left: 20px;
+      font-size: 1.1rem;
+      transition: color 0.3s ease;
+  }
+
+  .navbar-nav .nav-link:hover {
+      color: var(--accent-green) !important;
+  }
+
+  .hero-section {
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: start;
+      padding-left: 10%;
+      padding-right: 20px;
+      box-sizing: border-box;
+      position: relative;
+      color: white;
+      text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+      overflow: hidden;
+  }
+
+  .hero-section::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background:
+          linear-gradient(to right, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.1) 50%, rgba(0,0,0,0) 100%),
+          url('images/french-books.jpg') right / cover no-repeat;
+      background-size: auto 100%, cover;
+      background-position: left, right;
+      z-index: -1;
+  }
+
+  .hero-content {
+      max-width: 50%;
+      text-align: left;
+  }
+
+  .hero-content p {
+      font-family: 'Courier Prime', monospace;
+      font-style: italic;
+      font-size: 1.1rem;
+      line-height: 1.6;
+      margin-bottom: 1.5rem;
+  }
+
+  .hero-content h1 {
+      font-family: 'Special Elite', cursive;
+      font-size: 2.8rem;
+      font-weight: 500;
+      margin-bottom: 1rem;
+  }
+
+  .hero-content .subtitle {
+      font-family: 'Courier Prime', monospace;
+      font-style: normal;
+      font-size: 1rem;
+      font-weight: 600;
+      color: var(--accent-green);
+      margin-bottom: 0.5rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+  }
+
+  .btn-custom {
+      padding: 12px 28px;
+      border-radius: 30px;
+      font-weight: 600;
+      text-decoration: none;
+      display: inline-block;
+      transition: all 0.3s ease;
+      margin-right: 15px;
+      border: none;
+      color: var(--light-text);
+  }
+
+  .btn-enroll-now {
+      background-color: var(--button-enroll);
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  }
+
+  .btn-enroll-now:hover {
+      background-color: #A6A09E;
+      transform: translateY(-2px);
+      box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+  }
+
+  .btn-free-trial {
+      background-color: var(--button-free-trial);
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  }
+
+  .btn-free-trial:hover {
+      background-color: #7D572D;
+      transform: translateY(-2px);
+      box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+  }
+
+  .footer {
+      background-color: var(--primary-dark-bg);
+      color: var(--light-text);
+      padding: 20px 0;
+      text-align: center;
+      font-size: 0.8rem;
+  }
+
+  .footer p {
+      margin-bottom: 5px;
+  }
+
+  .footer .social-icons a {
+      color: var(--light-text);
+      font-size: 1.2rem;
+      margin: 0 8px;
+      transition: color 0.3s ease;
+  }
+
+  .footer .social-icons a:hover {
+      color: var(--accent-green);
+  }
+
+  @media (max-width: 991.98px) {
+      .hero-content {
+          max-width: 70%;
+      }
+      .hero-content h1 {
+          font-size: 2.5rem;
+      }
+      .hero-content p {
+          font-size: 1rem;
+      }
+      .navbar-nav .nav-link {
+          font-size: 1rem;
+      }
+  }
+
+  @media (max-width: 767.98px) {
+      .hero-section {
+          padding-left: 5%;
+          text-align: center;
+          justify-content: center;
+      }
+      .hero-content {
+          max-width: 90%;
+      }
+      .hero-content h1 {
+          font-size: 2rem;
+      }
+      .hero-content .subtitle {
+          font-size: 0.9rem;
+      }
+      .btn-custom {
+          display: block;
+          width: 80%;
+          margin: 10px auto;
+      }
+      .hero-section::before {
+          background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.3) 100%),
+                      url('images/french-books.jpg') center / cover no-repeat;
+          background-size: cover, cover;
+          background-position: center, center;
+      }
+      .footer {
+          padding: 15px 0;
+          font-size: 0.75rem;
+      }
+  }
+</style>
+
+
+<meta property="og:title" content="French with Kunal">
+<meta property="og:site_name" content="French with Kunal">
+<meta name="twitter:title" content="French with Kunal">
+<meta name="twitter:card" content="summary">
 </head>
 
 <body class="nav-fixed">
@@ -150,32 +300,37 @@ window.Quarto = {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./images\banner_kk.png" alt="Français avec Kunal" class="navbar-logo">
+    <img src="./images\banner_kk.png" alt="French with Kunal" class="navbar-logo">
     </a>
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">Français avec Kunal</span>
+    <span class="navbar-title">French with Kunal</span>
     </a>
   </div>
-            <div id="quarto-search" class="" title="Recherche"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Basculer la navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-ressources" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Ressources</span>
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-resources" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Resources</span>
     </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-ressources">    
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-resources">    
         <li>
     <a class="dropdown-item" href="./posts.html"><i class="bi bi-file" role="img">
 </i> 
- <span class="dropdown-text">Articles de Blog</span></a>
+ <span class="dropdown-text">Blog Posts</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="./exercises.html"><i class="bi bi-clipboard-check" role="img">
 </i> 
- <span class="dropdown-text">Exercices</span></a>
+ <span class="dropdown-text">Grammar</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./vocabulary.html"><i class="bi bi-book" role="img">
+</i> 
+ <span class="dropdown-text">Vocabulary</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="./quiz.html"><i class="bi bi-patch-question" role="img">
@@ -183,68 +338,68 @@ window.Quarto = {
  <span class="dropdown-text">Quiz</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./quarto_french_learning.html"><i class="bi bi-robot" role="img">
-</i> 
- <span class="dropdown-text">Application IA</span></a>
-  </li>  
-        <li>
     <a class="dropdown-item" href="./listening.html"><i class="bi bi-headphones" role="img">
 </i> 
- <span class="dropdown-text">Compréhension Orale</span></a>
+ <span class="dropdown-text">Listening</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="./reading.html"><i class="bi bi-book" role="img">
 </i> 
- <span class="dropdown-text">Compréhension Écrite</span></a>
+ <span class="dropdown-text">Reading</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="./dictation.html"><i class="bi bi-pencil" role="img">
 </i> 
- <span class="dropdown-text">Dictée</span></a>
+ <span class="dropdown-text">Dictation</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./quarto_french_learning.html"><i class="bi bi-robot" role="img">
+</i> 
+ <span class="dropdown-text">AI Application</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
     <a class="nav-link" href="./about.html"> 
-<span class="menu-text">À Propos</span></a>
+<span class="menu-text">About Us</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./contact.html"> 
-<span class="menu-text">Contactez-nous</span></a>
+<span class="menu-text">Contact Us</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./payment.html"> 
-<span class="menu-text">Abonnement</span></a>
+<span class="menu-text">Subscription</span></a>
   </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-accès" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Accès</span>
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-access" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Access</span>
     </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-accès">    
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-access">    
         <li>
     <a class="dropdown-item" href="./login.html"><i class="bi bi-box-arrow-in-right" role="img">
 </i> 
- <span class="dropdown-text">Connexion</span></a>
+ <span class="dropdown-text">Login</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="./profile.html"><i class="bi bi-box-arrow-right" role="img">
 </i> 
- <span class="dropdown-text">Déconnexion</span></a>
+ <span class="dropdown-text">Logout</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="https://billing.stripe.com/p/login/9AQcPg2i52jtaSk4gg"><i class="bi bi-credit-card" role="img">
 </i> 
- <span class="dropdown-text">Portail de Facturation</span></a>
+ <span class="dropdown-text">Billing Portal</span></a>
   </li>  
     </ul>
   </li>
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-plus" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Plus</span>
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-more" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">More</span>
     </a>
-    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-plus">    
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-more">    
         <li>
     <a class="dropdown-item" href="./faq.html"><i class="bi bi-question-circle" role="img">
 </i> 
@@ -253,19 +408,19 @@ window.Quarto = {
         <li>
     <a class="dropdown-item" href="./curriculum.html"><i class="bi bi-book" role="img">
 </i> 
- <span class="dropdown-text">Programme</span></a>
+ <span class="dropdown-text">Curriculum</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-langue" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Langue</span>
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-language" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Language</span>
     </a>
-    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-langue">    
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-language">    
         <li>
     <a class="dropdown-item" href="https://frenchwithkunal.ca/index.html"><i class="bi bi-globe" role="img">
 </i> 
- <span class="dropdown-text">Anglais</span></a>
+ <span class="dropdown-text">English</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="https://frenchwithkunal.ca/fr/index.html"><i class="bi bi-globe" role="img">
@@ -277,37 +432,30 @@ window.Quarto = {
   <li class="nav-item">
     <a class="nav-link" href="https://www.youtube.com/@frenchwithkunal"> <i class="bi bi-youtube" role="img">
 </i> 
-<span class="menu-text">Chaîne YouTube</span></a>
+<span class="menu-text">YouTube Channel</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
-  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Basculer le mode sombre"><i class="bi"></i></a>
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
-  <div id="quarto-announcement" data-announcement-id="f6579b4f2d9a1ba06f8d679158a57d5a" class="alert alert-success hidden"><i class="bi bi-info-circle quarto-announcement-icon"></i><div class="quarto-announcement-content">
-<p><strong>🎉 Bonne nouvelle !</strong> Rejoignez notre <em>Communauté d’apprentissage du français</em> et profitez d’une <strong>classe d’essai GRATUITE</strong> !<br>
-📘 Découvrez des <strong>ressources exclusives</strong> <a href="https://frenchwithkunal.ca/fr/posts/28042025/conver2.html">comme celle-ci</a> pour accélérer votre apprentissage :<br>
-- <strong>Conseils de grammaire</strong> pour maîtriser les bases et les subtilités.<br>
-- <strong>Exercices d’écoute</strong> pour améliorer votre compréhension orale.<br>
-- <strong>Activités interactives</strong> pour rendre l’apprentissage amusant et efficace !<br>
-👉 Rendez-vous sur la page <a href="https://frenchwithkunal.ca/fr/payment.html">Abonnement</a> pour en savoir plus.</p>
+  <div id="quarto-announcement" data-announcement-id="faaf25eb88a7f8075f439ba529324aa7" class="alert alert-success hidden"><i class="bi bi-info-circle quarto-announcement-icon"></i><div class="quarto-announcement-content">
+<p><strong>🎉 Exciting News!</strong> Join our <em>French Learning Community</em> and enjoy a <strong>FREE trial</strong>! 📘 Unlock <strong>exclusive resources</strong> <a href="https://frenchwithkunal.ca/posts/28042025/conver2.html">like this</a> to accelerate your learning: - <strong>Grammar tips</strong> to master the basics and nuances. - <strong>Listening exercises</strong> to enhance your comprehension. - <strong>Interactive activities</strong> to make learning fun and effective! 👉 Visit the <a href="https://frenchwithkunal.ca/payment.html">Subscription</a> page to learn more.</p>
 </div><i class="bi bi-x-lg quarto-announcement-action"></i></div>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
-    </div>
+    
 <!-- main -->
 <main class="content column-page" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Reading</h1>
+<h1 class="title">French with Kunal</h1>
 </div>
 
 
@@ -324,295 +472,50 @@ window.Quarto = {
 </header>
 
 
+<nav class="navbar navbar-expand-lg">
+<div class="container">
+<pre><code>    &lt;a class="navbar-brand" href="https://frenchwithkunal.ca/"&gt;French with Kunal&lt;/a&gt;
+    &lt;button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"&gt;
+        &lt;span class="navbar-toggler-icon"&gt;&lt;/span&gt;
+    &lt;/button&gt;
+    &lt;div class="collapse navbar-collapse" id="navbarNav"&gt;
+        &lt;ul class="navbar-nav ms-auto"&gt;
+            &lt;li class="nav-item"&gt;
+                &lt;a class="nav-link" href="https://frenchwithkunal.ca/about.html"&gt;About&lt;/a&gt;
+            &lt;/li&gt;
+            &lt;li class="nav-item"&gt;
+                &lt;a class="nav-link" href="https://frenchwithkunal.ca/contact.html"&gt;Contact&lt;/a&gt;
+            &lt;/li&gt;
+            &lt;li class="nav-item"&gt;
+                &lt;a class="nav-link" href="https://frenchwithkunal.ca/payment.html"&gt;Subscription&lt;/a&gt;
+            &lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+</div></nav>
+<section class="hero-section">
+<div class="hero-content">
+<pre><code>    &lt;p class="subtitle"&gt;START FREE LESSON&lt;/p&gt;
+    &lt;h1&gt;Master French with Ease and Confidence&lt;/h1&gt;
+    &lt;p&gt;Join hundreds of learners discovering the joy of speaking French fluently.&lt;/p&gt;
+    &lt;a href="https://frenchwithkunal.ca/contact.html" class="btn-custom btn-enroll-now"&gt;Enroll Now&lt;/a&gt;
+    &lt;a href="/practice" class="btn-custom btn-free-trial"&gt;Free Trial&lt;/a&gt;
+&lt;/div&gt;</code></pre>
+</div></section>
+<footer class="footer">
+<div class="container">
+<pre><code>    &lt;p&gt;&amp;copy; 2025 French with Kunal. All rights reserved.&lt;/p&gt;
+    &lt;div class="social-icons"&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+</div></footer>
+
+
+</main></div>
 
 
 
-
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1749840496574">
-<a href="./docs/reading/14062025/chanter.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="TGVjdHVyZSUyQ0NvbXByJUMzJUE5aGVuc2lvbiUyMCVDMyVBOWNyaXRlJTJDRCVDMyVBOWJ1dGFudA==" data-listing-file-modified-sort="1749844527157" data-listing-reading-time-sort="7" data-listing-word-count-sort="1338">
-<a href="./reading/13062025/foret.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./reading/13062025/foret.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-La Forêt : Activités de Compréhension de Lecture
-</h5>
-<div class="listing-reading-time card-text text-muted">
-7 min.
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('TGVjdHVyZQ=='); return false;">
-Lecture
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Q29tcHIlQzMlQTloZW5zaW9uJTIwJUMzJUE5Y3JpdGU='); return false;">
-Compréhension écrite
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('RCVDMyVBOWJ1dGFudA=='); return false;">
-Débutant
-</div>
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="TGVjdHVyZSUyQ0NvbXByJUMzJUE5aGVuc2lvbiUyMCVDMyVBOWNyaXRlJTJDRCVDMyVBOWJ1dGFudA==" data-listing-file-modified-sort="1749844557506" data-listing-reading-time-sort="6" data-listing-word-count-sort="1151">
-<a href="./reading/13062025/yoga.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./reading/13062025/yoga.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Le Yoga : Activités de Compréhension de Lecture
-</h5>
-<div class="listing-reading-time card-text text-muted">
-6 min.
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('TGVjdHVyZQ=='); return false;">
-Lecture
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Q29tcHIlQzMlQTloZW5zaW9uJTIwJUMzJUE5Y3JpdGU='); return false;">
-Compréhension écrite
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('RCVDMyVBOWJ1dGFudA=='); return false;">
-Débutant
-</div>
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="3" data-categories="bGVjdHVyZSUyQ2QlQzMlQTlidXRhbnQlMkNhbW91cg==" data-listing-file-modified-sort="1749843643737" data-listing-reading-time-sort="3" data-listing-word-count-sort="509">
-<a href="./reading/14062025/amour.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./reading/14062025/amour.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-L’amour
-</h5>
-<div class="listing-reading-time card-text text-muted">
-3 min.
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('bGVjdHVyZQ=='); return false;">
-lecture
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('ZCVDMyVBOWJ1dGFudA=='); return false;">
-débutant
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('YW1vdXI='); return false;">
-amour
-</div>
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="4" data-categories="TGVjdHVyZSUyQ0NvbXByJUMzJUE5aGVuc2lvbiUyMCVDMyVBOWNyaXRlJTJDRCVDMyVBOWJ1dGFudA==" data-listing-file-modified-sort="1749844397577" data-listing-reading-time-sort="4" data-listing-word-count-sort="660">
-<a href="./reading/14062025/bonhomme.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./reading/14062025/bonhomme.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Bonhomme de neige
-</h5>
-<div class="listing-reading-time card-text text-muted">
-4 min.
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('TGVjdHVyZQ=='); return false;">
-Lecture
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Q29tcHIlQzMlQTloZW5zaW9uJTIwJUMzJUE5Y3JpdGU='); return false;">
-Compréhension écrite
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('RCVDMyVBOWJ1dGFudA=='); return false;">
-Débutant
-</div>
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="5" data-categories="TGVjdHVyZSUyQ0NvbXByJUMzJUE5aGVuc2lvbiUyMCVDMyVBOWNyaXRlJTJDRCVDMyVBOWJ1dGFudA==" data-listing-file-modified-sort="1749843829828" data-listing-reading-time-sort="4" data-listing-word-count-sort="604">
-<a href="./reading/14062025/centreville.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./reading/14062025/centreville.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Centre ville
-</h5>
-<div class="listing-reading-time card-text text-muted">
-4 min.
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('TGVjdHVyZQ=='); return false;">
-Lecture
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Q29tcHIlQzMlQTloZW5zaW9uJTIwJUMzJUE5Y3JpdGU='); return false;">
-Compréhension écrite
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('RCVDMyVBOWJ1dGFudA=='); return false;">
-Débutant
-</div>
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="6" data-categories="TGVjdHVyZSUyQ0NvbXByJUMzJUE5aGVuc2lvbiUyMCVDMyVBOWNyaXRlJTJDSW50ZXJtJUMzJUE5ZGlhaXJl" data-listing-file-modified-sort="1749844670468" data-listing-reading-time-sort="4" data-listing-word-count-sort="653">
-<a href="./reading/14062025/lecture.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./reading/14062025/lecture.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Lecture des Romains
-</h5>
-<div class="listing-reading-time card-text text-muted">
-4 min.
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('TGVjdHVyZQ=='); return false;">
-Lecture
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Q29tcHIlQzMlQTloZW5zaW9uJTIwJUMzJUE5Y3JpdGU='); return false;">
-Compréhension écrite
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('SW50ZXJtJUMzJUE5ZGlhaXJl'); return false;">
-Intermédiaire
-</div>
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="7" data-categories="TGVjdHVyZSUyQ0NvbXByJUMzJUE5aGVuc2lvbiUyMCVDMyVBOWNyaXRlJTJDRCVDMyVBOWJ1dGFudA==" data-listing-file-modified-sort="1749844026488" data-listing-reading-time-sort="4" data-listing-word-count-sort="652">
-<a href="./reading/14062025/loisirs.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./reading/14062025/loisirs.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Loisirs pendant l’été
-</h5>
-<div class="listing-reading-time card-text text-muted">
-4 min.
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('TGVjdHVyZQ=='); return false;">
-Lecture
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Q29tcHIlQzMlQTloZW5zaW9uJTIwJUMzJUE5Y3JpdGU='); return false;">
-Compréhension écrite
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('RCVDMyVBOWJ1dGFudA=='); return false;">
-Débutant
-</div>
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="8" data-categories="TGVjdHVyZSUyQ0NvbXByJUMzJUE5aGVuc2lvbiUyMCVDMyVBOWNyaXRlJTJDRCVDMyVBOWJ1dGFudA==" data-listing-file-modified-sort="1749844355575" data-listing-reading-time-sort="4" data-listing-word-count-sort="655">
-<a href="./reading/14062025/natation.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./reading/14062025/natation.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Natation
-</h5>
-<div class="listing-reading-time card-text text-muted">
-4 min.
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('TGVjdHVyZQ=='); return false;">
-Lecture
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Q29tcHIlQzMlQTloZW5zaW9uJTIwJUMzJUE5Y3JpdGU='); return false;">
-Compréhension écrite
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('RCVDMyVBOWJ1dGFudA=='); return false;">
-Débutant
-</div>
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-Aucun article correspondant
-</div>
-</div></main> <!-- /main -->
+ <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -800,12 +703,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // flash "checked"
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
-    button.setAttribute("title", "Copié");
+    button.setAttribute("title", "Copied!");
     let tooltip;
     if (window.bootstrap) {
       button.setAttribute("data-bs-toggle", "tooltip");
       button.setAttribute("data-bs-placement", "left");
-      button.setAttribute("data-bs-title", "Copié");
+      button.setAttribute("data-bs-title", "Copied!");
       tooltip = new bootstrap.Tooltip(button, 
         { trigger: "manual", 
           customClass: "code-copy-button-tooltip",
@@ -1174,46 +1077,46 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
-</div> <!-- /content -->
+ <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
     <a class="nav-link" href="./ethics.html">
-<p>Éthique</p>
+<p>Ethics</p>
 </a>
   </li>  
     <li class="nav-item">
     <a class="nav-link" href="./policy.html">
-<p>Politique de confidentialité</p>
+<p>Privacy policy</p>
 </a>
   </li>  
     <li class="nav-item">
     <a class="nav-link" href="./terms.html">
-<p>Conditions d’utilisation</p>
+<p>Terms of Service</p>
 </a>
   </li>  
 </ul>
     </div>   
     <div class="nav-footer-center">
-<p><span class="citation" data-cites="2025">@2025</span> Français avec Kunal <br> Tous droits réservés. <br></p>
+<p><span class="citation" data-cites="2025">@2025</span> French with Kunal <br> All rights reserved. <br></p>
 </div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
     <a class="nav-link" href="./login.html">
-<p>Connexion</p>
+<p>Login</p>
 </a>
   </li>  
     <li class="nav-item">
     <a class="nav-link" href="https://frenchwithkunal.ca/index.html">
-<p>Anglais</p>
+<p>English</p>
 </a>
   </li>  
     <li class="nav-item">
     <a class="nav-link" href="https://frenchwithkunal.ca/fr/index.html">
-<p>Français</p>
+<p>French</p>
 </a>
   </li>  
     <li class="nav-item compact">
@@ -1232,6 +1135,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
 
 
