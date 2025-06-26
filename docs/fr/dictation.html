@@ -83,7 +83,7 @@ ul.task-list li input[type="checkbox"] {
     const options = {
       valueNames: ['listing-image','listing-date','listing-title','listing-subtitle','listing-categories','listing-author','listing-reading-time',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: [],
+      searchColumns: ["listing-author","listing-image","listing-description"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -162,14 +162,18 @@ window.Quarto = {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-ressources">    
         <li>
-    <a class="dropdown-item" href="./posts.html"><i class="bi bi-file" role="img">
-</i> 
+    <a class="dropdown-item" href="./posts.html">
  <span class="dropdown-text">Articles de Blog</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="./exercises.html"><i class="bi bi-clipboard-check" role="img">
 </i> 
- <span class="dropdown-text">Exercices</span></a>
+ <span class="dropdown-text">Grammaire</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./vocabulary.html"><i class="bi bi-book" role="img">
+</i> 
+ <span class="dropdown-text">Vocabulaire</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="./quiz.html"><i class="bi bi-patch-question" role="img">
@@ -177,17 +181,12 @@ window.Quarto = {
  <span class="dropdown-text">Quiz</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./quarto_french_learning.html"><i class="bi bi-robot" role="img">
-</i> 
- <span class="dropdown-text">Application IA</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./listening.html"><i class="bi bi-headphones" role="img">
+    <a class="dropdown-item" href="https://french-grammar-ai-a92ff913a503.herokuapp.com/listening-practice"><i class="bi bi-headphones" role="img">
 </i> 
  <span class="dropdown-text">Compréhension Orale</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./reading.html"><i class="bi bi-book" role="img">
+    <a class="dropdown-item" href="https://french-grammar-ai-a92ff913a503.herokuapp.com/reading-practice"><i class="bi bi-book" role="img">
 </i> 
  <span class="dropdown-text">Compréhension Écrite</span></a>
   </li>  
@@ -195,6 +194,11 @@ window.Quarto = {
     <a class="dropdown-item" href="./dictation.html"><i class="bi bi-pencil" role="img">
 </i> 
  <span class="dropdown-text">Dictée</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./quarto_french_learning.html"><i class="bi bi-robot" role="img">
+</i> 
+ <span class="dropdown-text">Application IA</span></a>
   </li>  
     </ul>
   </li>
@@ -280,14 +284,6 @@ window.Quarto = {
 </div>
       </div> <!-- /container-fluid -->
     </nav>
-  <div id="quarto-announcement" data-announcement-id="f6579b4f2d9a1ba06f8d679158a57d5a" class="alert alert-success hidden"><i class="bi bi-info-circle quarto-announcement-icon"></i><div class="quarto-announcement-content">
-<p><strong>🎉 Bonne nouvelle !</strong> Rejoignez notre <em>Communauté d’apprentissage du français</em> et profitez d’une <strong>classe d’essai GRATUITE</strong> !<br>
-📘 Découvrez des <strong>ressources exclusives</strong> <a href="https://frenchwithkunal.ca/fr/posts/28042025/conver2.html">comme celle-ci</a> pour accélérer votre apprentissage :<br>
-- <strong>Conseils de grammaire</strong> pour maîtriser les bases et les subtilités.<br>
-- <strong>Exercices d’écoute</strong> pour améliorer votre compréhension orale.<br>
-- <strong>Activités interactives</strong> pour rendre l’apprentissage amusant et efficace !<br>
-👉 Rendez-vous sur la page <a href="https://frenchwithkunal.ca/fr/payment.html">Abonnement</a> pour en savoir plus.</p>
-</div><i class="bi bi-x-lg quarto-announcement-action"></i></div>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
@@ -324,7 +320,23 @@ window.Quarto = {
 
 <div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
 <div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1750711516468" data-listing-reading-time-sort="27" data-listing-word-count-sort="5264">
+<a href="./dictation/13062025/practiceA1.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<div class="card-body post-contents">
+<div class="listing-reading-time card-text text-muted">
+27 min.
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
 
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
 </div>
 <div class="listing-no-matching d-none">
 Aucun article correspondant

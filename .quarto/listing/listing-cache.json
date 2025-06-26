@@ -12,14 +12,8 @@
     "posts.qmd": [
       "posts/**/*/**.qmd"
     ],
-    "reading.qmd": [
-      "reading/**/*/**.qmd"
-    ],
     "vocabulary.qmd": [
       "vocabulary/**/*/**.qmd"
-    ],
-    "index.qmd": [
-      "B3049D40"
     ]
   }
 }

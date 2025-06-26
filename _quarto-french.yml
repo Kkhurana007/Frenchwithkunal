@@ -78,10 +78,10 @@ website:
             href: quiz.qmd
             icon: patch-question 
           - text: "Compréhension Orale"
-            href: listening.qmd
+            href: https://french-grammar-ai-a92ff913a503.herokuapp.com/listening-practice
             icon: headphones
           - text: "Compréhension Écrite"
-            href: reading.qmd
+            href: https://french-grammar-ai-a92ff913a503.herokuapp.com/reading-practice
             icon: book
           - text: "Dictée"
             href: dictation.qmd

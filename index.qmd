@@ -182,12 +182,12 @@ Stuck on subjunctive at 2am? Our WhatsApp support has you covered (oui, even on 
 <i class="floating-icon fas fa-lightbulb"></i>
 
 ::: card-content
-### <i class="fas fa-magic"></i> AI-Powered French Quiz
+### <i class="fas fa-magic"></i> AI-Powered French Quiz & Activities
 
-Curious about your French skills? Try our interactive AI quiz! Instantly discover your strengths and get a personalized tip to boost your learning.
+Curious about your French skills? Try our interactive AI quiz! Plus, accelerate your learning with Reading, Listening, and Dictation activities—get instant feedback and personalized tips to boost your progress.
 :::
+<a href="https://french-grammar-ai-a92ff913a503.herokuapp.com/" class="btn" target="_blank" rel="noopener">Practice →</a>
 
-[Take the Quiz →](/quiz.html){.btn}
 ::::
 
 :::: card
@@ -209,6 +209,7 @@ Access a library of engaging recorded French lessons. Learn at your own pace, an
 ### <i class="fas fa-tasks"></i> Interactive Exercises
 
 Practice what you learn with quizzes, exercises, and real-life scenarios to boost your confidence.
+
 :::
 
 [Try Exercises →](/exercises.html){.btn}
@@ -391,12 +392,13 @@ Blocage sur le subjonctif à 2h du matin? Notre support WhatsApp est là pour vo
 <i class="floating-icon fas fa-lightbulb"></i>
 
 ::: card-content
-### <i class="fas fa-magic"></i> Quiz d'évaluation IA
+### <i class="fas fa-magic"></i> Quiz & Activités IA
 
-Curieux de connaître votre niveau de français ? Essayez notre quiz interactif alimenté par l'IA ! Découvrez instantanément vos points forts et recevez un conseil personnalisé pour progresser.
+Curieux de connaître votre niveau de français ? Essayez notre quiz interactif alimenté par l'IA ! Accélérez votre apprentissage avec des activités de lecture, d'écoute et de dictée—recevez un retour instantané et des conseils personnalisés pour progresser plus vite.
 :::
 
-[Passer le quiz →](/quiz.html){.btn}
+<a href="https://french-grammar-ai-a92ff913a503.herokuapp.com/" class="btn" target="_blank" rel="noopener">Passer le quiz →</a>
+
 ::::
 
 :::: card
