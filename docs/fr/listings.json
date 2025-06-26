@@ -1,5 +1,41 @@
 [
   {
+    "listing": "/vocabulary.html",
+    "items": [
+      "/vocabulary/16062025/lachambre1.html",
+      "/vocabulary/16062025/lacuisine.html",
+      "/vocabulary/16062025/lasalledebain.html",
+      "/vocabulary/16062025/partsofhouse.html",
+      "/vocabulary/16062025/family.html",
+      "/vocabulary/16062025/noun_genders.html",
+      "/vocabulary/16062025/bodyparts.html",
+      "/vocabulary/16062025/clothing.html",
+      "/vocabulary/16062025/dairy.html",
+      "/vocabulary/16062025/food.html",
+      "/vocabulary/16062025/fruits.html",
+      "/vocabulary/16062025/legumes.html",
+      "/vocabulary/16062025/lesalon.html",
+      "/vocabulary/16062025/numbers.html",
+      "/vocabulary/16062025/ordinal.html",
+      "/vocabulary/16062025/seafood.html",
+      "/vocabulary/16062025/shopping.html",
+      "/vocabulary/16062025/storesandplaces.html",
+      "/vocabulary/16062025/viande.html"
+    ]
+  },
+  {
+    "listing": "/listening.html",
+    "items": [
+      "/listening/13062025/amis.html",
+      "/listening/13062025/campaign.html",
+      "/listening/13062025/famille.html",
+      "/listening/13062025/immigration.html",
+      "/listening/13062025/marriage.html",
+      "/listening/13062025/promenade.html",
+      "/listening/13062025/ville_marie.html"
+    ]
+  },
+  {
     "listing": "/exercises.html",
     "items": [
       "/exercises/08062025/fractions.html",
@@ -96,40 +132,8 @@
     ]
   },
   {
-    "listing": "/vocabulary.html",
-    "items": [
-      "/vocabulary/16062025/lachambre1.html",
-      "/vocabulary/16062025/lacuisine.html",
-      "/vocabulary/16062025/lasalledebain.html",
-      "/vocabulary/16062025/partsofhouse.html",
-      "/vocabulary/16062025/family.html",
-      "/vocabulary/16062025/noun_genders.html",
-      "/vocabulary/16062025/bodyparts.html",
-      "/vocabulary/16062025/clothing.html",
-      "/vocabulary/16062025/dairy.html",
-      "/vocabulary/16062025/food.html",
-      "/vocabulary/16062025/fruits.html",
-      "/vocabulary/16062025/legumes.html",
-      "/vocabulary/16062025/lesalon.html",
-      "/vocabulary/16062025/numbers.html",
-      "/vocabulary/16062025/ordinal.html",
-      "/vocabulary/16062025/seafood.html",
-      "/vocabulary/16062025/shopping.html",
-      "/vocabulary/16062025/storesandplaces.html",
-      "/vocabulary/16062025/viande.html"
-    ]
-  },
-  {
-    "listing": "/listening.html",
-    "items": [
-      "/listening/13062025/amis.html",
-      "/listening/13062025/campaign.html",
-      "/listening/13062025/famille.html",
-      "/listening/13062025/immigration.html",
-      "/listening/13062025/marriage.html",
-      "/listening/13062025/promenade.html",
-      "/listening/13062025/ville_marie.html"
-    ]
+    "listing": "/dictation.html",
+    "items": []
   },
   {
     "listing": "/posts.html",
@@ -181,12 +185,6 @@
       "/posts/semainedu20janvier/ir_verbes.html",
       "/posts/semainedu20janvier/pronunciation.html",
       "/posts/semainedu20janvier/re_verbes.html"
-    ]
-  },
-  {
-    "listing": "/dictation.html",
-    "items": [
-      "/dictation/13062025/practiceA1.html"
     ]
   }
 ]

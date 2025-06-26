@@ -97,6 +97,7 @@ website:
             icon: headphones
           - text: "Reading"
             href: https://french-grammar-ai-a92ff913a503.herokuapp.com/reading-practice
+            icon: book
               #- text: "Dictation"
               #  href: dictation.qmd
               #  icon: pencil
