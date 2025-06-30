@@ -84,7 +84,7 @@ website:
             href: https://french-grammar-ai-a92ff913a503.herokuapp.com/reading-practice
             icon: book
           - text: "Dictée"
-            href: dictation.qmd
+            href: https://french-grammar-ai-a92ff913a503.herokuapp.com/dictation-practice
             icon: pencil
           - text: "Application IA"
             href: quarto_french_learning.qmd

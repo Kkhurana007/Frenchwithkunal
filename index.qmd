@@ -154,17 +154,6 @@ Québec resident with 5+ years of learning and teaching experience. My secret? W
 [My Story →](/about.html){.btn}
 ::::
 
-:::: card
-<i class="floating-icon fas fa-euro-sign"></i>
-
-::: card-content
-### <i class="fas fa-graduation-cap"></i> Smart Pricing
-
-Choose from flexible plans: C\$300/month for group classes or C\$50/month for self-learning. All plans include recorded lectures, quizzes, and more to enhance your learning experience.
-:::
-
-[View Options →](/payment.html){.btn}
-::::
 
 :::: card
 <i class="floating-icon fas fa-comments"></i>
@@ -364,17 +353,6 @@ Résident de Québec avec 5+ ans d'expérience. Mon secret? Nous nous concentron
 [Mon histoire →](/about.html){.btn}
 ::::
 
-:::: card
-<i class="floating-icon fas fa-euro-sign"></i>
-
-::: card-content
-### <i class="fas fa-graduation-cap"></i> Tarifs intelligents
-
-Choisissez parmi nos formules : 300 CAD/mois pour les cours collectifs ou 50 CAD/mois pour l'auto-apprentissage. Toutes les formules incluent des cours enregistrés, des quiz et bien plus pour améliorer votre apprentissage.
-:::
-
-[Voir options →](/payment.html){.btn}
-::::
 
 :::: card
 <i class="floating-icon fas fa-comments"></i>

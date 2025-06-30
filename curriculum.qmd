@@ -13,250 +13,261 @@ format:
 # French with Kunal
 
 ::: {.content-visible when-profile="english"}
-
-> **Confident French in 120 Days**  
+> **Confident French in 120 Days**
 
 > Join our step-by-step A1 to B2 course and gain the confidence to speak French fluently in real-life situations. We offer flexible subscriptions so you can access all course materials and navigate your learning journey with ease. Choose the plan that fits you best and start making progress today!
 
----
+------------------------------------------------------------------------
 
 ## 📚 Course Curriculum
 
 ### A1 Level
-- Foundations of French
-- Everyday Vocabulary & Phrases
+
+-   Foundations of French
+-   Everyday Vocabulary & Phrases
 
 ### A2 Level
-- Expanding Grammar & Conversation
+
+-   Expanding Grammar & Conversation
 
 ### B1 Level
-- Intermediate Grammar & Real-life Dialogues
+
+-   Intermediate Grammar & Real-life Dialogues
 
 ### B2 Level
-- Advanced Structures & Fluency
 
----
+-   Advanced Structures & Fluency
+
+------------------------------------------------------------------------
 
 ## 🗓️ 120-Day Lesson Plan
 
 ### Days 1–30 (A1 Level Highlights)
-- French Alphabet & Pronunciation Basics
-- Greetings, Introductions, Polite Phrases
-- Numbers, Days, Months, Dates, Telling Time
-- Essential Verbs: Être, Avoir, Aller, Faire
-- Definite & Indefinite Articles, Gender & Plurals
-- Basic Sentence Structure, Negation, Questions
-- Everyday Vocabulary: Family, Food, Weather, Colors
-- Describing People & Places, Nationalities, Professions
-- Simple Present Tense (Regular & Common Irregular Verbs)
-- Useful Expressions & Survival Phrases
+
+-   French Alphabet & Pronunciation Basics
+-   Greetings, Introductions, Polite Phrases
+-   Numbers, Days, Months, Dates, Telling Time
+-   Essential Verbs: Être, Avoir, Aller, Faire
+-   Definite & Indefinite Articles, Gender & Plurals
+-   Basic Sentence Structure, Negation, Questions
+-   Everyday Vocabulary: Family, Food, Weather, Colors
+-   Describing People & Places, Nationalities, Professions
+-   Simple Present Tense (Regular & Common Irregular Verbs)
+-   Useful Expressions & Survival Phrases
 
 ### Days 31–60 (A2 Level Highlights)
-- Le Passé Composé (1st, 2nd, 3rd Group Verbs)
-- Être or Avoir in Past Tense
-- L'Imparfait & Passé Composé vs Imparfait
-- Direct & Indirect Object Pronouns
-- Comparatives & Superlatives
-- Demonstrative Adjectives & Pronouns
-- Le Futur Simple, L’Impératif, Le Gérondif
-- Reflexive Verbs, Relative Pronouns
-- Depuis, Pendant & Pour
-- Ordinal Numbers, Adverbs, Partitive Articles
-- Possessive Pronouns, Sports, Hobbies, Clothing, Animals, Jobs, Transport
-- Useful Expressions & Idioms
+
+-   Le Passé Composé (1st, 2nd, 3rd Group Verbs)
+-   Être or Avoir in Past Tense
+-   L'Imparfait & Passé Composé vs Imparfait
+-   Direct & Indirect Object Pronouns
+-   Comparatives & Superlatives
+-   Demonstrative Adjectives & Pronouns
+-   Le Futur Simple, L’Impératif, Le Gérondif
+-   Reflexive Verbs, Relative Pronouns
+-   Depuis, Pendant & Pour
+-   Ordinal Numbers, Adverbs, Partitive Articles
+-   Possessive Pronouns, Sports, Hobbies, Clothing, Animals, Jobs, Transport
+-   Useful Expressions & Idioms
 
 ### Days 61–90 (B1 Level Highlights)
-- Le Plus-Que-Parfait, Conditionnel Présent, Subjonctif Présent
-- Coordinating & Subordinating Conjunctions
-- Relative Pronouns, Infinitive Constructions, Passive Voice
-- Indefinite Pronouns, Compound Prepositions, Indirect Speech
-- Prepositions with Places, Impersonal Verbs, Passé Récent
-- Pronouns "Y" & "En", "Si" Clauses, Cause & Effect, Nominalization
-- Advanced Negatives, Emphatic Pronouns, Les Faux Amis
-- Useful Expressions & Idioms
+
+-   Le Plus-Que-Parfait, Conditionnel Présent, Subjonctif Présent
+-   Coordinating & Subordinating Conjunctions
+-   Relative Pronouns, Infinitive Constructions, Passive Voice
+-   Indefinite Pronouns, Compound Prepositions, Indirect Speech
+-   Prepositions with Places, Impersonal Verbs, Passé Récent
+-   Pronouns "Y" & "En", "Si" Clauses, Cause & Effect, Nominalization
+-   Advanced Negatives, Emphatic Pronouns, Les Faux Amis
+-   Useful Expressions & Idioms
 
 ### Days 91–120 (B2 Level Highlights)
-- Le Conditionnel Passé, Subjonctif Passé, Futur Antérieur
-- Le Passé Simple, Passé Antérieur, All Tenses Review
-- Advanced Relative Pronouns, Articles, Use of “Y” & “En”
-- Expletive “Ne”, Demonstrative Pronouns, C’est vs Il est
-- Prefixes, Suffixes, Advanced Constructions, Punctuation
-- Useful Expressions & Idioms
 
----
+-   Le Conditionnel Passé, Subjonctif Passé, Futur Antérieur
+-   Le Passé Simple, Passé Antérieur, All Tenses Review
+-   Advanced Relative Pronouns, Articles, Use of “Y” & “En”
+-   Expletive “Ne”, Demonstrative Pronouns, C’est vs Il est
+-   Prefixes, Suffixes, Advanced Constructions, Punctuation
+-   Useful Expressions & Idioms
+
+------------------------------------------------------------------------
 
 ## 🔊 Pronunciation
 
-- French Sounds: É, È, Ê, Ë, Ç, AI, AN, AU, CH, EU, GN, H, ILL, Œ, OI, ON, OU, S, SS, SC, R, etc.
-- Common Mix-ups: Désert vs Dessert, Gâteau vs Cadeau, Cheveux vs Chevaux, etc.
-- Focus Words: roue, heureux, froid, grenouille, accueillir, écureuil, enseigner, feuille, etc.
+-   French Sounds: É, È, Ê, Ë, Ç, AI, AN, AU, CH, EU, GN, H, ILL, Œ, OI, ON, OU, S, SS, SC, R, etc.
+-   Common Mix-ups: Désert vs Dessert, Gâteau vs Cadeau, Cheveux vs Chevaux, etc.
+-   Focus Words: roue, heureux, froid, grenouille, accueillir, écureuil, enseigner, feuille, etc.
 
----
+------------------------------------------------------------------------
 
 ## 🎧 Listening Comprehension
 
-- **A1–B2 Level Stories**: Everyday situations, travel, work, culture, and more.
+-   **A1–B2 Level Stories**: Everyday situations, travel, work, culture, and more.
 
----
+------------------------------------------------------------------------
 
 ## 💬 Dialogues
 
-- **A1–B2 Level**: Real-life scenarios from the bakery to the bank, from the zoo to the cinema, and more.
+-   **A1–B2 Level**: Real-life scenarios from the bakery to the bank, from the zoo to the cinema, and more.
 
----
+------------------------------------------------------------------------
 
 ## 📝 Grammar & Vocabulary
 
-- **Common Confusions**: Penser à vs Penser de, Bon vs Bien, Savoir vs Connaître, etc.
-- **Daily Phrases**: 20+ phrases for daily conversations.
-- **French Slang**: Words, expressions, abbreviations, acronyms.
-- **Idioms**: Tomber dans les pommes, En faire tout un fromage, etc.
-- **Homophones**: accro/accroc, amande/amende, etc.
-- **Vocabulary Lists**: Animals, rooms, instruments, etc.
-- **Writing Prompts**: Practice creative and practical writing.
+-   **Common Confusions**: Penser à vs Penser de, Bon vs Bien, Savoir vs Connaître, etc.
+-   **Daily Phrases**: 20+ phrases for daily conversations.
+-   **French Slang**: Words, expressions, abbreviations, acronyms.
+-   **Idioms**: Tomber dans les pommes, En faire tout un fromage, etc.
+-   **Homophones**: accro/accroc, amande/amende, etc.
+-   **Vocabulary Lists**: Animals, rooms, instruments, etc.
+-   **Writing Prompts**: Practice creative and practical writing.
 
----
+------------------------------------------------------------------------
 
 ## 🇫🇷 French Culture
 
-- **Facts about France & French Language**
-- **French Proverbs & Quotes**
-- **French Media**: Songs, movies, books
-- **Expressions & Ways to Say**: Bonjour, Merci, Oui, Non, etc.
+-   **Facts about France & French Language**
+-   **French Proverbs & Quotes**
+-   **French Media**: Songs, movies, books
+-   **Expressions & Ways to Say**: Bonjour, Merci, Oui, Non, etc.
 
----
+------------------------------------------------------------------------
 
 ## 🔤 Verbs
 
-- **1st Group**: Accepter, Acheter, Aider, etc.
-- **2nd Group**: Accomplir, Agir, Choisir, etc.
-- **3rd Group**: Accueillir, Admettre, Aller, etc.
+-   **1st Group**: Accepter, Acheter, Aider, etc.
+-   **2nd Group**: Accomplir, Agir, Choisir, etc.
+-   **3rd Group**: Accueillir, Admettre, Aller, etc.
 
----
-
+------------------------------------------------------------------------
 :::
 
 ::: {.content-visible when-profile="french"}
-
-
-> **Le français en toute confiance en 120 jours**  
+> **Le français en toute confiance en 120 jours**
 
 > Rejoignez notre parcours étape par étape du niveau A1 à B2 et gagnez la confiance nécessaire pour parler français couramment dans des situations réelles. Nous proposons des abonnements flexibles pour accéder à tous les supports de cours et avancer à votre rythme. Choisissez la formule qui vous convient et commencez à progresser dès aujourd’hui !
 
----
+------------------------------------------------------------------------
 
 ## 📚 Programme du cours
 
 ### Niveau A1
-- Bases du français
-- Vocabulaire et phrases du quotidien
+
+-   Bases du français
+-   Vocabulaire et phrases du quotidien
 
 ### Niveau A2
-- Grammaire et conversation élargies
+
+-   Grammaire et conversation élargies
 
 ### Niveau B1
-- Grammaire intermédiaire et dialogues réels
+
+-   Grammaire intermédiaire et dialogues réels
 
 ### Niveau B2
-- Structures avancées et aisance à l’oral
 
----
+-   Structures avancées et aisance à l’oral
+
+------------------------------------------------------------------------
 
 ## 🗓️ Plan de cours sur 120 jours
 
 ### Jours 1–30 (A1 – Points clés)
-- Alphabet français et bases de la prononciation
-- Salutations, présentations, formules de politesse
-- Nombres, jours, mois, dates, l’heure
-- Verbes essentiels : Être, Avoir, Aller, Faire
-- Articles définis/indéfinis, genre et pluriels
-- Structure de phrase, négation, questions
-- Vocabulaire du quotidien : famille, nourriture, météo, couleurs
-- Décrire personnes et lieux, nationalités, professions
-- Présent simple (verbes réguliers et irréguliers courants)
-- Expressions utiles et phrases de survie
+
+-   Alphabet français et bases de la prononciation
+-   Salutations, présentations, formules de politesse
+-   Nombres, jours, mois, dates, l’heure
+-   Verbes essentiels : Être, Avoir, Aller, Faire
+-   Articles définis/indéfinis, genre et pluriels
+-   Structure de phrase, négation, questions
+-   Vocabulaire du quotidien : famille, nourriture, météo, couleurs
+-   Décrire personnes et lieux, nationalités, professions
+-   Présent simple (verbes réguliers et irréguliers courants)
+-   Expressions utiles et phrases de survie
 
 ### Jours 31–60 (A2 – Points clés)
-- Le passé composé (verbes 1er, 2e, 3e groupes)
-- Être ou avoir au passé composé
-- L’imparfait et passé composé vs imparfait
-- Pronoms objets directs et indirects
-- Comparatifs et superlatifs
-- Adjectifs et pronoms démonstratifs
-- Futur simple, impératif, gérondif
-- Verbes pronominaux, pronoms relatifs
-- Depuis, pendant, pour
-- Nombres ordinaux, adverbes, articles partitifs
-- Pronoms possessifs, sports, loisirs, vêtements, animaux, métiers, transports
-- Expressions et idiomes utiles
+
+-   Le passé composé (verbes 1er, 2e, 3e groupes)
+-   Être ou avoir au passé composé
+-   L’imparfait et passé composé vs imparfait
+-   Pronoms objets directs et indirects
+-   Comparatifs et superlatifs
+-   Adjectifs et pronoms démonstratifs
+-   Futur simple, impératif, gérondif
+-   Verbes pronominaux, pronoms relatifs
+-   Depuis, pendant, pour
+-   Nombres ordinaux, adverbes, articles partitifs
+-   Pronoms possessifs, sports, loisirs, vêtements, animaux, métiers, transports
+-   Expressions et idiomes utiles
 
 ### Jours 61–90 (B1 – Points clés)
-- Plus-que-parfait, conditionnel présent, subjonctif présent
-- Conjonctions de coordination et subordination
-- Pronoms relatifs, constructions à l’infinitif, voix passive
-- Pronoms indéfinis, prépositions composées, discours indirect
-- Prépositions de lieu, verbes impersonnels, passé récent
-- Pronoms “y” et “en”, phrases avec “si”, cause et conséquence, nominalisation
-- Négations avancées, pronoms toniques, faux amis
-- Expressions et idiomes utiles
+
+-   Plus-que-parfait, conditionnel présent, subjonctif présent
+-   Conjonctions de coordination et subordination
+-   Pronoms relatifs, constructions à l’infinitif, voix passive
+-   Pronoms indéfinis, prépositions composées, discours indirect
+-   Prépositions de lieu, verbes impersonnels, passé récent
+-   Pronoms “y” et “en”, phrases avec “si”, cause et conséquence, nominalisation
+-   Négations avancées, pronoms toniques, faux amis
+-   Expressions et idiomes utiles
 
 ### Jours 91–120 (B2 – Points clés)
-- Conditionnel passé, subjonctif passé, futur antérieur
-- Passé simple, passé antérieur, révision des temps
-- Pronoms relatifs avancés, articles, usage de “y” et “en”
-- “Ne” explétif, pronoms démonstratifs, “C’est” vs “Il est”
-- Préfixes, suffixes, constructions avancées, ponctuation
-- Expressions et idiomes utiles
 
----
+-   Conditionnel passé, subjonctif passé, futur antérieur
+-   Passé simple, passé antérieur, révision des temps
+-   Pronoms relatifs avancés, articles, usage de “y” et “en”
+-   “Ne” explétif, pronoms démonstratifs, “C’est” vs “Il est”
+-   Préfixes, suffixes, constructions avancées, ponctuation
+-   Expressions et idiomes utiles
+
+------------------------------------------------------------------------
 
 ## 🔊 Prononciation
 
-- Sons français : É, È, Ê, Ë, Ç, AI, AN, AU, CH, EU, GN, H, ILL, Œ, OI, ON, OU, S, SS, SC, R, etc.
-- Pièges fréquents : Désert vs Dessert, Gâteau vs Cadeau, Cheveux vs Chevaux, etc.
-- Mots à travailler : roue, heureux, froid, grenouille, accueillir, écureuil, enseigner, feuille, etc.
+-   Sons français : É, È, Ê, Ë, Ç, AI, AN, AU, CH, EU, GN, H, ILL, Œ, OI, ON, OU, S, SS, SC, R, etc.
+-   Pièges fréquents : Désert vs Dessert, Gâteau vs Cadeau, Cheveux vs Chevaux, etc.
+-   Mots à travailler : roue, heureux, froid, grenouille, accueillir, écureuil, enseigner, feuille, etc.
 
----
+------------------------------------------------------------------------
 
 ## 🎧 Compréhension orale
 
-- **Histoires A1–B2** : situations du quotidien, voyages, travail, culture, etc.
+-   **Histoires A1–B2** : situations du quotidien, voyages, travail, culture, etc.
 
----
+------------------------------------------------------------------------
 
 ## 💬 Dialogues
 
-- **Niveaux A1–B2** : scénarios réels, de la boulangerie à la banque, du zoo au cinéma, etc.
+-   **Niveaux A1–B2** : scénarios réels, de la boulangerie à la banque, du zoo au cinéma, etc.
 
----
+------------------------------------------------------------------------
 
 ## 📝 Grammaire & Vocabulaire
 
-- **Confusions courantes** : Penser à vs Penser de, Bon vs Bien, Savoir vs Connaître, etc.
-- **Phrases du quotidien** : 20+ phrases pour les conversations de tous les jours.
-- **Argot français** : mots, expressions, abréviations, acronymes.
-- **Expressions idiomatiques** : Tomber dans les pommes, En faire tout un fromage, etc.
-- **Homophones** : accro/accroc, amande/amende, etc.
-- **Listes de vocabulaire** : animaux, pièces, instruments, etc.
-- **Sujets d’écriture** : entraînement à l’écrit créatif et pratique.
+-   **Confusions courantes** : Penser à vs Penser de, Bon vs Bien, Savoir vs Connaître, etc.
+-   **Phrases du quotidien** : 20+ phrases pour les conversations de tous les jours.
+-   **Argot français** : mots, expressions, abréviations, acronymes.
+-   **Expressions idiomatiques** : Tomber dans les pommes, En faire tout un fromage, etc.
+-   **Homophones** : accro/accroc, amande/amende, etc.
+-   **Listes de vocabulaire** : animaux, pièces, instruments, etc.
+-   **Sujets d’écriture** : entraînement à l’écrit créatif et pratique.
 
----
+------------------------------------------------------------------------
 
 ## 🇫🇷 Culture française
 
-- **Faits sur la France et la langue française**
-- **Proverbes et citations françaises**
-- **Médias français** : chansons, films, livres
-- **Expressions et façons de dire** : Bonjour, Merci, Oui, Non, etc.
+-   **Faits sur la France et la langue française**
+-   **Proverbes et citations françaises**
+-   **Médias français** : chansons, films, livres
+-   **Expressions et façons de dire** : Bonjour, Merci, Oui, Non, etc.
 
----
+------------------------------------------------------------------------
 
 ## 🔤 Verbes
 
-- **1er groupe** : Accepter, Acheter, Aider, etc.
-- **2e groupe** : Accomplir, Agir, Choisir, etc.
-- **3e groupe** : Accueillir, Admettre, Aller, etc.
+-   **1er groupe** : Accepter, Acheter, Aider, etc.
+-   **2e groupe** : Accomplir, Agir, Choisir, etc.
+-   **3e groupe** : Accueillir, Admettre, Aller, etc.
 
----
-
+------------------------------------------------------------------------
 :::

@@ -1,13 +1,7 @@
 {
   "listingMap": {
-    "dictation.qmd": [
-      "dictation/**/*/**.qmd"
-    ],
     "exercises.qmd": [
       "exercises/**/*/**.qmd"
-    ],
-    "listening.qmd": [
-      "listening/**/*.qmd"
     ],
     "posts.qmd": [
       "posts/**/*/**.qmd"

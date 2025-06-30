@@ -133,17 +133,17 @@ ul.task-list li input[type="checkbox"] {
  <span class="dropdown-text">Quiz</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../listening.html"><i class="bi bi-headphones" role="img">
+    <a class="dropdown-item" href="https://french-grammar-ai-a92ff913a503.herokuapp.com/listening-practice"><i class="bi bi-headphones" role="img">
 </i> 
  <span class="dropdown-text">Listening</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../reading.html"><i class="bi bi-book" role="img">
+    <a class="dropdown-item" href="https://french-grammar-ai-a92ff913a503.herokuapp.com/reading-practice"><i class="bi bi-book" role="img">
 </i> 
  <span class="dropdown-text">Reading</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../dictation.html"><i class="bi bi-pencil" role="img">
+    <a class="dropdown-item" href="https://french-grammar-ai-a92ff913a503.herokuapp.com/dictation-practice"><i class="bi bi-pencil" role="img">
 </i> 
  <span class="dropdown-text">Dictation</span></a>
   </li>  
@@ -236,9 +236,6 @@ ul.task-list li input[type="checkbox"] {
 </div>
       </div> <!-- /container-fluid -->
     </nav>
-  <div id="quarto-announcement" data-announcement-id="faaf25eb88a7f8075f439ba529324aa7" class="alert alert-success hidden"><i class="bi bi-info-circle quarto-announcement-icon"></i><div class="quarto-announcement-content">
-<p><strong>🎉 Exciting News!</strong> Join our <em>French Learning Community</em> and enjoy a <strong>FREE trial</strong>! 📘 Unlock <strong>exclusive resources</strong> <a href="https://frenchwithkunal.ca/posts/28042025/conver2.html">like this</a> to accelerate your learning: - <strong>Grammar tips</strong> to master the basics and nuances. - <strong>Listening exercises</strong> to enhance your comprehension. - <strong>Interactive activities</strong> to make learning fun and effective! 👉 Visit the <a href="https://frenchwithkunal.ca/payment.html">Subscription</a> page to learn more.</p>
-</div><i class="bi bi-x-lg quarto-announcement-action"></i></div>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
@@ -295,19 +292,19 @@ ul.task-list li input[type="checkbox"] {
 <ol type="1">
 <li><p>Je ___ (parler) français.<br>
 <select onchange="checkVerb(this, 'parle')"> <option value="">–Select–</option> <option value="parle">parle</option> <option value="parles">parles</option> <option value="parlons">parlons</option> </select><br>
-<span class="feedback"></span></p></li>
+</p></li>
 <li><p>Tu ___ (manger) une pomme.<br>
 <select onchange="checkVerb(this, 'manges')"> <option value="">–Select–</option> <option value="mange">mange</option> <option value="manges">manges</option> <option value="mangez">mangez</option> </select><br>
-<span class="feedback"></span></p></li>
+</p></li>
 <li><p>Il ___ (aimer) la musique.<br>
 <select onchange="checkVerb(this, 'aime')"> <option value="">–Select–</option> <option value="aime">aime</option> <option value="aimes">aimes</option> <option value="aimons">aimons</option> </select><br>
-<span class="feedback"></span></p></li>
+</p></li>
 <li><p>Nous ___ (danser) tous les soirs.<br>
 <select onchange="checkVerb(this, 'dansons')"> <option value="">–Select–</option> <option value="danse">danse</option> <option value="danses">danses</option> <option value="dansons">dansons</option> </select><br>
-<span class="feedback"></span></p></li>
+</p></li>
 <li><p>Vous ___ (écouter) la radio.<br>
 <select onchange="checkVerb(this, 'écoutez')"> <option value="">–Select–</option> <option value="écoute">écoute</option> <option value="écoutes">écoutes</option> <option value="écoutez">écoutez</option> </select><br>
-<span class="feedback"></span></p></li>
+</p></li>
 </ol>
 <hr>
 </section>
@@ -316,9 +313,9 @@ ul.task-list li input[type="checkbox"] {
 <p>Drag the verb to the correct subject.</p>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 21%">
-<col style="width: 46%">
-<col style="width: 31%">
+<col style="width: 25%">
+<col style="width: 44%">
+<col style="width: 30%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -355,12 +352,11 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 </tbody>
 </table>
-Drop here:<br>
-
+<p>Drop here:<br>
+</p>
 <div class="dropzone" ondrop="drop(event)" ondragover="allowDrop(event)">
 
 </div>
-<p><span class="feedback"></span></p>
 <hr>
 </section>
 <section id="sentence-building" class="level2">
@@ -372,15 +368,13 @@ Drop here:<br>
 <textarea placeholder="Nous..." rows="1" cols="30"></textarea>
 <button onclick="checkSentence(this.previousElementSibling, 'étudions')">
 <p>Check</p>
-</button>
-<p><span class="feedback"></span></p></li>
+</button></li>
 <li><p>(jouer) → Tu ___ au football.<br>
 </p>
 <textarea placeholder="Tu..." rows="1" cols="30"></textarea>
 <button onclick="checkSentence(this.previousElementSibling, 'joues')">
 <p>Check</p>
-</button>
-<p><span class="feedback"></span></p></li>
+</button></li>
 </ol>
 <hr>
 </section>
@@ -393,15 +387,13 @@ Drop here:<br>
 <textarea placeholder="Elle..." rows="1" cols="30"></textarea>
 <button onclick="checkTranslation(this.previousElementSibling, 'Elle mange une pizza.')">
 <p>Check</p>
-</button>
-<p><span class="feedback"></span></p></li>
+</button></li>
 <li><p>We watch a movie. → ___<br>
 </p>
 <textarea placeholder="Nous..." rows="1" cols="30"></textarea>
 <button onclick="checkTranslation(this.previousElementSibling, 'Nous regardons un film.')">
 <p>Check</p>
-</button>
-<p><span class="feedback"></span></p></li>
+</button></li>
 </ol>
 <hr>
 </section>
@@ -411,7 +403,7 @@ Drop here:<br>
 Example: <em>Je danse le weekend. J’écoute de la musique…</em></p>
 <textarea placeholder="Mes loisirs..." rows="5" cols="50"></textarea>
 <button onclick="highlightVerbs(this.previousElementSibling)">
-Highlight Verbs
+<p>Highlight Verbs</p>
 </button>
 <div class="feedback">
 

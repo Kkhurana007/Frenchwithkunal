@@ -7,7 +7,6 @@ image: "avoir.png"
 ---
 
 ::: {.content-visible when-profile="english"}
-
 # Exercise: Practicing the Verb "Avoir"
 
 Here are some exercises to practice conjugating the verb **aller** (to go) in French:
@@ -30,6 +29,7 @@ Here are some exercises to practice conjugating the verb **aller** (to go) in Fr
     -   Vous <input type="text" placeholder="Enter answer here" oninput="checkAnswer(this, 'avez eu')"> une surprise hier.
     -   Il/Elle <input type="text" placeholder="Enter answer here" oninput="checkAnswer(this, 'a eu')"> un problème avec son ordinateur.
 
+```{=html}
 <script>
 function checkAnswer(input, correctAnswer) {
     const userAnswer = input.value.trim().toLowerCase();
@@ -58,23 +58,35 @@ function checkAllAnswers() {
     });
 }
 </script>
-
+```
 
 3.  Translate the following sentences into French using the verb "avoir":
 
     -   I have a book.\
 
+        ```{=html}
         <textarea placeholder="Enter your translation here" rows="2" cols="50"></textarea>
-       
+        ```
 
     -   They have a dog.\
+
+        ```{=html}
         <textarea placeholder="Enter your translation here" rows="2" cols="50"></textarea>
+        ```
 
     -   We have a house.\
-        <textarea placeholder="Enter your translation here" rows="2" cols="50"></textarea
 
-    <button onclick="showAllTranslations()">Submit</button>
+        <textarea placeholder="Enter your translation here" rows="2" cols="50">
 
+        \</textarea
+
+    <button onclick="showAllTranslations()">
+
+    Submit
+
+    </button>
+
+```{=html}
 <script>
 
 function showAllTranslations() {
@@ -107,19 +119,22 @@ function showAllTranslations() {
     document.querySelector('button[onclick="showAllTranslations()"]').scrollIntoView({ behavior: 'smooth', block: 'center' });
 }
 </script>
-
+```
 
 4.  Write a short paragraph about what you and your friends have done recently using different forms of "avoir."
+
+    ```{=html}
     <textarea placeholder="Write your paragraph here" rows="5" cols="50"></textarea>
+    ```
 
     <button onclick="checkAllAnswers()">
+
     Check All Answers
+
     </button>
 :::
 
-
 ::: {.content-visible when-profile="french"}
-
 # Exercice : Pratiquer le verbe "Avoir"
 
 Voici quelques exercices pour pratiquer la conjugaison du verbe **avoir** en français :
@@ -142,6 +157,7 @@ Voici quelques exercices pour pratiquer la conjugaison du verbe **avoir** en fra
     -   Vous <input type="text" placeholder="Entrez la réponse ici" oninput="verifierReponse(this, 'avez eu')"> une surprise hier.
     -   Il/Elle <input type="text" placeholder="Entrez la réponse ici" oninput="verifierReponse(this, 'a eu')"> un problème avec son ordinateur.
 
+```{=html}
 <script>
 function verifierReponse(input, bonneReponse) {
     const reponseUtilisateur = input.value.trim().toLowerCase();
@@ -170,20 +186,35 @@ function verifierToutesReponses() {
     });
 }
 </script>
+```
 
 3.  Traduisez les phrases suivantes en français en utilisant le verbe "avoir" :
 
     -   J'ai un livre.\
+
+        ```{=html}
         <textarea placeholder="Écrivez votre traduction ici" rows="2" cols="50"></textarea>
+        ```
 
     -   Ils/Elles ont un chien.\
+
+        ```{=html}
         <textarea placeholder="Écrivez votre traduction ici" rows="2" cols="50"></textarea>
+        ```
 
     -   Nous avons une maison.\
+
+        ```{=html}
         <textarea placeholder="Écrivez votre traduction ici" rows="2" cols="50"></textarea>
+        ```
 
-    <button onclick="afficherToutesTraductions()">Valider</button>
+    <button onclick="afficherToutesTraductions()">
 
+    Valider
+
+    </button>
+
+```{=html}
 <script>
 function afficherToutesTraductions() {
     const traductions = [
@@ -212,12 +243,17 @@ function afficherToutesTraductions() {
     document.querySelector('button[onclick="afficherToutesTraductions()"]').scrollIntoView({ behavior: 'smooth', block: 'center' });
 }
 </script>
+```
 
 4.  Écrivez un court paragraphe sur ce que vous et vos amis avez fait récemment en utilisant différentes formes du verbe "avoir".
+
+    ```{=html}
     <textarea placeholder="Écrivez votre paragraphe ici" rows="5" cols="50"></textarea>
+    ```
 
     <button onclick="verifierToutesReponses()">
+
     Vérifier toutes les réponses
+
     </button>
-    
 :::

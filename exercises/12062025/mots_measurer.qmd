@@ -169,6 +169,7 @@ ReactDOM.render(
 );
  </script>
 ```
+
 ::: {.content-visible when-profile="english"}
 
 # Words for Measuring in French
