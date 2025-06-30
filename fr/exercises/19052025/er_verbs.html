@@ -141,7 +141,7 @@ ul.task-list li input[type="checkbox"] {
  <span class="dropdown-text">Compréhension Écrite</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../dictation.html"><i class="bi bi-pencil" role="img">
+    <a class="dropdown-item" href="https://french-grammar-ai-a92ff913a503.herokuapp.com/dictation-practice"><i class="bi bi-pencil" role="img">
 </i> 
  <span class="dropdown-text">Dictée</span></a>
   </li>  
@@ -290,19 +290,19 @@ ul.task-list li input[type="checkbox"] {
 <ol type="1">
 <li><p>Je ___ (parler) français.<br>
 <select onchange="checkVerb(this, 'parle')"> <option value="">–Sélectionner–</option> <option value="parle">parle</option> <option value="parles">parles</option> <option value="parlons">parlons</option> </select><br>
-<span class="feedback"></span></p></li>
+</p></li>
 <li><p>Tu ___ (manger) une pomme.<br>
 <select onchange="checkVerb(this, 'manges')"> <option value="">–Sélectionner–</option> <option value="mange">mange</option> <option value="manges">manges</option> <option value="mangez">mangez</option> </select><br>
-<span class="feedback"></span></p></li>
+</p></li>
 <li><p>Il ___ (aimer) la musique.<br>
 <select onchange="checkVerb(this, 'aime')"> <option value="">–Sélectionner–</option> <option value="aime">aime</option> <option value="aimes">aimes</option> <option value="aimons">aimons</option> </select><br>
-<span class="feedback"></span></p></li>
+</p></li>
 <li><p>Nous ___ (danser) tous les soirs.<br>
 <select onchange="checkVerb(this, 'dansons')"> <option value="">–Sélectionner–</option> <option value="danse">danse</option> <option value="danses">danses</option> <option value="dansons">dansons</option> </select><br>
-<span class="feedback"></span></p></li>
+</p></li>
 <li><p>Vous ___ (écouter) la radio.<br>
 <select onchange="checkVerb(this, 'écoutez')"> <option value="">–Sélectionner–</option> <option value="écoute">écoute</option> <option value="écoutes">écoutes</option> <option value="écoutez">écoutez</option> </select><br>
-<span class="feedback"></span></p></li>
+</p></li>
 </ol>
 <hr>
 </section>
@@ -311,9 +311,9 @@ ul.task-list li input[type="checkbox"] {
 <p>Faites glisser le verbe vers le sujet correct.</p>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 21%">
-<col style="width: 46%">
-<col style="width: 31%">
+<col style="width: 25%">
+<col style="width: 44%">
+<col style="width: 30%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -350,12 +350,11 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 </tbody>
 </table>
-Déposez ici :<br>
-
+<p>Déposez ici :<br>
+</p>
 <div class="dropzone" ondrop="drop(event)" ondragover="allowDrop(event)">
 
 </div>
-<p><span class="feedback"></span></p>
 <hr>
 </section>
 <section id="construisez-la-phrase" class="level2">
@@ -365,13 +364,19 @@ Déposez ici :<br>
 <li><p>(étudier) → Nous ___ pour l’examen.<br>
 </p>
 <textarea placeholder="Nous..." rows="1" cols="30"></textarea>
-<p><button onclick="checkSentence(this.previousElementSibling, 'étudions')">Vérifier</button><br>
-<span class="feedback"></span></p></li>
+<button onclick="checkSentence(this.previousElementSibling, 'étudions')">
+<p>Vérifier</p>
+</button>
+<p><br>
+</p></li>
 <li><p>(jouer) → Tu ___ au football.<br>
 </p>
 <textarea placeholder="Tu..." rows="1" cols="30"></textarea>
-<p><button onclick="checkSentence(this.previousElementSibling, 'joues')">Vérifier</button><br>
-<span class="feedback"></span></p></li>
+<button onclick="checkSentence(this.previousElementSibling, 'joues')">
+<p>Vérifier</p>
+</button>
+<p><br>
+</p></li>
 </ol>
 <hr>
 </section>
@@ -382,13 +387,19 @@ Déposez ici :<br>
 <li><p>Elle mange une pizza. → ___<br>
 </p>
 <textarea placeholder="Elle..." rows="1" cols="30"></textarea>
-<p><button onclick="checkTranslation(this.previousElementSibling, 'Elle mange une pizza.')">Vérifier</button><br>
-<span class="feedback"></span></p></li>
+<button onclick="checkTranslation(this.previousElementSibling, 'Elle mange une pizza.')">
+<p>Vérifier</p>
+</button>
+<p><br>
+</p></li>
 <li><p>Nous regardons un film. → ___<br>
 </p>
 <textarea placeholder="Nous..." rows="1" cols="30"></textarea>
-<p><button onclick="checkTranslation(this.previousElementSibling, 'Nous regardons un film.')">Vérifier</button><br>
-<span class="feedback"></span></p></li>
+<button onclick="checkTranslation(this.previousElementSibling, 'Nous regardons un film.')">
+<p>Vérifier</p>
+</button>
+<p><br>
+</p></li>
 </ol>
 <hr>
 </section>
@@ -398,7 +409,7 @@ Déposez ici :<br>
 Exemple : <em>Je danse le weekend. J’écoute de la musique…</em></p>
 <textarea placeholder="Mes loisirs..." rows="5" cols="50"></textarea>
 <button onclick="highlightVerbs(this.previousElementSibling)">
-Surligner les verbes
+<p>Surligner les verbes</p>
 </button>
 <div class="feedback">
 
