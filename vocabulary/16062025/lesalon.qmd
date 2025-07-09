@@ -7,66 +7,75 @@ image: "lesalon.png"
 ---
 
 ::: {.content-visible when-profile="english"}
-
 ### Exercise: French Living Room Nouns and Gender
 
 Practice the gender of French living room nouns and their articles.
 
 #### 1. Assign the correct definite article (*le/la/l'*) to each item:
 
-___ canapé (sofa) 🛋️ → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'le')"><span></span>
+\_\_\_ canapé (sofa) 🛋️ → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'le')">
 
-___ lampe (lamp) 💡 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'la')"><span></span>
+\_\_\_ lampe (lamp) 💡 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'la')">
 
-___ horloge (clock) 🕰️ → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'l\'')"><span></span>
+\_\_\_ horloge (clock) 🕰️ → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'l\'')">
 
-___ fauteuil (armchair) 🪑 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'le')"><span></span>
+\_\_\_ fauteuil (armchair) 🪑 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'le')">
 
-___ table basse (coffee table) 🛋️ → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'la')"><span></span>
+\_\_\_ table basse (coffee table) 🛋️ → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'la')">
 
-___ rideaux (curtains) 🪟 → <input type="text" placeholder="le/la/l'/les" oninput="checkAnswer(this, 'les')"><span></span>[(plural!)]{style="margin-left:10px;"}
+\_\_\_ rideaux (curtains) 🪟 → <input type="text" placeholder="le/la/l'/les" oninput="checkAnswer(this, 'les')">[(plural!)]{style="margin-left:10px;"}
 
-___ télévision (television) 📺 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'la')"><span></span>
+\_\_\_ télévision (television) 📺 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'la')">
 
-___ tapis (rug) 🏠 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'le')"><span></span>
+\_\_\_ tapis (rug) 🏠 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'le')">
 
 #### 2. Match the French term to its English equivalent:
 
-**"le coussin"** 🛋️ → <input type="text" placeholder="English" oninput="checkAnswer(this, 'cushion')"><span></span>
+**"le coussin"** 🛋️ → <input type="text" placeholder="English" oninput="checkAnswer(this, 'cushion')">
 
-**"la bibliothèque"** 📚 → <input type="text" placeholder="English" oninput="checkAnswer(this, 'bookcase')"><span></span>
+**"la bibliothèque"** 📚 → <input type="text" placeholder="English" oninput="checkAnswer(this, 'bookcase')">
 
-**"le tableau"** 🖼️ → <input type="text" placeholder="English" oninput="checkAnswer(this, 'painting')"><span></span>
+**"le tableau"** 🖼️ → <input type="text" placeholder="English" oninput="checkAnswer(this, 'painting')">
 
-**"les étagères"** 📚 → <input type="text" placeholder="English" oninput="checkAnswer(this, 'shelves')"><span></span>
+**"les étagères"** 📚 → <input type="text" placeholder="English" oninput="checkAnswer(this, 'shelves')">
 
 #### 3. Fill in the blanks with the correct term:
 
-"___ (The sofa) est confortable." 🛋️ → <input type="text" placeholder="French" oninput="checkAnswer(this, 'le canapé')"><span></span>
+"\_\_\_ (The sofa) est confortable." 🛋️ → <input type="text" placeholder="French" oninput="checkAnswer(this, 'le canapé')">
 
-"J’allume ___ (the lamp)." 💡 → <input type="text" placeholder="French" oninput="checkAnswer(this, 'la lampe')"><span></span>
+"J’allume \_\_\_ (the lamp)." 💡 → <input type="text" placeholder="French" oninput="checkAnswer(this, 'la lampe')">
 
-"Nous avons ___ (curtains) rouges." 🪟 → <input type="text" placeholder="French" oninput="checkAnswer(this, 'des rideaux')"><span></span>
+"Nous avons \_\_\_ (curtains) rouges." 🪟 → <input type="text" placeholder="French" oninput="checkAnswer(this, 'des rideaux')">
 
-"Il regarde ___ (the television)." 📺 → <input type="text" placeholder="French" oninput="checkAnswer(this, 'la télévision')"><span></span>
+"Il regarde \_\_\_ (the television)." 📺 → <input type="text" placeholder="French" oninput="checkAnswer(this, 'la télévision')">
 
-"Elle pose le livre sur ___ (the coffee table)." 🛋️ → <input type="text" placeholder="French" oninput="checkAnswer(this, 'la table basse')"><span></span>
+"Elle pose le livre sur \_\_\_ (the coffee table)." 🛋️ → <input type="text" placeholder="French" oninput="checkAnswer(this, 'la table basse')">
 
-"Je nettoie ___ (the rug)." 🏠 → <input type="text" placeholder="French" oninput="checkAnswer(this, 'le tapis')"><span></span>
+"Je nettoie \_\_\_ (the rug)." 🏠 → <input type="text" placeholder="French" oninput="checkAnswer(this, 'le tapis')">
 
-"Nous décorons ___ (the shelves)." 📚 → <input type="text" placeholder="French" oninput="checkAnswer(this, 'les étagères')"><span></span>
+"Nous décorons \_\_\_ (the shelves)." 📚 → <input type="text" placeholder="French" oninput="checkAnswer(this, 'les étagères')">
 
 #### 4. Correct the errors in gender/number:
 
-"Un lampe" 💡 → <input type="text" placeholder="Correct phrase" oninput="checkAnswer(this, 'une lampe')"><span></span>
+"Un lampe" 💡 → <input type="text" placeholder="Correct phrase" oninput="checkAnswer(this, 'une lampe')">
 
-"La canapé" 🛋️ → <input type="text" placeholder="Correct phrase" oninput="checkAnswer(this, 'le canapé')"><span></span>
+"La canapé" 🛋️ → <input type="text" placeholder="Correct phrase" oninput="checkAnswer(this, 'le canapé')">
 
-"Des coussin" 🛋️ → <input type="text" placeholder="Correct phrase" oninput="checkAnswer(this, 'des coussins')"><span></span>
+"Des coussin" 🛋️ → <input type="text" placeholder="Correct phrase" oninput="checkAnswer(this, 'des coussins')">
 
-<button onclick="showAnswers()">Show All Answers</button>
-<button onclick="refreshPage()">Refresh Page</button>
+<button onclick="showAnswers()">
 
+Show All Answers
+
+</button>
+
+<button onclick="refreshPage()">
+
+Refresh Page
+
+</button>
+
+```{=html}
 <script>
 function checkAnswer(input, correctAnswer) {
   const span = input.nextElementSibling;
@@ -93,18 +102,23 @@ function refreshPage() {
   location.reload();
 }
 </script>
+```
 
 #### 5. Translate into French (include articles!):
 
 "We sit on the sofa and watch television."\
 
+```{=html}
 <textarea placeholder="Nous..." rows="2" cols="50" oninput="checkTranslation(this, 'Nous nous asseyons sur le canapé et regardons la télévision')"></textarea>
+```
 
 "The lamp is on the coffee table."\
 
+```{=html}
 <textarea placeholder="La lampe..." rows="2" cols="50" oninput="checkTranslation(this, 'La lampe est sur la table basse')"></textarea>
+```
 
----
+------------------------------------------------------------------------
 
 ### Notes:
 
@@ -113,75 +127,89 @@ function refreshPage() {
 :::
 
 ::: {.content-visible when-profile="french"}
-
 ### Exercice : Vocabulaire du salon et genre des noms
 
 Entraînez-vous à utiliser le bon article et à associer les mots du salon en français.
 
 #### 1. Attribuez le bon article défini (*le/la/l'*) à chaque mot :
 
-___ canapé 🛋️ → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'le')"><span></span>
+\_\_\_ canapé 🛋️ → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'le')">
 
-___ lampe 💡 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'la')"><span></span>
+\_\_\_ lampe 💡 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'la')">
 
-___ horloge 🕰️ → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'l\'')"><span></span>
+\_\_\_ horloge 🕰️ → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'l\'')">
 
-___ fauteuil 🪑 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'le')"><span></span>
+\_\_\_ fauteuil 🪑 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'le')">
 
-___ table basse 🛋️ → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'la')"><span></span>
+\_\_\_ table basse 🛋️ → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'la')">
 
-___ rideaux 🪟 → <input type="text" placeholder="le/la/l'/les" oninput="checkAnswer(this, 'les')"><span></span>[(pluriel !)]{style="margin-left:10px;"}
+\_\_\_ rideaux 🪟 → <input type="text" placeholder="le/la/l'/les" oninput="checkAnswer(this, 'les')">[(pluriel !)]{style="margin-left:10px;"}
 
-___ télévision 📺 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'la')"><span></span>
+\_\_\_ télévision 📺 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'la')">
 
-___ tapis 🏠 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'le')"><span></span>
+\_\_\_ tapis 🏠 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'le')">
 
 #### 2. Associez chaque mot français à sa traduction anglaise :
 
-**"le coussin"** 🛋️ → <input type="text" placeholder="Anglais" oninput="checkAnswer(this, 'cushion')"><span></span>
+**"le coussin"** 🛋️ → <input type="text" placeholder="Anglais" oninput="checkAnswer(this, 'cushion')">
 
-**"la bibliothèque"** 📚 → <input type="text" placeholder="Anglais" oninput="checkAnswer(this, 'bookcase')"><span></span>
+**"la bibliothèque"** 📚 → <input type="text" placeholder="Anglais" oninput="checkAnswer(this, 'bookcase')">
 
-**"le tableau"** 🖼️ → <input type="text" placeholder="Anglais" oninput="checkAnswer(this, 'painting')"><span></span>
+**"le tableau"** 🖼️ → <input type="text" placeholder="Anglais" oninput="checkAnswer(this, 'painting')">
 
-**"les étagères"** 📚 → <input type="text" placeholder="Anglais" oninput="checkAnswer(this, 'shelves')"><span></span>
+**"les étagères"** 📚 → <input type="text" placeholder="Anglais" oninput="checkAnswer(this, 'shelves')">
 
 #### 3. Complétez avec le bon mot ou groupe de mots :
 
-"___ (Le canapé) est confortable." 🛋️ → <input type="text" placeholder="Français" oninput="checkAnswer(this, 'le canapé')"><span></span>
+"\_\_\_ (Le canapé) est confortable." 🛋️ → <input type="text" placeholder="Français" oninput="checkAnswer(this, 'le canapé')">
 
-"J’allume ___ (la lampe)." 💡 → <input type="text" placeholder="Français" oninput="checkAnswer(this, 'la lampe')"><span></span>
+"J’allume \_\_\_ (la lampe)." 💡 → <input type="text" placeholder="Français" oninput="checkAnswer(this, 'la lampe')">
 
-"Nous avons ___ (des rideaux) rouges." 🪟 → <input type="text" placeholder="Français" oninput="checkAnswer(this, 'des rideaux')"><span></span>
+"Nous avons \_\_\_ (des rideaux) rouges." 🪟 → <input type="text" placeholder="Français" oninput="checkAnswer(this, 'des rideaux')">
 
-"Il regarde ___ (la télévision)." 📺 → <input type="text" placeholder="Français" oninput="checkAnswer(this, 'la télévision')"><span></span>
+"Il regarde \_\_\_ (la télévision)." 📺 → <input type="text" placeholder="Français" oninput="checkAnswer(this, 'la télévision')">
 
-"Elle pose le livre sur ___ (la table basse)." 🛋️ → <input type="text" placeholder="Français" oninput="checkAnswer(this, 'la table basse')"><span></span>
+"Elle pose le livre sur \_\_\_ (la table basse)." 🛋️ → <input type="text" placeholder="Français" oninput="checkAnswer(this, 'la table basse')">
 
-"Je nettoie ___ (le tapis)." 🏠 → <input type="text" placeholder="Français" oninput="checkAnswer(this, 'le tapis')"><span></span>
+"Je nettoie \_\_\_ (le tapis)." 🏠 → <input type="text" placeholder="Français" oninput="checkAnswer(this, 'le tapis')">
 
-"Nous décorons ___ (les étagères)." 📚 → <input type="text" placeholder="Français" oninput="checkAnswer(this, 'les étagères')"><span></span>
+"Nous décorons \_\_\_ (les étagères)." 📚 → <input type="text" placeholder="Français" oninput="checkAnswer(this, 'les étagères')">
 
 #### 4. Corrigez les erreurs de genre ou de nombre :
 
-"Un lampe" 💡 → <input type="text" placeholder="Phrase correcte" oninput="checkAnswer(this, 'une lampe')"><span></span>
+"Un lampe" 💡 → <input type="text" placeholder="Phrase correcte" oninput="checkAnswer(this, 'une lampe')">
 
-"La canapé" 🛋️ → <input type="text" placeholder="Phrase correcte" oninput="checkAnswer(this, 'le canapé')"><span></span>
+"La canapé" 🛋️ → <input type="text" placeholder="Phrase correcte" oninput="checkAnswer(this, 'le canapé')">
 
-"Des coussin" 🛋️ → <input type="text" placeholder="Phrase correcte" oninput="checkAnswer(this, 'des coussins')"><span></span>
+"Des coussin" 🛋️ → <input type="text" placeholder="Phrase correcte" oninput="checkAnswer(this, 'des coussins')">
 
-<button onclick="showAnswers()">Afficher toutes les réponses</button>
-<button onclick="refreshPage()">Rafraîchir la page</button>
+<button onclick="showAnswers()">
+
+Afficher toutes les réponses
+
+</button>
+
+<button onclick="refreshPage()">
+
+Rafraîchir la page
+
+</button>
 
 #### 5. Traduisez en français (avec les articles !) :
 
 "We sit on the sofa and watch television."\
+
+```{=html}
 <textarea placeholder="Nous..." rows="2" cols="50" oninput="checkTranslation(this, 'Nous nous asseyons sur le canapé et regardons la télévision')"></textarea>
+```
 
 "The lamp is on the coffee table."\
-<textarea placeholder="La lampe..." rows="2" cols="50" oninput="checkTranslation(this, 'La lampe est sur la table basse')"></textarea>
 
----
+```{=html}
+<textarea placeholder="La lampe..." rows="2" cols="50" oninput="checkTranslation(this, 'La lampe est sur la table basse')"></textarea>
+```
+
+------------------------------------------------------------------------
 
 ### Notes :
 

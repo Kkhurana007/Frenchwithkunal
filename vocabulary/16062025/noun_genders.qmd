@@ -27,271 +27,238 @@ In French, noun genders often follow patterns based on their endings. **Don’t 
 -   **-ure**: *la culture* (culture), *la voiture* (car)\
 -   **-ée**: *la journée* (day), *la dictée* (dictation)
 
-------------------------------------------------------------------------
+---
 
-### Exercise 1: Masculine or Feminine?
+### Exercises
 
-Classify these nouns (use **le/la**):
+#### 1. Masculine or Feminine?
+Write "le" or "la" for each noun (type the correct article and noun in French):
 
-1.  \_\_\_ langage (language) →\
-    <input type="text" placeholder="le/la" oninput="checkAnswer(this, 'le')">
+1. "crab" → <input type="text" placeholder="French" oninput="checkAnswer(this, 'le crabe')"><span></span>
+2. "television" → <input type="text" placeholder="French" oninput="checkAnswer(this, 'la télévision')"><span></span>
+3. "cheese" → <input type="text" placeholder="French" oninput="checkAnswer(this, 'le fromage')"><span></span>
+4. "solution" → <input type="text" placeholder="French" oninput="checkAnswer(this, 'la solution')"><span></span>
+5. "tourism" → <input type="text" placeholder="French" oninput="checkAnswer(this, 'le tourisme')"><span></span>
+6. "freedom" → <input type="text" placeholder="French" oninput="checkAnswer(this, 'la liberté')"><span></span>
+7. "car" → <input type="text" placeholder="French" oninput="checkAnswer(this, 'la voiture')"><span></span>
+8. "message" → <input type="text" placeholder="French" oninput="checkAnswer(this, 'le message')"><span></span>
+9. "dictation" → <input type="text" placeholder="French" oninput="checkAnswer(this, 'la dictée')"><span></span>
+10. "capitalism" → <input type="text" placeholder="French" oninput="checkAnswer(this, 'le capitalisme')"><span></span>
+11. "health" → <input type="text" placeholder="French" oninput="checkAnswer(this, 'la santé')"><span></span>
+12. "trip" → <input type="text" placeholder="French" oninput="checkAnswer(this, 'le voyage')"><span></span>
+13. "culture" → <input type="text" placeholder="French" oninput="checkAnswer(this, 'la culture')"><span></span>
+14. "day" → <input type="text" placeholder="French" oninput="checkAnswer(this, 'la journée')"><span></span>
+15. "school" (middle school) → <input type="text" placeholder="French" oninput="checkAnswer(this, 'le collège')"><span></span>
+16. "nation" → <input type="text" placeholder="French" oninput="checkAnswer(this, 'la nation')"><span></span>
+17. "coffee" → <input type="text" placeholder="French" oninput="checkAnswer(this, 'le café')"><span></span>
+18. "beauty" → <input type="text" placeholder="French" oninput="checkAnswer(this, 'la beauté')"><span></span>
+19. "problem" → <input type="text" placeholder="French" oninput="checkAnswer(this, 'le problème')"><span></span>
+20. "beach" → <input type="text" placeholder="French" oninput="checkAnswer(this, 'la plage')"><span></span>
 
-2.  \_\_\_ liberté (freedom) →\
-    <input type="text" placeholder="le/la" oninput="checkAnswer(this, 'la')">
+#### 2. Correct the Mistakes
 
-3.  \_\_\_ optimisme (optimism) →\
-    <input type="text" placeholder="le/la" oninput="checkAnswer(this, 'le')">
+Correct the gender in these sentences (type the correct sentence in French):
 
-4.  \_\_\_ solution (solution) →\
-    <input type="text" placeholder="le/la" oninput="checkAnswer(this, 'la')">
+1. "La fromage est délicieux." → <input type="text" placeholder="Corrigez" oninput="checkAnswer(this, 'Le fromage est délicieux.')"><span></span>
+2. "Le liberté est importante." → <input type="text" placeholder="Corrigez" oninput="checkAnswer(this, 'La liberté est importante.')"><span></span>
+3. "Le culture est riche." → <input type="text" placeholder="Corrigez" oninput="checkAnswer(this, 'La culture est riche.')"><span></span>
+4. "La message est clair." → <input type="text" placeholder="Corrigez" oninput="checkAnswer(this, 'Le message est clair.')"><span></span>
+5. "Le télévision est grande." → <input type="text" placeholder="Corrigez" oninput="checkAnswer(this, 'La télévision est grande.')"><span></span>
+6. "La voyage est long." → <input type="text" placeholder="Corrigez" oninput="checkAnswer(this, 'Le voyage est long.')"><span></span>
+7. "Le solution est simple." → <input type="text" placeholder="Corrigez" oninput="checkAnswer(this, 'La solution est simple.')"><span></span>
+8. "La capitalisme est puissant." → <input type="text" placeholder="Corrigez" oninput="checkAnswer(this, 'Le capitalisme est puissant.')"><span></span>
+9. "Le beauté est éternelle." → <input type="text" placeholder="Corrigez" oninput="checkAnswer(this, 'La beauté est éternelle.')"><span></span>
+10. "La problème est difficile." → <input type="text" placeholder="Corrigez" oninput="checkAnswer(this, 'Le problème est difficile.')"><span></span>
 
-------------------------------------------------------------------------
+#### 3. Translate and Identify Gender
 
-### Exercise 2: Correct the Errors
+Translate and say if the noun is masculine (M) or feminine (F):
 
-1.  "La fromage est délicieux." →\
-    <input type="text" placeholder="Correct" oninput="checkAnswer(this, 'Le fromage est délicieux.')">
-
-2.  "Le liberté est importante." →\
-    <input type="text" placeholder="Correct" oninput="checkAnswer(this, 'La liberté est importante.')">
-
-------------------------------------------------------------------------
-
-### Exercise 3: Translate & Identify Gender
-
-1.  "The culture is rich." →\
-
-    ```{=html}
-    <textarea placeholder="..." rows="2" cols="50" oninput="checkTranslation(this, 'La culture est riche.')"></textarea>
-    ```
-
-    (Feminine/Masculine?) →\
-    <input type="text" placeholder="F/M" oninput="checkAnswer(this, 'F')">
-
-2.  "The message is clear." →\
-
-    ```{=html}
-    <textarea placeholder="..." rows="2" cols="50" oninput="checkTranslation(this, 'Le message est clair.')"></textarea>
-    ```
-
-    (F/M?) →\
-    <input type="text" placeholder="F/M" oninput="checkAnswer(this, 'M')">
-
-------------------------------------------------------------------------
-
-### Exercise 4: Writing Challenge
-
-**List 5 masculine nouns ending in -e** and **5 feminine nouns ending in -tion/-té**.
-
-Example:\
-- Masculine: *le musée* (museum), *le problème* (problem)...\
-- Feminine: *la situation*, *la beauté*...
-
-
-<textarea placeholder="Write here..." rows="4" cols="60"></textarea>
+1. "The culture is rich."  
+    <textarea placeholder="French translation" rows="2" cols="50" oninput="checkTranslation(this, 'La culture est riche.')"></textarea><span></span>  
+    (F/M?) <input type="text" placeholder="F/M" oninput="checkAnswer(this, 'F')"><span></span>
+2. "The message is clear."  
+    <textarea placeholder="French translation" rows="2" cols="50" oninput="checkTranslation(this, 'Le message est clair.')"></textarea><span></span>  
+    (F/M?) <input type="text" placeholder="F/M" oninput="checkAnswer(this, 'M')"><span></span>
+3. "The cheese is delicious."  
+    <textarea placeholder="French translation" rows="2" cols="50" oninput="checkTranslation(this, 'Le fromage est délicieux.')"></textarea><span></span>  
+    (F/M?) <input type="text" placeholder="F/M" oninput="checkAnswer(this, 'M')"><span></span>
+4. "The solution is simple."  
+    <textarea placeholder="French translation" rows="2" cols="50" oninput="checkTranslation(this, 'La solution est simple.')"></textarea><span></span>  
+    (F/M?) <input type="text" placeholder="F/M" oninput="checkAnswer(this, 'F')"><span></span>
+5. "The television is big."  
+    <textarea placeholder="French translation" rows="2" cols="50" oninput="checkTranslation(this, 'La télévision est grande.')"></textarea><span></span>  
+    (F/M?) <input type="text" placeholder="F/M" oninput="checkAnswer(this, 'F')"><span></span>
+6. "The trip is long."  
+    <textarea placeholder="French translation" rows="2" cols="50" oninput="checkTranslation(this, 'Le voyage est long.')"></textarea><span></span>  
+    (F/M?) <input type="text" placeholder="F/M" oninput="checkAnswer(this, 'M')"><span></span>
+7. "The freedom is important."  
+    <textarea placeholder="French translation" rows="2" cols="50" oninput="checkTranslation(this, 'La liberté est importante.')"></textarea><span></span>  
+    (F/M?) <input type="text" placeholder="F/M" oninput="checkAnswer(this, 'F')"><span></span>
+8. "The car is new."  
+    <textarea placeholder="French translation" rows="2" cols="50" oninput="checkTranslation(this, 'La voiture est neuve.')"></textarea><span></span>  
+    (F/M?) <input type="text" placeholder="F/M" oninput="checkAnswer(this, 'F')"><span></span>
+9. "The problem is difficult."  
+    <textarea placeholder="French translation" rows="2" cols="50" oninput="checkTranslation(this, 'Le problème est difficile.')"></textarea><span></span>  
+    (F/M?) <input type="text" placeholder="F/M" oninput="checkAnswer(this, 'M')"><span></span>
+10. "The beauty is eternal."  
+    <textarea placeholder="French translation" rows="2" cols="50" oninput="checkTranslation(this, 'La beauté est éternelle.')"></textarea><span></span>  
+    (F/M?) <input type="text" placeholder="F/M" oninput="checkAnswer(this, 'F')"><span></span>
 
 <button onclick="showAnswers()">Show Answers</button>
+<button onclick="refreshPage()">Refresh Page</button>
 
-<button onclick="checkAllAnswers()">Check Answers</button>
 
-<script>  
+#### 4. Writing Challenge
 
-function showAnswers() {  
-    document.querySelectorAll('input[type="text"]').forEach(input => {  
-        const correct = input.getAttribute('oninput').match(/'([^']+)'/)[1];  
-        input.value = correct;  
-        const feedback = input.nextElementSibling;  
-        feedback.textContent = "✓ Correct !";  
-        feedback.style.color = "green";  
-    });  
-}  
+List 5 masculine nouns ending in -e and 5 feminine nouns ending in -tion or -té.
 
-function checkAllAnswers() {  
-    document.querySelectorAll('input[type="text"]').forEach(input => {  
-        const correct = input.getAttribute('oninput').match(/'([^']+)'/)[1];  
-        checkAnswer(input, correct);  
-    });  
+<textarea placeholder="Write your answers here..." rows="5" cols="120"></textarea>
 
-    document.querySelectorAll('textarea').forEach(textarea => {  
-        const correct = textarea.getAttribute('oninput').match(/'([^']+)'/)[1];  
-        checkTranslation(textarea, correct);  
-    });  
-}  
-
-function checkAnswer(input, correctAnswer) {  
-    const feedback = input.nextElementSibling;  
-    if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {  
-        feedback.textContent = "✓ Correct !";  
-        feedback.style.color = "green";  
-    } else if (input.value.trim()) {  
-        feedback.textContent = "✗ Essayez encore !";  
-        feedback.style.color = "red";  
-    }  
-}  
-
-function checkTranslation(textarea, correctAnswer) {  
-    const feedback = textarea.nextElementSibling;  
-    if (textarea.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {  
-        feedback.textContent = "✓ Correct !";  
-        feedback.style.color = "green";  
-    } else if (textarea.value.trim()) {  
-        feedback.textContent = "✗ Essayez encore !";  
-        feedback.style.color = "red";  
-    }  
-}
-
-</script>
 
 :::
 
+
+
+
 ::: {.content-visible when-profile="french"}
+
 ### Explication :
 
 En français, le genre des noms suit souvent des règles selon leur terminaison. **Ne supposez pas qu’un nom est toujours féminin parce qu’il finit par -e !**
 
 #### 1. **Noms masculins terminés par -e** (Terminaisons courantes) :
 
-```         
+      
 - **-age** : *le voyage*, *le fromage*  
 - **-isme** : *le tourisme*, *le capitalisme*  
 - **-ège** : *le collège*  
 - **-é** : *le café*, *le lycée*  
 
 **Exceptions :** *la page*, *la plage*  
-```
+
 
 #### 2. **Terminaisons féminines** :
-
-```         
+        
 - **-tion/-sion** : *la nation*, *la télévision*  
 - **-té** : *la liberté*, *la santé*  
 - **-ure** : *la culture*, *la voiture*  
 - **-ée** : *la journée*, *la dictée*  
-```
 
-------------------------------------------------------------------------
 
-### Exercice 1 : Masculin ou Féminin ?
+---
 
-Classez ces noms (utilisez **le/la**) :
+### Exercices
 
-1.  \_\_\_ langage (langue) →\
-    <input type="text" placeholder="le/la" oninput="checkAnswer(this, 'le')">
+#### 1. Masculin ou féminin ?
+Écrivez « le » ou « la » pour chaque nom (tapez l’article et le nom corrects en français) :
 
-2.  \_\_\_ liberté (liberté) →\
-    <input type="text" placeholder="le/la" oninput="checkAnswer(this, 'la')">
+1. « crabe » → <input type="text" placeholder="Français" oninput="checkAnswer(this, 'le crabe')"><span></span>
+2. « télévision » → <input type="text" placeholder="Français" oninput="checkAnswer(this, 'la télévision')"><span></span>
+3. « fromage » → <input type="text" placeholder="Français" oninput="checkAnswer(this, 'le fromage')"><span></span>
+4. « solution » → <input type="text" placeholder="Français" oninput="checkAnswer(this, 'la solution')"><span></span>
+5. « tourisme » → <input type="text" placeholder="Français" oninput="checkAnswer(this, 'le tourisme')"><span></span>
+6. « liberté » → <input type="text" placeholder="Français" oninput="checkAnswer(this, 'la liberté')"><span></span>
+7. « voiture » → <input type="text" placeholder="Français" oninput="checkAnswer(this, 'la voiture')"><span></span>
+8. « message » → <input type="text" placeholder="Français" oninput="checkAnswer(this, 'le message')"><span></span>
+9. « dictée » → <input type="text" placeholder="Français" oninput="checkAnswer(this, 'la dictée')"><span></span>
+10. « capitalisme » → <input type="text" placeholder="Français" oninput="checkAnswer(this, 'le capitalisme')"><span></span>
+11. « santé » → <input type="text" placeholder="Français" oninput="checkAnswer(this, 'la santé')"><span></span>
+12. « voyage » → <input type="text" placeholder="Français" oninput="checkAnswer(this, 'le voyage')"><span></span>
+13. « culture » → <input type="text" placeholder="Français" oninput="checkAnswer(this, 'la culture')"><span></span>
+14. « journée » → <input type="text" placeholder="Français" oninput="checkAnswer(this, 'la journée')"><span></span>
+15. « collège » → <input type="text" placeholder="Français" oninput="checkAnswer(this, 'le collège')"><span></span>
+16. « nation » → <input type="text" placeholder="Français" oninput="checkAnswer(this, 'la nation')"><span></span>
+17. « café » → <input type="text" placeholder="Français" oninput="checkAnswer(this, 'le café')"><span></span>
+18. « beauté » → <input type="text" placeholder="Français" oninput="checkAnswer(this, 'la beauté')"><span></span>
+19. « problème » → <input type="text" placeholder="Français" oninput="checkAnswer(this, 'le problème')"><span></span>
+20. « plage » → <input type="text" placeholder="Français" oninput="checkAnswer(this, 'la plage')"><span></span>
 
-3.  \_\_\_ optimisme (optimisme) →\
-    <input type="text" placeholder="le/la" oninput="checkAnswer(this, 'le')">
+#### 2. Corrigez les erreurs
 
-4.  \_\_\_ solution (solution) →\
-    <input type="text" placeholder="le/la" oninput="checkAnswer(this, 'la')">
+Corrigez le genre dans ces phrases (tapez la phrase correcte en français) :
 
-------------------------------------------------------------------------
+1. « La fromage est délicieux. » → <input type="text" placeholder="Corrigez" oninput="checkAnswer(this, 'Le fromage est délicieux.')"><span></span>
+2. « Le liberté est importante. » → <input type="text" placeholder="Corrigez" oninput="checkAnswer(this, 'La liberté est importante.')"><span></span>
+3. « Le culture est riche. » → <input type="text" placeholder="Corrigez" oninput="checkAnswer(this, 'La culture est riche.')"><span></span>
+4. « La message est clair. » → <input type="text" placeholder="Corrigez" oninput="checkAnswer(this, 'Le message est clair.')"><span></span>
+5. « Le télévision est grande. » → <input type="text" placeholder="Corrigez" oninput="checkAnswer(this, 'La télévision est grande.')"><span></span>
+6. « La voyage est long. » → <input type="text" placeholder="Corrigez" oninput="checkAnswer(this, 'Le voyage est long.')"><span></span>
+7. « Le solution est simple. » → <input type="text" placeholder="Corrigez" oninput="checkAnswer(this, 'La solution est simple.')"><span></span>
+8. « La capitalisme est puissant. » → <input type="text" placeholder="Corrigez" oninput="checkAnswer(this, 'Le capitalisme est puissant.')"><span></span>
+9. « Le beauté est éternelle. » → <input type="text" placeholder="Corrigez" oninput="checkAnswer(this, 'La beauté est éternelle.')"><span></span>
+10. « La problème est difficile. » → <input type="text" placeholder="Corrigez" oninput="checkAnswer(this, 'Le problème est difficile.')"><span></span>
 
-### Exercice 2 : Corrigez les erreurs
+#### 3. Traduisez et indiquez le genre
 
-1.  "La fromage est délicieux." →\
-    <input type="text" placeholder="Corrigez" oninput="checkAnswer(this, 'Le fromage est délicieux.')">
+Traduisez et indiquez si le nom est masculin (M) ou féminin (F) :
 
-2.  "Le liberté est importante." →\
-    <input type="text" placeholder="Corrigez" oninput="checkAnswer(this, 'La liberté est importante.')">
+1. « La culture est riche. »  
+    <textarea placeholder="Traduction française" rows="2" cols="50" oninput="checkTranslation(this, 'La culture est riche.')"></textarea><span></span>  
+    (F/M ?) <input type="text" placeholder="F/M" oninput="checkAnswer(this, 'F')"><span></span>
+2. « Le message est clair. »  
+    <textarea placeholder="Traduction française" rows="2" cols="50" oninput="checkTranslation(this, 'Le message est clair.')"></textarea><span></span>  
+    (F/M ?) <input type="text" placeholder="F/M" oninput="checkAnswer(this, 'M')"><span></span>
+3. « Le fromage est délicieux. »  
+    <textarea placeholder="Traduction française" rows="2" cols="50" oninput="checkTranslation(this, 'Le fromage est délicieux.')"></textarea><span></span>  
+    (F/M ?) <input type="text" placeholder="F/M" oninput="checkAnswer(this, 'M')"><span></span>
+4. « La solution est simple. »  
+    <textarea placeholder="Traduction française" rows="2" cols="50" oninput="checkTranslation(this, 'La solution est simple.')"></textarea><span></span>  
+    (F/M ?) <input type="text" placeholder="F/M" oninput="checkAnswer(this, 'F')"><span></span>
+5. « La télévision est grande. »  
+    <textarea placeholder="Traduction française" rows="2" cols="50" oninput="checkTranslation(this, 'La télévision est grande.')"></textarea><span></span>  
+    (F/M ?) <input type="text" placeholder="F/M" oninput="checkAnswer(this, 'F')"><span></span>
+6. « Le voyage est long. »  
+    <textarea placeholder="Traduction française" rows="2" cols="50" oninput="checkTranslation(this, 'Le voyage est long.')"></textarea><span></span>  
+    (F/M ?) <input type="text" placeholder="F/M" oninput="checkAnswer(this, 'M')"><span></span>
+7. « La liberté est importante. »  
+    <textarea placeholder="Traduction française" rows="2" cols="50" oninput="checkTranslation(this, 'La liberté est importante.')"></textarea><span></span>  
+    (F/M ?) <input type="text" placeholder="F/M" oninput="checkAnswer(this, 'F')"><span></span>
+8. « La voiture est neuve. »  
+    <textarea placeholder="Traduction française" rows="2" cols="50" oninput="checkTranslation(this, 'La voiture est neuve.')"></textarea><span></span>  
+    (F/M ?) <input type="text" placeholder="F/M" oninput="checkAnswer(this, 'F')"><span></span>
+9. « Le problème est difficile. »  
+    <textarea placeholder="Traduction française" rows="2" cols="50" oninput="checkTranslation(this, 'Le problème est difficile.')"></textarea><span></span>  
+    (F/M ?) <input type="text" placeholder="F/M" oninput="checkAnswer(this, 'M')"><span></span>
+10. « La beauté est éternelle. »  
+    <textarea placeholder="Traduction française" rows="2" cols="50" oninput="checkTranslation(this, 'La beauté est éternelle.')"></textarea><span></span>  
+    (F/M ?) <input type="text" placeholder="F/M" oninput="checkAnswer(this, 'F')"><span></span>
 
-------------------------------------------------------------------------
+<button onclick="showAnswers()">Afficher les réponses</button>
+<button onclick="refreshPage()">Rafraîchir la page</button>
 
-### Exercice 3 : Traduisez et identifiez le genre
+#### 4. Défi d’écriture
 
-1.  "The culture is rich." →\
+Listez 5 noms masculins se terminant par -e et 5 noms féminins se terminant par -tion ou -té.
 
-    ```{=html}
-    <textarea placeholder="..." rows="2" cols="50" oninput="checkTranslation(this, 'La culture est riche.')"></textarea>
-    ```
+<textarea placeholder="Écrivez vos réponses ici..." rows="5" cols="120"></textarea>
 
-    (Feminine/Masculine?) →\
-    <input type="text" placeholder="F/M" oninput="checkAnswer(this, 'F')">
 
-2.  "The message is clear." →\
+:::
 
-    ```{=html}
-    <textarea placeholder="..." rows="2" cols="50" oninput="checkTranslation(this, 'Le message est clair.')"></textarea>
-    ```
-
-    (F/M?) →\
-    <input type="text" placeholder="F/M" oninput="checkAnswer(this, 'M')">
-
-------------------------------------------------------------------------
-
-### Exercice 4 : Défi d’écriture
-
-**Listez 5 noms masculins finissant par -e** et **5 noms féminins finissant par -tion/-té**.
-
-Exemple :\
-- Masculin : *le musée*, *le problème*...\
-- Féminin : *la situation*, *la beauté*...
-
-```{=html}
-<textarea placeholder="Écrivez ici..." rows="4" cols="60"></textarea>
-```
-
-<button onclick="showAnswers()">
-
-Afficher les réponses
-
-</button>
-
-<button onclick="checkAllAnswers()">
-
-Vérifier les réponses
-
-</button>
-
-```{=html}
-<script>  
-
-function showAnswers() {  
-    document.querySelectorAll('input[type="text"]').forEach(input => {  
-        const correct = input.getAttribute('oninput').match(/'([^']+)'/)[1];  
-        input.value = correct;  
-        const feedback = input.nextElementSibling;  
-        feedback.textContent = "✓ Correct !";  
-        feedback.style.color = "green";  
-    });  
-}  
-
-function checkAllAnswers() {  
-    document.querySelectorAll('input[type="text"]').forEach(input => {  
-        const correct = input.getAttribute('oninput').match(/'([^']+)'/)[1];  
-        checkAnswer(input, correct);  
-    });  
-
-    document.querySelectorAll('textarea').forEach(textarea => {  
-        const correct = textarea.getAttribute('oninput').match(/'([^']+)'/)[1];  
-        checkTranslation(textarea, correct);  
-    });  
-}  
-
-function checkAnswer(input, correctAnswer) {  
-    const feedback = input.nextElementSibling;  
-    if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {  
-        feedback.textContent = "✓ Correct !";  
-        feedback.style.color = "green";  
-    } else if (input.value.trim()) {  
-        feedback.textContent = "✗ Essayez encore !";  
-        feedback.style.color = "red";  
-    }  
-}  
-
-function checkTranslation(textarea, correctAnswer) {  
-    const feedback = textarea.nextElementSibling;  
-    if (textarea.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {  
-        feedback.textContent = "✓ Correct !";  
-        feedback.style.color = "green";  
-    } else if (textarea.value.trim()) {  
-        feedback.textContent = "✗ Essayez encore !";  
-        feedback.style.color = "red";  
-    }  
+<script>
+function checkAnswer(input, correctAnswer) {
+  const span = input.nextElementSibling;
+  if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
+    span.textContent = "✓ Correct";
+    span.style.color = "green";
+  } else {
+    span.textContent = "";
+  }
 }
 
+function showAnswers() {
+  document.querySelectorAll('input[type="text"]').forEach(el => {
+    const correct = el.getAttribute('oninput')?.match(/'([^']+)'/)?.[1];
+    if (correct) {
+      const span = el.nextElementSibling;
+      span.textContent = `Réponse : ${correct}`;
+      span.style.color = "blue";
+    }
+  });
+}
+
+function refreshPage() {
+  location.reload();
+}
 </script>
-```
-:::

@@ -7,166 +7,204 @@ image: "lescorps.png"
 ---
 
 ::: {.content-visible when-profile="english"}
-# Exercise: Les Parties du Corps (Body Parts)
 
-### 1. Label the Body Parts
+#### 1. Body Parts: Masculine or Feminine?
 
-**Drag the French words to the correct body part on the image:**\
-*(Simulated drag-and-drop with text feedback)*
+Write "le" or "la" for each noun (type the correct article and noun in French):
 
--   **Word Bank:**\
-    `la tête` \| `les yeux` \| `le nez` \| `la bouche` \| `l'oreille` (f) \| `la main` \| `le pied` \| `le bras` \| `la jambe`
+1. "head" → <input type="text" placeholder="French" oninput="checkAnswer(this, 'la tête')"><span></span>
+2. "arm" → <input type="text" placeholder="French" oninput="checkAnswer(this, 'le bras')"><span></span>
+3. "eye" → <input type="text" placeholder="French" oninput="checkAnswer(this, 'l\'œil')"><span></span>
+4. "mouth" → <input type="text" placeholder="French" oninput="checkAnswer(this, 'la bouche')"><span></span>
+5. "nose" → <input type="text" placeholder="French" oninput="checkAnswer(this, 'le nez')"><span></span>
+6. "hand" → <input type="text" placeholder="French" oninput="checkAnswer(this, 'la main')"><span></span>
+7. "ear" → <input type="text" placeholder="French" oninput="checkAnswer(this, 'l\'oreille')"><span></span>
+8. "leg" → <input type="text" placeholder="French" oninput="checkAnswer(this, 'la jambe')"><span></span>
+9. "foot" → <input type="text" placeholder="French" oninput="checkAnswer(this, 'le pied')"><span></span>
+10. "stomach" → <input type="text" placeholder="French" oninput="checkAnswer(this, 'le ventre')"><span></span>
+11. "back" → <input type="text" placeholder="French" oninput="checkAnswer(this, 'le dos')"><span></span>
+12. "shoulder" → <input type="text" placeholder="French" oninput="checkAnswer(this, 'l\'épaule')"><span></span>
+13. "finger" → <input type="text" placeholder="French" oninput="checkAnswer(this, 'le doigt')"><span></span>
+14. "knee" → <input type="text" placeholder="French" oninput="checkAnswer(this, 'le genou')"><span></span>
+15. "hair" → <input type="text" placeholder="French" oninput="checkAnswer(this, 'les cheveux')"><span></span>
+16. "face" → <input type="text" placeholder="French" oninput="checkAnswer(this, 'le visage')"><span></span>
+17. "tooth" → <input type="text" placeholder="French" oninput="checkAnswer(this, 'la dent')"><span></span>
+18. "tongue" → <input type="text" placeholder="French" oninput="checkAnswer(this, 'la langue')"><span></span>
+19. "neck" → <input type="text" placeholder="French" oninput="checkAnswer(this, 'le cou')"><span></span>
+20. "chin" → <input type="text" placeholder="French" oninput="checkAnswer(this, 'le menton')"><span></span>
 
-**Instructions:**\
-Match each word to its number on the image below:\
-1. <input type="text" placeholder="French word" oninput="checkAnswer(this, 'la tête')"> (head)\
-2. <input type="text" placeholder="French word" oninput="checkAnswer(this, 'les yeux')"> (eyes)\
-3. <input type="text" placeholder="French word" oninput="checkAnswer(this, 'le nez')"> (nose)\
-... *(add more as needed)*
+#### 2. Correct the Mistakes
 
-*(Note: In a real activity, you’d embed an image with numbered body parts.)*
+Correct the gender in these sentences (type the correct sentence in French):
 
-------------------------------------------------------------------------
+1. "Le tête est grande." → <input type="text" placeholder="Corrigez" style="width: 40em;" oninput="checkAnswer(this, 'La tête est grande.')"><span></span>
+2. "La bras est fort." → <input type="text" placeholder="Corrigez" style="width: 40em;" oninput="checkAnswer(this, 'Le bras est fort.')"><span></span>
+3. "Le bouche est rouge." → <input type="text" placeholder="Corrigez" style="width: 40em;" oninput="checkAnswer(this, 'La bouche est rouge.')"><span></span>
+4. "La nez est petit." → <input type="text" placeholder="Corrigez" style="width: 40em;" oninput="checkAnswer(this, 'Le nez est petit.')"><span></span>
+5. "Le main est propre." → <input type="text" placeholder="Corrigez" style="width: 40em;" oninput="checkAnswer(this, 'La main est propre.')"><span></span>
+6. "Le jambe est longue." → <input type="text" placeholder="Corrigez" style="width: 40em;" oninput="checkAnswer(this, 'La jambe est longue.')"><span></span>
+7. "La pied est sale." → <input type="text" placeholder="Corrigez" style="width: 40em;" oninput="checkAnswer(this, 'Le pied est sale.')"><span></span>
+8. "Le oreille est sensible." → <input type="text" placeholder="Corrigez" style="width: 40em;" oninput="checkAnswer(this, 'L\'oreille est sensible.')"><span></span>
+9. "La dos est droit." → <input type="text" placeholder="Corrigez" style="width: 40em;" oninput="checkAnswer(this, 'Le dos est droit.')"><span></span>
+10. "Le dent est blanche." → <input type="text" placeholder="Corrigez" style="width: 40em;" oninput="checkAnswer(this, 'La dent est blanche.')"><span></span>
 
-### 2. Fill in the Blanks
+#### 3. Translate and Identify Gender
 
-Complete the sentences with the correct body part in French:\
-- Je vois avec <input type="text" placeholder="?" oninput="checkAnswer(this, 'les yeux')">. (I see with my **.)\
-- J’écoute avec <input type="text" placeholder="?" oninput="checkAnswer(this, 'les oreilles')">. (I listen with my .)\
-- Je marche avec <input type="text" placeholder="?" oninput="checkAnswer(this, 'les pieds')">. (I walk with my __.)
+Translate and say if the noun is masculine (M) or feminine (F):
 
-------------------------------------------------------------------------
+1. "The hand is clean."  
+        <textarea placeholder="French translation" rows="2" cols="50" oninput="checkTranslation(this, 'La main est propre.')"></textarea><span></span>  
+        (F/M?) <input type="text" placeholder="F/M" oninput="checkAnswer(this, 'F')"><span></span>
+2. "The nose is small."  
+        <textarea placeholder="French translation" rows="2" cols="50" oninput="checkTranslation(this, 'Le nez est petit.')"></textarea><span></span>  
+        (F/M?) <input type="text" placeholder="F/M" oninput="checkAnswer(this, 'M')"><span></span>
+3. "The eyes are blue."  
+        <textarea placeholder="French translation" rows="2" cols="50" oninput="checkTranslation(this, 'Les yeux sont bleus.')"></textarea><span></span>  
+        (F/M?) <input type="text" placeholder="F/M" oninput="checkAnswer(this, 'M')"><span></span>
+4. "The mouth is red."  
+        <textarea placeholder="French translation" rows="2" cols="50" oninput="checkTranslation(this, 'La bouche est rouge.')"></textarea><span></span>  
+        (F/M?) <input type="text" placeholder="F/M" oninput="checkAnswer(this, 'F')"><span></span>
+5. "The arm is strong."  
+        <textarea placeholder="French translation" rows="2" cols="50" oninput="checkTranslation(this, 'Le bras est fort.')"></textarea><span></span>  
+        (F/M?) <input type="text" placeholder="F/M" oninput="checkAnswer(this, 'M')"><span></span>
+6. "The leg is long."  
+        <textarea placeholder="French translation" rows="2" cols="50" oninput="checkTranslation(this, 'La jambe est longue.')"></textarea><span></span>  
+        (F/M?) <input type="text" placeholder="F/M" oninput="checkAnswer(this, 'F')"><span></span>
+7. "The back is straight."  
+        <textarea placeholder="French translation" rows="2" cols="50" oninput="checkTranslation(this, 'Le dos est droit.')"></textarea><span></span>  
+        (F/M?) <input type="text" placeholder="F/M" oninput="checkAnswer(this, 'M')"><span></span>
+8. "The tooth is white."  
+        <textarea placeholder="French translation" rows="2" cols="50" oninput="checkTranslation(this, 'La dent est blanche.')"></textarea><span></span>  
+        (F/M?) <input type="text" placeholder="F/M" oninput="checkAnswer(this, 'F')"><span></span>
+9. "The ear is sensitive."  
+        <textarea placeholder="French translation" rows="2" cols="50" oninput="checkTranslation(this, 'L\'oreille est sensible.')"></textarea><span></span>  
+        (F/M?) <input type="text" placeholder="F/M" oninput="checkAnswer(this, 'F')"><span></span>
+10. "The face is round."  
+        <textarea placeholder="French translation" rows="2" cols="50" oninput="checkTranslation(this, 'Le visage est rond.')"></textarea><span></span>  
+        (F/M?) <input type="text" placeholder="F/M" oninput="checkAnswer(this, 'M')"><span></span>
 
-### 3. Singular or Plural?
+<button onclick="showAnswers()">Show Answers</button>
+<button onclick="refreshPage()">Refresh Page</button>
 
-Write the plural form of these body parts (most come in pairs!):\
-- *la main* → <input type="text" placeholder="?" oninput="checkAnswer(this, 'les mains')">\
-- *le pied* → <input type="text" placeholder="?" oninput="checkAnswer(this, 'les pieds')">\
-- *l’œil* → <input type="text" placeholder="?" oninput="checkAnswer(this, 'les yeux')"> *(irregular!)*
+#### 4. Writing Challenge
 
-------------------------------------------------------------------------
+List 5 masculine nouns for body parts and 5 feminine nouns for body parts.
 
-### 4. Creative Challenge ✍️
-
-**Describe a monster in French!** Use 5+ body parts and adjectives:\
-Example: *"Mon monstre a trois yeux, une grande bouche, et des longues jambes."*
-
-
-<textarea placeholder="Écrivez ici..." rows="4" cols="50"></textarea>
-
-
-<button onclick="giveFeedback()">Check My Work</button>
-
-<script>
-function checkAnswer(input, correctAnswer) {
-        const span = input.nextElementSibling;
-        if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
-                span.textContent = "✓ Correct";
-                span.style.color = "green";
-        } else {
-                span.textContent = "";
-        }
-}
-
-function showAnswers() {
-        document.querySelectorAll('input[type="text"]').forEach(el => {
-                const correct = el.getAttribute('oninput')?.match(/'([^']+)'/)?.[1];
-                if (correct) {
-                        const span = el.nextElementSibling;
-                        span.textContent = `Réponse : ${correct}`;
-                        span.style.color = "blue";
-                }
-        });
-}
-
-function refreshPage() {
-        location.reload();
-}
-</script>
+<textarea placeholder="Write your answers here..." rows="5" cols="120"></textarea>
 
 :::
 
 ::: {.content-visible when-profile="french"}
 
-# Exercice : Les Parties du Corps
+#### 1. Parties du corps : Masculin ou Féminin ?
 
-### 1. Nommez les parties du corps
-
-**Glissez les mots français sur la bonne partie du corps dans l’image :**\
-*(Glisser-déposer simulé avec retour visuel)*
-
--   **Banque de mots :**\
-    `la tête` \| `les yeux` \| `le nez` \| `la bouche` \| `l'oreille` (f) \| `la main` \| `le pied` \| `le bras` \| `la jambe`
-
-**Instructions :**\
-Associez chaque mot à son numéro sur l’image ci-dessous :\
-1. <input type="text" placeholder="Mot français" oninput="checkAnswer(this, 'la tête')"> (tête)\
-2. <input type="text" placeholder="Mot français" oninput="checkAnswer(this, 'les yeux')"> (yeux)\
-3. <input type="text" placeholder="Mot français" oninput="checkAnswer(this, 'le nez')"> (nez)\
-... *(ajoutez-en d’autres si besoin)*
-
-*(Remarque : dans une vraie activité, vous ajouteriez une image avec les parties numérotées.)*
-
-------------------------------------------------------------------------
-
-### 2. Complétez les phrases
-
-Complétez avec la bonne partie du corps en français :\
-- Je vois avec <input type="text" placeholder="?" oninput="checkAnswer(this, 'les yeux')">.\
-- J’écoute avec <input type="text" placeholder="?" oninput="checkAnswer(this, 'les oreilles')">.\
-- Je marche avec <input type="text" placeholder="?" oninput="checkAnswer(this, 'les pieds')">.
-
-------------------------------------------------------------------------
-
-### 3. Singulier ou pluriel ?
-
-Écrivez le pluriel de ces parties du corps (la plupart vont par deux !) :\
-- *la main* → <input type="text" placeholder="?" oninput="checkAnswer(this, 'les mains')">\
-- *le pied* → <input type="text" placeholder="?" oninput="checkAnswer(this, 'les pieds')">\
-- *l’œil* → <input type="text" placeholder="?" oninput="checkAnswer(this, 'les yeux')"> *(irrégulier !)*
+Écrivez "le" ou "la" pour chaque nom (tapez l'article et le nom corrects en français) :
 
 
-<button onclick="donnerRetour()">Vérifier</button>
+1. "head" → <input type="text" placeholder="French" oninput="checkAnswer(this, 'la tête')"><span></span>
+2. "arm" → <input type="text" placeholder="French" oninput="checkAnswer(this, 'le bras')"><span></span>
+3. "eye" → <input type="text" placeholder="French" oninput="checkAnswer(this, 'l\'œil')"><span></span>
+4. "mouth" → <input type="text" placeholder="French" oninput="checkAnswer(this, 'la bouche')"><span></span>
+5. "nose" → <input type="text" placeholder="French" oninput="checkAnswer(this, 'le nez')"><span></span>
+6. "hand" → <input type="text" placeholder="French" oninput="checkAnswer(this, 'la main')"><span></span>
+7. "ear" → <input type="text" placeholder="French" oninput="checkAnswer(this, 'l\'oreille')"><span></span>
+8. "leg" → <input type="text" placeholder="French" oninput="checkAnswer(this, 'la jambe')"><span></span>
+9. "foot" → <input type="text" placeholder="French" oninput="checkAnswer(this, 'le pied')"><span></span>
+10. "stomach" → <input type="text" placeholder="French" oninput="checkAnswer(this, 'le ventre')"><span></span>
+11. "back" → <input type="text" placeholder="French" oninput="checkAnswer(this, 'le dos')"><span></span>
+12. "shoulder" → <input type="text" placeholder="French" oninput="checkAnswer(this, 'l\'épaule')"><span></span>
+13. "finger" → <input type="text" placeholder="French" oninput="checkAnswer(this, 'le doigt')"><span></span>
+14. "knee" → <input type="text" placeholder="French" oninput="checkAnswer(this, 'le genou')"><span></span>
+15. "hair" → <input type="text" placeholder="French" oninput="checkAnswer(this, 'les cheveux')"><span></span>
+16. "face" → <input type="text" placeholder="French" oninput="checkAnswer(this, 'le visage')"><span></span>
+17. "tooth" → <input type="text" placeholder="French" oninput="checkAnswer(this, 'la dent')"><span></span>
+18. "tongue" → <input type="text" placeholder="French" oninput="checkAnswer(this, 'la langue')"><span></span>
+19. "neck" → <input type="text" placeholder="French" oninput="checkAnswer(this, 'le cou')"><span></span>
+20. "chin" → <input type="text" placeholder="French" oninput="checkAnswer(this, 'le menton')"><span></span>
+#### 2. Corrigez les erreurs
 
+Corrigez le genre dans ces phrases (tapez la phrase correcte en français) :
 
-------------------------------------------------------------------------
+1. "Le tête est grande." → <input type="text" placeholder="Corrigez" style="width: 40em;" oninput="checkAnswer(this, 'La tête est grande.')"><span></span>
+2. "La bras est fort." → <input type="text" placeholder="Corrigez" style="width: 40em;" oninput="checkAnswer(this, 'Le bras est fort.')"><span></span>
+3. "Le bouche est rouge." → <input type="text" placeholder="Corrigez" style="width: 40em;" oninput="checkAnswer(this, 'La bouche est rouge.')"><span></span>
+4. "La nez est petit." → <input type="text" placeholder="Corrigez" style="width: 40em;" oninput="checkAnswer(this, 'Le nez est petit.')"><span></span>
+5. "Le main est propre." → <input type="text" placeholder="Corrigez" style="width: 40em;" oninput="checkAnswer(this, 'La main est propre.')"><span></span>
+6. "Le jambe est longue." → <input type="text" placeholder="Corrigez" style="width: 40em;" oninput="checkAnswer(this, 'La jambe est longue.')"><span></span>
+7. "La pied est sale." → <input type="text" placeholder="Corrigez" style="width: 40em;" oninput="checkAnswer(this, 'Le pied est sale.')"><span></span>
+8. "Le oreille est sensible." → <input type="text" placeholder="Corrigez" style="width: 40em;" oninput="checkAnswer(this, 'L\'oreille est sensible.')"><span></span>
+9. "La dos est droit." → <input type="text" placeholder="Corrigez" style="width: 40em;" oninput="checkAnswer(this, 'Le dos est droit.')"><span></span>
+10. "Le dent est blanche." → <input type="text" placeholder="Corrigez" style="width: 40em;" oninput="checkAnswer(this, 'La dent est blanche.')"><span></span>
 
+#### 3. Traduisez et indiquez le genre
 
-### 4. Défi créatif ✍️
+Traduisez et dites si le nom est masculin (M) ou féminin (F) :
+1. "The hand is clean."  
+        <textarea placeholder="French translation" rows="2" cols="50" oninput="checkTranslation(this, 'La main est propre.')"></textarea><span></span>  
+        (F/M?) <input type="text" placeholder="F/M" oninput="checkAnswer(this, 'F')"><span></span>
+2. "The nose is small."  
+        <textarea placeholder="French translation" rows="2" cols="50" oninput="checkTranslation(this, 'Le nez est petit.')"></textarea><span></span>  
+        (F/M?) <input type="text" placeholder="F/M" oninput="checkAnswer(this, 'M')"><span></span>
+3. "The eyes are blue."  
+        <textarea placeholder="French translation" rows="2" cols="50" oninput="checkTranslation(this, 'Les yeux sont bleus.')"></textarea><span></span>  
+        (F/M?) <input type="text" placeholder="F/M" oninput="checkAnswer(this, 'M')"><span></span>
+4. "The mouth is red."  
+        <textarea placeholder="French translation" rows="2" cols="50" oninput="checkTranslation(this, 'La bouche est rouge.')"></textarea><span></span>  
+        (F/M?) <input type="text" placeholder="F/M" oninput="checkAnswer(this, 'F')"><span></span>
+5. "The arm is strong."  
+        <textarea placeholder="French translation" rows="2" cols="50" oninput="checkTranslation(this, 'Le bras est fort.')"></textarea><span></span>  
+        (F/M?) <input type="text" placeholder="F/M" oninput="checkAnswer(this, 'M')"><span></span>
+6. "The leg is long."  
+        <textarea placeholder="French translation" rows="2" cols="50" oninput="checkTranslation(this, 'La jambe est longue.')"></textarea><span></span>  
+        (F/M?) <input type="text" placeholder="F/M" oninput="checkAnswer(this, 'F')"><span></span>
+7. "The back is straight."  
+        <textarea placeholder="French translation" rows="2" cols="50" oninput="checkTranslation(this, 'Le dos est droit.')"></textarea><span></span>  
+        (F/M?) <input type="text" placeholder="F/M" oninput="checkAnswer(this, 'M')"><span></span>
+8. "The tooth is white."  
+        <textarea placeholder="French translation" rows="2" cols="50" oninput="checkTranslation(this, 'La dent est blanche.')"></textarea><span></span>  
+        (F/M?) <input type="text" placeholder="F/M" oninput="checkAnswer(this, 'F')"><span></span>
+9. "The ear is sensitive."  
+        <textarea placeholder="French translation" rows="2" cols="50" oninput="checkTranslation(this, 'L\'oreille est sensible.')"></textarea><span></span>  
+        (F/M?) <input type="text" placeholder="F/M" oninput="checkAnswer(this, 'F')"><span></span>
+10. "The face is round."  
+        <textarea placeholder="French translation" rows="2" cols="50" oninput="checkTranslation(this, 'Le visage est rond.')"></textarea><span></span>  
+        (F/M?) <input type="text" placeholder="F/M" oninput="checkAnswer(this, 'M')"><span></span>
 
-**Décrivez un monstre en français !** Utilisez au moins 5 parties du corps et des adjectifs :\
-Exemple : *« Mon monstre a trois yeux, une grande bouche et de longues jambes. »*
+<button onclick="showAnswers()">Afficher les réponses</button>
+<button onclick="refreshPage()">Rafraîchir la page</button>
 
+#### 4. Défi d'écriture
 
-<textarea placeholder="Écrivez ici..." rows="4" cols="100"></textarea>
+Listez 5 noms masculins pour les parties du corps et 5 noms féminins pour les parties du corps.
+
+<textarea placeholder="Écrivez vos réponses ici..." rows="5" cols="120"></textarea>
+
+:::
 
 
 <script>
-
 function checkAnswer(input, correctAnswer) {
-        const span = input.nextElementSibling;
-        if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
-                span.textContent = "✓ Correct";
-                span.style.color = "green";
-        } else {
-                span.textContent = "";
-        }
+  const span = input.nextElementSibling;
+  if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
+    span.textContent = "✓ Correct";
+    span.style.color = "green";
+  } else {
+    span.textContent = "";
+  }
 }
 
 function showAnswers() {
-        document.querySelectorAll('input[type="text"]').forEach(el => {
-                const correct = el.getAttribute('oninput')?.match(/'([^']+)'/)?.[1];
-                if (correct) {
-                        const span = el.nextElementSibling;
-                        span.textContent = `Réponse : ${correct}`;
-                        span.style.color = "blue";
-                }
-        });
+  document.querySelectorAll('input[type="text"]').forEach(el => {
+    const correct = el.getAttribute('oninput')?.match(/'([^']+)'/)?.[1];
+    if (correct) {
+      const span = el.nextElementSibling;
+      span.textContent = `Réponse : ${correct}`;
+      span.style.color = "blue";
+    }
+  });
 }
 
 function refreshPage() {
-        location.reload();
+  location.reload();
 }
 </script>
-
-:::

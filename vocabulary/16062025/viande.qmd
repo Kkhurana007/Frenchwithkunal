@@ -7,281 +7,204 @@ image: "viande.png"
 ---
 
 ::: {.content-visible when-profile="english"}
-### Exercise: French Meat Nouns and Gender
 
-Practice the gender of French meat-related nouns and their articles.
+#### 1. Stores & Places Vocabulary: Masculine, Feminine, or Plural?
 
-#### 1. Assign the correct definite article (*le/la/l'*) to each term:
+Write "le", "la", "l'", or "les" plus the French noun for each meat (type the correct article and noun in French):
 
-\_\_\_ aile de poulet (chicken wing) 🍗 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'l\'')">
+1. "chicken" 🍗 → <input type="text" placeholder="French" oninput="checkAnswer(this, 'le poulet')"><span></span>
+2. "turkey" 🦃 → <input type="text" placeholder="French" oninput="checkAnswer(this, 'la dinde')"><span></span>
+3. "beef" 🥩 → <input type="text" placeholder="French" oninput="checkAnswer(this, 'le bœuf')"><span></span>
+4. "pork" 🐖 → <input type="text" placeholder="French" oninput="checkAnswer(this, 'le porc')"><span></span>
+5. "ham" 🍖 → <input type="text" placeholder="French" oninput="checkAnswer(this, 'le jambon')"><span></span>
+6. "sausage" 🌭 → <input type="text" placeholder="French" oninput="checkAnswer(this, 'la saucisse')"><span></span>
+7. "duck" 🦆 → <input type="text" placeholder="French" oninput="checkAnswer(this, 'le canard')"><span></span>
+8. "veal" 🐄 → <input type="text" placeholder="French" oninput="checkAnswer(this, 'le veau')"><span></span>
+9. "lamb" 🐑 → <input type="text" placeholder="French" oninput="checkAnswer(this, 'l\'agneau')"><span></span>
+10. "bacon" 🥓 → <input type="text" placeholder="French" oninput="checkAnswer(this, 'le bacon')"><span></span>
+11. "snails" 🐌 → <input type="text" placeholder="French" oninput="checkAnswer(this, 'les escargots')"><span></span>
+12. "meats" 🥩 → <input type="text" placeholder="French" oninput="checkAnswer(this, 'les viandes')"><span></span>
 
-\_\_\_ agneau (lamb) 🐑 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'l\'')">
+#### 2. Correct the Mistakes
 
-\_\_\_ bacon 🥓 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'le')">
+Correct the gender/number in these sentences (type the correct sentence in French):
 
-\_\_\_ blanc de poulet (chicken breast) 🍗 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'le')">
-
-\_\_\_ escargot (snail) 🐌 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'l\'')">
-
-\_\_\_ foie (liver) 🍖 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'le')">
-
-\_\_\_ dinde (turkey) 🦃 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'la')">
-
-\_\_\_ veau (veal) 🐄 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'le')">
-
-#### 2. Match the French term to its English equivalent:
-
-**"le jambon"** 🍖 → <input type="text" placeholder="English" oninput="checkAnswer(this, 'ham')">
-
-**"la saucisse"** 🌭 → <input type="text" placeholder="English" oninput="checkAnswer(this, 'sausage')">
-
-**"le jaune d’œuf"** 🥚 → <input type="text" placeholder="English" oninput="checkAnswer(this, 'egg yolk')">
-
-**"les viandes maigres"** 🥩 → <input type="text" placeholder="English" oninput="checkAnswer(this, 'lean meats')">
-
-#### 3. Fill in the blanks with the correct term:
-
-"\_\_\_ (The beef) est tendre." 🥩 → <input type="text" placeholder="French" oninput="checkAnswer(this, 'le bœuf')">
-
-"Je cuisine \_\_\_ (duck) à l’orange." 🦆 → <input type="text" placeholder="French" oninput="checkAnswer(this, 'le canard')">
-
-"\_\_\_ (The pork) est populaire en Allemagne." 🐖 → <input type="text" placeholder="French" oninput="checkAnswer(this, 'le porc')">
-
-#### 4. Correct the errors in gender/number:
-
-"Une hamburger" 🍔 → <input type="text" placeholder="Correct phrase" oninput="checkAnswer(this, 'un hamburger')">
-
-"La bœuf" 🥩 → <input type="text" placeholder="Correct phrase" oninput="checkAnswer(this, 'le bœuf')">
-
-"Des saucisse" 🌭 → <input type="text" placeholder="Correct phrase" oninput="checkAnswer(this, 'des saucisses')">
-
-<button onclick="showAnswers()">Show All Answers</button>
+1. "La poulet est délicieux." → <input type="text" placeholder="Corrigez" style="width: 40em;" oninput="checkAnswer(this, 'Le poulet est délicieux.')"><span></span>
+2. "Un dinde est grande." → <input type="text" placeholder="Corrigez" style="width: 40em;" oninput="checkAnswer(this, 'Une dinde est grande.')"><span></span>
+3. "Des saucisse sont épicées." → <input type="text" placeholder="Corrigez" style="width: 40em;" oninput="checkAnswer(this, 'Des saucisses sont épicées.')"><span></span>
+4. "La bœuf est tendre." → <input type="text" placeholder="Corrigez" style="width: 40em;" oninput="checkAnswer(this, 'Le bœuf est tendre.')"><span></span>
+5. "Une jambon est salé." → <input type="text" placeholder="Corrigez" style="width: 40em;" oninput="checkAnswer(this, 'Un jambon est salé.')"><span></span>
+6. "Le saucisse est grillé." → <input type="text" placeholder="Corrigez" style="width: 40em;" oninput="checkAnswer(this, 'La saucisse est grillée.')"><span></span>
+7. "La canard est rôti." → <input type="text" placeholder="Corrigez" style="width: 40em;" oninput="checkAnswer(this, 'Le canard est rôti.')"><span></span>
+8. "Le escargots sont délicieux." → <input type="text" placeholder="Corrigez" style="width: 40em;" oninput="checkAnswer(this, 'Les escargots sont délicieux.')"><span></span>
 
 
-<script>  
-function showAnswers() {  
-    document.querySelectorAll('input[type="text"]').forEach(input => {  
-        const correct = input.getAttribute('oninput').match(/'([^']+)'/)[1];  
-        input.value = correct;  
-        const feedback = input.nextElementSibling;  
-        feedback.textContent = "✓ Correct!";  
-        feedback.style.color = "green";  
-    });  
-}  
+#### 3. Translate and Identify Gender
 
-function refreshPage() {  
-    location.reload();  
-}  
-</script>
+Translate and say if the noun is masculine (M), feminine (F), or plural (P):
 
+1. "The chicken is delicious."
+<textarea placeholder="French translation" rows="1" cols="50" oninput="checkTranslation(this, 'Le poulet est délicieux.')"></textarea><span></span>
+(F/M/P?) <input type="text" placeholder="F/M/P" oninput="checkAnswer(this, 'M')"><span></span>
+2. "The sausages are spicy."
+<textarea placeholder="French translation" rows="1" cols="50" oninput="checkTranslation(this, 'Les saucisses sont épicées.')"></textarea><span></span>
+(F/M/P?) <input type="text" placeholder="F/M/P" oninput="checkAnswer(this, 'P')"><span></span>
+3. "The ham is salty."
+<textarea placeholder="French translation" rows="1" cols="50" oninput="checkTranslation(this, 'Le jambon est salé.')"></textarea><span></span>
+(F/M/P?) <input type="text" placeholder="F/M/P" oninput="checkAnswer(this, 'M')"><span></span>
+4. "The turkey is big."
+<textarea placeholder="French translation" rows="1" cols="50" oninput="checkTranslation(this, 'La dinde est grande.')"></textarea><span></span>
+(F/M/P?) <input type="text" placeholder="F/M/P" oninput="checkAnswer(this, 'F')"><span></span>
+5. "The meats are varied."
+<textarea placeholder="French translation" rows="1" cols="50" oninput="checkTranslation(this, 'Les viandes sont variées.')"></textarea><span></span>
+(F/M/P?) <input type="text" placeholder="F/M/P" oninput="checkAnswer(this, 'P')"><span></span>
+6. "The beef is tender."
+<textarea placeholder="French translation" rows="1" cols="50" oninput="checkTranslation(this, 'Le bœuf est tendre.')"></textarea><span></span>
+(F/M/P?) <input type="text" placeholder="F/M/P" oninput="checkAnswer(this, 'M')"><span></span>
+7. "The duck is roasted."
+<textarea placeholder="French translation" rows="1" cols="50" oninput="checkTranslation(this, 'Le canard est rôti.')"></textarea><span></span>
+(F/M/P?) <input type="text" placeholder="F/M/P" oninput="checkAnswer(this, 'M')"><span></span>
+8. "The snails are delicious."
+<textarea placeholder="French translation" rows="1" cols="50" oninput="checkTranslation(this, 'Les escargots sont délicieux.')"></textarea><span></span>
+(F/M/P?) <input type="text" placeholder="F/M/P" oninput="checkAnswer(this, 'P')"><span></span>
+9. "The lamb is expensive."
+<textarea placeholder="French translation" rows="1" cols="50" oninput="checkTranslation(this, 'L\'agneau est cher.')"></textarea><span></span>
+(F/M/P?) <input type="text" placeholder="F/M/P" oninput="checkAnswer(this, 'M')"><span></span>
+10. "The bacon is crispy."
+<textarea placeholder="French translation" rows="1" cols="50" oninput="checkTranslation(this, 'Le bacon est croustillant.')"></textarea><span></span>
+(F/M/P?) <input type="text" placeholder="F/M/P" oninput="checkAnswer(this, 'M')"><span></span>
 
+<button onclick="showAnswers()">Show Answers</button>
 <button onclick="refreshPage()">Refresh Page</button>
 
-#### 5. Translate into French (include articles/partitives!):
+#### 4. Writing Challenge
 
-"I eat chicken with rice."\
+List 5 masculine and 5 feminine places or stores (in French, with articles).
 
-```{=html}
-<textarea placeholder="Je mange..." rows="2" cols="50" oninput="checkTranslation(this, 'Je mange du poulet avec du riz')"></textarea>
-```
+<textarea placeholder="Write your answers here..." rows="5" cols="120"></textarea>
 
-"She prefers egg whites for breakfast."\
 
-```{=html}
-<textarea placeholder="Elle préfère..." rows="2" cols="50" oninput="checkTranslation(this, 'Elle préfère les blancs d’œufs pour le petit-déjeuner')"></textarea>
-```
+#### Notes:
 
-<button onclick="checkAllAnswers()">Check Answers</button>
+Gender hints: Most meats are masculine (le poulet, le bœuf, le porc, le jambon, le canard), but some are feminine (la dinde, la saucisse, la viande). Plurals use "les".
 
-```{=html}
-<script>  
-function checkAnswer(input, correctAnswer) {  
-    const feedback = input.nextElementSibling;  
-    if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {  
-        feedback.textContent = "✓ Correct!";  
-        feedback.style.color = "green";  
-    } else if (input.value.trim()) {  
-        feedback.textContent = "✗ Try again!";  
-        feedback.style.color = "red";  
-    }  
-}  
+Partitives: Use "du/de la/des" for "some" (du poulet, de la dinde, des saucisses).
 
-function checkAllAnswers() {  
-    document.querySelectorAll('input[type="text"]').forEach(input => {  
-        const correct = input.getAttribute('oninput').match(/'([^']+)'/)[1];  
-        checkAnswer(input, correct);  
-    });  
+Plural alert: Les saucisses (sausages), les viandes (meats), les escargots (snails) are plural.
 
-    document.querySelectorAll('textarea').forEach(textarea => {  
-        const correct = textarea.getAttribute('oninput').match(/'([^']+)'/)[1];  
-        checkTranslation(textarea, correct);  
-    });  
-}  
-
-function checkTranslation(textarea, correctAnswer) {  
-    const feedback = textarea.nextElementSibling;  
-    if (textarea.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {  
-        feedback.textContent = "✓ Correct!";  
-        feedback.style.color = "green";  
-    } else if (textarea.value.trim()) {  
-        feedback.textContent = "✗ Try again!";  
-        feedback.style.color = "red";  
-    }  
-}  
-</script>
-```
-
-------------------------------------------------------------------------
-
-### Notes:
-
--   **Gender hints**: Most meat terms are masculine (*le porc, le steak*), but exceptions include *la dinde* (turkey) and *la viande* (meat).\
--   **Partitives**: Use *du/de la/des* for "some" (*du poulet*, *de la dinde*).\
--   **Plural alert**: *Les escargots* (snails) and *les saucisses* (sausages) are plural.
 :::
+
 
 ::: {.content-visible when-profile="french"}
-### Exercice : Noms de viandes en français et leur genre
 
-Entraînez-vous à utiliser le bon article et à traduire les noms de viandes en français.
+#### 1. Vocabulaire des magasins & lieux : Masculin, Féminin ou Pluriel ?
 
-#### 1. Attribuez le bon article défini (*le/la/l'*) à chaque terme :
+Écris "le", "la", "l'" ou "les" suivi du nom français pour chaque viande (écris l'article et le nom corrects en français) :
 
-\_\_\_ aile de poulet (chicken wing) 🍗 → <input type="text" placeholder="le/la/l'" oninput="verifierReponse(this, 'l\'')">
+1. "chicken" 🍗 → <input type="text" placeholder="French" oninput="checkAnswer(this, 'le poulet')"><span></span>
+2. "turkey" 🦃 → <input type="text" placeholder="French" oninput="checkAnswer(this, 'la dinde')"><span></span>
+3. "beef" 🥩 → <input type="text" placeholder="French" oninput="checkAnswer(this, 'le bœuf')"><span></span>
+4. "pork" 🐖 → <input type="text" placeholder="French" oninput="checkAnswer(this, 'le porc')"><span></span>
+5. "ham" 🍖 → <input type="text" placeholder="French" oninput="checkAnswer(this, 'le jambon')"><span></span>
+6. "sausage" 🌭 → <input type="text" placeholder="French" oninput="checkAnswer(this, 'la saucisse')"><span></span>
+7. "duck" 🦆 → <input type="text" placeholder="French" oninput="checkAnswer(this, 'le canard')"><span></span>
+8. "veal" 🐄 → <input type="text" placeholder="French" oninput="checkAnswer(this, 'le veau')"><span></span>
+9. "lamb" 🐑 → <input type="text" placeholder="French" oninput="checkAnswer(this, 'l\'agneau')"><span></span>
+10. "bacon" 🥓 → <input type="text" placeholder="French" oninput="checkAnswer(this, 'le bacon')"><span></span>
+11. "snails" 🐌 → <input type="text" placeholder="French" oninput="checkAnswer(this, 'les escargots')"><span></span>
+12. "meats" 🥩 → <input type="text" placeholder="French" oninput="checkAnswer(this, 'les viandes')"><span></span>
 
-\_\_\_ agneau (lamb) 🐑 → <input type="text" placeholder="le/la/l'" oninput="verifierReponse(this, 'l\'')">
+#### 2. Corrige les erreurs
 
-\_\_\_ bacon 🥓 → <input type="text" placeholder="le/la/l'" oninput="verifierReponse(this, 'le')">
+Corrige le genre/nombre dans ces phrases (écris la phrase correcte en français) :
 
-\_\_\_ blanc de poulet (chicken breast) 🍗 → <input type="text" placeholder="le/la/l'" oninput="verifierReponse(this, 'le')">
+1. "La poulet est délicieux." → <input type="text" placeholder="Corrigez" style="width: 40em;" oninput="checkAnswer(this, 'Le poulet est délicieux.')"><span></span>
+2. "Un dinde est grande." → <input type="text" placeholder="Corrigez" style="width: 40em;" oninput="checkAnswer(this, 'Une dinde est grande.')"><span></span>
+3. "Des saucisse sont épicées." → <input type="text" placeholder="Corrigez" style="width: 40em;" oninput="checkAnswer(this, 'Des saucisses sont épicées.')"><span></span>
+4. "La bœuf est tendre." → <input type="text" placeholder="Corrigez" style="width: 40em;" oninput="checkAnswer(this, 'Le bœuf est tendre.')"><span></span>
+5. "Une jambon est salé." → <input type="text" placeholder="Corrigez" style="width: 40em;" oninput="checkAnswer(this, 'Un jambon est salé.')"><span></span>
+6. "Le saucisse est grillé." → <input type="text" placeholder="Corrigez" style="width: 40em;" oninput="checkAnswer(this, 'La saucisse est grillée.')"><span></span>
+7. "La canard est rôti." → <input type="text" placeholder="Corrigez" style="width: 40em;" oninput="checkAnswer(this, 'Le canard est rôti.')"><span></span>
+8. "Le escargots sont délicieux." → <input type="text" placeholder="Corrigez" style="width: 40em;" oninput="checkAnswer(this, 'Les escargots sont délicieux.')"><span></span>
 
-\_\_\_ escargot (snail) 🐌 → <input type="text" placeholder="le/la/l'" oninput="verifierReponse(this, 'l\'')">
+#### 3. Traduire et identifier le genre
 
-\_\_\_ foie (liver) 🍖 → <input type="text" placeholder="le/la/l'" oninput="verifierReponse(this, 'le')">
+Traduis et indique si le nom est masculin (M), féminin (F) ou pluriel (P) :
 
-\_\_\_ dinde (turkey) 🦃 → <input type="text" placeholder="le/la/l'" oninput="verifierReponse(this, 'la')">
+1. "The chicken is delicious."
+<textarea placeholder="French translation" rows="1" cols="50" oninput="checkTranslation(this, 'Le poulet est délicieux.')"></textarea><span></span>
+(F/M/P?) <input type="text" placeholder="F/M/P" oninput="checkAnswer(this, 'M')"><span></span>
+2. "The sausages are spicy."
+<textarea placeholder="French translation" rows="1" cols="50" oninput="checkTranslation(this, 'Les saucisses sont épicées.')"></textarea><span></span>
+(F/M/P?) <input type="text" placeholder="F/M/P" oninput="checkAnswer(this, 'P')"><span></span>
+3. "The ham is salty."
+<textarea placeholder="French translation" rows="1" cols="50" oninput="checkTranslation(this, 'Le jambon est salé.')"></textarea><span></span>
+(F/M/P?) <input type="text" placeholder="F/M/P" oninput="checkAnswer(this, 'M')"><span></span>
+4. "The turkey is big."
+<textarea placeholder="French translation" rows="1" cols="50" oninput="checkTranslation(this, 'La dinde est grande.')"></textarea><span></span>
+(F/M/P?) <input type="text" placeholder="F/M/P" oninput="checkAnswer(this, 'F')"><span></span>
+5. "The meats are varied."
+<textarea placeholder="French translation" rows="1" cols="50" oninput="checkTranslation(this, 'Les viandes sont variées.')"></textarea><span></span>
+(F/M/P?) <input type="text" placeholder="F/M/P" oninput="checkAnswer(this, 'P')"><span></span>
+6. "The beef is tender."
+<textarea placeholder="French translation" rows="1" cols="50" oninput="checkTranslation(this, 'Le bœuf est tendre.')"></textarea><span></span>
+(F/M/P?) <input type="text" placeholder="F/M/P" oninput="checkAnswer(this, 'M')"><span></span>
+7. "The duck is roasted."
+<textarea placeholder="French translation" rows="1" cols="50" oninput="checkTranslation(this, 'Le canard est rôti.')"></textarea><span></span>
+(F/M/P?) <input type="text" placeholder="F/M/P" oninput="checkAnswer(this, 'M')"><span></span>
+8. "The snails are delicious."
+<textarea placeholder="French translation" rows="1" cols="50" oninput="checkTranslation(this, 'Les escargots sont délicieux.')"></textarea><span></span>
+(F/M/P?) <input type="text" placeholder="F/M/P" oninput="checkAnswer(this, 'P')"><span></span>
+9. "The lamb is expensive."
+<textarea placeholder="French translation" rows="1" cols="50" oninput="checkTranslation(this, 'L\'agneau est cher.')"></textarea><span></span>
+(F/M/P?) <input type="text" placeholder="F/M/P" oninput="checkAnswer(this, 'M')"><span></span>
+10. "The bacon is crispy."
+<textarea placeholder="French translation" rows="1" cols="50" oninput="checkTranslation(this, 'Le bacon est croustillant.')"></textarea><span></span>
+(F/M/P?) <input type="text" placeholder="F/M/P" oninput="checkAnswer(this, 'M')"><span></span>
 
-\_\_\_ veau (veal) 🐄 → <input type="text" placeholder="le/la/l'" oninput="verifierReponse(this, 'le')">
+<button onclick="showAnswers()">Afficher les réponses</button>
+<button onclick="refreshPage()">Rafraîchir la page</button>
 
-#### 2. Associez le terme français à son équivalent anglais :
 
-**"le jambon"** 🍖 → <input type="text" placeholder="Anglais" oninput="verifierReponse(this, 'ham')">
+#### 4. Défi d'écriture
 
-**"la saucisse"** 🌭 → <input type="text" placeholder="Anglais" oninput="verifierReponse(this, 'sausage')">
+Liste 5 viandes ou aliments à base de viande masculins et 5 féminins (en français, avec les articles).
 
-**"le jaune d’œuf"** 🥚 → <input type="text" placeholder="Anglais" oninput="verifierReponse(this, 'egg yolk')">
+<textarea placeholder="Écris tes réponses ici..." rows="5" cols="120"></textarea>
 
-**"les viandes maigres"** 🥩 → <input type="text" placeholder="Anglais" oninput="verifierReponse(this, 'lean meats')">
+#### Notes :
 
-#### 3. Complétez avec le bon terme :
+Aide-mémoire : La plupart des viandes sont masculines (le poulet, le bœuf, le porc, le jambon, le canard), mais certaines sont féminines (la dinde, la saucisse, la viande). Le pluriel utilise "les".
 
-"\_\_\_ (Le bœuf) est tendre." 🥩 → <input type="text" placeholder="Français" oninput="verifierReponse(this, 'le bœuf')">
+Partitifs : Utilise "du/de la/des" pour "du/de la/des" (du poulet, de la dinde, des saucisses).
 
-"Je cuisine \_\_\_ (canard) à l’orange." 🦆 → <input type="text" placeholder="Français" oninput="verifierReponse(this, 'le canard')">
+Attention au pluriel : Les saucisses (sausages), les viandes (meats), les escargots (snails) sont au pluriel.
 
-"\_\_\_ (Le porc) est populaire en Allemagne." 🐖 → <input type="text" placeholder="Français" oninput="verifierReponse(this, 'le porc')">
-
-#### 4. Corrigez les erreurs de genre/nombre :
-
-"Une hamburger" 🍔 → <input type="text" placeholder="Phrase correcte" oninput="verifierReponse(this, 'un hamburger')">
-
-"La bœuf" 🥩 → <input type="text" placeholder="Phrase correcte" oninput="verifierReponse(this, 'le bœuf')">
-
-"Des saucisse" 🌭 → <input type="text" placeholder="Phrase correcte" oninput="verifierReponse(this, 'des saucisses')">
-
-<button onclick="afficherReponses()">
-
-Afficher toutes les réponses
-
-</button>
-
-```{=html}
-<script>
-function afficherReponses() {
-    document.querySelectorAll('input[type="text"]').forEach(input => {
-        const correct = input.getAttribute('oninput').match(/'([^']+)'/)[1];
-        input.value = correct;
-        const feedback = input.nextElementSibling;
-        feedback.textContent = "✓ Correct !";
-        feedback.style.color = "green";
-    });
-}
-
-function rafraichirPage() {
-    location.reload();
-}
-</script>
-```
-
-<button onclick="rafraichirPage()">
-
-Rafraîchir la page
-
-</button>
-
-#### 5. Traduisez en français (avec articles/partitifs !) :
-
-"Je mange du poulet avec du riz."\
-
-```{=html}
-<textarea placeholder="Je mange..." rows="2" cols="50" oninput="verifierTraduction(this, 'Je mange du poulet avec du riz')"></textarea>
-```
-
-"Elle préfère les blancs d’œufs pour le petit-déjeuner."\
-
-```{=html}
-<textarea placeholder="Elle préfère..." rows="2" cols="50" oninput="verifierTraduction(this, 'Elle préfère les blancs d’œufs pour le petit-déjeuner')"></textarea>
-```
-
-<button onclick="verifierToutesReponses()">
-
-Vérifier les réponses
-
-</button>
-
-```{=html}
-<script>
-function verifierReponse(input, bonneReponse) {
-    const feedback = input.nextElementSibling;
-    if (input.value.trim().toLowerCase() === bonneReponse.toLowerCase()) {
-        feedback.textContent = "✓ Correct !";
-        feedback.style.color = "green";
-    } else if (input.value.trim()) {
-        feedback.textContent = "✗ Essayez encore !";
-        feedback.style.color = "red";
-    }
-}
-
-function verifierToutesReponses() {
-    document.querySelectorAll('input[type="text"]').forEach(input => {
-        const correct = input.getAttribute('oninput').match(/'([^']+)'/)[1];
-        verifierReponse(input, correct);
-    });
-
-    document.querySelectorAll('textarea').forEach(textarea => {
-        const correct = textarea.getAttribute('oninput').match(/'([^']+)'/)[1];
-        verifierTraduction(textarea, correct);
-    });
-}
-
-function verifierTraduction(textarea, bonneReponse) {
-    const feedback = textarea.nextElementSibling;
-    if (textarea.value.trim().toLowerCase() === bonneReponse.toLowerCase()) {
-        feedback.textContent = "✓ Correct !";
-        feedback.style.color = "green";
-    } else if (textarea.value.trim()) {
-        feedback.textContent = "✗ Essayez encore !";
-        feedback.style.color = "red";
-    }
-}
-</script>
-```
-
-------------------------------------------------------------------------
-
-### Notes :
-
--   **Astuces de genre** : La plupart des noms de viandes sont masculins (*le porc, le steak*), mais il y a des exceptions comme *la dinde* (turkey) et *la viande* (meat).\
--   **Partitifs** : Utilisez *du/de la/des* pour "du/de la/des" (*du poulet*, *de la dinde*).\
--   **Pluriel** : *Les escargots* (snails) et *les saucisses* (sausages) sont au pluriel.
 :::
+
+<script>
+function checkAnswer(input, correctAnswer) {
+  const span = input.nextElementSibling;
+  if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
+    span.textContent = "✓ Correct";
+    span.style.color = "green";
+  } else {
+    span.textContent = "";
+  }
+}
+
+function showAnswers() {
+  document.querySelectorAll('input[type="text"]').forEach(el => {
+    const correct = el.getAttribute('oninput')?.match(/'([^']+)'/)?.[1];
+    if (correct) {
+      const span = el.nextElementSibling;
+      span.textContent = `Réponse : ${correct}`;
+      span.style.color = "blue";
+    }
+  });
+}
+
+function refreshPage() {
+  location.reload();
+}
+</script>

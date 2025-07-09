@@ -7,201 +7,201 @@ image: "places.png"
 ---
 
 ::: {.content-visible when-profile="english"}
+#### 1. Stores & Places Vocabulary: Masculine, Feminine, or Plural?
 
-### Exercise: French Places and Their Gender
+Write "le", "la", "l'", or "les" plus the French noun for each place (type the correct article and noun in French):
 
-Practice the gender of French place nouns and their articles.
+1. "airport" ✈️ → <input type="text" placeholder="French" oninput="checkAnswer(this, 'l\'aéroport')"><span></span>
+2. "library" 📚 → <input type="text" placeholder="French" oninput="checkAnswer(this, 'la bibliothèque')"><span></span>
+3. "hospital" 🏥 → <input type="text" placeholder="French" oninput="checkAnswer(this, 'l\'hôpital')"><span></span>
+4. "park" 🌳 → <input type="text" placeholder="French" oninput="checkAnswer(this, 'le parc')"><span></span>
+5. "beach" 🏖️ → <input type="text" placeholder="French" oninput="checkAnswer(this, 'la plage')"><span></span>
+6. "university" 🎓 → <input type="text" placeholder="French" oninput="checkAnswer(this, 'l\'université')"><span></span>
+7. "mall/shopping center" 🛍️ → <input type="text" placeholder="French" oninput="checkAnswer(this, 'le centre commercial')"><span></span>
+8. "post office" 📮 → <input type="text" placeholder="French" oninput="checkAnswer(this, 'la poste')"><span></span>
+9. "museum" 🖼️ → <input type="text" placeholder="French" oninput="checkAnswer(this, 'le musée')"><span></span>
+10. "swimming pool" 🏊 → <input type="text" placeholder="French" oninput="checkAnswer(this, 'la piscine')"><span></span>
+11. "stores/shops" 🏬 → <input type="text" placeholder="French" oninput="checkAnswer(this, 'les magasins')"><span></span>
+12. "church" ⛪ → <input type="text" placeholder="French" oninput="checkAnswer(this, 'l\'église')"><span></span>
 
-#### 1. Assign the correct definite article (*le/la/l'*) to each place:
+#### 2. Correct the Mistakes
 
-\_\_\_ aéroport (airport) ✈️ → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'l\'')"><span></span>
+Correct the gender/number in these sentences (type the correct sentence in French):
 
-\_\_\_ bibliothèque (library) 📚 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'la')"><span></span>
+1. "La musée est grand." → <input type="text" placeholder="Corrigez" style="width: 40em;" oninput="checkAnswer(this, 'Le musée est grand.')"><span></span>
+2. "Un bibliothèque est calme." → <input type="text" placeholder="Corrigez" style="width: 40em;" oninput="checkAnswer(this, 'Une bibliothèque est calme.')"><span></span>
+3. "Des église sont anciennes." → <input type="text" placeholder="Corrigez" style="width: 40em;" oninput="checkAnswer(this, 'Des églises sont anciennes.')"><span></span>
+4. "La parc est beau." → <input type="text" placeholder="Corrigez" style="width: 40em;" oninput="checkAnswer(this, 'Le parc est beau.')"><span></span>
+5. "Une hôpital est moderne." → <input type="text" placeholder="Corrigez" style="width: 40em;" oninput="checkAnswer(this, 'Un hôpital est moderne.')"><span></span>
+6. "Le plage est bondée." → <input type="text" placeholder="Corrigez" style="width: 40em;" oninput="checkAnswer(this, 'La plage est bondée.')"><span></span>
+7. "La centre commercial est ouvert." → <input type="text" placeholder="Corrigez" style="width: 40em;" oninput="checkAnswer(this, 'Le centre commercial est ouvert.')"><span></span>
+8. "Le université est grande." → <input type="text" placeholder="Corrigez" style="width: 40em;" oninput="checkAnswer(this, 'L\'université est grande.')"><span></span>
 
-\_\_\_ hôpital (hospital) 🏥 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'l\'')"><span></span>
+#### 3. Translate and Identify Gender
 
-\_\_\_ parc (park) 🌳 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'le')"><span></span>
+Translate and say if the noun is masculine (M), feminine (F), or plural (P):
 
-\_\_\_ plage (beach) 🏖️ → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'la')"><span></span>
+1. "The library is quiet."
+    <textarea placeholder="French translation" rows="2" cols="50" oninput="checkTranslation(this, 'La bibliothèque est calme.')"></textarea><span></span>
+    (F/M/P?) <input type="text" placeholder="F/M/P" oninput="checkAnswer(this, 'F')"><span></span>
+2. "The parks are beautiful."
+    <textarea placeholder="French translation" rows="2" cols="50" oninput="checkTranslation(this, 'Les parcs sont beaux.')"></textarea><span></span>
+    (F/M/P?) <input type="text" placeholder="F/M/P" oninput="checkAnswer(this, 'P')"><span></span>
+3. "The hospital is modern."
+    <textarea placeholder="French translation" rows="2" cols="50" oninput="checkTranslation(this, 'L\'hôpital est moderne.')"></textarea><span></span>
+    (F/M/P?) <input type="text" placeholder="F/M/P" oninput="checkAnswer(this, 'M')"><span></span>
+4. "The museums are interesting."
+    <textarea placeholder="French translation" rows="2" cols="50" oninput="checkTranslation(this, 'Les musées sont intéressants.')"></textarea><span></span>
+    (F/M/P?) <input type="text" placeholder="F/M/P" oninput="checkAnswer(this, 'P')"><span></span>
+5. "The swimming pool is closed."
+    <textarea placeholder="French translation" rows="2" cols="50" oninput="checkTranslation(this, 'La piscine est fermée.')"></textarea><span></span>
+    (F/M/P?) <input type="text" placeholder="F/M/P" oninput="checkAnswer(this, 'F')"><span></span>
+6. "The post office is far."
+    <textarea placeholder="French translation" rows="2" cols="50" oninput="checkTranslation(this, 'La poste est loin.')"></textarea><span></span>
+    (F/M/P?) <input type="text" placeholder="F/M/P" oninput="checkAnswer(this, 'F')"><span></span>
+7. "The shops are open."
+    <textarea placeholder="French translation" rows="2" cols="50" oninput="checkTranslation(this, 'Les magasins sont ouverts.')"></textarea><span></span>
+    (F/M/P?) <input type="text" placeholder="F/M/P" oninput="checkAnswer(this, 'P')"><span></span>
+8. "The university is big."
+    <textarea placeholder="French translation" rows="2" cols="50" oninput="checkTranslation(this, 'L\'université est grande.')"></textarea><span></span>
+    (F/M/P?) <input type="text" placeholder="F/M/P" oninput="checkAnswer(this, 'F')"><span></span>
+9. "The church is old."
+    <textarea placeholder="French translation" rows="2" cols="50" oninput="checkTranslation(this, 'L\'église est ancienne.')"></textarea><span></span>
+    (F/M/P?) <input type="text" placeholder="F/M/P" oninput="checkAnswer(this, 'F')"><span></span>
+10. "The malls are crowded."
+    <textarea placeholder="French translation" rows="2" cols="50" oninput="checkTranslation(this, 'Les centres commerciaux sont bondés.')"></textarea><span></span>
+    (F/M/P?) <input type="text" placeholder="F/M/P" oninput="checkAnswer(this, 'P')"><span></span>
 
-\_\_\_ université (university) 🎓 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'l\'')"><span></span>
+<button onclick="showAnswers()">Show Answers</button>
+<button onclick="refreshPage()">Refresh Page</button>
 
-\_\_\_ centre commercial (mall) 🛍️ → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'le')"><span></span>
+#### 4. Writing Challenge
 
-\_\_\_ poste (post office) 📮 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'la')"><span></span>
+List 5 masculine and 5 feminine places or stores (in French, with articles).
 
-\_\_\_ musée (museum) 🖼️ → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'le')"><span></span>
+<textarea placeholder="Write your answers here..." rows="5" cols="120"></textarea>
 
-\_\_\_ piscine (swimming pool) 🏊 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'la')"><span></span>
+#### Notes:
 
-#### 2. Rewrite with the correct indefinite article (*un/une/des*):
+Gender hints: Many places are masculine (le parc, le musée, le centre commercial), but some are feminine (la bibliothèque, la plage, la piscine). Plurals use "les".
 
-\_\_\_ café (café) ☕ → <input type="text" placeholder="un/une" oninput="checkAnswer(this, 'un')"><span></span>
+Partitives: Use "au/à la/aux" for "to the" (au parc, à la plage, aux magasins).
 
-\_\_\_ épicerie (grocery store) 🛒 → <input type="text" placeholder="un/une" oninput="checkAnswer(this, 'une')"><span></span>
-
-\_\_\_ magasins (stores) 🏬 → <input type="text" placeholder="un/une/des" oninput="checkAnswer(this, 'des')"><span></span>
-
-\_\_\_ boulangerie (bakery) 🥖 → <input type="text" placeholder="un/une" oninput="checkAnswer(this, 'une')"><span></span>
-
-\_\_\_ stade (stadium) ⚽ → <input type="text" placeholder="un/une" oninput="checkAnswer(this, 'un')"><span></span>
-
-\_\_\_ pharmacie (pharmacy) 💊 → <input type="text" placeholder="un/une" oninput="checkAnswer(this, 'une')"><span></span>
-
-\_\_\_ cinéma (cinema) 🎬 → <input type="text" placeholder="un/une" oninput="checkAnswer(this, 'un')"><span></span>
-
-#### 3. Correct the errors in gender/number:
-
-"La musée" → <input type="text" placeholder="Correct phrase" oninput="checkAnswer(this, 'le musée')"><span></span>
-
-"Un bibliothèque" → <input type="text" placeholder="Correct phrase" oninput="checkAnswer(this, 'une bibliothèque')"><span></span>
-
-"Des église" → <input type="text" placeholder="Correct phrase" oninput="checkAnswer(this, 'des églises')"><span></span>
-
-"La parc" → <input type="text" placeholder="Correct phrase" oninput="checkAnswer(this, 'le parc')"><span></span>
-
-"Une hôpital" → <input type="text" placeholder="Correct phrase" oninput="checkAnswer(this, 'un hôpital')"><span></span>
-
-<button onclick="checkAllAnswers()">Check Answers</button>
-<button onclick="refreshPage()">Refresh</button>
-
-<script>
-function checkAnswer(input, correctAnswer) {
-    const span = input.nextElementSibling;
-    if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
-        span.textContent = "✓ Correct";
-        span.style.color = "green";
-    } else {
-        span.textContent = "";
-    }
-}
-
-// New function to check all answers at once
-function checkAllAnswers() {
-    document.querySelectorAll('input[type="text"]').forEach(el => {
-        const correct = el.getAttribute('oninput')?.match(/'([^']+)'/)?.[1];
-        if (correct) {
-            checkAnswer(el, correct);
-        }
-    });
-}
-
-function showAnswers() {
-    document.querySelectorAll('input[type="text"]').forEach(el => {
-        const correct = el.getAttribute('oninput')?.match(/'([^']+)'/)?.[1];
-        if (correct) {
-            const span = el.nextElementSibling;
-            span.textContent = `Réponse : ${correct}`;
-            span.style.color = "blue";
-        }
-    });
-}
-
-function refreshPage() {
-    location.reload();
-}
-</script>
-
+Plural alert: Les magasins (shops), les musées (museums), les parcs (parks) are plural.
 
 :::
 
 
 ::: {.content-visible when-profile="french"}
 
-### Exercice : Lieux en français et leur genre
+#### 1. Vocabulaire : Masculin, Féminin ou Pluriel ?
 
-Entraînez-vous à utiliser le bon article avec les noms de lieux en français.
+Écrivez "le", "la", "l'", ou "les" suivi du nom du lieu en français (tapez l'article et le nom corrects) :
 
-#### 1. Attribuez le bon article défini (*le/la/l'*) à chaque lieu :
+1. "airport" ✈️ → <input type="text" placeholder="French" oninput="checkAnswer(this, 'l\'aéroport')"><span></span>
+2. "library" 📚 → <input type="text" placeholder="French" oninput="checkAnswer(this, 'la bibliothèque')"><span></span>
+3. "hospital" 🏥 → <input type="text" placeholder="French" oninput="checkAnswer(this, 'l\'hôpital')"><span></span>
+4. "park" 🌳 → <input type="text" placeholder="French" oninput="checkAnswer(this, 'le parc')"><span></span>
+5. "beach" 🏖️ → <input type="text" placeholder="French" oninput="checkAnswer(this, 'la plage')"><span></span>
+6. "university" 🎓 → <input type="text" placeholder="French" oninput="checkAnswer(this, 'l\'université')"><span></span>
+7. "mall/shopping center" 🛍️ → <input type="text" placeholder="French" oninput="checkAnswer(this, 'le centre commercial')"><span></span>
+8. "post office" 📮 → <input type="text" placeholder="French" oninput="checkAnswer(this, 'la poste')"><span></span>
+9. "museum" 🖼️ → <input type="text" placeholder="French" oninput="checkAnswer(this, 'le musée')"><span></span>
+10. "swimming pool" 🏊 → <input type="text" placeholder="French" oninput="checkAnswer(this, 'la piscine')"><span></span>
+11. "stores/shops" 🏬 → <input type="text" placeholder="French" oninput="checkAnswer(this, 'les magasins')"><span></span>
+12. "church" ⛪ → <input type="text" placeholder="French" oninput="checkAnswer(this, 'l\'église')"><span></span>
 
-\_\_\_ aéroport (airport) ✈️ → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'l\'')"><span></span>
+#### 2. Corrigez les erreurs
 
-\_\_\_ bibliothèque (bibliothèque) 📚 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'la')"><span></span>
+Corrigez le genre ou le nombre dans ces phrases (tapez la phrase correcte en français) :
 
-\_\_\_ hôpital (hôpital) 🏥 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'l\'')"><span></span>
+1. "La musée est grand." → <input type="text" placeholder="Corrigez" style="width: 40em;" oninput="checkAnswer(this, 'Le musée est grand.')"><span></span>
+2. "Un bibliothèque est calme." → <input type="text" placeholder="Corrigez" style="width: 40em;" oninput="checkAnswer(this, 'Une bibliothèque est calme.')"><span></span>
+3. "Des église sont anciennes." → <input type="text" placeholder="Corrigez" style="width: 40em;" oninput="checkAnswer(this, 'Des églises sont anciennes.')"><span></span>
+4. "La parc est beau." → <input type="text" placeholder="Corrigez" style="width: 40em;" oninput="checkAnswer(this, 'Le parc est beau.')"><span></span>
+5. "Une hôpital est moderne." → <input type="text" placeholder="Corrigez" style="width: 40em;" oninput="checkAnswer(this, 'Un hôpital est moderne.')"><span></span>
+6. "Le plage est bondée." → <input type="text" placeholder="Corrigez" style="width: 40em;" oninput="checkAnswer(this, 'La plage est bondée.')"><span></span>
+7. "La centre commercial est ouvert." → <input type="text" placeholder="Corrigez" style="width: 40em;" oninput="checkAnswer(this, 'Le centre commercial est ouvert.')"><span></span>
+8. "Le université est grande." → <input type="text" placeholder="Corrigez" style="width: 40em;" oninput="checkAnswer(this, 'L\'université est grande.')"><span></span>
 
-\_\_\_ parc (parc) 🌳 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'le')"><span></span>
+#### 3. Traduisez et identifiez le genre
 
-\_\_\_ plage (plage) 🏖️ → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'la')"><span></span>
+Traduisez et indiquez si le nom est masculin (M), féminin (F) ou pluriel (P) :
 
-\_\_\_ université (université) 🎓 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'l\'')"><span></span>
+1. "La bibliothèque est calme."
+    <textarea placeholder="Traduction en anglais" rows="2" cols="50" oninput="checkTranslation(this, 'The library is quiet.')"></textarea><span></span>
+    (F/M/P ?) <input type="text" placeholder="F/M/P" oninput="checkAnswer(this, 'F')"><span></span>
+2. "Les parcs sont beaux."
+    <textarea placeholder="Traduction en anglais" rows="2" cols="50" oninput="checkTranslation(this, 'The parks are beautiful.')"></textarea><span></span>
+    (F/M/P ?) <input type="text" placeholder="F/M/P" oninput="checkAnswer(this, 'P')"><span></span>
+3. "L'hôpital est moderne."
+    <textarea placeholder="Traduction en anglais" rows="2" cols="50" oninput="checkTranslation(this, 'The hospital is modern.')"></textarea><span></span>
+    (F/M/P ?) <input type="text" placeholder="F/M/P" oninput="checkAnswer(this, 'M')"><span></span>
+4. "Les musées sont intéressants."
+    <textarea placeholder="Traduction en anglais" rows="2" cols="50" oninput="checkTranslation(this, 'The museums are interesting.')"></textarea><span></span>
+    (F/M/P ?) <input type="text" placeholder="F/M/P" oninput="checkAnswer(this, 'P')"><span></span>
+5. "La piscine est fermée."
+    <textarea placeholder="Traduction en anglais" rows="2" cols="50" oninput="checkTranslation(this, 'The swimming pool is closed.')"></textarea><span></span>
+    (F/M/P ?) <input type="text" placeholder="F/M/P" oninput="checkAnswer(this, 'F')"><span></span>
+6. "La poste est loin."
+    <textarea placeholder="Traduction en anglais" rows="2" cols="50" oninput="checkTranslation(this, 'The post office is far.')"></textarea><span></span>
+    (F/M/P ?) <input type="text" placeholder="F/M/P" oninput="checkAnswer(this, 'F')"><span></span>
+7. "Les magasins sont ouverts."
+    <textarea placeholder="Traduction en anglais" rows="2" cols="50" oninput="checkTranslation(this, 'The shops are open.')"></textarea><span></span>
+    (F/M/P ?) <input type="text" placeholder="F/M/P" oninput="checkAnswer(this, 'P')"><span></span>
+8. "L'université est grande."
+    <textarea placeholder="Traduction en anglais" rows="2" cols="50" oninput="checkTranslation(this, 'The university is big.')"></textarea><span></span>
+    (F/M/P ?) <input type="text" placeholder="F/M/P" oninput="checkAnswer(this, 'F')"><span></span>
+9. "L'église est ancienne."
+    <textarea placeholder="Traduction en anglais" rows="2" cols="50" oninput="checkTranslation(this, 'The church is old.')"></textarea><span></span>
+    (F/M/P ?) <input type="text" placeholder="F/M/P" oninput="checkAnswer(this, 'F')"><span></span>
+10. "Les centres commerciaux sont bondés."
+    <textarea placeholder="Traduction en anglais" rows="2" cols="50" oninput="checkTranslation(this, 'The malls are crowded.')"></textarea><span></span>
+    (F/M/P ?) <input type="text" placeholder="F/M/P" oninput="checkAnswer(this, 'P')"><span></span>
 
-\_\_\_ centre commercial (centre commercial) 🛍️ → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'le')"><span></span>
+<button onclick="showAnswers()">Afficher les réponses</button>
+<button onclick="refreshPage()">Rafraîchir la page</button>
 
-\_\_\_ poste (poste) 📮 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'la')"><span></span>
+#### 4. Défi d'écriture
 
-\_\_\_ musée (musée) 🖼️ → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'le')"><span></span>
+Listez 5 lieux ou magasins masculins et 5 féminins (en français, avec les articles).
 
-\_\_\_ piscine (piscine) 🏊 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'la')"><span></span>
+<textarea placeholder="Écrivez vos réponses ici..." rows="5" cols="120"></textarea>
 
-#### 2. Réécrivez avec le bon article indéfini (*un/une/des*) :
+#### Notes :
 
-\_\_\_ café (café) ☕ → <input type="text" placeholder="un/une" oninput="checkAnswer(this, 'un')"><span></span>
+Astuces sur le genre : Beaucoup de lieux sont masculins (le parc, le musée, le centre commercial), mais certains sont féminins (la bibliothèque, la plage, la piscine). Le pluriel utilise "les".
 
-\_\_\_ épicerie (épicerie) 🛒 → <input type="text" placeholder="un/une" oninput="checkAnswer(this, 'une')"><span></span>
+Partitifs : Utilisez "au/à la/aux" pour "à la/le/aux" (au parc, à la plage, aux magasins).
 
-\_\_\_ magasins (magasins) 🏬 → <input type="text" placeholder="un/une/des" oninput="checkAnswer(this, 'des')"><span></span>
+Attention au pluriel : Les magasins (shops), les musées (museums), les parcs (parks) sont au pluriel.
 
-\_\_\_ boulangerie (boulangerie) 🥖 → <input type="text" placeholder="un/une" oninput="checkAnswer(this, 'une')"><span></span>
-
-\_\_\_ stade (stade) ⚽ → <input type="text" placeholder="un/une" oninput="checkAnswer(this, 'un')"><span></span>
-
-\_\_\_ pharmacie (pharmacie) 💊 → <input type="text" placeholder="un/une" oninput="checkAnswer(this, 'une')"><span></span>
-
-\_\_\_ cinéma (cinéma) 🎬 → <input type="text" placeholder="un/une" oninput="checkAnswer(this, 'un')"><span></span>
-
-#### 3. Corrigez les erreurs de genre/nombre :
-
-"La musée" → <input type="text" placeholder="Phrase correcte" oninput="checkAnswer(this, 'le musée')"><span></span>
-
-"Un bibliothèque" → <input type="text" placeholder="Phrase correcte" oninput="checkAnswer(this, 'une bibliothèque')"><span></span>
-
-"Des église" → <input type="text" placeholder="Phrase correcte" oninput="checkAnswer(this, 'des églises')"><span></span>
-
-"La parc" → <input type="text" placeholder="Phrase correcte" oninput="checkAnswer(this, 'le parc')"><span></span>
-
-"Une hôpital" → <input type="text" placeholder="Phrase correcte" oninput="checkAnswer(this, 'un hôpital')"><span></span>
-
-
-<button onclick="checkAnswer()">Vérifier les réponses</button>
-<button onclick="refreshPage()">Rafraîchir</button>
+:::
 
 
 <script>
 function checkAnswer(input, correctAnswer) {
-    const span = input.nextElementSibling;
-    if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
-        span.textContent = "✓ Correct";
-        span.style.color = "green";
-    } else {
-        span.textContent = "";
-    }
-}
-
-// New function to check all answers at once
-function checkAllAnswers() {
-    document.querySelectorAll('input[type="text"]').forEach(el => {
-        const correct = el.getAttribute('oninput')?.match(/'([^']+)'/)?.[1];
-        if (correct) {
-            checkAnswer(el, correct);
-        }
-    });
+  const span = input.nextElementSibling;
+  if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
+    span.textContent = "✓ Correct";
+    span.style.color = "green";
+  } else {
+    span.textContent = "";
+  }
 }
 
 function showAnswers() {
-    document.querySelectorAll('input[type="text"]').forEach(el => {
-        const correct = el.getAttribute('oninput')?.match(/'([^']+)'/)?.[1];
-        if (correct) {
-            const span = el.nextElementSibling;
-            span.textContent = `Réponse : ${correct}`;
-            span.style.color = "blue";
-        }
-    });
+  document.querySelectorAll('input[type="text"]').forEach(el => {
+    const correct = el.getAttribute('oninput')?.match(/'([^']+)'/)?.[1];
+    if (correct) {
+      const span = el.nextElementSibling;
+      span.textContent = `Réponse : ${correct}`;
+      span.style.color = "blue";
+    }
+  });
 }
 
 function refreshPage() {
-    location.reload();
+  location.reload();
 }
 </script>
-
-:::

@@ -7,223 +7,189 @@ image: "clothing.png"
 ---
 
 ::: {.content-visible when-profile="english"}
-### Exercise: Clothing Nouns and Gender
 
-Practice the gender of French clothing nouns and their articles.
+#### 1. Body Parts: Masculine or Feminine?
+Write "le", "la", or "les" for each clothing noun (type the correct article and noun in French):
 
-#### 1. Assign the correct definite article (*le/la/l'*) to each clothing item:
+1. "coat" → <input type="text" placeholder="French" oninput="checkAnswer(this, 'le manteau')"><span></span>
+2. "dress" → <input type="text" placeholder="French" oninput="checkAnswer(this, 'la robe')"><span></span>
+3. "shoes" → <input type="text" placeholder="French" oninput="checkAnswer(this, 'les chaussures')"><span></span>
+4. "scarf" → <input type="text" placeholder="French" oninput="checkAnswer(this, 'l\'écharpe')"><span></span>
+5. "pants" → <input type="text" placeholder="French" oninput="checkAnswer(this, 'le pantalon')"><span></span>
+6. "skirt" → <input type="text" placeholder="French" oninput="checkAnswer(this, 'la jupe')"><span></span>
+7. "socks" → <input type="text" placeholder="French" oninput="checkAnswer(this, 'les chaussettes')"><span></span>
+8. "jacket" → <input type="text" placeholder="French" oninput="checkAnswer(this, 'la veste')"><span></span>
+9. "gloves" → <input type="text" placeholder="French" oninput="checkAnswer(this, 'les gants')"><span></span>
+10. "shirt" → <input type="text" placeholder="French" oninput="checkAnswer(this, 'la chemise')"><span></span>
+11. "hat" → <input type="text" placeholder="French" oninput="checkAnswer(this, 'le chapeau')"><span></span>
+12. "boots" → <input type="text" placeholder="French" oninput="checkAnswer(this, 'les bottes')"><span></span>
 
-\_\_\_ manteau (coat) 🧥 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'le')">
+#### 2. Correct the Mistakes
 
-\_\_\_ robe (dress) 👗 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'la')">
+Correct the gender/number in these sentences (type the correct sentence in French):
 
-\_\_\_ chaussures (shoes) 👟 → <input type="text" placeholder="le/la/les" oninput="checkAnswer(this, 'les')">
+1. "La manteau est chaud." → <input type="text" placeholder="Corrigez" style="width: 40em;" oninput="checkAnswer(this, 'Le manteau est chaud.')"><span></span>
+2. "Le robe est belle." → <input type="text" placeholder="Corrigez" style="width: 40em;" oninput="checkAnswer(this, 'La robe est belle.')"><span></span>
+3. "Le chaussures sont neuves." → <input type="text" placeholder="Corrigez" style="width: 40em;" oninput="checkAnswer(this, 'Les chaussures sont neuves.')"><span></span>
+4. "La pantalon est bleu." → <input type="text" placeholder="Corrigez" style="width: 40em;" oninput="checkAnswer(this, 'Le pantalon est bleu.')"><span></span>
+5. "Le jupe est courte." → <input type="text" placeholder="Corrigez" style="width: 40em;" oninput="checkAnswer(this, 'La jupe est courte.')"><span></span>
+6. "Les veste sont noires." → <input type="text" placeholder="Corrigez" style="width: 40em;" oninput="checkAnswer(this, 'Les vestes sont noires.')"><span></span>
+7. "La gants sont chauds." → <input type="text" placeholder="Corrigez" style="width: 40em;" oninput="checkAnswer(this, 'Les gants sont chauds.')"><span></span>
+8. "Le chemise est blanche." → <input type="text" placeholder="Corrigez" style="width: 40em;" oninput="checkAnswer(this, 'La chemise est blanche.')"><span></span>
+9. "La chapeau est grand." → <input type="text" placeholder="Corrigez" style="width: 40em;" oninput="checkAnswer(this, 'Le chapeau est grand.')"><span></span>
+10. "Le bottes sont marron." → <input type="text" placeholder="Corrigez" style="width: 40em;" oninput="checkAnswer(this, 'Les bottes sont marron.')"><span></span>
 
-\_\_\_ écharpe (scarf) 🧣 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'l\'')">
+#### 3. Translate and Identify Gender
 
-\_\_\_ pantalon (pants) 👖 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'le')">
+Translate and say if the noun is masculine (M), feminine (F), or plural (P):
 
-\_\_\_ jupe (skirt) 👗 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'la')">
+1. "The coat is warm."  
+        <textarea placeholder="French translation" rows="2" cols="50" oninput="checkTranslation(this, 'Le manteau est chaud.')"></textarea><span></span>  
+        (F/M/P?) <input type="text" placeholder="F/M/P" oninput="checkAnswer(this, 'M')"><span></span>
+2. "The dress is beautiful."  
+        <textarea placeholder="French translation" rows="2" cols="50" oninput="checkTranslation(this, 'La robe est belle.')"></textarea><span></span>  
+        (F/M/P?) <input type="text" placeholder="F/M/P" oninput="checkAnswer(this, 'F')"><span></span>
+3. "The shoes are new."  
+        <textarea placeholder="French translation" rows="2" cols="50" oninput="checkTranslation(this, 'Les chaussures sont neuves.')"></textarea><span></span>  
+        (F/M/P?) <input type="text" placeholder="F/M/P" oninput="checkAnswer(this, 'P')"><span></span>
+4. "The scarf is long."  
+        <textarea placeholder="French translation" rows="2" cols="50" oninput="checkTranslation(this, 'L\'écharpe est longue.')"></textarea><span></span>  
+        (F/M/P?) <input type="text" placeholder="F/M/P" oninput="checkAnswer(this, 'F')"><span></span>
+5. "The pants are black."  
+        <textarea placeholder="French translation" rows="2" cols="50" oninput="checkTranslation(this, 'Le pantalon est noir.')"></textarea><span></span>  
+        (F/M/P?) <input type="text" placeholder="F/M/P" oninput="checkAnswer(this, 'M')"><span></span>
+6. "The socks are white."  
+        <textarea placeholder="French translation" rows="2" cols="50" oninput="checkTranslation(this, 'Les chaussettes sont blanches.')"></textarea><span></span>  
+        (F/M/P?) <input type="text" placeholder="F/M/P" oninput="checkAnswer(this, 'P')"><span></span>
+7. "The jacket is green."  
+        <textarea placeholder="French translation" rows="2" cols="50" oninput="checkTranslation(this, 'La veste est verte.')"></textarea><span></span>  
+        (F/M/P?) <input type="text" placeholder="F/M/P" oninput="checkAnswer(this, 'F')"><span></span>
+8. "The gloves are warm."  
+        <textarea placeholder="French translation" rows="2" cols="50" oninput="checkTranslation(this, 'Les gants sont chauds.')"></textarea><span></span>  
+        (F/M/P?) <input type="text" placeholder="F/M/P" oninput="checkAnswer(this, 'P')"><span></span>
+9. "The shirt is white."  
+        <textarea placeholder="French translation" rows="2" cols="50" oninput="checkTranslation(this, 'La chemise est blanche.')"></textarea><span></span>  
+        (F/M/P?) <input type="text" placeholder="F/M/P" oninput="checkAnswer(this, 'F')"><span></span>
+10. "The boots are brown."  
+        <textarea placeholder="French translation" rows="2" cols="50" oninput="checkTranslation(this, 'Les bottes sont marron.')"></textarea><span></span>  
+        (F/M/P?) <input type="text" placeholder="F/M/P" oninput="checkAnswer(this, 'P')"><span></span>
 
-\_\_\_ chaussettes (socks) 🧦 → <input type="text" placeholder="le/la/les" oninput="checkAnswer(this, 'les')">
+<button onclick="showAnswers()">Show Answers</button>
+<button onclick="refreshPage()">Refresh Page</button>
 
-\_\_\_ veste (jacket) 🧥 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'la')">
+#### 4. Writing Challenge
 
-\_\_\_ gants (gloves) 🧤 → <input type="text" placeholder="le/la/les" oninput="checkAnswer(this, 'les')">
+List 5 masculine clothing nouns and 5 feminine clothing nouns (in French, with articles).
 
-\_\_\_ chemise (shirt) 👔 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'la')">
-
-\_\_\_ chapeau (hat) 🎩 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'le')">
-
-\_\_\_ bottes (boots) 👢 → <input type="text" placeholder="le/la/les" oninput="checkAnswer(this, 'les')">
-
-#### 2. Rewrite with the correct indefinite article (*un/une/des*):
-
-\_\_\_ pull (sweater) 🧶 → <input type="text" placeholder="un/une" oninput="checkAnswer(this, 'un')">
-
-\_\_\_ ceinture (belt) 🪢 → <input type="text" placeholder="un/une" oninput="checkAnswer(this, 'une')">
-
-\_\_\_ lunettes (glasses) 👓 → <input type="text" placeholder="un/une/des" oninput="checkAnswer(this, 'des')">
-
-\_\_\_ costume (suit) 🤵 → <input type="text" placeholder="un/une" oninput="checkAnswer(this, 'un')">
-
-\_\_\_ collier (necklace) 📿 → <input type="text" placeholder="un/une" oninput="checkAnswer(this, 'un')">
-
-\_\_\_ sandales (sandals) 👡 → <input type="text" placeholder="un/une/des" oninput="checkAnswer(this, 'des')">
-
-#### 3. Correct the errors in gender/number:
-
-"La pantalon" → <input type="text" placeholder="Correct phrase" oninput="checkAnswer(this, 'le pantalon')">
-
-"Un robe" → <input type="text" placeholder="Correct phrase" oninput="checkAnswer(this, 'une robe')">
-
-"Des chapeau" → <input type="text" placeholder="Correct phrase" oninput="checkAnswer(this, 'des chapeaux')">
-
-<button onclick="showAnswers()">Show All Answers</button>
-
-<script>  
-function showAnswers() {  
-    document.querySelectorAll('input[type="text"]').forEach(input => {  
-        const correct = input.getAttribute('oninput').match(/'([^']+)'/)[1];  
-        input.value = correct;  
-        const feedback = input.nextElementSibling;  
-        feedback.textContent = "✓ Correct!";  
-        feedback.style.color = "green";  
-    });  
-}  
-</script>
-
-
-#### 4. Translate into French (include articles!):
-
-"She wears a red dress."\
-
-
-<textarea placeholder="Elle porte..." rows="2" cols="50" oninput="checkTranslation(this, 'Elle porte une robe rouge')"></textarea>
-
-
-"I need new shoes."\
-
-<textarea placeholder="J’ai besoin..." rows="2" cols="50" oninput="checkTranslation(this, 'J’ai besoin de nouvelles chaussures')"></textarea>
-
-
-<button onclick="checkAllAnswers()">Check Answers</button>
-
-<button onclick="giveFeedback()">Check My Work</button>
-
-<script>
-function checkAnswer(input, correctAnswer) {
-        const span = input.nextElementSibling;
-        if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
-                span.textContent = "✓ Correct";
-                span.style.color = "green";
-        } else {
-                span.textContent = "";
-        }
-}
-
-function showAnswers() {
-        document.querySelectorAll('input[type="text"]').forEach(el => {
-                const correct = el.getAttribute('oninput')?.match(/'([^']+)'/)?.[1];
-                if (correct) {
-                        const span = el.nextElementSibling;
-                        span.textContent = `Réponse : ${correct}`;
-                        span.style.color = "blue";
-                }
-        });
-}
-
-function refreshPage() {
-        location.reload();
-}
-</script>
+<textarea placeholder="Write your answers here..." rows="5" cols="120"></textarea>
 
 :::
 
 ::: {.content-visible when-profile="french"}
 
-### Exercice : Noms de vêtements et genre
+#### 1. Vêtements : Masculin ou Féminin ?
 
-Entraînez-vous à utiliser le genre des noms de vêtements français et leurs articles.
+Écrivez "le", "la" ou "les" pour chaque nom de vêtement (tapez l'article et le nom corrects en français) :
 
-#### 1. Attribuez le bon article défini (*le/la/l'*) à chaque vêtement :
+1. "coat" → <input type="text" placeholder="French" oninput="checkAnswer(this, 'le manteau')"><span></span>
+2. "dress" → <input type="text" placeholder="French" oninput="checkAnswer(this, 'la robe')"><span></span>
+3. "shoes" → <input type="text" placeholder="French" oninput="checkAnswer(this, 'les chaussures')"><span></span>
+4. "scarf" → <input type="text" placeholder="French" oninput="checkAnswer(this, 'l\'écharpe')"><span></span>
+5. "pants" → <input type="text" placeholder="French" oninput="checkAnswer(this, 'le pantalon')"><span></span>
+6. "skirt" → <input type="text" placeholder="French" oninput="checkAnswer(this, 'la jupe')"><span></span>
+7. "socks" → <input type="text" placeholder="French" oninput="checkAnswer(this, 'les chaussettes')"><span></span>
+8. "jacket" → <input type="text" placeholder="French" oninput="checkAnswer(this, 'la veste')"><span></span>
+9. "gloves" → <input type="text" placeholder="French" oninput="checkAnswer(this, 'les gants')"><span></span>
+10. "shirt" → <input type="text" placeholder="French" oninput="checkAnswer(this, 'la chemise')"><span></span>
+11. "hat" → <input type="text" placeholder="French" oninput="checkAnswer(this, 'le chapeau')"><span></span>
+12. "boots" → <input type="text" placeholder="French" oninput="checkAnswer(this, 'les bottes')"><span></span>
 
-\_\_\_ manteau (coat) 🧥 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'le')">
+#### 2. Corrigez les erreurs
 
-\_\_\_ robe (robe) 👗 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'la')">
+Corrigez le genre/nombre dans ces phrases (tapez la phrase correcte en français) :
 
-\_\_\_ chaussures (chaussures) 👟 → <input type="text" placeholder="le/la/les" oninput="checkAnswer(this, 'les')">
+1. "La manteau est chaud." → <input type="text" placeholder="Corrigez" style="width: 40em;" oninput="checkAnswer(this, 'Le manteau est chaud.')"><span></span>
+2. "Le robe est belle." → <input type="text" placeholder="Corrigez" style="width: 40em;" oninput="checkAnswer(this, 'La robe est belle.')"><span></span>
+3. "Le chaussures sont neuves." → <input type="text" placeholder="Corrigez" style="width: 40em;" oninput="checkAnswer(this, 'Les chaussures sont neuves.')"><span></span>
+4. "La pantalon est bleu." → <input type="text" placeholder="Corrigez" style="width: 40em;" oninput="checkAnswer(this, 'Le pantalon est bleu.')"><span></span>
+5. "Le jupe est courte." → <input type="text" placeholder="Corrigez" style="width: 40em;" oninput="checkAnswer(this, 'La jupe est courte.')"><span></span>
+6. "Les veste sont noires." → <input type="text" placeholder="Corrigez" style="width: 40em;" oninput="checkAnswer(this, 'Les vestes sont noires.')"><span></span>
+7. "La gants sont chauds." → <input type="text" placeholder="Corrigez" style="width: 40em;" oninput="checkAnswer(this, 'Les gants sont chauds.')"><span></span>
+8. "Le chemise est blanche." → <input type="text" placeholder="Corrigez" style="width: 40em;" oninput="checkAnswer(this, 'La chemise est blanche.')"><span></span>
+9. "La chapeau est grand." → <input type="text" placeholder="Corrigez" style="width: 40em;" oninput="checkAnswer(this, 'Le chapeau est grand.')"><span></span>
+10. "Le bottes sont marron." → <input type="text" placeholder="Corrigez" style="width: 40em;" oninput="checkAnswer(this, 'Les bottes sont marron.')"><span></span>
 
-\_\_\_ écharpe (écharpe) 🧣 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'l\'')">
+#### 3. Traduisez et identifiez le genre
 
-\_\_\_ pantalon (pantalon) 👖 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'le')">
+Traduisez et indiquez si le nom est masculin (M), féminin (F) ou pluriel (P) :
 
-\_\_\_ jupe (jupe) 👗 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'la')">
+1. "Le manteau est chaud."  
+        <textarea placeholder="Traduction anglaise" rows="2" cols="50" oninput="checkTranslation(this, 'The coat is warm.')"></textarea><span></span>  
+        (F/M/P ?) <input type="text" placeholder="F/M/P" oninput="checkAnswer(this, 'M')"><span></span>
+2. "La robe est belle."  
+        <textarea placeholder="Traduction anglaise" rows="2" cols="50" oninput="checkTranslation(this, 'The dress is beautiful.')"></textarea><span></span>  
+        (F/M/P ?) <input type="text" placeholder="F/M/P" oninput="checkAnswer(this, 'F')"><span></span>
+3. "Les chaussures sont neuves."  
+        <textarea placeholder="Traduction anglaise" rows="2" cols="50" oninput="checkTranslation(this, 'The shoes are new.')"></textarea><span></span>  
+        (F/M/P ?) <input type="text" placeholder="F/M/P" oninput="checkAnswer(this, 'P')"><span></span>
+4. "L'écharpe est longue."  
+        <textarea placeholder="Traduction anglaise" rows="2" cols="50" oninput="checkTranslation(this, 'The scarf is long.')"></textarea><span></span>  
+        (F/M/P ?) <input type="text" placeholder="F/M/P" oninput="checkAnswer(this, 'F')"><span></span>
+5. "Le pantalon est noir."  
+        <textarea placeholder="Traduction anglaise" rows="2" cols="50" oninput="checkTranslation(this, 'The pants are black.')"></textarea><span></span>  
+        (F/M/P ?) <input type="text" placeholder="F/M/P" oninput="checkAnswer(this, 'M')"><span></span>
+6. "Les chaussettes sont blanches."  
+        <textarea placeholder="Traduction anglaise" rows="2" cols="50" oninput="checkTranslation(this, 'The socks are white.')"></textarea><span></span>  
+        (F/M/P ?) <input type="text" placeholder="F/M/P" oninput="checkAnswer(this, 'P')"><span></span>
+7. "La veste est verte."  
+        <textarea placeholder="Traduction anglaise" rows="2" cols="50" oninput="checkTranslation(this, 'The jacket is green.')"></textarea><span></span>  
+        (F/M/P ?) <input type="text" placeholder="F/M/P" oninput="checkAnswer(this, 'F')"><span></span>
+8. "Les gants sont chauds."  
+        <textarea placeholder="Traduction anglaise" rows="2" cols="50" oninput="checkTranslation(this, 'The gloves are warm.')"></textarea><span></span>  
+        (F/M/P ?) <input type="text" placeholder="F/M/P" oninput="checkAnswer(this, 'P')"><span></span>
+9. "La chemise est blanche."  
+        <textarea placeholder="Traduction anglaise" rows="2" cols="50" oninput="checkTranslation(this, 'The shirt is white.')"></textarea><span></span>  
+        (F/M/P ?) <input type="text" placeholder="F/M/P" oninput="checkAnswer(this, 'F')"><span></span>
+10. "Les bottes sont marron."  
+        <textarea placeholder="Traduction anglaise" rows="2" cols="50" oninput="checkTranslation(this, 'The boots are brown.')"></textarea><span></span>  
+        (F/M/P ?) <input type="text" placeholder="F/M/P" oninput="checkAnswer(this, 'P')"><span></span>
 
-\_\_\_ chaussettes (chaussettes) 🧦 → <input type="text" placeholder="le/la/les" oninput="checkAnswer(this, 'les')">
+<button onclick="showAnswers()">Afficher les réponses</button>
+<button onclick="refreshPage()">Rafraîchir la page</button>
 
-\_\_\_ veste (veste) 🧥 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'la')">
+#### 4. Défi d'écriture
 
-\_\_\_ gants (gants) 🧤 → <input type="text" placeholder="le/la/les" oninput="checkAnswer(this, 'les')">
+Listez 5 noms de vêtements masculins et 5 noms de vêtements féminins (en français, avec les articles).
 
-\_\_\_ chemise (chemise) 👔 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'la')">
-
-\_\_\_ chapeau (chapeau) 🎩 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'le')">
-
-\_\_\_ bottes (bottes) 👢 → <input type="text" placeholder="le/la/les" oninput="checkAnswer(this, 'les')">
-
-#### 2. Réécrivez avec le bon article indéfini (*un/une/des*) :
-
-\_\_\_ pull (pull) 🧶 → <input type="text" placeholder="un/une" oninput="checkAnswer(this, 'un')">
-
-\_\_\_ ceinture (ceinture) 🪢 → <input type="text" placeholder="un/une" oninput="checkAnswer(this, 'une')">
-
-\_\_\_ lunettes (lunettes) 👓 → <input type="text" placeholder="un/une/des" oninput="checkAnswer(this, 'des')">
-
-\_\_\_ costume (costume) 🤵 → <input type="text" placeholder="un/une" oninput="checkAnswer(this, 'un')">
-
-\_\_\_ collier (collier) 📿 → <input type="text" placeholder="un/une" oninput="checkAnswer(this, 'un')">
-
-\_\_\_ sandales (sandales) 👡 → <input type="text" placeholder="un/une/des" oninput="checkAnswer(this, 'des')">
-
-#### 3. Corrigez les erreurs de genre/nombre :
-
-"La pantalon" → <input type="text" placeholder="Phrase correcte" oninput="checkAnswer(this, 'le pantalon')">
-
-"Un robe" → <input type="text" placeholder="Phrase correcte" oninput="checkAnswer(this, 'une robe')">
-
-"Des chapeau" → <input type="text" placeholder="Phrase correcte" oninput="checkAnswer(this, 'des chapeaux')">
-
-<button onclick="showAnswers()">
-
-Afficher toutes les réponses
-
-</button>
-
-
-<button onclick="giveFeedback()">Check My Work</button>
-
-<script>
-function checkAnswer(input, correctAnswer) {
-        const span = input.nextElementSibling;
-        if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
-                span.textContent = "✓ Correct";
-                span.style.color = "green";
-        } else {
-                span.textContent = "";
-        }
-}
-
-function showAnswers() {
-        document.querySelectorAll('input[type="text"]').forEach(el => {
-                const correct = el.getAttribute('oninput')?.match(/'([^']+)'/)?.[1];
-                if (correct) {
-                        const span = el.nextElementSibling;
-                        span.textContent = `Réponse : ${correct}`;
-                        span.style.color = "blue";
-                }
-        });
-}
-
-function refreshPage() {
-        location.reload();
-}
-</script>
-
-#### 4. Traduisez en français (avec les articles !) :
-
-"She wears a red dress."
-
-
-<textarea placeholder="Elle porte..." rows="2" cols="50" oninput="checkTranslation(this, 'Elle porte une robe rouge.')"></textarea>
-
-
-"I need new shoes."
-
-
-<textarea placeholder="J’ai besoin..." rows="2" cols="50" oninput="checkTranslation(this, 'J’ai besoin de nouvelles chaussures.')"></textarea>
-
-<button onclick="checkAllAnswers()">Vérifier les réponses</button>
+<textarea placeholder="Écrivez vos réponses ici..." rows="5" cols="120"></textarea>
 
 
 :::
+
+
+<script>
+function checkAnswer(input, correctAnswer) {
+  const span = input.nextElementSibling;
+  if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
+    span.textContent = "✓ Correct";
+    span.style.color = "green";
+  } else {
+    span.textContent = "";
+  }
+}
+
+function showAnswers() {
+  document.querySelectorAll('input[type="text"]').forEach(el => {
+    const correct = el.getAttribute('oninput')?.match(/'([^']+)'/)?.[1];
+    if (correct) {
+      const span = el.nextElementSibling;
+      span.textContent = `Réponse : ${correct}`;
+      span.style.color = "blue";
+    }
+  });
+}
+
+function refreshPage() {
+  location.reload();
+}
+</script>

@@ -7,275 +7,206 @@ image: "fruits.png"
 ---
 
 ::: {.content-visible when-profile="english"}
-### Exercise: French Fruit Nouns and Gender
 
-Practice the gender of French fruit nouns and their articles.
+#### 1. Fruit Vocabulary: Masculine or Feminine?
 
-#### 1. Assign the correct definite article (*le/la/l'*) to each fruit:
+Write "le", "la", or "les" for each fruit noun (type the correct article and noun in French):
 
-\_\_\_ banane (banana) 🍌 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'la')">
+1. "apple" 🍏 → <input type="text" placeholder="French" oninput="checkAnswer(this, 'la pomme')"><span></span>
+2. "banana" 🍌 → <input type="text" placeholder="French" oninput="checkAnswer(this, 'la banane')"><span></span>
+3. "grapes" 🍇 → <input type="text" placeholder="French" oninput="checkAnswer(this, 'les raisins')"><span></span>
+4. "orange" 🍊 → <input type="text" placeholder="French" oninput="checkAnswer(this, 'l\'orange')"><span></span>
+5. "strawberry" 🍓 → <input type="text" placeholder="French" oninput="checkAnswer(this, 'la fraise')"><span></span>
+6. "lemon" 🍋 → <input type="text" placeholder="French" oninput="checkAnswer(this, 'le citron')"><span></span>
+7. "pear" 🍐 → <input type="text" placeholder="French" oninput="checkAnswer(this, 'la poire')"><span></span>
+8. "cherries" 🍒 → <input type="text" placeholder="French" oninput="checkAnswer(this, 'les cerises')"><span></span>
+9. "watermelon" 🍉 → <input type="text" placeholder="French" oninput="checkAnswer(this, 'la pastèque')"><span></span>
+10. "peach" 🍑 → <input type="text" placeholder="French" oninput="checkAnswer(this, 'la pêche')"><span></span>
+11. "pineapple" 🍍 → <input type="text" placeholder="French" oninput="checkAnswer(this, 'l\'ananas')"><span></span>
+12. "plum" 🍑 → <input type="text" placeholder="French" oninput="checkAnswer(this, 'la prune')"><span></span>
 
-\_\_\_ ananas (pineapple) 🍍 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'l\'')">
+#### 2. Correct the Mistakes
 
-\_\_\_ fraise (strawberry) 🍓 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'la')">
+Correct the gender/number in these sentences (type the correct sentence in French):
 
-\_\_\_ citron (lemon) 🍋 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'le')">
+1. "Le pomme est verte." → <input type="text" placeholder="Corrigez" style="width: 40em;" oninput="checkAnswer(this, 'La pomme est verte.')"><span></span>
+2. "La banane est jaune." → <input type="text" placeholder="Corrigez" style="width: 40em;" oninput="checkAnswer(this, 'La banane est jaune.')"><span></span>
+3. "Le raisins sont sucrés." → <input type="text" placeholder="Corrigez" style="width: 40em;" oninput="checkAnswer(this, 'Les raisins sont sucrés.')"><span></span>
+4. "Le orange est juteuse." → <input type="text" placeholder="Corrigez" style="width: 40em;" oninput="checkAnswer(this, 'L\'orange est juteuse.')"><span></span>
+5. "Le fraise est rouge." → <input type="text" placeholder="Corrigez" style="width: 40em;" oninput="checkAnswer(this, 'La fraise est rouge.')"><span></span>
+6. "La citron est acide." → <input type="text" placeholder="Corrigez" style="width: 40em;" oninput="checkAnswer(this, 'Le citron est acide.')"><span></span>
+7. "Le poire est mûre." → <input type="text" placeholder="Corrigez" style="width: 40em;" oninput="checkAnswer(this, 'La poire est mûre.')"><span></span>
+8. "La cerises sont délicieuses." → <input type="text" placeholder="Corrigez" style="width: 40em;" oninput="checkAnswer(this, 'Les cerises sont délicieuses.')"><span></span>
+9. "Le pastèque est sucrée." → <input type="text" placeholder="Corrigez" style="width: 40em;" oninput="checkAnswer(this, 'La pastèque est sucrée.')"><span></span>
+10. "Le pêche est douce." → <input type="text" placeholder="Corrigez" style="width: 40em;" oninput="checkAnswer(this, 'La pêche est douce.')"><span></span>
 
-\_\_\_ pomme (apple) 🍎 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'la')">
+#### 3. Translate and Identify Gender
 
-\_\_\_ raisin (grape) 🍇 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'le')">
+Translate and say if the noun is masculine (M), feminine (F), or plural (P):
 
-\_\_\_ orange (orange) 🍊 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'l\'')">
+1. "The apple is green."  
+    <textarea placeholder="French translation" rows="2" cols="50" oninput="checkTranslation(this, 'La pomme est verte.')"></textarea><span></span>  
+    (F/M/P?) <input type="text" placeholder="F/M/P" oninput="checkAnswer(this, 'F')"><span></span>
+2. "The bananas are yellow."  
+    <textarea placeholder="French translation" rows="2" cols="50" oninput="checkTranslation(this, 'Les bananes sont jaunes.')"></textarea><span></span>  
+    (F/M/P?) <input type="text" placeholder="F/M/P" oninput="checkAnswer(this, 'P')"><span></span>
+3. "The grapes are sweet."  
+    <textarea placeholder="French translation" rows="2" cols="50" oninput="checkTranslation(this, 'Les raisins sont sucrés.')"></textarea><span></span>  
+    (F/M/P?) <input type="text" placeholder="F/M/P" oninput="checkAnswer(this, 'P')"><span></span>
+4. "The orange is juicy."  
+    <textarea placeholder="French translation" rows="2" cols="50" oninput="checkTranslation(this, 'L\'orange est juteuse.')"></textarea><span></span>  
+    (F/M/P?) <input type="text" placeholder="F/M/P" oninput="checkAnswer(this, 'F')"><span></span>
+5. "The strawberry is red."  
+    <textarea placeholder="French translation" rows="2" cols="50" oninput="checkTranslation(this, 'La fraise est rouge.')"></textarea><span></span>  
+    (F/M/P?) <input type="text" placeholder="F/M/P" oninput="checkAnswer(this, 'F')"><span></span>
+6. "The lemon is sour."  
+    <textarea placeholder="French translation" rows="2" cols="50" oninput="checkTranslation(this, 'Le citron est acide.')"></textarea><span></span>  
+    (F/M/P?) <input type="text" placeholder="F/M/P" oninput="checkAnswer(this, 'M')"><span></span>
+7. "The pear is ripe."  
+    <textarea placeholder="French translation" rows="2" cols="50" oninput="checkTranslation(this, 'La poire est mûre.')"></textarea><span></span>  
+    (F/M/P?) <input type="text" placeholder="F/M/P" oninput="checkAnswer(this, 'F')"><span></span>
+8. "The cherries are delicious."  
+    <textarea placeholder="French translation" rows="2" cols="50" oninput="checkTranslation(this, 'Les cerises sont délicieuses.')"></textarea><span></span>  
+    (F/M/P?) <input type="text" placeholder="F/M/P" oninput="checkAnswer(this, 'P')"><span></span>
+9. "The watermelon is sweet."  
+    <textarea placeholder="French translation" rows="2" cols="50" oninput="checkTranslation(this, 'La pastèque est sucrée.')"></textarea><span></span>  
+    (F/M/P?) <input type="text" placeholder="F/M/P" oninput="checkAnswer(this, 'F')"><span></span>
+10. "The peach is soft."  
+    <textarea placeholder="French translation" rows="2" cols="50" oninput="checkTranslation(this, 'La pêche est douce.')"></textarea><span></span>  
+    (F/M/P?) <input type="text" placeholder="F/M/P" oninput="checkAnswer(this, 'F')"><span></span>
 
-\_\_\_ noix de coco (coconut) 🥥 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'la')">
+<button onclick="showAnswers()">Show Answers</button>
+<button onclick="refreshPage()">Refresh Page</button>
 
-#### 2. Match the French term to its English equivalent:
+#### 4. Writing Challenge
 
-**"la cerise"** → <input type="text" placeholder="English" oninput="checkAnswer(this, 'cherry')">
+List 5 masculine fruit nouns and 5 feminine fruit nouns (in French, with articles).
 
-**"le bleuet"** → <input type="text" placeholder="English" oninput="checkAnswer(this, 'blueberry')">
+<textarea placeholder="Write your answers here..." rows="5" cols="120"></textarea>
 
-**"la mangue"** → <input type="text" placeholder="English" oninput="checkAnswer(this, 'mango')">
+#### Notes:
 
-**"la prune"** → <input type="text" placeholder="English" oninput="checkAnswer(this, 'plum')">
+Gender hints: Many fruit nouns are feminine (la pomme, la banane, la fraise), but some are masculine (le citron, l'ananas). Plurals use "les".
 
-#### 3. Fill in the blanks with the correct term:
+Partitives: Use du/de la for "some" (du raisin, de la pastèque).
 
-"Je mange \_\_\_ (strawberries) avec de la crème." → <input type="text" placeholder="French" oninput="checkAnswer(this, 'des fraises')">
-
-"\_\_\_ (The pomegranate) est rouge." → <input type="text" placeholder="French" oninput="checkAnswer(this, 'la grenade')">
-
-"Où sont \_\_\_ (the raspberries) ?" → <input type="text" placeholder="French" oninput="checkAnswer(this, 'les framboises')">
-
-#### 4. Correct the errors in gender/number:
-
-"Un banane" → <input type="text" placeholder="Correct phrase" oninput="checkAnswer(this, 'une banane')">
-
-"La citron" → <input type="text" placeholder="Correct phrase" oninput="checkAnswer(this, 'le citron')">
-
-"Des pêche" → <input type="text" placeholder="Correct phrase" oninput="checkAnswer(this, 'des pêches')">
-
-<button onclick="showAnswers()">Show All Answers</button>
+Plural alert: Les raisins (grapes), les cerises (cherries), les bananes (bananas) are plural.
 
 
-<script>  
-function showAnswers() {  
-    document.querySelectorAll('input[type="text"]').forEach(input => {  
-        const correct = input.getAttribute('oninput').match(/'([^']+)'/)[1];  
-        input.value = correct;  
-        const feedback = input.nextElementSibling;  
-        feedback.textContent = "✓ Correct!";  
-        feedback.style.color = "green";  
-    });  
-}  
-
-function refreshPage() {  
-    location.reload();  
-}  
-</script>
-```
-
-<button onclick="refreshPage()">
-
-Refresh Page
-
-</button>
-
-#### 5. Translate into French (include articles!):
-
-"I like to eat grapes."\
-
-```{=html}
-<textarea placeholder="J'aime manger..." rows="2" cols="50" oninput="checkTranslation(this, 'J\'aime manger du raisin')"></textarea>
-```
-
-"The children want apples and pears."\
-
-```{=html}
-<textarea placeholder="Les enfants veulent..." rows="2" cols="50" oninput="checkTranslation(this, 'Les enfants veulent des pommes et des poires')"></textarea>
-```
-
-<button onclick="checkAllAnswers()">
-
-Check Answers
-
-</button>
-
-```{=html}
-<script>  
-function checkAnswer(input, correctAnswer) {  
-    const feedback = input.nextElementSibling;  
-    if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {  
-        feedback.textContent = "✓ Correct!";  
-        feedback.style.color = "green";  
-    } else if (input.value.trim()) {  
-        feedback.textContent = "✗ Try again!";  
-        feedback.style.color = "red";  
-    }  
-}  
-
-function checkAllAnswers() {  
-    document.querySelectorAll('input[type="text"]').forEach(input => {  
-        const correct = input.getAttribute('oninput').match(/'([^']+)'/)[1];  
-        checkAnswer(input, correct);  
-    });  
-
-    document.querySelectorAll('textarea').forEach(textarea => {  
-        const correct = textarea.getAttribute('oninput').match(/'([^']+)'/)[1];  
-        checkTranslation(textarea, correct);  
-    });  
-}  
-
-function checkTranslation(textarea, correctAnswer) {  
-    const feedback = textarea.nextElementSibling;  
-    if (textarea.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {  
-        feedback.textContent = "✓ Correct!";  
-        feedback.style.color = "green";  
-    } else if (textarea.value.trim()) {  
-        feedback.textContent = "✗ Try again!";  
-        feedback.style.color = "red";  
-    }  
-}  
-</script>
-```
 :::
 
 ::: {.content-visible when-profile="french"}
-### Exercice : Noms de fruits en français et leur genre
 
-Entraînez-vous à utiliser le genre des noms de fruits en français et leurs articles.
+#### 1. Vocabulaire des fruits : Masculin ou Féminin ?
 
-#### 1. Attribuez le bon article défini (*le/la/l'*) à chaque fruit :
+Écris "le", "la" ou "les" pour chaque nom de fruit (tape l’article et le nom corrects en français) :
 
-\_\_\_ banane (banana) 🍌 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'la')">
+1. "pomme" 🍏 → <input type="text" placeholder="Français" oninput="checkAnswer(this, 'la pomme')"><span></span>
+2. "banane" 🍌 → <input type="text" placeholder="Français" oninput="checkAnswer(this, 'la banane')"><span></span>
+3. "raisins" 🍇 → <input type="text" placeholder="Français" oninput="checkAnswer(this, 'les raisins')"><span></span>
+4. "orange" 🍊 → <input type="text" placeholder="Français" oninput="checkAnswer(this, 'l\'orange')"><span></span>
+5. "fraise" 🍓 → <input type="text" placeholder="Français" oninput="checkAnswer(this, 'la fraise')"><span></span>
+6. "citron" 🍋 → <input type="text" placeholder="Français" oninput="checkAnswer(this, 'le citron')"><span></span>
+7. "poire" 🍐 → <input type="text" placeholder="Français" oninput="checkAnswer(this, 'la poire')"><span></span>
+8. "cerises" 🍒 → <input type="text" placeholder="Français" oninput="checkAnswer(this, 'les cerises')"><span></span>
+9. "pastèque" 🍉 → <input type="text" placeholder="Français" oninput="checkAnswer(this, 'la pastèque')"><span></span>
+10. "pêche" 🍑 → <input type="text" placeholder="Français" oninput="checkAnswer(this, 'la pêche')"><span></span>
+11. "ananas" 🍍 → <input type="text" placeholder="Français" oninput="checkAnswer(this, 'l\'ananas')"><span></span>
+12. "prune" 🍑 → <input type="text" placeholder="Français" oninput="checkAnswer(this, 'la prune')"><span></span>
 
-\_\_\_ ananas (ananas) 🍍 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'l\'')">
+#### 2. Corrige les erreurs
 
-\_\_\_ fraise (fraise) 🍓 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'la')">
+Corrige le genre/nombre dans ces phrases (tape la phrase correcte en français) :
 
-\_\_\_ citron (citron) 🍋 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'le')">
+1. "Le pomme est verte." → <input type="text" placeholder="Corrigez" style="width: 40em;" oninput="checkAnswer(this, 'La pomme est verte.')"><span></span>
+2. "La banane est jaune." → <input type="text" placeholder="Corrigez" style="width: 40em;" oninput="checkAnswer(this, 'La banane est jaune.')"><span></span>
+3. "Le raisins sont sucrés." → <input type="text" placeholder="Corrigez" style="width: 40em;" oninput="checkAnswer(this, 'Les raisins sont sucrés.')"><span></span>
+4. "Le orange est juteuse." → <input type="text" placeholder="Corrigez" style="width: 40em;" oninput="checkAnswer(this, 'L\'orange est juteuse.')"><span></span>
+5. "Le fraise est rouge." → <input type="text" placeholder="Corrigez" style="width: 40em;" oninput="checkAnswer(this, 'La fraise est rouge.')"><span></span>
+6. "La citron est acide." → <input type="text" placeholder="Corrigez" style="width: 40em;" oninput="checkAnswer(this, 'Le citron est acide.')"><span></span>
+7. "Le poire est mûre." → <input type="text" placeholder="Corrigez" style="width: 40em;" oninput="checkAnswer(this, 'La poire est mûre.')"><span></span>
+8. "La cerises sont délicieuses." → <input type="text" placeholder="Corrigez" style="width: 40em;" oninput="checkAnswer(this, 'Les cerises sont délicieuses.')"><span></span>
+9. "Le pastèque est sucrée." → <input type="text" placeholder="Corrigez" style="width: 40em;" oninput="checkAnswer(this, 'La pastèque est sucrée.')"><span></span>
+10. "Le pêche est douce." → <input type="text" placeholder="Corrigez" style="width: 40em;" oninput="checkAnswer(this, 'La pêche est douce.')"><span></span>
 
-\_\_\_ pomme (pomme) 🍎 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'la')">
+#### 3. Traduisez et identifiez le genre
 
-\_\_\_ raisin (raisin) 🍇 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'le')">
+Traduisez et indiquez si le nom est masculin (M), féminin (F) ou pluriel (P) :
 
-\_\_\_ orange (orange) 🍊 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'l\'')">
+1. "The apple is green."  
+    <textarea placeholder="French translation" rows="2" cols="50" oninput="checkTranslation(this, 'La pomme est verte.')"></textarea><span></span>  
+    (F/M/P?) <input type="text" placeholder="F/M/P" oninput="checkAnswer(this, 'F')"><span></span>
+2. "The bananas are yellow."  
+    <textarea placeholder="French translation" rows="2" cols="50" oninput="checkTranslation(this, 'Les bananes sont jaunes.')"></textarea><span></span>  
+    (F/M/P?) <input type="text" placeholder="F/M/P" oninput="checkAnswer(this, 'P')"><span></span>
+3. "The grapes are sweet."  
+    <textarea placeholder="French translation" rows="2" cols="50" oninput="checkTranslation(this, 'Les raisins sont sucrés.')"></textarea><span></span>  
+    (F/M/P?) <input type="text" placeholder="F/M/P" oninput="checkAnswer(this, 'P')"><span></span>
+4. "The orange is juicy."  
+    <textarea placeholder="French translation" rows="2" cols="50" oninput="checkTranslation(this, 'L\'orange est juteuse.')"></textarea><span></span>  
+    (F/M/P?) <input type="text" placeholder="F/M/P" oninput="checkAnswer(this, 'F')"><span></span>
+5. "The strawberry is red."  
+    <textarea placeholder="French translation" rows="2" cols="50" oninput="checkTranslation(this, 'La fraise est rouge.')"></textarea><span></span>  
+    (F/M/P?) <input type="text" placeholder="F/M/P" oninput="checkAnswer(this, 'F')"><span></span>
+6. "The lemon is sour."  
+    <textarea placeholder="French translation" rows="2" cols="50" oninput="checkTranslation(this, 'Le citron est acide.')"></textarea><span></span>  
+    (F/M/P?) <input type="text" placeholder="F/M/P" oninput="checkAnswer(this, 'M')"><span></span>
+7. "The pear is ripe."  
+    <textarea placeholder="French translation" rows="2" cols="50" oninput="checkTranslation(this, 'La poire est mûre.')"></textarea><span></span>  
+    (F/M/P?) <input type="text" placeholder="F/M/P" oninput="checkAnswer(this, 'F')"><span></span>
+8. "The cherries are delicious."  
+    <textarea placeholder="French translation" rows="2" cols="50" oninput="checkTranslation(this, 'Les cerises sont délicieuses.')"></textarea><span></span>  
+    (F/M/P?) <input type="text" placeholder="F/M/P" oninput="checkAnswer(this, 'P')"><span></span>
+9. "The watermelon is sweet."  
+    <textarea placeholder="French translation" rows="2" cols="50" oninput="checkTranslation(this, 'La pastèque est sucrée.')"></textarea><span></span>  
+    (F/M/P?) <input type="text" placeholder="F/M/P" oninput="checkAnswer(this, 'F')"><span></span>
+10. "The peach is soft."  
+    <textarea placeholder="French translation" rows="2" cols="50" oninput="checkTranslation(this, 'La pêche est douce.')"></textarea><span></span>  
+    (F/M/P?) <input type="text" placeholder="F/M/P" oninput="checkAnswer(this, 'F')"><span></span>
 
-\_\_\_ noix de coco (noix de coco) 🥥 → <input type="text" placeholder="le/la/l'" oninput="checkAnswer(this, 'la')">
+<button onclick="showAnswers()">Afficher les réponses</button>
+<button onclick="refreshPage()">Rafraîchir la page</button>
 
-#### 2. Associez le terme français à son équivalent anglais :
+#### 4. Défi d’écriture
 
-**"la cerise"** → <input type="text" placeholder="Anglais" oninput="checkAnswer(this, 'cherry')">
+Liste 5 noms de fruits masculins et 5 noms de fruits féminins (en français, avec les articles).
 
-**"le bleuet"** → <input type="text" placeholder="Anglais" oninput="checkAnswer(this, 'blueberry')">
+<textarea placeholder="Écris tes réponses ici..." rows="5" cols="120"></textarea>
 
-**"la mangue"** → <input type="text" placeholder="Anglais" oninput="checkAnswer(this, 'mango')">
+#### Notes :
 
-**"la prune"** → <input type="text" placeholder="Anglais" oninput="checkAnswer(this, 'plum')">
+Astuces sur le genre : Beaucoup de noms de fruits sont féminins (la pomme, la banane, la fraise), mais certains sont masculins (le citron, l’ananas). Le pluriel utilise « les ».
 
-#### 3. Complétez avec le bon terme :
+Partitifs : Utilise du/de la pour « du/de la/des » (du raisin, de la pastèque).
 
-"Je mange \_\_\_ (des fraises) avec de la crème." → <input type="text" placeholder="Français" oninput="checkAnswer(this, 'des fraises')">
+Attention au pluriel : Les raisins (raisins), les cerises (cerises), les bananes (bananes) sont au pluriel.
 
-"\_\_\_ (La grenade) est rouge." → <input type="text" placeholder="Français" oninput="checkAnswer(this, 'la grenade')">
+:::
 
-"Où sont \_\_\_ (les framboises) ?" → <input type="text" placeholder="Français" oninput="checkAnswer(this, 'les framboises')">
-
-#### 4. Corrigez les erreurs de genre/nombre :
-
-"Un banane" → <input type="text" placeholder="Phrase correcte" oninput="checkAnswer(this, 'une banane')">
-
-"La citron" → <input type="text" placeholder="Phrase correcte" oninput="checkAnswer(this, 'le citron')">
-
-"Des pêche" → <input type="text" placeholder="Phrase correcte" oninput="checkAnswer(this, 'des pêches')">
-
-<button onclick="showAnswers()">
-
-Afficher toutes les réponses
-
-</button>
-
-<button onclick="refreshPage()">
-
-Rafraîchir la page
-
-</button>
-
-#### 5. Traduisez en français (avec les articles !) :
-
-"J'aime manger du raisin."
-
-```{=html}
-<textarea placeholder="J'aime manger..." rows="2" cols="50" oninput="checkTranslation(this, 'J\'aime manger du raisin')"></textarea>
-```
-
-"Les enfants veulent des pommes et des poires."
-
-```{=html}
-<textarea placeholder="Les enfants veulent..." rows="2" cols="50" oninput="checkTranslation(this, 'Les enfants veulent des pommes et des poires')"></textarea>
-```
-
-<button onclick="checkAllAnswers()">
-
-Vérifier les réponses
-
-</button>
-
-```{=html}
 <script>
+
+function checkAnswer(input, correctAnswer) {
+  const span = input.nextElementSibling;
+  if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
+    span.textContent = "✓ Correct";
+    span.style.color = "green";
+  } else {
+    span.textContent = "";
+  }
+}
+
 function showAnswers() {
-    document.querySelectorAll('input[type="text"]').forEach(input => {
-        const correct = input.getAttribute('oninput').match(/'([^']+)'/)[1];
-        input.value = correct;
-        const feedback = input.nextElementSibling;
-        feedback.textContent = "✓ Correct!";
-        feedback.style.color = "green";
-    });
-    document.querySelectorAll('textarea').forEach(textarea => {
-        const correct = textarea.getAttribute('oninput').match(/'([^']+)'/)[1];
-        textarea.value = correct;
-        const feedback = textarea.nextElementSibling;
-        feedback.textContent = "✓ Correct!";
-        feedback.style.color = "green";
-    });
+  document.querySelectorAll('input[type="text"]').forEach(el => {
+    const correct = el.getAttribute('oninput')?.match(/'([^']+)'/)?.[1];
+    if (correct) {
+      const span = el.nextElementSibling;
+      span.textContent = `Réponse : ${correct}`;
+      span.style.color = "blue";
+    }
+  });
 }
 
 function refreshPage() {
-    location.reload();
-}
-
-function checkAnswer(input, correctAnswer) {
-    const feedback = input.nextElementSibling;
-    if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
-        feedback.textContent = "✓ Correct!";
-        feedback.style.color = "green";
-    } else if (input.value.trim()) {
-        feedback.textContent = "✗ Try again!";
-        feedback.style.color = "red";
-    }
-}
-
-function checkAllAnswers() {
-    document.querySelectorAll('input[type="text"]').forEach(input => {
-        const correct = input.getAttribute('oninput').match(/'([^']+)'/)[1];
-        checkAnswer(input, correct);
-    });
-    document.querySelectorAll('textarea').forEach(textarea => {
-        const correct = textarea.getAttribute('oninput').match(/'([^']+)'/)[1];
-        checkTranslation(textarea, correct);
-    });
-}
-
-function checkTranslation(textarea, correctAnswer) {
-    const feedback = textarea.nextElementSibling;
-    if (textarea.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
-        feedback.textContent = "✓ Correct!";
-        feedback.style.color = "green";
-    } else if (textarea.value.trim()) {
-        feedback.textContent = "✗ Try again!";
-        feedback.style.color = "red";
-    }
+  location.reload();
 }
 </script>
-```
-:::

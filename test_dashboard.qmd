@@ -1,5 +1,0 @@
-here is the test_dashboard that works fine. will look into incorporating the current data for the students.
-
-<iframe width="600" height="450" src="https://lookerstudio.google.com/embed/reporting/0B_U5RNpwhcE6QXg4SXFBVGUwMjg/page/6zXD" frameborder="0" style="border:0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox">
-
-</iframe>
