@@ -2,220 +2,92 @@
 #title: "✨ French with Kunal"
 #subtitle: "Parlez français comme un vrai Parisien!"
 page-layout: full
-format:
-  html:
-    include-in-header:
-      - text: |
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-          <style>
-            :root {
-              --primary: #2C3E50;
-              --accent: #E74C3C;
-              --light: #ECF0F1;
-            }
-            .hero {
-              background: linear-gradient(135deg, var(--primary) 0%, #3498DB 100%);
-              color: white;
-              padding: 5rem 2rem;
-              text-align: center;
-              margin-bottom: 3rem;
-              border-radius: 0 0 20px 20px;
-            }
-            .card-container {
-              display: grid;
-              grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-              gap: 2rem;
-              padding: 2rem 0;
-            }
-            .card {
-              border: none;
-              border-radius: 12px;
-              padding: 2rem;
-              transition: all 0.3s ease;
-              background: white;
-              box-shadow: 0 5px 15px rgba(0,0,0,0.05);
-              position: relative;
-              overflow: hidden;
-            }
-            .card:hover {
-              transform: translateY(-10px);
-              box-shadow: 0 15px 30px rgba(0,0,0,0.1);
-            }
-            .card h3 {
-              margin-top: 0;
-              color: var(--primary);
-              font-size: 1.5rem;
-            }
-            .card h3 i {
-              margin-right: 10px;
-              color: var(--accent);
-            }
-            .btn {
-              display: inline-block;
-              padding: 12px 24px;
-              background: var(--accent);
-              color: white;
-              text-decoration: none;
-              border-radius: 50px;
-              margin-top: 1rem;
-              font-weight: bold;
-              transition: all 0.3s ease;
-              border: 2px solid var(--accent);
-            }
-            .btn:hover {
-              background: transparent;
-              color: var(--accent);
-            }
-            .btn-outline {
-              background: transparent;
-              color: var(--accent);
-              border: 2px solid white;
-            }
-            .testimonials {
-              background: var(--light);
-              padding: 3rem 2rem;
-              margin: 3rem 0;
-              border-radius: 20px;
-            }
-            .quote-icon {
-              color: var(--accent);
-              font-size: 2rem;
-              opacity: 0.3;
-            }
-            .language-switcher {
-              position: absolute;
-              top: 20px;
-              right: 20px;
-            }
-            .language-btn {
-              background: rgba(255,255,255,0.2);
-              border: none;
-              color: white;
-              padding: 5px 10px;
-              border-radius: 5px;
-              cursor: pointer;
-            }
-            .floating-icon {
-              position: absolute;
-              opacity: 0.1;
-              font-size: 5rem;
-              z-index: 0;
-            }
-            .card-content {
-              position: relative;
-              z-index: 1;
-            }
-          </style>
 ---
 
 ::::::::::::::::::::::: {.content-visible when-profile="english"}
-::: language-switcher
-<button class="language-btn" onclick="window.quartoToggleProfile(&#39;french&#39;)">
 
-Français
 
-</button>
-:::
+
+<div style="text-align: center;">
 
 ## 🥖 French with Kunal {.hero}
 
 ### Where French Fluency Meets Cultural Savoir-Faire
 
-{{< video https://www.youtube.com/embed/hU07FOM1klQ title="Your French Journey Starts Here" start="10" aspect-ratio="16x9" >}}
+  {{< video https://www.youtube.com/embed/hU07FOM1klQ title="Your French Journey Starts Here" start="10" aspect-ratio="16x9" >}}
 
-**Bonjour!** I'm Kunal, your guide to mastering French with authentic pronunciation, cultural depth, and Parisian flair. Forget boring textbooks - we learn through stories, music, and real-life conversations.
+  **Bonjour!** I'm Kunal, your guide to mastering French with authentic pronunciation, cultural depth, and Parisian flair. Forget boring textbooks - we learn through stories, music, and real-life conversations.
 
-[Start Your Journey →](/payment.html){.btn}
+  [Start Your Journey →](/payment.html){.btn}
+</div>
 
 ## 🎯 Your French Learning Toolkit {#cards-en}
 
 ::::::::::::::::::: card-container
-:::: card
-<i class="floating-icon fas fa-pen-fancy"></i>
 
-::: card-content
-### <i class="fas fa-book-open"></i> Immersive Lessons
-
-Weekly interactive lessons covering grammar, vocabulary, and cultural nuances. Plus get exclusive access to our "French Slang Dictionary".
-:::
-
-[Discover →](/posts.html){.btn}
-::::
-
-:::: card
-<i class="floating-icon fas fa-chalkboard-teacher"></i>
-
-::: card-content
-### <i class="fas fa-user-tie"></i> Meet Kunal
-
-Québec resident with 5+ years of learning and teaching experience. My secret? We focus on what you'll actually use!
-:::
-
-[My Story →](/about.html){.btn}
-::::
-
-
-:::: card
-<i class="floating-icon fas fa-comments"></i>
-
-::: card-content
-### <i class="fas fa-headset"></i> 24/7 Support
-
-Stuck on subjunctive at 2am? Our WhatsApp support has you covered (oui, even on Sundays!).
-:::
-
-[Get Help →](/contact.html){.btn}
-::::
 
 :::: card
 <i class="floating-icon fas fa-lightbulb"></i>
 
 ::: card-content
-### <i class="fas fa-magic"></i> AI-Powered French Quiz & Activities
-
-Curious about your French skills? Try our interactive AI quiz! Plus, accelerate your learning with Reading, Listening, and Dictation activities—get instant feedback and personalized tips to boost your progress.
+<div style="text-align: center;">
+  <h3><i class="fas fa-magic"></i> AI-Powered French Quiz & Activities</h3>
+  <p>
+    Curious about your French skills? Try our interactive AI quiz! Plus, accelerate your learning with Reading, Listening, and Dictation activities—get instant feedback and personalized tips to boost your progress.
+  </p>
+  <a href="https://french-grammar-ai-a92ff913a503.herokuapp.com/" class="btn" target="_blank" rel="noopener">Practice →</a>
+</div>
 :::
-<a href="https://french-grammar-ai-a92ff913a503.herokuapp.com/" class="btn" target="_blank" rel="noopener">Practice →</a>
-
-::::
+:::: 
 
 :::: card
 <i class="floating-icon fas fa-video"></i>
 
 ::: card-content
-### <i class="fas fa-play-circle"></i> Recorded Lectures
-
-Access a library of engaging recorded French lessons. Learn at your own pace, anytime, anywhere.
+<div style="text-align: center;">
+  <h3><i class="fas fa-play-circle"></i> Recorded Lectures</h3>
+  <p>
+    Access a library of engaging recorded French lessons. Learn at your own pace, anytime, anywhere.
+  </p>
+  [Watch Lectures →](/posts.html){.btn}
+</div>
 :::
 
-[Watch Lectures →](/posts.html){.btn}
-::::
+:::: 
 
 :::: card
 <i class="floating-icon fas fa-pencil-alt"></i>
 
 ::: card-content
-### <i class="fas fa-tasks"></i> Interactive Exercises
-
-Practice what you learn with quizzes, exercises, and real-life scenarios to boost your confidence.
-
+<div style="text-align: center;">
+  <h3><i class="fas fa-tasks"></i> Interactive Exercises</h3>
+  <p>
+    Practice what you learn with quizzes, exercises, and real-life scenarios to boost your confidence.
+  </p>
+  [Try Exercises →](/exercises.html){.btn}
+</div>
 :::
 
-[Try Exercises →](/exercises.html){.btn}
 ::::
 
 :::: card
 <i class="floating-icon fas fa-list-alt"></i>
 
 ::: card-content
-### <i class="fas fa-stream"></i> Full Curriculum
-
-Explore our structured curriculum designed to take you from beginner to fluent, step by step.
+<div style="text-align: center;">
+  <h3><i class="fas fa-stream"></i> Full Curriculum</h3>
+  <p>
+    Explore our structured curriculum designed to take you from beginner to fluent, step by step.
+  </p>
+  [View Curriculum →](/curriculum.html){.btn}
+</div>
 :::
 
-[View Curriculum →](/curriculum.html){.btn}
-::::
+:::: 
+
 :::::::::::::::::::
+
+
 
 ## 🗣️ Success Stories {.testimonials}
 
@@ -268,7 +140,7 @@ Explore our structured curriculum designed to take you from beginner to fluent, 
 <input type="email" id="subscriberEmail" name="email" placeholder="Enter your email" required style="padding: 10px; border-radius: 5px; border: 1px solid #ccc; width: 80%; max-width: 300px;"> <br> <button type="submit" class="btn" style="margin-top: 1rem;">Oui, I Want It!</button>
 
 </form>
-:::
+
 
 ```{=html}
 <script>
@@ -299,13 +171,7 @@ document.getElementById('subscribeForm').addEventListener('submit', async functi
 });
 </script>
 ```
-
-## 🚀 Ready for Your French Breakthrough? {.hero}
-
-**Limited spots available** - Join 1,200+ students who've unlocked their French potential!
-
-[Enroll Now](/payment.html){.btn} [Free Trial Lesson](/contact.html){.btn}
-:::::::::::::::::::::::
+::::::
 
 ::::::::::::::::::::::: {.content-visible when-profile="french"}
 ::: language-switcher

@@ -21,6 +21,8 @@ website:
   # Added repo references (empty since we can't add new content)
   #repo-url: ""
   #issue-url: ""
+
+
   
   #announcement: 
   #  icon: info-circle
@@ -169,17 +171,25 @@ website:
           href: payment.qmd
           icon: credit-card
 
+# format:
+#   html:
+#     theme: 
+#       light: cerulean
+#       dark: cyborg
+#     page-layout: full
+#     grid:
+#       sidebar-width: 250px
+#       body-width: 900px
+#     code-copy: true
+#     code-overflow: wrap
+
 format:
   html:
     theme: 
       light: cerulean
-      dark: cyborg
-    page-layout: full
-    grid:
-      sidebar-width: 250px
-      body-width: 900px
-    code-copy: true
-    code-overflow: wrap
+      # dark: cyborg
+    css: [custom.css]
+    toc: true
 
 editor: visual
 

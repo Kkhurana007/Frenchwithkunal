@@ -42,7 +42,7 @@ Fill out this [form](https://forms.gle/UGptE4egRewexaSK7) to join our online lea
   <textarea id="message" name="message" rows="4" required style="width: 100%; padding: 8px;"></textarea>
 </div>
 
-<button type="submit" style="background-color: #FF0000; color: white; padding: 10px 15px; border: none; border-radius: 25px; cursor: pointer;">
+<button type="submit" class="btn btn-primary">
   Submit
 </button>
 </form>

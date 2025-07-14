@@ -83,7 +83,7 @@ format:
     theme: 
       light: cerulean
       dark: cyborg
-    css: [styles.css]
+    css: [custom.css]
     toc: true
 
 editor: visual
