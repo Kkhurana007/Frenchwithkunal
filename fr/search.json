@@ -456,25 +456,89 @@
     ]
   },
   {
-    "objectID": "login.html",
-    "href": "login.html",
+    "objectID": "old-index.html",
+    "href": "old-index.html",
     "title": "Français avec Kunal",
     "section": "",
-    "text": "```{=html}"
+    "text": "Votre destination privilégiée pour apprendre la langue et la culture françaises. Que vous soyez débutant ou que vous souhaitiez perfectionner vos compétences, nous proposons des ressources complètes pour vous aider à atteindre la maîtrise.\nExplorer nos cours"
   },
   {
-    "objectID": "forget-password.html",
-    "href": "forget-password.html",
+    "objectID": "old-index.html#bienvenue-chez-french-with-kunal",
+    "href": "old-index.html#bienvenue-chez-french-with-kunal",
     "title": "Français avec Kunal",
     "section": "",
-    "text": "```{=html}\n\n\n\n\n’’’"
+    "text": "Votre destination privilégiée pour apprendre la langue et la culture françaises. Que vous soyez débutant ou que vous souhaitiez perfectionner vos compétences, nous proposons des ressources complètes pour vous aider à atteindre la maîtrise.\nExplorer nos cours"
   },
   {
-    "objectID": "extra.html",
-    "href": "extra.html",
+    "objectID": "old-index.html#cards",
+    "href": "old-index.html#cards",
+    "title": "Français avec Kunal",
+    "section": "Découvrez notre contenu",
+    "text": "Découvrez notre contenu\n\n\nArticles de blog\nDécouvrez nos derniers articles sur les astuces linguistiques, les insights culturels et les stratégies d’apprentissage.\nVoir tous les articles\n\n\nÀ propos\nApprenez-en plus sur notre philosophie d’enseignement, notre méthodologie et faites connaissance avec votre instructeur.\nÀ propos de Kunal\n\n\nCours & Tarifs\nParcourez nos cours disponibles, options de tutorat privé et plans tarifaires.\nVoir les tarifs\n\n\nContactez-nous\nDes questions ? Contactez-nous par email, WhatsApp ou via les réseaux sociaux.\nNous contacter"
+  },
+  {
+    "objectID": "old-index.html#témoignages-de-nos-étudiants",
+    "href": "old-index.html#témoignages-de-nos-étudiants",
+    "title": "Français avec Kunal",
+    "section": "Témoignages de nos étudiants",
+    "text": "Témoignages de nos étudiants\n\n“La méthode d’enseignement de Kunal a rendu l’apprentissage du français agréable et efficace. J’ai considérablement amélioré mes compétences conversationnelles en quelques mois seulement !”\n— Sarah M., Montréal\n\n\n“Les insights culturels combinés aux leçons de langue rendent ce programme unique par rapport à tout ce que j’ai pu essayer auparavant.”\n— Michael T., Toronto"
+  },
+  {
+    "objectID": "old-index.html#prêt-à-commencer-votre-apprentissage",
+    "href": "old-index.html#prêt-à-commencer-votre-apprentissage",
+    "title": "Français avec Kunal",
+    "section": "Prêt à commencer votre apprentissage ?",
+    "text": "Prêt à commencer votre apprentissage ?\nRejoignez notre communauté d’apprenants de français dès aujourd’hui !\nCommencer Nous contacter"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
     "title": "Français avec Kunal",
     "section": "",
-    "text": "Page-footer: left: - text: Ethics href: ethics.qmd - text: Privacy policy href: policy.qmd - text: Terms of Service href: terms.qmd\nright:\n  - text: Login\n    href: login.qmd\n  - text: English\n    href: https://frenchwithkunal.ca/index.html\n  - text: French\n    href: https://frenchwithkunal.ca/fr/index.html\n  - icon: envelope\n    href: mailto:frenchwithkunal@gmail.com\n  - icon: youtube\n    href: https://www.youtube.com/@frenchwithkunal \n\ncenter-right:\n  - text: \"Follow Us:\"\n  - icon: youtube\n    href: \"https://www.youtube.com/@frenchwithkunal\"\n  - icon: instagram\n    href: \"https://www.instagram.com/frenchwithkunal/\"\n  - icon: facebook\n    href: \"https://www.facebook.com/frenchwithkunal\"\n  - icon: linkedin\n    href: \"https://www.linkedin.com/company/frenchwithkunal/\"\n  - icon: twitter\n    href: \"https://twitter.com/frenchwithkunal\"\n\n\n\ncenter: |\n  @2025 French with Kunal &lt;br&gt;\n   All rights reserved. &lt;br&gt;"
+    "text": "Bonjour ! Je suis Kunal, votre guide pour parler français avec une prononciation authentique, une vraie culture et une touche parisienne. Oubliez les manuels ennuyeux : ici, on apprend à travers des histoires, de la musique et des conversations réelles.\nCommencer votre aventure →"
+  },
+  {
+    "objectID": "index.html#french-with-kunal-1",
+    "href": "index.html#french-with-kunal-1",
+    "title": "Français avec Kunal",
+    "section": "",
+    "text": "Bonjour ! Je suis Kunal, votre guide pour parler français avec une prononciation authentique, une vraie culture et une touche parisienne. Oubliez les manuels ennuyeux : ici, on apprend à travers des histoires, de la musique et des conversations réelles.\nCommencer votre aventure →"
+  },
+  {
+    "objectID": "index.html#cards-fr",
+    "href": "index.html#cards-fr",
+    "title": "Français avec Kunal",
+    "section": "🎯 Votre boîte à outils pour apprendre le français",
+    "text": "🎯 Votre boîte à outils pour apprendre le français\n\n\n\n\n Activités françaises propulsées par l’IA\n\n\nAccélérez votre apprentissage avec des activités de lecture, d’écoute et de dictée – recevez des conseils personnalisés et des retours instantanés pour progresser plus vite.\n\n\nPratiquer →\n\n\n\n\n\n\n Cours enregistrés\n\n\nAccédez à une bibliothèque de leçons captivantes en français. Apprenez à votre rythme, où et quand vous voulez.\n\n\nVoir les cours →\n\n\n\n\n\n\n Exercices interactifs\n\n\nMettez en pratique ce que vous apprenez grâce à des quiz, des exercices et des mises en situation concrètes pour renforcer votre confiance.\n\n\nEssayer les exercices →\n\n\n\n\n\n\n Programme complet\n\n\nDécouvrez notre programme structuré pour passer de débutant à bilingue, étape par étape.\n\n\nVoir le programme →"
+  },
+  {
+    "objectID": "index.html#témoignages",
+    "href": "index.html#témoignages",
+    "title": "Français avec Kunal",
+    "section": "🗣️ Témoignages",
+    "text": "🗣️ Témoignages\n\n\n\n\n\n\n\n Recevez chaque semaine votre dose de français authentique!\n\n\nRecevez chaque semaine : 1 astuce culturelle, 1 expression familière, et 1 mini-leçon dans votre boîte mail.\n\n\n  Oui, je le veux!"
+  },
+  {
+    "objectID": "faq.html",
+    "href": "faq.html",
+    "title": "Français avec Kunal",
+    "section": "",
+    "text": "Quel est l’emploi du temps des cours et les heures de bureau ?\n\nLes cours ont lieu tous les [lundi au jeudi] de 10h00 à 11h30 HNE et de 20h00 à 21h30 HNE.\n\nComment puis-je vous contacter en dehors des heures de cours ?\n\nVous pouvez nous contacter à frenchwithkunal@gmail.com et on vous répondra dès que possible.\n\n\n\n\n\n\nComment puis-je développer efficacement mon vocabulaire en français ?\n\nLa pratique régulière, l’utilisation de cartes mémoire, la lecture de textes en français et la participation à des conversations avec des locuteurs natifs sont des moyens efficaces pour développer votre vocabulaire.\n\n\n\n\n\n\nComment prononcer correctement les sons nasaux en français ?\n\nLes sons nasaux en français incluent “an,” “en,” “on,” et “un.” Ces sons sont produits en laissant l’air s’échapper par le nez. Pratiquez en écoutant des locuteurs natifs et en les imitant.\n\nQuel est le meilleur moyen d’améliorer mon accent français ?\n\nÉcoutez des locuteurs natifs, imitez leur prononciation et pratiquez régulièrement. S’enregistrer en parlant peut être d’une grande aide !\n\n\n\n\n\n\nComment puis-je améliorer mes compétences de compréhension orale en français ?\n\nÉcoutez des podcasts en français, regardez des films ou des émissions de télévision en français, et essayez de vous immerger autant que possible dans la langue.\n\nQuels sont des moyens efficaces pour pratiquer la langue parlée en français ?\n\nPratiquez en parlant avec des locuteurs natifs, rejoignez un groupe d’échange linguistique, ou utilisez des applications d’apprentissage des langues qui se concentrent sur l’expression orale.\n\nY a-t-il des podcasts ou des vidéos que vous recommandez pour apprendre le français ?\n\nQuelques podcasts populaires incluent “Coffee Break French,” “InnerFrench,” et “FrenchPod101.” Pour les vidéos, les chaînes YouTube comme “Learn French with Alexa” et “Francais Authentique” sont d’excellentes ressources.\n\n\n\n\n\n\nComment puis-je améliorer ma compréhension de lecture en français ?\n\nCommencez par des textes simples et passez progressivement à des textes plus complexes. Lisez des livres, des journaux et des articles en français, et essayez de comprendre le contexte.\n\nQuels sont des bons livres ou articles en français pour les débutants ?\n\nQuelques bonnes options incluent “Le Petit Prince” d’Antoine de Saint-Exupéry, la série “Le Petit Nicolas” de René Goscinny, et des sites de nouvelles en français simples comme “Le Monde des ados.”\n\nQuelles sont des stratégies pour écrire des essais en français ?\n\nPlanifiez la structure de votre essai, utilisez une variété de structures de phrases et pratiquez régulièrement l’écriture. Concentrez-vous sur la clarté et la cohérence, et relisez votre travail pour vérifier la grammaire et le vocabulaire.\n\n\n\n\n\n\nQuels sont des conseils culturels pour interagir avec des locuteurs français ?\n\nSoyez poli, utilisez des titres formels (Monsieur, Madame) lorsque c’est approprié, et apprenez quelques bases de l’étiquette, comme le salut par poignée de main ou par bise.\n\nPouvez-vous recommander des films ou des émissions de télévision en français à regarder ?\n\nQuelques films français populaires incluent “Amélie,” “La Haine,” et “Intouchables.” Pour les émissions de télévision, “Call My Agent!” et “Lupin” sont vivement recommandés.\n\n\n\n\n\n\nQuels dictionnaires ou livres de référence devrais-je utiliser ?\n\n“Le Petit Robert” et “Larousse” sont des dictionnaires français très réputés. Pour les livres de référence, “501 French Verbs” de Christopher Kendris est un excellent outil pour les conjugaisons de verbes.\n\n\n\n\n\n\nCombien de temps faut-il pour apprendre le français ?\n\nAvec une guidance adéquate et de la pratique (environ 3 heures par jour), il faut généralement environ 6 mois pour atteindre un niveau intermédiaire (B2/CLB5) en français. Un effort constant et une immersion dans la langue peuvent accélérer considérablement le processus d’apprentissage.",
+    "crumbs": [
+      "À Propos",
+      "FAQ"
+    ]
+  },
+  {
+    "objectID": "faq.html#questions-fréquemment-posées-faq",
+    "href": "faq.html#questions-fréquemment-posées-faq",
+    "title": "Français avec Kunal",
+    "section": "",
+    "text": "Quel est l’emploi du temps des cours et les heures de bureau ?\n\nLes cours ont lieu tous les [lundi au jeudi] de 10h00 à 11h30 HNE et de 20h00 à 21h30 HNE.\n\nComment puis-je vous contacter en dehors des heures de cours ?\n\nVous pouvez nous contacter à frenchwithkunal@gmail.com et on vous répondra dès que possible.\n\n\n\n\n\n\nComment puis-je développer efficacement mon vocabulaire en français ?\n\nLa pratique régulière, l’utilisation de cartes mémoire, la lecture de textes en français et la participation à des conversations avec des locuteurs natifs sont des moyens efficaces pour développer votre vocabulaire.\n\n\n\n\n\n\nComment prononcer correctement les sons nasaux en français ?\n\nLes sons nasaux en français incluent “an,” “en,” “on,” et “un.” Ces sons sont produits en laissant l’air s’échapper par le nez. Pratiquez en écoutant des locuteurs natifs et en les imitant.\n\nQuel est le meilleur moyen d’améliorer mon accent français ?\n\nÉcoutez des locuteurs natifs, imitez leur prononciation et pratiquez régulièrement. S’enregistrer en parlant peut être d’une grande aide !\n\n\n\n\n\n\nComment puis-je améliorer mes compétences de compréhension orale en français ?\n\nÉcoutez des podcasts en français, regardez des films ou des émissions de télévision en français, et essayez de vous immerger autant que possible dans la langue.\n\nQuels sont des moyens efficaces pour pratiquer la langue parlée en français ?\n\nPratiquez en parlant avec des locuteurs natifs, rejoignez un groupe d’échange linguistique, ou utilisez des applications d’apprentissage des langues qui se concentrent sur l’expression orale.\n\nY a-t-il des podcasts ou des vidéos que vous recommandez pour apprendre le français ?\n\nQuelques podcasts populaires incluent “Coffee Break French,” “InnerFrench,” et “FrenchPod101.” Pour les vidéos, les chaînes YouTube comme “Learn French with Alexa” et “Francais Authentique” sont d’excellentes ressources.\n\n\n\n\n\n\nComment puis-je améliorer ma compréhension de lecture en français ?\n\nCommencez par des textes simples et passez progressivement à des textes plus complexes. Lisez des livres, des journaux et des articles en français, et essayez de comprendre le contexte.\n\nQuels sont des bons livres ou articles en français pour les débutants ?\n\nQuelques bonnes options incluent “Le Petit Prince” d’Antoine de Saint-Exupéry, la série “Le Petit Nicolas” de René Goscinny, et des sites de nouvelles en français simples comme “Le Monde des ados.”\n\nQuelles sont des stratégies pour écrire des essais en français ?\n\nPlanifiez la structure de votre essai, utilisez une variété de structures de phrases et pratiquez régulièrement l’écriture. Concentrez-vous sur la clarté et la cohérence, et relisez votre travail pour vérifier la grammaire et le vocabulaire.\n\n\n\n\n\n\nQuels sont des conseils culturels pour interagir avec des locuteurs français ?\n\nSoyez poli, utilisez des titres formels (Monsieur, Madame) lorsque c’est approprié, et apprenez quelques bases de l’étiquette, comme le salut par poignée de main ou par bise.\n\nPouvez-vous recommander des films ou des émissions de télévision en français à regarder ?\n\nQuelques films français populaires incluent “Amélie,” “La Haine,” et “Intouchables.” Pour les émissions de télévision, “Call My Agent!” et “Lupin” sont vivement recommandés.\n\n\n\n\n\n\nQuels dictionnaires ou livres de référence devrais-je utiliser ?\n\n“Le Petit Robert” et “Larousse” sont des dictionnaires français très réputés. Pour les livres de référence, “501 French Verbs” de Christopher Kendris est un excellent outil pour les conjugaisons de verbes.\n\n\n\n\n\n\nCombien de temps faut-il pour apprendre le français ?\n\nAvec une guidance adéquate et de la pratique (environ 3 heures par jour), il faut généralement environ 6 mois pour atteindre un niveau intermédiaire (B2/CLB5) en français. Un effort constant et une immersion dans la langue peuvent accélérer considérablement le processus d’apprentissage.",
+    "crumbs": [
+      "À Propos",
+      "FAQ"
+    ]
   },
   {
     "objectID": "exercises/31052025/interrogative.html",
@@ -2762,96 +2826,18 @@
     ]
   },
   {
-    "objectID": "faq.html",
-    "href": "faq.html",
+    "objectID": "forget-password.html",
+    "href": "forget-password.html",
     "title": "Français avec Kunal",
     "section": "",
-    "text": "Quel est l’emploi du temps des cours et les heures de bureau ?\n\nLes cours ont lieu tous les [lundi au jeudi] de 10h00 à 11h30 HNE et de 20h00 à 21h30 HNE.\n\nComment puis-je vous contacter en dehors des heures de cours ?\n\nVous pouvez nous contacter à frenchwithkunal@gmail.com et on vous répondra dès que possible.\n\n\n\n\n\n\nComment puis-je développer efficacement mon vocabulaire en français ?\n\nLa pratique régulière, l’utilisation de cartes mémoire, la lecture de textes en français et la participation à des conversations avec des locuteurs natifs sont des moyens efficaces pour développer votre vocabulaire.\n\n\n\n\n\n\nComment prononcer correctement les sons nasaux en français ?\n\nLes sons nasaux en français incluent “an,” “en,” “on,” et “un.” Ces sons sont produits en laissant l’air s’échapper par le nez. Pratiquez en écoutant des locuteurs natifs et en les imitant.\n\nQuel est le meilleur moyen d’améliorer mon accent français ?\n\nÉcoutez des locuteurs natifs, imitez leur prononciation et pratiquez régulièrement. S’enregistrer en parlant peut être d’une grande aide !\n\n\n\n\n\n\nComment puis-je améliorer mes compétences de compréhension orale en français ?\n\nÉcoutez des podcasts en français, regardez des films ou des émissions de télévision en français, et essayez de vous immerger autant que possible dans la langue.\n\nQuels sont des moyens efficaces pour pratiquer la langue parlée en français ?\n\nPratiquez en parlant avec des locuteurs natifs, rejoignez un groupe d’échange linguistique, ou utilisez des applications d’apprentissage des langues qui se concentrent sur l’expression orale.\n\nY a-t-il des podcasts ou des vidéos que vous recommandez pour apprendre le français ?\n\nQuelques podcasts populaires incluent “Coffee Break French,” “InnerFrench,” et “FrenchPod101.” Pour les vidéos, les chaînes YouTube comme “Learn French with Alexa” et “Francais Authentique” sont d’excellentes ressources.\n\n\n\n\n\n\nComment puis-je améliorer ma compréhension de lecture en français ?\n\nCommencez par des textes simples et passez progressivement à des textes plus complexes. Lisez des livres, des journaux et des articles en français, et essayez de comprendre le contexte.\n\nQuels sont des bons livres ou articles en français pour les débutants ?\n\nQuelques bonnes options incluent “Le Petit Prince” d’Antoine de Saint-Exupéry, la série “Le Petit Nicolas” de René Goscinny, et des sites de nouvelles en français simples comme “Le Monde des ados.”\n\nQuelles sont des stratégies pour écrire des essais en français ?\n\nPlanifiez la structure de votre essai, utilisez une variété de structures de phrases et pratiquez régulièrement l’écriture. Concentrez-vous sur la clarté et la cohérence, et relisez votre travail pour vérifier la grammaire et le vocabulaire.\n\n\n\n\n\n\nQuels sont des conseils culturels pour interagir avec des locuteurs français ?\n\nSoyez poli, utilisez des titres formels (Monsieur, Madame) lorsque c’est approprié, et apprenez quelques bases de l’étiquette, comme le salut par poignée de main ou par bise.\n\nPouvez-vous recommander des films ou des émissions de télévision en français à regarder ?\n\nQuelques films français populaires incluent “Amélie,” “La Haine,” et “Intouchables.” Pour les émissions de télévision, “Call My Agent!” et “Lupin” sont vivement recommandés.\n\n\n\n\n\n\nQuels dictionnaires ou livres de référence devrais-je utiliser ?\n\n“Le Petit Robert” et “Larousse” sont des dictionnaires français très réputés. Pour les livres de référence, “501 French Verbs” de Christopher Kendris est un excellent outil pour les conjugaisons de verbes.\n\n\n\n\n\n\nCombien de temps faut-il pour apprendre le français ?\n\nAvec une guidance adéquate et de la pratique (environ 3 heures par jour), il faut généralement environ 6 mois pour atteindre un niveau intermédiaire (B2/CLB5) en français. Un effort constant et une immersion dans la langue peuvent accélérer considérablement le processus d’apprentissage.",
-    "crumbs": [
-      "À Propos",
-      "FAQ"
-    ]
+    "text": "```{=html}\n\n\n\n\n’’’"
   },
   {
-    "objectID": "faq.html#questions-fréquemment-posées-faq",
-    "href": "faq.html#questions-fréquemment-posées-faq",
+    "objectID": "login.html",
+    "href": "login.html",
     "title": "Français avec Kunal",
     "section": "",
-    "text": "Quel est l’emploi du temps des cours et les heures de bureau ?\n\nLes cours ont lieu tous les [lundi au jeudi] de 10h00 à 11h30 HNE et de 20h00 à 21h30 HNE.\n\nComment puis-je vous contacter en dehors des heures de cours ?\n\nVous pouvez nous contacter à frenchwithkunal@gmail.com et on vous répondra dès que possible.\n\n\n\n\n\n\nComment puis-je développer efficacement mon vocabulaire en français ?\n\nLa pratique régulière, l’utilisation de cartes mémoire, la lecture de textes en français et la participation à des conversations avec des locuteurs natifs sont des moyens efficaces pour développer votre vocabulaire.\n\n\n\n\n\n\nComment prononcer correctement les sons nasaux en français ?\n\nLes sons nasaux en français incluent “an,” “en,” “on,” et “un.” Ces sons sont produits en laissant l’air s’échapper par le nez. Pratiquez en écoutant des locuteurs natifs et en les imitant.\n\nQuel est le meilleur moyen d’améliorer mon accent français ?\n\nÉcoutez des locuteurs natifs, imitez leur prononciation et pratiquez régulièrement. S’enregistrer en parlant peut être d’une grande aide !\n\n\n\n\n\n\nComment puis-je améliorer mes compétences de compréhension orale en français ?\n\nÉcoutez des podcasts en français, regardez des films ou des émissions de télévision en français, et essayez de vous immerger autant que possible dans la langue.\n\nQuels sont des moyens efficaces pour pratiquer la langue parlée en français ?\n\nPratiquez en parlant avec des locuteurs natifs, rejoignez un groupe d’échange linguistique, ou utilisez des applications d’apprentissage des langues qui se concentrent sur l’expression orale.\n\nY a-t-il des podcasts ou des vidéos que vous recommandez pour apprendre le français ?\n\nQuelques podcasts populaires incluent “Coffee Break French,” “InnerFrench,” et “FrenchPod101.” Pour les vidéos, les chaînes YouTube comme “Learn French with Alexa” et “Francais Authentique” sont d’excellentes ressources.\n\n\n\n\n\n\nComment puis-je améliorer ma compréhension de lecture en français ?\n\nCommencez par des textes simples et passez progressivement à des textes plus complexes. Lisez des livres, des journaux et des articles en français, et essayez de comprendre le contexte.\n\nQuels sont des bons livres ou articles en français pour les débutants ?\n\nQuelques bonnes options incluent “Le Petit Prince” d’Antoine de Saint-Exupéry, la série “Le Petit Nicolas” de René Goscinny, et des sites de nouvelles en français simples comme “Le Monde des ados.”\n\nQuelles sont des stratégies pour écrire des essais en français ?\n\nPlanifiez la structure de votre essai, utilisez une variété de structures de phrases et pratiquez régulièrement l’écriture. Concentrez-vous sur la clarté et la cohérence, et relisez votre travail pour vérifier la grammaire et le vocabulaire.\n\n\n\n\n\n\nQuels sont des conseils culturels pour interagir avec des locuteurs français ?\n\nSoyez poli, utilisez des titres formels (Monsieur, Madame) lorsque c’est approprié, et apprenez quelques bases de l’étiquette, comme le salut par poignée de main ou par bise.\n\nPouvez-vous recommander des films ou des émissions de télévision en français à regarder ?\n\nQuelques films français populaires incluent “Amélie,” “La Haine,” et “Intouchables.” Pour les émissions de télévision, “Call My Agent!” et “Lupin” sont vivement recommandés.\n\n\n\n\n\n\nQuels dictionnaires ou livres de référence devrais-je utiliser ?\n\n“Le Petit Robert” et “Larousse” sont des dictionnaires français très réputés. Pour les livres de référence, “501 French Verbs” de Christopher Kendris est un excellent outil pour les conjugaisons de verbes.\n\n\n\n\n\n\nCombien de temps faut-il pour apprendre le français ?\n\nAvec une guidance adéquate et de la pratique (environ 3 heures par jour), il faut généralement environ 6 mois pour atteindre un niveau intermédiaire (B2/CLB5) en français. Un effort constant et une immersion dans la langue peuvent accélérer considérablement le processus d’apprentissage.",
-    "crumbs": [
-      "À Propos",
-      "FAQ"
-    ]
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Français avec Kunal",
-    "section": "",
-    "text": "English"
-  },
-  {
-    "objectID": "index.html#french-with-kunal-1",
-    "href": "index.html#french-with-kunal-1",
-    "title": "Français avec Kunal",
-    "section": "🥐 French with Kunal",
-    "text": "🥐 French with Kunal\n\nOù la maîtrise du français rencontre le savoir-vivre\n\nSalut ! Je suis Kunal, votre guide pour maîtriser le français avec une prononciation authentique, une profondeur culturelle et l’élégance parisienne. Oubliez les manuels ennuyeux - nous apprenons à travers des histoires, de la musique et des conversations réelles.\nCommencez votre voyage →"
-  },
-  {
-    "objectID": "index.html#cards",
-    "href": "index.html#cards",
-    "title": "Français avec Kunal",
-    "section": "🎯 Votre boîte à outils",
-    "text": "🎯 Votre boîte à outils\n\n\n\n\n Leçons immersives\nCours interactifs hebdomadaires couvrant grammaire, vocabulaire et nuances culturelles. Accès exclusif à notre “Dictionnaire d’argot français”.\n\nDécouvrir →\n\n\n\n\n Rencontrez Kunal\nRésident de Québec avec 5+ ans d’expérience. Mon secret? Nous nous concentrons sur ce que vous utiliserez vraiment !\n\nMon histoire →\n\n\n\n\n Support 24/7\nBlocage sur le subjonctif à 2h du matin? Notre support WhatsApp est là pour vous (oui, même le dimanche !).\n\nObtenir de l’aide →\n\n\n\n\n Quiz & Activités IA\nCurieux de connaître votre niveau de français ? Essayez notre quiz interactif alimenté par l’IA ! Accélérez votre apprentissage avec des activités de lecture, d’écoute et de dictée—recevez un retour instantané et des conseils personnalisés pour progresser plus vite.\n\nPasser le quiz →\n\n\n\n\n Cours enregistrés\nAccédez à une bibliothèque de leçons de français captivantes en vidéo. Apprenez à votre rythme, où et quand vous voulez.\n\nVoir les cours →\n\n\n\n\n Exercices interactifs\nEntraînez-vous avec des quiz, des exercices et des mises en situation pour gagner en confiance.\n\nEssayer les exercices →\n\n\n\n\n Parcours complet\nDécouvrez notre programme structuré pour passer de débutant à fluent, étape par étape.\n\nVoir le programme →"
-  },
-  {
-    "objectID": "index.html#témoignages",
-    "href": "index.html#témoignages",
-    "title": "Français avec Kunal",
-    "section": "🗣️ Témoignages",
-    "text": "🗣️ Témoignages\n\n\n\n\n\n\n\n\n Recevez chaque semaine votre dose de français authentique!\n\n\nRecevez chaque semaine : 1 astuce culturelle, 1 expression familière, et 1 mini-leçon dans votre boîte mail. En bonus, téléchargez immédiatement un guide PDF de phrases françaises gratuit !\n\n\n  Oui, je le veux!"
-  },
-  {
-    "objectID": "index.html#prêt-pour-votre-révolution-française",
-    "href": "index.html#prêt-pour-votre-révolution-française",
-    "title": "Français avec Kunal",
-    "section": "🚀 Prêt pour votre révolution française ?",
-    "text": "🚀 Prêt pour votre révolution française ?\nPlaces limitées - Rejoignez 1 200+ étudiants qui ont débloqué leur potentiel en français !\nS’inscrire maintenant Leçon d’essai gratuite"
-  },
-  {
-    "objectID": "old-index.html",
-    "href": "old-index.html",
-    "title": "Français avec Kunal",
-    "section": "",
-    "text": "Votre destination privilégiée pour apprendre la langue et la culture françaises. Que vous soyez débutant ou que vous souhaitiez perfectionner vos compétences, nous proposons des ressources complètes pour vous aider à atteindre la maîtrise.\nExplorer nos cours"
-  },
-  {
-    "objectID": "old-index.html#bienvenue-chez-french-with-kunal",
-    "href": "old-index.html#bienvenue-chez-french-with-kunal",
-    "title": "Français avec Kunal",
-    "section": "",
-    "text": "Votre destination privilégiée pour apprendre la langue et la culture françaises. Que vous soyez débutant ou que vous souhaitiez perfectionner vos compétences, nous proposons des ressources complètes pour vous aider à atteindre la maîtrise.\nExplorer nos cours"
-  },
-  {
-    "objectID": "old-index.html#cards",
-    "href": "old-index.html#cards",
-    "title": "Français avec Kunal",
-    "section": "Découvrez notre contenu",
-    "text": "Découvrez notre contenu\n\n\nArticles de blog\nDécouvrez nos derniers articles sur les astuces linguistiques, les insights culturels et les stratégies d’apprentissage.\nVoir tous les articles\n\n\nÀ propos\nApprenez-en plus sur notre philosophie d’enseignement, notre méthodologie et faites connaissance avec votre instructeur.\nÀ propos de Kunal\n\n\nCours & Tarifs\nParcourez nos cours disponibles, options de tutorat privé et plans tarifaires.\nVoir les tarifs\n\n\nContactez-nous\nDes questions ? Contactez-nous par email, WhatsApp ou via les réseaux sociaux.\nNous contacter"
-  },
-  {
-    "objectID": "old-index.html#témoignages-de-nos-étudiants",
-    "href": "old-index.html#témoignages-de-nos-étudiants",
-    "title": "Français avec Kunal",
-    "section": "Témoignages de nos étudiants",
-    "text": "Témoignages de nos étudiants\n\n“La méthode d’enseignement de Kunal a rendu l’apprentissage du français agréable et efficace. J’ai considérablement amélioré mes compétences conversationnelles en quelques mois seulement !”\n— Sarah M., Montréal\n\n\n“Les insights culturels combinés aux leçons de langue rendent ce programme unique par rapport à tout ce que j’ai pu essayer auparavant.”\n— Michael T., Toronto"
-  },
-  {
-    "objectID": "old-index.html#prêt-à-commencer-votre-apprentissage",
-    "href": "old-index.html#prêt-à-commencer-votre-apprentissage",
-    "title": "Français avec Kunal",
-    "section": "Prêt à commencer votre apprentissage ?",
-    "text": "Prêt à commencer votre apprentissage ?\nRejoignez notre communauté d’apprenants de français dès aujourd’hui !\nCommencer Nous contacter"
+    "text": "```{=html}"
   },
   {
     "objectID": "policy.html",

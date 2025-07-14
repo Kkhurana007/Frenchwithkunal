@@ -1,0 +1,121 @@
+/* ====== Base Reset & Font ====== */
+body {
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  background-color: #f9f9fb;
+  color: #222;
+  line-height: 1.6;
+}
+
+/* ====== Navbar ====== */
+.navbar {
+  font-weight: 600;
+  font-size: 16px;
+  background-color: #212529 !important;
+}
+.navbar-brand img {
+  max-height: 50px;
+}
+.navbar-nav > li > a {
+  padding: 10px 15px;
+}
+
+/* ====== Footer ====== */
+.footer {
+    font-weight: 600;
+    font-size: 16px;
+    background-color: #212529 !important;
+}
+
+
+/* ====== Buttons ====== */
+.btn, .level-button {
+  background-color: #4CAF50;
+  color: white !important;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+  font-weight: 600;
+}
+.btn:hover, .level-button:hover {
+  background-color: #388e3c;
+}
+
+/* ====== Cards & Containers ====== */
+.card, .reading-card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  margin-bottom: 20px;
+}
+.reading-container, .content-block {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px 20px;
+}
+
+/* ====== Headings ====== */
+h1, h2, h3, h4 {
+  font-family: 'Georgia', serif;
+  font-weight: 700;
+  color: #222;
+}
+
+
+/* ====== Text Display ====== */
+.text-display {
+  background: #f1f1f1;
+  padding: 20px;
+  border-radius: 10px;
+  white-space: pre-line;
+  min-height: 100px;
+}
+
+/* ====== Sidebar Enhancements ====== */
+.sidebar-item a {
+  font-weight: 600;
+  color: #333;
+}
+.sidebar-item a:hover {
+  color: #4CAF50;
+}
+
+/* ====== Code Blocks ====== */
+code, pre {
+  font-family: 'Courier New', monospace;
+  font-size: 90%;
+  background: #f4f4f4;
+  padding: 4px 6px;
+  border-radius: 4px;
+}
+
+/* ====== Mobile Responsiveness ====== */
+@media (max-width: 768px) {
+  .reading-card, .card, .content-block {
+    width: 95% !important;
+  }
+  .navbar-brand img {
+    max-height: 40px;
+  }
+}
+
+/* ====== Dark Theme Enhancements ====== */
+body[data-theme="dark"] {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+body[data-theme="dark"] .card,
+body[data-theme="dark"] .reading-card {
+  background: #1f1f1f;
+  color: #e0e0e0;
+}
+body[data-theme="dark"] .btn {
+  background-color: #66bb6a;
+}
+body[data-theme="dark"] .audio-player {
+  background-color: #2e7d32;
+  color: #fff;
+}
