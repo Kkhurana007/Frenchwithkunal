@@ -1,0 +1,305 @@
+---
+#title: "✨ French with Kunal"
+#subtitle: "Parlez français comme un vrai Parisien!"
+page-layout: full
+---
+
+:::::::::::::::::::::::::::::::::::: {.content-visible when-profile="english"}
+::: {style="text-align: center;"}
+## 🥖 French with Kunal {.hero}
+
+### Where French Fluency Meets Cultural Savoir-Faire
+
+{{< video https://www.youtube.com/embed/hU07FOM1klQ title="Your French Journey Starts Here" start="10" aspect-ratio="16x9" >}}
+
+**Bonjour!** I'm Kunal, your guide to mastering French with authentic pronunciation, cultural depth, and Parisian flair. Forget boring textbooks - we learn through stories, music, and real-life conversations.
+
+[Start Your Journey →](/payment.html){.btn}
+:::
+
+## 🎯 Your French Learning Toolkit {#cards-en}
+
+::::::::::::::: card-container
+::::: card
+<i class="floating-icon fas fa-lightbulb"></i>
+
+:::: card-content
+::: {style="text-align: center;"}
+<h3><i class="fas fa-magic"></i> AI-Powered French Quiz & Activities</h3>
+
+<p>Curious about your French skills? Try our interactive AI quiz! Plus, accelerate your learning with Reading, Listening, and Dictation activities—get instant feedback and personalized tips to boost your progress.</p>
+
+<a href="https://french-grammar-ai-a92ff913a503.herokuapp.com/" class="btn" target="_blank" rel="noopener">Practice →</a>
+:::
+::::
+:::::
+
+::::: card
+<i class="floating-icon fas fa-video"></i>
+
+:::: card-content
+::: {style="text-align: center;"}
+<h3><i class="fas fa-play-circle"></i> Recorded Lectures</h3>
+
+<p>Access a library of engaging recorded French lessons. Learn at your own pace, anytime, anywhere.</p>
+
+[Watch Lectures →](/posts.html){.btn}
+:::
+::::
+:::::
+
+::::: card
+<i class="floating-icon fas fa-pencil-alt"></i>
+
+:::: card-content
+::: {style="text-align: center;"}
+<h3><i class="fas fa-tasks"></i> Interactive Exercises</h3>
+
+<p>Practice what you learn with quizzes, exercises, and real-life scenarios to boost your confidence.</p>
+
+[Try Exercises →](/exercises.html){.btn}
+:::
+::::
+:::::
+
+::::: card
+<i class="floating-icon fas fa-list-alt"></i>
+
+:::: card-content
+::: {style="text-align: center;"}
+<h3><i class="fas fa-stream"></i> Full Curriculum</h3>
+
+<p>Explore our structured curriculum designed to take you from beginner to fluent, step by step.</p>
+
+[View Curriculum →](/curriculum.html){.btn}
+:::
+::::
+:::::
+:::::::::::::::
+
+## 🗣️ Success Stories {.testimonials}
+
+::: {.sk-ww-google-reviews data-embed-id="25557829"}
+:::
+
+```{=html}
+<script src='https://widgets.sociablekit.com/google-reviews/widget.js' defer></script>
+```
+
+```{=html}
+<style>
+  .sk-ww-google-reviews {
+    max-height: 400px;
+    overflow-y: auto;
+  }
+  .sk-ww-google-reviews .sk-review {
+    margin-bottom: 1.5rem;
+  }
+</style>
+```
+
+```{=html}
+<script>
+  // Auto-refresh the reviews widget every 60 seconds
+  setInterval(function() {
+    var widget = document.querySelector('.sk-ww-google-reviews');
+    if(widget) {
+      var src = "https://widgets.sociablekit.com/google-reviews/widget.js";
+      var oldScript = document.querySelector('script[src="' + src + '"]');
+      if(oldScript) oldScript.remove();
+      var script = document.createElement('script');
+      script.src = src;
+      script.defer = true;
+      document.body.appendChild(script);
+    }
+  }, 60000);
+</script>
+```
+
+<!-- Google Reviews Widget End -->
+
+::: {#newsletter .card style="text-align: center; background: var(--light); border: 2px dashed var(--accent);"}
+<h3><i class="fas fa-envelope-open-text"></i> Get Weekly French Goodies!</h3>
+
+<p>Get 1 cultural tip, 1 slang phrase, and 1 short lesson in your inbox every week. Plus, receive a free <strong>French Phrasebook</strong> PDF instantly!</p>
+
+<form id="subscribeForm" style="margin-top: 1rem;">
+
+<input type="email" id="subscriberEmail" name="email" placeholder="Enter your email" required style="padding: 10px; border-radius: 5px; border: 1px solid #ccc; width: 80%; max-width: 300px;"> <br> <button type="submit" class="btn" style="margin-top: 1rem;">Oui, I Want It!</button>
+
+</form>
+
+```{=html}
+<script>
+document.getElementById('subscribeForm').addEventListener('submit', async function(e) {
+  e.preventDefault();
+  
+  const email = document.getElementById('subscriberEmail').value;
+  
+  try {
+    const response = await fetch('https://frenchwithkunal-cdf6ea3f88ce.herokuapp.com/api/v1/subscribers/create-subscriber', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({ email: email })
+    });
+
+    if (response.ok) {
+      alert('Merci! You\'ve been subscribed to our newsletter.');
+      document.getElementById('subscriberEmail').value = '';
+    } else {
+      alert('There was an issue with your subscription. Please try again later.');
+    }
+  } catch (error) {
+    console.error('Error:', error);
+    alert('An error occurred. Please try again later.');
+  }
+});
+</script>
+```
+:::
+
+::::::::::::::::::: {.content-visible when-profile="french"}
+::: {style="text-align: center;"}
+## 🥖 French with Kunal {.hero}
+
+### Là où la maîtrise du français rencontre l’art de vivre parisien
+
+{{< video https://www.youtube.com/embed/hU07FOM1klQ title="Votre aventure en français commence ici" start="10" aspect-ratio="16x9" >}}
+
+**Bonjour !** Je suis Kunal, votre guide pour parler français avec une prononciation authentique, une vraie culture et une touche parisienne. Oubliez les manuels ennuyeux : ici, on apprend à travers des histoires, de la musique et des conversations réelles.
+
+[Commencer votre aventure →](/payment.html){.btn}
+:::
+
+## 🎯 Votre boîte à outils pour apprendre le français {#cards-fr}
+
+::::::::::::::: card-container
+::::: card
+<i class="floating-icon fas fa-lightbulb"></i>
+
+:::: card-content
+::: {style="text-align: center;"}
+<h3><i class="fas fa-magic"></i> Quiz & Activités IA en français</h3>
+
+<p>Curieux de votre niveau ? Testez notre quiz interactif avec IA ! Progressez plus vite grâce à des activités de lecture, d’écoute et de dictée—recevez des conseils personnalisés et des retours instantanés.</p>
+
+<a href="https://french-grammar-ai-a92ff913a503.herokuapp.com/" class="btn" target="_blank" rel="noopener">Pratiquer →</a>
+:::
+::::
+:::::
+
+::::: card
+<i class="floating-icon fas fa-video"></i>
+
+:::: card-content
+::: {style="text-align: center;"}
+<h3><i class="fas fa-play-circle"></i> Cours enregistrés</h3>
+
+<p>Accédez à une bibliothèque de leçons captivantes en français. Apprenez à votre rythme, où et quand vous voulez.</p>
+
+[Voir les cours →](/posts.html){.btn}
+:::
+::::
+:::::
+
+::::: card
+<i class="floating-icon fas fa-pencil-alt"></i>
+
+:::: card-content
+::: {style="text-align: center;"}
+<h3><i class="fas fa-tasks"></i> Exercices interactifs</h3>
+
+<p>Mettez en pratique ce que vous apprenez avec des quiz, des exercices et des mises en situation pour gagner en confiance.</p>
+
+[Essayer les exercices →](/exercises.html){.btn}
+:::
+::::
+:::::
+
+::::: card
+<i class="floating-icon fas fa-list-alt"></i>
+
+:::: card-content
+::: {style="text-align: center;"}
+<h3><i class="fas fa-stream"></i> Programme complet</h3>
+
+<p>Découvrez notre programme structuré pour passer de débutant à bilingue, étape par étape.</p>
+
+[Voir le programme →](/curriculum.html){.btn}
+:::
+::::
+:::::
+:::::::::::::::
+
+## 🗣️ Témoignages {.testimonials}
+
+::: {.sk-ww-google-reviews data-embed-id="25557829"}
+:::
+
+```{=html}
+<script src='https://widgets.sociablekit.com/google-reviews/widget.js' defer></script>
+```
+
+```{=html}
+<script>
+  // Auto-refresh the reviews widget every 60 seconds
+  setInterval(function() {
+    var widget = document.querySelector('.sk-ww-google-reviews');
+    if(widget) {
+      var src = "https://widgets.sociablekit.com/google-reviews/widget.js";
+      var oldScript = document.querySelector('script[src="' + src + '"]');
+      if(oldScript) oldScript.remove();
+      var script = document.createElement('script');
+      script.src = src;
+      script.defer = true;
+      document.body.appendChild(script);
+    }
+  }, 60000);
+</script>
+```
+
+::: {#newsletter-fr .card style="text-align: center; background: var(--light); border: 2px dashed var(--accent);"}
+<h3><i class="fas fa-envelope-open-text"></i> Recevez chaque semaine votre dose de français authentique!</h3>
+
+<p>Recevez chaque semaine : 1 astuce culturelle, 1 expression familière, et 1 mini-leçon dans votre boîte mail. En bonus, téléchargez immédiatement un <strong>guide PDF de phrases françaises</strong> gratuit !</p>
+
+<form id="subscribeFormFr" style="margin-top: 1rem;">
+
+<input type="email" id="subscriberEmailFr" name="email" placeholder="Entrez votre e-mail" required style="padding: 10px; border-radius: 5px; border: 1px solid #ccc; width: 80%; max-width: 300px;"> <br> <button type="submit" class="btn" style="margin-top: 1rem;">Oui, je le veux!</button>
+
+</form>
+:::
+
+```{=html}
+<script>
+document.getElementById('subscribeFormFr').addEventListener('submit', async function(e) {
+  e.preventDefault();
+  
+  const email = document.getElementById('subscriberEmailFr').value;
+  
+  try {
+    const response = await fetch('https://frenchwithkunal-cdf6ea3f88ce.herokuapp.com/api/v1/subscribers/create-subscriber', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({ email: email })
+    });
+
+    if (response.ok) {
+      alert('Merci! Vous êtes maintenant abonné à notre newsletter.');
+      document.getElementById('subscriberEmailFr').value = '';
+    } else {
+      alert('Il y a eu un problème avec votre inscription. Veuillez réessayer plus tard.');
+    }
+  } catch (error) {
+    console.error('Error:', error);
+    alert('Une erreur est survenue. Veuillez réessayer plus tard.');
+  }
+});
+</script>
+```
+:::::::::::::::::::
+::::::::::::::::::::::::::::::::::::
