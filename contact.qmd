@@ -1,5 +1,5 @@
 ---
-title: "Contact Us"
+#title: "Contact Us"
 
 format:
   html:
@@ -24,7 +24,7 @@ Fill out this [form](https://forms.gle/UGptE4egRewexaSK7) to join our online lea
 
 ## Quick Contact Form
 
-```{=html}
+
 <form id="contactForm" action="#" method="post">
 
 <div style="margin-bottom: 15px;">
@@ -78,7 +78,7 @@ document.getElementById('contactForm').addEventListener('submit', async function
   }
 });
 </script>
-```
+
 :::
 
 ::: {.content-visible when-profile="french"}
@@ -96,7 +96,6 @@ Remplissez ce [formulaire](https://forms.gle/UGptE4egRewexaSK7) pour rejoindre n
 
 ## Formulaire de Contact Rapide
 
-```{=html}
 
 <form id="contactFormFrench" action="#" method="post">
 
@@ -115,7 +114,7 @@ Remplissez ce [formulaire](https://forms.gle/UGptE4egRewexaSK7) pour rejoindre n
   <textarea id="messageFrench" name="message" rows="4" required style="width: 100%; padding: 8px;"></textarea>
 </div>
 
-<button type="submit" style="background-color: #FF0000; color: white; padding: 10px 15px; border: none; border-radius: 25px; cursor: pointer;">
+<button type="submit" class="btn btn-primary">
   Soumettre
 </button>
 
@@ -152,5 +151,6 @@ document.getElementById('contactFormFrench').addEventListener('submit', async fu
   }
 });
 </script>
-```
+
+
 :::

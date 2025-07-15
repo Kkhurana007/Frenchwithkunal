@@ -165,7 +165,6 @@ document.getElementById('subscribeFormEn').addEventListener('submit', async func
 ::::: card-container
 
 
-
 :::: card
 ::: card-content
 <h3 style="text-align: center;"><i class="fas fa-magic"></i> Activités françaises propulsées par l’IA</h3>
@@ -185,7 +184,7 @@ document.getElementById('subscribeFormEn').addEventListener('submit', async func
     Accédez à une bibliothèque de leçons captivantes en français. Apprenez à votre rythme, où et quand vous voulez.
 </p>
 <p style="text-align: center;">
-    [Voir les cours →](/fr/posts.html){.btn}
+    [Voir les cours →](/posts.html){.btn}
 </p>
 :::
 ::::
@@ -198,7 +197,7 @@ document.getElementById('subscribeFormEn').addEventListener('submit', async func
     Mettez en pratique ce que vous apprenez grâce à des quiz, des exercices et des mises en situation concrètes pour renforcer votre confiance.
 </p>
 <p style="text-align: center;">
-    [Essayer les exercices →](/fr/exercises.html){.btn}
+    [Essayer les exercices →](/exercises.html){.btn}
 </p>
 :::
 ::::
@@ -211,7 +210,7 @@ document.getElementById('subscribeFormEn').addEventListener('submit', async func
     Découvrez notre programme structuré pour passer de débutant à bilingue, étape par étape.
 </p>
 <p style="text-align: center;">
-    [Voir le programme →](/fr/curriculum.html){.btn}
+    [Voir le programme →](/curriculum.html){.btn}
 </p>
 :::
 ::::
