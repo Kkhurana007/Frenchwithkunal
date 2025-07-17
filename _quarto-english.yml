@@ -188,7 +188,7 @@ format:
     theme: 
       light: cerulean
       # dark: cyborg
-    css: [custom.css]
+    css: [custom2.css]
     toc: true
 
 editor: visual

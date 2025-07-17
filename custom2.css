@@ -1,0 +1,28 @@
+/* ====== Base Reset & Font ====== */
+body {
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  background-color: white; /* Changed from #f9f9fb to white */
+  color: #222;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* ====== Buttons ====== */
+.btn {
+  background-color: #50b3eb;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+/* ====== Form Container ====== */
+.content-block {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
