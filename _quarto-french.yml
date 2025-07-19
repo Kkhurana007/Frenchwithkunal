@@ -68,6 +68,7 @@ website:
         menu: 
           - text: "Articles de Blog"
             href: posts.qmd
+            icon: file
           - text: "Grammaire"
             href: exercises.qmd
             icon: clipboard-check
@@ -78,13 +79,13 @@ website:
             href: quiz.qmd
             icon: patch-question 
           - text: "Compréhension Orale"
-            href: https://french-grammar-ai-a92ff913a503.herokuapp.com/listening-practice
+            href: https://learn.frenchwithkunal.ca/listening-practice
             icon: headphones
           - text: "Compréhension Écrite"
-            href: https://french-grammar-ai-a92ff913a503.herokuapp.com/reading-practice
+            href: https://learn.frenchwithkunal.ca/reading-practice
             icon: book
           - text: "Dictée"
-            href: https://french-grammar-ai-a92ff913a503.herokuapp.com/dictation-practice
+            href: https://learn.frenchwithkunal.ca/dictation-practice
             icon: pencil
           - text: "Application IA"
             href: quarto_french_learning.qmd
