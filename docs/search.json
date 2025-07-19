@@ -519,14 +519,7 @@
     "href": "index.html#cards-en",
     "title": "French with Kunal",
     "section": "🎯 Your French Learning Toolkit",
-    "text": "🎯 Your French Learning Toolkit\n\n\n\n\n\n AI-Powered French Activities\n\n\nAccelerate your learning with Reading, Listening, and Dictation activities - get instant feedback and personalized tips to boost your progress.\n\nPractice →\n\n\n\n\n\n\n\n Recorded Lectures\n\n\nAccess a library of engaging recorded French lessons. Learn at your own pace, anytime, anywhere.\n\nSee lessons →\n\n\n\n\n\n\n\n Interactive Exercises\n\n\nPractice what you learn with quizzes, exercises, and real-life scenarios to boost your confidence.\n\nTry exercises →\n\n\n\n\n\n\n\n Full Curriculum\n\n\nExplore our structured curriculum designed to take you from beginner to fluent, step by step.\n\nSee the program →"
-  },
-  {
-    "objectID": "index.html#testimonials",
-    "href": "index.html#testimonials",
-    "title": "French with Kunal",
-    "section": "🗣️ Testimonials",
-    "text": "🗣️ Testimonials\n\n\n\n\n\n\n\n Get your weekly dose of authentic French!\n\n\nEvery week: 1 cultural tip, 1 slang expression, and 1 mini-lesson straight to your inbox.\n\n\n  Yes, I want it!"
+    "text": "🎯 Your French Learning Toolkit\n\n\n\n\n\n AI-Powered French Activities\n\n\nAccelerate your learning with Reading, Listening, and Dictation activities - get instant feedback and personalized tips to boost your progress.\n\nPractice →\n\n\n\n\n\n\n\n Recorded Lectures\n\n\nAccess a library of engaging recorded French lessons. Learn at your own pace, anytime, anywhere.\n\nSee lessons →\n\n\n\n\n\n\n\n Interactive Exercises\n\n\nPractice what you learn with quizzes, exercises, and real-life scenarios to boost your confidence.\n\nTry exercises →\n\n\n\n\n\n\n\n Full Curriculum\n\n\nExplore our structured curriculum designed to take you from beginner to fluent, step by step.\n\nSee the program →\n\n\n\n\n\n\n\n Get your weekly dose of authentic French!\n\n\nEvery week: 1 cultural tip, 1 slang expression, and 1 mini-lesson straight to your inbox.\n\n\n  Yes, I want it!"
   },
   {
     "objectID": "faq.html",
@@ -989,7 +982,7 @@
     "href": "exercises/19052025/pc_imp.html",
     "title": "Passé Composé vs Imparfait: Exercises with Faire",
     "section": "",
-    "text": "Link copied!\n\n\n\n\n\n\nExercise: Practicing the Verb “Faire”\nHere are some exercises to practice conjugating the verb faire (to do/make) in French:\n\nConjugate the verb “faire” in the present tense for the following subjects:\n\nJe  un gâteau.\nTu  du sport.\nIl/Elle  ses devoirs.\nNous  une promenade.\nVous  un voyage.\nIls/Elles  du bruit.\n\n\n\n\nFill in the blanks with the correct form of “faire” in the past tense (passé composé):\n\nHier, j’  une tarte.\nLa semaine dernière, nous  une randonnée.\nEst-ce que tu  tes devoirs ?\nIls/Elles  une fête.\nVous  un bon travail.\nIl/Elle  une erreur.\n\n\n\n\nFill in the blanks with the correct form of “faire” in the plus-que-parfait:\n\nAvant de partir, j’  mes valises.\nQuand nous sommes arrivés, ils  le ménage.\nElle  une erreur avant de corriger son travail.\nVous  une réservation avant d’arriver à l’hôtel.\nNous  une promenade avant qu’il ne pleuve.\nTu  tes devoirs avant de jouer.\n\n\n\n\nCompare the passé composé and plus-que-parfait forms of “faire” in the following sentences:\n\nHier, j’  une tarte, mais avant cela, j’  les courses.\nNous  une randonnée après que nous  un bon petit-déjeuner.\nElle  une erreur, mais elle  de son mieux pour la corriger.\nVous  un bon travail parce que vous  beaucoup d’efforts auparavant.\n\n\n\n\n\nTranslate the following sentences into French using the verb “faire” in the passé composé:\n\nI made a cake.\n\n\nThey made noise.\n\n\nWe made a decision.\n\n\n\n\nSubmit\n\n\n```{=html}\n\n\nWrite a short paragraph about what you and your friends have done recently using different forms of “faire.”\n\n{=html}     &lt;textarea placeholder=\"Write your paragraph here\" rows=\"5\" cols=\"50\"&gt;&lt;/textarea&gt;\n&lt;button onclick=\"checkParagraphAnswers()\"&gt;\n\nCheck Paragraph Answer\n\n&lt;/button&gt;\n\n\n\n\n```{=html}\n&lt;script&gt;\nfunction checkParagraphAnswers() {\n    const paragraphInput = document.querySelector('textarea');\n    const feedback = paragraphInput.nextElementSibling || document.createElement('span');\n\n    if (!feedback.parentNode) {\n        feedback.style.marginLeft = '10px';\n        paragraphInput.parentNode.appendChild(feedback);\n    }\n\n    const userParagraph = paragraphInput.value.trim();\n    if (userParagraph.toLowerCase().includes('faire')) {\n        feedback.textContent = \"Good job! You used the verb 'faire' in your paragraph.\";\n        feedback.style.color = \"green\";\n    } else {\n        feedback.textContent = \"Try again! Make sure to include the verb 'faire' in your paragraph.\";\n        feedback.style.color = \"red\";\n    }\n}\n&lt;/script&gt;\n```"
+    "text": "Link copied!\n\n\n\n\n\n\nExercise: Practicing the Verb “Faire”\nHere are some exercises to practice conjugating the verb faire (to do/make) in French:\n\nConjugate the verb “faire” in the present tense for the following subjects:\n\nJe  un gâteau.\nTu  du sport.\nIl/Elle  ses devoirs.\nNous  une promenade.\nVous  un voyage.\nIls/Elles  du bruit.\n\n\n\n\nFill in the blanks with the correct form of “faire” in the past tense (passé composé):\n\nHier, j’  une tarte.\nLa semaine dernière, nous  une randonnée.\nEst-ce que tu  tes devoirs ?\nIls/Elles  une fête.\nVous  un bon travail.\nIl/Elle  une erreur.\n\n\n\n\nFill in the blanks with the correct form of “faire” in the plus-que-parfait:\n\nAvant de partir, j’  mes valises.\nQuand nous sommes arrivés, ils  le ménage.\nElle  une erreur avant de corriger son travail.\nVous  une réservation avant d’arriver à l’hôtel.\nNous  une promenade avant qu’il ne pleuve.\nTu  tes devoirs avant de jouer.\n\n\n\n\nCompare the passé composé and plus-que-parfait forms of “faire” in the following sentences:\n\nHier, j’  une tarte, mais avant cela, j’  les courses.\nNous  une randonnée après que nous  un bon petit-déjeuner.\nElle  une erreur, mais elle  de son mieux pour la corriger.\nVous  un bon travail parce que vous  beaucoup d’efforts auparavant.\n\n\n\n\n\nTranslate the following sentences into French using the verb “faire” in the passé composé:\n\nI made a cake.\n\n\nThey made noise.\n\n\nWe made a decision.\n\n\n\n\nSubmit\n\n\n```{=html}\n\n\nWrite a short paragraph about what you and your friends have done recently using different forms of “faire.”\n\n{=html}     &lt;textarea placeholder=\"Write your paragraph here\" rows=\"5\" cols=\"50\"&gt;&lt;/textarea&gt;\n&lt;button onclick=\"checkParagraphAnswers()\"&gt;\n\nCheck Paragraph Answer\n\n&lt;/button&gt;\n\n\n\n\n\n```{=html}\n&lt;script&gt;\nfunction checkParagraphAnswers() {\n    const paragraphInput = document.querySelector('textarea');\n    const feedback = paragraphInput.nextElementSibling || document.createElement('span');\n\n    if (!feedback.parentNode) {\n        feedback.style.marginLeft = '10px';\n        paragraphInput.parentNode.appendChild(feedback);\n    }\n\n    const userParagraph = paragraphInput.value.trim();\n    if (userParagraph.toLowerCase().includes('faire')) {\n        feedback.textContent = \"Good job! You used the verb 'faire' in your paragraph.\";\n        feedback.style.color = \"green\";\n    } else {\n        feedback.textContent = \"Try again! Make sure to include the verb 'faire' in your paragraph.\";\n        feedback.style.color = \"red\";\n    }\n}\n&lt;/script&gt;\n```"
   },
   {
     "objectID": "exercises/19052025/ger_verbs.html",
@@ -1702,9 +1695,9 @@
   {
     "objectID": "contact.html",
     "href": "contact.html",
-    "title": "French with Kunal",
+    "title": "Contact Us",
     "section": "",
-    "text": "We’d love to hear from you! Whether you have a question about our services, feedback, or need support, our team is here to help.",
+    "text": "We’d love to hear from you! Whether you have a question about our services, feedback, or need support, our team is here to help.\n\n\nEmail: frenchwithkunal@gmail.com\n\n\n\nFill out this form to join our online learning classes.\n\n\n\n\n\nName: \n\n\nEmail: \n\n\nMessage:\n\n\n\nSubmit",
     "crumbs": [
       "About Us",
       "Contact"
@@ -1713,9 +1706,9 @@
   {
     "objectID": "contact.html#get-in-touch",
     "href": "contact.html#get-in-touch",
-    "title": "French with Kunal",
-    "section": "Get in Touch",
-    "text": "Get in Touch\nEmail: frenchwithkunal@gmail.com",
+    "title": "Contact Us",
+    "section": "",
+    "text": "Email: frenchwithkunal@gmail.com",
     "crumbs": [
       "About Us",
       "Contact"
@@ -1724,9 +1717,9 @@
   {
     "objectID": "contact.html#enrollment-form",
     "href": "contact.html#enrollment-form",
-    "title": "French with Kunal",
-    "section": "Enrollment Form",
-    "text": "Enrollment Form\nFill out this form to join our online learning classes.",
+    "title": "Contact Us",
+    "section": "",
+    "text": "Fill out this form to join our online learning classes.",
     "crumbs": [
       "About Us",
       "Contact"
@@ -1735,9 +1728,9 @@
   {
     "objectID": "contact.html#quick-contact-form",
     "href": "contact.html#quick-contact-form",
-    "title": "French with Kunal",
-    "section": "Quick Contact Form",
-    "text": "Quick Contact Form\n\n\nName: \n\n\nEmail: \n\n\nMessage:\n\n\n\nSubmit",
+    "title": "Contact Us",
+    "section": "",
+    "text": "Name: \n\n\nEmail: \n\n\nMessage:\n\n\n\nSubmit",
     "crumbs": [
       "About Us",
       "Contact"

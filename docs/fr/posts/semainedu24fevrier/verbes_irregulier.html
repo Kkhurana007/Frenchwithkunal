@@ -74,7 +74,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
 
 
-<link rel="stylesheet" href="../../custom2.css">
+<link rel="stylesheet" href="../../custom3.css">
 <meta property="og:title" content="Les verbes irréguliers – Français avec Kunal">
 <meta property="og:description" content="">
 <meta property="og:image" content="https://frenchwithkunal.ca/posts/semainedu24fevrier/irregular_verbs.png">
@@ -108,14 +108,15 @@ ul.task-list li input[type="checkbox"] {
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll me-auto">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-ressources" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Ressources</span>
     </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-ressources">    
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-ressources">    
         <li>
-    <a class="dropdown-item" href="../../posts.html">
+    <a class="dropdown-item" href="../../posts.html"><i class="bi bi-file" role="img">
+</i> 
  <span class="dropdown-text">Articles de Blog</span></a>
   </li>  
         <li>
@@ -134,17 +135,17 @@ ul.task-list li input[type="checkbox"] {
  <span class="dropdown-text">Quiz</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="https://french-grammar-ai-a92ff913a503.herokuapp.com/listening-practice"><i class="bi bi-headphones" role="img">
+    <a class="dropdown-item" href="https://learn.frenchwithkunal.ca/listening-practice"><i class="bi bi-headphones" role="img">
 </i> 
  <span class="dropdown-text">Compréhension Orale</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="https://french-grammar-ai-a92ff913a503.herokuapp.com/reading-practice"><i class="bi bi-book" role="img">
+    <a class="dropdown-item" href="https://learn.frenchwithkunal.ca/reading-practice"><i class="bi bi-book" role="img">
 </i> 
  <span class="dropdown-text">Compréhension Écrite</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="https://french-grammar-ai-a92ff913a503.herokuapp.com/dictation-practice"><i class="bi bi-pencil" role="img">
+    <a class="dropdown-item" href="https://learn.frenchwithkunal.ca/dictation-practice"><i class="bi bi-pencil" role="img">
 </i> 
  <span class="dropdown-text">Dictée</span></a>
   </li>  
@@ -163,15 +164,11 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="../../contact.html"> 
 <span class="menu-text">Contactez-nous</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../../payment.html"> 
-<span class="menu-text">Abonnement</span></a>
-  </li>  
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-accès" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Accès</span>
     </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-accès">    
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-accès">    
         <li>
     <a class="dropdown-item" href="../../login.html"><i class="bi bi-box-arrow-in-right" role="img">
 </i> 
@@ -189,8 +186,6 @@ ul.task-list li input[type="checkbox"] {
   </li>  
     </ul>
   </li>
-</ul>
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-plus" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Plus</span>
@@ -205,6 +200,11 @@ ul.task-list li input[type="checkbox"] {
     <a class="dropdown-item" href="../../curriculum.html"><i class="bi bi-book" role="img">
 </i> 
  <span class="dropdown-text">Programme</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://www.youtube.com/@frenchwithkunal"><i class="bi bi-youtube" role="img">
+</i> 
+ <span class="dropdown-text">Chaîne YouTube</span></a>
   </li>  
     </ul>
   </li>
@@ -225,11 +225,6 @@ ul.task-list li input[type="checkbox"] {
   </li>  
     </ul>
   </li>
-  <li class="nav-item">
-    <a class="nav-link" href="https://www.youtube.com/@frenchwithkunal"> <i class="bi bi-youtube" role="img">
-</i> 
-<span class="menu-text">Chaîne YouTube</span></a>
-  </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -389,7 +384,7 @@ ul.task-list li input[type="checkbox"] {
         const newCounter = prev - 1;
         if (newCounter <= 0) {
           clearInterval(redirectInterval);
-          window.location.href = "https://frenchwithkunal.ca/payment.html";
+          window.location.href = "https://learn.frenchwithkunal.ca/subscription";
         }
         
         // Update the countdown text

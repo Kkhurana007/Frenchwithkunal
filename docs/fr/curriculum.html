@@ -39,7 +39,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-fad5ab29a14bbe0a7a7d29177f3f13bb.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-9b8f6c33b8a184d254b5eaa30f9d0661.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -67,10 +67,13 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Recherche"
   }
 }</script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+<script src="https://unpkg.com/react@17/umd/react.production.min.js"></script>
+<script src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"></script>
+<script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
 
 
-<link rel="stylesheet" href="custom2.css">
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="custom3.css">
 <meta property="og:title" content="Course Curriculum – Français avec Kunal">
 <meta property="og:site_name" content="Français avec Kunal">
 <meta name="twitter:title" content="Course Curriculum – Français avec Kunal">
@@ -96,14 +99,15 @@ ul.task-list li input[type="checkbox"] {
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll me-auto">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-ressources" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Ressources</span>
     </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-ressources">    
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-ressources">    
         <li>
-    <a class="dropdown-item" href="./posts.html">
+    <a class="dropdown-item" href="./posts.html"><i class="bi bi-file" role="img">
+</i> 
  <span class="dropdown-text">Articles de Blog</span></a>
   </li>  
         <li>
@@ -122,17 +126,17 @@ ul.task-list li input[type="checkbox"] {
  <span class="dropdown-text">Quiz</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="https://french-grammar-ai-a92ff913a503.herokuapp.com/listening-practice"><i class="bi bi-headphones" role="img">
+    <a class="dropdown-item" href="https://learn.frenchwithkunal.ca/listening-practice"><i class="bi bi-headphones" role="img">
 </i> 
  <span class="dropdown-text">Compréhension Orale</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="https://french-grammar-ai-a92ff913a503.herokuapp.com/reading-practice"><i class="bi bi-book" role="img">
+    <a class="dropdown-item" href="https://learn.frenchwithkunal.ca/reading-practice"><i class="bi bi-book" role="img">
 </i> 
  <span class="dropdown-text">Compréhension Écrite</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="https://french-grammar-ai-a92ff913a503.herokuapp.com/dictation-practice"><i class="bi bi-pencil" role="img">
+    <a class="dropdown-item" href="https://learn.frenchwithkunal.ca/dictation-practice"><i class="bi bi-pencil" role="img">
 </i> 
  <span class="dropdown-text">Dictée</span></a>
   </li>  
@@ -151,15 +155,11 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="./contact.html"> 
 <span class="menu-text">Contactez-nous</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./payment.html"> 
-<span class="menu-text">Abonnement</span></a>
-  </li>  
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-accès" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Accès</span>
     </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-accès">    
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-accès">    
         <li>
     <a class="dropdown-item" href="./login.html"><i class="bi bi-box-arrow-in-right" role="img">
 </i> 
@@ -177,8 +177,6 @@ ul.task-list li input[type="checkbox"] {
   </li>  
     </ul>
   </li>
-</ul>
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-plus" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Plus</span>
@@ -193,6 +191,11 @@ ul.task-list li input[type="checkbox"] {
     <a class="dropdown-item" href="./curriculum.html"><i class="bi bi-book" role="img">
 </i> 
  <span class="dropdown-text">Programme</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://www.youtube.com/@frenchwithkunal"><i class="bi bi-youtube" role="img">
+</i> 
+ <span class="dropdown-text">Chaîne YouTube</span></a>
   </li>  
     </ul>
   </li>
@@ -213,11 +216,6 @@ ul.task-list li input[type="checkbox"] {
   </li>  
     </ul>
   </li>
-  <li class="nav-item">
-    <a class="nav-link" href="https://www.youtube.com/@frenchwithkunal"> <i class="bi bi-youtube" role="img">
-</i> 
-<span class="menu-text">Chaîne YouTube</span></a>
-  </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -226,18 +224,30 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">Sur cette page</h2>
    
-  <ul class="collapse">
+  <ul>
   <li><a href="#french-with-kunal" id="toc-french-with-kunal" class="nav-link active" data-scroll-target="#french-with-kunal">French with Kunal</a>
   <ul class="collapse">
-  <li><a href="#programme-du-cours" id="toc-programme-du-cours" class="nav-link" data-scroll-target="#programme-du-cours">📚 Programme du cours</a></li>
-  <li><a href="#plan-de-cours-sur-120-jours" id="toc-plan-de-cours-sur-120-jours" class="nav-link" data-scroll-target="#plan-de-cours-sur-120-jours">🗓️ Plan de cours sur 120 jours</a></li>
+  <li><a href="#programme-du-cours" id="toc-programme-du-cours" class="nav-link" data-scroll-target="#programme-du-cours">📚 Programme du cours</a>
+  <ul class="collapse">
+  <li><a href="#niveau-a1" id="toc-niveau-a1" class="nav-link" data-scroll-target="#niveau-a1">Niveau A1</a></li>
+  <li><a href="#niveau-a2" id="toc-niveau-a2" class="nav-link" data-scroll-target="#niveau-a2">Niveau A2</a></li>
+  <li><a href="#niveau-b1" id="toc-niveau-b1" class="nav-link" data-scroll-target="#niveau-b1">Niveau B1</a></li>
+  <li><a href="#niveau-b2" id="toc-niveau-b2" class="nav-link" data-scroll-target="#niveau-b2">Niveau B2</a></li>
+  </ul></li>
+  <li><a href="#plan-de-cours-sur-120-jours" id="toc-plan-de-cours-sur-120-jours" class="nav-link" data-scroll-target="#plan-de-cours-sur-120-jours">🗓️ Plan de cours sur 120 jours</a>
+  <ul class="collapse">
+  <li><a href="#jours-130-a1-points-clés" id="toc-jours-130-a1-points-clés" class="nav-link" data-scroll-target="#jours-130-a1-points-clés">Jours 1–30 (A1 – Points clés)</a></li>
+  <li><a href="#jours-3160-a2-points-clés" id="toc-jours-3160-a2-points-clés" class="nav-link" data-scroll-target="#jours-3160-a2-points-clés">Jours 31–60 (A2 – Points clés)</a></li>
+  <li><a href="#jours-6190-b1-points-clés" id="toc-jours-6190-b1-points-clés" class="nav-link" data-scroll-target="#jours-6190-b1-points-clés">Jours 61–90 (B1 – Points clés)</a></li>
+  <li><a href="#jours-91120-b2-points-clés" id="toc-jours-91120-b2-points-clés" class="nav-link" data-scroll-target="#jours-91120-b2-points-clés">Jours 91–120 (B2 – Points clés)</a></li>
+  </ul></li>
   <li><a href="#prononciation" id="toc-prononciation" class="nav-link" data-scroll-target="#prononciation">🔊 Prononciation</a></li>
   <li><a href="#compréhension-orale" id="toc-compréhension-orale" class="nav-link" data-scroll-target="#compréhension-orale">🎧 Compréhension orale</a></li>
   <li><a href="#dialogues-1" id="toc-dialogues-1" class="nav-link" data-scroll-target="#dialogues-1">💬 Dialogues</a></li>
@@ -249,7 +259,7 @@ ul.task-list li input[type="checkbox"] {
 </nav>
     </div>
 <!-- main -->
-<main class="content column-page-left" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -258,7 +268,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<div class="quarto-title-meta column-page-left">
+<div class="quarto-title-meta">
 
     
   

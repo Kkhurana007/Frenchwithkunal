@@ -79,7 +79,7 @@ website:
     logo-alt: "French with Kunal"
     collapse-below: lg
     
-    left:
+    right:
       - text: "Resources"
         menu:
           - text: "Blog Posts"
@@ -110,8 +110,8 @@ website:
         href: about.qmd      
       - text: "Contact Us"
         href: contact.qmd
-      - text: Subscription
-        href: payment.qmd
+      #- text: Subscription
+      #  href: payment.qmd
       - text: "Access"
         menu:
           - text: "Login"
@@ -123,8 +123,6 @@ website:
           - text: "Billing Portal"
             href: https://billing.stripe.com/p/login/9AQcPg2i52jtaSk4gg
             icon: credit-card
-        
-    right:
       - text: "More"
         menu:
            - text: "FAQ"
@@ -133,6 +131,9 @@ website:
            - text: "Curriculum"
              href: curriculum.qmd
              icon: book
+           - icon: youtube
+             href: https://www.youtube.com/@frenchwithkunal
+             text: "YouTube Channel"
       - text: Language
         menu:
           - text: English
@@ -141,9 +142,9 @@ website:
           - text: Français
             href: https://frenchwithkunal.ca/fr/index.html
             icon: globe
-      - icon: youtube
-        href: https://www.youtube.com/@frenchwithkunal
-        text: "YouTube Channel"
+
+
+
 
   # Enhanced sidebar using existing links
   sidebar:
@@ -154,7 +155,7 @@ website:
       contents:
         - text: "Blog Posts"
           href: posts.qmd
-          icon: file-lines
+          icon: file
         - text: "Exercises"
           href: exercises.qmd
           icon: clipboard-check
@@ -188,7 +189,7 @@ format:
     theme: 
       light: cerulean
       # dark: cyborg
-    css: [custom.css]
+    css: custom3.css
     toc: true
 
 editor: visual

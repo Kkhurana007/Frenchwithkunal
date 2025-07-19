@@ -14,7 +14,7 @@ page-layout: full
 
 **Bonjour!** I’m Kunal, your guide to speaking French with authentic pronunciation, real culture, and a Parisian touch. Forget boring textbooks—here, you’ll learn through stories, music, and real conversations.
 
-[Start your adventure →](/payment.html){.btn}
+[Start your adventure →](https://learn.frenchwithkunal.ca/subscription){.btn}
 
 </div>
 
@@ -73,7 +73,7 @@ page-layout: full
 :::::
 
 
-
+<!--
 ## 🗣️ Testimonials {.testimonials}
 
 ::: {.sk-ww-google-reviews data-embed-id="25557829"}
@@ -83,20 +83,21 @@ page-layout: full
 <script src='https://widgets.sociablekit.com/google-reviews/widget.js' defer></script>
 
 <script>
-    // Auto-refresh the reviews widget every 60 seconds
-    setInterval(function() {
-        var widget = document.querySelector('.sk-ww-google-reviews');
-        if(widget) {
-            var src = "https://widgets.sociablekit.com/google-reviews/widget.js";
-            var oldScript = document.querySelector('script[src="' + src + '"]');
-            if(oldScript) oldScript.remove();
-            var script = document.createElement('script');
-            script.src = src;
-            script.defer = true;
-            document.body.appendChild(script);
-        }
-    }, 60000);
+  // Auto-refresh the reviews widget every 60 seconds
+  setInterval(function() {
+    var widget = document.querySelector('.sk-ww-google-reviews');
+    if(widget) {
+      var src = "https://widgets.sociablekit.com/google-reviews/widget.js";
+      var oldScript = document.querySelector('script[src="' + src + '"]');
+      if(oldScript) oldScript.remove();
+      var script = document.createElement('script');
+      script.src = src;
+      script.defer = true;
+      document.body.appendChild(script);
+    }
+  }, 60000);
 </script>
+-->
 
 ::: {#newsletter-en .card style="text-align: center; background: var(--light); border: 2px dashed var(--accent);"}
 
@@ -156,7 +157,7 @@ document.getElementById('subscribeFormEn').addEventListener('submit', async func
 
   **Bonjour !** Je suis Kunal, votre guide pour parler français avec une prononciation authentique, une vraie culture et une touche parisienne. Oubliez les manuels ennuyeux : ici, on apprend à travers des histoires, de la musique et des conversations réelles.
 
-  [Commencer votre aventure →](/fr/payment.html){.btn}
+  [Commencer votre aventure →](https://learn.frenchwithkunal.ca/subscription){.btn}
   
 </div>
 
@@ -218,6 +219,7 @@ document.getElementById('subscribeFormEn').addEventListener('submit', async func
 :::::
 
 
+<!--
 ## 🗣️ Témoignages {.testimonials}
 
 ::: {.sk-ww-google-reviews data-embed-id="25557829"}
@@ -225,9 +227,6 @@ document.getElementById('subscribeFormEn').addEventListener('submit', async func
 :::
 
 <script src='https://widgets.sociablekit.com/google-reviews/widget.js' defer></script>
-
-
-
 
 <script>
   // Auto-refresh the reviews widget every 60 seconds
@@ -245,6 +244,7 @@ document.getElementById('subscribeFormEn').addEventListener('submit', async func
   }, 60000);
 
 </script>
+-->
 
 ::: {#newsletter-fr .card style="text-align: center; background: var(--light); border: 2px dashed var(--accent);"}
 

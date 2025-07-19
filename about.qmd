@@ -9,9 +9,11 @@ format:
           <script src="https://unpkg.com/react@17/umd/react.production.min.js"></script>
           <script src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"></script>
           <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+
 ---
 
 ::: {.content-visible when-profile="english"}
+
 # About us
 
 Welcome to our website, your go-to destination for learning French in a fun, engaging, and effective way. Whether you're a complete beginner or looking to polish your skills, we have something for everyone.
