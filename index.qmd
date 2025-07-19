@@ -29,7 +29,7 @@ page-layout: full
   <p>
     Accelerate your learning with Reading, Listening, and Dictation activities - get instant feedback and personalized tips to boost your progress.
   </p>
-  <a href="https://french-grammar-ai-a92ff913a503.herokuapp.com/" class="btn" target="_blank" rel="noopener">Practice →</a>
+  <a href="https://learn.frenchwithkunal.ca/" class="btn" target="_blank" rel="noopener">Practice →</a>
 </div>
 :::
 ::::
@@ -173,7 +173,7 @@ document.getElementById('subscribeFormEn').addEventListener('submit', async func
     Accélérez votre apprentissage avec des activités de lecture, d’écoute et de dictée – recevez des conseils personnalisés et des retours instantanés pour progresser plus vite.
 </p>
 <p style="text-align: center;">
-    <a href="https://french-grammar-ai-a92ff913a503.herokuapp.com/" class="btn" target="_blank" rel="noopener">Pratiquer →</a>
+    <a href="https://learn.frenchwithkunal.ca/" class="btn" target="_blank" rel="noopener">Pratiquer →</a>
 </p>
 :::
 :::: 
