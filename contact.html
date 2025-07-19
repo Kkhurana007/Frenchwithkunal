@@ -75,7 +75,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
 
 
-<link rel="stylesheet" href="custom.css">
+<link rel="stylesheet" href="custom3.css">
 <meta property="og:title" content="French with Kunal">
 <meta property="og:description" content="">
 <meta property="og:site_name" content="French with Kunal">
@@ -103,12 +103,12 @@ ul.task-list li input[type="checkbox"] {
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll me-auto">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-resources" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Resources</span>
     </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-resources">    
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-resources">    
         <li>
     <a class="dropdown-item" href="./posts.html"><i class="bi bi-file" role="img">
 </i> 
@@ -159,15 +159,11 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="./contact.html"> 
 <span class="menu-text">Contact Us</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./payment.html"> 
-<span class="menu-text">Subscription</span></a>
-  </li>  
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-access" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Access</span>
     </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-access">    
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-access">    
         <li>
     <a class="dropdown-item" href="./login.html"><i class="bi bi-box-arrow-in-right" role="img">
 </i> 
@@ -185,8 +181,6 @@ ul.task-list li input[type="checkbox"] {
   </li>  
     </ul>
   </li>
-</ul>
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-more" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">More</span>
@@ -201,6 +195,11 @@ ul.task-list li input[type="checkbox"] {
     <a class="dropdown-item" href="./curriculum.html"><i class="bi bi-book" role="img">
 </i> 
  <span class="dropdown-text">Curriculum</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://www.youtube.com/@frenchwithkunal"><i class="bi bi-youtube" role="img">
+</i> 
+ <span class="dropdown-text">YouTube Channel</span></a>
   </li>  
     </ul>
   </li>
@@ -221,11 +220,6 @@ ul.task-list li input[type="checkbox"] {
   </li>  
     </ul>
   </li>
-  <li class="nav-item">
-    <a class="nav-link" href="https://www.youtube.com/@frenchwithkunal"> <i class="bi bi-youtube" role="img">
-</i> 
-<span class="menu-text">YouTube Channel</span></a>
-  </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -251,7 +245,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./posts.html" class="sidebar-item-text sidebar-link"><i class="bi bi-file-lines" role="img">
+  <a href="./posts.html" class="sidebar-item-text sidebar-link"><i class="bi bi-file" role="img">
 </i> 
  <span class="menu-text">Blog Posts</span></a>
   </div>
@@ -301,9 +295,12 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#get-in-touch" id="toc-get-in-touch" class="nav-link active" data-scroll-target="#get-in-touch">Get in Touch</a></li>
+  <li><a href="#contact-us" id="toc-contact-us" class="nav-link active" data-scroll-target="#contact-us">Contact Us</a>
+  <ul class="collapse">
+  <li><a href="#get-in-touch" id="toc-get-in-touch" class="nav-link" data-scroll-target="#get-in-touch">Get in Touch</a></li>
   <li><a href="#enrollment-form" id="toc-enrollment-form" class="nav-link" data-scroll-target="#enrollment-form">Enrollment Form</a></li>
   <li><a href="#quick-contact-form" id="toc-quick-contact-form" class="nav-link" data-scroll-target="#quick-contact-form">Quick Contact Form</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -313,6 +310,8 @@ ul.task-list li input[type="checkbox"] {
 
 
 
+<section id="contact-us" class="level1">
+<h1>Contact Us</h1>
 <p>We’d love to hear from you! Whether you have a question about our services, feedback, or need support, our team is here to help.</p>
 <section id="get-in-touch" class="level2">
 <h2 class="anchored" data-anchor-id="get-in-touch">Get in Touch</h2>
@@ -335,7 +334,7 @@ ul.task-list li input[type="checkbox"] {
 <label for="message" style="display: block; margin-bottom: 5px;">Message:</label>
 <textarea id="message" name="message" rows="4" required="" style="width: 100%; padding: 8px;"></textarea>
 </div>
-<button type="submit" class="btn btn-primary">
+<button type="submit">
 Submit
 </button>
 </form>
@@ -372,6 +371,7 @@ document.getElementById('contactForm').addEventListener('submit', async function
 </script>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

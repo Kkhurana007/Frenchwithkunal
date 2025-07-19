@@ -69,6 +69,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
+<link rel="stylesheet" href="custom3.css">
 <meta property="og:title" content="Français avec Kunal">
 <meta property="og:site_name" content="Français avec Kunal">
 <meta name="twitter:title" content="Français avec Kunal">
@@ -94,12 +95,12 @@ ul.task-list li input[type="checkbox"] {
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll me-auto">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-ressources" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Ressources</span>
     </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-ressources">    
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-ressources">    
         <li>
     <a class="dropdown-item" href="./posts.html"><i class="bi bi-file" role="img">
 </i> 
@@ -150,15 +151,11 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="./contact.html"> 
 <span class="menu-text">Contactez-nous</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./payment.html"> 
-<span class="menu-text">Abonnement</span></a>
-  </li>  
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-accès" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Accès</span>
     </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-accès">    
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-accès">    
         <li>
     <a class="dropdown-item" href="./login.html"><i class="bi bi-box-arrow-in-right" role="img">
 </i> 
@@ -176,8 +173,6 @@ ul.task-list li input[type="checkbox"] {
   </li>  
     </ul>
   </li>
-</ul>
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-plus" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Plus</span>
@@ -192,6 +187,11 @@ ul.task-list li input[type="checkbox"] {
     <a class="dropdown-item" href="./curriculum.html"><i class="bi bi-book" role="img">
 </i> 
  <span class="dropdown-text">Programme</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://www.youtube.com/@frenchwithkunal"><i class="bi bi-youtube" role="img">
+</i> 
+ <span class="dropdown-text">Chaîne YouTube</span></a>
   </li>  
     </ul>
   </li>
@@ -212,11 +212,6 @@ ul.task-list li input[type="checkbox"] {
   </li>  
     </ul>
   </li>
-  <li class="nav-item">
-    <a class="nav-link" href="https://www.youtube.com/@frenchwithkunal"> <i class="bi bi-youtube" role="img">
-</i> 
-<span class="menu-text">Chaîne YouTube</span></a>
-  </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -238,7 +233,6 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#là-où-la-maîtrise-du-français-rencontre-lart-de-vivre-parisien" id="toc-là-où-la-maîtrise-du-français-rencontre-lart-de-vivre-parisien" class="nav-link" data-scroll-target="#là-où-la-maîtrise-du-français-rencontre-lart-de-vivre-parisien">Là où la maîtrise du français rencontre l’art de vivre parisien</a></li>
   </ul></li>
   <li><a href="#cards-fr" id="toc-cards-fr" class="nav-link" data-scroll-target="#cards-fr">🎯 Votre boîte à outils pour apprendre le français</a></li>
-  <li><a href="#témoignages" id="toc-témoignages" class="nav-link" data-scroll-target="#témoignages">🗣️ Témoignages</a></li>
   </ul>
 </nav>
     </div>
@@ -313,13 +307,15 @@ Découvrez notre programme structuré pour passer de débutant à bilingue, éta
 </div>
 </div>
 </div>
-</section>
-<section id="témoignages" class="level2 testimonials">
-<h2 class="testimonials anchored" data-anchor-id="témoignages">🗣️ Témoignages</h2>
-<div class="sk-ww-google-reviews" data-embed-id="25557829">
+<!--
+## 🗣️ Témoignages {.testimonials}
 
-</div>
-<script src="https://widgets.sociablekit.com/google-reviews/widget.js" defer=""></script>
+::: {.sk-ww-google-reviews data-embed-id="25557829"}
+
+:::
+
+<script src='https://widgets.sociablekit.com/google-reviews/widget.js' defer></script>
+
 <script>
   // Auto-refresh the reviews widget every 60 seconds
   setInterval(function() {
@@ -336,6 +332,7 @@ Découvrez notre programme structuré pour passer de débutant à bilingue, éta
   }, 60000);
 
 </script>
+-->
 <div id="newsletter-fr" class="card" style="text-align: center; background: var(--light); border: 2px dashed var(--accent);">
 <h3 class="anchored">
 <i class="fas fa-envelope-open-text"></i> Recevez chaque semaine votre dose de français authentique!
