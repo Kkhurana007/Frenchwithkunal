@@ -29,7 +29,7 @@ page-layout: full
 
 <p>Curious about your French skills? Try our interactive AI quiz! Plus, accelerate your learning with Reading, Listening, and Dictation activities—get instant feedback and personalized tips to boost your progress.</p>
 
-<a href="https://french-grammar-ai-a92ff913a503.herokuapp.com/" class="btn" target="_blank" rel="noopener">Practice →</a>
+<a href="https://learn.frenchwithkunal.ca/" class="btn" target="_blank" rel="noopener">Practice →</a>
 :::
 ::::
 :::::
@@ -185,7 +185,7 @@ document.getElementById('subscribeForm').addEventListener('submit', async functi
 
 <p>Curieux de votre niveau ? Testez notre quiz interactif avec IA ! Progressez plus vite grâce à des activités de lecture, d’écoute et de dictée—recevez des conseils personnalisés et des retours instantanés.</p>
 
-<a href="https://french-grammar-ai-a92ff913a503.herokuapp.com/" class="btn" target="_blank" rel="noopener">Pratiquer →</a>
+<a href="https://learn.frenchwithkunal.ca/" class="btn" target="_blank" rel="noopener">Pratiquer →</a>
 :::
 ::::
 :::::
