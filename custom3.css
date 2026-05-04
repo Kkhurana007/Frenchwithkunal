@@ -29,7 +29,21 @@ body {
 .footer {
     font-weight: 600;
     font-size: 16px;
-    background-color: #212529 !important;
+    background-color: #17181a !important;
+    color: #ffffff !important;
+}
+
+.footer a {
+    color: #4CAF50 !important;
+    text-decoration: none !important;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+.footer a:hover {
+    color: #ffffff !important;
+    background-color: #4CAF50 !important;
 }
 
 
